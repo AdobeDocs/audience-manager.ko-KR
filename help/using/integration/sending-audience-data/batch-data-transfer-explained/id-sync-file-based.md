@@ -1,0 +1,138 @@
+---
+description: 파일 기반 ID 동기화에 사용되는 필수 필드, 구문 및 이름 지정 규칙을 설명합니다. 이러한 사양에 따라 파일 컨텐츠의 이름을 지정하고 구성할 수 있습니다.
+seo-description: 파일 기반 ID 동기화에 사용되는 필수 필드, 구문 및 이름 지정 규칙을 설명합니다. 이러한 사양에 따라 파일 컨텐츠의 이름을 지정하고 구성할 수 있습니다.
+seo-title: ID 동기화 파일 이름 및 컨텐츠 요구 사항
+solution: Audience Manager
+title: ID 동기화 파일 이름 및 컨텐츠 요구 사항
+uuid: BFE 42 AF 9-9149-4 DA 3-830 E-F 227 C 4 E 610 C 2
+translation-type: tm+mt
+source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+
+---
+
+
+# ID 동기화 파일 이름 및 컨텐츠 요구 사항 {#name-and-content-requirements-for-id-synchronization-files}
+
+파일 기반 ID 동기화에 사용되는 필수 필드, 구문 및 이름 지정 규칙을 설명합니다. 이러한 사양에 따라 파일 컨텐츠의 이름을 지정하고 구성할 수 있습니다.
+
+>[!NOTE]
+>
+>텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]``( )` 등)은 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+
+## File Name Syntax and Examples {#file-name-syntax}
+
+<!-- c_file_based_id_sync.xml -->
+
+ID 파일 이름에는 다음과 같은 필수 요소와 선택적 요소가 포함됩니다.
+
+`adobe_id_`*`MASTERDPID_DPID[_DPID_DPID`*`]_`*`TIMESTAMP`*`.sync[.`*`SPLIT_NUMBER`*`][.gz]`
+
+<table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 매개 변수 </th> 
+   <th colname="col2" class="entry"> 설명 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code> adobe_ id</code> </p> </td> 
+   <td colname="col2"> <p>파일을 ID 파일로 식별하는 정적 접두사입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"><code><i>masterdpid</i></code> </td> 
+   <td colname="col2"> 마스터 데이터 공급자 ID는 파일 이름에 있는 DPIDS의 상위 ID 입니다. 또한 데이터 파일의 첫 번째 사용자 ID는 마스터 ID에 해당합니다. 후속 DPIDS는 마스터에 속한 다른 식별자입니다. 동기화가 파일 이름에 있는 DPIDS를 파일의 UUID로 매핑합니다. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code><i>dpid</i></code> </p> </td> 
+   <td colname="col2"> <p>데이터 공급자 ID. 이러한 ID는 마스터 DPID와 연결된 엔티티 또는 데이터 소스를 나타냅니다. 동기화가 파일 이름에 있는 DPIDS를 파일의 UUID로 매핑합니다. </p> <p>파일 이름에 있는 DPIDS의 수는 데이터 파일의 UUID 수와 일치해야 합니다. 예를 들어 파일 이름에 마스터 DPID와 3 DPIDS가 포함되어 있다고 가정합니다. 데이터 파일에는 아래의 파일 컨텐츠 섹션에 설명된 대로 형식이 지정된 4 개의 해당 UUID 열이 포함되어야 합니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"><code><i>timestamp</i></code> </td> 
+   <td colname="col2"> <p>10 자리 UNIX 타임스탬프 (초 단위) 타임스탬프는 각 파일 이름을 고유하게 만드는 데 도움이 됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> . sync</code> </p> </td> 
+   <td colname="col2"> <p>일반적인 전체 동기화를 가리킵니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>[<i>. split_ number</i>]</code> </p> </td> 
+   <td colname="col2"> <p>정수. 큰 파일을 여러 개의 작은 파일로 분할할 때 사용됩니다. 처리 시간을 단축할 수 있습니다. 숫자는 전송 중인 원본 파일의 부분을 나타냅니다. 아래 파일 이름 예를 참조하십시오. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
+   <td colname="col2"> <p>파일이 선택적 GZIP 압축을 통해 압축되도록 지정합니다. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 파일 이름 예
+
+다음 예는 형식이 올바르게 지정된 파일 이름을 보여줍니다. 파일 이름은 비슷합니다.
+
+<ul class="simplelist"> 
+ <li> <code> Adobe_ ID_ 111_ 222_ 333_ 444_ 1454442149. Sync</code> </li> 
+ <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
+ <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
+</ul>
+
+## File Content Syntax and Examples {#file-content-syntax}
+
+ID 파일의 컨텐츠에는 다음과 같은 요소가 포함됩니다.
+
+*`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
+
+The file contains user IDs ([!DNL UUID]). 각 행에서 ID를 탭과 구분합니다. 다음 예는 올바른 형식의 ID 파일을 보여 줍니다. 컨텐츠가 유사하게 보일 수 있습니다.
+
+```
+abc123 def456 ghi789 xyz987
+```
+
+## Synchronization Matches DPUUIDs to UUIDs {#sync-matches-dpuuids-uuids}
+
+The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. 예를 들어 다음 두 개의 샘플 파일을 표시합니다.
+
+* **파일 1:**`adobe_id_0_12345_1476312152.sync`
+
+* **파일 2:**`adobe_id_12345_67890_1476312876.sync`
+
+<br/>
+
+샘플 이름과 컨텐츠가 제공되면 ID가 다음과 같이 매핑됩니다.
+
+**파일 1** (샘플 파일 [다운로드](assets/adobe_id_0_12345_1476312152.sync))
+
+| dpid 0 = Adobe Audience Manager UUIDS | dpid 12345 |
+|---|---|
+| 68079982765673198504052656074456196039 | XYZ 3017 D_ 2 kzktoxkfyiagwbajoqwrcqkxl-TTRJ 6 E 4 NJAMR 38 |
+| 67412682083411995725538770443620307584 | xyz 3017 bbr 4 dafjwfm 6 d 4 gb 4 ln_ t 5 jk_ f 7 rdecqns 9 wfna 7 h 70 |
+| 89159024796760343733111707646026765593 | xyz 3017 prypid 8 tzfhkee-ge 034 li -53 jde 0 utcyciwd 0 a 2 olm |
+| 66552757407517449462805881945288602094 | xyz 3017 qvbddd-bljs 28 dpxiqufmibxe 3_ 55 bvqjmlwregju 2 m |
+| 66184778222667870903738139438735041506 | xyz 3017 q 9 r 60 kuhpoca_ ek-btcn 2 iu 1 hyvaue 0 rd 412 tzbycmw |
+
+Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] &quot;0&quot; in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
+<br/>
+
+**파일 2** (샘플 파일 [다운로드](assets/adobe_id_12345_67890_1477846458.sync))
+
+| [!DNL DPID] 12345 | [!DNL DPID] 67890 |
+|---|---|
+| XYZ 3017 D_ 2 kzktoxkfyiagwbajoqwrcqkxl-TTRJ 6 E 4 NJAMR 38 | 4598060374 |
+| xyz 3017 bbr 4 dafjwfm 6 d 4 gb 4 ln_ t 5 jk_ f 7 rdecqns 9 wfna 7 h 70 | 4581274262 |
+| xyz 3017 prypid 8 tzfhkee-ge 034 li -53 jde 0 utcyciwd 0 a 2 olm | 4392434426 |
+| xyz 3017 qvbddd-bljs 28 dpxiqufmibxe 3_ 55 bvqjmlwregju 2 m | 2351382994 |
+| xyz 3017 q 9 r 60 kuhpoca_ ek-btcn 2 iu 1 hyvaue 0 rd 412 tzbycmw | 4601584763 |
+
+Step 2: the [!DNL DPUUID]s from [!DNL DPID] 12345 have been synced in step 1 with the Audience Manager [!DNL UUID]s. What this ID sync will do is sync the [!DNL DPUUID]s from [!DNL DPID] 67890 with the Audience Manager [!DNL UUID]s from step 1.
+
+<br/>
+
+## Other Format Requirements {#other-format-reqs}
+
+사용자 ID는 다음을 수행할 수 없습니다.
+
+* ID 자체에 탭이 있습니다. 탭은 데이터 파일에서 개별 ID를 구분하는 데만 사용됩니다.
+* Contain personally identifiable information ([!UICONTROL PII]).
+* [!DNL URL] 인코딩 사용. 인코딩되지 않은 ID만 전달합니다.
+
+탭 또는 공백으로 끝나는 모든 행은 처리 또는 실현되지 않습니다. 규칙으로, 행의 끝을 지워야 합니다.

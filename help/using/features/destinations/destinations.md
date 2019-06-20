@@ -1,0 +1,49 @@
+---
+description: Audience Manager에서 대상은 모든 타사 시스템 (광고 서버, DSP, 광고 네트워크 등) 입니다. 로 데이터를 공유할 수 있습니다. 대상 빌더는 쿠키, URL 또는 서버-서버 대상을 만들고 관리하는 데 사용한 도구입니다.
+keywords: 통합 코드, 대상, 대상 개요
+seo-description: Audience Manager에서 대상은 모든 타사 시스템 (광고 서버, DSP, 광고 네트워크 등) 입니다. 로 데이터를 공유할 수 있습니다. 대상 빌더는 쿠키, URL 또는 서버-서버 대상을 만들고 관리하는 데 사용한 도구입니다.
+seo-title: 대상
+solution: Audience Manager
+title: 대상
+uuid: 5 c 7 dbdec-F 73 F -46 FE -9 F 12-7685 E 8 D 7334 F
+translation-type: tm+mt
+source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+
+---
+
+
+# 대상 {#destinations}
+
+In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) 로 데이터를 공유할 수 있습니다. [!UICONTROL Destination Builder] 는 쿠키, [!DNL URL]또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
+
+## Purpose and Advantages {#purposes}
+
+<!-- c_destinations.xml -->
+
+[!UICONTROL Destinations] 또한 대상을 [!UICONTROL Destination Builder] 만들고 세그먼트화된 사용자에 대한 정보를 데이터 파트너로 보낼 수 있습니다. 이를 통해 다음과 같은 이점이 있습니다.
+
+* **데이터 값 보호:** 모든 사용자 데이터를 대상으로 보내지 않고 [!UICONTROL Destination Builder] 자격 조건을 갖춘 사용자에 대해서만 특정 정보를 공유할 수 있습니다.
+* **데이터에 대한 조치를 취할 수 있습니다.** 데이터를 대상 파트너로 전송하면 자격을 갖춘 고객 세그먼트를 신속하게 개발하고 타겟팅할 수 있습니다.
+* **기술 간접비 감소:** 비즈니스 사용자는 [!UICONTROL Destination Builder] 인터페이스에서 안전하게 대상을 설정할 수 있습니다. 따라서 배포 전 테스트에 필요한 시간을 줄일 수 있습니다. With [!UICONTROL Destination Builder], you create, manage, and delete destinations as your business needs change, all without working through a long development cycle.
+
+## 기술 고려 사항 {#technical-considerations}
+
+<!-- destination-delivery-methods.xml -->
+
+데이터 배달은 데이터 파트너가 대상 정보를 원하는 방법에 따라 달라집니다. Technical or engineering constraints may prevent a destination from receiving data via [!DNL URL], cookie, or server-to-server processes. 타사 파트너와 협력하여 사용할 수 있는 방법을 결정합니다.
+
+## 비즈니스 고려 사항 {#business-considerations}
+
+다른 전달 방식을 선택할 수 있는 비즈니스 결정은 대상 파트너의 기술적 기능 및 적격한 사용자 정보로 무엇을 수행하는지에 따라 달라집니다. 예를 들어, 대상이 특정 배달 방법으로 데이터를 수신하지 못할 경우 기술 제한으로 인해 옵션이 제한될 수 있습니다. 기술적인 문제가 없는 경우 해당 데이터에 대한 조치를 취할 방법을 기반으로 정보를 전송할 수 있습니다. 예:
+
+* [!DNL URL]s 및 쿠키 기반 대상은 페이지에서 사용자 작업과 거의 동기식으로 작동합니다.
+* 서버-서버 방법은 장기적으로 대상 세그먼트를 작성하는 데 유용합니다.
+
+## Destination Types and Typical Uses {#destination-types}
+
+다음 표의 예는 특정 대상을 언제 사용해야 하는지 그리고 각 유형 간의 차이점을 이해하는 데 도움이 될 수 있습니다.
+
+| 대상 유형 | 일반적으로 사용하는 경우 일반적으로 사용됩니다. | 예 | 고려 사항 |
+|--- |--- |--- |--- |
+| **URL** 또는 **쿠키** | 자격이 있는 사용자가 즉시 조치를 취할 수 있도록 데이터를 즉시 전송해야 합니다. | 티켓 구매 사이트에서 데이터 전송. URL 또는 쿠키 대상을 사용하여 사용자를 자격을 부여하고 즉시 다시 타깃팅합니다. | <ul><li>새 방문자에 대해서만 데이터를 전송합니다. </li><li>세그먼트를 적용하려면 방문자를 다시 봐야 합니다.</li></ul> |
+| **서버-서버** | <ul><li>즉각적인 데이터 전송은 필요하지 않습니다.</li><li>데이터를 수집하여 많은 적격 사용자 풀 만들기</li></ul> | 시간 경과에 따른 데이터 수집 (시간 또는 일) 를 통해 캠페인 세트에 사용할 수 있습니다. | <ul><li>새 사이트 방문자와 이전 사이트 방문자에 대한 데이터를 전송합니다. </li><li>다른 세그먼트를 적용받기 위해 방문자를 다시 볼 필요는 없습니다.</li></ul> |

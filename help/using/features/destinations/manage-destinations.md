@@ -185,7 +185,7 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 1. Click **[!UICONTROL Segment Mappings]** to expose the controls.
 1. **[!UICONTROL Search and Add Segments]** 상자에 세그먼트 이름을 입력하거나 사용 가능한 세그먼트 **[!UICONTROL Browse All Segments]** 목록 찾아보기를 클릭합니다.
 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
-1.  [!UICONTROL Edit Mapping]:
+1. [!UICONTROL Edit Mapping]:
    * **[!UICONTROL Mappings]**: 세그먼트에 사용되는 키-값 쌍을 제공합니다.
    * **[!UICONTROL Start Date]****[!UICONTROL End Date]** And: 대상에 대한 시작 날짜와 종료 날짜를 선택합니다. 종료 날짜가 비어 있으면 대상이 절대 만료되지 않습니다.
 1. 클릭 **[!UICONTROL Done]**.

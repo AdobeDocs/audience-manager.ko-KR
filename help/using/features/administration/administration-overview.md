@@ -58,7 +58,7 @@ For more information about groups and permissions, see [Create a Group](../../fe
 
 1. **[!UICONTROL Administration]****[!UICONTROL Groups]**&gt;를 클릭합니다.
 1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
-1.  [!UICONTROL Group Details]:
+1. [!UICONTROL Group Details]:
    * 그룹 이름을 지정합니다.
    * 간단한 그룹 설명을 제공합니다.
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.

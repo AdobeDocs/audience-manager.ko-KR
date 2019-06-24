@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager 개요로 일괄 데이터 보내기
 uuid: 472583 B 1-5057-4 Add -8 E 3 C -5 E 50762 C 88 E 0
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -52,7 +52,6 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 파일 이름과 컨텐츠는 엄격한 지침을 따릅니다. You *must* name and organize data files according to these specifications in this guide. 다음을 참조하십시오.
 
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [인바운드 데이터 파일에 대한 FTP 이름 요구 사항](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 * [인바운드 데이터 파일 컨텐츠: 구문, 변수 및 예제](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## 오프라인 마케팅 활동에 온라인 데이터 사용 가능

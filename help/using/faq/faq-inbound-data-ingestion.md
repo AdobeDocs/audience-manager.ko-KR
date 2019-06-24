@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 인바운드 고객 데이터 통합 FAQ
 uuid: 491 E 9 EC 1-4731-46 A 8-86 E 7-D 8 C 613 E 6 CEDC
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -194,7 +194,6 @@ FTP 파일은 처리된 후 제거됩니다. [!DNL S3] 파일은 30 일 후에 �
 전체 및 증분 파일 유형에 대한 자세한 내용은 다음을 참조하십시오.
 
 * [인바운드 데이터에 대한 Amazon S 3 이름 및 파일 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br> 
 
@@ -209,7 +208,7 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 타임스탬프는 기록 및 기록 보관에 사용됩니다. 올바른 형식의 인바운드 파일 이름에 사용된 구문에서 필요합니다. 다음을 참조하십시오.
 
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
@@ -231,7 +230,7 @@ See [File Compression for Inbound Data Transfer Files](../integration/sending-au
 
 * [인바운드 데이터 전송 파일을 위한 파일 압축](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [인바운드 데이터 파일에 대한 FTP 이름 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 

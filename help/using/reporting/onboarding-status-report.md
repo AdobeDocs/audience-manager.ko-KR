@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 온보딩 상태 보고서
 uuid: 6 ca 8 a 90 a -436 b -4 fce-adf 1-48 f 3 b 96 b 3 ed 2
 translation-type: tm+mt
-source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -121,7 +121,6 @@ create-onboarding-status-report.xml
    <td colname="col2"> <p><span class="keyword"> Audience Manager</span> 가 선택한 인바운드 데이터 소스에서 받아서 처리한 파일을 나열합니다. </p> <p>파일 이름의 형식이 잘못 지정되면 파일 처리가 실패합니다. File name requirements vary depending on how you send this data to <span class="keyword"> Audience Manager</span>. Delivery methods include <span class="keyword"> Amazon S3</span> and FTP. 파일 이름을 지정하는 방법에 대한 지침은 다음을 참조하십시오. </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> 인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항 </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md"> 인바운드 데이터 파일에 대한 FTP 이름 요구 사항 </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

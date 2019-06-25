@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 폴더 특성
 uuid: E 561 CE 8 F -6 C 90-44 A 7-B 034-685533 F 29030
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -62,6 +62,6 @@ Learn how to assign [!UICONTROL RBAC] permissions in our [administration documen
 | 항목 | 설명 |
 |---|---|
 | 트레이트 유형 | [!UICONTROL Onboarded traits] And [!UICONTROL algorithmic traits] Contribute at most 1 implementation to a [!UICONTROL folder trait]&#39;s frequency. |
-| 폴더 간 특성 이동 | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. 즉, 폴더에서 트레이트를 삭제하거나 이동하는 경우 트레이트 모집단 사용자는 폴더 트레이트를 세그먼트 표현식으로 사용하여 세그먼트에서 세그먼트화되지 않습니다. |
+| 폴더 간 특성 이동 | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. 즉, 폴더에서 트레이트를 삭제하거나 이동하는 경우 트레이트 모집단 사용자는 폴더 트레이트를 세그먼트 표현식으로 사용하여 세그먼트에서 세그먼트화되지 않습니다. <br> Adobe Analytics 세그먼트 또는 보고서 세트를 Experience Cloud 조직에 매핑할 때 Audience Manager는 자동으로 해당 읽기 전용 세그먼트 및 트레이트를 새로 만듭니다. Audience Manager에서 이러한 트레이트의 저장소 위치는 편집하거나 변경할 수 없습니다. 하지만 매핑된 Adobe Analytics 세그먼트 또는 보고서 세트에서 수행하는 모든 변경 사항은 Audience Manager에 반영됩니다. |
 | 시스템 변수 | [!UICONTROL Folder traits] 매개 변수를 사용하여 이벤트 호출에서 실현할 `d_sid` 수 없습니다. |
 | 보고 | [!UICONTROL Folder traits] 은 자동으로 계산된 트레이트이며 **[!UICONTROL Overlap Reports]** 나타나지 않습니다. |

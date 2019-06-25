@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 목적, 컴포지션 및 규칙
 uuid: 886 d 4 abe-b 1 b 6-4983-b 4 fb-b 552 d 54 d 51 ba
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -26,6 +26,10 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 ## 세그먼트 컴포지션
 
 Audience Manager 세그먼트는 개별 또는 트레이트로 구성된 서버측 규칙입니다. 트레이트는 키-값 쌍이라는 데이터 요소로 구성됩니다. 세그먼트 수준에서 설정한 규칙과 함께, 이러한 키-값 쌍은 트레이트 및 세그먼트 멤버쉽에 대한 방문자를 자격을 부여하는 기준을 포함합니다.
+
+## Adobe Analytics 세그먼트 매핑 고려 사항
+
+Adobe Analytics 세그먼트 또는 보고서 세트를 Experience Cloud 조직에 매핑할 때 Audience Manager는 자동으로 해당 읽기 전용 세그먼트 및 트레이트를 새로 만듭니다. Audience Manager에서 이러한 세그먼트의 저장소 위치는 편집하거나 변경할 수 없습니다. 하지만 매핑된 Adobe Analytics 세그먼트 또는 보고서 세트에서 수행하는 모든 변경 사항은 Audience Manager에 반영됩니다.
 
 >[!TIP]
 >

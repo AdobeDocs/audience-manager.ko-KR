@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대상을 위한 GDPR 고려 사항
 uuid: E 8 A 40060-086 C -4 F 03-B 48 C -9 C 903 ACB 7891
 translation-type: tm+mt
-source-git-commit: 0ddc86391cbc751dfd4d46946222d555cefbfe38
+source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
 
 ---
 
@@ -68,4 +68,4 @@ In addition to the updates to the IAB Framework mentioned above, Yahoo/Oath/Data
 1. Adobe 및/또는
 1. 30 일 이내에 한 번 이상 업데이트를 받을 수 없습니다.
 
-이러한 경우, Audience Manager를 통해 자동화된 방법으로 정품 인증 파트너에게 삭제 요청을 보낼 수 없습니다. [Adobe 파트너 Excel 시트를](/help/using/overview/aam-gdpr/assets/AAM-Partners-March2019.xlsx) 다운로드하여 Adobe Audience Manager 활성화 파트너가 세그먼트를 지원하는지 확인합니다.
+이러한 경우, Audience Manager를 통해 자동화된 방법으로 정품 인증 파트너에게 삭제 요청을 보낼 수 없습니다. [Adobe 파트너 Excel 시트를](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx) 다운로드하여 Adobe Audience Manager 활성화 파트너가 세그먼트를 지원하는지 확인합니다.

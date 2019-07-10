@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 일괄 관리 시작하기
 uuid: 4 BC 6 AE 0 A -315 C -4 CE 7-A 68 E-CC 0 C 6 C 6 AA 2 F 1
 translation-type: tm+mt
-source-git-commit: 349cc962c993b361e2dea00ba693337391b87e5e
+source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
 
 ---
 
@@ -36,7 +36,7 @@ To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. 고객은 이미 이러한 자격 증명을 가지고 있어야 합니다.
 * API 클라이언트 ID 및 비밀 키. 계정 관리자가 이러한 정보를 제공할 수 있습니다.
-* [!UICONTROL Bulk Management Tools] 워크시트. **[최신 버전을 얻으려면 워크시트를](assets/BAAAM_August_2018.xlsm)** 다운로드하십시오.
+* [!UICONTROL Bulk Management Tools] 워크시트. **[워크시트를](assets/BAAAM_August_2018.xlsm)** 다운로드하여 최신 버전을 다운로드합니다.
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 

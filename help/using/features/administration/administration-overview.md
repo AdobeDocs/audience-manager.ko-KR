@@ -8,7 +8,7 @@ title: 관리
 topic: DIL API
 uuid: 498 E 0316-CF 1 B -43 E 9-88 BA -338 EE 0 DAF 225
 translation-type: tm+mt
-source-git-commit: 9801bf6a1a4c2c2e7cc2aa8ab32cb81094368554
+source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 
 ---
 
@@ -58,7 +58,7 @@ For more information about groups and permissions, see [Create a Group](../../fe
 
 1. **[!UICONTROL Administration]****[!UICONTROL Groups]**&gt;를 클릭합니다.
 1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
-1. [!UICONTROL Group Details]:
+1.  [!UICONTROL Group Details]:
    * 그룹 이름을 지정합니다.
    * 간단한 그룹 설명을 제공합니다.
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
@@ -84,11 +84,11 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 
 **특성**
 
-* `MAP_ALL_TRAITS_TO_MODELS` - 명확히 해야 합니까?
+* `MAP_ALL_TRAITS_TO_MODELS` - 사용자는 모델의 기준선으로 트레이트를 선택할 수 있습니다.
 * `EDIT_ALL_TRAITS` - 사용자는 회사에 속한 모든 트레이트를 편집할 수 있습니다 (pid).
-* `VIEW_ALL_TRAITS` - 사용자는 회사에 속한 모든 트레이트를 볼 수 있습니다 (pid).
+* `VIEW_ALL_TRAITS` - 사용자는 회사 (pid) 에 속하는 모든 트레이트를 볼 수 있습니다.
 * `DELETE_ALL_TRAITS` - 사용자는 회사에 속한 모든 트레이트를 삭제할 수 있습니다 (pid).
-* `CREATE_ALL_ALGO_TRAITS` - 명확히 해야 함
+* `CREATE_ALL_ALGO_TRAITS` - 사용자는 알고리즘 특성을 만들 수 있습니다.
 * `MAP_ALL_TO_SEGMENTS` - 사용자는 회사에 속하는 트레이트를 세그먼트에 추가할 수 있습니다.
 * `CREATE_ALL_TRAITS` - 사용자는 트레이트를 만들 수 있습니다.
 
@@ -128,7 +128,7 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 * `DELETE_ALL_SEGMENTS` - 사용자는 회사 계정 내에 설정된 모든 세그먼트를 삭제할 수 있습니다.
 * `MAP_ALL_TO_DESTINATIONS` - 사용자는 회사에 속하는 세그먼트를 대상에 매핑할 수 있습니다.
 * `EDIT_ALL_SEGMENTS` - 사용자는 회사 계정 내에 설정된 모든 세그먼트를 편집할 수 있습니다.
-* `MAP_ALL_SEGMENTS_TO_MODELS` - 명확히 해야 합니까?
+* `MAP_ALL_SEGMENTS_TO_MODELS` - 사용자는 세그먼트를 모델의 기준선으로 선택할 수 있습니다.
 * `VIEW_ALL_SEGMENTS` - 사용자는 회사 계정 내에 설정된 모든 세그먼트를 볼 수 있습니다.
 
 **신호**

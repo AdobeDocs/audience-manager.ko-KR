@@ -41,7 +41,7 @@ We recommend you create a separate, technical user account for working with the 
 * Identify what service is calling the [!DNL API] (e.g., calls from your apps that use our [!DNL API]s or from other tools that make [!DNL API] requests).
 * [!DNL API]s. 특정 사용자와 연결된 계정은 퇴사한 경우 삭제될 수 있습니다. This will prevent you from working with the available [!DNL API] code. 특정 직원에게 연결되지 않은 일반 계정은 이 문제를 피하는 데 도움이 됩니다.
 
-As an example or use case for this type of account, let&#39;s say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!DNL API]s.
+As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!DNL API]s.
 
 Work with your Audience Manager consultant to set up a generic, [!DNL API]-only user account.
 
@@ -63,7 +63,7 @@ Password authentication secure access our [!DNL REST API]. The steps below outli
 
 파트너 솔루션 관리자에게 문의하십시오. They will provide you with an [!DNL API] client ID and secret. The ID and secret authenticate you to the [!DNL API].
 
-Note: If you&#39;d like to receive a refresh token, specify that when you request [!DNL API] access.
+Note: If you'd like to receive a refresh token, specify that when you request [!DNL API] access.
 
 ### 2 단계: 토큰 요청
 
@@ -166,7 +166,7 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
 | Pagesize | 요청에 의해 반환된 응답 결과 수를 설정합니다 (10는 기본값). |
 | Sortby | Sorts and returns results according to the specified [!DNL JSON] property. |
 | 내림차순 | 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 기본값입니다. |
-| search | 검색 매개 변수로 사용하려는 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 &quot;test&quot; 단어가 있는 모든 모델에 대한 결과를 찾는다고 가정합니다. Your sample request could look like this:   `GET https://api.demdex.com/v1/models/?search=Test`.  &quot; 모두 가져오기 &quot;방법으로 반환되는 값을 검색할 수 있습니다. |
+| search | 검색 매개 변수로 사용하려는 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 "test" 단어가 있는 모든 모델에 대한 결과를 찾는다고 가정합니다. Your sample request could look like this:   `GET https://api.demdex.com/v1/models/?search=Test`.  " 모두 가져오기 "방법으로 반환되는 값을 검색할 수 있습니다. |
 | Folderid | 지정된 폴더 내의 특성에 대한 모든 ID를 반환합니다. 모든 메서드에서 사용할 수 없습니다. |
 | 권한 | 지정된 권한을 기반으로 한 세그먼트 목록을 반환합니다. 읽기는 기본값입니다. 사용 권한:<ul><li>`READ` : 세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` : 세그먼트를 업데이트하는 `PUT` 데 사용합니다.</li><li>`CREATE` : 세그먼트를 만드는 `POST` 데 사용합니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 대한 액세스 권한이 있어야 합니다. 예를 들어, 세그먼트를 제거하려면 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>별도의 키-값 쌍으로 여러 권한을 지정합니다. For example, to return a list of segments with  `READ`  and  `WRITE`  permissions only, pass in  `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | Includepermissions | (부울) 세그먼트에 대한 권한을 반환하려면 true로 설정합니다. 기본값은 false입니다. |

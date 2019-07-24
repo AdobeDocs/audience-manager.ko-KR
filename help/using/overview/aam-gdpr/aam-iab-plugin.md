@@ -14,7 +14,7 @@ source-git-commit: 0e32fcaee617e7f18ce4223ffacc39708fb32786
 
 ## 개요
 
-사용자와 관련된 개인 정보 보호 의무의 중요한 측면은 개인 데이터가 사용되는 방법(즉, &quot;목적&quot;) 및 사용되는 대상(즉, &quot;회사&quot;)에 대한 사용자의 선택을 획득 및 제공하는 것입니다. 
+사용자와 관련된 개인 정보 보호 의무의 중요한 측면은 개인 데이터가 사용되는 방법(즉, "목적") 및 사용되는 대상(즉, "회사")에 대한 사용자의 선택을 획득 및 제공하는 것입니다. 
 
 Adobe는 [옵트인 기능](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html) 및 [IAB 투명성 및 동의 프레임워크(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다.
 

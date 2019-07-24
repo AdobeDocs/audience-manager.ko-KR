@@ -28,7 +28,7 @@ Enabling our customers to build custom segments and data models is core to the [
 
 ## 분류법은 업계 표준 분류 카테고리를 사용합니다.
 
-The common taxonomy is based on the classifications created by the [!DNL Interactive Advertising Bureau (IAB)]. Refer to the [!DNL IAB]&#39;s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
+The common taxonomy is based on the classifications created by the [!DNL Interactive Advertising Bureau (IAB)]. Refer to the [!DNL IAB]'s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
 
 ## 분류 체계 구성
 
@@ -43,5 +43,5 @@ You assign taxonomic classifications when creating or editing traits in the [!UI
 일반적인 분류에 따라 트레이트를 분류하기로 결정하는 경우 기억해야 합니다.
 
 * Classification is *optional*.
-* Traits *are not* assigned to a taxonomic category by default (i.e., traits are not classified as &quot;unknown&quot; or &quot;uncategorized&quot; etc.).
+* Traits *are not* assigned to a taxonomic category by default (i.e., traits are not classified as "unknown" or "uncategorized" etc.).
 * *트레이트는* 하나의 분류 카테고리에 속할 수 있습니다 (다중 및 교차 카테고리 분류는 허용되지 않음).

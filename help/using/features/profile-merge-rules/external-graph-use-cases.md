@@ -27,7 +27,7 @@ Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph o
 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
-브랜딩 캠페인은 최대한 많은 사람들에게 도달하도록 고안되었습니다. 세그먼트 자격 조건은 제한되어 있지 않습니다. 그러나 이러한 캠페인은 컨텐츠를 여러 번 보고 전환하지 않는 사람들을 지속적으로 타겟팅하여 예산과 임프레션을 낭비할 수 있습니다. A [!UICONTROL Profile Merge] rule that uses the [!DNL Device Co-op] or third-party option can help you create an efficient branding campaign. 예를 들어, 이러한 알려지지 않은 사용자를 설정된 주파수 CAP에 대해 여러 장치에서 본 후 &quot;시장 내&quot; 세그먼트에 추가할 수 있습니다.
+브랜딩 캠페인은 최대한 많은 사람들에게 도달하도록 고안되었습니다. 세그먼트 자격 조건은 제한되어 있지 않습니다. 그러나 이러한 캠페인은 컨텐츠를 여러 번 보고 전환하지 않는 사람들을 지속적으로 타겟팅하여 예산과 임프레션을 낭비할 수 있습니다. A [!UICONTROL Profile Merge] rule that uses the [!DNL Device Co-op] or third-party option can help you create an efficient branding campaign. 예를 들어, 이러한 알려지지 않은 사용자를 설정된 주파수 CAP에 대해 여러 장치에서 본 후 "시장 내" 세그먼트에 추가할 수 있습니다.
 
 <table id="table_00F6EED172574E80A38CADA8A92A23B1"> 
  <thead> 
@@ -95,7 +95,7 @@ Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph o
 
 ## Profile Merge Rule Options for External Device Graph Use Cases {#profile-merge}
 
-이러한 사용 사례에 대한 병합 규칙 옵션은 아래에 표시된 사용 가능한 옵션과 비슷합니다. [!UICONTROL Authenticated Profile] 이러한 설정은 **[!UICONTROL Current Authenticated Profile]** 선택하거나 **[!UICONTROL Last Authenticated Profile]** 선택할 때만 사용할 수 있으므로 옵션이 비활성화됩니다. Your [!UICONTROL Device Options] will vary depending on the type of device graph setting that you want to use or that is available to you.
+이러한 사용 사례에 대한 병합 규칙 옵션은 아래에 표시된 사용 가능한 옵션과 비슷합니다. [!UICONTROL Authenticated Profile] 이러한 설정은 **[!UICONTROL Current Authenticated Profile]** 선택하거나 **[!UICONTROL Last Authenticated Profile]**&#x200B;선택할 때만 사용할 수 있으므로 옵션이 비활성화됩니다. Your [!UICONTROL Device Options] will vary depending on the type of device graph setting that you want to use or that is available to you.
 
 ![](assets/merge-rules-external.png)
 

@@ -31,7 +31,7 @@ Audience Manager로 데이터를 보낼 때 따라야 하는 필수 필드, 구�
 
 For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
->[!NOTE] {importance = &quot;high&quot;}
+>[!NOTE] {importance = "high"}
 >
 >[!DNL Audience Manager] 프로세스 [!DNL ASCII] 및 [!DNL UTF-8] 인코딩된 파일만 수행할 수 있습니다.
 

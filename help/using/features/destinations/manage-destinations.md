@@ -21,10 +21,10 @@ source-git-commit: 1d516c49a16c38adcc22827dc254da1ebada0734
 
 기본 랜딩 페이지에는 유형에 따라 대상이 나열됩니다. 다음 네 개의 사용 가능한 탭을 사용하여 대상을 필터링할 수 있습니다.
 
-* **** 모두: 모든 유형의 대상을 표시합니다.
+* ****&#x200B;모두: 모든 유형의 대상을 표시합니다.
 * **Adobe Experience Cloud**: 다른 Adobe Experience Cloud 솔루션에 데이터를 전송하는 대상을 보여줍니다. 현재 유일하게 지원되는 옵션은 Adobe Analytics 입니다. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
 * **통합 플랫폼**: 사용자 기반 및 장치 기반 대상 (서버간 대상) 를 표시합니다. 현재 사용자 기반 대상은 선택한 고객에게만 사용할 수 있는 베타 기능입니다.
-* **사용자** 정의: 쿠키 및 URL 대상을 표시합니다.
+* **사용자**&#x200B;정의: 쿠키 및 URL 대상을 표시합니다.
 
 
 ![](assets/destinations-landing.png)
@@ -39,7 +39,7 @@ For more information about the displayed information, see [Addressable Audiences
 
 ## Destination Builder {#destination-builder}
 
-[!UICONTROL Destination Builder] 쿠키 기반 [!DNL URL] 또는 대상을 만들 수 있습니다. You cannot create server-to-server ([!DNL S2S]) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. [!DNL S2S] 대상을 설정하려면 컨설턴트에게 문의하십시오. [!UICONTROL Destination Builder]**[!UICONTROL Audience Data > Destinations]** 에 있습니다.
+[!UICONTROL Destination Builder] 쿠키 기반 [!DNL URL] 또는 대상을 만들 수 있습니다. You cannot create server-to-server ([!DNL S2S]) destinations with [!UICONTROL Destination Builder], but you can manage their segment mappings. [!DNL S2S] 대상을 설정하려면 컨설턴트에게 문의하십시오. [!UICONTROL Destination Builder]**[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
 
 ### Destination Builder Settings {#destination-builder-settings}
 
@@ -83,10 +83,10 @@ To create a new cookie destination, go to **[!UICONTROL Audience Data > Destinat
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 2. 대상의 이름을 지정합니다. 약자 및 특수 문자를 사용하지 마십시오.
 3. *(선택 사항)* 대상을 설명합니다. 간결한 설명은 대상에 대한 자세한 정보를 정의하거나 제공하는 효과적인 방법입니다.
-4. **[!UICONTROL Category]** 목록에서 **[!UICONTROL Custom]** 를 선택합니다.
-5. **[!UICONTROL Environment]** 목록에서 **[!UICONTROL Browser]** 를 선택합니다. Android 또는 iOS 앱과 같은 기본 모바일 환경의 경우 쿠키 대상을 구성할 수 없습니다.
-6. **[!UICONTROL Type]** 목록에서 **[!UICONTROL Cookie]** 를 클릭합니다.
-7. *(선택 사항)* **[!UICONTROL Auto-fill Destination Mapping]** 를 선택합니다. 옵션은 다음과 같습니다.
+4. **[!UICONTROL Category]** 목록에서 **[!UICONTROL Custom]**&#x200B;를 선택합니다.
+5. **[!UICONTROL Environment]** 목록에서 **[!UICONTROL Browser]**&#x200B;를 선택합니다. Android 또는 iOS 앱과 같은 기본 모바일 환경의 경우 쿠키 대상을 구성할 수 없습니다.
+6. **[!UICONTROL Type]** 목록에서 **[!UICONTROL Cookie]**&#x200B;를 클릭합니다.
+7. *(선택 사항)* **[!UICONTROL Auto-fill Destination Mapping]**&#x200B;를 선택합니다. 옵션은 다음과 같습니다.
    * **[!UICONTROL Segment ID]**: 세그먼트 ID를 자동으로 추가하여 대상에 보냅니다.
    * **[!UICONTROL Integration Code Value]**: 세그먼트 통합 코드를 자동으로 추가하고 대상 매핑에 전송합니다. 통합 코드는 고객이 생성 및 사용하는 고유한 식별자입니다. 최대 255 자로 제한됩니다.
 8. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
@@ -112,7 +112,7 @@ This section contains options that apply [data export controls](../../features/d
 1. Click **[!UICONTROL Configuration]** to expose the controls
 1. 쿠키 이름을 지정합니다. 약자 및 특수 문자를 사용하지 마십시오.
 1. 데이터 형식 옵션을 선택합니다. 이러한 옵션을 사용하면 세그먼트를 대상으로 보내는 키-값 쌍에 대한 구분 기호 및 구분 기호를 선택할 수 있습니다. 형식 옵션은 다음과 같습니다.
-   * **단일 키:** 키-값 쌍의 키를 설정할 수 있습니다. You&#39;ll set the value after you select a segment in the [!UICONTROL Segment Mappings] section below.
+   * **단일 키:** 키-값 쌍의 키를 설정할 수 있습니다. You'll set the value after you select a segment in the [!UICONTROL Segment Mappings] section below.
    * **Multi Key:** 키-값 쌍의 키와 값을 설정할 수 있습니다. 아래의 세그먼트 매핑 섹션에서 세그먼트를 선택한 후에 키-값 쌍을 만듭니다.
 See [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md) for more information about these data elements.
 1. 클릭 **[!UICONTROL Save]**.
@@ -147,10 +147,10 @@ See [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-
 1. Click **[!UICONTROL Basic Information]** to expose the controls.
 1. 대상의 이름을 지정합니다. 약자 및 특수 문자를 사용하지 마십시오.
 1. *(선택 사항)* 대상을 설명합니다. 간결한 설명은 대상에 대한 자세한 정보를 정의하거나 제공하는 효과적인 방법입니다.
-1. **[!UICONTROL Category]** 목록에서 **[!UICONTROL Custom]** 를 선택합니다.
+1. **[!UICONTROL Category]** 목록에서 **[!UICONTROL Custom]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Environment]** 목록에서 URL 대상을 트리거할 환경을 선택합니다.
-1. **[!UICONTROL Type]** 목록에서 **[!UICONTROL URL]** 를 클릭합니다.
-1. *(선택 사항)* **[!UICONTROL Auto-fill Destination Mapping]** 를 선택합니다. 옵션은 다음과 같습니다.
+1. **[!UICONTROL Type]** 목록에서 **[!UICONTROL URL]**&#x200B;를 클릭합니다.
+1. *(선택 사항)* **[!UICONTROL Auto-fill Destination Mapping]**&#x200B;를 선택합니다. 옵션은 다음과 같습니다.
    * **[!UICONTROL Segment ID]**: 세그먼트 ID를 자동으로 추가하여 대상에 보냅니다.
    * **[!UICONTROL Integration Code Value]**: 세그먼트 통합 코드를 자동으로 추가하고 대상 매핑에 전송합니다. 통합 코드는 고객이 생성 및 사용하는 고유한 식별자입니다. 최대 255 자로 제한됩니다.
 1. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the destination.
@@ -185,7 +185,7 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 1. Click **[!UICONTROL Segment Mappings]** to expose the controls.
 1. **[!UICONTROL Search and Add Segments]** 상자에 세그먼트 이름을 입력하거나 사용 가능한 세그먼트 **[!UICONTROL Browse All Segments]** 목록 찾아보기를 클릭합니다.
 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
-1. [!UICONTROL Edit Mapping]:
+1.  [!UICONTROL Edit Mapping]:
    * **[!UICONTROL Mappings]**: 세그먼트에 사용되는 키-값 쌍을 제공합니다.
    * **[!UICONTROL Start Date]****[!UICONTROL End Date]** And: 대상에 대한 시작 날짜와 종료 날짜를 선택합니다. 종료 날짜가 비어 있으면 대상이 절대 만료되지 않습니다.
 1. 클릭 **[!UICONTROL Done]**.
@@ -288,14 +288,14 @@ You can only add or edit segments for a server-to-server ([!DNL S2S]) destinatio
 
 To add or edit segment mappings for an [!DNL S2S] destination:
 
-1. **[!UICONTROL Audience Data > Destinations]** 이동. **통합된 플랫폼 &gt; 장치 기반을 선택하고** 작업할 [!DNL S2S] 대상을 찾습니다.
+1. **[!UICONTROL Audience Data > Destinations]**&#x200B;이동. **통합된 플랫폼 &gt; 장치 기반을 선택하고** 작업할 [!DNL S2S] 대상을 찾습니다.
 1. [!UICONTROL Action] 열에서 연필 아이콘을 클릭하여 대상을 편집합니다.
    * **[!UICONTROL Search and Add Segments]** 상자에 세그먼트 이름을 입력하거나 사용 가능한 세그먼트 **[!UICONTROL Browse All Segments]** 목록 찾아보기를 클릭합니다.
    * Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
    *  [!UICONTROL Edit Mapping]:
       * **[!UICONTROL Mappings]**: 이 대상에 사용되는 [키-값 쌍에](../../features/destinations/key-value-pairs.md) 대한 값을 설정합니다.
       * **[!UICONTROL Start Date]****[!UICONTROL End Date]** And: 대상에 대한 시작 날짜와 종료 날짜를 선택합니다. 종료 날짜가 비어 있으면 대상이 절대 만료되지 않습니다.
-1. **[!UICONTROL Save]****[!UICONTROL Done]** 을 클릭하고를 클릭합니다.
+1. **[!UICONTROL Save]****[!UICONTROL Done]**&#x200B;을 클릭하고를 클릭합니다.
 
 ## Add Data Export Labels to a Destination {#add-data-export-labels}
 

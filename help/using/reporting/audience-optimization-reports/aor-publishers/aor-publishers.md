@@ -1,9 +1,9 @@
 ---
 description: 게시자에 대한 대상 최적화는 소유 및 운영되는 컨텐츠에 있는 Audience Manager 세그먼트에 대한 잠재적인 성과 기회를 식별하는 데 도움이 될 수 있습니다. 이러한 보고서는 로그 수준 캠페인 성과 데이터를 Audience Manager 지표와 결합하여 최적화 및 수익 창출 기회를 제공합니다.
 seo-description: 게시자에 대한 대상 최적화는 소유 및 운영되는 컨텐츠에 있는 Audience Manager 세그먼트에 대한 잠재적인 성과 기회를 식별하는 데 도움이 될 수 있습니다. 이러한 보고서는 로그 수준 캠페인 성과 데이터를 Audience Manager 지표와 결합하여 최적화 및 수익 창출 기회를 제공합니다.
-seo-title: 게시자에 대한 대상 최적화
+seo-title: 게시자를 위한 Audience Optimization
 solution: Audience Manager
-title: 게시자에 대한 대상 최적화
+title: 게시자를 위한 Audience Optimization
 uuid: 8425 E 237-EC 52-4615-BB 00-84 ECE 4 EBFFE 1
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# 게시자에 대한 대상 최적화{#audience-optimization-for-publishers}
+# 게시자를 위한 Audience Optimization{#audience-optimization-for-publishers}
 
 게시자에 대한 대상 최적화는 소유 및 운영되는 컨텐츠에 있는 Audience Manager 세그먼트에 대한 잠재적인 성과 기회를 식별하는 데 도움이 될 수 있습니다. 이러한 보고서는 로그 수준 캠페인 성과 데이터를 Audience Manager 지표와 결합하여 최적화 및 수익 창출 기회를 제공합니다.
 
 ## 개요 {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] Juxtapos 세그먼트 수준 캠페인 성과 데이터를 [!UICONTROL DFP][!DNL Audience Manager] 세그먼트 지표로 표시합니다. The reports are available for customers that have set up log ingestion from [!UICONTROL DFP] into [!DNL Audience Manager]. If you haven&#39;t yet set up log ingestion, read [Import DFP Data Files Into Audience Manager](import-dfp.md) for information on how to do it.
+[!UICONTROL Audience Optimization for Publishers] Juxtapos 세그먼트 수준 캠페인 성과 데이터를 [!UICONTROL DFP][!DNL Audience Manager] 세그먼트 지표로 표시합니다. The reports are available for customers that have set up log ingestion from [!UICONTROL DFP] into [!DNL Audience Manager]. If you haven't yet set up log ingestion, read [Import DFP Data Files Into Audience Manager](import-dfp.md) for information on how to do it.
 
 ## 메타데이터 {#metadata}
 

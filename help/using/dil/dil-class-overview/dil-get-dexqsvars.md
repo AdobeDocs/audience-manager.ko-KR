@@ -29,7 +29,7 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | 문자열 | 값을 가져올 변수의 이름. |
 | `partner` | 문자열 | 검색할 파트너 이름. |
-| `containerNSID` | 정수 | The [!DNL NSID] of the container you&#39;re searching for. Defaults is `0`. |
+| `containerNSID` | 정수 | The [!DNL NSID] of the container you're searching for. Defaults is `0`. |
 
 **응답**
 

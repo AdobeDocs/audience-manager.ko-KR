@@ -49,7 +49,7 @@ The table below lists and defines the more common parameters you may see in a re
 |--- |--- |
 | `c` | A URL that has been set as a [URL destination](../../../features/destinations/manage-destinations.md#configure-url-destination). |
 | `cn` | [쿠키 대상의](../../../features/destinations/manage-destinations.md#create-cookie-destination)쿠키 이름 필드에 설정된 이름 또는 ID |
-| `cv` | &quot; cn &quot;으로 정의된 대상에 전송된 값: &quot; destinaton name &quot;매개 변수. |
+| `cv` | " cn "으로 정의된 대상에 전송된 값: " destinaton name "매개 변수. |
 | `dcs_region` | [서버 간 DCS 호출](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | 이 개체에는 UI에 구성된 모든 URL 대상에 대한 정보가 포함되어 있습니다. 이 개체의 목록은 사용자의 작업을 기반으로 합니다. |
 | `dmn` | 쿠키 대상에 대한 쿠키 도메인 필드에 지정된 도메인입니다. See [Optional Settings for Cookie Destinations](../../../features/destinations/manage-destinations.md#optional-settings-cookies).  For  Server to Server integrations we recommend using a domain like `aam-api.com`. |
@@ -57,7 +57,7 @@ The table below lists and defines the more common parameters you may see in a re
 | `stuff` | 이 개체에는 모든 쿠키 대상에 대한 정보가 포함되어 있습니다. 이 개체의 목록은 사용자의 작업을 기반으로 합니다. |
 | `tid` | 거래 ID. 디버깅용으로 사용되는 고유한 12 자 ID 입니다. DCS에 대한 모든 /event 호출은 지원 센터에서 참조할 수 있는 TID를 받아 더욱 신속하고 빠른 응답을 제공합니다. |
 | `ttl` | 쿠키의 TTL (time-to-live) 값. |
-| `u` 및 `uuid` | Audience Manager에서 할당한 고유한 사용자 ID. This is required if you&#39;re making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` 및 `uuid` | Audience Manager에서 할당한 고유한 사용자 ID. This is required if you're making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Destination type,  iFrame (`iframe`) or image (`img`). |
 
 >[!MORE_ like_ this]

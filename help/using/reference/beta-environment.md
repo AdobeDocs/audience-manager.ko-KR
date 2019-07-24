@@ -53,7 +53,7 @@ Added re: AAM-30826.
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. DCS 응답 헤더의 &quot;sandbox&quot; 를 검색하여 요청이 베타 DCS에서 제공되었는지 확인합니다.
+1. DCS 응답 헤더의 "sandbox" 를 검색하여 요청이 베타 DCS에서 제공되었는지 확인합니다.
 
    예:
 

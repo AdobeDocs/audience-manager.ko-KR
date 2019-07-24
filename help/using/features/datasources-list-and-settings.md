@@ -25,9 +25,9 @@ You can also manage data sources using [!DNL API] methods. For more information,
 
 <!-- c_datasources_list.xml -->
 
-[!UICONTROL Data Sources] 대시보드 **[!UICONTROL Audience Data]** (&gt; **[!UICONTROL Data Sources]**) 에는 다음과 같은 기능이 포함되어 있습니다.
+[!UICONTROL Data Sources] 대시보드&#x200B;**[!UICONTROL Audience Data]** (&gt; **[!UICONTROL Data Sources]**) 에는 다음과 같은 기능이 포함되어 있습니다.
 
-* See all your existing data sources, including each data source&#39;s description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
+* See all your existing data sources, including each data source's description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
 * 이름별로 Data Sources를 검색합니다.
 * 데이터 소스를 만들고, 편집하고, 삭제합니다.
 

@@ -35,12 +35,12 @@ After reporting [!DNL CPM] usage at segment level, [!UICONTROL Audience Marketpl
 
 To report [!DNL CPM] usage at segment level:
 
-1. **[!UICONTROL Audience Marketplace > Payables]** 이동.
+1. **[!UICONTROL Audience Marketplace > Payables]**&#x200B;이동.
 2. **[!UICONTROL Segment Usage]** 탭을 선택합니다.
 3. 세그먼트에 대한 사용을 채웁니다. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
 4. 클릭 **[!UICONTROL Edit Segments Usage]**.
 5. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
-6. Click **[!UICONTROL Save]** when you&#39;re done and review the confirmation dialog.
+6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
    ![세그먼트 사용 확인](assets/confirm-segment-usage.png)
 7. 클릭 **[!UICONTROL Confirm]**.
 
@@ -50,12 +50,12 @@ Data feed-level reporting is a more tedious and prone to error process, since yo
 
 To report [!DNL CPM] usage at segment level:
 
-1. **[!UICONTROL Audience Marketplace > Payables]** 이동.
+1. **[!UICONTROL Audience Marketplace > Payables]**&#x200B;이동.
 2. **[!UICONTROL Feed Usage]** 탭을 선택합니다.
 3. [!UICONTROL Search] 이 상자를 사용하여 데이터 피드를 필터링하고 사용량을 보고하는 데 필요한 데이터 피드를 식별합니다.
 4. 클릭 **[!UICONTROL Edit Feeds Usage]**.
 5. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#cost-attribution), and enter it in the [!UICONTROL Usage] column.
-6. Click **[!UICONTROL Save]** when you&#39;re done and review the confirmation dialog.
+6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
@@ -67,9 +67,9 @@ To reduce errors and overhead while reporting [!DNL CPM] usage, you can use the 
 
 [!DNL CPM] 사용량을 일괄 업데이트하려면:
 
-1. **[!UICONTROL Audience Marketplace > Payables]** 이동.
+1. **[!UICONTROL Audience Marketplace > Payables]**&#x200B;이동.
 1. Select the **[!UICONTROL Feed Usage]** or **[!UICONTROL Segment Usage]** tab, depending on the type of reporting that you want to update.
-1. **[!UICONTROL Edit Feeds Usage]** OR **[!UICONTROL Edit Segments Usage]** 를 클릭합니다.
+1. **[!UICONTROL Edit Feeds Usage]** OR **[!UICONTROL Edit Segments Usage]**&#x200B;를 클릭합니다.
 1. Click **[!UICONTROL download the current usage]** to make sure you use a valid CSV file.
 1. 컴퓨터에서 파일을 열고 사용량 보고서를 입력합니다.
 1. Click **[!UICONTROL Choose a CSV file]** to upload the updated usage report.

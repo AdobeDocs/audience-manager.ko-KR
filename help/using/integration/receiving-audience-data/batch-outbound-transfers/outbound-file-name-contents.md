@@ -128,7 +128,7 @@ E.g. 전체 파일:
  <li> <code> ftp_1234_20915_full_1486140843000-1.sync.gz </code> </li> 
 </ul>
 
-**시나리오 3**: 파일 콘텐트 () 에서 타사 사용자 ID와 함께 [!DNL FTP]*`PID-ALIAS="XYZCustomer"`* 위치로 보낸 *`Vendor ID=45454`*파일:
+**시나리오 3**: 파일 콘텐트 () 에서 타사 사용자 ID와 함께 [!DNL FTP]*`PID-ALIAS="XYZCustomer"`* 위치로 보낸 *`Vendor ID=45454`*&#x200B;파일:
 
 E.g. 증분 파일:
 

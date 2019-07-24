@@ -42,7 +42,7 @@ Overview and workflow for data providers who want to sell data from within [!DNL
 * **설명:** 데이터 피드의 컨텐츠에 대해 구매자에게 알립니다.
 * **트레이트레이트:** 각 데이터 피드의 트레이트 수입니다. 비공개 데이터 피드를 사용하여 구매자로부터 숨길 수 있습니다.
 * **최근 30 일 고유 사항:** 지난 30 일 동안 본 고유 사용자의 수입니다. 비공개 데이터 피드를 사용하여 구매자로부터 숨길 수 있습니다.
-* **지난 달의 총 수수료:** 가입자가 가입한 가입된 금액입니다. 보고 기간은 매월 10 일에 종료됩니다. 지연 계정이 삼각형/느낌표 아이콘으로 플래그가 지정됩니다. You can [deactivate a subscriber&#39;s data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
+* **지난 달의 총 수수료:** 가입자가 가입한 가입된 금액입니다. 보고 기간은 매월 10 일에 종료됩니다. 지연 계정이 삼각형/느낌표 아이콘으로 플래그가 지정됩니다. You can [deactivate a subscriber's data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
 * **상태:** 피드가 활성, 비활성, 비공개 또는 공개인지 표시합니다.
 * **구독자:** 데이터 피드를 사용하는 구매자의 수를 표시합니다. 이 열의 숫자를 클릭하면 구매자의 회사 이름, 구독, 대금 청구 및 구독 상태가 표시됩니다.
 * **요청:** 데이터 피드에 대한 액세스 요청 수입니다.

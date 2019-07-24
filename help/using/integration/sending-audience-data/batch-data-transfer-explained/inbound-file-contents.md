@@ -40,7 +40,7 @@ For other accepted file content formats, see [Custom Partner Integrations](/help
 
 ## File Variables Defined {#file-variables-defined}
 
-이 표에서는 형식이 적절하게 지정된 인바운드 데이터 파일에 사용된 변수를 나열하고 정의합니다. *기울임꼴*은 변수 자리 표시자를 나타냅니다.
+이 표에서는 형식이 적절하게 지정된 인바운드 데이터 파일에 사용된 변수를 나열하고 정의합니다. *기울임꼴*&#x200B;은 변수 자리 표시자를 나타냅니다.
 
 <table id="table_FE043CE392B34D5194111188E5C39671"> 
  <thead> 

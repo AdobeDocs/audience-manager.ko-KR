@@ -31,7 +31,7 @@ c_tb_boolean.xml
 
 >[!NOTE]
 >
->[!UICONTROL NOT] 연산자는 암시적인 &quot;and&quot; 조건을 사용하며 때로로 작성됩니다 [!UICONTROL AND NOT].
+>[!UICONTROL NOT] 연산자는 암시적인 "and" 조건을 사용하며 때로로 작성됩니다 [!UICONTROL AND NOT].
 
 **트레이트 및 세그먼트 빌더에서 부울 표현식을 사용하는 방법**
 
@@ -66,7 +66,7 @@ c_tb_boolean.xml
 
 **[!UICONTROL AND]사용 사례 예**
 
-[!UICONTROL AND] 연산자는 트레이트 멤버십 요구 사항을 쉽게 열거할 때 유용합니다. 예를 들어, &quot;비싼 카메라 쇼핑 쇼핑 대상자&quot; 를 만들어야 한다고 가정해 봅시다. » 픽셀 모델을 사용하면 카메라 픽셀 및 페이지에 대한 숫자 가격 값을 만들어 배치해야 합니다. By contrast, with traits you can apply Boolean operators to handle both conditions (cameras [!UICONTROL AND] price). 결과적으로 HTTP 호출이 더 적은 효율적인 데이터 수집으로 사이트의 사용자 경험을 유지할 수 있습니다.
+[!UICONTROL AND] 연산자는 트레이트 멤버십 요구 사항을 쉽게 열거할 때 유용합니다. 예를 들어, "비싼 카메라 쇼핑 쇼핑 대상자" 를 만들어야 한다고 가정해 봅시다. » 픽셀 모델을 사용하면 카메라 픽셀 및 페이지에 대한 숫자 가격 값을 만들어 배치해야 합니다. By contrast, with traits you can apply Boolean operators to handle both conditions (cameras [!UICONTROL AND] price). 결과적으로 HTTP 호출이 더 적은 효율적인 데이터 수집으로 사이트의 사용자 경험을 유지할 수 있습니다.
 
 **[!UICONTROL OR]사용 사례 예**
 

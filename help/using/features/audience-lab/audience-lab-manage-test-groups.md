@@ -27,7 +27,7 @@ This procedure walks you through the steps needed to create, edit, or delete a t
    >
    >[폴더 트레이트는](../../features/traits/about-folder-traits.md) 에서 **지원되지** [!UICONTROL Audience Lab]않습니다. Setting the [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
 
-* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. 이 권한을 통해 사용자는 테스트 결과를 만들고 볼 수 있습니다. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **&quot;read&quot;** permissions. 사용자는 액세스 권한이 있는 페이지도 볼 수 있습니다. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
+* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. 이 권한을 통해 사용자는 테스트 결과를 만들고 볼 수 있습니다. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. 사용자는 액세스 권한이 있는 페이지도 볼 수 있습니다. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
    * 관련 전환 트레이트에 대한 액세스
    * 테스트를 위해 관련 세그먼트를 읽고 매핑하는 액세스
    * 관련 대상에 액세스
@@ -90,7 +90,7 @@ In [!UICONTROL Audience Lab], you are only able to edit draft test groups. [!UIC
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
 1. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
-1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you&#39;re done.
+1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you're done.
 
 ## Delete Segment Test Groups {#delete-test-groups}
 

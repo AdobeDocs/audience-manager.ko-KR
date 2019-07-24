@@ -23,7 +23,7 @@ c_compedge.xml
 
  -->
 
-Edge Computing는 &quot;에지 (edge)&quot; 자체가 글로벌 경계이므로 인터넷 보급률에 대한 향상된 성능을 제공합니다. This means [!DNL Audience Manager] dynamically places processing closest to the sources of demand and returns data by the shortest possible path. Edge Computing를 사용하면 사이트 성능을 유지할 수 있으므로 웹 사이트에서 사용자 경험을 그대로 유지할 수 있습니다. The edge data center is a key gateway for moving data in and out of [!DNL Audience Manager].
+Edge Computing는 "에지 (edge)" 자체가 글로벌 경계이므로 인터넷 보급률에 대한 향상된 성능을 제공합니다. This means [!DNL Audience Manager] dynamically places processing closest to the sources of demand and returns data by the shortest possible path. Edge Computing를 사용하면 사이트 성능을 유지할 수 있으므로 웹 사이트에서 사용자 경험을 그대로 유지할 수 있습니다. The edge data center is a key gateway for moving data in and out of [!DNL Audience Manager].
 
 [!DNL Audience Manager] Edge 데이터 센터에는 다음이 포함됩니다.
 

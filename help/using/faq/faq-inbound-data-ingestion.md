@@ -52,7 +52,7 @@ Removed the Data Translation File bullet from the list above.
 * Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications.
 * Transfer a test data file to [!DNL Adobe] for format verification.
 * [!DNL Adobe] 컨설턴트와 협력하여 데이터 파일의 컨텐츠를 해석하는 데 적합한 분류법을 생성합니다.
-* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider&#39;s visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
+* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
 * DIL/ID 동기화를 프로덕션에 배포합니다. ID 동기화는 Adobe 컨설턴트가 DIL 코드 내에서 모듈로 이미 구성됩니다.
 * Transfer production data files to [!DNL Audience Manager]. ID 동기화 매핑에 대한 종속성을 감안할 때, 코드가 프로덕션으로 들어가는 즉시 데이터 파일을 전송할 수 있지만 프로덕션 코드 배포 후 최대 1 주일 전에 데이터 전송을 시작하는 것이 적절할 수 있습니다.
 
@@ -134,7 +134,7 @@ Consider the following use cases in which the data provider is not configured to
 
 **업로드한 파일의 데이터를 타깃팅에 사용할 수 있으려면 얼마나 걸립니까?**
 
-데이터는 48 시간 후 타깃팅에 사용할 수 있습니다. 또한, &quot;성공적인 업로드&quot; 이메일을 데이터를 사용할 수 있다는 메시지로 해석하지 마십시오. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
+데이터는 48 시간 후 타깃팅에 사용할 수 있습니다. 또한, "성공적인 업로드" 이메일을 데이터를 사용할 수 있다는 메시지로 해석하지 마십시오. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
 
 <br> 
 

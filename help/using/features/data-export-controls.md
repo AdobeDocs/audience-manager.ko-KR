@@ -19,8 +19,8 @@ source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
 
 [!UICONTROL Data Export Controls][Data Sources](../features/datasources-list-and-settings.md#data-sources-list-and-settings) 및 [대상을 분류할](../features/destinations/destinations.md)수 있습니다. 적용하는 분류는 데이터를 대상으로 내보낼 수 있을 때와 내보낼 수 없을 때를 결정합니다. 이 기능은 다음과 같이 구성됩니다.
 
-* **[!UICONTROL Data Export Controls]**: 데이터 소스에 대한 데이터 내보내기 컨트롤을 *설정할*수 있습니다. 데이터 소스에 설정되면 이러한 컨트롤은 데이터 소스와 해당 특성을 사용할 수 있는 방법을 제한합니다.
-* **[!UICONTROL Data Export Labels]**: 대상에 데이터 내보내기 레이블을 설정할 **수 있습니다. 대상에 설정되면, 이러한 레이블은 대상이 데이터를 사용하는 방법을 식별합니다. See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
+* **[!UICONTROL Data Export Controls]**: 데이터 소스에 대한 데이터 내보내기 컨트롤을 *설정할*&#x200B;수 있습니다. 데이터 소스에 설정되면 이러한 컨트롤은 데이터 소스와 해당 특성을 사용할 수 있는 방법을 제한합니다.
+* **[!UICONTROL Data Export Labels]**: 대상에 데이터 내보내기 레이블을 설정할 **&#x200B;수 있습니다. 대상에 설정되면, 이러한 레이블은 대상이 데이터를 사용하는 방법을 식별합니다. See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
 
 데이터 소스 및 대상에 적용된 분류에 따라 내보내기 컨트롤은 다음 위치에서 사용자를 중지합니다.
 

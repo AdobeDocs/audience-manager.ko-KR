@@ -13,7 +13,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 # Derived Signals {#derived-signals}
 
-A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they&#39;ve already seen. 즉, 사용자가 이전에 새 트레이트를 본 적이 없는 경우에도 추가 트레이트 자격 조건은 현재 표시된 트레이트 중에 파생될 수 있습니다.
+A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. 즉, 사용자가 이전에 새 트레이트를 본 적이 없는 경우에도 추가 트레이트 자격 조건은 현재 표시된 트레이트 중에 파생될 수 있습니다.
 
 <!-- c_tb_derived_signal.xml -->
 

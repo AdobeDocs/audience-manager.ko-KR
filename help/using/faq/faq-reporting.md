@@ -25,9 +25,9 @@ faq_reports.xml
 
 **새로운 온보드 트레이트에 대해[!UICONTROL Trait Graph]종종 예상보다 낮은 숫자 또는 0 이 표시되는 이유는 무엇입니까?**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn&#39;t show any results or shows lower than expected numbers. 받는 데이터의 볼륨이 너무 많아서 인바운드 처리 작업에서 해당 날짜에 대한 보고 마감 시간까지 이 정보를 인제스트할 수 없는 문제가 해결되었습니다.
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. 받는 데이터의 볼륨이 너무 많아서 인바운드 처리 작업에서 해당 날짜에 대한 보고 마감 시간까지 이 정보를 인제스트할 수 없는 문제가 해결되었습니다.
 
-As a result, this data is sent to the reporting system late and won&#39;t show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
+As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br> 
 

@@ -36,7 +36,7 @@ Use the [Build a model](../../features/algorithmic-models/create-model.md#build-
 2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
 3. **[!UICONTROL Select Traits to Exclude]** 창에서 이전에 선택한 데이터 소스와 관련된 모든 트레이트를 볼 수 있습니다. 제외할 트레이트를 선택합니다.
 4. 트레이트 유형별로 트레이트를 필터링하거나 트레이트 폴더를 검색할 수 있습니다. 특성 폴더에는 선택한 데이터 소스와 관련된 특성만 표시됩니다.
-5. **[!UICONTROL Exclude Selected Traits]** 을 누릅니다.
+5. **[!UICONTROL Exclude Selected Traits]**&#x200B;을 누릅니다.
 
 >[!TIP]
 >

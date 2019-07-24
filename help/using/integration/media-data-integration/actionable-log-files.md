@@ -30,7 +30,7 @@ To get started with [!UICONTROL Actionable Log Files], and to use our [Audience 
 
 [!UICONTROL DCM] 이미 로그 데이터를 가져오는 [!DNL Audience Manager]경우 [!DNL Audience Manager] 컨설턴트나 [고객 지원 팀에](https://helpx.adobe.com/contact/enterprise-support.ec.html) 활성화를 [!UICONTROL Actionable Log Files] 요청하십시오.
 
->[!NOTE] {importance = &quot;high&quot;}
+>[!NOTE] {importance = "high"}
 >
 >[!UICONTROL Actionable Log Files] 로그 파일로만 [!DNL Google DCM] 작업할 수 있습니다.
 
@@ -42,7 +42,7 @@ With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is 
 
 For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
->[!IMPORTANT] {importance = &quot;high&quot;}
+>[!IMPORTANT] {importance = "high"}
 >
 >We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). 두 옵션 모두 사용할 수 없으므로 트레이트에 대한 빈도 수가 늘어납니다.
 
@@ -120,7 +120,7 @@ The signals described in the table are captured in [!DNL Audience Manager] like 
 https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
->[!NOTE] {importance = &quot;high&quot;}
+>[!NOTE] {importance = "high"}
 >
 >[!DNL DCM] 로그에 제공된 이벤트 타임스탬프가 인정되고 [!UICONTROL Data Collection Servers]에 전달됩니다.
 >
@@ -136,7 +136,7 @@ One benefit of implementing [!UICONTROL Actionable Log Files] is the option to a
 
 Creative 123를 보았으나 클릭 또는 변환하거나 Creative 456를 표시하지 않은 사용자를 재타깃팅합니다. 방법:
 
-1. 크리에이티브를 본 사용자를 캡처하는 트레이트를 만들 수 있습니다. Let&#39;s say you name the trait [!DNL Creative Trait 123]. 특성 규칙을 사용합니다.
+1. 크리에이티브를 본 사용자를 캡처하는 트레이트를 만들 수 있습니다. Let's say you name the trait [!DNL Creative Trait 123]. 특성 규칙을 사용합니다.
 
    `d_creative == 123 AND d_event == imp`
 

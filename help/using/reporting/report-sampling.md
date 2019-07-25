@@ -33,7 +33,7 @@ Some [!DNL Audience Manager] reports display results based on a sampled set of t
 * 보고서에 포함되지 않았지만 어쨌든 추가되었습니다.
 * 보고서에 포함되었지만 제외되었어야 합니다.
 
-It&#39;s important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. 레코드가 적은 데이터 세트는 적은 수의 레코드가 있는 세트보다 오류가 적습니다. 이 어설션을 양적 방식으로 살펴보겠습니다. 다음 표에 나타난 바와 같이, 설정된 레코드 수에 대해 보고서 결과의 95%가 특정 오류율 미만이 됩니다.
+It's important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. 레코드가 적은 데이터 세트는 적은 수의 레코드가 있는 세트보다 오류가 적습니다. 이 어설션을 양적 방식으로 살펴보겠습니다. 다음 표에 나타난 바와 같이, 설정된 레코드 수에 대해 보고서 결과의 95%가 특정 오류율 미만이 됩니다.
 
 | 레코드 수 | 오류율 |
 |--- |--- |

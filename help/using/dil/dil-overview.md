@@ -28,14 +28,14 @@ Audience Manager DIL 코드 라이브러리에서 사용할 수 있는 개요, �
 
 ## Purpose of DIL {#purpose-dil}
 
-[!UICONTROL DIL] API 라이브러리입니다. You can think it as a body of helper code for [!DNL Adobe Audience Manager]. It is not required to use [!DNL Audience Manager], but the methods and functions [!UICONTROL DIL] provides means you don&#39;t have to develop your own code to send data to [!DNL Audience Manager]. Also, [!UICONTROL DIL] is different than the API provided by the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). That service is designed to manage visitor identity across different [!DNL Experience Cloud] solutions. [!UICONTROL DIL] 대조적으로,
+[!UICONTROL DIL] API 라이브러리입니다. You can think it as a body of helper code for [!DNL Adobe Audience Manager]. It is not required to use [!DNL Audience Manager], but the methods and functions [!UICONTROL DIL] provides means you don't have to develop your own code to send data to [!DNL Audience Manager]. Also, [!UICONTROL DIL] is different than the API provided by the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/). That service is designed to manage visitor identity across different [!DNL Experience Cloud] solutions. [!UICONTROL DIL] 대조적으로,
 
 * Make event calls and send data to the [Data Collection Server](../reference/system-components/components-data-collection.md).
 * [대상에](../features/destinations/destinations.md)데이터 보내기
 
 ## Getting and Implementing DIL Code {#get-implement-dil-code}
 
-[!UICONTROL DIL] 여기에서 코드를 다운로드할 **[](https://github.com/Adobe-Marketing-Cloud/dil/releases)** 수 있습니다. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. ID 서비스에 ID 동기화 및 URL 대상을 사용합니다. ID 서비스가 없거나, 이전 또는 구성되지 않은 경우 오류가 발생합니다.
+[!UICONTROL DIL] 여기에서 코드를 다운로드할 **[](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;수 있습니다. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. ID 서비스에 ID 동기화 및 URL 대상을 사용합니다. ID 서비스가 없거나, 이전 또는 구성되지 않은 경우 오류가 발생합니다.
 
 Rather than work with [!UICONTROL DIL] and set up [!DNL Audience Manager] manually, we recommend that you use [Adobe Launch](https://docs.adobelaunch.com/) instead. [!DNL Adobe Launch] 는 코드 배포, 배치 및 버전 관리를 단순화하기 때문에 권장되는 구현 도구입니다. Read more about the [Audience Manager extension](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in Adobe Launch.
 

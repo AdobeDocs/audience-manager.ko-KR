@@ -41,7 +41,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 1. 사이트
 1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#details))
 1. 삽입 순서 (IO)
-1. 수직 (예: &quot;컴퓨터&quot;, &quot;자동차&quot;, &quot;부동산&quot; 등 특정 산업 또는 비즈니스 카테고리)
+1. 수직 (예: "컴퓨터", "자동차", "부동산" 등 특정 산업 또는 비즈니스 카테고리)
 1. 전술
 1. 사업부 또는 브랜드
 

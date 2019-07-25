@@ -14,7 +14,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Customer Data Feeds {#customer-data-feeds}
 
-Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you&#39;re interested in receiving [!UICONTROL CDF] files or just want more information.
+Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
 ## File Contents and Purpose {#file-contents-purpose}
 
@@ -33,7 +33,7 @@ There is no self-service process to start [!UICONTROL CDF] file delivery. Contac
 * [!DNL Amazon S3] 저장소 버킷을 설정합니다.
 * Provide read-only [!DNL S3] authentication credentials to your file storage bucket. 다른 고객에게 속한 디렉토리와 파일을 보거나 액세스할 수 없습니다.
 
-File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they&#39;re ready for download. You&#39;re responsible for monitoring and downloading files from your assigned [!DNL S3] directory. [고객 데이터 피드 파일 처리 알림을 참조하십시오](#cdf-file-processing-notifications).
+File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned [!DNL S3] directory. [고객 데이터 피드 파일 처리 알림을 참조하십시오](#cdf-file-processing-notifications).
 
 ## 다음 단계 {#next-steps}
 
@@ -372,7 +372,7 @@ The following table provides additional details about your [!UICONTROL CDF] file
 
 | 타임스탬프 위치 | 설명 |
 |--- |--- |
-| 파일 이름 | The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. 이 타임스탬프는 UTC 표준 시간대에서 설정됩니다. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. 이 시간은 파일 컨텐츠에 기록된 이벤트 시간과 다를 수 있습니다. Breakwhen working with CDF files, sometimes that your S 3 bucket is empty for a specific hour. 빈 버킷은 다음 중 하나를 의미할 수 있습니다.<ul><li>특정 시간에 대한 데이터가 없습니다. </li><li> 우리 서버는 부하가 너무 많아서 특정 시간에 파일을 처리할 수 없습니다. 서버가 캐치되면 이전 시간 버킷 파일에 갔어야 하는 파일이 차후 시간 값이 있는 버킷에 저장됩니다. For example, you&#39;ll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). 이 경우 서버는 17 시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 파일을 완료할 수 없었습니다. 대신, 파일이 다음 시간별 시간 버킷으로 푸시됩니다.</li></ul><br>**중요**: 시간별 이벤트를 그룹화하려면 파일 이름 타임스탬프를 사용하지 마십시오. If you need to group by time, use the `EventTime` timestamp in the file contents. |
+| 파일 이름 | The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. 이 타임스탬프는 UTC 표준 시간대에서 설정됩니다. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. 이 시간은 파일 컨텐츠에 기록된 이벤트 시간과 다를 수 있습니다. Breakwhen working with CDF files, sometimes that your S 3 bucket is empty for a specific hour. 빈 버킷은 다음 중 하나를 의미할 수 있습니다.<ul><li>특정 시간에 대한 데이터가 없습니다. </li><li> 우리 서버는 부하가 너무 많아서 특정 시간에 파일을 처리할 수 없습니다. 서버가 캐치되면 이전 시간 버킷 파일에 갔어야 하는 파일이 차후 시간 값이 있는 버킷에 저장됩니다. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). 이 경우 서버는 17 시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 파일을 완료할 수 없었습니다. 대신, 파일이 다음 시간별 시간 버킷으로 푸시됩니다.</li></ul><br>**중요**: 시간별 이벤트를 그룹화하려면 파일 이름 타임스탬프를 사용하지 마십시오. If you need to group by time, use the `EventTime` timestamp in the file contents. |
 | 파일 컨텐츠 | CDF 파일 내용의 타임스탬프는 데이터 수집 서버가 파일 처리를 시작한 시간을 나타냅니다. 이 타임스탬프는 UTC 표준 시간대에서 설정됩니다. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **팁**: 파일 이름의 `hour=` 타임스탬프와 달리 시간별 데이터를 `EventTime` 그룹화하는 데 사용할 수 있습니다. |
 
 >[!MORE_ like_ this]

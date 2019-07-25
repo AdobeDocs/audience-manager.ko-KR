@@ -48,7 +48,7 @@ A properly named and formatted data file lets you import impression, click, or c
 파일 컨텐츠에서:
 
 * 헤더 레이블은 아래 표에 표시된 순서대로 표시되어야 합니다. 노출 횟수 및 클릭은 동일한 레이블을 사용합니다. 전환 파일에는 추가 헤더가 포함됩니다.
-* If you don&#39;t have data for a particular column, populate that field with a `NULL` object or `-1`.
+* If you don't have data for a particular column, populate that field with a `NULL` object or `-1`.
 
 * Files *must* end with a version number. 현재 버전은 1.1 입니다.
 * 파일 헤더와 내용을 인쇄할 수 없는 ASCII 001 문자로 구분합니다. ASCII 001를 사용할 수 없는 경우, 헤더와 데이터를 탭 구분 기호로 구분하십시오. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.

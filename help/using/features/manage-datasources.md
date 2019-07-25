@@ -36,7 +36,7 @@ To complete the [!UICONTROL Data Source Details] section:
    * [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)사용
    * [프로필 병합 규칙을](../features/profile-merge-rules/merge-rules-start.md)사용한 작업
 
-1. **[!UICONTROL ID Type]** 을 선택합니다. ID 유형 옵션은 다음과 같습니다.
+1. **[!UICONTROL ID Type]**&#x200B;을 선택합니다. ID 유형 옵션은 다음과 같습니다.
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**

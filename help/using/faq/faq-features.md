@@ -30,7 +30,7 @@ The *`Organization ID`* is a unique ID that identifies your organization to [!DN
 
 *`Organization ID`* 예를 들어 다음과 같습니다. `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-The *`Organization ID`* is used by Audience Manager&#39;s [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. [관리 - 사용자 관리 FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)를 참조하십시오.
+The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. [관리 - 사용자 관리 FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)를 참조하십시오.
 
 <br> 
 

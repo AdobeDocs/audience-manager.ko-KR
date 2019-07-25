@@ -42,7 +42,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 1. Click **[!UICONTROL Save]** to save your data fee *without* activating it.
 1. 데이터 피드를 저장하고 활성화하려면:
-   1. **[!UICONTROL Availability]** 슬라이더를 **[!UICONTROL Active]** 로 이동합니다.
+   1. **[!UICONTROL Availability]** 슬라이더를 **[!UICONTROL Active]**&#x200B;로 이동합니다.
    1. 클릭 **[!UICONTROL Save]**.
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ To see what a private feed looks like to buyers, see the buyers section in [Priv
    >지연 계정이 있는 데이터 피드는 삼각형/느낌표 아이콘으로 플래그가 지정됩니다.
 
 1. [!UICONTROL Subscribers] 열에서 해당 피드의 가입자를 카운트하는 파란색 숫자를 클릭합니다. 구독 세부 사항 페이지가 열립니다.
-1. **[!UICONTROL Subscription]** 슬라이더를 **[!UICONTROL Off]** 로 이동합니다. 확인 대화 상자가 열립니다.
+1. **[!UICONTROL Subscription]** 슬라이더를 **[!UICONTROL Off]**&#x200B;로 이동합니다. 확인 대화 상자가 열립니다.
 1. [!UICONTROL Confirmation] 팝업을 **[!UICONTROL Yes]** 비활성화하거나 구독을 변경하지 **[!UICONTROL Cancel]** 않고 종료하려면 팝업을 클릭합니다.
 
 ### 가입자를 비활성화한 후 발생하는 내용

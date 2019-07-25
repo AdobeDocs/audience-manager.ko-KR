@@ -15,7 +15,7 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 미디어 데이터를 Audience Manager로 보내는 한 가지 접근 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager로 보냅니다.
 
-이 방법은 종종 &quot;크리에이티브&quot; 로 불립니다. Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. 집계된 데이터는 캠페인 성능에 대한 통합 뷰를 제공하며, 사용자 지정 전환 경로를 식별하며, 고객이 전환을 유도하는 광고 서버 이벤트의 시퀀스를 개선할 수 있도록 도와줍니다.
+이 방법은 종종 "크리에이티브" 로 불립니다. Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. 집계된 데이터는 캠페인 성능에 대한 통합 뷰를 제공하며, 사용자 지정 전환 경로를 식별하며, 고객이 전환을 유도하는 광고 서버 이벤트의 시퀀스를 개선할 수 있도록 도와줍니다.
 
 ## 이벤트 호출 구문
 

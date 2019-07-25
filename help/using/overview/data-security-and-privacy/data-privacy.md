@@ -78,7 +78,7 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 고객의 웹 사이트에 대한 방문자의 IP 주소는 이 IP 주소가 저장되어 있을 수 있는 Adobe DPC(Data Processing Center)로 전송됩니다. 방문자에 대한 네트워크 구성에 따라, IP 주소가 반드시 방문자의 컴퓨터의 IP 주소를 나타내지는 않을 수 있습니다. 예를 들어 IP 주소가 NAT(Network Address Translation) 방화벽, HTTP 프록시 또는 인터넷 게이트웨이의 외부 IP 주소일 수 있습니다.
 
-**유사 IP 탐지 방법론:** &quot; 개인 정보 보호 중심의 설계 &quot;의 원칙을 따르는 Adobe Audience Manager를 사용하면 모든 지리적 지역 또는 특정 국가에서 전 세계적으로 IP 난독화를 활성화할 수 있습니다. 이 설정을 활성화하면 IP 주소가 Audience Manager로 인제스트되면 IP 주소의 마지막 옥텟 (마지막 부분) 이 즉시 무시됩니다. Audience Manager는 처리하기 전에 IP 주소의 이 부분을 삭제합니다 (선택 사항인 지리적 조회 또는 IP 주소의 기록 전). 예:
+**유사 IP 탐지 방법론:** " 개인 정보 보호 중심의 설계 "의 원칙을 따르는 Adobe Audience Manager를 사용하면 모든 지리적 지역 또는 특정 국가에서 전 세계적으로 IP 난독화를 활성화할 수 있습니다. 이 설정을 활성화하면 IP 주소가 Audience Manager로 인제스트되면 IP 주소의 마지막 옥텟 (마지막 부분) 이 즉시 무시됩니다. Audience Manager는 처리하기 전에 IP 주소의 이 부분을 삭제합니다 (선택 사항인 지리적 조회 또는 IP 주소의 기록 전). 예:
 
 * : `255.255.255.255`
 * 후: `255.255.255.0`

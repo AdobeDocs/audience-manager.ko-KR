@@ -41,4 +41,4 @@ Adobe는 다음 브라우저의 최신 주요 버전을 지원합니다.
 
    Get the latest Safari version from [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
 
-다른 브라우저는 작동하지만 기술 및 제품 팀에서 지원되지 않습니다. If you&#39;re having trouble working with [!DNL Audience Manager], make sure you&#39;re using an up to date and supported browser.
+다른 브라우저는 작동하지만 기술 및 제품 팀에서 지원되지 않습니다. If you're having trouble working with [!DNL Audience Manager], make sure you're using an up to date and supported browser.

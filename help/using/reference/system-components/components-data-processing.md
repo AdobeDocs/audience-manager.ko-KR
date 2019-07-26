@@ -35,7 +35,7 @@ In [!DNL Audience Manager], Hadoop is the master database that contains everythi
 
 ## Snowflake {#snowflake}
 
-[Snowflake](https://www.snowflake.net/) 는 대규모 클라우드 데이터베이스입니다. 이 콘솔에서는 그래프의 각 항목에 대한 % 변경을 표시하는 많은 대시보드 그래프와 관련 텍스트 상자에 데이터를 제공합니다. If you use [!DNL Audience Manager] and look at the dashboard reports, you&#39;re interacting with data provided by [!UICONTROL Snowflake].
+[Snowflake](https://www.snowflake.net/) 는 대규모 클라우드 데이터베이스입니다. 이 콘솔에서는 그래프의 각 항목에 대한 % 변경을 표시하는 많은 대시보드 그래프와 관련 텍스트 상자에 데이터를 제공합니다. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
 
 
 

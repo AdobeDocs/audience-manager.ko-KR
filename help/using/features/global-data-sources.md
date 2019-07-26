@@ -21,11 +21,11 @@ Global data sources are accessible by all Audience Manager customers and contain
 
 | 데이터 소스 ID | 설명 |
 |---|---|
-| 20914 | **Google 광고 ID** - **Gaids** 는 Android 운영 체제를 실행하는 장치를 나타냅니다. |
-| 20915 | **광고를 위한 Apple ID** - **IDFAS** 는 iOS 운영 체제를 실행하는 장치를 나타냅니다. |
+| 20914 | **Google 광고 ID** - **Gaids**&#x200B;는 Android 운영 체제를 실행하는 장치를 나타냅니다. |
+| 20915 | **광고를 위한 Apple ID** - **IDFAS**&#x200B;는 iOS 운영 체제를 실행하는 장치를 나타냅니다. |
 | 121963 | **광고에 대한 Roku ID** - **RIA가** Roku 스트리밍 장치를 나타냅니다. |
-| 389146 | **Microsoft 광고 ID** - **Maids** 는 Windows 10 운영 체제를 실행하는 장치를 나타냅니다. |
-| 404660 | **Samsung Duids** 는 Samsung 스마트 TV를 나타냅니다. |
+| 389146 | **Microsoft 광고 ID** - **Maids**&#x200B;는 Windows 10 운영 체제를 실행하는 장치를 나타냅니다. |
+| 404660 | **Samsung Duids**&#x200B;는 Samsung 스마트 TV를 나타냅니다. |
 
 ## 전역 Data Sources에서 데이터 가져오기
 

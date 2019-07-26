@@ -91,7 +91,7 @@ Audience Manager를 사용하면 공유된 특성 또는 트레이트에 따라 
 
 <br> 
 
-**Audience Manager는[!UICONTROL Addressable Audiences]지표와[!UICONTROL Server-to-Server]대상에 대한 일치 비율을 표시합니다. Can you explain why we don&#39;t see these figures for Cookie and URL destinations?**
+**Audience Manager는[!UICONTROL Addressable Audiences]지표와[!UICONTROL Server-to-Server]대상에 대한 일치 비율을 표시합니다. Can you explain why we don't see these figures for Cookie and URL destinations?**
 
 ID 동기화로 분류됩니다. For [!UICONTROL Server-to-Server] destinations, we transfer data offline (either real-time or batch) and we need to send the ID that the destination partner understands, so they can map it back to the browser. 세그먼트 어드레서블 숫자는 총 세그먼트 인구의 하위 집합입니다.
 

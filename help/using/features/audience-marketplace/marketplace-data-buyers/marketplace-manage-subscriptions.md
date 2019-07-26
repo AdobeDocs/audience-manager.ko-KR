@@ -24,7 +24,7 @@ The [!UICONTROL Marketplace] is where data buyers go to research and subscribe t
 
 공개 데이터 피드를 구독하려면:
 
-1. **[!UICONTROL Audience Marketplace > Marketplace]** 이동. 검색 기능을 사용하거나 목록을 검색하여 데이터 피드를 찾습니다.
+1. **[!UICONTROL Audience Marketplace > Marketplace]**&#x200B;이동. 검색 기능을 사용하거나 목록을 검색하여 데이터 피드를 찾습니다.
 
    ![](assets/subscribe1.png)
 
@@ -33,7 +33,7 @@ The [!UICONTROL Marketplace] is where data buyers go to research and subscribe t
    ![](assets/plan-details.png)
 
 1. 구독 테이블에서 사용 사례를 선택하고 다음을 수행합니다.
-   * **[!UICONTROL Subscription]** 슬라이더를 **[!UICONTROL On]** 로 이동합니다.
+   * **[!UICONTROL Subscription]** 슬라이더를 **[!UICONTROL On]**&#x200B;로 이동합니다.
    * 클릭 **[!UICONTROL Review & Subscribe]**. [!UICONTROL Terms and Conditions] 창이 열립니다.
    ![](assets/subscribe3.png)
 
@@ -72,10 +72,10 @@ Buyers subscribe to private data feeds and plans in **[!UICONTROL Audience Marke
 
 1. Click the data feed name in the [!UICONTROL Marketplace].
 1. 클릭 **[!UICONTROL Request Access]**. 그러면 요청 대화 상자가 열립니다.
-1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. 판매자는 메시지를 검토하고 요청을 승인하거나 거부합니다. While waiting for approval, &quot;Requested&quot; appears in the [!UICONTROL Marketplace] list for that data feed.
+1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. 판매자는 메시지를 검토하고 요청을 승인하거나 거부합니다. While waiting for approval, "Requested" appears in the [!UICONTROL Marketplace] list for that data feed.
 
-   * **[!UICONTROL Request approved]**: [!UICONTROL Marketplace] 목록의 상태가 &quot;액세스 허용&quot; 로 변경되고 자동 알림을 받게 됩니다. 이제 피드에 가입할 수 있습니다. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
-   * **[!UICONTROL Request denied]**: &quot; 요청된 &quot;텍스트가 피드 [!UICONTROL Marketplace] 목록에서 제거됩니다. 다시 구독하거나 다른 피드를 선택할 수 있습니다.
+   * **[!UICONTROL Request approved]**: [!UICONTROL Marketplace] 목록의 상태가 "액세스 허용" 로 변경되고 자동 알림을 받게 됩니다. 이제 피드에 가입할 수 있습니다. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
+   * **[!UICONTROL Request denied]**: " 요청된 "텍스트가 피드 [!UICONTROL Marketplace] 목록에서 제거됩니다. 다시 구독하거나 다른 피드를 선택할 수 있습니다.
 
 >[!MORE_ like_ this]
 >
@@ -85,7 +85,7 @@ Buyers subscribe to private data feeds and plans in **[!UICONTROL Audience Marke
 
 ## Data Feed Discounts for Buyers {#buyer-discount}
 
-In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on the published price of a [!DNL CPM] or flat rate data feed. However, discount amounts aren&#39;t visible to buyers in the [!DNL Marketplace] feed list. 하지만 개인 데이터 피드를 구독하거나 특정 피드에 대한 추가 정보를 요청할 때 할인 혜택을 요청할 수도 있습니다.
+In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on the published price of a [!DNL CPM] or flat rate data feed. However, discount amounts aren't visible to buyers in the [!DNL Marketplace] feed list. 하지만 개인 데이터 피드를 구독하거나 특정 피드에 대한 추가 정보를 요청할 때 할인 혜택을 요청할 수도 있습니다.
 
 ## Request a Discount {#request-discount}
 
@@ -128,7 +128,7 @@ In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on t
 
 할인 피드를 검토하려면:
 
-1. **[!UICONTROL Audience Marketplace > Marketplace]** 이동.
+1. **[!UICONTROL Audience Marketplace > Marketplace]**&#x200B;이동.
 1. 이미 구독한 피드의 이름을 클릭합니다.
 1. Look at the [!UICONTROL Price] and [!UICONTROL Your Price] columns in the [!UICONTROL Plan Details] table. 피드가 할인되는 경우:
 
@@ -195,7 +195,7 @@ When a data provider deactivates one of your data feeds, [!DNL Audience Manager]
 
 * **제목:** 여기에서 데이터 피드 *이름 지정이* 취소되었습니다.
 
-* **첨부 파일:** 이메일에 &quot;.&quot; 라는 레이블이 붙은 첨부 파일이 `list-of-affected-entities-by-feed-revocation.csv`포함되어 있습니다. 이는 첨부 파일에 취소된 피드에 포함된 모든 트레이트가 나열되는 간단한 방식입니다. 데이터 구매자는 이 첨부 파일을 검토해야 합니다. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
+* **첨부 파일:** 이메일에 "." 라는 레이블이 붙은 첨부 파일이 `list-of-affected-entities-by-feed-revocation.csv`포함되어 있습니다. 이는 첨부 파일에 취소된 피드에 포함된 모든 트레이트가 나열되는 간단한 방식입니다. 데이터 구매자는 이 첨부 파일을 검토해야 합니다. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
 
 ## Deactivated Trait List {#deactivation-trait-list}
 
@@ -268,8 +268,8 @@ When you click the name of a data plan in the [!UICONTROL Marketplace], [!DNL Au
 
 이 페이지에서는 다음 정보를 제공합니다.
 
-1. **기본 플랜 정보를** 참조하십시오. 여기에는 다음과 같은 피드 정보가 포함됩니다.
-   * 데이터 피드 이름. 예를 들어, 위의 표시된 것처럼 이 피드의 이름은 &quot;Sample Data Feed&quot; 입니다.
+1. **기본 플랜 정보를**&#x200B;참조하십시오. 여기에는 다음과 같은 피드 정보가 포함됩니다.
+   * 데이터 피드 이름. 예를 들어, 위의 표시된 것처럼 이 피드의 이름은 "Sample Data Feed" 입니다.
    * 데이터 공급자의 이름;
    * 데이터 피드 ID;
    * 설명;

@@ -19,4 +19,4 @@ This project adheres to the Adobe [code of conduct](https://git.corp.adobe.com/O
 
 ## 코드 검토
 
-모든 제출물은 가져오기 요청 양식으로 제공해야 하며 프로젝트 수행자가 검토해야 합니다. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+모든 제출물은 가져오기 요청 양식으로 제공해야 하며 프로젝트 수행자가 검토해야 합니다. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.

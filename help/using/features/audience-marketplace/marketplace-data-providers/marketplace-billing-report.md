@@ -20,7 +20,7 @@ Generate an [!DNL Audience Marketplace] billing report to view data feed usage f
 
 보고서를 다운로드하려면:
 
-1. **[!UICONTROL Audience Marketplace > Receivables]** 이동.
+1. **[!UICONTROL Audience Marketplace > Receivables]**&#x200B;이동.
 1. 클릭 **[!UICONTROL Generate Billing Report]**.
 
 ## Report Fields Defined {#report-fields-defined}

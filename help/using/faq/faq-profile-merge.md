@@ -32,7 +32,7 @@ profile-merge-faq.xml
 
 **외부 장치 그래프**
 
-An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you&#39;re working with an external device graph. [장치 옵션을 참조하십시오](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. [장치 옵션을 참조하십시오](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
 <br> 
 
@@ -88,7 +88,7 @@ The devices [!DNL Audience Manager] merges and reads are the same devices that a
 
 <br> 
 
-**장치 그래프를*포함하는 세그먼트를 사용하여 세그먼트를*[!UICONTROL Profile Merge Rule]분류할 수 있는 장치는 무엇입니까?**
+**장치 그래프를&#x200B;*포함하는 세그먼트를 사용하여 세그먼트를*[!UICONTROL Profile Merge Rule]분류할 수 있는 장치는 무엇입니까?**
 
 To qualify for a segment, devices must have been seen by Audience Manager on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created. 또한 Edge Server:
 
@@ -192,7 +192,7 @@ Audience Manager merges up to four devices when evaluating segments with a [!UIC
 
 <br> 
 
-**장치 그래프를 사용하는 특정 세그먼트에 대한 장치*수를 실시간으로*[!UICONTROL Profile Merge Rules]볼 수 있습니까?**
+**장치 그래프를 사용하는 특정 세그먼트에 대한 장치&#x200B;*수를 실시간으로*[!UICONTROL Profile Merge Rules]볼 수 있습니까?**
 
 예. 실시간 인구 통계 지표는 장치 그래프로 연결된 모든 장치의 프로필을 사용하여 현재 장치 (실시간으로 표시되는 장치) 에 대한 세그먼트 자격 조건을 캡처합니다.
 

@@ -61,7 +61,7 @@ t_working_with_trend_reports.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** 대시보드에서 **[!UICONTROL Trend Reports]** 를 클릭합니다.
+1. **[!UICONTROL Analytics]** 대시보드에서 **[!UICONTROL Trend Reports]**&#x200B;를 클릭합니다.
 1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: **[!UICONTROL Trait]** or **[!UICONTROL Segment]**.
 1. 날짜 상자를 클릭하여 달력을 표시한 다음 보고서의 시작 및 종료 날짜를 선택합니다.
 1. 표시 간격을 지정합니다. 1, 7, 14, 30, 60 또는 90 일 기준.

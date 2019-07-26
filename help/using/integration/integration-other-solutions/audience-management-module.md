@@ -57,10 +57,10 @@ s.AudienceManagement.setup({
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| `partner` | 필수. Adobe에서 귀하에게 할당한 파트너 이름입니다. 경우에 따라 &quot;파트너 ID&quot; 또는 &quot;파트너 하위 도메인&quot; 이라고도 합니다. Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don&#39;t know your partner name. |
+| `partner` | 필수. Adobe에서 귀하에게 할당한 파트너 이름입니다. 경우에 따라 "파트너 ID" 또는 "파트너 하위 도메인" 이라고도 합니다. Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name. |
 | `containerNSID` | 필수. `"containerNSID":0` 대부분의 고객은 설정할 수 있습니다. 그러나 ID가 다른 컨테이너와 ID를 동기화해야 하는 경우 여기에 해당 컨테이너 ID를 지정할 수 있습니다. |
 | `uuidCookie` | 선택 사항입니다. 이 구성을 통해 퍼스트 파티 도메인에서 Adobe 쿠키를 설정할 수 있습니다. This cookie contains the [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | 필수. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. [!UICONTROL AudienceManagement] 이 모듈에서는 3.3 이상을 사용해야 [!UICONTROL Experience Cloud ID Service] 합니다. <br>는 [!UICONTROL Experience Cloud Organization ID] 에 등록할 때 회사가 제공하는 ID 입니다 [!UICONTROL Experience Cloud]. Find out your company&#39;s Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+| `visitorService` - `namespace` | 필수. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. [!UICONTROL AudienceManagement] 이 모듈에서는 3.3 이상을 사용해야 [!UICONTROL Experience Cloud ID Service] 합니다. <br>는 [!UICONTROL Experience Cloud Organization ID] 에 등록할 때 회사가 제공하는 ID 입니다 [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
 
 ## Results: Data Forwarding to Audience Manager {#results-data-forwarding}
 

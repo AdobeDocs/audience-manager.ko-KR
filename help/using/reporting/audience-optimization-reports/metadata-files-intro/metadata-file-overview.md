@@ -31,7 +31,7 @@ During an impression or click event, [!DNL Audience Manager] receives data in an
 
 메타데이터 파일은 숫자 ID를 읽을 수 있는 이름에 연결하는 데 필요합니다. As an example, say an event call contains a creative ID in a key-value pair like this: `d_creative:1234`. 메타데이터 파일이 없으면 이 크리에이티브는 옵션 메뉴에 1234로 표시됩니다.
 
-그러나 형식이 적절하게 지정된 메타데이터 파일은 이 크리에이티브를 &quot;광고주 Creative A&quot; 와 같은 실제 이름으로 다시 연결할 수 있습니다. 이 이름은 보고서에서 읽고 인식할 수 있습니다.
+그러나 형식이 적절하게 지정된 메타데이터 파일은 이 크리에이티브를 "광고주 Creative A" 와 같은 실제 이름으로 다시 연결할 수 있습니다. 이 이름은 보고서에서 읽고 인식할 수 있습니다.
 
 ### 메타데이터 파일이 필요한 시기
 
@@ -106,7 +106,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
 
 ### 이벤트 호출
 
-In this example we&#39;ll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. 이렇게 하려면 이벤트 호출에서 크리에이티브, 캠페인 및 데이터 소스 ID를 추출해야 합니다.
+In this example we'll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. 이렇게 하려면 이벤트 호출에서 크리에이티브, 캠페인 및 데이터 소스 ID를 추출해야 합니다.
 
 ![](assets/metadata_file_event.png)
 

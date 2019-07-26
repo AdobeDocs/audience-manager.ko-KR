@@ -19,7 +19,7 @@ source-git-commit: f7206fda4b16a22c8a8bfcf97529cdaea24b0898
 
 ### IP 난독화 방법론
 
-&quot; 개인 정보 보호 중심의 설계 &quot;의 원칙을 따르는 Adobe Audience Manager를 사용하면 모든 지리적 지역 또는 특정 국가에서 전 세계적으로 IP 난독화를 활성화할 수 있습니다. 이 설정을 활성화하면 IP 주소가 Audience Manager로 인제스트되면 IP 주소의 마지막 옥텟 (마지막 부분) 이 즉시 무시됩니다. Audience Manager는 처리하기 전에 IP 주소의 이 부분을 삭제합니다 (선택 사항인 지리적 조회 또는 IP 주소의 기록 전). 예:
+" 개인 정보 보호 중심의 설계 "의 원칙을 따르는 Adobe Audience Manager를 사용하면 모든 지리적 지역 또는 특정 국가에서 전 세계적으로 IP 난독화를 활성화할 수 있습니다. 이 설정을 활성화하면 IP 주소가 Audience Manager로 인제스트되면 IP 주소의 마지막 옥텟 (마지막 부분) 이 즉시 무시됩니다. Audience Manager는 처리하기 전에 IP 주소의 이 부분을 삭제합니다 (선택 사항인 지리적 조회 또는 IP 주소의 기록 전). 예:
 
 * Before obfuscation: `255.255.255.255`
 * After obfuscation: `255.255.255.0`
@@ -41,7 +41,7 @@ IP 주소 난독화는 Audience Manager 관리자 계정에서만 사용할 수 
 1. Log in to Audience Manager with an administrator account and go to **Administration &gt; Privacy**.
 2. 사용할 IP 난독화의 유형을 선택합니다.
    1. **모든 IP 주소 난독화:** 이 옵션을 선택하면 Audience Manager가 원본 위치에 관계없이 모든 방문자 IP 주소의 마지막 옥텟을 난독화할 수 있습니다.
-   2. **특정 국가의 IP 주소 난독화:** Audience Manager가 특정 국가의 방문자 IP 주소 중 마지막 옥텟을 난독화하도록 하려면 이 옵션을 선택합니다. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you&#39;ve added all the required countries to the **Selected for Obfuscation** list, click **Save**.
+   2. **특정 국가의 IP 주소 난독화:** Audience Manager가 특정 국가의 방문자 IP 주소 중 마지막 옥텟을 난독화하도록 하려면 이 옵션을 선택합니다. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you've added all the required countries to the **Selected for Obfuscation** list, click **Save**.
 
 ![](assets/ip-obfuscation.png)
 
@@ -49,7 +49,7 @@ IP 주소 난독화는 Audience Manager 관리자 계정에서만 사용할 수 
 
 To disable IP address obfuscation globally, go to **Administration &gt; Privacy**, select **Do not obfuscate IP addresses**, and click **Save**.
 
-To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you&#39;re done.
+To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you're done.
 
 ## 관련 개념 {#related-concepts}
 

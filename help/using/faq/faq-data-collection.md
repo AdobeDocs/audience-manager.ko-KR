@@ -99,7 +99,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **고객이 아닌 경우 페이지 데이터를 수집할[!DNL Analytics]수 있습니까?**
 
-예. The [!UICONTROL DIL] module helps you collect page data even if you&#39;re not using [!DNL Analytics]. When set up properly, [!UICONTROL DIL] can capture data from and about:
+예. The [!UICONTROL DIL] module helps you collect page data even if you're not using [!DNL Analytics]. When set up properly, [!UICONTROL DIL] can capture data from and about:
 
 * meta 태그
 * URL 및 URL 헤더
@@ -121,7 +121,7 @@ Additionally, clients can deploy a simple onsite object and populate it with key
 
 **원시 데이터를[!DNL Audience Manager]가져올 수 있습니까?**
 
-Yes, [!DNL Audience Manager] can provide you with data collected for users we&#39;ve seen on your inventory. 여기에는 다음 항목이 포함되어 있습니다.
+Yes, [!DNL Audience Manager] can provide you with data collected for users we've seen on your inventory. 여기에는 다음 항목이 포함되어 있습니다.
 
 * The unique user ID (UUID) assigned by [!DNL Audience Manager]
 * 특성 및 세그먼트 ID
@@ -131,7 +131,7 @@ Yes, [!DNL Audience Manager] can provide you with data collected for users we&#3
 
 <br> 
 
-**한 사이트에서 데이터를 수집하고 다른 사이트에서 DFP를 통해 사용자를 타깃팅하려고 합니다. Do I need to deploy code on the other property if I don&#39;t want to collect data from that location?**
+**한 사이트에서 데이터를 수집하고 다른 사이트에서 DFP를 통해 사용자를 타깃팅하려고 합니다. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
 아니요. 두 번째 사이트의 데이터 수집이 요구 사항이 아닐 경우, DIL를 거기에 배포하지 않아도 됩니다. DFP를 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 경우 초기 사이트 및 DFP를 통해 Target의 데이터 수집을 사용할 수 있습니다.
 

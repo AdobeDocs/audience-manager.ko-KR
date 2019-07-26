@@ -72,7 +72,7 @@ To optimize traffic between [!UICONTROL IRIS] and segment destinations, [!UICONT
 
 >[!IMPORTANT]
 >
->If Audience Manager doesn&#39;t detect any of the updates above for 3 consecutive days, [!UICONTROL IRIS] sends all segments associated to a device to all of the destinations mapped to these segments, the next time Audience Manager sees the device.
+>If Audience Manager doesn't detect any of the updates above for 3 consecutive days, [!UICONTROL IRIS] sends all segments associated to a device to all of the destinations mapped to these segments, the next time Audience Manager sees the device.
 
 **샘플 데이터 파일**
 

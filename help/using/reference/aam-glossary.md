@@ -19,7 +19,7 @@ source-git-commit: d5a8b763d2d0d1ceebe2252ebd283943dcbc1754
 
 **알고리즘 모델링**
 
-Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you&#39;ve identified. 이 기능은 자동화된 데이터 분석을 통해 고유한 신규 고객을 발견하는 데 도움이 됩니다. [!UICONTROL Algorithmic Models]**[!UICONTROL Audience Data > Models]** 관리
+Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you've identified. 이 기능은 자동화된 데이터 분석을 통해 고유한 신규 고객을 발견하는 데 도움이 됩니다. [!UICONTROL Algorithmic Models]**[!UICONTROL Audience Data > Models]**&#x200B;관리
 
 See [Understanding Algorithmic Models](../features/algorithmic-models/understanding-models.md#understanding-models).
 
@@ -78,7 +78,7 @@ See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mclou
 
 **demdex.net**
 
-Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audience Manager]&#39;s original, pre-acquisition name ( [!DNL Demdex]). [!DNL Adobe] 2011 년 인수되었으며 회사 [!DNL Demdex] 브랜드에 [!DNL Audience Manager]다시 브랜드 All HTTP calls to `demdex.net` domains are calls sent in to [!DNL Adobe].
+Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audience Manager]'s original, pre-acquisition name ( [!DNL Demdex]). [!DNL Adobe] 2011 년 인수되었으며 회사 [!DNL Demdex] 브랜드에 [!DNL Audience Manager]다시 브랜드 All HTTP calls to `demdex.net` domains are calls sent in to [!DNL Adobe].
 
 [Demdex 도메인에 대한 호출 이해](../reference/demdex-calls.md)를 참조 하십시오.
 
@@ -94,7 +94,7 @@ See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 **대상**
 
-In [!DNL Audience Manager], a destination is any other system (ad server, DSP, ad network, etc.) 로 데이터를 공유할 수 있습니다. The [!UICONTROL Destination Builder] in our UI provides the tools that let you create and manage these data delivery processes. [!DNL Audience Manager] 대상 기능은 **[!UICONTROL Audience Data > Destinations]** 에 있습니다.
+In [!DNL Audience Manager], a destination is any other system (ad server, DSP, ad network, etc.) 로 데이터를 공유할 수 있습니다. The [!UICONTROL Destination Builder] in our UI provides the tools that let you create and manage these data delivery processes. [!DNL Audience Manager] 대상 기능은 **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
 
 <br> 
 
@@ -140,7 +140,7 @@ Google 광고 ID: Google 이 Android 운영 체제를 실행하는 하드웨어 
 
 **GUID**
 
-전역 고유 식별자에 대한 약어. We don&#39;t use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID.
+전역 고유 식별자에 대한 약어. We don't use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID.
 See [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 ## I-J {#i-j}

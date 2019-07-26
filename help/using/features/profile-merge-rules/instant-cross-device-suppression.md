@@ -54,10 +54,10 @@ The technical details of the real-time unsegmentation are described in length in
 처리와 관련된 다음과 같은 측면을 염두에 두십시오.
 
 * 실시간으로 세그먼트 해제 기능을 사용하려면 원하는 세그먼트를 realtime server-to-server 대상에 매핑해야 합니다.
-* [장치 그래프로](../../features/profile-merge-rules/profile-link-use-case.md#recommendations)장치에 연결된 장치의 경우, 평가 및 세그먼테이션과 관련하여 4 장치 제한이 적용됩니다. This limitation is described in [Device Graph Options and Device Unsegmentation](../../features/profile-merge-rules/merge-rule-unsegment.md#device-graph-options-unsegmentation).​
+* [장치 그래프로](../../features/profile-merge-rules/profile-link-use-case.md#recommendations)장치에 연결된 장치의 경우, 평가 및 세그먼테이션과 관련하여 4 장치 제한이 적용됩니다. This limitation is described in [Device Graph Options and Device Unsegmentation](../../features/profile-merge-rules/merge-rule-unsegment.md#device-graph-options-unsegmentation).&#x200B;
 * 세그먼트 해제 명령은 장치 그래프로 연결된 여러 장치에 대해 24 시간마다 대상에 전송되는 일괄 처리 파일에 포함됩니다.
 * The device must be seen in real-time (on the [Edge](../../reference/system-components/components-edge.md)) to prompt segment evaluation. [!UICONTROL time-to-live (TTL)] 값이 있는 트레이트에 대해, 트레이트 [!DNL TTL] 충족 경우에도 *장치가* 다음에 표시될 때까지 장치가 자동으로 분할되지 않습니다. Read more about how to [Set a Trait Expiration Interval](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
-* If you are using the [!UICONTROL DCS API] to on-board rule-based traits in real-time, you can trigger the unsegment with the use of the [!UICONTROL AND NOT] logic. Read more about [sending data to the DCS API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).​
+* If you are using the [!UICONTROL DCS API] to on-board rule-based traits in real-time, you can trigger the unsegment with the use of the [!UICONTROL AND NOT] logic. Read more about [sending data to the DCS API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).&#x200B;
 
 ## Important Aspects to Note - Timing {#timing-notes}
 

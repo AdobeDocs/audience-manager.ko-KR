@@ -19,7 +19,7 @@ source-git-commit: 21b2505ac6cdf97b401bf0b0ac80bf1964f084b8
 
 ## Private Data Feeds for Providers {#private-data-feeds-providers}
 
-제공업체에서는 데이터 피드가 공개 또는 비공개일 수 있습니다. 비공개 데이터 피드를 사용하면 데이터 판매자 이름을 포함하여 구매자의 데이터 액세스를 제한할 수 있습니다. 특별 거래, 할인 또는 개인 정보 및 액세스 제어 기능이 중요한 경우 개인 데이터 피드를 만들어 제공할 수 있습니다. 비공개 데이터 피드를 사용하면 구매자 요청을 검토하고 승인할 수 있습니다. 요청을 승인하면 피드가 구매자에게 공개 데이터 피드처럼 보입니다. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. 아래에서 보듯이, 이 유형의 피드는 상태 열에 &quot;비공개&quot; 로 표시됩니다.
+제공업체에서는 데이터 피드가 공개 또는 비공개일 수 있습니다. 비공개 데이터 피드를 사용하면 데이터 판매자 이름을 포함하여 구매자의 데이터 액세스를 제한할 수 있습니다. 특별 거래, 할인 또는 개인 정보 및 액세스 제어 기능이 중요한 경우 개인 데이터 피드를 만들어 제공할 수 있습니다. 비공개 데이터 피드를 사용하면 구매자 요청을 검토하고 승인할 수 있습니다. 요청을 승인하면 피드가 구매자에게 공개 데이터 피드처럼 보입니다. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. 아래에서 보듯이, 이 유형의 피드는 상태 열에 "비공개" 로 표시됩니다.
 
 ![](assets/my_shared_data.png)
 
@@ -126,7 +126,7 @@ Audience Manager 계정에서 다음 항목으로 새 쿠키 데이터 소스를
 
 ![](assets/create-datasource.png)
 
-**저장을** 클릭하면 **트레이트 스토리지 &gt; 타사 데이터에 새 하위 폴더가 자동으로 만들어집니다**.
+**저장을**&#x200B;클릭하면 **트레이트 스토리지 &gt; 타사 데이터에 새 하위 폴더가 자동으로 만들어집니다**.
 
 ![](assets/folder-structure.png)
 

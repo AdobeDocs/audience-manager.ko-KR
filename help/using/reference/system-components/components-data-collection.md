@@ -58,7 +58,7 @@ As a customer, you engage with the [!UICONTROL DCS] indirectly through our data 
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-The [!UICONTROL PCS] is a large database (basically, a huge server-side cookie). It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] 데이터는 장치 ID, 인증된 프로필 ID 및 관련 트레이트로 구성됩니다. When the [!UICONTROL DCS] receives a real time call, it checks the [!UICONTROL PCS] for other traits a user may belong to or qualify for. And, if a trait is added to a segment at a later time, those trait IDs are added to the [!UICONTROL PCS] and users can qualify for that segment automatically, without a visit to a particular site or app. The [!UICONTROL PCS] helps deepen [!DNL Audience Manager]&#39;s understanding of your users because it can match and segment users in real time or behind the scenes with new and historic trait data. 이러한 행동은 실시간 자격 조건에 비해 사용자를 보다 완전하고 정확하게 파악할 수 있습니다.
+The [!UICONTROL PCS] is a large database (basically, a huge server-side cookie). It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] 데이터는 장치 ID, 인증된 프로필 ID 및 관련 트레이트로 구성됩니다. When the [!UICONTROL DCS] receives a real time call, it checks the [!UICONTROL PCS] for other traits a user may belong to or qualify for. And, if a trait is added to a segment at a later time, those trait IDs are added to the [!UICONTROL PCS] and users can qualify for that segment automatically, without a visit to a particular site or app. The [!UICONTROL PCS] helps deepen [!DNL Audience Manager]'s understanding of your users because it can match and segment users in real time or behind the scenes with new and historic trait data. 이러한 행동은 실시간 자격 조건에 비해 사용자를 보다 완전하고 정확하게 파악할 수 있습니다.
 
 There are no UI controls that lets our customers work directly with the [!UICONTROL PCS]. Customer access to the [!UICONTROL PCS] is indirect, through its role as a data store and data transfers. The [!UICONTROL PCS] runs on Apache Cassandra.
 
@@ -75,7 +75,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-The [!UICONTROL PCS] flushes traits if they&#39;re inactive for 17-days. 그러나 이러한 특징은 손실되지 않습니다. Hadoop에 저장됩니다. If the user is seen again at another time, then Hadoop pushes all of their traits back to the [!UICONTROL PCS], typically within a 24-hour period.
+The [!UICONTROL PCS] flushes traits if they're inactive for 17-days. 그러나 이러한 특징은 손실되지 않습니다. Hadoop에 저장됩니다. If the user is seen again at another time, then Hadoop pushes all of their traits back to the [!UICONTROL PCS], typically within a 24-hour period.
 
 **기타[!UICONTROL DCS/PCS]프로세스: 개인 정보 옵트아웃**
 

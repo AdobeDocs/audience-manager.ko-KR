@@ -28,7 +28,7 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 * Audience Manager는 세그먼트 규칙과 유사한 최대 50 개의 트레이트를 표시합니다.
 * 권장 사항을 보지 않으려는 데이터 소스를 필터링할 수 있습니다.
 * When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
-* &quot; 유사한 트레이트가 없습니다. 특성 너무 새로워질 수 있습니다. &quot; 즉, 지난 30 일 동안 해당 트레이트에 대한 활동이 없었거나 Audience Manager에서 해당 트레이트에 대한 권장 사항을 업데이트하지 않았음을 의미합니다. 24 시간 후에 다시 시도하십시오.
+* " 유사한 트레이트가 없습니다. 특성 너무 새로워질 수 있습니다. " 즉, 지난 30 일 동안 해당 트레이트에 대한 활동이 없었거나 Audience Manager에서 해당 트레이트에 대한 권장 사항을 업데이트하지 않았음을 의미합니다. 24 시간 후에 다시 시도하십시오.
 
 ## 사용 사례
 
@@ -125,7 +125,7 @@ Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two t
 
 ### 예제 1 - 낮은 특성 유사점 점수
 
-Given two traits A and B, let&#39;s say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
+Given two traits A and B, let's say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
 Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low [!UICONTROL Trait Similarity Score], the two traits are very dissimilar.
 
 ![](assets/Trait-Recommendations-Low-overlap.png)

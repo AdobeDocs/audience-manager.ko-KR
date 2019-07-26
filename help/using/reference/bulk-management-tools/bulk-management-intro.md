@@ -104,7 +104,7 @@ The table below lists the operations you can perform and items you can manipulat
 API 인증을 설정하려면 다음을 수행해야 합니다.
 
 * 비밀 키를 복사하여 텍스트 (.txt) 파일로 저장합니다.
-* 텍스트 파일의 이름을 API 클라이언트 ID로 지정합니다. 예를 들어 클라이언트 ID가 &quot;bulk-user&quot; 인 경우 &quot;bulk-user. txt&quot; 라는 파일에 키를 저장합니다.
+* 텍스트 파일의 이름을 API 클라이언트 ID로 지정합니다. 예를 들어 클라이언트 ID가 "bulk-user" 인 경우 "bulk-user. txt" 라는 파일에 키를 저장합니다.
 * 비밀 키와 워크시트를 같은 폴더에 저장합니다.
 
 일괄적으로 변경할 때 사용자 이름, 암호, 클라이언트 ID 및 도메인을 입력해야 하지만 API 인증은 자동으로 이루어집니다.

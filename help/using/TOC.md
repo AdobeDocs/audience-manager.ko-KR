@@ -149,7 +149,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [고유한 사용자 도달](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
          + [보고된 전환 특성](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
          + [크로스 채널 전환](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
-      + 게시자에 대한 대상 최적화 {#audience-optimization-publishers}
+      + 게시자를 위한 Audience Optimization{#audience-optimization-publishers}
          + [출판업체를 위한 고객 최적화 개요](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
          + [DFP 데이터 파일을 Audience Manager에 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [세그먼트 성능 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)

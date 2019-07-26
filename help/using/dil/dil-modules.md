@@ -152,7 +152,7 @@ dil-google-universal-analytics.xml
 >* [!DNL Audience Manager] Google `analytics.js` 코드 라이브러리에 대한 통찰력이나 제어가 없습니다. You should verify that [!UICONTROL DIL] data collection is still working if or when Google releases new versions of `analytics.js`.
    >
    >
-* You cannot use `GA.submitUniversalAnalytics();` if you&#39;re still working with Google&#39;s legacy analytics tracking code (e.g., `ga.js` or `dc.js`). [ga. init를](../dil/dil-modules.md#ga-init) 대신 참조하십시오.
+* You cannot use `GA.submitUniversalAnalytics();` if you're still working with Google's legacy analytics tracking code (e.g., `ga.js` or `dc.js`). [ga. init를](../dil/dil-modules.md#ga-init) 대신 참조하십시오.
 >
 
 

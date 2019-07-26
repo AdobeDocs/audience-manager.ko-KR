@@ -29,7 +29,7 @@ You can use several different types and sources of models in [!DNL Audience Mana
 1. 두 모델의 사용자가 겹치지 않도록 상호 배타적인 세그먼트를 만듭니다.
 
    * *모델 1 세그먼트와* *모델 2 세그먼트를 만듭니다*.
-   * *모델 1 세그먼트에* 대한 세그먼트 규칙은 모델 1 트레이트 [!DNL AND NOT] 모델 2 트레이트, 그 반대로 *모델 2 세그먼트에 대한 세그먼트 규칙이 있어야*합니다.
+   * *모델 1 세그먼트에* 대한 세그먼트 규칙은 모델 1 트레이트 [!DNL AND NOT] 모델 2 트레이트, 그 반대로 *모델 2 세그먼트에 대한 세그먼트 규칙이 있어야*&#x200B;합니다.
 
 1. [두 세그먼트 테스트 그룹을](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) 만듭니다. [!UICONTROL Audience Lab]하나는 *모델 1 세그먼트가* 있고, 다른 하나는 *모델 2 세그먼트가* 있는 세그먼트 테스트 그룹입니다.
 
@@ -40,7 +40,7 @@ You can use several different types and sources of models in [!DNL Audience Mana
 1. 결과 검사:
 
    * [Audience Lab 보고 보기에는](../../features/audience-lab/audience-lab-reporting-view.md) 각 모델이 운전하는 전환 수가 표시됩니다. 전환 기반 캠페인의 경우 가장 많은 전환을 유도하는 테스트 세그먼트는 성과가 가장 좋은 모델을 나타냅니다.
-   * 제어 세그먼트가 있으므로 모델이 &quot;표준 타깃팅&quot; 에 대해 어떻게 수행되었는지 평가할 수도 있습니다. 단순히 하나의 모델과 다른 모델을 테스트하는 것뿐만 아니라 &quot;이 모델이 정상적인 관행보다 더 나은 방법은 무엇입니까?&quot; 라는 질문을 테스트하는 것입니다.
+   * 제어 세그먼트가 있으므로 모델이 "표준 타깃팅" 에 대해 어떻게 수행되었는지 평가할 수도 있습니다. 단순히 하나의 모델과 다른 모델을 테스트하는 것뿐만 아니라 "이 모델이 정상적인 관행보다 더 나은 방법은 무엇입니까?" 라는 질문을 테스트하는 것입니다.
 
 ## Testing Creatives Across Destinations {#testing-creatives}
 
@@ -55,4 +55,4 @@ Use [!UICONTROL Audience Lab] to measure the number of conversions a creative is
 1. 테스트의 시작 날짜 및 종료 날짜를 지정합니다.
 1. 대상에 세그먼트와 크리에이티브를 설정합니다.
 1. [Audience Lab 보고 보기에는](../../features/audience-lab/audience-lab-reporting-view.md) 크리에이티브가 대상으로 하는 전환 수가 표시됩니다.
-1. 제어 세그먼트를 만들었으므로 크리에이티브가 자연적으로 발생하는 전환을 기준으로 한 방법을 평가할 수도 있습니다. 다음 질문을 테스트하고 있습니다. &quot; 이 크리에이티브는 일반 관행보다 전환율을 높였습니다. &quot;
+1. 제어 세그먼트를 만들었으므로 크리에이티브가 자연적으로 발생하는 전환을 기준으로 한 방법을 평가할 수도 있습니다. 다음 질문을 테스트하고 있습니다. " 이 크리에이티브는 일반 관행보다 전환율을 높였습니다. "

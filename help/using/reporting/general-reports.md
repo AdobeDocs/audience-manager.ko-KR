@@ -58,7 +58,7 @@ t_run_general_report.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** 대시보드에서 **[!UICONTROL General Reports]** 를 클릭합니다.
+1. **[!UICONTROL Analytics]** 대시보드에서 **[!UICONTROL General Reports]**&#x200B;를 클릭합니다.
 1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: Trait, Segment, or Destination.
 1. *조건부* 날짜 상자를 클릭하여 달력을 표시한 다음 오늘이 아닌 날짜를 지정하려면 보고서의 종료 날짜를 선택합니다.
 1. 특성, 세그먼트 또는 대상을 이름이나 ID 별로 검색합니다.

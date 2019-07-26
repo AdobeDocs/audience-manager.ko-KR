@@ -17,7 +17,7 @@ Add an if statement to check for Audience Manager cookies before calling the [!D
 
 ## Check for Audience Manager Cookies With an `IF` Statement
 
-`.setTargeting` 이 메서드는 Audience Manager 대상 쿠키와 고유한 사용자 ID 쿠키 ( `aam_uuid`) 의 데이터를 가져옵니다. However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they&#39;re not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
+`.setTargeting` 이 메서드는 Audience Manager 대상 쿠키와 고유한 사용자 ID 쿠키 ( `aam_uuid`) 의 데이터를 가져옵니다. However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they're not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
 
 ### `IF` 문 코드 샘플
 

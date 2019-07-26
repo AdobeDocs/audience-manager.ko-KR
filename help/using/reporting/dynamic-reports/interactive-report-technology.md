@@ -126,5 +126,5 @@ For example, say you want to select several advertisers in the [!UICONTROL Overl
 
 | 보고서 | 검색을 찾으려면 마우스를 |
 |---|---|
-| [!UICONTROL Delivery and Performance] 보고서에 표시됩니다 | &quot; 광고주 이름 &quot;레이블. |
-| [!UICONTROL Overlap] 보고서 | &quot; SID 이름 &quot;레이블입니다. |
+| [!UICONTROL Delivery and Performance] 보고서에 표시되지 않습니다 | " 광고주 이름 "레이블. |
+| [!UICONTROL Overlap] 보고서 | " SID 이름 "레이블입니다. |

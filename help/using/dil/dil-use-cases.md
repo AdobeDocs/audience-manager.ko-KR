@@ -133,7 +133,7 @@ By default, `DIL.getSearchReferrer` recognizes searches from these search engine
 
 **설명**
 
-다음 코드는 지원되는 검색 엔진에 대한 검색 레퍼러를 가져오는 방법을 보여줍니다. In this case, let&#39;s assume a user searched on the term &quot;homes&quot; from [!DNL Google] Canada ( `www.google.ca`). 이 코드는 해당 검색어를 캡처하여 Audience Manager로 전송하는 데 도움이 됩니다.
+다음 코드는 지원되는 검색 엔진에 대한 검색 레퍼러를 가져오는 방법을 보여줍니다. In this case, let's assume a user searched on the term "homes" from [!DNL Google] Canada ( `www.google.ca`). 이 코드는 해당 검색어를 캡처하여 Audience Manager로 전송하는 데 도움이 됩니다.
 
 **기본 코드**
 
@@ -145,7 +145,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **나열된 검색 엔진 코드 샘플**
 
-In this case, let&#39;s assume that a user searched for the term &quot;homes&quot; from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` 는 고객 지정 변수로서 Audience Manager에 이를 식별하는 [필수 접두사입니다](../features/traits/trait-variable-prefixes.md) .
+In this case, let's assume that a user searched for the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` 는 고객 지정 변수로서 Audience Manager에 이를 식별하는 [필수 접두사입니다](../features/traits/trait-variable-prefixes.md) .
 
 <pre class="java"><code>var adobe_ dil = dil. create ({partner: "<i>Partner Name</i>"}); 
 var search_ referrer = dil. tools. getsearchreferrer (); 
@@ -160,7 +160,7 @@ if (search_ referrer &amp; &amp; search_ referrer. valid) {
 
 **목록에 없는 검색 엔진 코드 샘플**
 
-In this case, let&#39;s assume that a user searched for the term &quot;homes&quot; from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. 코드는 다음과 비슷합니다.
+In this case, let's assume that a user searched for the term "homes" from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. 코드는 다음과 비슷합니다.
 
 <pre class="java"><code>var adobe_ dil = dil. create ({partner: "<i>Partner Name</i>"}); 
 var search_ referrer = dil. tools. getsearchreferrer (document. referrer, { 

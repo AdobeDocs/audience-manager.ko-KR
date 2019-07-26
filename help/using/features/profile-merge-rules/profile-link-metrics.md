@@ -114,7 +114,7 @@ A [!UICONTROL Profile Link] report that includes device graph data from the [!UI
 
 ## Profile Link Trend Graphs {#profile-link-trend}
 
-In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. 라인 그래프는 프로필 규칙에 따른 트렌드를 보여주도록 설계되었습니다. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you&#39;re a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. 트렌드 라인을 클릭하면 기본 데이터가 표시됩니다.
+In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. 라인 그래프는 프로필 규칙에 따른 트렌드를 보여주도록 설계되었습니다. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you're a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. 트렌드 라인을 클릭하면 기본 데이터가 표시됩니다.
 
 ![](assets/authenticated_trends.png)
 

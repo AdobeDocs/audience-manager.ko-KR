@@ -68,7 +68,7 @@ For information about resetting your password, see [Edit Your Account Settings](
 
 **계정 잠금**
 
-5 회 실패한 로그인 시도 후에 계정이 잠깁니다. Contact your company&#39;s [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
+5 회 실패한 로그인 시도 후에 계정이 잠깁니다. Contact your company's [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
 
 **분실/분실 암호**
 

@@ -17,7 +17,7 @@ Audience Manager가 데이터 파트너에게 세그먼트 정보를 보내면 �
 
 ## Manual method {#manual-method}
 
-데이터 파트너는 수동 프로세스를 통해 고객의 메타데이터를 가져오는 데 익숙해질 수 있습니다. This could include files attached to emails or from customers adding that data through a [!DNL UI] you&#39;ve built and maintained for this purpose. 이러한 프로세스는 작동하지만 번거롭고 시간이 많이 소요되며 수동으로 데이터를 입력해야 할 수도 있습니다. 이러한 메서드는 통합을 빠르게 시작하고 실행하는 데 도움이 되지만, 장기적으로 최상의 고객 경험을 제공하지 않습니다. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
+데이터 파트너는 수동 프로세스를 통해 고객의 메타데이터를 가져오는 데 익숙해질 수 있습니다. This could include files attached to emails or from customers adding that data through a [!DNL UI] you've built and maintained for this purpose. 이러한 프로세스는 작동하지만 번거롭고 시간이 많이 소요되며 수동으로 데이터를 입력해야 할 수도 있습니다. 이러한 메서드는 통합을 빠르게 시작하고 실행하는 데 도움이 되지만, 장기적으로 최상의 고객 경험을 제공하지 않습니다. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
 
 ## Automated method {#automated-method}
 
@@ -25,7 +25,7 @@ Audience Manager가 데이터 파트너에게 세그먼트 정보를 보내면 �
 
 ### 1 단계: Audience Manager API 검토
 
-The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven&#39;t worked with the [!DNL Audience Manager] [!DNL API] before.
+The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] [!DNL API] before.
 
 ### 2 단계: OAuth 2 액세스 자격 증명 요청
 

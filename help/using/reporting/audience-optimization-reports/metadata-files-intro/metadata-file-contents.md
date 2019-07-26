@@ -31,7 +31,7 @@ The third column **-1** is technically the Parent ID, which is a legacy field. T
 
 **^ A (Control-A 또는 ASCII 001) 와 파일 항목 구분**
 
-Use `^a` (control-A or ASCII 001) to separate content in your metadata files. 이것이 인쇄되지 않는 문자이므로 위의 구문의 예는 파이프 &quot;|&quot; 표시 목적으로만 제공됩니다.
+Use `^a` (control-A or ASCII 001) to separate content in your metadata files. 이것이 인쇄되지 않는 문자이므로 위의 구문의 예는 파이프 "|" 표시 목적으로만 제공됩니다.
 
 If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). 파일의 압축을 풀고 편집기에서 편집하고 실제 메타데이터 컨텐츠에 따라 조정하면 필요한 구분 기호가 이미 포함되어 있습니다.
 

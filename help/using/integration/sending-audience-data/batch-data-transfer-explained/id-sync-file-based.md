@@ -110,7 +110,7 @@ The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-i
 | 66552757407517449462805881945288602094 | xyz 3017 qvbddd-bljs 28 dpxiqufmibxe 3_ 55 bvqjmlwregju 2 m |
 | 66184778222667870903738139438735041506 | xyz 3017 q 9 r 60 kuhpoca_ ek-btcn 2 iu 1 hyvaue 0 rd 412 tzbycmw |
 
-Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] &quot;0&quot; in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
+Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] "0" in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
 **파일 2** (샘플 파일 [다운로드](assets/adobe_id_12345_67890_1477846458.sync))

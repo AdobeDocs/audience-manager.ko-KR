@@ -25,7 +25,7 @@ You can send data to [!DNL Audience Manager] for use in these reports by either 
 
 ## Role-Based Access Controls (RBAC) {#rbac}
 
-The type of reports you can view depend on the [!UICONTROL RBAC] group you&#39;re assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
+The type of reports you can view depend on the [!UICONTROL RBAC] group you're assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
 
 [!UICONTROL RBAC] 보고서를 보려면 그룹에 일부 Data Sources 설정이 [!UICONTROL Audience Optimization] 설정되어 있어야 합니다. [!DNL Audience Manager] 컨설턴트가 이러한 데이터 소스를 설정합니다. The more data sources in each [!UICONTROL RBAC] user group, the more data those group members will have access to. 컨설턴트는 최소한 최소한 다음과 같은 Data Sources 중 하나를 설정합니다.
 
@@ -33,7 +33,7 @@ The type of reports you can view depend on the [!UICONTROL RBAC] group you&#39;r
 * 브랜드 데이터 소스
 * 플랫폼 데이터 소스
 
-Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group&#39;s view. 표시된 데이터가 선택한 그룹을 고려하여 업데이트됩니다. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
+Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group's view. 표시된 데이터가 선택한 그룹을 고려하여 업데이트됩니다. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
 
 ## Conversion Groups {#conversion-groups}
 

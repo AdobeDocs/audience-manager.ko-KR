@@ -25,12 +25,12 @@ A [!UICONTROL folder trait] is created automatically when you create a new folde
 1. **[!UICONTROL Audience Data > Traits]****트레이트** 대시보드로 이동하려면 이동합니다.
 1. [!UICONTROL Trait Storage] 창에서 마우스를 가리킵니다.
 
-   * &quot; 모든 트레이트 &quot;텍스트를 사용하여 새로운 루트 수준 폴더를 추가합니다.
+   * " 모든 트레이트 "텍스트를 사용하여 새로운 루트 수준 폴더를 추가합니다.
    * 새 하위 폴더를 추가할 기존 상위 폴더입니다.
    ![](assets/folder_traits_create.PNG)
 
 1. 폴더를 만들려면 + 아이콘을 클릭합니다. 분류에 최대 2000개의 폴더를 만들 수 있습니다. 자세한 내용은 [사용 제한](../../features/administration/usage-limits.md) 문서를 참조하십시오.
-1. Name the folder and click **Save**. 예를 들어 Electronics 라는 이름의 폴더에&#39;Electronics Folder Trait&#39;라는 이름의 폴더 속성이 있습니다. Traits 대시보드에서 새 폴더 트레이트를 보고 선택할 수 있습니다.
+1. Name the folder and click **Save**. 예를 들어 Electronics 라는 이름의 폴더에'Electronics Folder Trait'라는 이름의 폴더 속성이 있습니다. Traits 대시보드에서 새 폴더 트레이트를 보고 선택할 수 있습니다.
 1. The new folder trait is automatically assigned to the [!DNL Audience Manager] generated data source. Your users with appropriate [!UICONTROL Role-Based Access Control ([!DNL RBAC])] permissions can change the data source in the edit folder trait workflow. See [Edit a Folder Trait](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
 ## Edit a Folder Trait {#edit-folder-trait}

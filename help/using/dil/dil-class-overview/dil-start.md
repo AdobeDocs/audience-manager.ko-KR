@@ -28,6 +28,6 @@ c_class_start.xml
 When working with the class-level [!UICONTROL DIL] APIs:
 
 * 액세스 권한은 파트너 이름과 컨테이너 네임스페이스 ID (NSID) 가 필요합니다. 이 정보를 얻으려면 Audience Manager 계정 관리자에게 문의하십시오.
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you&#39;re working with.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
 * [!UICONTROL DIL] 인코딩된 데이터를 대상 쿠키에 씁니다. For example, spaces are encoded as `%20` and semicolons as `%3B`.
 

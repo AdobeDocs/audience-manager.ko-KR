@@ -77,7 +77,7 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 The [!UICONTROL Addressable Audience] feature turns this abstract concept into quantifiable data. In [!DNL Audience Manager], this feature displays audience overlap with data visualizations that provide at-a-glance information along with numeric data in tabular form.
 
-[!UICONTROL Addressable Audiences]**[!UICONTROL Audience Data > Destinations]** 에 있습니다. Select **[!UICONTROL Integrated Platforms > Device-Based]** to see addressable audiences metrics.
+[!UICONTROL Addressable Audiences]**[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다. Select **[!UICONTROL Integrated Platforms > Device-Based]** to see addressable audiences metrics.
 
 ![](assets/addressable-audiences-landing.png)
 
@@ -131,7 +131,7 @@ All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones i
 
 [!UICONTROL Addressable Audience] AND [!UICONTROL Destination] 지표는 선택한 시간 간격에 대한 고유 사용자의 수를 반환합니다. 예를 들어 방문자가 사이트에 여러 번 방문하는 경우에도 한 번만 카운트됩니다. 첫 번째 방문은 고유 방문이며 기록됩니다. 이후의 방문은 방문을 반환하며 고유하지 않기 때문에 카운트되지 않습니다.
 
-날짜 범위에는 선택한 시간 간격 이상의 데이터가 포함됩니다. 또한 시간이 경과함에 따라 각 보고서 간격에서 데이터가 삭제됩니다. For example, let&#39;s assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. 보고서에서 이러한 방문자는 다음과 같습니다.
+날짜 범위에는 선택한 시간 간격 이상의 데이터가 포함됩니다. 또한 시간이 경과함에 따라 각 보고서 간격에서 데이터가 삭제됩니다. For example, let's assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. 보고서에서 이러한 방문자는 다음과 같습니다.
 
 * *긴 시간 간격 (60 일, 90 일 및 라이프타임) 에 의해 반환된 결과에* 포함됩니다.
 * *옵션 앞에 오는 짧은 간격에* 포함되지 [!UICONTROL Last 30 Day] 않습니다 (현재, 7 일 및 14 일).
@@ -234,11 +234,11 @@ These metrics return data for traits realized when visitors come to your site or
 
 ## Comparing Customer and Segment Addressable Audiences{#comparing-metrics}
 
-You shouldn&#39;t compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. 이것은 별도의 지표, 서로 다른 지표 및 독립적인 지표입니다. 위의 정의에 설명된 바와 같이, 이 변수들 각각은 서로 다른 데이터 세트에서 파생됩니다. 따라서 한 지표가 다른 지표가 더 큰 경우 결론을 도출하지 마십시오. 비교할 때 다음과 같은 것이 가능합니다.
+You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. 이것은 별도의 지표, 서로 다른 지표 및 독립적인 지표입니다. 위의 정의에 설명된 바와 같이, 이 변수들 각각은 서로 다른 데이터 세트에서 파생됩니다. 따라서 한 지표가 다른 지표가 더 큰 경우 결론을 도출하지 마십시오. 비교할 때 다음과 같은 것이 가능합니다.
 
-* [!UICONTROL Customer Addressable Audiences] 고유한 자사 데이터에 *대한 특성 구현을 기반으로*합니다. 이 지표는 데이터 파트너와의 통합에 대한 포괄적이고 포괄적인 보기를 제공합니다.
+* [!UICONTROL Customer Addressable Audiences] 고유한 자사 데이터에 *대한 특성 구현을 기반으로*&#x200B;합니다. 이 지표는 데이터 파트너와의 통합에 대한 포괄적이고 포괄적인 보기를 제공합니다.
 
-* [!UICONTROL Segment Addressable Audiences] 는 자사 데이터, 제 2 자 데이터 및 제 3 자 데이터의 세그먼트 자격 조건을 *기반으로*합니다. 이 지표는 타깃팅 플랫폼에서 지정 가능 대상을 세부적으로, 보다 정확하게 보여줍니다.
+* [!UICONTROL Segment Addressable Audiences] 는 자사 데이터, 제 2 자 데이터 및 제 3 자 데이터의 세그먼트 자격 조건을 *기반으로*&#x200B;합니다. 이 지표는 타깃팅 플랫폼에서 지정 가능 대상을 세부적으로, 보다 정확하게 보여줍니다.
 
 ## Causes of Low Match Rates for Addressable Audiences {#low-match-rates}
 

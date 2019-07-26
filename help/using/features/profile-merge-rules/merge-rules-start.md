@@ -34,7 +34,7 @@ To complete the [!UICONTROL Data Source Details] section:
 1. 데이터 소스의 이름을 지정합니다.
 1. *(선택 사항)* 데이터 소스를 설명합니다. 간결한 설명은 데이터 소스의 역할이나 목적을 정의하는 데 도움이 됩니다.
 1. 통합 코드를 제공합니다. 통합 코드는 이 데이터 소스에 대한 고유한 고유 ID 입니다.
-1. **[!UICONTROL ID Type]** 목록에서 **[!UICONTROL Cross Device]** 를 선택합니다.
+1. **[!UICONTROL ID Type]** 목록에서 **[!UICONTROL Cross Device]**&#x200B;를 선택합니다.
 1. **[!UICONTROL ID Definition]** 목록에서 데이터 소스 유형을 정의하는 옵션을 선택합니다. 옵션은 다음과 같습니다.
    * **[!UICONTROL Person]**: 단일 사람을 정의하는 ID. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
    * **[!UICONTROL Household]**: 사용자 그룹을 정의하는 ID. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
@@ -88,7 +88,7 @@ To complete the [!UICONTROL Basic Information] section:
 
 To complete the [!UICONTROL Proflie Merge Rule Setup] section:
 
-1. **[!UICONTROL Authenticated Option]** 을 선택합니다. 옵션은 다음과 같습니다.
+1. **[!UICONTROL Authenticated Option]**&#x200B;을 선택합니다. 옵션은 다음과 같습니다.
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
@@ -112,11 +112,11 @@ You must set up a [cross-device data source](#create-data-source) and [profile m
 
 ## For Experience Cloud ID Service Customers {#id-service-customers}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don&#39;t have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you&#39;re just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
 
 ### 고객 ID 설정 기능 구성
 
-When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you&#39;ve created a cross-device data source with the integration code `my_datasource_ic`. 선언된 ID를 전달하려면 아래의 수정된 코드 샘플에 표시된 것처럼 방문자 ID 함수에 통합 코드를 추가합니다.
+When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. 선언된 ID를 전달하려면 아래의 수정된 코드 샘플에 표시된 것처럼 방문자 ID 함수에 통합 코드를 추가합니다.
 
 #### 범용 코드 샘플
 
@@ -146,7 +146,7 @@ For more information, see [Create a Cross-Device Data Source](#create-data-sourc
  Visitorservice: {namespace: "<i>insert-mcorg-id-here</i>"}});</code>
 </pre>
 
-In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don&#39;t have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리 참조: 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리 참조: 핵심 서비스](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
 ### SDK 구성
 

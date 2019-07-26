@@ -40,7 +40,7 @@ Audience Manager에서 새 URL 대상을 만들고 이름을 Facebook 웹 사이
 **기본 정보**
 
 * **카테고리**: 사용자 정의
-* **** 유형: URL
+* ****&#x200B;유형: URL
 * Select the **Auto-fill Destination Mapping** check box, then select **Segment ID**.
 
 **데이터 내보내기 레이블**
@@ -54,7 +54,7 @@ Select the option **This destination may enable a combination with personally id
 **구성**
 
 * **URL 유형**: 소셜 플랫폼용 **웹 사이트 대상자를 선택합니다**. 이 URL 유형 옵션을 선택하면 Audience Manager에서 Facebook WCA 픽셀을 시작할 때 레퍼러 URL 정보를 가리지 않습니다.
-* **일련화**: **활성화를** 선택합니다.
+* **일련화**: **활성화를**&#x200B;선택합니다.
 * **기본 URL** 및 **보안 URL** 필드에 Facebook WCA 픽셀을 입력합니다.
 * **구분 기호**: ,
 
@@ -92,7 +92,7 @@ See [Create a Website Custom Audience](https://www.facebook.com/business/help/66
 | 항목 | 설명 |
 ---------|----------|
 | 웹 사이트 트래픽 | 사용자 지정 조합 |
-| 포함 | <ul><li>**이벤트** &gt; **Adobe-Audience-Manager-Segment 선택을** 선택합니다. 이것은 1 단계의 예제 픽셀에 있는 ev 매개 변수의 값이었습니다. Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li><li><p>**포함** 연산자를 선택합니다.</p><p>방문자가 여러 세그먼트를 적용받을 수 있다는 점을 고려하면, 픽셀 매개 변수에는 여러 세그먼트 ID가 있을 수 있습니다. equals (=) 연산자를 사용하면 대상에 대한 방문자가 정규화되지 않을 수 있으며, 더 낮은 볼륨을 보게 됩니다.</p></li><li>값 추가: Audience Manager 세그먼트 ID를 입력합니다.</li></ul> |
+| 포함 | <ul><li>**이벤트** &gt; **Adobe-Audience-Manager-Segment 선택을**&#x200B;선택합니다. 이것은 1 단계의 예제 픽셀에 있는 ev 매개 변수의 값이었습니다. Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li><li><p>**포함** 연산자를 선택합니다.</p><p>방문자가 여러 세그먼트를 적용받을 수 있다는 점을 고려하면, 픽셀 매개 변수에는 여러 세그먼트 ID가 있을 수 있습니다. equals (=) 연산자를 사용하면 대상에 대한 방문자가 정규화되지 않을 수 있으며, 더 낮은 볼륨을 보게 됩니다.</p></li><li>값 추가: Audience Manager 세그먼트 ID를 입력합니다.</li></ul> |
 | 새 조건 추가 | 선택적 설정입니다. |
 | In the last | 선택적 설정입니다. |
 | 대상자 이름 | 이 대상자에게 조건을 추가하는 것이 아니라면 동일한 Audience Manager 세그먼트 이름을 일관성을 위해 사용하는 것이 좋습니다. |

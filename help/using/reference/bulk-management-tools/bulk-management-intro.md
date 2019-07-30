@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 일괄 관리 시작하기
 uuid: 4 BC 6 AE 0 A -315 C -4 CE 7-A 68 E-CC 0 C 6 C 6 AA 2 F 1
 translation-type: tm+mt
-source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
+source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 ---
 
@@ -30,13 +30,17 @@ c_bulk_start.xml
 
 This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. API는 일괄적으로 변경할 수 있는 메서드 및 서비스를 제공합니다. Adobe API를 사용하여 코딩 또는 작업하는 방법을 익히지 않아도 됩니다. 워크시트에는 특정 벌크 변경 기능을 수행하는 열 머리글과 탭이 포함되어 있습니다. 일괄 변경을 수행하려면 미리 정의된 헤더를 특정 워크시트에 추가하고 변경할 정보를 제공하고 작업 단추를 클릭합니다. 워크시트와 API는 나머지 작업을 자동으로 수행합니다.
 
+## 다운로드 {#download}
+
+Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
+
 ## 전제 조건 {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. 고객은 이미 이러한 자격 증명을 가지고 있어야 합니다.
 * API 클라이언트 ID 및 비밀 키. 계정 관리자가 이러한 정보를 제공할 수 있습니다.
-* [!UICONTROL Bulk Management Tools] 워크시트. **[워크시트를](assets/BAAAM_August_2018.xlsm)** 다운로드하여 최신 버전을 다운로드합니다.
+* [!UICONTROL Bulk Management Tools] 워크시트. [워크시트를](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) 다운로드하여 최신 버전을 다운로드합니다.
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 

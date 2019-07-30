@@ -7,7 +7,7 @@ title: 데이터 피드 구독 관리
 topic: DIL API
 uuid: 7305 ADB 6-CBB 8-4430-8204-2243095 C 0 BA 5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ---
 
@@ -280,7 +280,7 @@ When you click the name of a data plan in the [!UICONTROL Marketplace], [!DNL Au
    * Click **[!UICONTROL Request More Details]** to ask the data provider questions about the selected data feed or to request a discount. 이 기능은 주석과 질문을 데이터 공급자에게 직접 보냅니다.
 
 1. 데이터 피드 보고서 지표. 벤 다이어그램 (및 관련 지표) 는 지난 30 일 동안 트레이트 겹침 데이터를 보여줍니다. See [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) for details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: 공급자의 계정에서 사용자와 겹치는 계정의 고유한 사용자 수입니다.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: 공급자의 계정에서 사용자와 겹치는 계정의 고유한 사용자 수입니다. For a definition of unique users, see AAM UUID in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: 공급자의 계정에서 오는 고유한 사용자의 수입니다.
    * **[!UICONTROL Your Unique Users]**: 계정에서 들어오는 고유 사용자의 수입니다.
 

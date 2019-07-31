@@ -4,10 +4,10 @@ seo-description: Audience Marketplace 데이터 구매자는 CPM (천 광고당 
 seo-title: 데이터 피드 구매자에 대한 대금 청구
 solution: Audience Manager
 title: 데이터 피드 구매자에 대한 대금 청구
-topic: DIL API
+keywords: 세그먼트 수준 보고, 세그먼트 수준, 세그먼트 수준
 uuid: D 7236667-282 B -4160-9909-579721 AF 4016
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a02ef4cfa987c05e3db173f8e6e9a635d1ecd1fd
 
 ---
 

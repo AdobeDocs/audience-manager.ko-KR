@@ -7,7 +7,7 @@ title: 데이터 피드 구매자에 대한 대금 청구
 keywords: 세그먼트 수준 보고, 세그먼트 수준, 세그먼트 수준
 uuid: D 7236667-282 B -4160-9909-579721 AF 4016
 translation-type: tm+mt
-source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
+source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
 
 ---
 
@@ -47,6 +47,8 @@ Audience Marketplace 데이터 구매자는 천 개의 광고 노출 횟수 ([!D
 6. 완료되면을 클릭하고 **[!UICONTROL Save]** 확인 대화 상자를 검토합니다.
    ![세그먼트 사용 확인](assets/confirm-segment-usage.png)
 7. 클릭 **[!UICONTROL Confirm]**.
+
+<br> 
 
 ## 데이터 피드 수준에서 CPM 사용량 보고 {#feed-level-report}
 
@@ -221,6 +223,8 @@ In [!UICONTROL Audience Marketplace] you must self-report amount-report amount t
 자격 조건은 [!UICONTROL OR] 조건을 기반으로 하므로 임프레션에 어떤 특징이 있는지 알 수 없습니다. 그 결과 [!UICONTROL Audience Marketplace > Payables] , 섹션에서는 트레이트 모집단을 기반으로 총 노출 수의 가중치가 가중치가 할당된 각 공급자를 크레디트합니다.
 
 ![billing-segment-or](assets/billing-segment-or.png)
+
+<br> 
 
 ### 사례 3: 모델링 및 활성화 사용 사례가 있는 세그먼트
 

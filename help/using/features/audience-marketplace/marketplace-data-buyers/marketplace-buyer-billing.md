@@ -7,7 +7,7 @@ title: 데이터 피드 구매자에 대한 대금 청구
 keywords: 세그먼트 수준 보고, 세그먼트 수준, 세그먼트 수준
 uuid: D 7236667-282 B -4160-9909-579721 AF 4016
 translation-type: tm+mt
-source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
+source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
 
 ---
 
@@ -251,7 +251,7 @@ In [!UICONTROL Audience Marketplace] you must self-report amount-report amount t
 
 데이터 피드와 사용 사례별 한 눈에 볼 수 있는 분류는 다음과 같습니다.
 
-![feed-breakdown](assets/feed-breakdown.png)
+![feed-breakdown](assets/feed-breakdown-alt.png)
 
 <br> 
 

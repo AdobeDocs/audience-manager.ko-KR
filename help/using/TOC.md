@@ -4,12 +4,12 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용자 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
+source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 ---
 
 
-# Audience Manager User Guide {#user-guide}
+# Audience Manager 사용자 안내서 {#user-guide}
 
 + [Audience Manager 제품 설명서](aam-home.md)
 + 개요{#overview}
@@ -20,7 +20,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [데이터 보안](overview/data-security-and-privacy/data-security.md)
       + [데이터 개인 정보](overview/data-security-and-privacy/data-privacy.md)
       + [옵트아웃 관리](overview/data-security-and-privacy/opt-out-management.md)
-   + General Data Protection Regulation (GDPR){#gdpr}
+   + 개인 정보 보호 규정 (GDPR) 준수{#gdpr}
       + [Audience Manager에서의 GDPR](overview/aam-gdpr/aam-gdpr-details.md)
       + [대상을 위한 GDPR 고려 사항](overview/aam-gdpr/aam-gdpr-partners.md)
       + [GDPR FAQ](overview/aam-gdpr/aam-gdpr-faq.md)
@@ -32,7 +32,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [계정 설정 편집](features/administration/edit-account-settings.md)
       + [IP 주소 난독화](features/administration/ip-obfuscation.md)
       + [사용 제한](features/administration/usage-limits.md)
-   + Algorithmic Models{#algorithmic-models}
+   + 알고리즘 모델{#algorithmic-models}
       + [알고리즘 모델](features/algorithmic-models/understanding-models.md)
       + [알고리즘 모델 만들기](features/algorithmic-models/create-model.md)
       + [알고리즘 모델: 특성 제외](features/algorithmic-models/trait-exclusion-algo-models.md)
@@ -45,21 +45,21 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [Audience Lab 고급 기능](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + Audience Marketplace for Data Providers{#audience-marketplace-for-data-providers}
+      + 데이터 공급자를 위한 Audience Marketplace{#audience-marketplace-for-data-providers}
          + [데이터 공급자를 위한 Audience Marketplace](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [데이터 피드 생성, 가격 및 관리](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
          + [데이터 피드 공급자에 대한 대금 청구](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
-      + Audience Marketplace for Data Buyers{#audience-marketplace-for-data-buyers}
+      + 데이터 구매자를 위한 Audience Marketplace{#audience-marketplace-for-data-buyers}
          + [데이터 구매자를 위한 Audience Marketplace](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
          + [데이터 피드 구독 관리](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [데이터 피드 구매자에 대한 대금 청구](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [비공개 데이터 피드](features/audience-marketplace/marketplace-private-feeds.md)
    + [고객 데이터 피드](features/cdf-files.md)
-   + Data Explorer{#data-explorer}
+   + 데이터 탐색기{#data-explorer}
       + [데이터 탐색기 - 개요, 이점 및 사용 사례](features/data-explorer/data-explorer-overview.md)
       + [신호 이해](features/data-explorer/data-explorer-understanding-signals.md)
       + [신호 대시보드](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Signals Search{#signals-search}
+      + 신호 검색{#signals-search}
          + [신호 검색 개요](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [키-값 쌍으로 된 검색 신호](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [필터별 검색 신호](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
@@ -77,14 +77,25 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [선언된 ID](features/declared-ids.md)
    + [파생 신호](features/derived-signals.md)
    + 대상{#destinations}
-      + [대상](features/destinations/destinations.md)
+      + [대상 개요](features/destinations/destinations.md)
+      + [대상 홈 페이지](/help/using/features/destinations/destinations-home.md)
+      + Adobe Experience Cloud 대상{#experience-cloud-destinations}
+         + [Analytics 대상 구성](/help/using/features/destinations/create-analytics-destination.md)
+      + People-based destinations {#pbd}
+      + 장치 기반 대상 (서버-서버) {#device-based}
+         + [서버-서버 대상에 대한 세그먼트 추가 또는 편집](/help/using/features/destinations/add-edit-segments.md)
+      + 사용자 정의 대상 {#custom-destinations}
+         + [URL 대상 구성](/help/using/features/destinations/create-url-destination.md)
+         + [쿠키 대상 구성](/help/using/features/destinations/create-cookie-destination.md)
+         + [쿠키 대상에 대한 선택적 설정](/help/using/features/destinations/cookie-destination-options.md)
+      + 대상 참조 {#destinations-reference}
+         + [대상 빌더](/help/using/features/destinations/destination-builder.md)
+         + [GET_ AAMCOOKIE 코드](features/destinations/get-aam-cookie-code.md)
+         + [대상 매크로가 정의됨](features/destinations/destination-macros.md)
+         + [표준 및 직렬 키-값 쌍](features/destinations/key-value-pairs.md)
+         + [대상에 데이터 내보내기 컨트롤 추가](/help/using/features/destinations/add-data-export-labels.md)
       + [대상 관리](features/destinations/manage-destinations.md)
-      + [대상 매크로가 정의됨](features/destinations/destination-macros.md)
-      + [표준 및 직렬 키-값 쌍](features/destinations/key-value-pairs.md)
-      + [GET_ AAMCOOKIE 코드](features/destinations/get-aam-cookie-code.md)
-      + [Analytics 대상 구성](/help/using/features/destinations/create-analytics-destination.md)
-      + [Audience Manager 기술 파트너](/help/using/features/destinations/audience-manager-technology-partners.md)
-   + Profile Merge Rules{#profile-merge-rules}
+   + 프로필 병합 규칙{#profile-merge-rules}
       + [프로필 병합 규칙 개요](features/profile-merge-rules/merge-rules-overview.md)
       + [프로필 병합 규칙 시작하기](features/profile-merge-rules/merge-rules-start.md)
       + [프로필 병합 규칙 대시보드](features/profile-merge-rules/merge-rules-dashboard.md)
@@ -138,7 +149,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [보고서 대시보드](reporting/reports-dashboard.md)
    + [일반 보고서](reporting/general-reports.md)
    + [트렌드 보고서](reporting/trend-reports.md)
-   + Audience Optimization Reports {#audience-optimization-reports}
+   + 고객 최적화 보고서 {#audience-optimization-reports}
       + [고객 최적화 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization for Advertisers {#audience-optimization-advertisers}
          + [광고업체를 위한 고객 최적화 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
@@ -158,7 +169,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [광고 단위 겹침](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [광고 단위 겹침 세그먼트](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [고유한 사용자 도달](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-      + Data and Metadata Files for Audience Optimization Reports {#data-and-metadata-files}
+      + 대상 최적화 보고서를 위한 데이터 및 메타데이터 파일 {#data-and-metadata-files}
          + [대상 최적화 보고서를 위한 데이터 및 메타데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [대상 최적화 보고서용 데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [메타데이터 파일에 대한 개요 및 매핑](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
@@ -167,7 +178,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [메타데이터 파일의 배달 방법](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
          + [메타데이터 파일에 대한 상태 업데이트](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [일별 특성 변형 보고서](reporting/audience-optimization-reports/daily-trait-variation-report.md)
-   + Interactive and Overlap Reports {#interactive-and-overlap-reports}
+   + 대화형 및 오버랩 보고서 {#interactive-and-overlap-reports}
       + [대화형 및 오버랩 보고서 개요](reporting/dynamic-reports/dynamic-reports.md)
       + [전달 및 성과 보고서](reporting/dynamic-reports/delivery-performance-report.md)
       + [특성-특성 중복 보고서](reporting/dynamic-reports/trait-trait-overlap-report.md)
@@ -183,21 +194,21 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [아웃바운드 파일 내역](reporting/outbound-history-report.md)
    + [중복 및 일반 보고서에서 고유 사용자 카운트](reporting/unique-user-counts.md)
    + [선택한 Audience Manager 보고서에서 데이터 샘플링 및 오류율](reporting/report-sampling.md)
-+ API and SDK Code{#api-and-sdk-code}
++ API 및 SDK 코드{#api-and-sdk-code}
    + [API 및 SDK 코드 개요](api/api.md)
    + [Audience Manager API 코드 마이그레이션](api/api-swagger-migration.md)
-   + Data Collection Server (DCS) API Methods and Code{#dcs}
+   + DCS (Data Collection Server) API 메서드 및 코드{#dcs}
       + [DCS API 메서드 및 코드](api/dcs-intro/dcs-intro.md)
-      + DCS Event Calls{#dcs-event-calls}
+      + DCS 이벤트 호출{#dcs-event-calls}
          + [DCS 이벤트 호출 API](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
          + [DCS로 데이터 전송](api/dcs-intro/dcs-event-calls/dcs-url-send.md)
          + [DCS에서 데이터 받기](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
-      + DCS APIs{#dcs-apis}
+      + DCS API{#dcs-apis}
          + [서버-서버 데이터 전송을 위한 DCS API](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [DCS 응답에서 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
          + [Experience Cloud ID 서비스를 통해 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [서버 간 DCS API 호출 만들기](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
-      + DCS API Reference{#dcs-api-reference}
+      + DCS API 참조{#dcs-api-reference}
          + [DCS API 참조 개요](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API 메서드](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS 오류 코드, 메시지 및 예제](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
@@ -213,7 +224,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [데이터 통합 라이브러리 API 메서드](api/rest-api-main/aam-api-dil-methods.md)
       + [데이터 소스 API 메서드](api/rest-api-main/aam-api-data-sources.md)
       + [파생 신호 API 메서드](api/rest-api-main/aam-api-derived-signals.md)
-      + Destination API Methods{#destination-api-methods}
+      + 대상 API 메서드{#destination-api-methods}
          + [대상 API 메서드 개요](api/rest-api-main/aam-api-destinations/aam-api-destinations.md)
          + [대상 만들기](api/rest-api-main/aam-api-destinations/aam-api-create-destinations.md)
          + [세그먼트를 대상에 매핑](api/rest-api-main/aam-api-destinations/aam-api-map-segments.md)
@@ -225,7 +236,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [분류 체계 API 메서드](api/rest-api-main/aam-api-taxonomy.md)
       + [특성 API 메서드](api/rest-api-main/api-traits.md)
       + [특성 유형 메서드](api/rest-api-main/aam-api-trait-type.md)
-      + User, Group, and Permissions Management API Methods{#user-group-permissions}
+      + 사용자, 그룹 및 권한 관리 API 메서드{#user-group-permissions}
          + [사용자 관리 API 메서드](api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)
          + [그룹 관리 API 메서드](api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)
          + [권한 관리 API 메서드](api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
@@ -233,7 +244,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [SDK 코드](api/aam-sdk.md)
 + Data Integration Library (DIL) API{#dil-api}
    + [DIL (데이터 통합 라이브러리) 이해](dil/dil-overview.md)
-   + Class-level DIL Methods{#class-level-dil-methods}
+   + 클래스 수준 DIL 메서드{#class-level-dil-methods}
       + [클래스 수준 DIL API 시작하기](dil/dil-class-overview/dil-start.md)
       + [DIL 만들기](dil/dil-class-overview/dil-create.md)
       + [Getdil](dil/dil-class-overview/dil-get-instance.md)
@@ -246,48 +257,49 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [DIL 사용 사례 및 코드 샘플](dil/dil-use-cases.md)
    + [Flash DIL](dil/dil-flash.md)
    + [DIL 릴리스 노트](/help/using/dil/dil-release-notes.md)
-+ Implementation and Integration Guides{#implemenation-integration-guides}
++ 구현 및 통합 안내서{#implemenation-integration-guides}
    + [구현 및 통합 안내서](integration/implementation-and-integration.md)
    + [데이터 통합 방법](integration/data-integration-methods.md)
-   + Integrate DFP using Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
+   + Google Publisher 태그 (GPT) 를 사용하여 DFP 통합{#integrate-dfp-using-gpt}
       + [GPT 개요를 사용하여 DFP 통합](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [GPT를 사용하여 DFP로 세그먼트 보내기](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 대상 만들기](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [GPT 설정 수정 API 호출 수정](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google Publisher 태그를 위한 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
-   + Integrating with Third-Party Destinations {#integrating-third-party}
+   + 타사 대상과 통합 {#integrating-third-party}
+      + [Audience Manager 기술 파트너](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
       + [Facebook WCA 통합](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [Audience Manager 대상으로 OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager 대상으로 openx](integration/integrating-third-party/openx-destination.md)
       + [Audience Manager 대상으로 DFP 사용](integration/aam-dfp.md)
       + [세그먼트를 Google adwords 리마케팅 목록으로 보내기](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager 구현](integration/implement-audience-manager.md)
-   + Media Data Integration{#media-data-integration}
+   + 미디어 데이터 통합{#media-data-integration}
       + [미디어 데이터 통합 개요](integration/media-data-integration/media-data-integration.md)
       + [실행 가능 로그 파일](integration/media-data-integration/actionable-log-files.md)
       + [픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처](integration/media-data-integration/impression-data-pixels.md)
       + [픽셀 호출을 통해 캠페인 클릭 데이터 캡처](integration/media-data-integration/click-data-pixels.md)
-   + Receiving Audience Data{#receiving-audience-data}
+   + 대상 데이터 수신{#receiving-audience-data}
       + [대상 데이터 개요 수신](integration/receiving-audience-data/receiving-audience-data-overview.md)
       + [아웃바운드 데이터 전송을 위한 ID 동기화](integration/receiving-audience-data/id-sync-outbound.md)
-      + Real-Time Outbound Data Transfers{#real-time-outbound-transfers}
+      + 실시간 아웃바운드 데이터 전송{#real-time-outbound-transfers}
          + [실시간 아웃바운드 데이터 전송](integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
          + [디지털 서명된 HTTP 요청](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
          + [실시간 아웃바운드 전송을 위한 OAuth 2.0 통합](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
-      + Batch Outbound Data Transfers{#batch-outbound-data-transfers}
+      + 일괄 아웃바운드 데이터 전송{#batch-outbound-data-transfers}
          + [일괄 아웃바운드 데이터 전송 개요](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
          + [아웃바운드 데이터 파일 이름: 구문 및 예제](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [로그 파일 전송을 위한 전송 제어 파일](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [아웃바운드 템플릿 매크로](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [아웃바운드 매크로 예제](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
          + [아웃바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
-   + Sending Audience Data{#sending-audience-data}
+   + 대상 데이터 전송{#sending-audience-data}
       + [대상 데이터 전송](integration/sending-audience-data/send-audience-data.md)
-      + Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
+      + 실시간 인바운드 데이터 통합 {#real-time-inbound-data-integration}
          + [인바운드, 실시간 데이터 전송을 위한 기술 사양](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
          + [픽셀 기반의 데이터 전송](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
          + [실시간 인바운드 데이터 통합](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
-      + Batch Data Transfer Process{#batch-data-transfer-process}
+      + 일괄 데이터 전송 프로세스{#batch-data-transfer-process}
          + [일괄 데이터 전송 프로세스 설명](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
          + [Audience Manager 개요로 일괄 데이터 보내기](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [인바운드 데이터 전송을 위한 ID 동기화](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
@@ -299,7 +311,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [인바운드 데이터 전송 파일을 위한 파일 압축](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [인바운드 처리 후 파트너에게 메시지 샘플](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [맞춤형 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
-   + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
+   + 다른 Experience Cloud 솔루션과의 통합 {#integration-other-solutions}
       + [Adobe Target와 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [고객 관리 모듈 구현](integration/integration-other-solutions/audience-management-module.md)
       + [서버측 포워딩 (관리 안내서)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
@@ -310,7 +322,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [게시자 사용 사례](reference/publisher-use-cases.md)
    + [베타 환경](reference/beta-environment.md)
    + [트레이트 및 세그먼트 빌더에서 부울 표현식](reference/boolean-expressions-tsb.md)
-   + Bulk Management Tools{#bulk-management-tools}
+   + 일괄 관리 툴{#bulk-management-tools}
       + [일괄 관리 시작하기](reference/bulk-management-tools/bulk-management-intro.md)
       + [대량 요청](reference/bulk-management-tools/bulk-requests.md)
       + [벌크 업데이트](reference/bulk-management-tools/bulk-updates.md)
@@ -328,7 +340,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [암호 요구 사항, 잠긴 계정 및 암호 분실](reference/password-requirements.md)
    + [신호, 트레이트 및 세그먼트](reference/signal-trait-segment.md)
    + [지원되는 브라우저](reference/supported-browsers.md)
-   + System Components{#system-components}
+   + 시스템 구성 요소{#system-components}
       + [시스템 구성 요소 개요](reference/system-components/components-overview.md)
       + [Audience Manager 시스템의 주요 구성 요소](reference/system-components/components-stack.md)
       + [데이터 작업 구성 요소](reference/system-components/components-data-action.md)
@@ -353,7 +365,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [프로필 병합 규칙 및 장치 그래프 FAQ](faq/faq-profile-merge.md)
    + [타깃팅 FAQ](faq/faq-targeting.md)
    + [보고 FAQ](faq/faq-reporting.md)
-+ Help and Legal{#help-and-legal}
++ 도움말 및 법률{#help-and-legal}
    + [개요](/help/using/help-legal/help-legal-overview.md)
    + [문제가 있을 경우](/help/using/help-legal/help-problem.md)
    + [연락처 및 법적 정보](/help/using/help-legal/help-legal-contact.md)

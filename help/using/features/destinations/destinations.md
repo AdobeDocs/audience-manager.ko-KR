@@ -7,16 +7,16 @@ solution: Audience Manager
 title: 대상
 uuid: 5 c 7 dbdec-F 73 F -46 FE -9 F 12-7685 E 8 D 7334 F
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 ---
 
 
-# 대상 {#destinations}
+# 대상 개요 {#destinations}
 
-In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) 로 데이터를 공유할 수 있습니다. [!UICONTROL Destination Builder] 는 쿠키, [!DNL URL]또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
+Audience Manager에서 대상은 모든 타사 시스템 (광고 서버, [!DNL DSP]광고 네트워크 등) 입니다. 로 데이터를 공유할 수 있습니다. [!UICONTROL Destination Builder] 는 쿠키, [!DNL URL]또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
 
-## Purpose and Advantages {#purposes}
+## 목적 및 장점 {#purposes}
 
 <!-- c_destinations.xml -->
 
@@ -24,13 +24,13 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 
 * **데이터 값 보호:** 모든 사용자 데이터를 대상으로 보내지 않고 [!UICONTROL Destination Builder] 자격 조건을 갖춘 사용자에 대해서만 특정 정보를 공유할 수 있습니다.
 * **데이터에 대한 조치를 취할 수 있습니다.** 데이터를 대상 파트너로 전송하면 자격을 갖춘 고객 세그먼트를 신속하게 개발하고 타겟팅할 수 있습니다.
-* **기술 간접비 감소:** 비즈니스 사용자는 [!UICONTROL Destination Builder] 인터페이스에서 안전하게 대상을 설정할 수 있습니다. 따라서 배포 전 테스트에 필요한 시간을 줄일 수 있습니다. With [!UICONTROL Destination Builder], you create, manage, and delete destinations as your business needs change, all without working through a long development cycle.
+* **기술 간접비 감소:** 비즈니스 사용자는 [!UICONTROL Destination Builder] 인터페이스에서 안전하게 대상을 설정할 수 있습니다. 따라서 배포 전 테스트에 필요한 시간을 줄일 수 있습니다. 을 [!UICONTROL Destination Builder]사용하면 긴 개발 주기를 거치지 않고도 비즈니스 요구 사항에 따라 대상을 생성, 관리 및 삭제할 수 있습니다.
 
 ## 기술 고려 사항 {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-데이터 배달은 데이터 파트너가 대상 정보를 원하는 방법에 따라 달라집니다. Technical or engineering constraints may prevent a destination from receiving data via [!DNL URL], cookie, or server-to-server processes. 타사 파트너와 협력하여 사용할 수 있는 방법을 결정합니다.
+데이터 배달은 데이터 파트너가 대상 정보를 원하는 방법에 따라 달라집니다. 기술 또는 엔지니어링 제한으로 인해 대상이 쿠키 또는 서버-서버 프로세스를 통해 [!DNL URL]데이터를 수신하지 못할 수 있습니다. 타사 파트너와 협력하여 사용할 수 있는 방법을 결정합니다.
 
 ## 비즈니스 고려 사항 {#business-considerations}
 
@@ -39,7 +39,7 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 * [!DNL URL]s 및 쿠키 기반 대상은 페이지에서 사용자 작업과 거의 동기식으로 작동합니다.
 * 서버-서버 방법은 장기적으로 대상 세그먼트를 작성하는 데 유용합니다.
 
-## Destination Types and Typical Uses {#destination-types}
+## 대상 유형 및 일반 사용 {#destination-types}
 
 다음 표의 예는 특정 대상을 언제 사용해야 하는지 그리고 각 유형 간의 차이점을 이해하는 데 도움이 될 수 있습니다.
 

@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267 E 3 B -70 E 6-42 AE -99 B 1-884 F 4 D 0916 BE
 translation-type: tm+mt
-source-git-commit: d8a7f4125bc5dbf8b6eeb5b64efec7462da4c4e9
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Audience Manager Product Documentation {#audience-manager-product-documentation}
+# Audience Manager 제품 설명서 {#audience-manager-product-documentation}
 
 Audience Manager에서는 온라인 대상 데이터 관리를 위한 업계 선도 서비스를 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
 
@@ -20,13 +20,13 @@ Audience Manager에서는 온라인 대상 데이터 관리를 위한 업계 선
   <tr> 
    <td colname="col1"> <p> <b>새 항목 및 중요 항목</b> </p> <p>최신 Audience Manager 기능 보기:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="features/destinations/manage-destinations.md#default-landing-page">대상 홈 페이지</a> </li>
+     <li><a href="features/destinations/destinations-home.md">대상 홈 페이지</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">IP 주소 난독화</a> </li>
      <li><a href="overview/aam-gdpr/aam-iab-plugin.md">IAB TCF를 위한 Audience Manager 플러그인</a> </li>
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID 매핑 제한</a> </li>
      <li><a href="features/global-data-sources.md">글로벌 데이터 소스</a> </li> 
      </ul> </p> <p><a href="docs-updates/docs-2019.md"> 2019 년 설명서 업데이트를 참조하십시오</a>. </p> 
-     <p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> Glossary</a> and <a href= "reference/ids-in-aam.md">Index of IDs.</a></p></td>
+     <p>Audience Manager를 처음 사용하는 경우 Adobe <a href="reference/aam-glossary.md"> 의 용어</a> 및 ID <a href= "reference/ids-in-aam.md">색인을 참조하십시오.</a></p></td>
    <td colname="col2"> <p> <b>릴리스 노트</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">새 기능 및 수정 사항에 대해서는 최신 <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오. </li> 

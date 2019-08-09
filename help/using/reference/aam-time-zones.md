@@ -6,13 +6,13 @@ solution: Audience Manager
 title: Audience Manager의 시간대
 uuid: FF 4710 A 9-EDEE -470 C -9 AB 0-85 C 1789 A 2837
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Time Zones in Audience Manager{#time-zones-in-audience-manager}
+# Audience Manager의 시간대{#time-zones-in-audience-manager}
 
 Audience Manager는 전체 UI에서 UTC (Coordinated Universal Time) 를 사용합니다.
 
-Unless otherwise specified, all the dates and date ranges you can select in the [!DNL Adobe] [!DNL Audience Manager] UI are [Coordinated Universal Time (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). For example, in the [Create Destination](../features/destinations/manage-destinations.md#segment-mappings) flow, when mapping segments to your destination, the start and end date you select are midnight UTC. The same applies for all the dates in [!DNL Audience Manager].
+별도로 지정하지 않는 한 [!DNL Adobe][!DNL Audience Manager] UI에서 선택할 수 있는 모든 날짜 및 날짜 범위는 [UTC (Coordinated Universal Time) 입니다](https://www.timeanddate.com/worldclock/timezone/utc). 예를 들어 [대상](../features/destinations/create-cookie-destination.md#segments-mapping) 흐름 만들기에서 세그먼트를 대상에 매핑할 때 선택하는 시작 및 종료 날짜는 UTC 입니다. 모든 날짜에 대해서도 동일하게 적용됩니다 [!DNL Audience Manager].

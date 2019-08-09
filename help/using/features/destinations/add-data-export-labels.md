@@ -5,7 +5,7 @@ seo-title: 대상에 데이터 내보내기 컨트롤 추가
 solution: Audience Manager
 title: 대상에 데이터 내보내기 컨트롤 추가
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 대상에 내보내기 레이블을 추가하려면 다음을 수행하십시오.
 
 1. 클릭 **[!UICONTROL Audience Data]**:
-   * 새 대상: **[!UICONTROL Create New Destination]**&#x200B;을 클릭합니다. 데이터 내보내기 레이블을 선택하기 전에 [!UICONTROL Basic Information] 섹션을 완료합니다. 자세한 내용은 쿠키 대상 [만들기](../../features/destinations/manage-destinations.md#create-cookie-destination) 또는 [URL 대상](../../features/destinations/manage-destinations.md#configure-url-destination) 만들기를 참조하십시오.
+   * 새 대상: **[!UICONTROL Create New Destination]**&#x200B;을 클릭합니다. 데이터 내보내기 레이블을 선택하기 전에 [!UICONTROL Basic Information] 섹션을 완료합니다. 자세한 내용은 쿠키 대상 [만들기](../../features/destinations/create-cookie-destination.md) 또는 [URL 대상](../../features/destinations/create-url-destination.md) 만들기를 참조하십시오.
    * 기존 대상의 경우: [!DNL Search] 상자를 사용하여 목록을 찾거나 목록을 스크롤하고 대상 이름을 클릭하여 엽니다.
 1. Select a [!DNL Data Export Label]. 내보내기 제한을 설정하지 않으려면 이 확인란을 비워 두십시오. 내보내기 레이블에는 다음 옵션이 포함됩니다.
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**

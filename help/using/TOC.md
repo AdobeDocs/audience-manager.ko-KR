@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용자 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ---
 
@@ -94,7 +94,6 @@ source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
          + [대상 매크로가 정의됨](features/destinations/destination-macros.md)
          + [표준 및 직렬 키-값 쌍](features/destinations/key-value-pairs.md)
          + [대상에 데이터 내보내기 컨트롤 추가](/help/using/features/destinations/add-data-export-labels.md)
-      + [대상 관리](features/destinations/manage-destinations.md)
    + 프로필 병합 규칙{#profile-merge-rules}
       + [프로필 병합 규칙 개요](features/profile-merge-rules/merge-rules-overview.md)
       + [프로필 병합 규칙 시작하기](features/profile-merge-rules/merge-rules-start.md)

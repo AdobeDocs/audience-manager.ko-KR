@@ -6,14 +6,14 @@ keywords: 활성화; 정품 인증 파트너, 대상, 대상
 solution: Audience Manager
 title: Adobe Audience Manager 기술 파트너
 translation-type: tm+mt
-source-git-commit: ffdf5404235734adb77e93a3d231a65b2444cc1f
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
 # Audience Manager 정품 인증 파트너
 
-이 페이지에는 현재 Audience Manager [서버 간 통합이](/help/using/features/destinations/manage-destinations.md#add-edit-segments) 포함됩니다. 통합에 대한 자세한 내용은 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) 목록 (가능한 경우) 를 참조하거나 Adobe 컨설턴트나 고객 지원 센터에 문의하십시오.
+이 페이지에는 현재 Audience Manager [서버 간 통합이](/help/using/features/destinations/add-edit-segments.md) 포함됩니다. 통합에 대한 자세한 내용은 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) 목록 (가능한 경우) 를 참조하거나 Adobe 컨설턴트나 고객 지원 센터에 문의하십시오.
 
 <br> 
 

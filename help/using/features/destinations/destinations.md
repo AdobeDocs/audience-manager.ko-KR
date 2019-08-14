@@ -1,13 +1,13 @@
 ---
 description: Audience Manager에서 대상은 모든 타사 시스템 (광고 서버, DSP, 광고 네트워크 등) 입니다. 로 데이터를 공유할 수 있습니다. 대상 빌더는 쿠키, URL 또는 서버-서버 대상을 만들고 관리하는 데 사용한 도구입니다.
-keywords: 통합 코드, 대상, 대상 개요
+keywords: 통합 코드, 대상, 대상 개요, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상
 seo-description: Audience Manager에서 대상은 모든 타사 시스템 (광고 서버, DSP, 광고 네트워크 등) 입니다. 로 데이터를 공유할 수 있습니다. 대상 빌더는 쿠키, URL 또는 서버-서버 대상을 만들고 관리하는 데 사용한 도구입니다.
 seo-title: 대상
 solution: Audience Manager
 title: 대상
 uuid: 5 c 7 dbdec-F 73 F -46 FE -9 F 12-7685 E 8 D 7334 F
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: 유사 모델링을 통해 알고리즘 모델링을 통해 사용되는 트레이트 또는 세그먼트를 제작 및 관리할 수 있습니다. 모델 기능은 대상 데이터 > 모델에 있습니다.
-keywords: 상대적 가중치
+keywords: 상대적 무게, 유사
 seo-description: 유사 모델링을 통해 알고리즘 모델링을 통해 사용되는 트레이트 또는 세그먼트를 제작 및 관리할 수 있습니다. 모델 기능은 대상 데이터 > 모델에 있습니다.
 seo-title: 알고리즘 모델 정보
 solution: Audience Manager
@@ -8,30 +8,30 @@ title: 알고리즘 모델 정보
 topic: DIL API
 uuid: 39441 e 72-5316-453 d -9 aff -0 e 0 b 633 aabcd
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
 
 ---
 
 
-# About Algorithmic Models {#about-algorithmic-models}
+# 알고리즘 모델 정보 {#about-algorithmic-models}
 
-유사 모델링을 통해 알고리즘 모델링을 통해 사용되는 트레이트 또는 세그먼트를 제작 및 관리할 수 있습니다. Model features are located in **[!UICONTROL Audience Data > Models]**.
+유사 모델링을 통해 알고리즘 모델링을 통해 사용되는 트레이트 또는 세그먼트를 제작 및 관리할 수 있습니다. 모델 기능은 **[!UICONTROL Audience Data > Models]**&#x200B;에 있습니다.
 
 <!-- c_models.xml -->
 
-## Understanding Algorithmic Models {#understanding-models}
+## 알고리즘 모델 이해 {#understanding-models}
 
-The sections below represent a review of algorithmic modeling in [!DNL Audience Manager]. 모델링 작업, 이점 및 워크플로우에 대해 설명합니다.
+아래 섹션은 알고리즘 모델링의 검토를 나타냅니다 [!DNL Audience Manager]. 모델링 작업, 이점 및 워크플로우에 대해 설명합니다.
 
 <!-- understanding-models.xml -->
 
-## Find New Users with Algorithmic Modeling {#find-new-users}
+## 알고리즘 모델링을 통해 새로운 사용자 검색 {#find-new-users}
 
-알고리즘 모델링을 사용하면 자동화된 데이터 분석을 통해 고유한 신규 고객을 발견할 수 있습니다. 특성 또는 세그먼트, 시간 간격, 첫 번째 및 타사 데이터 소스를 선택하면 프로세스가 시작됩니다. 선택 사항은 알고리즘 모델에 대한 입력을 제공합니다. 분석 프로세스가 실행되면 선택한 모집단의 공유 특성을 기반으로 자격 조건을 갖춘 사용자를 찾습니다. Upon completion, this data is available in [Trait Builder](../../features/traits/about-trait-builder.md) where you can use it to create traits based on [accuracy and reach](../../features/traits/trait-accuracy-reach.md). 또한 알고리즘 트레이트와 규칙 기반의 트레이트를 결합하고 부울 표현식 및 비교 연산자로 다른 자격 조건을 추가하는 세그먼트를 작성할 수 있습니다. 알고리즘 모델링을 사용하면 사용 가능한 모든 트레이트 데이터에서 값을 추출할 수 있습니다.
+알고리즘 모델링을 사용하면 자동화된 데이터 분석을 통해 고유한 신규 고객을 발견할 수 있습니다. 특성 또는 세그먼트, 시간 간격, 첫 번째 및 타사 데이터 소스를 선택하면 프로세스가 시작됩니다. 선택 사항은 알고리즘 모델에 대한 입력을 제공합니다. 분석 프로세스가 실행되면 선택한 모집단의 공유 특성을 기반으로 자격 조건을 갖춘 사용자를 찾습니다. 완료 시 [이 데이터는 특성 빌더에서](../../features/traits/about-trait-builder.md) 사용할 수 있으므로 정확도와 도달에 [](../../features/traits/trait-accuracy-reach.md)따라 트레이트를 만들 수 있습니다. 또한 알고리즘 트레이트와 규칙 기반의 트레이트를 결합하고 부울 표현식 및 비교 연산자로 다른 자격 조건을 추가하는 세그먼트를 작성할 수 있습니다. 알고리즘 모델링을 사용하면 사용 가능한 모든 트레이트 데이터에서 값을 추출할 수 있습니다.
 
 ## 장점 {#advantages}
 
-The major benefits of using [!DNL Audience Manager] modeling include:
+모델링 사용의 [!DNL Audience Manager] 주요 이점은 다음과 같습니다.
 
 * **데이터 정확도:** 알고리즘이 정기적으로 실행되므로 결과를 최신 상태로 유지할 수 있습니다.
 * **자동화:** 대량의 정적 규칙을 관리할 필요가 없습니다. 알고리즘은 사용자를 위한 대상을 찾습니다.
@@ -40,12 +40,12 @@ The major benefits of using [!DNL Audience Manager] modeling include:
 
 ## 워크플로우 {#workflow}
 
-You manage models in **[!UICONTROL Audience Data > Models]**. 높은 수준에서 워크플로우 프로세스는 다음과 관련되어 있습니다.
+에서 모델을 관리합니다 **[!UICONTROL Audience Data > Models]**. 높은 수준에서 워크플로우 프로세스는 다음과 관련되어 있습니다.
 
-* 알고리즘을 평가할 기준 데이터를 선택합니다. This includes a trait or segment, time range, and data sources (your own data and third-party data you already have access to through [!DNL Audience Manager]). 모델 제작 워크플로우에서는 모델에 방해하지 않을 트레이트를 제외할 수 있습니다.
+* 알고리즘을 평가할 기준 데이터를 선택합니다. 여기에는 트레이트 또는 세그먼트, 시간 범위 및 데이터 소스 (사용자가 이미 액세스할 [!DNL Audience Manager]수 있는 데이터 및 타사 데이터) 가 포함됩니다. 모델 제작 워크플로우에서는 모델에 방해하지 않을 트레이트를 제외할 수 있습니다.
 * 모델을 저장합니다. 일단 저장된 알고리즘 평가 프로세스는 자동으로 실행됩니다. 그러나 이 프로세스가 완료되는 데 최대 7 일이 걸릴 수 있습니다. [!DNL Audience Manager] 알고리즘이 완료되고 트레이트 작성을 위해 결과를 사용할 수 있을 때 이메일을 전송합니다.
-* Build algorithmic traits in [!UICONTROL Trait Builder].
-* Combine traits into segments in [!UICONTROL Segment Builder].
+* 알고리즘 트레이트를 만들 [!UICONTROL Trait Builder]수 있습니다.
+* 트레이트를 세그먼트에 결합할 [!UICONTROL Segment Builder]수 있습니다.
 * 세그먼트 데이터를 만들어 대상에 보냅니다.
 
 ## 문제 해결 {#troubleshooting}
@@ -59,27 +59,27 @@ You manage models in **[!UICONTROL Audience Data > Models]**. 높은 수준에�
 >* [세그먼트](../../features/segments/segments-purpose.md)
 
 
-## Understanding TraitWeight {#understanding-traitweight}
+## Traitweight 이해 {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] 은 새로운 트레이트를 자동으로 발견하기 위해 고안된 독점 알고리즘입니다. It compares trait data from your current traits and segments against all other first and third-party data that you have access to through [!DNL Audience Manager]. Refer to this section for a description of the [!UICONTROL TraitWeight] algorithmic discovery process.
+[!UICONTROL TraitWeight] 은 새로운 트레이트를 자동으로 발견하기 위해 고안된 독점 알고리즘입니다. 이 데이터는 사용자가 액세스할 수 있는 다른 모든 데이터 및 타사 데이터와 현재 트레이트 및 세그먼트의 특성 데이터를 비교합니다 [!DNL Audience Manager]. 알고리즘 탐색 프로세스에 대한 설명은 [!UICONTROL TraitWeight] 이 섹션을 참조하십시오.
 
 <!-- traitweight.xml -->
 
 ![](assets/algo_model.png)
 
-The following steps describe the [!UICONTROL TraitWeight] evaluation process.
+다음 단계에서는 [!UICONTROL TraitWeight] 평가 프로세스에 대해 설명합니다.
 
 ### 1 단계: 트레이트 비교를 위한 기준 구축
 
-To build a baseline, [!UICONTROL TraitWeight] measures all the traits associated with an audience for a 30, 60, or 90 day interval. 다음으로 주파수와 상관관계에 따라 트레이트등급을 평가합니다. 빈도 수는 공통성을 측정합니다. 상관 관계는 기준선 대상자만 트레이트 제공 가능성을 측정합니다. 흔히 나타나는 트레이트는 높은 공통성을 보여주며, 선택한 데이터 소스에서 검색된 트레이트와 결합할 때 가중치가 적용된 점수를 설정하는 데 사용되는 중요한 특성이라고 할 수 있습니다.
+기준선을 만들려면 30 일, 60 일 또는 90 일 간격으로 대상과 관련된 모든 트레이트를 [!UICONTROL TraitWeight] 측정합니다. 다음으로 주파수와 상관관계에 따라 트레이트등급을 평가합니다. 빈도 수는 공통성을 측정합니다. 상관 관계는 기준선 대상자만 트레이트 제공 가능성을 측정합니다. 흔히 나타나는 트레이트는 높은 공통성을 보여주며, 선택한 데이터 소스에서 검색된 트레이트와 결합할 때 가중치가 적용된 점수를 설정하는 데 사용되는 중요한 특성이라고 할 수 있습니다.
 
 ### 2 단계: 데이터 소스에서 동일한 특성 찾기
 
-비교를 위한 기준선을 만든 후 알고리즘은 선택한 데이터 소스에서 동일한 트레이트를 찾습니다. In this step, [!UICONTROL TraitWeight] performs a frequency count of all discovered traits and compares them to the baseline. 하지만 기준선과 달리 일반적이지 않은 특징은 더 자주 나타나는 것보다 순위가 높습니다. 드문 특징은 높은 수준의 특이성을 나타낸다는 것입니다. [!UICONTROL TraitWeight] 공통적인 기준선 트레이트와 일반적이지 않은 (매우 구체적인) 데이터 소스 트레이트의 조합을 두 데이터 세트에 공통되는 특성보다 더 영향력이 있거나 바람직한 것으로 평가합니다. 실제로 모델은 이러한 크고 공통적인 특성을 인식하며 높은 상관 관계를 갖는 데이터 세트에 과도한 우선 순위를 할당하지 않습니다. 드문 특징은 보드 전체에서 공통되는 특성보다 새로운 고유 사용자를 나타낼 가능성이 더 많기 때문에 우선 순위가 높습니다.
+비교를 위한 기준선을 만든 후 알고리즘은 선택한 데이터 소스에서 동일한 트레이트를 찾습니다. 이 단계에서는 검색된 모든 트레이트의 빈도 수를 [!UICONTROL TraitWeight] 수행하고 기준선과 비교합니다. 하지만 기준선과 달리 일반적이지 않은 특징은 더 자주 나타나는 것보다 순위가 높습니다. 드문 특징은 높은 수준의 특이성을 나타낸다는 것입니다. [!UICONTROL TraitWeight] 공통적인 기준선 트레이트와 일반적이지 않은 (매우 구체적인) 데이터 소스 트레이트의 조합을 두 데이터 세트에 공통되는 특성보다 더 영향력이 있거나 바람직한 것으로 평가합니다. 실제로 모델은 이러한 크고 공통적인 특성을 인식하며 높은 상관 관계를 갖는 데이터 세트에 과도한 우선 순위를 할당하지 않습니다. 드문 특징은 보드 전체에서 공통되는 특성보다 새로운 고유 사용자를 나타낼 가능성이 더 많기 때문에 우선 순위가 높습니다.
 
 ### 3 단계: 가중치 지정
 
-In this step, [!UICONTROL TraitWeight] ranks newly discovered traits in order of influence or desirability. 가중치 비율은 0%에서 100%로 실행하는 백분율입니다. 트레이트가 100%에 가까울수록 기준선 모집단의 대상과 더 비슷하다는 의미입니다. 또한 가중치가 크게 가중치가 적용된 트레이트는 설정된 기준선 대상자와 유사하게 행동할 수 있는 새로운 고유 사용자를 나타내기 때문에 중요합니다. Remember, [!UICONTROL TraitWeight] considers traits with high commonality in the baseline and high specificity in the compared data sources to be more valuable than traits common in each data set.
+이 단계에서는 새롭게 검색된 트레이트를 영향 또는 선호도로 [!UICONTROL TraitWeight] 평가합니다. 가중치 비율은 0%에서 100%로 실행하는 백분율입니다. 트레이트가 100%에 가까울수록 기준선 모집단의 대상과 더 비슷하다는 의미입니다. 또한 가중치가 크게 가중치가 적용된 트레이트는 설정된 기준선 대상자와 유사하게 행동할 수 있는 새로운 고유 사용자를 나타내기 때문에 중요합니다. 기억해야 [!UICONTROL TraitWeight] 할 점은, 기준선에서 높은 공통성을 갖는 트레이트와 비교한 Data Sources의 높은 특성을 각 데이터 세트에서 공통되는 특성보다 더 중요한 것으로 간주합니다.
 
 ### 4 단계: 점수 사용자
 
@@ -87,18 +87,18 @@ In this step, [!UICONTROL TraitWeight] ranks newly discovered traits in order of
 
 ### 5 단계: 결과 표시 및 작업
 
-Audience Manager displays your weighted model results in [!UICONTROL Trait Builder]. When you want to build an algorithmic trait, [!UICONTROL Trait Builder] lets you create traits based on the weighted score generated by the algorithm during a data run. 높은 정확도를 선택하여 매우 높은 사용자 점수를 보유하고 따라서 나머지 대상이 아닌 기준선 대상과 매우 유사한 사용자를 분류할 수 있습니다. 더 많은 고객 (도달) 에 도달하려면 정확도를 낮춰야 합니다.
+Audience Manager에서 가중치가 적용된 모델 결과를 표시합니다 [!UICONTROL Trait Builder]. 알고리즘 트레이트를 구축하려는 경우 [!UICONTROL Trait Builder] 데이터 실행 중에 알고리즘에서 생성된 가중 점수를 기반으로 트레이트를 만들 수 있습니다. 높은 정확도를 선택하여 매우 높은 사용자 점수를 보유하고 따라서 나머지 대상이 아닌 기준선 대상과 매우 유사한 사용자를 분류할 수 있습니다. 더 많은 고객 (도달) 에 도달하려면 정확도를 낮춰야 합니다.
 
 ### 6 단계: 처리 주기 전체에서 트레이트의 중요성 평가
 
-Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait based on the size and change in the population of that trait. 이것은 시간이 지남에 따라 해당 트레이트 수가 늘어나거나 감소하는 사용자 수로 발생합니다. 이 동작은 매우 큰 트레이트에 가장 분명하게 표시됩니다. 예를 들어 알고리즘에서 모델링을 위해 트레이트 A를 사용한다고 가정합니다. As the population of trait A increases, [!UICONTROL TraitWeight] re-evaluates the importance of that trait and may assign a lower score or ignore it. 이 경우 트레이트 A는 너무 일반적이거나 크므로 해당 인구에 대해 아무 것도 말하지 않습니다. After [!UICONTROL TraitWeight] reduces the value of Trait A (or ignores it in the model), the population of the algorithmic trait decreases. 영향력 있는 특성 목록은 기준선 모집단 진화를 반영합니다. 영향력이 있는 특성 목록을 사용하여 이러한 변경 사항이 발생하는 이유를 이해합니다.
+정기적으로, 해당 트레이트 인구의 크기와 변화에 따라 트레이트의 중요도를 [!UICONTROL TraitWeight] 다시 평가합니다. 이것은 시간이 지남에 따라 해당 트레이트 수가 늘어나거나 감소하는 사용자 수로 발생합니다. 이 동작은 매우 큰 트레이트에 가장 분명하게 표시됩니다. 예를 들어 알고리즘에서 모델링을 위해 트레이트 A를 사용한다고 가정합니다. 트레이트 모집단이 증가하면 해당 트레이트의 중요도를 [!UICONTROL TraitWeight] 다시 평가하고 낮은 점수를 할당하거나 무시할 수 있습니다. 이 경우 트레이트 A는 너무 일반적이거나 크므로 해당 인구에 대해 아무 것도 말하지 않습니다. 이후 [!UICONTROL TraitWeight] 트레이트 값을 A로 줄이거나 모델에서 무시하면 알고리즘 트레이트 모집단이 줄어듭니다. 영향력 있는 특성 목록은 기준선 모집단 진화를 반영합니다. 영향력이 있는 특성 목록을 사용하여 이러한 변경 사항이 발생하는 이유를 이해합니다.
 
 관련 링크:
 
 * [Model Builder](../../features/algorithmic-models/create-model.md)
 * [정확성 및 전달 범위](../../features/traits/trait-accuracy-reach.md)
 
-## Update Schedule for Algorithmic Models and Traits {#update-schedule}
+## 알고리즘 모델 및 특성에 대한 업데이트 일정 {#update-schedule}
 
 새로운 알고리즘 및 기존 알고리즘 모델 및 트레이트에 대한 일정을 작성하고 업데이트합니다.
 
@@ -120,7 +120,7 @@ Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait ba
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (11 월 ~ 3 월) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (3 월 ~ 11 월) </li> 
-     </ul> </p> <p>제작 기한 이후에 구축 또는 복제된 모델은 다음 날 처리됩니다. </p> <p>모델의 첫 번째 실행이 데이터를 생성하지 않으면 다음 날 두 번째로 실행됩니다. 두 번째 시도가 데이터를 생성하지 않으면 다음 날 세 번째 시도가 발생합니다. 세 번째 시도가 데이터를 생성하지 않으면 모델은 실행되지 않습니다. 이 경우 모델이 비활성화됩니다. See more in <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Troubleshooting Algorithmic Models</a>. </p> </td>
+     </ul> </p> <p>제작 기한 이후에 구축 또는 복제된 모델은 다음 날 처리됩니다. </p> <p>모델의 첫 번째 실행이 데이터를 생성하지 않으면 다음 날 두 번째로 실행됩니다. 두 번째 시도가 데이터를 생성하지 않으면 다음 날 세 번째 시도가 발생합니다. 세 번째 시도가 데이터를 생성하지 않으면 모델은 실행되지 않습니다. 이 경우 모델이 비활성화됩니다. 알고리즘 알고리즘 <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> 해결에서 더 많은 것을 참조하십시오</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>모델 업데이트</b> </td> 
@@ -154,7 +154,7 @@ Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait ba
  </tbody> 
 </table>
 
-## Models List View {#models-list-view}
+## 모델 목록 보기 {#models-list-view}
 
 목록 보기는 모델을 생성, 검토 및 관리하는 데 도움이 되는 중앙 작업 공간입니다.
 
@@ -167,7 +167,7 @@ Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait ba
 * 이름별로 모델을 검색합니다.
 * 주어진 모델을 사용하여 알고리즘 트레이트를 만들 수 있습니다.
 
-## Models Summary View {#models-summary-view}
+## 모델 요약 보기 {#models-summary-view}
 
 요약 페이지에는 모델에서 만든 이름, 도달/정확도, 처리 내역 및 트레이트 등의 모델 세부 사항이 표시됩니다. 이 페이지에는 모델을 만들고 관리할 수 있는 설정도 포함되어 있습니다. 요약 목록에서 모델 이름을 클릭하여 세부 정보를 확인합니다.
 
@@ -189,7 +189,7 @@ Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait ba
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> 모델 도달 및 정확도</span> </p> </td> 
-   <td colname="col2"> <p>Shows <a href="../../features/traits/trait-accuracy-reach.md"> accuracy and reach</a> data for the last model run. </p> </td>
+   <td colname="col2"> <p>마지막 모델 실행에 <a href="../../features/traits/trait-accuracy-reach.md"> 대한 정확도 및 도달 데이터를</a> 보여줍니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> 모델 처리 내역</span> </p> </td> 
@@ -200,13 +200,13 @@ Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a trait ba
    <td colname="col2"> <p><span class="wintitle"> 영향력 있는 트레이트</span> 표: </p> <p> 
      <ul id="ul_FB15A554CADC40D09F9AC6D384D54ECD"> 
       <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> 모델의 기준선 모집단 내에서 가장 잘 표현되는 상위 50 개의 영향력이 있는 트레이트를 나열합니다. </li> 
-      <li id="li_44957F46C0744A84A987D8F25D93E24E">Ranks each trait in order of its <span class="wintitle"> Relative Weight</span> rank. <span class="wintitle"> 상대적 가중치는</span> 새롭게 검색된 트레이트를 영향 또는 선호도로 정렬합니다. 가중치 비율은 0%에서 100%로 실행하는 백분율입니다. 트레이트가 100%에 가까울수록 기준선 모집단의 대상과 더 비슷하다는 의미입니다. See <a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> Understanding TraitWeight</a>. </li> 
+      <li id="li_44957F46C0744A84A987D8F25D93E24E">각 트레이트 등급을 <span class="wintitle"> 상대적인 가중치</span> 등급으로 평가합니다. <span class="wintitle"> 상대적 가중치는</span> 새롭게 검색된 트레이트를 영향 또는 선호도로 정렬합니다. 가중치 비율은 0%에서 100%로 실행하는 백분율입니다. 트레이트가 100%에 가까울수록 기준선 모집단의 대상과 더 비슷하다는 의미입니다. 자세한 내용은 트레이트 <a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> 이해를</a>참조하십시오. </li> 
       <li id="li_260151E23B1E484BA06C8494552A04F0">각 트레이트에 대한 30 일 고유 값과 총 특성 모집단을 보여줍니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> 모델을 사용하는 트레이트</span> </p> </td>
-   <td colname="col2"> <p>선택한 모델을 기반으로 하는 알고리즘 특성 목록을 표시합니다. 트레이트 이름 또는 트레이트 ID를 클릭하여 트레이트에 대한 자세한 내용을 참조하십시오. Select <b><span class="uicontrol"> Create New Trait with Model</span></b> to go to the algorithmic trait creation process. </p> <p>섹션 레이블은 모델의 이름에 따라 변경됩니다. For example, say you create a model and name it Model A. When you load the summary page, the name of this section gets changed to <span class="wintitle"> Traits Using Model A</span>. </p> </td>
+   <td colname="col2"> <p>선택한 모델을 기반으로 하는 알고리즘 특성 목록을 표시합니다. 트레이트 이름 또는 트레이트 ID를 클릭하여 트레이트에 대한 자세한 내용을 참조하십시오. 모델을 사용하여 새 트레이트 <b><span class="uicontrol"> 만들기를</span></b> 선택하여 알고리즘 특성 만들기 프로세스로 이동합니다. </p> <p>섹션 레이블은 모델의 이름에 따라 변경됩니다. 예를 들어 모델을 만들고 이름을 Model A 라고 지정합니다. 요약 페이지를 로드하면 이 섹션의 이름이 모델 A를 사용하는 <span class="wintitle"> 트레이트로 변경됩니다</span>. </p> </td>
   </tr>
  </tbody>
 </table>

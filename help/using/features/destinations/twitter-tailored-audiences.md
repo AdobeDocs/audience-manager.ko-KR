@@ -5,7 +5,7 @@ seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
 
 ---
 

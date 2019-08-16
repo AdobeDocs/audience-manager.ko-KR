@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용자 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
+source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
 
 ---
 
@@ -83,7 +83,9 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
          + [Analytics 대상 구성](/help/using/features/destinations/create-analytics-destination.md)
       + People-based destinations {#pbd}
       + 장치 기반 대상 (서버-서버) {#device-based}
+         + [새 장치 기반 대상 추가](/help/using/features/destinations/add-device-based-destinations.md)
          + [서버-서버 대상에 대한 세그먼트 추가 또는 편집](/help/using/features/destinations/add-edit-segments.md)
+         + [Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성](/help/using/features/destinations/twitter-tailored-audiences.md)
       + 사용자 정의 대상 {#custom-destinations}
          + [URL 대상 구성](/help/using/features/destinations/create-url-destination.md)
          + [쿠키 대상 구성](/help/using/features/destinations/create-cookie-destination.md)

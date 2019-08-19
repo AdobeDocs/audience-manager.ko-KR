@@ -5,7 +5,7 @@ seo-title: 새 장치 기반 대상 추가
 solution: Audience Manager
 title: 새 장치 기반 대상 추가
 translation-type: tm+mt
-source-git-commit: b492065756d45ee6dfb185cc387409dea72a9923
+source-git-commit: d185a1d418e99abb99c36b28dfb419a1fb3b60f5
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: b492065756d45ee6dfb185cc387409dea72a9923
 
 1. Audience Manager 계정에 로그인하고, 이동한 **[!DNL Audience Data > Destinations]****[!DNL Create Destination]**&#x200B;다음을 클릭합니다.
 2. **[!DNL Basic Information]** 섹션에서 새 **[!DNL Name]** 대상을 입력하고 **[!DNL Description]** 다음 목록의 설정을 사용합니다. ![설정](assets/dbd-new-basic.png)
+   * **[!DNL Category]**: [!DNL Integrated Platforms];
+   * **[!DNL Type]**: [!DNL Device-Based];
+   * **[!DNL Platform]**: 대상 세그먼트를 보낼 대상 플랫폼을 선택합니다.
+   * **[!DNL Account]**: 선택한 플랫폼과 연관된 광고주 계정을 선택합니다.
 3. 클릭 **[!DNL Next]**.
 4. 이 대상에 대해 설정할 [데이터 내보내기 레이블을](/help/using/features/data-export-controls.md#controls-labels) 선택합니다.
 5. 클릭 **[!DNL Save]**.
 6. **[!DNL Segment Mappings]** 섹션에서 이 대상에 보낼 대상 세그먼트를 선택합니다.
 7. 대상을 저장합니다.
 
-* **[!DNL Category]**: [!DNL Integrated Platforms];
-* **[!DNL Type]**: [!DNL Device-Based];
-* **[!DNL Platform]**: 대상 세그먼트를 보낼 대상 플랫폼을 선택합니다.
-* **[!DNL Account]**: 선택한 플랫폼과 연관된 광고주 계정을 선택합니다.

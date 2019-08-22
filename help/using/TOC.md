@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용자 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
 
 ---
 
@@ -78,20 +78,29 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [파생 신호](features/derived-signals.md)
    + 대상{#destinations}
       + [대상 개요](features/destinations/destinations.md)
-      + [대상 홈 페이지](/help/using/features/destinations/destinations-home.md)
+      + [대상 홈 페이지](features/destinations/destinations-home.md)
       + Adobe Experience Cloud 대상{#experience-cloud-destinations}
-         + [Analytics 대상 구성](/help/using/features/destinations/create-analytics-destination.md)
-      + People-based destinations {#pbd}
+         + [Analytics 대상 구성](features/destinations/create-analytics-destination.md)
+      + People-based destinations {#people-based-destinations}
+         + [개요 및 사용 사례](features/destinations/people-based-destinations-overview.md)
+         + [사전 요구 사항 및 고려 사항](features/destinations/people-based-destinations-prerequisites.md)
+         + 구현 안내서 {#pbd-implementation}
+            + [구현 개요](features/destinations/people-based-destinations-workflow.md)
+            + [워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동에 기반한 개인화](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Workflow B - 오프라인 전용 데이터를 기반으로 개인화](features/destinations/people-based-destinations-workflow-offline.md)
+            + [워크플로우 C - 오프라인 데이터와 결합된 인증된 활동에 기반한 개인화](features/destinations/people-based-destinations-workflow-authenticated.md)
+         + [사용자 기반 플랫폼을 사용한 인증](features/destinations/people-based-destinations-authentication.md)
+         + [공유 가능한 고객](/help/using/features/destinations/people-based-destinations-reporting.md)
       + 장치 기반 대상 (서버-서버) {#device-based}
-         + [새 장치 기반 대상 추가](/help/using/features/destinations/add-device-based-destinations.md)
-         + [서버-서버 대상에 대한 세그먼트 추가 또는 편집](/help/using/features/destinations/add-edit-segments.md)
-         + [Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성](/help/using/features/destinations/twitter-tailored-audiences.md)
+         + [새 장치 기반 대상 추가](features/destinations/add-device-based-destinations.md)
+         + [서버-서버 대상에 대한 세그먼트 추가 또는 편집](features/destinations/add-edit-segments.md)
+         + [Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성](features/destinations/twitter-tailored-audiences.md)
       + 사용자 정의 대상 {#custom-destinations}
-         + [URL 대상 구성](/help/using/features/destinations/create-url-destination.md)
-         + [쿠키 대상 구성](/help/using/features/destinations/create-cookie-destination.md)
-         + [쿠키 대상에 대한 선택적 설정](/help/using/features/destinations/cookie-destination-options.md)
+         + [URL 대상 구성](features/destinations/create-url-destination.md)
+         + [쿠키 대상 구성](features/destinations/create-cookie-destination.md)
+         + [쿠키 대상에 대한 선택적 설정](features/destinations/cookie-destination-options.md)
       + 대상 참조 {#destinations-reference}
-         + [대상 빌더](/help/using/features/destinations/destination-builder.md)
+         + [대상 빌더](features/destinations/destination-builder.md)
          + [GET_ AAMCOOKIE 코드](features/destinations/get-aam-cookie-code.md)
          + [대상 매크로가 정의됨](features/destinations/destination-macros.md)
          + [표준 및 직렬 키-값 쌍](features/destinations/key-value-pairs.md)
@@ -362,6 +371,7 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [데이터 수집 및 제품 통합 FAQ](faq/faq-data-collection.md)
    + [인바운드 고객 데이터 통합 FAQ](faq/faq-inbound-data-ingestion.md)
    + [개인 정보 및 데이터 유지 FAQ](faq/faq-privacy.md)
+   + [People-based destinations FAQ](faq/faq-people-based-destinations.md)
    + [제품 기능 및 기능 FAQ](faq/faq-features.md)
    + [프로필 병합 규칙 및 장치 그래프 FAQ](faq/faq-profile-merge.md)
    + [타깃팅 FAQ](faq/faq-targeting.md)

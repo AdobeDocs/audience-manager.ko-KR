@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용자 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
+source-git-commit: 8ceeee38dc798810559467ffc12177a2f1968b44
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
       + People-based destinations {#people-based-destinations}
          + [개요 및 사용 사례](features/destinations/people-based-destinations-overview.md)
          + [사전 요구 사항 및 고려 사항](features/destinations/people-based-destinations-prerequisites.md)
-         + 구현 안내서 {#pbd-implementation}
+         + 구현 안내서 {#implementation-guide}
             + [구현 개요](features/destinations/people-based-destinations-workflow.md)
             + [워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동에 기반한 개인화](features/destinations/people-based-destinations-workflow-combined.md)
             + [Workflow B - 오프라인 전용 데이터를 기반으로 개인화](features/destinations/people-based-destinations-workflow-offline.md)

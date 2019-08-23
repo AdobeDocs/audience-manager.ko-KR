@@ -5,7 +5,7 @@ seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
+source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
 
 ---
 
@@ -21,8 +21,6 @@ source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
 1. 귀하의 [!DNL Twitter Ads] 계정은 광고를 받을 수 있어야 합니다. 새 [!DNL Twitter Ads] 계정은 광고를 만든 후 처음 2 주 동안 사용할 수 없습니다.
 2. Audience Manager에서 액세스 권한이 있는 Twitter 사용자 계정은 [파트너 Audience Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 권한이 활성화되어 있어야 합니다.
 3. 기존 Twitter 통합을 셀프 서비스 관리로 [](#update-existing-twitter-integrations)업데이트하는 경우 Twitter 사용자 계정에 [광고 관리자](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 권한이 활성화되어 있어야 합니다.
-
-
 
 ## [!DNL Twitter Tailored Audiences] 새 대상 추가 {#add-new-twitter-destination}
 
@@ -65,9 +63,18 @@ Audience Manager와 사용자를 [!DNL Twitter Tailored Audiences]연결한 후 
 아래 절차에 따라 기존 [!DNL Twitter Tailored Audiences] 대상을 셀프 서비스 모델로 마이그레이션하십시오.
 
 1. Audience Manager 계정에 로그인하고 **[!DNL Administration > Integrated Accounts]**&#x200B;로그인합니다.
-2. 클릭 **[!DNL Add Account]**.
-3. 인증 [!DNL Twitter Tailored Audiences] 페이지로 **[!DNL Confirm]** 리디렉션하려면 선택하고 클릭합니다. ![통합 플랫폼](assets/dbd-integrated-platforms.png)
-4. Twitter 계정으로 인증하면 연결된 광고주 계정을 볼 수 있는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고를 **[!DNL Confirm]**&#x200B;클릭합니다.
+1. 클릭 **[!DNL Add Account]**.
+1. 인증 [!DNL Twitter Tailored Audiences] 페이지로 **[!DNL Confirm]** 리디렉션하려면 선택하고 클릭합니다. ![통합 플랫폼](assets/dbd-integrated-platforms.png)
+1. [!DNL Twitter] 계정이 인증되면 연결된 광고주 계정을 볼 수 있는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고를 **[!DNL Confirm]**&#x200B;클릭합니다.
+1. [이동] **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** [구성할 Twitter 대상] 를 클릭합니다.
+1. 클릭 **[!UICONTROL Edit]**. **[!UICONTROL Basic Information]** 섹션에서 **[!UICONTROL Integrated Account]** 드롭다운 메뉴를 클릭하고 4 단계에서 인증한 [!DNL Twitter] 계정을 선택합니다.
+1. **[!UICONTROL Save]** 대상.
+
+## 셀프 서비스 관리로의 마이그레이션 유효성 확인 {#migration-validation}
+
+기존 [!DNL Twitter] 통합 서비스 통합에 대한 전체 마이그레이션은 최대 7 일 정도 소요될 수 있습니다. 마이그레이션이 완료되면 Audience Manager에서 UI에 알림을 표시합니다.
+
+[!DNL Twitter] 해당 이름에 [! DNL [Adobe DMP 대상]]. 대상 모집단을 완전히 채우려면 최대 7 일이 소요됩니다. 마이그레이션이 완료되면 기존 고객 대신 이러한 신규 고객을 사용해야 합니다.
 
 ## 세그먼트 매핑 고려 사항 {#segment-mapping-considerations}
 
@@ -76,7 +83,7 @@ Audience Manager와 사용자를 [!DNL Twitter Tailored Audiences]연결한 후 
 * 사람이 읽을 수 있는 세그먼트 매핑 이름을 제공합니다. Audience Manager 세그먼트에 사용한 것과 동일한 이름을 사용하는 것이 좋습니다.
 * 세그먼트와 세그먼트 매핑 이름에 쉼표를 사용하지 마십시오.
 
-**예**
+### 예
 
 * 올바른 세그먼트 또는 매핑 이름: " 미국 및 유럽 쇼핑 ";
 * 잘못된 세그먼트 또는 매핑 이름: " US, European 5 H 0 PP 3 RS ".

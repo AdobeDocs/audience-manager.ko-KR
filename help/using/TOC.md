@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용자 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5bd7acbdaa90d33eb5f806dbe072acfb013d8f0b
+source-git-commit: a51d569c04d1232d0fe9258199bd4ca0e5fcd987
 
 ---
 
@@ -277,7 +277,6 @@ source-git-commit: 5bd7acbdaa90d33eb5f806dbe072acfb013d8f0b
       + [GPT 설정 수정 API 호출 수정](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google Publisher 태그를 위한 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + 타사 대상과 통합 {#integrating-third-party}
-      + [Audience Manager 기술 파트너](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
       + [Facebook WCA 통합](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [Audience Manager 대상으로 OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager 대상으로 openx](integration/integrating-third-party/openx-destination.md)

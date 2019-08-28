@@ -5,7 +5,7 @@ seo-title: 대상 관리
 solution: Audience Manager
 title: 대상 관리
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 * ****&#x200B;모두: 모든 유형의 대상을 표시합니다.
 * **Adobe Experience Cloud**: 다른 Adobe Experience Cloud 솔루션에 데이터를 전송하는 대상을 보여줍니다. 현재 유일하게 지원되는 옵션은 Adobe Analytics 입니다. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
-* **통합 플랫폼**: 사용자 기반 및 장치 기반 대상 (서버간 대상) 를 표시합니다. 현재 사용자 기반 대상은 선택한 고객에게만 사용할 수 있는 베타 기능입니다.
+* **통합 플랫폼**: 사용자 기반 및 장치 기반 대상 (서버간 대상) 를 표시합니다.
 * **사용자**&#x200B;정의: 쿠키 및 URL 대상을 표시합니다.
 
 

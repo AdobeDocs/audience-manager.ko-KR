@@ -5,7 +5,7 @@ seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
+source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 
 ---
 
@@ -74,7 +74,7 @@ Audience Manager와 사용자를 [!DNL Twitter Tailored Audiences]연결한 후 
 
 기존 [!DNL Twitter] 통합 서비스 통합에 대한 전체 마이그레이션은 최대 7 일 정도 소요될 수 있습니다. 마이그레이션이 완료되면 Audience Manager에서 UI에 알림을 표시합니다.
 
-[!DNL Twitter] 해당 이름에 [! DNL [Adobe DMP 대상]]. 대상 모집단을 완전히 채우려면 최대 7 일이 소요됩니다. 마이그레이션이 완료되면 기존 고객 대신 이러한 신규 고객을 사용해야 합니다.
+[!DNL Twitter] 또한 계정의 새 대상 세트가 [[!DNL Adobe DMP Audience]] 에서 접두사로 추가되어 표시됩니다. 대상 모집단을 완전히 채우려면 최대 7 일이 소요됩니다. 마이그레이션이 완료되면 기존 고객 대신 이러한 신규 고객을 사용해야 합니다.
 
 ## 세그먼트 매핑 고려 사항 {#segment-mapping-considerations}
 

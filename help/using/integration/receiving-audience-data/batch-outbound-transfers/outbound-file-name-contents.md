@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 아웃바운드 데이터 파일 이름 구문 및 예
 uuid: effdcaf 6-c 37 c -45 f 3-9 d 2 f-a 938 a 9 da 47 a 6
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
 
@@ -93,7 +93,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ### 시나리오 1
 
-파일 컨텐츠에서 [!DNL Amazon S3] 위치와 함께 *`PID-ALIAS="XYZCustomer"`*[!DNL Google Advertiser IDs] 위치에 전송된 파일.
+파일 컨텐츠에서 [!DNL Amazon S3] 위치와 함께 *`PID_ALIAS="XYZCustomer"`*[!DNL Google Advertiser IDs] 위치에 전송된 파일.
 
 E.g. 증분 파일:
 
@@ -112,7 +112,7 @@ E.g. 전체 파일:
 
 ### 시나리오 2
 
-파일 내용 없이 [!DNL FTP]*`PID-ALIAS`* 위치로 [!DNL Apple Advertiser IDs] 보낸 파일:
+파일 내용 없이 [!DNL FTP]*`PID_ALIAS`* 위치로 [!DNL Apple Advertiser IDs] 보낸 파일:
 
 E.g. 증분 파일:
 
@@ -128,7 +128,7 @@ E.g. 전체 파일:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**시나리오 3**: 파일 콘텐트 () 에서 타사 사용자 ID와 함께 [!DNL FTP]*`PID-ALIAS="XYZCustomer"`* 위치로 보낸 *`Vendor ID=45454`*&#x200B;파일:
+**시나리오 3**: 파일 콘텐트 () 에서 타사 사용자 ID와 함께 [!DNL FTP]*`PID_ALIAS="XYZCustomer"`* 위치로 보낸 *`Vendor ID=45454`*&#x200B;파일:
 
 E.g. 증분 파일:
 

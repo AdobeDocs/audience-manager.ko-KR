@@ -5,7 +5,7 @@ seo-title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활
 solution: Audience Manager
 title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동에 기반한 개인화
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -50,15 +50,15 @@ source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 다음의 두 데이터 소스를 만들었다고 가정하겠습니다.
 
 | 데이터 소스 ID | 데이터 소스 컨텐츠 |
-|-|-|
-| 999999 | 기존 Dpuuids (CRM ID)|
-| 987654 | 해시 이메일 주소|
+|---|---|
+| 999999 | 기존 DPUUIDS (CRM ID) |
+| 987654 | 해시된 이메일 주소 |
 
 그런 다음 아래 표에 있는 특성에 대해 아래의 CRM ID를 적용하려고 합니다.
 
-| Dpuuid (CRM ID)| 이메일 주소 | 해시된 이메일 주소 | 특성|
-|-|-|-|-|
-|6807998276567319850405265607445607196039|`johndoe@example.com`| 55 e 79200 c 1635 b 37 ad 31 a 378 c 39 feb 12 f 120 f 116625093 a 19 bc 32 fff 15041149 | location = US|
+| DPUUID (CRM ID) | 이메일 주소 | 해시된 이메일 주소 | 특성 |
+|---|---|---|---|
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | 위치 = US |
 
 선언된 ID는 다음 구문을 따라야 합니다.
 

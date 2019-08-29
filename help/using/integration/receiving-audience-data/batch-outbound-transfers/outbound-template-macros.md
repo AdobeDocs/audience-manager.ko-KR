@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 아웃바운드 템플릿 매크로
 uuid: Dec 082 D 3-306 B -4 FF 5-AFB 2-418 BD 543 D 8 D 0
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 아웃바운드 템플릿을 만드는 데 사용할 수 있는 매크로를 나열합니다. 여기에는 파일 이름 매크로, 헤더 매크로 및 컨텐츠 매크로가 포함됩니다.
 
-## File Name and File Header Macros {#file-name-header-macros}
+## 파일 이름 및 파일 헤더 매크로 {#file-name-header-macros}
 
-아래 표에서는 파일 이름에서 사용할 수 있는 매크로와 헤더 필드를 정의하는 방법을 설명합니다. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+아래 표에서는 파일 이름에서 사용할 수 있는 매크로와 헤더 필드를 정의하는 방법을 설명합니다. 코드 샘플은 [아웃바운드 매크로 예제를](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)참조하십시오.
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -44,8 +44,17 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
    <td colname="col2"> <p>주문/대상 ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Pidalias </code> </p> </td> 
+   <td colname="col1"> <p> <code> pid_ alias </code> </p> </td> 
    <td colname="col2"> <p>주문/대상 ID에 대한 별칭. </p> <p>별칭은 관리자 UI에 설정됩니다. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code> splitnum </code> </p> </td> 
+   <td colname="col2"> <p>아웃바운드 파일을 여러 부분으로 분할하는 것을 나타냅니다. 파일 이름에 있는 Splitnum 섹션을 0 앞에 있는 part 번호로 대체하면 Splitnum 섹션에 최소 3 자를 사용할 수 있습니다.</p>
+   <p>Splitnum 매크로를 &lt; &gt; 문자로 묶지 않아도 됩니다.</p><p>예: <code>&lt; sync_ type &gt;_ &lt; order_ id &gt;_ &lt; dpid &gt;_ &lt; dpid &gt;_ &lt; timestamp &gt; splitnum. csv</code>
+<p>s 3_ 123456_ 9999_ full_ 1566906141001. csv</p> 
+<p>s 3_ 123456_ 9999_ full_ 1566906141002. csv</p> 
+<p>s 3_ 123456_ 9999_ full_ 1566906141003. csv</p> 
+<p>위의 예에서 마지막 세 자리 (001,002,003) 는 Splitnum 식별자입니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> sync_ mode </code> </p> </td> 
@@ -70,14 +79,15 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> timestamp </code> </p> </td> 
-   <td colname="col2"> <p>10 자리, UTC, Unix 타임스탬프. </p> <p>It can also be formatted as <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> following Java date/timestamp formatting rules. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>10 자리, UTC, Unix 타임스탬프. </p> <p>또한 <code> &lt; timestamp; format = "yyyymmddhhmmss" &gt; </code> 다음 Java 날짜/타임스탬프 서식 규칙. </p> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-## Content Macros {#content-macros}
+## 컨텐츠 매크로 {#content-macros}
 
-데이터 파일의 컨텐츠 서식을 지정하는 데 사용되는 매크로입니다. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+데이터 파일의 컨텐츠 서식을 지정하는 데 사용되는 매크로입니다. 코드 샘플은 [아웃바운드 매크로 예제를](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)참조하십시오.
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -157,7 +167,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code></code>유형: 데이터를 세그먼트 데이터로 식별하는 정적, 하드코드된 값인 <code> 5 </code>를 반환합니다. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> Alias </code>: 가치 하락. 사용하지 마십시오. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> Lastupdatetime </code>: 세그먼트가 구현된 마지막 시간을 나타내는 UNIX 타임스탬프. </li> 
-    </ul> <p>이러한 변수를 매크로 뒤에 중괄호로 넣습니다. For example, this code separates results with a pipe "|" character: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+    </ul> <p>이러한 변수를 매크로 뒤에 중괄호로 넣습니다. 예를 들어 이 코드는|" 문자: <code> &lt; segment_ list: {seg|&lt; seg. type &gt;, &lt; seg. sid &gt;}; separator = "," &gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> set_ attributes </code> </p> </td> 
@@ -195,7 +205,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> Traitid </code>: 특성 ID. </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> 래스트리스 </code>: 트레이트가 실현된 마지막 시간입니다. UNIX 타임스탬프. </li> 
-    </ul> <p>이러한 변수를 매크로 뒤에 중괄호로 넣습니다. For example, this code separates the results with a pipe "|" character: <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
+    </ul> <p>이러한 변수를 매크로 뒤에 중괄호로 넣습니다. 예를 들어 이 코드는|" 문자: <code> &lt; trait_ list: {트레이트|&lt; trait. id &gt;, &lt; 특성. lastrealized &gt;}; separator = "," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 

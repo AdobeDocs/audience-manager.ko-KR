@@ -6,14 +6,14 @@ solution: Audience Manager
 title: 특성 세부 사항 페이지
 uuid: 23301376-C 1 CC -4778-B 8 C 4-9831 F 6739 DB 9
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: aadcafe10d452a0abc02a430485a373c6c80cdc5
 
 ---
 
 
-# Trait Details Page {#trait-details-page}
+# 특성 세부 사항 페이지 {#trait-details-page}
 
-개별 트레이트에 대한 세부 사항 페이지는 트레이트 이름, ID, 성능 지표, 트레이트, 트레이트 및 트레이트 감사 로그에 속하는 표현식의 개요를 제공합니다. To vew these details, go to [!UICONTROL Audience Data > Traits] and click the name of the trait you want to work with.
+개별 트레이트에 대한 세부 사항 페이지는 트레이트 이름, ID, 성능 지표, 트레이트, 트레이트 및 트레이트 감사 로그에 속하는 표현식의 개요를 제공합니다. 이러한 세부 사항을 보려면 [!UICONTROL Audience Data > Traits] 작업할 트레이트 이름을 클릭하여 클릭합니다.
 
 ## 기본 정보 {#basics}
 
@@ -21,34 +21,39 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 ![](assets/basicInfo.png)
 
-## Trait Graph {#trait-graph}
+## 트레이트 그래프 {#trait-graph}
 
-The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your selected trait. 트렌드 라인 위에 커서를 두면 선택한 트레이트에 대한 추가 데이터가 표시됩니다.
+는 [!UICONTROL Trait Graph] 선택한 트레이트에 대해 한 눈에 볼 수 있는 성능 지표를 제공합니다. 트렌드 라인 위에 커서를 두면 선택한 트레이트에 대한 추가 데이터가 표시됩니다.
 
-[!UICONTROL Unique Trait Realizations] 주어진 시간 범위에서 프로필에 이 트레이트를 추가한 고유한 사용자의 수를 나타냅니다. The [!UICONTROL Total Trait Population] indicates the number of unique users currently qualified for this trait.
+[!UICONTROL Unique Trait Realizations] 주어진 시간 범위에서 프로필에 이 트레이트를 추가한 고유한 사용자의 수를 나타냅니다. 는 이 트레이트에 대해 현재 자격 조건을 갖춘 고유한 사용자 수를 [!UICONTROL Total Trait Population] 나타냅니다.
 
 * 규칙 기반의 트레이트에 대해 사용자가 브라우저에서 트레이트를 적용받을 수 있으므로 트레이트 자격 조건은 실시간으로 발생합니다.
-* For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md) and that is when the trait qualification happens.
+* 온보딩된 트레이트에 대한 트레이트 자격 조건은 인바운드 파일이 처리된 후, 즉 인바운드 파일이 Audience Manager에 [공급되고](../../faq/faq-inbound-data-ingestion.md) 트레이트 자격 검증이 발생할 때 발생합니다.
 * **고유한 특성: 주어진 시간 범위에서 프로필에 이 트레이트를 추가한 고유한 사용자의 수입니다.**
 * **총 특성 수: 이 트레이트에 대해 현재 자격 조건을 갖춘 고유한 사용자 수입니다.**
 
-![](assets/traitGraph.png)
+   ![Trait-Graph](assets/trait-summary.png)
 
-## Trait Expression {#trait-expression}
+* **ID 유형 분류**: 처음 세 개 항목에는 가장 높은 인구 카운트가 포함된 상위 3 개 장치 간 데이터 소스가 내림차순으로 표시됩니다. 네 번째 항목에는 맨 위 3에 속하지 않은 장치 간 데이터 소스에서 특성에 대해 자격을 부여한 다른 [!DNL DPUUIDs] 모든 ([!DNL CRM IDs]) 의 합계가 표시됩니다. 이 보고서는 페이지 오른쪽 상단의 [!UICONTROL Show Results By] 드롭다운 메뉴에서 장치 간 ID를 선택하는 경우에만 나타납니다. 기본 드롭다운 옵션은 이 보고서가 표시되지 않는 곳입니다 [!UICONTROL Device ID].
 
-[!UICONTROL Trait Expression] 이 섹션에서는 사용자가 트레이트를 사용할 수 있도록 충족해야 하는 기준을 보여 줍니다. These rules are set when you [create or edit a trait](../../features/traits/about-trait-builder.md).
+   ![Trait-Graph](assets/trait-identity.png)
+
+
+## 특성 표현식 {#trait-expression}
+
+[!UICONTROL Trait Expression] 이 섹션에서는 사용자가 트레이트를 사용할 수 있도록 충족해야 하는 기준을 보여 줍니다. 이러한 규칙은 트레이트를 만들거나 [편집할 때 설정됩니다](../../features/traits/about-trait-builder.md).
 
 ![](assets/traitExpression.png)
 
-## Trait Segments {#trait-segments}
+## 특성 세그먼트 {#trait-segments}
 
 [!UICONTROL Segments with this Trait] 섹션에는 선택한 속성이 속하는 모든 세그먼트가 나열됩니다. 세그먼트 이름을 클릭하여 해당 세그먼트에 대한 세부 사항을 볼 수 있습니다.
 
 ![](assets/traitSegments.png)
 
-## Trait Audit/History Log {#trait-audit-history}
+## 특성 감사/기록 로그 {#trait-audit-history}
 
-For rule-based and onboarded traits, the [!UICONTROL Trait Expression Change History] shows you the last 10 changes made to trait expression rules and who made them. If your trait has more than 10 changes, click **[!UICONTROL Export to CSV]** to download the entire audit log. 감사 로그는 폴더 또는 알고리즘 특성에 사용할 수 없습니다.
+규칙 기반 트레이트와 온보딩 트레이트에 대해, 트레이트 [!UICONTROL Trait Expression Change History] 표현식 규칙에 대한 마지막 10 개 변경 사항과 이러한 규칙을 만든 사람을 보여줍니다. 트레이트에 10 개가 넘는 변경 사항이 있는 경우를 클릭하여 **[!UICONTROL Export to CSV]** 전체 감사 로그를 다운로드합니다. 감사 로그는 폴더 또는 알고리즘 특성에 사용할 수 없습니다.
 
 >[!NOTE]
 >

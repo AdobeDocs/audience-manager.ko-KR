@@ -5,7 +5,7 @@ seo-title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라
 solution: Audience Manager
 title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동에 기반한 개인화
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: f3f47db944d9f771cbd55058f6652188cda0e147
 
 ---
 

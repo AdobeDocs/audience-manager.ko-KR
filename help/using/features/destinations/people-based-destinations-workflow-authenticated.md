@@ -5,7 +5,7 @@ seo-title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활
 solution: Audience Manager
 title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동에 기반한 개인화
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,9 +18,13 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 [Dpuuids가](../../reference/ids-in-aam.md) 소문자로 된 소문자를 사용하는지에 따라 해시된 이메일 주소를 저장할 데이터 소스를 구성해야 할 수 있습니다.
 
+ 
+
 **시나리오 1:[Dpuuids](../../reference/ids-in-aam.md)는 이미 소문자인 해시된 이메일 주소입니다.**
 
 이 경우 5 [단계로 건너뛰기 - 인물 기반 플랫폼 인증을 구성합니다](#configure-authentication).
+
+ 
 
 **시나리오 2:[Dpuuids](../../reference/ids-in-aam.md)는 소문자로 해시된 이메일 주소가 아닙니다.**
 
@@ -54,15 +58,21 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 | 999999 | 기존 DPUUIDS (CRM ID) |
 | 987654 | 해시된 이메일 주소 |
 
+ 
+
 그런 다음 아래 표에 있는 특성에 대해 아래의 CRM ID를 적용하려고 합니다.
 
 | DPUUID (CRM ID) | 이메일 주소 | 해시된 이메일 주소 | 특성 |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | 위치 = US |
 
+ 
+
 선언된 ID는 다음 구문을 따라야 합니다.
 
 `https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+
+ 
 
 위의 예에서 선언된 ID 호출은 다음과 같아야 합니다.
 

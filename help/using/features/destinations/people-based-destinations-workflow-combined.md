@@ -5,7 +5,7 @@ seo-title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라
 solution: Audience Manager
 title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동에 기반한 개인화
 translation-type: tm+mt
-source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
 기존 [Dpuuid](../../reference/ids-in-aam.md) 를 아래 표에서 해시된 이메일 주소에 일치시키고 1 [단계에서 작성한 새 데이터 소스에 해시된 이메일 주소를 저장한다고 가정합니다 (데이터 소스 설정 구성](people-based-destinations-workflow-combined.md#configure-data-source-settings)).
 
 | DPUUID (CRM ID) | 이메일 주소 | 해시된 이메일 주소 |
-| --- | --- | --- |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
@@ -65,7 +65,7 @@ source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
 이 예에서는 이제 두 개의 Data Sources가 있습니다.
 
 | 데이터 소스 ID | 데이터 소스 컨텐츠 |
-| --- | --- |
+| -------------- | -------------------------- |
 | 999999 | 기존 DPUUIDS (CRM ID) |
 | 987654 | 해시된 이메일 주소 |
 

@@ -5,7 +5,7 @@ seo-title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라
 solution: Audience Manager
 title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동에 기반한 개인화
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,6 +18,8 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 [Dpuuids가](../../reference/ids-in-aam.md) 소문자로 된 소문자를 사용하는지에 따라 해시된 이메일 주소를 저장할 데이터 소스를 구성해야 할 수 있습니다.
 
+ 
+
 **시나리오 1:[Dpuuids](../../reference/ids-in-aam.md)는 이미 소문자인 해시된 이메일 주소입니다.**
 
 이 경우 해당 데이터 소스에 레이블을 지정해야 합니다.
@@ -26,6 +28,8 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 1. Dpuuids가 들어 있는 데이터 소스를 [찾아 클릭합니다](../../reference/ids-in-aam.md).
 1. [!UICONTROL Cannot be tied to personally identifiable information] 옵션을 선택 취소했는지 확인합니다.
 1. 데이터 소스 설정을 저장합니다.
+
+ 
 
 **시나리오 2:[Dpuuids](../../reference/ids-in-aam.md)는 소문자로 해시된 이메일 주소가 아닙니다.**
 
@@ -60,6 +64,8 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
+ 
+
 하나의 DPUUID에 최대 10 개의 해시된 이메일 주소를 연결할 [](../../reference/ids-in-aam.md)수 있습니다. 이렇게 하려면 해시된 이메일 주소를 동기화 파일 내에서 쉼표로 구분합니다.
 
 이 예에서는 이제 두 개의 Data Sources가 있습니다.
@@ -69,6 +75,8 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 | 999999 | 기존 DPUUIDS (CRM ID) |
 | 987654 | 해시된 이메일 주소 |
 
+ 
+
 [ID 동기화 파일에는](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) 다음과 같은 내용이 있습니다.
 
 ```
@@ -77,9 +85,13 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+ 
+
 [ID 동기화 파일은](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) 다음과 같은 이름 지정 구조를 따라야 합니다.
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+ 
 
 위의 예에서 파일 이름은 다음과 같습니다.`c2c_id_999999_987654_1560431657.sync`
 

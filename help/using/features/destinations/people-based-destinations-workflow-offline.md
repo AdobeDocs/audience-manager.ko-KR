@@ -5,7 +5,7 @@ seo-title: Workflow B - 오프라인 전용 데이터를 기반으로 개인화
 solution: Audience Manager
 title: Workflow B - 오프라인 전용 데이터를 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 아래 표에서 해당 온보딩된 특성 ID에 대해 고객 ID를 적용하려고 합니다. [Dpuuids](../../reference/ids-in-aam.md) 는 ID 999999의 데이터 소스에 저장되고 Audience Manager 파트너 ID는 123로 간주합니다.
 
-| 고객 ID (DPUUID)| 온보드 특성 ID |
-|-|-|
-|6807998276567319850405265607445607196039|12345, 23456 |
-|67412682083411995725538770443620307584 |45678|
-|89159024796760343733111707646026765593 |11223, 93342, 27341|
+| 고객 ID (DPUUID) | 온보드 특성 ID |
+| -------------------------------------- | ------------------- |
+| 68079982765673198504052656074456196039 | 12345, 23456 |
+| 67412682083411995725538770443620307584 | 45678 |
+| 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 해당 온보딩 트레이트에 대해 위의 예에서 고객 ID를 검증하려면 다음 컨텐츠가 포함된 [인바운드 데이터 파일을](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) 업로드해야 합니다.
 
@@ -88,15 +88,17 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 이제 두 개의 Data Sources가 있을 것입니다.
 
 | 데이터 소스 ID | 데이터 소스 컨텐츠 |
-|---|---|
+| -------------- | -------------------------- |
 | 999999 | 기존 DPUUIDS (CRM ID) |
 | 987654 | 해시된 이메일 주소 |
 
 | Dpuuids (CRM ID) | 이메일 주소 | 해시된 이메일 주소 |
-|---|---|---|
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
+
+<br/>
 
 [ID 동기화 파일에는](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) 다음과 같은 내용이 있습니다.
 
@@ -106,9 +108,13 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+<br/>
+
 [ID 동기화 파일은](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) 다음과 같은 이름 지정 구조를 따라야 합니다.
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+<br/>
 
 위의 예에서 파일 이름은 다음과 같습니다. `c2c_id_999999_987654_1560431657.sync`
 

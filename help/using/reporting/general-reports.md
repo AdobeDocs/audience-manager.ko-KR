@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 일반 보고서
 uuid: 0 CEA 75 A 0-969 E -4 EE 3-971 A -60 B 911711 E 52
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 1c626c770208150d209d93f666b581113ada8de9
 
 ---
 
@@ -66,13 +66,13 @@ t_run_general_report.xml
 1. 클릭 **[!UICONTROL Run Report]**.
 
    내보내기 가능한 표에 결과가 표시됩니다. 열 헤더를 클릭하여 결과를 오름차순이나 내림차순으로 정렬합니다.
-2. 보고서 맨 위에 있는 원하는 옵션 단추를 선택하여 성과 ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]또는 [!UICONTROL Total Trait Population]) 또는 시간 (1, 7, 14, 30, 60 또는 90 일 범위) 별로 데이터를 필터링합니다.
+1. 보고서 맨 위에 있는 원하는 옵션 단추를 선택하여 성과 ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]또는 [!UICONTROL Total Trait Population]) 또는 시간 (1, 7, 14, 30, 60 또는 90 일 범위) 별로 데이터를 필터링합니다.
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations] 에 대해서만 [!UICONTROL Rule-based Traits] 계산됩니다.
 
-3. *클릭 (선택 사항***[!UICONTROL Export to CSV]**). 모든 날짜 범위의 [!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Realizations][!UICONTROL Total Trait Population] 내보내기가 내보내집니다.
+1. *클릭 (선택 사항***[!UICONTROL Export to CSV]**). 모든 날짜 범위의 [!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Realizations][!UICONTROL Total Trait Population] 내보내기가 내보내집니다.
 
 ## 일반 보고서 결과 설명 {#general-reports-explained}
 

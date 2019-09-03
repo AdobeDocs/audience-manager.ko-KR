@@ -6,14 +6,14 @@ solution: Audience Manager
 title: 실시간 아웃바운드 데이터 전송
 uuid: 1895 E 818-7 AB 8-4569-A 920-4 B 0 A 4 C 8 B 83 D 2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
 
 ---
 
 
-# Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
+# 실시간 아웃바운드 데이터 전송 {#real-time-outbound-data-transfers}
 
-The outbound real-time data transfer process returns user data as a series of [!DNL JSON] objects passed in with a `POST` method.
+아웃바운드 실시간 데이터 전송 프로세스는 메서드로 전달된 [!DNL JSON] 일련의 개체로 사용자 데이터를 `POST` 반환합니다.
 
 <!-- c_outbound_json.xml -->
 
@@ -21,9 +21,9 @@ The outbound real-time data transfer process returns user data as a series of [!
 
 이 방법을 사용하려면 데이터 파트너가 권장됩니다.
 
-* Accepts data in [!DNL JSON] format.
-* Provides a URL that can be used by the `POST` call to return data.
-* Accepts secure `HTTPS` data transfers. [!DNL Audience Manager] 이 파일을 비보안 `HTTP` 프로토콜로 보내지 않습니다.
+* 형식의 데이터를 [!DNL JSON] 허용합니다.
+* 데이터 반환 `POST` 호출에 사용할 수 있는 URL를 제공합니다.
+* 보안 `HTTPS` 데이터 전송을 허용합니다. [!DNL Audience Manager] 이 파일을 비보안 `HTTP` 프로토콜로 보내지 않습니다.
 
 ## 빈도
 
@@ -31,11 +31,11 @@ The outbound real-time data transfer process returns user data as a series of [!
 
 ## 필수 응답
 
-By default, the recipient server must return the `200 OK` code to indicate successful receipt. 다른 코드는 실패로 해석됩니다. 이 응답은 3000 밀리초 내에 예상됩니다. In response to a failure, [!DNL Audience Manager] will make 1 retry attempt only.
+기본적으로 수신자 서버는 성공적인 수신을 나타내는 `200 OK` 코드를 반환해야 합니다. 다른 코드는 실패로 해석됩니다. 이 응답은 3000 밀리초 내에 예상됩니다. 오류가 발생하면 1 [!DNL Audience Manager] 회 재시도 시도만 수행합니다.
 
 ## 매개 변수
 
-The following table defines the elements in the returned [!DNL JSON] data file.
+다음 표에서는 반환된 [!DNL JSON] 데이터 파일의 요소를 정의합니다.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -56,8 +56,8 @@ The following table defines the elements in the returned [!DNL JSON] data file.
    <td colname="col2"> <p>정수 </p> </td> 
    <td colname="col3"> <p>파일에 Android ID 또는 iOS ID가 포함되어 있는지 나타내는 ID 입니다. 다음 ID 값을 사용합니다. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android IDs (GAID): <code> 20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS IDs (IDFA): <code> 20915</code> </li> 
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID (Gaid): <code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID (IDFA): <code> 20915</code> </li> 
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
@@ -93,7 +93,7 @@ The following table defines the elements in the returned [!DNL JSON] data file.
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_ REGIONS</i></code> </td> 
    <td colname="col2"> 배열 </td> 
-   <td colname="col3"> The <span class="keyword"> Audience Manager</span> region ID where we've seen this device. For instance, if the device had some activity in Paris (Europe), the region ID would be <code> 6</code>. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </td> 
+   <td colname="col3"> 이 장치를 본 <span class="keyword"> 대상 관리자</span> 지역 ID 예를 들어 장치에 파리 (유럽) 에서 일부 활동이 있었다면 지역 ID는 <code> 6</code>입니다. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>세그먼트</i></code> </td> 
@@ -115,21 +115,21 @@ The following table defines the elements in the returned [!DNL JSON] data file.
     </ul> <p>사용자는 다음과 같은 경우 세그먼트화되지 않습니다. </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">세그먼트 규칙을 기반으로 세그먼트에서 제거되었습니다. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removed from a segment based on the segment's <a href="../../../features/traits/segment-ttl-explained.md"> time-to-live interval</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">세그먼트의 실시간 간격에 따라 세그먼트에서 <a href="../../../features/traits/segment-ttl-explained.md"> 제거되었습니다</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">지난 120 일 동안 보지 않은 경우 비활성 상태로 전환되었습니다. </li> 
     </ul> <p><span class="keyword"> Audience Manager</span> ID와 동기화된 모든 파트너 ID에 <code> "status" 가 표시됩니다. " 0 "</code> 플래그가 없는 경우 플래그가 지정됩니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>사이트 방문자가 트레이트를 자격을 부여한 시간입니다. </p> </td> 
+   <td colname="col3"> <p>가장 최근의 세그먼트 자격 조건.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 보안
 
-You can secure your real-time outbound data transfer process by [signing HTTP requests](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) using private keys or by having [!DNL Audience Manager] authenticate through the [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocol.
+개인 [키를](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) 사용하거나 [!DNL Audience Manager][OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 프로토콜을 통해 인증하는 방식으로 HTTP 요청에 서명함으로써 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
 
 ## 코드 샘플
 

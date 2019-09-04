@@ -6,14 +6,14 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 클릭 데이터 캡처
 uuid: 7 C 3797 F 7-9674-493 D -972 B -38 BE 0584 Fede
 translation-type: tm+mt
-source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
+source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-클릭 추적을 사용하면 타사 크리에이티브 전문가를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. 그러면 방문자가 의도한 웹 주소로 리디렉션됩니다.
+클릭 추적을 사용하면 타사 크리에이티브 전문가를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 수와 유사하게, 이벤트 호출이 처리를 위해 Audience Manager 데이터 수집 서버 ([!UICONTROL DCS]) 로 전송됩니다. 그러면 방문자가 의도한 웹 주소로 리디렉션됩니다.
 
 ## 요구 사항
 
@@ -32,15 +32,15 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 응답
 
-The response redirects the browser to the [!DNL URL] specified in the `d_rd` parameter. 응답 문자열에는 아래 나열된 지원되는 매크로에 의해 생성된 값이 포함될 수 있습니다.
+응답이 브라우저를 매개 변수에 [!DNL URL] 지정된 값으로 `d_rd` 리디렉션합니다. 응답 문자열에는 아래 나열된 지원되는 매크로에 의해 생성된 값이 포함될 수 있습니다.
 
-Based on the above example, the browser is redirected to the following [!DNL URL]:
+위의 예에서 [!DNL URL]브라우저는 다음으로 리디렉션됩니다.
 
 [!DNL `https://adobe.com/callback?creative=123`]
 
 ## 지원되는 매크로
 
-Click Events는 다음 표에 나열된 매크로를 지원합니다. 매크로는 캠페인 및 사용자 추적을 위해 광고 태그가 로드될 때 활성화되는 작은 자체 포함 코드입니다. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. 일부 키에 매크로가 없고 하드 코딩된 ID 값을 대신 수락합니다. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Click Events는 다음 표에 나열된 매크로를 지원합니다. 매크로는 캠페인 및 사용자 추적을 위해 광고 태그가 로드될 때 활성화되는 작은 자체 포함 코드입니다. 매크로는 다음 형식으로 표시된 경우 대상과 [!DNL URL]함께 전달됩니다. `%macro%`. 일부 키에 매크로가 없고 하드 코딩된 ID 값을 대신 수락합니다. 대상 최적화 보고서에서 데이터를 분석하려는 경우 하드 코딩된 값을 [수락하는 키가 필요합니다](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -59,7 +59,7 @@ Click Events는 다음 표에 나열된 매크로를 지원합니다. 매크로�
   <tr> 
    <td colname="col1"> <p> <code> d_ adsrc</code> </p> </td> 
    <td colname="col02"> <p>매크로가 없습니다. </p> <p>하드 코딩된 ID 값을 수락합니다. </p> </td> 
-   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> 광고주의 데이터 소스</a> ID 또는 통합 코드. </p> <p> <span class="wintitle"> 대상 최적화</span> 보고서에 필요합니다. </p> </td> 
+   <td colname="col2"> <p>광고주 ID.</p> <p>광고주의 데이터 소스에 대한 통합 코드. Audience Manager Data Sources 와는 관련이 없습니다.</p> <p> <span class="wintitle"> 대상 최적화</span> 보고서에 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ bu</code> </p> </td> 
@@ -79,7 +79,7 @@ Click Events는 다음 표에 나열된 매크로를 지원합니다. 매크로�
   <tr> 
    <td colname="col1"> <p> <code> d_ dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ id %</code> </p> </td> 
-   <td colname="col2"> <p>데이터 공급자 ID. </p> <p>Often used with <code> d_dpuuid</code> to link a data provider ID to a user ID. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>데이터 공급자 ID. </p> <p>데이터 공급자 ID를 사용자 ID에 연결하는 <code> 데</code> 종종 d_ dpuuid와 함께 사용됩니다. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ dpuuid</code> </p> </td> 
@@ -99,7 +99,7 @@ Click Events는 다음 표에 나열된 매크로를 지원합니다. 매크로�
   <tr> 
    <td colname="col1"> <p> <code> D_ region</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ region %</code> </p> </td> 
-   <td colname="col2"> <p>요청을 처리하는 DCS 클러스터의 숫자 영역 ID 입니다. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a>. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>요청을 처리하는 DCS 클러스터의 숫자 영역 ID 입니다. DCS에 대한 자세한 내용은 <a href="../../reference/system-components/components-data-collection.md"> 데이터 수집 구성 요소를</a>참조하십시오. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_ rand</code> </p> </td> 
@@ -156,7 +156,7 @@ d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
 
 ## 응답
 
-Based on the above example, the browser is redirected to the following [!DNL URL]:
+위의 예에서 [!DNL URL]브라우저는 다음으로 리디렉션됩니다.
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 

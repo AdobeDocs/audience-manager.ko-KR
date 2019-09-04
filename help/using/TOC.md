@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용자 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a51d569c04d1232d0fe9258199bd4ca0e5fcd987
+source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
 
 ---
 
@@ -267,7 +267,7 @@ source-git-commit: a51d569c04d1232d0fe9258199bd4ca0e5fcd987
    + [DIL 사용 사례 및 코드 샘플](dil/dil-use-cases.md)
    + [Flash DIL](dil/dil-flash.md)
    + [DIL 릴리스 노트](/help/using/dil/dil-release-notes.md)
-+ 구현 및 통합 안내서{#implemenation-integration-guides}
++ 구현 및 통합 안내서{#implementation-integration-guides}
    + [구현 및 통합 안내서](integration/implementation-and-integration.md)
    + [데이터 통합 방법](integration/data-integration-methods.md)
    + Google Publisher 태그 (GPT) 를 사용하여 DFP 통합{#integrate-dfp-using-gpt}

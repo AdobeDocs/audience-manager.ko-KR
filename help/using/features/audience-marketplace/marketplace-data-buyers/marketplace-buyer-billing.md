@@ -7,7 +7,7 @@ title: 데이터 피드 구매자에 대한 대금 청구
 keywords: 세그먼트 수준 보고, 세그먼트 수준, 세그먼트 수준
 uuid: D 7236667-282 B -4160-9909-579721 AF 4016
 translation-type: tm+mt
-source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -40,15 +40,17 @@ Audience Marketplace 데이터 구매자는 천 개의 광고 노출 횟수 ([!D
 세그먼트 수준에서 [!DNL CPM] 사용량을 보고하려면:
 
 1. **[!UICONTROL Audience Marketplace > Payables]**&#x200B;이동.
-2. **[!UICONTROL Segment Usage]** 탭을 선택합니다.
-3. 세그먼트에 대한 사용을 채웁니다. 일부 세그먼트만 보고할 경우 [!UICONTROL Search] 이 상자를 사용하여 세그먼트를 필터링할 수 있습니다.
-4. 클릭 **[!UICONTROL Edit Segments Usage]**.
-5. 열에 [!DNL CPM] 사용 금액을 [!UICONTROL Usage] 입력합니다.
-6. 완료되면을 클릭하고 **[!UICONTROL Save]** 확인 대화 상자를 검토합니다.
-   ![세그먼트 사용 확인](assets/confirm-segment-usage.png)
-7. 클릭 **[!UICONTROL Confirm]**.
+1. **[!UICONTROL Segment Usage]** 탭을 선택합니다.
+1. 세그먼트에 대한 사용을 채웁니다. 일부 세그먼트만 보고할 경우 [!UICONTROL Search] 이 상자를 사용하여 세그먼트를 필터링할 수 있습니다.
+1. 클릭 **[!UICONTROL Edit Segments Usage]**.
+1. 열에 [!DNL CPM] 사용 금액을 [!UICONTROL Usage] 입력합니다.
+1. 완료되면을 클릭하고 **[!UICONTROL Save]** 확인 대화 상자를 검토합니다.
 
-<br> 
+   ![세그먼트 사용 확인](assets/confirm-segment-usage.png)
+
+1. 클릭 **[!UICONTROL Confirm]**.
+
+ 
 
 ## 데이터 피드 수준에서 CPM 사용량 보고 {#feed-level-report}
 
@@ -57,15 +59,15 @@ Audience Marketplace 데이터 구매자는 천 개의 광고 노출 횟수 ([!D
 세그먼트 수준에서 [!DNL CPM] 사용량을 보고하려면:
 
 1. **[!UICONTROL Audience Marketplace > Payables]**&#x200B;이동.
-2. **[!UICONTROL Feed Usage]** 탭을 선택합니다.
-3. [!UICONTROL Search] 이 상자를 사용하여 데이터 피드를 필터링하고 사용량을 보고하는 데 필요한 데이터 피드를 식별합니다.
-4. 클릭 **[!UICONTROL Edit Feeds Usage]**.
-5. CPM 데이터 [!DNL CPM] 피드에 대한 [비용 기여도를 기반으로 각 데이터 피드에 대한 사용량을](#cost-attribution)계산하여 [!UICONTROL Usage] 열에 입력합니다.
-6. 완료되면을 클릭하고 **[!UICONTROL Save]** 확인 대화 상자를 검토합니다.
+1. **[!UICONTROL Feed Usage]** 탭을 선택합니다.
+1. [!UICONTROL Search] 이 상자를 사용하여 데이터 피드를 필터링하고 사용량을 보고하는 데 필요한 데이터 피드를 식별합니다.
+1. 클릭 **[!UICONTROL Edit Feeds Usage]**.
+1. CPM 데이터 [!DNL CPM] 피드에 대한 [비용 기여도를 기반으로 각 데이터 피드에 대한 사용량을](#cost-attribution)계산하여 [!UICONTROL Usage] 열에 입력합니다.
+1. 완료되면을 클릭하고 **[!UICONTROL Save]** 확인 대화 상자를 검토합니다.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-7. 클릭 **[!UICONTROL Confirm]**.
+1. 클릭 **[!UICONTROL Confirm]**.
 
 <br> 
 
@@ -155,7 +157,7 @@ In [!UICONTROL Audience Marketplace] you must self-report amount-report amount t
 
 ## 트레이트 자격 규칙에 따라 피드 수준에서 노출 횟수 지정 {#assign-impressions}
 
-사용 사례에서는 [!UICONTROL Activation] 해당 데이터 피드에 트레이트를 사용하여 [세그먼트 빌더에서](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) 세그먼트를 만들고 해당 세그먼트를 대상에 매핑할 수 있습니다. 부울 연산자 [!UICONTROL AND], [!UICONTROL OR]트레이트 및 [!UICONTROL NOT] 세그먼트 자격 조건에 대한 조건을 설정할 수 있습니다.
+사용 사례에서는 [!UICONTROL Activation] 해당 데이터 피드에 트레이트를 사용하여 [세그먼트 빌더에서](../../../features/segments/segment-builder.md) 세그먼트를 만들고 해당 세그먼트를 대상에 매핑할 수 있습니다. 부울 연산자 [!UICONTROL AND], [!UICONTROL OR]트레이트 및 [!UICONTROL NOT] 세그먼트 자격 조건에 대한 조건을 설정할 수 있습니다.
 
 데이터 [피드 수준에서](#feed-level-report)CPM 사용을 보고할 때 트레이트 자격 규칙에 사용된 [!DNL Boolean] 연산자에 따라 각 데이터 피드에 대해 비례적으로 노출 횟수를 할당해야 합니다. 다음 표에는 부울 규칙이나 트레이트 유형별로 노출 수를 적절히 할당하는 방법이 나와 있습니다.
 

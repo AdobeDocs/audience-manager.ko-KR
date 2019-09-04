@@ -5,7 +5,7 @@ seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
+source-git-commit: a16734f652f3c398f12660671103f5478cfdd89e
 
 ---
 
@@ -19,8 +19,9 @@ source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 [!DNL Twitter Tailored Audiences] 대상을 구성하기 전에 충족해야 하는 다음 Twitter 전제 조건을 검토하십시오.
 
 1. 귀하의 [!DNL Twitter Ads] 계정은 광고를 받을 수 있어야 합니다. 새 [!DNL Twitter Ads] 계정은 광고를 만든 후 처음 2 주 동안 사용할 수 없습니다.
-2. Audience Manager에서 액세스 권한이 있는 Twitter 사용자 계정은 [파트너 Audience Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 권한이 활성화되어 있어야 합니다.
-3. 기존 Twitter 통합을 셀프 서비스 관리로 [](#update-existing-twitter-integrations)업데이트하는 경우 Twitter 사용자 계정에 [광고 관리자](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 권한이 활성화되어 있어야 합니다.
+1. Audience Manager에서 액세스 권한이 있는 Twitter 사용자 계정은 [파트너 Audience Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 권한이 활성화되어 있어야 합니다.
+1. 기존 Twitter 통합을 셀프 서비스 관리로 [](#update-existing-twitter-integrations)업데이트하는 경우 Twitter 사용자 계정에 [광고 관리자](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 권한이 활성화되어 있어야 합니다.
+2. Audience Manager 인스턴스에서 첫 [!DNL Twitter Tailored Audiences] 번째 대상을 만들 때는 Adobe 컨설팅 또는 고객 지원 센터에 문의하여 계정에 [!DNL Twitter] ID 동기화 (Data Source ID = 1123) 를 활성화하십시오. Audience Manager와 [!DNL Twitter]사용자 간의 올바른 동기화를 위해 필요합니다.
 
 ## [!DNL Twitter Tailored Audiences] 새 대상 추가 {#add-new-twitter-destination}
 

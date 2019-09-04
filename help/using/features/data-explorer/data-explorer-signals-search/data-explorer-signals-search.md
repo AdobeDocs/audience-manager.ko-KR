@@ -4,12 +4,12 @@ seo-description: 특정 기간 동안 받은 사용되지 않는 신호와 사�
 seo-title: 신호 검색
 title: 신호 검색
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 
 ---
 
 
-# Signals Search Overview {#signals-search}
+# 신호 검색 개요 {#signals-search}
 
 특정 기간 동안 받은 사용되지 않는 신호와 사용되지 않은 신호를 검색합니다. 신호를 검색하려면 대상 데이터 &gt; 신호 &gt; 검색으로 이동합니다.
 

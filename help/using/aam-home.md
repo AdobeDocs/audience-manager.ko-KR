@@ -1,19 +1,19 @@
 ---
 description: Audience Manager에서는 온라인 대상 데이터 관리를 위한 업계 선도 서비스를 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
-seo-description: Audience Manager에서는 온라인 대상 데이터 관리를 위한 업계 선도 서비스를 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
-seo-title: Audience Manager 제품 설명서
+seo-description: 기술 문서 및 AAM (Audience Manager) 에 대한 자체 도움말. AAM는 온라인 고객 데이터 관리를 위한 업계 선도적인 서비스를 제공하며, 디지털 광고주와 퍼블리셔에게 데이터 자산을 제어 및 활용하여 매출 향상에 도움이 되는 도구를 제공합니다.
+seo-title: Adobe Audience Manager 제품 기술 설명서
 solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267 E 3 B -70 E 6-42 AE -99 B 1-884 F 4 D 0916 BE
 translation-type: tm+mt
-source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
+source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
 ---
 
 
 # Audience Manager 제품 설명서 {#audience-manager-product-documentation}
 
-Audience Manager에서는 온라인 대상 데이터 관리를 위한 업계 선도 서비스를 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
+이 기술 설명서 가이드는 온라인 대상 데이터 관리를 위한 업계 선도적인 서비스인 Audience Manager에 대한 자체 도움말 지원을 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 

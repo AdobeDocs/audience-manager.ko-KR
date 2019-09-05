@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS로 데이터 전송
 uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -23,7 +23,9 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 에 데이터를 보내는 기본 `URL` 문자열은 아래와 같이 구문을 [!UICONTROL DCS] 사용합니다.
 
-<pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>=<i>val 1</i>, &amp;<i>key 2</i>=<i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = JSON &amp; D_ CB =<i>callback</i></code></pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 >[!NOTE]
 >
@@ -85,8 +87,9 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 이 예는 전화로 데이터를 [!DNL Acme, Inc.] 전송하는 가상 회사를 [!UICONTROL DCS][!DNL HTTP] 보여줍니다. 이 호출에는 선택적 매개 변수 `d_dst=1`, `d_rtbd=json`및이 포함되어 `d_cb=callback`있습니다. 이것은 콜백 [!DNL Acme] 기능을 사용하여 로부터 [!DNL JSON] 응답을 [!UICONTROL DCS] 받으려는 것을 나타냅니다. 이것은 단지 한 예입니다. 이 코드를 잘라내지 마십시오.
 
-`https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
-
+```js
+https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
+```
 ## 다음 단계 {#dcs-next-steps}
 
 이제 데이터 전송에 익숙하다면 데이터를 [!UICONTROL DCS]다시 보고 해당 정보를 분석하는 방법을 살펴볼 차례입니다. DCS에서 데이터 [받기를 참조하십시오](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).

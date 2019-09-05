@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS API 메서드
 uuid: 6 E 407458-11 D 4-4342-A 84 A -512 AFA 5 FC 183
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -25,7 +25,9 @@ Using data to the [!UICONTROL DCS][!DNL API] using `GET` or `POST` methods.
 
 호출에 허용되는 최대 크기는 `GET` 8 K 입니다.
 
-<pre><code>curl -i "<i>yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&amp;d_rtbd=jsonc_likes=famous%20popstar&amp;c_loves=famous%20actress</i><i></i><i></i><i></i>"</code></pre>
+```
+curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
+```
 
 ## POST를 통해 데이터 보내기 {#send-data-via-post}
 

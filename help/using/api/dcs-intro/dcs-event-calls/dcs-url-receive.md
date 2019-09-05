@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS에서 데이터 받기
 uuid: FBB 77197-8530-48 A 8-B 708-D 785 F 7214494
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,8 +21,9 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 에서 응답을 받으려면 [!UICONTROL DCS]`d_rtbd=json` 요청에 [!UICONTROL DCS]포함되어야 합니다. 이 매개 변수를 생략하면 데이터를 반환하지 [!UICONTROL DCS] 않습니다. 데이터 [!UICONTROL DCS] 요청에 대한 기본 호출은 다음 구문을 사용합니다.
 
-<pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>= <i>val 1</i>, &amp;<i>key 2</i>= <i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = JSON &amp; D_ CB =<i>callback</i></code>
-</pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 ## 샘플 응답 {#sample-response}
 

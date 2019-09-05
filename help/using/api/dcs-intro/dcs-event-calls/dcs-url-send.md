@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS로 데이터 전송
 uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
 
 ---
 
@@ -90,6 +90,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
 ```
+
 ## 다음 단계 {#dcs-next-steps}
 
 이제 데이터 전송에 익숙하다면 데이터를 [!UICONTROL DCS]다시 보고 해당 정보를 분석하는 방법을 살펴볼 차례입니다. DCS에서 데이터 [받기를 참조하십시오](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).

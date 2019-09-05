@@ -4,7 +4,7 @@ solution: Audience Manager
 title: 서버 간 DCS API 호출 만들기
 uuid: BDFE 3430-E 27 F -4 A 5 C -88 D 9-AE 164 D 28 F 601
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,7 +21,9 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 에 데이터를 전송하는 기본 서버-서버 요청은 아래 표시된 구문을 [!UICONTROL DCS] 사용합니다.
 
-<pre><code>" 주최자:<i>domain alias</i>. demdex. net "" https://DCS<i>Host name.demdex.net/event?d_rtbd=json&amp;d_jsonv=1&amp;d_uuid=user</i><i>ID</i>.</code></pre>
+```js
+"Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
+```
 
 샘플 호출은 다음 예제와 유사합니다.
 

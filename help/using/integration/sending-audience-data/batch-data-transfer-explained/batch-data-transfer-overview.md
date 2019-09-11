@@ -1,18 +1,18 @@
 ---
 description: 다른 시스템 (오프라인) 의 데이터를 Audience Manager로 가져오려는 기술 및 비기술 고객을 위한 개요입니다.
-keywords: 인바운드
-seo-description: 다른 시스템 (오프라인) 의 데이터를 Audience Manager로 가져오려는 기술 및 비기술 고객을 위한 개요입니다.
+keywords: 인바운드, 일괄 처리, 일괄 업로드, 일괄 데이터
+seo-description: 다른 시스템 (오프라인) 의 데이터를 Audience Manager로 가져오려는 기술 및 비기술 고객을 위한 개요입니다. 이렇게 하려면 Audience Manager의 일괄 업로드 옵션을 사용하십시오.
 seo-title: Audience Manager 개요로 일괄 데이터 보내기
 solution: Audience Manager
 title: Audience Manager 개요로 일괄 데이터 보내기
 uuid: 472583 B 1-5057-4 Add -8 E 3 C -5 E 50762 C 88 E 0
 translation-type: tm+mt
-source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
+source-git-commit: 2e3adc8f0b2fe6efd9ca57f1d763ee4476d2edee
 
 ---
 
 
-# Send Batch Data to Audience Manager Overview{#send-batch-data-to-audience-manager-overview}
+# Audience Manager 개요로 일괄 데이터 보내기{#send-batch-data-to-audience-manager-overview}
 
 다른 시스템 (오프라인) 의 데이터를 Audience Manager로 가져오려는 기술 및 비기술 고객을 위한 개요입니다.
 
@@ -20,17 +20,17 @@ source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 <!-- c_offline_to_online.xml -->
 
-Audience Manager에서 다른 시스템의 데이터를 만들 수 있습니다. Adobe 시스템을 통해 이전에 수집한 사용자 데이터를 활용하고 사용자 데이터를 활용할 수 있습니다. This includes information about purchases, customer surveys, registration data, [!DNL CRM] databases, etc. 각 통합은 고유한 과제를 제공하지만 이러한 공통적인 단계는 모두 공유합니다. 이 자료를 검토하여 오프라인 데이터를 온라인으로 가져오는 데 필요한 노력을 줄이십시오.
+Audience Manager에서 다른 시스템의 데이터를 만들 수 있습니다. Adobe 시스템을 통해 이전에 수집한 사용자 데이터를 활용하고 사용자 데이터를 활용할 수 있습니다. 여기에는 구매, 고객 설문 조사, 등록 데이터, [!DNL CRM] 데이터베이스 등에 대한 정보가 포함됩니다. 각 통합은 고유한 과제를 제공하지만 이러한 공통적인 단계는 모두 공유합니다. 이 자료를 검토하여 오프라인 데이터를 온라인으로 가져오는 데 필요한 노력을 줄이십시오.
 
 ## 1 단계: 사용자 ID 동기화
 
-동기화 중에 Audience Manager는 클라이언트 및 사용자에게 고유한 ID를 할당합니다. These IDs are known as the [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) and [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectively. Audience Manager uses the [!UICONTROL DPID] and [!UICONTROL UUID] to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code ([!UICONTROL DIL]) looks for these IDs to capture visitor data from your website. 이 단계가 완료되면 Audience Manager와 오프라인 저장소에는 각 사용자 레코드에 대한 해당 ID가 포함되어야 합니다.
+동기화 중에 Audience Manager는 클라이언트 및 사용자에게 고유한 ID를 할당합니다. 이러한 ID를 각각 [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) 및 [!UICONTROL Unique User ID] ([!UICONTROL UUID]) 라고 합니다. Audience Manager는 사용자를 [!UICONTROL DPID][!UICONTROL UUID] 식별하고 트레이트, 세그먼트, 대상 그룹 및 보고에 대한 자격을 제공합니다. 또한 데이터 수집 코드 ([!UICONTROL DIL]) 는 이러한 ID가 웹 사이트에서 방문자 데이터를 캡처하는 데 사용됩니다. 이 단계가 완료되면 Audience Manager와 오프라인 저장소에는 각 사용자 레코드에 대한 해당 ID가 포함되어야 합니다.
 
 이 단계에 대한 중요한 고려 사항:
 
 * **클라이언트 ID 배치:** Audience Manager는 웹 사이트에서 클라이언트 ID가 표시되는 위치를 알아야 합니다 (예: 쿠키, Analytics 변수, 페이지 코드에 저장된 IS).
 * **제외[!DNL PII]:** 사용자 ID 에는 개인 식별 정보 ([!DNL PII]) 가 포함되면 안 됩니다.
-* **사례 및 컨텐츠 민감도:** 실시간 데이터 동기화 중에 Audience Manager에서 사이트에서 캡처한 사용자 ID는 오프라인 저장소에서 전달된 ID와 일치해야 합니다. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. 따라서 이 방문자에 대한 온라인 정보는 오프라인 데이터베이스의 해당 기록과 연결할 수 없습니다. ID는 정확하게 일치해야 합니다.
+* **사례 및 컨텐츠 민감도:** 실시간 데이터 동기화 중에 Audience Manager에서 사이트에서 캡처한 사용자 ID는 오프라인 저장소에서 전달된 ID와 일치해야 합니다. 예를 들어 오프라인 레코드에 정보를 보유하고 있지만 [!DNL User123]사이트에서 해당 ID를 렌더링하는 경우 [!DNL USER123]Audience Manager는 이 ID를 다른 방문자로 보게 됩니다. 따라서 이 방문자에 대한 온라인 정보는 오프라인 데이터베이스의 해당 기록과 연결할 수 없습니다. ID는 정확하게 일치해야 합니다.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
@@ -49,14 +49,14 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 
 ## 2 단계: 데이터 파일 형식
 
-파일 이름과 컨텐츠는 엄격한 지침을 따릅니다. You *must* name and organize data files according to these specifications in this guide. 다음을 참조하십시오.
+파일 이름과 컨텐츠는 엄격한 지침을 따릅니다. 이 안내서의 *사양에 따라 데이터 파일을* 이름을 지정하고 구성해야 합니다. 다음을 참조하십시오.
 
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [인바운드 데이터 파일 컨텐츠: 구문, 변수 및 예제](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## 오프라인 마케팅 활동에 온라인 데이터 사용 가능
 
-오프라인 데이터를 온라인에 가져올 경우에도 오프라인 캠페인에 이 정보를 사용할 수 있습니다. To do this, Audience Manager exports trait and segment information to an [!DNL FTP] or [!DNL Amazon S3] location of your choice. 추가 정보나 지원을 받으려면 파트너 솔루션 관리자에게 문의하십시오.
+오프라인 데이터를 온라인에 가져올 경우에도 오프라인 캠페인에 이 정보를 사용할 수 있습니다. 이렇게 하려면 Audience Manager에서 특성 및 세그먼트 정보를 원하는 [!DNL FTP] 위치로 [!DNL Amazon S3] 내보냅니다. 추가 정보나 지원을 받으려면 파트너 솔루션 관리자에게 문의하십시오.
 
 ## 환경
 
@@ -94,4 +94,4 @@ Audience Manager는 파일 드롭다운을 위한 다음 환경을 제공합니�
 
 ## 기술 읽기
 
-Systems engineers, developers, or technical/implementation teams should review [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process) and the other articles in this section. 이러한 아티클은 전송 프로토콜, 파일 컨텐츠 및 파일 이름 요구 사항에 대한 세부 사항을 제공합니다.
+시스템 엔지니어, 개발자 또는 기술/구현 팀은 설명된 [일괄 데이터 전송 프로세스와 이 섹션의](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) 기타 문서를 검토해야 합니다. 이러한 아티클은 전송 프로토콜, 파일 컨텐츠 및 파일 이름 요구 사항에 대한 세부 사항을 제공합니다.

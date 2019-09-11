@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 특성 세부 사항 페이지
 uuid: 23301376-C 1 CC -4778-B 8 C 4-9831 F 6739 DB 9
 translation-type: tm+mt
-source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -39,6 +39,8 @@ source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
    ![Trait-Graph](assets/trait-identity.png)
    > [!NOTE]
    > Audience Manager는 장치 간 ID가 트레이트에 대해 자격을 갖춘 경우에만 [!UICONTROL Identity Type Breakdown] 보고서만 표시합니다.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=kor)
 
 ## 특성 표현식 {#trait-expression}
 

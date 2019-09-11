@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 빌더
 uuid: 5 CA 924 A 5-2 B 29-4802-AB 02-E 292 D 77 A 0 AAE
 translation-type: tm+mt
-source-git-commit: 2733080505760bbcf39737f0ad0d2d7605d1f477
+source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 2733080505760bbcf39737f0ad0d2d7605d1f477
 
 ## 비디오 데모
 
-아래 비디오는 세그먼트 작성 프로세스를 안내합니다. 자세한 내용은 아래 섹션을 참조하십시오.
-
->[!VIDEO](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)
+Audience Manager 비디오에서 세그먼트 [만들기를](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)시청합니다. 이 비디오에서는 세그먼트 작성 프로세스를 안내합니다. 자세한 내용은 아래 섹션을 참조하십시오.
 
 ## 세그먼트 만들기 {#create-segment}
 

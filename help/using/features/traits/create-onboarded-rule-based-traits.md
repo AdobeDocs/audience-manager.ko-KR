@@ -7,20 +7,20 @@ solution: Audience Manager
 title: 규칙 기반 또는 온보드 트레이트를 만듭니다.
 uuid: 4243 E 09 F -1 F 96-443 A -864 A-D 6 E 6918079 FA
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
 
-# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
+# 규칙 기반 또는 온보드 트레이트를 만듭니다. {#create-rules-based-or-onboarded-traits}
 
 [!UICONTROL rules-based] 및 [!UICONTROL onboarded] 특성 작성 과정과 관련된 설정 및 기능에 대해 설명합니다.
 
 <!-- c_tb_rules_traits.xml -->
 
-## Basic Information for Traits {#basics}
+## 트레이트 기본 정보 {#basics}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. The [!UICONTROL Basic Information] settings are the same for rules-based, onboarded and algorithmic traits. 새 트레이트를 만들려면 이름 (특수 문자 제외) 와 데이터 소스를 제공하고 저장소 폴더를 선택합니다. Other [!UICONTROL Basic Information] fields are optional.
+에서 [!UICONTROL Trait Builder][!UICONTROL Basic Information] 설정을 사용하여 새로 만들거나 기존 트레이트를 편집할 수 있습니다. 규칙은 규칙 기반, [!UICONTROL Basic Information] 온보드 및 알고리즘 트레이트에 대해 동일합니다. 새 트레이트를 만들려면 이름 (특수 문자 제외) 와 데이터 소스를 제공하고 저장소 폴더를 선택합니다. 다른 [!UICONTROL Basic Information] 필드는 선택 사항입니다.
 
 <!-- c_tb_basics.xml -->
 
@@ -43,7 +43,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
        <li id="li_579302FE34B64FE0AE3C751012839229">하이픈 </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">탭 </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">세로 막대 또는 파이프 기호 </li> 
-      </ul> </p> </p> <p>This helps reduce processing errors when you set up an <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> inbound data file transfer</a>. </p> </td> 
+      </ul> </p> </p> <p>이는 <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 인바운드 데이터 파일 전송을 설정할 때 처리 오류를 줄이는 데 도움이</a>됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 설명</span></b> </td> 
@@ -51,7 +51,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이벤트 유형</span></b> </td> 
-   <td colname="col2"> 일반적으로 함수 (예: 전환, 사이트 방문자, 파트너, 페이지 보기 등) 에 따라 유형 또는 카테고리에 트레이트를 할당합니다. 선택 사항입니다. </td> 
+   <td colname="col2"> 일반적으로 함수 (예: 전환, 사이트 방문자, 파트너, 페이지 보기 등) 에 따라 유형 또는 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 트레이트를 만드는 방법을 알아보려면 Audience Manager 비디오에 있는 전환 특성 <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">만들기를</a>참조하십시오. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 데이터 소스</span></b> </td> 
@@ -76,16 +76,16 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
  </tbody> 
 </table>
 
-## Set a Trait Expiration Interval {#set-expiration-interval}
+## 트레이트 만료 간격 설정 {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] 자격이 있는 방문자가 트레이트에 머무는 일 수를 정의합니다 (기본값은 120 일). 0로 설정하면 트레이트 멤버십이 만료되지 않습니다.
+에서 [!UICONTROL Trait Builder], 트레이트 [!UICONTROL Advanced Options] TTL (Time-to-Live[!DNL TTL]) 간격을 설정할 수 있습니다. [!DNL TTL] 자격이 있는 방문자가 트레이트에 머무는 일 수를 정의합니다 (기본값은 120 일). 0로 설정하면 트레이트 멤버십이 만료되지 않습니다.
 
 <!-- t_tb_ttl.xml -->
 
 ### 트레이트 TTL 설정
 
 1. [!UICONTROL Advanced Options] 섹션을 확장하고 숫자를 입력하여 트레이트 [!DNL TTL] 값을 설정합니다.
-1. 클릭 **[!UICONTROL Save]**.
+2. 클릭 **[!UICONTROL Save]**.
    ![](assets/TTL.png)
 
 >[!MORE_ like_ this]

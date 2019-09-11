@@ -7,7 +7,7 @@ title: 데이터 피드 구매자에 대한 대금 청구
 keywords: 세그먼트 수준 보고, 세그먼트 수준, 세그먼트 수준
 uuid: D 7236667-282 B -4160-9909-579721 AF 4016
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
@@ -50,6 +50,10 @@ Audience Marketplace 데이터 구매자는 천 개의 광고 노출 횟수 ([!D
 
 1. 클릭 **[!UICONTROL Confirm]**.
 
+세그먼트 수준 사용을 보고하는 방법에 대한 비디오 데모도 참조하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=kor)
+
  
 
 ## 데이터 피드 수준에서 CPM 사용량 보고 {#feed-level-report}
@@ -59,15 +63,15 @@ Audience Marketplace 데이터 구매자는 천 개의 광고 노출 횟수 ([!D
 세그먼트 수준에서 [!DNL CPM] 사용량을 보고하려면:
 
 1. **[!UICONTROL Audience Marketplace > Payables]**&#x200B;이동.
-1. **[!UICONTROL Feed Usage]** 탭을 선택합니다.
-1. [!UICONTROL Search] 이 상자를 사용하여 데이터 피드를 필터링하고 사용량을 보고하는 데 필요한 데이터 피드를 식별합니다.
-1. 클릭 **[!UICONTROL Edit Feeds Usage]**.
-1. CPM 데이터 [!DNL CPM] 피드에 대한 [비용 기여도를 기반으로 각 데이터 피드에 대한 사용량을](#cost-attribution)계산하여 [!UICONTROL Usage] 열에 입력합니다.
-1. 완료되면을 클릭하고 **[!UICONTROL Save]** 확인 대화 상자를 검토합니다.
+2. **[!UICONTROL Feed Usage]** 탭을 선택합니다.
+3. [!UICONTROL Search] 이 상자를 사용하여 데이터 피드를 필터링하고 사용량을 보고하는 데 필요한 데이터 피드를 식별합니다.
+4. 클릭 **[!UICONTROL Edit Feeds Usage]**.
+5. CPM 데이터 [!DNL CPM] 피드에 대한 [비용 기여도를 기반으로 각 데이터 피드에 대한 사용량을](#cost-attribution)계산하여 [!UICONTROL Usage] 열에 입력합니다.
+6. 완료되면을 클릭하고 **[!UICONTROL Save]** 확인 대화 상자를 검토합니다.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-1. 클릭 **[!UICONTROL Confirm]**.
+7. 클릭 **[!UICONTROL Confirm]**.
 
 <br> 
 

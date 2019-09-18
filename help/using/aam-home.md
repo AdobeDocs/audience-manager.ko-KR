@@ -1,31 +1,35 @@
 ---
 description: Audience Manager에서는 온라인 대상 데이터 관리를 위한 업계 선도 서비스를 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
-seo-description: 기술 문서 및 AAM (Audience Manager) 에 대한 자체 도움말. AAM는 온라인 고객 데이터 관리를 위한 업계 선도적인 서비스를 제공하며, 디지털 광고주와 퍼블리셔에게 데이터 자산을 제어 및 활용하여 매출 향상에 도움이 되는 도구를 제공합니다.
+seo-description: AAM(Audience Manager)에 대한 기술 설명서 및 자체 도움말 AAM은 온라인 고객 데이터 관리를 위한 업계 선도적인 서비스를 제공하고 디지털 광고주와 출판업체는 데이터 자산을 제어하고 활용하여 성공적인 세일즈 활동을 도모하는 데 필요한 툴을 제공합니다.
 seo-title: Adobe Audience Manager 제품 기술 설명서
 solution: Audience Manager
 title: Audience Manager 제품 설명서
-uuid: 48267 E 3 B -70 E 6-42 AE -99 B 1-884 F 4 D 0916 BE
+uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
+source-git-commit: 54163f2d80398b69faf24c735d04e944eced035c
 
 ---
 
 
 # Audience Manager 제품 설명서 {#audience-manager-product-documentation}
 
-이 기술 설명서 가이드는 온라인 대상 데이터 관리를 위한 업계 선도적인 서비스인 Audience Manager에 대한 자체 도움말 지원을 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
+이 기술 설명서 가이드는 온라인 고객 데이터 관리를 위한 업계 선도적인 서비스인 Audience Manager에 대한 자가 도움말 지원을 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>새 항목 및 중요 항목</b> </p> <p>최신 Audience Manager 기능 보기:</p> <p> 
+   <td colname="col1"> <p> <b>새 항목 및 중요 항목</b> </p> <p>Audience Manager의 최신 기능을 살펴보십시오.</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="features/destinations/people-based-destinations-overview.md">People-based destinations</a> </li>
+     <li><a href="features/destinations/people-based-destinations-overview.md">사용자 기반 대상</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성</a> </li>
      <li><a href="features/destinations/destinations-home.md">대상 홈 페이지</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">IP 주소 난독화</a> </li>
-     </ul> </p> <p><a href="docs-updates/docs-2019.md"> 2019 년 설명서 업데이트를 참조하십시오</a>. </p> 
-     <p>Audience Manager를 처음 사용하는 경우 Adobe <a href="reference/aam-glossary.md"> 의 용어</a> 및 ID <a href= "reference/ids-in-aam.md">색인을 참조하십시오.</a></p></td>
+     </ul> </p> <p>2019 <a href="docs-updates/docs-2019.md"> 설명서 업데이트를 참조하십시오</a>. </p> 
+     <p>Audience Manager를 처음 사용하는 경우 용어집 <a href="reference/aam-glossary.md"> 및 ID</a> <a href= "reference/ids-in-aam.md">인덱스를 참조하십시오.</a></p>
+     <br>
+     <p> <b>공동 작업 문서</b> </p>
+     <p>Adobe는 모든 독자들의 문서에 대한 지원을 환영합니다. 공동 작업 <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">가이드 개요를</a> 참조하여 공동 작업을 시작하는 방법을 알아보십시오.</p>
+    </td>
    <td colname="col2"> <p> <b>릴리스 노트</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">새 기능 및 수정 사항에 대해서는 최신 <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오. </li> 
@@ -34,7 +38,8 @@ source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager 커뮤니티 포럼</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe 개인 정보 보호 센터</a> </li> 
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe 교육 및 자습서</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager 자습서</a> </li> 
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe 트레이닝 및 인증</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> 제품 설명서 홈</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager 학습 및 지원</a> </li> 
      </ul> </p> </td>

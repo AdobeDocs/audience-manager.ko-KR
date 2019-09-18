@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 개요 및 사용 사례
 solution: Audience Manager
 title: 개요 및 사용 사례
 translation-type: tm+mt
-source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
+source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
 [!DNL People-Based Destinations] 이메일 주소 또는 전화 번호와 같은 해시된 식별자를 기반으로 고객 세그먼트를 만들기 위해 온라인 및 오프라인 데이터에 세그먼트를 적용할 수 있습니다. 그런 다음 이러한 세그먼트를 "장벽으로 된 정원"으로 보낼 수 있습니다. [!DNL Facebook]여기서 온라인 상호 작용 또는 인증 상태와 상관없이 고객을 타깃팅할 수 있습니다. [!DNL People-Based Destinations] 다음을 도와줄 수 있습니다.
 
 * 해시된 이메일 주소를 [!DNL Facebook]기반으로 오프라인 및 온라인 고객을 타깃팅합니다.
-* Audience Manager의 기존 디바이스 및 쿠키 타깃팅 기능
+* Audience Manager의 기존 디바이스 및 쿠키 타깃팅 기능 보완
 * 타사 데이터 온보딩 솔루션과 관련된 비용 제거
 * 맞춤형 데이터 온보딩 워크플로우 개발 관련 비용 절감
 * 쿠키 없는 환경에서 대상 타깃팅;

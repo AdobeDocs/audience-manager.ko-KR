@@ -1,37 +1,37 @@
 ---
-description: 실시간 세그먼트 모집단이 거의 없는 세그먼트에 대해서는 장치 그래프와 함께 프로필 병합 규칙을 사용하지 마십시오.
-seo-description: 실시간 세그먼트 모집단이 거의 없는 세그먼트에 대해서는 장치 그래프와 함께 프로필 병합 규칙을 사용하지 마십시오.
-seo-title: 장치 그래프가 있는 프로필 병합 규칙에 대한 중요한 고려 사항
-title: 장치 그래프가 있는 프로필 병합 규칙에 대한 중요한 고려 사항
-uuid: 93 CD 8861-210 D -4 c 52-9 CB 7-6 F 2 DD 7 DC 018 A
+description: 실시간 세그먼트 모집단에서 거의 발생하지 않는 세그먼트에 대해 장치 그래프와 프로필 병합 규칙을 사용하지 마십시오.
+seo-description: 실시간 세그먼트 모집단에서 거의 발생하지 않는 세그먼트에 대해 장치 그래프와 프로필 병합 규칙을 사용하지 마십시오.
+seo-title: 장치 그래프와 프로필 병합 규칙에 대한 중요 고려 사항
+title: 장치 그래프와 프로필 병합 규칙에 대한 중요 고려 사항
+uuid: 93cd8861-210d-4c52-9cb7-6f2dd7dc018a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Important Considerations for Profile Merge Rules with Device Graphs {#important-considerations-for-profile-merge-rules-with-device-graphs}
+# 장치 그래프와 프로필 병합 규칙에 대한 중요 고려 사항 {#important-considerations-for-profile-merge-rules-with-device-graphs}
 
-Avoid using [!UICONTROL Profile Merge Rules] with a [!UICONTROL Device Graph] for segments which have little to no real-time segment population.
+실시간 세그먼트 모집단에서 거의 발생하지 않는 세그먼트에 [!UICONTROL Profile Merge Rules] [!UICONTROL Device Graph] 대해 를 사용하지 마십시오.
 
 >[!IMPORTANT]
 >
->If the [!UICONTROL Profile Merge Rule] is configured incorrectly, the segment population exported to batch destinations may be significantly lower than expected.
+>가 잘못 구성된 [!UICONTROL Profile Merge Rule] 경우 배치 대상으로 내보내기한 세그먼트 모집단 수가 예상보다 현저히 낮아질 수 있습니다.
 
-Segments using a [Profile Merge Rule with a Device Graph](../../features/profile-merge-rules/merge-rule-targeting-options.md#device-graph-options) are only evaluated against devices seen in real-time on [Audience Manager’s Edge Servers](../../reference/system-components/components-edge.md) after the segment has been created.
+장치 그래프와 [프로필 병합 규칙을 사용하는](../../features/profile-merge-rules/merge-rule-targeting-options.md#device-graph-options) 세그먼트는 세그먼트가 만들어진 후 Audience Manager의 Edge Server [에서](../../reference/system-components/components-edge.md) 실시간으로 표시되는 장치에 대해서만 평가됩니다.
 
-Remember, a [!UICONTROL Profile Merge Rule] with a [!UICONTROL Device Graph] has one of the following device options selected, as shown below.
+A [!UICONTROL Profile Merge Rule] 가 있는 A에는 [!UICONTROL Device Graph] 아래와 같이 다음 장치 옵션 중 하나가 선택되어 있습니다.
 
 ![](assets/pmr-considerations-1.png)
 
-Devices that qualify for a segment in real-time are measured by the [segment’s real-time population](../../features/segments/segment-builder-data.md#segment-populations).
+실시간으로 세그먼트에 적합한 장치는 [세그먼트의 실시간 모집단으로](../../features/segments/segment-builder-data.md#segment-populations)측정됩니다.
 
 ![](assets/pmr-considerations-2.png)
 
-실시간 세그먼트 모집단 수가 낮으면 세그먼트에 대한 적격한 장치가 실시간으로 표시됩니다. For best performance, segments with little to no real-time population should use a [!UICONTROL Profile Merge Rule] set to evaluate the *[!UICONTROL Current Device]*, like in the image below.
+실시간 세그먼트가 적으면 세그먼트에 대해 적격한 장치 중 거의 실시간으로 표시되지 않습니다. 최상의 성능을 위해 실시간 모집단에서 거의 사용되지 않는 세그먼트는 아래 이미지와 같이 [!UICONTROL Profile Merge Rule] 세트를 사용하여 *[!UICONTROL Current Device]*&#x200B;모집단화를 평가해야 합니다.
 
 ![](assets/pmr-considerations-3.png)
 
-Setting the [!UICONTROL Profile Merge Rule] to evaluate the *[!UICONTROL Current Device]* ensures that all devices (not just those seen in real-time) are evaluated for the segment. 세그먼트에 대한 적격한 모든 장치는 아래에서 보듯이 총 세그먼트 모집단에 의해 정의됩니다.
+이 값을 [!UICONTROL Profile Merge Rule] 평가하도록 설정하면 모든 장치(실시간으로 표시되는 장치뿐만 아니라)가 세그먼트에 대해 평가됩니다 *[!UICONTROL Current Device]* . 세그먼트에 대해 자격을 부여받은 모든 장치는 아래와 같이 총 세그먼트 모집단으로 정의됩니다.
 
 ![](assets/pmr-considerations-4.png)

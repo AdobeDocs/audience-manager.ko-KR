@@ -154,7 +154,7 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7"> 이벤트 시간 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">장치 </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">컨테이너 ID </li> 
-      <li id="li_660D17989BE54610A01229C47894E8A9"> 실현된 트레이트 </li> 
+      <li id="li_660D17989BE54610A01229C47894E8A9">실현된 트레이트 </li> 
       <li id="li_1591180564374204852785C6FFCA4F74">실현된 세그먼트 </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">요청 매개 변수 </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 

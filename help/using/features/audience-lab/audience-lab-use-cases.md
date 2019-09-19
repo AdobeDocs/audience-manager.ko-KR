@@ -1,58 +1,58 @@
 ---
-description: Audience Lab 에서는 테스트 그룹을 만들기 위해 기준 세그먼트를 사용할 수 있어 여러 가지 사용 사례를 사용할 수 있습니다. 테스트 그룹을 상호 배타적인 여러 테스트 세그먼트로 나누고, 이를 다른 대상에 매핑한 다음, 전환 시 가장 효과적인 세그먼트 중에서 가장 효과적인 세그먼트를 판별할 수 있습니다.
-seo-description: Audience Lab 에서는 테스트 그룹을 만들기 위해 기준 세그먼트를 사용할 수 있어 여러 가지 사용 사례를 사용할 수 있습니다. 테스트 그룹을 상호 배타적인 여러 테스트 세그먼트로 나누고, 이를 다른 대상에 매핑한 다음, 전환 시 가장 효과적인 세그먼트 중에서 가장 효과적인 세그먼트를 판별할 수 있습니다.
+description: Audience Lab을 사용하면 테스트 그룹을 만드는 데 기준 세그먼트를 사용할 수 있으므로 몇 가지 사용 사례를 활용할 수 있습니다. 테스트 그룹을 여러 개의 상호 배타적인 테스트 세그먼트로 나누어 다른 대상에 매핑한 다음 전환 유도 시 가장 효과적인 세그먼트 중 하나를 결정할 수 있습니다.
+seo-description: Audience Lab을 사용하면 테스트 그룹을 만드는 데 기준 세그먼트를 사용할 수 있으므로 몇 가지 사용 사례를 활용할 수 있습니다. 테스트 그룹을 여러 개의 상호 배타적인 테스트 세그먼트로 나누어 다른 대상에 매핑한 다음 전환 유도 시 가장 효과적인 세그먼트 중 하나를 결정할 수 있습니다.
 seo-title: Audience Lab 사용 사례
 solution: Audience Manager
 title: Audience Lab 사용 사례
 topic: DIL API
-uuid: 727 bec 8 a-df 9 a -40 cc-b 8 a 7-e 1980 d 146 a 84
+uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Lab Use Cases {#audience-lab-use-cases}
+# Audience Lab 사용 사례 {#audience-lab-use-cases}
 
-[!UICONTROL Audience Lab] 테스트 그룹을 만들기 위해 기준 세그먼트를 사용할 수 있도록 하여 여러 가지 사용 사례를 활성화합니다. 테스트 그룹을 상호 배타적인 여러 테스트 세그먼트로 나누고, 이를 다른 대상에 매핑한 다음, 전환 시 가장 효과적인 세그먼트 중에서 가장 효과적인 세그먼트를 판별할 수 있습니다.
+[!UICONTROL Audience Lab] 테스트 그룹을 만들기 위해 기준 세그먼트를 사용할 수 있도록 함으로써 여러 가지 사용 사례를 활성화합니다. 테스트 그룹을 여러 개의 상호 배타적인 테스트 세그먼트로 나누어 다른 대상에 매핑한 다음 전환 유도 시 가장 효과적인 세그먼트 중 하나를 결정할 수 있습니다.
 
-## Compare Models in Audience Lab {#compare-models}
+## Audience Lab의 모델 비교 {#compare-models}
 
-You can use several different types and sources of models in [!DNL Audience Manager]. [!UICONTROL Audience Lab] 활성 모델에서 고객의 전환율을 손쉽게 비교할 수 있는 방법을 제공합니다.
+에서 여러 가지 유형의 모델과 소스를 사용할 수 [!DNL Audience Manager]있습니다. [!UICONTROL Audience Lab] 이 제품을 사용하면 활성 모델에서 고객의 전환율을 손쉽게 비교할 수 있습니다.
 
 <!-- audience-lab-compare-models.xml -->
 
-이 경우 다른 모델을 비교하게 됩니다. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or you can use the [Algorithmic Models](../../features/algorithmic-models/understanding-models.md) feature in [!DNL Audience Manager].
+이 경우 서로 다른 모델을 비교합니다. 사내 데이터 웨어하우스를 통해 생성된 모델을 사용하여 온보딩 트레이트로 가져오거나 [!DNL Audience Manager] 알고리즘 모델 [기능을](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) 사용할 수 [있습니다](../../features/algorithmic-models/understanding-models.md) [!DNL Audience Manager].
 
-1. [모델 빌더에서](../../features/algorithmic-models/create-model.md)또는 외부 플랫폼을 통해 두 개의 모델을 만듭니다.
-1. Create [algorithmic traits](../../features/traits/create-algorithmic-traits.md) from the algorithmic model or import your own models as onboarded traits.
+1. 모델 빌더에서 또는 외부 [플랫폼을](../../features/algorithmic-models/create-model.md)통해 두 개의 모델을 만듭니다.
+1. 알고리즘 모델에서 [알고리즘 특성을](../../features/traits/create-algorithmic-traits.md) 만들거나 자체 모델을 온보드 트레이트로 가져올 수 있습니다.
 1. 두 모델의 사용자가 겹치지 않도록 상호 배타적인 세그먼트를 만듭니다.
 
-   * *모델 1 세그먼트와* *모델 2 세그먼트를 만듭니다*.
-   * *모델 1 세그먼트에* 대한 세그먼트 규칙은 모델 1 트레이트 [!DNL AND NOT] 모델 2 트레이트, 그 반대로 *모델 2 세그먼트에 대한 세그먼트 규칙이 있어야*&#x200B;합니다.
+   * 모델 1 *세그먼트* 및 모델 2 *세그먼트를 만듭니다*.
+   * 모델 1 세그먼트에 대한 세그먼트 *규칙을 모델* 1 [!DNL AND NOT] 특성 모델 2 트레이트로, 모델 2 세그먼트의 경우 그 반대의 경우 *세그먼트 규칙이 있어야*&#x200B;합니다.
 
-1. [두 세그먼트 테스트 그룹을](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) 만듭니다. [!UICONTROL Audience Lab]하나는 *모델 1 세그먼트가* 있고, 다른 하나는 *모델 2 세그먼트가* 있는 세그먼트 테스트 그룹입니다.
+1. [두 개의 세그먼트 테스트 그룹을](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) 만듭니다. [!UICONTROL Audience Lab]하나는 *모델 1* 세그먼트가 기준선으로, 다른 하나는 모델 2 *세그먼트가 기준선으로* 되어있습니다.
 
-   * 두 테스트 그룹 모두에 대해 변수를 동일하게 유지합니다. 동일한 대상, 크리에이티브, 전환 트레이트입니다.
-   * 테스트 세그먼트의 사용자 수가 비슷한지 확인합니다 (예: 160만 및 1800만 명, 160만 및 1600만 명 이상 포함).
-   * 각 테스트 세그먼트 테스트 그룹에서 제어 세그먼트를 예약합니다. 이렇게 하면 각 세그먼트의 작은 부분을 별도로 설정하고 테스트에서 명시적으로 타깃팅하지 않아도 됩니다.
+   * 두 테스트 그룹에 대해 동일한 변수를 유지합니다.동일한 대상, 크리에이티브, 전환 트레이트
+   * 테스트 세그먼트에 유사한 사용자 수가 있는지 확인합니다(예: 160만 명, 180만 명, 160만 명, 160만 명이 적당하지 않음).
+   * 각 테스트 세그먼트 테스트 그룹에서 제어 세그먼트를 예약합니다. 이렇게 하면 테스트에서 각 세그먼트의 작은 부분을 명시적으로 타깃팅하지 않고 분리할 수 있습니다.
 
-1. 결과 검사:
+1. 결과를 검토합니다.
 
-   * [Audience Lab 보고 보기에는](../../features/audience-lab/audience-lab-reporting-view.md) 각 모델이 운전하는 전환 수가 표시됩니다. 전환 기반 캠페인의 경우 가장 많은 전환을 유도하는 테스트 세그먼트는 성과가 가장 좋은 모델을 나타냅니다.
-   * 제어 세그먼트가 있으므로 모델이 "표준 타깃팅" 에 대해 어떻게 수행되었는지 평가할 수도 있습니다. 단순히 하나의 모델과 다른 모델을 테스트하는 것뿐만 아니라 "이 모델이 정상적인 관행보다 더 나은 방법은 무엇입니까?" 라는 질문을 테스트하는 것입니다.
+   * Audience [Lab 보고 보기에는](../../features/audience-lab/audience-lab-reporting-view.md) 각 모델이 구동하는 전환 수가 표시됩니다. 전환 기반 캠페인의 경우 가장 많은 전환을 유도하는 테스트 세그먼트는 성과가 가장 좋은 모델을 나타냅니다.
+   * 제어 세그먼트가 있으므로 모델이 "표준 타깃팅"에 대해 어떻게 수행되었는지 평가할 수도 있습니다. 한 모델과 다른 모델을 테스트하는 것뿐만 아니라 "이 모델이 일반적인 방법보다 더 잘 되었습니까?"라는 질문을 테스트하는 것입니다.
 
-## Testing Creatives Across Destinations {#testing-creatives}
+## 다양한 대상에 대한 크리에이티브 테스트 {#testing-creatives}
 
 <!-- audience-lab-creatives-across-destinations.xml -->
 
-Use [!UICONTROL Audience Lab] to measure the number of conversions a creative is driving across different destinations. 또한 이 사용 사례는 자연적으로 발생하는 전환에 대한 크리에이티브 전환을 측정할 수 있도록 해줍니다.
+크리에이티브가 여러 [!UICONTROL Audience Lab] 대상을 대상으로 전환율을 측정하는 데 사용합니다. 또한 이 사용 사례를 통해 자연스러운 전환 대비 크리에이티브 전환율을 측정할 수 있습니다.
 
-1. [세그먼트 테스트 그룹을](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)만들고, 크리에이티브를 기준 세그먼트로 테스트하려는 세그먼트를 선택합니다.
-1. 세그먼트 세그먼트를 테스트 세그먼트로 분할하고 세그먼트를 제어합니다.
-1. 테스트할 다른 대상에 테스트 세그먼트를 매핑합니다.
-1. 제어 세그먼트는 대상화되고 대상에 매핑되지 않습니다. 테스트 크리에이티브가 제어 세그먼트를 타깃팅하면 자연어 전환을 위한 결과 기준선을 설정할 수 없습니다.
-1. 테스트의 시작 날짜 및 종료 날짜를 지정합니다.
-1. 대상에 세그먼트와 크리에이티브를 설정합니다.
-1. [Audience Lab 보고 보기에는](../../features/audience-lab/audience-lab-reporting-view.md) 크리에이티브가 대상으로 하는 전환 수가 표시됩니다.
-1. 제어 세그먼트를 만들었으므로 크리에이티브가 자연적으로 발생하는 전환을 기준으로 한 방법을 평가할 수도 있습니다. 다음 질문을 테스트하고 있습니다. " 이 크리에이티브는 일반 관행보다 전환율을 높였습니다. "
+1. [세그먼트 테스트](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)그룹을 만들고 기본 세그먼트로 크리에이티브를 테스트할 세그먼트를 선택합니다.
+1. 기준 세그먼트를 테스트 세그먼트로 분할하고 세그먼트를 제어합니다.
+1. 테스트 세그먼트를 테스트하려는 다른 대상에 매핑합니다.
+1. 제어 세그먼트는 보류할 수 있으며 대상에 매핑할 수 없습니다. 제어 세그먼트는 테스트 크리에이티브를 통해 타깃팅되어서는 안 됩니다.
+1. 테스트 시작 날짜와 종료 날짜를 지정합니다.
+1. 대상에서 세그먼트 및 크리에이티브를 설정합니다.
+1. Audience [Lab 보고 보기에서는](../../features/audience-lab/audience-lab-reporting-view.md) 크리에이티브가 대상을 통해 이동되는 횟수를 보여줍니다.
+1. 제어 세그먼트를 만들었으므로 크리에이티브가 자연 발생 변환에 대해 어떻게 수행되었는지 평가할 수도 있습니다. 질문을 테스트하고 있습니다."이러한 크리에이티브한 요소가 일반적인 방법보다 더 높은 전환율을 생성했습니까?"

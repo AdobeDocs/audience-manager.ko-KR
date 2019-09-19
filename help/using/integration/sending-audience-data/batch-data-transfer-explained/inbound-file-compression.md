@@ -1,41 +1,41 @@
 ---
-description: 옵션으로 데이터 파일을 Audience Manager로 보낼 때 압축할 수 있습니다.
-seo-description: 옵션으로 데이터 파일을 Audience Manager로 보낼 때 압축할 수 있습니다.
-seo-title: 인바운드 데이터 전송 파일을 위한 파일 압축
+description: 데이터 파일을 Audience Manager로 보낼 때 데이터 파일을 압축할 수 있습니다.
+seo-description: 데이터 파일을 Audience Manager로 보낼 때 데이터 파일을 압축할 수 있습니다.
+seo-title: 인바운드 데이터 전송 파일에 대한 파일 압축
 solution: Audience Manager
-title: 인바운드 데이터 전송 파일을 위한 파일 압축
-uuid: 2 A 68 F 69 C -60 B 0-4002-863 B -302 D 2320 E 356
+title: 인바운드 데이터 전송 파일에 대한 파일 압축
+uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# File Compression for Inbound Data Transfer Files{#file-compression-for-inbound-data-transfer-files}
+# 인바운드 데이터 전송 파일에 대한 파일 압축{#file-compression-for-inbound-data-transfer-files}
 
-옵션으로 데이터 파일을 Audience Manager로 보낼 때 압축할 수 있습니다.
+데이터 파일을 Audience Manager로 보낼 때 데이터 파일을 압축할 수 있습니다.
 
 <!-- inbound-file-compression.xml -->
 
-Audience Manager supports gzip ( `.gz`) compression for inbound, asynchronous data transfers.
+Audience Manager는 인바운드 비동기 데이터 전송을 위해 gzip( `.gz`) 압축을 지원합니다.
 
-또한 Audience Manager는 압축되지 않은 파일을 지원합니다.
-
->[!IMPORTANT]
->
->현재 동일한 인바운드 데이터 파일에서 암호화 및 압축을 지원하지 않습니다. You can select to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) or compress your inbound files.
-
-## Amazon S 3 압축
-
-For delivery to [!DNL Amazon S3], you must use `.gz` or uncompressed files. 압축 파일은 1 GB 이상이어야 합니다. 파일이 더 큰 경우 고객 지원 센터와 파일 및 전송 프로세스를 논의하십시오. Although [!DNL Audience Manager] can handle very large files, there may be ways to reduce the file size or make transfer of data more efficient.
+Audience Manager는 압축되지 않은 파일도 지원합니다.
 
 >[!IMPORTANT]
 >
->[!DNL FTP] 클라이언트는 압축되거나 암호화된 파일을 전송하기 위해 이진 모드를 사용해야 합니다. Compressed or encrypted files sent in [!DNL ASCII] mode will corrupt the data transfer file.
+>현재 동일한 인바운드 데이터 파일에서 암호화 및 압축을 지원하지 않습니다. 인바운드 파일을 [암호화하거나](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) 압축하도록 선택할 수 있습니다.
+
+## Amazon S3 압축
+
+전달하려면 [!DNL Amazon S3]파일 `.gz` 또는 압축되지 않은 파일을 사용해야 합니다. 압축된 파일은 1GB 이하여야 합니다. 파일이 더 큰 경우 해당 파일에 대해 알아보고 고객 지원 센터에 문의하십시오. 대용량 파일도 처리할 [!DNL Audience Manager] 수 있지만 파일 크기를 줄이거나 보다 효율적으로 데이터를 전송할 수 있는 방법이 있을 수 있습니다.
+
+>[!IMPORTANT]
+>
+>클라이언트는 이진 모드를 사용하여 압축되거나 암호화된 파일을 전송해야 [!DNL FTP] 합니다. 압축 또는 암호화된 파일을 [!DNL ASCII] 모드로 전송하면 데이터 전송 파일이 손상됩니다.
 
 ## 우수 사례
 
-* Files should be [!DNL .gzip] compressed (and have a [!DNL .gz] file extension.)
-* The maximum compressed file size for a `.gz` compressed file is 1 GB.
-* 파일의 가장 빠른/가장 빠른 처리를 위한 최적의 분할 크기는 약 1 GB 압축되지 않거나 200-300 MB 압축됩니다.
-* [!DNL Amazon S3] 업로드한 파일에 5 GB의 파일 크기 제한을 적용합니다.
+* 파일을 [!DNL .gzip] 압축해야 합니다(그리고 [!DNL .gz] 파일 확장명이 있어야 합니다).
+* 압축된 파일의 최대 압축 파일 크기는 1GB입니다. `.gz`
+* 파일 처리 속도가 빠르고 빨라진 최적 분할 크기는 약 1GB 압축되지 않았거나 200-300MB 압축입니다.
+* [!DNL Amazon S3] 업로드된 파일에 고유한 5GB 파일 크기 제한을 적용합니다.

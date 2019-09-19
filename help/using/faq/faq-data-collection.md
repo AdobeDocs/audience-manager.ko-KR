@@ -4,14 +4,14 @@ seo-description: 일반적인 데이터 수집 및 통합 질문 및 문제
 seo-title: 데이터 수집 및 제품 통합 FAQ
 solution: Audience Manager
 title: 데이터 수집 및 제품 통합 FAQ
-uuid: fa 8 e 79 f 4-99 cb -41 fd -8 a 85-d 4 f 92 d 03 c 7 a 5
+uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 translation-type: tm+mt
 source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 
 ---
 
 
-# Data Collection and Product Integration FAQ{#data-collection-and-product-integration-faq}
+# 데이터 수집 및 제품 통합 FAQ{#data-collection-and-product-integration-faq}
 
 일반적인 데이터 수집 및 통합 질문 및 문제
 
@@ -23,73 +23,73 @@ faq_data_collection_integration.xml
 
  -->
 
-**로그 파일의 트래픽에서[!UICONTROL DCS]인바운드 트래픽을 구별할 수 있는[!UICONTROL DCS]방법은 무엇입니까?**
+**인바운드 트래픽과[!UICONTROL DCS]로그 파일 내보내기의[!UICONTROL DCS]트래픽을 구별하려면 어떻게 합니까?**
 
-Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!UICONTROL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
+를 통해 생성된 트레이트는 [!UICONTROL Inbound] 에 의해 채워지는 [!UICONTROL Inbound] 것과 동일한 방식으로 채워집니다 [!UICONTROL DCS]. 트래픽이 [!UICONTROL Inbound]다음에서 비롯되었다고 알려주는 몇 가지 다른 방법이 있습니다.
 
 * 원격 IP는 68.67.173.18로 설정됩니다.
-* Domainid는 5325로 설정됩니다.
-* 영역이 0로 설정됩니다.
+* DomainID는 5325로 설정됩니다.
+* 영역은 0으로 설정됩니다.
 
 <br> 
 
-**dpm. demdex. net에 대한 허용 목록을 만들 수 있는 IP 주소 목록을 제공해 주실 수 있습니까?**
+**dpm.demdex.net에 대한 허용 목록을 제공할 수 있는 IP 주소 목록을 제공해 주시겠습니까?**
 
-안타깝지만 불가능합니다. These IPs are assigned dynamically, by geographic region, through [!DNL Amazon Web Services]. As a result, [!DNL Audience Manager] does not control the range of IPs that can be assigned to this address.
+불행하게도, 우리는 할 수 없습니다. 이러한 IP는 지리적 영역에 따라, 를 통해 동적으로 할당됩니다 [!DNL Amazon Web Services]. 따라서 이 주소에 할당할 수 있는 IP의 범위를 제어하지 [!DNL Audience Manager] 않습니다.
 
 <br> 
 
-**인바운드 및 아웃바운드 FTP 서버에 대한 화이트리스트에 사용할 수 있는 IP 주소를 제공할 수 있습니까?**
+**인바운드 및 아웃바운드 FTP 서버에 대해 허용 목록에 추가할 수 있는 IP 주소를 알려주시겠습니까?**
 
-예. 아래를 참조하십시오.
+예, 아래를 참조하십시오.
 
 | 항목 | 주소 |
 ---------|----------|
-| ftp-in.demdex.com | 54.225.117.163 |
+|  ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
 <br> 
 
-**A[!UICONTROL DIL]/[!DNL Analytics]데이터 통합에 대한 코드 배치 및 페이지 로드 요구 사항은 무엇입니까?**
+**데이터 통합을 위한 코드 배치 및 페이지 로드 요구 사항은[!UICONTROL DIL][!DNL Analytics]무엇입니까?**
 
-To bring [!DNL Analytics] data into [!DNL Audience Manager], load [!UICONTROL DIL] after the `s_code` module but *before* the `s.t()` function. 예를 들어, 코드를 배치하거나 이 순서대로 로드하는지 확인합니다.
+데이터를 가져오려면 [!DNL Analytics] 모듈 [!DNL Audience Manager]뒤에 [!UICONTROL DIL] 함수 `s_code` 앞에 *로드하십시오* `s.t()` . 예를 들어 코드를 배치하거나 다음 순서로 로드해야 합니다.
 
 1. [!DNL Analytics] `s_code`
 
-2. [!DNL Audience Manager][!UICONTROL DIL] 모듈
+2. [!DNL Audience Manager] 모듈 [!UICONTROL DIL]
 
 3. [!DNL Analytics] `s.t()` 함수 위에 있어야 합니다
 
-As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integration with either of these 2 methods:
+다음 두 가지 방법 중 하나를 사용하여 [!DNL Audience Manager][!DNL Analytics] 통합을 설정하는 것이 좋습니다.
 
-* Put [!UICONTROL DIL] directly in the `s_code`.
+* 직접 [!UICONTROL DIL] 작업 `s_code`진행
 
-* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Launch] or [!DNL Adobe DTM].
+* 서비스를 [!UICONTROL DIL] 통해 또는 `s_code` 을 통해 제공할 [!DNL Adobe Launch] 수 [!DNL Adobe DTM]있습니다.
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
 <br> 
 
-**변수가[!DNL Analytics][!DNL Audience Manager]이벤트 호출에 누락되는 이유는 무엇입니까?**
+**이벤트 호출에서 내[!DNL Analytics]변수가 누락된 이유는[!DNL Audience Manager]무엇입니까?**
 
-일반적으로 다음과 같은 경우에 나타납니다.
+이 문제는 일반적으로 다음과 같은 경우에 발생합니다.
 
-* You serve [!UICONTROL DIL] through a tag management system that loads it asynchronously with other code elements on the page.
-* The `s.t()` function loads before [!UICONTROL DIL].
+* 페이지의 다른 코드 요소와 비동기식으로 로드되는 태그 관리 시스템을 [!UICONTROL DIL] 통해 제공됩니다.
+* 이 `s.t()` 함수는 먼저 로드됩니다 [!UICONTROL DIL].
 
 <br> 
 
-**사용 가능한[!DNL Analytics]작업[!UICONTROL DIL]버전**
+**어떤 버전의[!DNL Analytics]작업을 사용하고[!UICONTROL DIL]있습니까?**
 
-You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMeasurement AS] library version 3.5.2 (or higher) to work with [!UICONTROL DIL]. [!DNL Analytics] 또는 [!DNL AppMeasurement] 버전을 모르는 경우 페이지에서 만든 [!DNL Analytics] 호출을 확인합니다. 버전 정보는 아래와 같습니다.
+작업할 때는 [!DNL Analytics] 버전 20.2 이상 및 [!DNL Adobe AppMeasurement AS] 라이브러리 버전 3.5.2 이상을 사용해야 합니다 [!UICONTROL DIL]. 귀하의 [!DNL Analytics] 버전 또는 [!DNL AppMeasurement] 버전을 모르는 경우 페이지에서 [!DNL Analytics] 이루어지는 호출을 확인하십시오. 아래에 표시된 버전 정보:
 
-This customer uses [!DNL Analytics] version 24.4:
+이 고객은 [!DNL Analytics] 버전 24.4를 사용합니다.
 
 ```
 https://112.2o7.net/b/ss/.../1/H.24.4/...
 ```
 
-This customer uses [!DNL AppMeasurement] version 3.5.2:
+이 고객은 [!DNL AppMeasurement] 버전 3.5.2를 사용합니다.
 
 ```
 https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
@@ -97,92 +97,92 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**고객이 아닌 경우 페이지 데이터를 수집할[!DNL Analytics]수 있습니까?**
+**고객이 아닌 경우 페이지 데이터를 수집할 수[!DNL Analytics]있습니까?**
 
-예. The [!UICONTROL DIL] module helps you collect page data even if you're not using [!DNL Analytics]. When set up properly, [!UICONTROL DIL] can capture data from and about:
+예. 이 [!UICONTROL DIL] 모듈은 사용하지 않는 경우에도 페이지 데이터를 수집하는 데 도움이 됩니다 [!DNL Analytics]. 제대로 설정되면, 다음 데이터를 캡처할 [!UICONTROL DIL] 수 있습니다.
 
-* meta 태그
+* 메타 태그
 * URL 및 URL 헤더
 * 검색 엔진 유형
 * 키워드
 
-Additionally, clients can deploy a simple onsite object and populate it with key-value pairs that you want [!UICONTROL DIL] to collect data on. This lets you add and remove specific audience data points on your site without any [!DNL Audience Management] updates. Work with your Partner Solutions representative to properly set this up and ensure the [!DNL DIL] module references the page object correctly.
+또한 클라이언트는 간단한 온사이트 객체를 배포하고 데이터를 수집할 키-값 쌍으로 채울 [!UICONTROL DIL] 수 있습니다. 이를 통해 [!DNL Audience Management] 업데이트 없이 사이트에서 특정 고객 데이터 포인트를 추가하고 제거할 수 있습니다. 파트너 솔루션 담당자와 협력하여 이 설정을 적절하게 설정하고 [!DNL DIL] 모듈이 페이지 개체를 올바르게 참조하는지 확인합니다.
 
 <br> 
 
-**데이터를[!UICONTROL DIL]수집할[!DNL Google Analytics]수 있습니까?**
+**데이터를[!UICONTROL DIL]수집할 수[!DNL Google Analytics]있습니까?**
 
-예. [!UICONTROL DIL] 일부 [!DNL Google Analytics] (GA) 요소를 수집하고 해당 데이터를 전달할 [!DNL Audience Manager]수 있습니다. 다음을 참조하십시오.
+예. [!UICONTROL DIL] 는 일부 [!DNL Google Analytics] (GA) 요소를 수집하고 해당 데이터를 [!DNL Audience Manager]전달할 수 있습니다. 다음을 참조하십시오.
 
-* [ga. submituniversalanalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
-* [ga. init](../dil/dil-modules.md#ga-init)
+* [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
+* [GA.init](../dil/dil-modules.md#ga-init)
 
 <br> 
 
-**원시 데이터를[!DNL Audience Manager]가져올 수 있습니까?**
+**원시 데이터를 가져올 수[!DNL Audience Manager]있으며 얼마나 세분화됩니까?**
 
-Yes, [!DNL Audience Manager] can provide you with data collected for users we've seen on your inventory. 여기에는 다음 항목이 포함되어 있습니다.
+예. Adobe [!DNL Audience Manager] 가 귀하의 인벤토리에서 본 사용자를 위해 수집한 데이터를 제공할 수 있습니다. 여기에는 다음 항목이 포함되어 있습니다.
 
-* The unique user ID (UUID) assigned by [!DNL Audience Manager]
-* 특성 및 세그먼트 ID
+* 에서 할당한 고유 사용자 ID(UUID) [!DNL Audience Manager]
+* 트레이트 및 세그먼트 ID
 * 사용하지 않은 신호
 * 타임스탬프
 * 페이지 URL
 
 <br> 
 
-**한 사이트에서 데이터를 수집하고 다른 사이트에서 DFP를 통해 사용자를 타깃팅하려고 합니다. Do I need to deploy code on the other property if I don't want to collect data from that location?**
+**한 사이트에서 데이터를 수집하고 다른 사이트의 DFP를 통해 사용자를 타깃팅하고자 합니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 속성에 코드를 배포해야 합니까?**
 
-아니요. 두 번째 사이트의 데이터 수집이 요구 사항이 아닐 경우, DIL를 거기에 배포하지 않아도 됩니다. DFP를 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 경우 초기 사이트 및 DFP를 통해 Target의 데이터 수집을 사용할 수 있습니다.
-
-<br> 
-
-**타사 데이터 제공업체란 무엇입니까?**
-
-각 제공업체는 표에 고유한 것을 가져올 수 있으므로 원하는 사항에 따라 답변이 달라집니다. Adobe는 사용자에게 가장 적합한 공급자를 이해하는 데 도움이 되도록 오버랩 보고를 활성화할 수 있습니다.
+아니요. 두 번째 사이트의 데이터 수집이 요구 사항이 아닌 경우 DIL을 배포할 필요가 없습니다. DFP를 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 경우, 초기 사이트의 데이터 수집 및 DFP를 통해 타겟을 사용할 수 있습니다.
 
 <br> 
 
-**쿠키를[!DNL Audience Manager]설정하고 DFP에 변수를 전달하는 방법은?**
+**최고의 타사 데이터 제공업체는 무엇입니까?**
 
-[!DNL Audience Manager] 2 개의 쿠키 설정: 하나는 DFP 광고 태그에 세그먼트 변수를 보내고 다른 하나는 DFP가 읽는 고유한 사용자 ID (UUID) 를 설정합니다. 광고 태그에 UUID를 추가하면 사용자 수준의 보고 및 고객 검색을 수행할 수 있습니다.
-
-<br> 
-
-**사용자가 도달한 전환 단계의 포인트에 대한 DSP 정보를 보낼 수 있습니까?**
-
-예. 우리는 단계 데이터를 전송할 수 있지만, DSP 에는 이것을 사용할 기술적인 기능이 있어야 한다. DSP는 여러 세그먼트를 처리할 수 있음을 확인해야 합니다. 그렇지 않을 경우, 특정 세그먼트를 만들어 사용자를 다른 세그먼트에서 끌어낼 수 있습니다 (예: 전환 진행 상황 (예: 단계 1와 2 완료, 3 단계 아님). 사용자를 다시 타깃팅하거나 특정 랜딩 페이지로 안내하거나 특정 크리에이티브를 표시할 수 있도록 이 정보를 DSP로 전송할 수 있습니다.
+각 공급업체는 테이블에 고유한 요소를 가져오므로 원하는 내용에 따라 결과가 달라집니다. Adobe는 추가 비용 없이 중복 보고를 활성화하여 귀하에게 가장 적합한 공급자를 파악할 수 있도록 지원합니다.
 
 <br> 
 
-**FTP를 통해 전송된 데이터를 어디에서 선택했는지 확인할 수[!DNL Audience Manager]있습니까?**
+**쿠키를[!DNL Audience Manager]설정하고 변수를 DFP로 전달하는 방법은?**
 
-A file has been picked up when the extension changes from `.sync` to `.processed`. 이 경우 파일이 통합 큐에 있습니다. 또한 계정 관리자가 파일이 업로드되었는지 확인할 수 있습니다.
+[!DNL Audience Manager] 세트 2 쿠키:하나는 세그먼트 변수를 DFP 광고 태그로 전송하고 다른 하나는 DFP에서 읽는 고유한 사용자 ID(UUID)를 설정합니다. 광고 태그에 UUID를 추가하면 사용자 수준 보고 및 고객 검색을 수행할 수 있습니다.
 
 <br> 
 
-**[DCS API의 기능을](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)테스트하려고 합니다. 아래에 표시된 것과 같은 이벤트 호출을 보냅니다. The calls contain[Declared IDs](../features/declared-ids.md)and signals, which should realize some traits and segments I have already set up. Can I use the[!UICONTROL General Reports]and[!UICONTROL Trend Reports]to verify if the trait and segment populations are increasing?**
+**사용자가 도달한 전환 단계의 포인트에 대한 DSP 정보를 전송할 수 있습니까?**
+
+예. 깔때기 데이터를 전송할 수 있지만 DSP는 이 데이터를 사용할 수 있는 기술적 기능을 가지고 있어야 합니다. DSP는 여러 세그먼트를 처리할 수 있는지 확인해야 합니다. 이러한 세그먼트를 만들 수 없는 경우, 사용자를 전환 진행 상태(예: 3단계가 아닌 1단계 및 2단계)를 기준으로 다른 세그먼트에서 제외하기 위해 특정 세그먼트를 만들어야 할 수 있습니다. 사용자를 리타겟팅하거나 특정 랜딩 페이지로 안내하거나 특정 크리에이티브를 표시할 수 있도록 이 정보를 DSP로 보낼 수 있습니다.
+
+<br> 
+
+**FTP를 통해 전송된 데이터가 에 의해 선택되었는지 어떻게 확인할 수[!DNL Audience Manager]있습니까?**
+
+확장자가 에서 로 변경되면 파일이 `.sync` 선택됩니다 `.processed`. 이 경우 파일이 통합 대기열에 있습니다. 또한 계정 관리자는 파일이 업로드된 시기를 확인할 수 있습니다.
+
+<br> 
+
+**DCS API의 기능을 테스트하고[싶습니다](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md). 아래에 표시된 것과 같은 이벤트 호출을 보냅니다. 호출에는 선언된[ID와](../features/declared-ids.md)신호가 포함되며, 이 ID는 이미 설정한 트레이트와 세그먼트를 실현해야 합니다. 및 를 사용하여 트레이트 및 세그먼트 모집단이 증가하고 있는지[!UICONTROL General Reports]확인할[!UICONTROL Trend Reports]수 있습니까?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
 ```
 
-No, do not rely on the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] in this case.
+아니오, 이 경우에는 [!UICONTROL General Reports] 그리고 [!UICONTROL Trend Reports] 이 경우에 의존하지 마십시오.
 
-보고서는 보고서를 생성할 때 백엔드에 표시되는 인증되지 않은 프로필 레코드 (UUID) 를 기반으로 모집단을 계산합니다.
+보고서는 보고서가 생성될 때 백엔드에서 볼 수 있는 인증되지 않은 프로필 레코드(UUID)를 기반으로 모집단을 계산합니다.
 
-On a first call to the [!UICONTROL DCS], the declared IDs are *not* linked to any UUID (i.e. no [demdex cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) is present on the client side). The [!UICONTROL DCS] will randomly generate a UUID and set a [!DNL demdex] cookie and pass it on in the response call, but it will not transmit the UUID to the backend.
+에 대한 첫 번째 호출에서 선언된 ID는 어떤 UUID에도 연결되어 있지 [!UICONTROL DCS]않습니다 *(즉,* demdex 쿠키가 [](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) 클라이언트측에 없음). UUID를 [!UICONTROL DCS] 임의로 생성하여 [!DNL demdex] 쿠키를 설정하고 응답 호출에서 이를 전달하지만 UUID를 백엔드로 전송하지 않습니다.
 
 >[!NOTE]
 >
->생성된 UUID는 쿠키가 설정된 장치가 추가 활동을 트리거할 때 백엔드 데이터 저장소에서만 구체화된 것입니다.
+>생성된 UUID는 쿠키가 설정된 장치가 추가 활동을 트리거하는 경우에만 백엔드 데이터 스토리지에 구체화됩니다.
 
-이러한 이유로 보고서는 호출에서 선언된 ID로 트리거된 이벤트를 반영하지 않습니다. We recommend you use UUID, ECID (formerly MID) or mobile device IDs in event test calls to the [!UICONTROL DCS]. Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
+이러한 이유로 보고서는 선언된 ID로 트리거된 이벤트를 호출에서 반영하지 않습니다. 이벤트 테스트 호출에서 UUID, ECID(이전 MID) 또는 모바일 장치 ID를 사용하는 것이 좋습니다 [!UICONTROL DCS]. 그런 다음, 및 에서 트레이트 및 세그먼트 관계를 확인할 [!UICONTROL General Reports] 수 [!UICONTROL Trend Reports]있습니다.
 
-See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
+Audience Manager [ID의 인덱스도 참조하십시오](../reference/ids-in-aam.md).
 
 <br> 
 
-**사용자 프로필은[여러 지역에 걸쳐 동기화되는 데 얼마나 걸립니까](../api/dcs-intro/dcs-api-reference/dcs-regions.md)?**
+**사용자 프로필을[지역](../api/dcs-intro/dcs-api-reference/dcs-regions.md)간에 동기화하는 데 얼마나 걸립니까?**
 
-일반적으로 사용자 프로필은 지역 간에 동기화하는 데 최대 24 시간이 걸립니다. 하지만 드문 경우 프로세스는 최대 48 시간이 걸릴 수 있습니다.
+사용자 프로필이 여러 지역에서 동기화되려면 보통 24시간이 걸립니다. 그러나 드문 경우이지만 이 과정은 48시간까지 걸릴 수 있습니다.

@@ -1,10 +1,10 @@
 ---
-description: Audience Manager 통합과 소비자 개인 정보 보호 및 옵트아웃 절차와 관련하여 일반적으로 수용되는 우수 사례를 준수하고 있습니다.
-seo-description: Audience Manager 통합과 소비자 개인 정보 보호 및 옵트아웃 절차와 관련하여 일반적으로 수용되는 우수 사례를 준수하고 있습니다.
+description: Audience Manager 통합 및 소비자 개인 정보 보호 및 옵트아웃 절차와 관련하여 일반적으로 수용되는 우수 사례 준수 등에 대해 설명합니다.
+seo-description: Audience Manager 통합 및 소비자 개인 정보 보호 및 옵트아웃 절차와 관련하여 일반적으로 수용되는 우수 사례 준수 등에 대해 설명합니다.
 seo-title: 데이터 개인 정보
 solution: Audience Manager
 title: 데이터 개인 정보
-uuid: 865 E 7 B 4 E-FEE 1-4 FA 4-8035-1595 FC 77 CD 96
+uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
 source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
@@ -13,24 +13,24 @@ source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 # 데이터 개인 정보{#data-privacy}
 
-Audience Manager 통합과 소비자 개인 정보 보호 및 옵트아웃 절차와 관련하여 일반적으로 수용되는 우수 사례를 준수하고 있습니다.
+Audience Manager 통합 및 소비자 개인 정보 보호 및 옵트아웃 절차와 관련하여 일반적으로 수용되는 우수 사례 준수 등에 대해 설명합니다.
 
 ## 데이터 개인 정보{#data-privacy-center}
 
 See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
-## Consumer Privacy Protection {#consumer-privacy-protection}
+## 개인 정보 보호 {#consumer-privacy-protection}
 
-Audience Manager는 고객과 온라인 브랜드 간의 암묵적 합의를 인식합니다. 양 당사자는 익명의 데이터 요소를 교환함으로써 이점을 얻을 수 있습니다.
+Adobe Audience Manager는 고객과 인터랙션하는 온라인 브랜드 간의 암묵적인 계약을 인식합니다. 두 업체 모두 익명의 데이터 요소를 투명하게 교환함으로써 혜택을 누릴 수 있습니다.
 
-* 소비자는 개인화된 컨텐츠, 할인된 제품 제안 및 간소화된 사용자 경험을 받습니다.
-* 기업은 다양한 온라인 비즈니스 모델을 지원하는 중요한 수익원을 받게 됩니다.
+* 소비자는 개인화된 컨텐츠, 할인 제품 및 간소화된 사용자 경험을 제공합니다.
+* 브랜드 기업은 다양한 온라인 비즈니스 모델을 지원하는 중요한 수익원을 창출할 수 있습니다.
 
-이 모델에 대한 지속적인 지원을 통해 Audience Manager는 소비자에게 투명성과 제어를 제공하고 OBA (온라인 행동 광고) 자율 규제 원칙을 준수하기 위해 끊임없이 노력할 것입니다.
+이 모델을 지속적으로 지원하는 Adobe의 경우 Audience Manager는 소비자에게 투명성과 제어를 제공하고 OBA(Online Behavioral Advertising) 자율 규제 원칙을 준수하기 위해 최선의 노력을 다하고 있습니다.
 
-## Opt-Out Management {#opt-out-management}
+## 옵트아웃 관리 {#opt-out-management}
 
-옵트아웃 문서는 확장되었으며 문서의 일부로 이동되었습니다. [옵트아웃 관리를 참조하십시오](../../overview/data-security-and-privacy/opt-out-management.md).
+옵트아웃 설명서가 연장되어 설명서의 별도 부분으로 이동되었습니다. 옵트아웃 [관리를 참조하십시오](../../overview/data-security-and-privacy/opt-out-management.md).
 
 <!-- 
 
@@ -68,7 +68,7 @@ Audience Manager는 고객과 온라인 브랜드 간의 암묵적 합의를 인
 
  -->
 
-## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
+## IP 주소 및 IP 주소 난독화 수집 {#collecting-ip-addresses}
 
 <!-- 
 
@@ -76,18 +76,18 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-고객의 웹 사이트에 대한 방문자의 IP 주소는 이 IP 주소가 저장되어 있을 수 있는 Adobe DPC(Data Processing Center)로 전송됩니다. 방문자에 대한 네트워크 구성에 따라, IP 주소가 반드시 방문자의 컴퓨터의 IP 주소를 나타내지는 않을 수 있습니다. 예를 들어 IP 주소가 NAT(Network Address Translation) 방화벽, HTTP 프록시 또는 인터넷 게이트웨이의 외부 IP 주소일 수 있습니다.
+고객의 웹 사이트에 대한 방문자의 IP 주소는 이 IP 주소가 저장되어 있을 수 있는 Adobe DPC(Data Processing Center)로 전송됩니다. 방문자의 네트워크 구성에 따라 IP 주소가 방문자 컴퓨터의 IP 주소를 반드시 나타내지 않을 수 있습니다. 예를 들어 IP 주소가 NAT(Network Address Translation) 방화벽, HTTP 프록시 또는 인터넷 게이트웨이의 외부 IP 주소일 수 있습니다.
 
-**유사 IP 탐지 방법론:** " 개인 정보 보호 중심의 설계 "의 원칙을 따르는 Adobe Audience Manager를 사용하면 모든 지리적 지역 또는 특정 국가에서 전 세계적으로 IP 난독화를 활성화할 수 있습니다. 이 설정을 활성화하면 IP 주소가 Audience Manager로 인제스트되면 IP 주소의 마지막 옥텟 (마지막 부분) 이 즉시 무시됩니다. Audience Manager는 처리하기 전에 IP 주소의 이 부분을 삭제합니다 (선택 사항인 지리적 조회 또는 IP 주소의 기록 전). 예:
+**** IP 난독화 방법론:"Privacy By Design"의 원칙에 따라 Adobe Audience Manager를 사용하면 전 세계 또는 특정 국가에서 UI의 IP 난독화를 활성화할 수 있습니다. 이 설정을 활성화하면 IP 주소가 Audience Manager로 인제스트되면 IP 주소의 마지막 8진수(마지막 부분)가 즉시 삭제됩니다. Audience Manager는 처리하기 전에 IP 주소의 이 부분을 삭제합니다(IP 주소의 지리적 조회 또는 로깅 전에 포함). 예:
 
 * : `255.255.255.255`
 * 후: `255.255.255.0`
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](/help/using/features/administration/ip-obfuscation.md) to learn how to enable IP address obfuscation in the Audience Manager UI.
+>Audience [Manager UI에서](/help/using/features/administration/ip-obfuscation.md) IP 주소 난독화를 활성화하는 방법에 대해서는 IP 주소 난독화를 참조하십시오.
 
-**지리 특성:** IP 주소 난독화를 활성화하는 경우, 나머지 IP 주소는 여전히 Audience Manager의 지리 특성 및 보고 기능에 사용할 수 있습니다. IP 주소 난독화를 활성화하지 않으면 Audience Manager에서 전체 IP 주소를 사용합니다. 지리적 세그먼테이션 기능을 사용하면 두 경우 모두 지리적 위치별로 IP 위치를 식별할 수 있지만 IP 난독화가 사용될 때 약간의 정밀도를 잃게 됩니다. 도시 수준의 정보를 획득하는 것은 IP 주소 난독화의 영향을 크게 받을 수 있습니다. 지역 및 국가 수준 정보를 얻는 것은 약간 영향을 받습니다. 지리 특성 데이터는 개별 수준이 아니라 도시 수준이나 우편 번호 수준으로만 세분화됩니다. Read more about [geo-targeting](/help/using/features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
+**** 지리 특성:IP 주소 난독화를 활성화하면 Audience Manager의 지리 특성 및 보고에 IP 주소의 나머지 주소를 계속 사용할 수 있습니다. IP 주소 난독화를 활성화하지 않으면 Audience Manager는 전체 IP 주소를 사용합니다. 두 경우 모두 IP 위치를 지리적 영역별로 식별할 수 있지만 IP 난독화가 사용될 때 약간의 정확도가 손실되는 지리적 세그멘테이션 기능을 사용할 수 있습니다. 도시 수준의 정보를 획득하는 것은 IP 주소 난독화의 영향을 크게 받을 수 있습니다. 지역 및 국가 수준 정보를 획득하는 것은 약간 영향을 받아야 합니다. 지리적 세그멘테이션 데이터는 도시 수준이나 우편 번호 수준에만 세분화되며 개별 수준에는 해당되지 않습니다. 지리적 [타깃팅](/help/using/features/traits/trait-geotarget-keys.md) 및 지리적 변수를 사용하여 트레이트를 설정하는 방법에 대한 자세한 내용을 살펴보십시오.
 
 ## 관련 개념 {#related-concepts}
 

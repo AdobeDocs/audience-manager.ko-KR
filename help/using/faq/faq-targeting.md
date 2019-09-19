@@ -1,19 +1,19 @@
 ---
-description: 일반적인 타깃팅 관련 질문 및 문제
-seo-description: 일반적인 타깃팅 관련 질문 및 문제
+description: 타깃팅 관련 일반적인 질문 및 문제
+seo-description: 타깃팅 관련 일반적인 질문 및 문제
 seo-title: 타깃팅 FAQ
 solution: Audience Manager
 title: 타깃팅 FAQ
-uuid: EE 96 EF 71-B 903-4953-AFC 4-8 EC 8 E 48 BD 49 E
+uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 translation-type: tm+mt
 source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 ---
 
 
-# Targeting FAQ{#targeting-faq}
+# 타깃팅 FAQ{#targeting-faq}
 
-일반적인 타깃팅 관련 질문 및 문제
+타깃팅 관련 일반적인 질문 및 문제
 
 <br> 
 
@@ -25,74 +25,74 @@ faq_targeting.xml
 
 **Audience Manager에서 지원하는 타사 데이터 공급자의 전체 목록은 어디에서 찾을 수 있습니까?**
 
-See the [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) for a complete list of third-party data providers that [!DNL Audience Manager] supports.
+지원되는 [타사 데이터 공급자의 전체 목록은 Adobe](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) Exchange Marketplace(https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) [!DNL Audience Manager] 를 참조하십시오.
 
 <br> 
 
-**타사 데이터를 사용하여 사이트에서 본 적이 없는 사용자를 대상으로 Audience Manager 또는 DSP에서 타사 데이터를 사용해야 합니까?**
+**제 사이트에서 본 적이 없는 서드파티 데이터를 사용하여 사용자를 타게팅하려면 Audience Manager 또는 DSP에서 타사 데이터를 사용해야 합니까?**
 
-답변은 목표에 따라 다릅니다. 예를 들어, 캠페인이 제 3 자 데이터로 새 클라이언트를 찾도록 만들어진 다음, DSP를 사용하여 직접 작업하도록 설계되었습니다. Adobe Audience Manager는 사용자가 해당 사용자를 볼 때에만 데이터를 타사 데이터 공급자와 동기화합니다. 이전에 사용자를 본 적이 없는 경우 시스템에 해당 사이트 방문자에 대한 정보가 없습니다. 타사 데이터를 사용하여 속성을 방문한 적이 없는 사용자를 타깃팅한 캠페인의 경우 DSP를 통해 세그먼트를 만듭니다.
+답은 목표에 따라 다릅니다. 예를 들어 타사 데이터가 있는 새 클라이언트를 찾도록 캠페인이 설계된 경우 DSP에서 직접 작업할 수 있습니다. Audience Manager는 해당 사용자를 볼 때에만 타사 데이터 공급자와 데이터를 동기화합니다. 이전에 사용자를 본 적이 없는 경우 해당 사이트 방문자에 대한 정보가 시스템에 없습니다. 타사 데이터만 사용하여 속성을 방문한 적이 없는 사용자를 타깃팅하려는 캠페인의 경우 DSP를 통해 이러한 세그먼트를 만듭니다.
 
 <br> 
 
-**개인 사용자에게 마케팅할 수 있습니까?**
+**개인에게 마케팅할 수 있습니까?**
 
-Audience Manager를 사용하면 공유된 특성 또는 트레이트에 따라 사용자를 집계하고 마케팅 팀에 마케팅을 할 수 있습니다. However, to comply with industry regulations, [!DNL Audience Manager] customers may not send personally identifiable information (PII) to our systems. 따라서 이메일 주소, 개별 이름, 실제 주소 등을 사용할 수 없습니다. 타깃팅을 위해.
+Audience Manager를 사용하면 공유 특성 또는 특성에 따라 사용자와 마케팅 활동을 집계할 수 있습니다. 그러나 업계 규정을 준수하기 위해 [!DNL Audience Manager] 고객은 개인 식별 정보(PII)를 Adobe 시스템에 전송해서는 안됩니다. 따라서 이메일 주소, 개별 이름, 실제 주소 등을 사용할 수 없습니다. 를 참조하십시오.
 
 <br> 
 
 **데이터를 안전하게 재타깃팅하려면 어떻게 해야 합니까?**
 
-선호하는 리타겟팅 플랫폼과 데이터를 교환하려면 서버 간 연결을 사용하는 것이 좋습니다. Audience Manager는 서버 간 연결을 통해 대부분의 주요 DSP와 데이터를 교환합니다. 서버 간 데이터 전송을 통해 다른 배우가 데이터를 가로채서 해당 고객 정보를 다시 판매하는 것을 방지할 수 있습니다.
+선호하는 리타겟팅 플랫폼과 데이터를 교환하려면 서버 간 연결을 사용하는 것이 좋습니다. Audience Manager는 서버 간 연결을 통해 대부분의 주요 DSP와 데이터를 교환합니다. 서버 간 데이터 전송을 통해 다른 작업자가 데이터를 차단하거나 해당 고객 정보를 다시 판매하지 못하도록 할 수 있습니다.
 
 <br> 
 
-**Audience Manager 고유 사용자 ID (UUID) 가 페이지에서 직접 동기화함으로써 광고 서버의 고유 사용자 ID와 연결되어 있습니까?**
+**Audience Manager 고유 사용자 ID(UUID)가 페이지에서 직접 동기화하여 광고 서버의 고유 사용자 ID에 연결되어 있습니까?**
 
-아니요. ID 동기화는 페이지에서 발행자 또는 서버에 대해 수행되지 않습니다. The Audience Manager UUID is inserted into the `u=` field of the ad server log files. 이것은 타깃팅을 위해 세그먼트가 전달된 경우 발생합니다. DIL 코드 모듈은 이 기능을 수행합니다. 이 메커니즘은 세그먼트 성능 보고를 위해 서버의 사용자 ID를 Audience Manager 사용자에게 매핑할 수 있도록 해주는 메커니즘입니다. 그러나 사이트에 광고 서버가 있는 경우에는 페이지에서 직접 ID를 동기화합니다.
-
-<br> 
-
-**Audience Manager는 다른 장치에서 로그인한 사용자를 하나의 고유 사용자 또는 다른 고유 사용자로 카운트합니까?**
-
-[선언된 ID 타깃팅을](../features/declared-ids.md#declared-id-targeting) 통해 Audience Manager는 단일 고유 식별자를 사용하여 여러 장치에서 방문자를 식별할 수 있습니다. 하지만 타깃팅 또는 대상 관점에서 볼 때 DSP는 이러한 여러 ID를 조정할 수 없기 때문에 여전히 2 (또는 이상) 사용자입니다.
+아니요. ID 동기화가 사이트 내 게시자 또는 서버에 대해 페이지에서 수행되지 않습니다. Audience Manager UUID가 광고 서버 로그 파일의 `u=` 필드에 삽입됩니다. 세그먼트가 타깃팅을 위해 전달되면 이 문제가 발생합니다. DIL 코드 모듈은 이 함수를 수행합니다. 이 메커니즘은 서버 사용자 ID를 Audience Manager 사용자에게 매핑하여 세그먼트 성능 보고를 수행할 수 있도록 하는 것과 같습니다. 그러나 광고 서버가 사이트에 있는 경우 페이지에서 직접 ID를 동기화합니다.
 
 <br> 
 
-**Audience Manager에서 디스플레이 및 모바일 장치에서 사용자를 식별할 수 있습니다.**
+**Audience Manager는 다른 장치에서 로그온하는 사용자를 하나의 고유 사용자 또는 다른 고유 사용자로 계산합니까?**
 
-예. [선언된 ID 타게팅을 참조하십시오](../features/declared-ids.md#declared-id-targeting).
-
-<br> 
-
-**온라인으로 수집한 데이터를 사용하여 사용자를 점수를 매기고 이 모델 점수를 기반으로 재타깃팅할 수 있습니까?**
-
-예. Audience Manager는 사용자를 점수 매기기 위해 데이터 파일을 제공할 수 있지만, 이 정보를 분석 및 평가하기 위해서는 다른 공급업체 또는 소프트웨어와 함께 작업해야 합니다. 이 데이터를 키-값 쌍의 형태로 Audience Manager로 보냅니다. 이러한 정보를 가져와 기존 사용자 프로파일에 추가할 수 있습니다. 이 과정을 검토하려면 파트너 솔루션 담당자에게 문의하십시오.
+[선언된 ID 타깃팅은](../features/declared-ids.md#declared-id-targeting) Audience Manager가 단일 고유 식별자로 여러 장치에서 방문자를 식별하는 데 도움이 됩니다. 그러나 타깃팅 또는 대상 관점에서 볼 때 DSP는 이러한 여러 ID를 조정할 수 없으므로 여전히 2명 이상의 사용자입니다.
 
 <br> 
 
-**지정된 1 - 2 개월 동안 쿠키 삭제 비율은 얼마입니까?**
+**Audience Manager가 디스플레이 및 모바일 장치에서 사용자를 식별할 수 있습니다.**
 
-쿠키 삭제는 측정하기 어렵습니다. 대부분의 쿠키 삭제는 쿠키를 자주 삭제하는 소수의 방문자로부터 옵니다. 그러나 대부분의 브라우저 쿠키는 제한된 수명이 있더라도 최소 30 일 동안 안정적입니다. 일부 연구 조사에 따르면 30 일 이상인 상위 단계 타깃팅은 30 일 동안 브라우저 대상 대상의 7%를 효과적으로 제거할 것으로 나타났습니다. 아시다시피 해당 크리에이티브 메시지의 30 일 캠페인은 업계 표준입니다. 지금까지 본 바로는 7%의 하락이 정확하다는 것을 알 수 있습니다.
-
-쿠키 삭제는 도달 및 빈도 계산에 역효과가 있습니다. 따라서 디스플레이 캠페인 계획에 대한 소비자 트렌드의 진정한 특성을 이해하려고 할 때 행동 데이터의 가치를 강조합니다. 클라이언트는 Adobe Audience Manager 세그먼트 겹침 보고서, 최적의 노출 빈도 보고서 및 특정 날짜 범위에 대한 고유한 사용자 트렌드를 활용하여 캠페인 계획 및 캠페인 실행을 위한 최적의 날짜 범위에 대해 사이언스 작업을 수행할 수 있습니다.
+예. 선언된 [ID 타깃팅을 참조하십시오](../features/declared-ids.md#declared-id-targeting).
 
 <br> 
 
-**Audience Manager 쿠키의 만료 기간은 언제입니까?**
+**온라인에서 수집된 데이터로 사용자를 점수 매기고 이 모델 점수를 기반으로 재타깃팅할 수 있습니까?**
 
-사용자 인터페이스를 통해 쿠키 만료 간격을 결정할 수 있습니다. You can set cookies to expire after *n* number of days or never.
-
-<br> 
-
-**이벤트 콜에서 캠페인 크리에이티브를 구현하면 더 많은 비용이 들까요?**
-
-다릅니다. 비용은 고유 사용자를 기반으로 합니다. 캠페인이 순 신규 사용자로 표시되는 경우 예. 캠페인이 이미 데이터를 수집하고 있는 위치에 도달하면 추가 비용이 들지 않습니다. 캠페인이 상당한 겹치는 사이트에서 실행되는 경우, 신규 고유 사용자에게 표시되는 추가 비용이 발생합니다.
+예. Audience Manager는 사용자를 평가하는 데 도움이 되는 데이터 파일을 제공할 수 있지만, 이 정보를 분석하고 등급을 지정하려면 다른 벤더 또는 소프트웨어와 함께 작업해야 합니다. 이 데이터를 키-값 쌍의 형태로 Audience Manager에 보냅니다. 이 정보를 가져와 기존 사용자 프로필에 추가할 수 있습니다. 이 프로세스를 검토하려면 파트너 솔루션 담당자에게 문의하십시오.
 
 <br> 
 
-**Audience Manager는[!UICONTROL Addressable Audiences]지표와[!UICONTROL Server-to-Server]대상에 대한 일치 비율을 표시합니다. Can you explain why we don't see these figures for Cookie and URL destinations?**
+**주어진 1-2개월 기간 동안 쿠키 삭제 비율은 어떻게 됩니까?**
 
-ID 동기화로 분류됩니다. For [!UICONTROL Server-to-Server] destinations, we transfer data offline (either real-time or batch) and we need to send the ID that the destination partner understands, so they can map it back to the browser. 세그먼트 어드레서블 숫자는 총 세그먼트 인구의 하위 집합입니다.
+쿠키 삭제는 측정하기가 어렵습니다. 대부분의 쿠키 삭제는 쿠키를 자주 삭제하는 몇 명의 방문자로부터 옵니다. 그러나 브라우저 쿠키는 최소 30일 동안 안정적이며 일부 쿠키의 수명은 제한되어 있을 수 있습니다. 일부 연구에서는 30일이 넘는 상위 단계 타깃팅을 통해 30일 동안 브라우저 대상 고객의 7%를 효과적으로 제거할 수 있다고 주장합니다. 아시다시피 업계에서는 특정 크리에이티브 메시지에 대한 30일 캠페인을 표준으로 제공하고 있습니다. 우리가 본 바로는, 7% 하락은 정확합니다.
 
-In the case of Cookie and URL destinations, the user is already on the browser, and what [!DNL Audience Manager] sends is just the segments that the user qualified for. 대상 파트너는 세그먼트 매핑을 선택하고 해당 정보를 사용할 수 있습니다. 따라서 쿠키 및 URL 대상에 대한 일치 비율은 항상 100% 고려하십시오.
+쿠키 삭제는 도달 및 빈도 계산에 부정적인 영향을 줍니다. 따라서 디스플레이 캠페인 계획에 대한 소비자 트렌드의 실제 특성을 이해하려고 할 때 행동 데이터의 가치를 강조하게 됩니다. Adobe 클라이언트는 Audience Manager 세그먼트 오버랩 보고서, 최적의 노출 빈도 보고서, 특정 날짜 범위에 대한 고유한 사용자 트렌드를 활용하여 캠페인 계획과 캠페인 실행을 위한 최적의 날짜 범위에 대해 보다 과학적으로 파악할 수 있습니다.
+
+<br> 
+
+**Audience Manager 쿠키의 만료 창은 무엇입니까?**
+
+사용자 인터페이스를 사용하여 쿠키 만료 간격을 결정할 수 있습니다. 쿠키를 일 수 *n일* 후 만료되도록 설정할 수 있습니다.
+
+<br> 
+
+**이벤트 호출에서 캠페인 크리에이티브를 구현하는 데 더 많은 비용이 소요됩니까?**
+
+상황에 따라 다릅니다. 비용은 고유한 사용자를 기반으로 합니다. 캠페인이 신규 사용자를 순차로 만드는 경우, 예, 이 경우 비용이 더 듭니다. 캠페인이 데이터를 이미 수집하는 위치에 도달하면 추가 비용이 들지 않습니다. 캠페인이 상당히 겹치는 관련 사이트에서 실행되는 경우 표시되는 새로운 고유 사용자에 대한 추가 비용이 발생합니다.
+
+<br> 
+
+**Audience Manager는 대상에 대한[!UICONTROL Addressable Audiences]지표와[!UICONTROL Server-to-Server]일치율만 표시합니다. 쿠키 및 URL 대상에 대한 숫자가 표시되지 않는 이유를 설명해 주시겠습니까?**
+
+그것은 ID 시냅스에 해당합니다. 목적지의 경우 데이터를 오프라인(실시간 또는 일괄 처리)으로 전송하고 대상 파트너가 인식하는 ID를 전송하여 다시 브라우저에 매핑할 수 있도록 해야 합니다. [!UICONTROL Server-to-Server] 세그먼트 지정 가능 번호는 총 세그먼트 모집단 중 하위 집합입니다.
+
+쿠키 및 URL 대상의 경우 사용자는 이미 브라우저에 있으며 [!DNL Audience Manager] 전송되는 것은 사용자가 자격을 부여받은 세그먼트입니다. 대상 파트너는 세그먼트 매핑을 선택하여 해당 정보를 사용하여 작업할 수 있습니다. 따라서 쿠키 및 URL 대상에 대한 일치 비율은 항상 100%입니다.

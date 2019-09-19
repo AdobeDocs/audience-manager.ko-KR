@@ -1,37 +1,37 @@
 ---
-description: Audience Manager에 대상 관리 모듈을 추가하여 Audience Manager 데이터 통합 라이브러리 (DIL) 코드가 페이지에서 픽셀을 전송하는 대신 Analytics 데이터를 Audience Manager로 전달하십시오.
-keywords: 고객 분석; Analytics; SSF; 서버측 전달
-seo-description: Audience Manager에 대상 관리 모듈을 추가하여 Audience Manager 데이터 통합 라이브러리 (DIL) 코드가 페이지에서 픽셀을 전송하는 대신 Analytics 데이터를 Audience Manager로 전달하십시오.
-seo-title: 고객 관리 모듈 구현
+description: Audience Manager DIL(Data Integration Library) 코드가 페이지에서 픽셀을 보내도록 하지 않고 Analytics 데이터를 Audience Manager에 전달하려면 Audience Management 모듈을 Adobe Analytics AppMeasurement에 추가합니다.
+keywords: 고객 분석;analytics;ssf;서버 측 전달
+seo-description: Audience Manager DIL(Data Integration Library) 코드가 페이지에서 픽셀을 보내도록 하지 않고 Analytics 데이터를 Audience Manager에 전달하려면 Audience Management 모듈을 Adobe Analytics AppMeasurement에 추가합니다.
+seo-title: 대상 관리 모듈 구현
 solution: Audience Manager
-title: 고객 관리 모듈 구현
-uuid: 08846427-DEF 3-4 A 15-88 E 5-08882 D 8 D 57 CE
+title: 대상 관리 모듈 구현
+uuid: 08846427-def3-4a15-88e5-0882d8d57ce
 translation-type: tm+mt
 source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 
 ---
 
 
-# Implement the Audience Management Module {#implement-the-audience-management-module}
+# 대상 관리 모듈 구현 {#implement-the-audience-management-module}
 
-Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
+Audience [!UICONTROL Audience Management Module] Manager ( [!DNL Adobe Analytics] ) 코드가 페이지에서 픽셀을 전송하도록 하는 대신 Audience Manager에 [!UICONTROL AppMeasurement] 데이터를 전달하는 [!DNL Analytics] 대상을 [!UICONTROL Data Integration Library][!UICONTROL DIL]추가합니다.
 
 ## 전제 조건 {#prereqs}
 
-이 문서에 설명된 코드를 구현하는 것 외에, 다음 사항도 수행해야 합니다.
+이 문서에 설명된 코드를 구현하는 것 외에도 다음을 수행해야 합니다.
 
-* [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)구현
-* Enable [!UICONTROL Server-Side Forwarding] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
+* Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* 에서 보고서 세트에 [!UICONTROL Server-Side Forwarding] 대해 활성화합니다 [!UICONTROL Adobe Analytics Admin Console].
 
 ## 구현 {#implementation}
 
-To implement the [!UICONTROL Audience Management Module]:
+다음을 구현하려면 [!UICONTROL Audience Management Module]다음을 수행하십시오.
 
-1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
-1. Update your [!UICONTROL AppMeasurement] code to the version included in the downloaded zip file.
-1. Copy all of the code from `AppMeasurement_Module_AudienceManagement.js` from the zip file. Paste it into the `appMeasurement.js` file just above the text, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
-1. Add the code, `s.loadModule("AudienceManagement");`, just above the `AppMeasurement_Module_AudienceManagement.js` code you just added in the previous step.
-1. Update and copy the code below and add it to the `doPlugins` function in your `AppMeasurement.js` file.
+1. Analytics 코드 관리자를 [!UICONTROL AppMeasurement] 사용하여 [다운로드합니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (버전 1.5 이상 필요).
+1. 다운로드한 zip 파일에 포함된 버전으로 [!UICONTROL AppMeasurement] 코드를 업데이트합니다.
+1. zip 파일에서 모든 코드를 `AppMeasurement_Module_AudienceManagement.js` 복사합니다. 텍스트 바로 위에 `appMeasurement.js` 파일에 붙여넣고 `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
+1. 이전 `s.loadModule("AudienceManagement");`단계에서 추가한 `AppMeasurement_Module_AudienceManagement.js` 코드 바로 위에 코드를 추가합니다.
+1. 아래 코드를 업데이트 및 복사하여 `doPlugins` 파일의 `AppMeasurement.js` 함수에 추가합니다.
 
 ```js
 s.AudienceManagement.setup({ 
@@ -49,33 +49,33 @@ s.AudienceManagement.setup({
 
 >[!TIP]
 >
->`audienceManagement.setup` 이 함수는 이 코드에서 구성할 수 있는 Audience Manager `DIL.create` 함수와 매개 변수를 공유합니다. For more information about these parameters, see [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create).
+>이 `audienceManagement.setup` 함수는 이 코드에서 구성할 수 있는 Audience Manager `DIL.create` 함수와 매개 변수를 공유합니다. 이러한 매개 변수에 대한 자세한 내용은 DIL [만들기를](../../dil/dil-class-overview/dil-create.md#dil-create)참조하십시오.
 
-## Code Elements Defined {#code-elements-defined}
+## 코드 요소 정의 {#code-elements-defined}
 
-다음 표는 코드 샘플의 중요한 변수를 정의합니다.
+다음 표에서는 코드 샘플에서 중요한 변수를 정의합니다.
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| `partner` | 필수. Adobe에서 귀하에게 할당한 파트너 이름입니다. 경우에 따라 "파트너 ID" 또는 "파트너 하위 도메인" 이라고도 합니다. Contact your Adobe consultant or [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you don't know your partner name. |
-| `containerNSID` | 필수. `"containerNSID":0` 대부분의 고객은 설정할 수 있습니다. 그러나 ID가 다른 컨테이너와 ID를 동기화해야 하는 경우 여기에 해당 컨테이너 ID를 지정할 수 있습니다. |
-| `uuidCookie` | 선택 사항입니다. 이 구성을 통해 퍼스트 파티 도메인에서 Adobe 쿠키를 설정할 수 있습니다. This cookie contains the [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | 필수. The `namespace` parameter is required if you use the AudienceManagement module bundled with [!UICONTROL AppMeasurement] version 2.10 or newer. [!UICONTROL AudienceManagement] 이 모듈에서는 3.3 이상을 사용해야 [!UICONTROL Experience Cloud ID Service] 합니다. <br>는 [!UICONTROL Experience Cloud Organization ID] 에 등록할 때 회사가 제공하는 ID 입니다 [!UICONTROL Experience Cloud]. Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+| `partner` | 필수. Adobe에서 할당한 파트너 이름입니다. 이를 "파트너 ID" 또는 "파트너 하위 도메인"이라고도 합니다.  파트너 이름을 모르는 [경우 Adobe 컨설턴트나 고객](https://helpx.adobe.com/marketing-cloud/contact-support.html) 지원 센터에 문의하십시오. |
+| `containerNSID` | 필수. 대부분의 고객은 설정할 수 `"containerNSID":0` 있습니다. 그러나 회사에서 ID를 다른 컨테이너와 동기화해야 하는 경우 여기에서 해당 컨테이너 ID를 지정할 수 있습니다. |
+| `uuidCookie` | 선택 사항입니다. 이 구성을 사용하면 퍼스트 파티 도메인에서 Adobe 쿠키를 설정할 수 있습니다. 이 쿠키에는 UUID가 [포함되어 있습니다](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | 필수. AudienceManagement 모듈을 `namespace` [!UICONTROL AppMeasurement] 버전 2.10 이상 버전과 함께 번들로 사용하는 경우 이 매개 변수가 필요합니다. 이 [!UICONTROL AudienceManagement] 모듈에서는 [!UICONTROL Experience Cloud ID Service] 3.3 이상을 사용해야 합니다. <br> 이 [!UICONTROL Experience Cloud Organization ID] ID는 회사가 Adobe Creative Cloud에 가입하면 제공되는 [!UICONTROL Experience Cloud]ID입니다. 조직 및 계정 연결에서 회사의 조직 [ID를 확인합니다](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
 
-## Results: Data Forwarding to Audience Manager {#results-data-forwarding}
+## 결과:Audience Manager로 데이터 전달 {#results-data-forwarding}
 
-[!DNL Analytics] 구현은 다음 작업을 수행한 후 Audience Manager로 데이터를 보냅니다.
+구현에서 다음을 수행한 후 Audience Manager로 데이터를 전송합니다. [!DNL Analytics]
 
-* Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
-* ID 서비스 구현;
-* Installed the [!UICONTROL Audience Management Module].
+* 활성화됨 [!UICONTROL Server-Side Forwarding] (이 기능에 대해 컨설턴트에게 문의);
+* ID 서비스를 구현했습니다.
+* 를 [!UICONTROL Audience Management Module]설치했습니다.
 
-This process sends data to [!DNL Audience Manager]:
+이 프로세스에서는 다음 주소로 데이터를 전송합니다. [!DNL Audience Manager]
 
 * 페이지 보기 호출 시;
 * 추적된 링크에서;
-* 비디오 마일스톤 및 하트비트 비디오 보기에서 볼 수 있습니다.
+* 비디오 이정표 및 하트비트 비디오 보기에서
 
 >[!NOTE]
 >
->The variables sent to Audience Manager from [!DNL Analytics] use special prefixes. Audience Manager 트레이트를 만들 때 이러한 접두사를 이해하고 고려해야 합니다. For more information on these prefixes, see [Prefix Requirements for Key Variables](../../features/traits/trait-variable-prefixes.md).
+>특수 접두사를 사용하기 위해 Audience Manager로 전송된 [!DNL Analytics] 변수입니다. Audience Manager 트레이트를 만들 때 이러한 접두사를 이해하고 고려해야 합니다. 이러한 접두사에 대한 자세한 내용은 키 변수의 [접두사 요구 사항을 참조하십시오](../../features/traits/trait-variable-prefixes.md).

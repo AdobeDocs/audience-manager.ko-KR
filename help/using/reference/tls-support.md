@@ -1,10 +1,10 @@
 ---
-description: TLS (전송 계층 보안) 는 두 시스템 간의 안전한 통신 채널을 구축하는 데 사용되는 암호화 프로토콜입니다. 하나 또는 두 시스템을 인증하는 데 사용되며 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호합니다. 2018 년 5 월에는 TLS 1.0, 1.1 및 1.2를 사용하는 세 가지 버전의 TLS 프로토콜이 있습니다.
-seo-description: TLS (전송 계층 보안) 는 두 시스템 간의 안전한 통신 채널을 구축하는 데 사용되는 암호화 프로토콜입니다. 하나 또는 두 시스템을 인증하는 데 사용되며 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호합니다. 2018 년 5 월에는 TLS 1.0, 1.1 및 1.2를 사용하는 세 가지 버전의 TLS 프로토콜이 있습니다.
+description: TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 이 시스템은 하나 또는 두 시스템 모두를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월에는 TLS 1.0, 1.1 및 1.2를 사용하는 TLS 프로토콜의 세 가지 버전이 있습니다.
+seo-description: TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 이 시스템은 하나 또는 두 시스템 모두를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월에는 TLS 1.0, 1.1 및 1.2를 사용하는 TLS 프로토콜의 세 가지 버전이 있습니다.
 seo-title: TLS 1.0 사용 중단
 solution: Audience Manager
 title: TLS 1.0 사용 중단
-uuid: 6 A 820 E 63-DD 49-4689-9596-940 AABBA 18 EC
+uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 translation-type: tm+mt
 source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
@@ -13,9 +13,9 @@ source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
 # TLS 1.0 사용 중단{#tls-deprecation}
 
-TLS (전송 계층 보안) 는 두 시스템 간의 안전한 통신 채널을 구축하는 데 사용되는 암호화 프로토콜입니다. 하나 또는 두 시스템을 인증하는 데 사용되며 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호합니다. 2018 년 5 월에는 다음 세 가지 버전의 TLS 프로토콜이 있습니다. TLS 1.0, 1.1 및 1.2.
+TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 이 시스템은 하나 또는 두 시스템 모두를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월에는 사용 중인 TLS 프로토콜의 세 가지 버전이 있습니다.TLS 1.0, 1.1 및 1.2.
 
-In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. Adobe Audience Manager functionality does not work for your end users that use browsers which only support [!DNL TLS 1.0]. In fact, we recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers,versions, and their [!DNL TLS] support. For more information, visit [this Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+2019년 3월, [!DNL Adobe] 이 [!DNL TLS 1.0] 프로토콜에 대한 지원이 종료되었습니다. Adobe Audience Manager 기능은 지원만 하는 브라우저를 사용하는 최종 사용자에게 적합하지 [!DNL TLS 1.0]않습니다. 사실, Adobe는 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜인 모든 최신 브라우저가 [!DNL TLS 1.2]사용됩니다. Adobe는 브라우저, 버전 및 해당 [!DNL TLS] 지원 목록을 수집합니다. 자세한 내용은 [이 Wikipedia 링크를](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)참조하십시오.
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
@@ -30,14 +30,14 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="2"> <p>Google Chrome (Android 용 Chrome) </p> </td> 
+   <td colname="col1" morerows="2"> <p>Google Chrome(Android용 Chrome) </p> </td> 
    <td colname="col2"> <p>1 - 21 </p> </td> 
    <td colname="col03" morerows="2"> <p> 
      <ul id="ul_73F2C4C645E1411ABB3AD7ABD1013C59"> 
-      <li id="li_EBFC73DCEF3342DDADFF2CBA716DFE93">Windows (7 +) </li> 
-      <li id="li_75D0A27BB3B246AC8456B0A984BD5DBD">OS X (10.9 +) </li> 
-      <li id="li_60C1FA4C61EF4AD68719384CDEFC2CF0">Linux Android (4.1 +) </li> 
-      <li id="li_761665B51622486FA0D6ABBDAA1DCA60">iOS (9.0 +) </li> 
+      <li id="li_EBFC73DCEF3342DDADFF2CBA716DFE93">Windows(7+) </li> 
+      <li id="li_75D0A27BB3B246AC8456B0A984BD5DBD">OS X(10.9+) </li> 
+      <li id="li_60C1FA4C61EF4AD68719384CDEFC2CF0">Linux Android(4.1+) </li> 
+      <li id="li_761665B51622486FA0D6ABBDAA1DCA60">iOS(9.0+) </li> 
       <li id="li_9E19588870DA4EFB963C0C650116DC94">Chrome OS </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
@@ -72,7 +72,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="2"> <p>Google Android OS Browser </p> </td> 
+   <td colname="col1" morerows="2"> <p>Google Android OS 브라우저 </p> </td> 
    <td colname="col2"> <p>Android 1.0 - 4.0.4 </p> </td> 
    <td colname="col3" morerows="2"> 해당 없음 </td> 
    <td colname="col4"> <p>예 </p> </td> 
@@ -86,7 +86,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
    <td colname="col6"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Android 5.0 - 버전 제공 </p> </td> 
+   <td colname="col2"> <p>Android 5.0 - 현재 버전 </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
    <td colname="col5"> <p>예 </p> </td> 
    <td colname="col6"> <p>예 </p> </td> 
@@ -107,19 +107,19 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="3"> <p>Mozilla Firefox (모바일용 Firefox) </p> </td> 
+   <td colname="col1" morerows="3"> <p>Mozilla Firefox(모바일용 Firefox) </p> </td> 
    <td colname="col2"> <p>1.0 - ESR 17.0.11 </p> </td> 
    <td colname="col3" morerows="3"> <p> 
      <ul id="ul_617CE841EC7743A08BE004E309A3B0D7"> 
-      <li id="li_1A189B9BE2AD4305AF786FBC41A321AC">Windows (7 +) </li> 
-      <li id="li_E5EF7410AEE948A68F4E3D6D1290B5A4">OS X (10.9 +) </li> 
-      <li id="li_320467E34FC44492877283935553B87A">Linux Android (4.1 +) </li> 
-      <li id="li_6827CD3D51B24B54BDCA0DAE7DD43696">iOS (9.0 +) </li> 
+      <li id="li_1A189B9BE2AD4305AF786FBC41A321AC">Windows(7+) </li> 
+      <li id="li_E5EF7410AEE948A68F4E3D6D1290B5A4">OS X(10.9+) </li> 
+      <li id="li_320467E34FC44492877283935553B87A">Linux Android(4.1+) </li> 
+      <li id="li_6827CD3D51B24B54BDCA0DAE7DD43696">iOS(9.0+) </li> 
       <li id="li_B4C08937A5BD47188A97E03AF2F3689B">Chrome OS </li> 
-     </ul> </p> <p>ESR 전용: 
+     </ul> </p> <p>ESR만 해당: 
      <ul id="ul_6AF06AEC2B494912BA480EA8FF54BF80"> 
-      <li id="li_DB30E35051474FBEABE70C69292037DE">Windows (XP SP 2 +) </li> 
-      <li id="li_B412EDEF4FEC4AC9A17C7152BA493768">OS X (10.9 +) </li> 
+      <li id="li_DB30E35051474FBEABE70C69292037DE">Windows(XP SP2+) </li> 
+      <li id="li_B412EDEF4FEC4AC9A17C7152BA493768">OS X(10.9+) </li> 
       <li id="li_C2E18F13BFE24C55A7C14488F115810C"> Linux </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
@@ -199,7 +199,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
    <td colname="col3"> <p> 
      <ul id="ul_7DB290171B744FC6A45E999A7F85265D"> 
       <li id="li_B69400528CB64CB2994F4FB8CF3B4A2A">Windows 7, 8 </li> 
-      <li id="li_B759C917E04F4A12826C9ABAE4A7C476">Windows Server 2002, Server 2008, Server 2008 R 2 </li> 
+      <li id="li_B759C917E04F4A12826C9ABAE4A7C476">Windows Server 2002, Server 2008, Server 2008 R2 </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
    <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
@@ -210,7 +210,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
    <td colname="col3"> <p> 
      <ul id="ul_66FB6A2D1ADD447FB58BE9A8550CB34F"> 
       <li id="li_CA93F2471EEE404992792918E46D27A0">Windows 7, 8.1, 10 </li> 
-      <li id="li_97CE6072071748318B9A33ECD7009F8A">Windows Server 2008, Server 2012, Server 2012 R 2, Server 2016, Server 2019 </li> 
+      <li id="li_97CE6072071748318B9A33ECD7009F8A">Windows Server 2008, Server 2012, Server 2012 R2, Server 2016, Server 2019 </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
    <td colname="col5"> <p>예 </p> </td> 
@@ -269,7 +269,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>모바일을 위한 Microsoft Edge 및 Microsoft Edge </p> </td> 
+   <td colname="col1"> <p>Microsoft Edge 및 Microsoft Edge for Mobile </p> </td> 
    <td colname="col2"> <p>모든 버전 </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_87B9CD9D72CA43A1A4DC824C5DEA3638"> 
@@ -298,13 +298,13 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="7"> <p>Opera Browser (Opera Mobile) </p> </td> 
+   <td colname="col1" morerows="7"> <p>Opera 브라우저(Opera Mobile) </p> </td> 
    <td colname="col2"> <p>1 - 4 </p> </td> 
    <td colname="col3" morerows="7"> <p> 
      <ul id="ul_0B243815FE07488F934B61C1ABF30F38"> 
-      <li id="li_73A74B30C935451FA0870177E7DE91AC">Windows (7 +) </li> 
-      <li id="li_E0CC0A99244443488026F4EA82027EE0">OS X (10.9 +) </li> 
-      <li id="li_F04CA1BD8DAD473CABCD64221883FA56">Linux Android (4.0 +) </li> 
+      <li id="li_73A74B30C935451FA0870177E7DE91AC">Windows(7+) </li> 
+      <li id="li_E0CC0A99244443488026F4EA82027EE0">OS X(10.9+) </li> 
+      <li id="li_F04CA1BD8DAD473CABCD64221883FA56">Linux Android(4.0 이상) </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>아니오 </p> </td> 
    <td colname="col5"> <p>아니오 </p> </td> 
@@ -402,7 +402,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p>Apple Safari (모바일) </p> </td> 
+   <td colname="col1" morerows="1"> <p>Apple Safari(모바일) </p> </td> 
    <td colname="col2"> <p>3 - 5 </p> </td> 
    <td colname="col3"> <p>iOS 1 - 4 </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 

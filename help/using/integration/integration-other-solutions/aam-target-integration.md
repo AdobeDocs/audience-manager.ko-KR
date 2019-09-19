@@ -1,25 +1,25 @@
 ---
-description: 이 통합을 통해 Audience Manager 세그먼트를 Target로 보낼 수 있습니다.
-seo-description: 이 통합을 통해 Audience Manager 세그먼트를 Target로 보낼 수 있습니다.
-seo-title: Target Manager와 Target 통합
+description: 이 통합을 통해 Audience Manager 세그먼트를 Target으로 보낼 수 있습니다.
+seo-description: 이 통합을 통해 Audience Manager 세그먼트를 Target으로 보낼 수 있습니다.
+seo-title: Target과 Audience Manager 통합
 solution: Audience Manager
-title: Target Manager와 Target 통합
-uuid: C 5 CA 2101-99 FB -4178-9839-3 EC 5 B 605 C 040
+title: Target과 Audience Manager 통합
+uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 translation-type: tm+mt
 source-git-commit: b54146cdc2e60215c951bd6a1bed7a830400bfb7
 
 ---
 
 
-# Integrate Audience Manager With Target {#integrate-audience-manager-with-target}
+# Target과 Audience Manager 통합 {#integrate-audience-manager-with-target}
 
-This integration lets you send Audience Manager segments to Adobe [!DNL Target].
+이 통합을 통해 Audience Manager 세그먼트를 Adobe로 보낼 수 있습니다 [!DNL Target].
 
-An Audience Manager - [!DNL Target] integration requires:
+Audience Manager - [!DNL Target] 통합에는 다음이 필요합니다.
 
-* The [Experience Cloud service](https://marketing.adobe.com/resources/help/en_US/mcvid/). If you're not using this service, see the [implementation guides](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) to get started.
-* 프로필 및 대상. If you're not provisioned for Profiles and Audiences, complete the form on the [Experience Cloud Integrations page](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) or contact your consultant to get started.
+* Experience [Cloud 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/). 이 서비스를 사용하지 않는 경우 [구현 안내서를](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) 참조하여 시작하십시오.
+* 프로필 및 대상. 프로필 및 대상에 대한 프로비저닝을 받지 못한 경우 Experience Cloud 통합 페이지에서 [양식을](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) 작성하거나 컨설턴트에게 문의하십시오.
 
-All of your Audience Manager segments will appear in [!DNL Target] shortly after you complete these steps in the implementation process. Look in **[!UICONTROL Audiences > Audience List]** to see your Audience Manager segments in [!DNL Target].
+모든 Audience Manager 세그먼트는 구현 프로세스에서 이러한 단계를 완료한 [!DNL Target] 직후 표시됩니다. Audience **[!UICONTROL Audiences > Audience List]** Manager 세그먼트를 살펴보십시오 [!DNL Target].
 
 ![](../assets/target.png)

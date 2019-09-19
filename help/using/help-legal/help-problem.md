@@ -1,6 +1,6 @@
 ---
-description: 발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때 이 정보를 최대한 제공합니다. 이렇게 하면 팀이 문제를 이해하고 해결할 수 있습니다.
-seo-description: 발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때 이 정보를 최대한 제공합니다. 이렇게 하면 팀이 문제를 이해하고 해결할 수 있습니다.
+description: 발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때 가능한 많은 정보를 제공합니다. 그러면 팀이 문제를 파악하고 해결할 수 있습니다.
+seo-description: 발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때 가능한 많은 정보를 제공합니다. 그러면 팀이 문제를 파악하고 해결할 수 있습니다.
 seo-title: 문제가 있을 경우
 solution: Audience Manager
 title: 문제가 있을 경우
@@ -12,7 +12,7 @@ source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 
 # 문제가 있을 경우 {#problem}
 
-발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때 이 정보를 최대한 제공합니다. 이렇게 하면 팀이 문제를 이해하고 해결할 수 있습니다.
+발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때 가능한 많은 정보를 제공합니다. 그러면 팀이 문제를 파악하고 해결할 수 있습니다.
 
 ## 기본 정보 {#basic-information}
 
@@ -24,13 +24,13 @@ r_problem.xml
 
 For technical issues or to log a bug, contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-* **전화:** 1-800-497-0335
+* **** 전화:1-800-497-0335
 
-   For toll-free numbers outside the United States, see our [regional Customer Care contact numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) site. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
+   미국 이외의 무료 전화 번호는 [지역 고객 지원 연락처](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 사이트를 참조하십시오. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
 
-* **이메일:** amsupport@adobe.com
+* **** 이메일:amsupport@adobe.com
 
-Adobe에 연락하기 전에 다음 정보를 준비해 주십시오.
+문의하기 전에 다음 정보를 준비하십시오.
 
 <table id="table_28E76031E2804265B1A48AB2659F68F0"> 
  <thead> 
@@ -42,27 +42,27 @@ Adobe에 연락하기 전에 다음 정보를 준비해 주십시오.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>문제 요약</b> </p> </td> 
-   <td colname="col2"> <p>문제에 대한 간단한 설명 요약을 제공합니다. </p> </td> 
+   <td colname="col2"> <p>문제에 대한 간략한 설명을 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>계정 정보</b> </p> </td> 
-   <td colname="col2"> <p>다음 사항을 제공합니다. </p> <p> 
+   <td colname="col2"> <p>다음을 제공합니다. </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">회사 이름. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Audience Manager</span> 하위 도메인 (알려진 경우). The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Audience Manager</span> 하위 도메인(알려진 경우). 하위 도메인은 데이터 수집 이벤트를 Adobe에 전송하는 도메인의 URL입니다. <span class="keyword"></span> (예: https:// <code>myCompany<i>.demdex.net</i>)</code>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>재현 단계</b> </p> </td> 
-   <td colname="col2"> <p>예상 결과 및 문제를 복제하는 데 필요한 URL를 포함하여 가능한 한 세부적인 정보를 포함합니다. Your description should contain enough detail that somebody unfamiliar with <span class="keyword"> Audience Manager</span> should be able to follow your steps or procedures and reproduce the problem. </p> </td> 
+   <td colname="col1"> <p><b>재생산 단계</b> </p> </td> 
+   <td colname="col2"> <p>문제 복제와 예상 결과를 복제하는 데 필요한 URL을 비롯하여 가능한 한 많은 세부 사항을 포함합니다. 설명에는 Audience Manager에 익숙하지 않은 사람이 <span class="keyword"> 자신의</span> 단계나 절차를 따르고 문제를 재현할 수 있을 만큼 충분한 세부 정보가 포함되어야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>우선순위</b> </p> </td> 
-   <td colname="col2"> <p>이 문제에 우선 순위를 지정합니다. 우선 순위 범위는 P 1 (가장 중요) 부터 P 4 (가장 덜 중요) 까지입니다. </p> </td> 
+   <td colname="col2"> <p>이 문제에 우선 순위를 지정합니다. 우선 순위 범위는 P1(가장 중요)에서 P4(가장 중요함)까지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>비즈니스 효과</b> </p> </td> 
-   <td colname="col2"> <p>이 문제가 비즈니스에 미치는 영향을 설명하십시오. 예를 들어 이 문제로 인해 매출 손실이 발생하거나 제품을 사용할 수 없는 문제가 있습니까? 이 문제를 해결하셨습니까? </p> </td> 
+   <td colname="col1"> <p><b>비즈니스 영향</b> </p> </td> 
+   <td colname="col2"> <p>이 문제가 비즈니스에 미치는 영향을 설명합니다. 예를 들어, 이 문제로 인해 매출 손실이 발생하거나 제품을 사용할 수 없게 되는 문제가 발생합니까? 이 문제에 대해 작업해 보셨나요? </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>예상</b> </p> </td> 

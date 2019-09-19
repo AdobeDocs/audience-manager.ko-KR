@@ -1,10 +1,10 @@
 ---
-description: 일반 매크로 중 일부를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예.
-seo-description: 일반 매크로 중 일부를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예.
+description: 몇 가지 일반적인 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
+seo-description: 몇 가지 일반적인 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
 seo-title: 아웃바운드 매크로 예제
 solution: Audience Manager
 title: 아웃바운드 매크로 예제
-uuid: 823 d 85 d 4-d 683-45 cf -9 e 60-c 12 b 7 d 52 a 498
+uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,47 +13,47 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 아웃바운드 매크로 예제 {#outbound-macro-examples}
 
-일반 매크로 중 일부를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예.
+몇 가지 일반적인 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
 
 >[!NOTE]
 >
->In the tables, **boldface** type identifies each macro with its related output. For the format examples, the `<` `>` symbols have been added to help visually separate each macro.
+>표에서 **굵은체** 유형은 관련 출력과 함께 각 매크로를 식별합니다. 형식 예제의 경우, 각 매크로를 시각적으로 구분하는 데 도움이 되도록 `<` 기호가 `>` 추가되었습니다.
 
-## File Name Macros {#file-name-macros}
+## 파일 이름 매크로 {#file-name-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+사용 가능한 매크로 및 정의 목록은 아웃바운드 [템플릿 매크로를 참조하십시오](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> macro </th> 
-   <th colname="col2" class="entry"> 형식 및 출력 예제 </th> 
+   <th colname="col1" class="entry"> 매크로 </th> 
+   <th colname="col2" class="entry"> 형식 및 출력 예 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> dpid </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_ &lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: <code> ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> DPID </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: <code> ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> master_ dpid </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;MASTER_DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: <code> ftp_215_888_ 20915_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> MASTER_DPID </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;MASTER_DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: <code> ftp_215_888_ 20915_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> order_ id </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_ &lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: <code> ftp_ 215_888_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력:ftp_ 215_888_iter_1449756724.sync <code></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> sync_ mode </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
+   <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Full: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
-      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incremental: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">전체: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">증분: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> sync_ type </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
+   <td colname="col1"> <p> <code> SYNC_TYPE </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
       <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code> ftp_215_888_iter_1449756724.sync </code> </li> 
       <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <code> http_215_888_iter_1449756724.sync </code> </li> 
@@ -61,118 +61,117 @@ For a list of available macros and definitions, see [Outbound Template Macros](.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> timestamp </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_ &lt;TIMESTAMP&gt;_&lt;admin&gt;&lt;.sync&gt; </code> </p> <p>Output: <code> ftp_215_888_iter_ 1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> 타임스탬프 </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_ &lt;TIMESTAMP&gt;_&lt;admin&gt;&lt;.sync&gt; </code> </p> <p>출력: <code> ftp_215_888_iter_ 1449756724.sync </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Header Row Macros {#header-macros}
+## 머리글 행 매크로 {#header-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+사용 가능한 매크로 및 정의 목록은 아웃바운드 [템플릿 매크로를 참조하십시오](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> macro </th> 
-   <th colname="col2" class="entry"> 형식 및 출력 예제 </th> 
+   <th colname="col1" class="entry"> 매크로 </th> 
+   <th colname="col2" class="entry"> 형식 및 출력 예 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> tab </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Output: <code> 888 full.sync </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 분리합니다. </p> </td>
+   <td colname="col1"> <p> <code> 탭 </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>출력: <code> 888 full.sync </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 구분합니다. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## File Content Macros {#file-content-macros}
+## 파일 내용 매크로 {#file-content-macros}
 
-For a list of available macros and definitions, see [Outbound Template Macros](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+사용 가능한 매크로 및 정의 목록은 아웃바운드 [템플릿 매크로를 참조하십시오](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> macro </th> 
-   <th colname="col2" class="entry"> 형식 및 출력 예제 </th> 
+   <th colname="col1" class="entry"> 매크로 </th> 
+   <th colname="col2" class="entry"> 형식 및 출력 예 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> dp_ uuid </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> dp_ uuid_ list </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Dpuuids </code> </p> </td> 
-   <td colname="col2"> <p>아래 섹션을 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
+   <td colname="col2"> <p>아래 별도 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> removed_ segment_ list </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt; &lt;REMOVED_SEGMENT_LIST;separator=" "&gt; </code> </p> <p>Output: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
+   <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt; &lt;REMOVED_SEGMENT_LIST;separator=" "&gt; </code> </p> <p>출력: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> segment_ list </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt; &lt;SEGMENT_LIST;separator=" "&gt; </code> </p> <p>Output: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
+   <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt; &lt;SEGMENT_LIST;separator=" "&gt; </code> </p> <p>출력: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> if (segment_ list &amp; &amp; removed_ segment_ list) endif </code> </p> </td> 
+   <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
    <td colname="col2"> <p><b>형식:</b> </p> <p> 
-     <code>{"Advertiserid": " &lt; Pidalias &gt; "," datacenterid ": 2, "tdid": " &lt; dp_ uuid &gt; "," data ": [&lt; segment_ list: {seg|&lt; open_ para_ bracket &gt; "name": " &lt; seg. alias &gt; " &lt; close_ para_ bracket &gt;}; separator = "," &gt; &lt; if (segment_ list &amp; &amp; removed_ segment_ list) &gt; &lt; 쉼표 &gt; &lt; endif &gt; &lt; removed_ segment_ list: {seg|&lt; open_ para_ bracket &gt; "name": " &lt; seg. alias &gt; "," ttlinminutes ": 0 &lt; close_ para_ bracket &gt;}; separator = "," &gt;]} </code>
- </p><p><b>출력:</b></p> <p>
-     <code>//First 예 {"Advertiserid": " 12345 "," Datacenterid ": 2, "tdid": " dfd 215 e 4-8 d 6 b -4 fdb -90 b 9-fab 4456 f 2 c 9 d "," data ": [{"name": " 4321 "}]} //Second 예 {" Advertiserid ": " 12345 "," Datacenterid ": 2, "tdid": " 9099 E 8 fe-abab -5114-abaa -28 bdaa 0539 ca "," data ": [{"name": " 4321 "}, {" name ": " 987 "," Ttlinminutes ": 0}, {"name": " 654 "," Ttlinminutes ": 0}]} </code>
- </p> <p> <p>Note:  In the first example, the macro only returns data for <code> SEGMENT_LIST </code> because <code> REMOVED_SEGMENT_LIST </code> is empty. 두 번째 예제는 두 매크로 모두에 대한 데이터를 반환합니다. </p> </p> </td> 
+     <code>
+       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUID&gt;", "데이터":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_COLD_BRACKS&gt;"Name":"&lt;seg.alias&gt;" close_중괄호&gt;};separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_COLLECK_BRACKET&gt;"Name":", "TtlInMinutes":0&lt;CLOSE_COLLECK_BRACKET&gt;}; separator=","&gt;]} </code></p><p><b>출력:</b></p> <p>
+     <code>//첫 번째 예 {"AdvertiserId":"12345", "DataCenterId": 2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Data" name":"4321"}]} //두 번째 예 {"AdvertiserId":"12345", "DataCenterId": 2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa053 9ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}}} </code></p> <p> <p>참고: 첫 번째 예에서는 REMOVED_SEGMENT_LIST가 <code> 비어 </code> 있기 때문에 매크로가 SEGMENT_LIST에 대한 데이터만 <code> </code> 반환합니다. 두 번째 예에서는 두 매크로 모두에 대한 데이터를 반환합니다. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> set_ attributes </code> </p> </td> 
-   <td colname="col2"> <p>형식: </p> <p> <code> &lt; pid &gt; &lt; tab &gt; &lt; uuid &gt; &lt; tab &gt; &lt; dp_ uuid &gt; &lt; tab &gt; &lt; set_ attributes &gt; &lt; tab &gt; &lt; opt_ out &gt; &lt; tab &gt; &lt; segment_ list: {seg|&lt; seg. type &gt;, &lt; seg. alias &gt;, &lt; output_ attribute_ value &gt;, &lt; seg. lastupdatetime &gt; &amp;} &gt; </code> </p> <p>출력: </p> <p> <code> 1159 000880085796836537415162975091516297500 17 T 0 AJ 01 B 120 HP 1 0 5,103714,1,1344114661000 &amp; 5,103713,1,1343250661000 </code> </p> </td> 
+   <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
+   <td colname="col2"> <p>형식: </p> <p> <code> &lt;PID&gt;&lt;TAB&gt;&lt;UUID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt;&lt;OPT_OUT&gt;&lt;TAB&gt;&lt;SEG|&lt;seg.type&gt;,&lt;seg.alias&gt;,&lt;OUTPUT_ATTRIBUTE VALUE&gt;,&lt;seg.lastUpdateTime&gt;&amp;}&gt; </code> </p> <p>출력: </p> <p> <code> 1159 0008800857963653741516297509717335000 17t0aj01b112222 1 0 5,103714,1,13414661000&amp;5,103713,1,13432506100 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> tab </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Output: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 분리합니다. </p> </td> 
+   <td colname="col1"> <p> <code> 탭 </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 구분합니다. </p> </td> 
   </tr>
   <tr>
-   <td colname="col1"> <p> <code> trait_ list </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code> &lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; </code> </p> <p>Output: <code> 1131 12345 1 123|456|789 </code> </p> </td> 
+   <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>형식:&lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; <code></code> </p> <p>출력: <code> 1131 12345 1 123|456|789 </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### `DPUUID` 예
 
-`DPUUID` 매크로를 통해 데이터를 출력하는 방법을 이해할 수 있도록 다음과 같이 2 `DPID`s 매핑이 s로 `DPUUID`매핑되었다고 가정합니다.
+매크로가 데이터를 출력하는 방법을 이해하는 데 도움이 되도록, 아래와 같이 2 `DPUUID``DPID``DPUUID`s가 매핑되었다고 가정합니다.
 
-* DPID `1111` maps to DPUUIDs `AAAA` (timestamp = 1) and `BBBB` (timestamp = 2).
-* DPID `2222` maps to DPUUID `CCCC`.
+* DPID `1111` 는 DPUUID `AAAA` (타임스탬프 = 1) 및 `BBBB` (타임스탬프 = 2)에 매핑됩니다.
+* DPID `2222` 가 DPUUID에 매핑됩니다 `CCCC`.
 
-이러한 조건에 따라 다음 표는 가능한 일부 형식 문자열 및 출력을 열거합니다.
+이러한 조건이 주어지면 다음 표에서는 가능한 일부 형식 문자열 및 해당 출력을 열거합니다.
 
 <table id="table_6A6D94F994C1475BB09126BA0B815B1F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 매핑 조건 </th> 
    <th colname="col2" class="entry"> 매크로 형식 </th> 
-   <th colname="col3" class="entry"> output </th> 
+   <th colname="col3" class="entry"> 출력 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>단일 DPID에 대한 모든 매핑 반환 </p> </td> 
-   <td colname="col2"> <p> <code> &lt; dpuuids; format = "dpids = 1111 | maxmappings = 0 | format = JSON" &gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111", "AAAA"], ["1111", "BBBB"]] </code> </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS;format="dpids=1111|maxMappings=0|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","AAAA"],["111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>모든 DPIDS에 대해 최대 1 개의 매핑 반환 </p> </td> 
-   <td colname="col2"> <p> <code> &lt; dpuuids; format = "dpids = 1111,2222 | maxmappings = 1 | format = JSON" &gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111", "bbbb"], ["2222", "cccc"]] </code> </p> <p>For DPID <code> 1111 </code>, the macro maps to DPUUID <code> BBBB </code> only because that ID has the larger timestamp. </p> </td> 
+   <td colname="col1"> <p>모든 DPID에 대해 최대 1개의 매핑을 반환합니다. </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS;format="dpids=111,222|maxMappings=1|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>DPID 1111 <code> 의 </code>경우, 해당 ID에 타임스탬프가 <code> 더 크므로 매크로는 DPUUID BBBB에 매핑됩니다 </code> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>단일 DPID에 대해 최대 2 개의 매핑 반환 </p> </td> 
-   <td colname="col2"> <p> <code> &lt; dpuuids; format = "dpids = 2222 | maxmappings = 2 | format = JSON" &gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222", "CCCC"]] </code> </p> <p><code> Maxmappings = 2 </code>임에도 불구하고 이 매크로는 DPUUID 매핑에 1 DPID만 반환합니다. 지정된 DPID에 DPUUID가 하나만 있기 때문입니다. </p> </td> 
+   <td colname="col1"> <p>단일 DPID에 대해 최대 2개의 매핑 반환 </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS;format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>maxMappings=2 <code> </code>이지만 지정한 DPID에 DPUUID가 하나만 있으므로 이 매크로는 DPID-DPUUID 매핑이 1개만 반환됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

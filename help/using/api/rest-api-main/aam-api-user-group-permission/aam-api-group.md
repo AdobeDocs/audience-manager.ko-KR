@@ -1,25 +1,25 @@
 ---
-description: 그룹 관리, 업데이트, 목록 작성, 그룹 삭제 등 REST API 메서드를 사용할 수 있습니다.
-seo-description: 그룹 관리, 업데이트, 목록 작성, 그룹 삭제 등 REST API 메서드를 사용할 수 있습니다.
+description: 나머지 API 메서드를 사용하여 그룹 만들기, 업데이트, 목록 작성, 삭제 등 그룹을 관리할 수 있습니다.
+seo-description: 나머지 API 메서드를 사용하여 그룹 만들기, 업데이트, 목록 작성, 삭제 등 그룹을 관리할 수 있습니다.
 seo-title: 그룹 관리 API 메서드
 solution: Audience Manager
 title: 그룹 관리 API 메서드
-uuid: FE 042 EB 5-EA 12-42 FE-BE 98-D 721 F 987 A 914
+uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Group Management API Methods {#group-management-api-methods}
+# 그룹 관리 API 메서드 {#group-management-api-methods}
 
-Rest [!DNL API] methods to manage groups, including creating, updating, listing, deleting groups.
+그룹 만들기, 업데이트, 목록 작성, 삭제 등 그룹을 관리하는 나머지 [!DNL API] 방법입니다.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## 그룹 만들기 {#create-group}
 
-A `POST` method to create a new user group.
+새 사용자 그룹을 만드는 `POST` 방법입니다.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -50,9 +50,9 @@ A `POST` method to create a new user group.
   }
 ```
 
-## Update a Group {#update-group}
+## 그룹 업데이트 {#update-group}
 
-A `PUT` method to update a user group.
+사용자 그룹을 업데이트하는 `PUT` 방법입니다.
 
 <!--
 r_rest_api_group_update.xml
@@ -85,9 +85,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## List Groups {#list-groups}
+## 목록 그룹 {#list-groups}
 
-A `GET` method to list user groups.
+사용자 그룹을 나열하는 `GET` 방법입니다.
 
 <!--
 r_rest_api_group_list.xml
@@ -115,7 +115,7 @@ r_rest_api_group_list.xml
 
 ## 그룹 삭제 {#delete-groups}
 
-A `DELETE` method to delete a user group and remove all members from that group.
+사용자 그룹을 삭제하고 해당 그룹에서 모든 구성원을 제거하는 `DELETE` 방법입니다.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -123,11 +123,11 @@ A `DELETE` method to delete a user group and remove all members from that group.
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+성공하면 `204 No Content` 반환합니다. 충돌이 반환되는 경우 `409 Conflict`.
 
-## Delete Groups in Bulk {#delete-groups-bulk}
+## 일괄 그룹 삭제 {#delete-groups-bulk}
 
-A `DELETE` method to delete multiple groups in bulk and remove all members from that group.
+여러 그룹을 일괄 삭제하고 해당 그룹에서 모든 구성원을 제거하는 `DELETE` 방법입니다.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -135,11 +135,11 @@ A `DELETE` method to delete multiple groups in bulk and remove all members from 
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+성공하면 `204 No Content` 반환합니다. 충돌이 반환되는 경우 `409 Conflict`.
 
-## List All Permissions for a Group {#list-permissions-group}
+## 그룹에 대한 모든 권한 나열 {#list-permissions-group}
 
-A `GET` method to list the permission objects on a group.
+그룹에 있는 권한 개체를 나열하는 `GET` 방법입니다.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -169,11 +169,11 @@ A `GET` method to list the permission objects on a group.
 ]
 ```
 
-Returns `400 Bad Request` if the group is inaccessible.
+그룹에 액세스할 수 없는 `400 Bad Request` 경우 반환합니다.
 
 ## Set Permissions for a Group {#set-permissions-group}
 
-A `PUT` method to update group permissions. 이 메서드는 새 권한을 사용하여 이전 권한을 덮어씁니다.
+그룹 권한을 업데이트하는 `PUT` 방법입니다. 이 메서드는 이전 권한을 새 권한으로 덮어씁니다.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -204,6 +204,6 @@ A `PUT` method to update group permissions. 이 메서드는 새 권한을 사�
 ]
 ```
 
-샘플 응답은 권한 개체의 업데이트된 목록을 나타냅니다.
+샘플 응답은 업데이트된 권한 개체 목록을 나타냅니다.
 
-Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user.
+성공하면 `200 OK` 반환합니다. 주어진 권한이 잘못된 `400` 경우 반환합니다. 로그인한 사용자가 객체에 액세스할 수 없는 `403` 경우에도 반환할 수 있습니다.

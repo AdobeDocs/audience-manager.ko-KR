@@ -1,33 +1,33 @@
 ---
-description: 이 문서에서는 특성 빌더에 사용되는 비교 연산자를 설명합니다.
-seo-description: 이 문서에서는 특성 빌더에 사용되는 비교 연산자를 설명합니다.
-seo-title: 특성 빌더에서 비교 연산자를 사용한 작업
+description: 이 문서에서는 특성 빌더에서 사용되는 비교 연산자에 대해 설명합니다.
+seo-description: 이 문서에서는 특성 빌더에서 사용되는 비교 연산자에 대해 설명합니다.
+seo-title: 트레이트 빌더에서 비교 연산자를 사용한 작업
 solution: Audience Manager
-title: 특성 빌더에서 비교 연산자를 사용한 작업
-uuid: 41 bec 3 b 3-e 5 df -4 a 6 f-abb 0-80 ce 4 c 75 f 5 e 7
+title: 트레이트 빌더에서 비교 연산자를 사용한 작업
+uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Working with Comparison Operators in Trait Builder {#working-with-comparison-operators-in-trait-builder}
+# 트레이트 빌더에서 비교 연산자를 사용한 작업 {#working-with-comparison-operators-in-trait-builder}
 
-This article describes the comparison operators used by [!UICONTROL Trait Builder].
+이 문서에서는 에서 사용하는 비교 연산자에 대해 설명합니다 [!UICONTROL Trait Builder].
 
-## 비교 연산자의 목적
+## 비교 연산자 목적
 
 <!-- c_tb_comparison_operators.xml -->
 
-비교 연산자 (또는 관계 연산자) 는 다른 값 간의 관계를 비교, 테스트 또는 평가하는 데 사용됩니다. In [!UICONTROL Trait Builder], when building signal rules, comparison operators let you test the relationship between different key-value pairs. 예를 들어 값비싼 카메라 쇼핑객을 대상으로 하는 고객을 정의하는 신호 규칙을 만들 수 있습니다. 이 경우 카메라/가격 키-값 쌍을 만들고 설정된 금액이상의 가격이 있는 카메라를 찾은 경우 사용자를 자격을 부여할 수 있습니다.
+비교 연산자(또는 관계형 연산자)는 서로 다른 값 간의 관계를 비교, 테스트 또는 평가하는 데 사용됩니다. 에서 신호 규칙을 작성할 [!UICONTROL Trait Builder]때 비교 연산자를 사용하면 서로 다른 키-값 쌍 간의 관계를 테스트할 수 있습니다. 예를 들어 신호 규칙을 만들어 값비싼 카메라 구매자를 위한 대상을 정의할 수 있습니다. 이 경우 카메라/가격 키-값 쌍을 만들고 사용자가 설정된 금액보다 가격이 크거나 같은 카메라를 찾은 경우 자격을 부여할 수 있습니다.
 
 ## 비교 연산자의 이점
 
-비교 연산자는 여러 값을 기반으로 트레이트를 평가하고 만들어야 할 때 유용합니다. 상품 및 서비스의 가격을 보면 이러한 상황을 설명할 수 있습니다. 예를 들어, 기업은 본 제품의 가격을 기준으로 방문자를 식별할 수 있습니다. 그러나 특정 값을 기반으로 개별 세그먼트를 정의하는 것은 관리상의 비효율적일 수 있습니다. 비교 연산자는 가격 임계값 또는 범위를 기반으로 세그멘테이션 트리거를 설정함으로써 이러한 장애를 극복합니다.
+비교 연산자는 여러 값을 기반으로 트레이트를 평가하고 만들어야 할 때 유용합니다. 상품과 서비스의 가격을 살펴보면 이러한 상황을 알 수 있다. 예를 들어, 기업은 고객이 보는 제품의 가격을 기준으로 방문자를 식별할 수 있습니다. 하지만 특정 값을 기반으로 개별 세그먼트를 정의하는 것은 관리적으로 비효율적일 수 있습니다. 비교 연산자는 가격 임계값 또는 범위를 기반으로 세분화 트리거를 설정하여 이러한 장애를 극복하도록 도와줍니다.
 
 ## 비교 연산자
 
-다음과 같은 비교 연산자를 사용하여 규칙을 작성할 수 있습니다.
+다음 비교 연산자로 규칙을 작성할 수 있습니다.
 
 | 연산자 | 정의 |
 |---|---|
@@ -38,22 +38,22 @@ This article describes the comparison operators used by [!UICONTROL Trait Builde
 | **=&gt;** | 크거나 같음 |
 | **&lt;=** | 작거나 같음 |
 
-## 지정된 연산자
+## 명명된 연산자
 
-다음과 같은 명명된 연산자를 사용하여 규칙을 작성할 수 있습니다.
+다음과 같은 명명된 연산자로 규칙을 만들 수 있습니다.
 
-| 연산자 | Evaluates to [!DNL True] When |
+| 연산자 | 다음 시점으로 [!DNL True] 평가 |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Matcheswords]** | The value in a key-value pair *matches* the pattern specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
-| **[!UICONTROL Matchesregex]** | The value in a key-value pair *matches* the pattern specified by a regular expression. [에서 정규 표현식을 사용하는](../../features/traits/trait-builder-regex.md) 방법에 [!UICONTROL Trait Builder]대해 자세히 알아보십시오. |
+| **[!UICONTROL Contains]** | 키-값 쌍의 값은 이 연산자가 지정한 문자를 *포함합니다* . |
+| **[!UICONTROL Matcheswords]** | 키-값 쌍의 값은 이 연산자가 지정한 패턴과 *일치합니다* . |
+| **[!UICONTROL Startswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 *시작합니다* . |
+| **[!UICONTROL Endswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 *끝납니다* . |
+| **[!UICONTROL Matchesregex]** | 키 값 쌍의 값은 정규 표현식으로 지정된 패턴과 *일치합니다* . [정규 표현식을 사용하는 방법에 대한 자세한](../../features/traits/trait-builder-regex.md) 내용을 [!UICONTROL Trait Builder]살펴보십시오. |
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
->* [트레이트 및 세그먼트 빌더에서 부울 표현식](../../reference/boolean-expressions-tsb.md)
->* [Traitbuilder에서 부울 표현식 이해](../../reference/boolean-expressions-tsb.md)
->* [Traitbuilder 표현식의 작업 순서](../../features/traits/trait-operator-precedence.md)
->* [부울 및 비교 연산자를 사용한 표현식 표현식](../../features/traits/trait-expression-samples.md)
+>* [트레이트 및 세그먼트 빌더의 부울 표현식](../../reference/boolean-expressions-tsb.md)
+>* [TraitBuilder의 부울 표현식 이해](../../reference/boolean-expressions-tsb.md)
+>* [TraitBuilder 표현식의 작업 순서](../../features/traits/trait-operator-precedence.md)
+>* [부울 및 비교 연산자가 있는 샘플 표현식](../../features/traits/trait-expression-samples.md)
 

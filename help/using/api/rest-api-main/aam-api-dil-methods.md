@@ -1,29 +1,29 @@
 ---
-description: DIL (데이터 통합 라이브러리) 를 사용하여 프로그래밍 방식으로 작업할 수 있도록 해주는 메서드입니다.
-seo-description: DIL (데이터 통합 라이브러리) 를 사용하여 프로그래밍 방식으로 작업할 수 있도록 해주는 메서드입니다.
+description: DIL(데이터 통합 라이브러리)을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
+seo-description: DIL(데이터 통합 라이브러리)을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
 seo-title: 데이터 통합 라이브러리 API 메서드
 solution: Audience Manager
 title: 데이터 통합 라이브러리 API 메서드
-uuid: 507 E 7 AFD -3 AE 7-44 DE -98 B 0-589 D 699 C 453 B
+uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 translation-type: tm+mt
 source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 ---
 
 
-# Data Integration Library API Methods {#data-integration-library-api-methods}
+# 데이터 통합 라이브러리 API 메서드 {#data-integration-library-api-methods}
 
-Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+프로그래밍 방식으로 [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->데이터 통합 라이브러리 API는 더 이상 사용되지 않습니다. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>데이터 통합 라이브러리 API는 더 이상 사용되지 않습니다. DIL을 생성하는 데 사용되는 이 API는 이제 여기에서 직접 다운로드할 수 있습니다.DIL [다운로드](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Return Versions for DIL {#return-version-dil}
+## DIL용 반환 버전 {#return-version-dil}
 
-A `GET` method that returns a list of versions ordered from oldest to newest.
+가장 오래된 버전부터 최신 버전으로 순서가 지정된 버전 목록을 반환하는 `GET` 메서드입니다.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -33,15 +33,15 @@ A `GET` method that returns a list of versions ordered from oldest to newest.
 
 ### 응답
 
-A successful request returns response code `["4.0", "4.1"]` as shown below.
+요청이 성공하면 아래와 `["4.0", "4.1"]` 같이 응답 코드가 반환됩니다.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## Return JSON Schema for Version {#return-json-schema-version}
+## 버전에 대한 JSON 스키마 반환 {#return-json-schema-version}
 
-A `GET` method that returns the [!DNL JSON] schema for the [!UICONTROL DIL] version. Supports using alias [!UICONTROL LATEST] for version to get the latest version of [!UICONTROL DIL].
+버전에 대한 `GET` 스키마를 반환하는 [!DNL JSON] [!UICONTROL DIL] 메서드입니다. 최신 버전의 버전을 [!UICONTROL LATEST] 얻기 위해 버전에 대한 별칭 사용을 지원합니다 [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -51,7 +51,7 @@ A `GET` method that returns the [!DNL JSON] schema for the [!UICONTROL DIL] vers
 
 ### 응답
 
-A successful request returns response code `["4.0", "4.1"]` and data as shown below.
+요청이 성공하면 아래와 같이 응답 코드와 `["4.0", "4.1"]` 데이터를 반환합니다.
 
 ```
 { 
@@ -375,9 +375,9 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 } 
 ```
 
-## Generate DIL {#generate-dil}
+## DIL 생성 {#generate-dil}
 
-A `GET` method that generates [!UICONTROL DIL] based on passed in request body using the specified version of [!UICONTROL DIL]. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
+지정된 버전의 를 사용하여 전달된 요청 본문을 `GET` 기반으로 생성되는 [!UICONTROL DIL] [!UICONTROL DIL]메서드입니다. 별칭이 URL의 버전에 `LATEST` 사용되는 경우 최신 버전이 [!UICONTROL DIL] 생성됩니다.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -461,4 +461,4 @@ A `GET` method that generates [!UICONTROL DIL] based on passed in request body u
 
 ### 응답
 
-A successful update returns response code `201 created` along with the [!UICONTROL DIL] [!DNL JavaScript] code.
+업데이트가 성공하면 `201 created`[!UICONTROL DIL] 코드와 [!DNL JavaScript] 함께 응답 코드가 반환됩니다.

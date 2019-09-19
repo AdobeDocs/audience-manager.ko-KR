@@ -1,19 +1,19 @@
 ---
-description: 벌크 예상은 세그먼트 규칙을 기반으로 한 세그먼트 크기 데이터를 반환합니다. 다음 지침에 따라 벌크 예측 요청을 만듭니다.
-seo-description: 벌크 예상은 세그먼트 규칙을 기반으로 한 세그먼트 크기 데이터를 반환합니다. 다음 지침에 따라 벌크 예측 요청을 만듭니다.
-seo-title: Bulk estimate
+description: 대량 추정은 세그먼트 규칙을 기반으로 세그먼트 크기 데이터를 반환합니다. 다음 지침에 따라 대량 견적 요청을 수행합니다.
+seo-description: 대량 추정은 세그먼트 규칙을 기반으로 세그먼트 크기 데이터를 반환합니다. 다음 지침에 따라 대량 견적 요청을 수행합니다.
+seo-title: 대량 추정
 solution: Audience Manager
-title: Bulk estimate
-uuid: 63 B 2 F 06 A -8 BA 0-47 A 2-BD 0 B -8039 B 2 D 4 C 95 D
+title: 대량 추정
+uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Estimates{#bulk-estimates}
+# 대량 추정{#bulk-estimates}
 
-벌크 예상은 세그먼트 규칙을 기반으로 한 세그먼트 크기 데이터를 반환합니다. 다음 지침에 따라 벌크 예측 요청을 만듭니다.
+대량 추정은 세그먼트 규칙을 기반으로 세그먼트 크기 데이터를 반환합니다. 다음 지침에 따라 대량 견적 요청을 수행합니다.
 
 <!-- 
 
@@ -23,20 +23,21 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->[!UICONTROL Bulk Management Tools]*는에서* 지원되지 [!DNL Audience Manager]않습니다. 이 도구는 편의를 위해 제공되며 편의를 위해 제공됩니다. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [UI에](../../features/administration/administration-overview.md) 할당된 RBAC 그룹 권한이 [!DNL Audience Manager] 에서 [!UICONTROL Bulk Management Tools]인정됩니다.
+>는 에서 [!UICONTROL Bulk Management Tools] 지원되지 *않습니다* . [!DNL Audience Manager] 이 도구는 편의를 위해 제공되는 무료 도구입니다. 일괄 변경의 경우 Audience Manager API를 [대신 사용하는 것이](../../api/rest-api-main/aam-api-getting-started.md) 좋습니다. [UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
 
-To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
+벌크 업데이트를 하려면 워크시트를 열고 다음을 [!UICONTROL Bulk Management Tools] 수행합니다.
 
-1. **[!UICONTROL Headers]** 탭을 클릭하고 [!UICONTROL Estimate Segment Size] 헤더를 복사합니다.
-1. **[!UICONTROL Estimate]** 탭을 클릭합니다.
-1. 예상 헤더를 예측 워크시트의 첫 번째 행에 붙여넣습니다.
-1. 머리글 레이블을 기반으로 해당 열에 변경할 데이터를 붙여넣거나 입력합니다.
-1. 워크시트 도구 모음에서 업데이트할 항목과 일치하는 만들기 단추를 클릭합니다.
-This action opens the [!UICONTROL Account Information] dialog box.
+1. 탭을 **[!UICONTROL Headers]** 클릭하고 [!UICONTROL Estimate Segment Size] 헤더를 복사합니다.
+1. Click the **[!UICONTROL Estimate]** tab.
+1. 예상 워크시트의 첫 번째 행에 예측 헤더를 붙여 넣습니다.
+1. 머리글 레이블을 기반으로 해당 열로 변경할 데이터를 붙여넣거나 입력합니다.
+1. 워크시트 도구 모음에서 업데이트 중인 항목과 일치하는 만들기 단추를 클릭합니다.
+이 작업을 수행하면 [!UICONTROL Account Information] 대화 상자가 열립니다.
 
-1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
+1. 필요한 [로그온 정보를](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) 제공하고 을 **[!UICONTROL Submit]**&#x200B;클릭합니다.
 
-This action creates a [!UICONTROL Response] column in the worksheet that contains estimated segment size data. 데이터를 입력하기 전에 벌크 예측 워크시트는 다음과 유사해야 합니다.
+이 작업을 수행하면 워크시트에 예상 세그먼트 크기 데이터가 포함된 열이 만들어집니다. [!UICONTROL Response] 데이터를 입력하기 전에 벌크 예측 워크시트는 다음과 유사해야 합니다.
 
-![](assets/estimate.png)일괄 업데이트가 오류를 반환하거나 실패하는 경우 일괄 관리 도구에 [대한 문제 해결을 참조하십시오](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+![](assets/estimate.png)
+벌크 업데이트에서 오류가 반환되거나 오류가 발생하면 벌크 관리 [도구 문제 해결을 참조하십시오](../../reference/bulk-management-tools/bulk-troubleshooting.md).
 

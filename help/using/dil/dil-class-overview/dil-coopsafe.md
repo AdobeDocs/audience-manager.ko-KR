@@ -4,7 +4,7 @@ seo-description: DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 �
 seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
-uuid: c 5362 a 38-93 c 0-4 edb-bdcb -106 e 43 f 33 a 92
+uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
@@ -17,12 +17,12 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
 
 ## 요구 사항 {#requirements}
 
-`isCoopSafe` 사용하려면 다음을 수행해야 합니다.
+To use `isCoopSafe` you must:
 
-* [!UICONTROL DIL] v 6.11 이상을 사용합니다.
+* v6.11 [!UICONTROL DIL] 이상을 사용하십시오.
 * [Experience Cloud 장치 Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
 
-* [!DNL Adobe] 컨설턴트와 함께 장치 Co-op 계정에 화이트리스트 또는 블랙리스트 플래그를 설정합니다. 이러한 플래그를 활성화하는 셀프 서비스 경로는 없습니다.
+* [!DNL Adobe] 컨설턴트와 함께 장치 Co-op 계정에 화이트리스트 또는 블랙리스트 플래그를 설정합니다. 이러한 플래그를 활성화할 셀프 서비스 경로가 없습니다.
 
 ## 사용 사례 {#use-cases}
 
@@ -42,7 +42,7 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
   </tr> 
   <tr> 
    <td colname="col1"> <p> </b>타사 사이트의 DIL<b> </b></p> </td> 
-   <td colname="col2"> <p><code> Iscoopsafe를 </code><span class="wintitle"> DIL </span> 코드에 추가하여 타사 사이트에 사용할 수 있습니다. </p> <p> 
+   <td colname="col2"> <p>Add <code> isCoopSafe </code> to your <span class="wintitle"> DIL </span> code for use on third-party sites where you: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">인증된 방문자가 사용 약관에 동의하거나 동의하지 않았는지 확인할 수 없습니다. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">장치 그래프를 작성하기 위해 장치 Co-op에서 데이터를 사용하는 방법을 제어해야 합니다. </li> 
@@ -63,7 +63,7 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
 
 **코드 샘플**
 
-DIL 인스턴스화할 때 이를 설정합니다.
+DIL이 인스턴스화될 때 설정합니다.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -113,11 +113,11 @@ POST 매개 수는 장치 그래프에 사용자 데이터를 포함할 수 있�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
    <td colname="col2"> <p>후속 이벤트 호출 시 POST 매개 변수 <code>d_coop_safe=1</code>을 설정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopunsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
    <td colname="col2"> <p>후속 이벤트 호출 시 POST 매개 변수<code> d_coop_unsafe=1</code>을 설정합니다. </p> </td> 
   </tr> 
  </tbody> 

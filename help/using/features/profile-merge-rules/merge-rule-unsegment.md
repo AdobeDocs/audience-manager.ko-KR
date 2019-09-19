@@ -1,32 +1,32 @@
 ---
-description: 세그먼테이션은 세그먼트에서 장치 프로파일을 부적격 및 제거하는 프로세스를 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다.
-seo-description: 세그먼테이션은 세그먼트에서 장치 프로파일을 부적격 및 제거하는 프로세스를 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다.
-seo-title: 프로필 병합 규칙 및 장치 해제 프로세스
+description: 세그먼테이션은 세그먼트에서 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다.
+seo-description: 세그먼테이션은 세그먼트에서 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다.
+seo-title: 프로필 병합 규칙 및 장치 분리 프로세스
 solution: Audience Manager
-title: 프로필 병합 규칙 및 장치 해제 프로세스
-uuid: B 61 C 6 DE 3-5 FE 4-4892-A 05 A -96 A 4 CB 35 AF 34
+title: 프로필 병합 규칙 및 장치 분리 프로세스
+uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Profile Merge Rules and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
+# 프로필 병합 규칙 및 장치 분리 프로세스 {#profile-merge-rules-and-device-un-segmentation-processes}
 
-세그먼테이션은 세그먼트에서 장치 프로파일을 부적격 및 제거하는 프로세스를 설명합니다. Your ability to remove a device profile from a segment depends on the device option used to create a [!UICONTROL Profile Merge Rule].
+세그먼테이션은 세그먼트에서 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 장치 옵션을 만드는 데 사용되는 장치에 따라 달라집니다 [!UICONTROL Profile Merge Rule].
 
-## Available Device Options {#device-options}
+## 사용 가능한 장치 옵션 {#device-options}
 
-As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL Profile Merge Rules Setup] section when you create or edit a [!UICONTROL Profile Merge Rule].
+를 만들거나 편집할 [!UICONTROL Device Options] 때 [!UICONTROL Profile Merge Rules Setup] 섹션에서 미리 볼 수 [!UICONTROL Profile Merge Rule]있습니다.
 
 ![](assets/merge-rules-options.png)
 
-## Current Device Profile Option and Device Unsegmentation {#current-device-profile-options}
+## 현재 장치 프로파일 옵션 및 장치 분리 {#current-device-profile-options}
 
-**[!UICONTROL Current Device Profile]** 의 기본 장치 프로파일 옵션입니다 [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] 옵션을 [!UICONTROL Profile Merge Rule] 사용할 때 세그먼트에서 장치 프로파일을 제거할 **[!UICONTROL Current Device Profile]** 수 있습니다. 이러한 조건에서 세그먼테이션은 다음과 같은 경우에 이루어집니다.
+**[!UICONTROL Current Device Profile]** 은 에 대한 기본 장치 프로파일 [!UICONTROL Profile Merge Rule]옵션입니다. [!DNL Audience Manager] 옵션을 사용할 때 세그먼트에서 장치 프로파일을 제거할 [!UICONTROL Profile Merge Rule] 수 **[!UICONTROL Current Device Profile]** 있습니다. 이러한 조건에서 세그먼테이션은 다음과 같은 경우에 발생합니다.
 
-* 장치 프로필이 120 일간 비활성화되었습니다. 주별 데이터 정리 프로세스는 세그먼트에서 비활성 장치 프로파일을 제거합니다.
-* 장치 프로필에 대한 업데이트나 변경 사항이 적용되기 때문에 더 이상 세그먼트에 대한 장치가 적용되지 않습니다. This happens when segment qualification criteria change, or you apply an [!DNL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+* 장치 프로필이 120일 동안 비활성화되었습니다. 주간 데이터 정리 프로세스는 세그먼트에서 비활성 장치 프로파일을 제거합니다.
+* 장치 프로파일을 업데이트하거나 변경하면 해당 장치의 자격이 상실되므로 더 이상 장치에 세그먼트에 적합하지 않습니다. 이 문제는 세그먼트 자격 기준이 변경되거나, 세그먼트 규칙에 [!DNL AND NOT] 연산자를 적용하거나, 보다 작거나 같은 설정을 사용하는 [최근 및 빈도](../../features/segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 즉시 장치 간 [억제 문서에 설명되어](../../features/profile-merge-rules/instant-cross-device-suppression.md) 있습니다.
 
 ![](assets/single_device_use_case.png)
 
@@ -42,19 +42,19 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
-## No Device Option and Device Unsegmentation {#no-device-option}
+## 장치 옵션 및 장치 분리 없음 {#no-device-option}
 
-[!DNL Audience Manager] + 옵션을 [!UICONTROL Profile Merge Rule] 사용하는 경우 세그먼트에서 장치 간 ID를 제거할 수 **[!UICONTROL No Device Profile]****[!UICONTROL Current Authenticated]** 있습니다. 이러한 조건에서 크로스 디바이스 프로파일 업데이트 또는 변경 사항이 해당 세그먼트에 적용되기 때문에 세그멘테이션은 더 이상 세그먼트에 대한 상호 장치 ID가 적용되지 않을 때 발생합니다. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] 에서 [!UICONTROL Profile Merge Rule] + **[!UICONTROL No Device Profile]** **[!UICONTROL Current Authenticated]** 옵션을 사용할 때 세그먼트에서 장치 간 ID를 제거할 수 있습니다. 이러한 조건에서, 장치 간 ID가 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션은 장치 간 프로파일을 업데이트하거나 변경하면 자격이 상실됩니다. 이 문제는 세그먼트 자격 기준이 변경되거나, 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나, 보다 작거나 같은 설정을 사용하는 [최근 및 빈도](../../features/segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 즉시 장치 간 [억제 문서에 설명되어](../../features/profile-merge-rules/instant-cross-device-suppression.md) 있습니다.
 
 ![](assets/no_device_use_case.png)
 
-## Device Graph Options and Device Unsegmentation {#device-graph-options-unsegmentation}
+## 장치 그래프 옵션 및 장치 분리 {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager] 장치 그래프 옵션을 [!UICONTROL Profile Merge Rule] 사용하는 경우 세그먼트에서 여러 장치 프로필을 제거할 수 있습니다. 이 병합된 프로필에 대한 업데이트나 변경 사항이 세그먼트에서 적용되기 때문에 장치 그래프에서 장치 병합 프로필이 세그먼트에 더 이상 적용되지 않는 경우 세그먼테이션이 발생합니다. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] 장치 그래프 옵션을 사용할 때 세그먼트에서 여러 장치 프로파일을 제거할 [!UICONTROL Profile Merge Rule] 수 있습니다. 장치 그래프에서 장치의 병합된 프로필이 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 취소가 발생합니다. 병합된 프로필의 업데이트나 변경 사항이 세그먼트에서 해당 프로필의 자격을 잃게 됩니다. 이 문제는 세그먼트 자격 기준이 변경되거나, 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나, 보다 작거나 같은 설정을 사용하는 [최근 및 빈도](../../features/segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 즉시 장치 간 [억제 문서에 설명되어](../../features/profile-merge-rules/instant-cross-device-suppression.md) 있습니다.
 
 >[!NOTE]
 >
->**세그먼트 평가 및 자격 조건에** [!DNL Audience Manager] 대한 네 장치 제한은 장치 그래프를 사용하는 세그먼트를 [!UICONTROL Profile Merge Rule] 사용하여 세그먼트를 평가할 때 최대 4 개의 장치를 병합합니다. [!DNL Audience Manager]*현재 장치 및 마지막으로 본 세 개의 추가 장치를 평가합니다*. 세그먼트 해제 신호가 발급되면, 현재 장치 및 실시간 본 추가 장치가 대상에 있는 세그먼트에서 제거됩니다. 예를 들어, 6 장치 클러스터에서는 세그먼트에 대해 최대 4 개의 장치를 병합하고 평가하며 정규화합니다. 마찬가지로 최대 4 개의 장치가 병합되고 평가되며 세그먼트화되지 않습니다.
+>**세그먼트 평가 및 결격에** 대한 4가지 장치 제한은 장치 그래프를 사용하는 세그먼트로 평가할 때 최대 4개의 장치를 [!DNL Audience Manager] [!UICONTROL Profile Merge Rule] 병합합니다. [!DNL Audience Manager] 실시간으로 *마지막으로 표시된*&#x200B;현재 장치와 세 개의 추가 장치를 평가합니다. 세그먼트 해제 신호가 발급되면 현재 장치 및 실시간으로 표시되는 세 개의 추가 장치가 대상의 세그먼트에서 제거됩니다. 예를 들어 6개 장치 클러스터에서 최대 4개의 장치가 병합되고 평가되며 세그먼트에 대한 자격이 부여됩니다. 마찬가지로 최대 4개의 디바이스가 병합되고 평가되고 분할되지 않습니다.
 
 ![](assets/cross_device_workflow.png)
 
@@ -101,9 +101,9 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
 >* [프로필 병합 규칙 및 장치 그래프 FAQ](../../faq/faq-profile-merge.md)
 >* [즉각적인 장치 간 억제](../../features/profile-merge-rules/instant-cross-device-suppression.md)
->* [장치 그래프가 있는 프로필 병합 규칙에 대한 중요한 고려 사항](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
+>* [장치 그래프와 프로필 병합 규칙에 대한 중요 고려 사항](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
 

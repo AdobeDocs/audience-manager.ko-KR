@@ -1,25 +1,25 @@
 ---
-description: 파트너 전용 DIL 인스턴스를 만듭니다.
-seo-description: 파트너 전용 DIL 인스턴스를 만듭니다.
+description: 파트너별 DIL 인스턴스를 만듭니다.
+seo-description: 파트너별 DIL 인스턴스를 만듭니다.
 seo-title: DIL 만들기
 solution: Audience Manager
 title: DIL 만들기
-uuid: 6 e 054600-703 c -4 a 97-af 2 a -8207 c 50013 db
+uuid: 6c-4a97-af2a-8207c50013db
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# DIL create method{#dil-create}
+# DIL 만들기 메서드{#dil-create}
 
-## DIL create {#dil-create-new}
+## DIL 만들기 {#dil-create-new}
 
-Creates a partner-specific [!UICONTROL DIL] instance.
+파트너별 [!UICONTROL DIL] 인스턴스를 만듭니다.
 
-**함수 서명:**`DIL.create: function (initConfig) {}`
+**** 함수 서명: `DIL.create: function (initConfig) {}`
 
-**Initconfig 요소**
+**initConfig Elements**
 
 <!-- 
 
@@ -29,7 +29,7 @@ r_dil_create.xml
 
 >[!IMPORTANT]
 >
->The `visitorService` property is *always* required. 여기에 나열된 다른 속성은 달리 명시되지 않는 한 선택 사항입니다.
+>속성은 `visitorService` 항상 ** 필요합니다. 별도로 명시하지 않는 한 여기에 나열된 기타 속성은 선택 사항입니다.
 
 `initConfig` 다음 요소를 수락합니다.
 
@@ -45,91 +45,91 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. You would set <code> containerNSID </code> if you have <span class="wintitle"> DIL </span> deployed across multiple sites. 이러한 사이트에는 각각 고유한 컨테이너 ID와 ID 동기화가 있습니다. 사이트가 1 개뿐인 경우 컨테이너 ID가 기본적으로 0 이며 이 ID를 제대로 설정할 필요가 없습니다. 사이트 및 해당 컨테이너 ID의 목록을 얻으려면 컨설턴트에게 문의하십시오. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID 서비스에서 </a><code> idsynccontainerid </code> 속성은 DIL의 <code> containernsid </code> 에 <span class="wintitle"> 해당합니다 </span>. Note the following if you're using <span class="wintitle"> DIL </span> <i>and</i> the ID service across multiple sites: </p> <p> 
+   <td colname="col3"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. 여러 사이트에 DIL <code> 을 </code> 배포한 경우 <span class="wintitle"> 컨테이너 NSID를 </span> 설정합니다. 이러한 각 사이트에는 고유한 컨테이너 ID와 ID 동기화가 있습니다. 사이트가 1개만 있는 경우 컨테이너 ID는 기본적으로 0이며 제대로 설정할 필요가 없습니다. 사이트 및 해당 컨테이너 ID 목록을 확인하려면 컨설턴트에게 문의하십시오. </p> <p>Experience <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Cloud ID 서비스에서 속성 </a>id SyncContainerID는 DIL <code> 의 </code> 컨테이너 NSID에 <code> </code> <span class="wintitle"> </span>해당합니다. 여러 사이트에서 DIL <span class="wintitle"> 및 </span> <i></i> ID 서비스를 사용하는 경우 다음을 참고하십시오. </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
-      <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">For each site, set the same container IDs on <code> containerNSID </code> and <code> idSyncContainerID </code>. </li> 
-      <li id="li_CC932D3A0D154F6C9566EF31260A14CF"><span class="wintitle"> DIL </span> 와 ID 서비스가 모두 ID 동기화하려고 시도합니다. However, the iFrame ensures that <span class="wintitle"> DIL </span> won't fire an ID sync. 이로 인해 중복이 방지됩니다. </li> 
-      <li id="li_0A909AD26DE94EAA960DC1374C7AF89F"><span class="wintitle"> DIL </span> 만 <a href="../../features/destinations/destinations.md"> URL 대상으로 </a>데이터를 보냅니다. </li> 
-     </ul> </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsyncontainerid.html" format="https" scope="external"> Idsynccontainerid </a>를 참조하십시오. </p> </td> 
+      <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">각 사이트에 대해 컨테이너 NSID와 idSyncContainerID <code> 에 동일한 컨테이너 </code> ID를 <code> 설정합니다 </code>. </li> 
+      <li id="li_CC932D3A0D154F6C9566EF31260A14CF">DIL <span class="wintitle"> 및 </span> ID 서비스는 모두 ID 동기화를 데이터 수집 iFrame에 보내려고 시도합니다. 그러나 iFrame은 DIL에서 ID <span class="wintitle"> 동기화를 실행하지 </span> 않도록 합니다. 이렇게 하면 중복을 방지할 수 있습니다. </li> 
+      <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">DIL만 <span class="wintitle"> URL </span> 대상으로 데이터를 <a href="../../features/destinations/destinations.md"> 전송합니다 </a>. </li> 
+     </ul> </p> <p>idSyncContainerID <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsyncontainerid.html" format="https" scope="external"> 도 참조하십시오 </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Declaredid </code> </p> </td> 
+   <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
    <td colname="col2"> <p>개체 </p> </td> 
    <td colname="col3"> 
     <draft-comment> 
-     <p>Sends the <a href="../../features/declared-ids.md"> Declared ID variables </a> on every event call to <span class="keyword"> Audience Manager </span>. </p> 
-    </draft-comment> <p> <code> Delcaredid는 </code> 다음 중 하나를 전달하는 데 사용됩니다. </p> 
+     <p>선언된 <a href="../../features/declared-ids.md"> ID 변수를 모든 이벤트 호출에 </a> 대해 Audience Manager에 <span class="keyword"> 전송합니다 </span>. </p> 
+    </draft-comment> <p> <code> deltaredId </code> 는 다음 중 하나를 전달하는 데 사용됩니다. </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
-     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> DPID </code>: Audience Manager에서 <span class="keyword"> 사용자에게 할당된 데이터 파트너 ID </span>. </li> 
-     <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> DPUUID </code>: 사용자의 고유 ID. </li> 
-    </ul> <p> <p>중요: ID에 인코딩되지 않은 값만 사용합니다. 인코딩은 이중 인코딩 식별자를 만듭니다. </p> </p> <p> <p>Note:  If you use the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID Service </a>, set customer IDs with the <code> setCustomerIDs </code> method instead of <span class="wintitle"> DIL </span>. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external"> 고객 ID 및 인증 상태를 </a>참조하십시오. </p> </p> </td> 
+     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>:Audience Manager가 사용자에게 할당한 데이터 파트너 <span class="keyword"> ID </span>. </li> 
+     <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>:사용자의 고유 ID. </li> 
+    </ul> <p> <p>중요: ID에 대해 인코딩되지 않은 값만 사용합니다. 인코딩은 이중으로 인코딩된 식별자를 만듭니다. </p> </p> <p> <p>참고: Experience Cloud <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> ID 서비스를 사용하는 </a>경우 <code> DIL 대신 setCustomerIDs </code> 메서드로 고객 ID를 <span class="wintitle"> 설정하십시오 </span>. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Delayalluntilwindowload </code> </p> </td> 
+   <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> If true, defers all requests (IFRAME, event calls, ID sync, and destinationing) from executing until the <code> Page Load </code> event fires. Default is <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> true이면 페이지 로드 이벤트가 발생할 때까지 모든 요청(IFRAME, 이벤트 호출, ID 동기화 및 <code> 대상)을 </code> 실행합니다. Default is <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Disabledeclareduuidcookie </code> </p> </td> 
+   <td colname="col1"> <p> <code> disableDeclaredUIDCokie </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> False <span class="keyword"> 기본적으로, Audience Manager </span> 는 파트너 도메인에 쿠키를 설정하고 (퍼스트 파티 쿠키 설정) </p> </td> 
+   <td colname="col3"> <p> False 기본적으로 Audience Manager <span class="keyword"> 는 파트너 도메인에 쿠키를 </span> 설정합니다(퍼스트 파티 쿠키 설정). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> function </a> in the Experience Cloud ID Service instead. </p> </p> <p> <code> true </code>인 경우 대상 게시 iframe를 DOM 또는 Fire 대상에 첨부하지 않습니다. Default is <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> <p>중요: 이 요소는 DIL <span class="wintitle"></span> 버전 8.0(2018년 8월 릴리스)에서 더 이상 사용되지 않습니다. Experience Cloud ID 서비스에서 <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> </a> 함수를 대신 사용하십시오. </p> </p> <p> true인 <code> </code>경우 대상 게시 IFRAME을 DOM 또는 화재 대상에 연결하지 않습니다. Default is <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> function </a> in the Experience Cloud ID Service instead. </p> </p> <p>ID 동기화를 사용하지 않도록 설정합니다. DIL v 6.2 + 및 방문자 ID 서비스를 사용할 때 ID 동기화를 비활성화해야 합니다. <code> Visitorservice </code> 함수 (아래의 샘플 코드 참조) 는 이 작업을 처리합니다. </p> </td> 
+   <td colname="col3"> <p> <p>중요: 이 요소는 DIL <span class="wintitle"></span> 버전 8.0(2018년 8월 릴리스)에서 더 이상 사용되지 않습니다. Experience Cloud ID 서비스에서 <code> visitor.disableIdSyncs </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-disableidsync.html" format="https" scope="external"> </a> 함수를 대신 사용하십시오. </p> </p> <p>ID 동기화를 사용하지 않도록 설정합니다. DIL v6.2+ 및 방문자 ID 서비스를 사용할 때는 ID 동기화를 비활성화해야 합니다. 방문자 <code> 서비스 </code> 함수(아래 샘플 코드 참조)는 이 작업을 처리합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Enableerrorreporting </code> </p> </td> 
+   <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> <code> 페이지의 </code> 모든 <span class="wintitle"> DIL </span> 인스턴스에 대한 오류 보고를 활성화하려면 true로 설정합니다. Works with Boolean <code> true </code> only. </p> </td> 
+   <td colname="col3"> <p> 페이지의 모든 DIL 인스턴스에 대해 오류 보고를 <code> 활성화하려면 </code> true로 설정합니다 <span class="wintitle"> </span> . Boolean <code> true </code> 에서만 작동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> iframeAkamaiHTTPS </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> <p>Important:  This element has been deprecated with <span class="wintitle"> DIL </span> version 8.0 (released August 2018). Use the <code> visitor.idSyncSSLUseAkamai </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idSyncSSLUseAkamai.html" format="https" scope="external"> function </a> in the Experience Cloud ID Service instead. </p> </p> <p> 대상 게시 템플릿이 HTTPS 연결에 대해 Akamai를 사용하는지를 지정합니다. 파트너 기준으로 설정됩니다. </p> </td> 
+   <td colname="col3"> <p> <p>중요: 이 요소는 DIL <span class="wintitle"></span> 버전 8.0(2018년 8월 릴리스)에서 더 이상 사용되지 않습니다. Experience <code> Cloud ID 서비스에서 visitor.idSyncSSLUseAkamai </code> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idSyncSSLUseAkamai.html" format="https" scope="external"> </a> 함수를 대신 사용하십시오. </p> </p> <p> 대상 게시 템플릿이 HTTPS 연결에 대해 Akamai를 사용하는지를 지정합니다. 파트너 기준으로 설정됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> 매핑 </code> </p> </td> 
    <td colname="col2"> <p>개체 </p> </td> 
-   <td colname="col3"> <p>한 키-값 쌍의 값을 다른 값과 연관시킵니다. See <a href="../../dil/dil-use-cases.md#map-key-values"> Map Key Values to Other Keys </a>. v 2.4 릴리스 </p> </td> 
+   <td colname="col3"> <p>한 키-값 쌍의 값을 다른 값으로 연결합니다. 다른 <a href="../../dil/dil-use-cases.md#map-key-values"> 키에 키 값 매핑을 참조하십시오 </a>. v2.4와 함께 출시되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>필수 여부. </p> <p><code> 네임스페이스 </code> 키-값 쌍에 <span class="keyword"> Experience Cloud </span> 조직 ID가 포함되어 있습니다. If you don't have this ID, you can find it in the <span class="wintitle"> Administration </span> section of the <span class="keyword"> Experience Cloud </span> dashboard. 이 대시보드를 보려면 관리자 권한이 필요합니다. <a href="../../faq/faq-features.md"> 제품 기능 및 기능 FAQ </a> 와 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> 관리 - 사용자 관리 및 FAQ </a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>필수 여부. </p> <p>네임스페이스 <code> 키-값 쌍에는 </code> Experience Cloud 조직 ID가 <span class="keyword"> </span> 포함되어 있습니다. 이 ID가 없는 경우 Experience Cloud <span class="wintitle"> 대시보드의 </span> 관리 <span class="keyword"> 섹션에서 찾을 </span> 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. 제품 <a href="../../faq/faq-features.md"> 기능 FAQ 및 </a> 관리 - 사용자 관리 및 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> FAQ를 참조하십시오 </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 파트너 </code> </p> </td> 
+   <td colname="col1"> <p> <code> partner </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>필수 여부. </p> <p> <span class="keyword"> Audience Manager </span>에서 제공한 파트너 이름입니다. </p> </td> 
+   <td colname="col3"> <p>필수 여부. </p> <p> Audience Manager에서 제공한 파트너 <span class="keyword"> 이름입니다 </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Removefinishedscriptsandcallbacks </code> </p> </td> 
+   <td colname="col1"> <p> <code> removeFinishedScriptsAndCallback </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> 스크립트 및 콜백을 제거합니다. Default is <code> False </code>. Applies to the current <span class="wintitle"> DIL </span> instance only. v 3.3 릴리스. </p> </td> 
+   <td colname="col3"> <p> 스크립트 및 콜백을 제거합니다. Default is <code> False </code>. 현재 DIL <span class="wintitle"> 인스턴스에만 </span> 적용됩니다. v3.3으로 출시되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Uuidcookie </code> </p> </td> 
+   <td colname="col1"> <p> <code> uuidCookie </code> </p> </td> 
    <td colname="col2"> <p>개체 </p> </td> 
-   <td colname="col3"> <p>Sets a cookie with the unique user ID returned from <span class="keyword"> Audience Manager </span>. <a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props"> Uuidcookie 속성을 </a>참조하십시오. </p> </td> 
+   <td colname="col3"> <p>Audience Manager에서 반환된 고유 사용자 ID를 사용하여 쿠키를 <span class="keyword"> 설정합니다 </span>. uuidCookie <a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props"> 속성을 참조하십시오 </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Visitorservice </code> </p> </td> 
+   <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>개체 </p> </td> 
-   <td colname="col3"> <p><span class="wintitle"> DIL </span> 6.2 이상에서 필요합니다. </p> <p> DIL relies on the <code> setCustomerIDs </code> function in the <span class="wintitle"> Experience Cloud ID Service </span> to pass declared IDs into <span class="keyword"> Audience Manager </span>. 자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>DIL <span class="wintitle"> 6. </span> 2 이상에서 필요합니다. </p> <p> DIL은 Experience <code> Cloud ID </code> 서비스의 <span class="wintitle"> setCustomerID 기능을 사용하여 선언된 ID를 Audience Manager </span> 에 <span class="keyword"> 전달합니다 </span>. 자세한 내용은 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid-authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **샘플 코드**
 
-A sample [!UICONTROL DIL] call could look similar to the following:
+샘플 [!UICONTROL DIL] 호출은 다음과 유사할 수 있습니다.
 
 ```js
 var partnerObject1 = DIL.create({ 
@@ -156,11 +156,11 @@ var partnerObject2 = DIL.create({
 }); 
 ```
 
-A successful response returns the [!UICONTROL DIL] instance. 실패한 시도는 코드가 잘못 구성되거나 오류가 발생할 때마다 오류 개체 (throw 되지 않음) 를 반환합니다.
+성공적인 응답은 [!UICONTROL DIL] 인스턴스를 반환합니다. 코드가 잘못 구성되었거나 오류가 발생할 때마다 오류 객체(throw되지 않음)가 반환됩니다.
 
-## uuidCookie Properties {#uuidcookie-props}
+## uuidCookie 속성 {#uuidcookie-props}
 
-Defines the properties used by the `uuidCookie` variable. This variable is part of the `DIL.create` method.
+변수에 사용되는 속성을 `uuidCookie` 정의합니다. 이 변수는 `DIL.create` 메서드의 일부입니다.
 
 `uuidCookie` 에는 다음 속성이 있습니다.
 
@@ -173,20 +173,20 @@ r_dil_uuid_cookie.xml
 | 이름 | 설명 |
 |---|---|
 | `name` | The cookie name ( `aam_did` is default). |
-| `days` | 쿠키 라이프타임 (기본값은 100 일). |
-| `path` | Cookie path, e.g., `'/test'` ( `/` is default). |
-| `domain` | The domain the cookie is set in, e.g., `'adobe.com'` ( `'.'+document.domain` is default). |
-| `secure` | HTTPS 연결에서만 데이터를 보내도록 플래그를 설정합니다. |
+| `days` | 쿠키 라이프타임(기본값 100일) |
+| `path` | 쿠키 경로(예: `'/test'` ( `/` 기본값) |
+| `domain` | 쿠키가 설정된 도메인(예: 기본값) `'adobe.com'` ( `'.'+document.domain` 기본값)입니다. |
+| `secure` | HTTPS 연결을 통해서만 데이터를 전송하도록 플래그를 설정합니다. |
 
-## visitorService Properties {#visitor-service-props}
+## visitorService 속성 {#visitor-service-props}
 
-Defines the properties used by the `visitorService` variable. This variable is part of the `DIL.create` method.
+변수에 사용되는 속성을 `visitorService` 정의합니다. 이 변수는 `DIL.create` 메서드의 일부입니다.
 
 `visitorService` 에는 다음 속성이 있습니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `namespace` | 문자열 | 필수. Experience Cloud 조직 ID를 나타냅니다. Adobe Experience Cloud 코어 서비스 기능에 필요합니다. 방문자 ID 기능을 인스턴스화하는 데 사용되는 매개 변수입니다. |
+| `namespace` | 문자열 | 필수. Experience Cloud 조직 ID를 나타냅니다. 이 기능은 Experience Cloud 코어 서비스 기능을 위해 필요합니다. 방문자 ID 기능을 인스턴스화하는 데 사용되는 동일한 매개 변수입니다. |
 
 **코드 샘플:**
 

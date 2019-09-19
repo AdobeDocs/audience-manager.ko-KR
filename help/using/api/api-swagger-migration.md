@@ -1,10 +1,10 @@
 ---
-description: Adobe Audience Manager에서 개발자, 개발자, 코드 Ninjas 등을 만나볼 수 있습니다. 또한 신뢰할 수 있고 정확한 API 설명서를 사용하여 작업하고자 합니다. 따라서 Swagger에서 API 콘텐츠를 다시 작성하여 새로운 위치로 이동시켰습니다. 이러한 변경 사항은 Audience Manager API 코드를 사용하여 경험을 개선하는 데 도움이 됩니다.
-seo-description: Adobe Audience Manager에서 개발자, 개발자, 코드 Ninjas 등을 만나볼 수 있습니다. 또한 신뢰할 수 있고 정확한 API 설명서를 사용하여 작업하고자 합니다. 따라서 Swagger에서 API 콘텐츠를 다시 작성하여 새로운 위치로 이동시켰습니다. 이러한 변경 사항은 Audience Manager API 코드를 사용하여 경험을 개선하는 데 도움이 됩니다.
+description: Adobe는 Audience Manager를 통해 귀사와 같은 엔지니어, 개발자 및 코드 닌자를 개발했습니다. Adobe는 귀사와 같이 안정적이고 정확한 API 설명서를 사용하여 작업하고자 합니다. 따라서 Swagger에서 API 컨텐츠를 다시 작성하여 새로운 위치로 옮깁니다. 이러한 변경 사항은 Audience Manager API 코드를 사용하여 경험을 향상시키는 데 도움이 됩니다.
+seo-description: Adobe는 Audience Manager를 통해 귀사와 같은 엔지니어, 개발자 및 코드 닌자를 개발했습니다. Adobe는 귀사와 같이 안정적이고 정확한 API 설명서를 사용하여 작업하고자 합니다. 따라서 Swagger에서 API 컨텐츠를 다시 작성하여 새로운 위치로 옮깁니다. 이러한 변경 사항은 Audience Manager API 코드를 사용하여 경험을 향상시키는 데 도움이 됩니다.
 seo-title: Audience Manager API 코드 마이그레이션
 solution: Audience Manager
 title: Audience Manager API 코드 마이그레이션
-uuid: 93 CC 28 C 4-4 B 91-4 C 79-93 D 5-ECE 9 BB 4 CC 9 D 5
+uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 translation-type: tm+mt
 source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 
@@ -13,13 +13,13 @@ source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 
 # Audience Manager API Code Migration {#audience-manager-api-code-migration}
 
-Adobe Audience Manager에서 개발자, 개발자, 코드 Ninjas 등을 만나볼 수 있습니다. And, like you, we want to work with reliable, accurate [!DNL API] documentation. As a result, we're re-writing our [!DNL API] content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager [!DNL API] code.
+Adobe는 Audience Manager를 통해 귀사와 같은 엔지니어, 개발자 및 코드 닌자를 개발했습니다. 또한 Adobe는 신뢰할 수 있고 정확한 [!DNL API] 문서를 제공하고 있습니다. 따라서 컨텐츠를 다시 작성하여 새로운 위치로 [!DNL API] [!DNL Swagger] 옮깁니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드를 사용하여 경험을 향상시키는 데 도움이 됩니다.
 
-## Movin' On Up {#code-migration-details}
+## 위로 이동 {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-[Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) 사이트는 개정된 [!DNL API] 컨텐츠의 새로운 홈 사이트입니다. We'll try to re-write and move a few sets of [!DNL API] methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md) documentation to find all of the available methods. Eventually, all of the public [!DNL API]s will be on the [!DNL Audience Manager] [!DNL API] docs site. The following table lists the revised and migrated [!DNL API]s.
+Adobe [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html) Docs 사이트는 수정된 [!DNL API] 컨텐츠의 새로운 홈입니다. 각 릴리스에서 몇 가지 [!DNL API] 방법을 다시 작성하고 이동하려고 합니다. 즉, 새 위치와 REST API [설명서를 모두](../api/rest-api-main/rest-api-main.md) 확인하여 사용 가능한 모든 방법을 찾아야 합니다. 결국, 모든 [!DNL API]대중은 [!DNL Audience Manager] 문서 [!DNL API] 사이트에 있을 것입니다. 다음 표에는 개정 및 마이그레이션된 [!DNL API]내용이 나와 있습니다.
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
@@ -39,7 +39,7 @@ Adobe Audience Manager에서 개발자, 개발자, 코드 Ninjas 등을 만나�
      <ul id="ul_4CFB3FAAC0B04E5AADD80E7D7FAF2722"> 
       <li id="li_50EE5F6B2278480E9FEA04AD51664F9D"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_API" format="https" scope="external"> 데이터 피드</a> </li> 
       <li id="li_5D372E3819014AB78C12048A9A2DC89F"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Request_API/" format="https" scope="external"> 데이터 피드 요청</a> </li> 
-      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Finance_API" format="https" scope="external"> 데이터 피드 파이낸스</a> </li> 
+      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Finance_API" format="https" scope="external"> 데이터 피드 재무</a> </li> 
       <li id="li_C1C1CB42D6A74803B4672F6EE2D2D08C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Plans_API" format="https" scope="external"> 데이터 피드 계획</a> </li> 
       <li id="li_D8F9D791D0824287B9D0B0585E3106AB"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Subscription_API" format="https" scope="external"> 데이터 피드 구독</a> </li> 
      </ul> </p> </td> 

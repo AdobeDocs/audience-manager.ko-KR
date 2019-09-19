@@ -1,19 +1,19 @@
 ---
-description: 지정된 Destinationid의 대상을 반환하는 get 메서드입니다.
-seo-description: 지정된 Destinationid의 대상을 반환하는 get 메서드입니다.
+description: 지정된 destinationId의 대상을 반환하는 GET 메서드입니다.
+seo-description: 지정된 destinationId의 대상을 반환하는 GET 메서드입니다.
 seo-title: 대상 ID로 대상 반환
 solution: Audience Manager
 title: 대상 ID로 대상 반환
-uuid: Abce 7426-55 A 5-4045-93 A 7-0487652 A 7189
+uuid: abce7426-55a5-4045-93a7-0487652a7189
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Return A Destination by Destination ID {#return-a-destination-by-destination-id}
+# 대상 ID로 대상 반환 {#return-a-destination-by-destination-id}
 
-A `GET` method that returns the destination for the specified `destinationId`.
+지정된 대상에 대한 대상을 반환하는 `GET` 메서드입니다 `destinationId`.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -23,7 +23,7 @@ A `GET` method that returns the destination for the specified `destinationId`.
 
 >[!NOTE]
 >
->To populate the `mappings` field pass in `includeMappings=true` in the URL.
+>URL에서 `mappings` 필드 `includeMappings=true` 전달을 채우려면
 
 ## 응답
 
@@ -53,9 +53,9 @@ A `GET` method that returns the destination for the specified `destinationId`.
 }
 ```
 
-## Return All Destinations {#return-all-destinations}
+## 모든 대상 반환 {#return-all-destinations}
 
-A `GET` method that returns all destinations for the specified partner.
+지정된 파트너의 모든 대상을 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -65,15 +65,15 @@ A `GET` method that returns all destinations for the specified partner.
 
 >[!NOTE]
 >
->* *(선택 사항)* 지정된 세그먼트에 매핑된 모든 대상의 배열을 `containsSegment=<sid>` 반환하려면 전달됩니다. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`.
+>* *(선택 사항)* 지정된 세그먼트에 매핑된 모든 대상의 배열을 반환하려면 `containsSegment=<sid>` 전달됩니다. 예를 들어 쿼리는 다음과 비슷합니다. `GET .../destinations/?containsSegment=4321`Adobe
    >
    >
-* 전체 대상 개체는 반환하지 않습니다. 완전히 채워진 개체가 필요한 경우 데이터 순서로 대상을 가져옵니다.
+* 전체 대상 개체를 반환하지 않습니다. 전체 개체를 채우려면 데이터 순서로 대상을 가져옵니다.
 
 
 ### 선택적 쿼리 매개 변수
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. [선택적 매개 변수를 참조하십시오](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+객체에 대한 *모든* 속성을 반환하는 API 메서드에서 이러한 선택적 매개 변수를 사용할 수 있습니다. 요청 문자열에서 해당 쿼리를 [!DNL API]에 전달할 때 이 옵션을 설정합니다. 선택적 [매개 변수를 참조하십시오](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -85,23 +85,23 @@ You can use these optional parameters with API methods that return *all* propert
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> 결과를 페이지 번호별로 반환합니다. 번호 매기기는 0 부터 시작합니다. </td>
+   <td colname="col2"> 페이지 번호별로 결과를 반환합니다. 번호는 0부터 시작됩니다. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Pagesize</code> </td>
-   <td colname="col2"> 요청에 의해 반환된 응답 결과 수를 설정합니다 (10는 기본값). </td>
+   <td colname="col1"><code> pageSize</code> </td>
+   <td colname="col2"> 요청에 의해 반환되는 응답 결과 수를 설정합니다(기본값 10). </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Sortby</code> </td>
-   <td colname="col2">Sorts and returns results according to the specified <span class="keyword"> JSON</span> property. </td>
+   <td colname="col1"><code> sortBy</code> </td>
+   <td colname="col2">지정된 JSON 속성에 따라 결과를 정렬하고 <span class="keyword"> 반환합니다</span> . </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> 내림차순</code> </td>
-   <td colname="col2"> 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 기본값입니다. </td>
+   <td colname="col2"> 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 오름차순입니다. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">검색 매개 변수로 사용하려는 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 "test" 단어가 있는 모든 모델에 대한 결과를 찾는다고 가정합니다. 샘플 요청은 다음과 같습니다. <p><code> https://api.demdex.com/v1/models/?search=Test</code>를 참조하십시오. </p> <p>" 모두 가져오기 "방법으로 반환되는 값을 검색할 수 있습니다. </p> </td>
+   <td colname="col2">검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 "테스트"라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다. <p><code> https://api.demdex.com/v1/models/?search=Test다운로드</code>. </p> <p>"모두 가져오기" 메서드에서 반환되는 값을 검색할 수 있습니다. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -138,9 +138,9 @@ You can use these optional parameters with API methods that return *all* propert
 ]
 ```
 
-## Return a Destination Mapping With the Mapping ID {#return-dest-mapping-id}
+## 매핑 ID 파섹 {#return-dest-mapping-id}
 
-A `GET` method that returns an individual destination mapping based on the `mappingId`.
+에 따라 개별 대상 매핑을 반환하는 `GET` 메서드입니다 `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -175,15 +175,15 @@ A `GET` method that returns an individual destination mapping based on the `mapp
 }
 ```
 
-## Return Destination Mappings {#return-dest-mappings}
+## 반환 대상 매핑 {#return-dest-mappings}
 
-A `GET` method that returns the mappings for a destination.
+대상에 대한 매핑을 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_destination_mappings.xml -->
 
 >[!NOTE]
 >
->반환된 매핑은 대상 유형 및 구성에만 적용됩니다.
+>반환된 매핑은 대상 유형 및 구성에 따라 다릅니다.
 
 ### 요청
 
@@ -249,9 +249,9 @@ A `GET` method that returns the mappings for a destination.
 {
 ```
 
-## Return All Available Destination Platforms {#return-dest-platforms}
+## 사용 가능한 모든 대상 플랫폼 반환 {#return-dest-platforms}
 
-A `GET` method that returns all available device platforms for destinations.
+대상에 대해 사용 가능한 모든 장치 플랫폼을 반환하는 `GET` 방법입니다.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -267,9 +267,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Return S2S and Bulk S2S Destination Job History {#return-job-history}
+## S2S 및 벌크 S2S 대상 작업 내역 반환 {#return-job-history}
 
-A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) and bulk [!UICONTROL S2S] destination job history information.
+아웃바운드 `GET` ( [!UICONTROL Server-to-Server] ) 및 벌크 [!UICONTROL S2S]대상 작업 내역 정보를 반환하는 [!UICONTROL S2S] 방법입니다.
 
 <!-- r_get_job_history.xml -->
 
@@ -277,7 +277,7 @@ A `GET` method that returns outbound [!UICONTROL Server-to-Server] ( [!UICONTROL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Required query parameters: `startDate` = *&lt;`epochtime`&gt;* and `endDate` = *&lt;`epochtime`&gt;*.
+필수 쿼리 매개 변수: `startDate` *=`epochtime`&lt;* &gt; `endDate` and *=`epochtime`&lt;*&gt;.
 
 ### 응답
 

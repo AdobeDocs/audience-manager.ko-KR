@@ -1,39 +1,39 @@
 ---
-description: 공급업체 및 대상 관리자 간 사용자 ID를 동기화하는 초기 HTTP 호출에 사용된 구문 및 매개 변수에 대해 설명합니다. 데이터 분류법을 Audience Manager로 보낸 후 ID 동기화를 시작할 수 있습니다.
-seo-description: 공급업체 및 대상 관리자 간 사용자 ID를 동기화하는 초기 HTTP 호출에 사용된 구문 및 매개 변수에 대해 설명합니다. 데이터 분류법을 Audience Manager로 보낸 후 ID 동기화를 시작할 수 있습니다.
-seo-title: 인바운드 데이터 전송을 위한 ID 동기화
+description: 공급업체와 Audience Manager 간에 사용자 ID를 동기화하는 초기 HTTP 호출에 사용되는 구문과 매개 변수에 대해 설명합니다. 데이터 분류법을 Audience Manager로 보낸 후에 ID 동기화를 시작할 수 있습니다.
+seo-description: 공급업체와 Audience Manager 간에 사용자 ID를 동기화하는 초기 HTTP 호출에 사용되는 구문과 매개 변수에 대해 설명합니다. 데이터 분류법을 Audience Manager로 보낸 후에 ID 동기화를 시작할 수 있습니다.
+seo-title: 인바운드 데이터 전송에 대한 ID 동기화
 solution: Audience Manager
-title: 인바운드 데이터 전송을 위한 ID 동기화
-uuid: 037 e 74 a 6-acfd -4 cef-b 693-16 b 7 aaa 8 e 976
+title: 인바운드 데이터 전송에 대한 ID 동기화
+uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
 source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
 
 ---
 
 
-# ID Synchronization for Inbound Data Transfers{#id-synchronization-for-inbound-data-transfers}
+# 인바운드 데이터 전송에 대한 ID 동기화{#id-synchronization-for-inbound-data-transfers}
 
-Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and Audience Manager. 데이터 분류법을 Audience Manager로 보낸 후 ID 동기화를 시작할 수 있습니다.
+공급업체와 Audience Manager 간에 사용자 ID를 동기화하는 초기 `HTTP` 호출에 사용되는 구문과 매개 변수에 대해 설명합니다. 데이터 분류법을 Audience Manager로 보낸 후에 ID 동기화를 시작할 수 있습니다.
 
 <!-- c_id_sync_in.xml -->
 
-ID 동기화는 인바운드 비동기 데이터 전송 프로세스의 첫 번째 단계입니다. 이 단계에서 Audience Manager와 공급업체는 각 사이트 방문자에 대해 ID를 비교하고 일치시킵니다. For example, an [!DNL Audience Manager] customer may know a user by ID 123. 데이터 파트너는 ID 456를 사용하여 이 사용자를 식별할 수 있었습니다. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
+ID 동기화는 인바운드 비동기 데이터 전송 프로세스의 첫 번째 단계입니다. 이 단계에서 Audience Manager와 공급업체는 해당 사이트 방문자의 ID를 비교하고 일치시킵니다. 예를 들어 [!DNL Audience Manager] 고객은 ID 123으로 사용자를 알 수 있습니다. 그러나 데이터 파트너는 ID 456으로 이 사용자를 식별할 수 있습니다. 동기화 프로세스를 통해 [!DNL Audience Manager] 및 데이터 공급업체는 이러한 서로 다른 ID를 조정하고 각각의 시스템에서 사용자를 식별할 수 있습니다. 완료되면 [!DNL Audience Manager] 서드 파티 파트너에게는 네트워크에서 볼 수 있는 각 고유 사용자에 대한 해당 ID가 있어야 합니다.
 
-You can use the following methods to get your data into [!DNL Audience Manager]:
+다음 방법을 사용하여 데이터를 가져올 수 [!DNL Audience Manager]있습니다.
 
 * [ID 동기화 HTTP 요청](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
 * [선언된 ID 이벤트](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
-* [이메일 임베드 이미지에서 ID 동기화](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
+* [이메일 포함 이미지에서 ID 동기화](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## ID Synchronization `HTTP` Request {#id-sync-http}
+## ID 동기화 `HTTP` 요청 {#id-sync-http}
 
-In an ID exchange, a properly formatted [!DNL URL] string should look like this:
+ID 교환에서 올바른 형식의 [!DNL URL] 문자열은 다음과 같아야 합니다.
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-The [!DNL URL] for your inbound ID synchronization call should contain variables described in the table below.
+인바운드 ID 동기화 호출에 [!DNL URL] 대해서는 아래 표에 설명된 변수를 포함해야 합니다.
 
 >[!NOTE]
 >
@@ -48,37 +48,37 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code><i>&lt; vendor_ id &gt;</i></code> </td> 
-   <td colname="col2"> <p>Unique ID for the content provider (assigned by <span class="keyword"> Audience Manager</span>). </p> </td> 
+   <td colname="col1"> <code> &lt; <i>VENDOR_ID&gt;</i></code> </td> 
+   <td colname="col2"> <p>컨텐츠 제공자에 대한 고유 ID(Audience Manager에서 <span class="keyword"> 지정</span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>&lt; vendor_ uuid &gt;</i></code> </td> 
-   <td colname="col2"> <p>URL (퍼센트) 고유한 사용자 ID의 인코딩된 표현. 예약된 ASCII 문자를 인코딩하는 것 외에도 ASCII -8 문자 인코딩 테이블을 기반으로 ASCII가 아닌 모든 문자는 인코딩할 수 있습니다. </p> <p>For more information, see the <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> website. </p> </td> 
+   <td colname="col1"> <code> &lt; <i>VENDOR_UUID&gt;</i></code> </td> 
+   <td colname="col2"> <p>URL(퍼센트) 고유 사용자 ID의 인코딩된 표현. 인코딩 예약된 ASCII 문자 외에도 ASCII가 아닌 모든 문자는 UTF-8 문자 인코딩 표에 따라 퍼센트 인코딩되어야 합니다. </p> <p>자세한 내용은 URL Encode/ <a href="https://www.url-encode-decode.com" format="http" scope="external"> Decode Online 웹 사이트를</a> 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>&lt; redirect_ url &gt;</i></code> </td> 
-   <td colname="col2"> <p>An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. </p> <p>참고: 컨텐츠 공급자가 호출을 시작할 때에만 추가되었습니다. </p> </td> 
+   <td colname="col1"> <code> &lt; <i>REDIRECT_URL&gt;</i></code> </td> 
+   <td colname="col2"> <p>매크로 ${DD_UUID} <code> 가 포함된 인코딩 URL</code> 리디렉션이 포함되어 있습니다. </p> <p>참고: 컨텐츠 공급자가 호출을 시작할 때만 추가되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>gdpr = &lt; 0|1 &gt;</i></code> </td> 
-   <td colname="col2"> <p>선택 사항입니다. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code> GDPR</code> 는 0 (GDPR는 적용되지 않음) 또는 1 (GDPR 적용) 이 될 수 있습니다. </p> <p> <b>참고:</b> 이 매개 변수는 <code>gdpr_ consent</code>와 함께 사용할 수만 있습니다.</p></td> 
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i></code> </td> 
+   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code> gdpr은</code> 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다. </p> <p> <b></b> 참고:이 매개 변수는 <code>gdpr_consent</code>와 함께 사용할 수 있습니다.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>gdpr_ consent = &lt; 인코딩된 문자열 &gt;</i></code> </td> 
-   <td colname="col2"> <p>선택 사항입니다. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr_ consent</code> 는 URL-Safe Base 64 인코딩 GDPR 동의 문자열입니다 ( <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB 사양</a>참조). </p> <p> <b>참고:</b> 이 매개 변수는 <code>GDPR</code>와 함께 사용할 수 있습니다.</p> </td> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i></code> </td> 
+   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64 encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b></b> 참고:이 매개 변수는 <code>gdpr과 함께 사용할 수 있습니다</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Declared ID Event {#declared-id-event}
+## 선언된 ID 이벤트 {#declared-id-event}
 
-For more information, see [Declared IDs](../../../features/declared-ids.md).
+자세한 내용은 선언된 [ID를 참조하십시오](../../../features/declared-ids.md).
 
-## ID Synchronization From an Email Embedded Image {#id-sync-email-image}
+## 이메일 포함 이미지에서 ID 동기화 {#id-sync-email-image}
 
-이메일 이미지를 통해 ID를 연결하기 위한 형식은 위에 표시된 것과 동일합니다. 하지만 이메일에 있는 이미지는 작동하도록 설정되어야 합니다. 대부분의 메일 시스템은 기본적으로 이미지를 비활성화하므로 이로 인해 ID 동기화에 영향을 줄 수 있습니다.
+이메일 이미지를 통해 일치하는 ID에 대한 형식은 위와 동일합니다. 그러나 이메일의 이미지는 활성화되어야 사용할 수 있습니다. 대부분의 메일 시스템은 기본적으로 이미지를 비활성화하므로 이 경우 이메일을 통한 ID 동기화에 영향을 줄 수 있습니다.
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
 >* [데이터 수집 구성 요소](../../../reference/system-components/components-data-collection.md)
 

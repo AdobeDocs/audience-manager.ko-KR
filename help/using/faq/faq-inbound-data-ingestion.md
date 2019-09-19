@@ -1,20 +1,20 @@
 ---
-description: 오프라인 데이터를 Audience Manager로 가져오는 FAQ
-keywords: FTP 또는 S 3; S 3 또는 FTP
-seo-description: 오프라인 데이터를 Audience Manager로 가져오는 FAQ
+description: 오프라인 데이터를 Audience Manager로 가져오는 방법에 대한 FAQ입니다.
+keywords: ftp 또는 s3;s3 또는 ftp
+seo-description: 오프라인 데이터를 Audience Manager로 가져오는 방법에 대한 FAQ입니다.
 seo-title: 인바운드 고객 데이터 통합 FAQ
 solution: Audience Manager
 title: 인바운드 고객 데이터 통합 FAQ
-uuid: 491 E 9 EC 1-4731-46 A 8-86 E 7-D 8 C 613 E 6 CEDC
+uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
+source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 ---
 
 
-# Inbound Customer Data Ingestion FAQ{#inbound-customer-data-ingestion-faq}
+# 인바운드 고객 데이터 통합 FAQ{#inbound-customer-data-ingestion-faq}
 
-오프라인 데이터를 Audience Manager로 가져오는 FAQ
+오프라인 데이터를 Audience Manager로 가져오는 방법에 대한 FAQ입니다.
 
 <br> 
 
@@ -24,12 +24,12 @@ c_inbound_crm_data_ingestion.xml
 
  -->
 
-**온보딩 프로세스를 요약할 수 있습니까?**
+**입사 절차를 요약해주시겠어요?**
 
-The onboarding process consists of 2 core components described in [Batch Data Transfer Process Described](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process). 이러한 작업에는 다음이 포함됩니다.
+온보딩 프로세스는 설명된 배치 데이터 전송 [프로세스에 설명된 두 가지 핵심 구성 요소로 구성됩니다](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md). 여기에는 다음이 포함됩니다.
 
 * ID 동기화
-* Inbound Data File ( [!DNL .sync] file or [!DNL .overwrite] file)
+* 인바운드 데이터 파일( [!DNL .sync] 파일 또는 [!DNL .overwrite] 파일)
 
 <!-- 
 
@@ -37,11 +37,11 @@ Removed the Data Translation File bullet from the list above.
 
  -->
 
-다음은 설명서를 검토한 후 도움이 되는 질문과 대답 목록입니다.
+다음은 설명서를 검토한 후 도움이 될 수 있는 질문과 대답 목록입니다.
 
 >[!NOTE]
 >
->이 섹션의 예는 간결하고 시의적절한 목적으로 단순화 또는 단축됩니다. 파일 형식 및 구문에 대한 자세한 사양은 인바운드 데이터 통합 설명서를 참조하십시오.
+>이 섹션의 예는 간결성 및 데모를 위해 단순화하거나 단축되었습니다. 파일 형식 및 구문에 대한 자세한 사양은 인바운드 데이터 통합 문서를 참조하십시오.
 
 <br> 
 
@@ -49,28 +49,28 @@ Removed the Data Translation File bullet from the list above.
 
 다음 사항을 권장합니다.
 
-* Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications.
-* Transfer a test data file to [!DNL Adobe] for format verification.
-* [!DNL Adobe] 컨설턴트와 협력하여 데이터 파일의 컨텐츠를 해석하는 데 적합한 분류법을 생성합니다.
-* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
-* DIL/ID 동기화를 프로덕션에 배포합니다. ID 동기화는 Adobe 컨설턴트가 DIL 코드 내에서 모듈로 이미 구성됩니다.
-* Transfer production data files to [!DNL Audience Manager]. ID 동기화 매핑에 대한 종속성을 감안할 때, 코드가 프로덕션으로 들어가는 즉시 데이터 파일을 전송할 수 있지만 프로덕션 코드 배포 후 최대 1 주일 전에 데이터 전송을 시작하는 것이 적절할 수 있습니다.
+* 데이터 제공업체와 협력하여 [!DNL Adobe] 사양에 따라 일일 인바운드 데이터 파일의 형식을 지정합니다.
+* 형식 확인을 위해 테스트 데이터 파일을 [!DNL Adobe] 로 전송합니다.
+* 컨설턴트와 협력하여 데이터 파일의 내용을 해석하는 데 적합한 분류법을 만듭니다. [!DNL Adobe]
+* 스테이징/개발 환경에서 ID 동기화가 데이터 공급자의 방문자 ID를 제대로 선택하여 [!DNL Audience Manager] 서버에 실시간으로 전송되도록 구성되었는지 확인합니다.
+* 프로덕션에 DIL/ID 동기화 배포 ID 동기화는 Adobe 컨설턴트가 DIL 코드 내에 모듈로 이미 구성됩니다.
+* 프로덕션 데이터 파일을 로 [!DNL Audience Manager]전송합니다. ID 동기화 매핑에 대한 종속성이 있는 경우 코드가 프로덕션으로 들어가는 즉시 데이터 파일 전송을 시작할 수 있지만 프로덕션 코드 배포 후 최대 1주까지의 데이터 전송을 시작하는 것이 적절할 수 있습니다.
 
 <br> 
 
-**압축되거나 암호화된 파일을 전송하는 데 어떤 FTP 모드를 사용해야 합니까?**
+**압축 또는 암호화된 파일을 전송하려면 어떤 FTP 모드를 사용해야 합니까?**
 
-See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+인바운드 [데이터 전송 파일에 대한 파일 압축을 참조하십시오](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
 <br> 
 
 **[!DNL Audience Manager]코드를 프로덕션에 배포하기 전에 인바운드 데이터 파일([!DNL .sync]또는[!DNL .overwrite]파일)을 업로드할 수 있습니까?**
 
-* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
+* 데이터 공급자가 크로스 장치 [타깃팅에 프로필](../features/profile-merge-rules/merge-rules-overview.md) 링크를 사용하도록 구성된 경우 ID 동기화 직후 타깃팅에 사용할 수 있는 데이터는 일치하는 [!DNL Audience Manager] 방문자 ID를 식별합니다.
 
-* If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
+* 데이터 공급자가 이 [!UICONTROL Profile Link] 기능을 사용하도록 구성되지 않은 경우, 이전에 동기화되었거나 [!DNL Audience Manager] [!DNL Audience Manager] 방문자 ID에 대응한 인바운드 데이터 파일에서 방문자 ID에 대한 데이터만 처리합니다.
 
-Consider the following use cases in which the data provider is not configured to use [!UICONTROL Profile Merge]:
+데이터 공급자가 사용하도록 구성되지 않은 다음 사용 사례를 [!UICONTROL Profile Merge]고려하십시오.
 
 <table id="table_1A367ED6D016428FB21B3F3BC261BA98"> 
  <thead> 
@@ -82,43 +82,43 @@ Consider the following use cases in which the data provider is not configured to
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>사례 1</b> </p> </td> 
-   <td colname="col2"> <p>월요일에, 방문자 ABC가 로그인하는 동안 CRM 데이터베이스에 식별된 방문자가 클라이언트측 ID 동기화를 시작합니다. <span class="keyword"> Audience Manager</span> 는 방문자 ABC의 매핑을 <span class="keyword"> Audience Manager</span> 방문자 123에 저장합니다. </p> <p>On Tuesday, the CRM database transfers a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager </span>server with the following record: </p> <p> 
+   <td colname="col2"> <p>월요일에 CRM 데이터베이스에서 방문자 ABC로 식별된 방문자가 로그인하고 클라이언트측 ID 동기화를 시작합니다. <span class="keyword"> Audience Manager</span> 는 방문자 ABC와 Audience Manager <span class="keyword"> 방문자 123의</span> 매핑을 저장합니다. </p> <p>화요일, CRM 데이터베이스는 데이터 파일(.sync<span class="filepath"> )을</span>다음 레코드와 함께 Audience Manager <span class="keyword"> </span>서버로 전송합니다. </p> <p> 
      <ul class="simplelist"> 
-      <li><code> ABC "gender" = "male", "luxury_ shopper" = "yes"</code> </li> 
-     </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> <p> 
+      <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
+     </ul> </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
       <li id="li_DC4F5E63D8134A29B703BDF264F02F65">저장된 ID 동기화 매핑에서 방문자 ABC를 인식합니다. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associates the traits <code> male</code> and <code> luxury_shopper</code> with the visitor 123 profile. </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> 이 트레이트를 <code> 남성</code> 및 <code> luxury_shopper</code> 방문자 123 프로파일과 연결합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>사례 2</b> </p> </td> 
-   <td colname="col2"> <p>On Monday, the CRM database pushes a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
+   <td colname="col2"> <p>월요일, CRM 데이터베이스는 데이터 파일(.sync<span class="filepath"> )을 Audience Manager</span>서버로 푸시하여 <span class="keyword"></span> 다음 레코드를 저장합니다. </p> <p> 
      <ul class="simplelist"> 
-      <li><code> def "gender" = "female", "wine_ celeast" = "yes"</code> </li> 
-     </ul> </p> <p> <span class="keyword"> Audience Manager 에는</span> 이 방문자 (또는 관련 방문자 ID) 기록이 없으므로 이 레코드는 처리되지 않습니다. </p> <p>화요일에 방문자 DEF가 로그인됩니다. 이 작업은 해당 방문자에 대해 첫 번째 클라이언트측 ID 동기화를 시작합니다. This action maps visitor DEF to <span class="keyword"> Audience Manager</span> ID 456. 그러나 이 방문자의 프로필에는 CRM 데이터가 연결되어 있지 않습니다. <span class="keyword"> 따라서 Audience Manager</span> 는 이전 파일을 다시 처리하지 않습니다. </p> <p>On Wednesday, the CRM database pushes another data file to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
+      <li><code> DEF "gender"="female","wine_enthast"="yes"</code> </li> 
+     </ul> </p> <p> <span class="keyword"> Audience</span> Manager에 이 방문자(또는 관련 방문자 ID)의 레코드가 없으므로 이 레코드가 처리되지 않습니다. </p> <p>화요일에 방문자 DEF가 로그인합니다. 이 작업은 해당 방문자에 대한 첫 번째 클라이언트측 ID 동기화를 시작합니다. 이 작업은 방문자 DEF를 Audience Manager ID <span class="keyword"> 456에</span> 매핑합니다. 하지만 이 방문자는 프로필과 연결된 CRM 데이터를 가지고 있지 않습니다. 따라서 Audience Manager <span class="keyword"> 는</span> 다시 돌아가 이전 파일을 다시 처리하지 않습니다. </p> <p>수요일에는 CRM 데이터베이스가 다른 데이터 파일을 Audience <span class="keyword"> Manager</span> 서버로 푸시합니다. </p> <p> 
      <ul class="simplelist"> 
-      <li><code> def "gender" = "female", "wine_ enthusiast" = "yes", "dma" = "paris"</code> </li> 
-     </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
+      <li><code> DEF "gender"="female","wine_enthast"="yes","dma"="paris"</code> </li> 
+     </ul> </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
      <li id="li_64D64A16E99E492BAAE1080867F854A9">저장된 ID 동기화 매핑에서 방문자 DEF를 인식합니다. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associates the traits <code> female</code>, <code> paris</code>, and <code> wine_enthusiast</code> with the visitor 456 profile. </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">여성 <code> 트레이트,</code>파리 <code> 및</code>wine_enthast를 <code></code> 방문자 456 프로파일과 연결합니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>사례 3</b> </p> </td> 
-   <td colname="col2"> <p>On Monday, the <span class="keyword"> Audience Manager</span> server receives two files with the following records: </p> <p> <code> .</code> 포함된 파일 동기화: </p> <p> 
+   <td colname="col2"> <p>월요일에 Audience Manager <span class="keyword"> 서버는</span> 다음 레코드가 있는 두 개의 파일을 받습니다. </p> <p> <code> .sync</code> 파일이 다음을 포함합니다. </p> <p> 
      <ul class="simplelist"> 
-      <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> <code> . 다음을 포함한</code> 파일을 덮어씁니다. </p> 
+      <li><code> GHI 파섹</code> </li> 
+     </ul> </p> <p> <code> .overwrite</code> 파일이 다음을 포함합니다. </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
-     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> ghi "gender" = "male" "wine_ celeast" = "no"</code> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender" = "female" "wine_ applet enthusiast" = "yes"</code> </li> 
-    </ul> <p><span class="keyword"> Audience Manager</span> 는 이전 ID 동기화에서 ID 789에 방문자 JKL의 매핑된 레코드를 보유합니다. </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
+     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthast"="no"</code> </li> 
+     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthast"="yes"</code> </li> 
+    </ul> <p><span class="keyword"> Audience</span> Manager는 이전 ID 동기화에서 방문자 JKL의 매핑된 레코드를 ID 789로 보유합니다. </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
-     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">저장된 ID 동기화 매핑에서 방문자 JKL를 인식합니다. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associates the traits <code> female</code> and <code> wine_enthusiast</code> with visitor ID 789's profile. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">방문자 GHI가 현재 묶음에 동기화되었기 때문에 방문자 GHI에 대한 특성 연결을 무시합니다. To associate traits with visitor GHI, you need to include them in future <code> .overwrite</code> files. </li> 
+     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">저장된 ID 동기화 매핑에서 방문자 JKL을 인식합니다. </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">이 트레이트를 <code> 여성</code> 및 <code> 와인</code> _매니아와 방문자 ID 789의 프로필에 연결합니다. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">방문자 GHI에 대한 트레이트 연결을 무시합니다. 방문자 ID가 현재 배치에만 동기화되었기 때문입니다. 트레이트를 방문자 GHI와 연결하려면 이후 .overwrite <code></code> 파일에 트레이트를 포함해야 합니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -126,41 +126,41 @@ Consider the following use cases in which the data provider is not configured to
 
 <br> 
 
-**파일을 언제까지 전송해야 합니까?**
+**파일을 언제 전송해야 합니까?**
 
-[!DNL Audience Manager] 하루 종일 여러 번 파일을 확인하고 처리합니다. 언제든지 데이터를 업로드할 수 있습니다.
-
-<br> 
-
-**업로드한 파일의 데이터를 타깃팅에 사용할 수 있으려면 얼마나 걸립니까?**
-
-데이터는 48 시간 후 타깃팅에 사용할 수 있습니다. 또한, "성공적인 업로드" 이메일을 데이터를 사용할 수 있다는 메시지로 해석하지 마십시오. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
+[!DNL Audience Manager] 하루 종일 여러 번 파일을 확인하고 처리합니다. 언제든지 데이터 업로드
 
 <br> 
 
-**파일을 얼마나 자주 보내야 합니까? 아니면 전체 파일이나 증분 파일이어야 합니까?**
+**업로드된 파일의 데이터를 타깃팅하는 데 얼마나 걸립니까?**
 
-우수 사례로서 새 방문자와 데이터가 변경된 방문자에 대해 하루에 한 번 증분 파일을 보낼 수 있습니다. Many [!DNL Audience Manager] customers send a full file once per month. 그러나 이러한 파일 간격과 증분은 유연합니다. 데이터를 증분적으로 전송해야 합니다.
+데이터는 48시간 후에 타깃팅할 수 있습니다. 또한 "성공적인 업로드" 이메일을 데이터를 사용할 수 있다는 설명으로 해석하지 마십시오. 즉, 파일을 [!DNL Audience Manager] 선택하고 첫 번째 처리 단계를 완료한 것입니다.
 
 <br> 
 
-**Audience Manager는 얼마 동안 서버에 파일을 보관합니까?**
+**파일을 얼마나 자주 전송해야 하며 전체 또는 증분 파일이어야 합니까?**
 
-FTP 파일은 처리된 후 제거됩니다. [!DNL S3] 파일은 30 일 후에 제거됩니다. 형식, 구문 또는 다른 오류로 인해 처리할 수 없는 파일은 제거됩니다. [개인 정보 및 데이터 유지 FAQ](../faq/faq-privacy.md)를 참조하십시오.
+새 방문자와 데이터가 변경된 방문자에 대해 매일 증분 파일을 보내는 것이 좋습니다. 많은 [!DNL Audience Manager] 고객이 매월 전체 파일을 보냅니다. 그러나 이러한 파일 간격과 증분은 유연합니다. 데이터를 증분으로 전송해야 합니다.
+
+<br> 
+
+**Audience Manager는 서버에 파일을 얼마나 오래 보관합니까?**
+
+FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 제거됩니다. 형식, 구문 또는 기타 오류로 인해 처리할 수 없는 파일은 제거됩니다. 개인 정보 및 [데이터 유지 FAQ도 참조하십시오](../faq/faq-privacy.md).
 
 <br> 
 
 **전체 파일과 증분 파일의 차이점은 무엇입니까?**
 
-* **전체:** 전체 파일은 기존의 모든 방문자 프로필을 덮어쓰고 파일의 데이터로 대체합니다. Full files are identified by the `.overwrite` tag appended to the file name. `.overwrite` 파일을 사용하여 방문자 특성을 재설정하거나 오래된, 오래된 트레이트를 제거할 수 있습니다.
+* **** 전체:전체 파일은 모든 기존 방문자 프로필을 덮어쓰고 파일의 데이터로 대체합니다. 전체 파일은 파일 이름에 추가된 `.overwrite` 태그로 식별됩니다. 파일을 사용하여 방문자 트레이트를 재설정하거나 오래된 트레이트를 제거할 수 있습니다. `.overwrite`
 
    >[!NOTE]
    >
-   >The [!DNL .overwrite] files only overwrite [!DNL Audience Manager] profile data associated to this data provider. In other words, all [!DNL Adobe Analytics] data associated to the visitor remains intact after a [!DNL .overwrite] file has been processed.
+   >이 [!DNL .overwrite] 파일은 이 데이터 공급자에 연결된 [!DNL Audience Manager] 프로필 데이터만 덮어씁니다. 즉, [!DNL Adobe Analytics] [!DNL .overwrite] 파일이 처리된 후에도 방문자와 연관된 모든 데이터는 그대로 유지됩니다.
 
-* **증분:** 증분 파일은 기존 방문자 프로필에 새 데이터를 추가합니다. Incremental files are identified by the `.sync` tag appended to the file name. 증분 파일로 전송해도 기존 프로필을 지우거나 덮어쓰지 않습니다.
+* **** 증분:증분 파일은 기존 방문자 프로필에 새 데이터를 추가합니다. 증분 파일은 파일 이름에 추가된 `.sync` 태그로 식별됩니다. 증분 파일에서 전송해도 기존 프로필을 지우거나 덮어쓰지 않습니다.
 
-다음 사용 사례는 이러한 파일 유형이 저장된 방문자 프로필에 어떤 영향을 주는지 보여줍니다.
+다음 사용 사례는 이러한 파일 유형이 저장된 방문자 프로필에 어떤 영향을 미치는지 보여줍니다.
 
 <table id="table_CE43B49508384ABF8B25FA8A8FFE5362"> 
  <thead> 
@@ -174,18 +174,18 @@ FTP 파일은 처리된 후 제거됩니다. [!DNL S3] 파일은 30 일 후에 �
    <td colname="col1"> <p><b>증분 및 전체</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E89301D815174D45B9B238F2CDE6CCC6"> 
-      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4"><code> 1 일.</code> 파일 내용 동기화: <code> 방문자 123 = A, B, C</code> </li> 
-      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Day 2 <code> .overwrite</code> file contents: <code> visitor123 = c,d,e</code> </li> 
-      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> Day 3 visitor profile ID 123 contains <code> c,d,e </code> </li> 
+      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">1일 <code> .동기화</code> 파일 내용: <code> visitor123 = a,b,c</code> </li> 
+      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">2일 <code> .덮어쓰기</code> 파일 내용: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> 3일 방문자 프로필 ID 123에 <code> c,d,e가 포함됨 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Incremental만 해당</b> </p> </td> 
+   <td colname="col1"> <p><b>증분 전용</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8271C9796BD040E4B8DC64DCE4FE2AD3"> 
-      <li id="li_347959BDE83549F794E6661C95097891"><code> 1 일.</code> 파일 내용 동기화: <code> 방문자 123 = A, B, C </code> </li> 
-      <li id="li_B25D96526DE94171A3A5DC8DB7A19415"><code> 2 일.</code> 파일 내용 동기화: <code> 방문자 123 = C, D, E</code> </li> 
-      <li id="li_6E17809D49C74F4991B0B445469055E6">Day 3 visitor profile ID 123 contains <code> a,b,c,d,e</code> </li> 
+      <li id="li_347959BDE83549F794E6661C95097891">1일 <code> .동기화</code> 파일 내용: <code> visitor123 = a,b,c </code> </li> 
+      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">2일 <code> .sync</code> 파일 컨텐츠: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_6E17809D49C74F4991B0B445469055E6">3일 방문자 프로필 ID 123은 <code> a,b,c,d,e를 포함합니다.</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -193,82 +193,82 @@ FTP 파일은 처리된 후 제거됩니다. [!DNL S3] 파일은 30 일 후에 �
 
 전체 및 증분 파일 유형에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [인바운드 데이터에 대한 Amazon S 3 이름 및 파일 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [인바운드 데이터의 Amazon S3 이름 및 파일 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
 <br> 
 
-**페이지에서 ID 동기화를 수행하지 않은 방문자에 대해 ID로 파일을 보내면 어떻게 됩니까?**
+**페이지 내 ID 동기화를 수행한 적이 없는 방문자를 위해 ID가 있는 파일을 보내면 어떻게 됩니까?**
 
-During processing, [!DNL Audience Manager] simply skips that record and moves on to the next. DPID (데이터 공급자 ID) 가 장치 간 DPID로 설정된 경우 ID 동기화가 동기화되기 전에 인제스트되는 데이터는 ID 동기화가 발생한 직후 사용할 수 있습니다.
+처리하는 동안 해당 레코드를 건너뛰고 다음 레코드로 이동합니다 [!DNL Audience Manager] . DPID(데이터 공급자 ID)가 크로스 장치 DPID로 설정된 경우 ID 동기화 전에 인제스트된 데이터가 저장되고 ID 동기화가 발생한 직후 사용할 수 있습니다.
 
 <br> 
 
-**타임스탬프는 무엇이며, 어떤 제품이며, 예를 제공할 수 있습니까?**
+**타임스탬프는 무엇이며 어떤 용도로 사용할 수 있으며 예를 제공할 수 있습니까?**
 
-타임스탬프는 기록 및 기록 보관에 사용됩니다. 올바른 형식의 인바운드 파일 이름에 사용된 구문에서 필요합니다. 다음을 참조하십시오.
+타임스탬프는 기록 및 기록 유지에 사용됩니다. 올바른 형식의 인바운드 파일 이름에 사용되는 구문에 필요합니다. 다음을 참조하십시오.
 
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
 
 <br> 
 
-**데이터 공급자 ID (DPID) 는 무엇이며 어떻게 다운로드합니까?**
+**DPID(데이터 공급자 ID)란 무엇이며 어떻게 얻습니까?**
 
-Adobe 컨설턴트가 특정 데이터 소스에 3 자리 또는 4 자리 DPID를 할당합니다. 이 ID는 고유하며 변경되지 않습니다.
+Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 DPID를 할당합니다. 이 ID는 고유하며 변경되지 않습니다.
 
 <br> 
 
-**일별 데이터 파일은 얼마나 클 수 있습니까?**
+**일별 데이터 파일의 크기는 얼마나 됩니까?**
 
-See [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+인바운드 [데이터 전송 파일에 대한 파일 압축을 참조하십시오](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
 <br> 
 
 **Audience Manager는 파일 압축을 지원합니까?**
 
-예, 다음을 참조하십시오.
+예. 다음을 참조하십시오.
 
-* [인바운드 데이터 전송 파일을 위한 파일 압축](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+* [인바운드 데이터 전송 파일에 대한 파일 압축](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
 
 <br> 
 
-**데이터 소스 데이터베이스의 기본 키는 이메일 주소입니다. Is that considered personally identifiable information?**
+**데이터 소스 데이터베이스의 기본 키는 이메일 주소입니다. 개인 식별 정보로 간주됩니까?**
 
-예. [!DNL Audience Manager] 는 이메일 주소를 데이터베이스에 저장하지 않습니다. 방문자에게 ID 동기화를 시작하기 전에 무작위 ID 또는 단방향 이메일 주소를 할당해야 합니다.
-
-<br> 
-
-**데이터 파일 컨텐츠가 대소문자를 구분합니까? How about the ID sync?**
-
-데이터 파일에는 두 가지 기본 구성 요소가 있습니다. 고유 사용자 ID (UUID) 및 프로필 데이터 (일반적으로 키-값 쌍 또는 코드 형식) UUID는 대소문자를 구분합니다. 일반적으로 프로필 또는 키-값 데이터는 대/소문자를 구분하지 않습니다.
+예. [!DNL Audience Manager] 은 데이터베이스에 이메일 주소를 저장하지 않습니다. 방문자는 ID 동기화를 시작하기 전에 임의 ID 또는 단방향 해시된 이메일 주소 버전을 지정해야 합니다.
 
 <br> 
 
-**FTP를 사용하거나 파일을[!DNL Amazon S3]전송해야 합니까?**
+**데이터 파일 내용은 대/소문자를 구분합니까? ID 동기화는 어떻습니까?**
 
-As best practice, we recommend [!DNL Amazon S3] because the process is simpler. [!DNL Audience Manager] FTP 파일을 [!DNL S3] 전송할 수 있으므로 파일을 [!DNL Amazon S3] 직접 놓는 경우 프로세스가 더욱 간소화됩니다. 또한 FTP에 동시에 업로드하는 고객은 FTP 대역폭을 공유하므로 업로드 속도가 느려져야 합니다. [!DNL Amazon S3] 또한 복제 및 배포되므로 일반적으로 FTP 서버보다 안전하고 안정성이 높습니다. For more information, see [About Amazon S3](../reference/amazon-s3.md).
-
-<br> 
-
-**고객 관리자가 인바운드 파일을 처리하는 방법은?**
-
-[!DNL Audience Manager] 인바운드 [!DNL Amazon Simple Queue Service (SQS)] 데이터 처리에 사용됩니다. 작동 방식은 다음과 같습니다.
-
-1. [!DNL Audience Manager] 고객은 자신의 인바운드 데이터를 [!DNL Amazon S3] 버킷에 업로드합니다.
-
-2. The data enters the [!DNL Amazon SQS] queue, waiting to be processed by [!DNL Audience Manager].
-
-3. [!DNL Audience Manager][!DNL Amazon SQS] 큐에서 최대 119,000 개의 항목을 읽고 최대 3 개의 일괄적으로 분할합니다. 각 일괄 처리의 파일은 동시에 처리됩니다.
+데이터 파일에는 두 가지 기본 구성 요소가 있습니다.고유 사용자 ID(UUID) 및 프로필 데이터(일반적으로 키-값 쌍 또는 코드 형식). UUID는 대소문자를 구분합니다. 일반적으로 프로필 또는 키 값 데이터는 대/소문자를 구분하지 않습니다.
 
 <br> 
 
-**여러 파일을 동시에 업로드해야 합니다. Will the files be processed simultaneously?**
+**FTP를 사용해야 합니까, 아니면 파일을[!DNL Amazon S3]전송해야 합니까?**
 
-다릅니다. [!DNL Audience Manager][!DNL Amazon SQS] 큐에서 최대 119,000 개의 항목을 읽고 최대 3 개의 일괄적으로 분할합니다. 파일은 동일한 일괄 처리 작업으로 끝나는 경우에만 동시에 처리됩니다. However, due to the high amount of data ingested by [!DNL Audience Manager] on a daily basis, we cannot guarantee any file processing order.
+가장 좋은 방법은 프로세스가 단순하기 [!DNL Amazon S3] 때문에 권장합니다. [!DNL Audience Manager] FTP 파일을 [!DNL S3] 에 전송하지 않아도 되므로 파일을 직접 드롭하면 프로세스가 더욱 간소화됩니다 [!DNL Amazon S3] . 또한 FTP에 동시에 업로드하는 고객은 FTP의 대역폭을 공유하므로 업로드 속도가 느려질 것으로 예상됩니다. [!DNL Amazon S3] 는 복제되고 배포되므로 FTP 서버보다 일반적으로 더 안전하고 안정적입니다. 자세한 내용은 Amazon [S3를](../reference/amazon-s3.md)참조하십시오.
 
->[!MORE_ like_ this]
+<br> 
+
+**Audience Manager는 인바운드 파일을 어떻게 처리합니까?**
+
+[!DNL Audience Manager] 은 인바운드 데이터 처리에 [!DNL Amazon Simple Queue Service (SQS)] 사용됩니다. 이 방법은 다음과 같습니다.
+
+1. [!DNL Audience Manager] 고객은 인바운드 데이터를 [!DNL Amazon S3] 버킷에 업로드합니다.
+
+2. 데이터가 대기열로 진입하여 처리 대기 [!DNL Amazon SQS] [!DNL Audience Manager]중입니다.
+
+3. [!DNL Audience Manager] 큐에서 최대 11,9000개의 항목을 읽고 최대 3개의 배치로 분할합니다. [!DNL Amazon SQS] 각 일괄 처리에 있는 파일은 동시에 처리됩니다.
+
+<br> 
+
+**여러 파일을 동시에 업로드해야 합니다. 파일이 동시에 처리됩니까?**
+
+상황에 따라 다릅니다. [!DNL Audience Manager] 큐에서 최대 11,9000개의 항목을 읽고 최대 3개의 배치로 분할합니다. [!DNL Amazon SQS] 파일이 동일한 배치로 끝나는 경우에만 동시에 처리됩니다. 그러나 [!DNL Audience Manager] 매일 수집되는 데이터의 양이 많기 때문에 파일 처리 순서를 보장할 수 없습니다.
+
+>[!MORELIKE_THIS]
 >
->* [일괄 데이터 전송 프로세스 설명](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process)
+>* [배치 데이터 전송 프로세스 설명](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 

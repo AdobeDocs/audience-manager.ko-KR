@@ -1,36 +1,36 @@
 ---
-description: 이 섹션에는 테스트 그룹에 대한 일반 정보와 이것이 나누어진 테스트 세그먼트, 선택한 전환 트레이트 및 매핑된 대상이 표시됩니다. 또한 이 섹션에서는 테스트 그룹을 복제 또는 삭제하는 컨트롤을 제공합니다.
-seo-description: 이 섹션에는 테스트 그룹에 대한 일반 정보와 이것이 나누어진 테스트 세그먼트, 선택한 전환 트레이트 및 매핑된 대상이 표시됩니다. 또한 이 섹션에서는 테스트 그룹을 복제 또는 삭제하는 컨트롤을 제공합니다.
+description: 이 섹션에는 테스트 그룹 및 테스트 그룹이 나눈 테스트 세그먼트, 선택한 전환 트레이트 및 매핑된 대상에 대한 일반 정보가 표시됩니다. 이 섹션에서는 테스트 그룹을 복제 또는 삭제하는 컨트롤도 제공합니다.
+seo-description: 이 섹션에는 테스트 그룹 및 테스트 그룹이 나눈 테스트 세그먼트, 선택한 전환 트레이트 및 매핑된 대상에 대한 일반 정보가 표시됩니다. 이 섹션에서는 테스트 그룹을 복제 또는 삭제하는 컨트롤도 제공합니다.
 seo-title: 테스트 그룹 정보
 solution: Audience Manager
 title: 테스트 그룹 정보
 topic: DIL API
-uuid: a 49 dfdb 3-21 e 1-4 c 3 d-b 957-4 d 445 f 890124
+uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 translation-type: tm+mt
 source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 
 ---
 
 
-# Test Group Information {#test-group-information}
+# 테스트 그룹 정보 {#test-group-information}
 
-이 섹션에는 테스트 그룹에 대한 일반 정보와 이것이 나누어진 테스트 세그먼트, 선택한 전환 트레이트 및 매핑된 대상이 표시됩니다. 또한 이 섹션에서는 테스트 그룹을 복제 또는 삭제하는 컨트롤을 제공합니다.
+이 섹션에는 테스트 그룹 및 테스트 그룹이 나눈 테스트 세그먼트, 선택한 전환 트레이트 및 매핑된 대상에 대한 일반 정보가 표시됩니다. 이 섹션에서는 테스트 그룹을 복제 또는 삭제하는 컨트롤도 제공합니다.
 
-테스트 그룹에 사용한 기준선 세그먼트와 테스트 세그먼트를 분할하는 방법에 대한 정보도 볼 수 있습니다.
+또한 테스트 그룹에 사용한 기준 세그먼트에 대한 정보와 테스트 세그먼트가 어떻게 나누어졌는지 확인할 수 있습니다.
 
-The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. 개요는 각 테스트 세그먼트에 할당한 사용자의 백분율을 보여줍니다.
+테스트 **[!UICONTROL Test Segments]** 그룹에 사용한 기준 세그먼트의 사용자가 임의로 채워집니다. 개요는 각 테스트 세그먼트에 할당한 사용자의 백분율을 보여줍니다.
 
-**[!UICONTROL Conversion Traits]** The drive for the reporting groups. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
+테스트 그룹에 대한 보고를 구동합니다 **[!UICONTROL Conversion Traits]** . 트레이트를 변환으로 지정하려면 에서 트레이트를 만들거나 편집할 때 [!UICONTROL Trait Builder]전환 **유형을** **[선택합니다](../../features/traits/create-onboarded-rule-based-traits.md).**
 
-The **[!UICONTROL Destinations]** card is collapsible. 화살표를 눌러 개별 대상을 열거나 닫고, 다음과 같이 매핑되는 대상을 기준으로 그룹화된 테스트 세그먼트에 대해 다음 정보를 얻습니다.
+카드가 **[!UICONTROL Destinations]** 접어요 화살표를 눌러 개별 대상을 열거나 닫고 테스트 세그먼트에 대한 다음 정보를 얻습니다. 이 정보는 각 대상이 매핑되는 대상으로 그룹화됩니다.
 
-* 각 대상에 할당된 기본 세그먼트의 총 모집단에서의 장치 수입니다.
+* 각 대상에 할당된 기본 세그먼트의 총 모집단에서 장치 수입니다.
 * 매핑 키;
 * 매핑 값;
-* [!DNL URL] &amp; secure [!DNL URL] for [!DNL URL] destination.
+* [!DNL URL] 및 보안 [!DNL URL] 기능을 [!DNL URL] 제공합니다.
 
 >[!NOTE]
 >
->테스트 그룹을 완료한 후에는 편집할 수 없으므로 일시 중지하거나 삭제하거나 복제할 수만 있습니다.
+>테스트 그룹을 완료한 후에는 편집할 수 없으며 일시 중지, 삭제 또는 복제만 가능합니다.
 
 ![](assets/test-groups-information.PNG)

@@ -1,29 +1,29 @@
 ---
-description: Audience Manager 일반적인 분류법을 볼 수 있도록 해주는 메서드입니다. 이 선택적 분류 체계는 트레이트를 업계 표준 카테고리로 분류합니다.
-seo-description: Audience Manager 일반적인 분류법을 볼 수 있도록 해주는 메서드입니다. 이 선택적 분류 체계는 트레이트를 업계 표준 카테고리로 분류합니다.
-seo-title: 분류 체계 API 메서드
+description: Audience Manager 일반 분류법을 볼 수 있는 메서드입니다. 이 선택적 분류 체계를 통해 트레이트를 업계 표준 카테고리로 분류할 수 있습니다.
+seo-description: Audience Manager 일반 분류법을 볼 수 있는 메서드입니다. 이 선택적 분류 체계를 통해 트레이트를 업계 표준 카테고리로 분류할 수 있습니다.
+seo-title: 분류 API 메서드
 solution: Audience Manager
-title: 분류 체계 API 메서드
-uuid: 4 EE 29 BA 5-E 9 BA -4498-A 6 EE -7343227 DD 7 BA
+title: 분류 API 메서드
+uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Taxonomic API Methods {#taxonomic-api-methods}
+# 분류 API 메서드 {#taxonomic-api-methods}
 
-Audience Manager 일반적인 분류법을 볼 수 있도록 해주는 메서드입니다. 이 선택적 분류 체계는 트레이트를 업계 표준 카테고리로 분류합니다.
+Audience Manager 일반 분류법을 볼 수 있는 메서드입니다. 이 선택적 분류 체계를 통해 트레이트를 업계 표준 카테고리로 분류할 수 있습니다.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->이러한 방법으로 새 분류 범주를 만들거나 트레이트를 분류할 수는 없습니다. To classify a trait, specify the appropriate `categoryId` with a trait create or update method.
+>새로운 분류 카테고리를 만들거나 이러한 방법으로 트레이트를 분류할 수 없습니다. 트레이트를 분류하려면 트레이트 만들기 또는 업데이트 `categoryId` 방법으로 해당 트레이트를 지정합니다.
 
-## Return a Specific Taxonomy {#return-specific-taxonomy}
+## 특정 분류 반환 {#return-specific-taxonomy}
 
-A `GET` method that returns details about the specified taxonomic category.
+지정된 분류 범주에 대한 세부 정보를 반환하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -33,7 +33,7 @@ A `GET` method that returns details about the specified taxonomic category.
 
 ### 응답
 
-A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist.
+성공적인 응답이 반환되고 지정된 ID에 대한 `200 OK` 카테고리가 반환됩니다. ID가 없는 `404 No Content` 경우 실패한 요청이 반환됩니다.
 
 ```
 {
@@ -46,9 +46,9 @@ A successful response returns `200 OK` and the category for the specified ID. An
 }
 ```
 
-## Return all Taxonomic Categories {#return-all-taxonomy-categories}
+## 모든 분류 카테고리 반환 {#return-all-taxonomy-categories}
 
-A `GET` method that returns a list of the top-level categories in an array.
+배열에서 최상위 수준 카테고리 목록을 반환하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -58,7 +58,7 @@ A `GET` method that returns a list of the top-level categories in an array.
 
 ### 응답
 
-간결하게 잘립니다.
+간결하게 잘렸습니다.
 
 ```
 [
@@ -89,9 +89,9 @@ A `GET` method that returns a list of the top-level categories in an array.
 ]
 ```
 
-## Return Taxonomic Sub-Categories {#return-taxonomy-sub-categories}
+## 분류 하위 카테고리 반환 {#return-taxonomy-sub-categories}
 
-A `GET` method that returns sub-categories for the specified parent category in an array.
+배열에서 지정된 상위 범주에 대한 하위 범주를 반환하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -101,7 +101,7 @@ A `GET` method that returns sub-categories for the specified parent category in 
 
 ### 응답
 
-A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist. 간결하게 잘립니다.
+성공적인 응답이 반환되고 지정된 ID에 대한 `200 OK` 카테고리가 반환됩니다. ID가 없는 `404 No Content` 경우 실패한 요청이 반환됩니다. 간결하게 잘렸습니다.
 
 ```
 [

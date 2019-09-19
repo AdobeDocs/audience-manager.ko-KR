@@ -1,33 +1,33 @@
 ---
-description: Transfer-Control (.info) 파일은 파트너가 Audience Manager에서 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
-seo-description: Transfer-Control (.info) 파일은 파트너가 Audience Manager에서 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
+description: Transfer-control(.info) 파일은 파트너가 Audience Manager가 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
+seo-description: Transfer-control(.info) 파일은 파트너가 Audience Manager가 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
 seo-title: 로그 파일 전송을 위한 전송 제어 파일
 solution: Audience Manager
 title: 로그 파일 전송을 위한 전송 제어 파일
-uuid: EF 58213 E -7 B 37-4 C 5 A -8556-0 DE 695706793
+uuid: ef58213e-7b37-4c5a-8556-0de695706793
 translation-type: tm+mt
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
 
 
-# Transfer-Control Files for Log File Transfers {#transfer-control-files-for-log-file-transfers}
+# 로그 파일 전송을 위한 전송 제어 파일 {#transfer-control-files-for-log-file-transfers}
 
-Transfer-control ([!DNL .info]) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
+Transfer-control ([!DNL .info]) 파일은 파트너가 Audience Manager가 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
 
-[!DNL Audience Manager] 모든 파일 전송 시 파트너에게 전송 제어 파일을 전송합니다. [!DNL FTP] 게시자의 다중 스레드 특성으로 인해 실제 파일 전송을 완료하기 전에 전송 제어 파일이 전송될 수 있습니다.
+[!DNL Audience Manager] 전송 제어 파일을 전송할 때마다 파트너에게 전송합니다. 게시자의 다중 스레드 특성으로 인해 전송 제어 파일이 실제 파일 전송이 완료되기 전에 전송될 수 있습니다. [!DNL FTP]
 
-[!DNL .info] 파일의 메타데이터를 통해 파트너는 다음을 수행할 수 있습니다.
+이 파일의 메타데이터를 [!DNL .info] 통해 파트너는 다음을 수행할 수 있습니다.
 
-* 전체 전환 주기가 완료되는 시점을 결정합니다 (시퀀스에 있는 파일의 총 수).
-* 시퀀스에서 지정된 파일이 완료/올바른지 여부를 결정합니다 (바이트 크기와 총 라인 수 검사).
-* Raw 파일의 행 수 확인 받는 쪽 (행의 파일 크기) 에 있는 데이터베이스에 파일이 로드된 행 수를 확인합니다.
+* 전체 전송 주기가 완료된 시기(시퀀스에 있는 총 파일 수 제공)를 결정합니다.
+* 시퀀스에 있는 지정된 파일의 전체/정답 여부 확인(파일의 크기(바이트 단위) 및 줄 수 확인);
+* Raw 파일의 행 수를 확인하여 수신 끝(파일 크기)에 있는 데이터베이스에 파일이 로드된 후의 행 수를 기준으로 합니다.
 
-## File Naming Conventions {#file-naming-conventions}
+## 파일 이름 지정 규칙 {#file-naming-conventions}
 
-The transfer-control file has the same name as the root of the batch/sequence with a [!DNL .info] file extension.s
+전송 제어 파일의 이름은 파일 확장명이 .s인 일괄 처리/시퀀스의 루트와 동일합니다. [!DNL .info]
 
-For example, if the first file in the sequence were named: [!DNL ftp_12345_67890_full_1500727351632-1.sync], the control file would be named [!DNL ftp_12345_67890_iter_1500727351632.info].
+예를 들어 시퀀스의 첫 번째 파일 이름이 다음과 같이 지정된 경우:그러면 [!DNL ftp_12345_67890_full_1500727351632-1.sync]컨트롤 파일의 이름이 [!DNL ftp_12345_67890_iter_1500727351632.info]지정됩니다.
 
 ## 파일 형식 {#file-format}
 
@@ -74,8 +74,8 @@ For example, if the first file in the sequence were named: [!DNL ftp_12345_67890
 
 >[참고]
 >
-> The batch total numbers are exclusive of the [!DNL .info] file itself. That is, the totals do not include the [!DNL .info] file, its byte size, or its line count.
+> 일괄 처리 총수는 [!DNL .info] 파일 자체에만 적용됩니다. 즉, 합계에 [!DNL .info] 파일, 바이트 크기 또는 행 수가 포함되지 않습니다.
 >
-> 파일 및 행 수에 대한 바이트 크기는 머리글 및 스페이서 (공백) 라인/행을 포함합니다. 실제 데이터 행/행 수를 가져오려면 헤더를 뺍니다.
+> 파일 및 행 수의 바이트 크기는 헤더와 스페이서(빈) 행/행을 포함합니다. 실제 데이터 라인/행 수를 가져오려면 머리글을 제외합니다.
 >
-> 총 묶음 및 총 바이트 크기는 머리글 및 공간 행을 포함할 수 있습니다.
+> 묶음 및 총 바이트 크기의 전체 줄은 모든 머리글 행과 공백 행을 포함합니다.

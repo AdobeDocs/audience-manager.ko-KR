@@ -1,25 +1,25 @@
 ---
-description: 사용자를 관리하기 위한 REST API 메서드 (사용자 객체 만들기, 업데이트, 나열, 삭제, 반환 등)
-seo-description: 사용자를 관리하기 위한 REST API 메서드 (사용자 객체 만들기, 업데이트, 나열, 삭제, 반환 등)
+description: 사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환 등 사용자를 관리하는 Rest API 메서드입니다.
+seo-description: 사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환 등 사용자를 관리하는 Rest API 메서드입니다.
 seo-title: 사용자 관리 API 메서드
 solution: Audience Manager
 title: 사용자 관리 API 메서드
-uuid: 6 e 1 f 2 c 35-bb 9 d -4166-b 7 d 4-d 9 c 5518 a 61 ad
+uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# User Management API Methods {#user-management-api-methods}
+# 사용자 관리 API 메서드 {#user-management-api-methods}
 
-Rest [!DNL API] methods to manage users, including creating, updating, listing, deleting, and returning user objects.
+사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환을 포함하여 사용자를 관리하는 기타 [!DNL API] 방법입니다.
 
 <!-- c_rest_api_user_man_user.xml -->
 
 ## Create a User {#create-user}
 
-A `POST` method to create a new user.
+새 사용자를 만드는 `POST` 방법입니다.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -62,13 +62,13 @@ A `POST` method to create a new user.
 }
 ```
 
-If `isAdmin` is set to true, the user is created as a partner admin. 또한 이 속성을 사용하여 사용자가 파트너 관리자인지 알 수 있습니다.
+이 `isAdmin` 값이 true로 설정된 경우 사용자가 파트너 관리자로 생성됩니다. 또한 이 속성을 사용하여 사용자가 파트너 관리자인지 알 수 있습니다.
 
-Returns `409 Conflict` if the username is already taken.
+사용자 이름을 이미 가져왔는지 `409 Conflict` 반환합니다.
 
-## Update a User {#update-user}
+## 사용자 업데이트 {#update-user}
 
-A `PUT` method to update a user.
+사용자를 업데이트하는 `PUT` 방법입니다.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -107,17 +107,17 @@ A `PUT` method to update a user.
 }
 ```
 
-Returns `409 Conflict` if the username is already taken.
+사용자 이름을 이미 가져왔는지 `409 Conflict` 반환합니다.
 
-## Update Logged-In User {#update-logged-in-user}
+## 로그인한 사용자 업데이트 {#update-logged-in-user}
 
-`PUT` 현재 로그인한 사용자를 업데이트하는 메서드입니다.
+현재 로그인한 사용자를 업데이트하는 `PUT` 방법입니다.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
 
 ### 요청
 
@@ -150,17 +150,17 @@ Returns `409 Conflict` if the username is already taken.
 }
 ```
 
-Returns `409 Conflict` if the username is already taken.
+사용자 이름을 이미 가져왔는지 `409 Conflict` 반환합니다.
 
-## Update Logged-In User Password {#update-logged-in-user-pw}
+## 로그인한 사용자 암호 업데이트 {#update-logged-in-user-pw}
 
-`PUT` 현재 로그인한 사용자를 업데이트하는 메서드입니다.
+현재 로그인한 사용자를 업데이트하는 `PUT` 방법입니다.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
 
 ### 요청
 
@@ -172,27 +172,27 @@ Returns `409 Conflict` if the username is already taken.
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Returns `200 OK` if successful. Returns `400 Bad Request` if something is wrong with either password.
+성공하면 `200 OK` 반환합니다. 암호 중 하나에 문제가 `400 Bad Request` 있으면 반환합니다.
 
-## Reset Logged-In User Password {#reset-logged-in-user-pw}
+## 로그인한 사용자 암호 재설정 {#reset-logged-in-user-pw}
 
-A `PUT` method to reset the currently logged-in user. [!UICONTROL Audience Management] 사용자에게 시스템 생성 암호를 보냅니다.
+현재 로그인한 사용자를 재설정하는 `PUT` 방법입니다. [!UICONTROL Audience Management] 사용자에게 시스템 생성 암호를 보냅니다.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
 
 ### 요청
 
 `POST /self/reset-password`
 
-Returns `200 OK` if successful.
+성공하면 `200 OK` 반환합니다.
 
-## Return User Object for a User ID {#return-user-object-for-id}
+## 사용자 ID에 대한 사용자 개체 반환 {#return-user-object-for-id}
 
-A `Get` method to return the user object for a User ID.
+사용자 ID에 대한 사용자 개체를 반환하는 `Get` 방법입니다.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -218,15 +218,15 @@ A `Get` method to return the user object for a User ID.
 }
 ```
 
-## Return User Object for Logged-In User {#return-user-object-for-logged-in-user}
+## 로그인한 사용자에 대한 사용자 개체 반환 {#return-user-object-for-logged-in-user}
 
-A `Get` method to return the user object for the currently logged-in user.
+현재 로그인한 사용자의 사용자 개체를 반환하는 `Get` 방법입니다.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
 
 ### 요청
 
@@ -250,9 +250,9 @@ A `Get` method to return the user object for the currently logged-in user.
 }
 ```
 
-## List Users {#list-users}
+## 사용자 목록 {#list-users}
 
-A `GET` method to list users.
+사용자를 나열하는 `GET` 방법입니다.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -286,7 +286,7 @@ A `GET` method to list users.
 
 ## Delete a User {#delete-users}
 
-A `DELETE` method to delete a user.
+사용자를 삭제하는 `DELETE` 방법입니다.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -294,11 +294,11 @@ A `DELETE` method to delete a user.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+성공하면 `204 No Content` 반환합니다. 충돌이 반환되는 경우 `409 Conflict`.
 
-## Delete Users in Bulk {#delete-users-bulk}
+## 일괄 사용자 삭제 {#delete-users-bulk}
 
-A `POST` method to delete multiple users in bulk.
+여러 사용자를 일괄 삭제하는 `POST` 방법입니다.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 

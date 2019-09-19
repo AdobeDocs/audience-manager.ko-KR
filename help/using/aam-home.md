@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 54163f2d80398b69faf24c735d04e944eced035c
+source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 54163f2d80398b69faf24c735d04e944eced035c
      <li><a href="features/administration/ip-obfuscation.md">IP 주소 난독화</a> </li>
      </ul> </p> <p>2019 <a href="docs-updates/docs-2019.md"> 설명서 업데이트를 참조하십시오</a>. </p> 
      <p>Audience Manager를 처음 사용하는 경우 용어집 <a href="reference/aam-glossary.md"> 및 ID</a> <a href= "reference/ids-in-aam.md">인덱스를 참조하십시오.</a></p>
-     <br>
+     <br> 
      <p> <b>공동 작업 문서</b> </p>
      <p>Adobe는 모든 독자들의 문서에 대한 지원을 환영합니다. 공동 작업 <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">가이드 개요를</a> 참조하여 공동 작업을 시작하는 방법을 알아보십시오.</p>
     </td>
@@ -36,11 +36,11 @@ source-git-commit: 54163f2d80398b69faf24c735d04e944eced035c
       <li id="li_EA594E939ED14D7780178DEA8E1AED64">이전 공지 사항에 대해서는 <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html" format="https" scope="external">이전 릴리스 노트</a>를 참조하십시오. </li> 
      </ul> </p> <p> <b>Experience Cloud 리소스</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager 커뮤니티 포럼</a> </li> 
-      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe 개인 정보 보호 센터</a> </li> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager 커뮤니티 포럼</a> </li>
       <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager 자습서</a> </li> 
+      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe 개인 정보 보호 센터</a> </li>  
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe 트레이닝 및 인증</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> 제품 설명서 홈</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https">Experience Cloud 제품 설명서 홈</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager 학습 및 지원</a> </li> 
      </ul> </p> </td>
   </tr> 

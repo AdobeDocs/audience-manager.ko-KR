@@ -1,30 +1,30 @@
 ---
-description: ID 서비스 고객은 DCS API 호출을 수행하는 데 필요한 ID에 대해 방문자 쿠키를 읽는 방법에 대한 자세한 내용은 이 섹션을 참조하십시오.
-seo-description: ID 서비스 고객은 DCS API 호출을 수행하는 데 필요한 ID에 대해 방문자 쿠키를 읽는 방법에 대한 자세한 내용은 이 섹션을 참조하십시오.
+description: ID 서비스 고객은 DCS API 호출을 수행하는 데 필요한 ID에 대한 방문자 쿠키를 읽는 방법에 대한 자세한 내용은 이 섹션을 참조하십시오.
+seo-description: ID 서비스 고객은 DCS API 호출을 수행하는 데 필요한 ID에 대한 방문자 쿠키를 읽는 방법에 대한 자세한 내용은 이 섹션을 참조하십시오.
 seo-title: Experience Cloud ID 서비스를 통해 사용자 ID 및 지역 가져오기
 solution: Audience Manager
 title: Experience Cloud ID 서비스를 통해 사용자 ID 및 지역 가져오기
-uuid: 80 de 6 cf 2-5 d 9 e -4 ef 8-a 0 f 2-d 53 b 5 d 574 c 89
+uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Get User IDs and Regions Through the Experience Cloud ID Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Experience Cloud ID 서비스를 통해 사용자 ID 및 지역 가져오기 {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
-ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!UICONTROL DCS] API calls.
+ID 서비스 고객은 API 호출을 수행하는 데 필요한 ID에 대한 방문자 쿠키를 읽는 방법에 대한 자세한 내용은 이 섹션을 [!UICONTROL DCS] 참조하십시오.
 
-## Get the User ID from the ID Service Cookie {#get-user-ids-from-service-cookie}
+## ID 서비스 쿠키에서 사용자 ID 가져오기 {#get-user-ids-from-service-cookie}
 
-[Experience Cloud ID 서비스는](https://marketing.adobe.com/resources/help/en_US/mcvid/) 웹 사이트로 들어오는 사용자에게 방문자 및 지역 ID를 할당합니다. These IDs identify users across all the solutions in the [!DNL Experience Cloud] and they are required if you want to make [!UICONTROL DCS] calls.
+Experience [Cloud ID 서비스는](https://marketing.adobe.com/resources/help/en_US/mcvid/) 방문자 및 지역 ID를 웹 사이트를 방문하는 사용자에게 할당합니다. 이러한 ID는 의 모든 솔루션에서 사용자를 식별하며, [!DNL Experience Cloud] 전화를 [!UICONTROL DCS] 하려는 경우 필요합니다.
 
-* The [!UICONTROL user ID] is required to identify and associate data with a particular visitor.
-* The [!UICONTROL region ID] is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. [DCS 영역 ID, 위치 및 호스트 이름](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)을 참조하십시오.
+* 데이터는 [!UICONTROL user ID] 특정 방문자를 식별하고 연결하는 데 필요합니다.
+* 이 [!UICONTROL region ID] 값은 지역 서버 이름과 연결되어 있으므로 이 서버에 데이터를 보내야 합니다 [!UICONTROL DCS]. 사이트 방문자에게 지리적으로 가장 가까운 데이터 센터에 정보를 [!UICONTROL DCS] 저장합니다. [DCS 영역 ID, 위치 및 호스트 이름](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)을 참조하십시오.
 
-ID 서비스 고객은 ID 서비스 쿠키에서 또는 함수를 호출하여 이 정보를 추출할 수 있습니다. 아래 표는 작업을 시작하기 위해 완료해야 하는 작업에 대해 설명합니다.
+ID 서비스 고객은 ID 서비스 쿠키나 함수를 호출하여 이 정보를 추출할 수 있습니다. 아래 표에서는 시작하기 위해 완료해야 하는 작업 또는 단계에 대해 설명합니다.
 
-*기울임꼴로* 된 코드는 변수 자리 표시자를 나타냅니다.
+기울임꼴로 표시된 *코드는* 변수 자리 표시자를 나타냅니다.
 
 <table id="table_660EBE1C24DD4FBE9DCE5191836C9135"> 
  <thead> 
@@ -35,38 +35,38 @@ ID 서비스 고객은 ID 서비스 쿠키에서 또는 함수를 호출하여 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1. <span class="keyword"> Experience Cloud</span> 상태 확인</b> </p> </td> 
-   <td colname="col2"> <p>You need a <span class="keyword"> Experience Cloud</span> account to use the ID service. <span class="keyword"> Experience Cloud</span> 계정이 있는 경우, 탁월한! </p> <p> <span class="keyword"> Experience Cloud</span>에 속하지 않은 경우 등록하십시오. Adobe를 통해 더 많은 정보를 얻을 수 있습니다. For instructions on how to set up an account, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services.html" format="https" scope="external"> Core Services - Enabling Your Solutions</a>. </p> </td> 
+   <td colname="col1"> <p> <b>1. Experience Cloud <span class="keyword"> 상태</span> 확인</b> </p> </td> 
+   <td colname="col2"> <p>ID 서비스를 <span class="keyword"> 사용하려면 Experience</span> Cloud 계정이 필요합니다. Experience Cloud <span class="keyword"> 계정이 있는</span> 경우, 감사합니다! </p> <p> Experience Cloud에 속하지 않는 <span class="keyword"> 경우</span>등록하십시오. 우리는 너를 만나고 싶고, 항상 더 많은 것을 위한 공간이 있다. 계정 설정 방법에 대한 지침은 핵심 서비스 - 솔루션 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services.html" format="https" scope="external"> 활성화를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>2. <span class="keyword"> ID 서비스 설정</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> ID 서비스는</span> 데이터 수집에 사용할 각 페이지에 삽입되는 JavaScript 코드로 구성됩니다. See the ID service <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html" format="https" scope="external"> implementation guides</a> for more information. </p> </td> 
+   <td colname="col1"> <p> <b>2. Set up the <span class="keyword"> ID service</span></b> </p> </td> 
+   <td colname="col2"> <p>ID <span class="keyword"> 서비스는</span> 데이터 수집에 사용할 각 페이지에 삽입되는 JavaScript 코드로 구성됩니다. 자세한 내용은 ID 서비스 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html" format="https" scope="external"> 구현 안내서를</a> 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>3. <span class="keyword"> ID 서비스</span> 쿠키 읽기</b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> ID 서비스는</span> 사용자와 지역 ID를 AMCV 쿠키에 저장합니다. The full cookie name is <code>AMCV_<i>###</i>@AdobeOrg</code>. <code><i># # #</i></code> 요소는 조직 ID의 자리 표시자입니다. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>다음 키-값 쌍에 대한 AMCV 쿠키를 분석합니다. </p> <p> 
+   <td colname="col1"> <p> <b>3. ID <span class="keyword"> 서비스</span> 쿠키 읽기</b> </p> </td> 
+   <td colname="col2"> <p>ID <span class="keyword"> 서비스는</span> AMCV 쿠키에 사용자 및 지역 ID를 저장합니다. 전체 쿠키 이름은 <code>AMCV_<i>##</i>@AdobeOrg입니다</code>. # <code><i>##</i></code> 요소는 조직 ID의 자리 표시자입니다. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>AMCV 쿠키를 분석합니다. </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
-      <li id="li_662FFA36AC854E699D50A183B161D654"> <code>MID =<i>사용자 ID</i></code>: 이 키-값 쌍은 <span class="keyword"> Experience Cloud</span> 사용자 ID를 보유합니다. </li> 
-      <li id="li_65422233187B4217B50DC52DBD58F404"> <code>AAMLH =<i>region ID</i></code>: 이 키-값 쌍은 지역 서버 이름과 연관된 영역 ID (때로 <span class="term"> 위치 힌트라고도</span>함) 를 유지합니다. </li> 
-     </ul> </p> <p>You can make calls to the <span class="wintitle"> DCS</span> once you have the user and region IDs. </p> </td> 
+      <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>사용자 ID</i></code>:이 키-값 쌍은 Experience Cloud <span class="keyword"> 사용자 ID를</span> 보유합니다. </li> 
+      <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>:이 키-값 쌍은 지역 서버 이름과 연결된 영역 ID( <span class="term"> 위치 힌트라고도</span>함)를 보유합니다. </li> 
+     </ul> </p> <p>사용자 및 지역 ID가 <span class="wintitle"> 있는</span> 경우 DCS를 호출할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>4. Retrieve the <span class="keyword"> Experience Cloud ID</span> with getMarketingCloudVisitorID</b> </p> </td> 
-   <td colname="col2"> <p><i>(선택 사항)</i> 이 함수는 <span class="keyword"> Experience Cloud</span> 방문자 ID를 반환합니다. 사용자 정의 솔루션 및 특정 사용 사례에 맞게 설계되었습니다. See <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> Working With getMarketingCloudVisitorID</a> below and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-getmcvid.html" format="https" scope="external"> related ID service documentation</a>. </p> <p>ID 서비스 쿠키에서 사용자 및 위치 ID를 받는 경우 이 매개 변수를 사용할 필요가 없습니다. </p> </td> 
+   <td colname="col1"> <p> <b>4. getMarketingCloud <span class="keyword"> VisitorID를</span> 사용하여 Experience Cloud ID 검색</b> </p> </td> 
+   <td colname="col2"> <p><i>(선택 사항)</i> 이 함수는 Experience Cloud <span class="keyword"> 방문자 ID를</span> 반환합니다. 맞춤형 솔루션 및 특정 활용 사례를 위해 설계되었습니다. 아래의 getMarketingCloudVisitorID <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> 작업 및</a> 관련 ID 서비스 설명서를 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-getmcvid.html" format="https" scope="external"></a>참조하십시오. </p> <p>ID 서비스 쿠키에서 사용자 및 위치 ID를 가져오는 경우 이 옵션을 사용할 필요가 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Working With `getMarketingCloudVisitorID` {#working-with-getmarketingcloudvisitorid}
+## 작업 `getMarketingCloudVisitorID`{#working-with-getmarketingcloudvisitorid}
 
-Another way to get the visitor ID is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` 다음과 같이 선택적 `callback` 인수를 수락합니다.
+방문자 ID를 얻는 또 다른 방법은 `getMarketingCloudVisitorID` 함수입니다. 이 함수는 호출될 때 를 쿼리하고 ID를 [!DNL ID service] 반환합니다. `getMarketingCloudVisitorID` 표시된 대로 선택적 `callback` 인수를 수락합니다.
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
-### Callback Usage and Purpose {#callback-usage}
+### 콜백 사용 및 목적 {#callback-usage}
 
-`callback` 선택 사항입니다. This function works without it, but returns an ID only when a visitor has a [!DNL Experience Cloud] cookie in their browser. If the visitor cookie is missing, or a visitor doesn't have an ID, the function returns an empty `()` object. 페이지가 로드되고 방문자가 새 ID를 받은 후에도 이러한 상황이 발생할 수 있습니다. To avoid this, `callback` forces this function to check for a visitor ID after the page loads. Without `callback`, the visitor ID function won't return an ID even if it's written to the visitor's browser later.
+`callback` 은 선택 사항입니다. 이 함수는 이 함수 없이도 작동하지만 방문자의 브라우저에 [!DNL Experience Cloud] 쿠키가 있을 때만 ID를 반환합니다. 방문자 쿠키가 없거나 방문자에게 ID가 없는 경우 이 함수는 빈 `()` 개체를 반환합니다. 이 문제는 페이지가 로드되고 방문자가 새 ID를 받은 후에도 발생할 수 있습니다. 이 문제를 방지하려면, 페이지가 로드된 후 이 함수가 방문자 ID를 확인하도록 `callback` 합니다. 방문자 `callback`ID가 없으면 방문자의 브라우저에 나중에 기록되더라도 방문자 ID가 반환되지 않습니다.
 
 ## 다음 단계 {#next-steps}
 
-Once you have the user and region ID, you can start sending and receiving [!UICONTROL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+사용자 및 지역 ID가 있으면 [!UICONTROL DCS] 데이터 전송 및 수신을 시작할 수 있습니다. DCS [API 호출](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)만들기를 참조하십시오.

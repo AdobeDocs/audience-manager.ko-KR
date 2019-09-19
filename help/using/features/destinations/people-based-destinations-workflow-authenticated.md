@@ -5,7 +5,7 @@ seo-title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활
 solution: Audience Manager
 title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: 455c198d7a096a620a2cf7c8b728b67335eadc8d
+source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
 
 ---
 

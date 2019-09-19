@@ -1,36 +1,36 @@
 ---
-description: 이러한 Restful API 메서드로 대상을 만듭니다.
-seo-description: 이러한 Restful API 메서드로 대상을 만듭니다.
+description: 이러한 RESTful API 메서드로 대상을 만듭니다.
+seo-description: 이러한 RESTful API 메서드로 대상을 만듭니다.
 seo-title: 대상 만들기
 solution: Audience Manager
 title: 대상 만들기
-uuid: 12 f 04151-ad 0 e -4 cb 6-8 f 3 b-b 5 c 427 dc 2 cef
+uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 
 ---
 
 
-# Create Destinations {#create-destinations}
+# 대상 만들기 {#create-destinations}
 
-Create destinations with these [!UICONTROL RESTful API] methods.
+이러한 [!UICONTROL RESTful API] 방법으로 대상을 만듭니다.
 
 <!-- c_create_destinations.xml -->
 
-## 지원되는 대상 유형: URL 및 쿠키만
+## 지원되는 대상 유형:URL 및 쿠키만
 
-The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot create [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+사용 가능한 `POST` 메서드를 사용하여 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 만들 수 있습니다. 현재 이러한 [!UICONTROL server-to-server destinations] 방법으로 만들 수 [!DNL REST API] 없습니다. 그러나 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 [!UICONTROL server-to-server destinations] 만든 정보를 검색할 수 있습니다.
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
->* [대상](../../../features/destinations/destinations.md#destination-api-methods)
+>* [대상](../../../features/destinations/destinations.md)
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍을 설명했습니다.](../../../reference/key-value-pairs-explained.md)
+>* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 
 
-## Create a Non-Serial URL Destination {#create-nonserial-dest}
+## 비직렬 URL 대상 만들기 {#create-nonserial-dest}
 
-A `POST` method that lets you create a destination that accepts segments composed of single key-value pairs (e.g., `gender=male` or `gender=female`).
+단일 키-값 쌍(예: `POST` 또는 `gender=male` `gender=female`)으로 구성된 세그먼트를 허용하는 대상을 만들 수 있는 방법입니다.
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -40,7 +40,7 @@ A `POST` method that lets you create a destination that accepts segments compose
 
 ### 샘플 요청
 
-이 요청은 단일 대상을 만듭니다. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+이 요청은 단일 대상을 만듭니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -53,7 +53,7 @@ A `POST` method that lets you create a destination that accepts segments compose
 
 ### 응답
 
-A successful request returns `201 created` and the destination.
+요청이 성공적으로 반환되면 `201 created` 대상이 반환됩니다.
 
 ```
 { 
@@ -81,14 +81,14 @@ A successful request returns `201 created` and the destination.
 } 
 ```
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 
-## Create a Serialized URL Destination {#create-serial-url-dest}
+## 직렬화된 URL 대상 만들기 {#create-serial-url-dest}
 
-A `POST` method that lets you create a destination that accepts multiple values associated with a single key (e.g., `color=blue, red, green`).
+단일 키와 연결된 여러 값을 허용하는 대상을 만들 수 있는 `POST` 방법입니다(예: `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -98,7 +98,7 @@ A `POST` method that lets you create a destination that accepts multiple values 
 
 ### 샘플 요청
 
-Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to the destination. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+대상에 전달된 키-값 쌍의 보안 [!DNL URL] 및 구분 기호를 지정합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -114,7 +114,7 @@ Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to 
 
 ### 응답
 
-A successful update returns response code `201 created` and the destination.
+업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
 
 ```
 { 
@@ -142,14 +142,14 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
 
 
-## Create a Cookie Destination: Single-Key, Non-Serialized {#create-cookie-dest-single}
+## 쿠키 대상 만들기:단일 키, 일련 번호가 없는 {#create-cookie-dest-single}
 
-A `POST` method that lets you create a [!UICONTROL cookie destination] that accepts segments composed of single key-value pairs (e.g., `gender=male` or `gender=female`).
+단일 키-값 쌍(예: `POST` 또는 [!UICONTROL cookie destination] )으로 구성된 세그먼트를 허용하는 방법을 만드는 `gender=male` `gender=female`방법입니다.
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -159,7 +159,7 @@ A `POST` method that lets you create a [!UICONTROL cookie destination] that acce
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -184,7 +184,7 @@ A `POST` method that lets you create a [!UICONTROL cookie destination] that acce
 
 ### 응답
 
-A successful update returns response code `201 created` and the destination.
+업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
 
 ```
 { 
@@ -216,15 +216,15 @@ A successful update returns response code `201 created` and the destination.
 } 
 ```
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍을 설명했습니다.](../../../reference/key-value-pairs-explained.md)
+>* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 
 
-## Create a Cookie Destination: Single Key, Serialized {#create-cookie-dest-single-serial}
+## 쿠키 대상 만들기:단일 키, 일련 번호 {#create-cookie-dest-single-serial}
 
-A `POST` method that lets you create a destination that accepts multiple values associated with a single key (e.g., `color=blue, red, green`).
+단일 키와 연결된 여러 값을 허용하는 대상을 만들 수 있는 `POST` 방법입니다(예: `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -234,7 +234,7 @@ A `POST` method that lets you create a destination that accepts multiple values 
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -260,7 +260,7 @@ A `POST` method that lets you create a destination that accepts multiple values 
 
 ### 응답
 
-A successful update returns response code `201 created` and the destination.
+업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
 
 ```
 { 
@@ -293,15 +293,15 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍을 설명했습니다.](../../../reference/key-value-pairs-explained.md)
+>* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 
 
-## Create a Cookie Destination: Multi-Key, Non-Serialized {#create-cookie-dest-multi}
+## 쿠키 대상 만들기:다중 키, 일련 번호가 없는 {#create-cookie-dest-multi}
 
-A `POST` method that lets you create a destination that accepts segments that contain multiple keys with different values (e.g., `gender=male; gender=female; color=blue; color=red`).
+값이 다른 여러 개의 키를 포함하는 세그먼트를 허용하는 대상을 만들 수 있는 `POST` 방법입니다(예: `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -311,7 +311,7 @@ A `POST` method that lets you create a destination that accepts segments that co
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -335,7 +335,7 @@ A `POST` method that lets you create a destination that accepts segments that co
 
 ### 응답
 
-A successful update returns response code `201 created` and the destination.
+업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
 
 ```
 { 
@@ -366,9 +366,9 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
-## Create a Cookie Destination: Multi-Key, Serialized {#create-cookie-dest-multi-serial}
+## 쿠키 대상 만들기:다중 키, 직렬화 {#create-cookie-dest-multi-serial}
 
-A `POST` method that lets you create a destination that accepts segments that contain multiple keys and values (e.g., `gender=male, female; color=blue, red, green`).
+여러 키와 값(예: `POST` `gender=male, female; color=blue, red, green`)을 포함하는 세그먼트를 허용하는 대상을 만들 수 있는 방법입니다.
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -378,7 +378,7 @@ A `POST` method that lets you create a destination that accepts segments that co
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -403,7 +403,7 @@ A `POST` method that lets you create a destination that accepts segments that co
 
 ### 응답
 
-A successful update returns response code `201 created` and the destination.
+업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
 
 ```
 { 
@@ -435,8 +435,8 @@ A successful update returns response code `201 created` and the destination.
 }
 ```
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍을 설명했습니다.](../../../reference/key-value-pairs-explained.md)
+>* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 

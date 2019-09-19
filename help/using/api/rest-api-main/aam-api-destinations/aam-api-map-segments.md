@@ -1,36 +1,36 @@
 ---
-description: 이러한 Restful API 메서드를 사용하여 세그먼트를 대상에 매핑할 수 있습니다.
-seo-description: 이러한 Restful API 메서드를 사용하여 세그먼트를 대상에 매핑할 수 있습니다.
-seo-title: 세그먼트를 대상에 매핑
+description: 이러한 RESTful API 메서드를 사용하여 세그먼트를 대상에 매핑합니다.
+seo-description: 이러한 RESTful API 메서드를 사용하여 세그먼트를 대상에 매핑합니다.
+seo-title: 대상에 세그먼트 매핑
 solution: Audience Manager
-title: 세그먼트를 대상에 매핑
-uuid: 35358 ACE -3082-4 E 86-A 6 EB-D 77281 AF 6 D 7 E
+title: 대상에 세그먼트 매핑
+uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 
 ---
 
 
-# Map Segments to a Destination {#map-segments-to-a-destination}
+# 대상에 세그먼트 매핑 {#map-segments-to-a-destination}
 
-Map segments to destinations with these [!DNL RESTful API] methods.
+이러한 [!DNL RESTful API] 방법으로 세그먼트를 대상에 매핑합니다.
 
 <!-- c_api_map_seg_dest.xml -->
 
-## 지원되는 대상 유형: URL 및 쿠키만
+## 지원되는 대상 유형:URL 및 쿠키만
 
-The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. 사용자 인터페이스를 대신 사용하십시오. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+사용 가능한 `POST` 방법을 사용하면 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 에 매핑만 할 수 있습니다. 현재, 세그먼트를 이러한 [!UICONTROL server-to-server destinations][!DNL REST API] 메서드로 매핑할 수 없습니다. 사용자 인터페이스를 대신 사용하십시오. 그러나 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 [!UICONTROL server-to-server destinations] 만든 정보를 검색할 수 있습니다.
 
->[!MORE_ like_ this]
+>[!MORELIKE_THIS]
 >
->* [대상](../../../features/destinations/destinations.md#destination-api-methods)
+>* [대상](../../../features/destinations/destinations.md)
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍을 설명했습니다.](../../../reference/key-value-pairs-explained.md)
+>* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 
 
-## Map a Segment to a Non-Serialized URL Destination {#map-segment-non-serial}
+## 세그먼트를 일련 번호가 없는 URL 대상에 매핑 {#map-segment-non-serial}
 
-A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] destination.
+세그먼트를 비직렬 `POST` 대상에 매핑할 수 있는 [!UICONTROL URL] 방법입니다.
 
 <!-- r_map_noserial_url.xml -->
 
@@ -40,7 +40,7 @@ A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] des
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -78,9 +78,9 @@ A `POST` method that lets you map a segment to a non-serial [!UICONTROL URL] des
 }
 ```
 
-## Map a Segment to a Serialized URL Destination {#map-segment-serial}
+## 세그먼트를 직렬화된 URL 대상에 매핑 {#map-segment-serial}
 
-A `POST` method that lets you map a segment to a serialized [!UICONTROL URL] destination.
+세그먼트를 직렬화된 `POST` 대상에 매핑할 수 있는 [!UICONTROL URL] 방법입니다.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -90,7 +90,7 @@ A `POST` method that lets you map a segment to a serialized [!UICONTROL URL] des
 
 ### 샘플 요청
 
-In the request, the `traitAlias` corresponds to the key in a key-value pair. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+요청에서, 키는 키-값 쌍의 키에 `traitAlias` 해당합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -128,9 +128,9 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. 별
 }
 ```
 
-## Map a Segment to a Cookie Destination: Single-Key, Non-Serialized {#map-segment-cookie-noserial}
+## 세그먼트를 쿠키 대상에 매핑:단일 키, 일련 번호가 없는 {#map-segment-cookie-noserial}
 
-A `POST` method that lets you map a segment to single-key, non-serialized [!UICONTROL cookie] destination.
+세그먼트를 단일 키의 일련 번호가 없는 `POST` [!UICONTROL cookie] 대상에 매핑할 수 있는 방법입니다.
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -140,7 +140,7 @@ A `POST` method that lets you map a segment to single-key, non-serialized [!UICO
 
 ### 샘플 요청
 
-In the request, the `valueAlias` corresponds to the value in a key-value pair. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+요청에서 이 값은 키-값 쌍의 값에 `valueAlias` 해당합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -175,9 +175,9 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. �
 }
 ```
 
-## Map a Segment to a Cookie Destination: Multi-Key, Non-Serialized {#map-segment-cookie-multi-noserial}
+## 세그먼트를 쿠키 대상에 매핑:다중 키, 일련 번호가 없는 {#map-segment-cookie-multi-noserial}
 
-A `POST` method that lets you map a segment to multi-key, non-serialized [!UICONTROL cookie] destination.
+세그먼트를 여러 개의 키가 있고 일련 번호가 없는 `POST` [!UICONTROL cookie] 대상에 매핑할 수 있는 방법입니다.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -187,7 +187,7 @@ A `POST` method that lets you map a segment to multi-key, non-serialized [!UICON
 
 ### 샘플 요청
 
-In the request, the `traitAlias` and `valueAlias` set the key and the value respectively in a key-value pair. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+요청에서 키-값 쌍에 있는 키와 값을 각각 `traitAlias` 설정하고 `valueAlias` 설정합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -223,9 +223,9 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 }
 ```
 
-## Map a Segment to a Cookie Destination: Multi-Key, Serialized {#map-segment-cookie-multi-serial}
+## 세그먼트를 쿠키 대상에 매핑:다중 키, 직렬화 {#map-segment-cookie-multi-serial}
 
-A `POST` method that lets you map a segment to a multi-key, serialized [!UICONTROL cookie destination].
+세그먼트를 여러 개의 일련 번호로 매핑할 수 있는 `POST` 방법입니다 [!UICONTROL cookie destination].
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -235,7 +235,7 @@ A `POST` method that lets you map a segment to a multi-key, serialized [!UICONTR
 
 ### 샘플 요청
 
-In the request, the `traitAlias` and `valueAlias` set the key and the value in a key-value pair. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+요청에서 키와 값을 키-값 쌍으로 `traitAlias` 설정하고 `valueAlias` 설정합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -271,9 +271,9 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 }
 ```
 
-## Map a Segment to a Server-to-Server Destination {#map-segment-s2s}
+## 서버 간 대상에 세그먼트 매핑 {#map-segment-s2s}
 
-A `POST` method that lets you map a segment to an existing [!UICONTROL server-to-server] destination. Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available [!DNL API] methods.
+세그먼트를 기존 `POST` 대상에 매핑할 수 있는 [!UICONTROL server-to-server] 방법입니다. 그러나 현재 사용 가능한 이러한 [!UICONTROL server-to-server] 방법으로 [!DNL API] 대상을 만들 수는 없습니다.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -283,7 +283,7 @@ A `POST` method that lets you map a segment to an existing [!UICONTROL server-to
 
 ### 샘플 요청
 
-In the request, the `traitAlias` corresponds to the key in a key-value pair. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+요청에서, 키는 키-값 쌍의 키에 `traitAlias` 해당합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -317,9 +317,9 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. 별
 }
 ```
 
-## Bulk Create Destination Mappings {#bulk-create}
+## 대상 매핑 일괄 만들기 {#bulk-create}
 
-A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICONTROL URL] destination mappings.
+배열 `POST` 또는 [!UICONTROL cookie] [!UICONTROL URL] 대상 매핑을 전달할 수 있는 메서드입니다.
 
 <!-- r_bulk_create.xml -->
 
@@ -329,7 +329,7 @@ A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICON
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 [
@@ -350,7 +350,7 @@ A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICON
 
 ### 응답
 
-성공적인 응답은 만들어진 매핑 배열을 반환합니다.
+성공적인 응답은 작성된 매핑의 배열을 반환합니다.
 
 ```
 [
@@ -401,9 +401,9 @@ A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICON
 ]
 ```
 
-## Add Multiple Segments to a Destination {#add-segments-dest}
+## 대상에 여러 세그먼트 추가 {#add-segments-dest}
 
-A `POST` method that lets you map multiple segments to a destination.
+여러 세그먼트를 대상에 매핑할 수 있는 `POST` 방법입니다.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -413,7 +413,7 @@ A `POST` method that lets you map multiple segments to a destination.
 
 ### 샘플 요청
 
-배열에서 여러 대상 매핑을 만듭니다. 별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+배열에서 여러 대상 매핑을 만듭니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 [
@@ -485,9 +485,9 @@ A `POST` method that lets you map multiple segments to a destination.
 ]
 ```
 
-## Update a Destination by Destination ID {#update-dest-data-order}
+## 대상 ID로 대상 업데이트 {#update-dest-data-order}
 
-`PUT` 기존 대상을 업데이트할 수 `destinationId`있는 메서드입니다.
+기존 대상을 업데이트하기 위한 `PUT` 방법입니다 `destinationId`.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -497,7 +497,7 @@ A `POST` method that lets you map multiple segments to a destination.
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -535,9 +535,9 @@ A `POST` method that lets you map multiple segments to a destination.
 }
 ```
 
-## Update a Mapping to a Destination by Mapping ID {#update-mapping-dest-id}
+## 매핑 ID로 대상에 매핑 업데이트 {#update-mapping-dest-id}
 
-A `PUT` method that lets you update a mapping to a destination by the specified `mappingId`.
+지정된 `PUT` 기준으로 대상에 대한 매핑을 업데이트할 수 있는 `mappingId`방법입니다.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
@@ -547,7 +547,7 @@ A `PUT` method that lets you update a mapping to a destination by the specified 
 
 ### 샘플 요청
 
-별도의 언급이 없는 한 모든 요청 값이 필요합니다.
+별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 {

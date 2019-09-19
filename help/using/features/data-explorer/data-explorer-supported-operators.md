@@ -1,22 +1,22 @@
 ---
-description: 논리 연산자를 사용하여 키-값 쌍 및 특성 채우기를 그룹화합니다.
-seo-description: 논리 연산자를 사용하여 키-값 쌍 및 특성 채우기를 그룹화합니다.
+description: 논리 연산자를 사용하여 키-값 쌍을 그룹화하고 트레이트를 채우십시오.
+seo-description: 논리 연산자를 사용하여 키-값 쌍을 그룹화하고 트레이트를 채우십시오.
 seo-title: 지원되는 논리 연산자
 title: 지원되는 논리 연산자
-uuid: 645 fcb 6 f -50 ac -49 bc -8 df 9-c 699 c 749 cf 8 f
+uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
 
 
-# Supported Logical Operators {#supported-logical-operators}
+# 지원되는 논리 연산자 {#supported-logical-operators}
 
-논리 연산자를 사용하여 키-값 쌍 및 특성 채우기를 그룹화합니다.
+논리 연산자를 사용하여 키-값 쌍을 그룹화하고 트레이트를 채우십시오.
 
-## Supported Operators for Signal Search {#supported-operators-search}
+## 신호 검색에 지원되는 연산자 {#supported-operators-search}
 
-다음 지원되는 논리 연산자를 사용하여 키-값 쌍을 검색합니다.
+지원되는 다음 논리 연산자를 사용하여 키-값 쌍을 검색합니다.
 
 ### 비교 연산자
 
@@ -28,14 +28,14 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 | **=&gt;** | 크거나 같음 |
 | **&lt;=** | 작거나 같음 |
 
-### 지정된 연산자
+### 명명된 연산자
 
-| 연산자 | Evaluates to [!DNL True] When |
+| 연산자 | 다음 시점으로 [!DNL True] 평가 |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
+| **[!UICONTROL Contains]** | 키-값 쌍의 값은 이 연산자가 지정한 문자를 *포함합니다* . |
+| **[!UICONTROL Startswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 *시작합니다* . |
+| **[!UICONTROL Endswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 *끝납니다* . |
 
-## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
+## 트레이트 채우기 및 추정에 대해 지원되는 연산자 {#supported-operators-backfilling}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
+에서 지원하는 연산자가 포함된 표현식을 포함하는 트레이트를 채울 수 [!UICONTROL Signal Search]있습니다. 이러한 연산자 외에도 트레이트 채우기 및 추정은 백채워진 트레이트 표현식 내에서 키-값 쌍을 결합하는 데 사용되는 [!UICONTROL AND], [!UICONTROL OR]및 [!UICONTROL AND NOT] 논리 연산자를 지원합니다.

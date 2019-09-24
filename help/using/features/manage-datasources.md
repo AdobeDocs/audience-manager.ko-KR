@@ -1,13 +1,13 @@
 ---
 description: 새 데이터 소스를 만들려면 대상 데이터 > 데이터 소스 > 새로 추가로 이동하여 여기에 설명된 각 섹션에 대한 단계를 완료합니다. 데이터 소스를 만들려면 관리자 권한이 필요합니다.
-keywords: cdf;사용자 지정 데이터 피드
+keywords: 데이터 소스 관리 데이터 소스 관리
 seo-description: 새 데이터 소스를 만들려면 대상 데이터 > 데이터 소스 > 새로 추가로 이동하여 여기에 설명된 각 섹션에 대한 단계를 완료합니다. 데이터 소스를 만들려면 관리자 권한이 필요합니다.
 seo-title: 데이터 소스 만들기
 solution: Audience Manager
-title: 데이터 소스 만들기
+title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ---
 
@@ -53,31 +53,31 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## Data Source Settings {#settings}
 
-이러한 설정에 따라 데이터 소스가 식별, 사용 및 공유되는 방식이 결정됩니다. 인바운드 데이터 파일에 대한 오류 보고를 활성화할 수도 있습니다. 섹션을 완료하려면 [!UICONTROL Data Source Settings] 다음을 수행하십시오.
+이러한 설정에 따라 데이터 소스가 식별, 사용 및 공유되는 방식이 결정됩니다. You can also enable error reporting for inbound data files. 섹션을 완료하려면 [!UICONTROL Data Source Settings] 다음을 수행하십시오.
 
 1. 데이터 소스에 옵션을 적용하려면 [!UICONTROL Data Source Setting] 확인란을 선택합니다.
 2. 클릭 **[!UICONTROL Save]**.
 
->[!MORELIKE_THIS]
+>[!MORE_LIKE_THIS]
 >
->* [데이터 소스 설정 및 메뉴 옵션](../features/datasources-list-and-settings.md#settings-menu-options)
+>* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 
 
-## 데이터 소스 삭제 {#delete-data-source}
+## Delete a Data Source {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-더 이상 필요하지 않은 데이터 소스를 삭제합니다.
+Delete a data source that you no longer need.
 
 >[!NOTE]
 >
->다음 제한 사항을 참고하십시오.
+>Please note the following restrictions:
 >
->* 활성 대상자 또는 데이터 [소스 동기화된 트레이트는 삭제할 수 없습니다](../features/traits/client-activity-synced-audience-traits.md).
->* Adobe Analytics를 사용하는 고객의 경우:Audience Manager에서는 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. 코어 [서비스를](https://marketing.adobe.com/resources/help/en_US/mcloud/) 사용하여 이러한 데이터 소스를 매핑을 해제합니다.
+>* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md).
+>* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the Core Service to unmap these data sources.[](https://marketing.adobe.com/resources/help/en_US/mcloud/)
 
 
 1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
 1. 하나 이상의 데이터 소스 옆의 확인란을 선택합니다.
-긴 목록이 있는 경우 이 [!UICONTROL Search] 상자를 사용하여 원하는 데이터 소스를 찾을 수 있습니다.
-1. 을 ![](assets/icon_trash.png)클릭한 다음 삭제를 확인합니다.
+You can use the  box to locate the desired data sources if you have a long list.[!UICONTROL Search]
+1. Click  , then confirm the deletion.![](assets/icon_trash.png)

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 개인 정보 및 데이터 유지 FAQ
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
 
 ---
 
@@ -56,7 +56,7 @@ See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge Server </p> </td> 
-   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후 Edge Server에서 사용자 데이터를 삭제합니다. Audience <span class="keyword"> Manager가</span> 이 14일 주기 내에 사용자 활동을 기록하는 경우, 이 데이터는 14일 동안 추가로 보관됩니다. 사용자가 14일 이후에 다시 활성화되면 첫 번째 새 페이지 뷰와 사용자가 작업을 수행할 수 있게 되는 시기 사이에 지연이 발생합니다. 14일 이상의 비활동 상태가 발생한 후 전체 프로필을 Edge Center로 다시 가져오려면 6-18시간이 소요됩니다. </p> </td> 
+   <td colname="col2"> <p> 14-days. </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후 Edge Server에서 사용자 데이터를 삭제합니다. Audience <span class="keyword"> Manager가</span> 이 14일 주기 내에 사용자 활동을 기록하는 경우, 이 데이터는 14일 동안 추가로 보관됩니다. 사용자가 14일 이후에 다시 활성화되면 첫 번째 새 페이지 뷰와 사용자가 작업을 수행할 수 있게 되는 시기 사이에 지연이 발생합니다. 14일 이상의 비활동 상태가 발생한 후 전체 프로필을 Edge Center로 다시 가져오려면 6-18시간이 소요됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Raw 로그 </p> </td> 
@@ -64,23 +64,23 @@ See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/
   </tr> 
   <tr> 
    <td colname="col1"> <p>광고 서버 로그 </p> </td> 
-   <td colname="col2"> <p><b>보고</b> </p> <p>로그 파일은 최대 30일 동안 보고용으로 유지됩니다. Adobe는 백 엔드 저장소에서 일치하지 않는 로그(즉, 방문자의 광고 서버 ID와 Audience Manager ID 사이에 ID가 동기화되지 않은 로그) <span class="keyword"> 를</span> 지속하지 않으며, Amazon S3에 <span class="keyword"> 저장된 일치된 로그는 최대 30일 동안</span> 유지됩니다. </p> <p><b>실행 가능 로그 파일</b> </p> <p>일치된 로그와 일치하지 않는 로그가 최대 30일 동안 유지됩니다. </p> </td> 
+   <td colname="col2"> <p><b>보고</b> </p> <p>Log files are retained for reporting purposes for up to 30 days. We do not persist unmatched logs (i.e. logs for which there is no ID sync between a visitor's ad server ID and <span class="keyword"> Audience Manager</span> ID) in our backend storage, and matched logs stored in <span class="keyword"> Amazon S3</span> are retained for up to 30 days. </p> <p><b>실행 가능 로그 파일</b> </p> <p>Both matched and unmatched logs are retained for up to 30 days. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CRM 수준 프로필(인증된 프로필) </p> </td> 
-   <td colname="col2"> <p>비활성 CRM 수준 프로필(고객 ID)의 기본 TTL(Time to Live) 간격은 24개월입니다. 그러나 Audience Manager UI를 사용하여 비활성 CRM 수준 프로필의 TTL 간격을 1개월에서 5년 사이 줄이거나 확장할 수 있습니다. 크로스 장치 데이터 소스를 만들거나 편집할 때 이를 수행할 수 있습니다.</p> <p>자세한 내용은 장치 간 데이터 소스 <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> 만들기에서 데이터 소스 설정을 참조하십시오 </a>.</p> </td> 
+   <td colname="col1"> <p>CRM-level profiles (authenticated profiles) </p> </td> 
+   <td colname="col2"> <p>The default time-to-live (TTL) interval for inactive CRM-level profiles (Customer IDs) is 24 months. However, you can use the Audience Manager UI to reduce or extend the TTL interval for inactive CRM-level profiles between one month and 5 years. You can accomplish this when creating or editing a Cross-Device data source.</p> <p>For more information, see Data Source Settings in  Create a Cross-Device Data Source .<a href="../features/profile-merge-rules/merge-rules-start.md#settings"></a></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>모바일 장치 ID </p> </td> 
-   <td colname="col2"> <p>모바일 장치 ID(IDFA,<a href="../reference/ids-in-aam.md"> GAID</a>)에 대한 보존 조건은 처음 두 행, 백엔드 서버 및 Edge Server에 설명된 cadence를 따릅니다. </p> </td> 
+   <td colname="col1"> <p>Mobile Device IDs </p> </td> 
+   <td colname="col2"> <p>The retention conditions for mobile device IDs ( IDFA, GAID) follow the cadence described in the first two rows, back-end servers and edge servers.<a href="../reference/ids-in-aam.md"></a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>고객 데이터 피드(CDF) </p> </td> 
-   <td colname="col2"> <p>CDF 파일에는 Audience Manager 이벤트 호출(/event)이 <span class="keyword"> Adobe</span> 서버로 전송하는 것과 동일한 데이터가 들어 있습니다. 보존 기간은 8일입니다. CDF에 대한 자세한 내용은 CDF 소개 및 <a href="../features/cdf-files.md"> CDF</a> FAQ를 <a href="../faq/faq-cdf.md"> 참조하십시오</a>. </p> </td> 
+   <td colname="col1"> <p>Customer Data Feeds (CDF) </p> </td> 
+   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. The retention period is 8 days. For more details about CDF, please refer to  CDF Intro and  CDF FAQ.<a href="../features/cdf-files.md"></a><a href="../faq/faq-cdf.md"></a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>동기화된 ID 간 매핑 </p> </td> 
-   <td colname="col2"> <p>동기화된 ID 간 매핑은 연결된 Audience Manager 고유 사용자 ID( <a href="../reference/ids-in-aam.md"> AAM UUID)</a>동안 유지될 수 있습니다. </p> </td> 
+   <td colname="col1"> <p>Mappings between synchronized IDs </p> </td> 
+   <td colname="col2"> <p>Audience Manager 쿠키 ID( <a href="../features/administration/usage-limits.md#id-mapping-limits"> Audience Manager 고유 사용자 ID 또는 AAM UUID</a> )와 타사 쿠키 ID 간의 ID 매핑의<a href="../reference/ids-in-aam.md"></a>수명은 120일로 제한됩니다. Audience Manager 쿠키를 Audience Manager 네트워크에서 볼 때마다 ID 매핑의 수명이 재설정됩니다. 최신 ID 매핑 동기화는 연결된 Audience Manager 고유 사용자 ID( <a href="../reference/ids-in-aam.md">AAM UUID)</a>수명 동안 유지됩니다.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>인바운드 데이터 </p> </td> 

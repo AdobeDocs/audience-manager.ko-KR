@@ -5,12 +5,15 @@ seo-title: 공유 가능한 대상
 solution: Audience Manager
 title: 공유 가능한 대상
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # 공유 가능한 대상 {#shareable-audiences}
+
+>[!IMPORTANT]
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
 
 [!DNL People-Based Destinations] adobe Audience Manager [!DNL Shareable Audiences] 에 활용 이 지표는 Audience Manager가 대상 플랫폼과 공유할 수 있는 해시된 이메일 주소 수를 파악하는 데 도움이 됩니다.
 
@@ -40,14 +43,14 @@ Audience Manager 고객에게는 110,000개의 DPUUID(CRM ID) [가](../../refere
 
 이 시나리오에서:
 
-* 세그먼트 A 공유 가능한 대상자 = 10,000;
-* 세그먼트 B 공유 가능한 대상자 = 20,000;
-* 세그먼트 C 공유 가능한 대상자 = 50,000;
-* 대상 A 공유 가능한 대상자 = 세그먼트 A 공유 가능한 대상자 + 세그먼트 B 공유 가능한 대상자 = 30,000;
-* 대상 B 공유 가능한 대상자 = 세그먼트 C 공유 가능한 대상자 = 50,000입니다.
+* Segment A Shareable Audience = 10,000;
+* Segment B Shareable Audience = 20,000;
+* Segment C Shareable Audience = 50,000;
+* Destination A Shareable Audience = Segment A Shareable Audience + Segment B Shareable Audience = 30,000;
+* Destination B Shareable Audience = Segment C Shareable Audience = 50,000.
 
 ![shareable-audiences-diagram](assets/shareable-audiences.png)
 
 > [!NOTE]
 >
-> 위의 예에서, 세 개의 세그먼트에서 해시된 모든 80,000개의 이메일 주소가 대상 플랫폼의 기존 계정과 일치한다는 의미는 아닙니다. 이것은 Audience Manager가 세 세그먼트의 해시된 식별자를 각각의 대상으로 전송한다는 것을 의미합니다. 고객 세그먼트를 사람 기반 대상으로 보낼 때 파트너 측에서 고객 일치를 수행합니다. 대상 A에는 최대 30,000개의 일치하는 사용자 계정이 있을 수 있지만 대상 B에는 최대 50,000개의 일치하는 사용자 계정이 있을 수 있지만 일치율은 보장되지 않습니다. Adobe는 파트너별 지표에 액세스할 수 없습니다. 일치율의 [사람](../../faq/faq-people-based-destinations.md#match-rates) 기반 대상 가시성에 대한 FAQ는 비율 일치를 참조하십시오.
+> In the example above, it does not mean that all the 80,000 hashed email addresses from the three segments match existing accounts in the destination platforms. It only means that Audience Manager sends the hashed identifiers from the three segments to their respective destinations. When sending audience segments to people-based destinations, audience matching happens on the partner side. Destination A may have up to 30,000 matching user accounts, whereas Destination B may have up to 50,000 matching user accounts, but there is no guarantee of match rates. Adobe does not have access to partner-specific metrics. See Match Rates for frequently asked questions about People-Based Destinations visibility in match rates.[](../../faq/faq-people-based-destinations.md#match-rates)

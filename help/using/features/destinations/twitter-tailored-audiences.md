@@ -5,7 +5,7 @@ seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
+source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
 
 ---
 
@@ -88,6 +88,10 @@ Audience Manager와 대상을 연결한 [!DNL Twitter Tailored Audiences]후 새
 
 * 올바른 세그먼트 또는 매핑 이름:"미국 및 유럽 구매자";
 * 잘못된 세그먼트 또는 매핑 이름:"미국, 유럽 5h0pP3rs".
+
+## 일치 비율 고려 사항 {#match-rates-considerations}
+
+사용할 [!UICONTROL Twitter Tailored Audiences]때, 대상 페이지의 [!UICONTROL Segment Addressable Audience] 및 [!UICONTROL Segment Match Rate] 지표에는 값이 표시되지 않습니다. 이 대상에 대한 일치 비율과 함께 대상을 일치시키면 Adobe가 아니라 Adobe가 처리 및 호스팅하기 때문에 이는 정상적인 동작입니다. [!UICONTROL Twitter]
 
 >[!IMPORTANT]
 >

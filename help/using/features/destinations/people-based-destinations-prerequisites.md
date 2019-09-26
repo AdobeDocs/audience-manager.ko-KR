@@ -5,12 +5,15 @@ seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
 solution: Audience Manager
 title: 전제 조건 및 고려 사항
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # 전제 조건 및 고려 사항 {#prerequisites-considerations}
+
+>[!IMPORTANT]
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
 
 등록하기 전에 충족해야 하는 고객 요구 사항에 대한 개요는 아래를 [!DNL People-Based Destinations]참조하십시오.
 
@@ -32,14 +35,14 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 1. 사용자 [!DNL Facebook] 계정에는 사용할 **광고 계정에 대해 캠페인** 관리 권한이 활성화되어 있어야 합니다.
 1. Adobe Experience **Cloud** 비즈니스 계정을 광고 파트너에 [!DNL Facebook Ad Account]추가합니다. 활동을 만들려면 `business ID=206617933627973`. 자세한 [내용은 비즈니스 관리자에 파트너](https://www.facebook.com/business/help/708679622611131) 추가를 참조하십시오.
    >[!IMPORTANT]
-   > Adobe Experience Cloud에 대한 권한을 구성할 때 캠페인 **관리** 권한을 활성화해야 합니다. This is required for the [!DNL People-Based Destinations] integration.
-1. Read and sign the [!DNL Facebook Custom Audiences] Terms of Service. To do this, go to , where  is your .`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]``accountID`[!DNL Facebook Ad Account ID]
+   > Adobe Experience Cloud에 대한 권한을 구성할 때 캠페인 **관리** 권한을 활성화해야 합니다. 이 작업은 [!DNL People-Based Destinations] 통합에 필요합니다.
+1. 서비스 약관을 읽고 [!DNL Facebook Custom Audiences] 서명합니다. 이렇게 하려면, `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`어디로 `accountID` 가십시오 [!DNL Facebook Ad Account ID].
 
-## Data Onboarding {#data-onboarding}
+## 데이터 온보딩 {#data-onboarding}
 
-Data ingestion for  currently supports up to 10 hashed email addresses linked to one customer ID (), per batch transfer. [!DNL People-Based Destinations][!DNL CRM ID] Uploading more than 10 hashed email addresses linked to one customer ID causes Audience Manager to ingest 10 of them, in no specific order.
+데이터 수집은 [!DNL People-Based Destinations] 현재 일괄 전송당 하나의 고객 ID([!DNL CRM ID])에 연결된 해시된 이메일 주소를 최대 10개까지 지원합니다. 하나의 고객 ID에 연결된 해시된 이메일 주소를 10개 이상 업로드하면 Audience Manager가 10개를 특정 순서 없이 인제스트합니다.
 
-Uploading more than 10 hashed email addresses linked to one customer ID in multiple batch transfers causes Audience Manager to retain the most recent 10 email addresses added.
+여러 일괄 전송에서 하나의 고객 ID에 연결된 해시된 이메일 주소를 10개 이상 업로드하면 Audience Manager가 추가된 최신 이메일 주소 10개를 유지합니다.
 
 ## 데이터 개인 정보{#data-privacy}
 
@@ -51,31 +54,31 @@ Uploading more than 10 hashed email addresses linked to one customer ID in multi
 
 해싱은 고유한 결과를 생성하기 위해 입력을 스크램블하는 단방향 함수입니다. 이와 같이 적절한 해싱 알고리즘을 [!DNL SHA256]사용하면 해싱 기능을 역동적으로 전환하여 스크램블된 정보를 표시할 수 없습니다. Audience Manager에 포함될 이메일 주소는 [!DNL SHA256] 알고리즘으로 해시되어야 합니다. 이렇게 하면 해시되지 않은 이메일 주소가 Audience Manager에 도달하지 않도록 할 수 있습니다.
 
-## Hashing Requirements {#hashing-requirements}
+## 해싱 요구 사항 {#hashing-requirements}
 
-When hashing the email addresses, make sure to comply with the following requirements:
+이메일 주소를 해싱할 때는 다음 요구 사항을 준수해야 합니다.
 
 * 이메일 문자열에서 모든 선행 및 후행 공백을 트리밍합니다.예: `johndoe@example.com`그렇지 `<space>johndoe@example.com<space>`않음
 * 해시된 문자열이 모두 소문자인지 확인하십시오.예: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`그렇지 `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`않음
 * 문자열의 소금을 치지 마십시오.
 
-Adobe Experience Cloud gives you the option to hash customer IDs through the Experience Cloud ID Service. See SHA256 Hashing Support for setCustomerIDs for detailed information on how to use ECID to hash customer IDs.[](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)
+Adobe Experience Cloud ID 서비스를 통해 고객 ID를 해시할 수 있는 옵션이 제공됩니다. ECID를 [사용하여 고객 ID를](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 해시하는 방법에 대한 자세한 내용은 setCustomerID에 대한 SHA256 해싱 지원을 참조하십시오.
 
 ## 사용자 권한 얻기 {#obtaining-user-permission}
 
-Since  helps you activate first-party audience data in people-based channels, it is your responsibility to inform and obtain any necessary consents from your customers of how you will use their data for advertising or other purposes.[!DNL People-Based Destinations]
+사람 기반 채널에서 자사 고객 데이터를 활성화하는 [!DNL People-Based Destinations] 데 도움이 되므로 광고 또는 기타 목적으로 자사 데이터를 사용하는 방법에 대해 고객에게 알리고 필요한 동의를 얻는 것은 사용자의 책임입니다.
 
 가입하기 전에 [!DNL People-Based Destinations]광고 목적으로 고객의 정보를 사용하기 전에 고객의 동의를 받아야 합니다.
 
 고객이 광고 캠페인을 옵트아웃하려는 경우 Audience Manager [의](../../overview/data-security-and-privacy/opt-out-management.md) 데이터 수집을 중지하는 방법에 대한 자세한 내용은 옵트아웃 관리를 참조하십시오.
 
-## Enforcing First-Party Data Activation {#enforcing-first-party-activation}
+## 퍼스트 파티 데이터 활성화 적용 {#enforcing-first-party-activation}
 
 사용 [!DNL People-Based Destinations]시 퍼스트 파티 데이터만 사용하여 사람 기반 채널에서 고객 세그먼트를 활성화할 수 있습니다. 사람 기반 채널에서 고객 활성화를 위해 제휴 데이터 또는 타사 데이터를 사용할 수 없습니다.
 
 ## 선언된 ID 타깃팅을 통해 인증된 해시 ID 온보드 {#onboard-authenticated-declared-id}
 
-There are two ways you can bring your offline data to Audience Manager for .[!DNL People-Based Destinations]
+두 가지 방법으로 Audience Manager에 오프라인 데이터를 가져올 수 [!DNL People-Based Destinations]있습니다.
 
-* [Send batch data to Audience Manager to ingest hashed email addresses. ](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) With this method, you can choose to use the hashed email addresses from your  database in . [!DNL CRM][!DNL People-Based Destinations] 또한 이 방법을 사용할 때 온보드 트레이트에 대해 해시된 이메일 주소를 [평가할](../traits/trait-qualification-reference.md)수도 있습니다.
+* [일괄 처리 데이터를](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) Audience Manager로 보내 해시된 이메일 주소를 인제스트합니다. 이 방법을 사용하면 [!DNL CRM] 데이터베이스에서 해시된 이메일 주소를 사용할 수 [!DNL People-Based Destinations]있습니다. 또한 이 방법을 사용할 때 온보드 트레이트에 대해 해시된 이메일 주소를 [평가할](../traits/trait-qualification-reference.md)수도 있습니다.
 * 인증된 [고객 ID를 전달할](../declared-ids.md) 때 선언된 ID를 사용하여 해시된 이메일 주소를 선언합니다. 이 방법을 사용할 때 Audience Manager는 사용자를 대신하여 온라인에서 인증된 사용자의 해시된 이메일 [!DNL People-Based Destinations] 주소에만 전송합니다. 사람 기반 채널을 통해 활성화되는 이메일 주소는 선언된 ID 이벤트 호출의 이메일 주소만 해당됩니다. 고객 ID와 연결된 다른 이메일 주소는 실시간으로 전송되지 않습니다.

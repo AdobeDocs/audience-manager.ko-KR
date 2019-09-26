@@ -5,12 +5,15 @@ seo-title: 사용자 기반 대상 구현 지침
 solution: Audience Manager
 title: 구현 지침
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # 구현 지침 {#implementation-guidance}
+
+>[!IMPORTANT]
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
 
 [!DNL People-Based Destinations] 고객 데이터의 구성에 따라 다양한 구현 전략을 제공합니다. 이 문서에서는 시나리오에 따라 수행해야 하는 구현 단계에 대한 개요를 [!DNL People-Based Destinations]제공합니다.
 
@@ -67,7 +70,7 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 Audience Manager에 있는 고객 ID 유형에 따라 다릅니다( [3 참조). 보유하고 있는 고객 ID(CRM ID)의](people-based-destinations-workflow.md#identify-customer-id)유형을 확인합니다. 다음 시나리오 중 하나를 통해 자신을 찾을 수 있습니다.
 
-**A) 기존 데이터 소스에**&#x200B;레이블을 지정합니다. 이 옵션은 Audience Manager 고객 ID(DPUUID)[가](../../reference/ids-in-aam.md)이미 소문자이고 해시된 이메일 주소가 있는 시나리오에 적용됩니다. 이 경우 ID를 [!DNL PII] 데이터 소스로 저장하는 데이터 소스에 레이블을 지정해야 합니다. 데이터 [소스 설정에](../datasources-list-and-settings.md) 대한 자세한 내용은 데이터 소스 설정을 참조하십시오. 개인 정보에 연결할 수 없음 옵션을 선택 취소해야 합니다.
+**A) 기존 데이터 소스에**&#x200B;레이블을 지정합니다. 이 옵션은 Audience Manager 고객 ID(DPUUID)[가](../../reference/ids-in-aam.md)이미 소문자이고 해시된 이메일 주소가 있는 시나리오에 적용됩니다. 이 경우 ID를 [!DNL PII] 데이터 소스로 저장하는 데이터 소스에 레이블을 지정해야 합니다. 데이터 [소스 설정에](../datasources-list-and-settings.md) 대한 자세한 내용은 데이터 소스 설정을 참조하십시오. Cannot be connected information 옵션을 선택 취소해야 합니다.
 
 **B) 새 데이터 소스를**&#x200B;만듭니다. 이 옵션은 Audience Manager 고객 ID(DPUUID)[가](../../reference/ids-in-aam.md)해시된 이메일 주소가 아닌 시나리오에 적용됩니다. 이 경우 새로운 크로스 디바이스 데이터 소스를 만들고 해시 처리한 이메일 주소를 게재해야 합니다. 다음 두 가지 방법으로 이 작업을 수행할 수 있습니다.
 

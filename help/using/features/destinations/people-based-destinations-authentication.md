@@ -5,7 +5,7 @@ seo-title: 사용자 기반 플랫폼을 통한 인증
 solution: Audience Manager
 title: 사용자 기반 플랫폼을 통한 인증
 translation-type: tm+mt
-source-git-commit: 05f334dc3d975a0fe18b93c844889e3edb2dfafa
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 05f334dc3d975a0fe18b93c844889e3edb2dfafa
    ![사용자 기반 플랫폼](assets/pbd-add.png)
 1. 아이콘을 **[!UICONTROL Confirm]** 클릭하여 선택한 플랫폼의 인증 페이지로 리디렉션합니다.
 1. 소셜 플랫폼 계정에 인증되면 연결된 광고주 계정이 표시되는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 을 **[!UICONTROL Confirm]**&#x200B;클릭합니다.
-1. Audience Manager는 계정 성공적으로 추가되었는지 여부를 알려주는 알림을 페이지 상단에 표시합니다. 또한 알림을 통해 소셜 플랫폼 인증이 만료될 때 알림을 수신할 연락처 이메일 주소를 추가할 수 있습니다.
+1. Audience Manager는 계정 성공적으로 추가되었는지 여부를 알려주는 알림을 페이지 상단에 표시합니다. 또한 이 알림을 통해 소셜 플랫폼 인증이 만료될 때 Adobe로부터 알림을 수신할 연락처 이메일 주소를 추가할 수 있습니다.
 
 ## 인증 토큰 만료 및 알림 관리 {#token-expiration-notification}
 

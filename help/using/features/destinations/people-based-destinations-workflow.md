@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 구현 지침
 solution: Audience Manager
 title: 구현 지침
 translation-type: tm+mt
-source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
 
 **A) 통합된 온라인 및 오프라인 사용자 활동을**&#x200B;기반으로 고객 타깃팅 이 시나리오에서는 Audience Manager의 기존 대상 데이터와 내부 [!DNL CRM] 시스템의 데이터를 결합하고 결과 대상 세그먼트를 로 보내려고 [!DNL People-Based Destinations]합니다. 다음은 이 시나리오를 보여주는 예입니다.
 
-항공사인 귀사는 서로 다른 고객 계층(브론즈, 실버, 골드)을 가지며 각 계층에 소셜 플랫폼을 통해 개인화된 상품을 제공하려고 합니다. Audience Manager를 사용하여 웹 사이트의 고객 활동을 분석할 수 있습니다. 그러나 모든 고객이 항공사 모바일 앱을 사용하는 것은 아니며 일부는 회사의 웹사이트에 로그인조차 하지 않았습니다. 고객 데이터는 대부분 멤버십 ID 및 이메일 주소로 제한됩니다.
+항공사인 귀사는 서로 다른 고객 계층(브론즈, 실버, 골드)을 가지며 각 계층에 소셜 플랫폼을 통해 개인화된 상품을 제공하려고 합니다. Audience Manager를 사용하여 웹 사이트의 고객 활동을 분석할 수 있습니다. 그러나 모든 고객이 항공사 모바일 앱을 사용하는 것은 아니며 일부 고객은 회사의 웹사이트에 로그인하지 않았습니다. 고객 데이터는 대부분 멤버십 ID 및 이메일 주소로 제한됩니다.
 
 소셜 미디어 및 유사한 사용자 기반 채널에서 타깃팅하려면 [해시된 이메일 주소를](people-based-destinations-prerequisites.md) Audience Manager로 가져와서 기존 온라인 활동 트레이트와 결합하여 새로운 고객 세그먼트를 만들 수 있습니다. 그런 다음 이러한 세그먼트를 사용하여 고객을 타겟팅할 수 [!DNL People-Based Destinations]있습니다.
 
@@ -45,7 +45,7 @@ source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
 
 **A) 인증된 이메일 주소를**&#x200B;기반으로 고객 타깃팅 이 시나리오에서는 사용자가 여러 이메일 주소와 연결된 여러 개의 계정을 가지고 있으며, 사용자가 웹 사이트에서 인증하는 이메일 주소를 기반으로 개인화된 오퍼로 타깃팅하고자 할 수 있습니다.
 
-**B) 연결된 모든 이메일 주소를**&#x200B;기반으로 고객 타깃팅 이 시나리오에서 사용자는 여러 개의 이메일 주소와 연결된 여러 개의 계정을 가지고 있으며 인증된 활동과 상관없이 모든 연결된 이메일 주소에 대해 이를 타깃팅하려고 합니다.
+**B) 관련된 모든 이메일 주소를**&#x200B;기반으로 하는 대상 타깃팅 이 시나리오에서 사용자는 여러 개의 이메일 주소와 연결된 여러 개의 계정을 가지고 있으며 인증된 활동과 상관없이 모든 연결된 이메일 주소에 대해 이를 타깃팅하려고 합니다.
 
 ## 3.보유하고 있는 고객 ID(CRM ID) 유형 식별 {#identify-customer-id}
 
@@ -59,20 +59,20 @@ source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
 
 고객을 정확하게 타깃팅하려면 [!DNL People-Based Destinations]수행하려는 대상 타깃팅 유형에 따라 규칙 기반 트레이트 또는 온보드 트레이트의 자격을 갖추어야 합니다.
 
-**A) 고객 ID와 디바이스 ID를 실시간으로 평가하여 규칙 기반의 트레이트를**&#x200B;확인할 수 있습니다. 이 옵션은 사용 사례 A에서 [10까지의 경우에 적용됩니다. 사용 사례](people-based-destinations-workflow.md#defining-your-use-case)정의 온라인 및 오프라인 활동을 기반으로 고객을 타깃팅하는 계획이 있다면, [규칙 기반의 트레이트를](../traits/trait-qualification-reference.md)위해 고객을 이미 자격을 갖춘 것입니다.
+**A) 고객 ID와 디바이스 ID를 실시간으로 확인하여 규칙 기반의 트레이트를**&#x200B;적용할 수 있습니다. 이 옵션은 사용 사례 A에서 [10까지의 경우에 적용됩니다. 사용 사례](people-based-destinations-workflow.md#defining-your-use-case)정의 온라인 및 오프라인 활동을 기반으로 고객을 타깃팅하는 계획이 있다면, [규칙 기반의 트레이트를](../traits/trait-qualification-reference.md)위해 고객을 이미 자격을 갖춘 것입니다.
 
-**B) 인바운드 데이터 파일을**&#x200B;통해 고객 ID에 대한 트레이트 확보 이 옵션은 [1의 사용 사례 B에 적용됩니다. 사용 사례](people-based-destinations-workflow.md#defining-your-use-case)정의 순전히 오프라인 활동을 기반으로 고객을 타깃팅할 때 [인바운드 데이터 파일을](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)통해 고객 ID의 온보딩 트레이트를 확인해야 합니다.
+**B) 인바운드 데이터 파일을**&#x200B;통해 고객 ID에 대한 트레이트를 제출합니다. 이 옵션은 [1의 사용 사례 B에 적용됩니다. 사용 사례](people-based-destinations-workflow.md#defining-your-use-case)정의 순전히 오프라인 활동을 기반으로 고객을 타깃팅할 때 [인바운드 데이터 파일을](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)통해 고객 ID의 온보딩 트레이트를 확인해야 합니다.
 
 ## 5.데이터 소스 및 해시된 이메일 주소 만들기 또는 레이블 지정 {#create-label-data-sources}
 
 Audience Manager에 있는 고객 ID 유형에 따라 다릅니다( [3 참조). 보유하고 있는 고객 ID(CRM ID)의](people-based-destinations-workflow.md#identify-customer-id)유형을 확인합니다. 다음 시나리오 중 하나를 통해 자신을 찾을 수 있습니다.
 
-**A) 기존 데이터 소스에**&#x200B;레이블을 지정합니다. 이 옵션은 Audience Manager 고객 ID(DPUUID)[가](../../reference/ids-in-aam.md)이미 소문자이고 해시된 이메일 주소가 있는 시나리오에 적용됩니다. 이 경우 ID를 [!DNL PII] 데이터 소스로 저장하는 데이터 소스에 레이블을 지정해야 합니다. 데이터 [소스 설정에](../datasources-list-and-settings.md) 대한 자세한 내용은 데이터 소스 설정을 참조하십시오. Cannot be connected information 옵션을 선택 취소해야 합니다.
+**A) 기존 데이터 소스에**&#x200B;레이블을 지정합니다. 이 옵션은 Audience Manager 고객 ID(DPUUID)[가](../../reference/ids-in-aam.md)이미 소문자이고 해시된 이메일 주소가 있는 시나리오에 적용됩니다. 이 경우 ID를 [!DNL PII] 데이터 소스로 저장하는 데이터 소스에 레이블을 지정해야 합니다. 데이터 [소스 설정에](../datasources-list-and-settings.md) 대한 자세한 내용은 데이터 소스 설정을 참조하십시오. 개인 정보에 연결할 수 없음 옵션을 선택 취소해야 합니다.
 
-**B) 새 데이터 소스를**&#x200B;만듭니다. 이 옵션은 Audience Manager 고객 ID(DPUUID)[가](../../reference/ids-in-aam.md)해시된 이메일 주소가 아닌 시나리오에 적용됩니다. 이 경우 새로운 크로스 디바이스 데이터 소스를 만들고 해시 처리한 이메일 주소를 작성해야 합니다. 다음 두 가지 방법으로 이 작업을 수행할 수 있습니다.
+**B) 새 데이터 소스를**&#x200B;만듭니다. 이 옵션은 Audience Manager 고객 ID(DPUUID)[가](../../reference/ids-in-aam.md)해시된 이메일 주소가 아닌 시나리오에 적용됩니다. 이 경우 새로운 크로스 디바이스 데이터 소스를 만들고 해시 처리한 이메일 주소를 게재해야 합니다. 다음 두 가지 방법으로 이 작업을 수행할 수 있습니다.
 
 * 파일 기반 ID 동기화 사용 ID [동기화 파일의 모양에 대한 자세한](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) 내용은 ID 동기화 파일의 이름 및 컨텐츠 요구 사항을 참조하십시오. 이 방법을 사용하는 경우 [!DNL CRM] 데이터베이스에서 해시된 모든 이메일 주소를 타깃팅할 수 있습니다.
-* 인증된 고객 ID를 전달할 때 [선언된 ID를](../declared-ids.md) 사용하여 해시된 이메일 주소를 선언합니다. 이 방법을 사용하는 경우 Audience Manager는 온라인에서 인증된 사용자의 해시된 이메일 주소만 타깃팅합니다. Facebook을 통해 타깃팅된 이메일 주소는 선언된 ID 이벤트 호출에 있는 이메일 주소만 해당됩니다. 고객 ID와 연결된 다른 이메일 주소는 실시간으로 활성화되지 않습니다.
+* 인증된 고객 ID를 전달할 때 [선언된 ID를](../declared-ids.md) 사용하여 해시된 이메일 주소를 선언합니다. 이 방법을 사용할 때 Audience Manager는 사용자를 대신하여 온라인에서 인증된 사용자의 해시된 이메일 주소만 타깃팅합니다. 사람 기반 채널에서 타깃팅된 이메일 주소는 선언된 ID 이벤트 호출의 이메일 주소만 해당됩니다. 고객 ID와 연결된 다른 이메일 주소는 실시간으로 활성화되지 않습니다.
 
 ## 6.세그멘테이션에 프로필 병합 규칙 사용 {#use-profile-merge-rules}
 

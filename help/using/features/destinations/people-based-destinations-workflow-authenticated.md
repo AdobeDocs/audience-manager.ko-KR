@@ -5,12 +5,15 @@ seo-title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활
 solution: Audience Manager
 title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 개인화 {#workflow-c}
+
+>[!IMPORTANT]
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
 
 이 페이지에는 오프라인 [!DNL CRM] 데이터와 인증된 사용자를 위한 실시간 행동 데이터를 결합하여 고객 세그먼트를 만든 다음 이러한 고객 세그먼트를 보낼 수 있는 방법에 대한 단계별 지침이 포함되어 [!DNL People-Based Destinations]있습니다.
 
@@ -89,7 +92,7 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
 1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**&#x200B;으로 이동합니다.
 2. 클릭 **[!UICONTROL Add New Rule]**.
 3. 프로필 병합 규칙을 **[!UICONTROL Name]** 입력하고 **[!UICONTROL Description]**&#x200B;을 클릭합니다.
-4. 섹션의 **[!UICONTROL Profile Merge Rule Setup]** 목록에서 **[!UICONTROL All Cross-Device Profiles]** 규칙을 선택합니다 **[!UICONTROL Cross-Device Options]** .
+4. 섹션의 **[!UICONTROL Profile Merge Rule Setup]** 목록에서 **[!UICONTROL Current Authenticated Profiles]** 규칙 **[!UICONTROL Last Authenticated Profiles]** 또는 **[!UICONTROL Cross-Device Options]** 규칙을 선택합니다.
 5. 목록에서 세그멘테이션을 실행할 데이터 소스를 **[!UICONTROL Cross-Device Profile Options]** 선택합니다. 기존 DPUUID를 포함하는 데이터 소스여야 합니다.
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 

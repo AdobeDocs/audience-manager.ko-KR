@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 개요 및 사용 사례
 solution: Audience Manager
 title: 개요 및 사용 사례
 translation-type: tm+mt
-source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
 
 ## 개요 {#overview}
 
-[!DNL People-Based Destinations] 이메일 주소 또는 전화 번호와 같은 해시된 식별자를 기반으로 고객 세그먼트를 만들기 위해 온라인 및 오프라인 데이터에 세그먼트를 적용할 수 있습니다. 그런 다음 이러한 세그먼트를 "장벽으로 된 정원"으로 보낼 수 있습니다. [!DNL Facebook]여기서 온라인 상호 작용 또는 인증 상태와 상관없이 고객을 타깃팅할 수 있습니다. [!DNL People-Based Destinations] 다음을 도와줄 수 있습니다.
+[!DNL People-Based Destinations] 온라인과 오프라인 데이터에 세그먼트를 적용하여 이메일 주소 또는 전화 번호와 같은 [해시된 식별자를](people-based-destinations-prerequisites.md#hashing-requirements)기반으로 고객 세그먼트를 만들 수 있습니다. 그런 다음 이러한 세그먼트를 소셜 플랫폼에서 고객을 타깃팅할 수 [!DNL Facebook]있는 "벽으로 된 정원"으로 보낼 수 있습니다. [!DNL People-Based Destinations] 다음을 도와줄 수 있습니다.
 
-* 해시된 이메일 주소를 [!DNL Facebook]기반으로 오프라인 및 온라인 고객을 타깃팅합니다.
-* Audience Manager의 기존 디바이스 및 쿠키 타깃팅 기능 보완
-* 타사 데이터 온보딩 솔루션과 관련된 비용 제거
-* 맞춤형 데이터 온보딩 워크플로우 개발 관련 비용 절감
-* 쿠키 없는 환경에서 대상 타깃팅;
-* 고객 ID와 일치하는 이메일 주소를 중복 제거하여 대상을 타깃팅합니다.
+* Target offline and online audiences in platforms such as [!DNL Facebook], based on hashed email addresses;
+* Complement existing device and cookie targeting capabilities of Audience Manager;
+* Eliminate costs associated with third-party data onboarding solutions;
+* Eliminate costs associated with developing custom data onboarding workflows;
+* Target audiences in cookie-less environments;
+* Target audiences by deduplicating email addresses matched to customer IDs.
 
-웹 사이트를 방문조차 하지 않은 고부가가치 고객을 세그먼트화하고 타깃팅하거나 오프라인에서 이미 전환한 고객을 타깃팅하는 [!DNL People-Based Destinations] 데 사용할 수 있습니다. 또한 오프라인 자사 데이터와 다른 Adobe Experience Cloud 솔루션의 고객 데이터를 비롯한 온라인 퍼스트 파티 데이터를 결합하여 소셜 미디어 광고 활동을 최적화할 수 있습니다. [!DNL Profile Merge Rules]
+You can use  to segment and target high value customers who may not visited your website, or stop targeting those who have already converted offline. [!DNL People-Based Destinations] Additionally, you can leverage  to combine your offline first-party data with your online first-party data, including customer data from other Adobe Experience Cloud solutions, to optimize your social media advertising efforts.[!DNL Profile Merge Rules]
 
 ![pbd-overview](assets/pbd-overview.png)
 
@@ -41,19 +41,19 @@ Audience Manager를 통해 사람 기반 채널에서 고객 세그먼트를 활
 
 **전용 데이터 온보딩 솔루션이나 맞춤형 워크플로우를 통해 고객을 원활하게 유도할 수 있습니다.**
 
-사람 기반 채널에서 고객을 타깃팅하는 보다 "기존" 방법은 광고하려는 플랫폼에서 허용하는 형식으로 고객 데이터를 내보낸 다음 플랫폼의 전용 데이터 온보딩 방법을 사용하여 고객 데이터를 광고주 계정으로 가져와야 합니다. 광고하려는 각 플랫폼에 대해 수동으로 작업해야 합니다. 또한 플랫폼마다 데이터 형식 요구 사항이 다르므로 프로세스가 더 지루해질 수 있습니다.
+The more "traditional" way of targeting audiences across people-based channels involves you having to export your customer data in a format accepted by the platform that you want to advertise on, and then using the platform's dedicated data onboarding method to bring your customer data to your advertiser account. 광고하려는 각 플랫폼에 대해 수동으로 작업해야 합니다. 또한 플랫폼마다 데이터 형식 요구 사항이 다르므로 프로세스가 더 지루해질 수 있습니다.
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Audience [!DNL People-Based Destinations]Manager를 사용하면 모든 고객 데이터를 중앙에서 관리하고 고객 세그먼트를 구축하며 여러 사람 기반 채널에서 활성화할 수 있습니다. Audience Manager UI에서 이 모든 작업을 수행할 수 있으므로 각 플랫폼에 데이터를 수동으로 업로드하는 추가 작업을 피할 수 있으므로 프로세스 시간을 절약할 수 있습니다.
+Audience [!DNL People-Based Destinations]Manager를 사용하면 고객 데이터를 중앙에서 관리하고 고객 세그먼트를 구축하며 여러 사람 기반 채널에서 활성화할 수 있습니다. Audience Manager UI에서 이 모든 작업을 수행할 수 있으므로 각 플랫폼에 데이터를 수동으로 업로드하는 추가 작업을 피할 수 있으므로 프로세스 시간을 절약할 수 있습니다.
 
 **순전히 오프라인 프로파일에서 고객 세그먼트를 만들고 활성화합니다.**
 
 [!DNL People-Based Destinations] 이전에는 장치 활동을 기반으로 고객 세그먼트만 활성화할 수 있었던 문제를 해결했습니다. Adobe [!DNL People-Based Destinations]Experience Manager를 사용하면 고유한 오프라인 데이터에서 세그먼트를 만들고 [!DNL CRM]사람 기반 플랫폼에서 활성화할 수 있습니다. 또한 오프라인 데이터를 Audience Manager에 이미 있는 장치 데이터와 상호 연관시킬 수 있습니다.
 
-**Audience Manager의 데이터 거버넌스 및 개인 정보 제어를 활용하여 고객 데이터를 안전하게 처리합니다.**
+**Leverage Audience Manager's data governance and privacy controls to safely handle customer data.**
 
-[!DNL People-Based Destinations] 해시된 식별자만 사용하면 고객 데이터를 Audience Manager에 게시한 순간부터 타겟 대상에 도달하기까지 항상 고객 데이터를 보호할 수 있습니다. 이를 통해 민감한 고객 데이터를 각 정품 인증 플랫폼에 수동으로 업로드하는 것과 관련된 개인정보 보호 위험을 없앨 수 있습니다.
+[!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. This reduces the risk associated with manually uploading customer data into each destination platform.
 
 ## 사용 사례 {#use-cases}
 
@@ -61,12 +61,12 @@ Audience [!DNL People-Based Destinations]Manager를 사용하면 모든 고객 �
 
 ### Use Case #1 {#use-case-1}
 
-온라인 소매업체는 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문에 따라 개인화된 제안을 제공하고자 합니다. 또한 [!DNL People-Based Destinations]해시 처리한 이메일 주소를 Audience Manager [!DNL CRM] 로 인제스트하고, 오프라인 데이터에서 세그먼트를 만들고, 이러한 세그먼트를 광고하려는 소셜 플랫폼으로 보내 광고 지출을 최적화할 수 있습니다.
+온라인 소매업체는 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문에 따라 개인화된 제안을 제공하고자 합니다. With , the online retailer can ingest hashed email addresses from their own  to Audience Manager, build segments from their own offline data, and send these segments to the social platforms they want to advertise on, optimizing their advertising spending.[!DNL People-Based Destinations][!DNL CRM]
 
 ### Use Case #2 {#use-case-2}
 
-항공사는 고객 계층(브론즈, 실버, 골드)이 다르며 각 계층에 소셜 플랫폼을 통해 개인화된 상품을 제공하려고 합니다. 회사는 Audience Manager를 사용하여 웹 사이트의 고객 활동을 분석합니다. 그러나 모든 고객이 항공사 모바일 앱을 사용하는 것은 아니며 일부는 회사의 웹사이트에 로그인조차 하지 않았습니다. 회사가 이러한 고객에 대해 가지고 있는 유일한 식별자는 회원 ID와 이메일 주소입니다.
+An airline has different customer tiers (Bronze, Silver, and Gold), and wants to provide each of the tiers with personalized offers via social platforms. 회사는 Audience Manager를 사용하여 웹 사이트의 고객 활동을 분석합니다. 그러나 모든 고객이 항공사 모바일 앱을 사용하는 것은 아니며 일부 고객은 회사의 웹사이트에 로그인하지 않았습니다. 회사가 이러한 고객에 대해 가지고 있는 유일한 식별자는 회원 ID와 이메일 주소입니다.
 
-소셜 미디어 및 유사한 사용자 기반 채널에서 타깃팅하기 위해 해시된 이메일 주소를 식별자로 사용하여 고객 데이터를 Audience Manager [!DNL CRM] 로 온보드Audience Manager를 사용할 수 있습니다.
+소셜 미디어 및 유사한 사용자 기반 채널에서 타깃팅하기 위해 해시된 이메일 주소를 식별자로 사용하여 고객 데이터를 Audience Manager [!DNL CRM] 로 게재할 수 있습니다.
 
 그런 다음 오프라인 데이터를 기존 온라인 활동 트레이트와 결합하여 새로운 고객 세그먼트를 만들 수 [!DNL People-Based Destinations]있습니다.

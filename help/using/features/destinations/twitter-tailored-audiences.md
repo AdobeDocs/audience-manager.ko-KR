@@ -5,7 +5,7 @@ seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
+source-git-commit: c6318921b49603015b4670a361ec85ffa29abb30
 
 ---
 
@@ -31,25 +31,25 @@ source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
 
 장치 기반 대상을 추가하려면 먼저 Audience Manager와 [!DNL Twitter Tailored Audiences] 계정을 연결해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
 
-1. Audience Manager 계정에 로그인한 다음 로 **[!DNL Administration > Integrated Accounts]**&#x200B;이동합니다. 대상 플랫폼과 이전에 구성한 통합이 있는 경우 이 페이지에 나열되는 것을 볼 수 있습니다. 그렇지 않으면 페이지가 비어 있습니다.
+1. Audience Manager 계정에 로그인한 다음 로 **[!DNL Administration > Integrated Accounts]**&#x200B;이동합니다. If you have a previously configured integration with a destination platform, you should see it listed in this page. Otherwise, the page is empty.
 2. 클릭 **[!DNL Add Account]**.
-3. 을 [!DNL Twitter Tailored Audiences] 선택하고 **[!DNL Confirm]** 클릭하여 인증 페이지로 리디렉션됩니다.                     ![통합 플랫폼](assets/dbd-integrated-platforms.png)
-4. 인증이 완료되면 연결된 광고주 계정이 표시되는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 을 **[!DNL Confirm]**&#x200B;클릭합니다.
+3. Select [!DNL Twitter Tailored Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page.                     ![integrated-platforms](assets/dbd-integrated-platforms.png)
+4. Once you've authenticated, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click .**[!DNL Confirm]**
 
-### 2단계. 새 장치 기반 대상 만들기 {#step2-create-new-destination}
+### 2단계. Create a New Device-Based Destination {#step2-create-new-destination}
 
-Audience Manager와 대상을 연결한 [!DNL Twitter Tailored Audiences]후 새 대상을 만들 수 있습니다. 이 작업을 수행하는 방법은 다음과 같습니다.
+After you have linked Audience Manager and your , you can create the new destination. [!DNL Twitter Tailored Audiences] Here's how to do this:
 
 >[!NOTE]
 >
->기존 장치 기반 대상의 이름은 변경할 수 없습니다. 대상을 올바르게 식별하는 데 도움이 되는 이름을 제공하십시오.
+>You cannot change the name of an existing device-based destination. Make sure to provide a name that will help you identify the destination correctly.
 
-1. Audience Manager 계정에 로그인한 다음 **[!DNL Audience Data > Destinations]**&#x200B;으로 이동한 다음 을 클릭합니다 **[!DNL Create Destination]**.
-2. 섹션에서 새 대상에 대한 **[!DNL Basic Information]** 및 **[!DNL Name]** **[!DNL Description]** 를 입력하고 아래 설정을 사용하십시오. ![설정](assets/dbd-new-basic.png)
+1. Log in to your Audience Manager account, go to , and click .**[!DNL Audience Data > Destinations]****[!DNL Create Destination]**
+2. In the **[!DNL Basic Information]** section, enter a **[!DNL Name]** and **[!DNL Description]** for your new destination, and use the settings below: ![setup](assets/dbd-new-basic.png)
 3. 클릭 **[!DNL Next]**.
-4. 이 [대상에 대해](/help/using/features/data-export-controls.md#controls-labels) 설정할 데이터 내보내기 레이블을 선택합니다.
+4. Choose the [Data Export Labels](/help/using/features/data-export-controls.md#controls-labels) that you want to set for this destination.
 5. 클릭 **[!DNL Save]**.
-6. 섹션에서 **[!DNL Segment Mappings]** 이 대상으로 전송할 대상 세그먼트를 선택합니다.
+6. In the  section, select the audience segments that you want to send to this destination.**[!DNL Segment Mappings]**
 7. 대상을 저장합니다.
 
 ## 기존 Twitter 통합을 셀프 서비스 관리로 업데이트 {#update-existing-twitter-integrations}
@@ -82,17 +82,17 @@ Audience Manager와 대상을 연결한 [!DNL Twitter Tailored Audiences]후 새
 대상 세그먼트를 Twitter에 매핑할 때는 다음 세그먼트 이름 지정 요구 사항을 충족해야 합니다.
 
 * 사람이 읽을 수 있는 세그먼트 매핑 이름을 제공합니다. Audience Manager 세그먼트에 사용한 것과 동일한 이름을 사용하는 것이 좋습니다.
-* 세그먼트 및 세그먼트 매핑 이름에는 쉼표를 사용하지 마십시오.
+* Do not use commas in segment and segment mapping names.
 
 ### 예
 
 * 올바른 세그먼트 또는 매핑 이름:"미국 및 유럽 구매자";
 * 잘못된 세그먼트 또는 매핑 이름:"미국, 유럽 5h0pP3rs".
 
-## 일치 비율 고려 사항 {#match-rates-considerations}
-
-사용할 [!UICONTROL Twitter Tailored Audiences]때, 대상 페이지의 [!UICONTROL Segment Addressable Audience] 및 [!UICONTROL Segment Match Rate] 지표에는 값이 표시되지 않습니다. 이 대상에 대한 일치 비율과 함께 대상을 일치시키면 Adobe가 아니라 Adobe가 처리 및 호스팅하기 때문에 이는 정상적인 동작입니다. [!UICONTROL Twitter]
-
 >[!IMPORTANT]
 >
->이미 매핑된 세그먼트의 이름은 변경할 수 없습니다. Audience Manager는 세그먼트 이름을 사용하여 통합에서 세그먼트를 올바르게 식별합니다.
+>You cannot change the names of already mapped segments. Audience Manager는 세그먼트 이름을 사용하여 통합에서 세그먼트를 올바르게 식별합니다.
+
+## Match Rates Considerations {#match-rates-considerations}
+
+When using , the  and  metrics from the destination page will not display any values. [!UICONTROL Twitter Tailored Audiences][!UICONTROL Segment Addressable Audience][!UICONTROL Segment Match Rate] This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by , not Adobe.[!UICONTROL Twitter]

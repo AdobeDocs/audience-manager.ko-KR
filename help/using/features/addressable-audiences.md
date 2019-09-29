@@ -138,7 +138,7 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 그리고 31일에 이 방문자는 60일, 90일, 그리고 [!UICONTROL Lifetime] 결과만 표시됩니다. 그들은 30일의 간격을 벗어나게 되었다. 방문자는 [!UICONTROL Lifetime] 시간 간격을 벗어나지 않습니다.
 
-## 주소 지정 가능한 고객 지표 {#addressable-audience-metrics}
+##  주소 지정 가능한 고객 지표 {#addressable-audience-metrics}
 
 이 섹션에서는 에서 제공하는 지표 유형을 [!UICONTROL Addressable Audiences]설명합니다.
 

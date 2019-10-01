@@ -1,9 +1,9 @@
 ---
 description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
-seo-description: 아웃바운드 실시간 데이터 전송 프로세스는 POST 메서드와 함께 전달된 일련의 JSON 개체로서 사용자 데이터를 반환합니다.
-seo-title: 실시간 아웃바운드 데이터 전송
+seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
-title: 실시간 아웃바운드 데이터 전송
+title: Real-Time Outbound Data Transfers
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
 source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
@@ -13,13 +13,13 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 
 # 실시간 아웃바운드 데이터 전송 {#real-time-outbound-data-transfers}
 
-아웃바운드 실시간 데이터 전송 프로세스는 사용자 데이터를 일련의 [!DNL JSON] 형식 메시지로 대상 플랫폼에 전달합니다.
+The outbound real-time data transfer process delivers user data as a series of  formatted messages to a destination platform.[!DNL JSON]
 
 <!-- c_outbound_json.xml -->
 
 ## 권장 사항
 
-이 방법을 사용하려면 대상 플랫폼이 다음 요구 사항을 충족해야 합니다.
+To use this method, the destination platform must meet the following requirements:
 
 * Audience Manager에서 대량의 메시지를 수신할 수 있도록 확장할 [!DNL URL] 수 있는 끝점을 제공해야 합니다.
 * Adobe는 [!DNL JSON] 형식(`Content-type: application/json`);
@@ -35,15 +35,15 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 
 ## 비율 제한
 
-전송 메시지의 처리량에 설정된 속도 제한이 없습니다. 속도 제한을 설정하면 데이터가 손실될 수 있습니다.
+전송 메시지의 처리량에 설정된 속도 제한이 없습니다. Setting rate limits could lead to data loss.
 
-## 필수 응답
+## Required Responses
 
-기본적으로 수신자 서버는 성공적인 입고를 나타내는 `200 OK` 코드를 반환해야 합니다. 다른 코드는 실패로 해석됩니다. 이 응답은 3000밀리초 이내에 예상됩니다. 실패에 대한 응답으로 한 번만 [!DNL Audience Manager] 다시 시도합니다.
+By default, the recipient server must return the  code to indicate successful receipt. `200 OK` Other codes will be interpreted as failures. This response is expected within 3000 milliseconds. In response to a failure,  will make one retry attempt only.[!DNL Audience Manager]
 
 ## 매개 변수
 
-다음 표에서는 반환된 [!DNL JSON] 데이터 파일의 요소를 정의합니다.
+The following table defines the elements in the returned  data file.[!DNL JSON]
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -62,22 +62,22 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
   <tr valign="top"> 
    <td colname="col1"><code><i>User_DPID</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>An ID that indicates the type of device IDs contained within the message, in the User.DataPartner_UUID property. </p> 
+   <td colname="col3"> <p>메시지 내에 포함된 장치 ID의 유형을 나타내는 ID를 User.DataPartner_UUID 속성에 지정합니다. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android IDs (GAID): <code> 20914</code> </li> 
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID(GAID):20914 <code> 년</code> </li> 
      <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID(IDFA):2015 <code> 년</code> </li>
-     <li>Web/Cookie IDs: varies by destination platform</li>
+     <li>웹/쿠키 ID:대상 플랫폼별로 다름</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>대상 플랫폼의 대상 계정을 나타냅니다. This ID originates from the destination platform.</p> </td> 
+   <td colname="col3"> <p>대상 플랫폼의 대상 계정을 나타냅니다. 이 ID는 대상 플랫폼에서 비롯됩니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>The ID of the Audience Manager “destination” object. This ID originates from Audience Manager.</p> </td> 
+   <td colname="col3"> <p>Audience Manager "대상" 개체의 ID입니다. 이 ID는 Audience Manager에서 유래했습니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -87,7 +87,7 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
   <tr valign="top"> 
    <td colname="col1"><code><i>사용자</i></code> </td> 
    <td colname="col2"> <p>배열 </p> </td> 
-   <td colname="col3"> <p>An array of user objects. By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
+   <td colname="col3"> <p>사용자 개체의 배열입니다. By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
@@ -117,14 +117,14 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>세그먼트에 있는 사용자의 상태를 정의합니다. 다음 값을 수락합니다. </p> 
+   <td colname="col3"> <p>세그먼트에 있는 사용자의 상태를 정의합니다. Accepts the following values: </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
      <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>:활성(기본값) </li> 
      <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>:비활성, 옵트아웃 또는 세그먼트화되지 않음. </li> 
     </ul> <p>사용자는 다음 경우에 세그먼트화되지 않습니다. </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
-     <li id="li_8352B919A87242E68716FB9EC0443407">세그먼트 규칙에 따라 세그먼트에서 제거되었습니다. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">세그먼트의 <a href="../../../features/traits/segment-ttl-explained.md"> 실시간 간격에</a>따라 세그먼트에서 제거되었습니다. </li> 
+     <li id="li_8352B919A87242E68716FB9EC0443407">Removed from a segment based on the segment rule. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removed from a segment based on the segment's  time-to-live interval.<a href="../../../features/traits/segment-ttl-explained.md"></a> </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">지난 120일 동안 표시되지 않은 경우 비활성 상태로 이동되었습니다. </li>
      <li>개인 정보 변경 요청(예:[!DNL GDPR])</li>
     </ul> <p>Audience Manager ID에 동기화된 모든 파트너 <span class="keyword"> ID는</span> 사용자가 세그먼트화되지 않은 경우 <code> "Status":"0"</code> 플래그를 받습니다. </p> </td> 
@@ -132,7 +132,7 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>사용자 세그먼트 자격이 가장 최근에 확인된 시간입니다.</p> </td> 
+   <td colname="col3"> <p>The time when the user-segment qualification was most recently verified.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,7 +143,7 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 
 ## 요청
 
-실시간 요청은 다음과 유사할 수 있습니다.
+A real-time request can look similar to the following:
 
 ```js
 {

@@ -1,25 +1,25 @@
 ---
-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
-seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+description: Audience Manager는 데이터 보안 및 개인 정보를 매우 중요시합니다. Adobe는 시스템의 보안을 유지하고 중요한 데이터를 보호하기 위해 노력하고 있습니다.
+seo-description: Audience Manager는 데이터 보안 및 개인 정보를 매우 중요시합니다. Adobe는 시스템의 보안을 유지하고 중요한 데이터를 보호하기 위해 노력하고 있습니다.
 seo-title: 데이터 보안
 solution: Audience Manager
-title: 데이터 보안
+title: Data Security
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
+source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 
 ---
 
 
-# 데이터 보안 {#data-security}
+# Data Security {#data-security}
 
-Audience Manager는 데이터 보안 및 개인 정보를 매우 중요시합니다. Adobe는 시스템의 보안을 유지하고 중요한 데이터를 보호하기 위해 노력하고 있습니다.
+Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
 
-Adobe Audience Manager의 보안 관행은 외부 및 내부 감사, 활동 로깅, 트레이닝 및 Adobe 시스템과 중요한 데이터를 보호하기 위해 고안된 기타 절차를 포함합니다. Adobe는 안전한 제품을 통해 고객이 신뢰할 수 있는 제품을 구축하고 유지 관리할 수 있다고 믿습니다.
+Audience Manager security practices include external and internal audits, activity logging, training, and other procedures designed to help protect our systems and your valuable data. We believe a secure product helps build and maintain the trust customers place in us.
 
-Adobe Audience Manager에서는 세 가지 주요 범주의 보안에 대해 살펴봅니다.
+In Audience Manager, we think about security in three main categories:
 
-| 보안 유형 | 다음을 지원합니다. |
+| 보안 유형 | Provides Support For |
 |---|---|
 | **정보 보안** | 엔터프라이즈급 인증, 암호화 및 데이터 스토리지 방식 |
 | **데이터 누출/투명도** | 데이터 누출을 구성하거나 기여하는 사이트 내 활동에 대한 심층적이고 실행 가능한 통찰력 |
@@ -40,21 +40,21 @@ Adobe 시스템 및 데이터의 보안을 유지하는 프로세스
 * 방화벽, VPN 및 가상 사설 클라우드 스토리지를 통해 데이터를 보호합니다.
 * 트리거 기반의 감사 기록을 사용하여 고객 및 제어 정보 데이터베이스의 변경 사항을 추적합니다. 이러한 로그는 변경 사항이 있는 사용자 ID 및 IP 주소를 포함하여 데이터베이스 수준에서 모든 변경 사항을 추적합니다.
 
-**** Security Assets:  Audience Manager has a dedicated network operations team that monitors firewalls and intrusion-detection devices. Only key personnel have access to our security technology and data.
+**** 보안 자산: Audience Manager에는 방화벽과 침입 감지 장치를 모니터링하는 전용 네트워크 운영 팀이 있습니다. 핵심 직원만이 Adobe 보안 기술 및 데이터에 액세스할 수 있습니다.
 
-**** Security Training:  Internally, our commitment to security extends to developers who work on our product. Adobe provides formal training to developers on how to build secure applications and services.
+**** 보안 교육: Adobe의 보안 노력은 Adobe 제품을 사용하는 개발자에게 확대될 수 있습니다. Adobe는 개발자에게 보안 애플리케이션 및 서비스를 구축하는 방법에 대한 공식 교육을 제공합니다.
 
-**** Secure Access:  Audience Manager requires strong passwords to log on to the system. See password requirements.[](../../reference/password-requirements.md)
+**** 보안 액세스: Audience Manager에서 시스템에 로그온하려면 강력한 암호가 필요합니다. 자세한 내용은 [암호 요구 사항을](../../reference/password-requirements.md)참조하십시오.
 
-## Privacy and Personally Identifiable Information (PII) {#pii}
+## 개인 정보 및 개인 식별 정보(PII) {#pii}
 
-Processes that help keep personal information safe. For additional privacy information, see the Adobe Privacy Center.[](https://www.adobe.com/privacy/advertising-services.html)
+개인 정보를 안전하게 유지하는 프로세스 자세한 개인 정보 정보는 Adobe 개인 정보 [센터를 참조하십시오](https://www.adobe.com/privacy/advertising-services.html).
 
 **** PII 데이터: Adobe Audience Manager는 고객 및 데이터 파트너가 PII 정보를 Adobe 시스템으로 보내는 것을 금지합니다. Additionally, the Unique User ID (UUID) does not contain or use PII data as part of the ID-generation algorithm.
 
 **** IP Addresses:  Audience Manager does collect IP addresses. IP addresses are used in data-processing and log-aggregation processes. They are also required for geographic/location look-ups and targeting. Additionally, all IP addresses within retained log files are obfuscated within 90 days.
 
-## Data Partitioning {#data-partitioning}
+## 데이터 분할 {#data-partitioning}
 
 개별 클라이언트가 소유한 데이터를 보호하는 프로세스입니다.
 
@@ -80,9 +80,11 @@ XSS(Cross-Site Scripting) 등에 대해 보안을 유지하기 위해 나가는 
 
 ## HTTP Strict-Transport-Security {#hsts}
 
-[!DNL HTTP Strict-Transport-Security (HSTS)] 는 [!DNL HTTP] 트래픽을 허용하지 않고 모든 [!DNL HTTP] 트래픽을 로 투명하게 업그레이드하여 쿠키 하이재킹 및 프로토콜 다운그레이드 공격으로부터 보호하는 웹 보안 정책 메커니즘입니다 [!DNL HTTPS].
+[!DNL HTTP Strict-Transport-Security (HSTS)] is an industry-wide web security mechanism which helps protect against cookie hijacking and protocol downgrade attacks.
 
-이 정책은 클라이언트와 Adobe Edge Server 간의 데이터 보안을 향상시킵니다.
+이 정책은 특정 도메인에 대한 보안 [!DNL HTTPS] 호출이 수행되면 해당 도메인에 대한 후속 비보안 호출([!DNL HTTP])이 허용되지 않도록 웹 브라우저에 지시합니다. 이 기능은 공격자가 안전하지 않은 호출을 다운그레이드하려고 할 수 있는 중간 [!DNL HTTPS] 공격으로부터 [!DNL HTTP] 보호합니다."
+
+This policy improves data security between clients and Adobe Edge servers.[](../../reference/system-components/components-edge.md)
 
 ### 예 {#hsts-example}
 

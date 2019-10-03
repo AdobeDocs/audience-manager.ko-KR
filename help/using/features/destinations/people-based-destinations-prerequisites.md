@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
 solution: Audience Manager
 title: 전제 조건 및 고려 사항
 translation-type: tm+mt
-source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 # 전제 조건 및 고려 사항 {#prerequisites-considerations}
 
 >[!IMPORTANT]
->이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. Nothing contained herein is legal advice. 법률 자문을 위해 법률 자문을 구하십시오.
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
 
 등록하기 전에 충족해야 하는 고객 요구 사항에 대한 개요는 아래를 [!DNL People-Based Destinations]참조하십시오.
 
@@ -33,7 +33,7 @@ source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 를 사용하여 퍼스트 파티 고객 세그먼트를 보낼 [!DNL People-Based Destinations] 수 있으려면 먼저 다음 요구 사항을 충족해야 [!DNL Facebook]합니다.
 
 1. 사용자 [!DNL Facebook] 계정에는 사용할 **광고 계정에 대해 캠페인** 관리 권한이 활성화되어 있어야 합니다.
-1. Adobe Experience **Cloud** 비즈니스 계정을 광고 파트너에 [!DNL Facebook Ad Account]추가합니다. 활동을 만들려면 `business ID=206617933627973`. See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/708679622611131) for details.
+1. Adobe Experience **Cloud** 비즈니스 계정을 광고 파트너에 [!DNL Facebook Ad Account]추가합니다. 활동을 만들려면 `business ID=206617933627973`. 자세한 [내용은 비즈니스 관리자에 파트너](https://www.facebook.com/business/help/708679622611131) 추가를 참조하십시오.
    >[!IMPORTANT]
    > Adobe Experience Cloud에 대한 권한을 구성할 때 캠페인 **관리** 권한을 활성화해야 합니다. 이 작업은 [!DNL People-Based Destinations] 통합에 필요합니다.
 1. 서비스 약관을 읽고 [!DNL Facebook Custom Audiences] 서명합니다. 이렇게 하려면, `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`어디로 `accountID` 가십시오 [!DNL Facebook Ad Account ID].
@@ -46,17 +46,17 @@ source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 
 ## 데이터 개인 정보{#data-privacy}
 
-사용자가 업로드한 해시된 이메일 주소를 기반으로 대상을 타깃팅할 [!DNL People-Based Destinations] 수 있지만, Audience Manager에 직접 식별 가능한 방문자 정보를 업로드할 수 없는 상태로 남아 있습니다. In the data onboarding phase, you must ensure that the email addresses you plan to use are hashed with the [!DNL SHA256] algorithm. Otherwise, you won't be able to use them in .[!DNL People-Based Destinations]
+사용자가 업로드한 해시된 이메일 주소를 기반으로 대상을 타깃팅할 [!DNL People-Based Destinations] 수 있지만, Audience Manager에 직접 식별 가능한 방문자 정보를 업로드할 수 없는 상태로 남아 있습니다. 데이터 온보딩 단계에서는 사용하려는 이메일 주소가 [!DNL SHA256] 알고리즘과 해시되었는지 확인해야 합니다. 그렇지 않으면, 여러분은 그것을 사용할 수 없을 [!DNL People-Based Destinations]거예요.
 
 ## 데이터 해싱 및 암호화 {#data-hashing-encryption}
 
-Encryption is a two-way function. 또한 올바른 암호 해독 키를 사용하여 암호화된 정보를 해독할 수 있습니다. 암호화된 형식의 개인 식별 정보를 암호화할 수 있으므로 Audience Manager 컨텍스트에서 데이터를 암호화하면 심각한 위험이 발생합니다. 암호화가 아니라 해시된 [!DNL People-Based Destinations] 데이터를 사용하여 작업할 수 있도록 설계되었습니다.
+암호화는 양방향 기능입니다. 또한 올바른 암호 해독 키를 사용하여 암호화된 정보를 해독할 수 있습니다. 암호화된 형식의 개인 식별 정보를 암호화할 수 있으므로 Audience Manager 컨텍스트에서 데이터를 암호화하면 심각한 위험이 발생합니다. 암호화가 아니라 해시된 [!DNL People-Based Destinations] 데이터를 사용하여 작업할 수 있도록 설계되었습니다.
 
-Hashing is a one-way function that scrambles the input to produce a unique result. By using proper hashing algorithms, like [!DNL SHA256], there is no way to reverse the hashing function and reveal the unscrambled information. Audience Manager에 포함될 이메일 주소는 [!DNL SHA256] 알고리즘으로 해시되어야 합니다. This way, you can ensure that no unhashed email addresses reach Audience Manager.
+해싱은 고유한 결과를 생성하기 위해 입력을 스크램블하는 단방향 함수입니다. 이와 같이 적절한 해싱 알고리즘을 [!DNL SHA256]사용하면 해싱 기능을 역동적으로 전환하여 스크램블된 정보를 표시할 수 없습니다. Audience Manager에 포함될 이메일 주소는 [!DNL SHA256] 알고리즘으로 해시되어야 합니다. 이렇게 하면 해시되지 않은 이메일 주소가 Audience Manager에 도달하지 않도록 할 수 있습니다.
 
-## Hashing Requirements {#hashing-requirements}
+## 해싱 요구 사항 {#hashing-requirements}
 
-When hashing the email addresses, make sure to comply with the following requirements:
+이메일 주소를 해싱할 때는 다음 요구 사항을 준수해야 합니다.
 
 * 이메일 문자열에서 모든 선행 및 후행 공백을 트리밍합니다.예: `johndoe@example.com`그렇지 `<space>johndoe@example.com<space>`않음
 * 이메일 문자열을 해싱할 때는 소문자 문자열을 해시해야 합니다.
@@ -65,7 +65,11 @@ When hashing the email addresses, make sure to comply with the following require
    * 예: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`그렇지 `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`않음
 * 문자열의 소금을 치지 마십시오.
 
-Adobe Experience Cloud gives you the option to hash customer IDs through the Experience Cloud ID Service. ECID를 [사용하여 고객 ID를](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 해시하는 방법에 대한 자세한 내용은 setCustomerID에 대한 SHA256 해싱 지원을 참조하십시오.
+해싱 요구 사항을 이해하려면 아래 비디오를 시청하십시오 [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=kor)
+
+Adobe Experience Cloud ID 서비스를 통해 고객 ID를 해시할 수 있는 옵션이 제공됩니다. ECID를 [사용하여 고객 ID를](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 해시하는 방법에 대한 자세한 내용은 setCustomerID에 대한 SHA256 해싱 지원을 참조하십시오.
 
 ## 사용자 권한 얻기 {#obtaining-user-permission}
 

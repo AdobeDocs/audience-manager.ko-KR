@@ -5,7 +5,7 @@ seo-title: Adobe Analytics에 대한 고급 검색
 title: Adobe Analytics에 대한 고급 검색
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -28,4 +28,4 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 아래 비디오에서는 사용 및 사용되지 않은 신호 검색, Analytics 트레이트 만들기, 데이터 이해 등 Adobe Analytics 데이터를 [!UICONTROL Data Explorer] 검색하고 사용하는 방법을 보여 줍니다.
 
-[!VIDEO](https://video.tv.adobe.com/v/25150?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25150?captions=kor)

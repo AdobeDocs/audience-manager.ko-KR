@@ -1,21 +1,21 @@
 ---
 description: '사람 기반 대상에 등록하기 전에 충족해야 하는 고객 요구 사항에 대한 개요는 아래를 참조하십시오.  '
-seo-description: '사람 기반 대상에 등록하기 전에 충족해야 하는 고객 요구 사항에 대한 개요는 아래를 참조하십시오.  '
-seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
+seo-description: 'Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.  '
+seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
-title: 전제 조건 및 고려 사항
+title: Prerequisites and Considerations
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# 전제 조건 및 고려 사항 {#prerequisites-considerations}
+# Prerequisites and Considerations {#prerequisites-considerations}
 
 >[!IMPORTANT]
->이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
 
-등록하기 전에 충족해야 하는 고객 요구 사항에 대한 개요는 아래를 [!DNL People-Based Destinations]참조하십시오.
+Read below for an overview of customer requirements that you need to meet before signing up for .[!DNL People-Based Destinations]
 
 >[!IMPORTANT]
 > 구현 단계로 이동하기 전에 이 문서를 자세히 읽어 보십시오.
@@ -50,24 +50,24 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ## 데이터 해싱 및 암호화 {#data-hashing-encryption}
 
-암호화는 양방향 기능입니다. 또한 올바른 암호 해독 키를 사용하여 암호화된 정보를 해독할 수 있습니다. 암호화된 형식의 개인 식별 정보를 암호화할 수 있으므로 Audience Manager 컨텍스트에서 데이터를 암호화하면 심각한 위험이 발생합니다. 암호화가 아니라 해시된 [!DNL People-Based Destinations] 데이터를 사용하여 작업할 수 있도록 설계되었습니다.
+암호화는 양방향 기능입니다. 또한 올바른 암호 해독 키를 사용하여 암호화된 정보를 해독할 수 있습니다. Encrypting data in the context of Audience Manager poses serious risks, since any encrypted form of personally identifiable information can also be decrypted. 암호화가 아니라 해시된 [!DNL People-Based Destinations] 데이터를 사용하여 작업할 수 있도록 설계되었습니다.
 
-해싱은 고유한 결과를 생성하기 위해 입력을 스크램블하는 단방향 함수입니다. 이와 같이 적절한 해싱 알고리즘을 [!DNL SHA256]사용하면 해싱 기능을 역동적으로 전환하여 스크램블된 정보를 표시할 수 없습니다. Audience Manager에 포함될 이메일 주소는 [!DNL SHA256] 알고리즘으로 해시되어야 합니다. 이렇게 하면 해시되지 않은 이메일 주소가 Audience Manager에 도달하지 않도록 할 수 있습니다.
+해싱은 고유한 결과를 생성하기 위해 입력을 스크램블하는 단방향 함수입니다. By using proper hashing algorithms, like , there is no way to reverse the hashing function and reveal the unscrambled information. [!DNL SHA256] The email addresses that you will onboard to Audience Manager must be hashed with the  algorithm. [!DNL SHA256] This way, you can ensure that no unhashed email addresses reach Audience Manager.
 
-## 해싱 요구 사항 {#hashing-requirements}
+## Hashing Requirements {#hashing-requirements}
 
-이메일 주소를 해싱할 때는 다음 요구 사항을 준수해야 합니다.
+When hashing the email addresses, make sure to comply with the following requirements:
 
-* 이메일 문자열에서 모든 선행 및 후행 공백을 트리밍합니다.예: `johndoe@example.com`그렇지 `<space>johndoe@example.com<space>`않음
+* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
 * 이메일 문자열을 해싱할 때는 소문자 문자열을 해시해야 합니다.
    * 예: `example@email.com`그렇지 `EXAMPLE@EMAIL.COM`않음
 * 해시된 문자열이 모두 소문자인지 확인하십시오.
-   * 예: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`그렇지 `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`않음
+   * Example: , not ;`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149``55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`
 * 문자열의 소금을 치지 마십시오.
 
-해싱 요구 사항을 이해하려면 아래 비디오를 시청하십시오 [!UICONTROL People-Based Destinations].
+Watch the video below to understand the hashing requirements of .[!UICONTROL People-Based Destinations]
 
-[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=kor)
 
 Adobe Experience Cloud ID 서비스를 통해 고객 ID를 해시할 수 있는 옵션이 제공됩니다. ECID를 [사용하여 고객 ID를](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 해시하는 방법에 대한 자세한 내용은 setCustomerID에 대한 SHA256 해싱 지원을 참조하십시오.
 

@@ -5,7 +5,7 @@ seo-title: Adobe Analytics에 대한 고급 검색
 title: Adobe Analytics에 대한 고급 검색
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -25,3 +25,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
    ![](assets/signals-search-analytics.png)
 1. 이제 검색 결과에 열에 입력한 키-값 쌍의 친숙한 이름이 표시되거나 키-값 필드를 비워 두면 보고서 세트의 모든 신호에 대한 친숙한 이름이 표시됩니다. **[!UICONTROL Key or Key Name]**
+
+아래 비디오에서는 사용 및 사용되지 않은 신호 검색, Analytics 트레이트 만들기, 데이터 이해 등 Adobe Analytics 데이터를 [!UICONTROL Data Explorer] 검색하고 사용하는 방법을 보여 줍니다.
+
+[!VIDEO](https://video.tv.adobe.com/v/25150?captions=kor)

@@ -1,11 +1,11 @@
 ---
 description: '이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.  '
-seo-description: '이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.  '
+seo-description: 'This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.  '
 seo-title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 solution: Audience Manager
 title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -74,7 +74,7 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
 1. 새 데이터 소스에 대한 **[!UICONTROL Name]** 및 **[!UICONTROL Description]** 를 입력합니다.
 1. 드롭다운 **[!UICONTROL ID Type]** 메뉴에서 을 선택합니다 **[!UICONTROL Cross Device]**.
 1. 섹션에서 **[!UICONTROL Data Source Settings]** 및 **[!UICONTROL Inbound]** 옵션을 모두 선택하고 **[!UICONTROL Outbound]** **[!UICONTROL Share associated cross-device IDs in people-based destinations]** 옵션을 활성화합니다.
-1. 드롭다운 메뉴를 사용하여 이 데이터 소스의 **[!UICONTROL Emails(SHA256, lowercased)]** 레이블을 선택합니다.
+1. Use the drop-down menu to select the  label for this data source.**[!UICONTROL Emails(SHA256, lowercased)]**
    >[!IMPORTANT]
    >
    >이 옵션은 데이터 소스를 해당 특정 알고리즘으로 해시된 데이터를 포함하는 것으로 레이블을 지정합니다. Audience Manager는 이 단계에서 데이터를 해시하지 않습니다. 이 데이터 소스에 저장할 이메일 주소가 이미 [!DNL SHA256] 알고리즘으로 해시되었는지 확인하십시오. 그렇지 않으면 사용하지 못할 [!DNL People-Based Destinations]것입니다.
@@ -87,7 +87,7 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
 
 데이터 소스를 만드는 방법에 대한 비디오 자습서는 아래 비디오를 [!UICONTROL People-Based Destinations]참조하십시오.
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=kor)
 
 ## 3단계 - 파일 기반 ID 동기화를 통해 DPUUID를 해시된 이메일 주소에 일치 {#match-ids-emails}
 
@@ -141,7 +141,7 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
 
 1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**&#x200B;으로 이동합니다.
 2. 클릭 [!UICONTROL Add New Rule].
-3. 프로필 병합 규칙을 **[!UICONTROL Name]** 입력하고 **[!UICONTROL Description]**&#x200B;을 클릭합니다.
+3. Enter a profile merge rule  and .**[!UICONTROL Name]****[!UICONTROL Description]**
 4. 섹션의 **[!UICONTROL Profile Merge Rule Setup]** 목록에서 **[!UICONTROL All Cross-Device Profiles]** 규칙을 선택합니다 **[!UICONTROL Cross-Device Options]** .
 5. 목록에서 트레이트가 포함될 데이터 소스를 **[!UICONTROL Cross-Device Profile Options]** 선택합니다.
    ![merge-rule-setup](assets/pbd-pmr.png)
@@ -178,4 +178,4 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
 1. 이 대상에 대해 설정할 **[!UICONTROL Data Export Labels]** 항목을 선택합니다.
 1. 섹션에서 해시된 데이터 소스가 포함된 데이터 소스를 **[!UICONTROL Configuration]** 선택합니다.
 1. 섹션에서 **[!UICONTROL Segment Mappings]** 이 대상으로 전송할 세그먼트를 선택합니다. 이는 5단계 - 대상 세그먼트 [만들기에서 만든 세그먼트입니다](people-based-destinations-workflow-offline.md#create-audience-segments).
-1. 대상을 저장합니다.
+1. Save the destination.

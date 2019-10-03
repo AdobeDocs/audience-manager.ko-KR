@@ -1,11 +1,11 @@
 ---
-description: 'This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.  '
+description: '이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.  '
 seo-description: '이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.  '
 seo-title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 solution: Audience Manager
 title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -15,17 +15,17 @@ source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 >[!IMPORTANT]
 >이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
 
-This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
+이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.
 
-## Step 1 - Onboard Offline Traits {#step-1-onboard-traits}
+## 1단계 - 오프라인 트레이트 가입 {#step-1-onboard-traits}
 
-The first step creating audience segments in this scenario is to bring your offline customer data into Audience Manager.
+이 시나리오에서 대상 세그먼트를 만드는 첫 번째 단계는 오프라인 고객 데이터를 Audience Manager로 가져오는 것입니다.
 
 >[!IMPORTANT]
 >
-> Before continuing, make sure that the customer activity that you are about to onboard is already defined in Audience Manager with corresponding onboarded traits.[](../traits/trait-qualification-reference.md)
+> 계속하기 전에, 등록하려는 고객 활동이 해당 온보딩 트레이트와 함께 Audience Manager에 이미 정의되어 [있는지](../traits/trait-qualification-reference.md)확인하십시오.
 
-Regardless of whether your existing Audience Manager customer IDs (DPUUIDs) are hashed emails or not, you must perform the trait onboarding against the data source that contains your DPUUIDs.[](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)
+기존 Audience Manager 고객 ID([DPUUID](../../reference/ids-in-aam.md))가 해시된 이메일인지 여부에 관계없이 DPUUID가 포함된 데이터 소스에 대해 트레이트 온보딩을 수행해야 [합니다](../../reference/ids-in-aam.md).
 
 ### 예
 
@@ -47,7 +47,7 @@ Regardless of whether your existing Audience Manager customer IDs (DPUUIDs) are 
 ```
 
 파일 이름은 다음과 같습니다. `ftp_dpm_999999_123_TIMESTAMP.sync.gz`Adobe
-See Amazon S3 Name and File Size Requirements for Inbound Data Files for detailed information on the file name structure.[](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+파일 [이름 구조에 대한 자세한 내용은 인바운드 데이터 파일에](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 대한 Amazon S3 이름 및 파일 크기 요구 사항을 참조하십시오.
 
 ## 2단계 - 데이터 소스 설정 구성 {#configure-data-source-settings}
 
@@ -85,19 +85,23 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
    >
    > 오프라인 [데이터를 사용자](people-based-destinations-prerequisites.md#data-onboarding) 기반 대상에 대한 Audience Manager로 가져오는 방법에 대한 FAQ는 데이터 온보딩을 참조하십시오.
 
+데이터 소스를 만드는 방법에 대한 비디오 자습서는 아래 비디오를 [!UICONTROL People-Based Destinations]참조하십시오.
+
+[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=kor)
+
 ## 3단계 - 파일 기반 ID 동기화를 통해 DPUUID를 해시된 이메일 주소에 일치 {#match-ids-emails}
 
 >[!IMPORTANT]
 >
-> This step only applies to Scenario 2 described above. [](people-based-destinations-workflow-offline.md#configure-data-source-settings) 기존 DPUUID [가](../../reference/ids-in-aam.md) 이미 해시된 이메일 주소를 사용하는 경우 4단계 - [세그멘테이션에 대한 프로필 병합 규칙 만들기로 건너뜁니다](#create-profile-merge-rule).
+> 이 단계는 위에서 설명한 시나리오 [2에만](people-based-destinations-workflow-offline.md#configure-data-source-settings) 적용됩니다. 기존 DPUUID [가](../../reference/ids-in-aam.md) 이미 해시된 이메일 주소를 사용하는 경우 4단계 - [세그멘테이션에 대한 프로필 병합 규칙 만들기로 건너뜁니다](#create-profile-merge-rule).
 
 1단계의 예에서 아래 [표의 해시된 이메일 주소(오른쪽 열)와](../../reference/ids-in-aam.md) 기존 DPUUID를 일치시키고 2단계 - 데이터 소스 설정 [구성에서 만든 새 데이터 소스에 해시된 이메일 주소를 저장한다고 가정해 보겠습니다](#configure-data-source-settings).
 
-As a reminder, you would now have two data sources:
+이제 두 개의 데이터 소스가 있습니다.
 
-| Data source ID | Data source contents |
+| 데이터 소스 ID | 데이터 소스 컨텐츠 |
 | -------------- | -------------------------- |
-| 999999 | Existing DPUUIDs (CRM IDs) |
+| 999999 | 기존 DPUUID(CRM ID) |
 | 987654 | 해시된 이메일 주소 |
 
 | DPUUID(CRM ID) | 이메일 주소 | 해시된 이메일 주소 |
@@ -129,7 +133,7 @@ ID [동기화 파일은](../../integration/sending-audience-data/batch-data-tran
 
 [예제 파일을 다운로드하십시오](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
-Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3] ID 동기화 파일을 업로드하는 방법에 대한 자세한 내용은 Audience [Manager에 배치 데이터 전송을 참조하십시오](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해야 합니다. ID 동기화 파일을 업로드하는 방법에 대한 자세한 내용은 Audience [Manager에 배치 데이터 전송을 참조하십시오](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## 4단계 - 세그멘테이션을 위한 프로필 병합 규칙 만들기 {#create-profile-merge-rule}
 
@@ -154,24 +158,24 @@ Once you've created your ID synchronization file, you need to upload it to an  b
 1. 드롭다운 메뉴를 사용하여 통합을 구성할 플랫폼을 선택합니다. **[!UICONTROL People-Based Platform]**
    ![사용자 기반 플랫폼](assets/pbd-add.png)
 1. 아이콘을 **[!UICONTROL Confirm]** 클릭하여 선택한 플랫폼의 인증 페이지로 리디렉션합니다.
-1. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. 사용할 광고주 계정을 선택하고 을 **[!UICONTROL Confirm]**&#x200B;클릭합니다.
+1. 소셜 플랫폼 계정에 인증되면 연결된 광고주 계정이 표시되는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 을 **[!UICONTROL Confirm]**&#x200B;클릭합니다.
 1. Audience Manager는 계정 성공적으로 추가되었는지 여부를 알려주는 알림을 페이지 상단에 표시합니다. 또한 알림을 통해 소셜 플랫폼 인증이 만료될 때 알림을 수신할 연락처 이메일 주소를 추가할 수 있습니다.
 
 >[!IMPORTANT]
 >
->Audience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. 만료된 토큰 갱신 방법에 대한 자세한 내용은 인증 토큰 갱신을 참조하십시오.
+>Audience Manager는 일정 시간 후 만료되는 인증 토큰을 통해 소셜 플랫폼과의 통합을 처리합니다. 만료된 토큰 갱신 방법에 대한 자세한 내용은 인증 토큰 갱신을 참조하십시오.
 
 ## 7단계 - 사람 기반 대상 만들기 {#create-destination}
 
-1. Log in to your Audience Manager account, go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Destinations]****[!UICONTROL Create Destination]**
-1. In the  section, enter a  and  for your new data source, and use the following settings:**[!UICONTROL Basic Information]****[!UICONTROL Name]****[!UICONTROL Description]**
-   * **[!UICONTROL Category]**: Integrated Platforms;
-   * **[!UICONTROL Type]**: People-Based;
+1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]**&#x200B;로 이동한 다음 을 클릭합니다 **[!UICONTROL Create Destination]**.
+1. 섹션에서 새 데이터 소스에 대한 **[!UICONTROL Basic Information]** 및 **[!UICONTROL Name]** **[!UICONTROL Description]** 를 입력하고 다음 설정을 사용합니다.
+   * **[!UICONTROL Category]**:통합 플랫폼;
+   * **[!UICONTROL Type]**:사용자 기반;
    * **[!UICONTROL Platform]**:대상 세그먼트를 보낼 사람 기반 플랫폼을 선택합니다.
    * **[!UICONTROL Account]**:선택한 플랫폼과 연관된 원하는 광고주 계정을 선택합니다.
       ![create-destination](assets/pbd-create-destination.png)
 1. 클릭 **[!UICONTROL Next]**.
 1. 이 대상에 대해 설정할 **[!UICONTROL Data Export Labels]** 항목을 선택합니다.
 1. 섹션에서 해시된 데이터 소스가 포함된 데이터 소스를 **[!UICONTROL Configuration]** 선택합니다.
-1. In the  section, select the segments that you want to send to this destination. **[!UICONTROL Segment Mappings]** 이는 5단계 - 대상 세그먼트 [만들기에서 만든 세그먼트입니다](people-based-destinations-workflow-offline.md#create-audience-segments).
+1. 섹션에서 **[!UICONTROL Segment Mappings]** 이 대상으로 전송할 세그먼트를 선택합니다. 이는 5단계 - 대상 세그먼트 [만들기에서 만든 세그먼트입니다](people-based-destinations-workflow-offline.md#create-audience-segments).
 1. 대상을 저장합니다.

@@ -5,7 +5,7 @@ seo-title: 개요, 이점 및 사용 사례
 title: 개요, 이점 및 사용 사례
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -46,4 +46,4 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 Audience Manager의 가장 강력한 기능 중 하나는 오프라인 데이터를 통합하여 온라인 데이터와 연계하는 기능입니다. 아래 비디오에서 이 온보드 데이터를 활용하는 데 필요한 모든 트레이트를 만들었는지 확인하는 [!UICONTROL Data Explorer] 데 사용하는 방법을 알아봅니다.
 
-[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=kor)

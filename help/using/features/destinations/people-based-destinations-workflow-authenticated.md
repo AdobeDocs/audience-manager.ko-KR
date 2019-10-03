@@ -5,7 +5,7 @@ seo-title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활
 solution: Audience Manager
 title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -50,7 +50,7 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
 
 데이터 소스를 만드는 방법에 대한 비디오 자습서는 아래 비디오를 [!UICONTROL People-Based Destinations]참조하십시오.
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=kor)
 
 ## 2단계 - 선언된 ID를 사용하여 실시간 HTTP 호출을 통해 해시된 이메일 주소에 DPUUID를 일치시킵니다. {#match-email-addresses}
 

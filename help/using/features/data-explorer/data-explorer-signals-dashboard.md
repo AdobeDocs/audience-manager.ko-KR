@@ -5,7 +5,7 @@ seo-title: 신호 대시보드
 title: 신호 대시보드
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -37,4 +37,4 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 저장된 검색에는 해당 기준에 대한 상위 50개의 결과가 표시됩니다.
 
 아래 비디오를 시청하여 사용 방법을 살펴보십시오 [!UICONTROL Signals Dashboard].
-[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=kor)

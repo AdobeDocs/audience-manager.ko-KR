@@ -5,7 +5,7 @@ seo-title: 채우기 트레이트 재계산
 title: 채우기 트레이트 재계산
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 트레이트를 채우는 방법에 대한 비디오 연습을 보려면 아래 비디오를 시청하십시오.
 
-[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=kor)
 
 ## 트레이트 채우기 대기 시간 {#trait-backfilling-latency}
 

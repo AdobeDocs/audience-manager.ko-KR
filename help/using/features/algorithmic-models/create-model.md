@@ -8,7 +8,7 @@ title: 알고리즘 모델 만들기
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -23,12 +23,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ### 모델 빌더 섹션
 
-[!UICONTROL Model Builder] 은 [!UICONTROL Basic Information] 및 [!UICONTROL Configuration] 섹션으로 구성됩니다. 모델을 만들려면 이 두 섹션에서 필요한 필드를 완성합니다. 모델을 저장하여 알고리즘을 시작합니다. [!DNL Audience Manager] 첫 번째 데이터 실행이 완료된 후 자동으로 알림을 보냅니다. 이메일을 받은 후 트레이트 빌더로 이동하여 [알고리즘 트레이트를](../../features/traits/about-trait-builder.md) 만들 수 있습니다.
+[!UICONTROL Model Builder] consists of the  and  sections. [!UICONTROL Basic Information][!UICONTROL Configuration] To create a model, complete the required fields in these two sections. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to Trait Builder and create algorithmic traits.[](../../features/traits/about-trait-builder.md)
 
 >[!NOTE]
 >
->* 모델링 프로세스는 모델을 만들고 해당 모델로 트레이트를 만들지 않는 경우에만 실행됩니다.
->* 의미 있는 양의 정보가 포함된 데이터 소스를 기반으로 모델을 구축할 수 있습니다. 데이터가 부족한 모델은 실행되지만 결과를 반환하지 않습니다.
+>* The modeling process runs only once if you create a model and do not build any traits with it.
+>* Build models from data sources that contain a meaningful amount of information. 데이터가 부족한 모델은 실행되지만 결과를 반환하지 않습니다.
 >* *다른 알고리즘 특성이나 세그먼트로 모델을 만들지 마십시오* .
 >* 자동 이메일 알림은 첫 번째 데이터 실행 후 한 번만 전송됩니다.
 
@@ -42,21 +42,21 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    * *(선택 사항)* 모델에 대한 간단한 설명을 제공합니다.
    * 모델의 상태를 **[!UICONTROL Active]** 또는 으로 **[!UICONTROL Inactive]**&#x200B;설정합니다. 비활성 모델은 실행되지 않으며 데이터를 생성하지 않습니다.
 1. 구성 [섹션에서](../../features/algorithmic-models/create-model.md#configuration) 다음을 수행합니다.
-   * 를 **[!UICONTROL Browse All Traits]** 클릭하거나 **[!UICONTROL Browse All Segments]** 클릭하여 모델링할 트레이트 또는 세그먼트를 선택합니다.  온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다.
-   * 30, 60 또는 90일 룩백 기간을 선택합니다. 그러면 모델의 시간 범위가 설정됩니다.
-   * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택됩니다.
-   * 목록에서 데이터 소스를 [!UICONTROL Available Data] 선택합니다.
+   * 를 **[!UICONTROL Browse All Traits]** 클릭하거나 **[!UICONTROL Browse All Segments]** 클릭하여 모델링할 트레이트 또는 세그먼트를 선택합니다. 온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다.
+   * 30, 60 또는 90일 룩백 기간을 선택합니다. This sets a time range for the model.
+   * The  algorithm is selected by default.[!UICONTROL TraitWeight]
+   * Select a data source from the  list.[!UICONTROL Available Data]
    * Click **[!UICONTROL Save]** when done.
 
-## 알고리즘 모델에 대한 기본 정보 {#basic-information}
+## Basic Information for Algorithmic Models {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-에서 [!UICONTROL Model Builder]설정을 [!UICONTROL Basic Information] 사용하여 새 모델을 만들거나 기존 모델을 편집할 수 있습니다. 새 모델을 만들려면 이름을 입력하고 [!UICONTROL Configuration] 설정으로 이동합니다. 설명 필드는 선택 사항입니다.
+In , the  settings let you create new or edit existing models. [!UICONTROL Model Builder][!UICONTROL Basic Information] To create a new model, provide a name and move on to the  settings. [!UICONTROL Configuration] The description field is optional.
 
 | 필드 | 설명 |
 |---|---|
-| **[!UICONTROL Name]** | 기능이나 목적을 설명하는 짧고 논리적인 이름을 모델에 지정합니다. 약자, 특수 문자 및 강조 표시를 사용하지 마십시오. |
+| **[!UICONTROL Name]** | Give your model a short, logical name that describes its function or purpose. 약자, 특수 문자 및 강조 표시를 사용하지 마십시오. |
 | **[!UICONTROL Description]** | 모델에 대한 추가 설명 정보를 위한 필드입니다. |
 | **[!UICONTROL Status]** | 모델을 활성화 또는 비활성화합니다(기본적으로 활성). |
 
@@ -97,13 +97,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col2"> <p>모델에서 사용할 첫 번째 및 타사 데이터 소스를 선택할 수 있습니다. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>제외(5)</b> </p> </td> 
-   <td colname="col2"> <p>모델링을 위해 선택한 데이터 소스에서 트레이트를 제외할 수 있습니다. 제외 <span class="wintitle"> 목록을 사용하고 알고리즘 모델을</span> <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> 읽습니다.트레이트 제외를</a> 참조하십시오. </p> </td>
+   <td colname="col1"> <p><b>Exclusions (5)</b> </p> </td> 
+   <td colname="col2"> <p>모델링을 위해 선택한 데이터 소스에서 트레이트를 제외할 수 있습니다. Use the  Exclusions list and read  Algorithmic Models: Trait Exclusion to learn more.<span class="wintitle"></span><a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"></a> </p> </td>
   </tr> 
  </tbody>
 </table>
 
+Watch the video below to learn how to create a first party look-alike model, so that you can find more of your own visitors who look like your converters.
+
+[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=kor)
+
 >[!MORELIKE_THIS]
 >
->* [특성 가중치 이해](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
+>* [Understanding TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
 

@@ -3,9 +3,9 @@ description: Adobe는 옵트인 기능 및 IAB 투명성 및 동의 프레임워
 seo-description: Adobe는 옵트인 기능 및 IAB 투명성 및 동의 프레임워크(TCF) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다. 이 문서에서는 IAB TCF를 지원하는 Audience Manager 사용 사례 및 Audience Manager에서 IAB TCF 지원을 구현하는 방법에 대해 설명합니다.
 seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
-title: Audience Manager IAB TCF용 플러그인
+title: Audience Manager Plug-in for IAB TCF
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: c238a37e1a72edb0679f657d0178e04b8d848ec2
 
 ---
 
@@ -18,13 +18,13 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 Adobe는 [옵트인 기능](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html) 및 [IAB 투명성 및 동의 프레임워크(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다.
 
-이 문서에서는 IAB TCF를 지원하는 Audience Manager 사용 사례 및 Audience Manager에서 IAB TCF 지원을 구현하는 방법에 대해 설명합니다. Audience Manager는 공급업체 ID 565와 함께 IAB TCF에 등록됩니다.
+이 문서에서는 IAB TCF를 지원하는 Audience Manager 사용 사례 및 Audience Manager에서 IAB TCF 지원을 구현하는 방법에 대해 설명합니다. Audience Manager is registered in the IAB TCF with the vendor ID 565.
 
-IAB TCF용 Audience Manager 플러그인은 [옵트인 기능을](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)활용하며, 이 기능은 [Adobe Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/) 서비스(ECID)라이브러리의 일부입니다.
+The Audience Manager Plug-in for IAB TCF utilizes the Opt-in functionality, which is, in turn, part of the Adobe Experience Cloud ID Service (ECID) library.[](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 
-## 범위 및 제한 사항 {#scope-and-limitations}
+## Scope and Limitations {#scope-and-limitations}
 
-Audience Manager를 사용하는 게시자 또는 광고주는 IAB TCF에 따라 Audience Manager에 사용자 선택 사항을 전달할 수 있습니다. 이를 통해 모든 파트너에게 사용자 선택 사항을 간편하고 일관되게 전달할 수 있고 Audience Manager를 통해 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다.
+As a Publisher or Advertiser working with Audience Manager, you are able to convey user choices to Audience Manager as per IAB TCF. 이를 통해 모든 파트너에게 사용자 선택 사항을 간편하고 일관되게 전달할 수 있고 Audience Manager를 통해 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다.
 
 이 문서에 설명된 IAB TCF 지원은 Audience Manager의 IAB 프레임워크 지원 계획 중 첫 번째 단계입니다. 현재 Audience Manager는 다음을 지원하지 않습니다.
 
@@ -63,26 +63,26 @@ IAB 프레임워크의 표준 목적은 다음과 같습니다.
 * 컨텐츠 선택, 전달 및 보고
 * 측정
 
-5가지 표준 [용도에 대한 설명은 IAB 프레임워크 사양 페이지를](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features) 참조하십시오.
+Refer to the IAB framework specification page for a description of the five standard purposes.[](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features)
 
-사용자는 표준 목적과 공급업체의 조합에 대해 동의를 할 수 있습니다. 예를 들어, 사용자는 스토리지, 개인화 및 측정에 대해 동의하거나 CMP가 표시하는 모든 타사 공급업체에 동의해야 합니다. 또는, 다른 예로, 그들은 다섯 가지 표준 목적을 위해 동의를 할 수 있지만, CMP에 의해 표시된 몇 개의 벤더에게 동의만 할 수 있습니다.
+Users may grant their consent for a combination of standard purposes and vendors. For example, users could grant their consent for storage, personalization, and measurement and grant their consent to all third-party vendors displayed by the CMP. Or, in another example, they could grant their consent for all five standard purposes but only grant consent to a few of the vendors displayed by the CMP.
 
-사용자가 개인 정보 선택을 선택하면 사용자 선택 사항이 IAB TCF 동의 문자열에 기록됩니다. IAB TCF 동의 문자열은 승인된 목적과 벤더의 조합을 다른 메타데이터 정보와 함께 저장합니다(자세한 내용은 [IAB 페이지](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) 참조). IAB TCF에 등록된 모든 공급업체는 IAB TCF 동의 문자열을 평가하고 사용자의 개인 정보 보호 선택 사항에 따라 결정합니다. 사용자의 개인 정보 보호 선택 사항은 모든 승인된 공급업체에서 유효함을 염두에 두십시오.
+Once the user selects their privacy choices, the user choice(s) are recorded in the IAB TCF consent string. The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the IAB page for more information). [](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) Every vendor registered in the IAB TCF evaluates the IAB TCF consent string and makes decisions based on the users' privacy choices. Keep in mind that the users' privacy choices are valid across all approved vendors.
 
-## Audience Manager에 필요한 표준 용도 {#aam-standard-purposes}
+## Standard purposes needed by Audience Manager {#aam-standard-purposes}
 
-Audience Manager는 IAB TFC 동의 문자열에 저장된 사용자 선택 사항을 다음과 같이 평가합니다.
+Audience Manager evaluates the users' choices stored in the IAB TFC consent string for:
 
-* 정보 저장 및 액세스( [글로벌 공급업체 목록의](https://vendorlist.consensu.org/vendorlist.json)목적 ID 1)
-* 개인화(목적 ID 2)
-* 측정(목적 ID 5)
-* Audience Manager 공급업체는 게시자에 대한 데이터를 저장, 처리 또는 활성화하는 것에 동의합니다.
+* Information storage and access (purpose ID 1 in the global vendor list)[](https://vendorlist.consensu.org/vendorlist.json)
+* Personalization (purpose ID 2)
+* Measurement (purpose ID 5)
+* Audience Manager vendor consent to store, process, or activate on data for a publisher.
 
 >[!IMPORTANT]
 >
 >Audience Manager needs consent for *all three purposes, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs.
 
-## Audience Manager 비헤이비어는 사용자가 동의하는지 여부에 따라 달라집니다. {#aam-behavior-consent}
+## Audience Manager behavior depends on whether the user grants consent {#aam-behavior-consent}
 
 Audience Manager는 Audience Manager가 IAB TCF 동의 문자열에서 사용자가 세 가지 용도(스토리지, 개인화, 측정)에 대한 동의를 제공하는지 여부에 따라 다르게 작동합니다.
 
@@ -102,17 +102,17 @@ IAB TCF를 구현하면 Adobe 또는 다른 타사 공급업체와의 다른 메
 4. GDPR이 적용되는 경우 Audience Manager는 매개 변수에 전달된 IAB TCF 동의 문자열을 확인하여 필요한 권한을 `gdpr_consent`확인합니다. Audience Manager는 데이터를 저장, 처리 또는 활성화하기 위해 스토리지, 개인화, 측정, Audience Manager 공급업체의 동의 등에 대한 권한이 필요합니다.
 5. IAB TCF 동의 문자열이 존재하고 필요한 권한이 포함되어 있는 경우 Audience Manager는 IAB TCF 동의 문자열을 [데이터 수집 서버](/help/using/reference/system-components/components-data-collection.md) (DCS)에 전달합니다.
 6. Audience Manager는 브라우저에서 [demdex 쿠키를](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) 설정하여 응답합니다. 또한 Audience Manager는 타사 ID 동기화를 시작 및 처리합니다.
-7. 또는 5단계에서 전달된 IAB TCF 동의 문자열에 필요한 모든 권한이 포함되어 있지 않은 경우 Audience Manager는 데이터를 수집, 처리 또는 활성화하지 않으며 ID 동기화를 유지하거나 시작하지 않습니다.
+7. Alternatively, if the IAB TCF consent string passed in step 5 does not contain all the needed permissions, Audience Manager does not collect, process, or activate data and does not honor or initiate ID syncs.
 
 ![게시자 사용 사례](assets/publisher-use-case.png)
 
-## 광고주 사용 사례 {#advertiser-use-case}
+## Advertiser Use Case {#advertiser-use-case}
 
-Audience Manager는 IAB TCF에 따라 [픽셀 호출로](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)전달된 동의를 평가하고 처리합니다.
+Audience Manager evaluates and honors consent passed in pixel calls, in accordance with the IAB TCF.[](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
 
-픽셀은 일반적으로 Audience Manager 고객이 파트너 페이지에 배치하거나 광고 응답에 포함할 광고 서버에 배치됩니다. 첫 번째 경우, 파트너가 프로그램 방식으로 동의 매개 변수를 검색하고 시작하기 전에 픽셀에 추가해야 합니다. 두 번째 사례에서는, 아래에 자세히 설명된 바와 같이, 광고 서버는 SSP(Supply-Side Platform) 또는 게시자 광고 서버로부터 받는 동의 매개 변수를 모든 픽셀에 추가합니다.
+Pixels are generally placed by Audience Manager customers on their partner pages or they are placed in ad servers to include in the ad response. In the first case, your partner must programmatically retrieve the consent parameter and add it to the pixel before firing. In the second case, which is more common and is described in detail below, ad servers append the consent parameters they receive from the Supply-Side Platform (SSP) or publisher ad servers to all pixels.
 
-Audience Manager는 두 개의 매개 변수를 사용하여 픽셀 호출에서 사용자 동의를 전달합니다.
+Audience Manager uses two parameters to pass user consent in pixel calls:
 
 * `gdpr` can be 0 (GDPR not apply) or 1 (GDPR applies);
 * `gdpr_consent` 는 URL-safe base64 인코딩된 GDPR 동의 문자열입니다( [사양](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications)참조). 두 매개 변수가 있는 노출 픽셀에 대한 샘플 호출은 아래와 같습니다.
@@ -132,7 +132,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 ## IAB TCF를 지원하는 정품 인증 파트너 {#aam-activation-partners}
 
-IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF(2019년 7월 7일부터 정확함)를 지원하는 정품 인증 파트너에 대한 자세한 내용은 파트너 **[Excel 시트를](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx)**&#x200B;참조하십시오.
+IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF(2019년 7월 7일부터 정확함)를 지원하는 정품 인증 파트너에 대한 자세한 내용은 파트너 **[Excel 시트를](/help/using/overview/aam-gdpr/assets/AAM-Partners-October2019.xlsx)**&#x200B;참조하십시오.
 
 ## IAB 구현 테스트 {#test-iab-implementation}
 

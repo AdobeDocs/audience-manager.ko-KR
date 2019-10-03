@@ -5,7 +5,7 @@ seo-title: 채우기 트레이트 재계산
 title: 채우기 트레이트 재계산
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -44,6 +44,10 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 1. 트레이트를 만듭니다.
 
 트레이트 작성을 완료하면, 소급 적용이 실현된 통계를 확인할 수 있습니다.
+
+트레이트를 채우는 방법에 대한 비디오 연습을 보려면 아래 비디오를 시청하십시오.
+
+[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=kor)
 
 ## 트레이트 채우기 대기 시간 {#trait-backfilling-latency}
 

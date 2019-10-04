@@ -3,10 +3,11 @@ description: 이 문서에서는 Audience Manager의 GDPR(General Data Protectio
 seo-description: 이 문서에서는 Audience Manager의 GDPR(General Data Protection Regulation)과 관련된 기술을 다루고 GDPR 요청을 Audience Manager에 제출하는 방법을 설명합니다.
 seo-title: Audience Manager에서의 GDPR
 solution: Audience Manager
+keywords: GDPR UI, GDPR API
 title: Audience Manager에서의 GDPR
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
+source-git-commit: 5661bcef9816b6646ee63ebc6c19b730c1ccadc9
 
 ---
 
@@ -19,7 +20,7 @@ source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
 
 Adobe는 Audience Manager 세부 사항을 읽기 전에 아래에 연계된 유럽 GDPR(General Data Protection Regulation)에 대한 Experience Cloud 자료를 살펴보는 것이 좋습니다.
 
-* [GDPR 및 비즈니스](https://www.adobe.com/privacy/general-data-protection-regulation.html)
+* [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 * [GDPR 백서](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-whitepaper.md)
 * [GDPR 용어](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
 
@@ -27,7 +28,7 @@ Adobe는 Audience Manager 세부 사항을 읽기 전에 아래에 연계된 유
 
 ## GDPR 요청 유형 및 GDPR 요청 수행 방법 {#types-of-gdpr-requests}
 
-Audience Manager 고객인 경우 GDPR 클라이언트 서비스 UI를 통해 또는 GDPR API를 **[통해 고객 데이터에 액세스하고 삭제할](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** 수 있는 개별 GDPR 요청을 제출할 **[수 있습니다](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). 질문이 있는 경우 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오.
+Manager 고객인 경우 Adobe Service UI **(** 여기 UI 링크)를[통해 또는 Privacy Service API](https://gdprui.cloud.adobe.io/) 를 [호출함으로써](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)고객 데이터에 액세스하고 삭제할 수 있는 개별 GDPR 요청을 제출할 수 있습니다 **(여기에서 UI 링크** )[. 또는 Privacy API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) 를 호출하면 Audience PrivacyAPI를 [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)에 액세스하고 삭제할 수 있습니다(여기에서 설명서 및 참조API 참조API 참조API)를 호출할 수 있습니다. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). 질문이 있는 경우 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오.
 
 ## 데이터 액세스 {#access-data}
 
@@ -35,13 +36,13 @@ Adobe는 접수 후 30일 이내에 GDPR 고객의 요청을 존중해야 한다
 
 **요청**
 
-GDPR 클라이언트 서비스 UI를 통해 **[또는 GDPR API를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** 호출하여 데이터 액세스 요청을 기록할 **[수](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** 있습니다( `access` 작업 참조). 두 경우 모두 데이터 액세스 요청을 제출할 Audience Manager 식별자가 있는 JSON을 업로드해야 합니다. Experience Cloud GDPR 설명서에서 **[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** 형식이 올바른 JSON이 어떻게 보이는지 살펴보십시오(특히 페이지에서 "POST 요청 형식" 검색). 또는 샘플 JSON을 **[다운로드할 수 있습니다](assets/access_request.json)**.
+Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud.adobe.io/) 통해 [또는 Privacy Service API를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)호출함으로써 **데이터 액세스 요청을 기록할 수 있습니다(여기 UI 링크** 및[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)설명서API 참조). 두 경우 모두 데이터 액세스 요청을 제출할 Audience Manager 식별자가 있는 JSON을 업로드해야 합니다. 잘 구성된 JSON의 모양을 확인하려면 샘플 JSON을 **[다운로드할 수 있습니다](assets/access_request.json)**.
 
 **응답**
 
 데이터 요청에 대한 응답에는 해당 데이터 소스 이름과 함께 총 트레이트 및 세그먼트 수, 트레이트 유형, 트레이트 및 세그먼트 설명이 포함됩니다. 액세스 응답에는 퍼스트 파티 데이터와 함께 데이터 컨트롤러에 액세스할 수 있는 제2자 및 제3자 데이터도 포함됩니다. 크로스 장치 CRM ID 또는 고객 쿠키 ID와 [!UICONTROL declared IDs] 같은 것이 GDPR 요청으로 전송되면 Audience Manager는 모든 연결된 장치의 액세스 응답을 포함합니다(선언된 ID당 최대 100개의 장치).
 
-**응답 상태**
+**Response Status**
 
 응답에 Audience Manager의 오류가 있으면 응답에 오류 코드로 표시됩니다. 반환된 오류에 대한 자세한 정보를 찾을 수 있는 오류 코드 [](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md)목록이 있습니다.
 
@@ -146,7 +147,7 @@ GDPR 클라이언트 서비스 UI를 통해 **[또는 GDPR API를](https://www.a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace</code> </p> </td> 
-   <td colname="col2"> <p>데이터 소스라고도 합니다. See the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col2"> <p>데이터 소스라고도 합니다. Audience Manager <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> 식별자 섹션을</a> 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ID</code> </p> </td> 
@@ -183,10 +184,10 @@ GDPR 클라이언트 서비스 UI를 통해 **[또는 GDPR API를](https://www.a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> 설명 </code> </p> </td> 
-   <td colname="col2"> <p>A more detailed description of the warning you received: </p> <p> 
+   <td colname="col2"> <p>받은 경고에 대한 자세한 설명: </p> <p> 
      <ul id="ul_78E03ABA52674E07A48835FDD3431FF8"> 
       <li id="li_6BB6D58660594CA0B1A89804F2FC6274">장치 데이터 - 이 장치의 모든 사용자의 데이터를 포함합니다. </li> 
-      <li id="li_E328D5BF066C4E7E8CCCDCAA5E91CCDC">요청이 완료되지 않음 - Audience Manager 데이터 검색이 완료되지 않았습니다. 일부 정보가 누락되었을 수 있습니다. </li> 
+      <li id="li_E328D5BF066C4E7E8CCCDCAA5E91CCDC">요청이 완료되지 않음 - Audience Manager 데이터 검색이 완료되지 않았습니다. Some information may be missing. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -228,7 +229,7 @@ GDPR 클라이언트 서비스 UI를 통해 **[또는 GDPR API를](https://www.a
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 마지막 실현</code> </p> </td> 
+   <td colname="col1"> <p> <code> last realization</code> </p> </td> 
    <td colname="col2"> <p>데이터 주체가 이 트레이트에 대해 마지막으로 자격을 가졌던 정확한 시간입니다. 날짜 형식은 YYYY-MM-DD입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -258,14 +259,14 @@ GDPR 클라이언트 서비스 UI를 통해 **[또는 GDPR API를](https://www.a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> last realization</code> </p> </td> 
-   <td colname="col2"> <p>The exact time that the Data Subject last qualified for this segment. The date format is YYYY-MM-DD. </p> </td> 
+   <td colname="col2"> <p>데이터 주체가 이 세그먼트에 대해 마지막으로 자격을 가졌던 정확한 시간입니다. The date format is YYYY-MM-DD. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> active</code> </p> </td> 
    <td colname="col2"> <p>Indicates whether the Data Subject is currently qualified for this segment. Returns <code><i>true</i></code> or <code><i>false</i></code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> links </code> </p> </td> 
+   <td colname="col1"> <p> <code> 링크 </code> </p> </td> 
    <td colname="col2"> <p>Additional ID that this ID has been linked to. Information is returned on: </p> <p> 
      <ul id="ul_679F372A83164CC8B6BFE5A833347B9E"> 
       <li id="li_BCBF4F4C6C4049519BDE9186EE84868A">ID </li> 
@@ -282,10 +283,10 @@ GDPR 클라이언트 서비스 UI를 통해 **[또는 GDPR API를](https://www.a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> device metadata </code> </p> </td> 
-   <td colname="col2"> <p>Information about the device. This information includes the fields below. 모든 장치 유형에 대해 일부 필드가 반환되는 것은 아닙니다. </p> <p> 
+   <td colname="col2"> <p>Information about the device. 이 정보에는 아래 필드가 포함되어 있습니다. Note that not all fields are returned for all device types. </p> <p> 
      <ul id="ul_F0031D50DF074634A428DBC73F958159"> 
       <li id="li_4E26042A6B8D4397829F30B7BC7A2D6E"> <p>하드웨어 정보 </p> </li> 
-      <li id="li_99A049D585A9440EA79F57A3B03181AB"> <p>Device manufacturer </p> </li> 
+      <li id="li_99A049D585A9440EA79F57A3B03181AB"> <p>장치 제조업체 </p> </li> 
       <li id="li_290F92FC3F6449EFBC4E7870B62AFE8B"> <p>장치의 마케팅 이름 </p> </li> 
       <li id="li_FC37954CE133471398352240A8B0478F"> <p>장치 모델 </p> </li> 
       <li id="li_D54AEB0527C34E32A8AEEAEDEA5AD1B2"> <p>장치의 운영 체제(OS) 이름 </p> </li> 
@@ -307,11 +308,11 @@ Adobe는 접수 후 30일 이내에 GDPR 고객의 요청을 존중해야 한다
 
 **요청**
 
-GDPR 클라이언트 서비스 UI를 통해 **[또는 GDPR API를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** 호출하여 데이터 삭제 요청을 기록할 **[수](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** 있습니다( `delete` 작업 참조). 두 경우 모두 데이터 액세스 요청을 제출할 Audience Manager 식별자가 있는 JSON을 업로드해야 합니다. Experience Cloud GDPR 설명서에서 [](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) 형식이 올바른 JSON이 어떻게 보이는지 살펴보십시오(특히 페이지에서 "POST 요청 형식" 검색). 또는 샘플 JSON을 **[다운로드할 수 있습니다](assets/delete_request.json)**.
+Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud.adobe.io/) 통해 [요청을](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)요청하거나 **Privacy Service API를** 호출함으로써[(여기에서 문서 및 API 참조)](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)데이터 삭제를 기록할 수 있습니다. 두 경우 모두 데이터 액세스 요청을 제출할 Audience Manager 식별자가 있는 JSON을 업로드해야 합니다. 잘 구성된 JSON의 모양을 확인하려면 샘플 JSON을 **[다운로드할 수 있습니다](assets/delete_request.json)**.
 
 **응답**
 
-데이터 삭제 요청에 대한 응답으로 각 Audience Manager 식별자와 연결된 트레이트 및 세그먼트를 삭제합니다. 또한 데이터 주체의 각 Audience Manager 식별자는 Audience Manager의 추가 데이터 수집에서 영구적으로 제외되며 해당 Id 매핑이 제거됩니다. 교차 장치 CRM Id 또는 고객 쿠키 ID와 같은 선언된 ID가 GDPR 요청으로 전송되면 Audience Manager는 연결된 모든 장치(선언된 ID당 최대 100개의 장치)에서 필요한 삭제 작업을 수행합니다.
+데이터 삭제 요청에 대한 응답으로 각 Audience Manager 식별자와 연결된 트레이트 및 세그먼트를 삭제합니다. 또한 데이터 주체의 각 Audience Manager 식별자는 Audience Manager의 추가 데이터 수집에서 영구적으로 제외되며 해당 Id 매핑이 제거됩니다. When declared IDs such as cross device CRM Ids or customer cookie ids are sent in GDPR requests, Audience Manager will perform the necessary Delete actions on all the linked devices (up to 100 devices per declared ID).
 
 ## 옵트아웃 요청 {#opt-out-request}
 
@@ -327,13 +328,13 @@ Adobe Audience Manager에 GDPR 요청을 제출할 때 아래에 나열된 식�
 
 **정의**:Adobe Audience Manager 고유 사용자 ID
 
-**Namespace ID**: 0
+**네임스페이스 ID**:0
 
 >[!NOTE]
 >
 >CORE 네임스페이스를 사용할 수도 있습니다. 두 번째 JSON 예를 참조하십시오.
 
-**Example in JSON:**
+**JSON의 예**:
 
 ```
  "users": [
@@ -479,11 +480,11 @@ Adobe Audience Manager에 GDPR 요청을 제출할 때 아래에 나열된 식�
   }
 ```
 
-### 모바일 광고 ID
+### Mobile advertising ID
 
 **User ID: d_cid**
 
-**정의**:모바일 광고 ID.
+**Definition: Mobile advertising IDs.**
 >[!IMPORTANT]
 >
 > Mobile SDK를 사용 중인 경우, 전체 GDPR 액세스 및 삭제 응답을 위해 모바일 광고 ID와 함께 Experience Cloud ID(MID)를 전송해야 합니다.

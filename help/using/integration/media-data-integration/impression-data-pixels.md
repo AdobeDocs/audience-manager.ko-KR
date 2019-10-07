@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
+source-git-commit: 7f71a099157e81c8d17cf018a4c84a69e2205bb4
 
 ---
 
@@ -28,7 +28,7 @@ Audience Manager로 미디어 데이터를 전송하는 한 가지 방법은 광
 이벤트 호출은 다음 구문을 사용하는 키-값 쌍으로 구성됩니다.
 
 <pre>
-http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>&amp;d_campaign_id<i>&amp;d_campaign_idcampaign_idId=</i>campaign&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust
+http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i><i></i>&amp;d_campaign=campaign_idcid=(cid&amp;d_gaid|IDFA)%01 DPUUID]&amp;d_burst=cache 값
 </pre>
 
 키-값 쌍에서 값 변수는 광고 서버에서 삽입한 ID 또는 매크로입니다. 광고 태그가 로드되면 해당 값이 필수 값으로 `%macro%` 대체됩니다. 이 호출은 응답을 반환하지 않습니다.

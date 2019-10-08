@@ -5,7 +5,7 @@ seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: a267dab29a8d0e47a27a7db2a4288ae677a1180d
+source-git-commit: 7966cac59b982b5f36af6975607df64545b74058
 
 ---
 
@@ -32,9 +32,9 @@ source-git-commit: a267dab29a8d0e47a27a7db2a4288ae677a1180d
 장치 기반 대상을 추가하려면 먼저 Audience Manager와 [!DNL Twitter Tailored Audiences] 계정을 연결해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
 
 1. Audience Manager 계정에 로그인한 다음 로 **[!DNL Administration > Integrated Accounts]**&#x200B;이동합니다. 대상 플랫폼과 이전에 구성한 통합이 있는 경우 이 페이지에 나열되는 것을 볼 수 있습니다. 그렇지 않으면 페이지가 비어 있습니다.
-2. 클릭 **[!DNL Add Account]**.
-3. 을 [!DNL Twitter Tailored Audiences] 선택하고 **[!DNL Confirm]** 클릭하여 인증 페이지로 리디렉션됩니다.                     ![통합 플랫폼](assets/dbd-integrated-platforms.png)
-4. 인증이 완료되면 연결된 광고주 계정이 표시되는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 을 **[!DNL Confirm]**&#x200B;클릭합니다.
+1. 클릭 **[!DNL Add Account]**.
+1. 을 [!DNL Twitter Tailored Audiences] 선택하고 **[!DNL Confirm]** 클릭하여 인증 페이지로 리디렉션됩니다.                     ![통합 플랫폼](assets/dbd-integrated-platforms.png)
+1. 인증이 완료되면 연결된 광고주 계정이 표시되는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 을 **[!DNL Confirm]**&#x200B;클릭합니다.
 
 ### 2단계. 새 장치 기반 대상 만들기 {#step2-create-new-destination}
 
@@ -45,12 +45,12 @@ Audience Manager와 대상을 연결한 [!DNL Twitter Tailored Audiences]후 새
 >기존 장치 기반 대상의 이름은 변경할 수 없습니다. 대상을 올바르게 식별하는 데 도움이 되는 이름을 제공하십시오.
 
 1. Audience Manager 계정에 로그인한 다음 **[!DNL Audience Data > Destinations]**&#x200B;으로 이동한 다음 을 클릭합니다 **[!DNL Create Destination]**.
-2. 섹션에서 새 대상에 대한 **[!DNL Basic Information]** 및 **[!DNL Name]** **[!DNL Description]** 를 입력하고 아래 설정을 사용하십시오. ![설정](assets/dbd-new-basic.png)
-3. 클릭 **[!DNL Next]**.
-4. 이 [대상에 대해](/help/using/features/data-export-controls.md#controls-labels) 설정할 데이터 내보내기 레이블을 선택합니다.
-5. 클릭 **[!DNL Save]**.
-6. 섹션에서 **[!DNL Segment Mappings]** 이 대상으로 전송할 대상 세그먼트를 선택합니다.
-7. 대상을 저장합니다.
+1. 섹션에서 새 대상에 대한 **[!DNL Basic Information]** 및 **[!DNL Name]** **[!DNL Description]** 를 입력하고 아래 설정을 사용하십시오. ![설정](assets/dbd-new-basic.png)
+1. 클릭 **[!DNL Next]**.
+1. 이 [대상에 대해](/help/using/features/data-export-controls.md#controls-labels) 설정할 데이터 내보내기 레이블을 선택합니다.
+1. 클릭 **[!DNL Save]**.
+1. 섹션에서 **[!DNL Segment Mappings]** 이 대상으로 전송할 대상 세그먼트를 선택합니다.
+1. 대상을 저장합니다.
 
 ## 기존 Twitter 통합을 셀프 서비스 관리로 업데이트 {#update-existing-twitter-integrations}
 
@@ -64,12 +64,12 @@ Audience Manager와 대상을 연결한 [!DNL Twitter Tailored Audiences]후 새
 아래 절차에 따라 기존 [!DNL Twitter Tailored Audiences] 대상을 셀프 서비스 모델로 마이그레이션합니다.
 
 1. Audience Manager 계정에 로그인한 다음 로 **[!DNL Administration > Integrated Accounts]**&#x200B;이동합니다.
-2. 클릭 **[!DNL Add Account]**.
-3. 을 [!DNL Twitter Tailored Audiences] 선택하고 **[!DNL Confirm]** 클릭하여 인증 페이지로 리디렉션됩니다. ![통합 플랫폼](assets/dbd-integrated-platforms.png)
-4. 계정을 사용하여 인증하면 연결된 광고주 계정이 표시되는 Audience Manager로 리디렉션됩니다. [!DNL Twitter] 사용할 광고주 계정을 선택하고 을 **[!DNL Confirm]**&#x200B;클릭합니다.
-5. &gt; **[!UICONTROL Audience Data]** 로 **[!UICONTROL Destinations]** 이동하여 구성해야 하는 Twitter 대상을 클릭합니다.
-6. 클릭 **[!UICONTROL Edit]**. 섹션에서 **[!UICONTROL Basic Information]** 드롭다운 메뉴를 클릭하고 4단계에서 인증한 **[!UICONTROL Integrated Account]** [!DNL Twitter] 계정을 선택합니다.
-7. **[!UICONTROL Save]** 대상을 선택합니다.
+1. 클릭 **[!DNL Add Account]**.
+1. 을 [!DNL Twitter Tailored Audiences] 선택하고 **[!DNL Confirm]** 클릭하여 인증 페이지로 리디렉션됩니다. ![통합 플랫폼](assets/dbd-integrated-platforms.png)
+1. 계정을 사용하여 인증하면 연결된 광고주 계정이 표시되는 Audience Manager로 리디렉션됩니다. [!DNL Twitter] 사용할 광고주 계정을 선택하고 을 **[!DNL Confirm]**&#x200B;클릭합니다.
+1. &gt; **[!UICONTROL Audience Data]** 로 **[!UICONTROL Destinations]** 이동하여 구성해야 하는 Twitter 대상을 클릭합니다.
+1. 클릭 **[!UICONTROL Edit]**. 섹션에서 **[!UICONTROL Basic Information]** 드롭다운 메뉴를 클릭하고 4단계에서 인증한 **[!UICONTROL Integrated Account]** [!DNL Twitter] 계정을 선택합니다.
+1. **[!UICONTROL Save]** 대상을 선택합니다.
 
 <!-- ## Validating the Migration to Self-Service Administration {#migration-validation}
 

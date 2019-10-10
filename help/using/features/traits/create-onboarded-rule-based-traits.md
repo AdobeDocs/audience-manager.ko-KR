@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 규칙 기반 트레이트 또는 온보드 트레이트 만들기
 uuid: 4243e09f-1f96-44 파섹
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -23,6 +23,8 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 에서 [!UICONTROL Trait Builder]설정을 [!UICONTROL Basic Information] 사용하여 새 트레이트를 만들거나 기존 트레이트를 편집할 수 있습니다. 규칙 기반, 온보드 및 알고리즘 트레이트에 대한 설정은 동일합니다. [!UICONTROL Basic Information] 새 트레이트를 만들려면 이름(특수 문자 제외), 데이터 소스를 입력하고 저장소 폴더를 선택합니다. 다른 [!UICONTROL Basic Information] 필드는 선택 사항입니다.
 
 <!-- c_tb_basics.xml -->
+
+![create-trait](assets/create-trait.png)
 
 ### 정의된 기본 정보 필드
 
@@ -50,12 +52,12 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
    <td colname="col2"> 트레이트의 목적이나 기능을 설명하는 데 도움이 되는 몇 마디. 선택 사항입니다. </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <b><span class="uicontrol"> 데이터 소스</span></b> </td> 
+   <td colname="col2"> 트레이트를 특정 데이터 공급자에 연결합니다. 필수 여부. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트가 없는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 볼 수 있습니다.</p>  </td> 
+  </tr>
+   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이벤트 유형</span></b> </td> 
    <td colname="col2"> 유형 또는 카테고리에 트레이트를 할당합니다. 일반적으로 함수에 따라(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등). 선택 사항입니다. <p> 전환 트레이트를 만드는 방법에 대한 자세한 내용은 Audience Manager에서 <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">전환 트레이트 만들기 비디오를</a>참조하십시오. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> 데이터 소스</span></b> </td> 
-   <td colname="col2"> 트레이트를 특정 데이터 공급자에 연결합니다. 필수 여부. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 통합 코드</span></b> </td> 

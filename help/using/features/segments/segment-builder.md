@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 빌더
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 1. 기본 [정보](../../features/segments/segment-builder.md#segment-builder-controls-basics) 섹션에서 다음을 수행합니다.
    * 세그먼트 이름을 지정합니다. 세그먼트 이름의 최대 길이는 255자입니다.
    * 세그먼트 상태(활성 상태)를 설정합니다.
-   * 데이터 소스를 선택합니다. 첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다. Adobe Analytics 보고서 세트가 없는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 볼 수 있습니다.
+   * 데이터 소스를 선택합니다. 첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다. Adobe Analytics 보고서 세트를 사용하지 않는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 기본값으로 설정됩니다.
    * 세그먼트 자격에 사용할 프로필 병합 규칙을 선택합니다.
    * 세그먼트를 저장소 폴더에 할당합니다.
 2. 트레이트 [섹션에서](../../features/segments/segment-builder.md#segment-builder-controls-traits) 다음을 수행합니다.
@@ -76,7 +76,7 @@ source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
   </tr> 
   <tr> 
    <td colname="col1"> <b>데이터 소스</b> </td> 
-   <td colname="col2"> <p>세그먼트를 특정 데이터 공급자에 연결합니다. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트가 없는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 볼 수 있습니다.</p></p> </td> 
+   <td colname="col2"> <p>세그먼트를 특정 데이터 공급자에 연결합니다. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트를 사용하지 않는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 기본값으로 설정됩니다.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>프로필 병합 규칙</b> </td> 

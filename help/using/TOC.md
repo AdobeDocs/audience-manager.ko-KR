@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
+source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
 
 ---
 
@@ -186,7 +186,6 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
          + [메타데이터 파일에 대한 이름 지정 규칙](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [메타데이터 파일에 대한 컨텐츠 형식](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [메타데이터 파일에 대한 배달 방법](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-         + [메타데이터 파일에 대한 상태 업데이트](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [일별 특성 변형 보고서](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + 대화형 및 겹치기 보고서 {#interactive-and-overlap-reports}
       + [대화형 및 오버랩 보고서 개요](reporting/dynamic-reports/dynamic-reports.md)

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 빌더
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -27,13 +27,15 @@ source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
 
 [!UICONTROL Segment Builder] 세 개의 별도 섹션으로 구성됩니다. [!UICONTROL Basic Information]및 [!UICONTROL Traits]를 [!UICONTROL Destinations Mapping]참조하십시오. 세그먼트를 만들려면 [!UICONTROL Basic Information] 및 [!UICONTROL Traits] 섹션에서 필요한 필드를 완료합니다. [!UICONTROL Destinations Mapping] 설정은 선택 사항입니다. 자세한 내용은 아래 지침을 참조하십시오.
 
+![create-segment](assets/create-segment.png)
+
 1. 기본 [정보](../../features/segments/segment-builder.md#segment-builder-controls-basics) 섹션에서 다음을 수행합니다.
    * 세그먼트 이름을 지정합니다. 세그먼트 이름의 최대 길이는 255자입니다.
    * 세그먼트 상태(활성 상태)를 설정합니다.
-   * 데이터 소스를 선택합니다.
+   * 데이터 소스를 선택합니다. 첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다. Adobe Analytics 보고서 세트가 없는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 볼 수 있습니다.
    * 세그먼트 자격에 사용할 프로필 병합 규칙을 선택합니다.
    * 세그먼트를 저장소 폴더에 할당합니다.
-1. 트레이트 [섹션에서](../../features/segments/segment-builder.md#segment-builder-controls-traits) 다음을 수행합니다.
+2. 트레이트 [섹션에서](../../features/segments/segment-builder.md#segment-builder-controls-traits) 다음을 수행합니다.
    * 세그먼트에 추가할 트레이트를 검색하고 클릭합니다 **[!UICONTROL Add Trait]**. 트레이트 그룹을 만들려면 다른 트레이트를 추가합니다.
    * 고급 검색 모달을 클릭하여 **[!UICONTROL Browse All Traits]**&#x200B;표시합니다. 이름, ID, 설명 또는 데이터 소스별로 트레이트를 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 하위 폴더로 결과를 제한합니다. 트레이트를 트레이트 유형별로 필터링할 수도 있습니다.
    * 세그먼트를 만들 때 라이브 [트레이트 추천을](trait-recommendations.md) 얻을 수 있습니다.
@@ -42,7 +44,7 @@ source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
    * 시계 아이콘 위로 마우스를 가져가면 [최근 및 빈도](../../features/segments/recency-and-frequency.md) 규칙이 트레이트에 추가됩니다.
    * 트레이트를 추가하거나 제거하면 세그먼트 모집단 데이터를 볼 수 있습니다. 을 **[!UICONTROL Calculate Estimates]** 클릭하여 예상 인구 수를 보거나 새로 고칩니다. 세그먼트 빌더에서 [세그먼트 채우기 데이터에](../../features/segments/segment-builder-data.md#segment-populations) 대한 자세한 내용을 참조하십시오.
    * Click **[!UICONTROL Save]** when done.
-1. *(선택 사항)* 대상 매핑 섹션에서 세그먼트를 대상에 [매핑합니다](../../features/segments/segment-builder.md#segment-builder-controls-destinations) .
+3. *(선택 사항)* 대상 매핑 섹션에서 세그먼트를 대상에 [매핑합니다](../../features/segments/segment-builder.md#segment-builder-controls-destinations) .
    * 대상을 검색하고 을 **[!UICONTROL Add Destination]**&#x200B;클릭합니다. 세그먼트에 대상을 추가하려면 대상이 이미 있어야 합니다.
    * Click **[!UICONTROL Save]** when done.
 
@@ -74,7 +76,7 @@ source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
   </tr> 
   <tr> 
    <td colname="col1"> <b>데이터 소스</b> </td> 
-   <td colname="col2"> <p>세그먼트를 특정 데이터 공급자에 연결합니다. </p> </td> 
+   <td colname="col2"> <p>세그먼트를 특정 데이터 공급자에 연결합니다. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트가 없는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 볼 수 있습니다.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>프로필 병합 규칙</b> </td> 

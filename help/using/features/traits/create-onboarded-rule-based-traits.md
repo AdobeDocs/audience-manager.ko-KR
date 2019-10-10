@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 규칙 기반 트레이트 또는 온보드 트레이트 만들기
 uuid: 4243e09f-1f96-44 파섹
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 데이터 소스</span></b> </td> 
-   <td colname="col2"> 트레이트를 특정 데이터 공급자에 연결합니다. 필수 여부. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트가 없는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 볼 수 있습니다.</p>  </td> 
+   <td colname="col2"> 트레이트를 특정 데이터 공급자에 연결합니다. 필수 여부. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트를 사용하지 않는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 기본값으로 설정됩니다.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이벤트 유형</span></b> </td> 

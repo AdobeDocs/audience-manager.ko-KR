@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대상 최적화 보고서를 위한 데이터 및 메타데이터 파일
 uuid: 80aa4bc3-c660-4e65-8c22-2dbb7bddd4f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -24,8 +24,3 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * [메타데이터 파일에 대한 이름 지정 규칙](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [메타데이터 파일에 대한 컨텐츠 형식](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [메타데이터 파일에 대한 배달 방법](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [메타데이터 파일에 대한 상태 업데이트](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
-
-
-
-

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 메타데이터 파일에 대한 개요 및 매핑
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -59,15 +59,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p>광고주 </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>데이터 소스 ID 또는 통합 코드</i></code> </p> <p>데이터 소스를 만들 때 제공되는 광고주의 데이터 소스 ID 또는 통합 코드입니다. 데이터 <a href="../../../features/manage-datasources.md#create-data-source"> 소스 만들기를 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>데이터 소스를 만들 때 제공되는 광고주의 데이터 소스 ID 또는 통합 코드입니다. 데이터 <a href="../../../features/manage-datasources.md#create-data-source"> 소스 만들기를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>BU(Business Unit) </p> </td> 
-   <td colname="col2"> <p> <code>d_bu = <i>사업부 ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_bu = <i>business unit ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>캠페인 </p> </td> 
-   <td colname="col2"> <p> <code>d_campaign = <i>캠페인 ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>크리에이티브 </p> </td> 
@@ -77,25 +77,25 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col1"> <p>Exchange </p> </td> 
    <td colname="col2"> <p>두 개의 서로 다른 키-값 쌍을 수락합니다. </p> 
     <ul id="ul_3B3B751A8A134096B0912E81A0983B9D"> 
-     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>광고를 제공한 교환의 ID</i></code> </li> 
-     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>사이트에 대한 ID 및</i></code> </li> 
+     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID for the exchange that served the ad</i></code> </li> 
+     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID for the site an ad served on</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>삽입 순서(IO) </p> </td> 
-   <td colname="col2"> <p> <code>d_io = <i>삽입 순서 ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_io = <i>insertion order ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>플랫폼 </p> </td> 
-   <td colname="col2"> <p> <code>d_src = <i>데이터 소스 ID</i></code> </p> <p>메타데이터 정보를 제공하는 플랫폼의 <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> 데이터 소스</a> ID입니다(예: DFA, Atlas, GBM, MediaMath 등). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>메타데이터 정보를 제공하는 플랫폼의 <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> 데이터 소스</a> ID입니다(예: DFA, Atlas, GBM, MediaMath 등). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>전술 </p> </td> 
-   <td colname="col2"> <p> <code>d_testic = <i>전술 ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_tactic = <i>tactic ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>세로 </p> </td> 
-   <td colname="col2"> <p> <code>d_vert = <i>세로 ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_vert = <i>vertical ID</i></code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ### 파일 배달
 
-파일에 이름을 지정하고 데이터를 추가한 후 에서 제공하는 Amazon S3 스토리지 디렉토리로 보냅니다. [!DNL Audience Manager] 메타데이터 [파일에 대한 전달 방법](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md) 및 메타데이터 파일에 대한 [상태 업데이트를 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md).
+파일에 이름을 지정하고 데이터를 추가한 후 에서 제공하는 Amazon S3 스토리지 디렉토리로 보냅니다. [!DNL Audience Manager] 메타데이터 [파일에 대한 배달 방법을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKE_THIS]
 >

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 글로벌 데이터 소스
 uuid: null
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ---
 
@@ -21,11 +21,12 @@ Global data sources are accessible by all Audience Manager customers and contain
 
 | 데이터 소스 ID | 설명 |
 |---|---|
-| 20914 | **Google 광고 ID** - **** GAID는 Android 운영 체제를 실행하는 장치를 나타냅니다. |
-| 20915 | **광고용 Apple ID** - **** IDFA는 iOS 운영 체제를 실행하는 장치를 나타냅니다. |
-| 121963 | **광고에 대한 Roku ID** - **** RIDA는 Roku 스트리밍 장치를 나타냅니다. |
-| 389146 | **Microsoft Advertising ID** - **** MAID는 Windows 10 운영 체제를 실행하는 장치를 나타냅니다. |
-| 404660 | **삼성** DUID는 삼성 스마트 TV를 대표합니다. |
+| 20914 | **Google 광고 ID** - **** GAID는 [!DNL Android] 운영 체제를 실행하는 장치를 나타냅니다. |
+| 20915 | **광고용 Apple ID** - **** IDFA는 [!DNL iOS] 운영 체제를 실행하는 장치를 나타냅니다. |
+| 121963 | **광고에 대한 Roku ID** - **** RIDA는 [!DNL Roku] 스트리밍 장치를 나타냅니다. |
+| 389146 | **Microsoft Advertising** ID - **** MAID는 [!DNL Windows 10] 운영 체제를 실행하는 장치를 나타냅니다. |
+| 404660 | **삼성** DUID는 스마트 TV를 [!DNL Samsung] 나타냅니다. |
+| 488258 | **Amazon Fire TV 광고** ID는 실행 중인 장치를 나타냅니다. [!DNL Amazon Fire OS] |
 
 ## 글로벌 데이터 소스에서 데이터 가져오기
 

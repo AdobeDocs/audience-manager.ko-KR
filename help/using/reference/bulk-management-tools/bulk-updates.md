@@ -1,20 +1,20 @@
 ---
-description: 일괄 업데이트를 사용하면 하나의 작업에서 여러 세그먼트, 트레이트 및 세그먼트 또는 트레이트 폴더 요소를 편집할 수 있습니다. 다음 지침에 따라 일괄 업데이트를 수행합니다.
+description: 일괄 업데이트를 사용하면 하나의 작업에서 여러 세그먼트, 트레이트, 모델, 데이터 소스 및 세그먼트 또는 트레이트 폴더 요소를 편집할 수 있습니다. 다음 지침에 따라 일괄 업데이트를 수행합니다.
 keywords: aam
-seo-description: 일괄 업데이트를 사용하면 하나의 작업에서 여러 세그먼트, 트레이트 및 세그먼트 또는 트레이트 폴더 요소를 편집할 수 있습니다. 다음 지침에 따라 일괄 업데이트를 수행합니다.
+seo-description: 일괄 업데이트를 사용하면 하나의 작업에서 여러 세그먼트, 트레이트, 모델, 데이터 소스 및 세그먼트 또는 트레이트 폴더 요소를 편집할 수 있습니다. 다음 지침에 따라 일괄 업데이트를 수행합니다.
 seo-title: 일괄 업데이트
 solution: Audience Manager
 title: 일괄 업데이트
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # 일괄 업데이트{#bulk-updates}
 
-일괄 업데이트를 사용하면 하나의 작업에서 여러 세그먼트, 트레이트 및 세그먼트 또는 트레이트 폴더 요소를 편집할 수 있습니다. 다음 지침에 따라 일괄 업데이트를 수행합니다.
+일괄 업데이트를 사용하면 하나의 작업에서 여러 세그먼트, 트레이트, 모델, 데이터 소스 및 세그먼트 또는 트레이트 폴더 요소를 편집할 수 있습니다. 다음 지침에 따라 일괄 업데이트를 수행합니다.
 
 <!-- 
 
@@ -44,6 +44,5 @@ t_bulk_updates.xml
    워크시트는 [!UICONTROL Results] 열을 만듭니다. 이 [!UICONTROL Results] 열은 성공적인 작업에 대한 JSON 응답을 반환합니다. 예제는 REST [API를](../../api/rest-api-main/rest-api-main.md) 참조하십시오. 데이터를 입력하기 전에 벌크 업데이트 워크시트는 다음과 유사해야 합니다.
 
 ![](assets/update.png)
-
 
 벌크 업데이트에서 오류가 반환되거나 오류가 발생하면 벌크 관리 [도구 문제 해결을 참조하십시오](../../reference/bulk-management-tools/bulk-troubleshooting.md).

@@ -6,14 +6,16 @@ solution: Audience Manager
 title: 프로필 병합 규칙 개요
 uuid: 9e7988cc-9145-43 파섹
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # 프로필 병합 규칙 개요 {#profile-merge-rules-overview}
 
-세그멘테이션에 사용되는 데이터 세트를 제어할 [!UICONTROL Profile Merge Rules] 수 있고 여러 디바이스에서 인물을 정확하게 타깃팅할 수 있습니다.
+를 [!UICONTROL Profile Merge Rules] 사용하면 세그멘테이션에 사용되는 데이터 세트를 제어할 수 있고 여러 장치에서 사용자를 정확하게 타깃팅할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28974?captions=kor)
 
 ## 익명 및 인증된 프로필로 데이터 수집 및 타깃팅 {#data-collection-targeting}
 
@@ -21,7 +23,7 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] 기본적으로 타깃팅을 위해 데이터 및 세그먼트를 수집하는 방법을 [!DNL Audience Manager] 변경합니다. 이 플러그인을 사용하면 서로 다른 2가지 유형의 프로파일, 장치 프로파일 및 인증된 프로파일을 사용하여 작업할 수 있습니다.
+[!UICONTROL Profile Merge Rules] 기본적으로 타깃팅을 위해 데이터 및 세그먼트를 수집하는 방법을 [!DNL Audience Manager] 변경합니다. 이 플러그인을 사용하면 서로 다른 2가지 유형의 프로파일, 장치 프로파일 및 [인증된 프로파일을](../../reference/visitor-authentication-states.md)사용하여 작업할 수 있습니다.
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -50,7 +52,7 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
  </tbody>
 </table>
 
-이러한 다양한 프로필은 세그멘테이션에 사용할 수 있는 데이터를 제어합니다. 예를 들어 인증된 프로파일을 사용하면 한 사람에 대해 여러 장치의 데이터를 기반으로 정확한 세그먼트를 만들 수 있습니다. 즉, 여러 디바이스에서 고객에게 일관된 브랜드 경험을 제공할 수 있습니다. 또한 크로스 디바이스 인증을 통해 사용자가 온라인 활동에 사용하는 서로 다른 플랫폼을 [!DNL Audience Manager] 매핑할 수 있습니다. 이것을 "The"라고 [!UICONTROL Profile Link Device Graph]합니다.
+이러한 다양한 프로필은 세그멘테이션에 사용할 수 있는 데이터를 제어합니다. 예를 들어 [인증된 프로파일을](../../reference/visitor-authentication-states.md)사용하면 한 사용자에 대해 여러 장치의 데이터를 기반으로 정확한 세그먼트를 작성할 수 있습니다. 즉, 여러 디바이스에서 고객에게 일관된 브랜드 경험을 제공할 수 있습니다. Audience Manager는 사용자가 온라인 활동에 사용하는 서로 다른 장치의 매핑을 [인증된 프로필에](../../reference/visitor-authentication-states.md)저장하여 이를 실현합니다. 이러한 매핑을 [!UICONTROL Profile Link Device Graph]
 
 ![](assets/authenticated2.png)
 
@@ -58,23 +60,8 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 다음을 [!UICONTROL Profile Merge Rules] 수행할 수 있습니다.
 
-* 인증된 프로필, 익명 프로파일 또는 두 가지 조합을 기반으로 사용자를 타깃팅합니다.
+* 인증된 프로필 [](../../reference/visitor-authentication-states.md), 익명 프로파일 또는 두 가지 조합을 기반으로 사용자를 타깃팅합니다.
 * 모든 디바이스에서 특정 고객을 타깃팅합니다.
 * 결정 데이터를 기반으로 디바이스 그래프를 만듭니다.
 * 다양한 프로파일을 기반으로 세그먼트의 데이터를 세밀하게 조정할 수 있습니다.
 * 고객에 대한 통찰력을 얻을 수 있습니다.
-
-## 시작하기 {#getting-started}
-
-자세한 내용은 다음 섹션 및 [FAQ를](../../faq/faq-profile-merge.md) 참조하십시오 [!UICONTROL Profile Merge Rules].
-
-* [프로필 병합 규칙 시작](/help/using/features/profile-merge-rules/merge-rules-start.md)
-* [프로필 병합 규칙 대시보드](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
-* [프로필 병합 규칙 옵션 정의](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
-* [프로필 병합 규칙에 대한 일반 사용 사례](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
-* [프로필 링크 장치 그래프 사용 사례](/help/using/features/profile-merge-rules/profile-link-use-case.md)
-* [외부 장치 그래프 사용 사례](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
-* [프로필 병합 규칙에 대한 보고서 지표](/help/using/features/profile-merge-rules/profile-link-metrics.md)
-* [프로필 병합 규칙 및 장치 분리 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
-* [즉각적인 장치 간 억제](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
-* [장치 그래프와 프로필 병합 규칙에 대한 중요 고려 사항](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)

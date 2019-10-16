@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -20,8 +20,9 @@ source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
   <tr> 
    <td colname="col1"> <p> <b>새 항목 및 중요 항목</b> </p> <p>Audience Manager의 최신 기능을 살펴보십시오.</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+    <li><a href="features/profile-merge-rules/merge-rules-overview.md">프로필 병합 규칙 개선 사항</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">벌크 관리 도구 업데이트</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts">HTTP Strict-Transport-Security</a></li>
+     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">사용자 기반 대상</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성</a> </li>
      <li><a href="features/destinations/destinations-home.md">대상 홈 페이지</a> </li>

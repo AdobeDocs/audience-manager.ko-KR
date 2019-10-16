@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -25,23 +25,23 @@ source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 >[!TIP]
 >
->이러한 [다른 컨트롤에 대한 설명은 데이터](../../features/datasources-list-and-settings.md#settings-menu-options) 소스 설정 및 메뉴 옵션을 참조하십시오.
+>이러한 [다른 컨트롤에 대한 설명은 데이터](../datasources-list-and-settings.md#settings-menu-options) 소스 설정 및 메뉴 옵션을 참조하십시오.
 
 ## 데이터 소스 세부 사항 {#details}
 
 섹션을 완료하려면 [!UICONTROL Data Source Details] 다음을 수행하십시오.
 
 1. 데이터 소스의 이름을 지정합니다.
-1. *(선택 사항)* 데이터 소스를 설명합니다. 간결한 설명은 데이터 소스의 역할이나 목적을 정의하는 데 도움이 됩니다.
-1. 통합 코드를 제공합니다. 통합 코드는 이 데이터 소스에 대한 고유한 ID입니다.
-1. 목록에서 **[!UICONTROL ID Type]** 선택합니다 **[!UICONTROL Cross Device]**.
-1. 목록에서 데이터 소스 유형을 정의하는 옵션을 **[!UICONTROL ID Definition]** 선택합니다. 옵션은 다음과 같습니다.
+2. *(선택 사항)* 데이터 소스를 설명합니다. 간결한 설명은 데이터 소스의 역할이나 목적을 정의하는 데 도움이 됩니다.
+3. 통합 코드를 제공합니다. 통합 코드는 이 데이터 소스에 대한 고유한 ID입니다.
+4. 목록에서 **[!UICONTROL ID Type]** 선택합니다 **[!UICONTROL Cross Device]**.
+5. 목록에서 데이터 소스 유형을 정의하는 옵션을 **[!UICONTROL ID Definition]** 선택합니다. 옵션은 다음과 같습니다.
    * **[!UICONTROL Person]**:단일 개인을 정의하는 ID입니다. 이 ID 파섹 [!DNL Audience Manager]
    * **[!UICONTROL Household]**:사람 그룹을 정의하는 ID입니다. 이 ID 파섹 [!DNL Audience Manager]
 
 ## 데이터 내보내기 제어 {#export-controls}
 
-[데이터 내보내기](../../features/data-export-controls.md) 컨트롤은 데이터 소스 및 대상에 적용할 수 있는 선택적 분류 규칙입니다. 이러한 동작을 통해 데이터 개인 정보 보호 또는 사용 계약을 위반할 경우 데이터가 대상으로 전송되지 않도록 합니다. 사용하지 않는 경우 이 섹션을 건너뜁니다 [!UICONTROL Data Export Controls].
+[데이터 내보내기](../data-export-controls.md) 컨트롤은 데이터 소스 및 대상에 적용할 수 있는 선택적 분류 규칙입니다. 이러한 동작을 통해 데이터 개인 정보 보호 또는 사용 계약을 위반할 경우 데이터가 대상으로 전송되지 않도록 합니다. 사용하지 않는 경우 이 섹션을 건너뜁니다 [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#settings}
 
@@ -53,11 +53,11 @@ source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**:이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 유지 기간을 설정할 수 있습니다. Audience Manager 플랫폼에서 고객 ID가 마지막으로 표시된 후 Audience Manager가 데이터베이스에 고객 ID를 유지하는 시간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소 값은 1개월이고 최대 값은 5년입니다. 모든 달은 30일로 계산합니다. Audience Manager는 비활성 고객 ID에 대해 설정한 데이터 유지에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
-이러한 설정과 연결된 텍스트 필드를 사용하면 프로필 병합 규칙 옵션에 [!UICONTROL Data Source] 나타나는 별칭으로 이름을 변경할 [수 있습니다](../../features/profile-merge-rules/merge-rule-definitions.md). 예를 들어 별칭을 추가할 경우 **[!UICONTROL Use as Authenticated Profile]**&#x200B;해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. 별칭을 추가할 경우 **[!UICONTROL Use as a Device Graph]**&#x200B;해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
+이러한 설정과 연결된 텍스트 필드를 사용하면 프로필 병합 규칙 옵션에 [!UICONTROL Data Source] 나타나는 별칭으로 이름을 변경할 [수 있습니다](merge-rule-definitions.md). 예를 들어 별칭을 추가할 경우 **[!UICONTROL Use as Authenticated Profile]**&#x200B;해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. 별칭을 추가할 경우 **[!UICONTROL Use as a Device Graph]**&#x200B;해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
 
 >[!MORELIKE_THIS]
 >
->* [데이터 소스 만들기](../../features/manage-datasources.md#create-data-source)
+>* [데이터 소스 만들기](../manage-datasources.md#create-data-source)
 
 
 ## 프로필 병합 규칙 만들기 {#create-profile-merge-rule}
@@ -66,11 +66,11 @@ To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile
 
 <!-- create-profile-merge-rule.xml -->
 
-**** 사전 요구 사항:데이터를 만들려면 장치 간 데이터 소스가 필요합니다 [!UICONTROL Profile Merge Rule]. 데이터 [소스 만들기를 참조하십시오](../../features/manage-datasources.md#create-data-source).
+**** 사전 요구 사항:데이터를 만들려면 장치 간 데이터 소스가 필요합니다 [!UICONTROL Profile Merge Rule]. 데이터 [소스 만들기를 참조하십시오](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
->이러한 [다른 컨트롤에 대한 설명은](../../features/profile-merge-rules/merge-rule-definitions.md) 정의된 프로필 병합 규칙 옵션을 참조하십시오.
+>이러한 [다른 컨트롤에 대한 설명은](merge-rule-definitions.md) 정의된 프로필 병합 규칙 옵션을 참조하십시오.
 
 ## 기본 정보 {#basic-info}
 
@@ -82,7 +82,7 @@ To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile
 
 ## 데이터 내보내기 제어 {#data-export-controls}
 
-[데이터 내보내기](../../features/data-export-controls.md) 컨트롤은 [!UICONTROL Profile Merge Rule]사용자에게 적용할 수 있는 선택 분류 규칙입니다. 이러한 동작을 통해 데이터 개인 정보 보호 또는 사용 계약을 위반할 경우 데이터가 대상으로 전송되지 않도록 합니다. 사용하지 않는 경우 이 섹션을 건너뜁니다 [!UICONTROL Data Export Controls].
+[데이터 내보내기](../data-export-controls.md) 컨트롤은 [!UICONTROL Profile Merge Rule]사용자에게 적용할 수 있는 선택 분류 규칙입니다. 이러한 동작을 통해 데이터 개인 정보 보호 또는 사용 계약을 위반할 경우 데이터가 대상으로 전송되지 않도록 합니다. 사용하지 않는 경우 이 섹션을 건너뜁니다 [!UICONTROL Data Export Controls].
 
 ## 프로필 병합 규칙 설정 {#profile-merge-rule-setup}
 
@@ -92,7 +92,7 @@ To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
-2. 최대 3 **[!UICONTROL Authenticated Profile Option]** 개까지 선택할 수 있습니다. 이전에 만든 [크로스 디바이스 데이터 소스입니다](../../features/profile-merge-rules/merge-rules-start.md) .
+2. 최대 3 **[!UICONTROL Authenticated Profile Option]** 개까지 선택할 수 있습니다. 이전에 만든 [크로스 디바이스 데이터 소스입니다](merge-rules-start.md) .
 3. Select a **[!UICONTROL Device Option]**. 옵션은 다음과 같습니다.
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
@@ -112,7 +112,7 @@ To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile
 
 ## Experience Cloud ID 서비스 고객의 경우 {#id-service-customers}
 
-DIL의 [!UICONTROL Experience Cloud ID Service] 최신 버전과 [최신](../../dil/dil-overview.md) 버전은 작업 시 [!UICONTROL Profile Merge Rules]권장됩니다. 그러나 이 기능을 사용하여 작업할 [!UICONTROL Experience Cloud ID Service] 필요는 없습니다. 지금 사용하고 [!UICONTROL DIL]있는 경우 아래의 [기존 DIL 섹션을](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) 참조하십시오.
+DIL의 [!UICONTROL Experience Cloud ID Service] 최신 버전과 [최신](../../dil/dil-overview.md) 버전은 작업 시 [!UICONTROL Profile Merge Rules]권장됩니다. 그러나 이 기능을 사용하여 작업할 [!UICONTROL Experience Cloud ID Service] 필요는 없습니다. 지금 사용하고 [!UICONTROL DIL]있는 경우 아래의 [기존 DIL 섹션을](#legacy-dil) 참조하십시오.
 
 ### 고객 ID 설정 기능 구성
 
@@ -140,11 +140,16 @@ visitor.setCustomerIDs({
 
 ### 함수 `DIL.create` 구성
 
-의 최신 버전은 [!UICONTROL DIL] 이제 의 [!UICONTROL declared ID] 함수에서 자동으로 `visitorService` 해당 `DIL.create` 함수를 선택합니다(선언된 ID 변수 [참조](../../features/declared-ids.md#declared-id-variables)). 아래 코드 샘플에서와 같이 이 기능이 제대로 설정되어 있는지 `DIL.create` 확인합니다.
+의 최신 버전은 [!UICONTROL DIL] 이제 의 [!UICONTROL declared ID] 함수에서 자동으로 `visitorService` 해당 `DIL.create` 함수를 선택합니다(선언된 ID 변수 [참조](../declared-ids.md#declared-id-variables)). 아래 코드 샘플에서와 같이 이 기능이 제대로 설정되어 있는지 `DIL.create` 확인합니다.
 
-<pre class="js"><code>
-var vDil = DIL.create({ partner:"partner name", visitorService:{ namespace:"<i>INSERT-MCORG-ID-HERE</i>" }});
-</code></pre>
+```js
+var vDil = DIL.create({
+   partner:"partner name",
+   visitorService:{
+      namespace:"INSERT-MCORG-ID-HERE"
+   }
+});
+```
 
 네임스페이스 키-값 쌍에서 MCORG `*`변수는`*` 조직 ID [!DNL Experience Cloud] 입니다. 이 ID가 없는 경우 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
@@ -156,11 +161,17 @@ var vDil = DIL.create({ partner:"partner name", visitorService:{ namespace:"<i>I
 
 만약 [!DNL Experience Cloud ID Service] 아직 사용하지 않는다면, 너는 정말 그래야 한다. 그러나 새로운 코드로 전환하려면 신중한 생각과 테스트가 필요합니다. 이러한 경우 아래 코드 샘플에서와 같이 `DIL.create` 함수가 제대로 설정되어 있는지 확인하십시오.
 
-<pre class="js"><code>
-DIL.create({ partner:"partner name", 선언된 ID:{ dpuuid:<i>dpuuid</i>, dpid:<i></i>dpid }});
-</code></pre>
+```js
+DIL.create({
+   partner: "partner name",
+   declaredId:{
+      dpuuid: YOUR_DPUUID,
+      dpid: YOUR_DPID
+   }
+});
+```
 
-자세한 내용은 선언된 ID 변수의 기존 [!UICONTROL DIL] 섹션을 [참조하십시오](../../features/declared-ids.md#declared-id-variables).
+자세한 내용은 선언된 ID 변수의 기존 [!UICONTROL DIL] 섹션을 [참조하십시오](../declared-ids.md#declared-id-variables).
 
 ### SDK 구성 {#configure-sdks-legacy-dil}
 
@@ -185,11 +196,13 @@ DIL.create({ partner:"partner name", 선언된 ID:{ dpuuid:<i>dpuuid</i>, dpid:<
    <td colname="col1"> <p> <b> iOS </b> </p> </td> 
    <td colname="col2"> <p> <code> audienceSetDpid:dpuuid </code> </p> <p> <b>구문:</b> </p><p>
     <code class="javascript">
-      + (void) audienceSetDpid:(NSString *)dpid dpuuid:(NSString *)dpuuid; 
+      +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
     </code></p>
     <p> <b>예:</b> </p><p>
     <code class="javascript">
-      [ADBMobile audienceSetDpid:@"290" dpuuid:@"99301393923940"];
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>

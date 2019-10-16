@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -116,7 +116,6 @@ source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
       + [프로필 병합 규칙에 대한 보고서 지표](features/profile-merge-rules/profile-link-metrics.md)
       + [프로필 병합 규칙 및 장치 분리 프로세스](features/profile-merge-rules/merge-rule-unsegment.md)
       + [즉각적인 장치 간 억제](features/profile-merge-rules/instant-cross-device-suppression.md)
-      + [장치 그래프와 프로필 병합 규칙에 대한 중요 고려 사항](features/profile-merge-rules/considerations-pmr-device-graph.md)
    + 세그먼트{#segments}
       + [세그먼트:목적, 구성 및 규칙](features/segments/segments-purpose.md)
       + [세그먼트 목록 보기](features/segments/segments-dashboard.md)

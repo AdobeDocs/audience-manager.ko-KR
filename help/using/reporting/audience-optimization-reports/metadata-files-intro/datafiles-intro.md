@@ -1,23 +1,23 @@
 ---
-description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager로 가져와서 대상 최적화 보고서에서 볼 수 있습니다. 이 섹션의 이러한 사양에 따라 데이터 파일의 형식을 지정합니다.
-seo-description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager로 가져와서 대상 최적화 보고서에서 볼 수 있습니다. 이 섹션의 이러한 사양에 따라 데이터 파일의 형식을 지정합니다.
-seo-title: 대상 최적화 보고서용 데이터 파일
+description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager로 가져와 대상 최적화 보고서와 실행 가능한 로그 파일에서 사용할 수 있습니다. 이 섹션의 사양에 따라 데이터 파일의 형식을 지정합니다.
+seo-description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager로 가져와 대상 최적화 보고서와 실행 가능한 로그 파일에서 사용할 수 있습니다. 이 섹션의 사양에 따라 데이터 파일의 형식을 지정합니다.
+seo-title: 대상 최적화 보고서 및 실행 가능한 로그 파일을 위한 데이터 파일
 solution: Audience Manager
-title: 대상 최적화 보고서용 데이터 파일
+title: 대상 최적화 보고서 및 실행 가능한 로그 파일을 위한 데이터 파일
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
+source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-# 대상 최적화 보고서용 데이터 파일{#data-files-for-audience-optimization-reports}
+# 대상 최적화 보고서 및 실행 가능한 로그 파일을 위한 데이터 파일 {#data-files-for-audience-optimization-reports}
 
-데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager로 가져와서 대상 최적화 보고서에서 볼 수 있습니다. 이 섹션의 이러한 사양에 따라 데이터 파일의 형식을 지정합니다.
+데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager로 가져와 대상 최적화 보고서에서 보고 [실행 가능한](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) 로그 파일을 통해 데이터를 사용하여 트레이트를 만들 [수 있습니다](/help/using/integration/media-data-integration/actionable-log-files.md). 이 섹션의 이러한 사양에 따라 데이터 파일의 형식을 지정합니다.
 
 ## 개요 {#overview}
 
-적절한 이름의 형식 데이터 파일을 사용하면 노출, 클릭 또는 전환 데이터를 대상 최적화 [보고서로 가져올 수 있습니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). 이 기능은 통합되지 않은 파트너와 함께 작업하고 해당 보고서 세트에서 해당 데이터를 사용하여 작업하려는 경우 유용합니다. [!DNL Audience Manager] 이 프로세스에서는 노출, 클릭 및 전환 데이터를 위해 별도의 파일이 필요합니다. 이러한 이벤트를 하나의 파일로 혼합하지 마십시오.
+적절한 이름 및 형식 지정 데이터 파일을 사용하면 노출, 클릭 또는 전환 데이터를 대상 최적화 [보고서로 가져올 수 있습니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). 이 기능은 통합되지 않은 파트너와 함께 작업하고 해당 보고서 세트에서 해당 데이터를 사용하여 작업하려는 경우 유용합니다. [!DNL Audience Manager] 이 프로세스에서는 노출, 클릭 및 전환 데이터를 위해 별도의 파일이 필요합니다. 이러한 이벤트를 하나의 파일로 혼합하지 마십시오.
 
 데이터 파일에는 메타데이터 파일이 있어야 합니다. 메타데이터 파일 내용은 데이터 파일 정보를 보고서 메뉴에서 읽을 수 있는 관련 레이블과 일치시킵니다. 자세한 내용은 메타데이터 파일에 [대한 개요 및 매핑을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -25,7 +25,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 다음 구문은 올바른 형식의 데이터 파일 이름의 구조를 정의합니다. 참고, *기울임꼴은* 파일 내용에 따라 변경되는 변수 자리 표시자를 나타냅니다.
 
-**구문:** <pre><code><i>이벤트 유형</i>_<i>yyyyymmdd</i></code></pre>
+**구문:** <pre><i>이벤트 유형</i>_<i>yyyyymmdd</i></code></pre>
 
 파일 이름:
 
@@ -35,15 +35,15 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 이러한 요구 사항이 주어지면 다음과 같은 내용에 따라 데이터 파일의 이름을 지정하십시오.
 
-* 노출 횟수 데이터: <pre><code>impressions_<i>yyyyymdd<i>.gz</code></pre>
-* 데이터 클릭: <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* 전환 데이터: <pre><code>conversions_<i>yyyyymdd</i>.gz</code></pre>
+* 노출 횟수 데이터: <pre>impressions_<i>yyyyymdd<i>.gz</code></pre>
+* 데이터 클릭: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* 전환 데이터: <pre>conversions_<i>yyyyymdd</i>.gz</code></pre>
 
 ## 데이터 파일에 대한 컨텐츠 형식 {#content-format}
 
 다음 구문은 올바른 형식의 데이터 파일에서 컨텐츠 구조를 정의합니다. 기울임꼴은 *변수 자리 표시자를* 나타내며 실제 데이터 파일의 레이블로 바뀝니다.
 
-**구문:** <pre><code><i>헤더 레이블 1</i> | <i>헤더 레이블 2</i> ... <i>헤더 레이블 n</i> | <i>버전</i></code></pre>
+**구문:** <pre><i>헤더 레이블 1</i> | <i>헤더 레이블 2</i> ... <i>헤더 레이블 n</i> | <i>버전</i></code></pre>
 
 파일 내용:
 
@@ -67,7 +67,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
  <tbody> 
   <tr> 
    <td colname="col1"> <p>타임스탬프 </p> </td> 
-   <td colname="col2"> <p>노출, 클릭 또는 전환 이벤트의 UTC 날짜 및 시간입니다. yyyy-dd-mm hh:mm:ss <code></code> 형식을 사용합니다. </p> </td> 
+   <td colname="col2"> <p>노출, 클릭 또는 전환 이벤트의 UTC 날짜 및 시간입니다. 형식을 <code> yyyy-dd-mm hh:mm:ss</code> 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 ID </p> </td> 
@@ -125,8 +125,8 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
    <td colname="col1"> <p>이벤트 유형 </p> </td> 
    <td colname="col2"> <p>전환 유형. 전환이 일치하는지 여부를 나타냅니다. 옵션은 다음과 같습니다. </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
-     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>:노출 횟수 </li> 
-     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>:클릭 </li> 
+     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: 노출 횟수 </li> 
+     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: 클릭 </li> 
      <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>:특성 없음 또는 알 수 없음 </li> 
     </ul> <p> <i>전환 데이터 파일만 해당합니다.</i> </p> </td> 
   </tr> 
@@ -145,7 +145,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 데이터는 Amazon S3 디렉토리의 각 고객에 대한 별도의 네임스페이스에 저장됩니다. 파일 경로는 아래에 표시된 구문을 따릅니다. Note, *italics* indicates a variable placeholder. 다른 요소는 상수 또는 키이며 변경되지 않습니다.
 
-**구문:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>파일 유형</i>_<i>yyyymmdd</i></code></pre>
+**구문:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>파일 유형</i>_<i>yyyymmdd</i></code></pre>
 
 다음 표에서는 파일 배달 경로에서 이러한 각 요소를 정의합니다.
 
@@ -170,11 +170,11 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
    <td colname="col2"> <p>이 키-값 쌍은 이벤트 호출에 전달된 데이터 소스 ID를 포함합니다. 이 보고서는 데이터가 제공되는 에이전시를 식별하고 해당 데이터를 지원 메타데이터 파일에 연결합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 로그</code> </p> </td> 
+   <td colname="col1"> <p> <code> logs</code> </p> </td> 
    <td colname="col2"> <p> 데이터 파일에 대한 상위 수준 디렉토리 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>파일 유형</i>_<i>yyyyymmdd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>포함된 데이터 유형과 배달 타임스탬프를 나타내는 파일 형식 이름입니다. </p> </td> 
   </tr> 
  </tbody> 

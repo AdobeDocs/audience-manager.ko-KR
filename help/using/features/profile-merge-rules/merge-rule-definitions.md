@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 옵션 정의
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
+source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
 
 ## 장치 옵션 {#device-options}
 
-를 [!UICONTROL Device Options] 사용하면 에서 *`device profile`* 사용하는 유형을 선택할 수 [!UICONTROL Profile Merge Rule]있습니다. 장치 프로파일은 사용자가 익명으로 웹을 탐색할 때 수집한 트레이트로 구성됩니다. 적어도 프로필 병합 규칙에는 인증된 옵션과 장치 옵션이 포함됩니다.
+를 [!UICONTROL Device Options] 사용하면 에서 *`device profile`* 사용하는 유형을 선택할 수 [!UICONTROL Profile Merge Rule]있습니다. 장치 프로파일은 익명의 탐색 활동에서 수집한 트레이트에서 만들어집니다. 적어도 프로필 병합 규칙에는 인증된 옵션과 장치 옵션이 포함됩니다.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 

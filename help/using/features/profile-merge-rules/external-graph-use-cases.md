@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 외부 장치 그래프 사용 사례
 uuid: f4bc822d-3 파섹
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 * 광범위한 고객 타겟팅 타사 [!DNL Experience Cloud Device Co-op] 장치 그래프에는 인증된 데이터와 인증되지 않은 데이터가 포함됩니다.
 * 인증된 방문자 및/또는 인증되지 않은 방문자를 개인 및 가정 수준에서 세그먼트화할 수 있습니다.
 
-![](../assets/merge-rule-triangle1.png)
+![](assets/merge-rule-triangle1.png)
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -127,5 +127,5 @@ John은 데이터 플랜 A에서 자신의 iPhone 7을 사용하여 Acme Inc. �
 >
 >* [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md)
 >* [프로필 병합 규칙에 대한 일반 사용 사례](merge-rule-targeting-options.md)
->* [프로필 병합 규칙 FAQ](faq-profile-merge.md)
+>* [프로필 병합 규칙 FAQ](../../faq/faq-profile-merge.md)
 

@@ -6,12 +6,12 @@ solution: Audience Manager
 title: 프로필 병합 규칙 옵션 정의
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
 
 ---
 
 
-# Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
+# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
 
 병합 규칙 옵션을 사용하면 Audience Manager가 세그멘테이션에 사용하는 데이터 유형을 제어할 수 있습니다. 병합 규칙에는 Audience Manager와 통합된 [!UICONTROL Profile Link] 장치 그래프, [!UICONTROL Adobe Experience Cloud Device Co-op]및/또는 기타 타사 장치 그래프 제공자가 매핑하는 장치 프로파일이 포함될 수 있습니다. 최대 4개를 만들 수 [!UICONTROL Profile Merge Rules]있습니다. 네 [!UICONTROL Profile Merge Rule] [!UICONTROL People-Based Destinations] 번째 버전은 Add-On을 구입한 고객에게만 제공됩니다.
 

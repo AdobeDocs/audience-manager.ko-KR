@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: e324a298bf72b223e4ebf5627f3314e1613d3761
 
 ---
 
@@ -178,9 +178,9 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
          + [광고 단위 오버랩](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [세그먼트 대 광고 단위 오버랩](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [고유한 사용자 도달](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-      + 대상 최적화 보고서를 위한 데이터 및 메타데이터 파일 {#data-and-metadata-files}
-         + [대상 최적화 보고서를 위한 데이터 및 메타데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [대상 최적화 보고서용 데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+      + 대상 최적화 보고서 및 실행 가능한 로그 파일을 위한 데이터 및 메타데이터 파일 {#data-and-metadata-files}
+         + [ 로그 데이터 및 메타데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+         + [대상 최적화 보고서 및 실행 가능한 로그 파일을 위한 데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [메타데이터 파일에 대한 개요 및 매핑](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [메타데이터 파일에 대한 이름 지정 규칙](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [메타데이터 파일에 대한 컨텐츠 형식](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -322,6 +322,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [대상 관리 모듈 구현](integration/integration-other-solutions/audience-management-module.md)
       + [서버측 전달(관리 안내서)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Adobe Analytics 세그먼트를 Experience Cloud에 게시](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)
    + [Amazon S3:정보](reference/amazon-s3.md)

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 및 장치 분리 프로세스
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 [!DNL Audience Manager] 에서 [!UICONTROL Profile Merge Rule] + **[!UICONTROL Current Authenticated Profiles]** **[!UICONTROL No Device Profile]** 옵션을 사용할 때 세그먼트에서 장치 간 ID를 제거할 수 있습니다. 이러한 조건에서, 장치 간 ID가 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션은 장치 간 프로파일을 업데이트하거나 변경하면 자격이 상실됩니다. 이 문제는 세그먼트 자격 기준이 변경되거나, 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나, 보다 작거나 같은 설정을 사용하는 [최근 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 즉시 장치 간 [억제 문서에 설명되어](instant-cross-device-suppression.md) 있습니다.
 
-![](../assets/current-no-device.png)
+![](assets/current-no-device.png)
 
 ## 장치 그래프 옵션 및 장치 분리 {#device-graph-options-unsegmentation}
 

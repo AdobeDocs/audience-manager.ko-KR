@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -62,7 +62,11 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ## 프로필 병합 규칙 만들기 {#create-profile-merge-rule}
 
-To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** go and complete the steps for each section described here. 장치 간 데이터 소스를 설정한 후 최대 3개의 병합 규칙을 만들 수 있습니다. 규칙을 만들거나 편집하거나 삭제하려면 관리자 권한이 필요합니다. 모든 사용자는 기존 항목을 보고 사용할 수 [!UICONTROL Profile Merge Rules]있습니다.
+To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** go and complete the steps for each section described here.
+
+장치 간 데이터 소스를 설정한 후 최대 3개의 병합 규칙을 만들 수 있습니다. 사람 기반 대상에 등록하는 경우 제4회 프로필 병합 규칙([!UICONTROL All Cross-Device Profiles]) [에 액세스할 수 있습니다](../destinations/people-based-destinations-overview.md).
+
+규칙을 만들거나 편집하거나 삭제하려면 관리자 권한이 필요합니다. 모든 사용자는 기존 항목을 보고 사용할 수 [!UICONTROL Profile Merge Rules]있습니다.
 
 <!-- create-profile-merge-rule.xml -->
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 대시보드
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 작업 시 [!UICONTROL Profile Merge Rules]다음을 수행할 수 있습니다.
 
-* 크로스 디바이스 데이터 소스에서 최대 4개의 규칙을 만들 수 있습니다. 장치 [간 데이터 소스 만들기를 참조하십시오](merge-rules-start.md#create-data-source).
+* 크로스 디바이스 데이터 소스에서 최대 4 [!UICONTROL Profile Merge Rules] 개를 만들 수 있습니다. 장치 [간 데이터 소스 만들기를 참조하십시오](merge-rules-start.md#create-data-source).
 * 기본 병합 규칙을 지정합니다. [세그먼트 빌더는](../segments/segment-builder.md) 사용자가 만든 새 세그먼트에 기본 규칙을 자동으로 적용합니다.
 * 데이터 [내보내기 컨트롤을](../data-export-controls.md) 병합 규칙에 적용합니다. [!UICONTROL Data Export Controls] 데이터 개인 정보를 침해하거나 계약을 사용할 경우 데이터를 대상으로 전송하지 못하도록 합니다.
 * 각 사용자의 평균 장치 수를 추적합니다.

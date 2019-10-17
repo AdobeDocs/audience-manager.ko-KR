@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API
 title: Audience Manager에서의 GDPR
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 5661bcef9816b6646ee63ebc6c19b730c1ccadc9
+source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 5661bcef9816b6646ee63ebc6c19b730c1ccadc9
 
 Adobe는 Audience Manager 세부 사항을 읽기 전에 아래에 연계된 유럽 GDPR(General Data Protection Regulation)에 대한 Experience Cloud 자료를 살펴보는 것이 좋습니다.
 
-* [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html)
+* [GDPR 및 비즈니스](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 * [GDPR 백서](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-whitepaper.md)
 * [GDPR 용어](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
 
@@ -42,7 +42,7 @@ Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud
 
 데이터 요청에 대한 응답에는 해당 데이터 소스 이름과 함께 총 트레이트 및 세그먼트 수, 트레이트 유형, 트레이트 및 세그먼트 설명이 포함됩니다. 액세스 응답에는 퍼스트 파티 데이터와 함께 데이터 컨트롤러에 액세스할 수 있는 제2자 및 제3자 데이터도 포함됩니다. 크로스 장치 CRM ID 또는 고객 쿠키 ID와 [!UICONTROL declared IDs] 같은 것이 GDPR 요청으로 전송되면 Audience Manager는 모든 연결된 장치의 액세스 응답을 포함합니다(선언된 ID당 최대 100개의 장치).
 
-**Response Status**
+**응답 상태**
 
 응답에 Audience Manager의 오류가 있으면 응답에 오류 코드로 표시됩니다. 반환된 오류에 대한 자세한 정보를 찾을 수 있는 오류 코드 [](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md)목록이 있습니다.
 
@@ -142,52 +142,52 @@ Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> ID</code> </p> </td> 
-   <td colname="col2"> <p>다음에 오는 데이터의 사용자 ID입니다. GDPR 데이터 액세스 요청에서 제공한 ID 또는 제공된 선언된 ID 중 하나에 연결된 ID입니다. The ID types are described in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
+   <td colname="col1"> <p> <code> id</code> </p> </td> 
+   <td colname="col2"> <p>다음에 오는 데이터의 사용자 ID입니다. GDPR 데이터 액세스 요청에서 제공한 ID 또는 제공된 선언된 ID 중 하나에 연결된 ID입니다. ID 유형은 Audience Manager 식별자 <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> 섹션에 설명되어</a> 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace</code> </p> </td> 
    <td colname="col2"> <p>데이터 소스라고도 합니다. Audience Manager <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> 식별자 섹션을</a> 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID</code> </p> </td> 
-   <td colname="col2"> <p>네임스페이스/데이터 소스의 ID입니다. See <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
+   <td colname="col1"> <p> <code> id</code> </p> </td> 
+   <td colname="col2"> <p>네임스페이스/데이터 소스의 ID입니다. 허용된 <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> 모든 값에 대해서는 Audience Manager 식별자(ID)</a> 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 통합 코드 </code> </p> </td> 
+   <td colname="col1"> <p> <code> integration code </code> </p> </td> 
    <td colname="col2"> <p>통합 코드는 데이터 소스의 친숙한 이름이며 데이터 소스 ID를 사용하는 것보다 데이터 소스를 손쉽게 추적할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 데이터 공급자 이름 </code> </p> </td> 
-   <td colname="col2"> <p>The name of the owner of the data source. 
+   <td colname="col1"> <p> <code> data provider name </code> </p> </td> 
+   <td colname="col2"> <p>데이터 원본 소유자의 이름입니다. 
      <ul id="ul_5CEAF23C28154662AFC443D3494107D3"> 
-      <li id="li_EC2DA09F618D4225B655ADF455C0D654">For first party data, this is the customer's own company name. </li> 
-      <li id="li_C4A5E1BD2A994109BBCD839DDC4B2E64">For second party data, this is the name of the partner company. </li> 
-      <li id="li_1AA1246B7E40443CB18108512FBB8B19">For third party data, this is the name of the data partner. </li> 
+      <li id="li_EC2DA09F618D4225B655ADF455C0D654">자사 데이터의 경우 고객의 회사 이름입니다. </li> 
+      <li id="li_C4A5E1BD2A994109BBCD839DDC4B2E64">제휴 데이터의 경우 파트너 회사의 이름입니다. </li> 
+      <li id="li_1AA1246B7E40443CB18108512FBB8B19">타사 데이터의 경우, 데이터 파트너의 이름입니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> type </code> </p> </td> 
-   <td colname="col2"> <p>GDPR 데이터 액세스를 요청한 ID의 유형입니다. Accepted types are listed in the  Audience Manager Identifiers section.<a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"></a> </p> </td> 
+   <td colname="col2"> <p>GDPR 데이터 액세스를 요청한 ID의 유형입니다. 허용된 유형은 Audience Manager 식별자 <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> 섹션에</a> 나열됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> warnings</code> </p> </td> 
-   <td colname="col2"> <p>Warnings return further information related to the data access request. </p> </td> 
+   <td colname="col2"> <p>경고는 데이터 액세스 요청과 관련된 추가 정보를 반환합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 제목 </code> </p> </td> 
-   <td colname="col2"> <p>Brief information about the warning. </p> <p>The two warnings you may receive are: </p> <p> 
+   <td colname="col1"> <p> <code> title </code> </p> </td> 
+   <td colname="col2"> <p>경고에 대한 간략한 정보. </p> <p>수신할 수 있는 두 가지 경고: </p> <p> 
      <ul id="ul_34019A1529594DC7B2566913937EAF0C"> 
-      <li id="li_F0104BE3D5FE4DB7BA54195504E260E9">Device Data </li> 
-      <li id="li_8A22D9F9A1454AFDBC4CAF942E80498F">Incomplete request </li> 
+      <li id="li_F0104BE3D5FE4DB7BA54195504E260E9">장치 데이터 </li> 
+      <li id="li_8A22D9F9A1454AFDBC4CAF942E80498F">미완료 요청 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 설명 </code> </p> </td> 
+   <td colname="col1"> <p> <code> description </code> </p> </td> 
    <td colname="col2"> <p>받은 경고에 대한 자세한 설명: </p> <p> 
      <ul id="ul_78E03ABA52674E07A48835FDD3431FF8"> 
       <li id="li_6BB6D58660594CA0B1A89804F2FC6274">장치 데이터 - 이 장치의 모든 사용자의 데이터를 포함합니다. </li> 
-      <li id="li_E328D5BF066C4E7E8CCCDCAA5E91CCDC">요청이 완료되지 않음 - Audience Manager 데이터 검색이 완료되지 않았습니다. Some information may be missing. </li> 
+      <li id="li_E328D5BF066C4E7E8CCCDCAA5E91CCDC">요청이 완료되지 않음 - Audience Manager 데이터 검색이 완료되지 않았습니다. 일부 정보가 누락되었을 수 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -199,7 +199,7 @@ Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud
    <td colname="col2"> <p>사용자 ID와 연결된 트레이트입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 이름</code> </p> </td> 
+   <td colname="col1"> <p> <code> name</code> </p> </td> 
    <td colname="col2"> <p>트레이트의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -212,15 +212,15 @@ Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 설명</code> </p> </td> 
+   <td colname="col1"> <p> <code> description</code> </p> </td> 
    <td colname="col2"> <p>트레이트의 목적이나 기능을 설명하는 데 도움이 되는 몇 마디. 선택 필드입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 데이터 내보내기 제어</code> </p> </td> 
+   <td colname="col1"> <p> <code> data export controls</code> </p> </td> 
    <td colname="col2"> <p>이 트레이트의 데이터 소스에 적용된 <a href="../../features/data-export-controls.md"> 데이터 내보내기 컨트롤입니다</a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 데이터 공급자 이름</code> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name</code> </p> </td> 
    <td colname="col2"> <p>이 트레이트가 속한 데이터 원본 소유자의 이름입니다. 
      <ul id="ul_D2D424E903A143779342D35D6F625656"> 
       <li id="li_55B3A40A6CD24A25B5AAFD07AD28F662">자사 데이터의 경우 고객의 회사 이름입니다. </li> 
@@ -233,23 +233,23 @@ Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud
    <td colname="col2"> <p>데이터 주체가 이 트레이트에 대해 마지막으로 자격을 가졌던 정확한 시간입니다. 날짜 형식은 YYYY-MM-DD입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 세그먼트 </code> </p> </td> 
+   <td colname="col1"> <p> <code> segments </code> </p> </td> 
    <td colname="col2"> <p>이 사용자가 속한 세그먼트. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 이름</code> </p> </td> 
+   <td colname="col1"> <p> <code> name</code> </p> </td> 
    <td colname="col2"> <p>세그먼트의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 설명</code> </p> </td> 
+   <td colname="col1"> <p> <code> description</code> </p> </td> 
    <td colname="col2"> <p>이 세그먼트를 설명하는 데 도움이 되는 몇 가지 단어 선택 필드입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 데이터 내보내기 제어</code> </p> </td> 
+   <td colname="col1"> <p> <code> data export controls</code> </p> </td> 
    <td colname="col2"> <p>이 세그먼트의 데이터 소스에 적용된 <a href="../../features/data-export-controls.md"> 데이터 내보내기 제어</a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 데이터 공급자 이름</code> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name</code> </p> </td> 
    <td colname="col2"> <p>이 세그먼트가 속한 데이터 소스의 소유자의 이름입니다. 
      <ul id="ul_D437D149BDBE470489D1DD03CF47841C"> 
       <li id="li_90133644911A49AEB0DB209BCAC8E789">자사 데이터의 경우 고객의 회사 이름입니다. </li> 
@@ -259,31 +259,31 @@ Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> last realization</code> </p> </td> 
-   <td colname="col2"> <p>데이터 주체가 이 세그먼트에 대해 마지막으로 자격을 가졌던 정확한 시간입니다. The date format is YYYY-MM-DD. </p> </td> 
+   <td colname="col2"> <p>데이터 주체가 이 세그먼트에 대해 마지막으로 자격을 가졌던 정확한 시간입니다. 날짜 형식은 YYYY-MM-DD입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> active</code> </p> </td> 
-   <td colname="col2"> <p>Indicates whether the Data Subject is currently qualified for this segment. Returns <code><i>true</i></code> or <code><i>false</i></code>. </p> </td> 
+   <td colname="col2"> <p>데이터 주체가 현재 이 세그먼트에 대해 자격을 갖추었는지 여부를 나타냅니다. 반환 <code><i>true</i></code> 또는 <code><i>false</i></code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 링크 </code> </p> </td> 
-   <td colname="col2"> <p>Additional ID that this ID has been linked to. Information is returned on: </p> <p> 
+   <td colname="col1"> <p> <code> links </code> </p> </td> 
+   <td colname="col2"> <p>이 ID가 연결된 추가 ID입니다. 정보는 다음 위치에 반환됩니다. </p> <p> 
      <ul id="ul_679F372A83164CC8B6BFE5A833347B9E"> 
       <li id="li_BCBF4F4C6C4049519BDE9186EE84868A">ID </li> 
-      <li id="li_46AC081C993041E6BCE70119FE04BE7F">namespace (data source) </li> 
+      <li id="li_46AC081C993041E6BCE70119FE04BE7F">namespace (데이터 소스) </li> 
       <li id="li_E9B906C8947E484B94FBCAEB03BDF4E2">namespace ID </li> 
       <li id="li_FB2A2F28290B4BA7844A558C01F8D9D4">통합 코드 </li> 
       <li id="li_2569982810B64F8AABD78F5AC3717971">데이터 공급자 이름 </li> 
       <li id="li_2A3C282279064373BF7E4619A63454CF">ID 유형 </li> 
-     </ul> </p> <p>All these fields are described in the first rows of this table. </p> </td> 
+     </ul> </p> <p>이 모든 필드는 이 표의 첫 번째 행에 설명되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> linking datetime</code> </p> </td> 
-   <td colname="col2"> <p>The exact time that an ID sync event made the link between IDs. The date format is YYYY-MM-DD. </p> </td> 
+   <td colname="col2"> <p>ID 동기화 이벤트가 ID 간에 링크를 만든 정확한 시간입니다. 날짜 형식은 YYYY-MM-DD입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> device metadata </code> </p> </td> 
-   <td colname="col2"> <p>Information about the device. 이 정보에는 아래 필드가 포함되어 있습니다. Note that not all fields are returned for all device types. </p> <p> 
+   <td colname="col2"> <p>장치에 대한 정보입니다. 이 정보에는 아래 필드가 포함되어 있습니다. 모든 장치 유형에 대해 일부 필드가 반환되는 것은 아닙니다. </p> <p> 
      <ul id="ul_F0031D50DF074634A428DBC73F958159"> 
       <li id="li_4E26042A6B8D4397829F30B7BC7A2D6E"> <p>하드웨어 정보 </p> </li> 
       <li id="li_99A049D585A9440EA79F57A3B03181AB"> <p>장치 제조업체 </p> </li> 
@@ -312,7 +312,7 @@ Privacy Service UI( **여기 UI 링크** 및[설명서)를](https://gdprui.cloud
 
 **응답**
 
-데이터 삭제 요청에 대한 응답으로 각 Audience Manager 식별자와 연결된 트레이트 및 세그먼트를 삭제합니다. 또한 데이터 주체의 각 Audience Manager 식별자는 Audience Manager의 추가 데이터 수집에서 영구적으로 제외되며 해당 Id 매핑이 제거됩니다. When declared IDs such as cross device CRM Ids or customer cookie ids are sent in GDPR requests, Audience Manager will perform the necessary Delete actions on all the linked devices (up to 100 devices per declared ID).
+데이터 삭제 요청에 대한 응답으로 각 Audience Manager 식별자와 연결된 트레이트 및 세그먼트를 삭제합니다. 또한 데이터 주체의 각 Audience Manager 식별자는 Audience Manager의 추가 데이터 수집에서 영구적으로 제외되며 해당 Id 매핑이 제거됩니다. 교차 장치 CRM Id 또는 고객 쿠키 ID와 같은 선언된 ID가 GDPR 요청으로 전송되면 Audience Manager는 연결된 모든 장치(선언된 ID당 최대 100개의 장치)에서 필요한 삭제 작업을 수행합니다.
 
 ## 옵트아웃 요청 {#opt-out-request}
 
@@ -384,17 +384,17 @@ Adobe Audience Manager에 GDPR 요청을 제출할 때 아래에 나열된 식�
 
 ### Adobe Experience Cloud ID
 
-**User ID: mid**
+**사용자 ID**:mid
 
-**Definition**: Adobe Experience Cloud ID, formerly known as Visitor ID or Marketing Cloud ID
+**정의**:Adobe Experience Cloud ID(이전 방문자 ID 또는 Marketing Cloud ID라고 함)
 
-**Namespace ID**: 4
+**네임스페이스 ID**:4
 
 >[!NOTE]
 >
->You can also use the ECID namespace. See the second JSON example.
+>ECID 네임스페이스를 사용할 수도 있습니다. 두 번째 JSON 예를 참조하십시오.
 
-**Example in JSON:**
+**JSON의 예**:
 
 ```
  "users": [
@@ -444,13 +444,13 @@ Adobe Audience Manager에 GDPR 요청을 제출할 때 아래에 나열된 식�
 
 ### Customer ID
 
-**User ID: cid**
+**사용자 ID**:cid
 
-**Definition: Customer ID, such as a cookie you set for anonymous site visitors or a CRM ID from an offline system or a hashed username**
+**정의**:익명의 사이트 방문자에 대해 설정한 쿠키 또는 오프라인 시스템이나 해시된 사용자 이름의 CRM ID
 
-**Namespace ID: Customer-specific.** Please find it from your Audience Manager instance.
+**네임스페이스 ID**:고객별 Audience Manager 인스턴스에서 찾으십시오.
 
-**Example in JSON:**
+**JSON의 예**:
 
 ```
 "users": [
@@ -480,19 +480,21 @@ Adobe Audience Manager에 GDPR 요청을 제출할 때 아래에 나열된 식�
   }
 ```
 
-### Mobile advertising ID
+### 모바일 광고 ID
 
-**User ID: d_cid**
+**사용자 ID**:d_cid
 
-**Definition: Mobile advertising IDs.**
+**정의**:모바일 광고 ID.
 >[!IMPORTANT]
 >
 > Mobile SDK를 사용 중인 경우, 전체 GDPR 액세스 및 삭제 응답을 위해 모바일 광고 ID와 함께 Experience Cloud ID(MID)를 전송해야 합니다.
 
 **네임스페이스 ID**:
 
-* IDFA: 20915
+* IDFA:2015년
 * GAID:2091년 4월
+
+자세한 [내용은 전역](../../features/global-data-sources.md) 데이터 소스를 참조하십시오.
 
 **JSON의 예**:
 
@@ -521,7 +523,7 @@ Adobe Audience Manager에 GDPR 요청을 제출할 때 아래에 나열된 식�
 
 ### 통합 코드
 
-**사용자 ID**: d_cid_ic
+**사용자 ID**:d_cid_ic
 
 **정의**:데이터 소스에 대한 통합 코드입니다. Adobe Experience Cloud Privacy Core Service에 대한 API 요청에서 데이터 소스 ID/네임스페이스 ID 대신 사용할 수 있습니다.
 

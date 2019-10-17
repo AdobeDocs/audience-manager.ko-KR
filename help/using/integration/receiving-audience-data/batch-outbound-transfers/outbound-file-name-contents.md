@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 아웃바운드 데이터 파일 이름 구문 및 예
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 translation-type: tm+mt
-source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
+source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google 광고주 ID </span> (원시, 해시되지 않음) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> 광고주용 Apple ID </span> (해시되지 않은 원시) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">공급업체 ID - 타사 사용자 ID(웹/쿠키) </li> 
-     </ul> </p> </td> 
+     </ul> </p> <p>자세한 <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">내용은 전역</a> 데이터 소스를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -68,14 +68,14 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>동기화 모드는 동기화 유형에 따라 파일 이름에 레이블을 추가하는 매크로 자리 표시자입니다. 동기화 유형에는 전체 및 증가분이 포함됩니다. 파일 이름에 <code> iter </code> 또는 <code> full로 표시됩니다 </code>. </p> 
+   <td colname="col2"> <p>동기화 모드는 동기화 유형에 따라 파일 이름에 레이블을 추가하는 매크로 자리 표시자입니다. 동기화 유형에는 전체 및 증가분이 포함됩니다. 파일 이름에 <code> iter </code> 또는 으로 표시됩니다 <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
-     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> 로그 </code>:"반복" 또는 증분 동기화를 나타냅니다. 증분 파일에는 마지막 동기화 이후 수집된 새 데이터만 포함됩니다. </li> 
-     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> 전체 </code>:"전체" 동기화를 나타냅니다. 완전히 동기화된 파일에는 이전 데이터와 마지막 동기화 이후 수집된 모든 새 데이터가 포함됩니다. </li> 
+     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>:"반복" 또는 증분 동기화를 나타냅니다. 증분 파일에는 마지막 동기화 이후 수집된 새 데이터만 포함됩니다. </li> 
+     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>:"전체" 동기화를 나타냅니다. 완전히 동기화된 파일에는 이전 데이터와 마지막 동기화 이후 수집된 모든 새 데이터가 포함됩니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>타임스탬프 </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>TIMESTAMP </i></code> </p> </td> 
    <td colname="col2"> <p>UTC 시간대의 13자리 UNIX 타임스탬프(밀리초 단위) </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
    <td colname="col2"> <p>정수입니다. 처리 시간을 개선하기 위해 여러 부분으로 분할된 파일의 일부를 식별합니다. 숫자는 데이터가 속한 원본 파일의 일부를 나타냅니다.</p>  <p>분할된 크기가 100개 부분보다 작은 경우 정수는 최소 3자리, 앞에 0이 있어야 합니다.</p>  <p>원본 파일에는 분할된 번호가 없습니다. 첫 번째 분할 파일은 001로 끝납니다. 아래 예를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>.gz(선택 사항) </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
    <td colname="col2"> <p>GZIP 압축. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,16 +98,16 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 예: 증분 파일:
 
 <ul class="simplelist"> 
- <li> <code> S3_1234_20914_XYZCucustomer_iter_148614084000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCucustomer_iter_148614084400001.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCucustomer_iter_148614084400002.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000001.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
 전체 파일 예:
 
 <ul class="simplelist"> 
- <li> <code> S3_1234_20914_XYZCucustomer_full_148614084000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCucustomer_full_1486140844000001.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000001.sync.gz </code> </li> 
 </ul>
 
 ### 시나리오 2
@@ -118,14 +118,14 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_20915_iter_148614084300001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 전체 파일 예:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_20915_full_148614084300001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 **시나리오 3**:파일 컨텐츠에 타사 사용자 ID와 함께 [!DNL FTP] 위치로 *`PID_ALIAS="XYZCustomer"`* 전송된 파일( *`Vendor ID=45454`*):
@@ -133,16 +133,16 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 예: 증분 파일:
 
 <ul class="simplelist"> 
- <li> <code> ftp_1234_45454_XYZCucustomer_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCucustomer_iter_148614084300001.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCucustomer_iter_148614084300001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 전체 파일 예:
 
 <ul class="simplelist"> 
- <li> <code> ftp_1234_45454_XYZCucustomer_full_1486140843200.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCucustomer_full_148614084320001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200001.sync.gz </code> </li> 
 </ul>
 
 ## 아웃바운드 데이터 파일 내용:구문 및 매개 변수 {#outbound-contents-syntax}

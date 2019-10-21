@@ -5,25 +5,25 @@ solution-hub-url: https://helpx.adobe.com/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
 getting-started-title: 시작하기
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
+tutorials-title: 자습서
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/audience-manager.en
 index: y
 translation-type: tm+mt
-source-git-commit: fbc0e9f5243c8b09065083aa5ff9fa90386b044c
+source-git-commit: aae87606a38948f221b1efea2ab224218061847a
 
 ---
 
 
-# Metadata for internal use
+# 내부용 메타데이터
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+metadata.md 파일에는 보고서의 사용자 안내서 TOC.md 파일로 전달되는 보고서 수준 메타데이터가 포함되어 있습니다. 사용 안내서의 metadata.md 컨텐츠를 변경하려면 모든 TOC.md 파일에서 변경합니다.
 
 | 메타데이터 | 기능 |
 |--- |--- |
-| solution-title | Used in article header as link |
-| solution-hub-url | Opens helpx hub page |
-| solution-icon | Displays solution icon next to solution title. Not yet implemented |
+| 솔루션 제목 | 아티클 헤더에 링크로 사용됨 |
+| solution-hub-url | helpx 허브 페이지를 엽니다. |
+| 솔루션 아이콘 | 솔루션 제목 옆에 솔루션 아이콘이 표시됩니다. 아직 구현되지 않음 |
 | getting-started-url | 도움말 시작 페이지에 대한 링크 |
 | tutorials-url | 비디오 자습서로 연결되는 링크—도움말 자습서 또는 KT 자습서 |
 | mini-toc-levels | 오른쪽 레일에 표시되는 제목 수준 수를 결정합니다. 기본값은 2입니다. |

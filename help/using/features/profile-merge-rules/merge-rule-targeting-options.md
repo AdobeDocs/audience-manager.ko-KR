@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙에 대한 일반 사용 사례
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -61,11 +61,15 @@ Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병
 
 ![가계 관리](assets/household-management.png)
 
-## 사용자 기반 타깃팅 {#all-cross-device}
+## 사람 기반 대상 타깃팅 {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> 이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
 
 이 타깃팅 시나리오는 Add-on을 구입한 고객만 사용할 수 [!DNL People-Based Destinations] 있습니다. 이 규칙을 통해 마케터는 인증 데이터를 기반으로 고객에게 도달할 수 있습니다.
 
-온라인 소매업체는 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문에 따라 개인화된 제안을 제공하려고 한다고 가정해 보겠습니다. 또한 [!UICONTROL People-Based Destinations]해시 처리한 이메일 주소를 Audience Manager [!DNL CRM] 로 인제스트하고, 오프라인 데이터에서 세그먼트를 만들고, 이러한 세그먼트를 광고하려는 소셜 플랫폼으로 보내 광고 지출을 최적화할 수 있습니다.
+온라인 소매업체는 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문에 따라 개인화된 제안을 제공하려고 한다고 가정해 보겠습니다. 또한 [!UICONTROL People-Based Destinations]해시된 이메일 주소를 Audience Manager [!DNL CRM] 로 인제스트하고, 오프라인 데이터에서 세그먼트를 만들고, 해시된 식별자를 사용하여 광고 지출을 최적화하여 보급할 소셜 플랫폼으로 이러한 세그먼트를 보낼 수 있습니다.
 
 이 옵션에 대한 자세한 내용은 사람 기반 [대상을 참조하십시오](../destinations/people-based-destinations-overview.md).
 

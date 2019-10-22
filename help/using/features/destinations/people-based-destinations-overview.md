@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 개요 및 사용 사례
 solution: Audience Manager
 title: 개요 및 사용 사례
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 * 타사 데이터 온보딩 솔루션과 관련된 비용 제거
 * 맞춤형 데이터 온보딩 워크플로우 개발 관련 비용 절감
 * 쿠키 없는 환경에서 대상 타깃팅;
-* 고객 ID와 일치하는 이메일 주소를 중복 제거하여 대상을 타깃팅합니다.
+* 고객 ID와 일치하는 해시된 이메일 주소를 중복 제거하여 대상을 타깃팅합니다.
 
 웹 사이트를 방문하지 않을 수 [!DNL People-Based Destinations] 있는 고부가가치 고객을 세그먼트화하고 타깃팅하거나 이미 오프라인으로 전환한 고객을 타깃팅하는 것을 중단할 수 있습니다. 또한 오프라인 자사 데이터와 다른 Adobe Experience Cloud 솔루션의 고객 데이터를 비롯한 온라인 자사 데이터를 결합하여 소셜 미디어 광고 활동을 최적화할 [!DNL Profile Merge Rules] 수 있습니다.
 

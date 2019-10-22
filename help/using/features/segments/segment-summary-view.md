@@ -5,8 +5,9 @@ seo-title: 세그먼트 요약 보기
 solution: Audience Manager
 title: 세그먼트 요약 보기
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
+keywords: ID 유형 분류, ID 분류, 고객 ID 보고
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 

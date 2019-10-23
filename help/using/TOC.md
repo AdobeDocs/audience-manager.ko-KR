@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e324a298bf72b223e4ebf5627f3314e1613d3761
+source-git-commit: 5f71883da6c20b2a4522d9dd2715b3a981cb0be9
 
 ---
 
@@ -318,6 +318,8 @@ source-git-commit: e324a298bf72b223e4ebf5627f3314e1613d3761
          + [인바운드 데이터 전송 파일에 대한 파일 압축](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [인바운드 처리 후 파트너에 대한 샘플 메시지](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [맞춤형 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+   + Adobe Experience Platform과 통합 {#integration-experience-platform}
+      + [대상 공유](integration/integration-aep/aam-aep-audience-sharing.md)
    + 다른 Experience Cloud 솔루션과 통합 {#integration-other-solutions}
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [대상 관리 모듈 구현](integration/integration-other-solutions/audience-management-module.md)

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
 keywords: AEP 고객 공유, AEP 세그먼트, 플랫폼 세그먼트
 translation-type: tm+mt
-source-git-commit: 421f15b79fa647bf4fbf71a425c7f7792fb302e5
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -36,9 +36,9 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 
 대상 공유 사용 사례에 대한 개요는 아래 표를 참조하십시오.
 
-| `*` | **Adobe Experience Platform** | **Audience Manager** | **핵심 서비스** |
+| **사용 사례** | **Adobe Experience Platform** | **Audience Manager** | **핵심 서비스** |
 ---------|----------|---------|---------
-| **대상 공유 사용 사례** | <ul><li>Audience Manager 데이터를 사용하여 고객 프로파일 강화</li><li>Adobe Experience Platform 세분화에 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target 또는 Analytics와 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
+| **대상 공유** | <ul><li>Audience Manager 데이터를 사용하여 고객 프로파일 강화</li><li>Adobe Experience Platform 세분화에 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target 또는 Analytics와 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
 
 <br> 
 

@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 인바운드 고객 데이터 통합 FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -88,37 +88,37 @@ Removed the Data Translation File bullet from the list above.
      </ul> </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
       <li id="li_DC4F5E63D8134A29B703BDF264F02F65">저장된 ID 동기화 매핑에서 방문자 ABC를 인식합니다. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> 이 트레이트를 <code> 남성</code> 및 <code> luxury_shopper</code> 방문자 123 프로파일과 연결합니다. </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> 트레이트와 방문자 123 <code> male</code> 프로필을 <code> luxury_shopper</code> 연결합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>사례 2</b> </p> </td> 
    <td colname="col2"> <p>월요일, CRM 데이터베이스는 데이터 파일(.sync<span class="filepath"> )을 Audience Manager</span>서버로 푸시하여 <span class="keyword"></span> 다음 레코드를 저장합니다. </p> <p> 
      <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthast"="yes"</code> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
      </ul> </p> <p> <span class="keyword"> Audience</span> Manager에 이 방문자(또는 관련 방문자 ID)의 레코드가 없으므로 이 레코드가 처리되지 않습니다. </p> <p>화요일에 방문자 DEF가 로그인합니다. 이 작업은 해당 방문자에 대한 첫 번째 클라이언트측 ID 동기화를 시작합니다. 이 작업은 방문자 DEF를 Audience Manager ID <span class="keyword"> 456에</span> 매핑합니다. 하지만 이 방문자는 프로필과 연결된 CRM 데이터를 가지고 있지 않습니다. 따라서 Audience Manager <span class="keyword"> 는</span> 다시 돌아가 이전 파일을 다시 처리하지 않습니다. </p> <p>수요일에는 CRM 데이터베이스가 다른 데이터 파일을 Audience <span class="keyword"> Manager</span> 서버로 푸시합니다. </p> <p> 
      <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthast"="yes","dma"="paris"</code> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
      </ul> </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
      <li id="li_64D64A16E99E492BAAE1080867F854A9">저장된 ID 동기화 매핑에서 방문자 DEF를 인식합니다. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">여성 <code> 트레이트,</code>파리 <code> 및</code>wine_enthast를 <code></code> 방문자 456 프로파일과 연결합니다. </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">트레이트 <code> female</code>및 <code> paris</code>방문자 456 프로필을 <code> wine_enthusiast</code> 연결합니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>사례 3</b> </p> </td> 
-   <td colname="col2"> <p>월요일에 Audience Manager <span class="keyword"> 서버는</span> 다음 레코드가 있는 두 개의 파일을 받습니다. </p> <p> <code> .sync</code> 파일이 다음을 포함합니다. </p> <p> 
+   <td colname="col2"> <p>월요일에 Audience Manager <span class="keyword"> 서버는</span> 다음 레코드가 있는 두 개의 파일을 받습니다. </p> <p> <code> .sync</code> 다음을 포함하는 파일: </p> <p> 
      <ul class="simplelist"> 
-      <li><code> GHI 파섹</code> </li> 
-     </ul> </p> <p> <code> .overwrite</code> 파일이 다음을 포함합니다. </p> 
+      <li><code> GHI 123456789</code> </li> 
+     </ul> </p> <p> <code> .overwrite</code> 다음을 포함하는 파일: </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
-     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthast"="no"</code> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthast"="yes"</code> </li> 
+     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
+     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
     </ul> <p><span class="keyword"> Audience</span> Manager는 이전 ID 동기화에서 방문자 JKL의 매핑된 레코드를 ID 789로 보유합니다. </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
      <li id="li_6DABD380311D49738DAD98F5E6DE45B8">저장된 ID 동기화 매핑에서 방문자 JKL을 인식합니다. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">이 트레이트를 <code> 여성</code> 및 <code> 와인</code> _매니아와 방문자 ID 789의 프로필에 연결합니다. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">방문자 GHI에 대한 트레이트 연결을 무시합니다. 방문자 ID가 현재 배치에만 동기화되었기 때문입니다. 트레이트를 방문자 GHI와 연결하려면 이후 .overwrite <code></code> 파일에 트레이트를 포함해야 합니다. </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">트레이트와 방문자 ID <code> female</code> 789 <code> wine_enthusiast</code> 의 프로필을 연결합니다. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">방문자 GHI에 대한 트레이트 연결을 무시합니다. 방문자 ID가 현재 배치에만 동기화되었기 때문입니다. 트레이트를 방문자 GHI와 연결하려면 이후 <code> .overwrite</code> 파일에 트레이트를 포함해야 합니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -174,18 +174,18 @@ FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 �
    <td colname="col1"> <p><b>증분 및 전체</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E89301D815174D45B9B238F2CDE6CCC6"> 
-      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">1일 <code> .동기화</code> 파일 내용: <code> visitor123 = a,b,c</code> </li> 
-      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">2일 <code> .덮어쓰기</code> 파일 내용: <code> visitor123 = c,d,e</code> </li> 
-      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> 3일 방문자 프로필 ID 123에 <code> c,d,e가 포함됨 </code> </li> 
+      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">1일 <code> .sync</code> 파일 내용: <code> visitor123 = a,b,c</code> </li> 
+      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">2일 <code> .overwrite</code> 파일 내용: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> 3일 방문자 프로필 ID 123이 다음을 포함 <code> c,d,e </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>증분 전용</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8271C9796BD040E4B8DC64DCE4FE2AD3"> 
-      <li id="li_347959BDE83549F794E6661C95097891">1일 <code> .동기화</code> 파일 내용: <code> visitor123 = a,b,c </code> </li> 
-      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">2일 <code> .sync</code> 파일 컨텐츠: <code> visitor123 = c,d,e</code> </li> 
-      <li id="li_6E17809D49C74F4991B0B445469055E6">3일 방문자 프로필 ID 123은 <code> a,b,c,d,e를 포함합니다.</code> </li> 
+      <li id="li_347959BDE83549F794E6661C95097891">1일 <code> .sync</code> 파일 내용: <code> visitor123 = a,b,c </code> </li> 
+      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">2일 <code> .sync</code> 파일 내용: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_6E17809D49C74F4991B0B445469055E6">3일 방문자 프로필 ID 123이 다음을 포함 <code> a,b,c,d,e</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -242,7 +242,7 @@ Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 DPID를 
 
 **데이터 파일 내용은 대/소문자를 구분합니까? ID 동기화는 어떻습니까?**
 
-데이터 파일에는 두 가지 기본 구성 요소가 있습니다.고유 사용자 ID(UUID) 및 프로필 데이터(일반적으로 키-값 쌍 또는 코드 형식). UUID는 대소문자를 구분합니다. 일반적으로 프로필 또는 키 값 데이터는 대/소문자를 구분하지 않습니다.
+데이터 파일에는 두 가지 기본 구성 요소가 있습니다.사용자 ID(정의된 [파일 변수의 사용자](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)ID 참조) 및 프로필 데이터(일반적으로 키-값 쌍 또는 코드 형식) 사용자 ID는 대/소문자를 구분합니다. 일반적으로 프로필 또는 키 값 데이터는 대/소문자를 구분하지 않습니다.
 
 <br> 
 

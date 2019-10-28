@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 옵션 정의
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 | 크로스 디바이스 프로파일 없음 | 외부 장치 그래프(Co-op 장치 그래프 포함) | 모든 고객 | 실시간 및 일괄 처리 | 아니오 | [확장된 장치 타깃팅](external-graph-use-cases.md#audience-expansion) |
 | 현재 인증된 프로필 | 장치 프로파일 없음 | 모든 고객 | 실시간 전용 | 아니오 | [공유 장치 타깃팅](merge-rule-targeting-options.md#target-shared-devices) |
 | 마지막으로 인증된 프로필 | 장치 프로파일 | 모든 고객 | 실시간 및 일괄 처리 | 예 | [온라인/오프라인 타깃팅](merge-rule-targeting-options.md#device-household-targeting) |
-| 마지막으로 인증된 프로필 |  프로필 링크 장치 그래프 | 북미 및 캐나다만 해당 | 실시간 및 일괄 처리 | 예 | [크로스 디바이스 타깃팅](profile-link-use-case.md#cross-device-personalization) |
+| 마지막으로 인증된 프로필 |  프로필 링크 장치 그래프 | 모든 고객 | 실시간 및 일괄 처리 | 예 | [크로스 디바이스 타깃팅](profile-link-use-case.md#cross-device-personalization) |
 | 마지막으로 인증된 프로필 | 외부 장치 그래프(Co-op 장치 그래프 포함) | 모든 고객 | 실시간 및 일괄 처리 | 아니오 | [고급 크로스 디바이스 타깃팅](external-graph-use-cases.md#advanced-graph-expansion) |
 | 모든 크로스 디바이스 프로파일 | 해당 없음 | 사용자 [기반 대상 고객에게만](../destinations/people-based-destinations-overview.md) 제공 | 일괄 처리만 | 아니오 | [사람 기반 대상 타깃팅](merge-rule-targeting-options.md#all-cross-device) |
 

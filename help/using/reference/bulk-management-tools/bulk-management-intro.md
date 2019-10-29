@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 일괄 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -111,9 +111,9 @@ c_bulk_start.xml
 예를 들어 한 번에 여러 트레이트를 만드는 방법을 살펴보겠습니다. 일괄 작업에서 여러 트레이트를 만들려면 다음을 수행합니다.
 
 1. 탭을 **[!UICONTROL Headers]** 클릭하고 옵션 아래에 있는 모든 레이블을 복사합니다 [!UICONTROL Create a Trait] .
-
 2. 탭을 **[!UICONTROL Create]** 클릭하고 1행, A열에서 시작되는 레이블을 붙여 넣습니다.
 3. 각 열 헤더와 관련된 정보를 제공하고 을 클릭합니다 **[!UICONTROL Create Traits]**. 이 작업을 수행하면 인증을 확인하는 메시지가 표시됩니다. 인증을 확인한 후 일괄 작업이 실행됩니다. 작업 상태 알림은 워크시트의 왼쪽 아래 모서리를 선택합니다.
+
 
 >[!NOTE]
 >

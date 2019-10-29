@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 5643b1490738aa452e45517610d31e37c361a780
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -244,18 +244,6 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
-
-## Audience Manager UI 파섹 {#actionable-signals-in-ui}
-
-신호 검색 인터페이스에서 들어오는 실행 가능한 신호를 볼 [수](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) 있습니다.
-
-대상 **데이터** (1) **&gt;** 신호 **(2) &gt;** 검색 **(3)으로** 이동하고 실행 가능한로그 파일(4) 필터를 선택합니다.
-
-![UI의 실행 가능한 신호](/help/using/integration/assets/alf-in-signals.png)
-
-실행 가능한 신호를 사용하여 규칙 기반 트레이트를 만들려면 실행 가능한 로그 **파일** (1)을 선택하고 트레이트 규칙으로 사용할 실행 가능한 신호를 선택한 다음 선택한 신호에서 **트레이트 만들기** (3)를 누릅니다.
-
-![신호에서 트레이트 제작](/help/using/integration/assets/alf-create-trait.png)
 
 ## 사용 사례 {#use-cases}
 

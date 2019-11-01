@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 인스턴스 수준 DIL 메서드
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -79,21 +79,23 @@ r_dil_signals.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>' containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>' 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-// 메서드 1 var obj = { key1 :1, key2 :2 };
-dataLib.api.signatures(obj, 'c_').submit();
+// Method 1 
+var obj = { key1 : 1, key2 : 2 }; 
+dataLib.api.signals(obj, 'c_').submit(); 
  
-// 메서드 2 dataLib.api.signatures({c_zdid:54321}).submit();
+// Method 2 
+dataLib.api.signals({c_zdid: 54321}).submit(); 
  
-// 방법 3 // 'c_key=a&amp;c_key=2&amp;c_key=3'을 Audience Manager var obj = { key :['a', 'b', 'c'] };
-dataLib.api.signatures(obj, 'c_').submit(); 
+// Method 3 
+// Will send 'c_key=a&c_key=2&c_key=3' to Audience Manager 
+var obj = { key : ['a', 'b', 'c'] }; 
+dataLib.api.signals(obj, 'c_').submit(); 
 </code></pre>
-
->[!MORELIKE_THIS]
->
->* [주요 변수의 이름 요구 사항](../features/traits/trait-key-name-requirements.md)
-
 
 ## traits {#traits}
 
@@ -124,7 +126,10 @@ r_dil_traits.xml
 **샘플 코드**
 
 <pre><code>
-var partnerObject = DIL.create({ partner:'<i>partner name</i>', containerNSID:NSID <i></i> });
+var partnerObject = DIL.create({ 
+     partner: '<i>partner name</i>', 
+     containerNSID: <i>NSID</i> 
+}); 
 partnerObject.api.traits(<i>[123, 456, 789]</i>); 
 </code></pre>
 
@@ -147,8 +152,14 @@ r_dil_logs.xml
 **샘플 코드**
 
 <pre><code>
-var partnerObject = DIL.create({ partner:'<i>partner</i>', containerNSID:NSID <i></i> });
-partnerObject.api.logs({ file:'dil.js', 메시지:'첫 번째 요청입니다' });
+var partnerObject = DIL.create({ 
+     partner: '<i>partner</i>', 
+     containerNSID: <i>NSID</i> 
+}); 
+partnerObject.api.logs({ 
+     file: 'dil.js', 
+     message: 'This is the first request' 
+});
 </code></pre>
 
 ## 제출 {#submit}
@@ -174,15 +185,20 @@ r_dil_submit.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-dataLib.api.traits([<i>123,456, 789</i>]).logs({ file:'dil.js', 메시지:'이것은 첫 번째 요청' }).signatures({ c_zdid: <i>1111</i> d_dma:'<i>default</i>' }).submit();
+dataLib.api.traits([ 
+<i>123,456, 789</i>]).logs({ 
+     file: 'dil.js', 
+     message: 'This is the first request' 
+}).signals({ 
+     c_zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
+}).submit();
 </code></pre>
-
->[!MORELIKE_THIS]
->
->* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
-
 
 ## afterResult {#afterresult}
 
@@ -213,10 +229,17 @@ r_dil_after_result.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-dataLib.api.signatures({ c_zdid: <i>54321</i> d_dma:'<i>default</i>' }).afterResult(function(json){ //서버에서 반환된 JSON 데이터로 작업을 수행합니다. 
-}).제출();
+dataLib.api.signals({ 
+     c_zdid: <i>54321</i> 
+     d_dma: '<i>default</i>' 
+}).afterResult(function(json){ 
+     //Do something with the JSON data returned from the server. 
+}).submit();
 </code></pre>
 
 ## clearData {#cleardata}
@@ -242,11 +265,21 @@ r_dil_clear_data.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-dataLib.api.traits([<i>123,456, 789</i>]).logs({ file:'dil.js' 메시지:'이것은 첫 번째 요청' }).signatures({ c_zdid: <i>1111</i> d_dma:'<i>default</i>' });
+dataLib.api.traits([<i>123,456, 789</i>]).logs({ 
+     file: 'dil.js' 
+     message: 'This is the first request' 
+}).signals({ 
+     c_zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
+}); 
  
-//보류 중인 dataLib.clearData(); 다시 설정합니다.
+//Reset the pending data 
+dataLib.clearData();
 </code></pre>
 
 ## customQueryParams {#customqueryparams}
@@ -283,8 +316,14 @@ r_dil_custom_query_params.xml
 **샘플 코드**
 
 <pre><code>
-var partnerObject = DIL.create({ partner:'<i>partner</i>', containerNSID:NSID <i></i> });
-partnerObject.api.customQueryParams({ nid:54231, 유형:'default' }); 
+var partnerObject = DIL.create({ 
+     partner: '<i>partner</i>', 
+     containerNSID: <i>NSID</i> 
+}); 
+partnerObject.api.customQueryParams({ 
+     nid: 54231, 
+     ntype: 'default' 
+}); 
 </code></pre>
 
 ## getContainerNSID {#getcontainernsid}
@@ -302,9 +341,13 @@ r_dil_get_container_nsid.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-//컨테이너 NSID var nsid = dataLib.api.getContainerNSID();
+//Verify the container NSID 
+var nsid = dataLib.api.getContainerNSID();
 </code></pre>
 
 ## getEventLog {#geteventlog}
@@ -322,14 +365,27 @@ r_dil_get_event_log.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).logs({ file:'dil.js', 메시지:'이것이 첫 번째 요청' });.signatures({ c_zdid: <i>1111</i> d_dma:'<i>default</i>' });.submit();
+dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
+     file: 'dil.js', 
+     message: 'This is the first request' 
+});.signals({ 
+     c_zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
+});.submit(); 
  
-//메시지 var 로그 = dataLib.api.getEventLog(); 확인 로그
-if (log &amp;&amp; log.length) { alert(log.join('\n'));
-}else{ alert('로그 메시지 없음');
-}</code></pre>
+//Check log for messages 
+var log = dataLib.api.getEventLog(); 
+if (log && log.length) { 
+     alert(log.join('\n')); 
+}else{ 
+     alert('No log messages'); 
+}
+</code></pre>
 
 ## getPartner {#getpartner}
 
@@ -346,9 +402,13 @@ r_dil_get_partner.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>' containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>' 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-//파트너 이름 var partner = dataLib.api.getPartner();
+//Verify the partner name 
+var partner = dataLib.api.getPartner();
 </code></pre>
 
 ## getState {#getstate}
@@ -366,13 +426,60 @@ r_dil_get_state.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).logs({ file:'dil.js', message:'This is the first request' });.signatures({ c.zdid: <i>1111</i> d_dma:'<i>default</i>' });.submit();
+dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
+     file: 'dil.js', 
+     message:'This is the first request' 
+});.signals({ 
+     c.zdid: <i>1111</i> 
+     d_dma: '<i>default</i>' 
+});.submit(); 
  
-var state = dataLib.api.getState();
+var state = dataLib.api.getState(); 
  
-/*상태 상태의 객체 아웃라인 = { pendingRequest:{<i>서버</i>호출을 위해 보류 중인 데이터}, otherRequestInfo:{ unningQueue:[], 실행됨:[], 실행:false, 오류 발생:[], reservedKeys:{ sids:true, pdata:true, logdata:true, callback:true, postCallbackFn:true, useImageRequest:true, }, firstRequestHasCalled:false, num_of_jsonp_responses:0, num_of_jsonp_errors:0, num_of_img_responses:0, num_of_img_errors:0 }, destinationPublishingInfo:{ THROTTLE_START:3000, throttleTimerSet:false, id:"destination_publishing_iframe_' + partner + '_' + containerNSID, url:(constants.isHTTPS ? 'https://' :'https://fast.') + 파트너 + '.demdex.net/dest3.html?d_nsid=' + containerNSID + '#' + encodeURIComponent(document.location.href), iframe:null, iframeHasLoaded:false, sendingMessages:false, 메시지:[], messageSendingInterval:constants.POST_MESSAGE_ENABLED ? 15:IE 6 및 7의 경우 100ms, 기타 브라우저의 경우 15ms를 추천처리됨:[] } } */</code></pre>
+/*Object outline of state 
+state = { 
+     pendingRequest: {<i>pending data for call to server</i>}, 
+     otherRequestInfo:{ 
+          firingQueue: [], 
+          fired: [], 
+          firing: false, 
+          errored: [], 
+          reservedKeys: { 
+               sids: true, 
+               pdata: true, 
+               logdata: true, 
+               callback: true, 
+               postCallbackFn: true, 
+               useImageRequest: true, 
+          }, 
+          firstRequestHasFired: false, 
+          num_of_jsonp_responses: 0, 
+          num_of_jsonp_errors: 0, 
+          num_of_img_responses: 0, 
+          num_of_img_errors: 0 
+     }, 
+     destinationPublishingInfo: { 
+          THROTTLE_START: 3000, 
+          throttleTimerSet: false, 
+          id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
+          url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
+          + containerNSID + '#' + encodeURIComponent(document.location.href), 
+               iframe: null, 
+               iframeHasLoaded: false, 
+               sendingMessages: false, 
+               messages: [], 
+               messageSendingInterval: constants.POST_MESSAGE_ENABLED ? 15: 100, 
+               //Recommend 100ms for IE 6 & 7, 15ms for other browsers 
+               jsonProcessed: [] 
+     } 
+} 
+*/
+</code></pre>
 
 ## idSync {#idsync}
 
@@ -398,11 +505,11 @@ r_dil_idsync.xml
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간에 예를 들어 파트너 x는 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager로 보냅니다. </p> <p> <p><b></b> 중요: 이 메서드는 더 이상 사용되지 않습니다. Experience Cloud <code> ID 서비스 </code> 인스턴스의 idSyncByURL 메서드를 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간에 예를 들어 파트너 x는 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager로 보냅니다. </p> <p> <p><b></b> 중요: 이 메서드는 더 이상 사용되지 않습니다. Experience Cloud ID 서비스 인스턴스의 <code> idSyncByURL </code> 방법을 사용하십시오. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager로 전송하려는 경우 </p> <p> <p><b></b> 중요: 이 메서드는 더 이상 사용되지 않습니다. Experience Cloud <code> ID 서비스 </code> 인스턴스의 idSyncByDataSource 메서드를 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager로 전송하려는 경우 </p> <p> <p><b></b> 중요: 이 메서드는 더 이상 사용되지 않습니다. Experience Cloud ID 서비스 인스턴스의 <code> idSyncByDataSource </code> 방법을 사용하십시오. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -460,19 +567,25 @@ r_dil_idsync.xml
 `dilInstance.api.idSync(initConfig)`
 
 <pre><code class="js">
-// dilInstance.api.idSync({ dpid:'23', //는 문자열 url이어야 합니다.'//su.addthis.com/red/usync?pid=16&amp;puid=%DID%&amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net %2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7A d%7D', minutesToLive:20160 // 옵션, 기본값은 20160분(14일) });
+// Fires url with macros replaced 
+dilInstance.api.idSync({ 
+ dpid: '23', // must be a string 
+ url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net 
+%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D', 
+ minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
+});
 </code></pre>
 
 `dilInstance.api.aamIdSync(initConfig)`
 
 <pre><code class="js">
-// 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&amp;dpuuid=&lt;dpuuid&gt;' dilInstance.api.aamIdSync({ dpid:'23', //는 문자열 dpuuid:'98765', //는 string minutesToLive:20160 // 옵션, 기본값은 20160분(14일) });
+// Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&dpuuid=&lt;dpuuid&gt;' 
+dilInstance.api.aamIdSync({ 
+ dpid: '23', // must be a string 
+ dpuuid: '98765', // must be a string 
+ minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
+});
 </code></pre>
-
->[!MORELIKE_THIS]
->
->* [Experience Cloud ID 서비스의 동기화 함수](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
-
 
 ## result {#result}
 
@@ -505,10 +618,14 @@ r_dil_result.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){ //Do something, with the JSON data returned from the server. 
-});.제출();
+dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){ 
+     //Do something, possibly with the JSON data returned from the server. 
+});.submit();
 </code></pre>
 
 ##  secureDataCollection {#securedatacollection}
@@ -530,14 +647,11 @@ dil-secure-data-collection.xml
 >visitorAPI.js를 사용하고 동일한 페이지에서 사용하는 `secureDataCollection= false` 경우 [!UICONTROL DIL] 설정합니다. 아래 코드 샘플을 참조하십시오.
 
 <pre><code class="js">
-var dilInstance = DIL.create({ ...
-     secureDataCollection:false });
+var dilInstance = DIL.create({ 
+     ... 
+     secureDataCollection: false 
+});
 </code></pre>
-
->[!MORELIKE_THIS]
->
->* [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
-
 
 ## useCORSOnly {#usecorsonly}
 
@@ -556,8 +670,10 @@ dil-use-cors-only.xml
 **코드 샘플**
 
 <pre><code class="js">
-var dilInstance = DIL.create({ ...
-     useCORSOnly:true });
+var dilInstance = DIL.create({ 
+     ... 
+     useCORSOnly: true 
+});
 </code></pre>
 
 >[!IMPORTANT]
@@ -566,13 +682,6 @@ var dilInstance = DIL.create({ ...
 >* 이 `useCORSOnly: true`경우, Internet Explorer 버전 9 이상에서 ID 호출을 하지 [!UICONTROL DIL] 않습니다.
 >
 
-
-
->[!MORELIKE_THIS]
->
->* [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID 서비스:Use코르소nly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
->* [Experience Cloud ID 서비스의 CORS 지원](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-cors.html)
 
 
 ## useImageRequest {#useimagerequest}
@@ -598,8 +707,20 @@ r_dil_use_image_request.xml
 **샘플 코드**
 
 <pre><code>
-var dataLib = DIL.create({ partner:'<i>partnerName</i>', containerNSID: <i>containerNSID</i> });
+var dataLib = DIL.create({ 
+     partner:'<i>partnerName</i>', 
+     containerNSID: <i>containerNSID</i> 
+}); 
  
 dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 </code></pre>
+
+>[!MORELIKETHIS]
+>
+>* [주요 변수의 이름 요구 사항](../features/traits/trait-key-name-requirements.md)
+>* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
+>* [Experience Cloud ID 서비스의 동기화 함수](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Experience Cloud ID 서비스:Use코르소nly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Experience Cloud ID 서비스의 CORS 지원](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 

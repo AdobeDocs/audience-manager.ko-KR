@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 트레이트 빌더에서 비교 연산자를 사용한 작업
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 | **[!UICONTROL Endswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 *끝납니다* . |
 | **[!UICONTROL Matchesregex]** | 키 값 쌍의 값은 정규 표현식으로 지정된 패턴과 *일치합니다* . [정규 표현식을 사용하는 방법에 대한 자세한](../../features/traits/trait-builder-regex.md) 내용을 [!UICONTROL Trait Builder]살펴보십시오. |
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [트레이트 및 세그먼트 빌더의 부울 표현식](../../reference/boolean-expressions-tsb.md)
 >* [TraitBuilder의 부울 표현식 이해](../../reference/boolean-expressions-tsb.md)

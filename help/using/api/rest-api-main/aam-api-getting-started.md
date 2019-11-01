@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API 시작하기
 uuid: af0e527e-6eec-44 파섹
 translation-type: tm+mt
-source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -130,12 +130,6 @@ Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표
 
 Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 지원합니다. 이러한 액세스 방법을 사용하려면 사용자가 로그인하여 토큰을 액세스하고 새로 `https://api.demdex.com/oauth/authorize` 고쳐야 합니다.
 
->[!MORELIKE_THIS]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 단순화](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
-
 ## 인증된 API 요청 만들기 {#authenticated-api-requests}
 
 인증 토큰을 받은 후 메서드를 호출하는 [!DNL API] 데 필요한 요구 사항입니다.
@@ -146,11 +140,6 @@ Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 
 
 * 헤더에서 `HTTP` 를 설정합니다 `Authorization: Bearer <token>`.
 * 필요한 [!DNL API] 메서드를 호출합니다.
-
->[!MORELIKE_THIS]
->
->* [OAuth 인증](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-
 
 ## 선택적 API 쿼리 매개 변수 {#optional-api-query-parameters}
 
@@ -163,10 +152,10 @@ Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 
 | 매개 변수 | 설명 |
 |--- |--- |
 | page | 페이지 번호별로 결과를 반환합니다. 번호는 0부터 시작됩니다. |
-|  pageSize | 요청에 의해 반환되는 응답 결과 수를 설정합니다(기본값 10). |
-|  sortBy | 지정된 [!DNL JSON] 속성에 따라 결과를 정렬하고 반환합니다. |
-|  내림차순 | 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 오름차순입니다. |
-|  search | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 "테스트"라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다. `GET https://api.demdex.com/v1/models/?search=Test`Adobe  "모두 가져오기" 메서드에서 반환되는 값을 검색할 수 있습니다. |
+| pageSize | 요청에 의해 반환되는 응답 결과 수를 설정합니다(기본값 10). |
+| sortBy | 지정된 [!DNL JSON] 속성에 따라 결과를 정렬하고 반환합니다. |
+| 내림차순 | 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 오름차순입니다. |
+| search | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 "테스트"라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다. `GET https://api.demdex.com/v1/models/?search=Test`Adobe  "모두 가져오기" 메서드에서 반환되는 값을 검색할 수 있습니다. |
 | folderId | 지정된 폴더 내의 트레이트에 대한 모든 ID를 반환합니다. 일부 메서드는 사용할 수 없습니다. |
 | 권한 | 지정된 권한을 기반으로 세그먼트 목록을 반환합니다.  READ가 기본값입니다. 사용 권한에는 다음이 포함됩니다.<ul><li>`READ` :세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` :세그먼트를 업데이트하는 `PUT` 데 사용합니다.</li><li>`CREATE` :세그먼트를 `POST` 만드는 데 사용합니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 대한 액세스(있는 경우)가 필요합니다. 예를 들어 세그먼트를 제거하려면 해당 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>개별 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어, `READ` 및 `WRITE` 권한만 있는 세그먼트 목록을 반환하려면 `"permissions":"READ"`을 전달합니다 `"permissions":"WRITE"` . |
 | includePermissions | (부울) 세그먼트에 대한 권한을 반환하려면 true로 설정합니다. 기본값은 false입니다. |
@@ -238,3 +227,10 @@ Adobe [!DNL Audience Manager] Experience Manager [!DNL API]를 사용하면 다�
 | 404 | 발견되지 않음 | 지정된 경로에 대한 리소스를 찾을 수 없습니다. |
 | 409 | 충돌 | 리소스 상태와 충돌하여 요청을 완료할 수 없습니다. |
 | 500 | 서버 오류 | 서버에서 예기치 않은 오류가 발생하여 요청을 수행하지 못했습니다. |
+
+>[!MORELIKETHIS]
+>
+>* [OAuth 인증](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 단순화](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+

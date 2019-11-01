@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL 사용 사례 및 코드 샘플
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: 8763bff3960e2033951cf68e65f5ad44377b2917
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -44,8 +44,11 @@ c_dil_send_page_objects.xml
 이 기본 예에서는 색상 및 가격 데이터를 키-값 쌍의 형태로 Audience Manager에 보냅니다. 코드는 다음과 비슷합니다.
 
 <pre class="&ldquo;java&rdquo;"><code>
-var sample_dil = DIL.create({partner:"<i>partner name</i>"});
-sample_dil.api.signatures({ c_color:"blue", c_price:"900" });
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
+sample_dil.api.signals({ 
+   c_color:"blue", 
+   c_price:"900" 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -54,11 +57,14 @@ sample_dil.api.submit();
 이 고급 예에서는 개체의 데이터를 Audience Manager로 보내는 방법을 보여 줍니다. 이 메서드로 작업할 [!UICONTROL DIL] 때 함수 매개 변수로 객체를 [!DNL signals()] 메서드에 전달할 수 있습니다. [!UICONTROL DIL] 코드는 다음과 비슷합니다.
 
 <pre class="java"><code>
-var my_object = { color :"blue", price :"900" };
+var my_object = { 
+   color : "blue", 
+   price : "900" 
+}; 
  
-var sample_dil = DIL.create({ partner :"<i>partner name</i>" });
-//개체를 로드하고 키-값 쌍의 모든 키에 "c_"를 추가하고 데이터를 AudienceManager에 보냅니다. 
-sample_dil.api.signatures(my_object,"c_").submit();
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+//Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
+sample_dil.api.signals(my_object,"c_").submit();
 </code></pre>
 
 **예 3:배열에서 페이지 데이터 보내기**
@@ -66,19 +72,23 @@ sample_dil.api.signatures(my_object,"c_").submit();
 이 경우 이 변수는 `my_object` 배열을 사용하여 데이터를 보유합니다. 이 예는 위의 권장 방법으로 전달된 정보를 기반으로 구축되지만 제품 유형과 모델을 수용할 수 있도록 추가 레이어를 추가합니다. 코드는 다음과 비슷합니다.
 
 <pre class="java"><code>
-var my_objects = [{ color :"blue", price :"900" }, { type :"acura", model:"tl" }];
+var my_objects = [{ 
+   color : "blue", 
+   price : "900" 
+}, { 
+   type : "acura", 
+   model : "tl" 
+}]; 
  
-var sample_dil = DIL.create({ partner :"<i>partner name</i>" });
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
-(var i = 0;i &lt; my_objects.length;i++) //개체를 로드하고 키-값 쌍의 모든 키에 "c_"를 추가합니다.  
-{ sample_dil.api.signatures(my_objects[i], "c_");
-} sample_dil.api.submit();
+for (var i = 0; i < my_objects.length; i++) 
+//Load the object and append "c_" to all the keys in the key-value pairs.  
+{ 
+    sample_dil.api.signals(my_objects[i], "c_"); 
+} 
+sample_dil.api.submit();
 </code></pre>
-
->[!MORELIKE_THIS]
->
->* [신호](../dil/dil-instance-methods.md#signals)
-
 
 ## 참조 URL 캡처 {#capture-referring-url}
 
@@ -96,11 +106,11 @@ c_dil_hrefer_over_https.xml
 
 **코드 샘플**
 
- 코드는 다음과 비슷합니다.
+코드는 다음과 비슷합니다.
 
 <pre class="java"><code>
-var adobe_dil = DIL.create({ partner :"<i>partner name</i>" });
-adobe_dil.api.signatures({ d_referer :document.referrer }).submit();
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
 ## 검색 엔진 유형 및 키워드 검색 용어 캡처 {#capture-search-engine-types}
@@ -138,22 +148,35 @@ var search_referrer = DIL.tools.getSearchReferrer();
 이 경우 사용자가 캐나다의 "homes"라는 용어를 검색했다고 [!DNL Google] 가정합니다( `www.google.ca`). 코드가 검색 엔진() 및 검색어()에 필요한 `c_` `c_se``c_st`매개 변수의 접두사를 지정하는 방법을 확인하십시오. `c_` 는 Audience Manager에 대한 고객 정의 변수로 식별되는 [필수 접두사입니다](../features/traits/trait-variable-prefixes.md) .
 
 <pre class="java"><code>
-var adobe_dil = DIL.create({partner:"<i>partner name</i>"});
-var search_referrer = DIL.tools.getSearchReferrer();
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
+var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { adobe_dil.api.signatures({ c_se :se.name, c_st :se.keywords }).submit();
-}</code></pre>
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 **목록에 없는 검색 엔진 코드 샘플**
 
 이 경우 사용자가 "homes"라는 용어를 검색했다고 `dogpile.com`가정합니다. 기본적으로 지원되지 [!DNL Dogpile] 않으므로 이 검색 엔진을 인식하도록 DIL을 구성하고 검색어를 Audience Manager에 반환할 수 있습니다. 코드는 다음과 비슷합니다.
 
 <pre class="java"><code>
-var adobe_dil = DIL.create({partner:"<i>partner name</i>"});
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, { hostPattern:/dodpile\./, queryParam:"q" });
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
+    hostPattern:/dogpile\./, 
+    queryParam:"q" 
+}); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { adobe_dil.api.signatures({ c_se :se.name, c_st :se.keywords }).submit();
-}</code></pre>
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 ## 다른 키에 키 값 매핑 {#map-key-values}
 
@@ -187,11 +210,6 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
->[!MORELIKE_THIS]
->
->* [주요 변수의 접두사 요구 사항](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
-
-
 ## Google 태그 관리자(GTM)의 트래픽 DIL {#traffic-dil-gtm}
 
 GTM 태그로 DIL을 설정하고 제공합니다.
@@ -218,7 +236,9 @@ GTM에서 파일에 트래픽을 `dil.js` 추가하려면:
 1. 컨테이너를 게시합니다.
 1. 컨테이너 태그 코드를 생성하여 인벤토리에 배치합니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google 태그 관리자 도움말 센터](https://support.google.com/tagmanager#topic=3441530)
+>* [신호](../dil/dil-instance-methods.md#signals)
+>* [주요 변수의 접두사 요구 사항](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
 

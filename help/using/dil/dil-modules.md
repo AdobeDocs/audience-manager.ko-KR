@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL 모듈
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -21,7 +21,7 @@ c_dil_mods.xml
 
  -->
 
-##  siteCatalyst.init {#sitecat-init}
+## siteCatalyst.init {#sitecat-init}
 
 태그 요소(변수, prop, eVar 등)를 [!UICONTROL DIL] [!DNL Analytics] 전송하는 데 사용됩니다. 대상 관리자를 참조하십시오. 데이터를 쉼표로 구분된 목록으로 반환합니다. 버전 2.6에서 사용할 수 있습니다.
 
@@ -49,19 +49,19 @@ r_dil_sc_init.xml
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <code> 이름 </code> </td> 
+   <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> 문자열 </td> 
-   <td colname="col3"> <p>페이지 이름, 채널 캠페인, <span class="keyword"> 대괄호, </span> 제품 등 열거되지 않은 Analytics <code> 변수를 포함하는 배열입니다 </code><code> </code><code> </code><code> </code>. </p> </td> 
+   <td colname="col3"> <p>열거되지 않은 Analytics 변수 <span class="keyword"> , </span> , <code> pageName </code><code> channel </code>, <code> campaign </code>등과 같은 문자열 <code> product </code>배열 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> 개체 </td> 
-   <td colname="col3"> <p>열거된 <span class="keyword"> Analytics 변수(예: prop1, prop2, </span> evar3, <code> evar4)가 포함된 Analytics </code><code> </code><code> </code><code> </code>변수의 배열입니다. </p> </td> 
+   <td colname="col3"> <p>prop 및 evar(예: <span class="keyword"> </span><code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code><code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
    <td colname="col2"> 정수 </td> 
-   <td colname="col3"> <p>반환할 반복 이름 수를 나타냅니다. 예를 들어 두 개의 prop 또는 evar를 반환하려면 maxIndex <code> :2를 </code>설정합니다. </p> </td> 
+   <td colname="col3"> <p>반환할 반복 이름 수를 나타냅니다. 예를 들어 두 개의 prop 또는 evar를 반환하려면 을 <code> maxIndex:2 </code>설정합니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
@@ -74,12 +74,12 @@ r_dil_sc_init.xml
    <td colname="col3"> <p>DIL을 나타내는 <span class="wintitle"> 개체입니다 </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code> 옵션 </code> </td> 
+   <td colname="col1"> <code> options </code> </td> 
    <td colname="col2"> 개체 </td> 
    <td colname="col3"> <p>추가 옵션: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>다른 항목을 지정하지 않으면 점이 기본 밑줄( _ )로 바뀝니다. </p> <p>예를 들어 <code> s.contextData = {abc.def = '123'} </code>이면 <code> c_contextData_abc_def=123이 이벤트 호출 쿼리 문자열에 </code> 발생합니다. </p> <p>이 옵션은 DIL <span class="wintitle"></span> 버전 5.0 이상에서만 사용할 수 있습니다. </p> </li> 
-     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>예를 들어 filterFromContextVariables <code> 가 있습니다.['email', 'zip', 'accountNumber'] </code> 는 컨텍스트 데이터의 데이터 수집에서 문자열 배열을 필터링합니다. 이 옵션은 PII(개인 식별 정보)를 제외합니다. </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>다른 항목을 지정하지 않으면 점이 기본 밑줄( _ )로 바뀝니다. </p> <p>예를 <code> s.contextData = {abc.def = '123'} </code>들어 이벤트 호출 쿼리 <code> c_contextData_abc_def=123 </code> 문자열이 생성됩니다. </p> <p>이 옵션은 DIL <span class="wintitle"></span> 버전 5.0 이상에서만 사용할 수 있습니다. </p> </li> 
+     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>예를 들어 컨텍스트 데이터의 데이터 수집에서 필터링된 문자열 배열을 <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> 가져올 수 있습니다. 이 옵션은 PII(개인 식별 정보)를 제외합니다. </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ dil-google-universal-analytics.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>Google Analytics 인스턴스에 대한 전역 <span class="keyword"> 변수입니다 </span>. Google Analytics <code> 코드를 사용자 지정하지 않은 경우 </code> 기본적으로 <span class="keyword"> 이 값이 </span> 다릅니다. </p> </td> 
+   <td colname="col2"> <p>Google Analytics 인스턴스에 대한 전역 <span class="keyword"> 변수입니다 </span>. Google Analytics <code> ga </code> 코드를 사용자 지정하지 않은 경우 기본적으로 <span class="keyword"> 사용됩니다 </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -181,7 +181,7 @@ dil-google-universal-analytics.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(선택 사항)</i> <code> analytics.js </code> 라이브러리에서 내부 속성은 <code> 'b' 축소 </code>변수입니다. 이 변수는 Google <span class="keyword"> Analytics </span> 데이터를 보유합니다. </p> <p>이 속성은 Google에서 내부 변수의 이름을 변경하지 않는 한 설정할 필요가 없으므로 선택 사항입니다. 예를 들어 이 축소 변수가 <code> 'a'로 변경된 </code>경우 GA.submitUniversalAnalytics(); <code> 를 호출합니다.다음과 같이 하십시오. </code> </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(선택 사항)</i> 라이브러리에서 <code> analytics.js </code> internal 속성은 축소 <code> 'b' </code>변수입니다. 이 변수는 Google <span class="keyword"> Analytics </span> 데이터를 보유합니다. </p> <p>이 속성은 Google에서 내부 변수의 이름을 변경하지 않는 한 설정할 필요가 없으므로 선택 사항입니다. 예를 들어 이 축소 변수가 로 변경된 <code> 'a' </code>경우 다음과 <code> GA.submitUniversalAnalytics(); </code> 같이 호출합니다. </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -199,11 +199,6 @@ var dilInstance = DIL.create({
 //Call the DIL Universal Analytics function 
 DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 ```
-
->[!MORELIKE_THIS]
->
->* [ga 객체 메서드 참조](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
 
 ## GA.init {#ga-init}
 
@@ -312,9 +307,10 @@ Audience Manager에 대한 URL 이벤트 호출은 다음과 비슷합니다.
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google Analytics 추적 코드](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [전체 웹 업그레이드:ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
 >* [사이트에 analytics.js 추가](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [ga 객체 메서드 참조](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 

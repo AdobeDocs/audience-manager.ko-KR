@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트-세그먼트 중복 보고서
 uuid: 0339eb6c-6355-44a3-9c46-f15948549d1
 translation-type: tm+mt
-source-git-commit: 339d5550b22949862415d2abc812217e5479c993
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,7 +67,7 @@ r_s2s_data_pop.xml
 | **[!UICONTROL Segment Uniques1]** | 세그먼트 1의 고유 방문자 수. |
 | **[!UICONTROL Segment Uniques2]** | 세그먼트 2의 고유 방문자 수. |
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 슬라이더를 사용하여 보고서 결과 필터링](../../reporting/dynamic-reports/data-sliders.md)
 >* [대화형 보고서에 사용된 모양, 색상 및 크기](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

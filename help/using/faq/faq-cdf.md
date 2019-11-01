@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 고객 데이터 피드 FAQ
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,13 +67,13 @@ CDF 파일은 `aam-cdf` 서버의 [!DNL Amazon S3] 루트 디렉토리에 저장
 
 크기가 16MiB를 초과하는 파일은 16MiB 청크로 분할되고 다중 부분 업로드를 [!DNL Amazon S3] 사용하여 업로드됩니다.
 
-[!DNL Amazon] 다중 부분 업로드에 대한 `ETag` 값을 생성합니다. 먼저 업로드된 각 부품의 개별 MD5 체크섬을 계산한 다음 단일 문자열로 연결합니다. 그런 다음 문자열의 MD5 체크섬을 계산합니다. 그러면 결과 체크섬( `ETag`the)에 하이픈과 업로드에 사용된 총 부품 수가 추가됩니다. 예를 들어, 업로드 중에 5개의 부분으로 분할된 파일의 `ETag` 경우 다음과 같이 표시될 수 있습니다. `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] 다중 부분 업로드에 대한 `ETag` 값을 생성합니다. 먼저 업로드된 각 부품의 개별 MD5 체크섬을 계산한 다음 단일 문자열로 연결합니다. 그런 다음 문자열의 MD5 체크섬을 계산합니다. 결과 체크섬( `ETag`the)에는 하이픈과 업로드에 사용된 총 부품 수가 추가됩니다. 예를 들어, 업로드 중에 5개의 부분으로 분할된 파일의 `ETag` 경우 다음과 같이 표시될 수 있습니다. `2c51427d19021e88cf3395365895b6d4-5`
 
 <br> 
 
 ## Data Retention {#data-retension}
 
-**CDF 파일은 얼마나 오래 저장합니까?**
+**CDF 파일은 얼마나 오래 저장됩니까?**
 
 데이터는 8일 후 삭제됩니다.
 
@@ -83,7 +83,7 @@ CDF 파일은 `aam-cdf` 서버의 [!DNL Amazon S3] 루트 디렉토리에 저장
 
 지난 8일 동안 CDF 파일만 생성할 수 있습니다. 지난 8일보다 오래된 간격에 대한 CDF 파일을 다시 생성할 수 없습니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [고객 데이터 피드](../features/cdf-files.md)
 

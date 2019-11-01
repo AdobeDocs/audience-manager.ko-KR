@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 알고리즘 트레이트 만들기
 uuid: 50c2d2d1-f412-47 파섹
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -27,11 +27,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 1. 모델을 선택하고 를 **[!UICONTROL Add Selected Model to Trait]**클릭합니다.
 모델을 추가하면 도달 및 정확도 설정이 표시됩니다.
 1. 도달 또는 정확도를 목표로 선택하고 각 드롭다운 메뉴에서 값을 선택합니다. Click **[!UICONTROL Save]** when done.
-
->[!MORELIKE_THIS]
->
->* [정확성 및 전달 범위](../../features/traits/trait-accuracy-reach.md)
-
 
 ## 알고리즘 트레이트를 위한 구성 설정 {#configure-settings}
 
@@ -54,6 +49,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 | **[!UICONTROL Reach and Accuracy Data Columns]** | 오른쪽에 있는 이 섹션에는 모델의 정확도와 도달 값을 표시하는 숫자 데이터 행이 최대 21개까지 표시됩니다. |
 | **[!UICONTROL Reach and Accuracy Slider]** | 그래프 아래쪽에 있는 슬라이더를 사용하면 도달 또는 정확도 목표에 대한 숫자 값을 설정할 수 있습니다. 슬라이더를 설정한 다음 도달 또는 정확도 목표 단추를 선택하여 트레이트를 만들 수 있습니다. |
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [정확성 및 전달 범위](../../features/traits/trait-accuracy-reach.md)
+

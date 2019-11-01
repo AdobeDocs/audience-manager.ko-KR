@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대상에 세그먼트 매핑
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 ## 지원되는 대상 유형:URL 및 쿠키만
 
 사용 가능한 `POST` 방법을 사용하면 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 에 매핑만 할 수 있습니다. 현재, 세그먼트를 이러한 [!UICONTROL server-to-server destinations][!DNL REST API] 메서드로 매핑할 수 없습니다. 사용자 인터페이스를 대신 사용하십시오. 그러나 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 [!UICONTROL server-to-server destinations] 만든 정보를 검색할 수 있습니다.
-
->[!MORELIKE_THIS]
->
->* [대상](../../../features/destinations/destinations.md)
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
-
 
 ## 세그먼트를 일련 번호가 없는 URL 대상에 매핑 {#map-segment-non-serial}
 
@@ -584,3 +577,10 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
     "traitAlias": null
 }
 ```
+
+>[!MORELIKETHIS]
+>
+>* [대상](../../../features/destinations/destinations.md)
+>* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
+

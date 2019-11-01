@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: b6d5149adf2f939941b4ef659b0ecc80fa0918f4
+source-git-commit: 2d6671406ebf8e1626c0a0b259aad6bb482d7c0e
 
 ---
 
@@ -20,12 +20,11 @@ source-git-commit: b6d5149adf2f939941b4ef659b0ecc80fa0918f4
   <tr> 
    <td colname="col1"> <p> <b>새 항목 및 중요 항목</b> </p> <p>Audience Manager의 최신 기능을 살펴보십시오.</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/segments/trait-recommendations.md">Adobe Sensei 기반의 Audience Marketplace 데이터를 위한 지능형 추천</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">프로필 병합 규칙 개선 사항</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">벌크 관리 도구 업데이트</a></li>
      <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">사용자 기반 대상</a> </li>
-     <li><a href="features/destinations/twitter-tailored-audiences.md">Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성</a> </li>
-     <li><a href="features/destinations/destinations-home.md">대상 홈 페이지</a> </li>
      </ul> </p> <p>2019 <a href="docs-updates/docs-2019.md"> 설명서 업데이트를 참조하십시오</a>. </p> 
      <p>Audience Manager를 처음 사용하는 경우 용어집 <a href="reference/aam-glossary.md"> 및 ID</a> <a href= "reference/ids-in-aam.md">인덱스를 참조하십시오.</a></p>
      <br> 
@@ -47,7 +46,6 @@ source-git-commit: b6d5149adf2f939941b4ef659b0ecc80fa0918f4
   </tr> 
  </tbody> 
 </table>
-
 
 <!--
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙에 대한 보고서 지표
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 다른 데이터 시각화 외에도 [!UICONTROL Profile Link] 보고서에는 라인 그래프가 포함됩니다. 라인 그래프는 시간 경과에 따른 프로필 규칙 트렌드를 표시하도록 디자인되었습니다. 트렌드 그래프(및 기타 보고서)는 [!UICONTROL Profile Merge Rules] 랜딩 페이지( **[!UICONTROL Audience Data > Profile Merge Rules]**)에서 규칙을 클릭할 때 사용할 수 있습니다. 이러한 그래프에는 사용자가 [!UICONTROL Device Co-op] 또는 타사의 장치 그래프에 액세스할 수 있는 경우 장치 그래프 데이터가 포함됩니다 [!DNL Audience Manager]. 트렌드 라인을 클릭하여 기본 데이터를 봅니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [프로필 병합 규칙 FAQ](../../faq/faq-profile-merge.md)
 

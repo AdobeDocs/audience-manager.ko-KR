@@ -7,7 +7,7 @@ title: 데이터 피드 만들기, 가격 및 관리
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,11 +59,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * **[!UICONTROL Private]** 및 **[!UICONTROL Unbranded]**&#x200B;구매자의 [!UICONTROL Marketplace] 목록에는 데이터 피드 이름과 설명만 표시됩니다. 데이터 공급자 이름이 [!UICONTROL Private Seller]표시됩니다.
 
 개인 피드의 모양을 구매자에게 확인하려면 개인 데이터 피드의 구매자 섹션을 [참조하십시오](../../../features/audience-marketplace/marketplace-private-feeds.md).
-
->[!MORELIKE_THIS]
->
->* [비공개 데이터 피드](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 
 ## 가입자의 데이터 피드 비활성화 {#deactivate-data-feed}
 
@@ -183,11 +178,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 3. 각 요청 상자의 [!UICONTROL Allow Access] 섹션에서 확인 표시를 클릭하여 요청을 승인하거나 X를 클릭하여 액세스를 거부합니다.
 4. 확인 팝업에서 선택한 작업을 확인하거나 취소합니다.
 
->[!MORELIKE_THIS]
->
->* [비공개 데이터 피드](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
-
 ## 데이터 제공업체를 위한 할인 혜택 {#discounts}
 
 또한 [!UICONTROL Audience Marketplace]할인 혜택을 통해 개별 구독자에 대해 게시된 데이터 피드 가격을 줄일 수 있습니다. 구독 요청을 제출한 구독자 또는 데이터 피드에 대한 세부 정보를 요청한 구독자에게 할인 혜택을 제공할 수 있습니다. 할인은 [!DNL CPM] 및 정액 요금 피드에 적용됩니다. 할인은 신규 고객을 위한 구독 인센티브를 제공하거나 고객 충성도를 보상하려는 경우 유용합니다.
@@ -212,3 +202,8 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 데이터 제공업체는 모든 가입자와 할인 피드를 볼 수 **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**&#x200B;있습니다.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [비공개 데이터 피드](../../../features/audience-marketplace/marketplace-private-feeds.md)
+

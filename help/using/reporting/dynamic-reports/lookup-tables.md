@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 조회 테이블을 사용하여 로그 파일 처리 시간 개선
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -70,7 +70,7 @@ c_lookup_tables.xml
 
 광고 서비스 시스템에 API가 있는 경우 조회 파일에서 메타데이터를 전송할 필요가 없을 수 있습니다. Adobe는 API를 통해 해당 정보를 얻을 수 있습니다. 이 경우 로그 파일에는 ID만 포함되어야 합니다. Adobe는 API를 통해 메타데이터를 얻을 수 있는지 여부를 확인하기 위해 사용자와 협력합니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [배달 및 성과 보고서](../../reporting/dynamic-reports/delivery-performance-report.md)
 

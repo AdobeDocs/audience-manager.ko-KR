@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -151,7 +151,7 @@ Audience Manager로 데이터를 보낼 때 따라야 하는 필수 필드, 구�
 >
 >인바운드 데이터 유효성 검사 프로세스는 빈 파일을 잘못된 파일로 표시하고 처리하지 않습니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [인바운드 데이터 파일에 대한 FTP 이름 요구 사항](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 

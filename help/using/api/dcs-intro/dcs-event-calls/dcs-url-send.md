@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS로 데이터 보내기
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 translation-type: tm+mt
-source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -47,12 +47,12 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
    <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>이 호출에는 다음이 포함됩니다. </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Audience Manager에서 할당한 도메인 <span class="keyword"> 별칭</span> (예: <code> my_domain.demdex.net</code>)입니다. </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">항상 demdex.net <code> 인 대상 도메인입니다</code>. <a href="../../../reference/demdex-calls.md">Demdex 도메인에 대한 호출 이해</a>를 참조 하십시오. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Audience Manager에서 <span class="keyword"> 할당한</span> 도메인 별칭(예: <code> my_domain.demdex.net</code>) </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">항상 대상 도메인입니다 <code> demdex.net</code>. <a href="../../../reference/demdex-calls.md">Demdex 도메인에 대한 호출 이해</a>를 참조 하십시오. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> /이벤트에 연결된다는 점을 이용합니다?</code> </p> </td> 
+   <td colname="col1"> <p> <code> /event?</code> </p> </td> 
    <td colname="col2"> <p>이 통화 부분: </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
       <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">호출을 이벤트 호출로 식별합니다. </li> 
@@ -67,8 +67,8 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
    <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>키-값 쌍의 키로 정의된 세트에 속하는 변수 값. </p> <p>값 작업 시: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">문자열 데이터를 큰 따옴표(예: page="41 ~ 55" <code></code>)로 묶습니다. </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">단일 값(예: <i><code>key</i>=<i>val1,val2,val3</i></code></i>)에 여러 키를 전달할 수 있습니다. </i></li> 
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">문자열 데이터를 큰 따옴표(예: <code> age="41 to 55"</code>)로 묶습니다. </li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">여러 키를 하나의 값(예: <i><code>key</i>=<i>val1,val2,val3</i></code></i>)에 전달할 수 있습니다. </li> 
      </ul> </p> <p>DCS <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> 호출에서 키-값 쌍 서식 지정을 참조하십시오</a>. </p> </td>
   </tr> 
   <tr> 
@@ -76,9 +76,9 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
      <ul id="ul_36E2C1A0538D4D2C94DFC1335720A524"> 
       <li id="li_8902EED431CE4F0189A94868FA52DB1F"> <code> d_dst=1</code> </li> 
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <code> d_rtbd=json</code> </li> 
-      <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_cb=<i>콜백</i></code> </li>
+      <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_cb=<i>callback</i></code> </li>
      </ul> </p> </td> 
-   <td colname="col2"> <p>선택적 응답 매개 변수입니다. </p> <p> DCS로 데이터를 전송하는 데 필요한 것은 <span class="wintitle"> 없습니다</span>. 그러나 DCS에서 <span class="wintitle"> 응답을</span> 반환하려면 <code> 요청에 d_rtbd=json</code> 을포함해야 합니다. </p> <p>d_ <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> 키-값 쌍 정의를</a>참조하십시오. </p> </td> 
+   <td colname="col2"> <p>선택적 응답 매개 변수입니다. </p> <p> DCS로 데이터를 전송하는 데 필요한 것은 <span class="wintitle"> 없습니다</span>. 그러나 DCS에서 <span class="wintitle"> 응답을</span> 반환하려면 요청에 <code> d_rtbd=json</code> 포함해야 합니다. </p> <p>d_ <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> 키-값 쌍 정의를</a>참조하십시오. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -95,7 +95,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 이제 데이터 전송에 익숙한 사용자에게 데이터를 [!UICONTROL DCS]수집하여 해당 정보를 분석할 때입니다. DCS [에서 데이터 받기를 참조하십시오](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 

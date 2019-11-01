@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 옵션 정의
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -127,7 +127,7 @@ source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
  </tbody>
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [프로필 병합 규칙 FAQ](../../faq/faq-profile-merge.md)
 

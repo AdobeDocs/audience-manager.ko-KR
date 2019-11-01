@@ -7,7 +7,7 @@ title: 데이터 피드 공급자에 대한 청구
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -119,7 +119,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [CPM 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [정액 요금 데이터 피드에 대한 대금 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)

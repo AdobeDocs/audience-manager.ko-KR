@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 데이터 슬라이더를 사용하여 보고서 결과 필터링
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ c_reach_slider.xml
 * 보고서에서 반환되는 전체 데이터 양을 줄입니다.
 * 특정 크기 범위에 속하는 트레이트 또는 세그먼트에 집중할 수 있습니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [세그먼트간 중복 보고서의 데이터 필터 이해](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 

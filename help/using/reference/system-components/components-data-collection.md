@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 데이터 수집 구성 요소
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -91,9 +91,9 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 ## 로그 파일 {#log-files}
 
-로그 [!UICONTROL PCS] 파일에 데이터를 만들고 기록합니다. 처리, 보고 및 저장을 위해 다른 데이터베이스 시스템으로 전송됩니다.
+로그 파일에 데이터를 [!UICONTROL PCS] 만들고 기록합니다. 처리, 보고 및 저장을 위해 다른 데이터베이스 시스템으로 전송됩니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Adobe 개인 정보 보호 센터](https://www.adobe.com/privacy.html)
 

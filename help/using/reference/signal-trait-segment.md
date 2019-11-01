@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 신호, 트레이트 및 세그먼트
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -56,7 +56,7 @@ c_signal_trait_segment.xml
   <tr> 
    <td colname="col1"><b>세그먼트</b> </td> 
    <td colname="col2"> <p>공통 속성 세트를 공유하고 관련 트레이트를 자격이 있는 사용자입니다. </p> <p>최근/빈도 요구 사항과 함께 부울 표현식을 사용하여 세그먼트 자격 규칙을 만들 수 있습니다. </p> <p>트레이트 및 세그먼트 규칙의 조합으로 정확한 자격 조건을 만들 수 있습니다. </p> </td> 
-   <td colname="col3"> <p>사용 가능한 트레이트 및 신호에서 다음과 같이 표시되는 세그먼트 규칙을 만들 수 있습니다. </p> <p><code> (product=camera AND type=digital SLR 파섹) 또는 (PRICE&gt;1000)</code> </p> </td> 
+   <td colname="col3"> <p>사용 가능한 트레이트 및 신호에서 다음과 같이 표시되는 세그먼트 규칙을 만들 수 있습니다. </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ c_signal_trait_segment.xml
 https://<domain>/event?product=camera&price>100
 ```
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [세그먼트:목적, 구성 및 규칙](../features/segments/segments-purpose.md)
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대상 API 메서드
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -30,7 +30,7 @@ Audience Manager에서 대상은 다른 시스템(광고 서버, [!DNL DSP]광�
 | `PUSH` | [!UICONTROL URL] |
 | `ADS` | [!UICONTROL Cookie] |
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [대상 유형을 선택하는 방법](../../../features/destinations/destinations.md)
 

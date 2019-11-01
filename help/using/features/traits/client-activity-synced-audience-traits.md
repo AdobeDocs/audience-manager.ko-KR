@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 활성 고객 트레이트 및 데이터 소스 동기화된 트레이트
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >
 >[!UICONTROL Data Source Synced Traits] 은 문제 해결에 유용합니다. 특성 요약 페이지에서 지표를 확인하려면 트레이트 이름을 클릭합니다. 선택한 트레이트가 데이터를 반환하는 경우 ID 동기화 프로세스가 제대로 설정되고 데이터를 [!DNL Audience Manager]푸시할 수 있습니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [대응 가능 대상](../../features/addressable-audiences.md)
 

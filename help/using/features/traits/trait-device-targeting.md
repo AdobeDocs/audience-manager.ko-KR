@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 플랫폼 수준 키를 사용한 디바이스 타깃팅
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Audience Manager 계정의 모든 속성에 대해 장치 관련 변수를 사�
 >
 >사용자 에이전트 헤더에서 하나 이상의 신호를 검색할 수 없는 경우에도 다른 신호는 여전히 [!UICONTROL Data Collection Servers]로 전달됩니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [주요 변수의 접두사 요구 사항](../../features/traits/trait-variable-prefixes.md)
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 특성 빌더에서의 작업 순서
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody>
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [TraitBuilder에서 부울 표현식(AND, OR, NOT)을 사용한 작업](../../reference/boolean-expressions-tsb.md)
 >* [TraitBuilder에서 비교 연산자를 사용한 작업](../../features/traits/trait-comparison-operators.md)

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS에서 데이터 받기
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,7 +61,7 @@ Send Data to [the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) d
 | `u` 및 `uuid` | Audience Manager에서 할당한 고유 사용자 ID. 서버 간 DCS 호출을 [](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)수행하는 경우 필요합니다. |
 | `y` | 대상 유형, iFrame(`iframe`) 또는 이미지(`img`). |
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS에서 지원하는 키-값 접두사 및 변수](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Google 게시자 태그(GPT)를 사용하여 DFP에 세그먼트를 보내기 위한 요구 사항 및 방법
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e67790b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >
 >웹 페이지에서 가속화된 미디어 페이지 [(](https://www.ampproject.org/)[!DNL AMP]) 라이브러리를 실행하는 경우 Audience Manager와 서버측 통합을 사용해야 합니다. 클라이언트 측 [!DNL AMP] 통합이 있는 경우 서버측 통합으로 마이그레이션해야 [!DNL AMP]합니다. 마이그레이션에 대해 논의하려면 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [GPT API 참조 안내서](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
 

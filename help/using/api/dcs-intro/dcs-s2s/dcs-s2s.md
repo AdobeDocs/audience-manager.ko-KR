@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 서버 간 데이터 전송을 위한 DCS API
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -44,7 +44,7 @@ Server-to-Server([!UICONTROL S2S]) [!DNL API]는 [!UICONTROL DCS] 사용자 데�
 * [Experience Cloud ID를 통해 사용자 ID 및 지역 가져오기...](dcs-mcid-ids.md)
 * [서버 간 DCS API 호출 만들기](dcs-s2s-calls.md)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS API 참조](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 

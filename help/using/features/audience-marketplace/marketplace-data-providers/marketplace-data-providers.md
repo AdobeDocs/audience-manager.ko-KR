@@ -8,7 +8,7 @@ title: 데이터 제공업체를 위한 Audience Marketplace
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 에서 피드 [!UICONTROL My Shared Data]상태가 비공개로 표시되는 경우가 있습니다. 비공개 데이터 피드를 나타냅니다. 개인 데이터 피드를 사용하면 판매자는 데이터 및 데이터 피드의 이름까지 구매자에게 액세스할 수 있는 권한을 제한할 수 있습니다. 판매자는 특별 거래, 할인 또는 개인 정보 및 액세스 제어가 중요한 경우 개인 정보를 비공개로 만들 수 있습니다. 개인 데이터 피드를 통해 제공자는 모든 구매자 액세스 요청을 검토하고 승인합니다. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). 공개 또는 비공개 데이터 피드를 만들려면 공개 [또는 비공개 데이터 피드 만들기를 참조하십시오](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 제공업체를 위한 할인 혜택](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 

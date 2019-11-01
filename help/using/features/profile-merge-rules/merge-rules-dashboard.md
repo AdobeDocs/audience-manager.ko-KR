@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 대시보드
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 * 각 사용자의 평균 장치 수를 추적합니다.
 * 기본 컨트롤을 사용하여 규칙을 만들고 편집하고 삭제할 수 있습니다. 관리자만 규칙을 관리할 수 있지만 다른 사용자는 규칙을 보고 세그먼트에 적용할 수 있습니다. 정의된 [프로필 병합 규칙 옵션](merge-rule-definitions.md) 및 [병합 규칙에 사용 사례를 참조하십시오](merge-rule-targeting-options.md).
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [프로필 병합 규칙 FAQ](../../faq/faq-profile-merge.md)
 

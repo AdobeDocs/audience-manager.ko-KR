@@ -7,7 +7,7 @@ title: 데이터 구매자를 위한 Audience Marketplace
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d9a4244f68e95c872d3686da10ee3a774250fbfe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,7 +87,7 @@ source-git-commit: d9a4244f68e95c872d3686da10ee3a774250fbfe
 
 목록에서 [!UICONTROL Marketplace] 공급자의 이름과 특성 데이터가 비공개로 표시되는 경우가 있습니다. 이는 [비공개 데이터 피드를](../../../features/audience-marketplace/marketplace-private-feeds.md)나타냅니다. 개인 데이터 피드를 사용하면 판매자가 구매자의 데이터 액세스를 제한할 수 있습니다. 판매자는 특별 거래, 할인 또는 개인 정보 및 액세스 제어가 중요한 경우 개인 정보를 비공개로 만들 수 있습니다. 구매자는 개인 피드에 액세스하려면 구매자에게 구독 요청을 보내야 합니다. 자세한 [내용은 비공개 데이터 피드](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) 가입을 참조하십시오.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Audience Marketplace의 계획 세부 정보 페이지 이해](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
 >* [데이터 구매자를 위한 할인](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)

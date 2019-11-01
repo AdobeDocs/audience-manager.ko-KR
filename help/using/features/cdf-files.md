@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code> 이벤트 시간</code> </p> </td> 
+   <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>타임스탬프 </p> </td> 
    <td colname="col3"> <p>DCS(데이터 수집 서버)가 CDF 파일을 처리한 <span class="wintitle"></span> 시간입니다. 타임스탬프는 <i>yyyy-mm-dd hh:mm:ss</i> 형식을 사용하며 UTC 시간대로 설정됩니다. </p> <p> <p>참고:이벤트 시간은 다음과 <i>같지 않습니다</i>. <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
@@ -68,37 +68,37 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 장치</code> </p> </td> 
+   <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
    <td colname="col3"> <p>UUID <span class="wintitle"> (Unique User</span> ID)로 사이트 방문자의 38자리 장치 ID입니다. <a href="../reference/ids-in-aam.md">Audience Manager의 ID 색인</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 컨테이너 ID</code> </p> </td> 
+   <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>숫자 </p> </td> 
    <td colname="col3"> <p>ID 동기화를 실행하는 컨테이너의 ID입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 실현된 트레이트</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
    <td colname="col2"> <p>숫자 배열 </p> </td> 
    <td colname="col3"> <p>이벤트 호출에서 방문자가 실현한 모든 트레이트를 포함하는 트레이트 ID의 배열입니다. </p> <p>배열에는 방문자가 이전에 자격을 얻었고 이 이벤트 호출을 통해 재평가할 수 있는 트레이트가 포함될 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 실현된 세그먼트</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Segments</code> </p> </td> 
    <td colname="col2"> <p>숫자 배열 </p> </td> 
    <td colname="col3"> <p>이벤트 호출에서 방문자가 실현한(적격) 모든 세그먼트를 포함하는 세그먼트 ID의 배열입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 요청 매개 변수</code> </p> </td> 
+   <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>모든 매개 변수(변수, ID, 키-값 쌍, 장치 광고 ID 등)를 캡처하는 문자열 이벤트 호출 시 전달됩니다. </p> <p>단축된 예: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D5810,0 c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD599 65E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>모든 매개 변수(변수, ID, 키-값 쌍, 장치 광고 ID 등)를 캡처하는 문자열 이벤트 호출 시 전달됩니다. </p> <p>단축된 예: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 참조 데이터 유형</code> </p> </td> 
+   <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
    <td colname="col3"> <p>참조 페이지의 인코딩되지 않은 URL(있는 경우). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> IP 데이터 유형</code> </p> </td> 
+   <td colname="col1"> <p><code> IP Data Type</code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
    <td colname="col3"> <p>이벤트 호출에서 캡처된 방문자의 IP 주소입니다. </p> </td> 
   </tr> 
@@ -108,12 +108,12 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
    <td colname="col3"> <p>사이트 <span class="keyword"> 방문자에게</span> 할당된 Experience Cloud ID(MID)입니다. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 모든 세그먼트</code> </p> </td> 
+   <td colname="col1"> <p><code> All Segments</code> </p> </td> 
    <td colname="col2"> <p>숫자 배열 </p> </td> 
    <td colname="col3"> <p>이전에 실현된 세그먼트와 방문자가 자격이 되는 새 세그먼트를 포함하는 세그먼트 ID의 배열입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 모든 트레이트</code> </p> </td> 
+   <td colname="col1"> <p><code> All Traits</code> </p> </td> 
    <td colname="col2"> <p>숫자 배열 </p> </td> 
    <td colname="col3"> <p>이전에 실현된 트레이트와 방문자가 마지막으로 생성된 데이터 피드 이후 자격이 부여된 새로운 트레이트를 포함하는 자사 트레이트 ID의 배열. </p> </td> 
   </tr> 
@@ -143,7 +143,7 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
    <td colname="col2"> <p>이러한 인쇄되지 않는 문자는 CDF 파일의 요소 및 구조를 정의합니다. </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a(ASCII <code> 001</code> 또는 <code> ^A</code>)는 인쇄되지 않는 공간 표시기를 사용하여 개별 필드의 데이터를 구분합니다. </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b(ASCII <code> 002</code> 또는 <code> ^B</code>)는 데이터 및 배열 및 요청 매개 변수를 구분합니다. </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b(ASCII <code> 002</code> 또는 <code> ^B</code>)는 데이터, 배열 및 요청 매개 변수를 구분합니다. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c(ASCII <code> 003</code> 또는 <code> ^C</code>)는 키-값 쌍을 정의합니다. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -151,7 +151,7 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
    <td colname="col1"> <p>필드 시퀀스 </p> </td> 
    <td colname="col2"> <p> <p>중요:Audience <span class="keyword"> Manager는</span> 향후 릴리스에서 CDF 파일의 끝에 새 필드를 추가할 수 있는 권한을 보유합니다. 즉, 파일 구문 분석 시스템의 기술 설계에서는 고정된 열 수를 가정할 수 없습니다(기존 열에 대해 고정된 순서를 가정할 수 있음). </p> </p> <p>CDF 파일의 데이터는 아래에 표시된 순서대로 나타납니다. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
-      <li id="li_CB97D90B54EB4F95861583D4A5F660C7"> 이벤트 시간 </li> 
+      <li id="li_CB97D90B54EB4F95861583D4A5F660C7">이벤트 시간 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">장치 </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">컨테이너 ID </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9">실현된 트레이트 </li> 
@@ -160,8 +160,8 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP 주소 </li> 
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
-      <li id="li_7A05AF4790A1425A90D019681DF4A595"> 모든 세그먼트 </li> 
-      <li id="li_1B5A6F076A354BA0A931CB260E6D2675"> 모든 트레이트 </li> 
+      <li id="li_7A05AF4790A1425A90D019681DF4A595">모든 세그먼트 </li> 
+      <li id="li_1B5A6F076A354BA0A931CB260E6D2675">모든 트레이트 </li> 
      </ol> </p> <p>필드 설명은 고객 데이터 피드 <a href="#cdf-defined"> 정의된 컨텐츠를 참조하십시오</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -224,7 +224,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
    <td colname="col2"> <p>이것은 Amazon S3 서버에서 CDF 파일에 대한 기본 루트 저장소 버킷입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> S3 버킷 <i>이름</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
    <td colname="col2"> <p>CDF 파일이 들어 있는 읽기 전용 S3 버킷의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -236,11 +236,11 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
    <td colname="col2"> <p>24시간 표기법으로 표현되고 UTC 시간대로 설정된 시간 값입니다. <a href="#different-processing-times">고객 데이터 피드 </a> 파일 이름 시간 및 파일 컨텐츠 시간을 참조하십시오.. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>파트너 ID</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
    <td colname="col2"> <p>파트너 ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> AAM <i>프로세스 ID</i>_0</code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
    <td colname="col2"> <p>내부 Audience Manager <span class="keyword"> 프로세스</span> ID입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> 파일</code> </p> </td> 
+   <td colname="col1"> <p> <code> Files</code> </p> </td> 
    <td colname="col2"> <p>CDF 파일에 대한 메타데이터가 포함된 배열을 시작합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -309,10 +309,10 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 ETag입니다. 하이픈(-) 아래의 숫자는 여러 부분으로 업로드하는 동안 파일을 작성하는 데 사용되는 부품 수를 보여줍니다. ETag <code> 는</code> 파일의 MD5 체크섬과 동일하지 않습니다. </p> </td> 
+   <td colname="col2"> <p>Amazon S3 ETag입니다. 하이픈(-) 아래의 숫자는 여러 부분으로 업로드하는 동안 파일을 작성하는 데 사용되는 부품 수를 보여줍니다. 파일의 MD5 체크섬과 동일하지 <code> ETag</code> 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 파일 이름</code> </p> </td> 
+   <td colname="col1"> <p> <code> FileName</code> </p> </td> 
    <td colname="col2"> <p>파일 이름입니다. 고객 <a href="#cdf-naming-conventions"> 데이터 피드 파일 이름 지정 규칙을 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -333,15 +333,15 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> 총계</code> </p> </td> 
+   <td colname="col1"> <p> <code> Totals</code> </p> </td> 
    <td colname="col2"> <p>모든 CDF 파일에 대해 집계된 데이터가 포함된 객체를 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 일</code> </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
    <td colname="col2"> <p>데이터를 사용할 수 있는 날짜입니다. yyyy- <i>mm-dd</i> 형식을 사용합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 시간</code> </p> </td> 
+   <td colname="col1"> <p> <code> Hour</code> </p> </td> 
    <td colname="col2"> <p>데이터를 사용할 수 있는 시간입니다. UTC 시간대에서 설정된 24시간 형식을 사용합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -376,7 +376,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 | 파일 이름 | CDF 파일 이름의 타임스탬프는 파일 전달을 [!DNL Audience Manager] 준비하는 시간을 표시합니다. 이 타임스탬프는 UTC 시간대에서 설정됩니다. 이 매개 변수는 24시간 표기법으로 2자리 시간으로 서식이 지정된 매개 변수를 사용합니다. `hour=` 이 시간은 파일 내용에 기록된 이벤트 시간과 다를 수 있습니다. CDF 파일을 사용하여 작업할 때 특정 시간 동안 S3 버킷이 비어 있는 것을 확인할 수 있습니다. 빈 버킷은 다음 중 하나를 의미할 수 있습니다.<ul><li>특정 시간에 대한 데이터가 없습니다. </li><li> 서버가 많은 로드 중에 있어서 특정 시간 동안 파일을 처리할 수 없습니다. 서버가 응답할 때 이전 시간 버킷 파일에 넣어야 하는 파일을 이후 시간 값이 있는 버킷으로 가져옵니다. 예를 들어, 17시간 버킷에 있어야 하는 파일이 18시간 버킷(파일 이름 포함)에 나타날 때 이 `hour=18` 파일을 볼 수 있습니다. 이 경우 서버가 17시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 완료할 수 없었습니다. 대신 파일은 다음 시간별 시간 버킷으로 푸시됩니다.</li></ul><br>**중요**:시간 단위로 이벤트를 그룹화하는 데 파일 이름 타임스탬프를 사용하지 마십시오. 시간별로 그룹화해야 하는 경우 파일 컨텐츠의 `EventTime` 타임스탬프를 사용합니다. |
 | 파일 내용 | CDF 파일 내용의 타임스탬프는 데이터 수집 서버가 파일 처리를 시작한 시간을 표시합니다. 이 타임스탬프는 UTC 시간대에서 설정됩니다. 시간 형식이 지정된 `EventTime` 필드를 사용합니다 *`yyyy-mm-dd hh:mm:ss`*. 이 시간은 페이지에서 이벤트의 실제 시간에 가깝지만 파일 이름의 시간 표시기와 다를 수 있습니다. <br> **팁**:파일 이름의 `hour=` 타임스탬프와 달리 데이터를 시간별로 그룹화하는 `EventTime` 데 사용할 수 있습니다. |
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [고객 데이터 피드 FAQ](../faq/faq-cdf.md)
 

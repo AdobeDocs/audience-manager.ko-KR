@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 인바운드 데이터 파일 내용 구문, 잘못된 문자, 변수 및 예제
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>사용자 ID </i> </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>사용자 ID는 다음과 같습니다. </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
       <li id="li_23829FE2F6464E33859B3E388FCD106B">Audience Manager에서 할당한 고유 사용자 <span class="keyword"> ID </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
@@ -59,16 +59,16 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">모바일 운영 체제에서 노출한 대로 수정되지 않은 원본 형식의 모바일 Android 또는 iOS 장치 ID입니다. </li> 
      </ul> </p> <p>모바일 ID의 경우: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA 형식:ID는 대문자여야 하며 해시되지 않아야 합니다. 예: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android 형식:ID는 소문자여야 하며 해시되지 않아야 합니다. 예: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA 형식:ID는 대문자여야 하며 해시되지 않아야 합니다. 예, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android 형식:ID는 소문자여야 하며 해시되지 않아야 합니다. 예, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 탭 </code> </p> </td> 
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
    <td colname="col2"> <p>사용자 ID와 트레이트 ID를 단일 탭 구분 기호로 구분합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>트레이트 ID </i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Audience <span class="keyword"> Manager </span> 트레이트 ID. 인바운드 데이터 파일에 <i>온보딩된 특성만</i> 포함시켜 주시기 바랍니다. 인바운드 데이터 전송에서 다른 특성 유형은 처리하지 않습니다. </p> <p> <p>참고: 트레이트 ID는 모든 트레이트에 대한 세부 사항을 반환하는 GET 메서드를 사용하여 찾을 수 있습니다. 자세한 내용은 트레이트 API <a href="../../../api/rest-api-main/api-traits.md"> 메서드를 참조하십시오 </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -88,33 +88,34 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>d_sid <code> 접두사는 ID가 Audience Manager </code> <span class="keyword"> </span> 트레이트 ID임을 시스템에서 알려줍니다. 사용자 인터페이스에 표시되는 ID와 동일합니다. API GET <code> 메서드로 트레이트 ID를 반환할 수도 </code> 있습니다. 트레이트 <a href="../../../api/rest-api-main/api-traits.md"> API 메서드를 참조하십시오 </a>. </p> </td>
+   <td colname="col2"> <p>이 <code> d_sid </code> 접두사는 ID가 Audience Manager <span class="keyword"> 트레이트 ID임을 시스템에 알려줍니다 </span> . 사용자 인터페이스에 표시되는 ID와 동일합니다. API <code> GET </code> 메서드로 트레이트 ID를 반환할 수도 있습니다. 트레이트 <a href="../../../api/rest-api-main/api-traits.md"> API 메서드를 참조하십시오 </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>d_unsid로 접두사를 <code> 붙인 데이터는 해당 트레이트에서 사용자를 </code> 제거합니다. 덮어쓰기 <code> 파일에서 </code> d_unsid <code> </code> 접두사는 무시됩니다. </p> <p>d_ <code> unsid= </code> 접두사는 ID가 Audience Manager <span class="keyword"> </span> 트레이트 ID임을 시스템에서 알려줍니다. 사용자 인터페이스에 표시되는 ID와 동일합니다. API GET <code> 메서드로 트레이트 ID를 반환할 수도 </code> 있습니다. 트레이트 <a href="../../../api/rest-api-main/api-traits.md"> API 메서드를 참조하십시오 </a>. </p> </td>
+   <td colname="col2"> <p>데이터가 접두사로 추가되면 해당 트레이트에서 사용자가 <code> d_unsid </code> 제거됩니다. 접두사는 <code> d_unsid </code> <code> overwrite </code> 파일에서 무시됩니다. </p> <p>이 <code> d_unsid= </code> 접두사는 ID가 Audience Manager <span class="keyword"> 트레이트 ID임을 시스템에 알려줍니다 </span> . 사용자 인터페이스에 표시되는 ID와 동일합니다. API <code> GET </code> 메서드로 트레이트 ID를 반환할 수도 있습니다. 트레이트 <a href="../../../api/rest-api-main/api-traits.md"> API 메서드를 참조하십시오 </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> 트레이트 규칙을 </a> 사용하여 트레이트 자격에 대한 기준을 설정할 수 있습니다. 특성 규칙의 형식을 <code> ic == 특성 ID로 지정하는 </code>경우 간단한 쉼표 형식 목록으로 트레이트를 보낼 수 있습니다. </p> <p>예를 들어 다음과 같은 세 가지 특성 규칙을 만든다고 가정해 봅시다. </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> 트레이트 규칙을 </a> 사용하여 트레이트 자격에 대한 기준을 설정할 수 있습니다. 트레이트 규칙의 형식을 <code> ic == trait ID </code>쉼표로 구분된 간단한 목록으로 전송할 수 있습니다. </p> <p>예를 들어 다음과 같은 세 가지 특성 규칙을 만든다고 가정해 봅시다. </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>이러한 트레이트는 <code> ic </code> 키와 연결됩니다. 이렇게 하면 데이터 파일에서 보다 간단한 트레이트 목록을 만들 수 있습니다. 또한 <code> ic </code> 접두사를 포함할 필요는 없습니다. 따라서 데이터 파일의 내용은 다음과 같이 표시될 수 있습니다. </p> <p>
+     </ul> </p> <p>이러한 트레이트는 <code> ic </code> 키와 연결됩니다. 이렇게 하면 데이터 파일에서 보다 간단한 트레이트 목록을 만들 수 있습니다. 또한 <code> ic </code> 접두사를 포함할 필요가 없습니다. 따라서 데이터 파일의 내용은 다음과 같이 표시될 수 있습니다. </p> <p>
      <code> 
-                       
-      <i>사용자 ID</i>&lt;탭&gt; 123,456,789 </code> </p> </td> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>키-값 쌍 </p> </td> 
    <td colname="col2"> <p>특성 데이터는 영숫자 문자열을 사용하여 키-값 쌍으로 형식을 지정할 수 있습니다. 다음과 같이 키-값 쌍의 서식을 지정할 수 있는 방법에는 여러 가지가 있습니다. </p> <p> 
      <ul id="ul_D4F5A97FE0444AC6B7D8D4DAEDD3EAF2"> 
-      <li id="li_07B893AA8EB24F34B70F8DA06E87EAB3"> <code> key = 값 </code> </li> 
-      <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = 값 </code> </li> 
+      <li id="li_07B893AA8EB24F34B70F8DA06E87EAB3"> <code> key = value </code> </li> 
+      <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul><code> "age"="32" </code> , <code> "성별"=m </code> , <code> model = " </code> pickbook" <code> , </code> product = 태블릿은 올바른 형식의 키-값 쌍의예입니다. </p> </td> 
+     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> <code> product = tablet </code> 은 올바른 형식의 키-값 쌍의 모든 예입니다. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -137,14 +138,14 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>인코딩된 콜론(%3A</i> ) 또는 인코딩되지 않은 콜론( :)을 사용하지 마십시오 <code> </code>.) 기호를 DPUUID에 추가했습니다. </p> </td> 
+   <td colname="col2"> <p><i>인코딩된 콜론() 또는 인코딩되지 않은 콜론( :)을 사용하지 마십시오</i> <code> %3A </code>.) 기호를 DPUUID에 추가했습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>모바일 iOS(IDFA) 또는 Android 장치 ID </p> </td> 
    <td colname="col2"> <p>모바일 장치 ID는 아래와 같이 엄격하게 형식이어야 합니다. </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA 형식:ID는 대문자여야 하며 해시되지 않아야 합니다. 예: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android 형식:ID는 소문자여야 하며 해시되지 않아야 합니다. 예: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA 형식:ID는 대문자여야 하며 해시되지 않아야 합니다. 예, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android 형식:ID는 소문자여야 하며 해시되지 않아야 합니다. 예, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -172,15 +173,15 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
   </tr> 
   <tr> 
    <td colname="col1"> <p>대시 문자(-) </p> </td> 
-   <td colname="col2"> <p>우리는 열쇠가 시작될 때 대시 기호를 무시합니다. 예를 들어 <code> -product = camera </code> 는 <code> product = camera로 해석됩니다 </code>. </p> </td> 
+   <td colname="col2"> <p>우리는 열쇠가 시작될 때 대시 기호를 무시합니다. 예를 들어, 는 <code> -product = camera </code> 으로 해석됩니다 <code> product = camera </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 탭 </code> </p> </td> 
-   <td colname="col2"> <p><i>키-값 쌍에서</i> 빈 값 <code> </code> 대신 TAB을 사용하지 마십시오. TAB만 <code> 사용하여 </code> 인바운드 데이터 파일에서 변수를 구분합니다. </p> </td> 
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
+   <td colname="col2"> <p><i>키-값 쌍에서 빈 값</i> <code> TAB </code> 대신 사용하지 마십시오. 인바운드 데이터 <code> TAB </code> 파일에서 변수를 구분하는 용도로만 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
-   <td colname="col2"> <p>키 또는 값에 새 줄 또는 탭 문자( \n, <code> \t </code>)를 사용하지 마십시오. </p> </td> 
+   <td colname="col2"> <p>키 또는 값에 새 줄 또는 탭 문자( <code> \n, \t </code>)를 사용하지 마십시오. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -196,28 +197,34 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>d_sid <code> 또는 </code> <code> d_unsid 사용 </code> </p> </td> 
+   <td colname="col1"> <p>사용 <code> d_sid </code> 또는 <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>이 데이터 파일은 트레이트 24, 26, 27의 자격을 갖춘 사용자를 보여주며 트레이트 28 및 29에서 제거되었습니다. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=2 6,d_sid=27,d_unsid=28,d_unsid=29 </code> </p> <p>참고:  <p>d_unsid를 사용하는 대신 다음 구문을 사용하여 사용자 프로필에서 트레이트를 제거할 수도 있습니다. </p> <p> 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+     </code> </p> <p>참고:  <p>d_unsid를 사용하는 대신 다음 구문을 사용하여 사용자 프로필에서 트레이트를 제거할 수도 있습니다. </p> <p> 
       <code>
-        5976755918126206006027887090108709825252&amp;nbsp;28:0,&amp;nbsp;29:0 </code> </p> <p> 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+      </code> </p> <p> 
       <code>
-        5976759181262060606027870901087098252&amp;nbsp;28:-1,&amp;nbsp;29: 1 </code> </p> </p> </td> 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+      </code> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>With <code> ic== </code> </p> </td> 
-   <td colname="col2"> <p>이러한 트레이트는 <code> ic </code> 접두사가 있는 트레이트 규칙에 추가되었습니다. 이와 같이 데이터 파일에 쉼표로 구분하여 추가할 수 있습니다. 탭에서는 UUID와 트레이트 ID를 구분합니다. 파일에 <code> ic </code> 접두사가 필요하지 않습니다. </p> <p><b>숫자 ID</b> </p> <p> 
+   <td colname="col1"> <p>포함 <code> ic== </code> </p> </td> 
+   <td colname="col2"> <p>이러한 트레이트가 <code> ic </code> 접두사가 있는 트레이트 규칙에 추가되었습니다. 이와 같이 데이터 파일에 쉼표로 구분하여 추가할 수 있습니다. 탭에서는 UUID와 트레이트 ID를 구분합니다. 파일에 <code> ic </code> 접두사가 필요하지 않습니다. </p> <p><b>숫자 ID</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,5038,5 0352,30626 </code> </p> <p><b>문자열 ID</b> </p> <p> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+     </code> </p> <p><b>문자열 ID</b> </p> <p> 
      <code>
-       DB 파섹 </code> </p> </td> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>키-값 쌍 사용 </p> </td> 
    <td colname="col2"> 이 파일 데이터는 키-값 쌍을 사용하여 데이터를 Audience Manager에 <span class="keyword"> 전달합니다 </span>. <p> 
      <code>
-       59767559181262060060278709010870982525&amp;nbsp;"gender"="hale","luxury_shopper"="yes" </code> </p> </td> 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -494,7 +501,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 ```
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [특성 빌더](../../../features/traits/about-trait-builder.md)
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 대상으로 OAS 사용
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 translation-type: tm+mt
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,7 +40,7 @@ Audience Manager는 다음과 같이 세그먼트 데이터를 브라우저 쿠�
 
 전달된 데이터 양은 특정 사용자가 자격을 얻은 세그먼트 수에 [!DNL OAS] 따라 다릅니다. 예를 들어 100개의 Audience Manager 세그먼트를 설정했다고 가정해 봅시다. 사이트 방문자가 5개의 자격을 갖춘 경우 이 5개의 세그먼트만 OAS로 전송됩니다(100개 중 전부가 아님).
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [get_aamCookie 코드](../../features/destinations/get-aam-cookie-code.md)
 >* [키-값 쌍 설명](../../reference/key-value-pairs-explained.md)
@@ -54,7 +54,7 @@ Audience Manager에서 쿠키 기반 대상을 [!DNL OAS] 만듭니다.
 
 Audience Manager에서 *대상은* 다른 시스템(광고 서버, [!DNL DSP]광고 네트워크 등)입니다. 데이터를 공유할 수 있습니다. [!UICONTROL Destination Builder] 에서는 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. Audience Manager 대상 기능은 대상 데이터 *&gt; 대상에 있습니다*. 시작하려면 을 클릭하고 아래 단계를 **[!UICONTROL Add New Destination]** 따르십시오.
 
-### 1단계:기본 정보
+### 1단계: 기본 정보
 
 섹션을 완료하려면 [!UICONTROL Basic Information] 다음을 수행하십시오.
 

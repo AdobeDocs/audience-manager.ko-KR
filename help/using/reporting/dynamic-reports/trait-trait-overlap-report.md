@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 특성-특성 중복 보고서
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -102,7 +102,7 @@ r_t2t_data_pop.xml
  </tbody> 
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 슬라이더를 사용하여 보고서 결과 필터링](../../reporting/dynamic-reports/data-sliders.md)
 >* [동적 보고서에 사용된 모양, 색상 및 크기](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

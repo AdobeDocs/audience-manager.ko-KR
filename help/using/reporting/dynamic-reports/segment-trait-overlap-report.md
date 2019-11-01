@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트-특성 중복 보고서
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -76,7 +76,7 @@ c_compare_s2t.xml
  <tbody> 
   <tr> 
    <td colname="col1"><b>예측</b> </td> 
-   <td colname="col2"> <p>사용 가능한 방문자 풀을 결정하려면 트레이트 총계(덜 겹침)와 세그먼트 합계(덜 겹침) 간의 차이를 합합니다. </p> <p>이 세그먼트 트레이트 조합은 최대 1004명의 신규 사용자에게 도달할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>사용 가능한 방문자 풀을 결정하려면 트레이트 합계(덜 겹침)와 세그먼트 합계(덜 겹침) 간의 차이를 합합니다. </p> <p>이 세그먼트 트레이트 조합은 최대 1004명의 신규 사용자에게 도달할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>비효율적인 세그먼트 찾기</b> </td> 
@@ -176,7 +176,7 @@ r_s2t_data_pop.xml
  </tbody> 
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 슬라이더를 사용하여 보고서 결과 필터링](../../reporting/dynamic-reports/data-sliders.md)
 >* [대화형 보고서에 사용된 모양, 색상 및 크기](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 주요 변수의 접두사 요구 사항
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,16 +43,16 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>여기에는 HTTP <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> 헤더</a> 정보가 포함되어 있습니다. 참조 <code> ,</code>IP<code> ,</code>수락 언어 <code> 등과 같은</code>헤더 매개 변수를포함합니다. </p> <p> <p>참고:9.0 이전 DIL 버전을 사용하는 고객의 경우 <code> h_referer</code> 신호를 사용한 데이터 수집은 Safari 브라우저에서 작동하지 않습니다. ITP 2.0 <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> 이</a>도입되어 Safari 브라우저는 demdex.net 도메인을 추적기로 분류할 수 있으며 전체 URL이 아닌 원본을 포함하도록 데이터 수집 요청에서 레퍼러를 자를 자를 자를 자를 자를 자를 자를 자를 수도 있습니다. 최신 <a href="../../dil/dil-overview.md#get-implement-dil-code">DIL 버전에 대한 DIL 코드</a> 가져오기 및 구현을 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>여기에는 HTTP <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> 헤더</a> 정보가 포함되어 있습니다. 헤더 매개 변수(예: <code> referer</code>,<code> IP</code><code> accept-language</code>, 등)를 포함합니다. </p> <p> <p>참고:9.0 이전 버전의 DIL을 사용하는 고객의 경우 <code> h_referer</code> 신호를 사용한 데이터 수집은 Safari 브라우저에서 작동하지 않습니다. ITP 2.0 <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> 이</a>도입되어 Safari 브라우저는 demdex.net 도메인을 추적기로 분류할 수 있으며 전체 URL이 아닌 원본을 포함하도록 데이터 수집 요청에서 레퍼러를 자를 자를 자를 자를 자를 자를 자를 자를 수도 있습니다. 최신 <a href="../../dil/dil-overview.md#get-implement-dil-code">DIL 버전에 대한 DIL 코드</a> 가져오기 및 구현을 참조하십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>데이터 수집 <span class="wintitle"> 서버를</span> 통해 개인 매개 변수를 전달할 수 있습니다. 기본적으로 <code> p_</code> 로 시작하는 모든 매개 변수는 특성 평가에 사용되지만 다운스트림으로 기록되거나 저장되지 않습니다. </p> <p>예:/event?p_age=23 <code> 및</code> YoungPeople = p_age &lt; <code> 25</code>와 같은 트레이트가 제공되지만 <code> p_age=23</code> 키-값 쌍은 요청 후 삭제되며 기록되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>데이터 수집 <span class="wintitle"> 서버를</span> 통해 개인 매개 변수를 전달할 수 있습니다. 기본적으로, 다음으로 시작하는 매개 변수는 특성 평가에 <code> p_</code> 사용되지만 다운스트림으로 기록되거나 저장되지 않습니다. </p> <p>예:이와 같은 트레이트가 <code> /event?p_age=23</code> 주어지면 <code> YoungPeople = p_age &lt; 25</code>트레이트가 실현되지만 <code> p_age=23</code> 키-값 쌍은 요청 후 삭제되며 기록되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [기본 정보 개요](../../features/traits/create-onboarded-rule-based-traits.md)
 >* [특성 규칙 관리](../../features/traits/manage-trait-rules.md#managing-trait-rules)

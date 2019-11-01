@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -53,31 +53,31 @@ source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ## Data Source Settings {#settings}
 
-이러한 설정에 따라 데이터 소스가 식별, 사용 및 공유되는 방식이 결정됩니다. You can also enable error reporting for inbound data files. 섹션을 완료하려면 [!UICONTROL Data Source Settings] 다음을 수행하십시오.
+이러한 설정에 따라 데이터 소스가 식별, 사용 및 공유되는 방식이 결정됩니다. 인바운드 데이터 파일에 대한 오류 보고를 활성화할 수도 있습니다. 섹션을 완료하려면 [!UICONTROL Data Source Settings] 다음을 수행하십시오.
 
 1. 데이터 소스에 옵션을 적용하려면 [!UICONTROL Data Source Setting] 확인란을 선택합니다.
 2. 클릭 **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
->* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
+>* [데이터 소스 설정 및 메뉴 옵션](../features/datasources-list-and-settings.md#settings-menu-options)
 
 
-## Delete a Data Source {#delete-data-source}
+## 데이터 소스 삭제 {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Delete a data source that you no longer need.
+더 이상 필요하지 않은 데이터 소스를 삭제합니다.
 
 >[!NOTE]
 >
->Please note the following restrictions:
+>다음 제한 사항을 참고하십시오.
 >
->* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md).
->* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the Core Service to unmap these data sources.[](https://marketing.adobe.com/resources/help/en_US/mcloud/)
+>* 활성 대상자 또는 데이터 [소스 동기화된 트레이트는 삭제할 수 없습니다](../features/traits/client-activity-synced-audience-traits.md).
+>* Adobe Analytics를 사용하는 고객의 경우:Audience Manager에서는 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. 코어 [서비스를](https://marketing.adobe.com/resources/help/en_US/mcloud/) 사용하여 이러한 데이터 소스를 매핑을 해제합니다.
 
 
 1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
 1. 하나 이상의 데이터 소스 옆의 확인란을 선택합니다.
-You can use the  box to locate the desired data sources if you have a long list.[!UICONTROL Search]
-1. Click  , then confirm the deletion.![](assets/icon_trash.png)
+긴 목록이 있는 경우 이 [!UICONTROL Search] 상자를 사용하여 원하는 데이터 소스를 찾을 수 있습니다.
+1. 을 ![](assets/icon_trash.png)클릭한 다음 삭제를 확인합니다.

@@ -7,20 +7,29 @@ title: 특성 세부 사항 페이지
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: ID 유형 분류, ID 분류, 고객 ID 보고
 translation-type: tm+mt
-source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # 특성 세부 사항 페이지 {#trait-details-page}
 
-개별 트레이트에 대한 세부 정보 페이지에서는 트레이트 이름, ID, 성능 지표, 트레이트를 정의하는 표현식, 트레이트 트레이트가 속한 세그먼트 및 트레이트 감사 로그와 같은 정보를 대략적으로 제공합니다. 이러한 세부 사항을 보려면, 로 [!UICONTROL Audience Data > Traits] 이동하여 작업할 트레이트의 이름을 클릭합니다.
+개별 트레이트에 대한 세부 사항 페이지에서는 트레이트 이름, ID, 성능 지표, 트레이트를 정의하는 표현식, 트레이트 속성이 속한 세그먼트 및 트레이트 감사 로그 등 트레이트 세부 사항에 대한 개요를 제공합니다. 이러한 세부 사항을 보려면 **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Traits]** 로 이동하여 작업할 트레이트의 이름을 클릭합니다.
 
-## 기본 정보 {#basics}
+## 트레이트 관리 도구 {#trait-management-tools}
 
-이 [!UICONTROL Basic Information] 섹션에는 트레이트를 작성할 때 수료한 필수 필드와 선택적 필드에 대한 세부 사항이 표시됩니다. 여기에는 트레이트 유형, 트레이트 ID, 설명, 데이터 소스 및 기타 메타데이터와 같은 것들이 포함됩니다. 이러한 세부 사항은 특성 유형(폴더, 온보드 또는 규칙 기반)에 따라 달라집니다.
+트레이트 세부 정보 페이지의 맨 위에는 트레이트를 관리하는 데 사용할 수 있는 도구가 호스트됩니다.
 
-![](assets/basicInfo.png)
+1. **[!UICONTROL Add New]**:이 옵션을 사용하여 새로운 규칙 기반, 알고리즘 또는 온보드 트레이트를 만듭니다.
+2. **[!UICONTROL Edit]**:이 옵션을 사용하여 현재 트레이트의 구성을 변경합니다.
+3. **[!UICONTROL Delete]**:이 옵션을 사용하여 Audience Manager 계정에서 현재 트레이트를 제거합니다.
+4. **[!UICONTROL Marketplace Recommendations]**:이 옵션을 사용하면 가입하지 않은 데이터 [!UICONTROL Audience Marketplace] 수수료로 현재 보고 있는 것과 유사한 트레이트를 찾을 수 있습니다. Marketplace [를](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) 탐색하고 유사한 트레이트를 찾는 방법은 데이터 구매자를 위한 Audience Marketplace를 참조하십시오.
+
+![기본 특성 정보](assets/basic-trait-information.png)
+
+## 특성 정보 {#basics}
+
+이 [!UICONTROL Trait Information] 섹션에는 트레이트를 작성할 때 수료한 필수 필드와 선택적 필드에 대한 세부 사항이 표시됩니다. 여기에는 트레이트 유형, 트레이트 ID, 설명, 데이터 소스 및 기타 메타데이터와 같은 것들이 포함됩니다. 이러한 세부 사항은 특성 유형(폴더, 온보드 또는 규칙 기반)에 따라 달라집니다.
 
 ## 트레이트 그래프 {#trait-graph}
 

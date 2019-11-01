@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 선언된 ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  <tbody> 
   <tr> 
    <td colname="col1"> <b>이벤트 호출</b> </td> 
-   <td colname="col2"> <p>작동하려면 페이지에 <span class="wintitle"> DIL </span> 및 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID 서비스 </a> 코드가 있어야 합니다. <span class="wintitle"> Experience Cloud ID 서비스에서 </span> 제공하는 <span class="wintitle"> set VisitorID </span> 함수에서 <code> 선언된 ID </code> 를 <span class="keyword"> </span> <span class="keyword"> </span>가져온 다음 해당 ID를 Audience Manager에 전달합니다. </p> </td> 
+   <td colname="col2"> <p>작동하려면 페이지에 <span class="wintitle"> DIL </span> 및 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID 서비스 </a> 코드가 있어야 합니다. <span class="wintitle"> DIL은 Experience Cloud ID 서비스에서 </span> 제공하는 <span class="wintitle"> 기능에서 선언된 ID를 </span> 받고 해당 ID를 Audience Manager에 <code> setVisitorID </code> <span class="keyword"> </span> <span class="keyword"> </span>전달합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>일치 ID</b> </td> 
@@ -82,15 +82,15 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  <tbody> 
   <tr> 
    <td colname="col1"> <p>데이터 공급자 ID 및 사용자 ID입니다. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인 이름</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>통합 코드 및 사용자 ID입니다. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인 이름</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다중 <code> d_cid </code> 및 <code> d_cid_ic </code> 키-값 쌍. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인 이름</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,16 +108,16 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_uuid </code> 만 </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인</i>/demoptout.jpg?d_uuid=AAM ID </code> </p> </td> 
+   <td colname="col1"> <p> <code> d_uuid </code>  </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid=AAM ID </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>파트너 수준 옵트아웃 </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= 사용자 ID&amp;d_dpid= 데이터 공급자 ID </code> </p> <p>파트너 수준 옵트아웃은 이 <code> dpid </code> + <code> dpuuid </code> 쌍을 AAM UUID로 최신 매핑하기 위해 저장됩니다. 이전에 기존 매핑이 없는 경우 Audience Manager는 요청에 쿠키에 AAM UUID가 포함되어 있는지 확인하고, 포함되어 있는 경우 이를 사용하여 옵트아웃을 저장합니다. 그렇지 않으면 Audience Manager가 새 AAM UUID를 생성하고 그 아래에 옵트아웃을 저장합니다. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>파트너 수준 옵트아웃은 이 <code> dpid </code> + <code> dpuuid </code> 쌍을 AAM UUID에 최신 매핑하기 위해 저장됩니다. 이전에 기존 매핑이 없는 경우 Audience Manager는 요청에 쿠키에 AAM UUID가 포함되어 있는지 확인하고, 포함되어 있는 경우 이를 사용하여 옵트아웃을 저장합니다. 그렇지 않으면 Audience Manager가 새 AAM UUID를 생성하고 그 아래에 옵트아웃을 저장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> 및 명시적 <code> d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인</i>/demoptout.jpg?d_uuid= 사용자 ID&amp;d_dpuuid= 데이터 공급자의 사용자 ID&amp;<i>d_dpid=데이터 공급자 ID</i></code> </p> <p> <code> d_uuid는 </code> 항상 우선합니다. dpid <code> + </code> dpuuid <code> 조합이 다른 AAM UUID에 매핑되면 옵트아웃은 요청에서 전달된 AAM UUID 아래에 저장됩니다( </code> d_uuid <code> </code>). </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> 항상 우선합니다. + <code> dpid </code> 조합이 다른 AAM UUID에 매핑되면 옵트아웃은 요청에서 전달된 AAM UUID 아래에 저장됩니다( <code> dpuuid </code> <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,12 +142,12 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid =<i>데이터 공급자 ID</i> %01<i>사용자 ID</i></code> </p> </td> 
-   <td colname="col2"> <p>단일 키-값 쌍에 데이터 공급자 ID와 연결된 고유한 사용자 ID가 들어 있습니다. <code> d_cid </code> 는 <code> d_dpid </code> 및 <code> d_dpuuid를 대신하며, 이 </code>기능은 더 이상 사용되지 않지만 여전히 지원됩니다. <a href="../reference/cid.md">CID가 DPID 및 DPUUID 대체</a>를 참조하십시오 . </p> </td> 
+   <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>단일 키-값 쌍에 데이터 공급자 ID와 연결된 고유한 사용자 ID가 들어 있습니다. <code> d_cid </code> 를 대체합니다. 이 <code> d_dpid </code> <code> d_dpuuid </code>은 더 이상 사용되지 않지만 여전히 지원됩니다. <a href="../reference/cid.md">CID가 DPID 및 DPUUID 대체</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid_ic=<i>통합 코드</i> %01<i>사용자 ID</i></code> </p> </td> 
-   <td colname="col2"> <p>단일 키-값 쌍에 통합 코드와 관련 고유 사용자 ID가 들어 있습니다. <code> d_cid_ic </code> 은 <code> d_dpid </code> 및 <code> </code>d_dpuuid를 대신하며, 이 기능은 더 이상 사용되지 않지만 여전히 지원됩니다. <a href="../reference/cid.md">CID가 DPID 및 DPUUID 대체</a>를 참조하십시오 . </p> </td> 
+   <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>단일 키-값 쌍에 통합 코드와 관련 고유 사용자 ID가 들어 있습니다. <code> d_cid_ic </code> 은 <code> d_dpid </code> 및 를 대체하며, <code> d_dpuuid </code>이 값은 더 이상 사용되지 않지만 여전히 지원됩니다. <a href="../reference/cid.md">CID가 DPID 및 DPUUID 대체</a>를 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,25 +166,20 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  <tbody> 
   <tr> 
    <td colname="col1"> <p>데이터 공급자 ID 및 사용자 ID입니다. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인 이름</i>/event?d_cid=123%01987... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>통합 코드 및 사용자 ID입니다. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인 이름</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>다중 <code> d_cid </code> 및 <code> d_cid_ic </code> 키-값 쌍. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>도메인 이름</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORELIKE_THIS]
->
->* [CID가 DPID 및 DPUUID 대체](../reference/cid.md)
-
-
-##  선언된 ID 변수 {#declared-id-variables}
+## 선언된 ID 변수 {#declared-id-variables}
 
 선언된 ID를 [!UICONTROL DIL][!DNL Audience Manager.]
 
@@ -285,3 +280,8 @@ myCallback({
 ## 타깃팅 및 옵트아웃 호출 안 함 {#do-not-target}
 
 이 [!UICONTROL declared ID] 프로세스는 웹 사이트별로 Audience Manager 타깃팅을 옵트아웃하기 위해 사이트 방문자 기본 설정을 적용합니다. Audience Manager가 옵트아웃 요청을 받으면 Audience Manager 사용자 ID 대신 빈 [!UICONTROL DCS] [!DNL JSON] 개체를 반환합니다.
+
+>[!MORELIKETHIS]
+>
+>* [CID가 DPID 및 DPUUID 대체](../reference/cid.md)
+

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 중복 및 일반 보고서에서 고유 사용자 수 계산
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -33,7 +33,7 @@ c_unique_user_counts.xml
 
 일반 보고서는 선택한 기간 동안 트레이트에 대한 자격을 갖춘 사이트 방문자를 고유하게 계산합니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [대화형 보고서](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [일반 보고서](../reporting/general-reports.md#general-reports-overview)

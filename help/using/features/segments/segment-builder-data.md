@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 빌더의 트레이트 및 세그먼트 모집단 데이터
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -93,7 +93,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## 기존(실제) 세그먼트 모집단 데이터 정의 {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] 실제 실시간 및 전체 인구 수에 영향을 줍니다. 이러한 합계는 세그먼트가 속한 [!UICONTROL Profile Merge Rule] 경우 장치 그래프 옵션을 사용하는지 여부에 따라 달라집니다. 프로필 병합 규칙 [옵션이 정의됨을 참조하십시오](../../features/profile-merge-rules/merge-rule-definitions.md).
+[!UICONTROL Profile Merge Rules] 실제 실시간 및 전체 인구 수에 영향을 줍니다. 이러한 합계는 세그먼트가 속한 [!UICONTROL Profile Merge Rule] 경우 장치 그래프 옵션을 사용하는지 여부에 따라 달라집니다. 프로필 병합 [규칙 옵션이 정의됨을 참조하십시오](../../features/profile-merge-rules/merge-rule-definitions.md).
 
 ### 장치 그래프 옵션이 없는 병합 규칙에 대한 세그먼트 모집단 데이터
 
@@ -153,7 +153,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 현재 세그먼트 크기 견적 도구는 프로필 병합 규칙을 고려하지 않으므로 알려진 제한이 있습니다. 예를 들어 인증된 프로필 없음 + **현재 장치 프로필**[병합 규칙이](../../features/profile-merge-rules/merge-rule-definitions.md)있는 세그먼트를 봅니다. 현재 세그먼트 추정 숫자를 계산하는 방법 때문에 예상 모집단에는 인증된 프로파일이 포함됩니다. 그러나 기존 세그먼트 모집단에서는 인증된 프로필을 올바로 무시합니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [프로필 병합 규칙 및 장치 그래프 FAQ](../../faq/faq-profile-merge.md)
 >* [프로필 링크](../../features/profile-merge-rules/merge-rules-overview.md)

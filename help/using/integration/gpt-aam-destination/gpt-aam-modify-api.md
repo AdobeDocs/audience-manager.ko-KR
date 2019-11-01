@@ -6,7 +6,7 @@ solution: Audience Manager
 title: GPT setTargeting API 호출 수정
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,22 +57,22 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>키-값 세그먼트 쌍의 키를 반환합니다. 예를 들어 키-값 쌍이 <code> color=blue </code>로 구성된 경우 <code> 색상이 </code>반환됩니다. </p> </td> 
+   <td colname="col3"> <p>키-값 세그먼트 쌍의 키를 반환합니다. 예를 들어, 키-값 쌍이 <code> color=blue </code>으로 구성된 경우 이 값이 <code> color </code>반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
    <td colname="col2"> <p>문자열 배열 </p> </td> 
-   <td colname="col3"> <p>배열에서 값을 반환합니다(예: <code> ["value1","value2"] </code>). </p> </td> 
+   <td colname="col3"> <p>배열의 값을 반환합니다(예: <code> ["value1","value2"] </code>.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Audience Manager 사용자 ID(예: 12345)를 <code> 반환합니다 </code>. </p> </td> 
+   <td colname="col3"> <p>Audience Manager 사용자 ID(예: <code> 12345 </code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [GPT 대상 만들기](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Google 게시자 태그의 Audience Manager 코드](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)

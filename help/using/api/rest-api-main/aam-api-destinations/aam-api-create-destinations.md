@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대상 만들기
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 ## 지원되는 대상 유형:URL 및 쿠키만
 
 사용 가능한 `POST` 메서드를 사용하여 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 만들 수 있습니다. 현재 이러한 [!UICONTROL server-to-server destinations] 방법으로 만들 수 [!DNL REST API] 없습니다. 그러나 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 [!UICONTROL server-to-server destinations] 만든 정보를 검색할 수 있습니다.
-
->[!MORELIKE_THIS]
->
->* [대상](../../../features/destinations/destinations.md)
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
-
 
 ## 비직렬 URL 대상 만들기 {#create-nonserial-dest}
 
@@ -80,11 +73,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "mappings":null
 } 
 ```
-
->[!MORELIKE_THIS]
->
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## 직렬화된 URL 대상 만들기 {#create-serial-url-dest}
 
@@ -141,11 +129,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "mappings":null 
 }
 ```
-
->[!MORELIKE_THIS]
->
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## 쿠키 대상 만들기:단일 키, 일련 번호가 없는 {#create-cookie-dest-single}
 
@@ -215,12 +198,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "uparamEnabled":false
 } 
 ```
-
->[!MORELIKE_THIS]
->
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
-
 
 ## 쿠키 대상 만들기:단일 키, 일련 번호 {#create-cookie-dest-single-serial}
 
@@ -292,12 +269,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "uparamEnabled":false
 }
 ```
-
->[!MORELIKE_THIS]
->
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
-
 
 ## 쿠키 대상 만들기:다중 키, 일련 번호가 없는 {#create-cookie-dest-multi}
 
@@ -435,8 +406,9 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 }
 ```
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
+>* [대상](../../../features/destinations/destinations.md)
 >* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 

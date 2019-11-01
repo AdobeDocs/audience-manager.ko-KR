@@ -7,7 +7,7 @@ title: 데이터 피드 구독 관리
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 * 대금 청구 및 지불 설명서를 검토합니다. 아래 관련 링크를 참조하십시오.
 
->[!MORELIKE_THIS]
->
->* [CPM 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [정액 요금 데이터 피드에 대한 대금 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [CPM 사용을 보고하는 방법](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
-
 ## 개인 데이터 피드 구독 {#subscript-private-data-feed}
 
 구매자는 개인 데이터 피드 및 플랜을 구독합니다 **[!UICONTROL Audience Marketplace > Marketplace]**.
@@ -76,12 +69,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
    * **[!UICONTROL Request approved]**:목록의 상태가 "액세스 권한 부여"로 변경되며 자동 알림을 받게 됩니다. [!UICONTROL Marketplace] 이 시점에서 피드에 가입할 수 있습니다. 자세한 [내용은 공개 데이터 피드](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) 가입을 참조하십시오.
    * **[!UICONTROL Request denied]**:피드의 목록에서 "요청됨" 텍스트가 제거됩니다. [!UICONTROL Marketplace] 다시 구독하거나 다른 피드를 선택할 수 있습니다.
-
->[!MORELIKE_THIS]
->
->* [공개 데이터 피드 구독](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [데이터 구매자를 위한 할인](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
-
 
 ## 구매자를 위한 데이터 피드 할인 {#buyer-discount}
 
@@ -139,11 +126,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ![](assets/buyer-discount.png)
 
->[!MORELIKE_THIS]
->
->* [The Marketplace:정보](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## 구독한 피드 데이터 찾기 {#find-subscribed-data-fee}
 
 데이터 피드에 대한 데이터(트레이트)는 고유한 특성 저장소 폴더에 나타납니다. 가입된 피드에서 트레이트를 보고 작업하려면 **[!UICONTROL Audience Data > Traits]** **[!UICONTROL 3rd-Party Data]** 폴더로 이동하여 확장합니다. 데이터 공급자의 이름을 딴 하위 폴더를 찾습니다. 여기에는 개별 데이터 피드의 이름을 따서 명명된 폴더와 피드에서 제공하는 트레이트가 포함됩니다.
@@ -151,11 +133,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORELIKE_THIS]
->
->* [공개 데이터 피드 구독](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
-
 
 ## 데이터 피드 구독 취소 {#unsubscribe}
 
@@ -290,11 +267,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
    * 을 **[!UICONTROL Cancel]** 클릭하여 변경하지 않고 페이지를 나갑니다.
    * 데이터 피드에 가입하려면 을 **[!UICONTROL Review & Subscribe]** 클릭합니다. 이 단추는 전환 [!UICONTROL Subscription] 전환으로 전환할 때까지 회색으로 [!UICONTROL On]표시됩니다. 공개 [데이터 피드 구독](#subscript-public-data-feed) 및 개인 데이터 피드 [가입을 참조하십시오](#subscript-private-data-feed).
 
->[!MORELIKE_THIS]
->
->* [The Marketplace:정보](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## 데이터 피드 사용 사례 이해 {#use-cases}
 
 데이터 구매자는 중복, 모델링 및 활성화 사용 사례를 위한 데이터를 구입할 수 있습니다. [!UICONTROL Audience Marketplace] 각 사용 사례는 특정 목적에 맞게 설계되었으며 데이터를 사용하여 수행할 수 있는 작업을 제한합니다. 이러한 사용 사례 설명을 통해 구매할 데이터 플랜 유형을 정확하게 결정할 수 있습니다.
@@ -317,3 +289,13 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 ### 활성화
 
 이 사용 사례에서는 데이터를 [대상으로](../../../features/destinations/destinations.md)보낼 수 있습니다. 에서 [!UICONTROL Audience Manager]대상은 타사 시스템(광고 서버, [!DNL DSP][!DNL DMP]교환 등)입니다. 데이터를 공유할 수 있습니다. 그러나 [!UICONTROL Activation] 사용 사례에서는 중복 보고서를 실행하거나 알고리즘 모델에서 데이터를 테스트할 수 없습니다.
+
+>[!MORELIKETHIS]
+>
+>* [CPM 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [정액 요금 데이터 피드에 대한 대금 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [CPM 사용을 보고하는 방법](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [공개 데이터 피드 구독](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [데이터 구매자를 위한 할인](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [The Marketplace:정보](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+

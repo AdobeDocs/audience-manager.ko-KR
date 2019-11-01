@@ -5,7 +5,7 @@ seo-title: 쿠키 대상에 대한 선택적 설정
 solution: Audience Manager
 title: 쿠키 대상에 대한 선택적 설정
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,13 +35,13 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
      </ul> </p> <p> 모든 도메인에 <span class="wintitle"> 쿠키를 설정하려면 쿠키 도메인</span> 필드를 비워 둡니다. 기본 설정입니다. </p> <p>특정 도메인 및 하위 도메인에서 쿠키를 설정하려면 </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">쿠키 도메인 필드에 도메인 이름을 <span class="wintitle"> 입력합니다</span> . </li> 
-      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">마침표로 도메인 이름을 시작합니다. 예: <code> .somedomain.com</code>. </li> 
+      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">마침표로 도메인 이름을 시작합니다. 예, <code> .somedomain.com</code>. </li> 
       <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>예</b> </p> </td> 
-   <td colname="col2"> <p>간단한 예로, sports.com이라는 가상 사이트가 있다고 가정해 봅시다. Sports.com에는 골프, 야구 및 축구를 위한 도메인이 있습니다. 모든 스포츠 도메인에서 쿠키를 설정하려면 아래와 같이 쿠키 도메인 <span class="wintitle"> 상자에</span> 쿠키를 입력합니다. </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>이렇게 하면 <span class="keyword"> Audience</span> Manager가 <code><i>something</i></code>.sports.com의 패턴이 포함된 모든 도메인에 쿠키를 설정하도록 지시합니다. 보다 복잡한 예는 아래를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>간단한 예로, sports.com이라는 가상 사이트가 있다고 가정해 봅시다. Sports.com에는 골프, 야구 및 축구를 위한 도메인이 있습니다. 모든 스포츠 도메인에서 쿠키를 설정하려면 아래와 같이 쿠키 도메인 <span class="wintitle"> 상자에</span> 쿠키를 입력합니다. </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>이렇게 하면 <span class="keyword"> Audience</span> Manager가 pattern.sports.com을 포함하는 모든 도메인에 쿠키를 설정하도록 <code><i>something</i></code>합니다. 보다 복잡한 예는 아래를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,6 +95,6 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 * **[!UICONTROL Only the selected domains]**:도메인 목록에서 선택한 도메인에 대한 쿠키만 반환합니다.
 * **[!UICONTROL All of our domains except the selected domains]**:선택한 도메인이 수신되지 않도록 [!DNL cookie]합니다. 다른 모든 도메인은 ID를 받을 수 [!DNL cookie]있습니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [쿠키 대상 만들기](../../features/destinations/create-cookie-destination.md)

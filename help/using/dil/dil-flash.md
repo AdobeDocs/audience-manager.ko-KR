@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 translation-type: tm+mt
-source-git-commit: 49fff90fa1330c59360e16f2a56e8fba7d4c43dc
+source-git-commit: d72460ee33be0bfffe56eff04286284b2e5f3918
 
 ---
 
@@ -95,11 +95,6 @@ r_flash_dil_data_collected.xml
 * `mediaAdParentPod` (광고가 재생되는 기본 컨텐츠 내의 창 또는 광고 브레이크)
 * `mediaAdParentPodPos` (광고가 재생되는 창 내의 숫자 위치입니다. 두 개 이상의 광고가 창 내에서 재생할 수 있습니다.
 
->[!MORELIKE_THIS]
->
->* [AppMeasurement Flash, Flex 및 OSMF 구현 안내서](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
-
-
 ## Audience Manager의 Flash DIL 데이터 {#flash-dil-data}
 
 이 [!UICONTROL Flash DIL] 모듈은 Adobe AppMeasurement 데이터를 Audience Manager 트레이트 및 미사용 신호로 변환합니다.
@@ -128,14 +123,6 @@ Analytics, [!UICONTROL Props][!UICONTROL eVars]및 이벤트는 Audience Manager
 
 Audience Manager는 해당 특성 [!UICONTROL Props]없이도 Analytics [!UICONTROL eVars]및 이벤트를 허용합니다. 이 경우, 데이터는 트레이트 생성에 사용할 수 없으며 대신 미사용 신호 [보고서에](../reporting/dynamic-reports/unused-signals.md) 나타납니다. 이 정보를 최대한 활용하려면 [!UICONTROL Flash DIL] 라이브러리에서 전달한 Analytics 데이터와 일치하는 Audience Manager 트레이트를 만드십시오.
 
->[!MORELIKE_THIS]
->
->* [트레이트](../features/traits/trait-details-page.md)
->* [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)
->* [키-값 쌍 설명](../reference/key-value-pairs-explained.md)
->* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
-
-
 ## Flash DIL ActionScript 라이브러리 {#flash-dil-actionscript}
 
 Analytics 데이터를 Audience Manager로 전송하는 [!DNL Flash] 개체에 대한 코드입니다.
@@ -152,8 +139,6 @@ r_flash_dil_actionscript.xml
    >
    >
 * Adobe [!UICONTROL AppMeasurement] [!DNL AS] 라이브러리 버전 3.5.2 이상이 필요합니다.
->
-
 
 
 ```js
@@ -166,4 +151,12 @@ d.partner = "<partner>";// Partner name
 d.containerNSID = <container NSID>; // Optional, defaults to 0 
 s.loadModule(d);
 ```
+
+>[!MORELIKETHIS]
+>
+>* [트레이트](../features/traits/trait-details-page.md)
+>* [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)
+>* [키-값 쌍 설명](../reference/key-value-pairs-explained.md)
+>* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
+>* [AppMeasurement Flash, Flex 및 OSMF 구현 안내서](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 

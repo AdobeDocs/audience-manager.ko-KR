@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 시간 설명
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 translation-type: tm+mt
-source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Audience Manager는 다음 공식을 [!DNL TTL] [!DNL TTL] 기준으로 1일로 
 
 픽셀의 [!DNL TTL] 세트는 타사에서 사용하는 다른 픽셀( [!DNL Audience Manager] [!DNL TTL][!DNL DSP]광고 네트워크 등)에 대해 설정된 픽셀과 독립적으로 작동합니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [특성 만료 간격 설정](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
 

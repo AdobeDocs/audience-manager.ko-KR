@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 링크 장치 그래프 사용 사례
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2dbcd3a
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Audience Manager는 세그먼트에 대해 프로필 병합에 참여한 모든 
 
 ![크로스 디바이스 개인화](assets/cross-device-personalization.png)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [외부 장치 그래프 사용 사례](external-graph-use-cases.md)
 >* [프로필 병합 규칙에 대한 일반 사용 사례](merge-rule-targeting-options.md)

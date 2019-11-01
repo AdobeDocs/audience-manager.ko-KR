@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 및 장치 분리 프로세스
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ![](assets/last-device-graph.png)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [프로필 병합 규칙 및 장치 그래프 FAQ](../../faq/faq-profile-merge.md)
 >* [즉각적인 장치 간 억제](instant-cross-device-suppression.md)

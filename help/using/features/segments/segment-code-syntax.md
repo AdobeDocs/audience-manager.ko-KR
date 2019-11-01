@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 표현식 편집기에서 사용되는 코드 구문
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -73,7 +73,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
  </tbody> 
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [최근 및 빈도](../../features/segments/recency-and-frequency.md)
 >* [트레이트 및 세그먼트 빌더의 부울 표현식](../../reference/boolean-expressions-tsb.md)

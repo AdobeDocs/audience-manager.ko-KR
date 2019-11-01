@@ -8,7 +8,7 @@ title: 알고리즘 모델 정보
 topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
 ## 문제 해결 {#troubleshooting}
 
 연속 3회 동안 데이터를 생성하지 못하는 알고리즘 모델을 비활성화합니다. 이후 모델의 상태를 다시 활성으로 설정할 수는 없습니다. 모델이 데이터를 생성할 수 있도록 데이터를 축적할 수 있는 충분한 트레이트가 있는 데이터 소스에서 모델을 구축하는 것이 좋습니다.
-
->[!MORELIKE_THIS]
->
->* [대상](../../features/destinations/destinations.md)
->* [트레이트](../../features/traits/trait-details-page.md)
->* [세그먼트](../../features/segments/segments-purpose.md)
-
 
 ## 특성 가중치 이해 {#understanding-traitweight}
 
@@ -210,3 +203,10 @@ Audience Manager에 가중치가 적용된 모델 결과가 표시됩니다 [!UI
   </tr>
  </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>* [대상](../../features/destinations/destinations.md)
+>* [트레이트](../../features/traits/trait-details-page.md)
+>* [세그먼트](../../features/segments/segments-purpose.md)
+

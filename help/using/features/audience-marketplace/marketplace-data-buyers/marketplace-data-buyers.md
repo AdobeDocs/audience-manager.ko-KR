@@ -7,7 +7,7 @@ title: 데이터 구매자를 위한 Audience Marketplace
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 ---
 
@@ -51,15 +51,15 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 * **[!UICONTROL Private Feeds]**:비공개 [데이터 피드를 참조하십시오](../../../features/audience-marketplace/marketplace-private-feeds.md).
 * **[!UICONTROL Currently Subscribed Plan Count]**:데이터 공급자에 대한 구독 수입니다.
 
+ 
+
 요구 사항에 가장 적합한 데이터 피드를 쉽게 찾으려면 [!UICONTROL Marketplace] 페이지 왼쪽에 있는 다음 필터를 사용하십시오.
 
 * **[!UICONTROL Similarity To]**:선택한 특성 또는 세그먼트와 유사성에 따라 데이터 피드를 필터링합니다. 비교할 트레이트 또는 세그먼트를 입력할 때 트레이트 또는 세그먼트 ID 또는 각각의 이름을 사용할 수 있습니다.
-* **[!UICONTROL Similarity Cutoff]**:슬라이더를 드래그하여 선택한 트레이트 또는 세그먼트와 비슷한 트레이트를 기준으로 데이터 피드를 필터링합니다.
+* **[!UICONTROL Similarity Cutoff]**:슬라이더를 드래그하여 선택한 트레이트 또는 세그먼트와 비슷한 트레이트를 기준으로 데이터 피드를 필터링합니다. 트레이트 유사성 점수에 대한 자세한 내용은 트레이트 유사성 [점수를 참조하십시오](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**:구독 상태를 기반으로 데이터 피드를 필터링합니다.
 * **[!UICONTROL Plan Use Case]**:지원되는 사용 사례를 기반으로 데이터 피드 필터링: **[!UICONTROL Activation]**&#x200B;및 **[!UICONTROL Segments and Overlap]**&#x200B;를 **[!UICONTROL Modelling]**&#x200B;참조하십시오.
 * **[!UICONTROL Plan Unit]**:가격 유형에 따라 데이터 피드를 필터링합니다.
-
-이러한 필터를 사용하는 방법에 대한 개요는 아래 비디오를 참조하십시오.
 
 ## 유사한 트레이트 찾기 {#finding-similar-traits}
 
@@ -81,7 +81,6 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 유사한 트레이트를 찾는 방법에 대한 전체 개요를 보려면 아래 비디오를 시청하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=kor)
-
 
 ## 비공개 데이터 피드 {#private-data-feeds}
 

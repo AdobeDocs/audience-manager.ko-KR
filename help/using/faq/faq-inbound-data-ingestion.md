@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 인바운드 고객 데이터 통합 FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -268,7 +268,7 @@ Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 DPID를 
 
 상황에 따라 다릅니다. [!DNL Audience Manager] 큐에서 최대 11,9000개의 항목을 읽고 최대 3개의 배치로 분할합니다. [!DNL Amazon SQS] 파일이 동일한 배치로 끝나는 경우에만 동시에 처리됩니다. 그러나 [!DNL Audience Manager] 매일 수집되는 데이터의 양이 많기 때문에 파일 처리 순서를 보장할 수 없습니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [배치 데이터 전송 프로세스 설명](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 

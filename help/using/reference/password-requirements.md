@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 암호 요구 사항, 잠긴 계정 및 잊어버린 암호
 uuid: bca892eb-3577-4382-8110-131f78d23069
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,7 +74,7 @@ c_password_requirements.xml
 
 로그인 페이지에서 **[!UICONTROL Forgot password]** 링크를 클릭하여 암호를 재설정합니다. 24시간 후에 만료되는 임시 암호가 포함된 자동 이메일을 수신하게 됩니다. 이메일의 링크를 클릭하여 계정에 액세스하고 암호를 재설정합니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 보안](../overview/data-security-and-privacy/data-security.md)
 >* [데이터 보안](../overview/data-security-and-privacy/data-privacy.md)

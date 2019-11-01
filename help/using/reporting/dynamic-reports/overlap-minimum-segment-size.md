@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 중복 보고서 업데이트 일정 및 최소 세그먼트 크기
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [특성-특성 중복 보고서](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
 >* [세그먼트-특성 중복 보고서](../../reporting/dynamic-reports/segment-trait-overlap-report.md)

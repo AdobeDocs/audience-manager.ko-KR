@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 인바운드 데이터 전송에 대한 ID 동기화
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -48,24 +48,24 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> &lt; <i>VENDOR_ID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
    <td colname="col2"> <p>컨텐츠 제공자에 대한 고유 ID(Audience Manager에서 <span class="keyword"> 지정</span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> &lt; <i>VENDOR_UUID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
    <td colname="col2"> <p>URL(퍼센트) 고유 사용자 ID의 인코딩된 표현. 인코딩 예약된 ASCII 문자 외에도 ASCII가 아닌 모든 문자는 UTF-8 문자 인코딩 표에 따라 퍼센트 인코딩되어야 합니다. </p> <p>자세한 내용은 URL Encode/ <a href="https://www.url-encode-decode.com" format="http" scope="external"> Decode Online 웹 사이트를</a> 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> &lt; <i>REDIRECT_URL&gt;</i></code> </td> 
-   <td colname="col2"> <p>매크로 ${DD_UUID} <code> 가 포함된 인코딩 URL</code> 리디렉션이 포함되어 있습니다. </p> <p>참고: 컨텐츠 공급자가 호출을 시작할 때만 추가되었습니다. </p> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
+   <td colname="col2"> <p>매크로가 포함된 URL 리디렉션을 <code> ${DD_UUID}</code> 포함합니다. </p> <p>참고: 컨텐츠 공급자가 호출을 시작할 때만 추가되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i></code> </td> 
-   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code> gdpr은</code> 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다. </p> <p> <b></b> 참고:이 매개 변수는 <code>gdpr_consent</code>와 함께 사용할 수 있습니다.</p></td> 
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code> gdpr</code> 은 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다. </p> <p> <b></b> 참고:이 매개 변수는 함께 사용할 수만 <code>gdpr_consent</code>있습니다.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i></code> </td> 
-   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64 encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b></b> 참고:이 매개 변수는 <code>gdpr과 함께 사용할 수 있습니다</code>.</p> </td> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code>gdpr_consent</code> 는 URL-safe base64 인코딩된 GDPR 동의 문자열입니다(IAB 사양 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> 참조</a>). </p> <p> <b></b> 참고:이 매개 변수는 함께 사용할 수만 <code>gdpr</code>있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 이메일 이미지를 통해 일치하는 ID에 대한 형식은 위와 동일합니다. 그러나 이메일의 이미지는 활성화되어야 사용할 수 있습니다. 대부분의 메일 시스템은 기본적으로 이미지를 비활성화하므로 이 경우 이메일을 통한 ID 동기화에 영향을 줄 수 있습니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 수집 구성 요소](../../../reference/system-components/components-data-collection.md)
 

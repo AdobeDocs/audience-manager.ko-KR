@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙에 대한 일반 사용 사례
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -112,7 +112,7 @@ Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병
 
 >[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=kor)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md)
 >* [외부 장치 그래프 사용 사례](external-graph-use-cases.md)

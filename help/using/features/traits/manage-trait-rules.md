@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 특성 규칙 관리
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,13 +61,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ![](assets/tb_sample_rule2.png)
 
->[!MORELIKE_THIS]
->
->* [새 규칙 그룹 만들기](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [그룹 간 규칙 이동](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [특성 규칙 삭제](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## Create a New Rule Group {#create-rule-group}
 
 이 절차에서는 새 규칙 그룹을 만드는 방법에 대해 설명합니다.
@@ -84,23 +77,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    >의도치 않게 규칙을 이동하면 규칙을 원래 그룹으로 다시 드래그합니다.
 1. 드롭다운 메뉴에서 [!DNL Boolean] 연산자(, [!UICONTROL AND][!UICONTROL OR], [!UICONTROL AND NOT])를 선택하여 규칙 그룹 간의 관계를 설정합니다.
 
->[!MORELIKE_THIS]
->
->* [트레이트 규칙 만들기](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [그룹 간 규칙 이동](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [특성 규칙 삭제](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## 그룹 간 규칙 이동 {#move-rules-between-groups}
 
 규칙을 이동하려면 을 클릭하고 다른 그룹으로 드래그합니다.
-
->[!MORELIKE_THIS]
->
->* [트레이트 규칙 만들기](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [새 규칙 그룹 만들기](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [특성 규칙 삭제](../../features/traits/manage-trait-rules.md#delete-trait)
-
 
 ## 특성 편집 {#edit-trait}
 
@@ -122,3 +101,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 1. 대시보드에서 편집할 트레이트에 대한 [!UICONTROL Traits] [!UICONTROL Actions] 열 위에 마우스를 놓고 연필 아이콘을 클릭합니다. 그러면 트레이트 관리 아이콘이 표시됩니다.
 1. Expand the [!UICONTROL Trait Expression] section.
 1. 삭제할 규칙 위로 마우스를 가져간 후 X 아이콘을 클릭합니다. 규칙은 즉시 삭제됩니다.
+
+>[!MORELIKETHIS]
+>
+>* [새 규칙 그룹 만들기](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [그룹 간 규칙 이동](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [트레이트 규칙 만들기](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [특성 규칙 삭제](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [그룹 간 규칙 이동](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+

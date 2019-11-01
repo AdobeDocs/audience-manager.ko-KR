@@ -1,14 +1,14 @@
 ---
 description: 모델 빌더에서 알고리즘 모델을 만들 수 있는 필수 단계와 선택 단계에 대해 설명합니다.
 keywords: 사용 방법
-seo-description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+seo-description: 모델 빌더에서 알고리즘 모델을 만들 수 있는 필수 단계와 선택 단계에 대해 설명합니다.
 seo-title: 알고리즘 모델 만들기
 solution: Audience Manager
 title: 알고리즘 모델 만들기
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -23,25 +23,25 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ### 모델 빌더 섹션
 
-[!UICONTROL Model Builder] 은 [!UICONTROL Basic Information] 및 [!UICONTROL Configuration] 섹션으로 구성됩니다. 모델을 만들려면 이 두 섹션에서 필요한 필드를 완성합니다. Save your model to start the algorithm. [!DNL Audience Manager] sends you an automated notification after the first data run completes. After you receive the email, you can go to Trait Builder and create algorithmic traits.[](../../features/traits/about-trait-builder.md)
+[!UICONTROL Model Builder] 은 [!UICONTROL Basic Information] 및 [!UICONTROL Configuration] 섹션으로 구성됩니다. 모델을 만들려면 이 두 섹션에서 필요한 필드를 완성합니다. 모델을 저장하여 알고리즘을 시작합니다. [!DNL Audience Manager] 첫 번째 데이터 실행이 완료된 후 자동으로 알림을 보냅니다. 이메일을 받은 후 트레이트 빌더로 이동하여 [알고리즘 트레이트를](../../features/traits/about-trait-builder.md) 만들 수 있습니다.
 
 >[!NOTE]
 >
->* The modeling process runs only once if you create a model and do not build any traits with it.
->* Build models from data sources that contain a meaningful amount of information. Models with insufficient data will run, but they will not return results.
->* *Do not* create models with other algorithmic traits or segments.
->* The automated email notification is sent one time only (after the first data run).
+>* 모델링 프로세스는 모델을 만들고 해당 모델로 트레이트를 만들지 않는 경우에만 실행됩니다.
+>* 의미 있는 양의 정보가 포함된 데이터 소스를 기반으로 모델을 구축할 수 있습니다. 데이터가 부족한 모델은 실행되지만 결과를 반환하지 않습니다.
+>* *다른 알고리즘 특성이나 세그먼트로 모델을 만들지 마십시오* .
+>* 자동 이메일 알림은 첫 번째 데이터 실행 후 한 번만 전송됩니다.
 
 
-### Build the Model
+### 모델 작성
 
-To build a model, go to the  section and click  and follow the steps below:[!UICONTROL Models]**[!UICONTROL Add New]**
+모델을 빌드하려면 [!UICONTROL Models] 섹션으로 이동하여 **[!UICONTROL Add New]** 아래 단계를 따르십시오.
 
-1. In the Basic Information section[](../../features/algorithmic-models/create-model.md#basic-information)
-   * Name the model.
+1. 기본 [정보](../../features/algorithmic-models/create-model.md#basic-information) 섹션에서
+   * 모델의 이름을 지정합니다.
    * *(선택 사항)* 모델에 대한 간단한 설명을 제공합니다.
    * 모델의 상태를 **[!UICONTROL Active]** 또는 으로 **[!UICONTROL Inactive]**&#x200B;설정합니다. 비활성 모델은 실행되지 않으며 데이터를 생성하지 않습니다.
-1. In the Configuration section:[](../../features/algorithmic-models/create-model.md#configuration)
+1. 구성 [섹션에서](../../features/algorithmic-models/create-model.md#configuration) 다음을 수행합니다.
    * 를 **[!UICONTROL Browse All Traits]** 클릭하거나 **[!UICONTROL Browse All Segments]** 클릭하여 모델링할 트레이트 또는 세그먼트를 선택합니다.  온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다.
    * 30, 60 또는 90일 룩백 기간을 선택합니다. 그러면 모델의 시간 범위가 설정됩니다.
    * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택됩니다.
@@ -58,7 +58,7 @@ To build a model, go to the  section and click  and follow the steps below:[!UIC
 |---|---|
 | **[!UICONTROL Name]** | 기능이나 목적을 설명하는 짧고 논리적인 이름을 모델에 지정합니다. 약자, 특수 문자 및 강조 표시를 사용하지 마십시오. |
 | **[!UICONTROL Description]** | 모델에 대한 추가 설명 정보를 위한 필드입니다. |
-| **[!UICONTROL Status]** | Activates or deactivates the model (active by default). |
+| **[!UICONTROL Status]** | 모델을 활성화 또는 비활성화합니다(기본적으로 활성). |
 
 ## 구성 {#configuration}
 
@@ -68,7 +68,7 @@ To build a model, go to the  section and click  and follow the steps below:[!UIC
 
 ### 전제 조건
 
-Complete the required fields in the  section first.[!UICONTROL Basic Information]
+먼저 [!UICONTROL Basic Information] 섹션의 필수 필드를 완료합니다.
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -82,7 +82,7 @@ Complete the required fields in the  section first.[!UICONTROL Basic Information
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>기준 요소 트레이트 또는 세그먼트 선택(1)</b> </p> </td> 
-   <td colname="col2"> <p>트레이트 또는 세그먼트 단추를 클릭하여 모든 트레이트 또는 세그먼트 목록을 봅니다. 선택한 세그먼트나 트레이트는 시스템 알고리즘이 모델링에 사용하는 기준이 됩니다. </p> <p> <p><b>참고</b>:온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p>트레이트 또는 세그먼트 단추를 클릭하여 모든 트레이트 또는 세그먼트 목록을 봅니다. 선택한 세그먼트나 트레이트는 시스템 알고리즘이 모델링에 사용하는 기준이 됩니다. </p> <p> <p><b>참고</b>: 온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>뒤로 보기 기간 선택(2)</b> </p> </td> 
@@ -90,15 +90,15 @@ Complete the required fields in the  section first.[!UICONTROL Basic Information
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>알고리즘 선택(3)</b> </p> </td> 
-   <td colname="col2"> <p>At this time, Model Builder works with our proprietary  Trait Weight algorithm only. <span class="keyword"></span> <span class="keyword"> Audience Manager may add other algorithmic functions in subsequent releases.</span> </p> </td>
+   <td colname="col2"> <p>현재 Model Builder는 독점적인 특성 가중치 <span class="keyword"> 알고리즘에서만</span> 작동합니다. <span class="keyword"> Audience</span> Manager는 이후 릴리스에 다른 알고리즘 기능을 추가할 수 있습니다. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><b>Select Model Data from Data Source (4)</b> </p> </td> 
-   <td colname="col2"> <p>Lets you select the first and third-party data sources you want to use in the model. </p> </td>
+   <td colname="col1"> <p><b>데이터 소스에서 모델 데이터 선택(4)</b> </p> </td> 
+   <td colname="col2"> <p>모델에서 사용할 첫 번째 및 타사 데이터 소스를 선택할 수 있습니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>제외(5)</b> </p> </td> 
-   <td colname="col2"> <p>You can exclude traits from the data sources you selected for modeling. Use the  Exclusions list and read  Algorithmic Models: Trait Exclusion to learn more.<span class="wintitle"></span><a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"></a> </p> </td>
+   <td colname="col2"> <p>모델링을 위해 선택한 데이터 소스에서 트레이트를 제외할 수 있습니다. 제외 <span class="wintitle"> 목록을 사용하고 알고리즘 모델을</span> <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> 읽습니다.트레이트 제외를</a> 참조하십시오. </p> </td>
   </tr> 
  </tbody>
 </table>
@@ -107,7 +107,7 @@ Complete the required fields in the  section first.[!UICONTROL Basic Information
 
 >[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=kor)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [특성 가중치 이해](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
 

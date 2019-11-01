@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 규칙 기반 트레이트 또는 온보드 트레이트 만들기
 uuid: 4243e09f-1f96-44 파섹
 translation-type: tm+mt
-source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,10 +87,11 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 ### 트레이트의 TTL 설정
 
 1. 섹션을 [!UICONTROL Advanced Options] 확장하고 숫자를 입력하여 트레이트에 대한 [!DNL TTL] 값을 설정합니다.
-2. 클릭 **[!UICONTROL Save]**.
+1. 클릭 **[!UICONTROL Save]**.
+
    ![](assets/TTL.png)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [세그먼트 시간 설명](../../features/traits/segment-ttl-explained.md)
 

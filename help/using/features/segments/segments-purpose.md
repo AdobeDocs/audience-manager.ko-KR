@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 목적, 구성 및 규칙
 uuid: 886d4abe-b1b6-4983-b4fb-b552d51ba
 translation-type: tm+mt
-source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Analytics 세그먼트 또는 보고서 세트를 Experience Cloud 조직�
 * 세그먼트 데이터를 대상 파트너로 보냅니다.
 * Audience Manager 보고서를 사용하여 성능 모니터링
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [신호, 트레이트 및 세그먼트](../../reference/signal-trait-segment.md)
 

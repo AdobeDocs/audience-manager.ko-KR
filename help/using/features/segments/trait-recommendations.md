@@ -6,22 +6,22 @@ solution: Audience Manager
 title: 트레이트 권장 사항
 uuid: null
 translation-type: tm+mt
-source-git-commit: a67998b925002438b20fdde81f1abec4acbd5602
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # 트레이트 권장 사항
 
-세그먼트를 만들 때 라이브 트레이트 추천을 얻을 수 있습니다.
+자사 트레이트 및 [!UICONTROL Audience Marketplace] 데이터 피드에서 세그먼트를 만들 때 라이브 트레이트 추천을 얻을 수 있습니다.
 
 ## 비디오 데모
 
-먼저 아래 [!UICONTROL Trait Recommendations] 비디오를 시청한 다음 자세한 내용을 읽어 보십시오.
+먼저 아래 [!UICONTROL Trait Recommendations] 비디오를 시청한 다음 자세한 내용을 읽어 보십시오. 비디오 데모에서는 자사 트레이트의 권장 사항과 이미 구독한 [!UICONTROL Audience Marketplace] 데이터 피드의 트레이트 권장 사항을 사용하여 작업하는 방법을 *보여 줍니다*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=kor)
 
-다음 비디오에서는 데이터 피드에서 세그먼트에 트레이트 권장 사항을 추가하는 [!UICONTROL Marketplace Recommendations]방법을 보여 주는 에 대한 워크플로우에 대해 간략하게 설명합니다 [!UICONTROL Audience Marketplace].
+다음 비디오에서는 데이터 피드의 권장 사항을 기반으로 세그먼트에 트레이트를 추가하는 방법을 보여 주는 [!UICONTROL Marketplace Recommendations]다음 의 워크플로우에 대해 개요를 [!UICONTROL Audience Marketplace]설명합니다. 이러한 권장 사항은 *구독하지*&#x200B;않은 데이터 피드를 기반으로 합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=kor)
 
@@ -32,13 +32,13 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 
 Audience Manager는 퍼스트 파티 트레이트, **[!UICONTROL Recommendations]** 섹션 및 **[!UICONTROL Audience Marketplace]**&#x200B;섹션에서 트레이트 추천을 **[!UICONTROL Recommendations from Marketplace]** 표시합니다.
 
-![특성 권장 사항 개요](assets/trait-recommendations-overview-full.png)
-
 세그먼트에 권장 트레이트를 추가하여 타겟 대상자를 늘리십시오.
+
+![특성 권장 사항 개요](assets/trait-recommendations-overview-full.png)
 
 **간단히 말해:**
 
-* Audience Manager는 [!UICONTROL Recommendations] 섹션에 자사 트레이트를 표시합니다. 구독하지 않은 공개 및 비공개 피드의 마켓플레이스 권장 사항이 [!UICONTROL Recommendations from Marketplace] 섹션에 표시됩니다.
+* Audience Manager는 [!UICONTROL Recommendations] 섹션에 자사 트레이트를 표시합니다. 구독하지 않은 공개 및 비공개 피드의 마켓플레이스 권장 사항이 [!UICONTROL Recommendations from Marketplace] 섹션에 표시됩니다. 피드 이름을 클릭하여 이동하여 [!UICONTROL Audience Marketplace] 구독합니다.
 * Audience Manager는 세그먼트 규칙의 트레이트와 유사한 최대 50개의 트레이트를 표시합니다.
 * 권장 사항을 표시하지 않을 데이터 소스를 필터링할 수 있습니다.
 * 유사성을 계산할 때 Audience Manager는 [지난](../../reference/ids-in-aam.md) 30일 동안 트레이트에 자격을 갖춘 UUID를 고려합니다.
@@ -50,6 +50,8 @@ Audience [!UICONTROL Trait Recommendations]Manager 사용 방법에 따라 워�
 
 * 마케터는 유사한 트레이트를 활용하여 보완 제품에 관심 있는 고객을 신속하게 찾을 수 있으므로 도달 범위를 확대할 수 있습니다.
 * 게시자로 Audience Manager를 사용하는 경우 [!UICONTROL Trait Recommendations]고객 행동을 파악하고 광고 영업 또는 사용자 확보를 위한 더 나은 세그먼트를 만들 수 있습니다.
+* 데이터 구매자인 [!UICONTROL Audience Marketplace] 저는 많은 양의 피드를 검색하지 않고도 관련 타사 데이터를 발견하고 싶습니다.
+* 데이터 제공업체로서 최적의 [!UICONTROL Audience Marketplace] 연관성 있는 구독을 이용할 수 있도록 관련 데이터를 구매자에게 추천하고 싶습니다.
 
 ## 특성 권장 사항과 알고리즘 모델 간의 차이점
 
@@ -79,7 +81,7 @@ Audience [!UICONTROL Trait Recommendations]Manager 사용 방법에 따라 워�
 
 1. 대상 **데이터 &gt; 세그먼트로**&#x200B;이동하고 새로 **추가를 클릭합니다**.
 2. 트레이트 **드롭다운** 상자에서 세그먼트 규칙에 트레이트를 하나 이상 추가합니다.
-3. 섹션에서 퍼스트 파티 권장 트레이트를 볼 수 **[!UICONTROL Recommendations]** 있으며 **[!UICONTROL Recommendations from Marketplace]** 섹션에서 서드 파티 권장 트레이트를 볼 수 있습니다. 이러한 권장 사항은 모두 세그먼트 규칙에 추가한 트레이트와 유사합니다. 아래로 스크롤하여 모든 권장 트레이트를 확인합니다.
+3. 구독한 피드에서 퍼스트 파티 권장 트레이트 및 트레이트 권장 사항을 [!UICONTROL Audience Marketplace] **[!UICONTROL Recommendations]** 섹션에서 볼 수 있습니다. 이 **[!UICONTROL Recommendations from Marketplace]** 섹션에는 가입하지 않은 피드에서 트레이트 권장 사항이 표시됩니다. 이러한 권장 사항은 모두 세그먼트 규칙에 추가한 트레이트와 유사합니다. 아래로 스크롤하여 모든 권장 트레이트를 확인합니다.
 4. (선택 사항) 특정 데이터 소스에서 권장 자사 트레이트를 제외하려면 제외할 데이터 **소스에** 대해 X 기호를 클릭합니다.
    > [!NOTE]
    >
@@ -134,7 +136,7 @@ Audience [!UICONTROL Trait Recommendations]Manager 사용 방법에 따라 워�
 
 특성 권장 사항을 만들기 위해 Audience Manager는 [타겟 트레이트와](https://en.wikipedia.org/wiki/Jaccard_index) 계정에 액세스할 수 있는 다른 모든 트레이트 간 Java 유사성을 계산합니다(타사 데이터 포함). 그러면 Audience Manager는 가장 유사성이 높은 트레이트를 최대 50개까지 표시합니다.
 
-## 트레이트 유사성 점수
+## 트레이트 유사성 점수 {#trait-similarity-score}
 
 Audience Manager는 두 트레이트 [!UICONTROL Trait Similarity Score] 간의 수를 기준으로 교차 및 합집합을 [!UICONTROL UUID]계산한 다음 두 트레이트를 나눕니다. 두 트레이트 A와 B의 경우 계산은 다음과 같습니다.
 
@@ -151,7 +153,7 @@ Audience Manager는 두 트레이트 [!UICONTROL Trait Similarity Score] 간의 
 
 ### 예 2 - 트레이트 유사성 점수
 
-동일한 트레이트 A와 B에 [!UICONTRL ]400,000개의 UUID가 있다면, 이는 [!UICONTROL Trait Similarity Score] 훨씬 더 높습니다.400,000 / 1,600,000 = 0.25
+동일한 트레이트 A와 B가 두 트레이트의 [!UICONTROL UUID]자격을 400,000개 가지면 [!UICONTROL Trait Similarity Score] 훨씬 더 높습니다.400,000 / 1,600,000 = 0.25
 
 ![trait-recommendations-high-overlap](assets/Trait-Recommendations-High-overlap.png)
 
@@ -168,7 +170,13 @@ Audience Manager는 두 트레이트 [!UICONTROL Trait Similarity Score] 간의 
 
 ## 역할 기반 액세스 제어(RBAC)
 
-( [!UICONTROL Role-Based Access Controls][!UICONTROL RBAC])를 사용하는 회사의 경우 권장 트레이트를 보려면 세그먼트를 만들고 편집할 권한이 있어야 합니다. 또한 권장 트레이트는 액세스 권한이 있는 데이터 소스의 트레이트일 [!UICONTROL RBAC]뿐입니다. 컨트롤에 대한 자세한 내용을 [!UICONTROL RBAC] 살펴보십시오 [](../administration/administration-overview.md).
+( [!UICONTROL Role-Based Access Controls][!UICONTROL RBAC])를 사용하는 회사의 경우 권장 트레이트를 보려면 세그먼트를 만들고 편집할 권한이 있어야 합니다. 표시되는 트레이트 권장 사항은 액세스 권한이 있는 데이터 소스의 트레이트 권장 사항일 [!UICONTROL RBAC]뿐입니다.
+
+> [!IMPORTANT]
+>
+> 세그먼트에 [!UICONTROL Marketplace Recommendations] 추가하려면 먼저 해당 데이터 피드에 가입해야 합니다. 관리자 권한이 있는 사용자만 [!UICONTROL Audience Marketplace] 데이터 피드에 가입할 수 있습니다.
+
+컨트롤에 대한 자세한 내용을 [!UICONTROL RBAC] 살펴보십시오 [](../administration/administration-overview.md).
 
 ## 제한
 

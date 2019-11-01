@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,11 +54,6 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 * **[!UICONTROL Data retention for inactive Customer IDs]**:이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 유지 기간을 설정할 수 있습니다. Audience Manager 플랫폼에서 고객 ID가 마지막으로 표시된 후 Audience Manager가 데이터베이스에 고객 ID를 유지하는 시간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소 값은 1개월이고 최대 값은 5년입니다. 모든 달은 30일로 계산합니다. Audience Manager는 비활성 고객 ID에 대해 설정한 데이터 유지에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
 이러한 설정과 연결된 텍스트 필드를 사용하면 프로필 병합 규칙 옵션에 [!UICONTROL Data Source] 나타나는 별칭으로 이름을 변경할 [수 있습니다](merge-rule-definitions.md). 예를 들어 별칭을 추가할 경우 **[!UICONTROL Use as Authenticated Profile]**&#x200B;해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. 별칭을 추가할 경우 **[!UICONTROL Use as a Device Graph]**&#x200B;해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
-
->[!MORELIKE_THIS]
->
->* [데이터 소스 만들기](../manage-datasources.md#create-data-source)
-
 
 ## 프로필 병합 규칙 만들기 {#create-profile-merge-rule}
 
@@ -214,3 +209,8 @@ DIL.create({
 </table>
 
 Android용 [Audience Manager 메서드 및 iOS용](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) Audience [Manager 메서드를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+
+>[!MORELIKETHIS]
+>
+>* [데이터 소스 만들기](../manage-datasources.md#create-data-source)
+

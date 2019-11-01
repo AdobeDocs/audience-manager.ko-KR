@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 트레이트 및 세그먼트 빌더의 부울 표현식
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -76,7 +76,7 @@ c_tb_boolean.xml
 
 이 [!UICONTROL AND NOT] 연산자는 *포함이* 아닌 *제외로*&#x200B;대상을 쉽게 정의할 때 유용합니다. 예를 들어 판매를 하고 있으며 방문자를 전체 가격 항목만을 보는 고객으로 분류하려는 경우 적격한 모든 정가 또는 판매 가격의 항목에 대한 신호 목록을 만드는 대신, 방문자가 판매 가격 항목을 보지 *않은* 경우 자격을 얻는 것이 더 쉽습니다. 정식 가격에 비해 일반적으로 판매 가격 항목이 적기 때문에 이 방법은 행정적으로 효율적입니다. 부울을 사용하는 [!UICONTROL NOT]경우 방문자는 정식 가격의 대상 멤버십을 이용할 수 있도록 판매 신호를 *표시해서는* 안됩니다. 반면, [!UICONTROL AND NOT] 는 대상자 멤버십이 포함에 의해 결정되는 방식을 보여주는 [!UICONTROL AND] 사용 사례와 반대되는 개념입니다(즉, 2개의 명시적 신호를 기반으로 자격이 있는 방문자).
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [TraitBuilder에서 비교 연산자를 사용한 작업](../features/traits/trait-comparison-operators.md)
 >* [TraitBuilder 표현식의 작업 순서](../features/traits/trait-operator-precedence.md)

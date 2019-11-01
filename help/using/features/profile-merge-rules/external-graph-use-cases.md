@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 외부 장치 그래프 사용 사례
 uuid: f4bc822d-3 파섹
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -123,7 +123,7 @@ John은 데이터 플랜 A에서 자신의 iPhone 7을 사용하여 Acme Inc. �
 
 ![고급 그래프 확장](assets/advanced-device-graph-expansion.png)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md)
 >* [프로필 병합 규칙에 대한 일반 사용 사례](merge-rule-targeting-options.md)

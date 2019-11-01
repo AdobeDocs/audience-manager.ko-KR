@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -58,7 +58,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
    <td colname="col2"> <p>사업부의 데이터 소스 ID 또는 통합 코드 </p> <p>대상 최적화 <span class="wintitle"> 보고서에 </span> 필요합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_bostd </code> </p> </td> 
+   <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
    <td colname="col2"> <p>캐시 업데이트 값입니다. <span class="keyword"> Audience Manager는 대부분의 브라우저와 프록시에서 부여한 캐시 제어 헤더를 </span> 자동으로 전송합니다. 추가 캐시 빌드를 수행하려면 이벤트 호출에 이 매개 변수를 포함시키고 임의의 문자열을 포함하십시오. </p> <p> 선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -67,10 +67,10 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>이 컨텍스트에서 <code> d_cid는 모바일 장치 유형을 고유 사용자 ID(DPUUID)에 연결할 수 있도록 해주는 키-값 쌍을 </code> 인스턴스화합니다. 고정 ID가 모바일 장치 유형을 결정합니다. 사용자 ID인 값은 달라질 수 있습니다. 키-값 쌍을 <code> %01 </code>(인쇄되지 않는 컨트롤 문자)으로 구분합니다. 이 매개 변수는 다음 키를 사용합니다. </p> 
+   <td colname="col2"> <p>이 컨텍스트에서 모바일 장치 유형을 고유 사용자 ID(DPUUID)에 연결할 수 있는 키-값 쌍을 <code> d_cid </code> 인스턴스화합니다. 고정 ID가 모바일 장치 유형을 결정합니다. 사용자 ID인 값은 달라질 수 있습니다. 키-값 쌍을 인쇄 금지 컨트롤 <code> %01 </code>문자인 로 구분합니다. 이 매개 변수는 다음 키를 사용합니다. </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014년:Android(GAID 파섹) 장치를 식별합니다. 예를 들어 <code> d_cid = 20914 %01 1234 </code> 는 사용자 1234가 Android 장치와 연결되어 있다고 말합니다. </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015년:iOS(IDFA) 장치를 식별합니다. 예를 들어 <code> d_cid = 20915 %01 5678 </code> 은 사용자 5678이 iOS 장치와 연결되어 있다고 말합니다. </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014년:Android(GAID 파섹) 장치를 식별합니다. 예를 들어 사용자 1234는 Android 장치와 연결되어 있다고 <code> d_cid = 20914 %01 1234 </code> 합니다. </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015년:iOS(IDFA) 장치를 식별합니다. 예를 들어 <code> d_cid = 20915 %01 5678 </code> 사용자 5678은 iOS 장치와 연결되어 있다고 말합니다. </li> 
     </ul> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -95,10 +95,10 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다.</p> <p><code>gdpr은</code> 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p> </td> 
+   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다.</p> <p><code>gdpr</code> 은 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <code>gdpr_consgent</code> </td> 
+   <td colname="col1"> <code>gdpr_consent</code> </td> 
    <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다.</p><p> <code>gdpr=1</code>이면 <code>%gdpr_consent%</code>는 <code>gdpr_consent</code> 문자열로 대체됩니다(<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB 사양</a> 참조).</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -108,7 +108,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 >
 >클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅 또는 계정 리드로 문의하십시오.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [대상 최적화 보고서를 위한 데이터 및 메타데이터 파일](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 

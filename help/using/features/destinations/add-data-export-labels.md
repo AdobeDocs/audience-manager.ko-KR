@@ -5,7 +5,7 @@ seo-title: 대상에 데이터 내보내기 컨트롤 추가
 solution: Audience Manager
 title: 대상에 데이터 내보내기 컨트롤 추가
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -36,6 +36,6 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
    >데이터 소스에 [일치하는 내보내기 컨트롤을](../../features/data-export-controls.md) 설정하지 않으면 내보내기 제한이 작동하지 않습니다.
 1. 클릭 **[!UICONTROL Save]**.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [데이터 소스 만들기](../../features/manage-datasources.md#create-data-source)

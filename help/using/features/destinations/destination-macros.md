@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 정의된 대상 매크로
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,16 +40,16 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col2"> <p>사용자의 Audience Manager <span class="keyword"> ID를</span> 대상 URL에 삽입합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>%dpid_<i>데이터 원본 id</i>%</code> </p> </td> 
+   <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
    <td colname="col2"> <p>데이터 <i>소스 id</i> 는 매크로에 전달된 데이터 소스의 식별자에 해당합니다. </p> <p>간단한 예로 이것이 어떻게 작동하는지 살펴보겠습니다. 이 경우 다음과 같은 ID와 <span class="keyword"> 조건을</span> 가진 Audience Manager 파트너가 있습니다. </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">데이터 소스 ID: <code> 1</code> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">내부 고객 ID:고객 <code> ABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">선언된 ID:파트너는 이러한 값을 선언된 ID <code> 1:CustomerABC로 전달하려고 합니다</code>. </li> 
-    </ul> <p>이렇게 하려면 <code>%dpid_<i>데이터 소스 id</i>%</code><span class="keyword"> 를</span> 사용하여 Audience Manager파트너가 다음과 같이 매크로 형식을 지정합니다. </p> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">내부 고객 ID: <code> CustomerABC</code> </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">선언된 ID:파트너는 이러한 값을 선언된 ID로 전달하려고 <code> 1:CustomerABC</code>합니다. </li> 
+    </ul> <p>이렇게 하려면 Audience Manager <code>%dpid_<i>data source id</i>%</code>파트너가 <span class="keyword"> 다음과 같이</span> 매크로를 포맷합니다. </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>매크로는 <code> 1</code> 을 CustomerABC로 <code> 바꿉니다</code>. </p> <p> 
+    </ul> <p>매크로가 다음으로 <code> 1</code> 바뀝니다 <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
        AAM-22193 기반 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
@@ -101,6 +101,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 두 매크로 모두 캐싱을 방지하지만 보다 효율적으로 수행할 `%rnd%` 수 있습니다. 예를 들어, 여러 사용자가 페이지를 동시에 보는 `%timestamp%`경우 동일한 날짜/시간 값을 받게 됩니다. 따라서, [!DNL URL] 는 고유하지 않으며 여러 개의 호출은 한 번만 카운트됩니다. 하지만 `%rnd%` 각 호출에 대해 고유한 숫자 값을 생성합니다(사용자가 동일한 페이지를 동시에 볼 때에도). 즉, [!DNL URL] 문자열에는 다른 값이 들어 있으며 고유하게 계산됩니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [정의된 대상 매크로](../../features/destinations/destination-macros.md#destination-macros-defined)

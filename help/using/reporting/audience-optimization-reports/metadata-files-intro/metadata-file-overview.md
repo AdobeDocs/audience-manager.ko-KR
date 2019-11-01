@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 메타데이터 파일에 대한 개요 및 매핑
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 파일에 이름을 지정하고 데이터를 추가한 후 에서 제공하는 Amazon S3 스토리지 디렉토리로 보냅니다. [!DNL Audience Manager] 메타데이터 [파일에 대한 배달 방법을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [대상 최적화 보고서용 데이터 파일](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [픽셀 호출을 통해 캠페인 클릭 데이터 캡처](../../../integration/media-data-integration/click-data-pixels.md)

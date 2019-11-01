@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 빌더
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 ---
 
@@ -97,7 +97,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 에서 [!UICONTROL Segment Builder]이 [!UICONTROL Traits] 섹션에서는 세그먼트의 트레이트를 관리하고 트레이트 그룹을 만들고 자격 조건을 설정할 수 있습니다. 세그먼트에 트레이트를 추가하려면 검색 필드에 트레이트 이름을 입력하고 을 클릭합니다 [!UICONTROL Add Trait]. 트레이트를 저장(완료되면)하거나 다음으로 이동합니다 [!UICONTROL Destinations Mapping].
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **** 사전 요구 사항:섹션의 필수 필드를 [!UICONTROL Basic Information] 완료합니다.
 
@@ -106,7 +106,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 | 기본 보기 | 이 섹션에서는 다음을 수행할 수 있는 시각적 컨트롤을 제공합니다. <ul><li>새 세그먼트를 만들고 기존 세그먼트를 관리합니다.</li><li>세그먼트에서 트레이트를 제거합니다.</li><li>세그먼트에 최대 50개의 트레이트를 추가합니다.</li><li>트레이트를 드래그 앤 드롭하여 새 그룹을 만듭니다.</li><li>세그먼트에서 트레이트 및 트레이트 그룹을 봅니다.</li><li>부울 표현식, 비교 연산자 및 최근/빈도 설정을 사용하여 자격 조건을 설정합니다.</li></ul> |
 | 코드 보기 | 시각적 인터페이스 대신 코드를 사용하여 트레이트, 그룹 및 자격 조건을 만들고 관리할 수 있는 개발 환경을 엽니다. 코드 보기는 세그먼트가 다음과 같은 경우에 유용합니다. <ul><li>개별 세그먼트에 50개 이상의 트레이트를 포함합니다. 참고:세그먼트는 5000개의 트레이트로 제한됩니다(최대).</li><li>트레이트 그룹을 많이 포함합니다.</li><li>복잡한 자격 조건을 갖추어야 합니다.</li></ul> |
 | 검색 | 세그먼트에 추가할 트레이트를 찾는 데 도움이 됩니다. |
-| 권장 사항 | 세그먼트 규칙에 추가할 유사한 트레이트에 대한 라이브 추천을 얻을 수 있습니다. 트레이트 추천에서 자세한 [내용을 참조하십시오](trait-recommendations.md). |
+| 권장 사항 | 가입한 자사 트레이트 및 [!UICONTROL Audience Marketplace] 데이터 피드에서 유사한 트레이트에 대한 라이브 추천을 받을 수 있습니다. 이러한 권장 사항을 세그먼트 규칙에 추가하여 대상을 확장합니다. 트레이트 추천에서 자세한 [내용을 참조하십시오](trait-recommendations.md). |
+| Marketplace 추천 | 가입하지 않은 데이터 피드에서 유사한 트레이트에 대한 라이브 권장 사항을 [!UICONTROL Audience Marketplace] 얻습니다. 트레이트 추천에서 자세한 [내용을 참조하십시오](trait-recommendations.md). |
 | 실제 및 예상 세그먼트 크기 데이터 | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## 세그먼트에서 트레이트 제거 {#remove-traits}

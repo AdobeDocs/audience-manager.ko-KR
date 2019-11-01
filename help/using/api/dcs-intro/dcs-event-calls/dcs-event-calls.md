@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS 이벤트 호출 API
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * [DCS로 데이터 보내기](dcs-url-send.md)
 * [DCS에서 데이터 받기](dcs-url-receive.md)
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS API 참조](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 

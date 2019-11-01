@@ -3,10 +3,10 @@ description: Audience Manager 계정의 모든 속성에 지리적 변수를 사
 seo-description: Audience Manager 계정의 모든 속성에 지리적 변수를 사용하여 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍을 설명합니다.
 seo-title: 플랫폼 수준 키를 사용한 지리 기반의 타깃팅
 solution: Audience Manager
-title: ' 플랫폼 수준 키를 사용한 지리 기반의 타깃팅'
+title: 플랫폼 수준 키를 사용한 지리 기반의 타깃팅
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 translation-type: tm+mt
-source-git-commit: c5c57423bcba8d4b3974a04c46dc7c7afc7484a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -47,12 +47,12 @@ Adobe는 [Digital Envoy](https://www.digitalenvoy.com/) 와 협력하여 아래 
 | d_long | 경도(예: d_long=73.98). 긴 [목록을](assets/d_long.txt)다운로드합니다. |
 | d_postal_code | ZIP 코드(확장 +4 코드 제외). 우편 [번호 목록을](assets/d_postal_code.txt)다운로드합니다.  예: <ul><li>특성: d_postal_code=84004 </li><li>특성 이름:알파인</li></ul> |
 | d_state | 미국 주의 2자 약어. 상태 [코드 목록을](assets/d_state.txt)다운로드합니다.  예: <ul><li>특성: d_state=NY </li><li>특성 이름:뉴욕</li></ul>d_state에는 다른 국가의 여러 상태에 대한 반복 값이 포함되어 있습니다. 예를 들어 d_state == "on"은 여러 상태와 일치합니다.온타리오(캐나다), 온도(나이지리아), 오샤나(나미비아). 보다 구체적인 지리 기반의 타깃팅을 위해 d_country와 같은 다른 지표와 이 신호를 결합하는 것이 좋습니다. |
-|  d_region | 지역 영숫자 ID. 지역 목록을 [다운로드합니다](assets/Country_RegionCodes_City.csv).  그런 다음 이 목록을 사용하여 지역 ID를 지역 이름과 일치시킬 수 있습니다. |
+| d_region | 지역 영숫자 ID. 지역 목록을 [다운로드합니다](assets/Country_RegionCodes_City.csv).  그런 다음 이 목록을 사용하여 지역 ID를 지역 이름과 일치시킬 수 있습니다. |
 | d_isp | ISP/조직 ISP [목록을 다운로드합니다](assets/d_isp.txt). |
 
 위치 기반 신호의 [](assets/all.csv) 목록은 위의 모든 신호와 다음 순서로 구성됩니다. `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [주요 변수의 접두사 요구 사항](../../features/traits/trait-variable-prefixes.md)
 

@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -279,7 +279,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 2. 트레이트를 만든 후, 전환은 [!UICONTROL Audience Optimization Reports] 및 에서 보고됩니다 [!UICONTROL Audience Lab].
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Audience Manager로 DCM 데이터 파일 가져오기](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [고객 최적화 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md)

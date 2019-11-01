@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager의 방문자 인증 상태
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -82,7 +82,7 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <code>2</code> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
    <td colname="col2"> 예, 인증된 옵션 병합 규칙 = "마지막으로 인증된 프로필"인 경우 </td> 
    <td colname="col3" morerows="1"> <p>아니요, 특성 데이터는 장치 프로필에 기록됩니다. </p> </td> 
   </tr> 
@@ -100,7 +100,7 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
 >
 >[!DNL Audience Manager] 세 가지 경우 모두 CID와 [UUID](../reference/ids-in-aam.md) 간의 ID 동기화를 수행합니다.
 
->[!MORELIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 

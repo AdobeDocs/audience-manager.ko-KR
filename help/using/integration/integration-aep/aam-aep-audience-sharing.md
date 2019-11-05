@@ -4,9 +4,9 @@ seo-description: 이 문서에서는 Audience Manager와 Adobe Experience Platfo
 seo-title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
 solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
-keywords: AEP 고객 공유, AEP 세그먼트, 플랫폼 세그먼트
+keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 ---
 

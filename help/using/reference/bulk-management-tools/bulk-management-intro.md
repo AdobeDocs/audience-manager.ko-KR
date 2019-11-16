@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 일괄 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
 
 ---
 
@@ -39,7 +39,7 @@ c_bulk_start.xml
 을 사용하려면 [!DNL Bulk Management Tools]다음이 필요합니다.
 
 * 귀하의 [!DNL Experience Cloud] 로그인. 고객인 경우 이러한 자격 증명이 이미 있어야 합니다.
-* 워크시트입니다 [!DNL Bulk Management Tools] . [워크시트를](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) 다운로드하여 최신 버전을 가져옵니다.
+* 워크시트입니다 [!DNL Bulk Management Tools] . [워크시트를](assets/BAAAM_V2_20191015.xlsm) 다운로드하여 최신 버전을 가져옵니다.
 * 64비트 [!DNL macOS] 또는 64비트에서 실행되는 Microsoft Excel [!DNL Microsoft Windows]입니다.
 * 워크시트를 열 때 매크로를 **활성화해야** 제대로 [!DNL Bulk Management Tools] 작동합니다.
 
@@ -118,10 +118,4 @@ c_bulk_start.xml
 >[!NOTE]
 >
 >큰 요청을 사용하여 작업할 때 워크시트가 응답하지 않아 비활성 상태인 것 같습니다. 이런 경우에는 그냥 놔두세요. 벌크 요청이 완료되면 워크시트가 반응형으로 바뀝니다. 워크시트가 장기간 응답하지 않으면 [문제 해결 섹션을](../../reference/bulk-management-tools/bulk-troubleshooting.md)참조하십시오.
-
-
-
->[!MORELIKETHIS]
->
->* [일괄 관리 워크시트 다운로드](assets/BAAAM_August_2018.xlsm)
 

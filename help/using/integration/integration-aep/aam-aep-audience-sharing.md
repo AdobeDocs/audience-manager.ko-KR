@@ -4,9 +4,9 @@ seo-description: 이 문서에서는 Audience Manager와 Adobe Experience Platfo
 seo-title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
 solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
-keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유
+keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
 translation-type: tm+mt
-source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
+source-git-commit: b3f7ee5730ed91c656f0dea1bacfabad703755fd
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 >[!NOTE]
 >
->이 페이지에는 Audience Manager *및* Adobe Experience Platform 고객이 사용할 수 있는 기능을 설명하는 베타 설명서가 포함되어 있습니다. 이 설명서는 최종 제품 릴리스 전에 변경될 수 있습니다.
+> 이 페이지에 설명된 기능은 Audience Manager 및 Adobe Experience Platform 고객이 사용할 수 있습니다.
 >
 > 이 기능에 대한 액세스 권한을 받으려면 Adobe 세일즈 담당자에게 문의하십시오.
 

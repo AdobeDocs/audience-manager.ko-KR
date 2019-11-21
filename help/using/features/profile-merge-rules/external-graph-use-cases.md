@@ -119,7 +119,7 @@ Jane이 휴일 패키지 거래를 찾기 위해 정기적으로 사용하는 �
 
 John은 데이터 플랜 A에서 자신의 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Co-Op Device Graph] 클러스터에는 정기적으로 사용하는 두 개의 추가 장치가 포함되어 있습니다.그의 노트북([!DNL Device 1])과 보조 스마트폰 [!DNL Device 2] ( [!DNL Samsung S7] a on [!DNL Data Plan B])
 
-+ **[!UICONTROL Last Authenticated Profiles]** 를 사용하여 **[!UICONTROL Adobe Co-Op Device Graph]**&#x200B;처음 세그먼트에 적합한 장치 중 하나만 있더라도 John의 장치 그래프 클러스터의 세 장치 모두에 개인화된 메시지를 전달할 [!DNL Acme Inc.] 수 있습니다.
+를 사용하여 **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**&#x200B;처음 세그먼트에 적합한 장치 중 하나만 있더라도 John의 장치 그래프 클러스터의 세 장치 모두에 개인화된 메시지를 전달할 [!DNL Acme Inc.] 수 있습니다.
 
 ![고급 그래프 확장](assets/advanced-device-graph-expansion.png)
 

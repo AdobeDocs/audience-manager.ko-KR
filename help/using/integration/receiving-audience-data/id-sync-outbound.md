@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 아웃바운드 데이터 전송에 대한 ID 동기화
 uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -60,7 +60,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> 은 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p><p><b>참고:</b> <ul><li>ID 동기화 URL에서 <code>gdpr</code> 및 <code>gdpr_consent</code> 매개 변수를 활성화 파트너와 점진적으로 롤아웃하고 있습니다. IAB TCF용 Audience Manager <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">플러그인에서 IAB TCF를 지원하는 활성화 파트너를 참조하십시오.</a></li><li>이 매개 변수는 <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> 은 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p><p><b>참고:</b> <ul><li>ID 동기화 URL에서 <code>gdpr</code> 및 <code>gdpr_consent</code> 매개 변수를 활성화 파트너와 점진적으로 롤아웃하고 있습니다. IAB TCF용 Audience Manager <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">플러그인에서 IAB TCF를 지원하는 활성화 파트너를 참조하십시오.</a></li><li>이 매개 변수는 <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 

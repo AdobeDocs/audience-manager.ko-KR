@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 인바운드 데이터 전송에 대한 ID 동기화
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -61,11 +61,11 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code> gdpr</code> 은 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다. </p> <p> <b></b> 참고:이 매개 변수는 함께 사용할 수만 <code>gdpr_consent</code>있습니다.</p></td> 
+   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code> gdpr</code> 은 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다. </p> <p> <b></b> 참고:이 매개 변수는 함께 사용할 수만 <code>gdpr_consent</code>있습니다.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code>gdpr_consent</code> 는 URL-safe base64 인코딩된 GDPR 동의 문자열입니다(IAB 사양 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> 참조</a>). </p> <p> <b></b> 참고:이 매개 변수는 함께 사용할 수만 <code>gdpr</code>있습니다.</p> </td> 
+   <td colname="col2"> <p>선택 사항입니다. IAB TCF용 Audience <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Manager 플러그인을 사용하는 경우 이 매개 변수를 추가합니다.</a></p> <p><code>gdpr_consent</code> 는 URL-safe base64 인코딩된 GDPR 동의 문자열입니다(IAB 사양 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> 참조</a>). </p> <p> <b></b> 참고:이 매개 변수는 함께 사용할 수만 <code>gdpr</code>있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>

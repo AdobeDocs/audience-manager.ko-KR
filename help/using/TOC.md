@@ -1,10 +1,10 @@
 ---
 product: audience-manager
-audience: 최종 사용자
-user-guide-title: Audience Manager 사용 안내서
+audience: end-user
+user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
 
 ---
 
@@ -15,16 +15,20 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 + 개요{#overview}
    + [Audience Manager 개요](overview/aam-overview.md)
    + [수집된 데이터 유형](overview/data-types-collected.md)
-   + Data Security and Privacy {#data-security-and-privacy}
-      + [개요](overview/data-security-and-privacy/data-security-privacy-overview.md)
-      + [데이터 보안](overview/data-security-and-privacy/data-security.md)
-      + [데이터 개인 정보](overview/data-security-and-privacy/data-privacy.md)
-      + [옵트아웃 관리](overview/data-security-and-privacy/opt-out-management.md)
-   + 개인 정보 보호 규정(GDPR){#gdpr}
-      + [Audience Manager에서의 GDPR](overview/aam-gdpr/aam-gdpr-details.md)
-      + [대상에 대한 GDPR 고려 사항](overview/aam-gdpr/aam-gdpr-partners.md)
-      + [GDPR FAQ](overview/aam-gdpr/aam-gdpr-faq.md)
-      + [IAB TCF를 위한 Audience Manager 플러그인](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+   + [데이터 보안](overview/data-security-and-privacy/data-security.md)
+   + 데이터 개인 정보{#data-privacy}
+      + [데이터 개인 정보 개요](overview/data-security-and-privacy/data-privacy.md)
+      + [데이터 개인 정보 요청](overview/data-security-and-privacy/data-privacy-requests.md)
+      + 데이터 개인 정보 참조 {#data-privacy-reference}
+         + [Audience Manager 식별자](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [CPA 용어](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [GDPR 용어집](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [대상에 대한 GDPR 고려 사항](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [Audience Manager 고객을 위한 GDPR 준비 지침](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+      + 동의 관리 {#consent-management}
+         + [동의 관리](overview/data-security-and-privacy/data-privacy-consent.md)
+         + [IAB TCF를 위한 Audience Manager 플러그인](overview/data-security-and-privacy/aam-iab-plugin.md)
+   + [데이터 거버넌스](overview/data-security-and-privacy/data-governance.md)
 + 기능{#features}
    + [대응 가능 대상](features/addressable-audiences.md)
    + 관리{#administration}

@@ -2,11 +2,11 @@
 description: 이 페이지에는 현재 서버 간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 seo-description: 이 페이지에는 현재 서버 간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 seo-title: Adobe Audience Manager 기술 파트너
-keywords: 활성화;활성화 파트너, 대상, 대상
+keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager 기술 파트너
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 <br> 
 
 * **업데이트됨** = 이 활성화 파트너에 대한 업데이트가 있는 마지막 날짜를 표시합니다.
-* **Unsegment** = Unsegmentation은 세그먼트에서 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다. 세그멘테이션은 GDPR 삭제 요청 읽기 프로필 병합 규칙 및 장치 [세그멘테이션 프로세스 및](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) Audience Manager 파트너(세그멘테이션 [기능 포함)에서도 사용됩니다](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager는 아래 예로 표시된 대상에 세그먼트 해제 정보를 보냅니다.
-* **IAB TCF 동의 신호** 수신 = IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
+* **Unsegment** = Unsegmentation은 세그먼트에서 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다. 세그멘테이션은 GDPR 삭제 요청 읽기 프로필 병합 규칙 및 장치 [세그멘테이션 프로세스 및](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) Audience Manager 파트너(세그멘테이션 [기능 포함)에서도 사용됩니다](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager는 아래 예로 표시된 대상에 세그먼트 해제 정보를 보냅니다.
+* **IAB TCF 동의 신호** 수신 = IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = 이 열에는 즉각적인 장치 간 억제를 지원하는 파트너가 나열됩니다. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **모바일 장치 ID** = 이 열에는 Audience Manager에서 모바일 장치 ID를 수신할 수 있는 파트너가 표시됩니다.
 

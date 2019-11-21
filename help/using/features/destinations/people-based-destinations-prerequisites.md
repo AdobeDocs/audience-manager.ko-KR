@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
 solution: Audience Manager
 title: 전제 조건 및 고려 사항
 translation-type: tm+mt
-source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
+source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ## 데이터 해싱 및 암호화 {#data-hashing-encryption}
 
-암호화는 양방향 기능입니다. 또한 올바른 암호 해독 키를 사용하여 암호화된 정보를 해독할 수 있습니다. 암호화된 형식의 개인 식별 정보를 암호화할 수 있으므로 Audience Manager 컨텍스트에서 데이터를 암호화하면 심각한 위험이 발생합니다. 암호화가 아니라 해시된 [!DNL People-Based Destinations] 데이터를 사용하여 작업할 수 있도록 설계되었습니다.
+암호화는 양방향 기능입니다. 또한 올바른 암호 해독 키를 사용하여 암호화된 정보를 해독할 수 있습니다. 암호화된 형식의 개인 식별 정보를 암호화할 수 있으므로 Audience Manager 컨텍스트에서 데이터를 암호화하면 심각한 위험이 발생합니다. 암호화가 아니라 해시된 데이터를 사용하여 [!DNL People-Based Destinations] 작업할 수 있도록 설계되었습니다.
 
 해싱은 고유한 결과를 생성하기 위해 입력을 스크램블하는 단방향 함수입니다. 이와 같이 적절한 해싱 알고리즘을 [!DNL SHA256]사용하면 해싱 기능을 역동적으로 전환하여 스크램블된 정보를 표시할 수 없습니다. Audience Manager에 포함될 이메일 주소는 [!DNL SHA256] 알고리즘으로 해시되어야 합니다. 이렇게 하면 해시되지 않은 이메일 주소가 Audience Manager에 도달하지 않도록 할 수 있습니다.
 
@@ -77,7 +77,7 @@ Adobe Experience Cloud ID 서비스를 통해 고객 ID를 해시할 수 있는 
 
 가입하기 전에 [!DNL People-Based Destinations]광고 목적으로 고객의 정보를 사용하기 전에 고객의 동의를 받아야 합니다.
 
-고객이 광고 캠페인을 옵트아웃하려는 경우 Audience Manager [의](../../overview/data-security-and-privacy/opt-out-management.md) 데이터 수집을 중지하는 방법에 대한 자세한 내용은 옵트아웃 관리를 참조하십시오.
+고객이 광고 캠페인을 옵트아웃하려는 경우 Audience Manager [의](../../overview/data-security-and-privacy/data-privacy-requests.md) 데이터 수집을 중지하는 방법에 대한 자세한 내용은 옵트아웃 관리를 참조하십시오.
 
 ## 퍼스트 파티 데이터 활성화 적용 {#enforcing-first-party-activation}
 

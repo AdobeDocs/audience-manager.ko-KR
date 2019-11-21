@@ -1,27 +1,27 @@
 ---
 description: Audience Manager는 데이터 보안 및 개인 정보를 매우 중요시합니다. Adobe는 시스템의 보안을 유지하고 중요한 데이터를 보호하기 위해 노력하고 있습니다.
 seo-description: Audience Manager는 데이터 보안 및 개인 정보를 매우 중요시합니다. Adobe는 시스템의 보안을 유지하고 중요한 데이터를 보호하기 위해 노력하고 있습니다.
-seo-title: 데이터 보안
+seo-title: Audience Manager의 데이터 보안
 solution: Audience Manager
-title: Data Security
+title: Audience Manager의 데이터 보안
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: 34884e3212d50237c73fdc6aa163d90c29a642f5
+source-git-commit: 1d606cf8ac8cf7b78a7ddf661e9a6d2ce32df71e
 
 ---
 
 
-# Data Security {#data-security}
+# Audience Manager의 데이터 보안 {#data-security}
 
-Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+Audience Manager는 데이터 보안 및 개인 정보를 매우 중요시합니다. Adobe는 시스템의 보안을 유지하고 중요한 데이터를 보호하기 위해 노력하고 있습니다.
 
-Audience Manager security practices include external and internal audits, activity logging, training, and other procedures designed to help protect our systems and your valuable data. We believe a secure product helps build and maintain the trust customers place in us.
+Adobe Audience Manager의 보안 관행은 외부 및 내부 감사, 활동 로깅, 트레이닝 및 Adobe 시스템과 중요한 데이터를 보호하기 위해 고안된 기타 절차를 포함합니다. Adobe는 안전한 제품을 통해 고객이 신뢰할 수 있는 제품을 구축하고 유지 관리할 수 있다고 믿습니다.
 
-In Audience Manager, we think about security in three main categories:
+Adobe Audience Manager에서는 세 가지 주요 범주의 보안에 대해 살펴봅니다.
 
-| 보안 유형 | Provides Support For |
+| 보안 유형 | 다음을 지원합니다. |
 |---|---|
-| **Information security** | 엔터프라이즈급 인증, 암호화 및 데이터 스토리지 방식 |
+| **정보 보안** | 엔터프라이즈급 인증, 암호화 및 데이터 스토리지 방식 |
 | **데이터 누출/투명도** | 데이터 누출을 구성하거나 기여하는 사이트 내 활동에 대한 심층적이고 실행 가능한 통찰력 |
 | **프로세스/정책 개선 사항** | 클라이언트 - 개인 정보 및 데이터 보안에 대한 업계 모범 사례를 사용하여 작업 |
 
@@ -44,27 +44,27 @@ Adobe 시스템 및 데이터의 보안을 유지하는 프로세스
 
 **** 보안 교육: Adobe의 보안 노력은 Adobe 제품을 사용하는 개발자에게 확대될 수 있습니다. Adobe는 개발자에게 보안 애플리케이션 및 서비스를 구축하는 방법에 대한 공식 교육을 제공합니다.
 
-**** Secure Access:  Audience Manager requires strong passwords to log on to the system. See password requirements.[](../../reference/password-requirements.md)
+**** 보안 액세스: Audience Manager에서 시스템에 로그온하려면 강력한 암호가 필요합니다. 자세한 내용은 [암호 요구 사항을](../../reference/password-requirements.md)참조하십시오.
 
-## Privacy and Personally Identifiable Information (PII) {#pii}
+## 개인 정보 및 개인 식별 정보(PII) {#pii}
 
-Processes that help keep personal information safe. 자세한 개인 정보 정보는 Adobe 개인 정보 [센터를 참조하십시오](https://www.adobe.com/privacy/advertising-services.html).
+개인 정보를 안전하게 유지하는 프로세스 자세한 개인 정보 정보는 Adobe 개인 정보 [센터를 참조하십시오](https://www.adobe.com/privacy/advertising-services.html).
 
-**** PII Data:  Audience Manager contractually prohibits customers and data partners from sending PII information into our system. Additionally, the Unique User ID (UUID) does not contain or use PII data as part of the ID-generation algorithm.
+**** PII 데이터: Adobe Audience Manager는 고객 및 데이터 파트너가 PII 정보를 Adobe 시스템으로 보내는 것을 금지합니다. 또한 UUID(고유 사용자 ID)는 ID 생성 알고리즘의 일부로 PII 데이터를 포함하거나 사용하지 않습니다.
 
 **** IP 주소: Audience Manager는 IP 주소를 수집합니다. IP 주소는 데이터 처리 및 로그 수집 프로세스에서 사용됩니다. 지리적/위치 조회 및 타깃팅에도 필요합니다. 또한 보존된 로그 파일 내의 모든 IP 주소는 90일 이내에 난독화됩니다.
 
 ## 데이터 분할 {#data-partitioning}
 
-Processes that help protect data owned by individual clients.
+개별 클라이언트가 소유한 데이터를 보호하는 프로세스입니다.
 
-**** 트레이트 데이터 분할: 데이터(트레이트, ID 등) is partitioned by client. This helps prevent accidental information exposure between different clients. For example, trait data in cookies is partitioned by customer and stored in a client-specific sub-domain. It cannot be read or used accidentally by another Audience Manager client. Furthermore, trait data stored in the  is also partitioned by customer. [!UICONTROL Profile Cache Servers (PCS)] This prevents other clients from accidentally using your data in an event call or other request.
+**** 트레이트 데이터 분할: 데이터(트레이트, ID 등) 는 클라이언트에 의해 분할됩니다. 이렇게 하면 다른 클라이언트 간에 우발적인 정보 노출을 방지할 수 있습니다. 예를 들어 쿠키의 특성 데이터는 고객이 분할하고 클라이언트별 하위 도메인에 저장됩니다. 다른 Audience Manager 클라이언트에서 이를 읽거나 실수로 사용할 수 없습니다. 또한, 에 저장된 트레이트 데이터도 [!UICONTROL Profile Cache Servers (PCS)] 고객이 분할합니다. 이렇게 하면 다른 클라이언트가 이벤트 호출 또는 기타 요청에서 데이터를 실수로 사용하지 못하도록 합니다.
 
 **** 보고서의 데이터 분할: 클라이언트 ID는 모든 보고 테이블에서 식별 키의 일부이며 보고서 쿼리는 ID로 필터링됩니다. 이렇게 하면 다른 Audience Manager 고객의 보고서에 데이터가 표시되지 않도록 할 수 있습니다.
 
-## Inbound Server-to-Server (S2S) Transfers {#inbound-s2s}
+## S2S(Inbound Server-to-Server) 전송 {#inbound-s2s}
 
-Adobe Audience Manager supports two main methods of transferring S2S on-boarded data files to our systems:
+Adobe Audience Manager는 S2S 온보드 데이터 파일을 Adobe 시스템으로 전송하는 두 가지 주요 방법을 지원합니다.
 
 두 방법 모두 Adobe 고객과 파트너 데이터의 보안을 고려하여 설계되었으며, 데이터는 시스템과 Adobe 시스템 간에 이동됩니다.
 
@@ -88,6 +88,6 @@ XSS(Cross-Site Scripting) 등에 대해 보안을 유지하기 위해 나가는 
 
 ### 예 {#hsts-example}
 
-도메인이 `yourcompany.demdex.com` 을 통해 [!DNL DCS] 트래픽을 전송한다고 가정해 봅시다 [!DNL HTTP]. [!DNL HSTS] upgrades the calls to use  instead, and all subsequent  calls coming from  will use  instead of .[!DNL HTTPS][!DNL DCS]`yourcompany.demdex.com`[!DNL HTTPS][!DNL HTTP]
+도메인이 `yourcompany.demdex.com` 을 통해 [!DNL DCS] 트래픽을 전송한다고 가정해 봅시다 [!DNL HTTP]. [!DNL HSTS] 대신 사용할 호출을 [!DNL HTTPS] 업그레이드하면 이후에 들어오는 모든 [!DNL DCS] 호출이 `yourcompany.demdex.com` 대신 [!DNL HTTPS] 사용됩니다 [!DNL HTTP].
 
 HSTS [에 대한 자세한 내용은 HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Wikipedia를 참조하십시오.

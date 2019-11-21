@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
 
 ---
 
@@ -21,12 +21,6 @@ Audience Manager를 사용하면 데이터 판매업체, 교환 또는 광고 �
 
 Audience Manager는 2008년 Demdex로 시작되었습니다. 2011년 Adobe Systems에서 인수했으며 이후 Audience Manager로 다시 브랜딩되었습니다.
 
-<!-- 
-
-c_history_and_background.xml
-
- -->
-
 ## History {#history}
 
 2008년 이후 Audience Manager(이전 [!UICONTROL Demdex])는 온라인 고객 관리 시장의 선구자였습니다. Audience Manager 서비스는 다이내믹한 멀티채널 온라인 데이터 전략을 지원합니다. 당사의 플랫폼과 서비스는 자동차(AutoTrader), 항공사(American Airlines), 금융 서비스 회사(American Express)에 이르기까지 다양한 업계에서 사용되고 있습니다. Audience Manager는 엔터프라이즈급 기술을 사용하여 규모, 안정성, 분석 및 성능을 제공하여 비즈니스의 성공적인 온라인 비즈니스를 지원합니다. Adobe Audience Manager는 Adobe Experience Cloud와 통합되어 있으므로 디지털 주소 지정 가능한 채널 전반에서 데이터 자산을 중앙에서 관리하고 조치를 취할 수 있습니다.
@@ -36,4 +30,3 @@ c_history_and_background.xml
 Audience Manager를 사용하면 데이터 파이프라인을 관리할 수 있습니다. Adobe 서비스는 일반 사용자와 원시 데이터 신호를 멀티채널 마케팅 활동에 사용되는 실제 고객 세그먼트로 변환하는 촉매제입니다. 또한 Audience Manager는 태그 관리 및 고객 분석을 위한 툴을 제공하며 클라이언트와 소비자의 개인 정보 및 데이터 보안 요구 사항을 동시에 충족할 수 있습니다.
 
 ![](assets/am_overview_80.png)
-

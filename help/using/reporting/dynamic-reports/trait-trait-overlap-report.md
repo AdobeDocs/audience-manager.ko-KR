@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 특성-특성 중복 보고서
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -68,36 +68,44 @@ r_t2t_data_pop.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 데이터 공급자 이름</span></b> </td> 
-   <td colname="col2"> 트레이트 소유자의 이름입니다. </td> 
+   <td colname="col1"><b><span class="wintitle"> 겹치기 %</span></b> </td> 
+   <td colname="col2"> 비교한 트레이트 간 고유한 겹침 비율(고유/특성 고유 수 겹침)을 표시합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 데이터 공급자 유형</span></b> </td> 
-   <td colname="col2">트레이트가 속한 공급자 유형을 정의합니다. 다음 중 하나를 수행할 수 있습니다. 
+   <td colname="col1"><b><span class="wintitle"> 데이터 소스 유형</span></b> </td> 
+   <td colname="col2">트레이트가 속한 데이터 소스의 유형을 정의합니다. 다음 중 하나를 수행할 수 있습니다. 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">자사(사용자 고유의 특성). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">타사(외부 데이터 파트너/공급업체) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 특성 ID</span></b> </td> 
-   <td colname="col2"> 해당 트레이트에 대한 고유 숫자 ID. </td> 
+   <td colname="col1"><b><span class="wintitle"> 겹치는 특성 ID</span></b> </td> 
+   <td colname="col2"> 겹치는 트레이트에 대한 고유한 숫자 ID입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 특성 이름</span></b> </td> 
-   <td colname="col2"> 트레이트의 이름입니다. </td> 
+   <td colname="col1"><b><span class="wintitle"> 겹치는 특성 이름</span></b> </td> 
+   <td colname="col2"> 겹치는 트레이트의 이름입니다. </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> 트레이트 ID 2</span></b> </td> 
+   <td colname="col2"> 기본 데이터 소스의 트레이트에 대한 고유 숫자 ID. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 겹치기 %</span></b> </td> 
-   <td colname="col2"> 비교한 트레이트 간 고유한 겹침 비율(고유/특성 고유 수 겹침)을 표시합니다. </td> 
+   <td colname="col1"><b><span class="wintitle"> 특성 이름 2</span></b> </td> 
+   <td colname="col2"> 기본 데이터 소스의 특성 이름입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> 고유 항목 겹치기</span></b> </td> 
-   <td colname="col2"> <p>겹치는 비율을 얻기 위해 Audience Manager는 다음 공식을 사용합니다.</p> <p>겹치는 고유 수 /(기본 세그먼트 고유 수 + 겹치는 세그먼트 고유 수 - 겹치는 고유 수)</p> </td> 
+   <td colname="col2"> <p>겹치는 비율을 얻기 위해 Audience Manager는 다음 공식을 사용합니다.</p> <p>겹치는 고유 수 /(기본 트레이트 고유 수 + 겹치는 트레이트 고유 수 - 겹치는 고유 수)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 특성 고유</span></b> </td> 
-   <td colname="col2"> 트레이트에 있는 고유 방문자 수입니다. </td> 
+   <td colname="col1"><b><span class="wintitle"> 겹치는 특성 고유</span></b> </td> 
+   <td colname="col2"> 겹치는 트레이트의 고유 방문자 수입니다. </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> 기본 특성 고유</span></b> </td> 
+   <td colname="col2"> 기본 트레이트의 고유 방문자 수입니다. </td> 
   </tr> 
  </tbody> 
 </table>

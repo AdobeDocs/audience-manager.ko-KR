@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DFP 데이터 파일을 Audience Manager에 가져오기
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 ---
 
@@ -23,8 +23,8 @@ DFP( [!DNL DoubleClick For Publishers]) 로그 파일을 [!DNL Audience Manager]
 
 다음은 Adobe 설명서에 설명된 대로 광고 태그 [!DNL Audience Manager] 호출에서 ID를 설정하는 방법입니다.
 
-* [Google 게시자 태그(GPT) 사용](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [쿠키 대상 사용](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Google 게시자 태그(GPT) 사용](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [쿠키 대상 사용](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 ID를 직접 [!DNL Audience Manager] 설정하고 모든 것이 제대로 작동하는지 확인하기 위해 컨설팅 서비스를 [!DNL Audience Manager] 사용할 수 있습니다. 다음과 같은 경우 ID를 [!DNL Audience Manager] 올바르게 설정했습니다.
 

@@ -4,9 +4,9 @@ seo-description: 세그먼트 간에 공유되는 고유 사용자 수에 대한
 seo-title: 세그먼트-세그먼트 중복 보고서
 solution: Audience Manager
 title: 세그먼트-세그먼트 중복 보고서
-uuid: 0339eb6c-6355-44a3-9c46-f15948549d1
+uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -58,14 +58,16 @@ r_s2s_data_pop.xml
 
 | 지표 | 설명 |
 |---|---|
-| **[!UICONTROL Segment ID1]** | 보고서 결과에 표시되는 세그먼트의 고유 숫자 ID입니다. 세그먼트의 행 ID로 나타납니다. |
-| **[!UICONTROL Segment ID2]** | 보고서를 실행할 때 선택하는 세그먼트의 고유 숫자 ID. 세그먼트의 열 ID로 나타납니다. |
-| **[!UICONTROL Segment Name1]** | 보고서 결과 행에 표시되는 세그먼트의 이름입니다. |
-| **[!UICONTROL Segment Name2]** | 보고서를 실행할 때 선택하는 세그먼트의 이름입니다. 보고서 결과 열에 나타납니다. |
+| **[!UICONTROL Base Segment ID]** | 보고서 결과에 표시되는 세그먼트의 고유 숫자 ID입니다. 세그먼트의 행 ID로 나타납니다. |
+| **[!UICONTROL Base Segment Name]** | 보고서 결과 행에 표시되는 세그먼트의 이름입니다. |
+| **[!UICONTROL Overlapping Segment ID]** | 보고서를 실행할 때 선택하는 세그먼트의 고유 숫자 ID. 세그먼트의 열 ID로 나타납니다. |
+| **[!UICONTROL Overlapping Segment Name]** | 보고서를 실행할 때 선택하는 세그먼트의 이름입니다. 보고서 결과 열에 나타납니다. |
+| **[!UICONTROL Base Segment Uniques]** | 기본 세그먼트의 고유 방문자 수. |
+| **[!UICONTROL Base Segment Uniques]** | 겹치는 세그먼트에서 고유 방문자 수입니다. |
+| **[!UICONTROL Overlapping Uniques]** | 비교 세그먼트 간에 공유된 고유 방문자 수. |
 | **[!UICONTROL Overlap %]** | 겹치는 비율을 얻기 위해 Audience Manager는 다음 공식을 사용합니다.겹치는 고유 수 /(기본 세그먼트 고유 수 + 겹치는 세그먼트 고유 수 - 겹치는 고유 수) |
-| **[!UICONTROL Overlap Uniques]** | 비교 세그먼트 간에 공유된 고유 방문자 수. |
-| **[!UICONTROL Segment Uniques1]** | 세그먼트 1의 고유 방문자 수. |
-| **[!UICONTROL Segment Uniques2]** | 세그먼트 2의 고유 방문자 수. |
+
+
 
 >[!MORELIKETHIS]
 >

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트-특성 중복 보고서
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -134,11 +134,11 @@ r_s2t_data_pop.xml
    <td colname="col2"> 세그먼트의 고유 숫자 ID. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 데이터 공급자 이름</span></b> </td> 
-   <td colname="col2"> 세그먼트 소유자의 이름입니다. </td> 
+   <td colname="col1"><b><span class="wintitle"> 특성 데이터 소스 </span></b> </td> 
+   <td colname="col2"> 트레이트 소유자의 이름입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 데이터 공급자 유형</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> 데이터 소스 유형</span></b> </td> 
    <td colname="col2">트레이트가 속한 공급자 유형을 정의합니다. 다음 중 하나를 수행할 수 있습니다. 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">자사(사용자 고유의 특성). </li> 
@@ -146,12 +146,12 @@ r_s2t_data_pop.xml
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID</span></b> </td> 
-   <td colname="col2"> 세그먼트의 고유 숫자 ID. </td> 
+   <td colname="col1"><b><span class="wintitle"> 특성 ID</span></b> </td> 
+   <td colname="col2"> 트레이트에 대한 고유 숫자 ID입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID 이름</span></b> </td> 
-   <td colname="col2"> 세그먼트의 이름입니다. </td> 
+   <td colname="col1"><b><span class="wintitle"> 특성 이름</span></b> </td> 
+   <td colname="col2"> 트레이트의 이름입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> 특성 고유 수 겹침 %</span></b> </td> 

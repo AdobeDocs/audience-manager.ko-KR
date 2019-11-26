@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -80,7 +80,7 @@ In the tables below, *italics* represents a variable placeholder.
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>Referer <code>HTTP referer</code> 는 파트너에 사용할 수 없습니다. <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>호출의 [!DNL HTTP referer] 헤더는 호출의 파트너 ID에 대해 허용되지 않습니다. [!DNL HTTP referer] 헤더가 올바른지 확인하십시오.</p> </td>
+   <td colname="col3"> <p>호출의 <code>HTTP referer</code> 헤더는 호출의 파트너 ID에 대해 허용되지 않습니다. 헤더가 올바른지 <code>HTTP referer</code> 확인합니다.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 실시간 아웃바운드 데이터 전송
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
 
 ## 일괄 전송
 
-실시간 전송과 일괄 전송 모두 동일한 종단점으로 전송되며 동일한 메시지 형식을 사용합니다. 일괄 전송을 활성화하면 대상 플랫폼에 일괄 메시지가 전달되는 동안 메시지 볼륨이 급증하게 됩니다. 실시간 메시지를 통해 전송된 세그먼트 자격 조건 중 다수가 배치 메시지에서 반복됩니다. Batch transfers will include only the segment qualifications (or un-qualifications) that have changed since the last batch was delivered.
+실시간 전송과 일괄 전송 모두 동일한 종단점으로 전송되며 동일한 메시지 형식을 사용합니다. 일괄 전송을 활성화하면 대상 플랫폼에 일괄 메시지가 전달되는 동안 메시지 볼륨이 급증하게 됩니다. 실시간 메시지를 통해 전송된 세그먼트 자격 조건 중 다수가 배치 메시지에서 반복됩니다. 배치 이전에는 마지막 배치가 전달된 후 변경된 세그먼트 자격(또는 자격 미등록)만 포함됩니다.
 
 ## 비율 제한
 
@@ -39,11 +39,11 @@ source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
 
 ## 필수 응답
 
-By default, the recipient server must return the  code to indicate successful receipt. `200 OK` Other codes will be interpreted as failures. This response is expected within 3000 milliseconds. In response to a failure,  will make one retry attempt only.[!DNL Audience Manager]
+기본적으로 수신자 서버는 성공적인 입고를 나타내는 `200 OK` 코드를 반환해야 합니다. 다른 코드는 실패로 해석됩니다. 이 응답은 3000밀리초 이내에 예상됩니다. 실패에 대한 응답으로 한 번만 [!DNL Audience Manager] 다시 시도합니다.
 
 ## 매개 변수
 
-The following table defines the elements in the  data file that you send to the destination.[!DNL JSON]
+다음 표에서는 대상으로 전송하는 [!DNL JSON] 데이터 파일의 요소를 정의합니다.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -55,7 +55,7 @@ The following table defines the elements in the  data file that you send to the 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <code><i>프로세스 시간</i></code> </td> 
+   <td colname="col1"> <code><i>ProcessTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
    <td colname="col3"> <p>요청이 실행된 시간입니다. </p> </td> 
   </tr> 
@@ -64,30 +64,30 @@ The following table defines the elements in the  data file that you send to the 
    <td colname="col2"> <p>정수 </p> </td> 
    <td colname="col3"> <p>메시지 내에 포함된 장치 ID의 유형을 나타내는 ID를 User.DataPartner_UUID 속성에 지정합니다. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID(GAID):20914 <code> 년</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID(IDFA):2015 <code> 년</code> </li>
-     <li>Web/Cookie IDs: varies by destination platform</li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID(GAID): <code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID(IDFA): <code> 20915</code> </li>
+     <li>웹/쿠키 ID:대상 플랫폼별로 다름</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>Represents the target account in the destination platform. 이 ID는 대상 플랫폼에서 비롯됩니다.</p> </td> 
+   <td colname="col3"> <p>대상 플랫폼의 대상 계정을 나타냅니다. 이 ID는 대상 플랫폼에서 비롯됩니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>The ID of the Audience Manager “destination” object. 이 ID는 Audience Manager에서 유래했습니다.</p> </td> 
+   <td colname="col3"> <p>Audience Manager "대상" 개체의 ID입니다. 이 ID는 Audience Manager에서 유래했습니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>Total number of users in the  POST request.<code></code> </p> </td> 
+   <td colname="col3"> <p>요청에 있는 총 사용자 수입니다 <code> POST</code> . </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>사용자</i></code> </td> 
+   <td colname="col1"><code><i>Users</i></code> </td> 
    <td colname="col2"> <p>배열 </p> </td> 
-   <td colname="col3"> <p>An array of user objects. By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
+   <td colname="col3"> <p>사용자 개체의 배열입니다. 메시지 크기를 최적화하기 위해 기본적으로 각 메시지에는 1명에서 10명의 사용자가 포함됩니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
@@ -102,15 +102,15 @@ The following table defines the elements in the  data file that you send to the 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> 배열 </td> 
-   <td colname="col3"> 이 <span class="keyword"> 장치를 본</span> Audience Manager 영역 ID. 예를 들어, 장치가 파리(유럽)에서 일부 활동을 하는 경우 지역 ID는 <code> 6입니다</code>. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </td> 
+   <td colname="col3"> 이 <span class="keyword"> 장치를 본</span> Audience Manager 영역 ID. 예를 들어, 장치가 파리(유럽)에서 일부 활동을 하는 경우 지역 ID가 <code> 6</code>됩니다. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>세그먼트</i></code> </td> 
+   <td colname="col1"><code><i>Segments</i></code> </td> 
    <td colname="col2"> <p>배열 </p> </td> 
    <td colname="col3"> <p>세그먼트 개체의 배열입니다. 실시간 메시지의 경우 배열에 사용자가 속한 모든 세그먼트가 포함됩니다. 배치 메시지의 경우 배열에 마지막 배치 이후의 세그먼트 변경 사항만 포함됩니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
    <td colname="col3"> <p>세그먼트의 식별자입니다. 대부분의 경우 Audience Manager에서 생성된 세그먼트 ID(정수)입니다. 경우에 따라 대상 플랫폼에서 허용되는 경우, 고객은 Audience Manager UI(텍스트 필드 열기)에서 세그먼트 식별자를 정의하면 이 속성이 반영됩니다. </p> </td> 
   </tr> 
@@ -126,20 +126,20 @@ The following table defines the elements in the  data file that you send to the 
      <li id="li_8352B919A87242E68716FB9EC0443407">세그먼트 규칙에 따라 세그먼트에서 제거되었습니다. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">세그먼트의 <a href="../../../features/traits/segment-ttl-explained.md"> 실시간 간격에</a>따라 세그먼트에서 제거되었습니다. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">지난 120일 동안 표시되지 않은 경우 비활성 상태로 이동되었습니다. </li>
-     <li>Removed due to a privacy change request (i.e. [!DNL GDPR])</li>
-    </ul> <p>All partner IDs that are synced to an  Audience Manager ID will receive the  "Status":"0" flag when a user is unsegmented.<span class="keyword"></span><code></code> </p> </td> 
+     <li>개인 정보 변경 요청(예: GDPR <span class="keyword"> )으로 인해 제거되었습니다</span>.</li>
+    </ul> <p>Audience Manager ID에 동기화된 모든 파트너 <span class="keyword"> ID는</span> 사용자가 세그먼트화되지 않으면 <code> "Status":"0"</code> 플래그를 수신하게 됩니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>The time when the user-segment qualification was most recently verified.</p> </td> 
+   <td colname="col3"> <p>사용자 세그먼트 자격이 가장 최근에 확인된 시간입니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 보안
 
-You can secure your real-time outbound data transfer process by signing HTTP requests using private keys or by having  authenticate through the OAuth 2.0 protocol.[](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)[!DNL Audience Manager][](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
+개인 키를 사용하여 HTTP 요청에 [](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) 서명하거나 OAuth 2.0 프로토콜을 통해 [!DNL Audience Manager] 인증함으로써 실시간 아웃바운드 데이터 전송 프로세스를 보호할 [수](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 있습니다.
 
 ## 요청
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대상 최적화 보고서 및 실행 가능한 로그 파일을 위한 데이터 파일
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
+source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 이러한 요구 사항이 주어지면 다음과 같은 내용에 따라 데이터 파일의 이름을 지정하십시오.
 
-* 노출 횟수 데이터: <pre>impressions_<i>yyyyymdd<i>.gz</code></pre>
+* 노출 횟수 데이터: <pre>impressions_<i>yyyyymdd</i>.gz</code></pre>
 * 데이터 클릭: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * 전환 데이터: <pre>conversions_<i>yyyyymdd</i>.gz</code></pre>
 
@@ -67,7 +67,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
  <tbody> 
   <tr> 
    <td colname="col1"> <p>타임스탬프 </p> </td> 
-   <td colname="col2"> <p>노출, 클릭 또는 전환 이벤트의 UTC 날짜 및 시간입니다. 형식을 <code> yyyy-dd-mm hh:mm:ss</code> 사용합니다. </p> </td> 
+   <td colname="col2"> <p>노출, 클릭 또는 전환 이벤트의 UTC 날짜 및 시간입니다. 형식을 <code> yyyy-MM-dd HH:mm:ss</code> 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>사용자 ID </p> </td> 
@@ -127,7 +127,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
      <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: 노출 횟수 </li> 
      <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: 클릭 </li> 
-     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>:특성 없음 또는 알 수 없음 </li> 
+     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>: 특성 없음 또는 알 수 없음 </li> 
     </ul> <p> <i>전환 데이터 파일만 해당합니다.</i> </p> </td> 
   </tr> 
   <tr> 

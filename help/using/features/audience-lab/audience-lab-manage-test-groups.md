@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 테스트 그룹 관리
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
 
 ---
 
@@ -59,6 +59,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    * 전환 트레이트 창에 입력하여 전환 트레이트를 추가합니다. 이것은 **필수** 단계이며 하나 이상의 전환 트레이트를 추가하지 않는 한 다음 단계로 진행할 수 없습니다.
    * 원하는 경우 최대 5개의 전환 트레이트를 추가할 수 있습니다.
    * 다른 테스트 그룹에 이미 사용된 전환 트레이트를 선택하는 경우 경고가 표시됩니다.
+   * Audience Manager에서는 [폴더 트레이트를](/help/using/features/traits/about-folder-traits.md) 전환 트레이트로 사용할 수 없습니다. 폴더 트레이트를 전환 트레이트로 선택하면 0 집계 및 트렌드 보고가 테스트 내에 표시됩니다.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 

@@ -1,13 +1,13 @@
 ---
 description: 실행 가능한 로그 파일을 사용하면 광고 서버 로그 파일에서 미디어 신호를 캡처하여 Audience Manager에서 트레이트를 만들 수 있습니다. 픽셀을 추가하지 않고도 광고 서버에서 노출, 클릭 및 전환을 트레이트로 캡처할 수 있습니다.
-keywords: 실행 가능한 로그, alf, ALF
+keywords: actionable logs, alf, ALF
 seo-description: 실행 가능한 로그 파일을 사용하면 광고 서버 로그 파일에서 미디어 신호를 캡처하여 Audience Manager에서 트레이트를 만들 수 있습니다. 추가 픽셀을 사용하지 않고도 광고 서버에서 노출, 클릭 및 전환을 트레이트로 캡처할 수 있습니다.
 seo-title: 실행 가능 로그 파일
 solution: Audience Manager
 title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 
 ---
 
@@ -160,7 +160,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ### 일반 광고 서버 로그에서 실행 가능한 신호 {#generic-logs-signals}
 
-먼저 Amazon S3 버킷에 광고 서버 로그를 추가해야 합니다. 이를 위해서는 대상 최적화 [보고서 및 실행 가능한 로그 파일을](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) 읽고 *컨설턴트에게* 문의하십시오 [!DNL Audience Manager] . 이 표에는 일반 로그 파일의 실행 가능한 신호가 나열되어 있습니다.
+먼저 Amazon S3 버킷에 광고 서버 로그를 보관해야 합니다. 이를 위해서는 대상 최적화 [보고서 및 실행 가능한 로그 파일을](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) 읽고 *컨설턴트에게* 문의하십시오 [!DNL Audience Manager] . 이 표에는 일반 로그 파일의 실행 가능한 신호가 나열되어 있습니다.
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -186,8 +186,8 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> 노출, 클릭 또는 전환 이벤트의 UTC 날짜 및 시간입니다.  <code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> 노출, 클릭 또는 전환 이벤트의 UTC 날짜 및 시간입니다. 형식을 <code>yyyy-MM-dd HH:mm:ss</code> 사용합니다. </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 

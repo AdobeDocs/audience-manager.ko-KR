@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 클릭 데이터 캡처
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 클릭 추적 호출에는 다음 매개 변수가 필요합니다.
 
 * `d_event=click`:이벤트 호출을 클릭 이벤트로 식별하는 키-값 쌍입니다.
-* `d_rd=redirect URL`:인코딩된 리디렉션을 포함하는 키-값 쌍입니다 [!DNL URL].
+* `d_rd=redirect URL`:이중 인코딩된 리디렉션을 포함하는 키-값 쌍입니다 [!DNL URL]. 온라인 인코딩 도구를 사용하는 경우 인코더를 통해 문자열을 실행한 다음 리디렉션이 제대로 작동하도록 결과를 다시 인코딩합니다.
 
 또한 호출에는 트레이트 자격에 사용하거나 다른 보고서에 대한 데이터 및 메타데이터를 제공하는 키-값 쌍을 포함할 수 있습니다.
 
@@ -150,8 +150,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ```
 https://client.demdex.net/event?d_event=click&d_creative=1235&d_src=203&d_campaign=4709&d_adgroup=3408&d_placement=1001&
-d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25%26campaign%3D%25d_campaign%25%26adgroup%3D%25
-d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
+d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creative%2525%2526campaign%253D%2525d_campaign%2525%2526adgroup%253D%2525%0Ad_adgroup%2525%2526d_placement%253D%2525placement%2525%2526src%253D%2525d_src%2525
 ```
 
 ## 응답

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요구 사항
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 881ccf512e9776948e4507e321e972dd2079e21a
 
 ---
 
@@ -17,7 +17,7 @@ Audience Manager로 데이터를 보낼 때 따라야 하는 필수 필드, 구�
 
 >[!WARNING]
 >
->인바운드 데이터 파일에 대한 FTP 전송은 더 이상 지원되지 않습니다. 오프라인 데이터를 등록하려면 Amazon S3를 사용하십시오. 자세한 [내용은 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항을](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 참조하십시오.
+>FTP 구성에 대한 지원이 점차 축소되고 있습니다. 기존 FTP 통합에서 인바운드 데이터 파일 수집은 여전히 지원되지만, 새로운 통합을 위해 오프라인 데이터를 등록하려면 Amazon S3를 사용하는 것이 좋습니다. 자세한 [내용은 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항을](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 참조하십시오.
 
 >[!NOTE]
 >

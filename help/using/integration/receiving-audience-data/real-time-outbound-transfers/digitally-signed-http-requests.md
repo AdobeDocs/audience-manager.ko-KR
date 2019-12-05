@@ -1,25 +1,25 @@
 ---
-description: Audience Manager를 사용하려면 유효성 확인을 위해 HTTP 서버 간 요청을 디지털로 서명해야 합니다. 이 문서에서는 개인 키로 HTTP 요청에 서명할 수 있는 방법에 대해 설명합니다.
-seo-description: Audience Manager를 사용하려면 유효성 확인을 위해 HTTP 서버 간 요청을 디지털로 서명해야 합니다. 이 문서에서는 개인 키로 HTTP 요청에 서명할 수 있는 방법에 대해 설명합니다.
-seo-title: 디지털 서명 HTTP 요청
+description: Audience Manager를 사용하려면 유효성을 위해 HTTP(S) 서버 간 요청을 디지털로 서명해야 합니다. 이 문서에서는 개인 키로 HTTP 요청에 서명할 수 있는 방법에 대해 설명합니다.
+seo-description: Audience Manager를 사용하려면 유효성을 위해 HTTP(S) 서버 간 요청을 디지털로 서명해야 합니다. 이 문서에서는 개인 키로 HTTP(S) 요청에 서명할 수 있는 방법에 대해 설명합니다.
+seo-title: 디지털 서명된 HTTP 요청
 solution: Audience Manager
-title: 디지털 서명 HTTP 요청
+title: 디지털 서명된 HTTP 요청
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
+source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
 
 ---
 
 
-# 디지털 서명 `HTTP` 요청 {#digitally-signed-http-requests}
+# 디지털 서명 `HTTP(S)` 요청 {#digitally-signed-http-requests}
 
-Audience Manager를 사용하려면 유효성을 위해 `HTTP` 서버 간 요청에 디지털 서명을 해야 합니다. 이 문서에서는 개인 키로 `HTTP` 요청에 서명할 수 있는 방법에 대해 설명합니다.
+Audience Manager를 사용하려면 유효성을 위해 `HTTP(S)` 서버 간 요청에 디지털 서명을 해야 합니다. 이 문서에서는 개인 키로 `HTTP(S)` 요청에 서명할 수 있는 방법에 대해 설명합니다.
 
 ## 개요 {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-사용자가 제공하고 공유한 개인 키를 [!DNL Audience Manager]사용하여 IRIS와 HTTP 서버 간에 전송되는 `HTTP` 요청에 디지털 서명을 [할](../../../reference/system-components/components-data-action.md#iris) 수 있습니다. 이렇게 하면 다음과 같은 이점이 있습니다.
+사용자가 제공하고 공유한 개인 키를 [!DNL Audience Manager]사용하여 IRIS와 HTTP(S) 서버 간에 전송되는 `HTTP(S)` 요청에 [디지털](../../../reference/system-components/components-data-action.md#iris) 서명을 할 수 있습니다. 이렇게 하면 다음과 같은 이점이 있습니다.
 
 * **신뢰성**:개인 키가 있는 보낸 사람([!UICONTROL IRIS])만 유효한 `HTTP(S)` 메시지를 파트너에게 보낼 수 있습니다.
 * **메시지 무결성**:이러한 접근 방식을 `HTTP`사용하면 중간 공격에서 메시지가 왜곡되는 것을 방지할 수 있습니다.
@@ -28,10 +28,10 @@ Audience Manager를 사용하려면 유효성을 위해 `HTTP` 서버 간 요청
 
 ## 제공하는 데 필요한 정보 {#info-to-provide}
 
-서버 간 `HTTP` 실시간 대상의 경우 컨설턴트에게 연락하여 다음을 [!DNL Audience Manager] 지정합니다.
+서버 간 `HTTP(S)` 실시간 대상의 경우 컨설턴트에게 연락하여 다음을 [!DNL Audience Manager] 지정합니다.
 
 * 요청에 서명하는 데 사용되는 키입니다.
-* 생성된 서명을 저장할 `HTTP` 헤더의 이름(아래 예제 헤더에서 X-서명).
+* 생성된 서명을 저장할 `HTTP(S)` 헤더의 이름(아래 예제 헤더에서 X-서명).
 * 선택 사항:서명에 사용된 해시 유형(md5, sha1, sha256).
 
 ```
@@ -47,8 +47,8 @@ POST message content
 
 ## How it works {#how-it-works}
 
-1. [!UICONTROL IRIS] 파트너에게 보낼 `HTTP` 메시지를 만듭니다.
-1. [!UICONTROL IRIS] 는 `HTTP` 메시지와 파트너로부터 전달된 개인 키를 기반으로 서명을 만듭니다.
+1. [!UICONTROL IRIS] 파트너에게 보낼 `HTTP(S)` 메시지를 만듭니다.
+1. [!UICONTROL IRIS] 는 `HTTP(S)` 메시지와 파트너로부터 전달된 개인 키를 기반으로 서명을 만듭니다.
 1. [!UICONTROL IRIS] 요청을 `HTTP(S)` 파트너에게 보냅니다. 이 메시지에는 위의 예에서 보듯이 서명과 실제 메시지가 포함됩니다.
 1. 파트너 서버가 `HTTP(S)` 요청을 받습니다. 메시지 본문과 수신한 서명을 [!UICONTROL IRIS]읽습니다.
 1. 메시지 본문이 수신되고 개인 키를 기반으로 파트너 서버가 서명을 다시 계산합니다. 이를 [실현하는 방법에 대한 자세한 내용은 아래의 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) 계산 방법을 참조하십시오.
@@ -63,8 +63,8 @@ POST message content
 
 ```
 // Message to be signed.
-// For GET type HTTP destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
-// For POST type HTTP destinations, the message used for signing will be the REQUEST_BODY.
+// For GET type HTTP(S) destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
+// For POST type HTTP(S) destinations, the message used for signing will be the REQUEST_BODY.
 // String getData = "/from-aam-s2s?sids=1,2,3";
 String postData = "POST message content";
 // Algorithm used. Currently supported: HmacSHA1, HmacSHA256, HmacMD5.
@@ -95,6 +95,6 @@ String signature = Base64.encodeBase64String(result).trim();
 
 ## 서명에 사용되는 데이터 {#data-signing}
 
-유형 `GET` 대상의 경우 서명에 사용되는 메시지는 REQUEST_PATH *+ QUERY STRING* (예:/ */from-aam-s2s?sids=1,2,3*). IRIS는 호스트 이름 또는 `HTTP` 헤더를 고려하지 않습니다. 이러한 항목은 경로를 따라 수정/잘못 구성되거나 잘못 보고될 수 있습니다.
+유형 `GET` 대상의 경우 서명에 사용되는 메시지는 REQUEST_PATH *+ QUERY STRING* (예:/ */from-aam-s2s?sids=1,2,3*). IRIS는 호스트 이름 또는 `HTTP(S)` 헤더를 고려하지 않습니다. 이러한 항목은 경로를 따라 수정/잘못 구성되거나 잘못 보고될 수 있습니다.
 
 유형 `POST` 대상의 경우 서명에 사용되는 메시지는 REQUEST *BODY입니다*. 헤더 또는 기타 요청 매개 변수는 무시됩니다.

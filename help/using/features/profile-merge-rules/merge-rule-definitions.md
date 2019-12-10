@@ -4,9 +4,9 @@ seo-description: 병합 규칙 옵션을 사용하면 Audience Manager가 세그
 seo-title: 프로필 병합 규칙 옵션 정의
 solution: Audience Manager
 title: 프로필 병합 규칙 옵션 정의
-uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
+uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 | 크로스 디바이스 프로파일 없음 | 외부 장치 그래프(Co-op 장치 그래프 포함) | 모든 고객 | 실시간 및 일괄 처리 | 아니오 | [확장된 장치 타깃팅](external-graph-use-cases.md#audience-expansion) |
 | 현재 인증된 프로필 | 장치 프로파일 없음 | 모든 고객 | 실시간 전용 | 아니오 | [공유 장치 타깃팅](merge-rule-targeting-options.md#target-shared-devices) |
 | 마지막으로 인증된 프로필 | 장치 프로파일 | 모든 고객 | 실시간 및 일괄 처리 | 예 | [온라인/오프라인 타깃팅](merge-rule-targeting-options.md#device-household-targeting) |
-| 마지막으로 인증된 프로필 |  프로필 링크 장치 그래프 | 모든 고객 | 실시간 및 일괄 처리 | 예 | [크로스 디바이스 타깃팅](profile-link-use-case.md#cross-device-personalization) |
+| 마지막으로 인증된 프로필 | 프로필 링크 장치 그래프 | 모든 고객 | 실시간 및 일괄 처리 | 예 | [크로스 디바이스 타깃팅](profile-link-use-case.md#cross-device-personalization) |
 | 마지막으로 인증된 프로필 | 외부 장치 그래프(Co-op 장치 그래프 포함) | 모든 고객 | 실시간 및 일괄 처리 | 아니오 | [고급 크로스 디바이스 타깃팅](external-graph-use-cases.md#advanced-graph-expansion) |
 | 모든 크로스 디바이스 프로파일 | 해당 없음 | 사용자 [기반 대상 고객에게만](../destinations/people-based-destinations-overview.md) 제공 | 일괄 처리만 | 아니오 | [사람 기반 대상 타깃팅](merge-rule-targeting-options.md#all-cross-device) |
 
@@ -126,6 +126,10 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   </tr>
  </tbody>
 </table>
+
+## 외부 병합 정책 {#external-merge-policies}
+
+Audience Manager 외부에 정의된 병합 규칙을 기반으로 다른 Experience Cloud 솔루션에서 자동으로 생성된 대상 세그먼트는 사용 항목으로 표시됩니다 [!UICONTROL External Merge Policy]. 예를 들어 Audience [Manager와 Adobe Experience Platform 간의 고객 공유를 참조하십시오](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >

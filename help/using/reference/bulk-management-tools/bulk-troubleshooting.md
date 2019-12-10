@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 일괄 관리 도구 문제 해결 팁
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
+source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 * 이미 업데이트된 모든 행을 삭제합니다.
 * 일괄 요청을 다시 시도하십시오.
 
-## 긴 지연 또는 응답 없는 동작 {#delays-behavior}
+## 인증 오류, 긴 지연 또는 응답 없는 동작 {#delays-behavior}
 
 다음 표에는 워크시트에 벌크 요청을 할 때 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 권장 솔루션을 사용하여 이러한 문제를 해결해 보십시오. 권장 솔루션이 문제를 해결하지 못하는 경우 작업을 저장하고 컴퓨터를 다시 시작한 후 다른 응용 프로그램을 실행하거나 작업하지 않고 요청을 다시 시도하십시오.
 
@@ -46,6 +46,12 @@ source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>인증 오류</b> </td> 
+   <td colname="col2"> 
+    <b>최신 버전의 Microsoft Excel로 업데이트</b>:새 버전의 Microsoft Excel이 릴리스되고 이전 버전을 사용 중인 경우 벌크 관리 워크시트에서 인증 오류가 발생할 수 있습니다. 최신 버전의 Microsoft Excel로 업데이트하여 인증 오류를 해결하십시오.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>긴 지연 시간</b> </td> 
    <td colname="col2"> 

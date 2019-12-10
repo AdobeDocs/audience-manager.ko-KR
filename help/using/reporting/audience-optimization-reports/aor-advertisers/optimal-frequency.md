@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 최적 빈도 보고서
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -14,6 +14,8 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 # 최적 빈도 보고서{#optimal-frequency-report}
 
 최적 빈도 보고서는 제공된 노출 수와 전환 수 간의 최적 균형을 찾는 데 도움이 됩니다. 이 플러그인을 사용하면 감소 반품을 보기 전에 표시할 노출 수를 조정할 수 있습니다.
+
+보고서에는 [!UICONTROL Date Through] 선택기에서 선택한 날짜로부터 30일 조회 간격이 있습니다.
 
 일반적으로 전환 볼륨은 더 높은 노출 빈도 버킷으로 감소합니다. 노출이 더 많은 사용자는 더 적습니다. 즉, 이러한 높은 빈도 버킷의 전환율이 적습니다.
 
@@ -23,5 +25,4 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ## 샘플 보고서
 
-![](assets/optimal-frequency.png)
-
+![최적 주파수](assets/optimal-frequency.png)

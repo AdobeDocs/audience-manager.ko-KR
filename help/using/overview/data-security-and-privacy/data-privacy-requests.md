@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: 데이터 개인 정보 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -49,16 +49,16 @@ Adobe는 법률에 의해 정해진 기간 내에 귀하의 데이터 개인 정
 
 유효한 [!DNL JSON] 파일의 모양을 확인하려면 샘플 JSON을 [다운로드할 수 있습니다](../data-security-and-privacy/assets/access_request.json).
 
-Adobe는 수신일로부터 30일 이내에 귀하의 데이터 개인 정보 보호 고객 요청을 존중하기 위한 귀하의 약속을 이해합니다. 이러한 이유로, 가능한 한 빨리 데이터 삭제 요청을 처리하도록 시도합니다.
+Adobe는 수신일로부터 30일 이내에 데이터 개인 정보 보호 고객의 요청을 존중하기 위한 노력을 잘 알고 있습니다. 이러한 이유로 Adobe는 가능한 한 빨리 데이터 삭제 요청을 처리하기 위해 최선을 다하고 있습니다.
 
-데이터 삭제 요청에 대한 응답으로, Adobe는 요청에 포함된 Audience Manager 식별자와 연결된 트레이트 및 세그먼트를 삭제합니다. 또한 데이터 주체의 각 Audience Manager 식별자는 Audience Manager의 추가 데이터 수집에서 영구적으로 제외되며 해당 ID 매핑이 제거됩니다.
+소비자 데이터 삭제 요청에 대한 응답으로 Audience Manager는 요청에 포함된 Audience Manager 식별자와 연결된 트레이트 및 세그먼트를 삭제합니다. 또한 Audience Manager에서 추가 데이터 수집을 옵트아웃한 개인의 Audience Manager 식별자 및 해당 ID 매핑이 제거됩니다.
 
 상호 장치 ID 또는 쿠키 ID와 같은 선언된 ID를 데이터 개인 정보 [!DNL CRM] 보호 요청에서 Audience Manager는 연결된 모든 장치(선언된 ID당 최대 100개의 장치)에서 필요한 삭제를 수행합니다.
 
-Audience Manager는 특정 데이터 삭제를 요청하는 데이터 주체의 세그먼트 해제 정보를 보내 활성화 파트너에게 삭제 요청에 대해 알립니다. 그러나 일부 정품 인증 파트너는 다음과 같습니다.
+Audience Manager는 특정 데이터 삭제를 요청하는 데이터 주체의 세그먼트 정보를 제거하여 삭제 요청에 대해 활성화 파트너에게 알리려고 시도합니다. 그러나 일부 정품 인증 파트너는 다음과 같습니다.
 
-1. Adobe 및/또는
-2. 30일 이내에 Adobe로부터 업데이트를 받을 수 없습니다. 이러한 경우 Audience Manager 고객은 Audience Manager를 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
+1. Audience Manager 및/또는
+2. Audience Manager에서 30일 미만의 빈도를 업데이트할 수 없습니다. 이러한 경우 Audience Manager 고객은 Audience Manager를 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
 이러한 경우 Audience Manager를 통해 자동 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
@@ -66,7 +66,7 @@ Audience Manager는 특정 데이터 삭제를 요청하는 데이터 주체의 
 
 ## 옵트아웃 요청 {#opt-out-requests}
 
-Adobe는 옵트아웃 관리와 관련하여 모든 업계 표준을 준수합니다. Audience Manager에서 지원하는 옵트아웃 유형에 대한 자세한 내용을 살펴보십시오.
+Audience Manager는 옵트아웃 관리와 관련하여 업계 표준을 지원합니다. Audience Manager에서 지원하는 옵트아웃 유형에 대한 자세한 내용을 살펴보십시오.
 
 데이터 액세스 및 삭제 요청은 개인정보 보호 서비스를 통해 처리되지만 [현재](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)옵트아웃 요청은 DCS API를 통해 지원됩니다. 옵트아웃 API 호출이 어떻게 표시되어야 하는지 살펴보십시오.
 
@@ -108,7 +108,7 @@ Adobe는 옵트아웃 관리와 관련하여 모든 업계 표준을 준수합�
 
 위에 설명된 옵트아웃 요청을 따릅니다.
 
-* Audience Manager는 앞으로 모든 데이터 수집, 세분화 또는 활성화를 중단합니다.
+* 사용자가 브라우저 쿠키를 지우지 않는 한 Audience Manager는 앞으로 모든 데이터 수집, 세분화 또는 활성화를 중단합니다.
 * 내역 데이터는 120일 후 사용자 프로필에서 제거됩니다.
 
 ### 선언된 ID 호출이 있는 파트너 수준 옵트아웃
@@ -161,12 +161,12 @@ Audience Manager `uuid`의 ID `mid` 인덱스와 자세한 내용을 참조하�
 
 ## Audience Manager 파트너, 세분화 해제 기능 {#aam-partners-with-unsegmentation}
 
-Audience Manager는 고객이 데이터 개인 정보 보호 요청을 자동화할 수 있도록 활성화 파트너에게 세그먼트 해제(또는 세그먼트 제거) 정보를 전송하여 데이터 주체의 삭제 요청을 알립니다.
+소비자 데이터 개인 정보 보호 요청을 자동화하기 위해 Audience Manager는 활성화 파트너에게 데이터 주체의 삭제 요청을 세그먼트 해제(또는 세그먼트 제거) 정보를 전송하여 통보하려고 시도합니다.
 
 그러나 정품 인증 파트너 중 일부는 다음과 같습니다.
 
-1. Adobe 및/또는 에서 세그먼트 해제 요청을 지원할 수 없습니다.
-1. 30일 동안 Adobe로부터 수시로 업데이트를 받을 수 없습니다.
+1. Audience Manager 및/또는
+2. 30일 동안 Audience Manager에서 업데이트를 한 번 이상 받을 수 없습니다.
 
 이러한 경우 Audience Manager를 통해 자동 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
@@ -174,6 +174,6 @@ Audience Manager는 고객이 데이터 개인 정보 보호 요청을 자동화
 
 ## 데이터 수정 요청 {#correction}
 
-Audience Manager가 데이터의 소스가 아니기 때문에 Audience Manager에는 데이터 교정을 위한 제한된 역할이 있습니다. 수정은 데이터 주체가 잘못된 트레이트/세그먼트에서 실격 처리되거나 원하는 트레이트/세그먼트에 자격이 있음을 의미할 수 있습니다.
+Audience Manager가 데이터의 소스가 아니기 때문에 Audience Manager에는 데이터 교정을 위한 제한된 역할이 있습니다. 정정은 소비자가 잘못된 트레이트/세그먼트에서 실격 처리하거나 원하는 트레이트/세그먼트에 자격이 있음을 의미할 수 있습니다.
 
 Audience Manager 고객은 사용자 프로필에 대해 관련 신호/트레이트/세그먼트를 캡처하고 [오프라인 데이터 인제스트를](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) 통해 Audience Manager에 이 정보를 전송할 수 있습니다. 사용자가 동작을 반복할 경우 원래 트레이트 및 세그먼트에 계속 자격을 얻게 됩니다.

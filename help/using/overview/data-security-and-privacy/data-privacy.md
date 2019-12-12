@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 데이터 개인 정보 개요
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -40,7 +40,7 @@ CPA는 캘리포니아 거주자에게 개인 데이터에 액세스하고 삭�
 
 Audience Manager는 데이터 액세스 및 삭제 요청에 대한 Adobe Experience Platform [개인정보 보호 서비스와 같은](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) 개인 정보 보호 툴을 통해 특정 개인 정보 보호 규정에 따른 귀하의 의무를 준수하도록 도와줍니다.
 
-이 서비스는 소비자 데이터 요청을 관리하는 데 도움이 되는 [!DNL RESTful API] 및 사용자 인터페이스를 제공합니다. 개인 정보 [보호 서비스를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)사용하면 개인 고객의 요청에 따라 개인 또는 개인 데이터에 액세스하고 삭제할 수 있는 요청을 제출하여 규정 준수 의무 부분을 자동화할 수 있습니다.
+이 서비스는 소비자 데이터 요청을 관리하는 데 도움이 되는 [!DNL RESTful API] 및 사용자 인터페이스를 제공합니다. 개인 정보 [보호 서비스를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)사용하면 개인 고객의 요청에 따라 개인 데이터에 액세스하고 삭제할 수 있는 요청을 제출할 수 있으므로, 규정 준수 의무 중 이 부분을 자동화할 수 있습니다.
 
 데이터 액세스 및 삭제 요청은 개인정보 보호 서비스를 통해 [처리되지만](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), [옵트아웃 요청은](data-privacy-requests.md#opt-out-requests) 현재 DCS API를 통해 [지원됩니다](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). 자세한 [내용은 데이터](data-privacy-requests.md) 개인 정보 요청을 참조하십시오.
 

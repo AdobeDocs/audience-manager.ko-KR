@@ -5,7 +5,7 @@ seo-title: CPA 용어
 solution: Audience Manager
 title: CPA 용어
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -14,9 +14,11 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ## 개요 {#overview}
 
-이 문서에서는 CCPA(California Consumer Privacy Act)에서 사용되는 개념 및 용어와 Adobe Audience Manager가 다양한 CCPA 요구 사항을 해결하는 방법에 대해 설명합니다.
+이 문서에서는 CCPA(California Consumer Privacy Act)에서 사용되는 개념과 용어와 서비스 제공업체인 Adobe Audience Manager가 다양한 CCPA 요구 사항을 해결하는 방법에 대해 설명합니다.
 
-CCPA(California Consumer Privacy Act)는 2020년 1월 1일부터 적용되며 개인 정보를 소비자 경험의 일부로 통합할 수 있는 또 다른 기회입니다. Audience Manager는 기존 개인 정보 보호 인프라를 활용하여 Audience Manager를 사용할 때 CCPA의 의무를 준수하도록 지원하고 있으며, 2020년 1월 1일 전과 이후에 CCPA를 준비할 수 있습니다. Audience Manager는 Adobe의 데이터 거버넌스 및 개인 정보 보호 기능을 디자인 기능으로 활용하여 새로운 책임을 해결할 수 있도록 도와드립니다.
+CCPA(California Consumer Privacy Act)는 2020년 1월 1일부터 적용되며 개인 정보를 소비자 경험의 일부로 통합할 수 있는 또 다른 기회입니다. Audience Manager는 기존 개인 정보 보호 인프라를 활용하여 Audience Manager를 사용할 때 CCPA의 의무를 준수하도록 지원하고 있으며, 2020년 1월 1일 전과 이후에 CCPA를 준비할 수 있습니다.
+
+Audience Manager는 Adobe의 데이터 거버넌스 및 개인 정보 보호 기능을 디자인 기능으로 활용하여 새로운 책임을 해결할 수 있도록 도와드립니다.
 
 ## CPA 용어 {#CCPA-glossay}
 
@@ -31,10 +33,6 @@ CCPA와 관련하여 사용되는 주요 용어에 익숙해지십시오. 아래
  
 
 **개인 정보**:특정 소비자 또는 가문과 직접 또는 간접적으로 연결할 수 있거나 이와 관련, 설명 및 연결할 수 있는 정보입니다. 개인 정보에는 특정 소비자와 직접 또는 간접적으로 연관되거나, 관련, 설명, 연관될 수 있거나, 연관될 수 있는 정보가 포함되지만 이에 국한되지 않습니다.
-
- 
-
-**유사명/가명**:추가 정보를 별도로 보유하며 개인 정보가 식별되거나 식별 가능한 소비자에 귀속되지 않도록 하기 위한 기술 및 조직 조치의 대상이 되는 경우, 추가 정보를 사용하지 않고도 개인 정보를 더 이상 특정 소비자에게 책임이 없게 하는 방법으로 개인 정보를 처리하는 행위.
 
  
 

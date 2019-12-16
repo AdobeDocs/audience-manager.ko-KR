@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: 데이터 개인 정보 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 유효한 [!DNL JSON] 파일의 모양을 확인하려면 샘플 JSON을 [다운로드할 수 있습니다](../data-security-and-privacy/assets/access_request.json).
 
-Adobe는 법률에 의해 정해진 기간 내에 귀하의 데이터 개인 정보 보호 고객 요청을 준수하기 위한 귀하의 노력을 이해합니다.
+Adobe는 법률에 의해 규정된 기간 내에 귀하의 데이터 개인 정보 보호 요청을 준수하기 위한 귀하의 약속을 이해합니다.
 
 ## 데이터 삭제 요청{#delete-data}
 
@@ -49,7 +49,7 @@ Adobe는 법률에 의해 정해진 기간 내에 귀하의 데이터 개인 정
 
 유효한 [!DNL JSON] 파일의 모양을 확인하려면 샘플 JSON을 [다운로드할 수 있습니다](../data-security-and-privacy/assets/access_request.json).
 
-Adobe는 수신일로부터 30일 이내에 데이터 개인 정보 보호 고객의 요청을 존중하기 위한 노력을 잘 알고 있습니다. 이러한 이유로 Adobe는 가능한 한 빨리 데이터 삭제 요청을 처리하기 위해 최선을 다하고 있습니다.
+Adobe는 30일 이내에 데이터 개인 정보 보호 고객의 요청을 존중해야 한다는 귀하의 약속을 이해합니다. 이러한 이유로 Adobe는 가능한 한 빨리 데이터 삭제 요청을 처리하기 위해 최선을 다하고 있습니다.
 
 소비자 데이터 삭제 요청에 대한 응답으로 Audience Manager는 요청에 포함된 Audience Manager 식별자와 연결된 트레이트 및 세그먼트를 삭제합니다. 또한 Audience Manager에서 추가 데이터 수집을 옵트아웃한 개인의 Audience Manager 식별자 및 해당 ID 매핑이 제거됩니다.
 
@@ -108,7 +108,7 @@ Audience Manager는 옵트아웃 관리와 관련하여 업계 표준을 지원�
 
 위에 설명된 옵트아웃 요청을 따릅니다.
 
-* 사용자가 브라우저 쿠키를 지우지 않는 한 Audience Manager는 앞으로 모든 데이터 수집, 세분화 또는 활성화를 중단합니다.
+* 사용자가 브라우저 쿠키를 지우지 않는 한 Audience Manager는 모든 데이터 수집, 세그멘테이션 또는 활성화를 중단합니다.
 * 내역 데이터는 120일 후 사용자 프로필에서 제거됩니다.
 
 ### 선언된 ID 호출이 있는 파트너 수준 옵트아웃

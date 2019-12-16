@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: 데이터 거버넌스
 translation-type: tm+mt
-source-git-commit: b47819d5e6394e78d744ada1bb7090d337938983
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -42,4 +42,4 @@ Audience Manager에서 주소 난독화가 작동하는 방식을 이해하려�
 
 ## 국경을 통한 데이터 전송 {#data-transfers}
 
-GDPR에서는 유럽 외부의 데이터 전송을 금지하지 않습니다. 이는 데이터가 전송될 때마다 유럽 데이터에 대한 개인정보 보호 보호가 유지되어야 합니다. 자세한 내용은 [Adobe](https://www.adobe.com/privacy/eudatatransfers.html) 개인 정보 보호 센터를 참조하십시오. CCPA는 국경을 넘나드는 데이터 전송을 제한하지 않습니다.
+Audience Manager가 고객의 개인 데이터를 국경을 넘어 전송하는 경우 Audience Manager는 해당 법률을 준수합니다. 자세한 내용은 [Adobe](https://www.adobe.com/privacy/eudatatransfers.html) 개인 정보 보호 센터를 참조하십시오.

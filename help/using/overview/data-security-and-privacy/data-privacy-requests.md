@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: 데이터 개인 정보 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -170,7 +170,7 @@ Audience Manager `uuid`의 ID `mid` 인덱스와 자세한 내용을 참조하�
 
 이러한 경우 Audience Manager를 통해 자동 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-파트너 Excel [시트를](assets/AAM-Partners-October2019.xlsx) 다운로드하여 Audience Manager 활성화 파트너가 세그먼트 해제를 지원하는 경우를 확인하십시오.
+파트너 Excel [시트를](assets/AAM-Partners-December2019.xlsx) 다운로드하여 Audience Manager 활성화 파트너가 세그먼트 해제를 지원하는 경우를 확인하십시오.
 
 ## 데이터 수정 요청 {#correction}
 

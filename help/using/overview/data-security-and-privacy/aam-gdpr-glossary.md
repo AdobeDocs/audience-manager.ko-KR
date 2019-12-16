@@ -6,7 +6,7 @@ solution: Audience Manager
 title: GDPR 용어집
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -35,7 +35,7 @@ GDPR과 관련하여 사용되는 주요 용어에 대해 잘 알고 있습니�
 
  
 
-**** 데이터 주체:개인 데이터와 관련된 개인 Audience Manager에서 데이터 주체는 Audience Manager 고객 또는 최종 사용자입니다. Audience Manager가 데이터 주체로부터 직접 요청을 받는 경우 이러한 요청은 해당 Adobe 고객에게 전달됩니다.
+**** 데이터 주체:개인 데이터와 관련된 개인 Audience Manager에서 데이터 주체는 Audience Manager 고객 또는 최종 사용자입니다. Adobe가 데이터 주체로부터 직접 요청을 받는 경우 이러한 요청은 해당 Audience Manager 고객에게 전달됩니다.
 
  
 

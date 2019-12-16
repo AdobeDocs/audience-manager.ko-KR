@@ -5,7 +5,7 @@ seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -129,7 +129,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 ## IAB TCF를 지원하는 정품 인증 파트너 {#aam-activation-partners}
 
-IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF를 지원하는 정품 인증 파트너에 대한 자세한 내용은 파트너 **[Excel 시트를](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-October2019.xlsx)**&#x200B;참조하십시오.
+IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF를 지원하는 정품 인증 파트너에 대한 자세한 내용은 파트너 **[Excel 시트를](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)**&#x200B;참조하십시오.
 
 ## IAB 구현 테스트 {#test-iab-implementation}
 

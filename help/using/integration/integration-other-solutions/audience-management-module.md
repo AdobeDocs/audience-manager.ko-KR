@@ -1,13 +1,13 @@
 ---
 description: Audience Manager DIL(Data Integration Library) 코드가 페이지에서 픽셀을 보내도록 하지 않고 Analytics 데이터를 Audience Manager에 전달하려면 Audience Management 모듈을 Adobe Analytics AppMeasurement에 추가합니다.
-keywords: 고객 분석;analytics;ssf;서버 측 전달
+keywords: audience analytics; analytics; ssf; server side forwarding
 seo-description: Audience Manager DIL(Data Integration Library) 코드가 페이지에서 픽셀을 보내도록 하지 않고 Analytics 데이터를 Audience Manager에 전달하려면 Audience Management 모듈을 Adobe Analytics AppMeasurement에 추가합니다.
 seo-title: 대상 관리 모듈 구현
 solution: Audience Manager
 title: 대상 관리 모듈 구현
-uuid: 08846427-def3-4a15-88e5-0882d8d57ce
+uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
 
 ---
 
@@ -15,6 +15,10 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 # 대상 관리 모듈 구현 {#implement-the-audience-management-module}
 
 Audience [!UICONTROL Audience Management Module] Manager ( [!DNL Adobe Analytics] ) 코드가 페이지에서 픽셀을 전송하도록 하는 대신 Audience Manager에 [!UICONTROL AppMeasurement] 데이터를 전달하는 [!DNL Analytics] 대상을 [!UICONTROL Data Integration Library][!UICONTROL DIL]추가합니다.
+
+>[!NOTE]
+>
+>이 페이지의 지침은 Adobe Digital Tag [Manager(DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) 또는 기타 태그 관리 솔루션을 사용한 구현을 참조하며, Adobe Launch를 ** 제외한 [모든](https://docs.adobe.com/content/help/en/launch/using/overview.html)태그 관리 솔루션을참조합니다. Adobe Launch를 사용하는 것이 좋습니다. Launch를 사용하면 이 페이지에 표시된 것처럼 코드를 수동으로 복사할 필요가 없습니다.
 
 ## 전제 조건 {#prereqs}
 

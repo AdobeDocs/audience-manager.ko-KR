@@ -5,7 +5,7 @@ seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ---
 
@@ -40,11 +40,11 @@ Audience Manager에서 IAB TCF를 사용하려면 다음 전제 조건을 충족
 1. Experience Cloud ID Service(ECID) 버전 4.1 이상을 사용해야 합니다. [최신 ECID 릴리스를 다운로드하십시오](https://github.com/Adobe-Marketing-Cloud/id-service/releases) .
 1. 여기에서 다운로드할 수 있는 DIL(Audience Manager Data Integration Library) 버전 9.0 이상을 사용해야 [합니다](https://github.com/Adobe-Marketing-Cloud/dil/releases). Audience Manager [설명서에서](../..//dil/dil-overview.md)DIL에 대해 알아보십시오.
 1. 또는 SSF(서버측 전달)를 사용하여 데이터를 Audience Manager로 가져오는 경우 최신 버전의 AppMeasurement로 업그레이드해야 합니다. Analytics 코드 관리자를 사용하여 [AppMeasurement를 다운로드합니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
-1. IAB TCF를 지원하고 IAB TCF에 등록된 CMP(Consent Management Platform)를 사용하고 있어야 합니다. IAB 프레임워크에 [등록된 CMP 목록을 참조하십시오](https://advertisingconsent.eu/cmp-list/).
+1. 귀하는 IAB TCF를 지원하고 IAB TCF에 등록된 CMP(Consent Management Platform) 또는 자체 CMP를 사용하고 있어야 합니다. IAB 프레임워크에 [등록된 CMP 목록을 참조하십시오](https://advertisingconsent.eu/cmp-list/).
 
 ## 권장 사항 및 구현 방법 {#recommendations}
 
-Audience Manager에서 IAB TCF 지원을 활성화하려면 Opt-in을 사용하여 IAB를 설정하는 [방법에 대한 설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html).
+Audience Manager에서 IAB TCF 지원을 활성화하려면 Opt-in을 사용하여 IAB를 설정하는 [방법에 대한 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
 이 작업은 Adobe Launch를 사용하여 [속성에서](https://docs.adobelaunch.com/) ECID 옵트인을 계측하여 수행하는 것이 가장 쉽습니다. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
@@ -133,7 +133,7 @@ IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자�
 
 ## IAB 구현 테스트 {#test-iab-implementation}
 
-IAB TCF용 Audience Manager 플러그인을 올바르게 구현했는지 테스트하려면 옵트인 및 IAB 구현의 [유효성 검사 방법에서 사용 사례 4를 읽어 보십시오](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html).
+IAB TCF용 Audience Manager 플러그인을 올바르게 구현했는지 테스트하려면 옵트인 및 IAB 구현의 [유효성 검사 방법에서 사용 사례 4를 읽어 보십시오](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88).
 
 ## Audience Manager의 IAB 및 옵트아웃. 우선 순위. {#iab-and-optout}
 

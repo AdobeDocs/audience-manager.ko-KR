@@ -5,7 +5,7 @@ seo-title: CPA 용어
 solution: Audience Manager
 title: CPA 용어
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 이 문서에서는 CCPA(California Consumer Privacy Act)에서 사용되는 개념과 용어와 서비스 제공업체인 Adobe Audience Manager가 다양한 CCPA 요구 사항을 해결하는 방법에 대해 설명합니다.
 
-CCPA(California Consumer Privacy Act)는 2020년 1월 1일부터 적용되며 개인 정보를 소비자 경험의 일부로 통합할 수 있는 또 다른 기회입니다. Audience Manager는 기존 개인 정보 보호 인프라를 활용하여 Audience Manager를 사용할 때 CCPA의 의무를 준수하도록 지원하고 있으며, 2020년 1월 1일 전과 이후에 CCPA를 준비할 수 있습니다.
+2020년 1월 1일에 시행된 캘리포니아 소비자 개인 정보 보호법(CCPA)은 개인 정보를 소비자 경험의 일부로 통합할 수 있는 또 다른 기회입니다. Audience Manager는 기존 개인 정보 보호 인프라를 활용하여 Audience Manager 사용 시 CPA에 따른 의무를 준수하고 CCPA를 준비할 수 있도록 지원합니다.
 
 Audience Manager는 Adobe의 데이터 거버넌스 및 개인 정보 보호 기능을 디자인 기능으로 활용하여 새로운 책임을 해결할 수 있도록 도와드립니다.
 
-## CPA 용어 {#CCPA-glossay}
+## CPA 용어 {#CCPA-glossary}
 
 CCPA와 관련하여 사용되는 주요 용어에 익숙해지십시오. 아래에서 가장 일반적으로 사용되는 용어 중 일부를 강조 표시했습니다.
 
@@ -45,3 +45,10 @@ CCPA와 관련하여 사용되는 주요 용어에 익숙해지십시오. 아래
  
 
 **고유 식별자/고유 개인 식별자**:소비자, 가족 또는 소비자 또는 제품군에 연결된 장치를 인식하기 위해 장치 식별자를 포함하나 이에 한정되지 않는 여러 서비스 간에 사용할 수 있는 영구 식별자인터넷 프로토콜 주소;쿠키, 비콘, 픽셀 태그, 모바일 광고 식별자 또는 유사한 기술고객 번호, 고유 가명 또는 사용자 별칭전화 번호나 특정 소비자 또는 장치를 식별하는 데 사용할 수 있는 기타 형태의 확률적 식별자.
+
+ 
+
+>[!MORELIKETHIS]
+>
+>[데이터 개인 정보 개요](/help/using/overview/data-security-and-privacy/data-privacy.md)
+

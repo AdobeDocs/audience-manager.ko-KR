@@ -1,13 +1,13 @@
 ---
 description: 실행 가능한 로그 파일을 사용하면 광고 서버 로그 파일에서 미디어 신호를 캡처하여 Audience Manager에서 트레이트를 만들 수 있습니다. 픽셀을 추가하지 않고도 광고 서버에서 노출, 클릭 및 전환을 트레이트로 캡처할 수 있습니다.
 keywords: actionable logs, alf, ALF
-seo-description: 실행 가능한 로그 파일을 사용하면 광고 서버 로그 파일에서 미디어 신호를 캡처하여 Audience Manager에서 트레이트를 만들 수 있습니다. 추가 픽셀을 사용하지 않고도 광고 서버에서 노출, 클릭 및 전환을 트레이트로 캡처할 수 있습니다.
+seo-description: 실행 가능한 로그 파일을 사용하면 광고 서버 로그 파일에서 미디어 신호를 캡처하여 Audience Manager에서 트레이트를 만들 수 있습니다. 픽셀을 추가하지 않고도 광고 서버에서 노출, 클릭 및 전환을 트레이트로 캡처할 수 있습니다.
 seo-title: 실행 가능 로그 파일
 solution: Audience Manager
 title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
+source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
 
 >[!IMPORTANT]
 >
-> 2019년 말, 새로운 광고 서버에 대한 가용성 확장을 [!UICONTROL Actionable Log Files] 시작할 예정입니다. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> 2020년 초부터는 새로운 광고 서버에 대한 가용성 확대가 [!UICONTROL Actionable Log Files] 시작됩니다. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## 실행 가능한 로그 파일 작업 {#working-with-actionable-log-files}
 
@@ -148,7 +148,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 평균 크기의 200만 줄의 [!DNL DCM] 로그 파일의 경우 실행 가능한 신호로 생성된 모든 트레이트는 로그를 처리한 후 약 1시간 이내에 실현됩니다.
 
->[!NOTE] {importance="high"}
+>[!NOTE] {importance=&quot;high&quot;}
 >
 >로그에 제공된 이벤트 타임스탬프는 [!DNL DCM] 그대로 유지되고 [!UICONTROL Data Collection Servers]사용자에게 전달됩니다.
 >
@@ -249,7 +249,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 신호 검색 인터페이스에서 들어오는 실행 가능한 신호를 볼 [수](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) 있습니다.
 
-대상 **데이터** (1) **&gt;** 신호 **(2) &gt;** 검색 **(3)으로** 이동하고 실행 가능한로그 파일(4) 필터를 선택합니다.
+대상 **데이터** (1) **>** 신호 **(2)** > **검색** (3)으로이동하고 실행 가능한로그 파일(4) 필터를 선택합니다.
 
 ![UI의 실행 가능한 신호](/help/using/integration/assets/alf-in-signals.png)
 
@@ -260,7 +260,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## 사용 사례 {#use-cases}
 
-구현의 [!UICONTROL Actionable Log Files] 한 가지 이점은 실행 가능한 신호가 포함된 [규칙 기반의 트레이트에](../../features/segments/recency-and-frequency.md) 최근 [및 빈도](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) 제어를 적용할 수 있다는 것입니다. 예를 들어 미디어 캠페인 내에서 특정 크리에이티브를 사용자가 표시하는 횟수를 주파수로 제한할 수 있습니다. 이 [작업을 수행하는 방법에 대한 자세한 내용은](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) "즉각적인 장치 간 억제" 보고서를 참조하십시오. 기타 사용 사례는 다음과 같습니다.
+구현의 [!UICONTROL Actionable Log Files] 한 가지 이점은 실행 가능한 신호가 포함된 [규칙 기반의 트레이트에](../../features/segments/recency-and-frequency.md) 최근 [및 빈도](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) 제어를 적용할 수 있다는 것입니다. 예를 들어 미디어 캠페인 내에서 특정 크리에이티브를 사용자가 표시하는 횟수를 주파수로 제한할 수 있습니다. 이 [작업을 수행하는 방법에 대한 자세한 내용은](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) &quot;즉각적인 장치 간 억제&quot; 보고서를 참조하십시오. 기타 사용 사례는 다음과 같습니다.
 
 ### 사용자 리타겟팅
 

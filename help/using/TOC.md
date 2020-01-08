@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -348,7 +348,6 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
       + [일괄 관리 도구 문제 해결 팁](reference/bulk-management-tools/bulk-troubleshooting.md)
       + [일괄 관리 도구 용어](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID가 DPID 및 DPUUID 대체](reference/cid.md)
-   + [용어 설명](reference/aam-glossary.md)
    + [데이터 배달 및 파일 처리 시간이 보고서에 미치는 영향](reference/reporting-file-transfer-timeframe.md)
    + [Audience Manager의 ID 인덱스](reference/ids-in-aam.md)
    + [키-값 쌍 설명](reference/key-value-pairs-explained.md)
@@ -391,3 +390,4 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + [2017 설명서 업데이트](docs-updates/docs-2017.md)
    + [2016 설명서 업데이트](docs-updates/docs-2016.md)
    + [2015 설명서 업데이트](docs-updates/docs-2015.md)
++ [용어 설명](reference/aam-glossary.md)

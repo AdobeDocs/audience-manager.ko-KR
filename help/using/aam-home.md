@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -27,7 +27,6 @@ source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
      <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">사용자 기반 대상</a> </li>
      </ul> </p> <p>2019 <a href="docs-updates/docs-2019.md"> 설명서 업데이트를 참조하십시오</a>. </p> 
-     <p>Audience Manager를 처음 사용하는 경우 용어집 <a href="reference/aam-glossary.md"> 및 ID</a> <a href= "reference/ids-in-aam.md">인덱스를 참조하십시오.</a></p>
      <br> 
      <p> <b>공동 작업 문서</b> </p>
      <p>Adobe는 모든 독자들의 문서에 대한 지원을 환영합니다. 공동 작업 <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">가이드 개요를</a> 참조하여 공동 작업을 시작하는 방법을 알아보십시오.</p>
@@ -43,7 +42,8 @@ source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe 트레이닝 및 인증</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud 제품 설명서 홈</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager 학습 및 지원</a> </li> 
-     </ul> </p> </td>
+     </ul> </p> 
+     <p> <b>용어집 및 ID 색인</b> </p><p>Audience Manager를 처음 사용하는 경우 용어집 <a href="reference/aam-glossary.md"> 및 ID</a> <a href= "reference/ids-in-aam.md">인덱스를 참조하십시오.</a></p></td>
   </tr> 
  </tbody> 
 </table>

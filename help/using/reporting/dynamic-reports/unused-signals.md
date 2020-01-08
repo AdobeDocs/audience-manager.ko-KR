@@ -6,22 +6,22 @@ solution: Audience Manager
 title: 미사용 신호 보고서
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
 
 ---
 
 
 # 미사용 신호 보고서{#unused-signals-report}
 
-이 보고서는 인벤토리에서 수집되고 Audience Manager로 전송된 모든 사용되지 않은 정보의 빈도 수를 반환합니다.
+이 보고서는 인벤토리에서 수집되고 Audience Manager로 전송된 모든 사용되지 않은 정보의 빈도 수를 반환합니다. 이 보고서에 액세스하려면 Analytics > 대상 보고서 > **기타 보고서 > 사용되지 않는 신호로 이동합니다**.
 
-<!-- 
+>[!NOTE]
+>
+>&quot;대상 보고서에 대한 액세스 권한이 없습니다.&quot;라는 메시지가 표시되면 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하여 보고서를 프로비저닝하십시오.
 
-c_unused_signals.xml
+![미사용 신호 보고서 스크린샷](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## 미사용 신호 보고서
+## 개요
 
 신호는 [!DNL Audience Manager] 키-값 쌍 [(예:](../../reference/key-value-pairs-explained.md) `color=blue, price>100, gender=female`등)의 형태로 전달된 웹 사이트의 정보입니다.
 
@@ -45,7 +45,7 @@ c_unused_signals.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>트레이트 균일성 보장 또는 단일 키에 관련 값 추가</b> </p> </td> 
-   <td colname="col2"> <p>보고서를 검토하여 특정 신호에 대한 다양한 값 변형을 고려합니다. </p> <p>예를 들어 키-값 쌍에 c_state = North Carolina로 정의된 "North Carolina" 상태에 대한 트레이트가 있다고 가정해 봅시다 <code></code>. 이 보고서는 이름 변형을 찾고 트레이트에 추가하는 데 도움이 될 수 있습니다(예: <code> c_state = North Carolina, NC, N.C., NCarolina</code>). 또는 이름 변형을 보고서와 별매하고 모든 사이트에서 동일한 값으로 바꿀 수 있습니다. </p> <p> </p> </td> 
+   <td colname="col2"> <p>보고서를 검토하여 특정 신호에 대한 다양한 값 변형을 고려합니다. </p> <p>예를 들어 키-값 쌍에 정의된 "North Carolina" 상태의 트레이트가 있다고 <code> c_state = North Carolina</code>가정해 봅시다. 이 보고서는 이름 변형을 찾고 트레이트에 추가하는 데 도움이 될 수 있습니다(예: <code> c_state = North Carolina, NC, N.C., NCarolina</code>). 또는 이름 변형을 보고서와 별매하고 모든 사이트에서 동일한 값으로 바꿀 수 있습니다. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>새 트레이트 만들기</b> </p> </td> 

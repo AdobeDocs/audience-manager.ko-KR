@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
+source-git-commit: aebdeb953153f4d1028871966f8da9ee27f58d35
 
 ---
 
@@ -17,16 +17,41 @@ Adobe Audience Manager를 사용하면 고객 데이터 자산을 통합하여 �
 
 Audience Manager를 사용하면 데이터 판매업체, 교환 또는 광고 구매 플랫폼과 연계되지 않습니다. 또한 Audience Manager는 파트너의 데이터 에셋에 대해 완전히 다릅니다. Audience Manager는 여러 데이터 소스를 이용하여 디지털 발행자에게 다양한 타사 데이터와 개인 데이터 협업을 사용할 수 있는 기능을 제공합니다. Adobe 파트너 솔루션 팀에 문의하여 타겟 고객에 대한 정확하고 스마트한 의사 결정에 대한 도움을 받으십시오.
 
-## 작업 내역 및 배경 {#history-and-background}
+## 데이터 관리 플랫폼(DMP)의 세 가지 기능 {#dmp-three-functions}
 
-Audience Manager는 2008년 Demdex로 시작되었습니다. 2011년 Adobe Systems에서 인수했으며 이후 Audience Manager로 다시 브랜딩되었습니다.
+DMP(데이터 관리 플랫폼)의 기능은 아래에 표시된 대로 세 가지 카테고리로 요약할 수 있습니다.
+
+![세 개의 DMP 함수 이미지:데이터 인, 고객 생성, 데이터 출력](/help/using/overview/assets/dmp-functions.png)
+
+**Data In** Audience Manager는 채널 및 장치(웹 분석, CRM, 장치 데이터, 전자 상거래 등)에서 자사 데이터를 수집합니다.
+
+**고객**&#x200B;생성 데이터를 고객 프로파일로 통합하여 다양한 디바이스와 채널에서 전체 고객 상황을 파악할 수 있습니다. 유사 모델을 만들고, 고객 세그먼트와 프로필 그룹을 만들고, 제휴 데이터 소스와 제3자 데이터 소스를 사용하여 보완합니다.
+
+**데이터**&#x200B;아웃고객 세그먼트를 DSP(Demand Side Platform), 캠페인 관리 시스템 및 기타 마케팅 플랫폼으로 푸시하여 활성화합니다.
+
+## 추가 정보 {#more-information}
+
+자세한 내용은 다음 리소스를 참조하십시오.
+* [Audience Manager 개요](https://www.adobe.com/analytics/audience-manager.html)
+* [Audience Manager의 이점](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [Audience Manager 기능](https://www.adobe.com/analytics/audience-manager/features.html)
+
+
+<!--
+
+## History and Background {#history-and-background}
+
+Audience Manager started as Demdex in 2008. It was acquired by Adobe Systems in 2011 and subsequently rebranded as Audience Manager.
 
 ## History {#history}
 
-2008년 이후 Audience Manager(이전 [!UICONTROL Demdex])는 온라인 고객 관리 시장의 선구자였습니다. Audience Manager 서비스는 다이내믹한 멀티채널 온라인 데이터 전략을 지원합니다. 당사의 플랫폼과 서비스는 자동차(AutoTrader), 항공사(American Airlines), 금융 서비스 회사(American Express)에 이르기까지 다양한 업계에서 사용되고 있습니다. Audience Manager는 엔터프라이즈급 기술을 사용하여 규모, 안정성, 분석 및 성능을 제공하여 비즈니스의 성공적인 온라인 비즈니스를 지원합니다. Adobe Audience Manager는 Adobe Experience Cloud와 통합되어 있으므로 디지털 주소 지정 가능한 채널 전반에서 데이터 자산을 중앙에서 관리하고 조치를 취할 수 있습니다.
+Since 2008, Audience Manager (formerly, [!UICONTROL Demdex]) has been a pioneer in the on-line audience management market. Audience Manager services power dynamic, multi-channel online data strategies. Our platform and services are used by an array of diverse industries from automobiles (AutoTrader), to airlines (American Airlines), and financial services companies (American Express). Audience Manager uses enterprise-level technology to provide the scale, reliability, analytics, and performance to help your business succeed online. Audience Manager integrates with the Adobe Experience Cloud to help you centralize, manage, and take action on your data assets across a growing number of digitally addressable channels.
 
-## Audience Manager 및 DMP(Data Management Platform) {#aam-dmp}
+## Audience Manager and its Data Management Platform (DMP) {#aam-dmp}
 
-Audience Manager를 사용하면 데이터 파이프라인을 관리할 수 있습니다. Adobe 서비스는 일반 사용자와 원시 데이터 신호를 멀티채널 마케팅 활동에 사용되는 실제 고객 세그먼트로 변환하는 촉매제입니다. 또한 Audience Manager는 태그 관리 및 고객 분석을 위한 툴을 제공하며 클라이언트와 소비자의 개인 정보 및 데이터 보안 요구 사항을 동시에 충족할 수 있습니다.
+Audience Manager helps you manage your data pipeline. Our service is a catalyst that transforms generic users and raw data signals into actual audience segments used for multi-channel marketing efforts. Additionally, Audience Manager provides tools for tag management and audience analytics while simultaneously meeting the privacy and data security needs of clients and consumers.
 
 ![](assets/am_overview_80.png)
+
+
+-->

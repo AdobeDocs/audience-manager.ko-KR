@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: aebdeb953153f4d1028871966f8da9ee27f58d35
+source-git-commit: a13c64eb45fdbcb311bfecdb39b3203523d6b399
 
 ---
 
@@ -23,11 +23,21 @@ DMP(데이터 관리 플랫폼)의 기능은 아래에 표시된 대로 세 가�
 
 ![세 개의 DMP 함수 이미지:데이터 인, 고객 생성, 데이터 출력](/help/using/overview/assets/dmp-functions.png)
 
-**Data In** Audience Manager는 채널 및 장치(웹 분석, CRM, 장치 데이터, 전자 상거래 등)에서 자사 데이터를 수집합니다.
+**데이터 인**
 
-**고객**&#x200B;생성 데이터를 고객 프로파일로 통합하여 다양한 디바이스와 채널에서 전체 고객 상황을 파악할 수 있습니다. 유사 모델을 만들고, 고객 세그먼트와 프로필 그룹을 만들고, 제휴 데이터 소스와 제3자 데이터 소스를 사용하여 보완합니다.
+Audience Manager는 채널 및 장치(웹 분석, CRM, 디바이스 데이터, 전자 상거래 등)에서 자사 데이터를 수집합니다.
 
-**데이터**&#x200B;아웃고객 세그먼트를 DSP(Demand Side Platform), 캠페인 관리 시스템 및 기타 마케팅 플랫폼으로 푸시하여 활성화합니다.
+<br> 
+
+**고객 제작**
+
+데이터를 고객 프로파일로 통합하여 다양한 디바이스와 채널에서 고객의 전체 상황을 파악할 수 있습니다. 유사 모델을 만들고, 고객 세그먼트와 프로필 그룹을 만들고, 제휴 데이터 소스와 제3자 데이터 소스를 사용하여 보완합니다.
+
+<br> 
+
+**데이터 출력**
+
+고객 세그먼트를 DSP(광고 구매 플랫폼), 캠페인 관리 시스템 및 기타 마케팅 플랫폼으로 푸시하여 활성화합니다.
 
 ## 추가 정보 {#more-information}
 

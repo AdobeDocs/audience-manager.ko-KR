@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 주요 변수의 접두사 요구 사항
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -39,11 +39,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Audience Manager <span class="keyword"> 수준에서</span> . 이 데이터는 Audience Manager 에코시스템에서 <span class="keyword"> 동일합니다</span> . 자세한 <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> 목록은 DCS API 호출에</a> 대해 지원되는 속성을 참조하십시오. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Audience Manager <span class="keyword"> 수준에서</span> . 이 데이터는 Audience Manager 에코시스템에서 <span class="keyword"> 동일합니다</span> . 자세한 <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> 목록은 DCS API 호출에</a> 대해 지원되는 속성을 참조하십시오. <p>이 접두사를 사용하는 신호는 신호 검색에서 <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">표시되지 않습니다</a>.</p></p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>여기에는 HTTP <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> 헤더</a> 정보가 포함되어 있습니다. 헤더 매개 변수(예: <code> referer</code>,<code> IP</code><code> accept-language</code>, 등)를 포함합니다. </p> <p> <p>참고:9.0 이전 버전의 DIL을 사용하는 고객의 경우 <code> h_referer</code> 신호를 사용한 데이터 수집은 Safari 브라우저에서 작동하지 않습니다. ITP 2.0 <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> 이</a>도입되어 Safari 브라우저는 demdex.net 도메인을 추적기로 분류할 수 있으며 전체 URL이 아닌 원본을 포함하도록 데이터 수집 요청에서 레퍼러를 자를 자를 자를 자를 자를 자를 자를 자를 수도 있습니다. 최신 <a href="../../dil/dil-overview.md#get-implement-dil-code">DIL 버전에 대한 DIL 코드</a> 가져오기 및 구현을 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>여기에는 HTTP <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> 헤더</a> 정보가 포함되어 있습니다. 헤더 매개 변수(예: <code> referer</code>,<code> IP</code><code> accept-language</code>, 등)를 포함합니다. </p> <p> <p>참고:9.0 이전 버전의 DIL을 사용하는 고객의 경우 <code> h_referer</code> 신호를 사용한 데이터 수집은 Safari 브라우저에서 작동하지 않습니다. ITP 2.0 <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> 이</a>도입되어 Safari 브라우저는 demdex.net 도메인을 추적기로 분류할 수 있으며 전체 URL이 아닌 원본을 포함하도록 데이터 수집 요청에서 레퍼러를 자를 자를 자를 자를 자를 자를 자를 자를 수도 있습니다. 최신 <a href="../../dil/dil-overview.md#get-implement-dil-code">DIL 버전에 대한 DIL 코드</a> 가져오기 및 구현을 참조하십시오.<p>이 접두사를 사용하는 신호는 신호 검색에서 <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">표시되지 않습니다</a>.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 

@@ -5,7 +5,7 @@ seo-title: 키-값 쌍별 검색 신호
 title: 키-값 쌍별 검색 신호
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -32,6 +32,10 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 이 검색은 동일한 호출에서 세 개의 필터 모두에 해당하는 결과만 반환합니다. `c_creative == "12345"``AND``c_product == "smartphone"``AND``c_location == "europe"`요.
 
 ![](assets/signals-search.png)
+
+## 신호 검색에서 제외된 신호 {#excluded-signals}
+
+Audience Manager에서 사용하고 `d_` 및 `h_` 접두사가 접두사로 사용한 주요 변수는 에 의해 표시되지 않습니다 [!UICONTROL Signals Search]. 자세한 [내용은 주요 변수의 접두사](../../traits/trait-variable-prefixes.md) 요구 사항을 참조하십시오.
 
 ## 대소문자 구분 및 검색 자동 완성 {#case-insensitivity}
 

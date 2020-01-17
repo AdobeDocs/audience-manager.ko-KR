@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 데이터 개인 정보 개요
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -30,9 +30,9 @@ GDPR( [General Data Protection Regulation)](https://eugdpr.org/) 에서는 액�
 
 Audience Manager는 GDPR을 준수하기 위해 데이터 액세스 및 삭제 [요청을](data-privacy-requests.md)지원합니다.
 
-2020 [년 1월 1일부터](https://www.caprivacy.org/about)발효되는 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 거주자에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아 주에서 사업을 수행하는 특정 업체에 데이터 보호 책임을 부과할 예정입니다.
+2020 [년 1월 1일부터](https://www.caprivacy.org/about)시행된 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 거주자에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아 주에서 사업을 수행하는 특정 업체에 데이터 보호 책임을 부과합니다.
 
-CPA는 캘리포니아 거주자에게 개인 데이터에 액세스하고 삭제할 수 있는 권리, 그리고 개인 데이터의 판매 또는 공개 여부(그리고 누구에게) 등을 알려 주는 새로운 데이터 개인정보 보호 권한을 제공합니다. CPA를 예상하고 Audience Manager는 CCPA 액세스 및 삭제 [요청을](data-privacy-requests.md)지원합니다.
+CPA는 캘리포니아 거주자에게 개인 데이터에 액세스하고 삭제할 수 있는 권리, 그리고 개인 데이터가 판매 또는 공개(및 누구에게)되었는지 알 수 있는 권리 등 새로운 데이터 개인정보 보호 권한을 제공합니다. Audience Manager는 CCPA를 준수하기 위해 CPA 액세스 및 삭제 [요청을](data-privacy-requests.md)지원합니다.
 
 자세한 내용은 [Adobe](https://www.adobe.com/privacy/opt-out.html) 개인 정보 보호 센터를 참조하십시오.
 

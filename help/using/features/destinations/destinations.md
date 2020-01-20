@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 대상
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 431a254f1a70958db29621a59acc6239d2a6b005
+source-git-commit: e141d04201b94bac30cdbe97818cb8eb91ebbaea
 
 ---
 
@@ -46,7 +46,6 @@ Audience Manager에서 대상은 타사 시스템(광고 서버, [!DNL DSP]광�
 | 대상 유형 | 일반적으로 | 예 | 고려 사항 |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | 데이터를 다른 Adobe Experience Cloud 솔루션으로 보내야 합니다. | Adobe Analytics로 데이터 보내기 |  |
-| **[!UICONTROL People-Based Destinations]** | Facebook과 같은 사람 기반 환경으로 고객 세그먼트를 보내야 합니다. | 구매 이력을 바탕으로 기존 고객에게 개인화된 제안 제공 | 대상 타깃팅은 해시된 식별자를 통해 수행됩니다. 사람 [기반 대상 보기](people-based-destinations-overview.md) |
+| **[!UICONTROL People-Based Destinations]** | Facebook과 같은 사람 기반 환경으로 고객 세그먼트를 보내야 합니다. | 구매 이력을 바탕으로 기존 고객에게 개인화된 제안 제공 | 대상 타깃팅은 해시된 식별자를 통해 수행됩니다. 사람 [기반 대상을 참조하십시오](people-based-destinations-overview.md). |
 | **[!UICONTROL Device-Based Destinations]**(**&#x200B;서버 간&#x200B;**) | <ul><li>즉각적인 데이터 전송이 필요하지 않습니다.</li><li>데이터를 수집하여 자격 조건을 갖춘 사용자로 구성된 대규모 고객 풀을 구축할 수 있습니다.</li></ul> | 시간(시간 또는 일)에 따른 데이터를 수집하여 나중에 실행되도록 캠페인 세트에 사용합니다. | <ul><li>새 사이트 방문자와 이전 사이트 방문자에 대한 데이터를 전송합니다. </li><li>방문자가 다른 세그먼트에 대한 자격을 갖추기 위해 다시 볼 필요가 없습니다.</li></ul> |
 | **[!UICONTROL Custom Destinations]**(** URL **또는**&#x200B;쿠키&#x200B;**) | 대상이 적격한 사용자에 대해 즉시 조치를 취할 수 있도록 데이터를 즉시 전송해야 합니다. | 티켓 구매 사이트에서 데이터 전송 URL 또는 쿠키 대상을 사용하여 사용자 자격을 확인하고 즉시 다시 타깃팅합니다. | <ul><li>새 방문자에 대한 데이터만 전송합니다. </li><li>방문자가 세그먼트에 대한 자격을 갖추려면 다시 방문자를 확인해야 합니다.</li></ul> |
-

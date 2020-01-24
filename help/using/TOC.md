@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
+source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
 
 ---
 
@@ -327,8 +327,7 @@ source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
       + [Audience Manager와 Adobe Experience Platform 간의 고객 공유](integration/integration-aep/aam-aep-audience-sharing.md)
    + 다른 Experience Cloud 솔루션과 통합 {#integration-other-solutions}
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
-      + [대상 관리 모듈 구현](integration/integration-other-solutions/audience-management-module.md)
-      + [서버측 전달(관리 안내서)](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Adobe Analytics에서 Audience Manager로 데이터를 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
       + [Adobe Analytics 세그먼트를 Experience Cloud에 게시](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)

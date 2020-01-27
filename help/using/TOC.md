@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
+source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
 
 ---
 
@@ -384,6 +384,7 @@ source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
    + [문제가 있을 경우](/help/using/help-legal/help-problem.md)
    + [연락처 및 법적 정보](/help/using/help-legal/help-legal-contact.md)
 + 설명서 업데이트{#documentation-updates}
+   + [2020 설명서 업데이트](docs-updates/docs-2020.md)
    + [2019 설명서 업데이트](docs-updates/docs-2019.md)
    + [2018 설명서 업데이트](docs-updates/docs-2018.md)
    + [2017 설명서 업데이트](docs-updates/docs-2017.md)

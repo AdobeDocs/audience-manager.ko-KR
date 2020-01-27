@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 대상 관리 모듈 구현
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
+source-git-commit: 7e8ba292f2f901b1323d30d682066b49df885a0c
 
 ---
 
@@ -19,10 +19,6 @@ source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
 >[!TIP]
 >
 >데이터를 Audience Manager [!UICONTROL Adobe Launch] [!UICONTROL Analytics] 로 전달하는 데 사용하는 것이 좋습니다. 을 [!UICONTROL Launch]사용하면 이 페이지에 표시된 것처럼 코드를 수동으로 복사하지 않아도 [!UICONTROL AppMeasurement]됩니다.
-
->[!NOTE]
->
->이 페이지의 지침은 Adobe Digital Tag [Manager(DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) 또는 기타 태그 관리 솔루션을 사용한 구현을 참조하며, Adobe Launch를 ** 제외한 [모든](https://docs.adobe.com/content/help/en/launch/using/overview.html)태그 관리 솔루션을참조합니다. Adobe Launch를 사용하는 것이 좋습니다. 을 [!DNL Launch]사용하면 이 페이지에 표시된 것처럼 코드를 수동으로 복사하지 않아도 [!UICONTROL AppMeasurement]됩니다.
 
 ## 전제 조건 {#prereqs}
 

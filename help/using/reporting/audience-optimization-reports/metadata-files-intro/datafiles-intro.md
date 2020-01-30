@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대상 최적화 보고서 및 실행 가능한 로그 파일을 위한 데이터 파일
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ## 개요 {#overview}
 
-적절한 이름 및 형식 지정 데이터 파일을 사용하면 노출, 클릭 또는 전환 데이터를 대상 최적화 [보고서로 가져올 수 있습니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). 이 기능은 통합되지 않은 파트너와 함께 작업하고 해당 보고서 세트에서 해당 데이터를 사용하여 작업하려는 경우 유용합니다. [!DNL Audience Manager] 이 프로세스에서는 노출, 클릭 및 전환 데이터를 위해 별도의 파일이 필요합니다. 이러한 이벤트를 하나의 파일로 혼합하지 마십시오.
+적절한 이름의 형식 데이터 파일을 사용하면 노출, 클릭 또는 전환 데이터를 대상 최적화 [보고서로 가져올 수 있습니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). 이 기능은 통합되지 않은 파트너와 함께 작업하고 해당 보고서 세트에서 해당 데이터를 사용하여 작업하려는 경우 유용합니다. [!DNL Audience Manager] 이 프로세스에서는 노출, 클릭 및 전환 데이터를 위해 별도의 파일이 필요합니다. 이러한 이벤트를 하나의 파일로 혼합하지 마십시오.
 
 데이터 파일에는 메타데이터 파일이 있어야 합니다. 메타데이터 파일 내용은 데이터 파일 정보를 보고서 메뉴에서 읽을 수 있는 관련 레이블과 일치시킵니다. 자세한 내용은 메타데이터 파일에 [대한 개요 및 매핑을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -141,9 +141,13 @@ source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 임프레션, 클릭 또는 전환 데이터 파일을 [!DNL Audience Manager] 계정에 대한 Amazon S3 디렉토리로 업로드합니다. 배달/디렉토리 경로, 파일 처리 시간 및 업데이트에 대한 자세한 내용은 이 섹션을 참조하십시오.
 
+>[!IMPORTANT]
+>
+> 데이터 파일에 대한 [!DNL Amazon S3] 디렉토리를 설정하려면 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+
 **배달 경로 구문 및 예**
 
-데이터는 Amazon S3 디렉토리의 각 고객에 대한 별도의 네임스페이스에 저장됩니다. 파일 경로는 아래에 표시된 구문을 따릅니다. Note, *italics* indicates a variable placeholder. 다른 요소는 상수 또는 키이며 변경되지 않습니다.
+데이터는 [!DNL Amazon S3] 디렉토리에 있는 각 고객에 대한 별도의 네임스페이스에 저장됩니다. 파일 경로는 아래에 표시된 구문을 따릅니다. Note, *italics* indicates a variable placeholder. 다른 요소는 상수 또는 키이며 변경되지 않습니다.
 
 **구문:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>파일 유형</i>_<i>yyyymmdd</i></code></pre>
 
@@ -163,7 +167,7 @@ source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Audience Manager 고객 ID가 포함된 <span class="keyword"> 이</span> 키-값 쌍입니다. </p> </td> 
+   <td colname="col2"> <p>이 키-값 쌍에는 Audience Manager <span class="keyword"> 고객 ID가</span> 포함되어 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 메타데이터 파일에 대한 개요 및 매핑
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 개요 {#overview}
 
-메타데이터 및 사용 방법에 대한 검토 메타데이터 파일에는 데이터 파일이 있어야 합니다. 메타데이터 파일 내용은 데이터 파일 정보를 보고서 메뉴에서 읽을 수 있는 관련 레이블과 일치시킵니다. 자세한 내용은 대상 최적화 [보고서용 데이터 파일을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+메타데이터 및 사용 방법에 대한 검토 메타데이터 파일에는 데이터 파일이 있어야 합니다. 메타데이터 파일 내용은 데이터 파일 정보를 보고서 메뉴에서 읽을 수 있는 관련 레이블과 일치시킵니다. 자세한 내용은 대상 최적화 [보고서 및 실행 가능한 로그 파일을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### 메타데이터 파일에는 다른 데이터에 대한 데이터가 들어 있습니다.
 
@@ -31,7 +31,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 메타데이터 파일은 숫자 ID를 읽을 수 있는 이름에 연결해야 합니다. 예를 들어 이벤트 호출에는 다음과 같은 키-값 쌍에 크리에이티브 ID가 포함되어 있다고 가정해 보십시오. `d_creative:1234`Adobe 메타데이터 파일이 없으면 이 크리에이티브가 옵션 메뉴에 1234로 표시됩니다.
 
-그러나 제대로 포맷된 메타데이터 파일은 이 크리에이티브를 보고서에서 읽고 인식할 수 있는 이름인 "광고주 Creative A"와 같은 실제 이름으로 연결할 수 있습니다.
+그러나 제대로 포맷된 메타데이터 파일은 이 크리에이티브를 보고서에서 읽고 인식할 수 있는 이름인 &quot;광고주 Creative A&quot;와 같은 실제 이름으로 연결할 수 있습니다.
 
 ### 메타데이터 파일이 언제 필요합니까
 

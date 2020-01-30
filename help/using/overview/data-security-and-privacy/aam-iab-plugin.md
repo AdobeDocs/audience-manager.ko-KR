@@ -5,7 +5,7 @@ seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 translation-type: tm+mt
-source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ## 개요
 
-사용자와 관련된 개인 정보 보호 의무의 중요한 측면은 개인 데이터가 사용되는 방법(즉, "목적") 및 사용되는 대상(즉, "회사")에 대한 사용자의 선택을 획득 및 제공하는 것입니다. 
+사용자와 관련된 개인 정보 보호 의무의 중요한 측면은 개인 데이터가 사용되는 방법(즉, &quot;목적&quot;) 및 사용되는 대상(즉, &quot;회사&quot;)에 대한 사용자의 선택을 획득 및 제공하는 것입니다. 
 
 Adobe는 [옵트인 기능](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html) 및 [IAB 투명성 및 동의 프레임워크(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다.
 
@@ -40,7 +40,7 @@ Audience Manager에서 IAB TCF를 사용하려면 다음 전제 조건을 충족
 1. Experience Cloud ID Service(ECID) 버전 4.1 이상을 사용해야 합니다. [최신 ECID 릴리스를 다운로드하십시오](https://github.com/Adobe-Marketing-Cloud/id-service/releases) .
 1. 여기에서 다운로드할 수 있는 DIL(Audience Manager Data Integration Library) 버전 9.0 이상을 사용해야 [합니다](https://github.com/Adobe-Marketing-Cloud/dil/releases). Audience Manager [설명서에서](../..//dil/dil-overview.md)DIL에 대해 알아보십시오.
 1. 또는 SSF(서버측 전달)를 사용하여 데이터를 Audience Manager로 가져오는 경우 최신 버전의 AppMeasurement로 업그레이드해야 합니다. Analytics 코드 관리자를 사용하여 [AppMeasurement를 다운로드합니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
-1. 귀하는 IAB TCF를 지원하고 IAB TCF에 등록된 CMP(Consent Management Platform) 또는 자체 CMP를 사용하고 있어야 합니다. IAB 프레임워크에 [등록된 CMP 목록을 참조하십시오](https://advertisingconsent.eu/cmp-list/).
+1. IAB TCF를 지원하고 IAB TCF에 등록된 CMP(Consent Management Platform)를 사용하고 있어야 합니다. IAB 프레임워크에 [등록된 CMP 목록을 참조하십시오](https://advertisingconsent.eu/cmp-list/).
 
 ## 권장 사항 및 구현 방법 {#recommendations}
 
@@ -129,7 +129,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 ## IAB TCF를 지원하는 정품 인증 파트너 {#aam-activation-partners}
 
-IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF를 지원하는 정품 인증 파트너에 대한 자세한 내용은 파트너 **[Excel 시트를](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)**&#x200B;참조하십시오.
+IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF를 지원하는 정품 인증 파트너에 대한 자세한 내용은 디바이스 기반의 [대상](/help/using/features/destinations/device-based-destinations-list.md)목록을 참조하십시오.
 
 ## IAB 구현 테스트 {#test-iab-implementation}
 

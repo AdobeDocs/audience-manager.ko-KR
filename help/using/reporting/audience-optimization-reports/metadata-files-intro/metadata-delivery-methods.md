@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 메타데이터 파일에 대한 배달 방법
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,10 @@ source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
 # 메타데이터 파일에 대한 배달 방법{#delivery-methods-for-metadata-files}
 
 Audience Manager 계정의 특수 [!DNL Amazon S3] 디렉토리로 메타데이터 파일을 전송하거나 업데이트합니다. 배달/디렉토리 경로, 파일 처리 시간 및 업데이트에 대한 자세한 내용은 이 섹션을 참조하십시오.
+
+>[!IMPORTANT]
+>
+> Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하여 메타데이터 파일을 시작하고 [!DNL Amazon S3] 디렉토리를 설정하십시오.
 
 ## 배달 경로 구문 및 예 {#syntax}
 

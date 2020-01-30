@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 1eeab9f3e4d87131323cf5a5a4f4f8702f92c120
+source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 1eeab9f3e4d87131323cf5a5a4f4f8702f92c120
      <li><a href="features/segments/trait-recommendations.md">Adobe Sensei 기반의 Audience Marketplace 데이터를 위한 지능형 추천</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">프로필 병합 규칙 개선 사항</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">벌크 관리 도구 업데이트</a></li>
-     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
-     <li><a href="features/destinations/people-based-destinations-overview.md">사용자 기반 대상</a> </li>
-     </ul> </p> <p>2019 <a href="docs-updates/docs-2019.md"> 설명서 업데이트를 참조하십시오</a>. </p> 
+     </ul> </p> <p>2020 <a href="docs-updates/docs-2020.md"> 설명서 업데이트를 참조하십시오</a>. </p> 
      <br> 
      <p> <b>공동 작업 문서</b> </p>
      <p>Adobe는 모든 독자들의 문서에 대한 지원을 환영합니다. 공동 작업 <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">가이드 개요를</a> 참조하여 공동 작업을 시작하는 방법을 알아보십시오.</p>

@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: 데이터 개인 정보 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 다음 두 가지 방법으로 Audience Manager에서 소비자 데이터에 액세스하고 삭제할 개별 요청을 제출할 수 있습니다.
 
 * 개인 정보 [서비스 UI를 통해](https://gdprui.cloud.adobe.io/). 설명서를 [참조하십시오](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Through the **[!DNL Privacy Service API]**. 설명서 [및 API 참조 설명서를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) 여기에서 [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)참조하십시오.
+* Through the **[!DNL Privacy Service API]**. 설명서[및 API 참조 설명서를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)여기에서[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)참조하십시오.
 
-개별 데이터 개인 정보 보호 요청을 전송할 때 Audience Manager 식별자 **[섹션에 설명된 대로 해당](data-privacy-ids.md)** 네임스페이스 ID(데이터 소스 ID)와 함께 모든 Audience Manager ID를 제출할 수 있습니다.
+개별 데이터 개인 정보 보호 요청을 전송할 때 Audience Manager 식별자 **[섹션에 설명된 대로 해당](data-privacy-ids.md)**네임스페이스 ID(데이터 소스 ID)와 함께 모든 Audience Manager ID를 제출할 수 있습니다.
 
 개인정보 보호 [서비스는](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) 두 가지 유형의 요청을 지원합니다.데이터 액세스 및 데이터 삭제 요청
 
@@ -170,7 +170,7 @@ Audience Manager `uuid`의 ID `mid` 인덱스와 자세한 내용을 참조하�
 
 이러한 경우 Audience Manager를 통해 자동 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-파트너 Excel [시트를](assets/AAM-Partners-December2019.xlsx) 다운로드하여 Audience Manager 활성화 파트너가 세그먼트 해제를 지원하는 경우를 확인하십시오.
+장치 기반 대상 [목록을](/help/using/features/destinations/device-based-destinations-list.md) 참조하여 Audience Manager 활성화 파트너가 세그먼트 해제를 지원하는지 확인하십시오.
 
 ## 데이터 수정 요청 {#correction}
 

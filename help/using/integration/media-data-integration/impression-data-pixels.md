@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
@@ -16,10 +16,6 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 Audience Manager로 미디어 데이터를 전송하는 한 가지 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager로 보냅니다.
 
 이 방법론은 종종 &quot;창의력을 모사화&quot;라고 합니다. 이러한 데이터 포인트는 캠페인의 주요 보고 속성을 기반으로 모든 노출 및 클릭 수를 매핑하고 보고하는 데 사용되는 타사 광고 서버 매크로가 [!DNL Audience Manager] 픽셀 코드에 동적으로 삽입됩니다. 집계된 데이터는 캠페인 성능에 대한 통합된 보기를 제공하고 사용자 지정 전환 경로를 식별하며 고객이 전환으로 이어지는 광고 서버 이벤트의 시퀀스를 개선할 수 있도록 도와줍니다.
-
->[!IMPORTANT]
->
->Audience Manager가 이벤트 호출 시 수신하는 필드를 올바로 해석하고 캠페인 데이터를 Audience Optimization 보고서에서 [](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)렌더링하려면 이러한 필드를 사람이 읽을 수 있는 값으로 매핑하는 메타데이터 파일을 전송해야 합니다. 메타데이터 [파일에 대한 개요 및 매핑을](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 참조하고 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하여 메타데이터 파일에 대한 Amazon S3 디렉토리를 설정하십시오.
 
 ## 이벤트 호출 구문
 
@@ -111,6 +107,10 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 >[!NOTE]
 >
 >클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅 또는 계정 리드로 문의하십시오.
+
+## 추가 기능 - 대상 최적화 보고서
+
+픽셀 호출을 사용하여 대상 최적화 보고서를 [강화할 수 있습니다](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 보고서 [성능을 높이기 위해](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 픽셀을 사용하려는 경우 메타데이터 파일에 대한 개요 및 매핑을 참조하십시오.
 
 >[!MORELIKETHIS]
 >

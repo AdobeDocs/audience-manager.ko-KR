@@ -6,18 +6,14 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 클릭 데이터 캡처
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-클릭 추적을 사용하면 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 수집과 마찬가지로 이벤트 호출은 처리를 위해 Audience Manager 데이터 수집 서버([!UICONTROL DCS])로 전송됩니다. 그러면 방문자가 의도한 웹 주소로 리디렉션됩니다.
-
->[!IMPORTANT]
->
->Audience Manager가 이벤트 호출 시 수신하는 필드를 올바로 해석하고 캠페인 데이터를 Audience Optimization 보고서에서 [](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)렌더링하려면 이러한 필드를 사람이 읽을 수 있는 값으로 매핑하는 메타데이터 파일을 전송해야 합니다. 메타데이터 [파일에 대한 개요 및 매핑을](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 참조하고 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하여 메타데이터 파일에 대한 Amazon S3 디렉토리를 설정하십시오.
+클릭 추적을 사용하면 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 [수집과](/help/using/integration/media-data-integration/impression-data-pixels.md)마찬가지로 이벤트 호출이 처리를 위해 Audience Manager 데이터 수집 서버([!UICONTROL DCS])로 전송됩니다. 그러면 방문자가 의도한 웹 주소로 리디렉션됩니다.
 
 >[!NOTE]
 >
@@ -166,6 +162,11 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 위의 예를 기준으로 브라우저가 다음 내용으로 리디렉션됩니다. [!DNL URL]
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
+
+## 추가 기능 - 대상 최적화 보고서
+
+픽셀 호출을 사용하여 대상 최적화 보고서를 [강화할 수 있습니다](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 보고서 [성능을 높이기 위해](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 픽셀을 사용하려는 경우 메타데이터 파일에 대한 개요 및 매핑을 참조하십시오.
+
 
 >[!MORELIKETHIS]
 >

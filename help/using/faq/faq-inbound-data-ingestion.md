@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 인바운드 고객 데이터 통합 FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
+source-git-commit: 6b9afa7c53f5bc2738f185440160f62a87e0bda1
 
 ---
 
@@ -66,63 +66,10 @@ Removed the Data Translation File bullet from the list above.
 
 **[!DNL Audience Manager]코드를 프로덕션에 배포하기 전에 인바운드 데이터 파일([!DNL .sync]또는[!DNL .overwrite]파일)을 업로드할 수 있습니까?**
 
-* 데이터 공급자가 크로스 장치 [타깃팅에 프로필](../features/profile-merge-rules/merge-rules-overview.md) 링크를 사용하도록 구성된 경우 ID 동기화 직후 타깃팅에 사용할 수 있는 데이터는 일치하는 [!DNL Audience Manager] 방문자 ID를 식별합니다.
+예. 크로스 장치 데이터 소스를 사용하여 업로드한 CRM 데이터를 저장하는 경우 Audience Manager는 항상 데이터를 저장합니다. 실제로 Audience Manager가 오프라인 전용 사용 사례를 허용하는 2019년 10월 실행한 프로필 병합 규칙 개선 사항에 따라 Audience Manager 코드를 프로덕션에 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
 
-* 데이터 공급자가 이 [!UICONTROL Profile Link] 기능을 사용하도록 구성되지 않은 경우, 이전에 동기화되었거나 [!DNL Audience Manager] [!DNL Audience Manager] 방문자 ID에 대응한 인바운드 데이터 파일에서 방문자 ID에 대한 데이터만 처리합니다.
-
-데이터 공급자가 사용하도록 구성되지 않은 다음 사용 사례를 [!UICONTROL Profile Merge]고려하십시오.
-
-<table id="table_1A367ED6D016428FB21B3F3BC261BA98"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 사용 사례 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>사례 1</b> </p> </td> 
-   <td colname="col2"> <p>월요일에 CRM 데이터베이스에서 방문자 ABC로 식별된 방문자가 로그인하고 클라이언트측 ID 동기화를 시작합니다. <span class="keyword"> Audience Manager</span> 는 방문자 ABC와 Audience Manager <span class="keyword"> 방문자 123의</span> 매핑을 저장합니다. </p> <p>화요일, CRM 데이터베이스는 데이터 파일(.sync<span class="filepath"> )을</span>다음 레코드와 함께 Audience Manager <span class="keyword"> </span>서버로 전송합니다. </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
-     </ul> </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> <p> 
-     <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
-      <li id="li_DC4F5E63D8134A29B703BDF264F02F65">저장된 ID 동기화 매핑에서 방문자 ABC를 인식합니다. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> 트레이트와 방문자 123 <code> male</code> 프로필을 <code> luxury_shopper</code> 연결합니다. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>사례 2</b> </p> </td> 
-   <td colname="col2"> <p>월요일, CRM 데이터베이스는 데이터 파일(.sync<span class="filepath"> )을 Audience Manager</span>서버로 푸시하여 <span class="keyword"></span> 다음 레코드를 저장합니다. </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
-     </ul> </p> <p> <span class="keyword"> Audience</span> Manager에 이 방문자(또는 관련 방문자 ID)의 레코드가 없으므로 이 레코드가 처리되지 않습니다. </p> <p>화요일에 방문자 DEF가 로그인합니다. 이 작업은 해당 방문자에 대한 첫 번째 클라이언트측 ID 동기화를 시작합니다. 이 작업은 방문자 DEF를 Audience Manager ID <span class="keyword"> 456에</span> 매핑합니다. 하지만 이 방문자는 프로필과 연결된 CRM 데이터를 가지고 있지 않습니다. 따라서 Audience Manager <span class="keyword"> 는</span> 다시 돌아가 이전 파일을 다시 처리하지 않습니다. </p> <p>수요일에는 CRM 데이터베이스가 다른 데이터 파일을 Audience <span class="keyword"> Manager</span> 서버로 푸시합니다. </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
-     </ul> </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> 
-    <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
-     <li id="li_64D64A16E99E492BAAE1080867F854A9">저장된 ID 동기화 매핑에서 방문자 DEF를 인식합니다. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">트레이트 <code> female</code>및 <code> paris</code>방문자 456 프로필을 <code> wine_enthusiast</code> 연결합니다. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>사례 3</b> </p> </td> 
-   <td colname="col2"> <p>월요일에 Audience Manager <span class="keyword"> 서버는</span> 다음 레코드가 있는 두 개의 파일을 받습니다. </p> <p> <code> .sync</code> 다음을 포함하는 파일: </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> <code> .overwrite</code> 다음을 포함하는 파일: </p> 
-    <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
-     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
-    </ul> <p><span class="keyword"> Audience</span> Manager는 이전 ID 동기화에서 방문자 JKL의 매핑된 레코드를 ID 789로 보유합니다. </p> <p>이 경우 Audience Manager <span class="keyword"></span>: </p> 
-    <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
-     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">저장된 ID 동기화 매핑에서 방문자 JKL을 인식합니다. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">트레이트와 방문자 ID <code> female</code> 789 <code> wine_enthusiast</code> 의 프로필을 연결합니다. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">방문자 GHI에 대한 트레이트 연결을 무시합니다. 방문자 ID가 현재 배치에만 동기화되었기 때문입니다. 트레이트를 방문자 GHI와 연결하려면 이후 <code> .overwrite</code> 파일에 트레이트를 포함해야 합니다. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [프로필 병합 규칙 개선 사항 개요](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* 사용자 기반 대상 - [오프라인 전용 데이터를 기반으로 개인화](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -186,8 +133,6 @@ Consider the following use cases in which the data provider is not configured to
 </table>
 
 -->
-
-<br> 
 
 **파일을 언제 전송해야 합니까?**
 

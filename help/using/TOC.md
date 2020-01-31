@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
+source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
 
 ---
 
@@ -373,7 +373,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [API FAQ](faq/faq-api.md)
    + [Audience Lab FAQ](faq/faq-audience-lab.md)
    + [고객 데이터 피드 FAQ](faq/faq-cdf.md)
-   + [고객 지원 - 가장 자주 보고된 문제](/help/using/faq/faq-top-customer-care-issues.md)
    + [데이터 수집 및 제품 통합 FAQ](faq/faq-data-collection.md)
    + [인바운드 고객 데이터 통합 FAQ](faq/faq-inbound-data-ingestion.md)
    + [개인 정보 및 데이터 유지 FAQ](faq/faq-privacy.md)
@@ -386,11 +385,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [개요](/help/using/help-legal/help-legal-overview.md)
    + [문제가 있을 경우](/help/using/help-legal/help-problem.md)
    + [연락처 및 법적 정보](/help/using/help-legal/help-legal-contact.md)
-+ 주요 고객 지원 문제{#top-support-issues}
-   + [개요](/help/using/support-issues/support-issues-overview.md)
-   + [10월 15일경 온보딩 트레이트 인구가 0으로 떨어진 이유는 무엇입니까? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-   + [중복 보고서 페이지에 트레이트 또는 세그먼트가 표시되지 않는 이유는 무엇입니까?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
-   + [읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + 설명서 업데이트{#documentation-updates}
    + [2020 설명서 업데이트](docs-updates/docs-2020.md)
    + [2019 설명서 업데이트](docs-updates/docs-2019.md)

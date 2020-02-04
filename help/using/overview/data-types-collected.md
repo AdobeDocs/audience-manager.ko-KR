@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 수집된 데이터 유형
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
+source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
 
 ---
 
@@ -88,5 +88,4 @@ Audience Manager는 사용 가능한 API 및 데이터 세트를 기반으로 �
 
 많은 클라이언트가 타사 데이터 일치 파트너와 함께 작업하도록 선택할 수 있습니다. 이러한 조직은 등록 요구 사항이 있는 사이트와 관계를 맺고 있으며 등록 네트워크를 기반으로 고객 데이터 파일을 실시간으로 일치시켜 처리할 수 있습니다.
 
-![](assets/data_provider_match_700px.png)
-
+![data-provider-match](assets/data-provider-match.png)

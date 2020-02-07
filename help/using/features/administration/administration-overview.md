@@ -1,6 +1,6 @@
 ---
 description: '[관리] 메뉴 아래의 옵션을 사용하면 Audience Manager 사용자를 만들어 그룹에 할당할 수 있습니다. 한도(트레이트, 세그먼트, 대상 및 모델)를 볼 수도 있습니다.'
-keywords: rbac;RBAC;역할 기반;역할 기반;역할 기반 액세스 제어
+keywords: rbac;RBAC;role based;role-based;role-based access controls
 seo-description: '[관리] 메뉴 아래의 옵션을 사용하면 Audience Manager 사용자를 만들어 그룹에 할당할 수 있습니다. 한도(트레이트, 세그먼트, 대상 및 모델)를 볼 수도 있습니다.'
 seo-title: 관리
 solution: Audience Manager
@@ -8,7 +8,7 @@ title: 관리
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 사용자를 만들고 사용자 세부 사항, 로그인 상태를 [!DNL Audience Manager] 지정하고 사용자를 그룹에 지정합니다.
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Users]**.
+1. 클릭 **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. 을 ![](assets/icon_add.png) 클릭하여 [!UICONTROL Create New User] 페이지를 표시합니다.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **** 사용자 이름:Audience Manager에 대한 고유한 사용자 이름을 지정합니다.
@@ -56,7 +56,7 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 그룹을 만들려면:
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
+1. 클릭 **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
 1. 을 ![](assets/icon_add.png) 클릭하여 [!UICONTROL Group Settings] 페이지를 엽니다.
 1.  [!UICONTROL Group Details]:
    * 그룹 이름을 지정합니다.
@@ -134,3 +134,21 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 **신호**
 
 * `VIEW_ALL_SIGNALS` - 사용자는 데이터 탐색기에서 캡처한 모든 신호를 볼 [수 있습니다](/help/using/features/data-explorer/data-explorer-overview.md).
+
+## 사용 사례 {#use-cases}
+
+### 사용자 액세스 모니터링 {#monitoring-user-access}
+
+[!UICONTROL Role-Based Access Control] 사용자 로그인 상태를 모니터링하여 Audience Manager 인스턴스에 액세스할 수 있는 사용자를 명확하게 파악할 수 있습니다.
+
+비즈니스 요구 사항에 따라 필요에 따라 사용자 계정을 활성화하거나 비활성화할 수 있습니다.
+
+![모니터 사용자 액세스](assets/monitor-user-access.png)
+
+### 중요한 데이터 소스에 대한 액세스 보호 보장 {#protect-sensitive-data-sources}
+
+각 사용자 그룹에 대해 트레이트, 세그먼트 및 대상 [!UICONTROL Role-Based Access Control] 수준에서 구성할 수 있습니다.
+
+이 기능은 사용자가 특정 데이터 세트를 보고, 만들고, 읽고, 쓰고, 편집하는 방법을 관리하고, 사용자가 사용할 수 없도록 데이터 세트에 액세스하는 것을 제한할 수 있도록 도와줍니다.
+
+![접근 보호](assets/access-protection.png)

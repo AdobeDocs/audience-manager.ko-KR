@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
+source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
 
 ---
 
@@ -366,7 +366,7 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
       + [Edge 데이터 센터 이해](reference/system-components/components-edge.md)
    + [코드 및 텍스트 요소에 대한 스타일 규칙](reference/code-style-elements.md)
    + [Audience Manager의 시간대](reference/aam-time-zones.md)
-   + [TLS 1.0 사용 중단](reference/tls-support.md)
+   + [TLS 1.0 및 1.1 사용 중단](reference/tls-support.md)
    + [Demdex 도메인에 대한 호출 이해](reference/demdex-calls.md)
    + [Audience Manager의 방문자 인증 상태](reference/visitor-authentication-states.md)
 + FAQ{#faqs}

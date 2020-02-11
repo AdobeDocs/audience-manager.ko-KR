@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
+source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
 
 Audience Manager와 Adobe Experience Platform 간의 고객 공유 기능을 사용하면 Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 공유할 수 있고 그 반대의 경우도 가능합니다.
 
-Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로파일에 Audience Manager 데이터를 추가하고 Experience Platform [세분화 서비스를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)활용할 수 있습니다.
+Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로파일에 Audience Manager 데이터를 추가하고 Experience Platform [세분화 서비스를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)활용할 수 있습니다.
 
 Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사례에 Experience Platform 세그먼트를 사용할 수 있습니다.
 * 세그먼트에 [타사 데이터](/help/using/overview/data-types-collected.md#third-party-data) 추가;
@@ -46,7 +46,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 
 Audience Manager 트레이트 및 세그먼트는 세그먼트 워크플로우에서 Experience **Platform** 대상에 표시됩니다. Adobe Experience Platform의 Audience Manager 세그먼트 및 트레이트에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [세그멘테이션 서비스 개요](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
+* [세그멘테이션 서비스 개요](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
 * [경험 플랫폼 세그먼트 빌더 사용 안내서](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
 
 <br> 

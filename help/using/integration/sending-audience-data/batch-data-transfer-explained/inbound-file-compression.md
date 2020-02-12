@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 인바운드 데이터 전송 파일에 대한 파일 압축
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -23,7 +23,9 @@ Audience Manager는 압축되지 않은 파일도 지원합니다.
 
 >[!IMPORTANT]
 >
->현재 동일한 인바운드 데이터 파일에서 암호화 및 압축을 지원하지 않습니다. 인바운드 파일을 [암호화하거나](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) 압축하도록 선택할 수 있습니다.
+>현재 동일한 인바운드 데이터 파일에서 암호화 및 압축을 지원하지 않습니다. 인바운드 파일을 [암호화](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) 또는 압축하도록 선택할 수 있습니다.
+>
+> 그러나 PGP 암호에는 내장 압축이 포함되어 있습니다.
 
 ## Amazon S3 압축
 

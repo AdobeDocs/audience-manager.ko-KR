@@ -4,9 +4,9 @@ seo-description: PGP 암호화를 사용하여 데이터 파일을 Audience Mana
 seo-title: 인바운드 데이터 유형에 대한 파일 PGP 암호화
 solution: Audience Manager
 title: 인바운드 데이터 유형에 대한 파일 PGP 암호화
-uuid: 89ace1-0259-48fc-865b-d525ec7822f7
+uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -20,6 +20,8 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >[!IMPORTANT]
 >
 >현재 동일한 인바운드 데이터 파일에서 암호화 및 압축을 지원하지 않습니다. 인바운드 파일을 암호화하거나 [압축하도록](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 선택할 수 있습니다.
+>
+> 그러나 PGP 암호에는 내장 압축이 포함되어 있습니다.
 
 인바운드 데이터 파일을 암호화하려면 아래 설명된 단계를 따르십시오.
 

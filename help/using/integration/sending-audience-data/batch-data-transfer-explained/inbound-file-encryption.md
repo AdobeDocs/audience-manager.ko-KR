@@ -6,33 +6,33 @@ solution: Audience Manager
 title: 인바운드 데이터 유형에 대한 파일 PGP 암호화
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
+source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
 
 ---
 
 
 # 인바운드 데이터 유형에 대한 파일 PGP 암호화{#file-pgp-encryption-for-inbound-data-types}
 
-데이터 파일을 Audience Manager로 보낼 때 [!DNL PGP] 암호화를 사용하여 데이터 파일을 암호화할 수 있습니다.
+데이터 파일을 Audience Manager로 보낼 때 [!DNL PGP] 암호화를 사용하여 암호화할 수 있습니다.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->현재 동일한 인바운드 데이터 파일에서 암호화 및 압축을 지원하지 않습니다. 인바운드 파일을 암호화하거나 [압축하도록](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 선택할 수 있습니다.
+>[!DNL PGP] 암호에는 파일 압축이 포함됩니다. 암호화된 인바운드 파일을 보낼 때 gzip( [!DNL PGP] )을 사용하여 [압축하지](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 않도록`.gz`합니다.
 >
-> 그러나 PGP 암호에는 내장 압축이 포함되어 있습니다.
+>[!DNL PGP] 또한 [압축된](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 암호화된 인바운드 파일은 Audience Manager에서 유효하지 않습니다.
 
 인바운드 데이터 파일을 암호화하려면 아래 설명된 단계를 따르십시오.
 
 1. Audience Manager [공개 키를](./assets/adobe_pgp.pub)다운로드합니다.
-1. 공용 키를 신뢰할 수 있는 스토어로 가져옵니다.
+2. 공용 키를 신뢰할 수 있는 스토어로 가져옵니다.
 
    예를 들어, 명령을 사용하는 [!DNL GPG]경우 다음과 유사할 수 있습니다.
 
    `gpg --import adobe_pgp.pub`
 
-1. 다음 명령을 실행하여 키를 올바르게 가져왔는지 확인합니다.
+3. 다음 명령을 실행하여 키를 올바르게 가져왔는지 확인합니다.
 
    `gpg --list-keys`
 
@@ -44,7 +44,7 @@ source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
    sub   4096R/E3F2A363 2013-11-01
    ```
 
-1. 다음 명령을 사용하여 인바운드 데이터를 암호화합니다.
+4. 다음 명령을 사용하여 인바운드 데이터를 암호화합니다.
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 

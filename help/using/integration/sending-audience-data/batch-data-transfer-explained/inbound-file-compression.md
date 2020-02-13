@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 인바운드 데이터 전송 파일에 대한 파일 압축
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
 
 ---
 
@@ -25,7 +25,7 @@ Audience Manager는 압축되지 않은 파일도 지원합니다.
 >
 >gzip(`.gz`)을 사용하여 압축된 인바운드 파일에 대한 암호화를 지원하지 않습니다.
 >
-> 인바운드 파일을 암호화하고 압축하려면 PGP [암호화를](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)사용합니다. [!DNL PGP] 암호에는 파일 압축이 포함됩니다.
+>인바운드 파일을 암호화하고 압축하려면 PGP [암호화를](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)사용합니다. [!DNL PGP] 암호에는 파일 압축이 포함됩니다.
 
 ## Amazon S3 압축
 
@@ -37,7 +37,7 @@ Audience Manager는 압축되지 않은 파일도 지원합니다.
 
 ## 우수 사례
 
-* 파일을 [!DNL .gzip] 압축해야 합니다(그리고 [!DNL .gz] 파일 확장명이 있어야 합니다).
+* 파일은 [!DNL .gzip] 압축해야 합니다(그리고 [!DNL .gz] 파일 확장명이 있어야 합니다).
 * 압축된 파일의 최대 압축 파일 크기는 1GB입니다. `.gz`
 * 파일 처리 속도가 빠르고 빨라진 최적 분할 크기는 약 1GB 압축되지 않았거나 200-300MB 압축입니다.
 * [!DNL Amazon S3] 업로드된 파일에 고유한 5GB 파일 크기 제한을 적용합니다.

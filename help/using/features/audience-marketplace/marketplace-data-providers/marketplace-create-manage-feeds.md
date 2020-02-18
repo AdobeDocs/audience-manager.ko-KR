@@ -7,14 +7,12 @@ title: 데이터 피드 만들기, 가격 및 관리
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 ---
 
 
 # 데이터 피드 만들기, 가격 및 관리 {#create-price-and-manage-data-feeds}
-
-데이터 피드에는 이름, 설명, 데이터 소스 및 계획 유형이 필요합니다. 피드를 저장하고 활성화할 때까지 피드를 사용할 수 없습니다. &gt; [!UICONTROL Audience Marketplace] 에서 공개 또는 비공개 데이터 피드를 [!UICONTROL My Shared Data]설정합니다. 데이터 판매자에게만 제공됩니다.
 
 ## 공개 또는 비공개 데이터 피드 만들기 {#create-public-private-data-feed}
 
@@ -30,7 +28,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 1. 간단한 설명(최대 255자)을 제공합니다.
 
    적절한 설명은 피드를 정확하게 설명해야 합니다. 예를 들어 마케팅 카테고리, 인구 통계 및 지리적 범위(예: 북미)에 대한 텍스트를 포함할 수 [!DNL US] 있습니다. 설명 텍스트는 검색 가능하며 구매자가 피드를 찾거나 평가할 수 있도록 도와줍니다. 데이터 피드에 가입자를 유치하기 위해서는 유용한 설명이 필요합니다.
-1. 옵션에서 데이터 소스를 **[!UICONTROL Data Source]** 선택합니다.
+1. 옵션에서 데이터 소스를 **[!UICONTROL Data Source]** 선택합니다. 데이터 피드는 단일 데이터 소스로 제한됩니다. 동일한 데이터 피드에 여러 데이터 소스를 할당할 수는 없습니다.
 
    >[!IMPORTANT]
    >
@@ -40,7 +38,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
    피드에는 여러 계획이 포함될 수 있습니다. 플랜에는 여러 사용 사례가 포함될 수 있습니다. 자세한 내용은 데이터 피드에 [대한 계획 유형을 참조하십시오](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
-1. 을 **[!UICONTROL Save]** 클릭하여 활성화하지 *않고* 데이터 비용을 저장합니다.
+1. 데이터 피드를 활성화하지 **[!UICONTROL Save]** 않고 ** 저장하려면 을 클릭합니다.
 1. 데이터 피드를 저장하고 활성화하려면
    1. 슬라이더를 **[!UICONTROL Availability]** 다음으로 **[!UICONTROL Active]**&#x200B;이동합니다.
    1. 클릭 **[!UICONTROL Save]**.

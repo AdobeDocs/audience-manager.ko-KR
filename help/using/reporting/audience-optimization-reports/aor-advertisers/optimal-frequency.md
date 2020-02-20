@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 최적 빈도 보고서
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
+source-git-commit: e197dda9232b1400737a70add2ae0e44ab5e39d7
 
 ---
 
@@ -21,8 +21,8 @@ source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 하지만 전체 전환 비율은 각 노출 빈도 버킷에 따라 증가합니다. 각 버킷에서 더 많은 전환이 생성되므로 전환율(분자)은 가능한 총 전환 수(분모)에 근접하여 % 증가시킵니다.
 
-샘플 보고서에서 볼 수 있듯이, 두 라인 플롯의 교차로는 "최적" 노출 빈도(즉, 고객이 감소하기 전에 제공해야 하는 최적의 노출 횟수)에 대한 안내서를 제공합니다.
+샘플 보고서에서 볼 수 있듯이, 두 라인 플롯의 교차로는 &quot;최적&quot; 노출 빈도(즉, 고객이 감소하기 전에 제공해야 하는 최적의 노출 횟수)에 대한 안내서를 제공합니다.
 
 ## 샘플 보고서
 
-![최적 주파수](assets/optimal-frequency.png)
+![최적 주파수](assets/optimal-frequency1.png)

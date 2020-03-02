@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 빌더의 트레이트 및 세그먼트 모집단 데이터
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
 
 ---
 
@@ -136,11 +136,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> 실시간 모집단(기존)</span> </p> </td> 
-   <td colname="col2"> <p>디바이스 그래프로 연결된 최대 3개의 다른 디바이스 프로파일과 결합할 때 Audience Manager에서 볼 때 세그먼트에 적용할 수 있는 트레이트가 포함되어 있는 현재 프로파일을 통해 실시간으로 표시되는 실제 디바이스 <span class="keyword"> 수입니다</span>. </p> </td>
+   <td colname="col2"> <p>디바이스 그래프로 연결된 최대 100개의 다른 디바이스 프로파일과 결합할 때 Audience Manager에서 볼 때 세그먼트를 평가할 수 있는 트레이트가 포함되어 있는 현재 프로파일과 함께 실시간으로 표시되는 실제 디바이스 <span class="keyword"> 수입니다</span>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> 총 모집단(기존)</span> </p> </td> 
-   <td colname="col2"> <p>장치 그래프로 연결된 최대 3개의 다른 장치 프로파일과 병합했을 때 세그먼트에 대한 자격이 부여된 프로파일이 있는 총 장치 수입니다. </p> </td>
+   <td colname="col2"> <p>장치 그래프로 연결된 최대 100개의 다른 장치 프로파일과 병합했을 때 이 세그먼트에 대한 자격이 부여된 프로파일이 있는 총 장치 수입니다. </p> </td>
   </tr>
  </tbody>
 </table>

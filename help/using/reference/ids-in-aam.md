@@ -22,7 +22,7 @@ Audience Manager는 여러 ID를 사용하여 전송한 데이터를 식별하�
 
 이러한 ID의 대부분은 독립 실행형 이름으로 참조할 수 있지만 대부분의 ID는 DCS 호출을 통해 데이터를 전달할 때 다양한 접두사와 함께 사용됩니다. 이러한 ID 중 일부는 Audience Manager에서 사용자에게 노출되지 않고 사용되지만 다른 ID는 UI(사용자 인터페이스)에도 표시됩니다.
 
-다음 예에서 사용되는 접두사를 이해하려면 DCS API [호출에 지원되는 특성을 참조하십시오.](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+다음 예에서 사용되는 접두사를 이해하려면 DCS API [호출에 지원되는 특성을 참조하십시오](../api/dcs-intro/dcs-api-reference/dcs-keys.md).
 
 ## Audience Manager ID 목록 {#id-list}
 

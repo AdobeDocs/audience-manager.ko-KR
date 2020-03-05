@@ -4,9 +4,9 @@ seo-description: 데이터 파일에는 대상 최적화 보고서와 실행 가
 seo-title: 로그 데이터 및 메타데이터 파일
 solution: Audience Manager
 title: 로그 데이터 및 메타데이터 파일
-uuid: 80aa4bc3-c660-4e65-8c22-2dbb7bddd4f
+uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: 5838eb61158cce10aa02b9286357a4f4abcbcce8
 
 ---
 
@@ -29,8 +29,3 @@ source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 * [메타데이터 파일에 대한 이름 지정 규칙](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [메타데이터 파일에 대한 컨텐츠 형식](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [메타데이터 파일에 대한 배달 방법](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [메타데이터 파일에 대한 상태 업데이트](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
-
-
-
-

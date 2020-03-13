@@ -1,13 +1,13 @@
 ---
 description: 트레이트 자격 또는 트레이트 실현은 트레이트 유형에 따라 Audience Manager에서 다르게 처리됩니다. 트레이트 자격에 대한 자세한 내용은 아래 표를 참조하십시오.
-keywords: 트레이트 자격;트레이트 인식;특성 인식;UTR;총 트레이트 인구;TTP
+keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
 seo-description: 트레이트 자격 또는 트레이트 실현은 트레이트 유형에 따라 Audience Manager에서 다르게 처리됩니다. 트레이트 자격에 대한 자세한 내용은 아래 표를 참조하십시오.
 seo-title: 트레이트 자격 참조
 solution: Audience Manager
 title: 트레이트 자격 참조
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 2f8662aba70254e550bc15417463c3c06492a9d5
 
 ---
 
@@ -32,14 +32,14 @@ source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
   </tr> 
   <tr> 
    <td colname="col1"> <p>온보드 트레이트 </p> </td> 
-   <td colname="col2"> <p>트레이트 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일을 Audience Manager <a href="../../faq/faq-inbound-data-ingestion.md"> 로</a> 가져오며 이는 트레이트 자격 증명이 발생한 때입니다. </p> <p> 온보드 트레이트의 경우 사용자 프로필의 최대 자격 조건은 1입니다. </p> </td> 
+   <td colname="col2"> <p>트레이트 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일을 Audience Manager <a href="../../faq/faq-inbound-data-ingestion.md"> 로</a> 가져오며 이는 트레이트 자격 증명이 발생한 때입니다. 처리를 위해 인바운드 파일을 업로드하기 전에 온보드 트레이트를 만든 후 약 4시간을 기다려야 합니다.  </p> <p> 온보드 트레이트의 경우 사용자 프로필의 최대 자격 조건은 1입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>알고리즘 트레이트 </p> </td> 
    <td colname="col2"> <p>알고리즘 방식의 트레이트의 경우 사용자 프로필의 최대 자격 조건은 1입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 폴더 트레이트 </p> </td> 
+   <td colname="col1"> <p>폴더 트레이트 </p> </td> 
    <td colname="col2"> <p>폴더 트레이트는 포함된 트레이트의 특성 자격을 합산합니다. </p> <p>폴더 <a href="../../features/traits/about-folder-traits.md"> 트레이트 읽기:정보</a> . </p> </td> 
   </tr>
   <tr> 
@@ -61,7 +61,7 @@ source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 
 우리는 두 개의 다른 계산 작업을 실행하여 두 개의 인구를 계산하기 때문에, [!UICONTROL Total Trait Population] 항상 24 [!UICONTROL Unique Trait Realizations] 시간 정도 뒤쳐집니다. 위의 그래프에서 2월 11일에 대해 175 [!UICONTROL Unique Trait Realizations] 와 [!UICONTROL Total Trait Population] 6을 볼 수 있습니다. 175개의 프로필이 다음날 [!UICONTROL Total Trait Population] 에 추가됩니다.
 
-그 점을 집까지 향하기 위해, 당신이 지금 10,000명의 방문자를 경험한다면, 그들은 내일 [!UICONTROL Unique Trait Realizations]에 나타날 것이지만, 그것은 단지 24시간 후에 [!UICONTROL Total Trait Population]나타날 것입니다.
+더 나아가 그 점을 집까지 향하기 위해, 당신이 지금 10,000명의 방문자를 경험한다면, 그들은 내일 [!UICONTROL Unique Trait Realizations]에 나타날 것이지만, 그것은 단지 24시간 후에 [!UICONTROL Total Trait Population]나타날 것입니다.
 
 ## 트레이트 자격 제한 {#trait-qualification-limit}
 

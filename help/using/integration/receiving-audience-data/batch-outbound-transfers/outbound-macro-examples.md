@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 아웃바운드 매크로 예제
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 3d14d58b9cb66faf506ab729e7ff85dc1818d37e
 
 ---
 
@@ -33,19 +33,19 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: <code> ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_ &lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: <code> ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MASTER_DPID </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;MASTER_DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: <code> ftp_215_888_ 20915_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;MASTER_DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: <code> ftp_215_888_ 20915_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력:ftp_ 215_888_iter_1449756724.sync <code></code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;SYNC_TYPE&gt;_ &lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: <code> ftp_ 215_888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
+   <td colname="col2"> <p>형식: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
       <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">전체: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">증분: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
@@ -53,7 +53,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_TYPE </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
+   <td colname="col2"> <p>형식: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>출력: </p> <p> 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
       <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code> ftp_215_888_iter_1449756724.sync </code> </li> 
       <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <code> http_215_888_iter_1449756724.sync </code> </li> 
@@ -61,8 +61,8 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 타임스탬프 </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_ &lt;TIMESTAMP&gt;_&lt;admin&gt;&lt;.sync&gt; </code> </p> <p>출력: <code> ftp_215_888_iter_ 1449756724.sync </code> </p> </td> 
+   <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_ &lt;TIMESTAMP&gt;_&lt;admin&gt;&lt;.sync&gt; </code> </p> <p>출력: <code> ftp_215_888_iter_ 1449756724.sync </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,8 +80,8 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> 탭 </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>출력: <code> 888 full.sync </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 구분합니다. </p> </td>
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>출력: <code> 888 full.sync </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 구분합니다. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -100,11 +100,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;DP_UUID&gt;&lt;TAB&gt; &lt;UUID&gt; </code> </p> <p>출력: <code> 123456 07955261652886032950143702505894272138 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 123456 UUID1 UUID2 UUID3 </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;UUID&gt;&lt;TAB&gt; &lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 07955261652886032950143702505894272138 DP_UUID1 DP_UUID2 DP_UUID3 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
@@ -112,30 +112,32 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt; &lt;REMOVED_SEGMENT_LIST;separator=" "&gt; </code> </p> <p>출력: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;DP_UUID&gt; &lt;REMOVED_SEGMENT_LIST;separator=" "&gt; </code> </p> <p>출력: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt; &lt;SEGMENT_LIST;separator=" "&gt; </code> </p> <p>출력: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;DP_UUID&gt; &lt;SEGMENT_LIST;separator=" "&gt; </code> </p> <p>출력: <code> 123456 105955 101183 101180 101179 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
    <td colname="col2"> <p><b>형식:</b> </p> <p> 
      <code>
-       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUID&gt;", "데이터":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_COLD_BRACKS&gt;"Name":"&lt;seg.alias&gt;" close_중괄호&gt;};separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_COLLECK_BRACKET&gt;"Name":", "TtlInMinutes":0&lt;CLOSE_COLLECK_BRACKET&gt;}; separator=","&gt;]} </code></p><p><b>출력:</b></p> <p>
-     <code>//첫 번째 예 {"AdvertiserId":"12345", "DataCenterId": 2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Data" name":"4321"}]} //두 번째 예 {"AdvertiserId":"12345", "DataCenterId": 2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa053 9ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}}} </code></p> <p> <p>참고: 첫 번째 예에서는 REMOVED_SEGMENT_LIST가 <code> 비어 </code> 있기 때문에 매크로가 SEGMENT_LIST에 대한 데이터만 <code> </code> 반환합니다. 두 번째 예에서는 두 매크로 모두에 대한 데이터를 반환합니다. </p> </p> </td> 
+       {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
+     </code></p><p><b>출력:</b></p> <p>
+     <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
+     </code></p> <p> <p>참고: 첫 번째 예에서, 매크로는 비어 <code> SEGMENT_LIST </code> 있기 때문에 에 대한 데이터만 <code> REMOVED_SEGMENT_LIST </code> 반환합니다. 두 번째 예에서는 두 매크로 모두에 대한 데이터를 반환합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>형식: </p> <p> <code> &lt;PID&gt;&lt;TAB&gt;&lt;UUID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt;&lt;OPT_OUT&gt;&lt;TAB&gt;&lt;SEG|&lt;seg.type&gt;,&lt;seg.alias&gt;,&lt;OUTPUT_ATTRIBUTE VALUE&gt;,&lt;seg.lastUpdateTime&gt;&amp;}&gt; </code> </p> <p>출력: </p> <p> <code> 1159 0008800857963653741516297509717335000 17t0aj01b112222 1 0 5,103714,1,13414661000&amp;5,103713,1,13432506100 </code> </p> </td> 
+   <td colname="col2"> <p>형식: </p> <p> <code> &lt;PID&gt;&lt;TAB&gt;&lt;UUID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt; &lt;SET_ATTRIBUTES&gt;&lt;TAB&gt;&lt;OPT_OUT&gt;&lt;TAB&gt;&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.alias&gt;,&lt;OUTPUT_ATTRIBUTE_VALUE&gt;,&lt;seg.lastUpdateTime&gt;&amp;}&gt; </code> </p> <p>출력: </p> <p> <code> 1159 00088008579683653741516297509717335000 17t0aj01b120hp 1 0 5,103714,1,1344114661000&amp;5,103713,1,1343250661000 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> 탭 </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt; <code> DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 구분합니다. </p> </td> 
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>출력: <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>출력에서 인쇄되지 않는 탭 문자는 각 요소를 구분합니다. </p> </td> 
   </tr>
   <tr>
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
-   <td colname="col2"> <p>형식:&lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; <code></code> </p> <p>출력: <code> 1131 12345 1 123|456|789 </code> </p> </td> 
+   <td colname="col2"> <p>형식: <code> &lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; </code> </p> <p>출력: <code> 1131 12345 1 123|456|789 </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,18 +162,18 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p>단일 DPID에 대한 모든 매핑 반환 </p> </td> 
-   <td colname="col2"> <p> <code> &lt;DPUUIDS;format="dpids=1111|maxMappings=0|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","AAAA"],["111","BBBB"]] </code> </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111|maxMappings=0|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","AAAA"],["1111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>모든 DPID에 대해 최대 1개의 매핑을 반환합니다. </p> </td> 
-   <td colname="col2"> <p> <code> &lt;DPUUIDS;format="dpids=111,222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>DPID 1111 <code> 의 </code>경우, 해당 ID에 타임스탬프가 <code> 더 크므로 매크로는 DPUUID BBBB에 매핑됩니다 </code> . </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>DPID <code> 1111 </code>의 경우, 해당 ID에 타임스탬프가 더 크기 때문에 매크로가 DPUUID에 매핑됩니다 <code> BBBB </code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>단일 DPID에 대해 최대 2개의 매핑 반환 </p> </td> 
-   <td colname="col2"> <p> <code> &lt;DPUUIDS;format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>maxMappings=2 <code> </code>이지만 지정한 DPID에 DPUUID가 하나만 있으므로 이 매크로는 DPID-DPUUID 매핑이 1개만 반환됩니다. </p> </td> 
+   <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>그러나 <code> maxMappings=2 </code>이 매크로는 지정된 DPID에 DPUUID가 하나만 있으므로 DPID를 DPUUID로 1개만 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

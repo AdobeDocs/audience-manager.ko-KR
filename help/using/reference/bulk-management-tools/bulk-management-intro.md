@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 일괄 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
+source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
 
 ---
 
@@ -32,14 +32,14 @@ c_bulk_start.xml
 
 ## 다운로드 {#download}
 
-최신 워크시트를 **[여기에서](assets/BAAAM_V2_20191205.xlsm)**&#x200B;다운로드하십시오.
+최신 워크시트를 **[여기에서](assets/BAAAM_V2_20191205.xlsm)**다운로드하십시오.
 
 ## 전제 조건 {#prereqs}
 
 을 사용하려면 [!DNL Bulk Management Tools]다음이 필요합니다.
 
 * 귀하의 [!DNL Experience Cloud] 로그인. 고객인 경우 이러한 자격 증명이 이미 있어야 합니다.
-* 워크시트입니다 [!DNL Bulk Management Tools] . [워크시트를](assets/BAAAM_V2_20191205.xlsm) 다운로드하여 최신 버전을 가져옵니다.
+* 워크시트입니다 [!DNL Bulk Management Tools] . [워크시트를](assets/BAAAM_V2_20200311.xlsm) 다운로드하여 최신 버전을 가져옵니다.
 * 64비트 [!DNL macOS] 또는 64비트에서 실행되는 Microsoft Excel [!DNL Microsoft Windows]입니다. 최신 버전의 Microsoft Excel을 사용하는 것이 좋습니다.
 * 워크시트를 열 때 매크로를 **활성화해야** 제대로 [!DNL Bulk Management Tools] 작동합니다.
 

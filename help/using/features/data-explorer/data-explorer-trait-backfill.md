@@ -5,7 +5,7 @@ seo-title: 채우기 트레이트 재계산
 title: 채우기 트레이트 재계산
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 트레이트 생성 날짜 이전에 내역 고객을 캡처하고 관련 데이터를 손실하지 않도록 트레이트 재지정
 
-[!UICONTROL Data Explorer Trait Backfill] 는 추가 사용 사례를 발굴하여 Audience Manager 경험을 향상시키는 프리미엄 기능입니다. 채우기를 사용하려면 추가 처리 능력이 필요하며, 모든 Audience Manager 고객은 추가 비용으로 사용할 수 있습니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
+>[!IMPORTANT]
+>
+> [!UICONTROL Data Explorer Trait Backfill] 는 추가 사용 사례를 발굴하여 Audience Manager 경험을 향상시키는 프리미엄 기능입니다. 채우기를 사용하려면 추가 처리 능력이 필요하며, 모든 Audience Manager 고객은 추가 비용으로 사용할 수 있습니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
 
 사용하지 않은 신호에서 트레이트를 생성할 때 특정 기간 동안 트레이트 재연결을 채우도록 선택할 수 있습니다. [!DNL Audience Manager] 는 새 트레이트를 적용받을 수 있는 대상에 대한 내역 데이터를 캡처하여 해당 프로필에 저장합니다. 트레이트 빌더의 **[!UICONTROL Backfill Options]** 섹션에서 [!UICONTROL Trait Expression] 을 볼 수 **[있습니다](../../features/traits/about-trait-builder.md)**.
 
@@ -47,7 +49,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 트레이트를 채우는 방법에 대한 비디오 연습을 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## 트레이트 채우기 대기 시간 {#trait-backfilling-latency}
 

@@ -4,9 +4,9 @@ seo-description: Adobe Audience Manager에서 충족해야 하는 몇 가지 일
 seo-title: 게시자 사용 사례
 solution: Audience Manager
 title: 게시자 사용 사례
-uuid: 5f571d60-d902-4958-b5d3-8d09dda42c7
+uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -39,7 +39,7 @@ c_pub_use_case.xml
       <li id="li_45C12198EDDE4107AE59947BBAA51A60">고객을 발견하고, 보다 지능적인 광고 또는 영업 캠페인을 실행하고, 고객 통찰력을 관리할 수 있습니다. </li> 
       <li id="li_53727E7A3D494299B4631439612AC226">모든 채널에서 관련 고객 인사이트 집계 </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Ad Sales Research 팀은 게시자 고객 프로파일을 상용화할 수 있도록 지원하고, Home Depot 캠페인과 관련된 "직접 수행"을 강조할 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>광고 영업 리서치 팀은 게시자 고객 프로파일을 상용화할 수 있도록 지원하고, "직접 수행" 매니아를 대상으로 향후 Home Depot 캠페인과 연관성을 강조할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ c_pub_use_case.xml
      <ul id="ul_07695D68C7FA4BDE92E69AB84B59F0B5"> 
       <li id="li_D271C4C62589403C9F5D3B478EA1B1F3">속성 네트워크를 통해 "Tech Geek"의 자사 세그먼트를 집계합니다. </li> 
       <li id="li_1EC9E0F4BC6343C88CF29D07B9D1DA11">기술 이메일 뉴스레터 등록자를 포함합니다. </li> 
-      <li id="li_2C5CE406BAEC4F3B8AAED5DF414E1C8B">"Tech Geeks"를 관련 광고업체를 위한 디지털 요금 카드에 대한 프리미엄 제품으로 상용화할 수 있습니다. </li> 
+      <li id="li_2C5CE406BAEC4F3B8AAED5DF414E1C8B">"Tech Geeks"를 관련 광고업체를 위한 디지털 요금 카드를 통해 프리미엄 제품으로 상용화할 수 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -115,7 +115,7 @@ c_pub_use_case.xml
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">"소득세 연구자" 세그먼트를 만듭니다. </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Adobe Media Optimizer와 같은 DSP를 통해 오프라인 제공 확장 캠페인을 통해 Turbo Tax에 판매되는 온사이드 광고 캠페인을 조정할 수 있습니다. </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Adobe Advertising Cloud와 같은 DSP를 통해 오프라인 확장 캠페인을 통해 Turbo Tax에 판매되는 온사이드 광고 캠페인을 조정할 수 있습니다. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

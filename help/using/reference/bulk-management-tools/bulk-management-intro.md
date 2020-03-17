@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 일괄 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->는 에서 [!UICONTROL Bulk Management Tools] 지원되지 *않습니다* . [!DNL Audience Manager] 이 도구는 편의를 위해 제공되는 무료 도구입니다. 일괄 변경의 경우 Audience Manager API를 [대신 사용하는 것이](../../api/rest-api-main/aam-api-getting-started.md) 좋습니다. [UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
+>[UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
 
 ## 개요 {#overview}
 
@@ -32,7 +32,7 @@ c_bulk_start.xml
 
 ## 다운로드 {#download}
 
-최신 워크시트를 **[여기에서](assets/BAAAM_V2_20191205.xlsm)**다운로드하십시오.
+최신 워크시트를 **[여기에서](assets/BAAAM_V2_20200311.xlsm)**다운로드하십시오.
 
 ## 전제 조건 {#prereqs}
 

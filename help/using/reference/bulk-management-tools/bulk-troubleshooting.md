@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 일괄 관리 도구 문제 해결 팁
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 >[!NOTE]
 >
->는 에서 [!UICONTROL Bulk Management Tools] 지원되지 *않습니다* . [!DNL Audience Manager] 이 도구는 편의를 위해 제공되는 무료 도구입니다. 일괄 변경의 경우 Audience Manager API를 [대신 사용하는 것이](../../api/rest-api-main/aam-api-getting-started.md) 좋습니다. [UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
+>[UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
 
 대량의 네트워크 트래픽, 서버 사용량 및 대규모 데이터 세트와 같은 요인으로 인해 벌크 요청이 실패하거나 시간 초과될 수 있습니다. 문제가 발생하면 워크시트는 데이터 쓰기를 중단하고 오류 메시지를 표시합니다. 이러한 경우 다음을 수행해야 합니다.
 

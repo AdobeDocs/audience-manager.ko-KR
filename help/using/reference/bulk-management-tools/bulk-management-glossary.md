@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 일괄 관리 도구 용어
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->는 에서 [!UICONTROL Bulk Management Tools] 지원되지 *않습니다* . [!DNL Audience Manager] 이 도구는 편의를 위해 제공되는 무료 도구입니다. 일괄 변경의 경우 Audience Manager API를 [대신 사용하는 것이](../../api/rest-api-main/aam-api-getting-started.md) 좋습니다. [UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
+>[UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -102,8 +102,8 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col2"> <p>트레이트 유형을 식별하는 문자열입니다. 옵션은 다음과 같습니다. </p> 
     <ul id="ul_AB5B4F87B14241DCBBE44B0B7BD4EF72"> 
      <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_BASED_TRAIT</code> </li> 
-     <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOUND_TRAIT </code> </li> 
-     <li id="li_F38B58ADE3324E97A71E3F94F11945BE"> <code> 세그먼트</code> </li> 
+     <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOARDED_TRAIT </code> </li> 
+     <li id="li_F38B58ADE3324E97A71E3F94F11945BE"> <code> SEGMENT</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -1,13 +1,13 @@
 ---
 description: 고객 데이터 피드(CDF) 파일에 대한 기본 정보 및 시작하는 방법에 대한 지침입니다. CDF 파일 수신을 관심이 있거나 더 많은 정보가 필요한 경우 여기에서 시작하십시오.
-keywords: 타사 데이터;제휴 데이터;타사 데이터;타사 데이터;제휴 데이터;제휴 데이터;제휴 데이터;제휴 데이터;제휴 데이터;제휴 데이터;제휴 데이터;제휴 데이터;제휴 데이터
+keywords: second party data;2nd party;2nd party data;second party
 seo-description: 고객 데이터 피드(CDF) 파일에 대한 기본 정보 및 시작하는 방법에 대한 지침입니다. CDF 파일 수신을 관심이 있거나 더 많은 정보가 필요한 경우 여기에서 시작하십시오.
 seo-title: 고객 데이터 피드
 solution: Audience Manager
 title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    <td colname="col3"> <p>DCS(데이터 수집 서버)가 CDF 파일을 처리한 <span class="wintitle"></span> 시간입니다. 타임스탬프는 <i>yyyy-mm-dd hh:mm:ss</i> 형식을 사용하며 UTC 시간대로 설정됩니다. </p> <p> <p>참고:이벤트 시간은 다음과 <i>같지 않습니다</i>. <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">페이지 이벤트 또는 이벤트가 해당 시간에 가까울 수 있지만 페이지 이벤트 또는 이벤트 호출 시간입니다. </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">파일 이름의 DCS 시간과 관련되어 있습니다. <a href="#different-processing-times">고객 데이터 피드 </a> 파일 이름 시간 및 파일 컨텐츠 시간을 참조하십시오.. </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">파일 이름의 DCS 시간과 관련되어 있습니다. 고객 데이터 피드 <a href="#different-processing-times"> 파일 이름 시간 및 파일 컨텐츠 시간을 참조하십시오.</a>. </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>사이트 <span class="keyword"> 방문자에게</span> 할당된 Experience Cloud ID(MID)입니다. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
+   <td colname="col3"> <p>사이트 <span class="keyword"> 방문자에게</span> 할당된 Experience Cloud ID(MID)입니다. 쿠키 및 Adobe <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Experience Platform Identity Service도 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -159,7 +159,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">요청 매개 변수 </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP 주소 </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). 쿠키 및 Adobe <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Experience Platform Identity Service를 참조하십시오.</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">모든 세그먼트 </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">모든 트레이트 </li> 
      </ol> </p> <p>필드 설명은 고객 데이터 피드 <a href="#cdf-defined"> 정의된 컨텐츠를 참조하십시오</a>. </p> </td> 
@@ -233,7 +233,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
-   <td colname="col2"> <p>24시간 표기법으로 표현되고 UTC 시간대로 설정된 시간 값입니다. <a href="#different-processing-times">고객 데이터 피드 </a> 파일 이름 시간 및 파일 컨텐츠 시간을 참조하십시오.. </p> </td> 
+   <td colname="col2"> <p>24시간 표기법으로 표현되고 UTC 시간대로 설정된 시간 값입니다. 고객 데이터 피드 <a href="#different-processing-times"> 파일 이름 시간 및 파일 컨텐츠 시간을 참조하십시오.</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
@@ -373,7 +373,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 | 타임스탬프 위치 | 설명 |
 |--- |--- |
-| 파일 이름 | CDF 파일 이름의 타임스탬프는 파일 전달을 [!DNL Audience Manager] 준비하는 시간을 표시합니다. 이 타임스탬프는 UTC 시간대에서 설정됩니다. 이 매개 변수는 24시간 표기법으로 2자리 시간으로 서식이 지정된 매개 변수를 사용합니다. `hour=` 이 시간은 파일 내용에 기록된 이벤트 시간과 다를 수 있습니다. CDF 파일을 사용하여 작업할 때 특정 시간 동안 S3 버킷이 비어 있는 것을 확인할 수 있습니다. 빈 버킷은 다음 중 하나를 의미할 수 있습니다.<ul><li>특정 시간에 대한 데이터가 없습니다. </li><li> 서버가 많은 로드 중에 있어서 특정 시간 동안 파일을 처리할 수 없습니다. 서버가 응답할 때 이전 시간 버킷 파일에 넣어야 하는 파일을 이후 시간 값이 있는 버킷으로 가져옵니다. 예를 들어, 17시간 버킷에 있어야 하는 파일이 18시간 버킷(파일 이름 포함)에 나타날 때 이 `hour=18` 파일을 볼 수 있습니다. 이 경우 서버가 17시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 완료할 수 없었습니다. 대신 파일은 다음 시간별 시간 버킷으로 푸시됩니다.</li></ul><br>**중요**:시간 단위로 이벤트를 그룹화하는 데 파일 이름 타임스탬프를 사용하지 마십시오. 시간별로 그룹화해야 하는 경우 파일 컨텐츠의 `EventTime` 타임스탬프를 사용합니다. |
+| 파일 이름 | CDF 파일 이름의 타임스탬프는 파일 전달을 [!DNL Audience Manager] 준비하는 시간을 표시합니다. 이 타임스탬프는 UTC 시간대에서 설정됩니다. 이 매개 변수는 24시간 표기법으로 2자리 시간으로 서식이 지정된 매개 변수를 사용합니다. `hour=` 이 시간은 파일 내용에 기록된 이벤트 시간과 다를 수 있습니다. CDF 파일을 사용하여 작업할 때 특정 시간 동안 S3 버킷이 비어 있는 것을 확인할 수 있습니다. 빈 버킷은 다음 중 하나를 의미할 수 있습니다.<ul><li>특정 시간에 대한 데이터가 없습니다. </li><li> 서버가 많은 로드 중에 있어서 특정 시간 동안 파일을 처리할 수 없습니다. 서버가 응답할 때 이전 시간 버킷 파일에 넣어야 하는 파일을 이후 시간 값이 있는 버킷으로 가져옵니다. 예를 들어, 17시간 버킷에 있어야 하는 파일이 18시간 버킷(파일 이름 포함)에 나타날 때 이 `hour=18` 파일을 볼 수 있습니다. 이 경우 서버가 17시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 완료할 수 없었습니다. 대신 파일은 다음 시간별 시간 버킷으로 푸시됩니다.</li></ul><br>**중요&#x200B;**:시간 단위로 이벤트를 그룹화하는 데 파일 이름 타임스탬프를 사용하지 마십시오. 시간별로 그룹화해야 하는 경우 파일 컨텐츠의`EventTime`타임스탬프를 사용합니다. |
 | 파일 내용 | CDF 파일 내용의 타임스탬프는 데이터 수집 서버가 파일 처리를 시작한 시간을 표시합니다. 이 타임스탬프는 UTC 시간대에서 설정됩니다. 시간 형식이 지정된 `EventTime` 필드를 사용합니다 *`yyyy-mm-dd hh:mm:ss`*. 이 시간은 페이지에서 이벤트의 실제 시간에 가깝지만 파일 이름의 시간 표시기와 다를 수 있습니다. <br> **팁**:파일 이름의 `hour=` 타임스탬프와 달리 데이터를 시간별로 그룹화하는 `EventTime` 데 사용할 수 있습니다. |
 
 >[!MORELIKETHIS]

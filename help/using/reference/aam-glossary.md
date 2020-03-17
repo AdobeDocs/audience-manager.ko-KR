@@ -4,9 +4,9 @@ seo-description: 추가 읽기에 대한 정의 및 링크.
 seo-title: 용어 설명
 solution: Audience Manager
 title: 용어 설명
-uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510acc
+uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: d5a8b763d2d0d1ceebe2252ebd283943dcbc1754
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -112,7 +112,7 @@ See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 **ECID(Experience Cloud ID)**
 
-이전에 ID [!DNL Marketing Cloud] (MID 또는 MCID)로 이름을 지정했습니다. ID가 [!DNL Experience Cloud] ID 서비스의 중심입니다. 사이트 방문자의 고유하고 지속적인 식별자입니다. See Cookies and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
+이전에 ID [!DNL Marketing Cloud] (MID 또는 MCID)로 이름을 지정했습니다. ID가 [!DNL Experience Cloud] ID 서비스의 중심입니다. 사이트 방문자의 고유하고 지속적인 식별자입니다. 쿠키 및 Adobe [Experience Platform Identity Service를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
 
 <br> 
 
@@ -163,7 +163,7 @@ UI 또는 [!DNL Audience Manager] API를 사용하여 작업할 때 트레이트
 
 * [!UICONTROL Traits]:통합 코드는 내부 비즈니스 프로세스에서 사용하는 ID, SKU 또는 기타 값의 필드입니다. 선택 사항입니다.
 * [!UICONTROL Segments]:통합 코드는 사용자 정의 ID 또는 기타 회사별 정보를 위한 필드입니다. 선택 사항입니다.
-* [!UICONTROL Data Sources]:통합 코드는 크로스 디바이스 데이터 소스를 만들거나 Experience Cloud ID 서비스를 사용하거나 [!UICONTROL Profile Merge Rules]작업할 때 필요합니다. 자세한 [내용은 데이터 소스](../features/manage-datasources.md#create-data-source) 만들기를 참조하십시오.
+* [!UICONTROL Data Sources]:통합 코드는 크로스 디바이스 데이터 소스를 만들거나 Adobe Experience Platform ID 서비스를 사용하거나 [!UICONTROL Profile Merge Rules]작업할 때 필요합니다. 자세한 [내용은 데이터 소스](../features/manage-datasources.md#create-data-source) 만들기를 참조하십시오.
 
 ## K-L {#k-l}
 
@@ -229,7 +229,7 @@ See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-r
 
 **세그먼트 일치 비율**
 
-세그먼트 주소 지정 가능 대상자 ?총 세그먼트 모집단 이 %로 표현되었습니다. See [Addressable Audience](/help/using/features/addressable-audiences.md).
+세그먼트 지정 가능 대상자 ?총 세그먼트 모집단 이 %로 표현되었습니다. See [Addressable Audience](/help/using/features/addressable-audiences.md).
 
 <br> 
 
@@ -269,7 +269,7 @@ TTL 파섹 TTL은 세그먼트가 아닌 트레이트에 설정됩니다. 방문
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-See the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) documentation.
+Adobe Experience [Platform ID 서비스](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) 설명서를 참조하십시오.
 
 ## W-X-Y-Z {#w-z}
 

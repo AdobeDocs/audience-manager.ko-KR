@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + 데이터 개인 정보 참조 {#data-privacy-reference}
          + [Audience Manager 식별자](overview/data-security-and-privacy/data-privacy-ids.md)
          + [CPA 용어](overview/data-security-and-privacy/aam-ccpa-glossary.md)
-         + [GDPR 용어집](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [GDPR 용어](overview/data-security-and-privacy/aam-gdpr-glossary.md)
          + [대상에 대한 GDPR 고려 사항](overview/data-security-and-privacy/aam-gdpr-partners.md)
          + [Audience Manager 고객을 위한 GDPR 준비 지침](overview/data-security-and-privacy/aam-gdpr-readiness.md)
       + 동의 관리 {#consent-management}
@@ -221,7 +221,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + DCS API{#dcs-apis}
          + [서버 간 데이터 전송을 위한 DCS API](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [DCS 응답에서 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Experience Cloud ID 서비스를 통해 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Adobe Experience Platform Identity Service를 통해 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [서버 간 DCS API 호출 만들기](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + DCS API 참조{#dcs-api-reference}
          + [DCS API 참조 개요](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)

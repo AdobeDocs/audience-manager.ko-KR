@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 데이터 수집 및 제품 통합 FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -45,7 +45,7 @@ faq_data_collection_integration.xml
 
 | 항목 | 주소 |
 ---------|----------|
-|  ftp-in.demdex.com | 54.225.117.163 |
+| ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
 <br> 
@@ -64,7 +64,7 @@ faq_data_collection_integration.xml
 
 * 직접 [!UICONTROL DIL] 작업 `s_code`진행
 
-* 서비스를 [!UICONTROL DIL] 통해 또는 `s_code` 을 통해 제공할 [!DNL Adobe Launch] 수 [!DNL Adobe DTM]있습니다.
+* 서비스를 [!UICONTROL DIL] 통해 또는 `s_code` 을 통해 제공할 [!DNL Adobe Experience Platform Launch] 수 [!DNL Adobe DTM]있습니다.
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 

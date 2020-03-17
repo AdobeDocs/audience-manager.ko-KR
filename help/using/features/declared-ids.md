@@ -24,7 +24,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ## 선언된 ID 타깃팅 목적 {#declared-id-targeting-purpose}
 
-일부 브라우저 및 대부분의 모바일 장치는 타사 쿠키를 허용하지 않습니다. 따라서 사이트 방문자에 대한 정보를 유지하거나 영구 ID를 할당하기가 어렵습니다. 이 문제를 해결하기 위해 Audience Manager [!UICONTROL DIL] 는 이벤트 호출에 [!UICONTROL declared IDs] 전달할 수 있도록 하는 데 사용합니다. 또한, [!UICONTROL declared ID] 는 의 모든 솔루션에서 동일한 사용자에게 적용되는 범용 ID로 작동할 수 [!DNL Experience Cloud]있습니다. 다음 표에서는 ID 타깃팅/일치 프로세스에 대해 설명합니다.
+일부 브라우저 및 대부분의 모바일 장치는 타사 쿠키를 허용하지 않습니다. 따라서 사이트 방문자에 대한 정보를 유지하거나 영구 ID를 할당하기가 어렵습니다. 이 문제를 해결하기 위해 Audience Manager [!UICONTROL DIL] 는 이벤트 호출에 [!UICONTROL declared IDs] 전달할 수 있도록 하는 데 사용합니다. 또한, [!UICONTROL declared ID] 는 의 모든 솔루션에서 동일한 사용자에게 적용되는 범용 ID 역할을 할 수 [!DNL Experience Cloud]있습니다. 다음 표에서는 ID 타깃팅/일치 프로세스에 대해 설명합니다.
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 

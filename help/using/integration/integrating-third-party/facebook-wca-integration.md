@@ -5,7 +5,7 @@ seo-title: Facebook WCA 통합
 solution: Audience Manager
 title: Facebook WCA 통합
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -22,16 +22,16 @@ source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 >[!IMPORTANT]
 >
-> 이 기능을 사용하려면 URL 대상의 소셜 플랫폼용 웹 사이트 대상자를 선택해야 [합니다](/help/using/features/destinations/create-url-destination.md). 소셜 플랫폼은 레퍼러 정보를 플랫폼으로 보낼 때 마스크가 해제되어야 합니다. 이것은 대상 플랫폼/파트너가 레퍼러 URL에서 정보를 볼 수 있음을 의미합니다.
+> 이 기능을 사용하려면 URL 대상의 소셜 플랫폼용 웹 사이트 대상자를 선택해야 [합니다](/help/using/features/destinations/create-url-destination.md). 소셜 플랫폼은 레퍼러 정보를 플랫폼으로 보낼 때 마스크가 해제되어야 합니다. 이것은 대상 플랫폼/파트너가 레퍼러 URL에 있는 정보를 볼 수 있음을 의미합니다.
 
 ## 전제 조건 {#prerequisites}
 
 1. Facebook 광고 계정
 2. Audience Manager 세그먼트를 새 Facebook 대상에 할당할 준비가 되었습니다. 다음은 Audience Manager UI에서 세그먼트를 [만드는](/help/using/features/segments/segment-builder.md) 방법입니다.
-3. Adobe Experience Cloud ID Service(ECID) 버전 4.1.0 이상 최신 버전을 **[여기에서](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**&#x200B;다운로드하십시오.
-4. DIL(Audience Manager Data Integration Library) 버전 9.0 이상, **[여기에서](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;다운로드할 수 있습니다. 또는 SSF [를 사용하여 데이터를 Audience Manager로](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. Analytics 코드 관리자를 사용하여 [AppMeasurement를 다운로드합니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
+3. Adobe Experience Platform Identity Service(ECID) 버전 4.1.0 이상 최신 버전을 **[여기에서](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**다운로드하십시오.
+4. DIL(Audience Manager Data Integration Library) 버전 9.0 이상, **[여기에서](https://github.com/Adobe-Marketing-Cloud/dil/releases)**다운로드할 수 있습니다. 또는 SSF[를 사용하여 데이터를 Audience Manager로](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. Analytics 코드 관리자를 사용하여[AppMeasurement를 다운로드합니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
 
-Adobe Launch 또는 Adobe 다이내믹 태그 관리를 사용하여 3단계와 4단계의 라이브러리를 [설치하거나](https://docs.adobelaunch.com/) 업그레이드하는 [것이 좋습니다](https://marketing.adobe.com/resources/help/en_US/dtm/).
+Adobe Experience Platform Launch 또는 Adobe Dynamic Tag Management를 사용하여 3단계와 4단계에 [있는](https://docs.adobelaunch.com/) 라이브러리를 설치하거나 [업그레이드하는 것이 좋습니다](https://marketing.adobe.com/resources/help/en_US/dtm/).
 
 ## 1단계 - Audience Manager에서 Facebook 대상 만들기 {#step-1-create-facebook-destination}
 
@@ -92,7 +92,7 @@ Facebook [도움말 문서에서 웹 사이트](https://www.facebook.com/busines
 | 항목 | 설명 |
 ---------|----------|
 | 웹 사이트 트래픽 | 사용자 지정 조합 |
-| 포함 | <ul><li>이벤트 **** &gt; Adobe- **Audience-Manager-세그먼트 선택을 선택합니다**. 1단계에서 예제 픽셀에 있는 ev 매개 변수의 값입니다. 픽셀을 아직 실행하지 않은 경우 이벤트 **옵션** 또는 **Adobe-Audience-Manager-** Segment가 FacebookUI에 나타나지 않을 수 있습니다.</li><li>매개 변수 추가:을 `segID`선택합니다.</li><li><p>포함 **연산자를 선택합니다** .</p><p>방문자가 여러 세그먼트를 사용할 수 있음을 고려할 때 픽셀 매개 변수에 여러 개의 세그먼트 ID가 있을 수 있으므로 중요합니다. 같음(=) 연산자를 사용하면 방문자가 대상에 적합하지 않을 수 있으며, 사용자는 더 낮은 볼륨을 관찰할 수 있습니다.</p></li><li>값 추가:Audience Manager 세그먼트 ID를 입력합니다.</li></ul> |
+| 포함 | <ul><li>이벤트 **** > Adobe- **Audience-Manager-세그먼트 선택을 선택합니다**. 1단계에서 예제 픽셀에 있는 ev 매개 변수의 값입니다. 픽셀을 아직 실행하지 않은 경우 이벤트 **옵션** 또는 **Adobe-Audience-Manager-** Segment가 FacebookUI에 나타나지 않을 수 있습니다.</li><li>매개 변수 추가:을 `segID`선택합니다.</li><li><p>포함 **연산자를 선택합니다** .</p><p>방문자가 여러 세그먼트를 사용할 수 있음을 고려할 때 픽셀 매개 변수에 여러 개의 세그먼트 ID가 있을 수 있으므로 중요합니다. 같음(=) 연산자를 사용하면 방문자의 대상 자격을 얻지 못할 수 있으며 사용자는 더 낮은 볼륨을 관찰할 수 있습니다.</p></li><li>값 추가:Audience Manager 세그먼트 ID를 입력합니다.</li></ul> |
 | 새 조건 추가 | 선택적 설정입니다. |
 | 마지막 | 선택적 설정입니다. |
 | 대상 이름 | 이 대상에 추가 조건을 추가하지 않는 한 일관성을 위해 동일한 Audience Manager 세그먼트 이름을 사용하는 것이 좋습니다. |

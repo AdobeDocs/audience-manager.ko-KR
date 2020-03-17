@@ -5,7 +5,7 @@ seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 translation-type: tm+mt
-source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -20,7 +20,7 @@ Adobe는 [옵트인 기능](https://marketing.adobe.com/resources/help/en_US/mcv
 
 이 문서에서는 IAB TCF를 지원하는 Audience Manager 사용 사례 및 Audience Manager에서 IAB TCF 지원을 구현하는 방법에 대해 설명합니다. Audience Manager는 공급업체 ID 565와 함께 IAB TCF에 등록됩니다.
 
-IAB TCF용 Audience Manager 플러그인은 [옵트인 기능을](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)활용하며, 이 기능은 [Adobe Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/) 서비스(ECID)라이브러리의 일부입니다.
+IAB TCF용 Audience Manager 플러그인은 [옵트인 기능을](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)활용하며, 이 기능은 [Adobe ECID(Experience Platform Identity Service)](https://marketing.adobe.com/resources/help/en_US/mcvid/) 라이브러리의 일부입니다.
 
 ## 범위 및 제한 사항 {#scope-and-limitations}
 
@@ -37,16 +37,16 @@ Audience Manager를 사용하는 게시자 또는 광고주는 IAB TCF에 따라
 
 Audience Manager에서 IAB TCF를 사용하려면 다음 전제 조건을 충족해야 합니다.
 
-1. Experience Cloud ID Service(ECID) 버전 4.1 이상을 사용해야 합니다. [최신 ECID 릴리스를 다운로드하십시오](https://github.com/Adobe-Marketing-Cloud/id-service/releases) .
+1. Adobe Experience Platform ECID 파섹 버전 4.1 이상을 사용해야 합니다. [최신 ECID 릴리스를 다운로드하십시오](https://github.com/Adobe-Marketing-Cloud/id-service/releases) .
 1. 여기에서 다운로드할 수 있는 DIL(Audience Manager Data Integration Library) 버전 9.0 이상을 사용해야 [합니다](https://github.com/Adobe-Marketing-Cloud/dil/releases). Audience Manager [설명서에서](../..//dil/dil-overview.md)DIL에 대해 알아보십시오.
 1. 또는 SSF(서버측 전달)를 사용하여 데이터를 Audience Manager로 가져오는 경우 최신 버전의 AppMeasurement로 업그레이드해야 합니다. Analytics 코드 관리자를 사용하여 [AppMeasurement를 다운로드합니다](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
-1. IAB TCF를 지원하고 IAB TCF에 등록된 CMP(Consent Management Platform)를 사용하고 있어야 합니다. IAB 프레임워크에 [등록된 CMP 목록을 참조하십시오](https://advertisingconsent.eu/cmp-list/).
+1. 귀하는 IAB TCF를 지원하고 IAB TCF에 등록된 CMP(Consent Management Platform) 또는 자체 CMP를 사용하고 있어야 합니다. IAB 프레임워크에 [등록된 CMP 목록을 참조하십시오](https://advertisingconsent.eu/cmp-list/).
 
 ## 권장 사항 및 구현 방법 {#recommendations}
 
 Audience Manager에서 IAB TCF 지원을 활성화하려면 Opt-in을 사용하여 IAB를 설정하는 [방법에 대한 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-이 작업은 Adobe Launch를 사용하여 [속성에서](https://docs.adobelaunch.com/) ECID 옵트인을 계측하여 수행하는 것이 가장 쉽습니다. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
+이 작업은 Adobe Experience Platform Launch [를 사용하여](https://docs.adobelaunch.com/) 속성에서 ECID 옵트인을 계측하여 수행하는 것이 가장 쉽습니다. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
 ## IAB 프레임워크 사용 시 사용자 선택 워크플로우 {#user-choice-workflow}
 
@@ -129,7 +129,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 ## IAB TCF를 지원하는 정품 인증 파트너 {#aam-activation-partners}
 
-IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF를 지원하는 정품 인증 파트너에 대한 자세한 내용은 디바이스 기반의 [대상](/help/using/features/destinations/device-based-destinations-list.md)목록을 참조하십시오.
+IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. IAB TCF를 지원하는 정품 인증 파트너에 대한 자세한 내용은 디바이스 기반의 대상 [목록을 참조하십시오](/help/using/features/destinations/device-based-destinations-list.md).
 
 ## IAB 구현 테스트 {#test-iab-implementation}
 
@@ -147,7 +147,7 @@ Audience Manager는 설명서의 [별도의 아티클에서](data-privacy-reques
 
 ## 추가 리소스 {#additional-resources}
 
-* [Experience Cloud ID 서비스 옵트인](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
+* [Adobe Experience Platform Identity Service 옵트인](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
 * [IAB Europe GDPR 투명성 및 동의 프레임워크](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB 유럽 GDPR 투명성 및 동의 프레임워크 기술 사양](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [IAB TCF 플러그인 - 비디오 데모](https://helpx.adobe.com/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)

@@ -1,13 +1,13 @@
 ---
 description: 새 데이터 소스를 만들려면 대상 데이터 > 데이터 소스 > 새로 추가로 이동하여 여기에 설명된 각 섹션에 대한 단계를 완료합니다. 데이터 소스를 만들려면 관리자 권한이 필요합니다.
-keywords: 데이터 소스 관리 데이터 소스 관리
+keywords: data sources;manage data source;audience manager data source
 seo-description: 새 데이터 소스를 만들려면 대상 데이터 > 데이터 소스 > 새로 추가로 이동하여 여기에 설명된 각 섹션에 대한 단계를 완료합니다. 데이터 소스를 만들려면 관리자 권한이 필요합니다.
 seo-title: 데이터 소스 만들기
 solution: Audience Manager
 title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 1. 통합 코드를 제공합니다. 일반적으로 통합 코드는 선택 사항입니다. 이러한 요구 사항은 다음과 같습니다.
 
    * [크로스 디바이스 데이터 소스를](../features/profile-merge-rules/merge-rules-start.md#create-data-source)만듭니다.
-   * Experience [Cloud ID 서비스를](https://marketing.adobe.com/resources/help/en_US/mcvid/)사용합니다.
+   * Adobe Experience [Platform Identity Service를 사용하십시오](https://marketing.adobe.com/resources/help/en_US/mcvid/).
    * 프로필 병합 [규칙](../features/profile-merge-rules/merge-rules-start.md)사용
 
 1. 원하는 **[!UICONTROL ID Type]**&#x200B;항목을 선택합니다. ID 유형 옵션은 다음과 같습니다.
@@ -77,7 +77,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >* Adobe Analytics를 사용하는 고객의 경우:Audience Manager에서는 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. 코어 [서비스를](https://marketing.adobe.com/resources/help/en_US/mcloud/) 사용하여 이러한 데이터 소스를 매핑을 해제합니다.
 
 
-1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
+1. 클릭 **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. 하나 이상의 데이터 소스 옆의 확인란을 선택합니다.
 긴 목록이 있는 경우 이 [!UICONTROL Search] 상자를 사용하여 원하는 데이터 소스를 찾을 수 있습니다.
 1. 을 ![](assets/icon_trash.png)클릭한 다음 삭제를 확인합니다.

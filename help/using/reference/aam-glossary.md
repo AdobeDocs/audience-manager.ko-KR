@@ -253,7 +253,7 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 **TTL(Time-to-Live)**
 
-TTL 파섹 TTL은 세그먼트가 아닌 트레이트에 설정됩니다. 방문자가 TTL 간격 종료 전에 적격한 트레이트가 표시되지 않으면 세그먼트가 사라집니다. 세그먼트 [및 트레이트 TTL(Time-to-Live) 설명에서 자세히 알아보십시오](/help/using/features/traits/segment-ttl-explained.md).
+TTL 파섹 TTL은 세그먼트가 아닌 트레이트에 설정됩니다. 방문자가 TTL 간격 종료 전에 적격한 트레이트가 표시되지 않으면 세그먼트가 사라집니다. 세그먼트 [및 트레이트 TTL(Time to-Live) 설명에서 자세히 알아보십시오](/help/using/features/traits/segment-ttl-explained.md).
 
 <br> 
 

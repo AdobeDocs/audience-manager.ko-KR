@@ -1,13 +1,13 @@
 ---
 description: 인스턴스 수준 DIL API를 사용하면 프로그래밍 방식으로 Audience Manager 개체를 만들고 사용하여 작업할 수 있습니다. 인스턴스 수준 메서드는 클래스 수준 메서드로 설정된 API 기능을 향상합니다.
-keywords: 트레이트 만들기;트레이트 만들기
+keywords: create traits;create trait
 seo-description: 인스턴스 수준 DIL API를 사용하면 프로그래밍 방식으로 Audience Manager 개체를 만들고 사용하여 작업할 수 있습니다. 인스턴스 수준 메서드는 클래스 수준 메서드로 설정된 API 기능을 향상합니다.
 seo-title: 인스턴스 수준 DIL 메서드
 solution: Audience Manager
 title: 인스턴스 수준 DIL 메서드
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -45,7 +45,7 @@ r_dil_signals.xml
 
  -->
 
-**** 함수 서명: `signals: function ({key1:value1, key2:value2},prefix){}`
+**함수 서명:** `signals: function ({key1:value1, key2:value2},prefix){}`
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ r_dil_traits.xml
 
  -->
 
-**** 함수 서명: `traits:function (sids){}`
+**함수 서명:** `traits:function (sids){}`
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ r_dil_logs.xml
 
  -->
 
-**** 함수 서명: `logs: function {key1:value1, key2:value2}`
+**함수 서명:** `logs: function {key1:value1, key2:value2}`
 
 **응답**
 
@@ -172,7 +172,7 @@ r_dil_submit.xml
 
  -->
 
-**** 함수 서명: `submit: function () {}`
+**함수 서명:** `submit: function () {}`
 
 >[!NOTE]
 >
@@ -210,7 +210,7 @@ r_dil_after_result.xml
 
  -->
 
-**** 함수 서명: `afterResult: function (fn) {}`
+**함수 서명:** `afterResult: function (fn) {}`
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ r_dil_clear_data.xml
 
  -->
 
-**** 함수 서명: `clearData: function () {}`
+**함수 서명:** `clearData: function () {}`
 
 >[!NOTE]
 >
@@ -292,7 +292,7 @@ r_dil_custom_query_params.xml
 
  -->
 
-**** 함수 서명: `customQueryParams: function (obj) {}`
+**함수 서명:** `customQueryParams: function (obj) {}`
 
 >[!NOTE]
 >
@@ -336,7 +336,7 @@ r_dil_get_container_nsid.xml
 
  -->
 
-**** 함수 서명: `dil.api.getContainerNSID: function () {}`
+**함수 서명:** `dil.api.getContainerNSID: function () {}`
 
 **샘플 코드**
 
@@ -360,7 +360,7 @@ r_dil_get_event_log.xml
 
  -->
 
-**** 함수 서명: `dil.api.getEventLog: function () {}`
+**함수 서명:** `dil.api.getEventLog: function () {}`
 
 **샘플 코드**
 
@@ -397,7 +397,7 @@ r_dil_get_partner.xml
 
  -->
 
-**** 함수 서명: `dil.api.getPartner: function () {}`
+**함수 서명:** `dil.api.getPartner: function () {}`
 
 **샘플 코드**
 
@@ -421,7 +421,7 @@ r_dil_get_state.xml
 
  -->
 
-**** 함수 서명: `dil.api.getState: function () {}`
+**함수 서명:** `dil.api.getState: function () {}`
 
 **샘플 코드**
 
@@ -505,11 +505,11 @@ r_dil_idsync.xml
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간에 예를 들어 파트너 x는 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager로 보냅니다. </p> <p> <p><b></b> 중요: 이 메서드는 더 이상 사용되지 않습니다. Experience Cloud ID 서비스 인스턴스의 <code> idSyncByURL </code> 방법을 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간에 예를 들어 파트너 x는 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager로 보냅니다. </p> <p> <p><b>중요:</b> 이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByURL </code> 방법을 사용하십시오. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager로 전송하려는 경우 </p> <p> <p><b></b> 중요: 이 메서드는 더 이상 사용되지 않습니다. Experience Cloud ID 서비스 인스턴스의 <code> idSyncByDataSource </code> 방법을 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager로 전송하려는 경우 </p> <p> <p><b>중요:</b> 이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByDataSource </code> 방법을 사용하십시오. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,9 +554,9 @@ r_dil_idsync.xml
 
 `idSync` 다음 매크로를 허용합니다.
 
-* **`%TIMESTAMP%`:** 타임스탬프를 생성합니다(밀리초 단위). 캐시 무효화에 사용됩니다.
-* **`%DID%`:** 사용자의 Audience Manager ID를 삽입합니다.
-* **`%HTTP_PROTO%`** :페이지 프로토콜( `http` 또는 `https`)을 설정합니다.
+* **`%TIMESTAMP%`:**타임스탬프를 생성합니다(밀리초 단위). 캐시 무효화에 사용됩니다.
+* **`%DID%`:**사용자의 Audience Manager ID를 삽입합니다.
+* **`%HTTP_PROTO%`:**페이지 프로토콜(`http`또는`https`)을 설정합니다.
 
 **응답**
 
@@ -597,7 +597,7 @@ r_dil_result.xml
 
  -->
 
-**** 함수 서명: `result: function (callback) {}`
+**함수 서명:** `result: function (callback) {}`
 
 이 콜백은 대상 게시를 처리하는 기본 콜백을 대체합니다.
 
@@ -628,7 +628,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 });.submit();
 </code></pre>
 
-##  secureDataCollection {#securedatacollection}
+## secureDataCollection {#securedatacollection}
 
 `secureDataCollection` 는 Akamai 및 Akamai [!UICONTROL DIL] 를 호출하는 방법을 제어하는 부울 매개 [!UICONTROL Data Collection Servers (DCS)] 변수입니다.
 
@@ -694,7 +694,7 @@ r_dil_use_image_request.xml
 
  -->
 
-**** 함수 서명: `useImageRequest: function () {}`
+**함수 서명:** `useImageRequest: function () {}`
 
 >[!NOTE]
 >
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [주요 변수의 이름 요구 사항](../features/traits/trait-key-name-requirements.md)
 >* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
->* [Experience Cloud ID 서비스의 동기화 함수](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Adobe Experience Platform ID 서비스의 동기화 기능](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 >* [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID 서비스:Use코르소nly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Experience Cloud ID 서비스의 CORS 지원](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform Identity Service:Use코르소nly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Adobe Experience Platform Identity Service의 CORS 지원](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 

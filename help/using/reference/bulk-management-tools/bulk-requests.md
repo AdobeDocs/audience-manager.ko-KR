@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 일괄 요청
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
-source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->는 에서 [!UICONTROL Bulk Management Tools] 지원되지 *않습니다* . [!DNL Audience Manager] 이 도구는 편의를 위해 제공되는 무료 도구입니다. 일괄 변경의 경우 Audience Manager API를 [대신 사용하는 것이](../../api/rest-api-main/aam-api-getting-started.md) 좋습니다. [UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
+>[UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
 
 워크시트에는 자체 열 머리글이 없으며 ID를 열에 복사할 필요가 없습니다. [!UICONTROL Request] 대신 도구 모음에서 클릭하는 작업 단추를 기반으로 데이터를 반환합니다. 또한 선택 사항 보고 기능은 몇 가지 고정 시간 간격에 대한 픽셀 화재의 빈도 수 및 고유 사용자 수를 반환합니다.
 
@@ -34,7 +34,7 @@ t_bulk_requests.xml
 
    * 알고리즘 모델
    * 데이터 소스
-   *  파생 신호
+   * 파생 신호
    * 대상 매핑
    * 알고리즘, 규칙 기반 및 온보드 트레이트
    * 세그먼트

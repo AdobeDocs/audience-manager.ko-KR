@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -65,7 +65,7 @@ To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile
 
 <!-- create-profile-merge-rule.xml -->
 
-**** 사전 요구 사항:데이터를 만들려면 장치 간 데이터 소스가 필요합니다 [!UICONTROL Profile Merge Rule]. 데이터 [소스 만들기를 참조하십시오](../manage-datasources.md#create-data-source).
+**사전 요구 사항:** 데이터를 만들려면 장치 간 데이터 소스가 필요합니다 [!UICONTROL Profile Merge Rule]. 데이터 [소스 만들기를 참조하십시오](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile
 
 ## 병합 규칙 코드 구성 {#configure-merge-rule-code}
 
-다음 지침에 따라 [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL]및 모바일 [!DNL SDK] 코드를 설정하여 병합 규칙을 사용할 수 있습니다.
+다음 지침에 따라 [!UICONTROL Adobe Experience Platform Identity Service], [!UICONTROL DIL]및 모바일 [!DNL SDK] 코드를 설정하여 병합 규칙을 사용할 수 있습니다.
 
 <!-- merge-rules-configure-code.xml -->
 
@@ -109,13 +109,13 @@ To create a [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile
 
 이러한 절차를 [완료하기 전에](#create-data-source) 크로스 장치 데이터 소스 [및](#create-profile-merge-rule) 프로필 병합 규칙을 *설정해야* 합니다.
 
-## Experience Cloud ID 서비스 고객의 경우 {#id-service-customers}
+## Adobe Experience Platform Identity Service 고객 {#id-service-customers}
 
-DIL의 [!UICONTROL Experience Cloud ID Service] 최신 버전과 [최신](../../dil/dil-overview.md) 버전은 작업 시 [!UICONTROL Profile Merge Rules]권장됩니다. 그러나 이 기능을 사용하여 작업할 [!UICONTROL Experience Cloud ID Service] 필요는 없습니다. 지금 사용하고 [!UICONTROL DIL]있는 경우 아래의 [기존 DIL 섹션을](#legacy-dil) 참조하십시오.
+DIL의 [!UICONTROL Adobe Experience Platform Identity Service] 최신 버전과 [최신](../../dil/dil-overview.md) 버전은 작업 시 [!UICONTROL Profile Merge Rules]권장됩니다. 그러나 이 기능을 사용하여 작업할 [!UICONTROL Adobe Experience Platform Identity Service] 필요는 없습니다. 지금 사용하고 [!UICONTROL DIL]있는 경우 아래의 [기존 DIL 섹션을](#legacy-dil) 참조하십시오.
 
 ### 고객 ID 설정 기능 구성
 
-이 함수를 사용할 [!UICONTROL Experience Cloud ID Service]때 이 `setCustomerIDs` 함수는 선언된 ID를 [!DNL Audience Manager]전달합니다. 프로필 병합 규칙을 사용하려면 장치 간 데이터 소스를 만들 때 지정한 통합 코드를 `setCustomerIDs` 사용하도록 수정해야 합니다. 예를 들어 통합 코드를 사용하여 크로스 디바이스 데이터 소스를 만들었다고 `my_datasource_ic`가정해 봅시다. 선언된 ID를 전달하려면 아래 수정된 코드 샘플에 표시된 대로 통합 코드를 방문자 ID 함수에 추가합니다.
+이 함수를 사용할 [!UICONTROL Adobe Experience Platform Identity Service]때 이 `setCustomerIDs` 함수는 선언된 ID를 [!DNL Audience Manager]전달합니다. 프로필 병합 규칙을 사용하려면 장치 간 데이터 소스를 만들 때 지정한 통합 코드를 `setCustomerIDs` 사용하도록 수정해야 합니다. 예를 들어 통합 코드를 사용하여 크로스 디바이스 데이터 소스를 만들었다고 `my_datasource_ic`가정해 봅시다. 선언된 ID를 전달하려면 아래 수정된 코드 샘플에 표시된 대로 통합 코드를 방문자 ID 함수에 추가합니다.
 
 #### 일반 코드 샘플
 
@@ -158,7 +158,7 @@ var vDil = DIL.create({
 
 ## 기존 DIL {#legacy-dil}
 
-만약 [!DNL Experience Cloud ID Service] 아직 사용하지 않는다면, 너는 정말 그래야 한다. 그러나 새로운 코드로 전환하려면 신중한 생각과 테스트가 필요합니다. 이러한 경우 아래 코드 샘플에서와 같이 `DIL.create` 함수가 제대로 설정되어 있는지 확인하십시오.
+만약 [!DNL Adobe Experience Platform Identity Service] 아직 사용하지 않는다면, 너는 정말 그래야 한다. 그러나 새로운 코드로 전환하려면 신중한 생각과 테스트가 필요합니다. 이러한 경우 아래 코드 샘플에서와 같이 `DIL.create` 함수가 제대로 설정되어 있는지 확인하십시오.
 
 ```js
 DIL.create({

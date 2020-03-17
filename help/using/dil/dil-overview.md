@@ -2,12 +2,12 @@
 description: DIL 및 작동 방식에 대한 개요입니다.
 seo-description: DIL 및 작동 방식에 대한 개요입니다.
 seo-title: DIL(데이터 통합 라이브러리) 이해
-keywords: 'dil, d, dil, dil, d, dil, d, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, d, l, dil, dil, dil, dil, dil, dil, dil, l, '
+keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
 solution: Audience Manager
 title: DIL(데이터 통합 라이브러리) 이해
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -18,29 +18,29 @@ Audience Manager DIL 코드 라이브러리에서 사용할 수 있는 개요, �
 
 >[!IMPORTANT]
 >
->Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. ID 서비스를 사용하여 ID 동기화 및 URL 대상을 실행합니다. ID 서비스가 없거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
+>버전 8.0(2018년 8월 릴리스)부터 [!UICONTROL DIL] 시작하여 Adobe Experience [Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), 버전 3.3 이상에 대한 종속성을 갖습니다. ID 서비스를 사용하여 ID 동기화 및 URL 대상을 실행합니다. ID 서비스가 없거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
 >
->Adobe Launch를 사용하여 DIL 및 Experience Cloud ID 서비스 라이브러리를 구현하고 관리하는 것이 좋습니다.
+>Adobe Experience Platform Launch를 사용하여 DIL 및 Adobe Experience Platform Identity Service 라이브러리를 구현하고 관리하는 것이 좋습니다.
 
 그러나 GitHub 페이지에서 최신 Experience Cloud 및 DIL 릴리스를 다운로드할 수도 있습니다. 아래 다운로드 링크를 참조하십시오.
 
-* Experience [Cloud ID 서비스 다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Adobe Experience [Platform Identity Service 다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * DIL [다운로드](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## DIL 목적 {#purpose-dil}
 
-[!UICONTROL DIL] 는 API 라이브러리입니다. 여러분은 그것을 헬퍼 코드의 본체로 생각할 수 [!DNL Adobe Audience Manager]있습니다. 사용할 필요는 없지만 [!DNL Audience Manager]메서드 및 함수를 [!UICONTROL DIL] 사용하면 데이터를 전송하기 위해 자체 코드를 개발할 필요가 없습니다 [!DNL Audience Manager]. 또한 [!UICONTROL DIL] 은 Experience Cloud ID 서비스에서 [제공하는 API와](https://marketing.adobe.com/resources/help/en_US/mcvid/)다릅니다. 이 서비스는 다양한 [!DNL Experience Cloud] 솔루션에서 방문자 ID를 관리하도록 설계되었습니다. 반면, [!UICONTROL DIL] 다음과 같이 설계되었습니다.
+[!UICONTROL DIL] 는 API 라이브러리입니다. 여러분은 그것을 헬퍼 코드의 본체로 생각할 수 [!DNL Adobe Audience Manager]있습니다. 사용할 필요는 없지만 [!DNL Audience Manager]메서드 및 함수를 [!UICONTROL DIL] 사용하면 데이터를 전송하기 위해 자체 코드를 개발할 필요가 없습니다 [!DNL Audience Manager]. 또한 [!UICONTROL DIL] 이 API는 Adobe Experience Platform Identity [Service에서 제공하는 API와 다릅니다](https://marketing.adobe.com/resources/help/en_US/mcvid/). 이 서비스는 다양한 [!DNL Experience Cloud] 솔루션에서 방문자 ID를 관리하도록 설계되었습니다. 반면, [!UICONTROL DIL] 다음과 같이 설계되었습니다.
 
 * 이벤트 호출을 수행하고 데이터를 데이터 수집 [서버로 보냅니다](../reference/system-components/components-data-collection.md).
 * 데이터를 [대상으로](../features/destinations/destinations.md)보내기
 
 ## DIL 코드 가져오기 및 구현 {#get-implement-dil-code}
 
-[!UICONTROL DIL] 코드는 **[여기에서](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;다운로드할 수 있습니다. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. ID 서비스를 사용하여 ID 동기화 및 URL 대상을 실행합니다. ID 서비스가 없거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
+[!UICONTROL DIL] 코드는 **[여기에서](https://github.com/Adobe-Marketing-Cloud/dil/releases)**다운로드할 수 있습니다. 버전 8.0(2018년 8월 릴리스)부터[!UICONTROL DIL]시작하여 Adobe Experience Platform Identity[Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), 버전 3.3 이상에 대한 강한 의존성이 있습니다. ID 서비스를 사용하여 ID 동기화 및 URL 대상을 실행합니다. ID 서비스가 없거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
 
-수동으로 작업하고 [!UICONTROL DIL] 설정하는 대신 Adobe Launch를 사용하는 것이 [!DNL Audience Manager] 좋습니다 [](https://docs.adobelaunch.com/) . [!DNL Adobe Launch] 는 코드 배포, 배치 및 버전 관리를 간소화하므로 권장 구현 도구입니다. Adobe Launch의 Audience [Manager 익스텐션에](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) 대한 자세한 내용을 살펴보십시오.
+수동으로 작업하고 [!UICONTROL DIL] 설정하는 대신 Adobe Experience Platform [!DNL Audience Manager] Launch를 사용하는 것이 좋습니다 [](https://docs.adobelaunch.com/) . [!DNL Adobe Experience Platform Launch] 는 코드 배포, 배치 및 버전 관리를 간소화하므로 권장 구현 도구입니다. Adobe Experience Platform Launch [의 Audience Manager 익스텐션에](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) 대한 자세한 내용을 살펴보십시오.
 
-Adobe Launch는 Adobe Dynamic [Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ([!DNL DTM])의 후속 제품입니다.
+Adobe Experience Platform Launch는 Adobe Dynamic [Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ([!DNL DTM])의 후속 제품입니다.
 
 ## 샘플 호출 {#sample-code}
 

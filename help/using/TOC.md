@@ -146,7 +146,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
          + [규칙 기반 트레이트 또는 온보드 트레이트 만들기](features/traits/create-onboarded-rule-based-traits.md)
          + [특성 규칙 관리](features/traits/manage-trait-rules.md)
          + [알고리즘 트레이트 만들기](features/traits/create-algorithmic-traits.md)
-         + [트레이트 빌더에서 비교 연산자를 사용한 작업](features/traits/trait-comparison-operators.md)
+         + [트레이트 빌더에서 비교 연산자 사용](features/traits/trait-comparison-operators.md)
          + [특성 빌더에서의 작업 순서](features/traits/trait-operator-precedence.md)
          + [트레이트 빌더에서 정규 표현식 사용](features/traits/trait-builder-regex.md)
       + [특성 저장소](features/traits/trait-storage.md)

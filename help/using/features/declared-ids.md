@@ -1,13 +1,13 @@
 ---
 description: 선언된 ID의 작동 방식, 설정 절차, 코드 예제 및 변수.
-keywords: id 동기화
+keywords: id sync
 seo-description: 선언된 ID의 작동 방식, 설정 절차, 코드 예제 및 변수.
 seo-title: 선언된 ID
 solution: Audience Manager
 title: 선언된 ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
  <tbody> 
   <tr> 
    <td colname="col1"> <b>이벤트 호출</b> </td> 
-   <td colname="col2"> <p>작동하려면 페이지에 <span class="wintitle"> DIL </span> 및 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID 서비스 </a> 코드가 있어야 합니다. <span class="wintitle"> DIL은 Experience Cloud ID 서비스에서 </span> 제공하는 <span class="wintitle"> 기능에서 선언된 ID를 </span> 받고 해당 ID를 Audience Manager에 <code> setVisitorID </code> <span class="keyword"> </span> <span class="keyword"> </span>전달합니다. </p> </td> 
+   <td colname="col2"> <p>이 작업을 수행하려면 페이지에 <span class="wintitle"> DIL </span> 과 <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a> 코드가 있어야 합니다. <span class="wintitle"> DIL은 Adobe Experience Platform Identity Service </span> 에서 제공하는 <span class="wintitle"> 함수에서 </span> 선언된 ID를 <code> setVisitorID </code> 받고 해당 ID를 Audience Manager에 <span class="keyword"> </span> <span class="keyword"> </span>전달합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>일치 ID</b> </td> 
@@ -57,7 +57,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 옵트아웃 호출 {#opt-out-calls}
 
-이 [!UICONTROL declared ID] 프로세스는 웹 사이트별로 Audience Manager 타깃팅을 옵트아웃하기 위해 사이트 방문자 기본 설정을 적용합니다. Audience Manager가 옵트아웃 요청을 받으면, 에서 [!DNL JSON] 반환한 오류 코드 171이 [!UICONTROL DCS] 포함되며, Audience Manager 사용자 ID가 아닌 "옵트아웃 태그 발견 발견"이 표시됩니다.
+이 [!UICONTROL declared ID] 프로세스는 웹 사이트별로 Audience Manager 타깃팅을 옵트아웃하기 위해 사이트 방문자 기본 설정을 적용합니다. Audience Manager가 옵트아웃 요청을 받으면, 에서 [!DNL JSON] 반환한 오류 코드 171이 [!UICONTROL DCS] 포함되며, Audience Manager 사용자 ID가 아닌 &quot;옵트아웃 태그 발견 발견&quot;이 표시됩니다.
 
 * Audience Manager는 Audience Manager와 함께 [!UICONTROL declared ID] 옵트아웃을 전달할 [!UICONTROL UUID] 수 [!DNL URL]있습니다.
 * 옵트아웃은 [!UICONTROL declared ID] 파트너별로 [!UICONTROL 프로필 캐시 서버([!UICONTROL PCS])에 저장됩니다. 사용하는 플랫폼 수준 옵트아웃은 없습니다 [!UICONTROL declared IDs]. 또한 Audience Manager는 사용자를 가장자리의 특정 영역에서 옵트아웃합니다(옵트아웃은 [!UICONTROL DCS] 지역을 벗어나지 않음).
@@ -183,11 +183,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 선언된 ID를 [!UICONTROL DIL][!DNL Audience Manager.]
 
-## DIL은 Experience Cloud ID 서비스를 사용하여 선언된 ID를 전달합니다. {#dil-id-service-pass-declared-ids}
+## DIL은 Adobe Experience Platform Identity Service를 사용하여 선언된 ID를 전달합니다. {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
-Experience Cloud [ID Service와](https://marketing.adobe.com/resources/help/en_US/mcvid/)함께 사용하면 더 이상 사용되지 않는 [!UICONTROL declared IDs] 변수와 `dpid` `dpuuid` 함께 로그인할 필요가 없습니다. 대신, 의 현재 버전은 [!UICONTROL DIL] 의 `visitorService` 함수에서 함수를 [!UICONTROL declared IDs] 가져옵니다 `setCustomerIDs` [!UICONTROL Experience Cloud ID Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). 아래와 `visitorService` 같이 전화를 `DIL.create` 걸었습니다.
+Adobe Experience Platform [Identity Service와](https://marketing.adobe.com/resources/help/en_US/mcvid/)함께 사용할 때 더 이상 사용되지 않는 [!UICONTROL declared IDs] 변수와 `dpid` `dpuuid` 변수를 함께 전달할 필요가 없습니다. 대신, 의 현재 버전은 [!UICONTROL DIL] 의 `visitorService` 함수에서 함수를 [!UICONTROL declared IDs] 가져옵니다 `setCustomerIDs` [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). 아래와 `visitorService` 같이 전화를 `DIL.create` 걸었습니다.
 
 ```js
 var vDil = DIL.create({
@@ -202,7 +202,7 @@ var vDil = DIL.create({
 
 ## 사용되지 않는 함수 {#deprecated-functions}
 
-최신 버전 [!UICONTROL DIL] (6.2 이상)을 사용하면 이러한 키-값 쌍을 사용하여 전달할 필요가 [!UICONTROL declared IDs]없습니다. 이는 [!UICONTROL DIL] 이제 위의 코드 샘플에 표시된 `visitorService` 함수에 의존하기 때문입니다. 이 함수는 [!UICONTROL declared IDs] 에서 가져옵니다 [!UICONTROL Experience Cloud ID Service]. 하지만 이전 및 이전 목적으로 이 변수를 여기에서 참조합니다. Adobe Experience Manager에서 Adobe Experience Manager Forms를 `DIL.create` 가져오는 방법을 살펴보려면 아래 코드를 [!UICONTROL declared ID] [!UICONTROL Visitor ID Service]참조하십시오.
+최신 버전 [!UICONTROL DIL] (6.2 이상)을 사용하면 이러한 키-값 쌍을 사용하여 전달할 필요가 [!UICONTROL declared IDs]없습니다. 이는 [!UICONTROL DIL] 이제 위의 코드 샘플에 표시된 `visitorService` 함수에 의존하기 때문입니다. 이 함수는 [!UICONTROL declared IDs] 에서 가져옵니다 [!UICONTROL Adobe Experience Platform Identity Service]. 하지만 이전 및 이전 목적으로 이 변수를 여기에서 참조합니다. Adobe Experience Manager에서 Adobe Experience Manager Forms를 `DIL.create` 가져오는 방법을 살펴보려면 아래 코드를 [!UICONTROL declared ID] [!UICONTROL Visitor ID Service]참조하십시오.
 다음 표에서는 `declaredId` 객체가 사용하는 기존 변수에 대해 설명합니다.
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
@@ -231,7 +231,7 @@ var vDil = DIL.create({
 
 Audience Manager는 시스템의 결합된 `DPID` `DPUUID` 사용자 ID와 해당 사용자 ID를 비교하여 일치시킵니다. ID가 없는 경우 Audience Manager가 새 사용자 ID를 만들고 이 ID를 `DPID/DPUUID` 조합에 동기화합니다. Audience Manager가 사용자 ID와 일치하거나 사용자 ID( `UUID`)를 만들면 클라이언트의 도메인(퍼스트 파티 쿠키) 또는 기타 로컬 저장소의 쿠키에 대한 [!DNL JSON] 응답에서 해당 ID가 반환됩니다.
 
-v6.1 또는 이전 버전을 사용하는 경우 이 함수를 [!UICONTROL DIL] 호출합니다. 그러나 이 함수 대신 에서 가져오는 새 [!UICONTROL declared IDs] 버전이 사용됩니다 [!UICONTROL Experience Cloud ID Service].
+v6.1 또는 이전 버전을 사용하는 경우 이 함수를 [!UICONTROL DIL] 호출합니다. 그러나 이 함수 대신 에서 가져오는 새 [!UICONTROL declared IDs] 버전이 사용됩니다 [!UICONTROL Adobe Experience Platform Identity Service].
 
 ```js
 DIL.create({

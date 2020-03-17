@@ -1,18 +1,18 @@
 ---
 description: 일반적인 제품 및 기능 관련 질문 및 문제
-keywords: 고객 관리자 쿠키
+keywords: audience manager cookies
 seo-description: 일반적인 제품 및 기능 관련 질문 및 문제
-seo-title: ' 제품 기능 FAQ'
+seo-title: 제품 기능 FAQ
 solution: Audience Manager
 title: 제품 기능 FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
-#  제품 기능 FAQ{#product-features-and-functions-faq}
+# 제품 기능 FAQ{#product-features-and-functions-faq}
 
 일반적인 제품 및 기능 관련 질문 및 문제
 
@@ -30,7 +30,7 @@ faq_features_functions.xml
 
 예를 들어 다음과 *`Organization ID`* 같습니다. `1FD6776A524453CC0A490D44@AdobeOrg`Adobe
 
-Audience *`Organization ID`* Manager의 DIL [API](../dil/dil-overview.md) , [Experience Cloud ID 서비스](https://marketing.adobe.com/resources/help/en_US/mcvid/)및 기타 [!DNL Experience Cloud] 솔루션에 의해 사용됩니다. 관리자 권한이 있는 사용자는 에서 *`Organization ID`* 을 찾을 수 [!DNL Adobe Admin Console]있습니다. 관리 [- 사용자 관리 FAQ를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+Audience *`Organization ID`* Manager의 DIL [API](../dil/dil-overview.md) , Adobe [Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)및 기타 [!DNL Experience Cloud] 솔루션에 의해 사용됩니다. 관리자 권한이 있는 사용자는 에서 *`Organization ID`* 을 찾을 수 [!DNL Adobe Admin Console]있습니다. 관리 [- 사용자 관리 FAQ를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 <br> 
 
@@ -58,7 +58,7 @@ Audience *`Organization ID`* Manager의 DIL [API](../dil/dil-overview.md) , [Exp
 
 **[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager [!UICONTROL Tag Insertion Manager] 에서 TIM(생성 및 관리)을 [!UICONTROL data collection code (DIL)]사용했습니다. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Launch]. 자세한 내용은 Adobe Launch [및 다이내믹](https://docs.adobelaunch.com/) 태그 [관리를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/dtm/).
+Audience Manager [!UICONTROL Tag Insertion Manager] 에서 TIM(생성 및 관리)을 [!UICONTROL data collection code (DIL)]사용했습니다. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
 
 <br> 
 

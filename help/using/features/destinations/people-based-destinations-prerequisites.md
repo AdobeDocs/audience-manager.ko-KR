@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
 solution: Audience Manager
 title: 전제 조건 및 고려 사항
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 ---
 
@@ -37,6 +37,18 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
    >[!IMPORTANT]
    > Adobe Experience Cloud에 대한 권한을 구성할 때 캠페인 **관리** 권한을 활성화해야 합니다. 이 작업은 [!DNL People-Based Destinations] 통합에 필요합니다.
 3. 서비스 약관을 읽고 [!DNL Facebook Custom Audiences] 서명합니다. 이렇게 하려면, `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`어디로 `accountID` 가십시오 [!DNL Facebook Ad Account ID].
+
+### [!DNL LinkedIn]
+
+>[!IMPORTANT]
+>
+> Adobe와의 [!DNL People-Based Destinations] 통합은 현재 베타 테스트 단계에 [!DNL LinkedIn] 있으며 제한된 수의 고객에게만 제공됩니다.
+> 
+> 베타 테스트가 끝나면 이 통합을 신청한 모든 Audience Manager 고객이 사용할 수 [!DNL People-Based Destinations]있습니다.
+
+퍼스트 파티 고객 세그먼트를 보낼 [!DNL People-Based Destinations] 수 [!DNL LinkedIn]있으려면 먼저 [!DNL LinkedIn Campaign Manager] 계정에 [!DNL Creative Manager] 더 높은 권한 수준이 있는지 확인하십시오.
+
+사용자 권한을 편집하는 방법에 대한 자세한 내용은 광고 계정에 [!DNL LinkedIn Campaign Manager] [대한 사용자 권한 추가, 편집 및 제거를 참조하십시오](https://www.linkedin.com/help/lms/answer/5753)
 
 ## 데이터 온보딩 {#data-onboarding}
 

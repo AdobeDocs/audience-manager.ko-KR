@@ -7,7 +7,7 @@ title: 데이터 피드 구독 관리
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 1. 창에서 [!UICONTROL Terms and Conditions] 다음을 수행합니다.
 
-   * **** 중요:체크 상자를 체크 **[!UICONTROL ID sync]** 표시합니다. 이 설정은 데이터 제공업체의 일치 비율을 개선하는 데 도움이 됩니다.
+   * **중요:** 체크 상자를 체크 **[!UICONTROL ID sync]** 표시합니다. 이 설정은 데이터 제공업체의 일치 비율을 개선하는 데 도움이 됩니다.
    * 약관 상자를 선택하고 을 **[!UICONTROL Accept]** 클릭하여 구독 프로세스를 완료합니다.
    ![](assets/subscribe4.png)
 
@@ -50,6 +50,27 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 * 폴더를 확인하여 구독을 [!UICONTROL Traits] 확인합니다. 가입된 [데이터 피드에 대한 저장소를 참조하십시오](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
 
 * 대금 청구 및 지불 설명서를 검토합니다. 아래 관련 링크를 참조하십시오.
+
+### 우수 사례 {#best-practices}
+
+다음은 작업 시 따라야 할 우수 사례 [!UICONTROL Audience Marketplace]세트입니다.
+
+새로운 타사 및 타사 데이터 세트를 탐색할 [!UICONTROL Audience Marketplace]때 권장되는 첫 번째 단계는 데이터 피드를 활성화하는 [!UICONTROL Segments & Overlap]것입니다. 이렇게 하면 세그먼트를 만들어 고객 크기를 평가하고 중복 보고서를 실행하여 초기 고객 인사이트를 확보하여 데이터를 분석할 수 있습니다. 대부분의 데이터 제공업체는 이 사용 사례를 무료로 제공하므로 추가 비용 없이 이 분석을 수행할 수 있습니다.
+
+중복 보고서를 실행할 때 이러한 우수 사례를 통해 유용한 결과를 얻을 수 있습니다.
+
+1. 겹치는 데이터 세트가 다음과 같은 데이터 유형 및 수집 방법론과 유사한지 확인합니다.
+   * 방문자 지역
+   * 쿠키와 모바일 ID 비교
+   * 전환 확인 기간
+   * 오프라인 활동과 온라인 활동 비교
+   * 데이터 공급자가 데이터를 새로 고치는 빈도
+
+1. 겹치는 시간이 지남에 따라 약간 늘어날 수 있으므로 겹치기 보고서를 실행하기 전에 최대 30일이 지나도록 허용하여 데이터를 동기화할 수 있습니다.
+1. 여러 마케팅 캠페인에서 데이터 공급자의 데이터를 사용하는 경우 오버랩이 증가할 수 있습니다.
+및 이니셔티브를 제공합니다. 따라서 두 데이터 세트의 사용자가 더 많은 동기화 기회를 얻을 수 있습니다.
+1. 데이터 세트 간에 중복될 것이라는 보장은 없습니다. 겹침이 유효하려면 고객의 데이터 세트의 사용자가 보고 기간 동안 데이터 공급자 데이터 세트와 연결되어 있어야 합니다. 고객의 미디어 데이터가 데이터 공급자 데이터 세트에서 사용자에게 제공되지 않으면 겹치는 일이 없습니다.
+1. 낮은 겹치는 것을 나쁜 것으로 생각하지 마라. 낮은 오버랩을 활용하여 잠재 고객을 확보하고 신규 사용자의 참여를 유도할 수 있습니다.
 
 ## 개인 데이터 피드 구독 {#subscript-private-data-feed}
 
@@ -65,10 +86,10 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 1. 에서 데이터 피드 이름을 [!UICONTROL Marketplace]클릭합니다.
 1. 클릭 **[!UICONTROL Request Access]**. 그러면 요청 대화 상자가 열립니다.
-1. 요청 대화 상자에서 제공자에게 데이터 피드에 대한 귀하의 관심을 나타내는 메모를 작성하고 을 클릭합니다 **[!UICONTROL Send]**. 판매자는 귀하의 메시지를 검토하고 귀하의 요청을 승인하거나 거부합니다. 승인을 기다리는 동안 해당 데이터 피드의 목록에 "요청됨"이 나타납니다. [!UICONTROL Marketplace]
+1. 요청 대화 상자에서 제공자에게 데이터 피드에 대한 귀하의 관심을 나타내는 메모를 작성하고 을 클릭합니다 **[!UICONTROL Send]**. 판매자는 귀하의 메시지를 검토하고 귀하의 요청을 승인하거나 거부합니다. 승인을 기다리는 동안 해당 데이터 피드의 목록에 &quot;요청됨&quot;이 나타납니다. [!UICONTROL Marketplace]
 
-   * **[!UICONTROL Request approved]**:목록의 상태가 "액세스 권한 부여"로 변경되며 자동 알림을 받게 됩니다. [!UICONTROL Marketplace] 이 시점에서 피드에 가입할 수 있습니다. 자세한 [내용은 공개 데이터 피드](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) 가입을 참조하십시오.
-   * **[!UICONTROL Request denied]**:피드의 목록에서 "요청됨" 텍스트가 제거됩니다. [!UICONTROL Marketplace] 다시 구독하거나 다른 피드를 선택할 수 있습니다.
+   * **[!UICONTROL Request approved]**:목록의 상태가 &quot;액세스 권한 부여&quot;로 변경되며 자동 알림을 받게 됩니다. [!UICONTROL Marketplace] 이 시점에서 피드에 가입할 수 있습니다. 자세한 [내용은 공개 데이터 피드](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) 가입을 참조하십시오.
+   * **[!UICONTROL Request denied]**:피드의 목록에서 &quot;요청됨&quot; 텍스트가 제거됩니다. [!UICONTROL Marketplace] 다시 구독하거나 다른 피드를 선택할 수 있습니다.
 
 ## 구매자를 위한 데이터 피드 할인 {#buyer-discount}
 
@@ -155,10 +176,10 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 사용료 지불 방식으로 구매한 피드가 종료되면 당혹스럽거나 속상할 수 있습니다. 하지만 데이터 공급자는 다양한 이유로 데이터 피드를 비활성화할 수 있습니다. 몇 가지 일반적인 이유는 다음과 같습니다.
 
-* **** 청구:유료 지불로 인해 지속적으로 지연되거나 요금을 지불하지 못하는 경우 데이터 공급자가 피드를 비활성화합니다.
-* **** 피드 업데이트:데이터 공급자가 피드 분류법 또는 비용 구조를 업데이트할 때 피드를 비활성화해야 합니다.
-* **** 비활성 구매자:가입자에게 장기간 지출을 표시하지 않는 경우 데이터 공급자는 피드를 비활성화할 수 있는 권한을 보유합니다.
-* **** 비활성 판매자:종료되는 데이터 공급자는 모든 데이터 피드를 비활성화하고 삭제합니다. [!UICONTROL Audience Marketplace]
+* **청구:** 유료 지불로 인해 지속적으로 지연되거나 요금을 지불하지 못하는 경우 데이터 공급자가 피드를 비활성화합니다.
+* **피드 업데이트:** 데이터 공급자가 피드 분류법 또는 비용 구조를 업데이트할 때 피드를 비활성화해야 합니다.
+* **비활성 구매자:** 가입자에게 장기간 지출을 표시하지 않는 경우 데이터 공급자는 피드를 비활성화할 수 있는 권한을 보유합니다.
+* **비활성 판매자:** 종료되는 데이터 공급자는 모든 데이터 피드를 비활성화하고 삭제합니다. [!UICONTROL Audience Marketplace]
 
 >[!TIP]
 >
@@ -168,11 +189,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 데이터 공급자가 데이터 피드 중 하나를 비활성화하면 [!DNL Audience Manager] [!UICONTROL Administrator] 권한이 있는 사용자에게 이메일을 보냅니다. 때때로 이메일 필터는 이 메시지를 스팸으로 분류합니다. 따라서 이 중요한 알림을 놓칠 수 있습니다. 비활성화 메시지를 식별하는 데 도움이 되도록 이 이메일에는 다음 요소가 포함되어 있습니다.
 
-* **** 보낸 사람:비활성화 이메일은 에서 발송됩니다 `aam-noreply@adobe.com`. 팁:이 이메일에 회신하지 마십시오.
+* **보낸 사람:** 비활성화 이메일은 에서 발송됩니다 `aam-noreply@adobe.com`. 팁:이 이메일에 회신하지 마십시오.
 
-* **** 제목:여기에서 *데이터 피드* 이름에 대한 구독이 취소됩니다.
+* **제목:** 여기에서 *데이터 피드* 이름에 대한 구독이 취소됩니다.
 
-* **** 첨부 파일:이메일에는 첨부 파일 "." `list-of-affected-entities-by-feed-revocation.csv`가 포함되어 있습니다. 이렇게 하면 첨부 파일에 취소된 피드에 포함된 모든 트레이트가 나열된다는 점에서 복잡한 방법입니다. 데이터 구매자는 이 첨부 파일을 검토해야 합니다. 세그먼트와 [알고리즘 모델에서](../../../features/algorithmic-models/understanding-models.md)비활성화된 트레이트를 찾아 제거하는 데 도움이 됩니다.
+* **첨부 파일:** 이메일에는 첨부 파일 &quot;.&quot; `list-of-affected-entities-by-feed-revocation.csv`가 포함되어 있습니다. 이렇게 하면 첨부 파일에 취소된 피드에 포함된 모든 트레이트가 나열된다는 점에서 복잡한 방법입니다. 데이터 구매자는 이 첨부 파일을 검토해야 합니다. 세그먼트와 [알고리즘 모델에서](../../../features/algorithmic-models/understanding-models.md)비활성화된 트레이트를 찾아 제거하는 데 도움이 됩니다.
 
 ## 비활성화된 트레이트 목록 {#deactivation-trait-list}
 
@@ -246,7 +267,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 이 페이지에서는 다음 정보를 제공합니다.
 
 1. **기본 플랜 정보를 참조하십시오**. 여기에는 다음과 같은 피드 정보가 포함됩니다.
-   * 데이터 피드 이름입니다. 예를 들어, 위에 표시된 대로 이 피드의 이름은 "샘플 데이터 피드"입니다.
+   * 데이터 피드 이름입니다. 예를 들어, 위에 표시된 대로 이 피드의 이름은 &quot;샘플 데이터 피드&quot;입니다.
    * 데이터 공급자의 이름
    * 데이터 피드 ID;
    * 설명;
@@ -279,8 +300,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 이 사용 사례에서는 트레이트를 트레이트와 트레이트 대 [트레이트 겹침 보고서에서 공급자 트레이트를 비교할 수 있습니다.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) 또한 세그먼트에 공급자 트레이트를 만들거나 추가하고 [세그먼트별](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) 및 [세그먼트별](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) 보고서를 사용하여 추가적인 비교를 만들 수 있습니다. 겹치는 비교를 통해 다음을 수행할 수 있습니다.
 
-* **** 고객 범위 확장:낮은 오버랩은 트레이트에 이전에 보지 못했던 사용자가 포함되어 있음을 나타냅니다. 이러한 트레이트가 신규 사용자에게 도달하도록 할 수 있습니다.
-* **** 기존 고객 강화:겹치는 비율이 높으면 데이터 공급자가 소유한 트레이트와 비슷한 트레이트가 나타납니다. 이러한 트레이트를 통해 이미 개발된 고객에 대한 타깃팅되고 증가된 향상을 얻을 수 있습니다.
+* **고객 범위 확장:** 낮은 오버랩은 트레이트에 이전에 보지 못했던 사용자가 포함되어 있음을 나타냅니다. 이러한 트레이트가 신규 사용자에게 도달하도록 할 수 있습니다.
+* **기존 고객 강화:** 겹치는 비율이 높으면 데이터 공급자가 소유한 트레이트와 비슷한 트레이트가 나타납니다. 이러한 트레이트를 통해 이미 개발된 고객에 대한 타깃팅되고 증가된 향상을 얻을 수 있습니다.
 
 ### 알고리즘 모델
 

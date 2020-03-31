@@ -4,26 +4,26 @@ seo-description: Audience Manager는 계정에 대해 만들 수 있는 트레�
 seo-title: 사용 제한
 solution: Audience Manager
 title: 사용 제한
-keywords: ID 매핑, ID 매핑, 쿠키 매핑
+keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
+source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
 
 ---
 
 
-#  사용 제한 {#usage-limits}
+# 사용 제한 {#usage-limits}
 
 Audience Manager는 계정에 대해 만들 수 있는 트레이트, 세그먼트, 대상 및 알고리즘 모델의 수에 대한 최대 한도를 설정합니다. 사용자 인터페이스에서 생성하든 프로그래밍 방식으로 만들어지든 이러한 항목에 제한이 적용됩니다. [!DNL API] 사용 제한 사항은 Adobe [!DNL API]또는 사용자 인터페이스를 훼손할 수 있는 자동화된 프로세스로부터 Audience Manager를 보호하는 데 도움이 됩니다.
 
 ## ID 매핑 제한 {#id-mapping-limits}
 
-아래 표에는 장치 ID [에 대한 ID 매핑](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) 제한이 나와 있습니다. ID가 아래 제한에 도달하면 Audience Manager는 가장 오래된 저장된 ID 매핑을 제거하여 [!DNL FIFO] (첫 번째, 첫 번째 종료) 로직을 기반으로 새 ID 매핑을 추가하고 새 ID를 추가합니다. Audience [Manager에서](../../reference/ids-in-aam.md) 지원되는 ID에 대한 자세한 내용은 Audience Manager의 ID 인덱스를 참조하십시오.
+아래 표에는 장치 ID [에 대한 ID 매핑](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) 제한이 나와 있습니다. ID가 아래 제한에 도달하면 Audience Manager는 가장 오래된 저장된 ID 매핑을 제거하고 새 ID를 추가하여 [!DNL FIFO] (첫 번째, 첫 번째, 종료) 로직을 기반으로 새 ID 매핑을 추가합니다. Audience [Manager에서](../../reference/ids-in-aam.md) 지원되는 ID에 대한 자세한 내용은 Audience Manager의 ID 인덱스를 참조하십시오.
 
 | ID 매핑 | 최대 제한 |
 |-----------|-------------- |
-| 장치 광고 ID(DAID)를 장치 간 ID(CRM ID)로 변환 | 100개의 장치 광고 ID(DAID)에서 1개의 장치 간 ID(CRM ID)로 |
-| 장치 간 ID(CRM ID)와 장치 광고 ID(DAID) | 10개의 장치 간 ID(CRM ID)를 1개의 장치 광고 ID(DAID)로 |
+| 장치 광고 ID([DAID](../../reference/ids-in-aam.md))를 장치 간 ID([DPUUID](../../reference/ids-in-aam.md))로 변환 | 100개의 장치 광고 ID([DAID](../../reference/ids-in-aam.md))에서 1개의 장치 간 ID([DPUUID](../../reference/ids-in-aam.md)) |
+| 장치 간 ID([DPUUID](../../reference/ids-in-aam.md))를 장치 광고 ID([DAID](../../reference/ids-in-aam.md))로 | 각 DPID당 10개의[DPUUID](../../reference/ids-in-aam.md)(Cross-Device Advertising[ID](../../reference/ids-in-aam.md))- [1개의DPID](../../reference/ids-in-aam.md) |
 | 쿠키/브라우저 ID - 쿠키/브라우저 ID | 1000 쿠키/브라우저 ID를 1개의 쿠키/브라우저 ID로 변환 |
 
 ## 항목 제한 {#item-limits}
@@ -69,7 +69,7 @@ Audience Manager는 계정에 대해 만들 수 있는 트레이트, 세그먼�
 
 | 항목 | 최대 제한 |
 | ------------- | ------------------ |
-|  특성 폴더 | 2,000.  폴더 구조는 최대 5개 수준이 될 수 있습니다. |
+| 특성 폴더 | 2,000.  폴더 구조는 최대 5개 수준이 될 수 있습니다. |
 
 ### 파생된 신호 제한
 

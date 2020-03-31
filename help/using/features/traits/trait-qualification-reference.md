@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 트레이트 자격 참조
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
+source-git-commit: bd0ebcddc89c2141e9ce55d7fa2e68b5ca1cbb22
 
 ---
 
@@ -34,13 +34,13 @@ source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
 
 결과를 필터링하는 방법 [!UICONTROL Device ID]:
 
-* 프로필에 트레이트를 추가한 익명 장치 방문자 수를 다른 시간 범위 내에서 [!UICONTROL Unique Trait Realizations] 카운트합니다.
-* 프로필에 트레이트가 있는 익명 장치 방문자의 총 수를 [!UICONTROL Total Trait Population] 카운트합니다.
+* [!UICONTROL Unique Trait Realizations] 는 다른 시간 범위 내에서 프로필에 트레이트를 추가한 익명 장치 방문자 수입니다.
+* [!UICONTROL Total Trait Population] 는 이 특성이 프로필에 있는 익명 장치 방문자 수입니다.
 
 결과를 필터링하는 방법 [!UICONTROL Cross-Device ID]:
 
-* 프로필에 트레이트를 추가한 인증된 방문자 수(다른 시간 범위 내)를 [!UICONTROL Unique Trait Realizations] 카운트합니다.
-* 이 [!UICONTROL Total Trait Population] 트레이트가 프로필에 있는 인증된 총 방문자 수를 카운트합니다.
+* [!UICONTROL Unique Trait Realizations] 는 다른 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
+* [!UICONTROL Total Trait Population] 는 이 특성이 프로필에 있는 인증된 방문자의 수입니다.
 
 이런 식으로 숫자를 생각해 보세요. 위의 이미지에서 트레이트 세부 사항 [보기에서](../../features/traits/trait-details-page.md) 어제 속성을 방문한 활성 장치의 수를 나타냅니다. 55,757 [!UICONTROL Total Trait Population] 은 현재 이 트레이트에 대해 자격이 있는 사용자의 양을 나타냅니다. 이 [!UICONTROL Total Trait Population] 수치는 세그멘테이션/타깃팅에 사용할 수 있는 총 사용자 수를 보여주기 위한 것입니다. 일반적으로 사용자는 120일 동안 트레이트의 일부로 유지됩니다.
 

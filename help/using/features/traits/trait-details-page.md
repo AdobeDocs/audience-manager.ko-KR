@@ -5,16 +5,16 @@ seo-title: 특성 세부 사항 페이지
 solution: Audience Manager
 title: 특성 세부 사항 페이지
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: ID 유형 분류, ID 분류, 고객 ID 보고
+keywords: identity type breakdown, identity breakdown, audience identity reporting
 translation-type: tm+mt
-source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
 
 # 특성 세부 사항 페이지 {#trait-details-page}
 
-개별 트레이트에 대한 세부 사항 페이지에서는 트레이트 이름, ID, 성능 지표, 트레이트를 정의하는 표현식, 트레이트 속성이 속한 세그먼트 및 트레이트 감사 로그 등 트레이트 세부 사항에 대한 개요를 제공합니다. 이러한 세부 사항을 보려면 **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Traits]** 로 이동하여 작업할 트레이트의 이름을 클릭합니다.
+개별 트레이트에 대한 세부 사항 페이지에서는 트레이트 이름, ID, 성능 지표, 트레이트를 정의하는 표현식, 트레이트 속성이 속한 세그먼트 및 트레이트 감사 로그 등 트레이트 세부 사항에 대한 개요를 제공합니다. 이러한 세부 사항을 보려면 **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** 로 이동하여 작업할 트레이트의 이름을 클릭합니다.
 
 ## 트레이트 관리 도구 {#trait-management-tools}
 
@@ -47,10 +47,12 @@ source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 * **[!UICONTROL Identity Type Breakdown]**:처음 세 개의 항목에는 트레이트에 대한 자격이 가장 많은 인구 수를 가진 상위 세 개의 장치 간 데이터 소스가 내림차순으로 표시됩니다. 네 번째 항목에는 세 [!DNL DPUUIDs] 번째 항목에 포함되지 않은 장치 간 데이터 소스로부터 트레이트에 대해 자격이 부여된 다른 모든([!DNL CRM IDs])의 합계가 표시됩니다. 이 보고서는 페이지의 오른쪽 상단에 있는 [!UICONTROL Show Results By] 드롭다운 메뉴에서 장치 간 ID를 선택한 경우에만 나타납니다. 기본 드롭다운 옵션은 [!UICONTROL Device ID]이 보고서가 표시되지 않는 것입니다.
 
    ![트레이트 그래프](assets/trait-identity.png)
-   > [!NOTE]
-   > Audience Manager는 트레이트에 대해 자격이 있는 장치 간 ID가 있는 경우에만 [!UICONTROL Identity Type Breakdown] 보고서를 표시합니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=kor)
+   >[!NOTE]
+   >
+   >Audience Manager는 트레이트에 대해 자격이 있는 장치 간 ID가 있는 경우에만 [!UICONTROL Identity Type Breakdown] 보고서를 표시합니다.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## 특성 표현식 {#trait-expression}
 

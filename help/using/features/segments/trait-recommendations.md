@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 트레이트 권장 사항
 uuid: null
 translation-type: tm+mt
-source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 먼저 아래 [!UICONTROL Trait Recommendations] 비디오를 시청한 다음 자세한 내용을 읽어 보십시오. 비디오 데모에서는 자사 트레이트의 권장 사항과 이미 구독한 [!UICONTROL Audience Marketplace] 데이터 피드의 트레이트 권장 사항을 사용하여 작업하는 방법을 *보여 줍니다*.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26228/)
 
 다음 비디오에서는 데이터 피드의 권장 사항을 기반으로 세그먼트에 트레이트를 추가하는 방법을 보여 주는 [!UICONTROL Marketplace Recommendations]다음 의 워크플로우에 대해 개요를 [!UICONTROL Audience Marketplace]설명합니다. 이러한 권장 사항은 *구독하지*&#x200B;않은 데이터 피드를 기반으로 합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
 ## 개요
 
@@ -42,7 +42,7 @@ Audience Manager는 퍼스트 파티 트레이트, **[!UICONTROL Recommendations
 * Audience Manager는 세그먼트 규칙의 트레이트와 유사한 최대 50개의 트레이트를 표시합니다.
 * 권장 사항을 표시하지 않을 데이터 소스를 필터링할 수 있습니다.
 * 유사성을 계산할 때 Audience Manager는 [지난](../../reference/ids-in-aam.md) 30일 동안 트레이트에 자격을 갖춘 UUID를 고려합니다.
-* "비슷한 트레이트가 없습니다. 트레이트가 너무 새로운 것일 수 있습니다." 즉, 지난 30일 동안 해당 트레이트에 대한 활동이 없거나 Audience Manager가 아직 해당 트레이트에 대한 권장 사항을 업데이트하지 않았음을 의미합니다. 24시간 후에 다시 시도하십시오.
+* &quot;비슷한 트레이트가 없습니다. 트레이트가 너무 새로운 것일 수 있습니다.&quot; 즉, 지난 30일 동안 해당 트레이트에 대한 활동이 없거나 Audience Manager가 아직 해당 트레이트에 대한 권장 사항을 업데이트하지 않았음을 의미합니다. 24시간 후에 다시 시도하십시오.
 
 ## 사용 사례
 
@@ -79,29 +79,34 @@ Audience [!UICONTROL Trait Recommendations]Manager 사용 방법에 따라 워�
 
 ### 새 세그먼트
 
-1. 대상 **데이터 &gt; 세그먼트로**&#x200B;이동하고 새로 **추가를 클릭합니다**.
+1. 대상 **데이터 > 세그먼트로**&#x200B;이동하고 새로 **추가를 클릭합니다**.
 2. 트레이트 **드롭다운** 상자에서 세그먼트 규칙에 트레이트를 하나 이상 추가합니다.
 3. 구독한 피드에서 퍼스트 파티 권장 트레이트 및 트레이트 권장 사항을 [!UICONTROL Audience Marketplace] **[!UICONTROL Recommendations]** 섹션에서 볼 수 있습니다. 이 **[!UICONTROL Recommendations from Marketplace]** 섹션에는 가입하지 않은 피드에서 트레이트 권장 사항이 표시됩니다. 이러한 권장 사항은 모두 세그먼트 규칙에 추가한 트레이트와 유사합니다. 아래로 스크롤하여 모든 권장 트레이트를 확인합니다.
 4. (선택 사항) 특정 데이터 소스에서 권장 자사 트레이트를 제외하려면 제외할 데이터 **소스에** 대해 X 기호를 클릭합니다.
-   > [!NOTE]
-   >
-   > 제외된 데이터 소스는 권장 트레이트 목록 바로 위에 표시됩니다. 회색 **상자에서** X를 클릭하여 제외를 제거하고 각 데이터 소스의 결과를 다시 확인합니다.
-5. 권장 트레이트를 세그먼트 규칙에 추가하려면 **+** 기호를 클릭합니다.
 
-> [!IMPORTANT]
-> 세그먼트에 트레이트를 추가할 [!UICONTROL Marketplace] 때 트레이트는 해당 데이터 피드에 가입하기 전까지 세그먼트 예측에만 사용됩니다. 가입하지 않은 데이터 피드에서 발생한 트레이트는 트레이트 목록에 장바구니 아이콘이 표시됩니다. 트레이트 이름을 클릭하여 데이터 피드 페이지로 이동하여 가입합니다.
-> ![marketplace-not subscribed](assets/trait-recommendations-marketplace.png)
-> 해당 데이터 피드에 가입한 후에만 타사 트레이트로 세그먼트를 저장할 수 있습니다.
+   >[!NOTE]
+   >
+   >제외된 데이터 소스는 권장 트레이트 목록 바로 위에 표시됩니다. 회색 **상자에서** X를 클릭하여 제외를 제거하고 각 데이터 소스의 결과를 다시 확인합니다.
+1. 권장 트레이트를 세그먼트 규칙에 추가하려면 **+** 기호를 클릭합니다.
+
+>[!IMPORTANT]
+>
+>세그먼트에 트레이트를 추가할 [!UICONTROL Marketplace] 때 트레이트는 해당 데이터 피드에 가입하기 전까지 세그먼트 예측에만 사용됩니다. 가입하지 않은 데이터 피드에서 발생한 트레이트는 트레이트 목록에 장바구니 아이콘이 표시됩니다. 트레이트 이름을 클릭하여 데이터 피드 페이지로 이동하여 가입합니다.
+>
+>![marketplace-not subscribed](assets/trait-recommendations-marketplace.png)
+>
+>해당 데이터 피드에 가입한 후에만 타사 트레이트로 세그먼트를 저장할 수 있습니다.
 
 ### 기존 세그먼트
 
-1. &gt; **[!UICONTROL Audience Data]로[!UICONTROL Segments]**&#x200B;이동하여 편집할 세그먼트를 선택하고 편집을 ![클릭합니다](assets/edit-button.png).
+1. > **[!UICONTROL Audience Data]로[!UICONTROL Segments]**이동하여 편집할 세그먼트를 선택하고 편집을![클릭합니다](assets/edit-button.png).
 1. 아래로 스크롤하여 [!UICONTROL Traits] 드롭다운 상자로 이동합니다.
 1. 세그먼트 규칙에 이미 있는 트레이트와 유사한 권장 트레이트를 볼 수 있습니다. 아래로 스크롤하여 모든 권장 트레이트를 확인합니다.
 1. (선택 사항) 특정 데이터 소스에서 권장 트레이트를 제외하려면 제외할 **데이터** 소스에 대한 X 기호를 클릭합니다.
-   > [!NOTE]
+
+   >[!NOTE]
    >
-   > 제외된 데이터 소스는 권장 트레이트 목록 바로 위에 표시됩니다. 회색 **상자에서** X를 클릭하여 제외를 제거하고 각 데이터 소스의 결과를 다시 확인합니다.
+   >제외된 데이터 소스는 권장 트레이트 목록 바로 위에 표시됩니다. 회색 **상자에서** X를 클릭하여 제외를 제거하고 각 데이터 소스의 결과를 다시 확인합니다.
 1. 권장 트레이트를 세그먼트 규칙에 추가하려면 **+** 기호를 클릭합니다.
 
 세그먼트를 만들거나 편집하고 세그먼트 규칙에 트레이트를 추가하면 추가한 트레이트와 유사한 최대 50개의 권장 트레이트가 표시됩니다. 세그먼트 규칙에 둘 이상의 트레이트가 포함되어 있는 경우 Audience Manager는 라운드 로빈 방법을 사용하여 각 트레이트에 가장 적합한 일치를 표시한 다음 각 트레이트에 대해 두 번째로 가장 일치하는 항목을 세그먼트 규칙에서 인구 50개 트레이트에 대해 표시합니다.
@@ -111,10 +116,10 @@ Audience [!UICONTROL Trait Recommendations]Manager 사용 방법에 따라 워�
 예를 들어, 다음과 같이 세그먼트 규칙에 세 가지 트레이트가 있을 때 권장되는 트레이트는 다음과 같습니다.
 
 1. 트레이트 3에 가장 적합합니다(인구 수가 가장 많은 트레이트).
-2. 트레이트 1에 가장 적합한 일치
-3. 트레이트 2에 가장 적합한 일치
-4. 트레이트 3의 두 번째 일치
-5. 트레이트 1에 대해 두 번째로 가장 잘 맞는 것, 그리고 50가지 트레이트가 나올 때까지 계속됩니다.
+1. 트레이트 1에 가장 적합한 일치
+1. 트레이트 2에 가장 적합한 일치
+1. 트레이트 3의 두 번째 일치
+1. 트레이트 1에 대해 두 번째로 가장 잘 맞는 것, 그리고 50가지 트레이트가 나올 때까지 계속됩니다.
 
 특정 트레이트에 대한 권장 사항을 얻으려면 세그먼트 규칙(1) 또는 권장 트레이트 보기(2)에서 트레이트를 클릭할 수 있습니다.
 
@@ -124,13 +129,13 @@ Audience [!UICONTROL Trait Recommendations]Manager 사용 방법에 따라 워�
 
 ![세그먼트에 추가](assets/add_to_segments.png)
 
-> [!TIP]
+>[!TIP]
 >
 >주 페이지에서 제외된 데이터 소스는 트레이트 정보 팝업 창 내에서 권장 사항을 생성하는 동안 고려됩니다. 또한 이 보기에서 데이터 소스를 제외하는 경우 기본 페이지에 제외가 적용됩니다.
 
-> [!NOTE]
+>[!NOTE]
 >
-> 권장 트레이트는 가입한 데이터 피드의 자사 트레이트 또는 타사 트레이트가 될 수 [!UICONTROL Audience Marketplace]있습니다.
+>권장 트레이트는 가입한 데이터 피드의 자사 트레이트 또는 타사 트레이트가 될 수 [!UICONTROL Audience Marketplace]있습니다.
 
 ## 작동 방법
 
@@ -172,9 +177,9 @@ Audience Manager는 두 트레이트 [!UICONTROL Trait Similarity Score] 간의 
 
 ( [!UICONTROL Role-Based Access Controls][!UICONTROL RBAC])를 사용하는 회사의 경우 권장 트레이트를 보려면 세그먼트를 만들고 편집할 권한이 있어야 합니다. 표시되는 트레이트 권장 사항은 액세스 권한이 있는 데이터 소스의 트레이트 권장 사항일 [!UICONTROL RBAC]뿐입니다.
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> 세그먼트에 [!UICONTROL Marketplace Recommendations] 추가하려면 먼저 해당 데이터 피드에 가입해야 합니다. 관리자 권한이 있는 사용자만 [!UICONTROL Audience Marketplace] 데이터 피드에 가입할 수 있습니다.
+>세그먼트에 [!UICONTROL Marketplace Recommendations] 추가하려면 먼저 해당 데이터 피드에 가입해야 합니다. 관리자 권한이 있는 사용자만 [!UICONTROL Audience Marketplace] 데이터 피드에 가입할 수 있습니다.
 
 컨트롤에 대한 자세한 내용을 [!UICONTROL RBAC] 살펴보십시오 [](../administration/administration-overview.md).
 

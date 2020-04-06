@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로필 병합 규칙에 대한 일반 사용 사례
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -63,9 +63,9 @@ Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병
 
 ## 사람 기반 대상 타깃팅 {#all-cross-device}
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> 이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구할 수 있습니다.
 
 이 타깃팅 시나리오는 Add-on을 구입한 고객만 사용할 수 [!DNL People-Based Destinations] 있습니다. 이 규칙을 통해 마케터는 인증 데이터를 기반으로 고객에게 도달할 수 있습니다.
 
@@ -110,7 +110,7 @@ Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병
 
 가능한 사용 사례에 대한 개요는 아래 비디오를 [!UICONTROL Profile Merge Rules]참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >

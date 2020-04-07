@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
 solution: Audience Manager
 title: 전제 조건 및 고려 사항
 translation-type: tm+mt
-source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -101,5 +101,5 @@ Adobe Experience Cloud는 Adobe Experience Platform ID 서비스를 통해 고�
 
 두 가지 방법으로 Audience Manager에 오프라인 데이터를 가져올 수 [!DNL People-Based Destinations]있습니다.
 
-* [일괄 처리 데이터를](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) Audience Manager로 보내 해시된 이메일 주소를 인제스트합니다. 이 방법을 사용하면 에서 [!DNL CRM] 데이터베이스의 해시된 이메일 주소를 사용할 수 [!DNL People-Based Destinations]있습니다. 또한 이 방법을 사용할 때 온보드 트레이트에 대해 해시된 이메일 주소를 [평가할](../traits/trait-qualification-reference.md)수도 있습니다.
+* [일괄 처리 데이터를](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) Audience Manager로 보내 해시된 이메일 주소를 인제스트합니다. 이 방법을 사용하면 에서 [!DNL CRM] 데이터베이스의 해시된 이메일 주소를 사용할 수 [!DNL People-Based Destinations]있습니다. 또한 이 방법을 사용할 때 온보드 트레이트에 대해 해시된 이메일 주소를 [평가할](../traits/trait-and-segment-qualification-reference.md)수도 있습니다.
 * 인증된 [고객 ID를 전달할](../declared-ids.md) 때 선언된 ID를 사용하여 해시된 이메일 주소를 선언합니다. 이 방법을 사용할 때 Audience Manager는 사용자를 대신하여 온라인에서 인증된 사용자의 해시된 이메일 [!DNL People-Based Destinations] 주소에만 전송합니다. 사람 기반 채널을 통해 활성화되는 이메일 주소는 선언된 ID 이벤트 호출의 이메일 주소만 해당됩니다. 고객 ID와 연결된 다른 이메일 주소는 실시간으로 전송되지 않습니다.

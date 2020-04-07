@@ -5,7 +5,7 @@ seo-title: 사용자 기반 대상 구현 지침
 solution: Audience Manager
 title: 구현 지침
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 # 구현 지침 {#implementation-guidance}
 
 >[!IMPORTANT]
->이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구할 수 있습니다.
 
 [!DNL People-Based Destinations] 고객 데이터의 구성에 따라 다양한 구현 전략을 제공합니다. 이 문서에서는 시나리오에 따라 수행해야 하는 구현 단계에 대한 개요를 [!DNL People-Based Destinations]제공합니다.
 
@@ -62,7 +62,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 고객을 정확하게 타깃팅하려면 [!DNL People-Based Destinations]수행하려는 대상 타깃팅 유형에 따라 규칙 기반 트레이트 또는 온보드 트레이트의 자격을 갖추어야 합니다.
 
-**A) 고객 ID와 디바이스 ID를 실시간으로 확인하여 규칙 기반의 트레이트를**&#x200B;적용할 수 있습니다. 이 옵션은 사용 사례 A에서 [10까지의 경우에 적용됩니다. 사용 사례](people-based-destinations-workflow.md#defining-your-use-case)정의 온라인 및 오프라인 활동을 기반으로 고객을 타깃팅하는 계획이 있다면, [규칙 기반의 트레이트를](../traits/trait-qualification-reference.md)위해 고객을 이미 자격을 갖춘 것입니다.
+**A) 고객 ID와 디바이스 ID를 실시간으로 확인하여 규칙 기반의 트레이트를**&#x200B;적용할 수 있습니다. 이 옵션은 [1의 사용 사례 A에 적용됩니다. 사용 사례](people-based-destinations-workflow.md#defining-your-use-case)정의 온라인 및 오프라인 활동을 기반으로 고객을 타깃팅하는 계획이 있다면, [규칙 기반의 트레이트를](../traits/trait-and-segment-qualification-reference.md)위해 고객을 이미 자격을 갖춘 것입니다.
 
 **B) 인바운드 데이터 파일을**&#x200B;통해 고객 ID에 대한 트레이트를 제출합니다. 이 옵션은 [1의 사용 사례 B에 적용됩니다. 사용 사례](people-based-destinations-workflow.md#defining-your-use-case)정의 순전히 오프라인 활동을 기반으로 고객을 타깃팅할 때 [인바운드 데이터 파일을](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)통해 고객 ID의 온보딩 트레이트를 확인해야 합니다.
 
@@ -81,6 +81,6 @@ Audience Manager에 있는 고객 ID 유형에 따라 다릅니다( [3 참조). 
 
 사용 사례에 따라 다릅니다( [1 참조). 사용 사례 정의](people-based-destinations-workflow.md#defining-your-use-case))에는 두 가지 방법으로 세그멘테이션을 사용할 [!DNL Profile Merge Rules] 수 있습니다.
 
-**A) 기존[!DNL Profile Merge Rules]**&#x200B;글꼴을 사용합니다. 이 옵션은 첫 번째 사용 사례(결합된 온라인 및 오프라인 사용자 활동을 기반으로 하는 대상 타깃팅)에 적용됩니다. 이 시나리오에서는 Audience Manager에 기존 고객 활동이 있으며 세그먼테이션에서 사용한 하나 이상의 프로필 병합 규칙을 이미 정의했습니다. 이 경우 새로 만들지 않아도 [!DNL Profile Merge Rules]됩니다.
+**A) 기존[!DNL Profile Merge Rules]**글꼴을 사용합니다. 이 옵션은 첫 번째 사용 사례(결합된 온라인 및 오프라인 사용자 활동을 기반으로 하는 대상 타깃팅)에 적용됩니다. 이 시나리오에서는 Audience Manager에 기존 고객 활동이 있으며 세그먼테이션에서 사용한 하나 이상의 프로필 병합 규칙을 이미 정의했습니다. 이 경우 새로 만들지 않아도[!DNL Profile Merge Rules]됩니다.
 
 **B) 새 병합 규칙을[!DNL All Cross-Device Profiles]만듭니다**. 이 옵션은 두 번째 사용 사례(오프라인 사용자 활동만을 기반으로 하는 대상 타깃팅)에 적용됩니다. 이 시나리오에서는 오프라인 고객 데이터를 Audience Manager [!DNL CRM] 로 가져오고 해당 데이터에서 세그먼트를 만듭니다. 이렇게 하려면 [!DNL People-Based Destinations] 네 번째 프로필 병합 규칙을 도입합니다. 이 규칙은 **[!DNL All Cross-Device Profiles]**&#x200B;입니다. 이것은 순전히 오프라인 데이터를 세그먼트화할 때 사용해야 하는 규칙입니다.

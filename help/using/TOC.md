@@ -2,10 +2,10 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager User Guide
+user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -134,6 +134,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [세그먼트 표현식 편집기에서 사용되는 코드 구문](features/segments/segment-code-syntax.md)
       + [세그먼트 빌더의 트레이트 및 세그먼트 모집단 데이터](features/segments/segment-builder-data.md)
       + [트레이트 권장 사항](features/segments/trait-recommendations.md)
+      + [트레이트 및 세그먼트 자격 참조](features/traits/trait-and-segment-qualification-reference.md)
    + 트레이트{#traits}
       + [트레이트 개요](/help/using/features/traits/traits-overview.md)
       + [특성 세부 사항 페이지](features/traits/trait-details-page.md)
@@ -158,7 +159,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [플랫폼 수준 키를 사용한 지리 기반의 타깃팅](features/traits/trait-geotarget-keys.md)
       + [플랫폼 수준 키를 사용한 디바이스 타깃팅](features/traits/trait-device-targeting.md)
       + [부울 및 비교 연산자가 있는 샘플 표현식](features/traits/trait-expression-samples.md)
-      + [트레이트 자격 참조](features/traits/trait-qualification-reference.md)
+      + [트레이트 및 세그먼트 자격 참조](features/traits/trait-and-segment-qualification-reference.md)
    + [방문자 프로필 뷰어](features/visitor-profile-viewer.md)
 + 보고{#reporting}
    + [보고서 개요](reporting/reports-overview.md)

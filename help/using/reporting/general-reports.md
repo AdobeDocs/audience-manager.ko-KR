@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 일반 보고서
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 1c626c770208150d209d93f666b581113ada8de9
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -40,9 +40,9 @@ c_general_reports.xml
 
 1. 다음 옵션을 구성합니다.
 
-   * **** 보고서 유형:원하는 보고서 유형(트레이트, 세그먼트 또는 대상)을 선택합니다.
+   * **보고서 유형:** 원하는 보고서 유형(트레이트, 세그먼트 또는 대상)을 선택합니다.
 
-   * **** 일자: 까지:보고서의 날짜 범위를 지정합니다.
+   * **일자: 까지:** 보고서의 날짜 범위를 지정합니다.
 
 2. 이름이나 ID로 특성, 세그먼트 또는 대상을 검색합니다.
 3. 폴더 목록에서 보고할 트레이트, 세그먼트 또는 대상을 오른쪽의 [!UICONTROL Selections] 패널로 드래그하여 놓습니다.
@@ -96,7 +96,7 @@ t_run_general_report.xml
 
 **총 트레이트 인구**
 
-이 지표는 현재 트레이트에 대해 자격이 있는 Audience Manager UUID의 총 양을 나타냅니다. 이 숫자를 사용하여 세그먼테이션 및 타깃팅에 사용할 수 있는 총 사용자 수를 파악합니다. 일반적으로 사용자는 120일 동안 [](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)트레이트의 일부로 남아 있습니다. 예를 들어 사용자가 오늘 세 번 홈 페이지를 방문했다가 나중에 다시 방문하지 않으면 지금부터 120일까지 이 모집단에서 매일 사용자로 유지됩니다. 120일째에, 그들은 인구로부터 제거될 것입니다. 고유 트레이트 [실현과](../features/traits/trait-qualification-reference.md) 총 트레이트 모집단의 차이에 대한 자세한 예는 트레이트 자격 참조를 참조하십시오.
+이 지표는 현재 트레이트에 대해 자격이 있는 Audience Manager UUID의 총 양을 나타냅니다. 이 숫자를 사용하여 세그먼테이션 및 타깃팅에 사용할 수 있는 총 사용자 수를 파악합니다. 일반적으로 사용자는 120일 동안 [](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)트레이트의 일부로 남아 있습니다. 예를 들어 사용자가 오늘 세 번 홈 페이지를 방문했다가 나중에 다시 방문하지 않으면 지금부터 120일까지 이 모집단에서 매일 사용자로 유지됩니다. 120일째에, 그들은 인구로부터 제거될 것입니다. 특성 [및 세그먼트 자격](../features/traits/trait-and-segment-qualification-reference.md) 참조를 참조하여 고유 트레이트 실현과 총 트레이트 모집단의 차이에 대한 자세한 예를 살펴보십시오.
 
 아래 그림은 트레이트 보고서 유형에 대한 일반 보고서를 실행한 결과를 보여줍니다.
 

@@ -1,11 +1,11 @@
 ---
 description: '이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.  '
-seo-description: 'This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.  '
+seo-description: '이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.  '
 seo-title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 solution: Audience Manager
 title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 # 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화 {#workflow-b}
 
 >[!IMPORTANT]
->이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구하십시오.
+>이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떠한 것도 법적 충고는 아닙니다. 법률 자문을 위해 법률 자문을 구할 수 있습니다.
 
 이 페이지에는 오프라인 전용 고객 데이터에서 고객 세그먼트를 만들고 이를 사람 기반 대상으로 전송하는 방법에 대한 단계별 지침이 포함되어 있습니다.
 
@@ -23,7 +23,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 >[!IMPORTANT]
 >
-> 계속하기 전에, 등록하려는 고객 활동이 해당 온보딩 트레이트와 함께 Audience Manager에 이미 정의되어 [있는지](../traits/trait-qualification-reference.md)확인하십시오.
+> 계속하기 전에, 등록하려는 고객 활동이 해당 온보딩 트레이트와 함께 Audience Manager에 이미 정의되어 [있는지](../traits/trait-and-segment-qualification-reference.md)확인하십시오.
 
 기존 Audience Manager 고객 ID([DPUUID](../../reference/ids-in-aam.md))가 해시된 이메일인지 여부에 관계없이 DPUUID가 포함된 데이터 소스에 대해 트레이트 온보딩을 수행해야 [합니다](../../reference/ids-in-aam.md).
 
@@ -59,7 +59,7 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
 
 이 경우 다음과 같이 해당 데이터 소스에 레이블을 지정해야 합니다.
 
-1. -&gt; **[!UICONTROL Audience Data]** 으로 이동합니다 **[!UICONTROL Data Sources]**.
+1. -> **[!UICONTROL Audience Data]** 으로 이동합니다 **[!UICONTROL Data Sources]**.
 1. DPUUID가 포함된 데이터 [소스를](../../reference/ids-in-aam.md)찾아 클릭합니다.
 1. 옵션을 선택 **[!UICONTROL Cannot be tied to personally identifiable information]** 취소했는지 확인합니다.
 1. 데이터 소스 설정을 저장합니다.
@@ -70,11 +70,11 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
 
 이 경우 해시된 이메일 주소를 저장할 새로운 크로스 디바이스 데이터 소스를 만들어야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
 
-1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Data Sources]**&#x200B;으로 이동한 다음 을 **[!UICONTROL Add New]**&#x200B;클릭합니다.
+1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]**&#x200B;으로 이동한 다음 을 **[!UICONTROL Add New]**&#x200B;클릭합니다.
 1. 새 데이터 소스에 대한 **[!UICONTROL Name]** 및 **[!UICONTROL Description]** 를 입력합니다.
 1. 드롭다운 **[!UICONTROL ID Type]** 메뉴에서 을 선택합니다 **[!UICONTROL Cross Device]**.
 1. 섹션에서 **[!UICONTROL Data Source Settings]** 및 **[!UICONTROL Inbound]** 옵션을 모두 선택하고 **[!UICONTROL Outbound]** **[!UICONTROL Share associated cross-device IDs in people-based destinations]** 옵션을 활성화합니다.
-1. Use the drop-down menu to select the  label for this data source.**[!UICONTROL Emails(SHA256, lowercased)]**
+1. 드롭다운 메뉴를 사용하여 이 데이터 소스의 **[!UICONTROL Emails(SHA256, lowercased)]** 레이블을 선택합니다.
    >[!IMPORTANT]
    >
    >이 옵션은 데이터 소스를 해당 특정 알고리즘으로 해시된 데이터를 포함하는 것으로 레이블을 지정합니다. Audience Manager는 이 단계에서 데이터를 해시하지 않습니다. 이 데이터 소스에 저장할 이메일 주소가 이미 [!DNL SHA256] 알고리즘으로 해시되었는지 확인하십시오. 그렇지 않으면 사용하지 못할 [!DNL People-Based Destinations]것입니다.
@@ -87,7 +87,7 @@ DPUUID가 [소문자인지](../../reference/ids-in-aam.md) 해시된 이메일 �
 
 데이터 소스를 만드는 방법에 대한 비디오 자습서는 아래 비디오를 [!UICONTROL People-Based Destinations]참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## 3단계 - 파일 기반 ID 동기화를 통해 DPUUID를 해시된 이메일 주소에 일치 {#match-ids-emails}
 
@@ -139,9 +139,9 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
 
 다음 단계에서는 대상 세그먼트를 만들어 사용자에게 보내는 데 도움이 되는 새로운 병합 규칙을 만듭니다 [!DNL People-Based Destinations].
 
-1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**&#x200B;으로 이동합니다.
+1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**&#x200B;으로 이동합니다.
 2. 클릭 [!UICONTROL Add New Rule].
-3. Enter a profile merge rule  and .**[!UICONTROL Name]****[!UICONTROL Description]**
+3. 프로필 병합 규칙을 **[!UICONTROL Name]** 입력하고 **[!UICONTROL Description]**&#x200B;을 클릭합니다.
 4. 섹션의 **[!UICONTROL Profile Merge Rule Setup]** 목록에서 **[!UICONTROL All Cross-Device Profiles]** 규칙을 선택합니다 **[!UICONTROL Cross-Device Options]** .
 5. 목록에서 트레이트가 포함될 데이터 소스를 **[!UICONTROL Cross-Device Profile Options]** 선택합니다.
    ![merge-rule-setup](assets/pbd-pmr.png)
@@ -152,7 +152,7 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
 
 ## 6단계 - 사람 기반 플랫폼 인증 구성 {#configure-authentication}
 
-1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**로 이동합니다. 이전에 소셜 플랫폼과 통합한 적이 있는 경우 이 페이지에 나열되는 것을 볼 수 있습니다. 그렇지 않으면 페이지가 비어 있습니다.
+1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**로 이동합니다. 이전에 소셜 플랫폼과 통합한 적이 있는 경우 이 페이지에 나열되는 것을 볼 수 있습니다. 그렇지 않으면 페이지가 비어 있습니다.
    ![사람 기반 통합](assets/pbd-config.png)
 1. 클릭 **[!UICONTROL Add Account]**.
 1. 드롭다운 메뉴를 사용하여 통합을 구성할 플랫폼을 선택합니다. **[!UICONTROL People-Based Platform]**
@@ -167,7 +167,7 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
 
 ## 7단계 - 사람 기반 대상 만들기 {#create-destination}
 
-1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]**&#x200B;로 이동한 다음 을 클릭합니다 **[!UICONTROL Create Destination]**.
+1. Audience Manager 계정에 로그인한 다음 **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**&#x200B;로 이동한 다음 을 클릭합니다 **[!UICONTROL Create Destination]**.
 1. 섹션에서 새 데이터 소스에 대한 **[!UICONTROL Basic Information]** 및 **[!UICONTROL Name]** **[!UICONTROL Description]** 를 입력하고 다음 설정을 사용합니다.
    * **[!UICONTROL Category]**:통합 플랫폼;
    * **[!UICONTROL Type]**:사용자 기반;
@@ -178,4 +178,4 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
 1. 이 대상에 대해 설정할 **[!UICONTROL Data Export Labels]** 항목을 선택합니다.
 1. 섹션에서 해시된 데이터 소스가 포함된 데이터 소스를 **[!UICONTROL Configuration]** 선택합니다.
 1. 섹션에서 **[!UICONTROL Segment Mappings]** 이 대상으로 전송할 세그먼트를 선택합니다. 이는 5단계 - 대상 세그먼트 [만들기에서 만든 세그먼트입니다](people-based-destinations-workflow-offline.md#create-audience-segments).
-1. Save the destination.
+1. 대상을 저장합니다.

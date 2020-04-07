@@ -7,7 +7,7 @@ title: 사용 제한
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -35,7 +35,7 @@ Audience Manager는 계정에 대해 만들 수 있는 트레이트, 세그먼�
 | 특성 유형 | 최대 제한 |
 | -------------------------- | ------------------------------------- |
 | 총 트레이트 수 | 100,000 |
-| 총 트레이트 자격 | 150,000. 트레이트 자격에 대한 자세한 내용은 트레이트 자격 참조에서 트레이트 자격 [제한을 참조하십시오](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
+| 총 트레이트 자격 | 150,000. 트레이트 자격에 대한 자세한 내용은 트레이트 자격 참조에서 트레이트 자격 [제한을 참조하십시오](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
 | 알고리즘 | 50 |
 | 규칙 기반 | 100,000 |
 | 온보드 | 100,000 |

@@ -7,7 +7,7 @@ title: 데이터 피드 구독 관리
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
+source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ---
 
@@ -26,22 +26,22 @@ source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
 
 1. 로 **[!UICONTROL Audience Marketplace > Marketplace]**&#x200B;이동합니다. 검색 기능을 사용하거나 목록을 검색하여 데이터 피드를 찾습니다.
 
-   ![](assets/subscribe1.png)
+   ![subscribe](assets/subscribe1.png)
 
 1. 사용할 데이터 피드의 이름을 클릭합니다. 선택한 피드에 대한 [플랜 세부 정보 페이지가](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) 열립니다.
 
-   ![](assets/plan-details.png)
+   ![플랜 세부 사항](assets/plan-details.png)
 
 1. 가입 테이블에서 사용 사례를 선택하고 다음을 수행합니다.
    * 슬라이더를 **[!UICONTROL Subscription]** 다음으로 **[!UICONTROL On]**&#x200B;이동합니다.
    * 클릭 **[!UICONTROL Review & Subscribe]**. 그러면 [!UICONTROL Terms and Conditions] 창이 열립니다.
-   ![](assets/subscribe3.png)
+   ![subscribe](assets/subscribe3.png)
 
 1. 창에서 [!UICONTROL Terms and Conditions] 다음을 수행합니다.
 
    * **중요:** 체크 상자를 체크 **[!UICONTROL ID sync]** 표시합니다. 이 설정은 데이터 제공업체의 일치 비율을 개선하는 데 도움이 됩니다.
    * 약관 상자를 선택하고 을 **[!UICONTROL Accept]** 클릭하여 구독 프로세스를 완료합니다.
-   ![](assets/subscribe4.png)
+   ![subscribe](assets/subscribe4.png)
 
 ### 다음 단계
 

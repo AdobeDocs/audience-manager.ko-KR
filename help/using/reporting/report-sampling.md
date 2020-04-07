@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 선택한 Audience Manager 보고서의 데이터 샘플링 및 오류 비율
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
 
 최소 고유 방문자 요구 사항을 충족하지 않을 때 샘플링 제외 트레이트와 세그먼트를 사용하는 보고서입니다. 이러한 최소 요구 사항은 다음과 같습니다.
 
-* 트레이트:14일 동안 28,000 [개의 고유한 트레이트](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) realigations를 실현했습니다.
+* 트레이트:14일 동안 28,000 [개의 고유한 트레이트](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) realigations를 실현했습니다.
 * 세그먼트:14일 동안 실시간 사용자 70,000명
 
 ## 오류 비율 {#error-rates}
@@ -48,6 +48,6 @@ source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
 
 샘플링된 데이터를 사용하는 [!DNL Audience Manager] 보고서에는 다음이 포함됩니다.
 
-* [보고서](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) 겹치기(트레이트 대 트레이트, 세그먼트 대 세그먼트)
+* [보고서](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) 겹치기(트레이트 대 트레이트, 세그먼트-트레이트 및 세그먼트 간)
 * [대응 가능 대상](../features/addressable-audiences.md) 데이터(고객 및 세그먼트 수준 데이터).
 * The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].

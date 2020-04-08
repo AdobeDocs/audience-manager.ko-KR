@@ -5,7 +5,7 @@ seo-title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개
 solution: Audience Manager
 title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
 
@@ -38,7 +38,8 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-위의 예에서 해당 온보드 트레이트에 대한 고객 ID의 자격을 갖추려면 [인바운드 데이터 파일](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)을 업로드해야 합니다.
+
+위의 예에서 해당 온보드 트레이트에 대한 고객 ID의 자격을 갖추려면 다음 컨텐츠가 포함된 [인바운드 데이터 파일을](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) 업로드해야 합니다.
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456

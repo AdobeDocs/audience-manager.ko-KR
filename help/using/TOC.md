@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
 
 ---
 
@@ -387,6 +387,13 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
    + [개요](/help/using/help-legal/help-legal-overview.md)
    + [문제가 있을 경우](/help/using/help-legal/help-problem.md)
    + [연락처 및 법적 정보](/help/using/help-legal/help-legal-contact.md)
++ 주요 고객 지원 문제{#top-support-issues}
+   + [개요](/help/using/support-issues/support-issues-overview.md)
+   + [10월 15일경 온보딩 트레이트 인구가 0으로 떨어진 이유는 무엇입니까? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [중복 보고서 페이지에 트레이트 또는 세그먼트가 표시되지 않는 이유는 무엇입니까?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Adobe는 Audience Manager 고객이 아니지만 사이트에서 Audience Manager Javascript 호출을 참조하십시오.](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [대상 세부 사항 페이지에 Audience Manager Audience Lab이 매핑된 세그먼트를 표시해야 합니까?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + 설명서 업데이트{#documentation-updates}
    + [2020 설명서 업데이트](docs-updates/docs-2020.md)
    + [2019 설명서 업데이트](docs-updates/docs-2019.md)

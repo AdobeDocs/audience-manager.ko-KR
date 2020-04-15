@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 트레이트 자격 참조
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ![고유한 특성 실현](assets/trait-graph.png)
 
-그래프에 표시할 결과 유형( [!UICONTROL Device ID] 또는 장치 간 ID로 필터링됨)에 [!UICONTORL 따라]지표는 다른 의미를 가집니다.
+그래프에 표시할 결과 유형( [!UICONTROL Device ID] 또는 [!UICONTROL Cross-Device ID]으로 필터링됨)에 따라 지표는 다른 의미를 가집니다.
 
 결과를 필터링하는 방법 [!UICONTROL Device ID]:
 

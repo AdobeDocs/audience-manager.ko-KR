@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
+source-git-commit: efc07cb0aacc31f3708c98e1c82c195c202c10ef
 
 ---
 
@@ -15,13 +15,11 @@ source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 >[!NOTE]
 >
-> 이 페이지에 설명된 기능은 Audience Manager 및 Adobe Experience Platform 고객이 사용할 수 있습니다.
->
 > 이 기능에 대한 액세스 권한을 받으려면 Adobe 세일즈 담당자에게 문의하십시오.
 
 ## 개요 {#overview}
 
-Audience Manager와 Adobe Experience Platform 간의 고객 공유 기능을 사용하면 Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 공유할 수 있고 그 반대의 경우도 가능합니다.
+Audience Manager와 Adobe Experience Platform 간의 고객 공유 기능을 사용하면 Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager [와 Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) 간에 고객 공유를 사용하려면 Audience Manager Connector가 필요합니다.
 
 Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로파일에 Audience Manager 데이터를 추가하고 Experience Platform [세분화 서비스를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)활용할 수 있습니다.
 
@@ -46,8 +44,9 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 
 Audience Manager 트레이트 및 세그먼트는 세그먼트 워크플로우에서 Experience **Platform** 대상에 표시됩니다. Adobe Experience Platform의 Audience Manager 세그먼트 및 트레이트에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [세그멘테이션 서비스 개요](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
-* [경험 플랫폼 세그먼트 빌더 사용 안내서](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+* [세그멘테이션 서비스 개요](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+* [경험 플랫폼 세그먼트 빌더 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+* [Audience Manager 커넥터](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
 
 <br> 
 

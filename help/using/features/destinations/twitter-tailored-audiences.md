@@ -1,11 +1,11 @@
 ---
-description: 이 문서에서는 신규 및 기존 통합 모두에 대해 Twitter 맞춤 대상을 구성하는 방법에 대해 설명합니다.
-seo-description: 이 문서에서는 신규 및 기존 통합 모두에 대해 Twitter 맞춤 대상을 구성하는 방법에 대해 설명합니다.
+description: 이 문서에서는 새로운 통합 및 기존 통합 모두에 대해 Twitter 맞춤 대상을 구성하는 방법에 대해 설명합니다.
+seo-description: 이 문서에서는 새로운 통합 및 기존 통합 모두에 대해 Twitter 맞춤 대상을 구성하는 방법에 대해 설명합니다.
 seo-title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프 서비스 장치 기반 대상으로 구성
 translation-type: tm+mt
-source-git-commit: 0f1ab99b648dd6e1eda5f2e5b6bd1f620c0331ee
+source-git-commit: fb1bec17023b7b70c53659d68e2fbc431d9022fa
 
 ---
 
@@ -86,8 +86,8 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 
 ### 예
 
-* 올바른 세그먼트 또는 매핑 이름:"미국 및 유럽 구매자";
-* 잘못된 세그먼트 또는 매핑 이름:"미국, 유럽 5h0pP3rs".
+* 올바른 세그먼트 또는 매핑 이름:&quot;미국 및 유럽 구매자&quot;;
+* 잘못된 세그먼트 또는 매핑 이름:&quot;미국, 유럽 5h0pP3rs&quot;.
 
 >[!IMPORTANT]
 >
@@ -96,4 +96,4 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 ## 일치 비율 고려 사항 {#match-rates-considerations}
 
 * 사용할 [!UICONTROL Twitter Tailored Audiences]때, 대상 페이지의 [!UICONTROL Segment Addressable Audience] 및 [!UICONTROL Segment Match Rate] 지표에는 값이 표시되지 않습니다. 이 대상에 대한 일치 비율과 함께 대상을 일치시키면 Adobe가 아니라 Adobe가 처리 및 호스팅하기 때문에 이는 정상적인 동작입니다. [!UICONTROL Twitter]
-* 현재 Audience Manager와 이전 대상 채우기는 [!UICONTROL Twitter Tailored Audiences] 지원되지 않습니다. 즉, 세그먼트가 Twitter 대상에 매핑된 *후* 발생하는 [!UICONTROL Twitter] 세그먼트 자격 조건만실시간으로 전송됩니다.
+* Audience Manager와 이전 고객 채우기를 [!UICONTROL Twitter Tailored Audiences] 지원합니다. 대상을 만들 때 모든 세그먼트 자격 조건은 [!UICONTROL Twitter] 으로 전송됩니다.

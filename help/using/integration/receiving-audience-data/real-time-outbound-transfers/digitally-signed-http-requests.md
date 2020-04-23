@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 디지털 서명된 HTTP 요청
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
+source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
 
 ---
 
@@ -89,8 +89,6 @@ String signature = Base64.encodeBase64String(result).trim();
 보안상의 이유로 개인 키를 정기적으로 회전하는 것이 좋습니다. 개인 키와 순환 기간을 결정하는 것은 사용자에게 달려 있습니다. 다운타임이 없는 키 회전을 수행하려면 여러 개의 서명 헤더를 추가할 수 [!UICONTROL IRIS] 있습니다. 한 헤더에는 이전 키로 생성된 서명이 포함되며 다른 헤더에는 새 개인 키를 사용하여 생성된 서명이 포함됩니다. 자세한 내용은 아래 단계를 참조하십시오.
 
 1. 파트너는 새 개인 키를 다음으로 [!DNL Adobe Audience Manager]통신합니다.
-1. [!UICONTROL IRIS] 두 개의 서명 헤더(하나는 이전 키를 사용하고 다른 하나는 새 키를 사용하여)를 전송하기 시작합니다.
-1. 두 헤더 모두 수신하면 이전 키를 취소하고 새 서명만 보도록 선택할 수 있습니다.
 1. 이전 키는 에서 제거되고 [!DNL Audience Manager] 새 서명 [!UICONTROL IRIS] 머리글만 전송합니다. 열쇠가 회전되었습니다.
 
 ## 서명에 사용되는 데이터 {#data-signing}

@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: 데이터 개인 정보 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
+source-git-commit: 39e0224d97d1d27c2b1dcee8e3b0d2d21847551b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ## 개요 {#overview}
 
-이 문서에서는 개인 정보 보호 서비스 UI 및 [](https://gdprui.cloud.adobe.io/) **[!DNL Privacy Service API]**
+이 문서에서는 개인 정보 보호 서비스 UI 및 [](https://privacyui.cloud.adobe.io/) **[!DNL Privacy Service API]**
 
 이러한 툴을 사용하면 GDPR 및 CPA에서 수행한 소비자 데이터 개인 정보 보호 요청을 전송할 수 있습니다.
 
@@ -24,8 +24,8 @@ source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 다음 두 가지 방법으로 Audience Manager에서 소비자 데이터에 액세스하고 삭제할 개별 요청을 제출할 수 있습니다.
 
-* 개인 정보 [서비스 UI를 통해](https://gdprui.cloud.adobe.io/). 설명서를 [참조하십시오](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Through the **[!DNL Privacy Service API]**. 설명서[및 API 참조 설명서를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)여기에서[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)참조하십시오.
+* 개인 정보 [서비스 UI를 통해](https://privacyui.cloud.adobe.io/). 설명서를 [참조하십시오](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
+* Through the **[!DNL Privacy Service API]**. 설명서 [및 API 참조 설명서를](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) 여기에서 [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)참조하십시오.
 
 개별 데이터 개인 정보 보호 요청을 전송할 때 Audience Manager 식별자 **[섹션에 설명된 대로 해당](data-privacy-ids.md)**네임스페이스 ID(데이터 소스 ID)와 함께 모든 Audience Manager ID를 제출할 수 있습니다.
 
@@ -33,9 +33,9 @@ source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ## 데이터 액세스 요청 {#access-data}
 
-개인 정보 서비스 UI( [여기](https://gdprui.cloud.adobe.io/) 설명서)를 통해 [개별 데이터 액세스 요청을 전송할 수 있습니다](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md). [!DNL Privacy Service API] 이 [경우](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) (설명서 및 참조 [!DNL API] [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml))를 호출하거나 참조할 수 있습니다.
+개인 정보 서비스 UI( [여기](https://privacyui.cloud.adobe.io/) 설명서)를 통해 [개별 데이터 액세스 요청을 전송할 수 있습니다](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md). [!DNL Privacy Service API] 이 [경우](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) (설명서 및 참조 [!DNL API] [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml))를 호출하거나 참조할 수 있습니다.
 
-개인정보 [보호 서비스](https://gdprui.cloud.adobe.io/) UI를 사용하여 [!UICONTROL Request Builder] 또는 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
+개인정보 [보호 서비스](https://privacyui.cloud.adobe.io/) UI를 사용하여 [!UICONTROL Request Builder] 또는 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 
 유효한 [!DNL JSON] 파일의 모양을 확인하려면 샘플 JSON을 [다운로드할 수 있습니다](../data-security-and-privacy/assets/access_request.json).
 
@@ -43,9 +43,9 @@ Adobe는 법률에 의해 규정된 기간 내에 귀하의 데이터 개인 정
 
 ## 데이터 삭제 요청{#delete-data}
 
-개인정보 보호 서비스 UI( [여기](https://gdprui.cloud.adobe.io/) 설명서 [)](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)를 [!DNL Privacy Service API] 통해 [또는 데이터 삭제 요청(설명서](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) 및 API [참조](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml))을 여기에서 호출하여 보낼 수 있습니다.
+개인정보 보호 서비스 UI( [여기](https://privacyui.cloud.adobe.io/) 설명서 [)](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)를 [!DNL Privacy Service API] 통해 [또는 데이터 삭제 요청(설명서](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) 및 API [참조](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml))을 여기에서 호출하여 보낼 수 있습니다.
 
-개인정보 [보호 서비스](https://gdprui.cloud.adobe.io/) UI를 사용하여 [!UICONTROL Request Builder] 또는 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
+개인정보 [보호 서비스](https://privacyui.cloud.adobe.io/) UI를 사용하여 [!UICONTROL Request Builder] 또는 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 
 유효한 [!DNL JSON] 파일의 모양을 확인하려면 샘플 JSON을 [다운로드할 수 있습니다](../data-security-and-privacy/assets/access_request.json).
 

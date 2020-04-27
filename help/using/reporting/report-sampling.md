@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 선택한 Audience Manager 보고서의 데이터 샘플링 및 오류 비율
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -51,3 +51,4 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 * [보고서](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) 겹치기(트레이트 대 트레이트, 세그먼트-트레이트 및 세그먼트 간)
 * [대응 가능 대상](../features/addressable-audiences.md) 데이터(고객 및 세그먼트 수준 데이터).
 * The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].
+* [데이터](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) 탐색기는 [!UICONTROL Search] 탭 및 임의 [!UICONTROL Saved Searches]탭에서 샘플링된 데이터를 사용합니다.

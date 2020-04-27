@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 데이터 처리 구성 요소
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -27,9 +27,9 @@ Audience Manager는 다음 구성 요소를 사용하여 데이터를 처리합�
 
 에서 [!DNL Audience Manager][!DNL Audience Manager] Hadoop은 사용자에 대해 모든 정보가 포함된 마스터 데이터베이스입니다. 예를 들어 프로필 캐시 [서버가](../../reference/system-components/components-data-collection.md) 사용자에 대한 데이터가 포함된 로그 파일을 만들면 해당 데이터를 Hadoop에 보내 보관합니다. 기타 중요한 Hadoop 요소는 다음과 같습니다.
 
-* **** 하이브:Hadoop에 대한 데이터 웨어하우스입니다. Hive는 Hadoop에 저장된 데이터에 대한 임시 쿼리를 관리합니다.
+* **하이브:** Hadoop에 대한 데이터 웨어하우스입니다. Hive는 Hadoop에 저장된 데이터에 대한 임시 쿼리를 관리합니다.
 
-* **** HBase:매우 큰 Hadoop 데이터베이스. 인바운드 및 아웃바운드 데이터, 트레이트 규칙, 알고리즘 모델링 정보를 처리 및 관리하고, 데이터를 저장하고 다른 시스템으로 이동하는 것과 관련된 다른 많은 기능을 수행합니다.
+* **HBase:** 매우 큰 Hadoop 데이터베이스. 인바운드 및 아웃바운드 데이터, 트레이트 규칙, 알고리즘 모델링 정보를 처리 및 관리하고, 데이터를 저장하고 다른 시스템으로 이동하는 것과 관련된 다른 많은 기능을 수행합니다.
 
 고객은 이러한 시스템에 직접 액세스할 수 없습니다. 그러나 이러한 구성 요소는 사이트 방문자에 대한 중요 데이터를 저장하므로 고객은 간접적으로 함께 작업합니다.
 
@@ -44,7 +44,6 @@ Audience Manager는 다음 구성 요소를 사용하여 데이터를 처리합�
 이것은 결코 포괄적인 목록이 아니지만, 책임이 [!UICONTROL Snowflake] 있는 몇 가지 일반적인 대시보드 보고서는 다음과 같습니다.
 
 * [일별 특성 변형 보고서](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* [배달 및 성과 보고서](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
 * 모든 중복 보고서(각 중복 [보고서에](/help/using/reporting/dynamic-reports/dynamic-reports.md) 대한 자세한 내용은 대화형 보고서 섹션 참조).
 * [미사용 신호 보고서](/help/using/reporting/dynamic-reports/unused-signals.md)
 

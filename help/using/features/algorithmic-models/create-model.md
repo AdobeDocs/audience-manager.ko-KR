@@ -1,27 +1,22 @@
 ---
 description: 모델 빌더에서 알고리즘 모델을 만들 수 있는 필수 단계와 선택 단계에 대해 설명합니다.
-keywords: 사용 방법
+keywords: algo how works
 seo-description: 모델 빌더에서 알고리즘 모델을 만들 수 있는 필수 단계와 선택 단계에 대해 설명합니다.
 seo-title: 알고리즘 모델 만들기
 solution: Audience Manager
 title: 알고리즘 모델 만들기
-topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# 알고리즘 모델 만들기 {#create-an-algorithmic-model}
+# 유사 모델 만들기 {#create-an-algorithmic-model}
 
-에서 알고리즘 모델을 만들 수 있는 필수 단계와 선택 단계에 대해 [!UICONTROL Model Builder]설명합니다.
+를 만들 수 있는 필수 단계와 선택 단계에 대해 [!UICONTROL Look-Alike Model]설명합니다.
 
-## 모델 만들기 {#build-model}
-
-<!-- t_model_build.xml -->
-
-### 모델 빌더 섹션
+## 모델 빌더 섹션
 
 [!UICONTROL Model Builder] 은 [!UICONTROL Basic Information] 및 [!UICONTROL Configuration] 섹션으로 구성됩니다. 모델을 만들려면 이 두 섹션에서 필요한 필드를 완성합니다. 모델을 저장하여 알고리즘을 시작합니다. [!DNL Audience Manager] 첫 번째 데이터 실행이 완료된 후 자동으로 알림을 보냅니다. 이메일을 받은 후 트레이트 빌더로 이동하여 [알고리즘 트레이트를](../../features/traits/about-trait-builder.md) 만들 수 있습니다.
 
@@ -33,20 +28,24 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >* 자동 이메일 알림은 첫 번째 데이터 실행 후 한 번만 전송됩니다.
 
 
-### 모델 작성
+## 모델 작성
 
-모델을 빌드하려면 [!UICONTROL Models] 섹션으로 이동하여 **[!UICONTROL Add New]** 아래 단계를 따르십시오.
+아래 절차에 따라 [!UICONTROL Look-Alike Model]다음을 빌드하십시오.
 
-1. 기본 [정보](../../features/algorithmic-models/create-model.md#basic-information) 섹션에서
+1. > **[!UICONTROL Audience Data]** 로 **[!UICONTROL Models]** 이동하고 **[!UICONTROL Add New]** [!UICONTROL Look-Alike Modeling] 섹션에서 을 클릭합니다.
+   ![유사 추가](assets/look-alike-add.png)
+2. 기본 [정보](../../features/algorithmic-models/create-model.md#basic-information) 섹션에서
    * 모델의 이름을 지정합니다.
    * *(선택 사항)* 모델에 대한 간단한 설명을 제공합니다.
-   * 모델의 상태를 **[!UICONTROL Active]** 또는 으로 **[!UICONTROL Inactive]**&#x200B;설정합니다. 비활성 모델은 실행되지 않으며 데이터를 생성하지 않습니다.
-1. 구성 [섹션에서](../../features/algorithmic-models/create-model.md#configuration) 다음을 수행합니다.
-   * 를 **[!UICONTROL Browse All Traits]** 클릭하거나 **[!UICONTROL Browse All Segments]** 클릭하여 모델링할 트레이트 또는 세그먼트를 선택합니다.  온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다.
+   * 모델의 상태를 **[!UICONTROL Active]** 또는 으로 **[!UICONTROL Inactive]**설정합니다. 비활성 모델은 실행되지 않으며 데이터를 생성하지 않습니다.
+      ![유사 기본](assets/look-alike-basic.png)
+3. 구성 [섹션에서](../../features/algorithmic-models/create-model.md#configuration) 다음을 수행합니다.
+   * 를 **[!UICONTROL Browse All Traits]** 클릭하거나 **[!UICONTROL Browse All Segments]** 클릭하여 모델링할 트레이트 또는 세그먼트를 선택합니다. 온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다.
    * 30, 60 또는 90일 룩백 기간을 선택합니다. 그러면 모델의 시간 범위가 설정됩니다.
    * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택됩니다.
    * 목록에서 데이터 소스를 [!UICONTROL Available Data] 선택합니다.
-   * Click **[!UICONTROL Save]** when done.
+   * 완료되면 을 **[!UICONTROL Save]** 클릭합니다.
+      ![유사 구성](assets/look-alike-configuration.png)
 
 ## 알고리즘 모델에 대한 기본 정보 {#basic-information}
 
@@ -105,7 +104,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 아래 비디오를 시청하여 퍼스트 파티 유사 모델을 만드는 방법을 살펴보십시오. 그러면 전환자와 비슷한 방문자를 더 많이 찾을 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

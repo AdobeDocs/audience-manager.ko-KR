@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 대화형 및 겹치기 보고서
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 translation-type: tm+mt
-source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -16,7 +16,6 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 대화형 보고서는 트레이트 및 세그먼트에 대한 성과 및 중복 데이터를 표시합니다. 이러한 보고서는 열과 행으로 정렬된 숫자를 사용하는 대신 다양한 모양, 색상 및 크기를 사용하여 데이터를 반환합니다. 또한 개별 또는 데이터 포인트 그룹을 선택하고 자세한 내용을 보려면 보고서 결과로 드릴다운할 수 있습니다. 이러한 시각화 기법과 보고서 상호 작용은 대량의 숫자 데이터를 쉽게 이해할 수 있도록 도와줍니다.
 
 + [보고서 기술](interactive-report-technology.md)
-+ [배달 및 성과 보고서](delivery-performance-report.md)
 + [특성-특성 중복 보고서](trait-trait-overlap-report.md)
 + [세그먼트-특성 중복 보고서](segment-trait-overlap-report.md)
 + [세그먼트-세그먼트 중복 보고서](segment-segment-overlap-report.md)

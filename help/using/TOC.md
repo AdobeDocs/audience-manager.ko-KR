@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -153,7 +153,7 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
          + [규칙 기반 트레이트 또는 온보드 트레이트 만들기](features/traits/create-onboarded-rule-based-traits.md)
          + [특성 규칙 관리](features/traits/manage-trait-rules.md)
          + [알고리즘 트레이트 만들기](features/traits/create-algorithmic-traits.md)
-         + [트레이트 빌더에서 비교 연산자를 사용한 작업](features/traits/trait-comparison-operators.md)
+         + [트레이트 빌더에서 비교 연산자 사용](features/traits/trait-comparison-operators.md)
          + [특성 빌더에서의 작업 순서](features/traits/trait-operator-precedence.md)
          + [트레이트 빌더에서 정규 표현식 사용](features/traits/trait-builder-regex.md)
       + [특성 저장소](features/traits/trait-storage.md)
@@ -202,7 +202,6 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
       + [일별 특성 변형 보고서](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + 대화형 및 겹치기 보고서 {#interactive-and-overlap-reports}
       + [대화형 및 오버랩 보고서 개요](reporting/dynamic-reports/dynamic-reports.md)
-      + [배달 및 성과 보고서](reporting/dynamic-reports/delivery-performance-report.md)
       + [특성-특성 중복 보고서](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [세그먼트-특성 중복 보고서](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [세그먼트-세그먼트 중복 보고서](reporting/dynamic-reports/segment-segment-overlap-report.md)

@@ -5,7 +5,7 @@ seo-title: 예측 대상 개요
 solution: Audience Manager
 title: Audience Manager 예측 고객
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -97,7 +97,7 @@ source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
 ## 고려 사항 및 제한 사항 {#considerations}
 
 >[!IMPORTANT]
-> 구현 단계로 이동하기 전에 이 문서를 자세히 읽어 보십시오.
+> 구현 단계로 이동하기 전에 이 섹션을 자세히 읽어 보십시오.
 
 모델을 구성할 때 다음 고려 사항 및 제한 사항을 [!UICONTROL Predictive Audiences] 염두에 두십시오.
 

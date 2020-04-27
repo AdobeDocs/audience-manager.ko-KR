@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
 
 ---
 
@@ -156,7 +156,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
      <br> 
      <p> <b>최신 기능</b> </p> <p> 
      Audience Manager의 최신 기능을 살펴보십시오.</p>
-     <p><ul><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용량 보고</a></li>
+     <p><ul><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">예측 고객</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용량 보고</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">CPA(California Consumer Privacy Act) 지원 및 개인 정보 보호 문서 검토</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Adobe Sensei 기반의 Audience Marketplace 데이터를 위한 지능형 추천</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">프로필 병합 규칙 개선 사항</a></li></ul><p>

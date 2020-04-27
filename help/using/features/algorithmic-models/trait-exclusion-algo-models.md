@@ -5,12 +5,12 @@ seo-title: 알고리즘 모델 특성 제외
 title: 알고리즘 모델 특성 제외
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# 알고리즘 모델:특성 제외 {#algorithmic-models-trait-exclusion}
+# 유사 모델링:특성 제외 {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] 는 모델링 워크플로우에 추가적인 컨트롤을 제공하여 도메인 전문 지식과 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있도록 합니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 트레이트를 선택하려면 이 [!UICONTROL Exclusions] 옵션을 사용합니다.
 
@@ -44,7 +44,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 비디오 자습서를 선호하는 경우 트레이트 제외에 대한 비디오 데모를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 ## 중요한 측면 및 제한 사항 {#important-aspects-and-limitations}
 
@@ -87,7 +87,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 아래 비디오를 통해 특정 트레이트를 제외하는 방법과 이유를 살펴볼 수 [!UICONTROL Look-Alike Model]있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## 관련 링크
 

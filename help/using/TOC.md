@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
+source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
 
 ---
 
@@ -39,9 +39,15 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [사용 제한](features/administration/usage-limits.md)
       + [활동 사용량 보고](features/administration/activity-usage-reporting.md)
    + 알고리즘 모델{#algorithmic-models}
-      + [알고리즘 모델](features/algorithmic-models/understanding-models.md)
-      + [알고리즘 모델 만들기](features/algorithmic-models/create-model.md)
-      + [알고리즘 모델:특성 제외](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [알고리즘 모델 개요](features/algorithmic-models/algo-models-overview.md)
+      + 유사 잠재고객 모델링 {#look-alike-modeling}
+         + [유사 모델링 이해](features/algorithmic-models/understanding-models.md)
+         + [유사 모델 만들기](features/algorithmic-models/create-model.md)
+         + [유사 모델링:특성 제외](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + 예측 고객 {#predictive-audiences}
+         + [예측 대상 개요](features/algorithmic-models/predictive-audiences.md)
+         + [예측 대상자 시작하기](features/algorithmic-models/predictive-audiences-start.md)
+         + [예측 대상 보고](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab{#audience-lab}
       + [대상 랩 개요](features/audience-lab/audience-lab.md)
       + [테스트 그룹 관리](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -381,6 +387,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
    + [사람 기반 대상 FAQ](faq/faq-people-based-destinations.md)
    + [제품 기능 FAQ](faq/faq-features.md)
    + [프로필 병합 규칙 및 장치 그래프 FAQ](faq/faq-profile-merge.md)
+   + [예측 대상 FAQ](faq/faq-predictive-audiences.md)
    + [타깃팅 FAQ](faq/faq-targeting.md)
    + [보고 FAQ](faq/faq-reporting.md)
 + 도움말 및 법률{#help-and-legal}

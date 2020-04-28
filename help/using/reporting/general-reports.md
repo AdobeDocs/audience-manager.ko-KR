@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 일반 보고서
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -84,33 +84,51 @@ t_run_general_report.xml
 
 ## 트레이트에 대한 일반 보고서 결과 {#general-report-results-traits}
 
-아래 지표는 일반 보고서를 실행하고 보고서 **[!UICONTROL Trait]** 유형으로 선택할 때 사용할 수 있습니다.
+아래 필터는 일반 보고서를 실행하고 보고서 **[!UICONTROL Trait]** 유형으로 선택할 때 사용할 수 있습니다.
 
-**고유 트레이트 재계산**
+결과를 필터링하는 방법 [!UICONTROL Device ID]:
 
-이 지표는 선택한 시간 [범위에서 트레이트에 대해 자격이 부여된 Audience Manager 고유 사용자 ID(UUID)](../reference/ids-in-aam.md) 고유 수를 나타냅니다. 예를 들어 사용자가 10/1에서 세 번 홈 페이지를 방문하면 하나의 고유한 특성 깨달음을 볼 수 있습니다.
+* [!UICONTROL Unique Trait Realizations] 은 선택한 시간 범위 내에 프로필에 트레이트를 추가한 익명 장치 방문자 수입니다.
+* [!UICONTROL Total Trait Realization] 은 선택한 시간 범위 내의 총 익명 트레이트 실현의 수입니다.
+* [!UICONTROL Total Trait Population] 는 이 특성이 프로필에 있는 익명 장치 방문자 수입니다.
 
-**총 트레이트 재계산**
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
-이 지표는 선택한 시간 범위에서 트레이트에 대해 발생한 총 트레이트 합계를 나타냅니다. 예를 들어 사용자가 홈 페이지를 방문한 다음 기술 뉴스 및 스포츠 뉴스 섹션으로 이동한 경우, 일반 보고서에 세 가지 총 트레이트 실현과 한 가지 고유한 트레이트 실현으로 나타납니다.
+결과를 필터링하는 방법 [!UICONTROL Cross-Device ID]:
 
-**총 트레이트 인구**
+* [!UICONTROL Unique Trait Realizations] 는 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
+* [!UICONTROL Total Trait Realization] 는 선택한 시간 범위 내의 인증된 특성 합성의 총 수입니다.
+* [!UICONTROL Total Trait Population] 는 이 특성이 프로필에 있는 인증된 방문자의 수입니다.
 
-이 지표는 현재 트레이트에 대해 자격이 있는 Audience Manager UUID의 총 양을 나타냅니다. 이 숫자를 사용하여 세그먼테이션 및 타깃팅에 사용할 수 있는 총 사용자 수를 파악합니다. 일반적으로 사용자는 120일 동안 [](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)트레이트의 일부로 남아 있습니다. 예를 들어 사용자가 오늘 세 번 홈 페이지를 방문했다가 나중에 다시 방문하지 않으면 지금부터 120일까지 이 모집단에서 매일 사용자로 유지됩니다. 120일째에, 그들은 인구로부터 제거될 것입니다. 특성 [및 세그먼트 자격](../features/traits/trait-and-segment-qualification-reference.md) 참조를 참조하여 고유 트레이트 실현과 총 트레이트 모집단의 차이에 대한 자세한 예를 살펴보십시오.
+![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
 
-아래 그림은 트레이트 보고서 유형에 대한 일반 보고서를 실행한 결과를 보여줍니다.
+<!-- 
+### Unique Trait Realizations
 
-![](assets/general_reports_metrics.png)
+This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
+
+### Total Trait Realizations
+
+This metric represents the total amount of trait fires for the trait in your selected time range. For example, if a user visited your homepage, then navigated to your tech news and your sports news sections, they would appear in the General Report as three total trait realizations, and one unique trait realization.
+
+### Total Trait Population
+
+This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+
+The illustration below shows the results of running a general report for the Trait report type. -->
+<!-- 
+![](assets/general_reports_metrics.png) -->
+
 
 ## 세그먼트에 대한 일반 보고서 결과 {#general-report-results-segments}
 
 아래 지표는 일반 보고서를 실행하고 보고서 **[!UICONTROL Segment]** 유형으로 선택할 때 사용할 수 있습니다.
 
-**실시간 세그먼트 채우기**
+### 실시간 세그먼트 채우기
 
 이 지표는 지정된 시간 범위 동안 실시간으로 표시되고 Audience Manager에서 보자마자 세그먼트에 대해 자격이 부여된 실제 고유 방문자 수를 나타냅니다.
 
-**총 세그먼트 모집단**
+### 총 세그먼트 모집단
 
 이 지표는 선택한 다시 보기 기간 내에 세그먼트에 대해 자격이 있는 Audience Manager UUID의 총 수를 나타냅니다. 1일 총 세그먼트 인구는 타깃팅을 위한 가장 정확한 사용자 기반을 나타냅니다.
 

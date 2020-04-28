@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: efc07cb0aacc31f3708c98e1c82c195c202c10ef
+source-git-commit: 100767fe1d8baaa49fb6e83fdae23144ce9748a7
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Experience Platform에서 만든 세그먼트는 Audience Manager 인터�
 
 ### 트레이트 {#aep-segments-as-aam-traits}
 
-Audience Manager는 트레이트 스토리지에 Experience **Platform** 트레이트라는 트레이트 폴더를 자동으로 만듭니다.
+Audience Manager는 트레이트 스토리지에 Experience **Platform 트레이트라는** 트레이트 폴더를 자동으로 만듭니다.
 
 ![Experience Platform 대시보드의 트레이트](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
 
@@ -71,11 +71,11 @@ Audience Manager는 트레이트 스토리지에 Experience **Platform** 트레�
 
 | 항목 번호 | 이름 | 설명 |
 ---------|----------|---------
-| 1 | 특성 유형 | Experience Platform 세그먼트에서 생성된 트레이트는 Audience Manager에서 온보드 트레이트로 만들어집니다. |
-| 2 | 데이터 소스 | 자동으로 만들어짐 Adobe Experience Platform 세그먼트에서 자동으로 생성된 모든 트레이트 및 세그먼트는 데이터 소스 Adobe Experience Platform **대상 공유에 저장됩니다**. |
-| 3 | 통합 코드 | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
-| 4 | 특성 표현식 | 특성 표현입니다 `segID = segment ID in Experience Platform`. |
-| 5 | 이 트레이트를 사용하는 세그먼트 | 이 트레이트를 컴포지션으로 사용하는 자동으로 만들어진 세그먼트입니다. |
+| 1 | [!UICONTROL Trait Type] | Experience Platform 세그먼트에서 생성된 트레이트는 Audience Manager에서 온보드 트레이트로 만들어집니다. |
+| 2 | [!UICONTROL Data Source] | 자동으로 만들어짐 경험 플랫폼 세그먼트에서 자동으로 생성된 모든 트레이트 및 세그먼트는 데이터 소스에 저장됩니다. **[!UICONTROL Adobe Experience Platform Audience Sharing]** |
+| 3 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
+| 4 | [!UICONTROL Trait Expression] | 특성 표현입니다 `segID = segment ID in Experience Platform`. |
+| 5 | [!UICONTROL Segments with this Trait] | 이 트레이트를 컴포지션으로 사용하는 자동으로 만들어진 세그먼트입니다. |
 
 <br> 
 
@@ -91,7 +91,21 @@ Audience Manager는 세그먼트 저장소에서 경험 플랫폼 **세그먼트
 
 | 항목 번호 | 이름 | 설명 |
 ---------|----------|---------
-| 1 | 통합 코드 | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
-| 2 | 데이터 소스 | 자동으로 만들어짐 Adobe Experience Platform 세그먼트에서 자동으로 생성된 모든 트레이트 및 세그먼트는 데이터 소스 Adobe Experience Platform **대상 공유에 저장됩니다**. |
-| 3 | 프로필 병합 규칙 | **외부 병합** 정책은 자동으로 생성된 세그먼트가 Experience Platform에서 설정된 병합 정책을 따르도록 합니다. |
-| 4 | 세그먼트 규칙 | 세그먼트는 트레이트 섹션에 설명된 트레이트로 [구성됩니다](#aep-segments-as-aam-traits). |
+| 1 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
+| 2 | [!UICONTROL Data Source] | 자동으로 만들어짐 경험 플랫폼 세그먼트에서 자동으로 생성된 모든 트레이트 및 세그먼트는 데이터 소스에 저장됩니다. **[!DNL Adobe Experience Platform Audience Sharing]** |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 자동으로 생성된 세그먼트가 Experience Platform에서 설정한 병합 정책을 따르도록 나타냅니다. |
+| 4 | [!UICONTROL Segment Rule] | 세그먼트는 트레이트 섹션에 설명된 트레이트로 [구성됩니다](#aep-segments-as-aam-traits). |
+
+## Audience Manager와 Experience Platform 간의 세그먼트 모집단 차이점 이해
+
+세그먼트 모집단 번호는 Audience Manager와 Experience Platform 세그먼트 간에 다를 수 있습니다. 세그먼트 번호는 항상 합리적으로 비슷하지만 모집단에서의 작은 차이는 다음과 같습니다.
+
+* 세그멘테이션 작업은 실행 시간 Audience Manager는 인터페이스에서 하루에 한 번씩 숫자를 업데이트하는 세그멘테이션 작업을 실행합니다. 이 작업은 Experience Platform의 세그멘테이션 작업과 거의 일치하지 않습니다.
+* [Audience Manager의 프로필](/help/using/features/profile-merge-rules/merge-rules-overview.md) 병합 규칙 및 [Experience Platform의 정책](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 병합은 서로 다르게 작동하며, 각각의 경우에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 몇 가지 차이점이 예상됩니다.
+
+
+>[!MORELIKETHIS]
+>
+>* [세그멘테이션 서비스 개요](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [경험 플랫폼 세그먼트 빌더 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager 커넥터](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)

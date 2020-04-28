@@ -5,7 +5,7 @@ seo-title: 알고리즘 모델 특성 제외
 title: 알고리즘 모델 특성 제외
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: ee291fd9a06261afb71cc393fff0f4a1ee5cf7f4
 
 ---
 
@@ -35,8 +35,10 @@ source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 1. 모델링할 데이터 소스를 하나 이상 선택할 때까지 선택 [!UICONTROL Exclusions] 사항이 회색으로 표시됩니다.
 2. 모델링할 데이터 소스를 하나 이상 선택한 후 을 누릅니다 **[!UICONTROL Browse All Traits]**.
 3. 이전에 선택한 데이터 소스와 연관된 모든 트레이트를 **[!UICONTROL Select Traits to Exclude]** 창에서 볼 수 있습니다. 제외할 트레이트를 선택합니다.
-4. 트레이트를 트레이트 유형별로 필터링하거나 트레이트 폴더를 검색할 수 있습니다. 트레이트 폴더에는 선택한 데이터 소스와 연관된 트레이트만 표시됩니다.
+4. 트레이트를 트레이트 유형, 트레이트 인구 유형별로 필터링하거나 트레이트 폴더를 찾아볼 수 있습니다. 트레이트 폴더에는 선택한 데이터 소스와 연관된 트레이트만 표시됩니다.
 5. Press **[!UICONTROL Exclude Selected Traits]**.
+
+![특성 제외](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >

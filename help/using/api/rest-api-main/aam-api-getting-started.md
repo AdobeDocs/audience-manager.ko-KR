@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API 시작하기
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: afaaaa50bdbe1dd0104af7e715d76985cb3d443c
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -45,18 +45,7 @@ Audience Manager를 사용하여 작업할 수 있도록 별도의 기술 사용
 
 Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 계정을 설정합니다.
 
-## JWT(서비스 계정) 인증 {#jwt}
-
-안전한 서비스 간 Adobe I/O API 세션을 설정하려면 통합 ID를 캡슐화하는 JWT(JSON Web Token)를 만든 다음 액세스 토큰과 교환해야 합니다. Adobe 서비스에 대한 모든 요청은 Adobe I/O 콘솔에서 서비스 계정 통합을 만들 때 생성된 API 키(클라이언트 ID) [와 함께](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 인증 헤더에 액세스 토큰을 [포함해야 합니다](https://console.adobe.io/).
-
-인증 [구성 방법에 대한 자세한 내용은 JWT](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) (서비스 계정) 인증을 참조하십시오.
-
-## OAuth 인증(더 이상 사용되지 않음) {#oauth}
-
->[!WARNING]
-> 이제 Audience Manager [!UICONTROL REST API] 토큰 인증 및 갱신을 [!DNL OAuth 2.0] 사용하지 않습니다.
->
-> JWT( [서비스 계정) 인증을](#jwt-service-account-authentication-jwt) 대신 사용하십시오.
+## OAuth Authentication {#oauth}
 
 Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표준을 [!DNL OAuth 2.0] 따릅니다. 아래 섹션에서는 [!DNL API]s를 인증하고 작업을 시작하는 방법을 설명합니다.
 
@@ -80,7 +69,7 @@ Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표
 
 기본 [!DNL JSON] 클라이언트와 함께 토큰 요청을 전달합니다. 요청을 빌드할 때:
 
-* 메서드를 사용하여 `POST` 호출합니다 `https://aam.adobe.io/oauth/token`.
+* 메서드를 사용하여 `POST` 호출합니다 `https://api.demdex.com/oauth/token`.
 * 클라이언트 ID와 암호를 기본-64 인코딩 문자열로 변환합니다. 변환 프로세스 중에 ID와 암호를 콜론으로 구분합니다. 예를 들어 자격 증명은 `testId : testSecret` 로 변환됩니다 `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * 헤더와 [!DNL HTTP] 을 `Authorization:Basic <base-64 clientID:clientSecret>` 전달합니다 `Content-Type: application/x-www-form-urlencoded` . 예를 들어 헤더는 다음과 같을 수 있습니다. <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * 다음과 같이 요청 본문을 설정합니다.
@@ -118,7 +107,7 @@ Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표
 
 기본 [!DNL JSON] 클라이언트와 함께 새로 고침 토큰 요청을 전달합니다. 요청을 빌드할 때:
 
-* 메서드를 사용하여 `POST` 호출합니다 `https://aam.adobe.io/oauth/token`.
+* 메서드를 사용하여 `POST` 호출합니다 `https://api.demdex.com/oauth/token`.
 * 클라이언트 ID와 암호를 기본-64 인코딩 문자열로 변환합니다. 변환 프로세스 중에 ID와 암호를 콜론으로 구분합니다. 예를 들어 자격 증명은 `testId : testSecret` 로 변환됩니다 `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * HTTP 헤더와 `Authorization:Basic <base-64 clientID:clientSecret>` HTTP 헤더에 `Content-Type: application/x-www-form-urlencoded`전달합니다. 예를 들어 헤더는 다음과 같을 수 있습니다. <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * 요청 본문에서는 이전 액세스 요청에서 받은 새로 고침 토큰을 `grant_type:refresh_token` 지정하고 전달합니다. 요청은 다음과 같아야 합니다. <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
@@ -139,7 +128,7 @@ Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표
 
 ## 인증 코드 및 암시적 인증 {#authentication-code-implicit}
 
-Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 지원합니다. 이러한 액세스 방법을 사용하려면 사용자가 로그인하여 토큰을 액세스하고 새로 `https://aam.adobe.io/oauth/authorize` 고쳐야 합니다.
+Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 지원합니다. 이러한 액세스 방법을 사용하려면 사용자가 로그인하여 토큰을 액세스하고 새로 `https://api.demdex.com/oauth/authorize` 고쳐야 합니다.
 
 ## 인증된 API 요청 만들기 {#authenticated-api-requests}
 
@@ -166,7 +155,7 @@ Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 
 | pageSize | 요청에 의해 반환되는 응답 결과 수를 설정합니다(기본값 10). |
 | sortBy | 지정된 [!DNL JSON] 속성에 따라 결과를 정렬하고 반환합니다. |
 | 내림차순 | 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 오름차순입니다. |
-| search | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 &quot;테스트&quot;라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다.  `GET https://aam.adobe.io/v1/models/?search=Test`Adobe  &quot;모두 가져오기&quot; 메서드에서 반환되는 값을 검색할 수 있습니다. |
+| search | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 &quot;테스트&quot;라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다.  `GET https://api.demdex.com/v1/models/?search=Test`Adobe  &quot;모두 가져오기&quot; 메서드에서 반환되는 값을 검색할 수 있습니다. |
 | folderId | 지정된 폴더 내의 트레이트에 대한 모든 ID를 반환합니다. 일부 메서드는 사용할 수 없습니다. |
 | 권한 | 지정된 권한을 기반으로 세그먼트 목록을 반환합니다.  READ가 기본값입니다. 사용 권한에는 다음이 포함됩니다.<ul><li>`READ` :세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` :세그먼트를 업데이트하는 `PUT` 데 사용합니다.</li><li>`CREATE` :세그먼트를 `POST` 만드는 데 사용합니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 대한 액세스(있는 경우)가 필요합니다. 예를 들어 세그먼트를 제거하려면 해당 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>개별 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어, `READ` 및 `WRITE` 권한만 있는 세그먼트 목록을 반환하려면 `"permissions":"READ"`을 전달합니다 `"permissions":"WRITE"` . |
 | includePermissions | (부울) 세그먼트에 대한 권한을 반환하려면 true로 설정합니다. 기본값은 false입니다. |
@@ -176,7 +165,7 @@ Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 
 페이지 정보를 *지정하지 않으면* 요청은 배열로 일반 [!DNL JSON] 결과를 반환합니다. 페이지 정보를 *지정하면* 반환된 목록이 총 결과 및 현재 페이지에 대한 정보가 포함된 [!DNL JSON] 개체로 래핑됩니다. 페이지 옵션을 사용한 샘플 요청은 다음과 비슷합니다.
 
 ```
-GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
+GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## API URL {#api-urls}
@@ -191,17 +180,17 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 | [!DNL API] 메서드에서 사용할 수 있습니다 | 요청 [!DNL URL] |
 |--- |--- |
-| 알고리즘 모델링 | `https://aam.adobe.io/v1/models/` |
-| 데이터 소스 | `https://aam.adobe.io/v1/datasources/` |
-| 파생 신호 | `https://aam.adobe.io/v1/signals/derived/` |
-| 대상 | `https://aam.adobe.io/v1/destinations/` |
-| 도메인 | `https://aam.adobe.io/v1/partner-sites/` |
-| 폴더 | 트레이트: 세그먼트 `https://aam.adobe.io/v1/folders/traits /`<br>:  `https://aam.adobe.io/v1/folders/segments /` |
-| 스키마 | `https://aam.adobe.io/v1/schemas/` |
-| 세그먼트 | `https://aam.adobe.io/v1/segments/` |
-| 트레이트 | `https://aam.adobe.io/v1/traits/` |
-| 특성 유형 | `https://aam.adobe.io/v1/customer-trait-types` |
-| 분류 | `https://aam.adobe.io/v1/taxonomies/0/` |
+| 알고리즘 모델링 | `https://api.demdex.com/v1/models/` |
+| 데이터 소스 | `https://api.demdex.com/v1/datasources/` |
+| 파생 신호 | `https://api.demdex.com/v1/signals/derived/` |
+| 대상 | `https://api.demdex.com/v1/destinations/` |
+| 도메인 | `https://api.demdex.com/v1/partner-sites/` |
+| 폴더 | 트레이트: 세그먼트 `https://api.demdex.com/v1/folders/traits /`<br>:  `https://api.demdex.com/v1/folders/segments /` |
+| 스키마 | `https://api.demdex.com/v1/schemas/` |
+| 세그먼트 | `https://api.demdex.com/v1/segments/` |
+| 트레이트 | `https://api.demdex.com/v1/traits/` |
+| 특성 유형 | `https://api.demdex.com/v1/customer-trait-types` |
+| 분류 | `https://api.demdex.com/v1/taxonomies/0/` |
 
 ## 환경 {#environments}
 
@@ -209,7 +198,7 @@ Adobe [!DNL Audience Manager] Experience Manager [!DNL API]를 사용하면 다�
 
 | 환경 | 호스트 이름 |
 |---|---|
-| **프로덕션** | `https://aam.adobe.io/...` |
+| **프로덕션** | `https://api.demdex.com/...` |
 | **베타** | `https://api-beta.demdex.com/...` |
 
 >[!NOTE]

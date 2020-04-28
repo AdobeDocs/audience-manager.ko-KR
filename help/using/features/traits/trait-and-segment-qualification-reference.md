@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 트레이트 자격 참조
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
+source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
 
 ---
 
@@ -71,3 +71,4 @@ source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 ## 트레이트 자격 제한 {#trait-qualification-limit}
 
 인증된 프로필(DPUUID) 또는 장치 ID(UUID)인지 여부에 따라 각 사용자 프로필에 대해[150,](../../reference/ids-in-aam.md)000[개의 트레이트 자격](../../reference/ids-in-aam.md)제한을 적용합니다. DPUUID는 특정 인스턴스에 고유하지만 [!DNL Audience Manager]UUID는 [!DNL Audience Manager] 플랫폼에서 공유됩니다. 관건은 [!UICONTROL UUID]트레이트 자격을 저장할 때 공정성이 있다는 것이다. 알고리즘은 모든 인스턴스에 대해 동일한 [!UICONTROL UUID] 프로필 공유를 사용할 수 있도록 [!DNL Audience Manager]합니다.
+

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 트렌드 보고서
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
+source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
 
 ---
 
@@ -40,16 +40,12 @@ c_trend_reports.xml
 ![](assets/trend_reports.png)
 
 1. 다음 옵션을 구성합니다.
-
-   **** 보고서 유형:원하는 보고서 유형(트레이트 또는 세그먼트)을 선택합니다.
-
-   **** 날짜 범위:보고서의 날짜 범위(시작 날짜 및 종료 날짜)를 지정합니다.
-
-   **** 표시 간격:표시 간격(1, 7, 14, 30, 60 및 90일 간격)을 지정합니다.
-
-2. 이름이나 ID로 트레이트 또는 세그먼트를 검색합니다.
-3. 폴더 목록에서 보고할 트레이트 또는 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널에 드래그하여 놓습니다.
-4. 보고서를 생성하여 데이터를 그래픽 형식으로 표시하거나 보고서를 CSV 형식으로 내보냅니다.
+   **보고서 유형:** 원하는 보고서 유형(트레이트 또는 세그먼트)을 선택합니다.
+   **날짜 범위:** 보고서의 날짜 범위(시작 날짜 및 종료 날짜)를 지정합니다.
+   **표시 간격:** 표시 간격(1, 7, 14, 30, 60 및 90일 간격)을 지정합니다.
+1. 이름이나 ID로 트레이트 또는 세그먼트를 검색합니다.
+1. 폴더 목록에서 보고할 트레이트 또는 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널에 드래그하여 놓습니다.
+1. 보고서를 생성하여 데이터를 그래픽 형식으로 표시하거나 보고서를 CSV 형식으로 내보냅니다.
 
 ## Run a Trend Report {#run-trend-report}
 
@@ -67,11 +63,8 @@ t_working_with_trend_reports.xml
 1. 표시 간격 지정:1, 7, 14, 30, 60 또는 90일
 1. 이름이나 ID로 트레이트 또는 세그먼트를 검색합니다.
 1. 폴더 목록에서 보고할 트레이트 또는 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널에 드래그하여 놓습니다.
-
-   최상의 성능을 위해 한 번에 20개 미만의 트레이트 또는 세그먼트에 대한 [!UICONTROL Trend] 보고서를 실행합니다.
-1. 보고 있는 보고서 유형(트레이트 또는 세그먼트)에 따라 **[!UICONTROL Graph Traits]** 또는 를 **[!UICONTROL Graph Segments]**&#x200B;클릭합니다.
-
-   이러한 옵션은 개별적으로 선택한 트레이트 또는 세그먼트만 모든 폴더 및 그래프를 무시합니다.
+   * 최상의 성능을 위해 한 번에 20개 미만의 트레이트 또는 세그먼트에 대한 [!UICONTROL Trend] 보고서를 실행합니다.
+1. 보고 있는 보고서 유형(트레이트 또는 세그먼트)에 따라 **[!UICONTROL Graph Traits]** 또는 **[!UICONTROL Graph Segments]**&#x200B;을 클릭합니다. 이러한 옵션은 개별적으로 선택한 트레이트 또는 세그먼트만 모든 폴더 및 그래프를 무시합니다.
 
    또는
 
@@ -81,10 +74,33 @@ t_working_with_trend_reports.xml
    >
    >[!UICONTROL Total Trait Realizations] 에 [!UICONTROL Rule-based Traits] 대해서만 계산됩니다.
 
-1. (선택 사항) 개별 트레이트나 세그먼트 위로 마우스를 가져가면 각 데이터 포인트의 방문 수와 날짜가 표시됩니다.
+1. (선택 사항) 개별 트레이트나 세그먼트 위로 마우스를 가져가면 각 데이터 포인트의 방문 수와 날짜가 표시됩니다. 테이블에서 열 머리글을 클릭하여 결과를 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
-   테이블에서 열 머리글을 클릭하여 결과를 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+## 트레이트에 대한 트렌드 보고서 결과 {#trend-report-results-traits}
 
-보고서의 경우 [!UICONTROL Trended Trait] 해당 날짜에 대한 데이터를 수집하지 [!DNL Audience Manager] 않았음을 나타냅니다. 빈 항목은 트레이트가 없음을 나타냅니다. 다음 예는 두 가지 유형의 항목을 보여 줍니다.
+아래 필터는 를 실행하고 보고서 유형으로 선택할 때 사용할 수 [!UICONTROL Trend Report] **[!UICONTROL Trait]** 있습니다.
 
-![](assets/trended_data.png)
+결과를 필터링하는 방법 [!UICONTROL Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] 은 선택한 시간 범위 내에 프로필에 트레이트를 추가한 익명 장치 방문자 수입니다.
+* [!UICONTROL Total Trait Realization] 은 선택한 시간 범위 내의 익명 마우스 트레이트 실현의 총 수입니다.
+* [!UICONTROL Total Trait Population] 는 이 특성이 프로필에 있는 익명 장치 방문자 수입니다.
+
+결과를 필터링하는 방법 [!UICONTROL Cross-Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] 는 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
+* [!UICONTROL Total Trait Realization] 는 선택한 시간 범위 내의 인증된 특성 합성의 총 수입니다.
+* [!UICONTROL Total Trait Population] 는 이 특성이 프로필에 있는 인증된 방문자의 수입니다.
+
+![trend-report-traits](assets/trend-report-traits.png)
+
+0은 해당 날의 데이터를 수집하지 [!DNL Audience Manager] 않았음을 나타냅니다. 빈 항목은 트레이트가 없음을 나타냅니다.
+
+## 세그먼트에 대한 트렌드 보고서 결과 {#segment-report-results-traits}
+
+아래 필터는 를 실행하고 보고서 유형으로 선택할 때 사용할 수 [!UICONTROL Trend Report] **[!UICONTROL Segments]** 있습니다.
+
+* **[!UICONTROL Real-time Segment Population]**:선택한 시간 범위 내에서 세그먼트에 대해 자격이 있는 방문자 수입니다.
+* **[!UICONTROL Total Segment Population]**:세그먼트에 자격이 있는 총 방문자 수입니다.
+
+![trend-report-segments](assets/trend-report-segments.png)

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API 시작하기
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
 
 ---
 
@@ -34,7 +34,22 @@ Audience Manager API 코드 작업 시 [다음 사항을](https://bank.demdex.co
 
 * **설명서 및 코드 샘플:** 기울임꼴의 *텍스트는* [!DNL API] 데이터를 만들거나 수신할 때 제공하거나 전달하는 변수를 나타냅니다. 기울임꼴 ** 텍스트를 고유한 코드, 매개 변수 또는 기타 필수 정보로 바꿀 수 있습니다.
 
-## 권장 사항:일반 API 사용자 만들기 {#requirements}
+## JWT(서비스 계정) 인증 {#jwt}
+
+안전한 서비스 간 Adobe I/O API 세션을 설정하려면 통합 ID를 캡슐화하는 JWT(JSON Web Token)를 만든 다음 액세스 토큰과 교환해야 합니다. Adobe 서비스에 대한 모든 요청은 Adobe I/O 콘솔에서 서비스 계정 통합을 만들 때 생성된 API 키(클라이언트 ID) [와 함께](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 인증 헤더에 액세스 토큰을 [포함해야 합니다](https://console.adobe.io/).
+
+인증 [구성 방법에 대한 자세한 내용은 JWT](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) (서비스 계정) 인증을 참조하십시오.
+
+## OAuth 인증(더 이상 사용되지 않음) {#oauth}
+
+>[!WARNING]
+> 이제 Audience Manager [!UICONTROL REST API] 토큰 인증 및 갱신을 [!DNL OAuth 2.0] 사용하지 않습니다.
+>
+> JWT( [서비스 계정) 인증을](#jwt-service-account-authentication-jwt) 대신 사용하십시오.
+
+Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표준을 [!DNL OAuth 2.0] 따릅니다. 아래 섹션에서는 [!DNL API]s를 인증하고 작업을 시작하는 방법을 설명합니다.
+
+## 일반 API 사용자 만들기 {#requirements}
 
 Audience Manager를 사용하여 작업할 수 있도록 별도의 기술 사용자 계정을 만드는 것이 [!DNL API]좋습니다.이 계정은 조직의 특정 사용자에 연결되어 있지 않거나 연결되어 있지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
 
@@ -44,10 +59,6 @@ Audience Manager를 사용하여 작업할 수 있도록 별도의 기술 사용
 이 유형의 계정에 대한 예 또는 사용 사례로서 벌크 관리 도구를 사용하여 한 번에 많은 세그먼트를 [변경한다고 가정합니다](../../reference/bulk-management-tools/bulk-management-intro.md). 이렇게 하려면 사용자 계정에 [!DNL API] 액세스할 수 있어야 합니다. 특정 사용자에게 권한을 추가하는 대신 적절한 자격 증명, 키 및 암호를 가진 비특정 [!DNL API] 사용자 계정을 만들어 [!DNL API] 호출합니다. 이 기능은 Audience Manager를 사용하는 자체 응용 프로그램을 개발하는 경우에도 유용합니다. [!DNL API]
 
 Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 계정을 설정합니다.
-
-## OAuth Authentication {#oauth}
-
-Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표준을 [!DNL OAuth 2.0] 따릅니다. 아래 섹션에서는 [!DNL API]s를 인증하고 작업을 시작하는 방법을 설명합니다.
 
 ## 암호 인증 워크플로우 {#password-authentication-workflow}
 
@@ -108,6 +119,7 @@ Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표
 기본 [!DNL JSON] 클라이언트와 함께 새로 고침 토큰 요청을 전달합니다. 요청을 빌드할 때:
 
 * 메서드를 사용하여 `POST` 호출합니다 `https://api.demdex.com/oauth/token`.
+* 요청 헤더:adobe [I/O 토큰을 사용하는](https://www.adobe.io/) 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 페이지의 지침에 따라 API 키를 [가져올 수](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 있습니다.
 * 클라이언트 ID와 암호를 기본-64 인코딩 문자열로 변환합니다. 변환 프로세스 중에 ID와 암호를 콜론으로 구분합니다. 예를 들어 자격 증명은 `testId : testSecret` 로 변환됩니다 `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * HTTP 헤더와 `Authorization:Basic <base-64 clientID:clientSecret>` HTTP 헤더에 `Content-Type: application/x-www-form-urlencoded`전달합니다. 예를 들어 헤더는 다음과 같을 수 있습니다. <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * 요청 본문에서는 이전 액세스 요청에서 받은 새로 고침 토큰을 `grant_type:refresh_token` 지정하고 전달합니다. 요청은 다음과 같아야 합니다. <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`

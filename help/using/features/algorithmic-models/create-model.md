@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 알고리즘 모델 만들기
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -34,14 +34,13 @@ source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
 
 1. > **[!UICONTROL Audience Data]** 로 **[!UICONTROL Models]** 이동하고 **[!UICONTROL Add New]** [!UICONTROL Look-Alike Modeling] 섹션에서 을 클릭합니다.
    ![유사 추가](assets/look-alike-add.png)
-1. 기본 [정보](../../features/algorithmic-models/create-model.md#basic-information) 섹션에서
+2. 기본 [정보](../../features/algorithmic-models/create-model.md#basic-information) 섹션에서
    * 모델의 이름을 지정합니다.
    * *(선택 사항)* 모델에 대한 간단한 설명을 제공합니다.
    * 모델의 상태를 **[!UICONTROL Active]** 또는 으로 **[!UICONTROL Inactive]**설정합니다. 비활성 모델은 실행되지 않으며 데이터를 생성하지 않습니다.
       ![유사 기본](assets/look-alike-basic.png)
-1. 구성 [섹션에서](../../features/algorithmic-models/create-model.md#configuration) 다음을 수행합니다.
-   * 를 **[!UICONTROL Browse All Traits]** 클릭하거나 **[!UICONTROL Browse All Segments]** 클릭하여 모델링할 트레이트 또는 세그먼트를 선택합니다. 이름, ID, 설명 또는 데이터 소스별로 트레이트를 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 하위 폴더로 결과를 제한합니다. 트레이트를 트레이트 유형([!UICONTROL Folder Trait], [!UICONTROL Rule-based][!UICONTROL Onboarded]및 [!UICONTROL Algorithmic]인구 유형) 또는 인구 유형([장치 ID 및](../../reference/ids-in-aam.md) 크로스 장치 ID [)별로 필터링할](../../reference/ids-in-aam.md)수도 있습니다.
-      ![browse traits](assets/browse-traits.png)
+3. 구성 [섹션에서](../../features/algorithmic-models/create-model.md#configuration) 다음을 수행합니다.
+   * 를 **[!UICONTROL Browse All Traits]** 클릭하거나 **[!UICONTROL Browse All Segments]** 클릭하여 모델링할 트레이트 또는 세그먼트를 선택합니다. 온보드 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다.
    * 30, 60 또는 90일 룩백 기간을 선택합니다. 그러면 모델의 시간 범위가 설정됩니다.
    * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택됩니다.
    * 목록에서 데이터 소스를 [!UICONTROL Available Data] 선택합니다.

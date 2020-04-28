@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 세그먼트 빌더
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -27,26 +27,31 @@ source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 [!UICONTROL Segment Builder] 세 개의 별도 섹션으로 구성됩니다. [!UICONTROL Basic Information]및 [!UICONTROL Traits]를 [!UICONTROL Destinations Mapping]참조하십시오. 세그먼트를 만들려면 [!UICONTROL Basic Information] 및 [!UICONTROL Traits] 섹션에서 필요한 필드를 완료합니다. [!UICONTROL Destinations Mapping] 설정은 선택 사항입니다. 자세한 내용은 아래 지침을 참조하십시오.
 
-![create-segment](assets/create-segment.png)
-
 1. 기본 [정보](../../features/segments/segment-builder.md#segment-builder-controls-basics) 섹션에서 다음을 수행합니다.
+
+   ![create-segment](assets/create-segment.png)
+
    * 세그먼트 이름을 지정합니다. 세그먼트 이름의 최대 길이는 255자입니다.
    * 세그먼트 상태(활성 상태)를 설정합니다.
    * 데이터 소스를 선택합니다. 첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다. Adobe Analytics 보고서 세트를 사용하지 않는 경우 데이터 소스 유형 선택기가 비활성화되어 Audience Manager 데이터 소스만 기본값으로 설정됩니다.
    * 세그먼트 자격에 사용할 프로필 병합 규칙을 선택합니다.
    * 세그먼트를 저장소 폴더에 할당합니다.
-2. 트레이트 [섹션에서](../../features/segments/segment-builder.md#segment-builder-controls-traits) 다음을 수행합니다.
+
+1. 트레이트 [섹션에서](../../features/segments/segment-builder.md#segment-builder-controls-traits) 다음을 수행합니다.
+   ![segment-builder-traits](assets/segment-builder-traits.png)
    * 세그먼트에 추가할 트레이트를 검색하고 클릭합니다 **[!UICONTROL Add Trait]**. 트레이트 그룹을 만들려면 다른 트레이트를 추가합니다.
-   * 고급 검색 모달을 클릭하여 **[!UICONTROL Browse All Traits]**&#x200B;표시합니다. 이름, ID, 설명 또는 데이터 소스별로 트레이트를 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 하위 폴더로 결과를 제한합니다. 트레이트를 트레이트 유형별로 필터링할 수도 있습니다.
+   * 고급 검색 모달을 클릭하여 **[!UICONTROL Browse All Traits]**&#x200B;표시합니다. 이름, ID, 설명 또는 데이터 소스별로 트레이트를 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 하위 폴더로 결과를 제한합니다. 트레이트를 트레이트 유형([!UICONTROL Folder Trait], [!UICONTROL Rule-based][!UICONTROL Onboarded]및 [!UICONTROL Algorithmic]인구 유형) 또는 인구 유형([장치 ID 및](../../reference/ids-in-aam.md) 크로스 장치 ID [)별로 필터링할](../../reference/ids-in-aam.md)수도 있습니다.
+      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * 세그먼트를 만들 때 라이브 [트레이트 추천을](trait-recommendations.md) 얻을 수 있습니다.
    * 트레이트를 클릭하고 드래그하여 별도의 그룹을 만듭니다.
    * 그룹 간 마우스를 가져가면 부울, [!UICONTROL AND][!UICONTROL OR][!UICONTROL AND NOT] 값 간의 관계가 설정됩니다.
    * 시계 아이콘 위로 마우스를 가져가면 [최근 및 빈도](../../features/segments/recency-and-frequency.md) 규칙이 트레이트에 추가됩니다.
    * 트레이트를 추가하거나 제거하면 세그먼트 모집단 데이터를 볼 수 있습니다. 을 **[!UICONTROL Calculate Estimates]** 클릭하여 예상 인구 수를 보거나 새로 고칩니다. 세그먼트 빌더에서 [세그먼트 채우기 데이터에](../../features/segments/segment-builder-data.md#segment-populations) 대한 자세한 내용을 참조하십시오.
-   * Click **[!UICONTROL Save]** when done.
-3. *(선택 사항)* 대상 매핑 섹션에서 세그먼트를 대상에 [매핑합니다](../../features/segments/segment-builder.md#segment-builder-controls-destinations) .
+   * 완료되면 을 **[!UICONTROL Save]** 클릭합니다.
+
+1. *(선택 사항)* 대상 매핑 섹션에서 세그먼트를 대상에 [매핑합니다](../../features/segments/segment-builder.md#segment-builder-controls-destinations) .
    * 대상을 검색하고 을 **[!UICONTROL Add Destination]**&#x200B;클릭합니다. 세그먼트에 대상을 추가하려면 대상이 이미 있어야 합니다.
-   * Click **[!UICONTROL Save]** when done.
+   * 완료되면 을 **[!UICONTROL Save]** 클릭합니다.
 
 ## 세그먼트 빌더 컨트롤:기본 정보 섹션 {#segment-builder-controls-basics}
 
@@ -64,7 +69,7 @@ source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
  <tbody> 
   <tr> 
    <td colname="col1"> <b> 이름 </b> </td> 
-   <td colname="col2"> <p>해당 함수 또는 용도를 설명하는 짧은 논리 이름을 세그먼트에 지정합니다. 약어와 특수 문자는 사용하지 마십시오. 세그먼트 이름의 최대 길이는 255자입니다. </p> </td> 
+   <td colname="col2"> <p>기능이나 용도를 설명하는 짧은 논리 이름을 세그먼트에 지정합니다. 약어와 특수 문자는 사용하지 마십시오. 세그먼트 이름의 최대 길이는 255자입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>설명</b> </td> 
@@ -99,7 +104,7 @@ source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 <!-- r_segment_traits_section.xml-->
 
-**** 사전 요구 사항:섹션의 필수 필드를 [!UICONTROL Basic Information] 완료합니다.
+**사전 요구 사항:** 섹션의 필수 필드를 [!UICONTROL Basic Information] 완료합니다.
 
 | 필드 | 설명 |
 |--- |--- |
@@ -116,7 +121,7 @@ source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 세그먼트에서 트레이트를 제거하려면:
 
-1. 대상 데이터 **&gt; 세그먼트로 이동합니다**. 목록을 스크롤하거나 검색 기능을 사용하여 작업할 세그먼트를 찾습니다.
+1. 대상 데이터 **> 세그먼트로 이동합니다**. 목록을 스크롤하거나 검색 기능을 사용하여 작업할 세그먼트를 찾습니다.
 2. 세그먼트 이름을 클릭하여 세그먼트 세부 사항 화면을 엽니다.
 3. 편집을 **클릭하여** 세그먼트 빌더를 연 다음 **트레이트를** 클릭하여 트레이트 패널을 엽니다.
 4. 삭제할 트레이트 위로 마우스를 가져간 다음 X를 클릭합니다.이 작업은 세그먼트에서 트레이트를 즉시 제거합니다.
@@ -137,7 +142,7 @@ source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 | 검색 유형 | 설명 |
 |---|---|
-| **대상 이름별 검색** | 이름별로 특정 대상을 검색할 수 있도록 해줍니다. 검색하려면 입력을 시작합니다. 검색 용어에 따라 필드가 자동으로 완성됩니다. Click **[!UICONTROL Add Destination]** when done. |
+| **대상 이름별 검색** | 이름별로 특정 대상을 검색할 수 있도록 해줍니다. 검색하려면 입력을 시작합니다. 검색 용어에 따라 필드가 자동으로 완성됩니다. 완료되면 을 **[!UICONTROL Add Destination]** 클릭합니다. |
 | **모든 대상 찾아보기** | 사용 가능한 *모든* 대상 목록을 찾아봅니다. 팝업 목록에서 대상을 선택하고 세그먼트에 추가합니다. |
 
 ## 대상 매핑 팝업 창의 필드 {#fields-in-dest-mappings}

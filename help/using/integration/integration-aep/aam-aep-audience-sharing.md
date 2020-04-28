@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 고객 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: f191035a1ad4b83bb3d391de80e1f925d6295df7
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ## 개요 {#overview}
 
-Audience Manager와 Adobe Experience Platform 간의 고객 공유 기능을 사용하면 Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager [와 Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) 간에 고객 공유를 사용하려면 Audience Manager Connector가 필요합니다.
+Audience Manager와 Adobe Experience Platform 간의 고객 공유 기능을 사용하면 Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager [와 Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 간에 고객 공유를 사용하려면 Audience Manager Connector가 필요합니다.
 
 Adobe Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로파일에 Audience Manager 데이터를 추가하고 Experience Platform [세분화 서비스를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)활용할 수 있습니다.
 
@@ -46,7 +46,7 @@ Audience Manager 트레이트 및 세그먼트는 세그먼트 워크플로우�
 
 * [세그멘테이션 서비스 개요](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [경험 플랫폼 세그먼트 빌더 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager 커넥터](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+* [Audience Manager 커넥터](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 <br> 
 
@@ -91,7 +91,23 @@ Audience Manager는 세그먼트 저장소에서 경험 플랫폼 **세그먼트
 
 | 항목 번호 | 이름 | 설명 |
 ---------|----------|---------
-| 1 | 통합 코드 | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
-| 2 | 데이터 소스 | 자동으로 만들어짐 Adobe Experience Platform 세그먼트에서 자동으로 생성된 모든 트레이트 및 세그먼트는 데이터 소스 Adobe Experience Platform **대상 공유에 저장됩니다**. |
-| 3 | 프로필 병합 규칙 | **외부 병합** 정책은 자동으로 생성된 세그먼트가 Experience Platform에서 설정된 병합 정책을 따르도록 합니다. |
-| 4 | 세그먼트 규칙 | 세그먼트는 트레이트 섹션에 설명된 트레이트로 [구성됩니다](#aep-segments-as-aam-traits). |
+| 1 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
+| 2 | [!UICONTROL Data Source] | 자동으로 만들어짐 경험 플랫폼 세그먼트에서 자동으로 생성된 모든 트레이트 및 세그먼트는 데이터 소스에 저장됩니다. **[!DNL Adobe Experience Platform Audience Sharing]** |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 자동으로 생성된 세그먼트가 Experience Platform에서 설정한 병합 정책을 따르도록 나타냅니다. |
+| 4 | [!UICONTROL Segment Rule] | 세그먼트는 트레이트 섹션에 설명된 트레이트로 [구성됩니다](#aep-segments-as-aam-traits). |
+
+## Audience Manager와 Experience Platform 간의 세그먼트 모집단 차이점 이해
+
+세그먼트 모집단 번호는 Audience Manager와 Experience Platform 세그먼트 간에 다를 수 있습니다. 유사하거나 동일한 대상에 대한 세그먼트 번호는 비슷해야 하지만 모집단 간의 차이는 다음 때문일 수 있습니다.
+
+* 세그멘테이션 작업은 실행 시간 Audience Manager는 인터페이스에서 하루에 한 번씩 숫자를 업데이트하는 세그멘테이션 작업을 실행합니다. 이 작업은 Experience Platform의 세그멘테이션 작업과 거의 일치하지 않습니다.
+* [Audience Manager의 프로필](/help/using/features/profile-merge-rules/merge-rules-overview.md) 병합 규칙 및 [Experience Platform의 정책](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 병합은 서로 다르게 작동하며, 각각의 경우에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 몇 가지 차이점이 예상됩니다.
+
+
+>[!MORELIKETHIS]
+>
+>* [세그멘테이션 서비스 개요](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [경험 플랫폼 세그먼트 빌더 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager 커넥터](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
+

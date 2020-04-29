@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API 시작하기
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
+source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
 
 ---
 
@@ -26,6 +26,7 @@ Audience Manager를 사용하여 작업할 때 수행해야 하는 [!DNL API]사
 Audience Manager API 코드 작업 시 [다음 사항을](https://bank.demdex.com/portal/swagger/index.html#/) 참고하십시오.
 
 * **요청 매개 변수:** 별도로 지정하지 않는 한 모든 요청 매개 변수가 필요합니다.
+* **헤더 요청**:adobe [I/O 토큰을 사용하는](https://www.adobe.io/) 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 페이지의 지침에 따라 API 키를 [가져올 수](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 있습니다.
 * **[!DNL JSON]콘텐트 유형:**코드에`content-type: application/json`and **`accept: application/json`를 지정합니다.
 
 * **요청 및 응답:** 요청을 올바른 형식의 [!DNL JSON] 개체로 보냅니다. [!DNL Audience Manager] 이에 대한 [!DNL JSON] 답변은 서식이 지정된 데이터로 이루어집니다. 서버 응답에는 요청된 데이터, 상태 코드 또는 두 가지 모두를 포함할 수 있습니다.
@@ -38,8 +39,8 @@ Audience Manager API 코드 작업 시 [다음 사항을](https://bank.demdex.co
 
 Audience Manager REST API는 두 가지 인증 방법을 지원합니다.
 
-* [JWT(서비스 계정)](#jwt) 인증은 권장되는 인증 방법입니다.
-* [OAuth 인증(더 이상 사용되지 않음)](#oauth). 기존 OAuth 통합을 사용하는 고객은 이 방법을 계속 사용할 수 있습니다.
+* [JWT(서비스 계정) 인증](#jwt). 권장되는 인증 방법입니다.
+* [OAuth 인증(더 이상 사용되지 않음)](#oauth). 이 방법은 더 이상 사용되지 않지만, 기존 OAuth 통합을 사용하는 고객은 이 방법을 계속 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -130,7 +131,6 @@ Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 
 기본 [!DNL JSON] 클라이언트와 함께 새로 고침 토큰 요청을 전달합니다. 요청을 빌드할 때:
 
 * 메서드를 사용하여 `POST` 호출합니다 `https://api.demdex.com/oauth/token`.
-<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * 클라이언트 ID와 암호를 기본-64 인코딩 문자열로 변환합니다. 변환 프로세스 중에 ID와 암호를 콜론으로 구분합니다. 예를 들어 자격 증명은 `testId : testSecret` 로 변환됩니다 `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * HTTP 헤더와 `Authorization:Basic <base-64 clientID:clientSecret>` HTTP 헤더에 `Content-Type: application/x-www-form-urlencoded`전달합니다. 예를 들어 헤더는 다음과 같을 수 있습니다. <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * 요청 본문에서는 이전 액세스 요청에서 받은 새로 고침 토큰을 `grant_type:refresh_token` 지정하고 전달합니다. 요청은 다음과 같아야 합니다. <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`

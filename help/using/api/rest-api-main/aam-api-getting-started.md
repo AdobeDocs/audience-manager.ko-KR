@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API 시작하기
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
+source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
 
 ---
 
@@ -34,6 +34,17 @@ Audience Manager API 코드 작업 시 [다음 사항을](https://bank.demdex.co
 
 * **설명서 및 코드 샘플:** 기울임꼴의 *텍스트는* [!DNL API] 데이터를 만들거나 수신할 때 제공하거나 전달하는 변수를 나타냅니다. 기울임꼴 ** 텍스트를 고유한 코드, 매개 변수 또는 기타 필수 정보로 바꿀 수 있습니다.
 
+## 인증 {#authentication}
+
+Audience Manager REST API는 두 가지 인증 방법을 지원합니다.
+
+* [JWT(서비스 계정)](#jwt) 인증은 권장되는 인증 방법입니다.
+* [OAuth 인증(더 이상 사용되지 않음)](#oauth). 기존 OAuth 통합을 사용하는 고객은 이 방법을 계속 사용할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>인증 방법에 따라 요청 URL을 적절하게 조정해야 합니다. 사용해야 [하는 호스트](#environments) 이름에 대한 자세한 내용은 환경 섹션을 참조하십시오.
+
 ## JWT(서비스 계정) 인증 {#jwt}
 
 안전한 서비스 간 Adobe I/O API 세션을 설정하려면 통합 ID를 캡슐화하는 JWT(JSON Web Token)를 만든 다음 액세스 토큰과 교환해야 합니다. Adobe 서비스에 대한 모든 요청은 Adobe I/O 콘솔에서 서비스 계정 통합을 만들 때 생성된 API 키(클라이언트 ID) [와 함께](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 인증 헤더에 액세스 토큰을 [포함해야 합니다](https://console.adobe.io/).
@@ -49,7 +60,7 @@ Audience Manager API 코드 작업 시 [다음 사항을](https://bank.demdex.co
 
 Audience Manager는 토큰 인증 및 갱신에 대한 [!UICONTROL REST API] 표준을 [!DNL OAuth 2.0] 따릅니다. 아래 섹션에서는 [!DNL API]s를 인증하고 작업을 시작하는 방법을 설명합니다.
 
-## 일반 API 사용자 만들기 {#requirements}
+### 일반 API 사용자 만들기 {#requirements}
 
 Audience Manager를 사용하여 작업할 수 있도록 별도의 기술 사용자 계정을 만드는 것이 [!DNL API]좋습니다.이 계정은 조직의 특정 사용자에 연결되어 있지 않거나 연결되어 있지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
 
@@ -60,7 +71,7 @@ Audience Manager를 사용하여 작업할 수 있도록 별도의 기술 사용
 
 Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 계정을 설정합니다.
 
-## 암호 인증 워크플로우 {#password-authentication-workflow}
+### 암호 인증 워크플로우 {#password-authentication-workflow}
 
 <!-- oath-authentication.xml -->
 
@@ -70,13 +81,13 @@ Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 
 >
 >액세스 권한을 암호화하고 토큰을 데이터베이스에 저장하는 경우 토큰을 새로 고칩니다.
 
-### 1단계:API 액세스 요청
+#### 1단계:API 액세스 요청
 
 파트너 솔루션 관리자에게 문의하십시오. 클라이언트 ID와 [!DNL API] 암호를 제공합니다. ID와 비밀은 사용자를 Adobe Creative Cloud에 [!DNL API]인증합니다.
 
 참고:새로 고침 토큰을 받으려면 액세스 [!DNL API] 권한을 요청할 때 이 토큰을 지정합니다.
 
-### 2단계:토큰 요청
+#### 2단계:토큰 요청
 
 기본 [!DNL JSON] 클라이언트와 함께 토큰 요청을 전달합니다. 요청을 빌드할 때:
 
@@ -86,7 +97,7 @@ Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 
 * 다음과 같이 요청 본문을 설정합니다.
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
-### 3단계:토큰 받기
+#### 3단계:토큰 받기
 
 응답에 액세스 토큰이 포함되어 [!DNL JSON] 있습니다. 응답은 다음과 같아야 합니다.
 
@@ -102,7 +113,7 @@ Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 
 
 이 `expires_in` 키는 액세스 토큰이 만료될 때까지 남은 시간(초)을 나타냅니다. 토큰이 노출되면 짧은 만료 시간을 사용하여 노출을 제한하는 것이 좋습니다.
 
-## 토큰 새로 고침 {#refresh-token}
+### 토큰 새로 고침 {#refresh-token}
 
 토큰 새로 고침은 원래 토큰이 만료된 후에 액세스 [!DNL API] 권한을 갱신합니다. 요청 시 암호 [!DNL JSON] 워크플로우의 응답에 새로 고침 토큰이 포함됩니다. 새로 고침 토큰을 받지 못한 경우 암호 인증 프로세스를 통해 새 토큰을 만드십시오.
 
@@ -114,17 +125,17 @@ Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 
 
 다음 단계에서는 새로 고침 토큰을 사용하여 브라우저의 [!DNL JSON] 클라이언트에서 새 액세스 토큰을 만드는 워크플로우의 개요를 설명합니다.
 
-### 1단계:새 토큰 요청
+#### 1단계:새 토큰 요청
 
 기본 [!DNL JSON] 클라이언트와 함께 새로 고침 토큰 요청을 전달합니다. 요청을 빌드할 때:
 
 * 메서드를 사용하여 `POST` 호출합니다 `https://api.demdex.com/oauth/token`.
-* 요청 헤더:adobe [I/O 토큰을 사용하는](https://www.adobe.io/) 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 페이지의 지침에 따라 API 키를 [가져올 수](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 있습니다.
+<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * 클라이언트 ID와 암호를 기본-64 인코딩 문자열로 변환합니다. 변환 프로세스 중에 ID와 암호를 콜론으로 구분합니다. 예를 들어 자격 증명은 `testId : testSecret` 로 변환됩니다 `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * HTTP 헤더와 `Authorization:Basic <base-64 clientID:clientSecret>` HTTP 헤더에 `Content-Type: application/x-www-form-urlencoded`전달합니다. 예를 들어 헤더는 다음과 같을 수 있습니다. <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * 요청 본문에서는 이전 액세스 요청에서 받은 새로 고침 토큰을 `grant_type:refresh_token` 지정하고 전달합니다. 요청은 다음과 같아야 합니다. <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
-### 2단계:새 토큰 받기
+#### 2단계:새 토큰 받기
 
 응답에 새 액세스 토큰이 포함되어 [!DNL JSON] 있습니다. 응답은 다음과 같아야 합니다.
 
@@ -138,7 +149,7 @@ Audience Manager 컨설턴트와 협력하여 일반 [!DNL API]전용 사용자 
 }
 ```
 
-## 인증 코드 및 암시적 인증 {#authentication-code-implicit}
+### 인증 코드 및 암시적 인증 {#authentication-code-implicit}
 
 Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 지원합니다. 이러한 액세스 방법을 사용하려면 사용자가 로그인하여 토큰을 액세스하고 새로 `https://api.demdex.com/oauth/authorize` 고쳐야 합니다.
 
@@ -151,6 +162,7 @@ Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 
 사용 가능한 [!DNL API] 메서드에 대해 호출하려면
 
 * 헤더에서 `HTTP` 를 설정합니다 `Authorization: Bearer <token>`.
+* JWT( [서비스 계정) 인증을](#jwt)사용할 때 `x-api-key` 헤더가 있어야 합니다. 이 헤더는 사용자와 `client_id`동일합니다. Adobe I/ `client_id` O 통합 [페이지에서](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 작업을 시작할 수 있습니다.
 * 필요한 [!DNL API] 메서드를 호출합니다.
 
 ## 선택적 API 쿼리 매개 변수 {#optional-api-query-parameters}
@@ -167,7 +179,7 @@ Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 
 | pageSize | 요청에 의해 반환되는 응답 결과 수를 설정합니다(기본값 10). |
 | sortBy | 지정된 [!DNL JSON] 속성에 따라 결과를 정렬하고 반환합니다. |
 | 내림차순 | 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 오름차순입니다. |
-| search | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 &quot;테스트&quot;라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다.  `GET https://api.demdex.com/v1/models/?search=Test`Adobe  &quot;모두 가져오기&quot; 메서드에서 반환되는 값을 검색할 수 있습니다. |
+| search | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 &quot;테스트&quot;라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다.  `GET https://aam.adobe.io/v1/models/?search=Test`Adobe  &quot;모두 가져오기&quot; 메서드에서 반환되는 값을 검색할 수 있습니다. |
 | folderId | 지정된 폴더 내의 트레이트에 대한 모든 ID를 반환합니다. 일부 메서드는 사용할 수 없습니다. |
 | 권한 | 지정된 권한을 기반으로 세그먼트 목록을 반환합니다.  READ가 기본값입니다. 사용 권한에는 다음이 포함됩니다.<ul><li>`READ` :세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` :세그먼트를 업데이트하는 `PUT` 데 사용합니다.</li><li>`CREATE` :세그먼트를 `POST` 만드는 데 사용합니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 대한 액세스(있는 경우)가 필요합니다. 예를 들어 세그먼트를 제거하려면 해당 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>개별 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어, `READ` 및 `WRITE` 권한만 있는 세그먼트 목록을 반환하려면 `"permissions":"READ"`을 전달합니다 `"permissions":"WRITE"` . |
 | includePermissions | (부울) 세그먼트에 대한 권한을 반환하려면 true로 설정합니다. 기본값은 false입니다. |
@@ -177,7 +189,7 @@ Audience Manager는 인증 코드 및 암시적 인증을 [!UICONTROL REST API] 
 페이지 정보를 *지정하지 않으면* 요청은 배열로 일반 [!DNL JSON] 결과를 반환합니다. 페이지 정보를 *지정하면* 반환된 목록이 총 결과 및 현재 페이지에 대한 정보가 포함된 [!DNL JSON] 개체로 래핑됩니다. 페이지 옵션을 사용한 샘플 요청은 다음과 비슷합니다.
 
 ```
-GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
+GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## API URL {#api-urls}
@@ -189,6 +201,26 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ## URL 요청 {#request-urls}
 
 다음 표에는 [!DNL API] 요청을 전달하는 데 사용되는 요청 URL이 메서드별로 나열되어 있습니다.
+
+사용하는 인증 방법에 따라 아래 표에 따라 요청 URL을 조정해야 합니다.
+
+### JWT 인증에 대한 URL 요청 {#request-urls-jwt}
+
+| [!DNL API] 메서드에서 사용할 수 있습니다 | 요청 [!DNL URL] |
+|--- |--- |
+| 알고리즘 모델링 | `https://aam.adobe.io/v1/models/` |
+| 데이터 소스 | `https://aam.adobe.io/v1/datasources/` |
+| 파생 신호 | `https://aam.adobe.io/v1/signals/derived/` |
+| 대상 | `https://aam.adobe.io/v1/destinations/` |
+| 도메인 | `https://aam.adobe.io/v1/partner-sites/` |
+| 폴더 | 트레이트: 세그먼트 `https://aam.adobe.io/v1/folders/traits /`<br>:  `https://aam.adobe.io/v1/folders/segments /` |
+| 스키마 | `https://aam.adobe.io/v1/schemas/` |
+| 세그먼트 | `https://aam.adobe.io/v1/segments/` |
+| 트레이트 | `https://aam.adobe.io/v1/traits/` |
+| 특성 유형 | `https://aam.adobe.io/v1/customer-trait-types` |
+| 분류 | `https://aam.adobe.io/v1/taxonomies/0/` |
+
+### OAuth 인증에 대한 URL 요청(더 이상 사용되지 않음) {#request-urls-oauth}
 
 | [!DNL API] 메서드에서 사용할 수 있습니다 | 요청 [!DNL URL] |
 |--- |--- |
@@ -208,10 +240,12 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 
 Adobe [!DNL Audience Manager] Experience Manager [!DNL API]를 사용하면 다양한 작업 환경에 액세스할 수 있습니다. 이러한 환경을 사용하면 라이브 프로덕션 데이터에 영향을 주지 않고 별도의 데이터베이스에 대해 코드를 테스트할 수 있습니다. 다음 표에는 사용 가능한 [!DNL API] 환경과 해당 리소스 호스트 이름이 나와 있습니다.
 
-| 환경 | 호스트 이름 |
-|---|---|
-| **프로덕션** | `https://api.demdex.com/...` |
-| **베타** | `https://api-beta.demdex.com/...` |
+사용하는 인증 방법에 따라 아래 표에 따라 환경 URL을 조정해야 합니다.
+
+| 환경 | OAuth 인증에 대한 호스트 이름 | JWT 인증의 호스트 이름 |
+|---|---|---|
+| **프로덕션** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
+| **베타** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
 
 >[!NOTE]
 >
@@ -242,6 +276,7 @@ Adobe [!DNL Audience Manager] Experience Manager [!DNL API]를 사용하면 다�
 
 >[!MORELIKETHIS]
 >
+>* [JWT(서비스 계정) 인증](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [OAuth 인증](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 단순화](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)

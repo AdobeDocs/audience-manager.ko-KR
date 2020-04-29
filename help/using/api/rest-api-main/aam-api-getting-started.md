@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API 시작하기
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
+source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
 
 ---
 
@@ -242,10 +242,11 @@ Adobe [!DNL Audience Manager] Experience Manager [!DNL API]를 사용하면 다�
 
 사용하는 인증 방법에 따라 아래 표에 따라 환경 URL을 조정해야 합니다.
 
-| 환경 | OAuth 인증에 대한 호스트 이름 | JWT 인증의 호스트 이름 |
+| 환경 | JWT 인증의 호스트 이름 | OAuth 인증에 대한 호스트 이름 |
 |---|---|---|
-| **프로덕션** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
-| **베타** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
+| **프로덕션** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
+| **베타** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+
 
 >[!NOTE]
 >

@@ -1,19 +1,19 @@
 ---
-description: 코드 ID별로 숫자 순서로 나열된 DCS(데이터 수집 서버)에서 생성된 오류 코드와 메시지.
-seo-description: 코드 ID별로 숫자 순서로 나열된 DCS(데이터 수집 서버)에서 생성된 오류 코드와 메시지.
+description: 코드 ID별로 숫자 순서로 나열된 DCS(데이터 수집 서버)에서 생성된 오류 코드 및 메시지
+seo-description: 코드 ID별로 숫자 순서로 나열된 DCS(데이터 수집 서버)에서 생성된 오류 코드 및 메시지
 seo-title: DCS 오류 코드, 메시지 및 예제
 solution: Audience Manager
 title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # DCS 오류 코드, 메시지 및 예제 {#dcs-error-codes-messages-and-examples}
 
-코드 ID별로 [!UICONTROL Data Collection Servers] ([!UICONTROL DCS])가 숫자 순서로 나열한 오류 코드 및 메시지
+코드 ID별로 숫자 순서대로 [!UICONTROL Data Collection Servers] ([!UICONTROL DCS])에 의해 생성된 오류 코드 및 메시지
 
 In the tables below, *italics* represents a variable placeholder.
 
@@ -31,17 +31,17 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>0 </p> </td> 
    <td colname="col2"> <p>지정되지 않은 오류 </p> </td> 
-   <td colname="col3"> <p>다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 catch-all 오류입니다. 이 오류를 해결하는 것은 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. </p> <p>이 오류가 표시되면 DCS <span class="wintitle"> 요청을 다시</span> 시도하십시오. 문제가 지속되면 Adobe 담당자에게 문의하십시오. </p> </td> 
+   <td colname="col3"> <p>다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 다목적 캐치(catch-all) 오류입니다. 이 오류를 해결하기 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. </p> <p>이 오류가 표시되면 <span class="wintitle"> DCS</span> 요청을 다시 시도하십시오. 문제가 계속되면 Adobe 담당자에게 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>호스트 이름에 대한 구성을 찾을 수 없습니다. <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>요청에서 전송된 호스트 이름이 파트너 프로비저닝 팀에서 설정하지 않았습니다. 이 오류 메시지가 표시되면 Adobe 담당자에게 문의하십시오. </p> </td> 
+   <td colname="col3"> <p>요청에 전송된 호스트 이름이 파트너 프로비저닝 팀에서 설정하지 않았습니다. 이 오류 메시지가 표시되면 Adobe 담당자에게 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>잘못된 <code> d_orgid</code> 값(이 조직 ID에 대한 구성을 찾을 수 없음): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>조직 ID가 잘못되었습니다. </p> <p>ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 보유하고 있는 경우 Experience Cloud 관리의 " <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> 관리</a> 페이지" 섹션을 참조하여 조직 ID를 찾는 방법에 대해 알아보십시오. </p> </td> 
+   <td colname="col3"> <p>조직 ID가 잘못되었습니다. </p> <p>ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 보유하고 있는 경우 조직 및 계정 연결에 <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"></a> 대한 자세한 내용은 조직의 "관리 페이지" 섹션을 참조하십시오. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -60,17 +60,17 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>100 </p> </td> 
    <td colname="col2"> <p>요청에 대한 호스트 이름을 검색할 수 없습니다. </p> </td> 
-   <td colname="col3"> <p>API 호출이 요청에서 호스트 HTTP 헤더를 전송하지 않았습니다. </p> <p>호스트 헤더를 호출에 추가하고 다시 시도하십시오. 참고, 대부분의 브라우저와 API 클라이언트는 이 작업을 자동으로 수행합니다. </p> </td> 
+   <td colname="col3"> <p>API 호출이 요청에서 호스트 HTTP 헤더를 보내지 않았습니다. </p> <p>호출에 호스트 헤더를 추가하고 다시 시도하십시오. 참고, 대부분의 브라우저와 API 클라이언트는 이 작업을 자동으로 수행합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
    <td colname="col2"> <p>잘못된 Experience Cloud ID가 전달되었습니다. <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>DCS <span class="wintitle"> 호출에 잘못된</span> Experience Cloud ID가 <span class="keyword"> 포함되어</span> 있습니다. </p> <p>헤더 문자열에서 <code> d_mid=</code> 키-값 쌍을 확인합니다. 올바른 Experience Cloud ID를 전달하고 <span class="keyword"> 있는지</span> 확인하고 요청을 다시 시도하십시오. </p> </td> 
+   <td colname="col3"> <p>DCS <span class="wintitle"></span> 호출에 잘못된 <span class="keyword"> Experience Cloud</span> ID가 포함되어 있습니다. </p> <p>헤더 문자열에서 <code> d_mid=</code> 키-값 쌍을 확인합니다. 올바른 <span class="keyword"> Experience Cloud</span> ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>잘못된 Aam ID가 요청에서 전달되었습니다. <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>DCS <span class="wintitle"> 호출에 잘못된</span> Audience Manager ID가 <span class="keyword"> 포함되어</span> 있습니다. </p> <p>헤더 문자열에서 <code> d_uuid=</code> 키-값 쌍을 확인합니다. 올바른 Audience Manager ID를 전달하고 <span class="keyword"> 있는지</span> 확인하고 요청을 다시 시도하십시오. </p> </td> 
+   <td colname="col2"> <p>요청에 잘못된 aam ID가 전달되었습니다. <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>DCS <span class="wintitle"></span> 호출에 잘못된 Audience Manager <span class="keyword"> ID가</span> 포함되어 있습니다. </p> <p>헤더 문자열에서 <code> d_uuid=</code> 키-값 쌍을 확인합니다. 올바른 <span class="keyword"> Audience Manager</span> ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
@@ -79,13 +79,13 @@ In the tables below, *italics* represents a variable placeholder.
   </tr>
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>Referer <code>HTTP referer</code> 는 파트너에 사용할 수 없습니다. <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>호출의 <code>HTTP referer</code> 헤더는 호출의 파트너 ID에 대해 허용되지 않습니다. 헤더가 올바른지 <code>HTTP referer</code> 확인합니다.</p> </td>
+   <td colname="col2"> <p>파트너 <code>HTTP referer</code> 에 대한 참조가 허용되지 않음 <code>Partner ID</code> </p> </td> 
+   <td colname="col3"> <p>호출의 <code>HTTP referer</code> 헤더는 호출의 파트너 ID에 대해 허용되지 않습니다. 헤더가 <code>HTTP referer</code> 올바른지 확인하십시오.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>잘못된 <span class="wintitle"> IMS.</span> 토큰을 받았습니다. </p> </td> 
-   <td colname="col3"> <p>Audience Manager에 대해 반환 - Adobe Target 통합. 잘못된 IMS 토큰을 포함하는 DCS를 호출하면 오류가 발생합니다. 토큰의 형식이 잘못되었거나, 만료되었거나, 사용자에게 필요한 리소스에 대한 액세스 권한이 없을 수 있습니다. </p> </td>
+   <td colname="col2"> <p>잘못된 <span class="wintitle"> IMS.</span> 토큰을 수신했습니다. </p> </td> 
+   <td colname="col3"> <p>Audience Manager - Adobe Target 통합을 위해 반환됩니다. 잘못된 IMS 토큰을 포함하는 DCS를 호출하면 오류가 발생합니다. 토큰의 형식이 잘못되었거나, 만료되었거나, 사용자에게 필요한 리소스에 액세스할 수 있는 권한이 없을 수 있습니다. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -113,18 +113,18 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>173 </p> </td> 
-   <td colname="col2"> <p>NAI를 통한 신뢰 관계 <a href="https://www.networkadvertising.org/" format="http" scope="external"> 발생</a> </p> </td> 
+   <td colname="col2"> <p>NAI를 통해 신뢰 관계 <a href="https://www.networkadvertising.org/" format="http" scope="external"> 발생</a> </p> </td> 
    <td colname="col3"> <p>사용자가 NAI를 통해 옵트아웃 프로세스를 시작했습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>198 </p> </td> 
    <td colname="col2"> <p>파트너가 이 국가의 요청을 차단합니다. </p> </td> 
-   <td colname="col3"> <p>IP 주소를 기준으로 DCS <span class="wintitle"> 는</span> 파트너가 의도적으로 트래픽을 제한한 국가의 요청을 차단합니다. </p> </td> 
+   <td colname="col3"> <p>IP 주소를 기준으로 DCS는 <span class="wintitle"> 파트너가 의도적으로 트래픽을 제한한 국가의 요청을</span> 차단합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>199 </p> </td> 
    <td colname="col2"> <p>이 국가의 요청은 허용되지 않습니다. </p> </td> 
-   <td colname="col3"> <p>DCS는 IP 주소를 기반으로 <span class="wintitle"> 다음</span> 국가의 요청을 차단합니다. </p> <p> 
+   <td colname="col3"> <p>IP 주소를 기준으로 DCS는 <span class="wintitle"> 다음</span> 국가의 요청을 차단합니다. </p> <p> 
      <ul id="ul_4017A7D074064FE7A8B5618AFCFA4E28"> 
       <li id="li_EE65DEC3C64F4522B214C503DC754DC1">쿠바(CU) </li> 
       <li id="li_EDE8B304D35A41458DCFF11E9328802A">이란(IR) </li> 
@@ -159,8 +159,8 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
-   <td colname="col2"> <p>장치 ID에 대해 관련 고객을 읽을 수 없습니다. <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>장치 ID에 연결된 <a href="../../../reference/ids-in-aam.md"> 고객 ID(UUID)</a> 를 내부 저장소에서 마지막 인증된 병합 규칙에 대해 검색할 수 없을 때 반환됩니다. </p> </td> 
+   <td colname="col2"> <p>장치 ID에 대한 관련 고객을 읽을 수 없습니다. <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>장치 ID와 연결된 <a href="../../../reference/ids-in-aam.md"> 고객 ID(UUID)</a> 를 Adobe 내부 저장소에서 마지막 인증된 병합 규칙에 대해 검색할 수 없을 때 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
@@ -170,12 +170,12 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>204 </p> </td> 
    <td colname="col2"> <p>기본 장치에 대해 프로필을 읽지 못했기 때문에 마이그레이션을 수행할 수 없습니다. </p> </td> 
-   <td colname="col3"> <p>이 오류가 발생하는 경우 Adobe의 데이터 저장소(PCS)에 확장성 문제가 발생할 수<span class="wintitle"> 있습니다</span>. 문제가 지속되면 Adobe 담당자에게 문의하십시오. </p> </td> 
+   <td colname="col3"> <p>이 오류가 발생하는 경우 Adobe의 데이터 저장소(PCS)에 확장성 문제가 발생할 수<span class="wintitle"> 있습니다</span>. 문제가 계속되면 Adobe 담당자에게 문의하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>에서 (으)로 <code><i>ID</i></code> 마이그레이션할 수 없습니다. 프로필 읽기에 <code><i>ID</i></code>실패했습니다. <code><i>ID</i></code> </p> </td>
-   <td colname="col3"> <p>이 오류가 발생하는 경우 Adobe의 데이터 저장소(PCS)에 확장성 문제가 발생할 수<span class="wintitle"> 있습니다</span>. 문제가 지속되면 Adobe 담당자에게 문의하십시오. </p> </td> 
+   <td colname="col2"> <p>에서 (으)로 마이그레이션을 수행할 수 없습니다. 프로필 <code><i>ID</i></code> 을 읽지 <code><i>ID</i></code>못했습니다. <code><i>ID</i></code> </p> </td>
+   <td colname="col3"> <p>이 오류가 발생하는 경우 Adobe의 데이터 저장소(PCS)에 확장성 문제가 발생할 수<span class="wintitle"> 있습니다</span>. 문제가 계속되면 Adobe 담당자에게 문의하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -194,59 +194,59 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
    <td colname="col2"> <p>잘못된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID가 잘못되었습니다(데이터 소스에 대한 값 누락, 통합 코드 누락, 데이터 소스에 대한 잘못된 형식, 차단된 고객 ID, 빈 고객 ID, 파트너에 속하지 않는 데이터 소스에 대한 권한 없는 액세스 시도). </p> </td>
+   <td colname="col3"> <p>고객 ID가 잘못되었습니다(데이터 소스에 대한 값이 없거나 통합 코드가 누락됨, 데이터 소스에 대한 형식이 잘못됨, 차단된 고객 ID, 빈 고객 ID, 파트너에 속하지 않는 데이터 소스에 대한 권한 없는 액세스 시도). </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>최대 고객 ID 수를 초과했습니다. 최대 허용 <code><i>maximum allowed</i></code>값은 입니다. 찾을 수 <code><i>maximum found</i></code>있습니다.</p> </td> 
-   <td colname="col3"> <p>장치 간 데이터 소스와 연결된 고객 ID 수가 요청당 허용된 장치 간 ID 수를 초과합니다. 이러한 ID에는 장치 간, 모바일 또는 쿠키 ID가 포함됩니다. 제한은 현재 10으로 설정되어 있습니다. </p> </td>
+   <td colname="col2"> <p>최대 고객 ID 수를 초과했습니다. 최대 허용 값은 입니다 <code><i>maximum allowed</i></code>. 찾을 수 있습니다 <code><i>maximum found</i></code>.</p> </td> 
+   <td colname="col3"> <p>장치 간 데이터 원본과 연결된 고객 ID의 수가 요청당 허용되는 장치 간 ID를 초과합니다. 이러한 ID에는 장치 간, 모바일 또는 쿠키 ID가 포함됩니다. 제한은 현재 10으로 설정되어 있습니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>허가되지 않은 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID 데이터 소스가 현재 조직 ID에 의해 소유되지 않을 때 반환됩니다. 조직 ID를 모르거나 보유하고 있는 경우 조직 및 계정 연결에 있는 "조직 ID 찾기" 섹션을 <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"></a> 참조하여 조직 및 계정 연결을 찾는 방법에 대해 알아보십시오. </p> </td> 
+   <td colname="col3"> <p>현재 조직 ID가 고객 ID 데이터 소스를 소유하지 않을 때 반환됩니다. 조직 ID를 모르거나 조직 ID가 없는 경우 조직 및 계정 연결에 있는 "조직 ID 찾기" 섹션을 <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> 통해 조직 및 계정 연결</a> 방법을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>차단된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID 파섹 </p> </td> 
+   <td colname="col3"> <p>고객 ID가 악의적인 것으로 식별되어 블랙리스트에 추가되었을 때 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>차단된 데이터 소스 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>데이터 소스 ID가 악의적인 것으로 식별되어 블랙리스트에 추가되면 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>데이터 소스 ID가 악성 ID로 식별되어 블랙리스트에 추가되었을 때 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>차단된 선언된 장치 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>장치 ID가 악의적인 것으로 식별되었으며 블랙리스트에 추가되었습니다. 이 문제는 이 장치 ID가 들어 <span class="wintitle"> 있는</span> DCS 요청이 짧은 시간 내에 극히 많은 경우 발생할 수 있습니다. </p> </td>
+   <td colname="col3"> <p>장치 ID가 악의적인 것으로 확인되었으며 블랙리스트에 추가되었습니다. 이 문제는 이 장치 ID가 들어 있는 극량의 <span class="wintitle"> DCS</span> 요청을 짧은 시간 내에 받을 때 발생할 수 있습니다. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>차단된 프로필 작업 <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>ID가 악성 ID로 식별되어 차단되었으므로 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>ID가 악성 ID로 식별되고 차단되었기 때문에 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>고객 ID가 요청당 선언된 고객 ID의 제한을 초과했으므로 <code><i>ID</i></code> 폐기되었습니다. </p> </td> 
-   <td colname="col3"> <p>오류 301과 관련되어 있습니다. 이 오류는 제한이 초과되어 버린 고객 ID를 지정합니다. </p> <p>예를 들어 DCS 호출에 선언된 고객 ID가 12개인 경우 <span class="wintitle"> 이</span> 중 2개가 무시됩니다. 폐기된 고객 ID를 릴레이하려면 이 오류가 응답에 두 번 나타납니다(삭제된 고객 ID에 대해 한 번). </p> </td>
+   <td colname="col2"> <p>고객 ID가 요청당 선언된 고객 ID의 한도를 초과했기 때문에 <code><i>ID</i></code> 폐기되었습니다. </p> </td> 
+   <td colname="col3"> <p>오류 301과 관련되어 있습니다. 이 오류는 한도를 초과했기 때문에 폐기된 고객 ID를 지정합니다. </p> <p>예를 들어 DCS <span class="wintitle"></span> 호출에서 선언된 고객 ID가 12개인 경우 두 ID가 무시됩니다. 폐기된 고객 ID를 릴레이하기 위해 이 오류는 응답에 두 번 나타납니다(무시된 고객 ID에 한 번). </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>고객 ID가 지정된 네임스페이스의 제한을 초과하여 삭제되었습니다. 네임스페이스 ID는 <code><i>ID</i></code>고객 ID입니다 <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>DCS 호출에 동일한 네임스페이스(<code> DPID</code>)에 대해 선언된 고객 ID가 3개 이상인 경우 이 오류 코드가 <span class="wintitle"> 반환됩니다</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>이 샘플 <span class="wintitle"> DCS</span> 요청에는 동일한 네임스페이스에 대해 선언된 4개의 ID가 있습니다(통합 코드 1과 함께). ID 중 하나가 삭제되고 310 오류가 반환됩니다. </p> </td> 
+   <td colname="col2"> <p>고객 ID가 지정된 네임스페이스의 제한을 초과했기 때문에 무시됩니다. 네임스페이스 id <code><i>ID</i></code>는 고객 ID입니다 <code><i>ID</i></code>. </p> </td> 
+   <td colname="col3"> <p>DCS 호출에 동일한 네임스페이스(<code> DPID</code>)에 대해 선언된 고객 ID가 3개 이상인 경우 이 오류 코드가 <span class="wintitle"> 반환됩니다</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>이 샘플 <span class="wintitle"> DCS</span> 요청에는 동일한 네임스페이스에 대해 선언된 4개의 ID가 있습니다(통합 코드 1 포함). ID 중 하나가 무시되고 오류 310이 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>요청에 잘못된 매개 변수가 있습니다. </p> </td> 
-   <td colname="col3"> <p>DCS <span class="wintitle"></span> 는 하나 이상의 URL 매개 변수가 제대로 인코딩되지 않은 경우 이 오류 코드를 반환합니다. 이 경우 DCS는 <span class="wintitle"> 전체</span> 요청을 무시합니다. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>위의 샘플 요청에서 <code> %</code> 시퀀스가 잘못 인코딩되었습니다. 따라서 DCS <span class="wintitle"> 는</span> 무시하게 됩니다. </p> <p>올바르게 인코딩된 샘플은 다음과 같아야 합니다. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
+   <td colname="col3"> <p>하나 이상의 URL 매개 변수가 제대로 인코딩되지 않은 경우 <span class="wintitle"> DCS에서</span> 이 오류 코드를 반환합니다. 이 경우 DCS는 <span class="wintitle"> 전체</span> 요청을 무시합니다. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>위의 샘플 요청에서 시퀀스가 <code> %</code> 잘못 인코딩되었습니다. 결과적으로 DCS는 <span class="wintitle"></span> 그것을 무시하게 될 것이다. </p> <p>올바르게 인코딩된 샘플은 다음과 같아야 합니다. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>요청에 잘못된 전역 장치 ID가 포함되어 있습니다. </p> </td> 
-   <td colname="col3"> <p>요청에 <span class="wintitle">잘못된 전역 장치</span> ID가 포함되어 있으면 DCS가 이 오류 코드를 반환합니다. DCS는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류를 발생시킵니다. 올바른 장치 <a href="../../../features/global-data-sources.md" format="dita" scope="local">광고 ID</a> 형식 및 해당 글로벌 데이터 소스에 대한 자세한 내용은 Audience Manager의 <a href="../../../reference/ids-in-aam.md" format="dita" scope="local"></a> 전역 데이터 소스 및 ID 인덱스를 참조하십시오.</p>
+   <td colname="col3"> <p>요청에 잘못된 전역 <span class="wintitle">장치</span> ID가 포함되어 있으면 DCS에서 이 오류 코드를 반환합니다. DCS는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류를 발생시킵니다. 올바른 장치 광고 ID 형식 및 해당 글로벌 데이터 소스에 대한 자세한 내용은 <a href="../../../features/global-data-sources.md" format="dita" scope="local">Audience Manager</a> 의 ID의 전역 데이터 소스 <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">및</a> 색인을 참조하십시오.</p>
    <p>잘못된 호출의 예: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
-   <p>설명:IDFA <span class="keyword">(DPID 20915)</span> 는 대문자 ID여야 합니다. 요청에 제공된 ID는 소문자입니다.</p>
+   <p>설명: IDFA( <span class="keyword">DPID 20915)</span> 는 대문자 ID여야 합니다. 요청에 제공된 ID는 소문자입니다.</p>
    </td>
   </tr>
 
@@ -255,7 +255,7 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## 샘플 오류 코드 메시지 {#sample-error-codes}
 
-이 [!UICONTROL DCS] 값은 [!DNL JSON] 개체 또는 HTTP 응답 문자열의 X-헤더에서 오류 코드와 메시지를 반환합니다.
+이 [!UICONTROL DCS] 는 HTTP 응답 문자열 [!DNL JSON] 의 객체 또는 X-헤더에 있는 오류 코드와 메시지를 반환합니다.
 
 ### 샘플 DCS 오류 코드 및 메시지
 

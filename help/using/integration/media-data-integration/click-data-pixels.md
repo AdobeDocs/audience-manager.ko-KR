@@ -6,27 +6,27 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 클릭 데이터 캡처
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-클릭 추적을 사용하면 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 [수집과](/help/using/integration/media-data-integration/impression-data-pixels.md)마찬가지로 이벤트 호출이 처리를 위해 Audience Manager 데이터 수집 서버([!UICONTROL DCS])로 전송됩니다. 그러면 방문자가 의도한 웹 주소로 리디렉션됩니다.
+클릭 추적은 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 [수집과](/help/using/integration/media-data-integration/impression-data-pixels.md)마찬가지로 이벤트 호출이 처리를 위해 Audience Manager 데이터 수집 서버([!UICONTROL DCS])로 전송됩니다. 그런 다음 방문자는 의도한 웹 주소로 리디렉션됩니다.
 
 >[!NOTE]
 >
->클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅 또는 계정 리드로 문의하십시오.
+>클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅 또는 계정 리드에 문의하십시오.
 
 ## 요구 사항
 
 클릭 추적 호출에는 다음 매개 변수가 필요합니다.
 
-* `d_event=click`:이벤트 호출을 클릭 이벤트로 식별하는 키-값 쌍입니다.
-* `d_rd=redirect URL`:이중 인코딩된 리디렉션을 포함하는 키-값 쌍입니다 [!DNL URL]. 온라인 인코딩 도구를 사용하는 경우 인코더를 통해 문자열을 실행한 다음 리디렉션이 제대로 작동하도록 결과를 다시 인코딩합니다.
+* `d_event=click`: 이벤트 호출을 클릭 이벤트로 식별하는 키-값 쌍입니다.
+* `d_rd=redirect URL`: 이중 인코딩된 리디렉션을 포함하는 키-값 쌍입니다 [!DNL URL]. 온라인 인코딩 도구를 사용하는 경우 인코더를 통해 문자열을 실행한 다음 리디렉션이 제대로 작동하도록 결과를 다시 인코딩합니다.
 
-또한 호출에는 트레이트 자격에 사용하거나 다른 보고서에 대한 데이터 및 메타데이터를 제공하는 키-값 쌍을 포함할 수 있습니다.
+또한 호출에는 트레이트 자격 또는 다른 보고서에 대한 데이터 및 메타데이터를 제공하는 데 사용할 수 있는 키-값 쌍을 포함할 수 있습니다.
 
 ## 요청 샘플
 
@@ -36,15 +36,15 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 응답
 
-응답은 브라우저를 매개 변수에 [!DNL URL] 지정된 것으로 리디렉션합니다 `d_rd` . 응답 문자열에는 아래 나열된 지원되는 매크로에서 생성된 값이 포함될 수 있습니다.
+이 응답으로 브라우저가 매개 변수에 [!DNL URL] 지정된 것으로 `d_rd` 리디렉션됩니다. 응답 문자열에는 아래 나열된 지원되는 매크로에서 생성된 값이 포함될 수 있습니다.
 
-위의 예를 기준으로 브라우저가 다음 내용으로 리디렉션됩니다. [!DNL URL]
+위의 예를 기준으로 브라우저가 다음으로 리디렉션됩니다 [!DNL URL].
 
 `https://adobe.com/callback?creative=123`
 
 ## 지원되는 매크로
 
-클릭 이벤트는 다음 표에 나열된 매크로를 지원합니다. 매크로는 캠페인 및 사용자 추적을 위해 광고 태그가 로드될 때 활성화되는 자체 포함 코드의 작은 단위입니다. 매크로는 다음 형식으로 표시된 [!DNL URL]경우 대상과 함께 전달됩니다. `%macro%`Adobe 일부 키에 매크로가 없으며 대신 하드 코딩된 ID 값을 수락합니다. 대상 최적화 보고서에서 데이터를 분석하려는 경우 하드 코딩된 값을 허용하는 [키가 필요합니다](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+다음 표에 나열된 매크로를 지원하는 클릭 이벤트를 클릭합니다. 매크로는 캠페인 및 사용자 추적을 위해 광고 태그가 로드될 때 활성화되는 자체 포함 코드의 작은 단위입니다. 매크로는 다음 형식으로 표시된 [!DNL URL]경우 대상과 함께 전달됩니다. `%macro%`. 일부 키에는 매크로가 없으며 대신 하드 코딩된 ID 값을 수락합니다. 대상 최적화 보고서에서 데이터를 분석하려면 하드 코딩된 값을 받아들이는 키가 [필요합니다](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -68,7 +68,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>사업부의 숫자 ID입니다. </p> <p> 대상 최적화 <span class="wintitle"> 보고서에</span> 필요합니다. </p> </td> 
+   <td colname="col2"> <p>사업부의 숫자 ID. </p> <p> 대상 최적화 <span class="wintitle"> 보고서에</span> 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
@@ -83,17 +83,17 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
-   <td colname="col2"> <p>데이터 공급자 ID. </p> <p>데이터 공급자 ID를 사용자 ID에 연결하는 <code> d_dpuuid</code> 데 자주 사용됩니다. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>데이터 공급자 ID. </p> <p>데이터 공급자 ID <code> d_dpuuid</code> 를 사용자 ID에 연결하는 데 사용되는 경우가 많습니다. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
-   <td colname="col2"> <p>데이터 공급자가 제공한 고유한 사용자 ID입니다. </p> <p>사용자 ID를 데이터 공급자 ID <code> d_dpid</code> 에 연결하는 데 사용되는 경우가 많습니다. </p> </td> 
+   <td colname="col2"> <p>데이터 공급자가 제공한 고유 사용자 ID. </p> <p>데이터 공급자 ID <code> d_dpid</code> 에 사용자 ID를 연결하는 데 사용되는 경우가 많습니다. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ECID(Experience Cloud ID). </span> For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> ECID(Experience Cloud ID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -103,7 +103,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>요청을 제공하는 DCS 클러스터의 숫자 영역 ID입니다. DCS에 대한 자세한 내용은 데이터 수집 구성 요소를 <a href="../../reference/system-components/components-data-collection.md"> 참조하십시오</a>. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>요청을 제공하는 DCS 클러스터의 숫자 영역 ID. DCS에 대한 자세한 내용은 데이터 수집 구성 <a href="../../reference/system-components/components-data-collection.md"> 요소를 참조하십시오</a>. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
@@ -123,12 +123,12 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
-   <td colname="col2"> <p>Demdex 쿠키에 의존하지 않고 URL에서 직접 방문자 ID를 지정합니다. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>Demdex 쿠키에 의존하는 대신 URL에서 직접 방문자 ID를 지정합니다. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
    <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다. </p><p><code>gdpr</code> 은 0(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p></td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다. </p><p><code>gdpr</code> 0일 수(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
@@ -140,7 +140,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 매크로 예
 
-이 예에서는 크리에이티브, adgroup 및 배치 매크로를 전달하는 방법을 보여줍니다. 각 매개 변수의 값이 클릭 추적 호출의 비리디렉션 부분에 전달된다고 가정합니다.
+이 예에서는 크리에이티브, adgroup 및 배치 매크로를 전달하는 방법을 보여 줍니다. 이 프로세스에서는 각 매개 변수의 값이 클릭 추적 호출의 리디렉션이 아닌 부분에 전달된다고 가정합니다.
 
 <ul class="simplelist"> 
  <li> <code> creative=1235 </code> </li> 
@@ -159,13 +159,13 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 ## 응답
 
-위의 예를 기준으로 브라우저가 다음 내용으로 리디렉션됩니다. [!DNL URL]
+위의 예를 기준으로 브라우저가 다음으로 리디렉션됩니다 [!DNL URL].
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
 ## 추가 기능 - 대상 최적화 보고서
 
-픽셀 호출을 사용하여 대상 최적화 보고서를 [강화할 수 있습니다](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 보고서 [성능을 높이기 위해](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 픽셀을 사용하려는 경우 메타데이터 파일에 대한 개요 및 매핑을 참조하십시오.
+픽셀 호출을 사용하여 대상 최적화 보고서의 [성능을 강화할 수 있습니다](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 보고서 [에](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 강력한 픽셀을 사용하려면 메타데이터 파일에 대한 개요 및 매핑을 참조하십시오.
 
 
 >[!MORELIKETHIS]

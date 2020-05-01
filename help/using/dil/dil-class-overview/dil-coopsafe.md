@@ -6,7 +6,7 @@ solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -19,8 +19,8 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
 
 To use `isCoopSafe` you must:
 
-* v6.11 [!UICONTROL DIL] 이상을 사용하십시오.
-* [Experience Cloud 장치 Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
+* v6. [!UICONTROL DIL] 11 이상을 사용하십시오.
+* [Experience Cloud 장치 Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
 
 * [!DNL Adobe] 컨설턴트와 함께 장치 Co-op 계정에 화이트리스트 또는 블랙리스트 플래그를 설정합니다. 이러한 플래그를 활성화할 셀프 서비스 경로가 없습니다.
 
@@ -63,7 +63,7 @@ To use `isCoopSafe` you must:
 
 **코드 샘플**
 
-DIL이 인스턴스화될 때 설정합니다.
+DIL이 인스턴스화할 때 설정합니다.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -114,11 +114,11 @@ POST 매개 수는 장치 그래프에 사용자 데이터를 포함할 수 있�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>후속 이벤트 호출 시 POST 매개 변수 <code>d_coop_safe=1</code>을 설정합니다. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_safe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>후속 이벤트 호출 시 POST 매개 변수<code> d_coop_unsafe=1</code>을 설정합니다. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_unsafe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,7 +5,7 @@ seo-title: 연락처 및 법적 정보
 solution: Audience Manager
 title: 연락처 및 법적 정보
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 * [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/support.ec.html)
 * [Twitter @AdobeExpCare에서 간단한 질문하기](https://twitter.com/AdobeExpCare)
-* [고객 지원 팀에 직접 문의](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [고객 지원 팀에 직접 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
 * [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/)
 
 ## 서비스, 성능 및 과금 {#billing}
@@ -31,7 +31,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Terms of Use](https://www.adobe.com/legal/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 

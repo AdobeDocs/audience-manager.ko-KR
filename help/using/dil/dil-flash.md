@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 ---
 
@@ -105,7 +105,7 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars]및 이벤트는 Audience Manager에서 트레이트처럼 작동합니다. 트레이트는 키-값 쌍이며 세그먼트를 만드는 데 사용됩니다. 예를 들어 다음과 같은 Analytics prop에서 `c30=foo`는 키(상수) `c30` 이고 값(변수) `foo` 입니다.
+Analytics [!UICONTROL Props], [!UICONTROL eVars]및 이벤트는 Audience Manager의 특성처럼 작동합니다. 트레이트는 키-값 쌍이며 세그먼트를 만드는 데 사용됩니다. 예를 들어 다음과 같은 Analytics prop에서 `c30=foo`는 키(상수) `c30` 이고 값(변수) `foo` 입니다.
 
 **Analytics 변수에 Audience Manager 트레이트 일치**
 
@@ -159,7 +159,3 @@ s.loadModule(d);
 >* [키-값 쌍 설명](../reference/key-value-pairs-explained.md)
 >* [키 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
 
-
-<!-- Victor/Vlad: Do we still need this link? It doesn't look like this content has been migrated.
->* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
--->

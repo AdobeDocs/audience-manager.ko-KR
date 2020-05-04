@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 프로파일 병합 규칙 옵션 정의
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 ---
 
@@ -112,8 +112,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
       <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> 장치 협력 개요</a> </li> 
       <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> 멤버십 요구 사항</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> 장치 그래프: 내부 프로세스 및 출력</a> </li> 
-      <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager 및 외부 장치 그래프</a> (PDF 다운로드). </li>
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> 장치 그래프: 내부 프로세스 및 출력</a> </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
@@ -126,8 +125,6 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr>
  </tbody>
 </table>
-
-<!--Victor/Vlad: In the above table, you link to a .pdf file on marketing.adobe.com. Can you move that PDF into Git and link to it? This pdf might get blown away with the marketing.adobe.com decommission. -Bob-->
 
 ## 외부 병합 정책 {#external-merge-policies}
 

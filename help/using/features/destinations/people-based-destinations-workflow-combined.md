@@ -5,7 +5,7 @@ seo-title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라
 solution: Audience Manager
 title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동을 기반으로 개인화
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 ---
 
@@ -112,9 +112,7 @@ ID [동기화 파일은](../../integration/sending-audience-data/batch-data-tran
 위의 예에서 파일 이름은 다음과 같습니다.
 `c2c_id_999999_987654_1560431657.sync`
 
-[예제 파일을 여기에서 다운로드합니다](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
-
-<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
+[예제 파일을 여기에서 다운로드합니다](assets/c2c_id_999999_987654_1560431657.sync).
 
 ID 동기화 파일을 만든 후에는 버킷에 업로드해야 [!DNL Amazon S3] 합니다. ID 동기화 파일을 업로드하는 방법을 알아보려면 Audience Manager [에 배치 데이터 전송을 참조하십시오](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 

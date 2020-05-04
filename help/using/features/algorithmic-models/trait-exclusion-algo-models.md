@@ -1,56 +1,60 @@
 ---
-description: 특성 제외는 모델링 워크플로우에 추가적인 컨트롤을 제공하므로 도메인 전문 지식과 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있습니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 트레이트를 선택하려면 제외 옵션을 사용합니다.
-seo-description: 특성 제외는 모델링 워크플로우에 추가적인 컨트롤을 제공하므로 도메인 전문 지식과 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있습니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 트레이트를 선택하려면 제외 옵션을 사용합니다.
+description: 특성 제외는 모델링 워크플로우에서 추가적인 컨트롤을 제공하므로 도메인 전문 지식 및 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있습니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 특성을 선택하려면 제외 옵션을 사용합니다.
+seo-description: 특성 제외는 모델링 워크플로우에서 추가적인 컨트롤을 제공하므로 도메인 전문 지식 및 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있습니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 특성을 선택하려면 제외 옵션을 사용합니다.
 seo-title: 알고리즘 모델 특성 제외
 title: 알고리즘 모델 특성 제외
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
 
-# 유사 모델링:특성 제외 {#algorithmic-models-trait-exclusion}
+# 유사 모델링: 특성 제외 {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] 는 모델링 워크플로우에 추가적인 컨트롤을 제공하여 도메인 전문 지식과 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있도록 합니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 트레이트를 선택하려면 이 [!UICONTROL Exclusions] 옵션을 사용합니다.
+[!UICONTROL Trait Exclusion] 모델링 워크플로우에서 추가적인 컨트롤을 제공하므로 도메인 전문 지식 및 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있습니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 특성을 선택하려면 옵션을 사용합니다. [!UICONTROL Exclusions]
 
 ## 사용 사례 {#use-cases}
 
-다음은 [!UICONTROL Trait Exclusion]다음과 같이 해결할 수 있는 몇 가지 사용 사례입니다.
+다음은 해결할 수 있는 몇 가지 사용 사례입니다 [!UICONTROL Trait Exclusion].
 
-* [!UICONTROL Trait Exclusion] 사이트 방문자 트레이트와 같은 특정 catch-all 트레이트를 제외하여 모델을 왜곡하지 않고 결과가 균일하게 됩니다.
-* 잘 모르거나 데이터 소스에서 신뢰하지 않는 트레이트를 제거하여 영향력 있는 트레이트를 보다 명확하게 파악할 수 있습니다.
-* 인구 통계 특성과 같은 특정 트레이트를 제외하여 규정 준수 의무를 해결할 수 있습니다.
+* [!UICONTROL Trait Exclusion] 에서는 사이트 방문자 트레이트와 같은 특정 catch-all 특성을 제외할 수 있으므로 모델을 편향하지 않고 평탄한 결과를 얻을 수 있습니다.
+* 데이터 소스에서 신뢰하지 않거나 알지 못하는 트레이트를 제거하여 영향력 있는 특성을 더 잘 이해할 수 있습니다.
+* 인구 통계 특성과 같은 특정 특성을 제외하여 준수 의무를 해결할 수 있습니다.
 
 >[!IMPORTANT]
 >
->세 번째 사용 사례에 대한 중요 참고 사항입니다. 타사 데이터 공급자가 모델을 *만든*&#x200B;후 데이터 피드에 새 인구 통계 트레이트를 추가하면 모델이 트레이트를 자동으로 선택합니다. 모델을 만든 후에는 모델링에서 트레이트를 제외할 수 없습니다. 중요한 [측면 및 제한 사항을 참조하십시오](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). 이 기능을 사용할 때는 주의하고 데이터 제공자와 함께 작업하여 피드 구조의 변경 사항을 알 수 있도록 하십시오.
+>세 번째 사용 사례에 대한 중요 참고 사항입니다. 타사 데이터 공급자가 모델을 만든 *후 데이터 피드에 새로운 인구 통계 트레이트를 추가하면 모델이 트레이트를 자동으로 선택합니다*. 모델을 만든 후에는 모델링에서 트레이트를 제외할 수 없습니다. 중요한 [측면 및 제한 사항을 참조하십시오](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). 이 기능을 사용할 때는 주의하고 데이터 제공자와 함께 작업하여 피드 구조의 변경 사항을 알 수 있도록 하십시오.
 
 ![](assets/lam_exclude_traits.png)
 
-## 트레이트 제외를 사용하는 방법 {#how-to-use}
+## 특성 제외 사용 방법 {#how-to-use}
 
 모델 [작성](../../features/algorithmic-models/create-model.md#build-model) 워크플로우를 사용하여 새로운 알고리즘 모델을 구축할 수 있습니다.
 
-1. 모델링할 데이터 소스를 하나 이상 선택할 때까지 선택 [!UICONTROL Exclusions] 사항이 회색으로 표시됩니다.
-2. 모델링할 데이터 소스를 하나 이상 선택한 후 을 누릅니다 **[!UICONTROL Browse All Traits]**.
+1. 모델링할 데이터 소스를 하나 이상 선택할 때까지 선택 내용이 회색으로 표시됩니다. [!UICONTROL Exclusions]
+2. 모델링할 데이터 소스를 하나 이상 선택한 후 키를 누릅니다 **[!UICONTROL Browse All Traits]**.
 3. 이전에 선택한 데이터 소스와 연관된 모든 트레이트를 **[!UICONTROL Select Traits to Exclude]** 창에서 볼 수 있습니다. 제외할 트레이트를 선택합니다.
-4. 트레이트를 트레이트 유형, 트레이트 인구 유형(장치 ID 및[장치](../../reference/ids-in-aam.md) 간 [ID](../../reference/ids-in-aam.md))별로 필터링하거나 트레이트 폴더를 검색할 수 있습니다. 트레이트 폴더에는 선택한 데이터 소스와 연관된 트레이트만 표시됩니다.
+4. 트레이트 유형, 트레이트 인구 유형([장치 ID](../../reference/ids-in-aam.md) 및 [장치 간 ID](../../reference/ids-in-aam.md))별로 트레이트를 필터링하거나 트레이트 폴더를 찾아볼 수 있습니다. 특성 폴더에는 선택한 데이터 소스와 연관된 특성만 표시됩니다.
 5. Press **[!UICONTROL Exclude Selected Traits]**.
 
 ![특성 제외](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
->폴더의 트레이트를 하나씩 제외하는 대신 폴더 트레이트를 제외하여 전체 폴더를 제외할 수 있습니다. 예를 들어 20개의 트레이트가 있는 폴더에서 모든 트레이트를 하나씩 제외하는 대신 폴더 트레이트만 제외해야 합니다.
+>폴더에서 트레이트를 하나씩 제외하는 대신 폴더 트레이트를 제외하여 전체 폴더를 제외할 수 있습니다. 예를 들어 20개의 트레이트가 있는 폴더에서 모든 트레이트를 하나씩 제외하는 대신 폴더 트레이트만 제외해야 합니다.
 
-비디오 자습서를 선호하는 경우 트레이트 제외에 대한 비디오 데모를 시청하십시오.
+비디오 자습서를 선호하는 경우 트레이트 제외에 대한 비디오 데모를 확인하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
+또한 디바이스 간 지표가 작동하는 방식을 자세히 살펴보려면 아래 비디오를 참조하십시오.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+
 ## 중요한 측면 및 제한 사항 {#important-aspects-and-limitations}
 
-다음과 관련된 다음과 같은 측면과 제한 사항을 참고하십시오. [!UICONTROL Trait Exclusion]
+다음과 관련된 다음과 같은 측면과 제한 사항을 참고하십시오 [!UICONTROL Trait Exclusion].
 
 <table id="table_BA5C3545BC9E4717BD567B00C803AA53"> 
  <thead> 
@@ -62,36 +66,36 @@ source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>모델 요약 보기에서 제외된 트레이트 </p> </td>
-   <td colname="col2"> <p>제외된 트레이트는 모델 요약 보기에 표시되지 <i>않습니다</i> . 제외된 트레이트는 모델 편집 워크플로우에서만 볼 수 <b><span class="uicontrol"> 있습니다</span></b> . </p> </td>
+   <td colname="col2"> <p>제외된 트레이트는 모델 요약 보기에 표시되지 <i></i> 않습니다. 제외된 트레이트는 모델 편집 워크플로우에서만 <b><span class="uicontrol"> 볼 수</span></b> 있습니다. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>역할 기반 액세스 제어(RBAC) </p> </td>
+   <td colname="col1"> <p>RBAC(역할 기반 액세스 제어) </p> </td>
    <td colname="col2"> <p>RBAC를 사용하는 회사에 대한 다음 제한 사항을 <a href="../../features/administration/administration-overview.md#administration"> 참고하십시오</a>. </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
-      <li id="li_2624FB35581F4807B8530910D63FFDBF">트레이트를 볼 수 있는 액세스 권한이 없는 경우 모델에서 제외할 트레이트를 선택할 <i>수 없습니다</i> . </li>
-      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">트레이트를 볼 수 있는 액세스 권한이 없는 경우 제외된 트레이트 목록에서 해당 트레이트를 볼 <i>수 없습니다</i> . </li>
+      <li id="li_2624FB35581F4807B8530910D63FFDBF">트레이트를 볼 수 있는 액세스 권한이 없으면 모델에서 제외할 트레이트를 선택할 <i>수 없습니다</i> . </li>
+      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">트레이트를 볼 수 있는 액세스 권한이 없으면 제외된 트레이트 목록에서 해당 트레이트를 볼 <i>수 없습니다</i> . </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>모델을 저장한 후 제외된 트레이트 수정 </p> </td>
-   <td colname="col2"> <p>모델을 만들고 저장한 후에는 제외된 트레이트를 수정할 수 없습니다. 결과를 수정하려는 경우 모델을 복제하고 제외된 트레이트를 변경할 수 있습니다. </p> </td>
+   <td colname="col2"> <p>모델을 만들고 저장한 후에는 제외된 특성을 수정할 수 없습니다. 결과를 수정하려는 경우 모델을 복제하고 제외된 특성을 변경할 수 있습니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>제외할 수 있는 최대 트레이트 수 </p> </td>
    <td colname="col2"> <p>모델에서 제외할 수 있는 최대 트레이트 수는 500개입니다. 폴더 트레이트를 사용하여 제외를 최대화할 수 있습니다. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>기준선 트레이트 제외 </p> </td>
-   <td colname="col2"> <p>기준 특성은 기본적으로 제외되므로 모델을 작성할 때 제외 <b><span class="uicontrol"> 목록에</span></b> 나타나지 않습니다. </p> </td>
+   <td colname="col1"> <p>기준 특성 제외 </p> </td>
+   <td colname="col2"> <p>기준 특성은 기본적으로 제외되므로 모델을 작성할 때 제외 목록에 <b><span class="uicontrol"></span></b> 표시되지 않습니다. </p> </td>
   </tr>
  </tbody>
 </table>
 
-아래 비디오를 통해 특정 트레이트를 제외하는 방법과 이유를 살펴볼 수 [!UICONTROL Look-Alike Model]있습니다.
+아래 비디오에서 특정 트레이트를 제외하는 방법과 이유를 살펴보십시오 [!UICONTROL Look-Alike Model].
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## 관련 링크
 
-* [알고리즘 트레이트 정보](/help/using/features/algorithmic-models/understanding-models.md)
+* [알고리즘 특성 정보](/help/using/features/algorithmic-models/understanding-models.md)
 * [특성 제외 - 자습서](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)

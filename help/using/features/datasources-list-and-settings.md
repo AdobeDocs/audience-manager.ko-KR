@@ -6,7 +6,10 @@ solution: Audience Manager
 title: 데이터 소스 목록 및 설정
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 1%
 
 ---
 
@@ -96,6 +99,10 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 ### 인바운드 데이터 소스 설정
 
 데이터 소스가 인바운드 데이터를 수신하도록 설계된 경우 **[!UICONTROL Inbound]** 확인란을 선택합니다. 확인란을 선택하면 **[!UICONTROL Inbound]** 아래 설명된 두 개의 추가 컨트롤 그룹이 표시됩니다.
+
+>[!NOTE]
+>
+>이 **[!UICONTROL Inbound]** 확인란은 아래 설명된 데이터 소스 컨트롤을 표시하거나 숨기려는 목적입니다. 이 옵션을 선택 해제해도 **[!UICONTROL Inbound]** 어떠한 방법으로든 데이터 수집에는 영향을 주지 않습니다. 이 옵션이 선택되어 있는지 여부에 관계없이 온보드 데이터가 처리됩니다.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 

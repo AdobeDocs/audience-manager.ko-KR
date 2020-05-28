@@ -6,7 +6,10 @@ solution: Audience Manager
 title: 용어 설명
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 식별한 사용자 [!UICONTROL Algorithmic Modeling] 의 핵심 영역을 넘어 도달 범위를 확장하는 수단으로 사용 이 기능을 사용하면 자동화된 데이터 분석을 통해 고유한 새로운 고객을 발견할 수 있습니다. 관리 [!UICONTROL Algorithmic Models] 를 **[!UICONTROL Audience Data > Models]**&#x200B;통해
 
-알고리즘 [모델 이해를 참조하십시오](../features/algorithmic-models/understanding-models.md#understanding-models).
+알고리즘 [모델 이해를 참조하십시오](../features/algorithmic-models/algo-models-overview.md).
 
 <br> 
 

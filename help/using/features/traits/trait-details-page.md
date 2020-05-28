@@ -7,7 +7,7 @@ title: 특성 세부 사항 페이지
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: c761682f31c777368a21744b21d7302829007c66
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
    * **[!UICONTROL Cross-Device ID]**: 인증된 프로필에 대한 데이터를 수집하는 트레이트의 결과를 보려면 이 옵션을 선택합니다. 이 옵션을 선택하면 보고서에만 데이터가 표시되고 보고서 [!UICONTROL Cross-Device ID] 아래에는 데이터가 [!UICONTROL Device ID] 표시되지 않습니다.
    * **[!UICONTROL Device ID]**: 장치 프로파일에 대한 데이터를 수집하는 트레이트의 결과를 보려면 이 옵션을 선택합니다. 이 옵션을 선택하면 보고서에만 데이터가 표시되고 보고서 [!UICONTROL Device ID] 아래에는 데이터가 [!UICONTROL Cross-Device ID] 표시되지 않습니다.
 
-      ![트레이트 그래프](assets/trait-summary.png)
+      ![트레이트 그래프](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**: 지정된 시간 범위 동안 프로필에 이 트레이트를 추가한 고유한 사용자 수입니다.
 * **[!UICONTROL Total Trait Population]**: 현재 이 트레이트에 대해 자격이 있는 고유한 사용자 수입니다.

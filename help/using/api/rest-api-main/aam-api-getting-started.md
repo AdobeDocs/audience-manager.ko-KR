@@ -8,7 +8,7 @@ uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
 source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1890'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Audience Manager REST API는 두 가지 인증 방법을 지원합니다.
 
 JWT 인증을 구성하려면 먼저 [Adobe 개발자 콘솔에 액세스할 수 있어야 합니다](https://console.adobe.io/). 액세스 요청은 조직 관리자에게 문의하십시오.
 
-### 인증 {authentication}
+### 인증
 
 아래 절차에 따라 JWT(서비스 계정) 인증을 구성합니다.
 
@@ -216,7 +216,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 ## URL 요청 {#request-urls}
 
-다음 표에는 요청을 전달하는 데 사용되는 [!DNL API] 요청 URL이 방법별로 나열되어 있습니다.
+다음 표에는 요청을 전달하는 데 사용된 요청 URL이 [!DNL API] 방법별로 나열되어 있습니다.
 
 사용하는 인증 방법에 따라 아래 표에 따라 요청 URL을 조정해야 합니다.
 

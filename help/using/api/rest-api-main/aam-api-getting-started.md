@@ -6,9 +6,9 @@ solution: Audience Manager
 title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 680c4491176755915d2d45ee64f5d88410cb7072
+source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1891'
 ht-degree: 2%
 
 ---
@@ -51,12 +51,22 @@ Audience Manager REST API는 두 가지 인증 방법을 지원합니다.
 
 ## JWT(서비스 계정) 인증 {#jwt}
 
-안전한 서비스 간 Adobe I/O API 세션을 설정하려면 통합 ID를 캡슐화하는 JWT(JSON Web Token)를 만든 다음 액세스 토큰으로 교환해야 합니다. Adobe 서비스에 대한 모든 요청은 [Adobe I/O 콘솔에서](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 서비스 계정 통합을 [만들 때 생성된 API 키(클라이언트 ID)와 함께 인증 헤더에 액세스 토큰을 포함해야 합니다](https://console.adobe.io/).
+### 전제 조건 {#prerequisites}
 
-아래 절차에 따라 JWT(서비스 계정) 인증을 구성하십시오.
+JWT 인증을 구성하려면 먼저 [Adobe 개발자 콘솔에 액세스할 수 있어야 합니다](https://console.adobe.io/). 액세스 요청은 조직 관리자에게 문의하십시오.
 
-1. 서비스 [계정 통합으로](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 이동하고 모든 단계에 따라 서비스 계정 연결을 구성하고 JWT 토큰을 생성합니다.
-2. JWT( [서비스 계정) 인증으로](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) 이동하고 단계에 따라 액세스 토큰을 위해 JWT 토큰(1단계에서 생성됨)을 교환합니다.
+### 인증 {authentication}
+
+아래 절차에 따라 JWT(서비스 계정) 인증을 구성합니다.
+
+1. Adobe 개발자 [콘솔에 로그인합니다](https://console.adobe.io/).
+1. 서비스 계정 [연결의 단계를 따릅니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+   * 2단계 [중: 서비스 계정 인증을](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)사용하여 프로젝트에 API를 추가하려면 Audience Manager API 옵션을 선택합니다.
+1. 3단계의 지침에 따라 첫 번째 API 호출을 수행하여 연결을 [시도해 보십시오](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.).
+
+>[!NOTE]
+>
+>Audience Manager REST API를 자동화된 방식으로 구성하고 작업하려면 JWT를 프로그래밍 방식으로 생성할 수 있습니다. 자세한 [내용은 JWT(서비스 계정) 인증을](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) 참조하십시오.
 
 ## OAuth 인증(더 이상 사용되지 않음) {#oauth}
 
@@ -206,7 +216,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 ## URL 요청 {#request-urls}
 
-다음 표에는 요청을 전달하는 데 사용된 요청 URL이 [!DNL API] 방법별로 나열되어 있습니다.
+다음 표에는 요청을 전달하는 데 사용되는 [!DNL API] 요청 URL이 방법별로 나열되어 있습니다.
 
 사용하는 인증 방법에 따라 아래 표에 따라 요청 URL을 조정해야 합니다.
 

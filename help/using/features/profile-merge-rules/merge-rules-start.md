@@ -6,7 +6,10 @@ solution: Audience Manager
 title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 1%
 
 ---
 
@@ -98,6 +101,19 @@ To create [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile M
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. 클릭 **[!UICONTROL Save]**.
+
+### 사용자 ID 키로 장치 간 ID를 사용하는 Adobe Campaign 대상에 대한 고려 사항 {#considerations}
+
+2019년 말에는 크로스 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 향상시키기 위해 일련의 향상된 프로필 병합 규칙을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에서 엄격하게 적용됩니다. 마지막으로, 장치 간 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
+
+Adobe Campaign과 같은 장치 간 ID를 사용하는 Audience Manager 인스턴스와 대상 간의 올바른 통합을 보장하려면 다음 요구 사항을 충족해야 합니다.
+
+1. Adobe Campaign 선언 ID 대상에 매핑된 세그먼트가 사용한 프로필 병합 규칙을 검토하십시오. 프로필 병합 규칙은 이 옵션을 사용해야 [!UICONTROL Last Authenticated Profile] 하므로 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙이 다른 옵션을 사용하고 있는 경우 다른 옵션으로 전환합니다 [!UICONTROL Last Authenticated Profile].
+2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
+
+>[!NOTE]
+>
+> 이러한 상황에 처한 고객에 대해 프로필 병합 규칙 제한을 1로 늘렸기 때문에 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
 
 ## 병합 규칙 코드 구성 {#configure-merge-rule-code}
 

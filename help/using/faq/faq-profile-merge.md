@@ -7,9 +7,9 @@ solution: Audience Manager
 title: 프로필 병합 규칙 및 장치 그래프 FAQ
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -91,7 +91,7 @@ Audience Manager는 한 세그먼트를 사용하여 장치를 인증하면 현�
 
 ## 세그먼트, 장치 그래프 및 프로필 병합 규칙 {#segments-device-graphs-rules}
 
-**장치 그래프를 사용하는 세그먼트가 더 이상 적격하지 않으면 장치의[!DNL Audience Manager]세그먼트는 어떻게[!UICONTROL Profile Merge Rule]해제됩니까?**
+**장치 그래프를 사용하는 세그먼트가 더 이상 적격하지 않을 때 장치의[!DNL Audience Manager]세그먼트는 어떻게[!UICONTROL Profile Merge Rule]분리합니까?**
 
 Audience Manager는 세그먼트를 장치 그래프를 사용하는 장치로 평가할 때 최대 100개의 장치 [!UICONTROL Profile Merge Rule] 를 병합합니다. 세그먼트 해제 신호가 발급되면 현재 장치 및 최대 99개의 추가 장치가 대상의 세그먼트에서 제거됩니다. 세그멘테이션에 대한 자세한 내용은 프로필 [병합 규칙 및 장치 분리 세그멘테이션 프로세스를 참조하십시오](../features/profile-merge-rules/merge-rule-unsegment.md).
 
@@ -259,7 +259,7 @@ Audience Manager는 세그먼트를 장치 그래프를 사용하는 장치로 �
 
 아니요. 
 
-**2020년 3월 16일 이후 Adobe Campaign으로 세그먼트 내보내기가 0으로 표시되는 이유는 무엇입니까?**
+**2020년 3월 16일 이후 Adobe Campaign으로 세그먼트 내보내기에 0개의 세그먼트 모집단만 표시되는 이유는 무엇입니까?**
 
 2019년 말에는 크로스 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 향상시키기 위해 일련의 향상된 프로필 병합 규칙을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에서 엄격하게 적용됩니다. 마지막으로, 장치 간 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
 

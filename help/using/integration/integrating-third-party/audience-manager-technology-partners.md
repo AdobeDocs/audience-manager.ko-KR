@@ -1,27 +1,30 @@
 ---
-description: 이 페이지에는 현재 서버 간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
-seo-description: 이 페이지에는 현재 서버 간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+description: 이 페이지에는 현재 서버간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+seo-description: 이 페이지에는 현재 서버간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 seo-title: Adobe Audience Manager 기술 파트너
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager 기술 파트너
 translation-type: tm+mt
-source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 59%
 
 ---
 
 
 # Audience Manager 활성화 파트너
 
-이 페이지에는 현재 Audience Manager [서버와 서버 간 통합만](/help/using/features/destinations/add-edit-segments.md) 포함됩니다.  통합에 대한 자세한 내용은 Adobe Exchange [목록](https://www.adobeexchange.com/experiencecloud.html) (해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+이 페이지에는 현재 Audience Manager [서버와 서버 간 통합만](/help/using/features/destinations/add-edit-segments.md) 포함됩니다.  통합에 대한 자세한 내용은 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 
 <br> 
 
-* **업데이트됨** = 이 활성화 파트너에 대한 업데이트가 있는 마지막 날짜를 표시합니다.
-* **Unsegment** = Unsegmentation은 세그먼트에서 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다. 세그멘테이션은 GDPR 삭제 요청 읽기 프로필 병합 규칙 및 장치 [세그멘테이션 프로세스 및](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) Audience Manager 파트너(세그멘테이션 [기능 포함)에서도 사용됩니다](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager는 아래 예로 표시된 대상에 세그먼트 해제 정보를 보냅니다.
-* **IAB TCF 동의 신호** 수신 = IAB TCF용 Audience Manager 플러그인을 사용하면 IAB TCF 동의 문자열을 활성화 파트너에게 전달하면서 사용자의 개인 정보 보호 선택 사항을 준수할 수 있습니다. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** = 이 열에는 즉각적인 장치 간 억제를 지원하는 파트너가 나열됩니다. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **모바일 장치 ID** = 이 열에는 Audience Manager에서 모바일 장치 ID를 수신할 수 있는 파트너가 표시됩니다.
+* **업데이트됨** = 이 정품 인증 파트너에 대한 업데이트가 있었던 마지막 날짜가 표시됩니다.
+* **Unsegment** = Unsegmentation은 세그먼트에서 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다. 세그먼트에서 장치 프로파일을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용되는 장치 옵션에 따라 다릅니다. 또한 GDPR 삭제 요청 읽기 프로필 병합 규칙 및 장치 [분리 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [Audience Manager 파트너 세그먼테이션 해제 기능에서도 세그먼테이션이 사용됩니다](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager는 아래 예라고 표시된 대상에 세그먼트 해제 정보를 보냅니다.
+* **IAB TCF 동의 신호 수신** = IAB TCF용 Audience Manager 플러그인을 사용하면 사용자의 개인 정보 보호 선택 사항을 준수하면서 IAB TC 문자열을 활성화 파트너에게 전달할 수 있습니다. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = 이 열에는 장치 간 억제를 지원하는 파트너가 나열됩니다. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **모바일 장치 ID** = 이 열에는 Audience Manager에서 모바일 장치 ID를 받을 수 있는 파트너가 나열됩니다.
 
 <br> 
 
@@ -29,9 +32,9 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
 | 4C 인사이트 | 26/09/2018 | 예 | 아니오 | 아니오 | 예 |
 | 4info | 09/02/2017 | 아니오 | 아니오 | 아니오 | 예 |
-| 정확성 광고 | 09/02/2017 | 예 | 아니오 | 예 | 아니요 |
+| AcityAds | 09/02/2017 | 예 | 아니오 | 예 | 아니요 |
 | Adara | 17/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
-| 중독성 이동성 | 22/02/2017 | 예 | 아니오 | 예 | 예 |
+| 중독성 | 22/02/2017 | 예 | 아니오 | 예 | 예 |
 | 아델픽 | 22/02/2017 | 아니오 | 아니오 | 아니오 | 예 |
 | AdForm | 22/02/2017 | 예 | 아니오 | 예 | 예 |
 | AdGear | 22/02/2017 | 예 | 아니오 | 예 | 아니요 |
@@ -44,13 +47,13 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 | AOL AdLearn | 02/03/2017 | 아니오 | 아니오 | 아니오 | 예 |
 | AOL ONE | 02/03/2017 | 예 | 아니오 | 아니오 | 예 |
 | AppNexus | 02/03/2017 | 예 | 아니오 | 예 | 아니요 |
-| AppNexus Perydex | 10/08/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| AppNexus Pludex | 10/08/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | Atedra/AdSting | 02/03/2017 | 예 | 아니오 | 예 | 아니요 |
-| 아보케트 | 06/12/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
+| 아보셋 | 06/12/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | Bidtelect | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | 비즈왁스 | 25/05/2018 | 아니오 | 아니오 | 아니오 | 예 |
 | Brandscreen | 03/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
-| Brightroom | 03/03/2017 | 아니요 | 예 | 아니오 | 아니오 |
+| 브라이트롤 | 03/03/2017 | 아니요 | 예 | 아니오 | 아니오 |
 | 단추 | 18/12/2017 | 예 | 아니오 | 아니오 | 예 |
 | C1 Exchange | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | 셀트라 | 27/02/2017 | 예 | 아니오 | 아니오 | 예 |
@@ -59,8 +62,8 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 | Clearstream.tv | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | Collective AMP Platform | 27/02/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | Criteo | 27/02/2017 | 아니요 | 예 | 아니오 | 예 |
-| 십자 | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
-| D.A.C.AudienceOne | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| 크로스와이즈 | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| D.A.C. AudienceOne | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | DataXu | 11/20/2017 | 아니오 | 아니오 | 아니오 | 예 |
 | Digilant | 02/03/2017 |  | 아니오 | 아니오 | 아니오 |
 | DistrictM | 02/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
@@ -71,7 +74,7 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 | 지수 | 27/02/2017 | 예 | 아니오 | 예 | 아니요 |
 | Eyereturn Marketing | 11/04/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | EyeView Digital | 14/06/2018 | 예 | 아니오 | 아니오 | 예 |
-| Fiksu | 03/03/2017 | 예 | 아니오 | 아니오 | 예 |
+| 픽스 | 03/03/2017 | 예 | 아니오 | 아니오 | 예 |
 | Flashtalking | 02/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | 프리크아웃 | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | 자유륜 | 27/02/2017 | 예 | 예 | 아니오 | 예 |
@@ -79,30 +82,30 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 | Google 광고단어 표시 | 02/08/2018 | 예 | 예 | 아니오 | 예 |
 | Google DoubleClick 입찰 관리자(DBM) | 24/04/2017 | 예 | 예 | 예 | 예 |
 | Google DoubleClick 캠페인 관리자(DCM fka DFA) | 24/04/2017 | 예 | 예 | 예 | 예 |
-| Google DoubleClick for Publisher(DFP, DFPP) | 24/04/2017 | 예 | 예 | 예 | 예 |
+| 게시자를 위한 Google DoubleClick(DFP, DFPP) | 24/04/2017 | 예 | 예 | 예 | 예 |
 | 검검 | 02/06/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | 색인 교환(이전 Casale Media) | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | 감염성 미디어 | 03/03/2017 | 예 | 아니오 | 예 | 아니요 |
 | inMobi | 30/03/2017 | 예 | 아니오 | 아니오 | 예 |
 | 이노비드 | 02/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
-| iPinYou | 11/07/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
-| Jampp | 11/05/2017 | 예 | 아니오 | 아니오 | 예 |
+| iPin사용자 | 11/07/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
+| 잠프 | 11/05/2017 | 예 | 아니오 | 아니오 | 예 |
 | 지복스 | 30/08/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | Juice Mobile | 03/03/2017 | 예 | 아니오 | 아니오 | 예 |
 | 크루스 | 30/06/2017 | 아니오 | 아니오 | 아니오 | 예 |
-| Lightroom.io | 09/11/2017 | 예 | 아니오 | 아니오 | 예 |
+| Liftoff.io | 09/11/2017 | 예 | 아니오 | 아니오 | 예 |
 | LiveIntent | 17/07/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | LiveRail | 20/01/2017 |  | 아니오 | 아니오 |  |
 | Logicad | 22/06/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | 로타메 | 30/06/2017 | 예 | 아니오 | 아니오 | 예 |
 | MaxPoint Interactive | 27/02/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | MediaMath | 27/02/2017 | 예 | 아니오 | 아니오 | 예 |
-| Microsoft Bing 광고 | 30/05/2017 | 예 | 예 | 예 | 아니요 |
+| Microsoft Bing Ads | 30/05/2017 | 예 | 예 | 예 | 아니요 |
 | 밀레니얼 미디어 | 27/02/2017 | 아니오 | 아니오 | 아니오 | 예 |
 | mPlatform 중국 | 06/08/2018 | 예 | 아니오 | 아니오 | 예 |
-| 내러티브 I/O | 12/01/2018 | 예 | 아니오 | 아니오 | 예 |
+| 서사적 I/O | 12/01/2018 | 예 | 아니오 | 아니오 | 예 |
 | 기본 터치 | 02/03/2017 | 예 | 아니오 | 아니오 | 예 |
-| 나티보 | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| 내티보 | 27/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | Mail.ru | 29/04/2019 | 예 | 아니오 | 아니오 | 예 |
 | 모바일 전문가 | 25/05/2018 | 예 | 아니오 | 아니오 | 예 |
 | 네트워크 | 02/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
@@ -120,9 +123,9 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 | 펄스포인트 | 13/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | PushSpring | 28/08/2017 | 예 | 아니오 | 아니오 | 예 |
 | Quantcast | 13/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
-| Rygone / RadiumOne | 13/02/2017 | 예 | 아니오 | 아니오 | 예 |
+| MirualOne / RadiumOne | 13/02/2017 | 예 | 아니오 | 아니오 | 예 |
 | 다시 병합 | 31/05/2017 | 예 | 아니오 | 예 | 예 |
-| 공명 | 17/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| 반응 | 17/02/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | RevJet | 17/02/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | RocketFuel | 17/02/2017 | 예 | 아니오 | 예 | 예 |
 | Rubicon |  | 예 | 예 | 아니요 |  |
@@ -131,30 +134,30 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 | Simpli.fi | 17/02/2017 | 아니오 | 아니오 | 아니오 | 예 |
 | Sizmek Audience Hub | 17/02/2017 | 예 | 아니오 | 아니오 |  |
 | 분할 | 04/09/2018 | 예 | 아니오 | 아니오 | 예 |
-| Smart Adserver | 31/07/2017 | 예 | 아니오 | 예 | 예 |
+| 스마트 Adserver | 31/07/2017 | 예 | 아니오 | 예 | 예 |
 | So-net Media Networks Logicad |  | 예 | 아니오 | 아니오 |  |
 | 소노비 | 28/03/2017 | 예 | 아니오 | 예 | 아니요 |
 | SpecificMedia | 03/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | 스폰지셀 | 03/03/2017 | 예 | 아니오 | 예 | 예 |
 | SpotX | 16/03/2018 | 아니요 | 예 | 아니오 | 예 |
-| Stroer | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| 스트로어 | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | SundaySky | 03/03/2017 | 예 | 아니오 | 예 | 아니요 |
 | StartApp | 25/05/2018 | 예 | 아니오 | 아니오 | 예 |
 | Supership/ScaleOut | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
-| 수르바타 | 09/08/2017 | 예 | 아니오 | 아니오 | 예 |
+| 수리바타 | 09/08/2017 | 예 | 아니오 | 아니오 | 예 |
 | 터불 | 03/08/2017 | 아니요 | 예 | 아니오 | 아니오 |
 | Tapad | 03/03/2017 | 아니오 | 아니오 | 아니오 | 예 |
-| 텔레리아 | 25/04/2019 | 예 | 아니오 | 아니오 | 예 |
-| 텔레로지컬 시스템 | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
-| 무역부 | 03/03/2017 | 예 | 예 | 예 | 예 |
+| 텔라리아 | 25/04/2019 | 예 | 아니오 | 아니오 | 예 |
+| Telogo Systems | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| 트레이드데스크 | 03/03/2017 | 예 | 예 | 예 | 예 |
 | 실시간 연결 | 05/02/2016 |  | 아니오 | 아니오 |  |
 | 진동 비디오 | 03/03/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | 트리플 리프트 | 03/03/2017 | 아니요 | 예 | 아니오 | 아니오 |
 | TrueX | 11/01/2018 | 예 | 아니오 | 아니오 | 예 |
 | TubeMogul | 03/03/2017 | 예 | 아니오 | 예 | 아니요 |
-| Turn / Amee | 03/03/2027 | 아니오 | 아니오 | 아니오 | 예 |
+| 턴/아모베이 | 03/03/2027 | 아니오 | 아니오 | 아니오 | 예 |
 | 트웬가 | 29/10/2018 | 예 | 아니오 | 아니오 | 아니오 |
-| Twitter 맞춤형 고객 | 27/03/2017 | 예 | 아니오 | 예 | 아니요 |
+| Twitter 맞춤 고객 | 27/03/2017 | 예 | 아니오 | 예 | 아니요 |
 | 언더톤 | 11/07/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | Verve | 15/06/2017 | 예 | 아니오 | 아니오 | 예 |
 | VideoAmp | 03/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
@@ -166,6 +169,6 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 | Yahoo DataX | 03/03/2017 | 예 | 예 | 예 | 예 |
 | Yahoo! 일본 | 03/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | 얀덱스 | 28/11/2018 | 예 | 아니오 | 아니오 | 예 |
-| Perydex | 21/08/2017 | 예 | 아니오 | 아니오 | 아니오 |
+| Pludex | 21/08/2017 | 예 | 아니오 | 아니오 | 아니오 |
 | YieldMo | 03/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | 유메 | 31/05/2017 | 아니오 | 아니오 | 아니오 | 아니오 |

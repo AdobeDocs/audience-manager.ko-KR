@@ -1,12 +1,15 @@
 ---
 description: Audience Manager에서는 온라인 대상 데이터 관리를 위한 업계 선도 서비스를 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
-seo-description: AAM(Audience Manager)에 대한 기술 설명서 및 자체 도움말 AAM은 온라인 고객 데이터 관리를 위한 업계 선도적인 서비스를 제공하고 디지털 광고주와 출판업체는 데이터 자산을 제어하고 활용하여 성공적인 세일즈 활동을 도모하는 데 필요한 툴을 제공합니다.
+seo-description: AAM(Audience Manager)에 대한 기술 문서 및 자체 도움말 AAM은 온라인 고객 데이터 관리를 위한 업계 선도적인 서비스를 제공하고 디지털 광고주와 출판업체는 데이터 자산을 제어하고 활용하여 성공적인 세일즈 활동을 유도하는 데 필요한 툴을 제공합니다.
 seo-title: Adobe Audience Manager 제품 기술 설명서
 solution: Audience Manager
 title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
+source-git-commit: 54d108d3ab2a5476e919d706be74821d6ef8c2bd
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 15%
 
 ---
 
@@ -18,16 +21,16 @@ source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
 
 ## 이 제품 설명서 안내서 사용
 
-* 왼쪽 탐색 ****&#x200B;영역에서 주제별 및 하위 항목별로 컨텐츠를 살펴보십시오.
-* 원하는 내용을 알고 있으면 페이지 맨 위에 있는 **검색** 필드를 사용합니다.
-* 페이지 **오른쪽 상단의 문제** 기록 단추를 사용하여 잘못되었거나 오래된 문서를 표시할 수 있습니다. 공동 작업 [가이드](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 개요를 참조하여 공동 작업을 시작하는 방법을 알아보십시오.
+* 왼쪽 탐색 영역에서 주제 및 하위 주제별로 컨텐츠를 **탐색합니다**.
+* 원하는 내용을 알고 있는 경우 페이지 상단에 있는 **검색** 필드를 사용합니다.
+* 페이지 **오른쪽 상단에 있는 문제** 기록 버튼을 사용하여 부정확하거나 오래된 문서를 표시할 수 있습니다. 공동 작업 [가이드](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 개요를 참조하여 기여 작업을 시작하는 방법을 알아보십시오.
 
 ## 이 페이지를 읽는 방법
 
-* 먼저 Audience Manager **의 주요 기능에** 대해 Audience Manager가 해결할 수 있는 문제의 스냅숏을 살펴보십시오. Audience Manager [개요를](/help/using/overview/aam-overview.md) 참조한 다음 이 페이지로 돌아갑니다.
-* Audience Manager **개념에 익숙해지려면 Adobe Audience** Manager 시작을 참조하십시오. 비즈니스 및 기술 구현 안내서도 검토해야 합니다.
-* 최신 Audience Manager 릴리스 노트를 확인하고 릴리스 노트 및 최신 기능 섹션에 **있는 최신 기능을 살펴볼 수 있습니다**.
-* 마지막으로, 학습 센터 - 권장 Audience Manager 및 Experience Cloud 리소스에서 포럼, 비디오 튜토리얼, 직접 교육 과정 및 온라인 트레이닝 **과정과 같은 더 많은 Experience Cloud 리소스를 살펴볼 수 있습니다**.
+* 먼저 Audience Manager에서 해결할 수 있는 문제 **의 요약 정보를 제공하는 Audience Manager의 기본** 기능을 살펴보십시오. Audience [Manager 개요를](/help/using/overview/aam-overview.md) 본 다음 이 페이지로 돌아가십시오.
+* Audience Manager 개념 **에 익숙해지려면 Audience Manager** 시작을 읽어 보십시오. 비즈니스 및 기술 구현 안내서도 확인하십시오.
+* 최신 Audience Manager 릴리스 노트를 확인하고 릴리스 노트 및 최신 기능 섹션에 있는 최신 기능 **에 대해 읽어 보십시오**.
+* 마지막으로, 학습 센터 - 권장 Audience Manager 및 Experience Cloud 리소스 섹션에서 포럼, 비디오 자습서, 직접 및 온라인 트레이닝 과정 등 더 많은 Experience Cloud 리소스를 **이용할 수 있습니다**.
 
 <br> 
 
@@ -40,13 +43,13 @@ source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
          <b>데이터 가져오기</b>
       </div>
       <p>
-         <em><ul><li><a href="/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md">데이터 수집 서버</a></li><li><a href="/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md">일괄 데이터 통합</a></li><li><a href="/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md">로그 통합</a></li><li><a href="/help/using/integration/integration-other-solutions/audience-management-module.md">Adobe Analytics 데이터를 Audience Manager로 전달</a></li></ul></em>
+         <em><ul><li><a href="/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md">데이터 수집 서버</a></li><li><a href="/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md">일괄 데이터 처리</a></li><li><a href="/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md">로그 섭취</a></li><li><a href="/help/using/integration/integration-other-solutions/audience-management-module.md">Adobe Analytics 데이터를 Audience Manager에 전달</a></li></ul></em>
       <p>
    </td>
    <td>
-      <img alt="강화 및 세그먼트" src="/help/using/overview/assets/enrich-segment.png"/>
+      <img alt="풍부한 기능 및 세그먼트" src="/help/using/overview/assets/enrich-segment.png"/>
       <div>
-         <b>강화 및 세그먼트</b>
+         <b>풍부한 기능 및 세그먼트</b>
       </div>
       <p>
        <em><ul><li><a href="/help/using/features/segments/segments-purpose.md">세그멘테이션</a></li><li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">프로필 병합 규칙</a></li><li><a href="/help/using/features/algorithmic-models/understanding-models.md">알고리즘 모델링</a></li><li><a href="/help/using/overview/data-types-collected.md">제2자 및 제3자 데이터</a></li></ul></em>
@@ -74,12 +77,12 @@ source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
 <table> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>중요한 개념 설명서</b></p>
+   <td colname="col1"> <p><b>중요한 개념 문서</b></p>
    <p>Audience Manager 개념에 대한 자세한 내용은 아래 페이지를 참조하십시오. 
-   <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager 개요</a></li><li><a href="/help/using/reference/signal-trait-segment.md">신호, 트레이트 및 세그먼트</a></li><li><a href="/help/using/reference/aam-glossary.md"> 용어 설명</a> </li><li><a href="/help/using/reference/ids-in-aam.md">ID 인덱스</a></li></ul></p>
+   <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager 개요</a></li><li><a href="/help/using/reference/signal-trait-segment.md">신호, 트레이트 및 세그먼트</a></li><li><a href="/help/using/reference/aam-glossary.md"> 용어 설명</a> </li><li><a href="/help/using/reference/ids-in-aam.md">ID 색인</a></li></ul></p>
    <br> 
    <p><b>Audience Manager 구현</b></p>
-   <p> 아래 페이지를 참조하여 Audience Manager 구현을 시작하십시오.
+   <p> 아래 페이지를 읽고 Audience Manager 구현을 시작하십시오.
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">데이터 통합 방법</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md">구현 안내서</a></li>
@@ -87,7 +90,7 @@ source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
      <br> 
    <p> <b>기술 구현 안내서</b> </p> <p>Audience Manager API를 시작하고 앱에서 Audience Manager를 설정합니다.</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API 시작하기</a></li>
+     <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API 시작</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS API 시작하기</a></li>
      <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Adobe Experience Platform Launch에 Audience Manager 확장 추가</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">앱에 Audience Manager 추가</a></li>
@@ -156,9 +159,9 @@ source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
      <br> 
      <p> <b>최신 기능</b> </p> <p> 
      Audience Manager의 최신 기능을 살펴보십시오.</p>
-     <p><ul><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">예측 고객</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용량 보고</a></li>
+     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">예측 대상</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">CPA(California Consumer Privacy Act) 지원 및 개인 정보 보호 문서 검토</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Adobe Sensei 기반의 Audience Marketplace 데이터를 위한 지능형 추천</a></li>
+     <li><a href="/help/using/features/segments/trait-recommendations.md">Adobe Sensei 기반의 Audience Marketplace 데이터에 대한 지능형 추천</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">프로필 병합 규칙 개선 사항</a></li></ul><p>
     </td>
   </tr> 
@@ -200,12 +203,12 @@ Read about the latest Audience Manager features:
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager 커뮤니티 포럼</a> </li>
       <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager 자습서</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe 개인 정보 보호 센터</a> </li>  
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe 트레이닝 및 인증</a> </li> 
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/kr/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe 트레이닝 및 인증</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud 제품 설명서 홈</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager 학습 및 지원</a> </li> 
      </ul> </p> 
      <br> 
-     <p>2020 <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2020.html"> 설명서 업데이트를 참조하십시오</a>. </p> </td>
+     <p>2020 설명서 업데이트를 <a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/documentation-updates/docs-2020.html"> 참조하십시오</a>. </p> </td>
   </tr> 
  </tbody> 
 </table>

@@ -6,7 +6,10 @@ solution: Audience Manager
 title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 4%
 
 ---
 
@@ -247,6 +250,23 @@ In the tables below, *italics* represents a variable placeholder.
    <td colname="col3"> <p>요청에 잘못된 전역 <span class="wintitle">장치</span> ID가 포함되어 있으면 DCS에서 이 오류 코드를 반환합니다. DCS는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류를 발생시킵니다. 올바른 장치 광고 ID 형식 및 해당 글로벌 데이터 소스에 대한 자세한 내용은 <a href="../../../features/global-data-sources.md" format="dita" scope="local">Audience Manager</a> 의 ID의 전역 데이터 소스 <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">및</a> 색인을 참조하십시오.</p>
    <p>잘못된 호출의 예: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>설명: IDFA( <span class="keyword">DPID 20915)</span> 는 대문자 ID여야 합니다. 요청에 제공된 ID는 소문자입니다.</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>313 </p> </td> 
+   <td colname="col2"> <p>GCL에 CMP ID가 없습니다.</p> </td> 
+   <td colname="col3"> <p>평가 시 Audience Manager의 캐시된 글로벌 CMP 목록 버전에 없는 CMP ID로 <code>gdpr=1</code> 및 IAB TC 문자열이 생성되면 IAB TCF용 Audience Manager 플러그인은 IAB TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.0 ${GDPR} 매크로는 0으로 설정되고 ${GDPR_CONSENT_XXX} 매크로는 비어 있습니다.</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>314 </p> </td> 
+   <td colname="col2"> <p>CMP ID가 GCL에서 삭제된 것으로 표시됨</p> </td> 
+   <td colname="col3"> <p>글로벌 CMP 목록 <code>gdpr=1</code> 의 캐시된 버전에서 삭제된 것으로 표시된 CMP에서 및 IAB TC 문자열이 생성되면 IAB TCF용 Audience Manager 플러그인은 TC 문자열을 삭제하고, 평가 시간이 글로벌 CMP 목록에서 삭제 시간이 지난 경우 요청을 평소대로 처리합니다. IAB TCF v2.0 ${GDPR} 매크로는 0으로 설정되고 ${GDPR_CONSENT_XXX} 매크로는 비어 있습니다.</p></td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>315 </p> </td> 
+   <td colname="col2"> <p>동의 문자열은 동의 없음을 나타냅니다.</p> </td> 
+   <td colname="col3"> <p>IAB TCF용 Audience Manager 플러그인은 동의하지 않으면 사용자를 추가 데이터 수집에서 옵트아웃하거나 파트너 컨텍스트가 검색되지 않는 경우 호출을 완전히 삭제합니다.</p>
    </td>
   </tr>
 

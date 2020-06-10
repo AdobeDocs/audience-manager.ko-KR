@@ -6,13 +6,16 @@ solution: Audience Manager
 title: 아웃바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 14%
 
 ---
 
 
 # 아웃바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용 {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
 
-고객이 ( [!UICONTROL Outbound Data Transfer] )를 사용하는 [!DNL Amazon Simple Storage Service] 경우[!DNL Amazon S3]아웃바운드 데이터 파일을 버킷에 전달하기 위해 사용자의 [!DNL Amazon S3] 액세스 키와 비밀 키를 요청해야 합니다.
+고객 [!UICONTROL Outbound Data Transfer] 이 ( [!DNL Amazon Simple Storage Service] )을 사용하는[!DNL Amazon S3]경우, 버킷에 아웃바운드 데이터 파일을 전달하기 위해 사용자의 [!DNL Amazon S3] 액세스 키와 비밀 키를 요청해야 합니다.
 
-액세스 [!DNL Amazon S3] 키와 비밀 키를 Adobe와 공유하지 않으려면 컨설턴트나 고객 지원 센터에 [!DNL Audience Manager] 문의하십시오. 그러면 [!DNL Cross-Account Bucket Permissions] 관리자가 자동으로 설정됩니다. Amazon S3 설명서에 [!DNL Amazon S3] 설명된 대로 아웃바운드 데이터 파일을 수신할 버킷에 대한 계정 ID만 허용 [!DNL S3] [](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)목록에 추가해야 합니다. 컨설턴트나 고객 지원 센터에서 [!DNL Audience Manager] [!DNL Amazon S3] 계정 ID를 제공합니다.
+액세스 [!DNL Amazon S3] 키와 비밀 키를 공유하지 않으려면 컨설턴트나 고객 지원 센터에 [!DNL Audience Manager] 문의하십시오. 그러면 관리자가 [!DNL Cross-Account Bucket Permissions] 자동으로 설정됩니다. Amazon [!DNL Amazon S3] S3 설명서에 설명된 대로 아웃바운드 데이터 파일을 수신할 버킷의 허용 목록에 계정 ID만 추가해야 [!DNL S3] 합니다 [](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). 컨설턴트 또는 고객 지원 센터에서 [!DNL Audience Manager] [!DNL Amazon S3] 계정 ID를 제공합니다.

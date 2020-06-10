@@ -7,7 +7,10 @@ title: 데이터 수집 및 제품 통합 FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +37,13 @@ faq_data_collection_integration.xml
 
 <br> 
 
-**dpm.demdex.net의 허용 목록에 추가할 수 있는 IP 주소 목록을 제공해 주시겠습니까?**
+**dpm.demdex.net의 허용 목록에 추가할 수 있는 IP 주소 목록을 제공할 수 있습니까?**
 
 불행히도 우리는 할 수 없다. 이러한 IP는 지리적 영역에 따라, 를 통해 동적으로 할당됩니다 [!DNL Amazon Web Services]. 따라서 이 주소에 할당할 수 있는 IP의 범위를 제어하지 [!DNL Audience Manager] 않습니다.
 
 <br> 
 
-**인바운드 및 아웃바운드 sFTP 서버에 대해 허용 목록에 추가할 수 있는 IP 주소를 제공할 수 있습니까?**
+**인바운드 및 아웃바운드 sFTP 서버에 대한 허용 목록에 추가할 수 있는 IP 주소를 제공할 수 있습니까?**
 
 예, 아래를 참조하십시오.
 

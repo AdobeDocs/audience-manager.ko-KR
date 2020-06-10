@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -212,22 +212,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>차단된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID가 악의적인 것으로 식별되어 블랙리스트에 추가되었을 때 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>고객 ID가 악성 ID로 식별되고 거부 목록에 추가되면 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>차단된 데이터 소스 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>데이터 소스 ID가 악성 ID로 식별되어 블랙리스트에 추가되었을 때 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>데이터 소스 ID가 악성 ID로 식별되어 denylist에 추가되면 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>차단된 선언된 장치 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>장치 ID가 악의적인 것으로 확인되었으며 블랙리스트에 추가되었습니다. 이 문제는 이 장치 ID가 들어 있는 극량의 <span class="wintitle"> DCS</span> 요청을 짧은 시간 내에 받을 때 발생할 수 있습니다. </p> </td>
+   <td colname="col3"> <p>장치 ID가 악의적인 것으로 식별되었으며 비밀 목록에 추가되었습니다. 이 장치 ID가 들어 있는 엄청난 양의 <span class="wintitle"> DCS</span> 요청을 짧은 시간 내에 받는 경우 이 문제가 발생할 수 있습니다. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>차단된 프로필 작업 <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>ID가 악성 ID로 식별되고 차단되었기 때문에 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>ID가 악성 ID로 식별되어 denylist에 추가되었기 때문에 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 

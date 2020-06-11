@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
+source-git-commit: e51a4302808958093342170d513701ac1547c275
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 2%
@@ -57,7 +57,7 @@ JWT 인증을 구성하려면 먼저 [Adobe 개발자 콘솔에 액세스할 수
 
 ### 인증
 
-아래 절차에 따라 JWT(서비스 계정) 인증을 구성합니다.
+아래 절차에 따라 JWT(서비스 계정) 인증을 구성하십시오.
 
 1. Adobe 개발자 [콘솔에 로그인합니다](https://console.adobe.io/).
 1. 서비스 계정 [연결의 단계를 따릅니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).

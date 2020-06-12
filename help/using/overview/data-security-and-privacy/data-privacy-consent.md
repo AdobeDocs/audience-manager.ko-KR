@@ -7,7 +7,10 @@ keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: 동의 관리
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 34af220db2cf23ccde225eb1e05af7ce0e1513b7
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +31,11 @@ Adobe Audience Manager는 고객의 동의를 얻는 기능을 지원하는 툴�
 
 ## Experience Cloud 옵트인 서비스
 
-The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) lets you set up protocols for the visitor to assist you in determining if you can set a cookie on the individual&#39;s device or browser when visiting your site.
+The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) lets you set up protocols for the visitor to assist you in determining if you can set a cookie on the individual&#39;s device or browser when visiting your site.
 
 이것은 방문자의 동의 [!DNL Experience Cloud ID (ECID) Service]를 받기 전에 방문자를 위해 웹 페이지에 쿠키를 배치할 수 있는지 여부와 어떤 Experience Cloud 솔루션이 있는지를 제어할 수 있도록 설계된 확장 기능입니다.
 
-또한 [Experience Cloud 옵트인](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) 서비스를 사용하면 더 큰 디자인의 일부로서 CMP(Consent Management Platform) 및 기존 시스템과 통합되는 프로토콜을 설정할 수 있습니다.
+또한 [Experience Cloud 옵트인](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) 서비스를 사용하면 더 큰 디자인의 일부로서 CMP(Consent Management Platform) 및 기존 시스템과 통합되는 프로토콜을 설정할 수 있습니다.
 
 ## 옵트인/동의 관리
 

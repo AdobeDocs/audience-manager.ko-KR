@@ -7,7 +7,10 @@ solution: Audience Manager
 title: 제품 기능 및 기능 FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 일반적인 제품 및 기능 관련 질문 및 문제
 
-<br> 
+ 
 
 <!-- 
 
@@ -32,7 +35,7 @@ faq_features_functions.xml
 
 이 *`Organization ID`* 는 Audience Manager의 [DIL](../dil/dil-overview.md) API, [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)및 기타 [!DNL Experience Cloud] 솔루션에 사용됩니다. 관리자 권한이 있는 사용자는 의 *`Organization ID`* 를 찾을 수 있습니다 [!DNL Adobe Admin Console]. 관리 [- 사용자 관리 FAQ를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-<br> 
+ 
 
 **트레이트나 대상을 대량으로 만들 수 있습니까?**
 
@@ -42,25 +45,31 @@ faq_features_functions.xml
 >
 >도구 [!UICONTROL Bulk Management Tools] 는 *지원되지 않습니다* [!DNL Audience Manager]. 편의를 위해 그리고 예의상 제공됩니다. 일괄 변경의 경우 Audience [Manager API를](../api/api.md) 대신 사용하는 것이 좋습니다.
 
-<br> 
+ 
+
+**대상으로 벌크 ID 내보내기를 수행할 때 고객 ID 중 일부가 누락되었습니다. Why does that happen?**
+
+장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUID](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보내집니다. 따라서 내보내려는 장치 ID 개수보다 적은 수가 표시될 수 있습니다.
+
+ 
 
 **타사 태그 또는 픽셀의 필요성을 줄이고 페이지 로드 시간을 향상시킬 수 있습니까?[!DNL Audience Manager]**
 
 타사 데이터 파트너 [!DNL Audience Manager] 와 통합된 경우 픽셀 및 태그를 서버 간 ID 호출로 바꿀 수 있습니다 [!DNL Audience Manager]. 이 경우 처음 사용자를 보고 해당 정보를 타사 파트너와 동기화할 때 단일 ID 호출을 [!DNL Audience Manager] 실행할 수 있습니다. 따라서 모든 페이지에서 여러 픽셀을 호출할 필요가 없습니다. 픽셀 호출을 줄이면 페이지 로드 시간이 향상됩니다.
 
-<br> 
+ 
 
 **데이터 피드에 가입했습니다. 그 데이터는 어디에 저장됩니까?**
 
 데이터 피드 및 피드에 포함된 모든 트레이트는 하위 폴더와 트레이트로 표시됩니다 [!DNL Audience Manager]. 이동 **[!UICONTROL Audience Data > Traits]** 및 [!UICONTROL 3rd-Party Data] 폴더를 확장하여 트레이트를 보거나 이 데이터를 사용하여 세그먼트와 모델을 만듭니다.
 
-<br> 
+ 
 
 **[!UICONTROL Tag Insertion Manager (TIM)]?**
 
 Audience Manager [!UICONTROL Tag Insertion Manager] 에서 TIM(생성 및 관리)을 사용했습니다 [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
-<br> 
+ 
 
 **알고리즘 모델과 특성 권장 사항의 차이점은 무엇입니까? 각각 언제 사용해야 합니까?**
 
@@ -82,7 +91,7 @@ Audience Manager [!UICONTROL Tag Insertion Manager] 에서 TIM(생성 및 관리
 * 짧은 캠페인에 세그먼트를 사용하거나 전환한 고객을 빠르게 억제하려는 경우;
 * 도달 범위를 최대화하려고 합니다.
 
-<br> 
+ 
 
 **Adobe Analytics와 Audience Manager 세그먼트 간에 차이가 있습니까?**
 

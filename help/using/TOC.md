@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 3ca199ec386d812f53e03508353763d31badbd29
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1735'
 ht-degree: 9%
 
 ---
@@ -64,8 +64,8 @@ ht-degree: 9%
          + [데이터 제공업체를 위한 Audience Marketplace](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [데이터 피드 생성, 가격 및 관리](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
          + [데이터 피드 제공자에 대한 청구](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
-      + 데이터 구매자를 위한 고객 마켓플레이스{#audience-marketplace-for-data-buyers}
-         + [데이터 구매자를 위한 고객 마켓플레이스](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
+      + 데이터 구매자를 위한 Audience Marketplace{#audience-marketplace-for-data-buyers}
+         + [데이터 구매자를 위한 Audience Marketplace](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
          + [데이터 피드 구독 관리](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [데이터 피드 구매자에 대한 청구](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [비공개 데이터 피드](features/audience-marketplace/marketplace-private-feeds.md)
@@ -78,7 +78,7 @@ ht-degree: 9%
          + [신호 검색 개요](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [키-값 쌍별 검색 신호](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [필터로 신호 검색](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
-         + [Adobe Analytics에 대한 고급 검색](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
+         + [Adobe Analytics 고급 검색](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
          + [검색 결과 필터링](features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
          + [검색 기준 저장](features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
       + [신호에서 트레이트 생성](features/data-explorer/create-traits-from-signals.md)
@@ -95,7 +95,7 @@ ht-degree: 9%
       + [대상 개요](features/destinations/destinations.md)
       + [대상 홈 페이지](features/destinations/destinations-home.md)
       + Adobe Experience Cloud 대상{#experience-cloud-destinations}
-         + [분석 대상 구성](features/destinations/create-analytics-destination.md)
+         + [Analytics 대상 구성](features/destinations/create-analytics-destination.md)
       + 사람 기반 대상 {#people-based}
          + [개요 및 사용 사례](features/destinations/people-based-destinations-overview.md)
          + [전제 조건 및 고려 사항](features/destinations/people-based-destinations-prerequisites.md)
@@ -104,7 +104,7 @@ ht-degree: 9%
             + [워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동을 기반으로 개인화](features/destinations/people-based-destinations-workflow-combined.md)
             + [워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화](features/destinations/people-based-destinations-workflow-offline.md)
             + [워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 개인화](features/destinations/people-based-destinations-workflow-authenticated.md)
-         + [사람 기반 플랫폼을 통한 인증](features/destinations/people-based-destinations-authentication.md)
+         + [사람 기반 Platform을 사용한 인증](features/destinations/people-based-destinations-authentication.md)
          + [공유 가능한 대상](/help/using/features/destinations/people-based-destinations-reporting.md)
       + 장치 기반 대상(서버 간) {#device-based}
          + [새 장치 기반 대상 추가](features/destinations/add-device-based-destinations.md)
@@ -165,8 +165,8 @@ ht-degree: 9%
       + [주요 변수의 이름 요구 사항](features/traits/trait-key-name-requirements.md)
       + [세그먼트 및 트레이트 라이브 시간 설명](features/traits/segment-ttl-explained.md)
       + [키 변수의 접두사 요구 사항](features/traits/trait-variable-prefixes.md)
-      + [플랫폼 수준 키를 사용한 지리 기반의 타깃팅](features/traits/trait-geotarget-keys.md)
-      + [플랫폼 수준 키를 사용한 디바이스 타깃팅](features/traits/trait-device-targeting.md)
+      + [Platform 수준 키를 사용한 지리 기반의 타깃팅](features/traits/trait-geotarget-keys.md)
+      + [Platform 수준 키를 사용한 장치 타깃팅](features/traits/trait-device-targeting.md)
       + [부울 및 비교 연산자가 있는 샘플 표현식](features/traits/trait-expression-samples.md)
       + [트레이트 및 세그먼트 자격 참조](features/traits/trait-and-segment-qualification-reference.md)
    + [방문자 프로필 뷰어](features/visitor-profile-viewer.md)
@@ -179,7 +179,7 @@ ht-degree: 9%
       + [고객 최적화 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization for Advertisers {#audience-optimization-advertisers}
          + [광고업체를 위한 고객 최적화 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Audience Manager로 DCM 데이터 파일 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [DCM 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [트렌드 분석 및 볼륨 분석 보고서](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [최적 빈도 보고서](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -230,7 +230,7 @@ ht-degree: 9%
       + DCS API{#dcs-apis}
          + [서버 간 데이터 전송을 위한 DCS API](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [DCS 응답에서 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Adobe Experience Platform Identity Service를 통해 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Adobe Experience Platform Id 서비스를 통해 사용자 ID 및 지역 가져오기](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [서버 간 DCS API 호출 만들기](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + DCS API 참조{#dcs-api-reference}
          + [DCS API 참조 개요](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
@@ -292,7 +292,7 @@ ht-degree: 9%
       + [Google 게시자 태그의 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + 타사 목적지와 통합 {#integrating-third-party}
       + [Facebook WCA 통합](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
-      + [Audience Manager 대상으로 OAS 사용](integration/integrating-third-party/open-ad-server-destination.md)
+      + [Audience Manager 대상으로 OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager 대상으로 OpenX](integration/integrating-third-party/openx-destination.md)
       + [Audience Manager 대상으로 DFP](integration/aam-dfp.md)
       + [Google AdWords 리마케팅 목록에 세그먼트 보내기](integration/integrating-third-party/rlsa-integration.md)
@@ -324,7 +324,7 @@ ht-degree: 9%
          + [실시간 인바운드 데이터 수집](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
       + 배치 데이터 전송 프로세스{#batch-data-transfer-process}
          + [배치 데이터 전송 프로세스 설명](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-         + [Audience Manager로 배치 데이터 보내기 개요](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+         + [Audience Manager으로 배치 데이터 보내기 개요](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [인바운드 데이터 전송에 대한 ID 동기화](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [ID 동기화 파일 이름 및 컨텐츠 요구 사항](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
          + [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예제](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
@@ -335,11 +335,12 @@ ht-degree: 9%
          + [인바운드 처리 후 파트너에 대한 샘플 메시지](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [맞춤형 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
-      + [Audience Manager와 Adobe Experience Platform 간의 고객 공유](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Audience Manager과 Adobe Experience Platform 간 대상 공유](integration/integration-aep/aam-aep-audience-sharing.md)
    + 다른 Experience Cloud 솔루션과 통합 {#integration-other-solutions}
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
-      + [Adobe Analytics에서 Audience Manager로 데이터를 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics 세그먼트를 Experience Cloud에 게시](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Adobe Analytics의 데이터를 Audience Manager으로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
+      + [Experience Cloud에 Adobe Analytics 세그먼트 게시(Adobe Analytics 설명서 열기)](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Adobe Campaign과 Audience Manager 통합(Adobe Campaign 문서 열기)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)
    + [Amazon S3: 정보](reference/amazon-s3.md)
@@ -359,7 +360,7 @@ ht-degree: 9%
       + [벌크 관리 도구 용어집](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID가 DPID 및 DPUUID를 대체합니다.](reference/cid.md)
    + [데이터 전달 및 파일 처리 시간이 보고서에 미치는 영향](reference/reporting-file-transfer-timeframe.md)
-   + [Audience Manager의 ID 인덱스](reference/ids-in-aam.md)
+   + [Audience Manager의 ID 색인](reference/ids-in-aam.md)
    + [키-값 쌍 설명](reference/key-value-pairs-explained.md)
    + [암호 요구 사항, 잠긴 계정 및 잊어버린 암호](reference/password-requirements.md)
    + [신호, 트레이트 및 세그먼트](reference/signal-trait-segment.md)
@@ -371,7 +372,7 @@ ht-degree: 9%
       + [데이터 수집 구성 요소](reference/system-components/components-data-collection.md)
       + [데이터 처리 구성 요소](reference/system-components/components-data-processing.md)
       + [태그 관리 구성 요소](reference/system-components/components-tag-management.md)
-      + [플랫폼 아키텍처: 데이터 흐름 맵](reference/system-components/components-platform-architecture.md)
+      + [Platform 아키텍처: 데이터 흐름 맵](reference/system-components/components-platform-architecture.md)
       + [에지 데이터 센터 이해](reference/system-components/components-edge.md)
    + [코드 및 텍스트 요소에 대한 스타일 규칙](reference/code-style-elements.md)
    + [Audience Manager의 시간대](reference/aam-time-zones.md)
@@ -401,8 +402,8 @@ ht-degree: 9%
    + [10월 15일경 온보딩트레이트 인대가 0으로 떨어진 이유는? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [중복 보고서 페이지에 트레이트 또는 세그먼트가 표시되지 않는 이유는 무엇입니까?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
-   + [Adobe는 Audience Manager 고객이 아니지만 사이트에서 Audience Manager Javascript 호출을 참조하십시오](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
-   + [대상 세부 사항 페이지에 Audience Manager Audience Lab이 매핑된 세그먼트를 표시해야 합니까?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
+   + [Audience Manager 고객은 아니지만 사이트에서 Javascript Audience Manager 호출을 참조하십시오](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [대상 세부 사항 페이지에 Audience Manager Audience Lab 매핑 세그먼트가 표시되어야 합니까?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + 설명서 업데이트{#documentation-updates}
    + [2020 설명서 업데이트](docs-updates/docs-2020.md)
    + [2019 설명서 업데이트](docs-updates/docs-2019.md)

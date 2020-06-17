@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: b1d953837766f5822f5ba0246f7e10042c6f1072
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 21%
@@ -111,7 +111,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 >
 >클라이언트 도메인에 적용되는 정확한 URL에 대해서는 Adobe Audience Manager 컨설팅 또는 계정 리드에 문의하십시오.
 
-## 추가 기능 - [!DNL Audience Optimization Reports]
+## 추가 기능 - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
 픽셀 호출을 사용하여 대상 최적화 보고서의 [성능을 강화할 수 있습니다](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 보고서 [에](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 강력한 픽셀을 사용하려면 메타데이터 파일에 대한 개요 및 매핑을 참조하십시오.
 

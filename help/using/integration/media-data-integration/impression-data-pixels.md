@@ -1,24 +1,24 @@
 ---
-description: 미디어 데이터를 Audience Manager로 보내기 위한 한 가지 접근 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager로 보냅니다.
-seo-description: 미디어 데이터를 Audience Manager로 보내기 위한 한 가지 접근 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager로 보냅니다.
+description: Audience Manager으로 미디어 데이터를 보내기 위한 한 가지 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
+seo-description: Audience Manager으로 미디어 데이터를 보내기 위한 한 가지 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
 seo-title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 20%
+source-wordcount: '713'
+ht-degree: 21%
 
 ---
 
 
 # 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처{#capturing-campaign-impression-data-via-pixel-calls}
 
-미디어 데이터를 Audience Manager로 보내기 위한 한 가지 접근 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager로 보냅니다.
+Audience Manager으로 미디어 데이터를 보내기 위한 한 가지 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
 
-이 방법론은 종종 &#39;창의력을 모사화&#39;한다고 한다. 이러한 데이터 포인트는 캠페인의 주요 보고 특성을 기준으로 모든 노출 횟수와 클릭 수를 매핑하고 보고하는 데 사용되는 타사 및 서버 매크로에 의해 [!DNL Audience Manager] 픽셀 코드에 동적으로 삽입됩니다. 집계된 데이터는 캠페인 성능에 대한 통합 뷰를 제공하고 사용자 지정 전환 경로를 식별하며 고객이 전환으로 이어지는 광고 서버 이벤트의 시퀀스를 개선할 수 있도록 해줍니다.
+이 방법론은 종종 &quot;독창적인 것을 픽셀링&quot;이라고 한다. 이러한 데이터 포인트는 캠페인의 주요 보고 특성을 기준으로 모든 노출 횟수와 클릭 수를 매핑하고 보고하는 데 사용되는 타사 및 서버 매크로에 의해 [!DNL Audience Manager] 픽셀 코드에 동적으로 삽입됩니다. 집계된 데이터는 캠페인 성능에 대한 통합 뷰를 제공하고 사용자 지정 전환 경로를 식별하며 고객이 전환으로 이어지는 광고 서버 이벤트의 시퀀스를 개선할 수 있도록 해줍니다.
 
 ## 이벤트 호출 구문
 
@@ -62,7 +62,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>캐시 빌드 값. <span class="keyword"> Audience Manager는 대부분의 브라우저와 프록시가 적용한 캐시 제어 헤더를 </span> 자동으로 전송합니다. 추가 캐시 빌드를 수행하려는 경우 이벤트 호출에 이 매개 변수를 포함시키고 임의의 문자열을 추가합니다. </p> <p> 선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>캐시 빌드 값. <span class="keyword"> Audience Manager은 대부분의 브라우저와 프록시에서 적용한 캐시 제어 헤더를 </span> 자동으로 전송합니다. 추가 캐시 빌드를 수행하려는 경우 이벤트 호출에 이 매개 변수를 포함시키고 임의의 문자열을 추가합니다. </p> <p> 선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
@@ -109,9 +109,9 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 
 >[!NOTE]
 >
->클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅 또는 계정 리드에 문의하십시오.
+>클라이언트 도메인에 적용되는 정확한 URL에 대해서는 Adobe Audience Manager 컨설팅 또는 계정 리드에 문의하십시오.
 
-## 추가 기능 - 대상 최적화 보고서
+## 추가 기능 - [!DNL Audience Optimization Reports]
 
 픽셀 호출을 사용하여 대상 최적화 보고서의 [성능을 강화할 수 있습니다](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 보고서 [에](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 강력한 픽셀을 사용하려면 메타데이터 파일에 대한 개요 및 매핑을 참조하십시오.
 

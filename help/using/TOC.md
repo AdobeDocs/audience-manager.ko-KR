@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3ca199ec386d812f53e03508353763d31badbd29
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1740'
 ht-degree: 9%
 
 ---
@@ -311,6 +311,7 @@ ht-degree: 9%
          + [실시간 아웃바운드 전송을 위한 OAuth 2.0 통합](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + 일괄 아웃바운드 데이터 전송{#batch-outbound-data-transfers}
          + [일괄 아웃바운드 데이터 전송 개요](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
+         + [배치 데이터 전송 통합 구성](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [아웃바운드 데이터 파일 이름: 구문 및 예제](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [로그 파일 전송을 위한 전송 제어 파일](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [아웃바운드 템플릿 매크로](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)

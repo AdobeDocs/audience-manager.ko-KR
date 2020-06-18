@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 데이터 통합 방법
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,26 @@ ht-degree: 1%
 
 Audience Manager이 다른 데이터 제공업체 및 시스템과 정보를 교환하는 방법에 대한 개요
 
-## 지원되는 데이터 통합 방법: 실시간 및 서버 간 {#supported-methods}
+## 지원되는 데이터 통합 방법: 실시간 및 [!DNL Server-to-Server] {#supported-methods}
 
 적합한 통합 방법을 선택하는 것은 데이터 파트너의 비즈니스 요구 사항과 기술 기능의 조합에 따라 달라집니다. Audience Manager은 다음 방법 중 하나로 방문자 정보를 다른 데이터 공급자와 교환합니다.
 
 * **실시간:** 사용자가 사이트를 방문할 때 즉시 데이터를 전송합니다. 이 메서드를 *`synchronous`* 통합이라고도 합니다.
-* **일괄 처리(서버 간):** 방문자가 페이지를 떠난 후 설정된 일정에 있는 서버 간에 데이터를 전송합니다. 이 메서드는 *`out-of-band`* 또는 *`asynchronous`* 통합이라고도 합니다.
+* **배치([!DNL Server-to-Server]):** 방문자가 페이지를 떠난 후 설정된 일정에 있는 서버 간에 데이터를 전송합니다. 이 메서드는 *`out-of-band`* 또는 *`asynchronous`* 통합이라고도 합니다.
 
 ## 전제 조건: 특성 분류 만들기 {#prereqs}
 
-통합 프로세스가 시작되기 전에 [UI에서 트레이트](../features/traits/create-onboarded-rule-based-traits.md) 및 [폴더 구조를](../features/traits/trait-storage.md#create-trait-storage-folder) 만들어야 [!DNL Audience Manager] 합니다. 분류에는 논리 계층에 구성된 모든 특성이 포함됩니다.
+통합 프로세스가 시작되기 전에 [UI에서 트레이트](../features/traits/create-onboarded-rule-based-traits.md) 및 [폴더 구조를](../features/traits/trait-storage.md#create-trait-storage-folder) 만들어야 [!DNL Audience Manager] 합니다. 분류에는 논리 계층 구조에 구성된 모든 [!UICONTROL traits] 항목이 포함됩니다.
 
 ## 통합 사용 사례 {#integration-use-cases}
 
 Audience Manager 데이터 통합 방법의 사용 사례 요약과 각 솔루션의 장점과 단점
 
-### 서버 간 실시간 통합
+### 실시간 [!DNL Server-to-Server] 통합
 
 <!-- c_int_types_use_cases.xml -->
 
-서버 간 실시간 데이터 통합은 Audience Manager 서버와 다른 타깃팅 시스템 간에 사용자 데이터를 신속하게 동기화합니다. 대부분의 경우 데이터 교환은 타깃팅 시스템의 새로 고침 비율에 따라 초 또는 분 내에 수행됩니다. 그러나 타깃팅된 시스템은 Audience Manager이 아닌 이 새로 고침 간격을 결정합니다. 또한 새로 고침률은 서로 다른 시스템에 따라 다를 수 있습니다. 실시간 서버 간 통합은 데이터 교환을 위한 기본 통합 유형입니다. Audience Manager은 타깃팅 파트너가 지원할 수 있을 때마다 이 메서드를 사용합니다.
+실시간 데이터 통합은 Audience Manager 서버와 다른 타깃팅 시스템 간에 사용자 데이터를 신속하게 동기화합니다. [!DNL server-to-server] 대부분의 경우 데이터 교환은 타깃팅 시스템의 새로 고침 비율에 따라 초 또는 분 내에 수행됩니다. 그러나 타깃팅된 시스템은 Audience Manager이 아닌 이 새로 고침 간격을 결정합니다. 또한 새로 고침률은 서로 다른 시스템에 따라 다를 수 있습니다. 실시간 통합은 데이터 교환의 기본 [!UICONTROL server-to-server] 통합 유형입니다. Audience Manager은 타깃팅 파트너가 지원할 수 있을 때마다 이 메서드를 사용합니다.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -56,9 +56,9 @@ Audience Manager 데이터 통합 방법의 사용 사례 요약과 각 솔루�
  </tr>
 </table>
 
-### 서버 간 일괄 통합
+### [!DNL Server-to-Server] 일괄 통합
 
-서버 간 일괄 통합 기능은 데이터를 번들로 제공하고 거의 실시간으로 전송되지 않고 정해진 간격으로 다른 시스템으로 전송합니다. 데이터 전송 간격이 24시간에서 시작됩니다. 일부 데이터 공급자는 이 통합 유형만 지원합니다. 하지만 일괄 통합에서 실시간 통합 방법론으로 이어지는 일반적인 트렌드가 나타났습니다.
+일괄 [!DNL server-to-server] 통합은 데이터를 번들로 묶어서 거의 실시간으로 이루어지는 것이 아니라 정해진 간격으로 다른 시스템으로 전송합니다. 데이터 전송 간격은 24시간에서 시작됩니다. 일부 데이터 공급자는 이 통합 유형만 지원합니다. 하지만 일괄 통합에서 실시간 통합 방법론으로 이어지는 일반적인 트렌드가 나타났습니다.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -77,7 +77,7 @@ Audience Manager 데이터 통합 방법의 사용 사례 요약과 각 솔루�
 
 ### 실시간 호출
 
-사용자가 사이트를 방문하거나 페이지에서 조치를 취할 때 실시간 호출은 Audience Manager과 데이터를 즉시 교환합니다. 이 방법으로 타깃팅 시스템은 가장 업데이트된 세그먼트 자격 데이터를 얻으며 컨텐츠 또는 광고 게재 결정 동안 해당 정보를 고려할 수 있습니다. 또한 이 프로세스는 게시자 및 서버와 연동되므로 자격을 갖춘 세그먼트를 키-값 쌍으로 광고 호출로 읽은 퍼스트 파티 쿠키로 업데이트합니다. 현재 Audience Manager은 실시간 호출을 사용하여 [!DNL Target] 기타 컨텐츠 관리 시스템과 통합합니다.
+사용자가 사이트를 방문하거나 페이지에서 조치를 취할 때 실시간 호출은 Audience Manager과 데이터를 즉시 교환합니다. 이 방법으로 타깃팅 시스템은 가장 업데이트된 세그먼트 자격 데이터를 얻으며 컨텐츠 또는 광고 게재 결정 동안 해당 정보를 고려할 수 있습니다. 또한 이 프로세스는 게시자 및 서버와 연동되므로 자격을 갖춘 세그먼트를 키-값 쌍으로 광고 호출로 읽은 퍼스트 파티 쿠키로 업데이트합니다. 현재 Audience Manager은 실시간 호출을 사용하여 [!DNL Adobe Target] 기타 컨텐츠 관리 시스템과 통합합니다.
 
 <table> 
  <tr>
@@ -151,7 +151,7 @@ Audience Manager이 데이터를 타사 공급업체와 동기적으로(실시�
 
 <!-- c_int_overview_async.xml -->
 
-배치(서버 간) 데이터 통합 프로세스는 실시간 데이터 전송 프로세스에 설명된 대부분의 단계를 따릅니다. 하지만 세그먼트 ID를 즉시 반환하는 대신 사용자 정보가 서버에 저장되고 정기적으로 타사 데이터 공급자와 동기화됩니다. 비동기 데이터 전송 프로세스는 다음과 같은 경우에 유용합니다.
+배치([!DNL server-to-server]) 데이터 통합 프로세스는 실시간 데이터 전송 프로세스에 설명된 대부분의 단계를 따릅니다. 하지만 세그먼트 ID를 즉시 반환하는 대신 사용자 정보가 서버에 저장되고 정기적으로 타사 데이터 공급자와 동기화됩니다. 비동기 데이터 전송 프로세스는 다음과 같은 경우에 유용합니다.
 
 * 즉각적인 데이터 양도는 필요하지 않습니다.
 * 데이터를 수집하여 세분화된 대규모 사용자 풀을 작성합니다.
@@ -166,4 +166,4 @@ Audience Manager이 데이터를 타사 공급업체와 동기적으로(실시�
 
 ![](assets/s2s_70.png)
 
-Audience Manager이 인바운드 및 아웃바운드 서버([!UICONTROL S2S]) 파일 전송을 처리할 때의 시간 프레임을 설명하는 자세한 내용은 [보고 및 파일 전송 시간 프레임 지침을 참조하십시오](../reference/reporting-file-transfer-timeframe.md).
+Audience Manager이 인바운드 및 아웃바운드 [!DNL Server-to-Server] ([!UICONTROL S2S]) 파일 전송을 처리할 때의 시간 프레임을 설명하는 자세한 내용은 [보고 및 파일 전송 시간 프레임 지침을 참조하십시오](../reference/reporting-file-transfer-timeframe.md).

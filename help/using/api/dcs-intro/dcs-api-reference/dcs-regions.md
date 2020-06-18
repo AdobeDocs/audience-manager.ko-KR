@@ -1,19 +1,22 @@
 ---
-description: DCS를 호출하려면 지역 DCS 서버 호스트 이름이 필요합니다. 이것은 DCS가 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 DCS로 보내면 쿼리가 작동하지만 이러한 호출은 비효율적이며 응답을 지연시킬 수 있습니다. DCS 요청을 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 구성합니다.
-seo-description: DCS를 호출하려면 지역 DCS 서버 호스트 이름이 필요합니다. 이것은 DCS가 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 DCS로 보내면 쿼리가 작동하지만 이러한 호출은 비효율적이며 응답을 지연시킬 수 있습니다. DCS 요청을 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 구성합니다.
-seo-title: DCS 영역 ID, 위치 및 호스트 이름
+description: DCS를 호출하려면 지역 DCS 서버 호스트 이름이 필요합니다. 이것은 DCS가 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 DCS로 보내면 쿼리가 작동하지만 이러한 호출은 비효율적이며 응답이 지연될 수 있습니다. DCS 요청을 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성합니다.
+seo-description: DCS를 호출하려면 지역 DCS 서버 호스트 이름이 필요합니다. 이것은 DCS가 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 DCS로 보내면 쿼리가 작동하지만 이러한 호출은 비효율적이며 응답이 지연될 수 있습니다. DCS 요청을 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성합니다.
+seo-title: DCS 지역 ID, 위치 및 호스트 이름
 solution: Audience Manager
-title: DCS 영역 ID, 위치 및 호스트 이름
+title: DCS 지역 ID, 위치 및 호스트 이름
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 translation-type: tm+mt
-source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 9%
 
 ---
 
 
-# DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
+# DCS 지역 ID, 위치 및 호스트 이름 {#dcs-region-ids-locations-and-host-names}
 
-에 대한 호출을 하려면 지역 [!UICONTROL DCS] 서버 호스트 이름이 필요합니다 [!UICONTROL DCS]. 이것은 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 [!UICONTROL DCS] 저장하기 때문입니다. 쿼리를 잘못 보내면 쿼리가 작동하지만 이러한 호출은 비효율적이며 응답이 지연될 수 있습니다. [!UICONTROL DCS] 요청을 [!UICONTROL DCS] 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 구성합니다.
+지역 [!DNL DCS] 서버 호스트 이름은 을 호출하기 위해 필요합니다 [!DNL DCS]. 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 [!DNL DCS] 저장하기 때문입니다. 쿼리를 잘못된 것으로 보낼 경우 쿼리가 [!DNL DCS]작동하지만 이러한 호출은 비효율적이며 응답이 지연될 수 있습니다. 요청을 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성합니다. [!DNL DCS]
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -36,7 +39,7 @@ source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID6 </p> </td> 
-   <td colname="col2"> <p>유럽(아일랜드 더블린) </p> </td> 
+   <td colname="col2"> <p>유럽(더블린, 아일랜드) </p> </td> 
    <td colname="col3"> <p> <code> irl1.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
@@ -67,4 +70,4 @@ source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
  </tbody> 
 </table>
 
-메서드를 사용하여 사용 가능한 [!DNL API] [!UICONTROL DCS] 지역 목록을 가져올 수도 있습니다. DCS [영역 API 메서드를 참조하십시오](../../../api/rest-api-main/aam-api-dcs-regions.md).
+메서드를 사용하여 사용 가능한 지역 목록을 가져올 수도 [!DNL API] [!DNL DCS] 있습니다. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).

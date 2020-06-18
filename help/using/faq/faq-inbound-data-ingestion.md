@@ -1,64 +1,67 @@
 ---
-description: 오프라인 데이터를 Audience Manager로 가져오는 방법에 대한 FAQ입니다.
+description: 오프라인 데이터를 Audience Manager에 가져오는 것에 대한 FAQ입니다.
 keywords: ftp or s3;s3 or ftp
-seo-description: 오프라인 데이터를 Audience Manager로 가져오는 방법에 대한 FAQ입니다.
-seo-title: 인바운드 고객 데이터 통합 FAQ
+seo-description: 오프라인 데이터를 Audience Manager에 가져오는 것에 대한 FAQ입니다.
+seo-title: 인바운드 고객 데이터 섭취 FAQ
 solution: Audience Manager
-title: 인바운드 고객 데이터 통합 FAQ
+title: 인바운드 고객 데이터 섭취 FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 187874fb5d0c4363f771297766f3c4bc9d967c9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 91%
 
 ---
 
 
-# 인바운드 고객 데이터 통합 FAQ{#inbound-customer-data-ingestion-faq}
+# 인바운드 고객 데이터 섭취 FAQ{#inbound-customer-data-ingestion-faq}
 
-오프라인 데이터를 Audience Manager로 가져오는 방법에 대한 FAQ입니다.
-
- 
-
-**입사 절차를 요약해주시겠어요?**
-
-온보딩 프로세스는 Audience Manager 개요에 배치 데이터 [보내기에 설명된 두 단계로 구성됩니다](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
-
-* 1단계:사용자 ID 동기화;
-* 2단계:파일 형식 요구 사항을 준수하여 인바운드 데이터 파일을 만들고 전송합니다.
+오프라인 데이터를 Audience Manager에 가져오는 것에 대한 FAQ입니다.
 
  
 
-**배포 프로세스를 요약할 수 있습니까?**
+**온보딩 프로세스를 요약해줄 수 있습니까?**
+
+온보딩 프로세스는 [Audience Manager로 배치 데이터 보내기 개요](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)에 설명된 두 개의 단계로 구성됩니다.
+
+* 1단계: 사용자 ID 동기화
+* 2단계: 파일 형식 요구 사항을 준수하여 인바운드 데이터 파일을 만들고 전송
+
+ 
+
+**배포 프로세스를 요약해줄 수 있습니까?**
 
 다음 사항을 권장합니다.
 
-* 데이터 제공업체와 협력하여 Adobe 사양에 따라 일일 인바운드 데이터 파일의 형식을 지정합니다. 파일 이름 지정 및 구문 요구 사항은 다음 설명서를 참조하십시오.
+* 데이터 공급자와 협력하여 Adobe 사양에 따라 일별 인바운드 데이터 파일의 형식을 지정합니다. 파일 이름 지정 및 구문 요구 사항에 대해서는 다음 설명서를 참조하십시오.
    * [ID 동기화 파일 이름 및 컨텐츠 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-   * [인바운드 데이터 파일 내용:구문, 잘못된 문자, 변수 및 예제](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+   * [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
    * [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* 컨설턴트와 협력하여 형식 확인을 위해 테스트 데이터 파일을 [!DNL Adobe] [!DNL Adobe] 전송합니다.
-* 컨설턴트와 협력하여 데이터 파일의 내용을 해석하는 데 적합한 분류법을 만듭니다. [!DNL Adobe]
-* 스테이징/개발 환경에서 ID 동기화가 데이터 공급자의 방문자 ID를 제대로 선택하여 [!DNL Audience Manager] 서버에 실시간으로 전송되도록 구성되었는지 확인합니다.
-* DIL/ID 동기화를 프로덕션에 배포합니다. ID 동기화는 Adobe 컨설턴트가 DIL 코드 내에 모듈로 이미 구성됩니다.
-* 프로덕션 데이터 파일을 로 [!DNL Audience Manager]전송합니다. ID 동기화 매핑에 대한 종속성이 있는 경우 코드가 프로덕션으로 들어가는 즉시 데이터 파일 전송을 시작할 수 있지만 프로덕션 코드 배포 후 최대 1주까지의 데이터 전송을 시작하는 것이 적절할 수 있습니다.
+* 형식 확인을 위해 [!DNL Adobe] 컨설턴트와 함께 테스트 데이터 파일을 [!DNL Adobe]에 전송합니다.
+* [!DNL Adobe] 컨설턴트와 협력하여 데이터 파일의 내용을 해석하는 데 적합한 분류법을 생성합니다.
+* 스테이징/개발 환경에서 ID 동기화가 데이터 공급자의 방문자 ID를 올바로 선택하고 이를 실시간으로 [!DNL Audience Manager] 서버에 전송하도록 구성되어 있는지 확인합니다.
+* DIL/ID 동기화를 프로덕션에 배포합니다. ID 동기화는 Adobe 컨설턴트에 의해 DIL 코드 내에 모듈로 이미 구성되어 있습니다.
+* 프로덕션 데이터 파일을 [!DNL Audience Manager]에 전송합니다. ID 동기화 매핑에 대한 종속성이 있는 경우, 코드가 프로덕션에 들어가는 즉시 데이터 파일 전송을 시작할 수 있지만 프로덕션 코드를 배포하고 최대 1주일 후까지는 데이터 전송을 시작하는 것이 적절할 수 있습니다.
 
  
 
-**압축 또는 암호화된 파일을 전송하려면 어떤 FTP 모드를 사용해야 합니까?**
+**압축되었거나 암호화된 파일을 전송하는 데 어떤 FTP 모드를 사용해야 합니까?**
 
-인바운드 [데이터 전송 파일에 대한 파일 압축을 참조하십시오](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+[인바운드 데이터 전송 파일에 대한 파일 압축](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)을 참조하십시오.
 
 >[!WARNING]
 >
->FTP 구성에 대한 지원이 점차 축소되고 있습니다. 기존 FTP 통합에서 인바운드 데이터 파일 수집은 여전히 지원되지만, 새로운 통합을 위해 오프라인 데이터를 등록하려면 Amazon S3를 사용하는 것이 좋습니다. 자세한 [내용은 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항을](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 참조하십시오.
+>FTP 구성에 대한 지원을 점차 단계적으로 중단하고 있습니다. 기존 FTP 통합에서는 인바운드 데이터 파일 섭취가 여전히 지원되지만 새로운 통합을 위해 Amazon S3을 사용하여 오프라인 데이터를 온보딩하는 것이 좋습니다. 자세한 내용은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)을 참조하십시오.
 
  
 
 **[!DNL Audience Manager]코드를 프로덕션에 배포하기 전에 인바운드 데이터 파일([!DNL .sync]또는[!DNL .overwrite]파일)을 업로드할 수 있습니까?**
 
-예. 크로스 장치 데이터 소스를 사용하여 업로드한 CRM 데이터를 저장하는 경우 Audience Manager는 항상 데이터를 저장합니다. 실제로 Audience Manager가 오프라인 전용 사용 사례를 허용하는 2019년 10월 실행한 프로필 병합 규칙 개선 사항에 따라 Audience Manager 코드를 프로덕션에 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
+예. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. 다음을 참조하십시오.
 
 * [프로필 병합 규칙 개선 사항 개요](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* 사용자 기반 대상 - [오프라인 전용 데이터를 기반으로 개인화](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - 오프라인 [전용 데이터를 기반으로 개인화](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -123,123 +126,123 @@ Consider the following use cases in which the data provider is not configured to
 
 -->
 
-**파일을 언제 전송해야 합니까?**
+**파일은 하루 중 언제 전송해야 합니까?**
 
-[!DNL Audience Manager] 하루 종일 여러 번 파일을 확인하고 처리합니다. 언제든지 데이터 업로드
-
- 
-
-**업로드된 파일의 데이터를 타깃팅하는 데 얼마나 걸립니까?**
-
-데이터는 48시간 후에 타깃팅할 수 있습니다. 또한 &quot;성공적인 업로드&quot; 이메일을 데이터를 사용할 수 있다는 설명으로 해석하지 마십시오. 즉, 파일을 [!DNL Audience Manager] 선택하고 첫 번째 처리 단계를 완료한 것입니다.
+[!DNL Audience Manager]에서는 하루 종일 여러 번 파일을 확인하고 처리합니다. 준비되면 언제든지 데이터 업로드하십시오.
 
  
 
-**파일을 얼마나 자주 전송해야 하며 전체 또는 증분 파일이어야 합니까?**
+**업로드된 파일의 데이터를 타겟팅할 수 있게 되는 데 시간이 얼마나 걸립니까?**
 
-새 방문자와 데이터가 변경된 방문자에 대해 매일 증분 파일을 보내는 것이 좋습니다. 많은 [!DNL Audience Manager] 고객이 매월 전체 파일을 보냅니다. 그러나 이러한 파일 간격과 증분은 유연합니다. 데이터를 증분으로 전송해야 합니다.
-
- 
-
-**Audience Manager는 서버에 파일을 얼마나 오래 보관합니까?**
-
-FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 제거됩니다. 형식, 구문 또는 기타 오류로 인해 처리할 수 없는 파일은 제거됩니다. 개인 정보 및 [데이터 유지 FAQ도 참조하십시오](../faq/faq-privacy.md).
+데이터는 48시간 후에 타겟팅할 수 있습니다. 또한 &quot;업로드 성공&quot; 이메일을 데이터를 사용할 수 있다는 의미로 해석하지 마십시오. 이 이메일은 [!DNL Audience Manager]가 파일을 선택했고 첫 번째 처리 단계를 완료했다는 의미일 뿐입니다.
 
  
 
-**전체 파일과 증분 파일의 차이점은 무엇입니까?**
+**파일을 얼마나 자주 보내야 하며 이때 파일들은 전체여야 합니까 아니면 증분 파일이어야 합니까?**
 
-* **전체:** 전체 파일은 모든 기존 방문자 프로필을 덮어쓰고 파일의 데이터로 대체합니다. 전체 파일은 파일 이름에 추가된 `.overwrite` 태그로 식별됩니다. 파일을 사용하여 방문자 트레이트를 재설정하거나 오래된 트레이트를 제거할 수 있습니다. `.overwrite`
+새 방문자와 데이터가 변경된 방문자에 대해 하루에 한 번씩 증분 파일을 보내는 것이 좋습니다. 많은 [!DNL Audience Manager] 고객이 월 1회 전체 파일을 보냅니다. 그러나 이러한 파일 간격과 증분은 유연합니다. 데이터를 증분으로 전송해야 하며 가끔씩 적절할 때 전송해야 합니다.
+
+ 
+
+**Audience Manager는 내 파일을 서버에 얼마나 오래 보관합니까?**
+
+FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 제거됩니다. 형식, 구문 또는 기타 오류로 인해 처리할 수 없는 파일은 제거됩니다. [개인 정보 보호 및 데이터 유지 관련 FAQ](../faq/faq-privacy.md)를 참조하십시오.
+
+ 
+
+**전체 파일과 증분 파일 간의 차이점은 무엇입니까?**
+
+* **전체:** 전체 파일은 기존 방문자 프로필을 모두 덮어쓰고 파일의 데이터로 대체합니다. 전체 파일은 파일 이름에 첨부된 `.overwrite` 태그로 식별됩니다. `.overwrite` 파일을 사용하여 방문자 트레이트를 재설정하거나 오래되어 더 이상 쓸모가 없는 트레이트를 제거할 수 있습니다.
 
    >[!NOTE]
    >
-   >이 [!DNL .overwrite] 파일은 이 데이터 공급자에 연결된 [!DNL Audience Manager] 프로필 데이터만 덮어씁니다. 즉, [!DNL Adobe Analytics] [!DNL .overwrite] 파일이 처리된 후에도 방문자와 연관된 모든 데이터는 그대로 유지됩니다.
+   >[!DNL .overwrite] 파일은 이 데이터 공급자에 연결된 [!DNL Audience Manager] 프로필 데이터만 덮어씁니다. 즉, [!DNL .overwrite] 파일이 처리된 후에도 방문자와 연관된 모든 [!DNL Audience Manager] 데이터가 그대로 유지됩니다.
 
-* **증분:** 증분 파일은 기존 방문자 프로필에 새 데이터를 추가합니다. 증분 파일은 파일 이름에 추가된 `.sync` 태그로 식별됩니다. 증분 파일에서 전송해도 기존 프로필을 지우거나 덮어쓰지 않습니다.
+* **증분:** 증분 파일은 기존 방문자 프로필에 새 데이터를 추가합니다. 증분 파일은 파일 이름에 첨부된 `.sync` 태그로 식별됩니다. 증분 파일로 보내도 기존 프로필을 지우거나 덮어쓰지 않습니다.
 
-다음 사용 사례는 이러한 파일 유형이 저장된 방문자 프로필에 어떤 영향을 미치는지 보여줍니다.
+다음 사용 사례에서는 이러한 파일 유형이 저장된 방문자 프로필에 어떻게 영향을 주는지 보여줍니다.
 
 | 사용 사례 | 설명 |
 |---|---|
-| 증분 및 전체 | <ul><li>1일 `.sync` 파일 내용: `visitor123 = a,b,c`</li><li>2일 `.overwrite` 파일 내용: `visitor123 = c,d,e`</li><li>3일 방문자 프로필 ID 123 콘텐츠: `c,d,e`</li></ul> |
-| 증분 전용 | <ul><li>1일 `.sync` 파일 내용: `visitor123 = a,b,c`</li><li>2일 `.sync` 파일 내용: `visitor123 = c,d,e`</li><li>3일 방문자 프로필 ID 123 콘텐츠: `a,b,c,d,e`</li></ul> |
+| 증분 및 전체 | <ul><li>1일 `.sync` 파일 내용: `visitor123 = a,b,c`</li><li>2일 `.overwrite` 파일 내용: `visitor123 = c,d,e`</li><li>3일 방문자 프로필 ID 123 내용: `c,d,e`</li></ul> |
+| 증분만 해당 | <ul><li>1일 `.sync` 파일 내용: `visitor123 = a,b,c`</li><li>2일 `.sync` 파일 내용: `visitor123 = c,d,e`</li><li>3일 방문자 프로필 ID 123 내용: `a,b,c,d,e`</li></ul> |
 
-전체 및 증분 파일 유형에 대한 자세한 내용은 다음을 참조하십시오.
+전체 파일 및 증분 파일 유형에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [인바운드 데이터의 Amazon S3 이름 및 파일 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-
- 
-
-**페이지 내 ID 동기화를 수행한 적이 없는 방문자를 위해 ID가 있는 파일을 보내면 어떻게 됩니까?**
-
-처리하는 동안 해당 레코드를 [!DNL Audience Manager] 건너뛰고 다음으로 이동합니다. DPID( [데이터 공급자 ID)](../reference/ids-in-aam.md) 가 크로스 장치 DPID로 설정된 경우 ID 동기화 전에 인제스트된 데이터가 저장되고 ID 동기화 발생 직후 사용할 수 있습니다.
+* [인바운드 데이터 파일에 대한 Amazon S3 이름 및 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**타임스탬프는 무엇이며 어떤 용도로 사용할 수 있으며 예를 제공할 수 있습니까?**
+**페이지 내 ID 동기화를 수행하지 않은 방문자를 위해 ID가 있는 파일을 보내면 어떻게 됩니까?**
 
-타임스탬프는 기록 및 기록 유지에 사용됩니다. 올바른 형식의 인바운드 파일 이름에 사용되는 구문에 필요합니다. 다음을 참조하십시오.
+처리하는 동안 [!DNL Audience Manager]는 해당 레코드를 건너뛰고 다음으로 이동합니다. [DPID(데이터 공급자 ID)](../reference/ids-in-aam.md)가 교차 장치 DPID로 설정된 경우 ID 동기화 전에 섭취되는 데이터는 저장되고 ID 동기화 발생 직후 사용할 수 있습니다.
+
+ 
+
+**타임스탬프는 무엇이며, 어떤 용도이며, 예를 들어줄 수 있습니까?**
+
+타임스탬프는 기록 및 레코드 유지에 사용됩니다. 올바른 형식의 인바운드 파일 이름에 사용되는 구문에서 필요로 합니다. 다음을 참조하십시오.
 
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**DPID(데이터 공급자 ID)란 무엇이며 어떻게 얻습니까?**
+**a란 무엇이며[!DNL Data Provider ID (DPID)]어떻게 얻을 수 있습니까?**
 
-Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(데이터 공급자 ID)](../reference/ids-in-aam.md) 를 할당합니다. 이 ID는 고유하며 변경되지 않습니다.
+Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(데이터 공급자 ID)](../reference/ids-in-aam.md)를 지정합니다. 이 ID는 고유하며 변경되지 않습니다.
 
  
 
 **일별 데이터 파일의 크기는 얼마나 됩니까?**
 
-인바운드 [데이터 전송 파일에 대한 파일 압축을 참조하십시오](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+[인바운드 데이터 전송 파일에 대한 파일 압축](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)을 참조하십시오.
 
  
 
-**Audience Manager는 파일 압축을 지원합니까?**
+**Audience Manager에서 파일 압축을 지원합니까?**
 
-예. 다음을 참조하십시오.
+예. 다음 문서를 참조하십시오.
 
 * [인바운드 데이터 전송 파일에 대한 파일 압축](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [인바운드 데이터 파일에 대한 Amazon S3 이름 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**데이터 소스 데이터베이스의 기본 키는 이메일 주소입니다. 개인 식별 정보로 간주됩니까?**
+**데이터 소스 데이터베이스의 기본 키는 이메일 주소입니다. 이것은 개인 식별 정보로 간주됩니까?**
 
-예. [!DNL Audience Manager] 은 해당 데이터베이스에 이메일 주소를 저장하지 않습니다. 방문자는 ID 동기화를 시작하기 전에 임의로 생성된 ID 또는 단방향 해시된 이메일 주소를 지정해야 합니다.
+예. [!DNL Audience Manager]는 자체 데이터베이스에 이메일 주소를 저장하지 않습니다. 방문자는 ID 동기화를 시작하기 전에 임의로 생성된 ID 또는 이메일 주소의 단방향 해시된 버전을 지정해야 합니다.
 
  
 
 **데이터 파일 내용은 대/소문자를 구분합니까? ID 동기화는 어떻습니까?**
 
-데이터 파일에는 두 가지 기본 구성 요소가 있습니다.A [!UICONTROL User ID] (정의된 [!UICONTROL User ID] 파일 [변수의 참조](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) 및 프로필 데이터(일반적으로 키-값 쌍 또는 코드 형식) 대/ [!UICONTROL User ID] 소문자를 구분합니다. 일반적으로 프로필 또는 키 값 데이터는 대/소문자를 구분하지 않습니다.
+데이터 파일에는 [!UICONTROL User ID]([정의된 파일 변수](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)의 [!UICONTROL User ID] 참조)와 프로필 데이터(일반적으로 키-값 쌍 또는 코드 형식), 이렇게 두 가지 기본 구성 요소가 있습니다. [!UICONTROL User ID]는 대/소문자를 구분합니다. 일반적으로 프로필 또는 키 값 데이터는 대/소문자를 구분하지 않습니다.
 
  
 
-**FTP를 사용해야 합니까, 아니면 파일을[!DNL Amazon S3]전송해야 합니까?**
+**FTP와[!DNL Amazon S3]중 어느 것을 사용하여 파일을 전송해야 합니까?**
 
-가장 좋은 방법은 프로세스가 단순하기 [!DNL Amazon S3] 때문에 권장합니다. [!DNL Audience Manager] FTP 파일을 [!DNL S3] 에 전송하지 않아도 되므로 파일을 직접 드롭하면 프로세스가 더욱 간소화됩니다 [!DNL Amazon S3] . 또한 FTP에 동시에 업로드하는 고객은 FTP의 대역폭을 공유하므로 업로드 속도가 느려질 것으로 예상됩니다. [!DNL Amazon S3] 는 복제되고 배포되므로 FTP 서버보다 일반적으로 더 안전하고 안정적입니다. 자세한 내용은 Amazon [S3를](../reference/amazon-s3.md)참조하십시오.
+가장 좋은 방법은 프로세스가 단순하기 때문에 [!DNL Amazon S3]을 사용하는 것입니다. [!DNL Audience Manager]는 FTP 파일을 어떻든지 [!DNL S3]에 전송하며, 따라서 직접 [!DNL Amazon S3]에 파일을 놓는 경우 프로세스가 보다 간소화됩니다. 또한 FTP에 동시에 업로드하는 고객들은 FTP의 대역폭을 공유하므로 업로드 속도가 느려질 것으로 예상됩니다. 또한 [!DNL Amazon S3]은 복제되고 배포되므로 FTP 서버보다 일반적으로 더 안전하고 안정적입니다. 자세한 내용은 [Amazon S3 정보](../reference/amazon-s3.md)를 참조하십시오.
 
 >[!WARNING]
 >
->FTP 구성에 대한 지원이 점차 축소되고 있습니다. 기존 FTP 통합에서 인바운드 데이터 파일 수집은 여전히 지원되지만, 새로운 통합을 위해 오프라인 데이터를 등록하려면 Amazon S3를 사용하는 것이 좋습니다. 자세한 [내용은 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항을](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 참조하십시오.
+>FTP 구성에 대한 지원을 점차 단계적으로 중단하고 있습니다. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. 자세한 내용은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)을 참조하십시오.
 
  
 
 **Audience Manager는 인바운드 파일을 어떻게 처리합니까?**
 
-[!DNL Audience Manager] 은 인바운드 데이터 처리에 [!DNL Amazon Simple Queue Service (SQS)] 사용됩니다. 이 방법은 다음과 같습니다.
+[!DNL Audience Manager]는 인바운드 데이터 처리에 [!DNL Amazon Simple Queue Service (SQS)]를 사용합니다. 작동하는 방식은 다음과 같습니다.
 
-1. [!DNL Audience Manager] 고객은 인바운드 데이터를 [!DNL Amazon S3] 버킷에 업로드합니다.
-1. 데이터가 대기열로 진입하여 처리 대기 [!DNL Amazon SQS] [!DNL Audience Manager]중입니다.
-1. [!DNL Audience Manager] 큐에서 최대 11,9000개의 항목을 읽고 최대 3개의 배치로 분할합니다. [!DNL Amazon SQS] 각 일괄 처리에 있는 파일은 동시에 처리됩니다.
+1. [!DNL Audience Manager] 고객이 인바운드 데이터를 [!DNL Amazon S3] 버킷에 업로드합니다.
+1. 데이터가 [!DNL Amazon SQS] 큐에 들어가 [!DNL Audience Manager]의 처리를 기다립니다.
+1. [!DNL Audience Manager]가 [!DNL Amazon SQS] 큐에서 최대 119,000개의 항목을 읽고 최대 3개의 배치로 분할합니다. 각 배치에 있는 파일들은 동시에 처리됩니다.
 
  
 
 **여러 파일을 동시에 업로드해야 합니다. 파일이 동시에 처리됩니까?**
 
-상황에 따라 다릅니다. [!DNL Audience Manager] 큐에서 최대 11,9000개의 항목을 읽고 최대 3개의 배치로 분할합니다. [!DNL Amazon SQS] 파일이 동일한 배치로 끝나는 경우에만 동시에 처리됩니다. 그러나 [!DNL Audience Manager] 매일 수집되는 데이터의 양이 많기 때문에 파일 처리 순서를 보장할 수 없습니다.
+경우에 따라 다릅니다. [!DNL Audience Manager]가 [!DNL Amazon SQS] 큐에서 최대 119,000개의 항목을 읽고 최대 3개의 배치로 분할합니다. 파일은 동일한 배치로 끝나는 경우에만 동시에 처리됩니다. 그러나 매일 [!DNL Audience Manager]가 수집하는 데이터 양이 많아서 파일 처리 순서를 보장할 수 없습니다.
 
 >[!MORELIKETHIS]
 >

@@ -7,10 +7,10 @@ solution: Audience Manager
 title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 3%
+source-wordcount: '1378'
+ht-degree: 4%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 3%
 
 시작하려면 로그 데이터 [!UICONTROL Actionable Log Files]를 로 가져와야 합니다 [!DNL Audience Manager]. 다음 링크를 통해 시작할 수 있습니다.
 
-* 로그에 대해서는 Audience Manager [!UICONTROL Google DCM] 로 DCM 데이터 파일 가져오기 [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) 를 *참조하고 컨설턴트에게* [!DNL Audience Manager] 문의하십시오.
-* 로그에 대해서는 Audience Manager [!UICONTROL Google DFP] 로 DFP 데이터 파일 가져오기 [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) 를 *참조하고 컨설턴트* 에게 [!DNL Audience Manager] 문의하십시오.
+* 로그에 대해서는 Audience Manager으로 [!UICONTROL Google DCM] DCM 데이터 파일 가져오기 [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) 를 *참조하고 컨설턴트에게* [!DNL Audience Manager] 문의하십시오.
+* 로그에 대해서는 Audience Manager으로 [!UICONTROL Google DFP] DFP 데이터 파일 가져오기 [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) 를 *참조하고 컨설턴트에게* [!DNL Audience Manager] 문의하십시오.
 * 기타 광고 서버 로그에 대해서는 [데이터 및 메타데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 을 *참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
 
 로그 데이터를 이미 로 가져오는 경우 컨설턴트나 [!DNL Audience Manager]고객 지원 [!DNL Audience Manager] 센터에 [문의하여](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) 자동으로 [!UICONTROL Actionable Log Files] 활성화하도록 하십시오.
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 광고 서버 로그 [!UICONTROL Actionable Log Files]의 정보는 실시간 웹 사이트 상호 작용 [!DNL Audience Manager] 의 데이터를 캡처하는 것과 동일한 방식으로 캡처됩니다. [!DNL Audience Manager] 광고 서버 로그 스토리지에 연결하고, 로그에서 정보를 구문 분석하고, 로그 데이터를 실행 가능한 신호로 [데이터 수집 서버에 전송합니다](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-실행 가능한 신호를 캡처하려면 규칙 기반의 트레이트를 설정해야 합니다. Audience Manager UI에서 또는 벌크 관리 도구 [를 사용하여 규칙 기반](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) 특성을 설정하는 방법을 [참조하십시오](../../reference/bulk-management-tools/bulk-create.md). 규칙 기반 트레이트에서 사용할 수 있는 [모든 키](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) 목록을 보려면 작업 가능 신호 섹션으로 스크롤하십시오.
+실행 가능한 신호를 캡처하려면 규칙 기반의 트레이트를 설정해야 합니다. Audience Manager 사용자 인터페이스에서 [또는 벌크 관리 도구를 사용하여 규칙 기반 특성을 설정하는 방법을](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) 확인하십시오 [](../../reference/bulk-management-tools/bulk-create.md). 규칙 기반 트레이트에서 사용할 수 있는 [모든 키](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) 목록을 보려면 작업 가능 신호 섹션으로 스크롤하십시오.
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>광고주의 데이터 소스에 대한 통합 코드입니다. 이 데이터는 Audience Manager 데이터 소스와 관련이 없습니다.</p> <p>이 필드는 DCM의 광고주 그룹 ID에 매핑됩니다. </p> </td> 
+   <td colname="col3"><p>광고주의 데이터 소스에 대한 통합 코드입니다. Audience Manager 데이터 소스는 관련이 없습니다.</p> <p>이 필드는 DCM의 광고주 그룹 ID에 매핑됩니다. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ ht-degree: 3%
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>이벤트 유형을 나타냅니다. Audience Manager는 DCM 로그 파일 이름에서 이벤트 유형을 읽고 실행 가능한 신호로 변환합니다. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
+   <td colname="col3"> <p>이벤트 유형을 나타냅니다. Audience Manager은 DCM 로그 파일 이름에서 이벤트 유형을 읽고 실행 가능한 신호로 변환합니다. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for expressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> 를 참조하십시오. </li> 
@@ -226,7 +226,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>이벤트 유형을 나타냅니다. Audience Manager는 로그 파일 이름에서 이벤트 유형을 읽고 실행 가능한 신호로 변환합니다. 로그 <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">파일 이름 지정 규칙을 참조하십시오</a>. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
+   <td colname="col3"> <p>이벤트 유형을 나타냅니다. Audience Manager은 로그 파일 이름에서 이벤트 유형을 읽고 실행 가능한 신호로 변환합니다. 로그 <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">파일 이름 지정 규칙을 참조하십시오</a>. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for expressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> 를 참조하십시오. </li> 
@@ -249,7 +249,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Audience Manager UI에서 실행 가능한 신호 작업 {#actionable-signals-in-ui}
+## Audience Manager 사용자 인터페이스에서 실행 가능한 신호 사용 {#actionable-signals-in-ui}
 
 신호 검색 인터페이스에서 [들어오는 실행 가능한 신호를 볼 수](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) 있습니다.
 
@@ -298,6 +298,6 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 >[!MORELIKETHIS]
 >
->* [Audience Manager로 DCM 데이터 파일 가져오기](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [고객 최적화 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [DCM 데이터 파일을 Audience Manager에 가져오기](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [대상 최적화 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 

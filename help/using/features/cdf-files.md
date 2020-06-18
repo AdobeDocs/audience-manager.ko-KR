@@ -7,7 +7,10 @@ solution: Audience Manager
 title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 <!-- cdf-intro.xml -->
 
-파일 [!UICONTROL CDF] 은 이벤트 호출()이 Adobe 서버에 전송하는 것과 동일한 데이터 [!DNL Audience Manager] `/event`를 포함합니다. 여기에는 사용자 ID, 특성 ID, 세그먼트 ID 및 이벤트 호출에서 캡처한 기타 모든 매개 변수와 같은 데이터가 포함됩니다. 내부 [!DNL Audience Manager] 시스템은 이벤트 데이터를 [!UICONTROL CDF] 파일로 처리하며 컨텐츠는 설정된 순서로 표시되는 필드로 구성됩니다. [!DNL Audience Manager] 시마다 [!UICONTROL CDF] 파일을 생성하여 [!DNL Amazon S3] 서버의 안전한 고객별 버킷에 저장합니다. Adobe는 이러한 파일을 제공하므로 사용자 인터페이스가 설정한 제한 사항 이외의 [!DNL Audience Manager] 데이터를 사용하여 작업할 수 있습니다.
+[!UICONTROL CDF] 파일에는 [!DNL Audience Manager] 이벤트 호출(`/event`)이 서버에 보내는 것과 동일한 데이터가 포함되어 있습니다. 여기에는 사용자 ID, 트레이트 ID, 세그먼트 ID 및 이벤트 호출로 캡처된 기타 모든 매개 변수 등의 데이터가 포함됩니다. 내부 [!DNL Audience Manager] 시스템은 이벤트 데이터를 [!UICONTROL CDF] 파일로 처리하며 컨텐츠는 설정된 순서로 표시되는 필드로 구성됩니다. [!DNL Audience Manager] 시마다 [!UICONTROL CDF] 파일을 생성하여 [!DNL Amazon S3] 서버의 안전한 고객별 버킷에 저장합니다. Adobe는 이러한 파일을 제공하므로 사용자 인터페이스가 설정한 제한 사항 이외의 [!DNL Audience Manager] 데이터를 사용하여 작업할 수 있습니다.
 
 >[!NOTE]
 >
@@ -33,7 +36,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 * 저장소 버킷을 [!DNL Amazon S3] 설정합니다.
 * 파일 저장소 버킷에 읽기 전용 [!DNL S3] 인증 자격 증명을 제공합니다. 다른 고객에 속한 디렉토리와 파일은 보거나 액세스할 수 없습니다.
 
-파일 알림 및 [!UICONTROL CDF] 파일은 다운로드할 준비가 되면 버킷에 [!DNL S3] 표시됩니다. 할당된 [!DNL S3] 디렉토리에서 파일을 모니터링하고 다운로드하는 책임이 있습니다. 고객 [데이터 피드 파일 처리 알림을 참조하십시오](#cdf-file-processing-notifications).
+파일 알림 및 [!UICONTROL CDF] 파일은 다운로드할 준비가 되면 버킷에 [!DNL S3] 표시됩니다. 할당된 [!DNL S3] 디렉토리에서 파일을 모니터링하고 다운로드하는 책임이 있습니다. [고객 데이터 피드 파일 처리 알림](#cdf-file-processing-notifications)을 참조하십시오.
 
 ## 다음 단계 {#next-steps}
 
@@ -105,7 +108,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>사이트 방문자에게 할당된 <span class="keyword"> Experience Cloud</span> ID(MID)입니다. 쿠키 및 <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Adobe Experience Platform Identity Service도 참조하십시오</a>. </p> </td> 
+   <td colname="col3"> <p>사이트 방문자에게 할당된 <span class="keyword"> Experience Cloud</span> ID(MID)입니다. 쿠키 및 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html" format="https" scope="external"> Adobe Experience Platform ID 서비스를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -149,7 +152,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p>필드 시퀀스 </p> </td> 
-   <td colname="col2"> <p> <p>중요: <span class="keyword"> Audience Manager는</span> 향후 릴리스에서 CDF 파일의 끝에 새 필드를 추가할 수 있는 권한을 보유합니다. 즉, 파일 구문 분석 시스템의 기술 설계에서는 고정된 개수의 열을 가정할 수 없습니다(기존 열에 대해 고정된 순서가 있을 수 있음). </p> </p> <p>CDF 파일의 데이터는 아래에 표시된 순서대로 나타납니다. </p> <p> 
+   <td colname="col2"> <p> <p>중요: <span class="keyword"> Audience Manager</span> 는 향후 릴리스에서 CDF 파일의 끝에 새 필드를 추가할 수 있는 권한을 보유합니다. 즉, 파일 구문 분석 시스템의 기술 설계에서는 고정된 개수의 열을 가정할 수 없습니다(기존 열에 대해 고정된 순서가 있을 수 있음). </p> </p> <p>CDF 파일의 데이터는 아래에 표시된 순서대로 나타납니다. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">이벤트 시간 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">장치 </li> 
@@ -159,7 +162,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">요청 매개 변수 </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP 주소 </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). 쿠키 및 <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Adobe Experience Platform Identity Service를 참조하십시오.</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). See also, <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">모든 세그먼트 </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">모든 트레이트 </li> 
      </ol> </p> <p>필드 설명은 정의된 <a href="#cdf-defined"> 고객 데이터 피드 컨텐츠를 참조하십시오</a>. </p> </td> 
@@ -241,7 +244,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>내부 Audience Manager <span class="keyword"> 프로세스</span> ID. </p> </td> 
+   <td colname="col2"> <p>내부 <span class="keyword"> Audience Manager</span> 프로세스 ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -250,7 +253,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
  </tbody> 
 </table>
 
-## 고객 데이터 피드 파일 처리 알림 {#cdf-file-processing-notifications}
+## Customer Data Feed File Processing Notifications {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] 다운로드 준비가 되면 알 수 있도록 파일 `.info` 을 [!DNL S3] 디렉토리에 [!UICONTROL Customer Data File][!UICONTROL CDF]기록합니다. 또한 `.info` 파일에는 [!DNL JSON] [!UICONTROL CDF] 파일 컨텐츠에 대한 서식이 지정된 메타데이터도 포함되어 있습니다. 이 알림 파일에 사용되는 구문 및 필드에 대한 자세한 내용은 이 섹션을 검토하십시오.
 
@@ -313,7 +316,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>파일 이름입니다. 고객 <a href="#cdf-naming-conventions"> 데이터 피드 파일 이름 지정 규칙을 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>파일 이름입니다. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
@@ -373,8 +376,8 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 | 타임스탬프 위치 | 설명 |
 |--- |--- |
-| 파일 이름 | CDF 파일 이름의 타임스탬프는 파일 배달을 [!DNL Audience Manager] 준비하는 시간을 나타냅니다. 이 타임스탬프는 UTC 시간대에서 설정됩니다. 24시간 표기법으로 2자리 시간으로 서식이 지정된 매개 변수를 사용합니다. `hour=` 이 시간은 파일 내용에 기록된 이벤트 시간과 다를 수 있습니다. CDF 파일을 사용하여 작업할 때 특정 시간 동안 S3 버킷이 비어 있는 경우가 있습니다. 빈 버킷은 다음 중 하나를 의미할 수 있습니다.<ul><li>특정 시간에 대한 데이터는 없습니다. </li><li> 우리 서버는 많은 부하를 겪고 있어서 특정 시간 동안 파일을 처리할 수 없다. 서버가 응답할 때 이전 시간 버킷 파일에 들어가야 하는 파일을 이후 시간 값이 있는 버킷으로 표시합니다. 예를 들어 17시간 버킷에 있어야 하는 파일이 18시간 버킷에 나타나는 경우(파일 이름에 포함 `hour=18` )이 표시됩니다. 이 경우 서버가 17시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 처리할 수 없었습니다. 대신 파일이 다음 시간별 시간 버킷으로 푸시됩니다.</li></ul><br>**중요&#x200B;**: 시간별로 이벤트를 그룹화하는 데 파일 이름 타임스탬프를 사용하지 마십시오. 시간별로 그룹화해야 하는 경우 파일 컨텐츠의`EventTime`타임스탬프를 사용합니다. |
-| 파일 내용 | CDF 파일 내용의 타임스탬프는 데이터 수집 서버가 파일 처리를 시작한 시간을 나타냅니다. 이 타임스탬프는 UTC 시간대에서 설정됩니다. 시간 형식이 지정된 `EventTime` 필드를 사용합니다 *`yyyy-mm-dd hh:mm:ss`*. 이 시간은 페이지의 실제 이벤트 시간에 가깝지만 파일 이름의 시간 표시기와 다를 수 있습니다. <br> **팁**: 파일 이름의 `hour=` 타임스탬프와 달리 시간 `EventTime` 에 따라 데이터를 그룹화하는 데 사용할 수 있습니다. |
+| 파일 이름 | 파일 이름에 있는 타임스탬프는 파일 배달 준비를 [!DNL CDF] [!DNL Audience Manager] 시작한 시간을 나타냅니다. 이 타임스탬프는 [!DNL UTC] 시간대에서 설정됩니다. 24시간 표기법으로 2자리 시간으로 서식이 지정된 매개 변수를 사용합니다. `hour=` 이 시간은 파일 내용에 기록된 이벤트 시간과 다를 수 있습니다. 파일 작업 시 특정 시간 동안 버킷이 비어 있는 [!DNL CDF] [!DNL S3] 것을 확인할 수 있습니다. 빈 버킷은 다음 중 하나를 의미할 수 있습니다.<ul><li>특정 시간에 대한 데이터는 없습니다. </li><li> 우리 서버는 많은 부하를 겪고 있어서 특정 시간 동안 파일을 처리할 수 없다. 서버가 응답할 때 이전 시간 버킷 파일에 들어가야 하는 파일을 이후 시간 값이 있는 버킷으로 표시합니다. 예를 들어 17시간 버킷에 있어야 하는 파일이 18시간 버킷에 나타나는 경우(파일 이름에 포함 `hour=18` )이 표시됩니다. 이 경우 서버가 17시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 처리할 수 없었습니다. 대신 파일이 다음 시간별 시간 버킷으로 푸시됩니다.</li></ul><br>**중요&#x200B;**: 시간별로 이벤트를 그룹화하는 데 파일 이름 타임스탬프를 사용하지 마십시오. 시간별로 그룹화해야 하는 경우 파일 컨텐츠의`EventTime`타임스탬프를 사용합니다. |
+| 파일 내용 | 파일 내용의 타임스탬프는 파일 처리를 [!DNL CDF] [!DNL Data Collection Servers] 시작한 시간을 나타냅니다. 이 타임스탬프는 [!DNL UTC] 시간대에서 설정됩니다. 시간 형식이 지정된 `EventTime` 필드를 사용합니다 *`yyyy-mm-dd hh:mm:ss`*. 이 시간은 페이지의 실제 이벤트 시간에 가깝지만 파일 이름의 시간 표시기와 다를 수 있습니다. <br> **팁**: 파일 이름의 `hour=` 타임스탬프와 달리 시간 `EventTime` 에 따라 데이터를 그룹화하는 데 사용할 수 있습니다. |
 
 >[!MORELIKETHIS]
 >

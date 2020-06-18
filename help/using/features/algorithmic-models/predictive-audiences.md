@@ -1,14 +1,14 @@
 ---
-description: 예측 대상을 사용하면 데이터 과학을 사용하여 알 수 없는 고객을 개별 개인으로 실시간으로 분류할 수 있습니다.
-seo-description: 예측 대상을 사용하면 데이터 과학을 사용하여 알 수 없는 고객을 개별 개인으로 실시간으로 분류할 수 있습니다.
-seo-title: 예측 대상 개요
+description: Predictive Audiences을 사용하면 데이터 과학을 사용하여 알 수 없는 대상을 실시간으로 개별 성향으로 분류할 수 있습니다.
+seo-description: Predictive Audiences을 사용하면 데이터 과학을 사용하여 알 수 없는 대상을 실시간으로 개별 성향으로 분류할 수 있습니다.
+seo-title: Predictive Audiences 개요
 solution: Audience Manager
-title: 예측 대상 Audience Manager
+title: Audience Manager Predictive Audiences
 translation-type: tm+mt
-source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 0%
+source-wordcount: '1261'
+ht-degree: 9%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 >[!IMPORTANT]
 >이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 들어 있는 어떠한 것도 법적 권고사항이다. 법률 자문을 위해 법률 자문을 구할 수 있습니다.
 
-마케팅 컨텍스트에서는 방문자, 사용자 또는 잠재 구매자가 정의하는 고객 세그먼트로서 인구 통계, 탐색 행동, 쇼핑 내역 등과 같은 특정 특성 집합을 공유하는 사람입니다.
+마케팅 컨텍스트에서 성향은 인구 통계, 탐색 습관, 쇼핑 이력 등과 같은 특정 트레이트 집합을 공유하는 방문자, 사용자 또는 잠재적 구매자로 정의되는 대상 세그먼트로입니다.
 
-[!UICONTROL Predictive Audiences] 모델은 Audience Manager의 머신 러닝 기능을 사용하여 알 수 없는 고객을 별개의 개인으로 분류할 수 있도록 함으로써 이러한 개념을 한 단계 더 발전시켰습니다. Audience Manager은 알려진 자사 고객 집합에 대해 알 수 없는 자사 대상의 특성을 계산하여 이를 실현하는 데 도움이 됩니다.
+[!UICONTROL Predictive Audiences] 모델은 Audience Manager의 기계 학습 기능을 사용하여 알 수 없는 대상을 개별 성향으로 분류할 수 있도록 함으로써 이러한 개념을 한 단계 더 발전시킵니다. Audience Manager를 사용하면 일단의 알려진 자사 고객에 대해 알 수 없는 자사 대상의 성향을 계산하여 이를 달성할 수 있습니다.
 
 모델을 만들 때 첫 번째 단계는 대상 대상을 분류할 기준 특성이나 세그먼트를 선택하는 것입니다. [!UICONTROL Predictive Audiences] 이러한 트레이트 또는 세그먼트는 사용자의 성격을 정의합니다.
 
@@ -60,7 +60,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 
 미디어 회사로서 고객을 분류하고 싶은데, 이를 통해 방문자에게 연관성 있는 광고를 제공하는 동시에 프리미엄 가격으로 광고 공간을 판매할 수 있습니다.
 
-## 예측 대상 모델의 작동 방식
+## 모델 [!UICONTROL Predictive Audiences] 작동 방식 {#how-predictive-audiences-models-work}
 
 모델을 만들 때 [!UICONTROL Predictive Audiences] 다음 세 단계를 진행합니다.
 
@@ -82,14 +82,14 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 
 페르소나 선택과 유사하게, 타겟 고객을 정의하는 트레이트 또는 세그먼트를 선택하여 풍부한 트레이트 세트를 가진 실시간 사용자가 있는 방식으로 적절한 모습을 분류해야 합니다.
 
-### 예측 대상 모델 교육 단계 {#model-training}
+### [!UICONTROL Predictive Audiences] 모델 교육 단계 {#model-training}
 
 이 알고리즘이 자사 고객을 적합한 개인으로 분류하려면 먼저 데이터를 기반으로 학습해야 합니다.
 
 사용자가 정의하는 각 페르소나에 대해 알고리즘은 해당 대상을 분석하고 지난 30일 동안 해당 사용자에 대한 실시간 및/또는 온보딩 트레이트 활동을 평가합니다.
 이 단계는 자사 대상의 변경 사항을 반영하기 위해 24시간마다 한 번씩 수행됩니다.
 
-### 예측 대상 모델 분류 단계 {#model-classification}
+### [!UICONTROL Predictive Audiences] 모델 분류 단계 {#model-classification}
 
 타겟 대상의 일부인 방문자를 실시간으로 볼 때 모델은 방문자가 정의된 성향에 속하는지 여부를 평가합니다. 어떤 개인에도 속하지 않는 모든 방문자에 대해 모델은 페르소나 자격 점수를 지정합니다.
 
@@ -104,12 +104,12 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 
 모델을 구성할 때 다음 고려 사항 및 제한 사항에 [!UICONTROL Predictive Audiences] 유의하십시오.
 
-* 최대 10개의 모델을 만들 수 [!UICONTROL Predictive Audiences] 있습니다.
+* 최대 10개의 [!UICONTROL Predictive Audiences] 모델을 만들 수 있습니다.
 * 각 모델에 대해 최대 50개의 기본 트레이트/세그먼트를 선택할 수 있습니다.
 * 타사 및 타사 데이터는 현재 에서 지원되지 않습니다 [!UICONTROL Predictive Audiences].
 * 고객 분류는 퍼스트 파티 대상자에게만 수행됩니다. 향후 업데이트에서는 온보드 퍼스트 파티 분류가 지원될 수 있습니다.
    >[!IMPORTANT]
-   > 현재 예측 세그먼트 [!UICONTROL Total Segment Population] 가 0으로 표시되고 예측 대상에 [대해 일괄 아웃바운드 데이터 전송](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) 기능이 지원되지 않습니다. 이 동작은 향후 업데이트 시 변경됩니다.
+   > 현재 예측 세그먼트 [!UICONTROL Total Segment Population] 가 0으로 표시되고, [아웃바운드 데이터 전송](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) 일괄 [!UICONTROL Predictive Audiences]수행은 지원되지 않습니다. 이 동작은 향후 업데이트 시 변경됩니다.
 * [!UICONTROL Predictive Audiences] 모든 자사 데이터 소스에서 자사 트레이트를 기반으로 고객 분류를 수행합니다.
 * 세그먼트 평가 [!UICONTROL Predictive Audiences] 는 계정에 정의된 기본값 **[!UICONTROL Profile Merge Rule]** 을 사용합니다. 자세한 내용은 [!UICONTROL Profile Merge Rules] 전용 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
 * 일부 트레이트 및 세그먼트는 기준선 또는 대상 대상으로 지원되지 않습니다. [!UICONTROL Predictive Audiences] 다음 중 하나를 기준선 또는 대상 대상으로 선택할 때 모델이 저장되지 않습니다.
@@ -118,7 +118,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
    * 알고리즘 특성;
    * 제휴 및 제3자 특성
 
-## 데이터 내보내기 제어{#dec}
+## [!UICONTROL Data Export Controls] {#dec}
 
 모델로 생성된 예측 세그먼트는 다음 자사 데이터 소스 [!UICONTROL Predictive Audiences] 에서 [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) 데이터 내보내기 컨트롤을 상속합니다.
 
@@ -129,7 +129,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 
 세그먼트 개인 정보 보호 제한에 속하지 않는 추가 제한 사항이 있는 트레이트는 [!UICONTROL Predictive Audiences] 교육 단계에서 제외되며 모델에 영향을 주지 않습니다.
 
-## 역할 기반 액세스 제어{#rbac}
+## [!UICONTROL Role-Based Access Controls] {#rbac}
 
 개인 및 대상 분류에 대해 선택하는 트레이트 및 세그먼트는 Audience Manager 역할 기반 액세스 제어 [의 적용을 받습니다](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
 

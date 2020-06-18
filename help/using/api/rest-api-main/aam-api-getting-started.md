@@ -6,9 +6,9 @@ solution: Audience Manager
 title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 >
 >인증 방법에 따라 요청을 적절하게 조정해야 [!DNL URLs] 합니다. 사용해야 하는 호스트 이름에 대한 자세한 내용은 [환경](#environments) 섹션을 참조하십시오.
 
-## JWT(서비스 계정) 인증 {#jwt}
+## JWT([!DNL Service Account]) 인증 {#jwt}
 
 ### 사전 요구 사항 {#prerequisites}
 
@@ -278,14 +278,14 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 | 응답 코드 ID | 응답 텍스트 | 정의 |
 |---|---|---|
-| 200 | `OK` | 요청이 처리되었습니다. 필요한 경우 예상 컨텐츠 또는 데이터를 반환합니다. |
-| 201 | `Created` | 리소스가 만들어졌습니다. 및 요청 `PUT` 에 대한 `POST` 반환. |
-| 204 | `No Content` | 리소스가 삭제되었습니다. 응답 본문은 비어 있게 됩니다. |
-| 400 | `Bad Request` | 서버가 요청을 이해하지 못했습니다. 일반적으로 잘못된 구문 때문입니다. 요청을 확인하고 다시 시도하십시오. |
-| 403 | `Forbidden` | 리소스에 액세스할 수 없습니다. |
-| 404 | `Not Found` | 지정된 경로에 대한 리소스를 찾을 수 없습니다. |
-| 409 | `Conflict` | 리소스 상태와 충돌하여 요청을 완료할 수 없습니다. |
-| 500 | `Server Error` | 서버에서 예기치 않은 오류가 발생하여 요청을 수행하지 못했습니다. |
+| `200` | `OK` | 요청이 처리되었습니다. 필요한 경우 예상 컨텐츠 또는 데이터를 반환합니다. |
+| `201` | `Created` | 리소스가 만들어졌습니다. 및 요청 `PUT` 에 대한 `POST` 반환. |
+| `204` | `No Content` | 리소스가 삭제되었습니다. 응답 본문은 비어 있게 됩니다. |
+| `400` | `Bad Request` | 서버가 요청을 이해하지 못했습니다. 일반적으로 잘못된 구문 때문입니다. 요청을 확인하고 다시 시도하십시오. |
+| `403` | `Forbidden` | 리소스에 액세스할 수 없습니다. |
+| `404` | `Not Found` | 지정된 경로에 대한 리소스를 찾을 수 없습니다. |
+| `409` | `Conflict` | 리소스 상태와 충돌하여 요청을 완료할 수 없습니다. |
+| `500` | `Server Error` | 서버에서 예기치 않은 오류가 발생하여 요청을 수행하지 못했습니다. |
 
 >[!MORELIKETHIS]
 >

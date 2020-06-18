@@ -1,24 +1,27 @@
 ---
 description: DCS(데이터 수집 서버)에 전달할 수 있는 구문 및 지원되는 속성(또는 키-값 쌍)을 나열하고 설명합니다. 이 정보는 DCS 요청의 형식을 지정하고 이 시스템에서 반환된 매개 변수를 이해하는 데 도움이 됩니다.
 seo-description: DCS(데이터 수집 서버)에 전달할 수 있는 구문 및 지원되는 속성(또는 키-값 쌍)을 나열하고 설명합니다. 이 정보는 DCS 요청의 형식을 지정하고 이 시스템에서 반환된 매개 변수를 이해하는 데 도움이 됩니다.
-seo-title: DCS API 호출에 지원되는 속성
+seo-title: DCS API 호출에 지원되는 특성
 solution: Audience Manager
-title: DCS API 호출에 지원되는 속성
+title: DCS API 호출에 지원되는 특성
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 6%
 
 ---
 
 
-# DCS API 호출에 지원되는 속성 {#supported-attributes-for-dcs-api-calls}
+# DCS API 호출에 지원되는 특성 {#supported-attributes-for-dcs-api-calls}
 
-구문과 지원되는 속성(또는 키-값 쌍)을 [!UICONTROL Data Collection Servers] ([!UICONTROL DCS])에 전달하고 설명합니다. 이 정보는 [!UICONTROL DCS] 요청의 형식을 지정하고 이 시스템에서 반환된 매개 변수를 이해하는 데 도움이 됩니다.
+구문과 지원되는 속성(또는 키-값 쌍)을 [!UICONTROL Data Collection Servers] ([!DNL DCS])에 전달하고 설명합니다. 이 정보는 [!DNL DCS] 요청의 형식을 지정하고 이 시스템에서 반환된 매개 변수를 이해하는 데 도움이 됩니다.
 
 ## 속성 접두사 {#attribute-prefixes}
 
-이 [!UICONTROL DCS] 는 키-값 쌍의 키에 추가된 특정 접두사를 사용하여 전달하려는 데이터 유형을 분류합니다.
+이 [!DNL DCS] 는 키-값 쌍의 키에 추가된 특정 접두사를 사용하여 전달하려는 데이터 유형을 분류합니다.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -34,7 +37,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> 속성입니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> 특성입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -49,7 +52,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ## d_속성 {#d-attributes}
 
-이 모든 것은 선택 사항이며, 이 경우 응답할 필요가 없습니다 [!UICONTROL DCS]. 응답을 [!UICONTROL DCS] 반환하려면 필수 `d_rtbd=json` 가 됩니다.
+이 모든 것은 선택 사항이며, 단, [!DNL DCS] 응답을 [!DNL DCS] 반환하려면 필수 `d_rtbd=json` 가 됩니다.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -69,7 +72,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Audience Manager에서 할당한 하나 이상의 데이터 공급자 ID(<code> DPID</code>) 및 데이터 공급자 사용자 ID(<code> DPUUID</code>)를 <span class="keyword"> 포함합니다</span>. 여러 쌍의 <code> DPID</code>s와 <code> DPUUID</code>s를 사용하는 경우 각 쌍을 인쇄되지 않은 문자와 구분하십시오 <code> %01</code>. 예: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> 교체 <code> d_dpid</code> 및 <code> d_dpuuid</code>대체 - 더 이상 사용되지 않지만 여전히 지원됩니다. <a href="../../../reference/cid.md">CID가 DPID 및 DPUUID 대체</a>를 참조하십시오. </p> </td>
+   <td colname="col2"> <p>Audience Manager에서 할당한 하나 이상의 데이터 공급자 ID(<code> DPID</code>)와 데이터 공급자 사용자 ID(<code> DPUUID</code>)를 <span class="keyword"> 포함합니다</span>. 여러 쌍의 <code> DPID</code>s와 <code> DPUUID</code>s를 사용하는 경우 각 쌍을 인쇄되지 않은 문자와 구분하십시오 <code> %01</code>. 예: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> 교체 <code> d_dpid</code> 및 <code> d_dpuuid</code>대체 - 더 이상 사용되지 않지만 여전히 지원됩니다. <a href="../../../reference/cid.md">CID가 DPID 및 DPUUID 대체</a>를 참조하십시오. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
@@ -77,7 +80,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>자녀 보호 규정을 준수하기 위해 타사 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Experience Platform ID 서비스에 의해 동적으로 설정되며 구성에 따라 <code> idSyncDisable3rdPartySyncing</code> 달라집니다. Adobe <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Experience Platform ID 서비스의 COPPA 지원을 참조하십시오</a>. </p> </td>
+   <td colname="col2"> <p>자녀 보호 규정을 준수하기 위해 타사 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Adobe Experience Platform ID 서비스에 의해 동적으로 설정되며 구성에 따라 <code> idSyncDisable3rdPartySyncing</code> 달라집니다. Adobe Experience Platform ID 서비스에서 <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA 지원을 참조하십시오</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -111,7 +114,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
-   <td colname="col2"> <p><code> d_dst_filter</code> 는 예약된 속성으로서, Adobe Analytics와 Audience Manager 간의 통합에 사용됩니다. </p> <p>예약된 특성을 사용하는 특성을 만들지 않는 것이 좋습니다. Adobe는 언제든지 예약 속성을 변경할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p><code> d_dst_filter</code> 는 예약된 속성으로서, Adobe Analytics과 Audience Manager 간의 통합에 사용됩니다. </p> <p>예약된 특성을 사용하는 특성을 만들지 않는 것이 좋습니다. Adobe는 언제든지 예약 속성을 변경할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
@@ -119,7 +122,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID 세트 및 <span class="keyword"> Experience Cloud</span> ID 서비스에서 사용되도록 지정합니다. ECID에 대한 자세한 내용은 쿠키 <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> 및 Experience Cloud Identity Service를 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud <span class="keyword"></span> ID 서비스가 설정하고 사용하는 Experience Cloud ID를 지정합니다. ECID에 대한 자세한 내용은 쿠키 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html" format="https" scope="external"> 및 Experience Cloud ID 서비스를 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -127,7 +130,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Audience Manager가 모바일 요청을 데스크톱 요청과 구분할 수 있도록 해줍니다. 지원되는 값은 다음과 같습니다. </p> <p> 
+   <td colname="col2"> <p>Audience Manager이 모바일 요청을 데스크톱 요청과 구분할 수 있습니다. 지원되는 값은 다음과 같습니다. </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
@@ -137,7 +140,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>삭제 예정. <code> d_rs</code> 는 예약된 속성으로서, <span class="keyword"> Adobe Analytics</span> 와 <span class="keyword"> Audience Manager</span>사이의 기존 통합에 사용됩니다. </p> <p>예약된 특성을 사용하는 특성을 만들지 않는 것이 좋습니다. Adobe는 언제든지 예약 속성을 변경할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>삭제 예정. <code> d_rs</code> 는 예약된 속성으로서, <span class="keyword"> Adobe Analytics</span> 와 <span class="keyword"> Audience Manager</span>간의 기존 통합에 사용됩니다. </p> <p>예약된 특성을 사용하는 특성을 만들지 않는 것이 좋습니다. Adobe는 언제든지 예약 속성을 변경할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 

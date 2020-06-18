@@ -5,9 +5,9 @@ seo-title: 사용자 기반 대상 개요 및 사용 사례
 solution: Audience Manager
 title: 개요 및 사용 사례
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 [!DNL People-Based Destinations] 프리미엄 Audience Manager 통합입니다. 이 프리미엄 기능을 활용하려면 Adobe 담당자에게 문의하십시오.
 
-## 사람 기반 대상을 사용해야 하는 이유 {#why-use}
+## 사용해야 하는 이유 [!UICONTROL People-Based Destinations] {#why-use}
 
 **Audience Manager 내에서 전체 고객 세분화를 관리하여 일관된 크로스채널 경험을 제공할 수 있습니다.**
 

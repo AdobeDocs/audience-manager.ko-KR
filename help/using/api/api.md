@@ -1,27 +1,30 @@
 ---
-description: Audience Manager를 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 툴킷
-seo-description: Audience Manager를 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 툴킷
+description: Audience Manager을 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 툴킷
+seo-description: Audience Manager을 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 툴킷
 seo-title: API 및 SDK 코드
-keywords: 'api, api, api, api, api, api, api, api, api, api, api, api, api, api, api '
+keywords: api, api, api, api, api, api, api, api, api, api
 solution: Audience Manager
 title: API 및 SDK 코드
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 41%
 
 ---
 
 
 # API 및 SDK 코드 {#api-and-sdk-code}
 
-[!DNL API]Adobe Audience Manager를 사용하여 프로그래밍 방식으로 작업할 수 있는 s 및 toolkit
+[!DNL API]s 및 toolkit을 사용하여 프로그래밍 방식으로 작업할 수 있습니다 [!DNL Audience Manager].
 
 >[!NOTE]
 >
 >이러한 기능은 Adobe에서 지원하지 [!DNL API]않습니다.
 >
->* [!UICONTROL General], [!UICONTROL Trend]and [!UICONTROL Interactive] reports.
->* 더 이상 사용되지 않는 태그 삽입 관리자([!DNL TIM]) 기능입니다.
+>* [!UICONTROL General], [!UICONTROL Trend]및 [!UICONTROL Interactive] 보고서.
+>* 사용되지 않는 태그 삽입 관리자([!DNL TIM]) 기능입니다.
 
 
 세부 사항:

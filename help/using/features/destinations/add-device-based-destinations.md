@@ -1,21 +1,21 @@
 ---
-description: 이 문서에서는 Audience Manager UI에서 새 장치 기반 대상을 구성하는 방법에 대해 설명합니다.
-seo-description: 이 문서에서는 Audience Manager UI에서 새 장치 기반 대상을 구성하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Audience Manager 사용자 인터페이스에서 새 장치 기반 대상을 구성하는 방법에 대해 설명합니다.
+seo-description: 이 문서에서는 Audience Manager 사용자 인터페이스에서 새 장치 기반 대상을 구성하는 방법에 대해 설명합니다.
 seo-title: 새 장치 기반 대상 추가
 solution: Audience Manager
 title: 새 장치 기반 대상 추가
 translation-type: tm+mt
-source-git-commit: 69fb3601ac9de300032abc8730a40c41abc12d97
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 1%
+source-wordcount: '437'
+ht-degree: 4%
 
 ---
 
 
 # 새 장치 기반 대상 추가 {#add-new-device-based-destinations}
 
-이 문서에서는 Audience Manager UI에서 새 장치 기반 대상을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 Audience Manager 사용자 인터페이스에서 새 장치 기반 대상을 구성하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -23,15 +23,15 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-새 장치 기반 대상을 추가하는 프로세스는 두 가지 기본 단계로 구성됩니다. 먼저 Audience Manager와 대상 파트너 간의 통합을 구성해야 합니다. 이렇게 하면 새 장치 기반 대상을 만들 수 있습니다.
+새 장치 기반 대상을 추가하는 프로세스는 두 가지 기본 단계로 구성됩니다. 먼저 Audience Manager과 대상 파트너 간의 통합을 구성해야 합니다. 이렇게 하면 새 장치 기반 대상을 만들 수 있습니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
-통합 플랫폼을 사용하여 첫 번째 장치 기반 대상을 만들 때는 Adobe 컨설팅 또는 고객 지원 센터에 연락하여 Audience Manager와 계정의 통합 플랫폼 간에 ID 동기화를 활성화하십시오. Audience Manager와 대상 플랫폼 간의 올바른 동기화를 위해 필요합니다.
+통합 플랫폼을 사용하여 첫 번째 장치 기반 대상을 만들 때는 Adobe 컨설팅 또는 고객 지원 센터에 연락하여 Audience Manager과 계정에 대한 통합 플랫폼 간의 ID 동기화를 활성화하십시오. Audience Manager과 대상 플랫폼 간의 올바른 동기화를 위해 필요합니다.
 
-## 1단계. 대상 플랫폼으로 인증 {#step1}
+## 1단계. 대상 Platform으로 인증 {#step1}
 
-새 장치 기반 대상을 만들려면 먼저 Audience Manager와 대상 플랫폼 간의 통합을 구성해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
+새 장치 기반 대상을 만들려면 먼저 Audience Manager과 대상 플랫폼 간의 통합을 구성해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
 
 1. Audience Manager 계정에 로그인한 다음 로 이동합니다 **[!DNL Administration > Integrated Accounts]**. 대상 플랫폼과의 이전에 구성한 통합이 있는 경우 이 페이지에 나열되는 것을 볼 수 있습니다. 그렇지 않으면 페이지가 비어 있습니다.
 1. 클릭 **[!DNL Add Account]**.
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    ![통합 플랫폼](assets/dbd-integrated-platforms.png)
 
-1. 대상 플랫폼 계정으로 인증하면 연결된 광고주 계정을 볼 수 있는 Audience Manager로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 을 클릭합니다 **[!DNL Confirm]**.
+1. 대상 플랫폼 계정으로 인증하면 연결된 광고주 계정을 볼 수 있는 Audience Manager으로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 을 클릭합니다 **[!DNL Confirm]**.
 
 ## 2단계. 새 장치 기반 대상 만들기 {#step2}
 

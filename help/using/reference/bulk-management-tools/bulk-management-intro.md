@@ -2,19 +2,22 @@
 description: 벌크 관리 도구를 사용하면 한 번에 여러 개체를 만들고 관리할 수 있습니다. 벌크 관리 도구를 사용하여 데이터 소스, 파생된 신호, 대상, 폴더, 세그먼트 및 트레이트를 사용할 수 있습니다.
 keywords: baaam;BAAAM;download baaam
 seo-description: 벌크 관리 도구를 사용하면 한 번에 여러 개체를 만들고 관리할 수 있습니다. 벌크 관리 도구를 사용하여 데이터 소스, 파생된 신호, 대상, 폴더, 세그먼트 및 트레이트를 사용할 수 있습니다.
-seo-title: 벌크 관리 시작하기
+seo-title: 벌크 관리 시작
 solution: Audience Manager
-title: 벌크 관리 시작하기
+title: 벌크 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 3%
 
 ---
 
 
-# Getting Started With Bulk Management{#getting-started-with-bulk-management}
+# 벌크 관리 시작{#getting-started-with-bulk-management}
 
-벌크 관리 도구를 사용하면 한 번의 작업으로 여러 개체를 한 번에 만들고 관리할 수 있습니다. 벌크 관리 도구를 사용하여 데이터 소스, 파생된 신호, 대상, 폴더, 모델, 세그먼트 및 트레이트를 사용할 수 있습니다.
+이 [!DNL Bulk Management Tools] 를 사용하면 한 번에 여러 개체를 만들고 관리할 수 있습니다. 사용 [!DNL Bulk Management Tools] 을 사용하여 [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations][!UICONTROL folders], [!UICONTROL models][!UICONTROL segments],과 함께 작업할 수 [!UICONTROL traits]있습니다.
 
 <!-- 
 
@@ -24,23 +27,23 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[UI에 할당된 RBAC 그룹 권한](../../features/administration/administration-overview.md) 은 [!DNL Audience Manager] 에서 유지됩니다 [!UICONTROL Bulk Management Tools].
+>[사용자 인터페이스에 할당된 RBAC 그룹 권한](../../features/administration/administration-overview.md) 은 [!DNL Audience Manager] 에서 적용됩니다 [!UICONTROL Bulk Management Tools].
 
 ## 개요 {#overview}
 
-이 기능은 API에 대한 안전한 인증된 호출을 만드는 매크로가 포함된 Microsoft Excel 스프레드시트를 [!DNL Audience Manager] 사용합니다. API는 일괄 변경할 수 있는 메서드 및 서비스를 제공합니다. API를 사용하기 위해 코드를 작성하거나 API를 사용하여 작업하는 방법에 대해 알지 않아도 됩니다. 워크시트에는 특정 벌크 변경 기능을 수행하는 열 머리글과 탭이 있습니다. 벌크 변경을 수행하려면 미리 정의된 헤더를 특정 워크시트에 추가하고 일괄 변경할 정보를 제공한 다음 작업 단추를 클릭하기만 하면 됩니다. 워크시트 및 API가 나머지 작업을 수행합니다.
+This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. API는 일괄 변경할 수 있는 메서드 및 서비스를 제공합니다. API를 사용하기 위해 코드를 작성하거나 API를 사용하여 작업하는 방법에 대해 알지 않아도 됩니다. 워크시트에는 특정 벌크 변경 기능을 수행하는 열 머리글과 탭이 있습니다. 벌크 변경을 수행하려면 미리 정의된 헤더를 특정 워크시트에 추가하고 일괄 변경할 정보를 제공한 다음 작업 단추를 클릭하기만 하면 됩니다. 워크시트 및 API가 나머지 작업을 수행합니다.
 
 ## 다운로드 {#download}
 
-최신 워크시트를 **[여기에서](assets/BAAAM_V2_20200502.xlsm)**다운로드합니다.
+Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**.
 
-## 전제 조건 {#prereqs}
+## 사전 요구 사항 {#prereqs}
 
 을 사용하려면 [!DNL Bulk Management Tools]다음이 필요합니다.
 
 * 귀하의 [!DNL Experience Cloud] 로그인. 고객이라면 이러한 자격 증명을 이미 보유하고 있어야 합니다.
 * 워크시트 [!DNL Bulk Management Tools] . [워크시트를](assets/BAAAM_V2_20200502.xlsm) 다운로드하여 최신 버전을 가져옵니다.
-* Microsoft Excel이 64비트 [!DNL macOS] 또는 64비트에서 실행 [!DNL Microsoft Windows]중입니다. 최신 버전의 Microsoft Excel을 사용하는 것이 좋습니다.
+* [!DNL Microsoft Excel] 64비트에서 실행 [!DNL macOS] 을 [!DNL Microsoft Windows]참조하십시오. 최신 버전 [!DNL Microsoft Excel]을 사용하는 것이 좋습니다.
 * 워크시트를 열 때는 매크로를 **활성화해야** 합니다 [!DNL Bulk Management Tools] .
 
 ## 인증 요구 사항 및 옵션 {#auth-reqs}
@@ -49,9 +52,9 @@ c_bulk_start.xml
 
 **API 인증 요구 사항**
 
-2019년 10월에 릴리스된 두 번째 버전의 벌크 관리 도구에서는 인증 프로세스를 단순화합니다. 이 버전의 인증 단계는 아래에 요약되어 있습니다.
+2019년 10월에 [!DNL Bulk Management Tools]출시된 두 번째 버전의 이 버전은 인증 프로세스를 단순화합니다. 이 버전의 인증 단계는 아래에 요약되어 있습니다.
 
-1. 스프레드시트를 열고 구성 **시트로** 이동합니다.
+1. 스프레드시트를 열고 **[!UICONTROL Config]** 시트로 이동합니다.
 2. 시트에 나와 있는 단계를 따릅니다.
    ![](assets/baaam-authentication.png)
 3. 단계를 완료한 후 일괄 변경을 수행할 수 있습니다.

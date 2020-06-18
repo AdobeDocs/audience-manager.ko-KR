@@ -6,21 +6,21 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 클릭 데이터 캡처
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 7%
+source-wordcount: '657'
+ht-degree: 12%
 
 ---
 
 
-# Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
+# 픽셀 호출을 통해 캠페인 클릭 데이터 캡처 {#capturing-campaign-click-data-via-pixel-calls}
 
-클릭 추적은 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 [수집과](/help/using/integration/media-data-integration/impression-data-pixels.md)마찬가지로 이벤트 호출이 처리를 위해 Audience Manager 데이터 수집 서버([!UICONTROL DCS])로 전송됩니다. 그런 다음 방문자는 의도한 웹 주소로 리디렉션됩니다.
+클릭 추적은 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 [수집과](/help/using/integration/media-data-integration/impression-data-pixels.md)유사하게 이벤트 호출이 처리를 위해 Audience Manager 데이터 수집 서버([!DNL DCS])로 전송됩니다. 그런 다음 방문자는 의도한 웹 주소로 리디렉션됩니다.
 
 >[!NOTE]
 >
->클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅 또는 계정 리드에 문의하십시오.
+>클라이언트 도메인에 대한 정확한 정보는 [!DNL Audience Manager] 컨설팅 또는 계정 리드 [!DNL URL] 에 문의하십시오.
 
 ## 요구 사항
 
@@ -66,7 +66,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>매크로가 없습니다. </p> <p>하드 코딩된 ID 값을 수락합니다. </p> </td> 
-   <td colname="col2"> <p>광고주 ID.</p> <p>광고주의 데이터 소스에 대한 통합 코드입니다. 이 데이터는 Audience Manager 데이터 소스와 관련이 없습니다.</p> <p> 대상 최적화 <span class="wintitle"> 보고서에</span> 필요합니다. </p> </td> 
+   <td colname="col2"> <p>광고주 ID.</p> <p>광고주의 데이터 소스에 대한 통합 코드입니다. Audience Manager 데이터 소스는 관련이 없습니다.</p> <p> 대상 최적화 <span class="wintitle"> 보고서에</span> 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
@@ -96,7 +96,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ECID(Experience Cloud ID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> ECID(Experience Cloud ID). For more information about the ECID, see <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -121,7 +121,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>Audience Manager가 메타데이터를 가져오는 소스의 DPID입니다. </p> <p>필수 여부. </p> </td> 
+   <td colname="col2"> <p>Audience Manager이 메타데이터를 가져오는 소스의 DPID입니다. </p> <p>필수 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 

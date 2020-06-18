@@ -6,10 +6,10 @@ solution: Audience Manager
 title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 4%
+source-wordcount: '1509'
+ht-degree: 3%
 
 ---
 
@@ -22,76 +22,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## 시스템 오류 코드 {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 코드 ID </th> 
-   <th colname="col2" class="entry"> 오류 메시지 </th> 
-   <th colname="col3" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>지정되지 않은 오류 </p> </td> 
-   <td colname="col3"> <p>다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 다목적 캐치(catch-all) 오류입니다. 이 오류를 해결하기 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. </p> <p>이 오류가 표시되면 <span class="wintitle"> DCS</span> 요청을 다시 시도하십시오. 문제가 계속되면 Adobe 담당자에게 문의하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>호스트 이름에 대한 구성을 찾을 수 없습니다. <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>요청에 전송된 호스트 이름이 파트너 프로비저닝 팀에서 설정하지 않았습니다. 이 오류 메시지가 표시되면 Adobe 담당자에게 문의하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>잘못된 <code> d_orgid</code> 값(이 조직 ID에 대한 구성을 찾을 수 없음): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>조직 ID가 잘못되었습니다. </p> <p>ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 보유하고 있는 경우 조직 및 계정 연결에 <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"></a> 대한 자세한 내용은 조직의 "관리 페이지" 섹션을 참조하십시오. </p> </td> 
-  </tr>
- </tbody>
-</table>
+|오류 코드|오류 메시지|설명|
+||—|—|—|
+|0|지정되지 않음 오류|다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 catch-all 오류입니다. 이 오류를 해결하기 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오.|
+|1|호스트 이름에 대한 구성을 찾을 수 없습니다. `hostname`|요청에서 보낸 호스트 이름이 파트너 제공 팀에서 설정하지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오.|
+|2|잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID`|조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 보유하고 있지 않은 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결에](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) 대한 자세한 내용을 참조하십시오.|
 
 ## 통합 오류 코드 {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 코드 ID </th> 
-   <th colname="col2" class="entry"> 메시지 </th> 
-   <th colname="col3" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>요청에 대한 호스트 이름을 검색할 수 없습니다. </p> </td> 
-   <td colname="col3"> <p>API 호출이 요청에서 호스트 HTTP 헤더를 보내지 않았습니다. </p> <p>호출에 호스트 헤더를 추가하고 다시 시도하십시오. 참고, 대부분의 브라우저와 API 클라이언트는 이 작업을 자동으로 수행합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>잘못된 Experience Cloud ID가 전달되었습니다. <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>DCS <span class="wintitle"></span> 호출에 잘못된 Experience Cloud <span class="keyword"></span> ID가 포함되어 있습니다. </p> <p>헤더 문자열에서 <code> d_mid=</code> 키-값 쌍을 확인합니다. 올바른 <span class="keyword"> Experience Cloud</span> ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>요청에 잘못된 aam ID가 전달되었습니다. <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>DCS <span class="wintitle"></span> 호출에 잘못된 Audience Manager <span class="keyword"></span> ID가 포함되어 있습니다. </p> <p>헤더 문자열에서 <code> d_uuid=</code> 키-값 쌍을 확인합니다. 올바른 <span class="keyword"> Audience Manager</span> ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>모든 고객 ID가 잘못되었습니다. </p> </td> 
-   <td colname="col3"> <p>호출의 모든 고객 ID가 잘못되었습니다. ID를 확인하고 다시 시도하십시오. </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>파트너 <code>HTTP referer</code> 에 대한 참조가 허용되지 않음 <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>호출의 <code>HTTP referer</code> 헤더는 호출의 파트너 ID에 대해 허용되지 않습니다. 헤더가 <code>HTTP referer</code> 올바른지 확인하십시오.</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>잘못된 <span class="wintitle"> IMS.</span> 토큰을 수신했습니다. </p> </td> 
-   <td colname="col3"> <p>Audience Manager - Adobe Target 통합을 위해 반환됩니다. 잘못된 IMS 토큰을 포함하는 DCS를 호출하면 오류가 발생합니다. 토큰의 형식이 잘못되었거나, 만료되었거나, 사용자에게 필요한 리소스에 액세스할 수 있는 권한이 없을 수 있습니다. </p> </td>
-  </tr>
- </tbody>
-</table>
+|오류 코드|오류 메시지|설명|
+||—|—|—|
+|100|요청에 대한 호스트 이름을 검색할 수 없습니다| [!DNL API] 호출에서 요청에 호스트 [!DNL HTTP] 헤더를 보내지 않았습니다. 호스트 헤더를 호출에 추가하고 다시 시도하십시오. 대부분의 브라우저와 [!DNL API] 클라이언트는 자동으로 이 작업을 수행합니다. |
+|101|잘못된 [!DNL Experience Cloud] ID가 전달되었습니다. `ID`| [!DNL DCS] 호출에 잘못된 [!DNL Experience Cloud] ID가 있습니다. 헤더 문자열에서 `d_mid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Experience Cloud] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
+|102|잘못된 [!DNL AAM ID] 합격 요청 `ID`| [!DNL DCS] 호출에 잘못된 [!DNL Audience Manager] ID가 있습니다. 헤더 문자열에서 `d_uuid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Audience Manager] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
+|104|모든 고객 ID가 잘못되었습니다. | 호출의 모든 고객 ID가 잘못되었습니다. ID를 확인하고 다시 시도하십시오.|
+|109|파트너 `HTTP referer` 에 대한 참조가 허용되지 않음 `Partner ID`|호출의 `HTTP referer` 헤더는 호출의 파트너 ID에 사용할 수 없습니다. 헤더가 `HTTP referer` 올바른지 확인하십시오.|
+|111|잘못된 토큰 `IMS` 을 받았습니다| [!DNL Audience Manager] 을(를) 통한 [!DNL Adobe Target] 통합입니다. 잘못된 [!DNL DCS][!DNL IMS] 토큰이 들어 있는 호출을 수행할 때 오류가 발생합니다. 토큰의 형식이 잘못되었거나, 만료되었거나, 사용자에게 필요한 리소스에 액세스할 수 있는 권한이 없을 수 있습니다.|
 
 ## 옵트아웃 오류 코드 {#opt-out-error-codes}
 

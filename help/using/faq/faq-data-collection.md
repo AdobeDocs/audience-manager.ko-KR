@@ -116,7 +116,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **[!UICONTROL DIL]이[!DNL Google Analytics]에서 데이터를 수집할 수 있습니까?**
 
-예. [!UICONTROL DIL]은 일부 [!DNL Google Analytics](GA) 요소를 수집하고 해당 데이터를 [!DNL Audience Manager]에 전달할 수 있습니다. 다음을 참조하십시오.
+예. [!UICONTROL DIL]은 일부 [!DNL Google Analytics] (GA) 요소를 수집하고 해당 데이터를 [!DNL Audience Manager]에 전달할 수 있습니다. 다음을 참조하십시오.
 
 * [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
 * [GA.init](../dil/dil-modules.md#ga-init)

@@ -1,19 +1,22 @@
 ---
-description: 이 문서에서는 데이터 개인 정보 요청에 사용할 수 있는 Audience Manager ID 유형에 대해 설명합니다.
-seo-description: 이 문서에서는 데이터 개인 정보 요청에 사용할 수 있는 Audience Manager ID 유형에 대해 설명합니다.
+description: 이 문서에서는 데이터 개인 정보 보호 요청에 사용할 수 있는 Audience Manager ID 유형에 대해 설명합니다.
+seo-description: 이 문서에서는 데이터 개인 정보 보호 요청에 사용할 수 있는 Audience Manager ID 유형에 대해 설명합니다.
 seo-title: Audience Manager 식별자(ID)
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
 title: Audience Manager 식별자(ID)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '253'
+ht-degree: 100%
 
 ---
 
 
 # Audience Manager 식별자(ID) {#aam-ids}
 
-Adobe Audience Manager에 [데이터 개인 정보 보호 요청을](data-privacy-requests.md) 제출할 때는 아래에 나열된 식별자(ID) 중 하나를 포함해야 합니다. ID 형식에 대한 자세한 내용은 Audience Manager ID의 [색인을 참조하십시오](../../reference/ids-in-aam.md).
+Adobe Audience Manager에 [데이터 개인 정보 보호 요청](data-privacy-requests.md)을 제출할 때는 아래에 나열된 식별자(ID) 중 하나를 포함해야 합니다. ID 형식에 대한 자세한 내용은 [Audience Manager ID 색인](../../reference/ids-in-aam.md)에 있습니다.
 
 ## Adobe Audience Manager 고유 사용자 ID
 
@@ -48,7 +51,7 @@ Adobe Audience Manager에 [데이터 개인 정보 보호 요청을](data-privac
 
 >[!NOTE]
 >
->You can also use the [!DNL CORE] namespace.
+>[!DNL CORE] 네임스페이스를 사용할 수도 있습니다.
 
 ```json
  "users": [
@@ -76,12 +79,12 @@ Adobe Audience Manager에 [데이터 개인 정보 보호 요청을](data-privac
 ## Adobe Experience Cloud ID
 
 * **사용자 ID**: `mid`
-* **정의**: [!DNL Adobe Experience Cloud ID], 이전에 [!DNL Visitor ID] or [!DNL Marketing Cloud ID]
+* **정의**: [!DNL Adobe Experience Cloud ID](이전에는 [!DNL Visitor ID] 또는 [!DNL Marketing Cloud ID]라고 함)
 * **네임스페이스 ID**: 4
 
 >[!NOTE]
 >
->You can also use the [!DNL ECID] namespace. 두 번째 [!DNL JSON] 예를 참조하십시오.
+>[!DNL ECID] 네임스페이스를 사용할 수도 있습니다. 두 번째 [!DNL JSON] 예를 참조하십시오.
 
 **JSON 예**:
 
@@ -131,13 +134,13 @@ Adobe Audience Manager에 [데이터 개인 정보 보호 요청을](data-privac
 ]
 ```
 
-## Customer ID
+## 고객 ID
 
 **사용자 ID**: `cid`
 
-**정의**: 익명의 사이트 방문자를 위해 설정한 쿠키나 오프라인 시스템 또는 해시된 사용자 이름의 [!DNL CRM] ID입니다.
+**정의**: 익명의 사이트 방문자에 대해 설정한 쿠키나 오프라인 시스템 또는 해시된 사용자 이름의 [!DNL CRM] ID와 같은 고객 ID
 
-**네임스페이스 ID**: 고객별 Audience Manager 인스턴스에서 찾으십시오.
+**네임스페이스 ID**: 고객별로 다름. Audience Manager 인스턴스에서 찾으십시오.
 
 **JSON 예**:
 
@@ -179,11 +182,11 @@ Adobe Audience Manager에 [데이터 개인 정보 보호 요청을](data-privac
 * [!DNL IDFA:] 20915
 * [!DNL GAID:] 20914
 
-자세한 내용은 [전역](../../features/global-data-sources.md) 데이터 소스를 참조하십시오.
+자세한 내용은 [글로벌 데이터 소스](../../features/global-data-sources.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
-> Mobile을 사용 중인 경우 [!DNL SDK]전체 액세스 및 삭제 응답을 위해 Experience Cloud ID(`MID`모바일 광고 ID)와 함께 전송해야 합니다.
+> Mobile [!DNL SDK]를 사용 중이라면 전체 액세스 및 삭제 응답을 위해 모바일 광고 ID와 함께 Experience Cloud ID(`MID`)도 전송해야 합니다.
 
 **JSON 예**:
 
@@ -214,7 +217,7 @@ Adobe Audience Manager에 [데이터 개인 정보 보호 요청을](data-privac
 
 **사용자 ID**: `d_cid_ic`
 
-**정의**: 데이터 소스에 대한 통합 코드입니다. 데이터 소스 ID/네임스페이스 ID 대신 사용할 수 [!DNL API] 있습니다 [!DNL Adobe Experience Cloud Privacy Core Service].
+**정의**: 데이터 소스에 대한 통합 코드. [!DNL Adobe Experience Cloud Privacy Core Service]에 제출하는 [!DNL API] 요청에서 데이터 소스 ID / 네임스페이스 ID 대신 사용할 수 있습니다.
 
 **네임스페이스 ID**: 해당 사항 없음
 

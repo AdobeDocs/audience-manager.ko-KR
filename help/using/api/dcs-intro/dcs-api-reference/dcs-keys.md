@@ -7,15 +7,15 @@ title: DCS API 호출에 지원되는 특성
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 6%
+source-wordcount: '806'
+ht-degree: 5%
 
 ---
 
 
-# DCS API 호출에 지원되는 특성 {#supported-attributes-for-dcs-api-calls}
+# 호출을 위한 [!DNL DCS] 지원되는 [!DNL API] 속성 {#supported-attributes-for-dcs-api-calls}
 
 구문과 지원되는 속성(또는 키-값 쌍)을 [!UICONTROL Data Collection Servers] ([!DNL DCS])에 전달하고 설명합니다. 이 정보는 [!DNL DCS] 요청의 형식을 지정하고 이 시스템에서 반환된 매개 변수를 이해하는 데 도움이 됩니다.
 
@@ -50,9 +50,9 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## d_속성 {#d-attributes}
+## [!DNL d_] 속성 {#d-attributes}
 
-이 모든 것은 선택 사항이며, 단, [!DNL DCS] 응답을 [!DNL DCS] 반환하려면 필수 `d_rtbd=json` 가 됩니다.
+이 모든 것은 선택 사항이며, 이 경우 응답할 필요가 없습니다 [!DNL DCS]. 응답을 [!DNL DCS] 반환하려면 필수 `d_rtbd=json` 가 됩니다.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 

@@ -7,10 +7,10 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: 데이터 개인 정보 보호 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 63%
+source-wordcount: '1471'
+ht-degree: 56%
 
 ---
 
@@ -30,7 +30,7 @@ You can submit individual requests to access and delete consumer data from [!DNL
 * [Privacy Service UI](https://privacyui.cloud.adobe.io/) 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)에서 볼 수 있습니다.
 * **[!DNL Privacy Service API]** 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[!DNL API]에서,  참조는 [여기에서 볼 수 있습니다](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-개별 데이터 개인 정보 보호 요청을 보낼 때 각각의 해당 네임스페이스 ID(데이터 소스 ID)와 함께 **[Audience Manager 식별자](data-privacy-ids.md)**섹션에 설명된 대로 모든 Audience Manager ID를 제출할 수 있습니다.
+When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)**section, along with their respective namespace IDs (data source IDs).
 
 [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)는 데이터 액세스 요청과 데이터 삭제 요청, 이렇게 두 가지 유형의 요청을 지원합니다.
 
@@ -44,9 +44,9 @@ You can submit individual requests to access and delete consumer data from [!DNL
 
 Adobe는 법률에 의해 지정된 기간 내에 데이터 개인 정보 보호 요청을 이행하기 위한 귀하의 노력을 이해합니다.
 
-## 데이터 삭제 요청{#delete-data}
+## 데이터 삭제 요청 {#delete-data}
 
-[Privacy Service UI](https://privacyui.cloud.adobe.io/)(설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md))를 이용하거나 [!DNL Privacy Service API](설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), API 참조는 [여기](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml))를 호출하여 데이터 삭제 요청을 보낼 수 있습니다.
+You can send data deletion requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io/) (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the [!DNL Privacy Service API] (documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
 [Privacy Service UI](https://privacyui.cloud.adobe.io/)를 사용하면 [!UICONTROL Request Builder]를 사용하거나 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 
@@ -56,7 +56,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 In response to your consumer data deletion requests, [!DNL Audience Manager] deletes traits and segments associated with the [!DNL Audience Manager] identifier included in the request. Additionally, the respective [!DNL Audience Manager] identifiers for the individual opted out of further data collection by [!DNL Audience Manager] and the respective ID mappings will be removed.
 
-When you send declared IDs, such as cross device [!DNL CRM] IDs or cookie IDs, in data privacy requests, [!DNL Audience Manager] will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
+When you send declared IDs, such as cross device [!DNL CRM] IDs or [!DNL cookie] IDs, in data privacy requests, [!DNL Audience Manager] will perform the necessary deletion on all the linked devices (up to 100 devices per declared ID).
 
 [!DNL Audience Manager] 는 특정 데이터 삭제를 요청하는 데이터 주체의 정보를 분류하지 않고 보내어 삭제 요청에 대해 정품 인증 파트너에게 통보하려고 합니다. 그러나 일부 활성화 파트너는
 
@@ -124,14 +124,14 @@ The partner-level opt-out allows you to opt-out your users from data collection 
 * [CRM ID](../../reference/ids-in-aam.md)에 연결된 마지막 장치 ID([Audience Manager 고유 사용자 ID](../../reference/ids-in-aam.md))가 데이터 수집에서 옵트아웃됩니다.
 * [!DNL Audience Manager] 이 ID와 ID에 연결된 마지막 장치 ID에 대해 앞으로 모든 데이터 수집, 세그멘테이션 또는 활성화를 [!DNL CRM] [!DNL CRM] 중단합니다.
 * [!DNL Audience Manager] 모든 세그먼트에서 옵트아웃 [!DNL CRM] ID 및 마지막 장치 ID를 세그먼트화할 수 없습니다.
-* Destination partners receive the unsegment request for the [!DNL CRM] ID and last device ID. 세그먼테이션 해제는 [실시간](data-privacy-requests.md#aam-partners-with-unsegmentation) 대상과 배치 대상 모두에 대해 작동합니다.
+* [!UICONTROL Destination] 파트너는 [!DNL CRM] ID 및 마지막 장치 ID에 대한 세그먼트 해제 요청을 받습니다. 세그먼테이션 해제는 [실시간](data-privacy-requests.md#aam-partners-with-unsegmentation) 대상과 배치 대상 모두에 대해 작동합니다.
 * 이전 데이터는 삭제되지 않습니다.
 
 When [!DNL Audience Manager] receives a partner-level opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the [!DNL Audience Manager] user ID.
 
 `d_cid` 및 `d_cid_ic` 키-값 쌍으로 선언된 ID 옵트아웃 요청을 만들 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
-#### CID 및 CID_IC를 사용한 옵트아웃
+#### 수신 거부 [!DNL CID] 및 [!DNL CID_IC]
 
 설명 및 구문이 필요하면 [선언된 ID에 대한 URL 변수 및 구문](../../features/declared-ids.md#variables-and-syntax)을 참조하십시오.
 
@@ -162,7 +162,7 @@ The partner-level opt-out allows you to opt-out your users from data collection 
 * 대상 파트너가 장치 ID에 대한 세그먼트 해제 요청을 받습니다. 세그먼테이션 해제는 [실시간](data-privacy-requests.md#aam-partners-with-unsegmentation) 대상과 배치 대상 모두에 대해 작동합니다.
 * 이전 데이터는 삭제되지 않습니다.
 
-## 세그먼테이션 해제 기능이 있는 Audience Manager 파트너 {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] 세분화 기능을 갖춘 파트너 {#aam-partners-with-unsegmentation}
 
 In order to help you automate your consumer data privacy requests, [!DNL Audience Manager] will attempt to notify activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
 
@@ -177,6 +177,6 @@ In those cases, you are not able to send delete requests to activation partners 
 
 ## 데이터 수정 요청 {#correction}
 
-Given that [!DNL Audience Manager] is not the source of the data, there is a limited role for data correction in [!DNL Audience Manager]. 수정은 소비자가 잘못된 트레이트/세그먼트로부터 자격을 해제하거나 원하는 트레이트/세그먼트에 대해 자격을 달라고 요청했음을 의미할 수 있습니다.
+Given that [!DNL Audience Manager] is not the source of the data, there is a limited role for data correction in [!DNL Audience Manager]. The correction could mean that the consumer has requested to either be disqualified from an incorrect [!UICONTROL trait]/[!UICONTROL segment] or qualified to the desired [!UICONTROL trait]/[!UICONTROL segment].
 
-[!DNL Audience Manager] 고객은 사용자 프로필에 대해 관련 신호/특성/세그먼트를 캡처하고 [오프라인 데이터 수집으로 이 정보를 전송할 수](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) 있습니다 [!DNL Audience Manager]. 사용자는 해당 동작을 반복하는 경우 원래의 트레이트 및 세그먼트에 대한 자격을 계속 갖게 됩니다.
+[!DNL Audience Manager] 고객은 사용자 프로필에 대해 관련 신호/특성/세그먼트를 캡처하고 [오프라인 데이터 수집으로 이 정보를 전송할 수](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) 있습니다 [!DNL Audience Manager]. Please note that the user will continue to get qualified to the original [!UICONTROL trait] and [!UICONTROL segments] if they repeat their behavior.

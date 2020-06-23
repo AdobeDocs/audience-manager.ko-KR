@@ -6,15 +6,15 @@ solution: Audience Manager
 title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 7%
+source-wordcount: '1154'
+ht-degree: 6%
 
 ---
 
 
-# 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]인바운드 데이터 파일에 대한 이름 및 파일 크기 요구 사항{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 데이터를 보낼 때 따라야 하는 필수 필드, 구문, 이름 지정 규칙 및 파일 크기에 대해 설명합니다 [!DNL Audience Manager]. 데이터를 [!DNL Audience Manager] / [!DNL Amazon S3] 디렉토리로 전송할 때 이러한 사양에 따라 파일의 이름과 크기를 설정할 수 있습니다.
 

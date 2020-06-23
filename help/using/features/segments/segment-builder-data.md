@@ -6,40 +6,31 @@ solution: Audience Manager
 title: 세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: 63d89cac2f18538f56e2f6d0f64257ea9b5788bd
+source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 3%
+source-wordcount: '1250'
+ht-degree: 2%
 
 ---
 
 
-# 세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터 {#trait-and-segment-population-data-in-segment-builder}
+# [!UICONTROL Trait] 및 [!UICONTROL Segment] 인구 데이터 [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-에 트레이트를 추가하거나 제거하여 실제 및 예상 세그먼트 인구 데이터와 함께 실제 트레이트 인구 [!UICONTROL Segment Builder] 를 확인할 수 있습니다. 예상 인구 크기 데이터는 캠페인에 적합한 세그먼트를 만드는 데 도움이 됩니다.
+에 추가 및 제거 [!UICONTROL traits] 를 [!UICONTROL Segment Builder] 통해 실제 [!UICONTROL trait] 모집단 및 예상 세그먼트 모집단 데이터를 볼 수 있습니다. 예상 인구 크기 데이터는 캠페인에 적합한 세그먼트를 만드는 데 도움이 됩니다.
 
-## 특성 인구 데이터 {#trait-population-data}
+## [!UICONTROL Trait] 모집단 데이터 {#trait-population-data}
 
-[!UICONTROL Segment Builder] 세그먼트에 트레이트를 추가할 때 마지막 날 [!UICONTROL Total Trait Population] 에 대해 보여줍니다. 이 데이터는 섹션에서 선택한 특성 주위의 파란색 필드에 [!UICONTROL Basic View] 나타납니다.
+[!UICONTROL Segment Builder] 세그먼트에 [!UICONTROL Total Trait Population] 를 추가할 때의 마지막 날 [!UICONTROL trait] 을 표시합니다. 이 데이터는 섹션에서 선택한 항목 주위의 파란색 필드 [!UICONTROL trait] 에 [!UICONTROL Basic View] 나타납니다.
 
 ![](assets/trait-size.png)
 
-다음 표에서는 특성 인구 지표를 정의합니다
+다음 표에서는 특성 인구 지표를 정의합니다.
 
-<table id="table_9D837CF9ACA04D04BEE5925EC0B4A5D2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 지표 </th> 
-   <th colname="col2" class="entry"> 설명 </th>
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> 총 특성 인구</span> </p> </td>
-   <td colname="col2"> <p>프로필에 선택된 트레이트를 가진 고유한 ID의 수입니다. </p> </td>
-  </tr> 
- </tbody> 
-</table>
+
+| 지표 | 설명 |
+---------|----------|
+| [!UICONTROL Total Trait Population] | 프로필에 선택된 트레이트를 가진 고유한 ID의 수입니다. |
+
 
 ## 실제 및 예상 세그먼트 모집단 계산 {#calculating-real-estimated-populations}
 
@@ -98,9 +89,9 @@ ht-degree: 3%
 
 [!UICONTROL Profile Merge Rules] 실제 실시간 및 총 인구 수에 영향을 줍니다. 이러한 합계는 세그먼트가 속한 [!UICONTROL Profile Merge Rule] 경우 장치 그래프 옵션을 사용할지 여부에 따라 달라집니다. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
 
-### 장치 그래프 옵션이 없는 병합 규칙에 대한 세그먼트 모집단 데이터
+### 세그먼트 모집단 데이터 [!UICONTROL Merge Rules] 를 [!UICONTROL Device Graph Option]
 
-다음 표는 장치 그래프 옵션 없이 만든 세그먼트가 사용될 때 실제 실시간 및 총 인구 지표를 [!UICONTROL Profile Merge Rule] 정의합니다. 장치 옵션 설정 **[!UICONTROL No Device Options]** 및 **[!UICONTROL Current Device Proflie]**&#x200B;입니다.
+다음 표에서는 옵션 없이 만들어진 세그먼트가 사용될 때 실제 실시간 및 총 인구 지표를 [!UICONTROL Profile Merge Rule] [!UICONTROL device graph] 정의합니다. 장치 옵션 설정 **[!UICONTROL No Device Options]** 및 **[!UICONTROL Current Device Proflie]**&#x200B;입니다.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -125,36 +116,23 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-### 장치 그래프 옵션과 규칙 병합을 위한 세그먼트 모집단 데이터
+### 옵션 [!UICONTROL Merge Rules] 에 대한 세그먼트 모집단 [!UICONTROL Device Graph] 데이터
 
-다음 표는 장치 그래프 옵션으로 만든 세그먼트가 사용될 때 실제 실시간 및 총 인구 지표를 [!UICONTROL Profile Merge Rule] 정의합니다. 이러한 옵션은 사용자가 사용할 수 있는 장치 옵션 설정 [!UICONTROL Profile Link Device Graph], 장치 [!DNL Adobe] 그래프 및 기타 타사 장치 그래프 선택 사항입니다.
+다음 표에서는 옵션을 사용하여 만든 세그먼트가 사용될 때 실제 실시간 및 총 모집단 지표 [!UICONTROL Profile Merge Rule] 를 [!DNL device graph] 정의합니다. 이러한 장치 옵션 설정은 사용자 [!UICONTROL Profile Link Device Graph]가 사용할 수 있는 장치 옵션 [!DNL Adobe] 및 기타 타사 [!DNL device graph][!DNL device graph] 선택 사항입니다.
 
-<table id="table_157EC6E5B5C44EB899854CA10B090F60"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 지표 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> 실시간 모집단(기존)</span> </p> </td> 
-   <td colname="col2"> <p>디바이스 그래프로 연결된 최대 100개의 다른 디바이스 프로파일과 결합할 때 실시간으로 표시되는 실제 디바이스 수는 <span class="keyword"> Audience Manager에서</span>볼 때 세그먼트에 적용할 수 있는 트레이트를 포함합니다. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> 총 모집단(기존)</span> </p> </td> 
-   <td colname="col2"> <p>장치 그래프로 연결된 최대 100개의 다른 장치 프로파일과 병합했을 때 모두 세그먼트에 적합한 전체 장치 수입니다. </p> </td>
-  </tr>
- </tbody>
-</table>
+
+| 열 A | 열 B |
+---------|----------|
+| [!UICONTROL Real-Time Population (Existing) ] | 디바이스 그래프에 연결된 최대 100개의 다른 디바이스 프로파일과 병합하는 경우 Audience Manager에서 보는 즉시 세그먼트에 적용할 수 있는 트레이트가 포함된 현재 프로파일과 함께 실시간으로 표시되는 실제 디바이스 수입니다. |
+| [!UICONTROL Total Population (Existing)] | 장치 그래프로 연결된 최대 100개의 다른 장치 프로파일과 병합했을 때 모두 세그먼트에 적합한 전체 장치 수입니다. |
 
 ### 세그먼트 모집단을 계산할 때 최근 및 빈도 표현식에 따른 제한 사항
 
 [!UICONTROL Segment Builder] 최대 4개의 최근 및 빈도 표현식을 포함하는 세그먼트 규칙의 세그먼트 크기 견적 기능을 지원합니다. 세그먼트 규칙을 작성할 때 최근 및 빈도 표현식을 4개 이상 선택하면 세그먼트 견적 도구에서 모집단 추정을 할 때 오류가 표시됩니다.
 
-### 세그먼트 모집단을 계산할 때 병합 규칙으로 인한 제한
+### 세그먼트 모집단을 [!UICONTROL Merge Rules] 계산할 때 발생하는 제한 사항
 
-현재 세그먼트 크기 견적 도구가 프로필 병합 규칙을 설명하지 않으므로 알려진 제한이 있습니다. 예를 들어 인증된 프로필 **없음 + 현재 장치 프로필**&#x200B;병합 규칙이 있는 세그먼트를[봅니다](../../features/profile-merge-rules/merge-rule-definitions.md). 현재 세그먼트 추정 수치를 계산하는 방법 때문에 예상 모집단에는 인증된 프로필이 포함될 것입니다. 하지만 기존 세그먼트 모집단에서는 인증된 프로필을 올바로 무시합니다.
+현재 세그먼트 크기 견적 도구는 설명이 되지 않으므로 알려진 제한이 있습니다 [!UICONTROL profile merge rules]. 예를 들어, 병합 규칙이 있는 세그먼트를 **[!UICONTROL No Authenticated Profile + Current Device Profile]**[&#x200B;봅니다](../../features/profile-merge-rules/merge-rule-definitions.md). 현재 세그먼트 추정 수치를 계산하는 방법 때문에 예상 모집단에는 인증된 프로필이 포함될 것입니다. 하지만 기존 세그먼트 모집단에서는 인증된 프로필을 올바로 무시합니다.
 
 >[!MORELIKETHIS]
 >

@@ -6,17 +6,17 @@ solution: Audience Manager
 title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요구 사항
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 9%
 
 ---
 
 
-# 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요구 사항{#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP]인바운드 데이터 파일에 대한 이름 및 파일 크기 요구 사항{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Audience Manager으로 데이터를 보낼 때 따라야 하는 필수 필드, 구문, 이름 지정 규칙 및 파일 크기에 대해 설명합니다. Audience Manager [!DNL FTP] 디렉토리로 데이터를 전송할 때 이러한 사양에 따라 파일의 이름과 크기를 설정합니다.
+데이터를 보낼 때 따라야 하는 필수 필드, 구문, 이름 지정 규칙 및 파일 크기에 대해 설명합니다 [!DNL Audience Manager]. Audience Manager [!DNL FTP] 디렉토리로 데이터를 전송할 때 이러한 사양에 따라 파일의 이름과 크기를 설정합니다.
 
 >[!WARNING]
 >

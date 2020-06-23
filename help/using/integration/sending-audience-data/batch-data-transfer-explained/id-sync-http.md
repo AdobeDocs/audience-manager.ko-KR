@@ -6,19 +6,17 @@ solution: Audience Manager
 title: 인바운드 데이터 전송을 위한 ID 동기화
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 7%
 
 ---
 
 
-# 인바운드 데이터 전송을 위한 ID 동기화{#id-synchronization-for-inbound-data-transfers}
+# 인바운드 데이터 전송을 위한 ID 동기화 {#id-synchronization-for-inbound-data-transfers}
 
 공급업체와 공급업체 간의 사용자 ID를 동기화하는 초기 `HTTP` 호출에 사용되는 구문과 매개 변수에 대해 설명합니다 [!DNL Audience Manager]. 데이터 분류법을 다음으로 보낸 후에 ID 동기화를 시작할 수 있습니다 [!DNL Audience Manager].
-
-<!-- c_id_sync_in.xml -->
 
 ID 동기화는 인바운드, 비동기 데이터 전송 프로세스의 첫 번째 단계입니다. 이 단계에서 공급업체 [!DNL Audience Manager] 는 해당 사이트 방문자에 대해 ID를 비교하고 일치시킵니다. 예를 들어 [!DNL Audience Manager] 고객은 ID 123으로 사용자를 알 수 있습니다. 그러나 데이터 파트너는 ID 456으로 이 사용자를 식별할 수 있습니다. 동기화 프로세스를 통해 데이터 공급업체 [!DNL Audience Manager] 는 이러한 서로 다른 ID를 조정하고 각각의 시스템에서 사용자를 식별할 수 있습니다. 완료되면 [!DNL Audience Manager] , 타사 파트너에게는 네트워크에서 볼 수 있는 각 고유 사용자에 대해 해당 ID가 있어야 합니다.
 
@@ -73,7 +71,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
  </tbody> 
 </table>
 
-## 선언된 ID 이벤트 {#declared-id-event}
+## [!UICONTROL Declared ID] 이벤트 {#declared-id-event}
 
 자세한 내용은 [선언된 ID를 참조하십시오](../../../features/declared-ids.md).
 

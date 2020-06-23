@@ -7,15 +7,15 @@ solution: Audience Manager
 title: 대상 관리 모듈 구현
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 6%
+source-wordcount: '691'
+ht-degree: 5%
 
 ---
 
 
-# 데이터를 Adobe Analytics에서 Audience Manager로 전달하는 방법 {#implement-the-audience-management-module}
+# 데이터를 받는 방법 [!DNL Adobe Analytics] 으로 [!DNL Audience Manager] {#implement-the-audience-management-module}
 
 이 튜토리얼의 단계에 따라 페이지에서 [!DNL Analytics] 픽셀을 전송하도록 하는 대신 데이터 [!DNL Audience Manager] 를 전달하려면 이 [!DNL Audience Manager] 의 [!UICONTROL Data Integration Library] 단계를[!DNL DIL]따르십시오.
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 사용하는 태그 관리 솔루션에 따라 데이터 전달을 두 가지 방법 [!DNL Adobe Analytics] 으로 구현할 [!DNL Audience Manager]수 있습니다.
 
-### Adobe Experience Platform 시작을 사용한 구현
+### 구현에서 [!DNL Adobe Experience Platform Launch]
 
 [!DNL Adobe] 속성 [에서 Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) 확장 [!DNL Adobe Analytics] 을 사용하는 것이 좋습니다 [!DNL Audience Manager] . 이 경우 코드를 수동으로 복사할 필요가 없습니다. 대신 아래 이미지와 같이 확장자에서 데이터 공유를 [!DNL Analytics Launch] 활성화해야 합니다. 또한 [Adobe Analytics 익스텐션](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) 설명서를 참조하십시오.
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 
 ![Adobe Analytics 확장 프로그램에서 Audience Manager으로 데이터 공유를 활성화하는 방법](/help/using/integration/assets/analytics-to-aam.png)
 
-### Adobe DTM(Digital Tag Management) 또는 기타 태그 관리 솔루션을 사용한 구현
+### 기타 태그 관리 솔루션 [!DNL Adobe Digital Tag Management (DTM)] 을 사용한 구현
 
 >[!WARNING]
 >
@@ -82,12 +82,12 @@ s.AudienceManagement.setup({
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| `partner` | 필수. 이 이름은 사용자에게 할당된 파트너 이름입니다 [!DNL Adobe]. 이를 &quot;파트너 ID&quot; 또는 &quot;파트너 하위 도메인&quot;이라고도 합니다.  파트너 이름을 모르는 경우 [!DNL Adobe] 컨설턴트나 [고객 지원](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html) 센터에 문의하십시오. |
+| `partner` | 필수. 이 이름은 사용자에게 할당된 파트너 이름입니다 [!DNL Adobe]. 이것은 귀하의 [!UICONTROL partner ID] 또는 파트너 하위 도메인이라고도 합니다.  파트너 이름을 모르는 경우 [!DNL Adobe] 컨설턴트나 [고객 지원](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html) 센터에 문의하십시오. |
 | `containerNSID` | 필수. 대부분의 고객은 간편하게 설정할 수 있습니다 `"containerNSID":0` . 그러나 회사에서 ID를 다른 컨테이너와 동기화해야 하는 경우 여기에서 해당 컨테이너 ID를 지정할 수 있습니다. |
-| `uuidCookie` | 선택 사항입니다. 이 구성을 사용하면 퍼스트 파티 도메인에서 [!DNL Adobe] 쿠키를 설정할 수 있습니다. 이 쿠키에는 [UUID가 포함되어 있습니다](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | 필수. 버전 2.10 이상 `namespace` 과 함께 번들로 제공되는 [!DNL AudienceManagement] 모듈을 사용하는 경우 매개 변수가 [!UICONTROL AppMeasurement] 필요합니다. 이 [!UICONTROL AudienceManagement] 모듈에서는 [!UICONTROL Adobe Experience Platform Identity Service] 3.3 이상을 사용해야 합니다. <br> 이 [!UICONTROL Experience Cloud Organization ID] 는 회사가 제품 등록 시 제공하는 ID입니다 [!UICONTROL Experience Cloud]. 조직 및 계정 연결에서 회사 조직 [ID를 확인합니다](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
+| `uuidCookie` | 선택 사항입니다. 이 구성을 사용하면 퍼스트 파티 도메인에서 [!DNL Adobe] 쿠키를 설정할 수 있습니다. 여기에는 [!DNL cookie] UUID가 [포함됩니다](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | 필수. 버전 2.10 이상 `namespace` 과 함께 번들로 제공되는 [!DNL AudienceManagement] 모듈을 사용하는 경우 매개 변수가 [!UICONTROL AppMeasurement] 필요합니다. 이 [!UICONTROL AudienceManagement] 모듈에서는 [!UICONTROL Adobe Experience Platform Identity Service] 3.3 이상을 사용해야 합니다. <br><br>이 [!UICONTROL Experience Cloud Organization ID] 는 회사가 제품 등록 시 제공하는 ID입니다 [!UICONTROL Experience Cloud]. 조직 및 계정 연결에서 회사 조직 [ID를 확인합니다](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
 
-## 결과: Audience Manager으로 데이터 전달 {#results-data-forwarding}
+## 결과: 데이터 전달 대상 [!DNL Audience Manager] {#results-data-forwarding}
 
 구현에서 다음을 수행한 [!DNL Analytics] [!DNL Audience Manager] 후 데이터를 전송합니다.
 

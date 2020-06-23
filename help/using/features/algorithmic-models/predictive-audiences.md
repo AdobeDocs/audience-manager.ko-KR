@@ -5,9 +5,9 @@ seo-title: Predictive Audiences 개요
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 9%
 
 ---
@@ -111,7 +111,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
    >[!IMPORTANT]
    > 현재 예측 세그먼트 [!UICONTROL Total Segment Population] 가 0으로 표시되고, [아웃바운드 데이터 전송](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) 일괄 [!UICONTROL Predictive Audiences]수행은 지원되지 않습니다. 이 동작은 향후 업데이트 시 변경됩니다.
 * [!UICONTROL Predictive Audiences] 모든 자사 데이터 소스에서 자사 트레이트를 기반으로 고객 분류를 수행합니다.
-* 세그먼트 평가 [!UICONTROL Predictive Audiences] 는 계정에 정의된 기본값 **[!UICONTROL Profile Merge Rule]** 을 사용합니다. 자세한 내용은 [!UICONTROL Profile Merge Rules] 전용 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
+* 세그먼트 평가 [!UICONTROL Predictive Audiences] 는 계정에 정의된 기본값 **[!UICONTROL Profile Merge Rule]** 을 사용합니다. 자세한 내용은 [!UICONTROL Profile Merge Rules] 전용 [설명서를 참조하십시오](../profile-merge-rules/merge-rules-overview.md).
 * 일부 트레이트 및 세그먼트는 기준선 또는 대상 대상으로 지원되지 않습니다. [!UICONTROL Predictive Audiences] 다음 중 하나를 기준선 또는 대상 대상으로 선택할 때 모델이 저장되지 않습니다.
    * 예측 트레이트로 생성된 예측 트레이트 및 세그먼트
    * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) 트레이트 또는 세그먼트

@@ -7,33 +7,31 @@ solution: Audience Manager
 title: Audience Manager로 배치 데이터 보내기 개요
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 8%
+source-wordcount: '482'
+ht-degree: 6%
 
 ---
 
 
-# Audience Manager로 배치 데이터 보내기 개요 {#send-batch-data-to-audience-manager-overview}
+# 배치 데이터를 개요로 [!DNL Audience Manager] 보내기 {#send-batch-data-to-audience-manager-overview}
 
 다른 시스템(오프라인)의 데이터를 다른 시스템으로 가져오려는 기술 및 비기술 고객을 위한 개요입니다 [!DNL Audience Manager].
 
 ## 장점
 
-<!-- c_offline_to_online.xml -->
-
 다른 시스템의 데이터를 [!DNL Audience Manager] Adobe 시스템을 통해 가치를 이해하고 이전에 수집한 사용자 데이터를 활용할 수 있습니다. 여기에는 구매, 고객 설문 조사, 등록 데이터, 데이터베이스 등에 대한 [!DNL CRM] 정보가 포함됩니다. 각 통합은 자체적인 문제를 제시하지만, 이러한 공통적인 단계를 모두 공유합니다. 이 자료를 검토하여 오프라인 데이터를 온라인 상태로 만드는 데 필요한 노력을 줄일 수 있습니다.
 
 ## 1단계: 사용자 ID 동기화
 
-동기화 도중 클라이언트 및 해당 사용자에게 고유 ID를 [!DNL Audience Manager] 할당합니다. 이러한 ID를 각각 [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) [!UICONTROL Unique User ID] 와[!UICONTROL UUID]()라고 합니다. [!DNL Audience Manager] 및 [!UICONTROL DPID] [!UICONTROL UUID] 를 사용하여 사용자를 식별하고 특성, 세그먼트, 대상 그룹 및 보고를 위한 자격을 얻게 됩니다. 또한 데이터 수집 코드([!UICONTROL DIL])는 웹 사이트에서 방문자 데이터를 캡처하기 위해 이러한 ID를 찾습니다. 이 단계가 완료되면 오프라인 보관소에 [!DNL Audience Manager] 각 사용자 레코드에 대한 해당 ID가 포함되어야 합니다.
+동기화 도중 클라이언트 및 해당 사용자에게 고유 ID를 [!DNL Audience Manager] 할당합니다. 이러한 ID를 각각 [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) [!UICONTROL Unique User ID] 와[!UICONTROL UUID]()라고 합니다. [!DNL Audience Manager] 및 [!UICONTROL DPID] 를 사용하여 사용자를 식별하고 사용자 그룹 [!UICONTROL UUID] , [!UICONTROL traits][!UICONTROL segments]및 보고를 위한 자격을 얻습니다. 또한 데이터 수집 코드([!UICONTROL DIL])는 웹 사이트에서 방문자 데이터를 캡처하기 위해 이러한 ID를 찾습니다. 이 단계가 완료되면 오프라인 보관소에 [!DNL Audience Manager] 각 사용자 레코드에 대한 해당 ID가 포함되어야 합니다.
 
 이 단계에 대한 중요 고려 사항:
 
 * **클라이언트 ID 배치:** [!DNL Audience Manager] 클라이언트 ID가 웹 사이트에서 표시되는 위치를 알고 있어야 합니다(예: 쿠키, Analytics 변수, 페이지 코드 등에 저장되었는지).
 * **제외[!DNL PII]:** 사용자 ID에는 개인 식별 정보([!DNL PII])가 없어야 합니다.
-* **대/소문자 및 컨텐츠 민감도:** 실시간 데이터 동기화 중, 에 의해 사이트에서 캡처된 사용자 ID는 오프라인 저장소에서 전달된 ID와 일치해야 [!DNL Audience Manager] 합니다. 예를 들어, 오프라인 레코드가 에 대한 정보를 [!DNL User123][!DNL USER123]보유하고 있지만 사이트에서 해당 ID를 렌더링하면 Audience Manager은 이를 다른 방문자로 인식합니다. 따라서 이 방문자에 대한 온라인 정보는 오프라인 데이터베이스의 해당 레코드와 연결할 수 없습니다. ID가 정확히 일치해야 합니다.
+* **대/소문자 및 컨텐츠 민감도:** 실시간 데이터 동기화 중, 에 의해 사이트에서 캡처된 사용자 ID는 오프라인 저장소에서 전달된 ID와 일치해야 [!DNL Audience Manager] 합니다. 예를 들어, 오프라인 레코드가 에 대한 정보를 [!DNL User123]보유하고 있지만 사이트에서 해당 ID를 렌더링하면 이 ID를 다른 방문자로 [!DNL USER123][!DNL Audience Manager] 볼 수 있습니다. 따라서 이 방문자에 대한 온라인 정보는 오프라인 데이터베이스의 해당 레코드와 연결할 수 없습니다. ID가 정확히 일치해야 합니다.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 

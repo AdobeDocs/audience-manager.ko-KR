@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 배치 데이터 전송 프로세스 설명
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '209'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 ## 데이터 통합 단계
 
 1. 사용자가 고객 사이트를 방문합니다.
-1. Audience Manager 및 타사 데이터 제공자는 방문자에게 고유한 ID(일반적으로 쿠키와 함께)를 할당합니다.
-1. Audience Manager은 방문자 ID와 일치하도록 타사 데이터 공급자를 호출합니다.
-1. 일반적으로 일별 간격인 예약된 요청은 Audience Manager과 타사 데이터 공급자 간에 방문자 세그먼트 데이터를 교환합니다.
+1. [!DNL Audience Manager] 그리고 타사 데이터 공급자는 방문자에게 고유한 ID를 지정합니다(일반적으로 쿠키가 있음).
+1. [!DNL Audience Manager] 방문자 ID와 일치하도록 타사 데이터 공급자를 호출합니다.
+1. 일반적으로 일별 간격으로 예약된 요청은 방문자 세그먼트 데이터를 [!DNL Audience Manager] 타사 데이터 공급자와 교환합니다.
 1. 인바운드 [!UICONTROL Server-to-Server] 파일이 처리될 때마다 이메일은 파트너 솔루션에 전송되고, 구성된 경우 파트너에게 전송됩니다. 자세한 내용은 인바운드 [처리 후 파트너에게 메시지 샘플을 참조하십시오](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).

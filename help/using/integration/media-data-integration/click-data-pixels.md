@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 클릭 데이터 캡처
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 12%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # 픽셀 호출을 통해 캠페인 클릭 데이터 캡처 {#capturing-campaign-click-data-via-pixel-calls}
 
-클릭 추적은 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 [수집과](/help/using/integration/media-data-integration/impression-data-pixels.md)유사하게 이벤트 호출이 처리를 위해 Audience Manager 데이터 수집 서버([!DNL DCS])로 전송됩니다. 그런 다음 방문자는 의도한 웹 주소로 리디렉션됩니다.
+클릭 추적은 타사 크리에이티브를 위한 클릭 기반 활동을 기록하므로 캠페인 전체에서 방문자 참여를 측정할 수 있습니다. 노출 횟수 [수집과](/help/using/integration/media-data-integration/impression-data-pixels.md)유사하게, 처리를 위해 이벤트 호출이 [!DNL Audience Manager] 데이터 수집 서버([!DNL DCS])로 전송됩니다. 그런 다음 방문자는 의도한 웹 주소로 리디렉션됩니다.
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## 추가 기능 - 대상 최적화 보고서
+## 추가 기능 - [!UICONTROL Audience Optimization Reports]
 
 픽셀 호출을 사용하여 대상 최적화 보고서의 [성능을 강화할 수 있습니다](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 보고서 [에](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 강력한 픽셀을 사용하려면 메타데이터 파일에 대한 개요 및 매핑을 참조하십시오.
 

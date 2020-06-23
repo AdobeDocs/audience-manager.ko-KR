@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 데이터 개인 정보 보호 개요
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 68%
+source-wordcount: '485'
+ht-degree: 63%
 
 ---
 
@@ -27,13 +27,13 @@ The Data Privacy documentation describes [!DNL Audience Manager] integration and
 
 In our continuing support of this model, [!DNL Audience Manager] remains committed to providing you with the tools to help support your ability to provide  transparency and control to your consumers, while delivering personalized ads subject to the [Online Behavioral Advertising (OBA) Self-Regulatory Principles](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
-## GDPR {#gdpr}
+## [!DNL GDPR] {#gdpr}
 
-[GDPR(일반 개인정보보호 규정)](https://eugdpr.org/)에서는 **액세스 권한** 및 **잊혀질 권리** 등 유럽 연합 회원국을 위한 몇 가지 새로운 데이터 개인 정보 보호 권한을 도입했습니다. 이것은 귀사가 개인 데이터를 수집한 모든 대상 EU 사용자는 언제든지 자신의 데이터에 대한 액세스나 삭제를 요청할 수 있음을 의미합니다. 이러한 요청을 준수하지 않으면 귀사에 수백만 달러의 벌금이 부과될 수 있습니다.
+[GDPR(일반 개인정보보호 규정)](https://eugdpr.org/)에서는 **액세스 권한** 및 **잊혀질 권리** 등 유럽 연합 회원국을 위한 몇 가지 새로운 데이터 개인 정보 보호 권한을 도입했습니다. This means that any [!DNL EU] citizen whose personal data has been collected by your business can request to access or delete their data at any time. 이러한 요청을 준수하지 않으면 귀사에 수백만 달러의 벌금이 부과될 수 있습니다.
 
 To comply with [!DNL GDPR], [!DNL Audience Manager] supports data access and delete [requests](data-privacy-requests.md).
 
-## CPA {#ccpa}
+## [!DNL CCPA] {#ccpa}
 
 2020년 1월 1일부터 시행된 [CCPA(캘리포니아 소비자 개인 정보 보호법)](https://www.caprivacy.org/about)은 캘리포니아 주민들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 사업을 하는 특정 업체에 데이터 보호 책임을 부과합니다.
 

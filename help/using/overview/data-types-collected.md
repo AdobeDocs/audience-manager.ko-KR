@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 수집한 데이터 유형
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 69%
+source-wordcount: '867'
+ht-degree: 62%
 
 ---
 
@@ -30,12 +30,6 @@ ht-degree: 69%
 
 First-party data collection is a main [!DNL Audience Manager] feature. 이 핵심 기능은 자산 데이터를 마케팅 프로그램의 초석으로 사용하거나 다른 데이터 소스와 비교하여 타겟팅 및 모델링에 사용하려는 고객(게시자 또는 광고주)의 요구 사항을 해결합니다.
 
-<!-- 
-
-c_1st_party_data.xml
-
- -->
-
 [!DNL Audience Manager] 고객과 협력하여 데이터 전략을 파악한 다음 이 전략을 사용자 지정 데이터 수집 계획에 매핑합니다. Adobe의 파트너 솔루션팀은 귀사와 협력하여 웹 사이트에서 사이트, 원시 데이터 신호 및 기타 사용자 상호 작용을 평가합니다. Adobe는 이러한 정보를 바탕으로 귀사가 인벤토리의 다양한 페이지에서 사용자 수준 데이터 신호를 캡처하는 맞춤형 데이터 수집 전략을 작성하는 것을 지원하게 됩니다. 캡처된 데이터는 저장되며, 비즈니스 요구 사항이 변경될 때 언제든지 업데이트할 수 있는 사전 정의된 분류법에 다시 매핑됩니다.
 
 다음 예는 샘플 쇼핑 페이지에서 잠재적 데이터 요소를 캡처할 수 있는 방법을 보여줍니다.
@@ -47,7 +41,7 @@ c_1st_party_data.xml
 | 1 | **성별**. 쇼핑객의 이름은 보통 쇼핑객의 성별을 나타냅니다. 이 예에서, 쇼핑객의 이름은 Mary이고, 따라서 쇼핑객이 여성이라는 것을 알 수 있습니다. 이름은 Audience Manager가 저장하지 않습니다. |
 | 2 | **관심**. 장바구니에 있는 품목들은 다양한 관심사를 나타낼 수 있습니다. 이 예에서, Mary는 운동 장비에 많은 돈을 지출합니다. |
 | 3 | **주택 유형**. 배송 및/또는 청구 주소를 기반으로, Mary가 운동 장비를 자신을 위해 구입하는지 아니면 회사를 위해 구입하는지 유추할 수 있습니다. |
-| 4 | **위치**. [!DNL ZIP] 위치는 IP 주소보다 안정적입니다. |
+| 4 | **위치**. [!DNL ZIP] 위치는 [!DNL IP] 주소보다 안정적입니다. |
 | 5 | **프로모션 관련성**. 쇼핑객이 프로모션 코드나 기프트 카드를 사용한다면 이 쇼핑객은 싸고 질 좋은 물건을 찾아다니는 사람일 수 있습니다. |
 | 6 | **소비 능력**. Price data correlated with [!DNL ZIP+4] codes indicate spending power of a given location. |
 
@@ -57,12 +51,6 @@ After the raw data is collected, it gets mapped back to customer-defined traits 
 
 제2자 데이터는 전략적 비즈니스 파트너로부터 나옵니다(게시자 데이터가 아님). 이 정보는 자사 데이터처럼 수집 및 관리됩니다.
 
-<!-- 
-
-c_2nd_party_data.xml
-
- -->
-
 제2자 데이터 시나리오에서, 광고주는 자체 데이터 자산을 게시자에게 보내어 해당 정보를 게시자의 데이터와 결합한 다음 더 잘 타겟팅된 광고 프로그램을 실행할 수 있도록 합니다. 뿐만 아니라 게시자는 광고주와 파트너 관계를 맺어 대상 풀을 확장할 수 있습니다. In most cases, these arrangements involve contractual relationships limited to putting the [!DNL Audience Manager] container tag on the partner site to facilitate data collection and sharing.
 
 제2자 데이터 수집 및 리마케팅의 한 예에는 의류 소매 업체가 자사 제품에 대한 데이터를 수집한 다음 이 정보를 주요 파트너와 공유하는 것이 있을 수 있습니다. In this case, the retailed could serve different ads across an [!DNL Audience Manager] partner site for consumers who chose various jacket colors and sizes.
@@ -71,15 +59,9 @@ c_2nd_party_data.xml
 
 ## 타사 데이터 수집 {#third-party-data}
 
-타사 데이터는 Audience Manager 외부의 공급업체가 수집하고 공유하는 정보입니다.
+Third-party data is information collected and shared by vendors outside of [!DNL Audience Manager].
 
-<!-- 
-
-c_3rd_party_data.xml
-
- -->
-
-타사 데이터는 기존 데이터 세그먼트(예: 연령, 가구 소득 등)에 자격을 부여하고, 수요가 있지만 구할 수 없는 데이터를 제공하는 데 사용하거나, 자사 데이터와 제2자 데이터의 알려진 사용자 기반과 비교하는 유사 모델링에 사용할 수 있습니다. [!DNL Audience Manager] 다양한 타사 데이터 제공업체와 협력하여 데이터 제공업체가 수집하는 데이터의 유형을 파악하고 각 제공업체와 적절한 전략적 거래를 할 수 있도록 지원합니다.
+Third-party data can be used to qualify existing data [!UICONTROL segments] (for example, age, household income, and so forth), provide data that is in demand but not otherwise available, or be used in lookalike modeling against a known user base from first-party and second-party data. [!DNL Audience Manager] 다양한 타사 데이터 제공업체와 협력하여 데이터 제공업체가 수집하는 데이터의 유형을 파악하고 각 제공업체와 적절한 전략적 거래를 할 수 있도록 지원합니다.
 
 >[!NOTE]
 >

@@ -7,23 +7,21 @@ solution: Audience Manager
 title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 6%
+source-wordcount: '1860'
+ht-degree: 4%
 
 ---
 
 
-# 고객 데이터 피드 {#customer-data-feeds}
+# [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 ( [!UICONTROL Customer Data Feed] ) 파일에 대한 기본 정보[!UICONTROL CDF]및 시작하는 방법에 대한 지침 파일 수수에 관심이 있거나 더 많은 정보를 원하는 경우 여기에서 [!UICONTROL CDF] 시작하십시오.
 
 ## 파일 내용 및 목적 {#file-contents-purpose}
 
-<!-- cdf-intro.xml -->
-
-[!UICONTROL CDF] 파일에는 [!DNL Audience Manager] 이벤트 호출(`/event`)이 서버에 보내는 것과 동일한 데이터가 포함되어 있습니다. 여기에는 사용자 ID, 트레이트 ID, 세그먼트 ID 및 이벤트 호출로 캡처된 기타 모든 매개 변수 등의 데이터가 포함됩니다. 내부 [!DNL Audience Manager] 시스템은 이벤트 데이터를 [!UICONTROL CDF] 파일로 처리하며 컨텐츠는 설정된 순서로 표시되는 필드로 구성됩니다. [!DNL Audience Manager] 시마다 [!UICONTROL CDF] 파일을 생성하여 [!DNL Amazon S3] 서버의 안전한 고객별 버킷에 저장합니다. Adobe는 이러한 파일을 제공하므로 사용자 인터페이스가 설정한 제한 사항 이외의 [!DNL Audience Manager] 데이터를 사용하여 작업할 수 있습니다.
+[!UICONTROL CDF] 파일에는 [!DNL Audience Manager] 이벤트 호출(`/event`)이 서버에 보내는 것과 동일한 데이터가 포함되어 있습니다. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. 내부 [!DNL Audience Manager] 시스템은 이벤트 데이터를 [!UICONTROL CDF] 파일로 처리하며 컨텐츠는 설정된 순서로 표시되는 필드로 구성됩니다. [!DNL Audience Manager] 시마다 [!UICONTROL CDF] 파일을 생성하여 [!DNL Amazon S3] 서버의 안전한 고객별 버킷에 저장합니다. Adobe는 이러한 파일을 제공하므로 사용자 인터페이스가 설정한 제한 사항 이외의 [!DNL Audience Manager] 데이터를 사용하여 작업할 수 있습니다.
 
 >[!NOTE]
 >
@@ -42,13 +40,11 @@ ht-degree: 6%
 
 아래 섹션 및 [고객 데이터 피드](../faq/faq-cdf.md) FAQ를 통해 본 서비스에 더욱 익숙해질 수 있습니다.
 
-## 정의된 고객 데이터 피드 컨텐츠 {#cdf-defined}
+## [!UICONTROL Customer Data Feed] 정의된 콘텐츠 {#cdf-defined}
 
 모양에 따라 파일의 데이터 요소 및 배열을 [!UICONTROL CDF] 나열하고 정의합니다. 정의는 데이터 유형을 포함하지만 이 정보는 [!UICONTROL CDF] 파일의 일부가 아닙니다.
 
 ## 정의 {#definitions}
-
-<!-- cdf-contents-defined.xml -->
 
 파일에는 아래에 정의된 일부 또는 전체 필드가 포함되어 있습니다. [!UICONTROL CDF] 내부 파일 조직에 대한 자세한 내용은 [고객 데이터 피드 파일 구조를 참조하십시오](#cdf-file-structure).
 
@@ -123,13 +119,11 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## 고객 데이터 피드 파일 구조 {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] 파일 구조 {#cdf-file-structure}
 
 파일의 데이터 구조를 나열하고 [!UICONTROL CDF] 정의합니다. 여기에는 데이터 시퀀스, 필드 구분 기호 및 구분 기호, 데이터 파일 맵 및 샘플 파일이 포함됩니다.
 
 ## 데이터 필드 식별자 및 시퀀스 {#identifiers-and-sequence}
-
-<!-- cdf-file-structure.xml -->
 
 [!UICONTROL CDF] 파일에는 레이블이 지정된 열 또는 필드 머리글이 포함되어 있지 않습니다. 대신, [!UICONTROL CDF] 파일은 인쇄되지 않는 문자가 포함된 필드 및 배열을 [!DNL ASCII] 정의합니다. 또한 [!UICONTROL CDF] 파일에는 각 필드와 배열을 특정 순서로 나열합니다. 필드 식별자 및 순서를 이해하면 파일을 제대로 분석하는 데 도움이 됩니다.
 
@@ -170,7 +164,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## CDF 파일 맵 {#cdf-file-map}
+## [!UICONTROL CDF] 파일 맵 {#cdf-file-map}
 
 [!UICONTROL CDF] 파일 데이터는 아래에 표시된 순서대로 나타납니다.
 
@@ -178,21 +172,19 @@ ht-degree: 6%
 
 ## 스토리지 식별
 
-파일 [!UICONTROL CDF] 시작 및 종료의 배열은 `Ctrl + a` 필드 구분 기호로 끝납니다. 이렇게 하면 배열의 첫 번째 요소가 독립형 데이터 필드와 같이 표시됩니다. 예를 들어 실현된 트레이트 배열은 다음으로 시작됩니다 `^A1234`. 배열 구분 기호 및 ID는 이 항목 `^B5678` 뒤에 옵니다. 그 결과 실현된 트레이트 배열의 첫 번째 요소가 ID 5678(다음으로 시작됨)이라고 생각할 수 `^B`있습니다. 이러한 경우가 아니므로 데이터 파일의 순서와 구조에 익숙해야 합니다. 실현된 특성 배열의 첫 번째 요소(또는 [!UICONTROL CDF] `^A`파일의 다른 배열)가 다음으로 시작되더라도 파일의 모양 또는 위치 순서는 배열 시작을 정의합니다. 그리고 배열의 첫 번째 요소는 항상 이전 항목과 구분됩니다 `^A`.
+파일 [!UICONTROL CDF] 시작 및 종료의 배열은 `Ctrl + a` 필드 구분 기호로 끝납니다. 이렇게 하면 배열의 첫 번째 요소가 독립형 데이터 필드와 같이 표시됩니다. 예를 들어 실현 배열은 다음으로 [!UICONTROL traits] 시작합니다 `^A1234`. 배열 구분 기호 및 ID는 이 항목 `^B5678` 뒤에 옵니다. 따라서 실현된 배열의 첫 번째 요소는 ID 5678(다음으로 시작됨)이라고 생각할 수 [!UICONTROL traits] `^B`있습니다. 이러한 경우가 아니므로 데이터 파일의 순서와 구조에 익숙해야 합니다. 실현된 배열의 첫 번째 요소(또는 [!UICONTROL trait] 파일의 다른 배열)가 다음으로 시작되더라도 파일 [!UICONTROL CDF] `^A`의 모양 또는 위치 순서는 배열의 시작을 정의합니다. 그리고 배열의 첫 번째 요소는 항상 이전 항목과 구분됩니다 `^A`.
 
-## 샘플 CDF 파일 {#sample-file}
+## Sample [!UICONTROL CDF] File {#sample-file}
 
 샘플 [!UICONTROL CDF] 파일은 다음과 비슷합니다. 이 예제에 줄바꿈을 삽입하여 페이지에 맞출 수 있도록 했습니다.
 
 ![](assets/CDF-sample.png)
 
-## 고객 데이터 피드 파일 이름 지정 규칙 {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] 파일 이름 지정 규칙 {#cdf-naming-conventions}
 
 아래 섹션을 참조하여 파일 이름의 요소를 [!UICONTROL CDF] 정의합니다.
 
-## CDF 파일 이름: 구문 및 예 {#cdf-file-name}
-
-<!-- cdf-file-name.xml -->
+## [!UICONTROL CDF] 파일 이름: 구문 및 예 {#cdf-file-name}
 
 일반적인 [!UICONTROL CDF] 파일 이름에는 아래 나열된 요소가 포함됩니다. Note, *italics* indicates a variable placeholder:
 
@@ -210,7 +202,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 스토리지 [!DNL S3] 버킷에서 파일은 파트너 ID([!UICONTROL PID]), 일 및 시간별로 오름차순으로 정렬됩니다.
 
-## CDF 파일 이름 요소 정의 {#cdf-file-name-elements}
+## [!UICONTROL CDF] 정의된 파일 이름 요소 {#cdf-file-name-elements}
 
 다음 표에서는 [!UICONTROL CDF] 파일 이름의 요소를 나열하고 정의합니다.
 
@@ -253,13 +245,11 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
  </tbody> 
 </table>
 
-## Customer Data Feed File Processing Notifications {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] 파일 처리 알림 {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] 다운로드 준비가 되면 알 수 있도록 파일 `.info` 을 [!DNL S3] 디렉토리에 [!UICONTROL Customer Data File][!UICONTROL CDF]기록합니다. 또한 `.info` 파일에는 [!DNL JSON] [!UICONTROL CDF] 파일 컨텐츠에 대한 서식이 지정된 메타데이터도 포함되어 있습니다. 이 알림 파일에 사용되는 구문 및 필드에 대한 자세한 내용은 이 섹션을 검토하십시오.
 
 ## 샘플 정보 파일 {#sample-info-file}
-
-<!-- cdf-notifications.xml -->
 
 각 `.info` 파일에는 `Files` 및 `Totals` 섹션이 포함되어 있습니다. 섹션에는 `Files` 각 시간별 파일에 대한 특정 지표를 포함하는 배열이 포함되어 있습니다. 이 `Totals` 섹션에는 특정 날짜에 대해 모든 [!UICONTROL CDF] 파일에서 집계된 지표가 포함되어 있습니다. 파일의 내용은 다음 `.info` 예와 유사할 수 있습니다.
 
@@ -358,13 +348,11 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
  </tbody> 
 </table>
 
-## 고객 데이터 피드 파일 이름 시간 및 파일 컨텐츠 시간이 다릅니다. {#different-processing-times}
+## [!UICONTROL Customer Data Feed] 파일 이름 시간 및 파일 컨텐츠 시간이 다릅니다. {#different-processing-times}
 
 파일 이름 및 파일 내용에 타임스탬프가 들어 [!UICONTROL CDF] 있습니다. 이러한 타임스탬프는 동일한 [!UICONTROL CDF] 파일에 대해 다른 이벤트 프로세스를 기록합니다. 동일한 파일의 이름과 내용에 서로 다른 타임스탬프가 표시되는 것은 일반적이지 않습니다. 각 타임스탬프를 이해하면 이 데이터를 사용하여 작업하거나 시간별로 정렬하려고 할 때 일반적인 실수를 방지할 수 있습니다.
 
-## CDF 파일 타임스탬프 찾기 {#locating-timestamps}
-
-<!-- cdf-time-differences.xml -->
+## 파일 타임스탬프 [!UICONTROL CDF] 찾기 {#locating-timestamps}
 
 [!UICONTROL CDF] 파일은 두 개의 분리된 위치에서 시간을 다르게 기록합니다.
 

@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 인바운드 데이터 파일 내용 구문, 잘못된 문자, 변수 및 예제
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1193'
 ht-degree: 4%
 
 ---
@@ -78,9 +78,9 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-## 특성 ID 서식 지정 {#formatting-trait-ids}
+## 서식 [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-다음 표에서는 인바운드 데이터 파일에서 특성 이름 또는 ID를 식별하는 접두사를 설명합니다. 예제는 [샘플 파일을](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) 참조하십시오.
+다음 표에서는 인바운드 데이터 파일에서 이름 또는 ID를 식별하는 [!UICONTROL trait] 접두사를 설명합니다. 예제는 [샘플 파일을](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) 참조하십시오.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -124,13 +124,13 @@ ht-degree: 4%
  </tbody>
 </table>
 
-## 특성 ID, 사용자 ID 및 키-값 쌍의 잘못된 문자 {#invalid-chars}
+## 잘못된 문자 [!UICONTROL Trait IDs]와 [!UICONTROL User IDs] 키-값 쌍 {#invalid-chars}
 
-### 특성 ID
+### [!UICONTROL Trait IDs]
 
-특성 ID는 숫자 문자로만 구성됩니다. 인바운드 데이터 파일에 *온보딩된 특성만* 포함시키십시오. 인바운드 데이터 전송에서 다른 특성 유형은 처리하지 않습니다.
+[!UICONTROL Trait IDs] 숫자 문자로만 구성됩니다. 인바운드 데이터 파일 *에만[!UICONTROL onboarded traits]*포함시키십시오. 인바운드 데이터 전송에서 다른[!UICONTROL trait]유형은 처리하지 않습니다.
 
-### 사용자 ID
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -237,7 +237,7 @@ ht-degree: 4%
 
 ## 예제 매트릭스 {#examples-matrix}
 
-아래 차트에는 ID [유형](../../../reference/ids-in-aam.md) 및 프로필에 트레이트를 추가할 방법에 따라 인바운드 파일의 형식을 올바르게 지정하는 방법의 예가 나와 있습니다.
+아래 차트에는 ID [유형](../../../reference/ids-in-aam.md) 및 프로필에 추가하고자 하는 방법에 따라 인바운드 파일의 형식을 지정하는 올바른 방법에 대한 예 [!UICONTROL traits] 가 나와 있습니다.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -283,7 +283,7 @@ ht-degree: 4%
 
 ### Example 1 {#example-1}
 
-특성 ID를 사용하여 트레이트 자격 정보를 [!DNL Audience Manager] 전송합니다 [!DNL UUIDs].
+을 [!UICONTROL trait IDs] 사용하여 자격 [!UICONTROL trait] 정보를 [!DNL Audience Manager] [!DNL UUIDs]전송합니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -291,7 +291,7 @@ ht-degree: 4%
 
 ### Example 2 {#example-2}
 
-특성 ID를 사용하여 특성 결격 정보를 [!DNL Audience Manager] [!DNL UUIDs]보냅니다.
+을 [!UICONTROL trait IDs] 사용하여 [!UICONTROL trait] 자격 조건 [!DNL Audience Manager] [!DNL UUIDs]을 지정합니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -311,7 +311,7 @@ ht-degree: 4%
 
 ### Example 3 {#example-3}
 
-키-값 쌍으로 전송하여 특성 자격 정보를 추가할 수 [!DNL Audience Manager] 있습니다 [!DNL UUIDs].
+키-값 쌍으로 보내 [!UICONTROL trait] 자격 정보를 추가합니다 [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -325,7 +325,7 @@ ht-degree: 4%
 
 ### Example 4 {#example-4}
 
-특성 자격 정보를 전송하려면 ic 접두사를 [!DNL Audience Manager] 사용합니다 [!DNL UUIDs].
+접두사를 `ic` 사용하여 자격 [!UICONTROL trait] 정보를 [!DNL Audience Manager] [!DNL UUIDs]전송합니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -339,7 +339,7 @@ ht-degree: 4%
 
 ### Example 5 {#example-5}
 
-특성 ID를 사용하여 장치에 대한 트레이트 자격 정보를 [!DNL Android] 전송합니다.
+장치 [!UICONTROL trait IDs] 에 대한 [!UICONTROL trait] 자격 정보를 보내는 데 [!DNL Android] 사용합니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -347,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-특성 ID를 사용하여 장치에 대한 트레이트 결격 정보를 [!DNL Android] 전송합니다.
+장치 [!UICONTROL trait IDs] 에 대한 [!UICONTROL trait] 결격사유 정보를 전송하는 데 [!DNL Android] 사용합니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -367,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-장치에 대한 트레이트 자격 정보를 추가하려면 키-값 쌍을 [!DNL Android] 전송합니다.
+키-값 쌍으로 전송하여 장치의 [!UICONTROL trait] 자격 정보를 [!DNL Android] 추가합니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -381,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-장치 트레이트 자격 정보를 전송하려면 ic 접두사를 [!DNL Android] 사용하십시오.
+장치의 `ic` 자격 정보 [!UICONTROL trait] 를 전송하려면 접두사를 [!DNL Android] 사용하십시오.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -395,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-특성 ID를 사용하여 장치에 대한 트레이트 자격 정보를 [!DNL iOS] 전송합니다.
+장치 [!UICONTROL trait IDs] 에 대한 [!UICONTROL trait] 자격 정보를 보내는 데 [!DNL iOS] 사용합니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -403,7 +403,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 10 {#example-10}
 
-특성 ID를 사용하여 장치에 대한 트레이트 결격 정보를 [!DNL iOS] 전송합니다.
+장치 [!UICONTROL trait IDs] 에 대한 [!UICONTROL trait] 결격사유 정보를 전송하는 데 [!DNL iOS] 사용합니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -423,7 +423,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 11 {#example-11}
 
-장치에 대한 트레이트 자격 정보를 추가하려면 키-값 쌍을 [!DNL iOS] 전송합니다.
+키-값 쌍으로 전송하여 장치의 [!UICONTROL trait] 자격 정보를 [!DNL iOS] 추가합니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -437,7 +437,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 12 {#example-12}
 
-장치 트레이트 자격 정보를 전송하려면 ic 접두사를 [!DNL iOS] 사용하십시오.
+장치의 `ic` 자격 정보 [!UICONTROL trait] 를 전송하려면 접두사를 [!DNL iOS] 사용하십시오.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -451,7 +451,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 13 {#example-13}
 
-특성 ID를 사용하여 특성 자격 정보를 보낼 수 [!DNL DPUUIDs]있습니다.
+를 [!UICONTROL trait IDs] 사용하여 자격 [!UICONTROL trait] 정보를 보낼 수 [!DNL DPUUIDs]있습니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -459,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-특성 ID를 사용하여 특성 결격 정보를 전송합니다 [!DNL DPUUIDs].
+을 [!UICONTROL trait IDs] 사용하여 자격 [!UICONTROL trait] 상실 정보를 [!DNL DPUUIDs]전송합니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -479,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-키-값 쌍으로 전송하여 특성 자격 정보를 추가합니다 [!DNL DPUUIDs].
+키-값 쌍으로 보내 [!UICONTROL trait] 자격 정보를 추가합니다 [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -493,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-특성 자격 정보를 전송하려면 `ic` 접두사를 사용하십시오 [!DNL DPUUIDs].
+자격 정보 `ic` 를 전송하려면 [!UICONTROL trait] 접두사를 사용하십시오 [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626

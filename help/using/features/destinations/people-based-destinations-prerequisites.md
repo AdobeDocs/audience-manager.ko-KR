@@ -5,9 +5,9 @@ seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
 solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 translation-type: tm+mt
-source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
+source-git-commit: 02bde5060d50ba581937c504331397dfbbcdc19f
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '953'
 ht-degree: 4%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 4%
 퍼스트 파티 대상 세그먼트 [!UICONTROL People-Based Destinations] 를 보낼 수 [!DNL LinkedIn]있으려면 [!DNL LinkedIn Campaign Manager] 계정에 권한 수준 [!DNL Creative Manager] 이상이 있는지 확인하십시오.
 
 사용자 권한을 편집하는 방법을 알아보려면 LinkedIn 문서에서 광고 계정 [!DNL LinkedIn Campaign Manager] 에 대한 사용자 권한 추가, 편집 및 [](https://www.linkedin.com/help/lms/answer/5753) 제거를 참조하십시오.
+
+비디오 [지침은 LinkedIn 사람 기반 대상](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 이해 및 구성을 참조하십시오.
 
 ## 데이터 온보딩 {#data-onboarding}
 

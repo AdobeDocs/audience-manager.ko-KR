@@ -5,15 +5,15 @@ seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2449'
 ht-degree: 40%
 
 ---
 
 
-# IAB TCF를 위한 Audience Manager 플러그인 {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## 개요
 
@@ -43,6 +43,10 @@ Audience Manager은 사용자의 개인 정보 보호 선택 사항을 존중하
 
 * 모바일 장치 워크플로우
 * 세그먼트 내보내기에 동의 추가
+
+## Insight [!DNL IAB TCF v2.0] {#upgrading}
+
+구현을 [!DNL Audience Manager Plug-in for IAB TCF] v1.1에서 [!DNL IAB TCF] v2.0으로 업그레이드하거나 [!DNL IAB TCF] [!DNL IAB TCF] v2.0을 처음으로 활성화하는 고객은 아래 설명된 전제 조건 및 구현과 동일한 지침을 따라야 합니다.
 
 ## 사전 요구 사항 {#prerequisites}
 

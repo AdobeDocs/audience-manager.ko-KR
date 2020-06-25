@@ -5,9 +5,10 @@ seo-title: 암호 요구 사항, 잠긴 계정 및 잊어버린 암호
 solution: Audience Manager
 title: 암호 요구 사항, 잠긴 계정 및 잊어버린 암호
 uuid: bca892eb-3577-4382-8110-131f78d23069
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
-workflow-type: ht
+feature: reference
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 

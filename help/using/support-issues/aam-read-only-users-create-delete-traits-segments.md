@@ -4,9 +4,10 @@ seo-description: Overlap Reports 페이지에 트레이트나 세그먼트가 �
 seo-title: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
 solution: Audience Manager
 title: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
-translation-type: ht
-source-git-commit: 0487a15c5fcd0e653bedf0e7fd8326f5cc363660
-workflow-type: ht
+feature: support
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
 

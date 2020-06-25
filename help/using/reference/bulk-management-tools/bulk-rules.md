@@ -5,8 +5,12 @@ seo-title: 트레이트 규칙 및 세그먼트 규칙 만들기 또는 업데�
 solution: Audience Manager
 title: 트레이트 규칙 및 세그먼트 규칙 만들기 또는 업데이트
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 10%
 
 ---
 
@@ -23,38 +27,38 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 >[!NOTE]
 >
->[UI에 할당된 RBAC 그룹 권한은](../../features/administration/administration-overview.md) 에서 [!DNL Audience Manager] 적용됩니다 [!UICONTROL Bulk Management Tools].
+>[UI에 할당된 RBAC 그룹 권한](../../features/administration/administration-overview.md) 은 [!DNL Audience Manager] 에서 유지됩니다 [!UICONTROL Bulk Management Tools].
 
 ## 특성 규칙 사용 {#trait-rules}
 
-워크시트에서 특성 규칙 열은 부울 표현식, 비교 연산자 및 정규 표현식으로 구성된 규칙을 반환하고 수락합니다. 에서 특성 또는 세그먼트 빌더를 사용하여 규칙을 만들고 워크시트에 복사할 [!DNL Audience Manager] 수 있습니다. 또는 규칙 구문에 익숙한 경우 워크시트에 직접 표현식을 작성할 수 있습니다.
+워크시트에서 특성 규칙 열은 부울 표현식, 비교 연산자 및 정규 표현식으로 구성된 규칙을 반환하고 허용합니다. 에 트레이트 또는 세그먼트 빌더가 있는 규칙 [!DNL Audience Manager] 을 만들어 워크시트에 복사할 수 있습니다. 또는 규칙 구문에 익숙한 경우 워크시트에 직접 표현식을 작성할 수 있습니다.
 
 ## 규칙 빌더 예 {#rule-builder-example}
 
-벌크 워크시트에 사용할 수 있는 규칙을 [!UICONTROL Segment Builder] 만드는 방법을 설명하는 예를 살펴보겠습니다. 그러나 이러한 도구에 대한 단계별 지침은 아닙니다. 대신 우리는 이미 만들어진 간단한 규칙으로 시작할 것입니다. 규칙 빌더를 사용하는 방법에 대한 지침은 세그먼트 빌더 및 [트레이트 빌더를](../../features/segments/segment-builder.md) [참조하십시오](../../features/traits/about-trait-builder.md).
+벌크 워크시트에 사용할 수 있는 규칙을 만드는 방법 [!UICONTROL Segment Builder] 을 보여주는 예를 살펴보겠습니다. 그러나 이러한 도구에 대한 단계별 지침은 아닙니다. 대신 우리는 이미 만들어진 간단한 규칙으로 시작할 것입니다. 규칙 빌더를 사용하는 방법에 대한 지침은 세그먼트 빌더 [및](../../features/segments/segment-builder.md) 트레이트 빌더를 [참조하십시오](../../features/traits/about-trait-builder.md).
 
-시각적 규칙 빌더를 사용하여 3개의 트레이트와 부울 [!UICONTROL AND] 연산자로 세그먼트 규칙을 만들었습니다.
+시각적인 규칙 빌더에서 3개의 트레이트와 부울 연산자로 세그먼트 규칙을 [!UICONTROL AND] 만들었습니다.
 
 ![](assets/visualrule.png)
 
-이 규칙의 텍스트 버전을 **[!UICONTROL Code View]** 가져오려면 클릭하십시오.
+이 규칙 **[!UICONTROL Code View]** 의 텍스트 버전을 가져오려면 클릭하십시오.
 
 >[!TIP]
 >
->을 **[!UICONTROL Validate Expression]** 클릭하여 규칙 논리를 확인합니다. 이로 인해 잘못된 규칙을 업로드하지 못할 수 있습니다.
+>규칙 논리 **[!UICONTROL Validate Expression]** 를 확인하려면 을(를) 클릭합니다. 이로 인해 잘못된 규칙을 업로드할 수 없습니다.
 
 ![](assets/coderule.png)
 
-규칙을 워크시트에 붙여 넣고 변경 내용을 커밋하여 세그먼트 규칙을 일괄적으로 업데이트합니다. [!UICONTROL Bulk Management Tools]
+규칙을 워크시트에 붙여 넣고 변경 내용을 [!UICONTROL Bulk Management Tools] 커밋하여 세그먼트 규칙을 일괄 업데이트합니다.
 
 ![](assets/segmentrule.png)
 
 ## 고유한 규칙 만들기 {#create-rules}
 
-자신의 규칙을 외부에서 작성할 수 [!UICONTROL Rule Builder]있습니다. 시작하기 전에 연산자, 표현식 및 필수 변수와 같은 내용을 다루는 설명서를 읽으십시오. 다음 사항을 검토하는 것이 좋습니다.
+당신은 자신의 규칙을 외부에서 작성할 수 있다 [!UICONTROL Rule Builder]. 시작하기 전에 연산자, 표현식 및 필수 변수와 같은 내용을 다루는 설명서를 반드시 읽어 보십시오. 다음 사항을 검토하는 것이 좋습니다.
 
-* [트레이트 빌더에서 비교 연산자를 사용한 작업](../../features/traits/trait-comparison-operators.md)
-* [작업 순서](../../features/traits/trait-operator-precedence.md)
+* [특성 빌더에서 비교 연산자를 사용한 작업](../../features/traits/trait-comparison-operators.md)
+* [운영 순서](../../features/traits/trait-operator-precedence.md)
 * [주요 변수의 접두사 요구 사항](../../features/traits/trait-variable-prefixes.md)
 * [부울 및 비교 연산자가 있는 샘플 표현식](../../features/traits/trait-expression-samples.md)
 

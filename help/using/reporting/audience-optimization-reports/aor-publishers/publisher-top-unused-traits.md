@@ -1,33 +1,37 @@
 ---
-description: 사용하지 않는 상위 트레이트는 트레이트 유형, 데이터 소스 및 성과를 기반으로 아직 세그먼트의 구성원이 아닌 트레이트의 분산형 다이어그램으로 표시됩니다.
-seo-description: 사용하지 않는 상위 트레이트는 트레이트 유형, 데이터 소스 및 성과를 기반으로 아직 세그먼트의 구성원이 아닌 트레이트의 분산형 다이어그램으로 표시됩니다.
-seo-title: 사용하지 않는 주요 트레이트
+description: 사용하지 않는 상위 트레이트는 트레이트 유형, 데이터 소스 및 성과를 기반으로, 아직 세그먼트의 구성원이 아닌 트레이트의 분산형 다이어그램으로 표시됩니다.
+seo-description: 사용하지 않는 상위 트레이트는 트레이트 유형, 데이터 소스 및 성과를 기반으로, 아직 세그먼트의 구성원이 아닌 트레이트의 분산형 다이어그램으로 표시됩니다.
+seo-title: 상위 사용하지 않는 특성
 solution: Audience Manager
-title: 사용하지 않는 주요 트레이트
+title: 상위 사용하지 않는 특성
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 2%
 
 ---
 
 
-# 사용하지 않는 주요 트레이트{#top-unused-traits}
+# 상위 사용하지 않는 특성{#top-unused-traits}
 
-사용하지 않는 상위 트레이트는 트레이트 유형, 데이터 소스 및 성과를 기반으로 아직 세그먼트의 구성원이 아닌 트레이트의 분산형 다이어그램으로 표시됩니다.
+사용하지 않는 상위 트레이트는 트레이트 유형, 데이터 소스 및 성과를 기반으로, 아직 세그먼트의 구성원이 아닌 트레이트의 분산형 다이어그램으로 표시됩니다.
 
 ## 사용 사례 {#use-cases}
 
-이 [!UICONTROL Top Unused Traits] 보고서를 사용하면 현재 세그먼트에 매핑되지 않은 자사 트레이트와 타사 트레이트의 성과를 분석하고 비교할 수 있습니다. 이 보기는 캠페인 최적화 또는 새로운 기회를 위한 대상 세그먼트에서 사용할 최상의 트레이트를 가리킬 수 있습니다.
+이 [!UICONTROL Top Unused Traits] 보고서를 사용하여 현재 세그먼트에 매핑되지 않은 자사 및 타사 트레이트의 성과를 분석하고 비교할 수 있습니다. 이 보기는 캠페인 최적화 또는 새로운 기회를 창출하기 위해 대상 세그먼트에서 사용할 최상의 트레이트를 가리킬 수 있습니다.
 
-## 사용하지 않는 상위 트레이트 보고서 사용 {#using-the-report}
+## 사용하지 않는 상위 특성 보고서 사용 {#using-the-report}
 
-컨트롤을 사용하여 **[!UICONTROL Data Provider Type]** 자사 트레이트와 타사 트레이트 간을 전환합니다. 보고서에서 자사 트레이트와 타사 트레이트를 **[!UICONTROL All]** 반환하려면 선택합니다.
+컨트롤을 사용하여 **[!UICONTROL Data Provider Type]** 자사 트레이트와 타사 트레이트 간을 전환합니다. 보고서에서 첫 번째 및 제3자 트레이트를 **[!UICONTROL All]** 반환하려면 선택합니다.
 
-슬라이더를 사용하여 **[!UICONTROL Impressions]** 반환되는 임프레션에 대한 최소값과 최대값을 선택할 수 있습니다. 설정한 제한보다 작거나 많은 특성에 책임이 있는 모든 트레이트는 보고서에 표시되지 않습니다.
+슬라이더를 사용하여 **[!UICONTROL Impressions]** 반환되는 임프레션에 대한 최소 및 최대 값을 선택할 수 있습니다. 설정한 제한보다 작거나 많은 특성에 대한 책임이 있는 모든 트레이트는 보고서에 표시되지 않습니다.
 
-컨트롤과 **[!UICONTROL Day Range]** 컨트롤을 사용하여 **[!UICONTROL Date Through]** 룩백 범위를 조정할 수 있습니다. 이 보고서에서는 30일 룩백 기간만 사용할 수 있습니다.
+모양 **[!UICONTROL Day Range]** 및 **[!UICONTROL Date Through]** 컨트롤을 사용하여 뒤로 범위를 조정합니다. 이 보고서에서는 30일 룩백 기간만 사용할 수 있습니다.
 
-드롭다운 상자를 사용하여 정보를 반환할 포트폴리오의 웹 속성을 선택합니다. **[!UICONTROL Order]**
+정보를 반환할 포트폴리오의 웹 속성을 선택하려면 **[!UICONTROL Order]** 드롭다운 상자를 사용합니다.
 
 드롭다운 **[!UICONTROL Data Provider]** 상자에서 보고서에 표시할 트레이트가 포함된 데이터 소스를 선택합니다.
 
@@ -35,13 +39,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!IMPORTANT]
 >
->활성화할 [!UICONTROL Audience Optimization for Publishers]때 DFP 데이터 파일을 Audience Manager로 가져오기 3단계에 설명된 [!UICONTROL Order IDs]대로 [에 대한 설명 메타데이터를 포함해야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 웹 속성이 [!UICONTROL Order] 아닌 웹 속성에 대한 세부 정보를 알 수 [!UICONTROL Order ID]있습니다.
+>활성화할 [!UICONTROL Audience Optimization for Publishers]때 DFP 데이터 파일을 Audience Manager으로 가져오기 [!UICONTROL Order IDs]의 3단계에 설명된 대로 설명 메타데이터를 [포함해야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 웹 속성 대신 웹 속성 [!UICONTROL Order] 을 자세히 설명합니다 [!UICONTROL Order ID].
 
 ## 결과 해석 {#interpreting-results}
 
 **샘플 보고서**
 
-보고서가 아래 보고서와 유사할 수 [!UICONTROL Top Unused Traits] 있습니다. 보고서에서 버블을 클릭하여 기본 데이터를 봅니다.
+보고서가 아래 보고서와 유사할 수 있습니다. [!UICONTROL Top Unused Traits] 보고서에서 버블을 클릭하여 기본 데이터를 봅니다.
 
 샘플 보고서 아래 표에 나와 있는 추가 정보는 설명을 참조하십시오.
 
@@ -57,15 +61,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 데이터 공급자 유형</span> </p> </td> 
-   <td colname="col2"> <p>선택한 데이터 소스에 퍼스트 파티 트레이트 또는 타사 트레이트가 포함되어 있는지 여부를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>선택한 데이터 소스에 자사 또는 타사 트레이트가 포함되어 있는지 여부를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 특성 ID</span> </p> </td> 
-   <td colname="col2"> <p>이 트레이트의 고유 ID입니다. </p> </td> 
+   <td colname="col2"> <p>이 트레이트의 고유 ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 특성 이름</span> </p> </td> 
-   <td colname="col2"> <p>사용자 또는 이 트레이트에 할당된 데이터 공급자의 영숫자 이름입니다. </p> </td> 
+   <td colname="col2"> <p>사용자 또는 이 트레이트에 지정된 데이터 제공자의 영숫자 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 주문</span> </p> </td> 
@@ -73,22 +77,22 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 노출 횟수</span> </p> </td> 
-   <td colname="col2"> <p>이 트레이트의 구성원이 인벤토리에 노출된 횟수입니다. </p> </td> 
+   <td colname="col2"> <p>이 특성 구성원이 인벤토리에 노출된 횟수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 특성 고유</span> </p> </td> 
-   <td colname="col2"> <p>지난 30일 이내에 있는 트레이트 멤버의 수입니다. </p> </td> 
+   <td colname="col2"> <p>지난 30일 이내의 트레이트 멤버 수입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ![](assets/publisher_unused_traits_final.png)
 
-보고서에서 트레이트의 위치는 기존 고객 세그먼트를 최적화하는 데 사용할 수 있는 트레이트에 대해 많이 알 수 있습니다.
+보고서에서 트레이트의 위치는 기존 대상 세그먼트를 최적화하는 데 사용할 수 있는 트레이트에 대해 많은 것을 알 수 있습니다.
 
-노출 수 축에 더 높은 트레이트는 캠페인에 사용할 트레이트입니다. 노출 횟수가 적은 트레이트의 경우 DFP 데이터를 기반으로 웹 속성에서 이 고객에게 도달하는 것은 쉽지 않습니다.
+노출 수 축에 더 높은 트레이트는 캠페인에 사용할 트레이트입니다. 노출 횟수가 적은 트레이트의 경우 DFP 데이터를 기반으로 웹 속성에서 이 사용자에게 도달할 가능성은 희박합니다.
 
-축 왼쪽을 보면 [!UICONTROL Unique Trait Realizations] 매우 정확한 트레이트가 있고, 오른쪽을 보면 비율을 높일 수 있는 트레이트가 있습니다.
+축 왼쪽을 [!UICONTROL Unique Trait Realizations] 보면 매우 정확한 트레이트가 표시되고 오른쪽에는 스케일링을 구동할 수 있는 트레이트가 표시됩니다.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
@@ -100,19 +104,19 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>왼쪽 위</b> </p> </td> 
-   <td colname="col2"> <p>노출 수, 트레이트 재조정 수 감소 </p> <p>이는 아직 세그먼트의 구성원이 아닌 매우 정확한 대상입니다. 타깃팅을 고려합니다. </p> </td> 
+   <td colname="col2"> <p>노출 수, 트레이트 재조정 수 감소. </p> <p>세그먼트에 아직 포함되지 않은 매우 정확한 대상입니다. 타깃팅을 고려합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>왼쪽 아래</b> </p> </td> 
-   <td colname="col2"> <p>노출 횟수, 트레이트 실현의 수 저하 </p> <p> 구성원이 웹 속성의 노출에 기여하지 않으므로 이러한 트레이트를 제외합니다. </p> </td> 
+   <td colname="col2"> <p>노출 횟수, 트레이트 재조정 수 낮음. </p> <p> 멤버가 웹 속성에 대한 노출에 기여하지 않으므로 이러한 트레이트를 제외합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>오른쪽 위</b> </p> </td> 
-   <td colname="col2"> <p>높은 노출 수, 높은 트레이트 실현률 </p> <p>세그먼트에 아직 표시되지 않은 대상에 대한 높은 도달 이 대상은 노출 수와 비율이 높기 때문에 타깃팅할 수 있는 주요 대상입니다. </p> </td> 
+   <td colname="col2"> <p>높은 노출 수, 높은 수의 트레이트 관계 </p> <p>세그먼트에 아직 표시되지 않은 대상에 대한 높은 도달 노출 수와 비율이 높기 때문에 이 대상은 타깃팅할 수 있는 주요 대상입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>오른쪽 아래</b> </p> </td> 
-   <td colname="col2"> <p>노출 횟수, 트레이트 실현의 수가 높습니다. </p> <p> 구성원이 웹 속성의 노출에 기여하지 않으므로 이러한 트레이트를 제외할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>노출 횟수, 트레이트 실현률 증가 수 </p> <p> 멤버가 웹 속성에 대한 노출에 기여하지 않으므로 이러한 트레이트를 제외할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

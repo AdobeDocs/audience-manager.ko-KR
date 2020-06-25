@@ -4,9 +4,10 @@ seo-description: 이 문서에서는 CCPA(캘리포니아 소비자 개인 정�
 seo-title: CCPA 용어집
 solution: Audience Manager
 title: CCPA 용어집
-translation-type: ht
-source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
-workflow-type: ht
+feature: data governance & privacy
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
 

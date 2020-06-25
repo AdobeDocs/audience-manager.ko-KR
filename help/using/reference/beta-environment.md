@@ -1,13 +1,17 @@
 ---
 description: 베타 환경은 Audience Manager 구현을 테스트하는 것입니다. 베타에서 변경한 내용은 프로덕션 데이터에 영향을 주지 않습니다. 베타 환경을 사용하려면 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
-keywords: 샌드박스
+keywords: sandbox
 seo-description: 베타 환경은 Audience Manager 구현을 테스트하는 것입니다. 베타에서 변경한 내용은 프로덕션 데이터에 영향을 주지 않습니다. 베타 환경을 사용하려면 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
 seo-title: 베타 환경
 solution: Audience Manager
 title: 베타 환경
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
+feature: reference
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +26,7 @@ source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 **업데이트 일정**
 
-베타 환경은 사용량이 적은 시간에 매월 말에 업데이트됩니다.
+베타 환경은 비성수기 동안 매월 말에 업데이트됩니다.
 
 **아웃바운드 트래픽**
 
@@ -43,17 +47,17 @@ Added re: AAM-30826.
 | S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의 | 베타 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3 [의 이점을](../reference/amazon-s3.md)확인하십시오. |
 | DCS | `https://dcs-beta.demdex.net/...` | 베타 [환경에서 DCS 액세스를 참조하십시오](../reference/beta-environment.md#access-dcs-beta-environment). |
 | UI | `https://bank-beta.demdex.com` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. |
-| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. 자세한 [내용을](../api/rest-api-main/aam-api-getting-started.md#requirements)참조하십시오. |
+| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. 자세한 [내용을 참조하십시오](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## 베타 환경에서 DCS 액세스 {#access-dcs-beta-environment}
 
-1. curl [명령을](https://curl.haxx.se/docs/manpage.html)사용하여 DCS 호출을 만듭니다. Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 데이터를 서버에서 서버로 전송하는 도구입니다.
+1. 말림 [명령을 사용하여 DCS 호출을 만듭니다](https://curl.haxx.se/docs/manpage.html). Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 데이터를 서버로부터 또는 서버로 전송하는 도구입니다.
 
    예:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. DCS 응답 헤더에서 "sandbox"를 검색하여 베타 DCS에서 요청이 제공되었는지 확인합니다.
+1. DCS 응답 헤더에서 &quot;샌드박스&quot;를 찾아 베타 DCS에서 요청이 제공되었는지 확인합니다.
 
    예:
 

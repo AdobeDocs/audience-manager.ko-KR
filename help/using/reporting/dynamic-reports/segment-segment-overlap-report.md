@@ -1,26 +1,27 @@
 ---
 description: 세그먼트 간에 공유되는 고유 사용자 수에 대한 데이터를 반환합니다.
 seo-description: 세그먼트 간에 공유되는 고유 사용자 수에 대한 데이터를 반환합니다.
-seo-title: 세그먼트-세그먼트 중복 보고서
+seo-title: 세그먼트-세그먼트 Overlap Reports
 solution: Audience Manager
-title: 세그먼트-세그먼트 중복 보고서
+title: 세그먼트-세그먼트 Overlap Reports
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
 
-# 세그먼트-세그먼트 중복 보고서{#segment-to-segment-overlap-report}
+# 세그먼트-세그먼트 Overlap Reports{#segment-to-segment-overlap-report}
 
 세그먼트 간에 공유되는 고유 사용자 수에 대한 데이터를 반환합니다.
 
 >[!NOTE]
 >
->Audience Manager의 중복 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 RBAC 사용자 그룹을 기준으로 액세스할 수 있는 데이터 소스의 [세그먼트만](/help/using/features/administration/administration-overview.md) 볼 수 있습니다.
+>Audience Manager의 겹치기 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 RBAC 사용자 그룹을 기준으로 액세스할 수 있는 데이터 소스의 [세그먼트만](/help/using/features/administration/administration-overview.md) 볼 수 있습니다.
 
 <!-- 
 
@@ -68,7 +69,7 @@ r_s2s_data_pop.xml
 | **[!UICONTROL Base Segment Uniques]** | 기본 세그먼트의 고유 방문자 수. |
 | **[!UICONTROL Base Segment Uniques]** | 겹치는 세그먼트에서 고유 방문자 수. |
 | **[!UICONTROL Overlapping Uniques]** | 비교 세그먼트 간에 공유된 고유 방문자 수. |
-| **[!UICONTROL Overlap %]** | 겹치는 비율을 얻기 위해 Audience Manager는 다음 공식을 사용합니다. 겹치는 고유 수 /(기본 세그먼트 고유 수 + 겹치는 세그먼트 고유 수 - 겹치는 고유 수) |
+| **[!UICONTROL Overlap %]** | 겹침 %를 가져오려면 Audience Manager에서 다음 공식을 사용합니다. 겹치는 고유 수 /(기본 세그먼트 고유 수 + 겹치는 세그먼트 고유 수 - 겹치는 고유 수) |
 
 
 
@@ -77,6 +78,6 @@ r_s2s_data_pop.xml
 >* [데이터 슬라이더를 사용하여 보고서 결과 필터링](../../reporting/dynamic-reports/data-sliders.md)
 >* [대화형 보고서에 사용되는 모양, 색상 및 크기](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [보고서 아이콘 및 도구 설명](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [중복 보고서: 업데이트 일정 및 최소 세그먼트 크기](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [선택한 Audience Manager 보고서의 데이터 샘플링 및 오류 비율...](../../reporting/report-sampling.md)
->* [중복 보고서에 대한 CSV 파일](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Overlap Reports: 일정 및 최소 세그먼트 크기 업데이트](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [선택한 Audience Manager 보고서의 데이터 샘플링 및 오류율...](../../reporting/report-sampling.md)
+>* [Overlap Reports에 대한 CSV 파일](../../reporting/dynamic-reports/overlap-csv-files.md)

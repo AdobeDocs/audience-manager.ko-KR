@@ -4,9 +4,10 @@ seo-description: 대상 세부 사항 페이지에 대상 랩 매핑 세그먼�
 seo-title: 대상 세부 사항 페이지에 대상 랩 매핑 세그먼트가 표시되지 않는 이유입니다.
 solution: Audience Manager
 title: 대상 세부 사항 페이지에 대상 랩 매핑 세그먼트가 표시되어야 합니까?
-translation-type: ht
-source-git-commit: dd68edc816c1739ec49f3178e776087d7737863b
-workflow-type: ht
+feature: support
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
 

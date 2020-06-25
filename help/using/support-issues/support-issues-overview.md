@@ -4,9 +4,10 @@ seo-description: 이 섹션에는 Audience Manager 고객 지원 센터에 보�
 seo-title: 지원 문제 개요
 solution: Audience Manager
 title: 지원 문제 개요
-translation-type: ht
-source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
-workflow-type: ht
+feature: support
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 

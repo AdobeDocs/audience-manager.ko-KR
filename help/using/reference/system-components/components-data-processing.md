@@ -5,11 +5,12 @@ seo-title: 데이터 처리 구성 요소
 solution: Audience Manager
 title: 데이터 처리 구성 요소
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
+feature: system components
 translation-type: tm+mt
-source-git-commit: 9a92420b1f0116c0fd71db56895720e0ee894f30
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -46,9 +47,9 @@ Hadoop [!DNL Audience Manager]은 사용자에 대해 모든 정보가 포함된
 
 이것은 종합적인 목록이 아니라 책임이 있는 일부 일반적인 대시보드 보고서 [!UICONTROL Snowflake] 가 포함됩니다.
 
-* [일별 특성 변형 보고서](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [일별 트레이트 변형 보고서](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * 모든 중복 보고서(각 중복 보고서에 대한 자세한 내용은 [대화형 보고서](/help/using/reporting/dynamic-reports/dynamic-reports.md) 섹션 참조).
-* [사용하지 않은 신호 보고서](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [사용되지 않은 신호 보고서](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 

@@ -1,20 +1,24 @@
 ---
-description: Audience Manager의 방문자 인증 상태는 새 특성 정보가 방문자의 인증된 프로필 또는 데이터가 수집된 장치 프로필에 기록되었는지 여부를 결정합니다. Audience Manager는 같은 방식으로 이벤트 호출에서 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 처리합니다.
+description: Audience Manager의 방문자 인증 상태는 새 특성 정보가 방문자의 인증된 프로필 또는 데이터가 수집되는 장치 프로필에 기록되었는지 여부를 결정합니다. Audience Manager은 같은 방식으로 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 이벤트 호출에서 처리합니다.
 keywords: dpm.demdex.net
-seo-description: Audience Manager의 방문자 인증 상태는 새 특성 정보가 방문자의 인증된 프로필 또는 데이터가 수집된 장치 프로필에 기록되었는지 여부를 결정합니다. Audience Manager는 같은 방식으로 이벤트 호출에서 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 처리합니다.
+seo-description: Audience Manager의 방문자 인증 상태는 새 특성 정보가 방문자의 인증된 프로필 또는 데이터가 수집되는 장치 프로필에 기록되었는지 여부를 결정합니다. Audience Manager은 같은 방식으로 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 이벤트 호출에서 처리합니다.
 seo-title: Audience Manager의 방문자 인증 상태
 solution: Audience Manager
 title: Audience Manager의 방문자 인증 상태
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
+feature: reference
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 5%
 
 ---
 
 
 # Audience Manager의 방문자 인증 상태{#visitor-authentication-states-in-audience-manager}
 
-Audience Manager의 방문자 인증 상태는 새 특성 정보가 방문자의 인증된 프로필 또는 데이터가 수집된 장치 프로필에 기록되었는지 여부를 결정합니다. Audience Manager는 같은 방식으로 이벤트 호출에서 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 처리합니다.
+Audience Manager의 방문자 인증 상태는 새 특성 정보가 방문자의 인증된 프로필 또는 데이터가 수집되는 장치 프로필에 기록되었는지 여부를 결정합니다. Audience Manager은 같은 방식으로 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 이벤트 호출에서 처리합니다.
 
 ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드에는 선택적 `AuthState` 개체가 포함됩니다. `AuthState` 인증 상태에 따라 방문자를 [식별합니다](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] 호출에서 전달된 인증 상태와 세그멘테이션에 사용하는 [프로필 병합 규칙에](../features/profile-merge-rules/merge-rules-dashboard.md) 따라 실현된 특성을 다르게 처리합니다.
 

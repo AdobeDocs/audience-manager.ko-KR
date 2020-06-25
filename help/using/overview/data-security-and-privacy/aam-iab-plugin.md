@@ -4,8 +4,9 @@ seo-description: Adobe는 옵트인 기능 및 IAB 투명성 및 동의 프레�
 seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 40e30379f051398a5f6c8ee7db49b6c5c5e146cd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 40%

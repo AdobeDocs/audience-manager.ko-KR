@@ -5,11 +5,12 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -23,7 +24,7 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
 To use `isCoopSafe` you must:
 
 * v6. [!UICONTROL DIL] 11 이상을 사용하십시오.
-* [Experience Cloud 장치 Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
+* [Experience Cloud 장치 Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
 
 * Work with your [!DNL Adobe] consultant to set an allowlist or a denylist flag on your Device Co-op account. 이러한 플래그를 활성화할 셀프 서비스 경로가 없습니다.
 

@@ -5,21 +5,25 @@ seo-title: 대상 만들기
 solution: Audience Manager
 title: 대상 만들기
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 9%
 
 ---
 
 
 # 대상 만들기 {#create-destinations}
 
-이러한 [!UICONTROL RESTful API] 방법으로 대상을 만듭니다.
+이러한 방법으로 대상을 [!UICONTROL RESTful API] 만듭니다.
 
 <!-- c_create_destinations.xml -->
 
-## 지원되는 대상 유형:URL 및 쿠키만
+## 지원되는 대상 유형: URL 및 쿠키만
 
-사용 가능한 `POST` 메서드를 사용하여 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 만들 수 있습니다. 현재 이러한 [!UICONTROL server-to-server destinations] 방법으로 만들 수 [!DNL REST API] 없습니다. 그러나 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 [!UICONTROL server-to-server destinations] 만든 정보를 검색할 수 있습니다.
+사용 가능한 `POST` 방법을 사용하면 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 만들 수 있습니다. 현재 이러한 방법 [!UICONTROL server-to-server destinations] 으로 만들 수 [!DNL REST API] 없습니다. 하지만 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 만든 정보를 검색할 [!UICONTROL server-to-server destinations] 수 있습니다.
 
 ## 비직렬 URL 대상 만들기 {#create-nonserial-dest}
 
@@ -33,7 +37,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-이 요청은 단일 대상을 만듭니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+이 요청은 단일 대상을 만듭니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -76,7 +80,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 직렬화된 URL 대상 만들기 {#create-serial-url-dest}
 
-단일 키와 연결된 여러 값을 허용하는 대상을 만들 수 있는 `POST` 방법입니다(예: `color=blue, red, green`).
+단일 키와 연관된 여러 값을 허용하는 대상을 만들 수 있는 `POST` `color=blue, red, green`방법입니다.
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -86,7 +90,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-대상에 전달된 키-값 쌍의 보안 [!DNL URL] 및 구분 기호를 지정합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+대상에 전달된 키 값 쌍에 대한 보안 [!DNL URL] 및 구분 기호를 지정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -102,7 +106,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 응답
 
-업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
 
 ```
 { 
@@ -130,9 +134,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 }
 ```
 
-## 쿠키 대상 만들기:단일 키, 일련 번호가 없는 {#create-cookie-dest-single}
+## 쿠키 대상 만들기: 단일 키, 일련 번호가 아님 {#create-cookie-dest-single}
 
-단일 키-값 쌍(예: `POST` 또는 [!UICONTROL cookie destination] )으로 구성된 세그먼트를 허용하는 방법을 만드는 `gender=male` `gender=female`방법입니다.
+단일 키-값 쌍(예: `POST` 또는 [!UICONTROL cookie destination] `gender=male` `gender=female`)으로 구성된 세그먼트를 허용하는 방법을 만드는 데 사용할 수 있습니다.
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -142,7 +146,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -167,7 +171,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 응답
 
-업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
 
 ```
 { 
@@ -199,9 +203,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 } 
 ```
 
-## 쿠키 대상 만들기:단일 키, 일련 번호 {#create-cookie-dest-single-serial}
+## 쿠키 대상 만들기: 단일 키, 일련 번호 {#create-cookie-dest-single-serial}
 
-단일 키와 연결된 여러 값을 허용하는 대상을 만들 수 있는 `POST` 방법입니다(예: `color=blue, red, green`).
+단일 키와 연관된 여러 값을 허용하는 대상을 만들 수 있는 `POST` `color=blue, red, green`방법입니다.
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -211,7 +215,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -237,7 +241,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 응답
 
-업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
 
 ```
 { 
@@ -270,9 +274,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 }
 ```
 
-## 쿠키 대상 만들기:다중 키, 일련 번호가 없는 {#create-cookie-dest-multi}
+## 쿠키 대상 만들기: 다중 키, 일련 번호가 지정되지 않음 {#create-cookie-dest-multi}
 
-값이 다른 여러 개의 키를 포함하는 세그먼트를 허용하는 대상을 만들 수 있는 `POST` 방법입니다(예: `gender=male; gender=female; color=blue; color=red`).
+값이 다른 여러 개의 키가 포함된 세그먼트를 허용하는 대상을 만들 수 있는 `POST` `gender=male; gender=female; color=blue; color=red`방법입니다.
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -282,7 +286,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -306,7 +310,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 응답
 
-업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
 
 ```
 { 
@@ -337,9 +341,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 }
 ```
 
-## 쿠키 대상 만들기:다중 키, 직렬화 {#create-cookie-dest-multi-serial}
+## 쿠키 대상 만들기: 다중 키, 직렬화 {#create-cookie-dest-multi-serial}
 
-여러 키와 값(예: `POST` `gender=male, female; color=blue, red, green`)을 포함하는 세그먼트를 허용하는 대상을 만들 수 있는 방법입니다.
+여러 개의 키와 값(예:, `POST` `gender=male, female; color=blue, red, green`)을 포함하는 세그먼트를 허용하는 대상을 만들 수 있는 방법입니다.
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -349,7 +353,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -374,7 +378,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 응답
 
-업데이트가 성공하면 응답 코드와 `201 created` 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
 
 ```
 { 
@@ -409,6 +413,6 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >[!MORELIKETHIS]
 >
 >* [대상](../../../features/destinations/destinations.md)
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [대상 정리](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 

@@ -1,25 +1,29 @@
 ---
-description: Rest API 메서드를 사용하여 개체 및 그룹에 대한 권한을 관리할 수 있습니다.
-seo-description: Rest API 메서드를 사용하여 개체 및 그룹에 대한 권한을 관리할 수 있습니다.
+description: 나머지 API 메서드를 사용하여 개체 및 그룹의 권한을 관리합니다.
+seo-description: 나머지 API 메서드를 사용하여 개체 및 그룹의 권한을 관리합니다.
 seo-title: 권한 관리 API 메서드
 solution: Audience Manager
 title: 권한 관리 API 메서드
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 14%
 
 ---
 
 
 # 권한 관리 API 메서드 {#permissions-management-api-methods}
 
-나머지 [!DNL API] 방법을 사용하여 개체 및 그룹에 대한 권한을 관리합니다.
+개체 및 그룹에 대한 권한을 관리하는 나머지 [!DNL API] 방법입니다.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## 사용 가능한 개체 유형 목록 {#list-object-types}
+## 사용 가능한 객체 유형 목록 {#list-object-types}
 
-역할 기반 액세스 컨트롤을 설정할 수 있는 사용 가능한 객체 유형을 나열하는 `GET` 방법입니다.
+역할 기반 액세스 컨트롤을 설정할 수 있는 사용 가능한 개체 유형을 나열하는 `GET` 방법입니다.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -54,4 +58,4 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 >[!NOTE]
 >
->개체 유형 TAGS 및 DERIVED SIGNATURES에는 사용할 일반 권한이 없습니다. 이러한 개체 유형에 대한 컨트롤은 모두 또는 아무 것도 와일드카드 권한으로만 변경됩니다.
+>개체 유형 TAGS 및 DERIVED SIGNATURES에는 사용할 일반 권한이 없습니다. 이러한 개체 유형에 대한 컨트롤은 모두 또는 [와일드카드 사용 권한 없음]으로만 변경됩니다.

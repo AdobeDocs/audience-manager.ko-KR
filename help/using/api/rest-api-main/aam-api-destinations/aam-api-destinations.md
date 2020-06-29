@@ -5,8 +5,12 @@ seo-title: 대상 API 메서드
 solution: Audience Manager
 title: 대상 API 메서드
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 15%
 
 ---
 
@@ -17,11 +21,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 <!-- c_destinations_api.xml -->
 
-Audience Manager에서 대상은 다른 시스템(광고 서버, [!DNL DSP]광고 네트워크, 교환, 자사 쿠키 등)입니다. 데이터를 공유할 수 있습니다.
+Audience Manager에서 대상은 다른 시스템(광고 서버, [!DNL DSP]광고 네트워크, 교환, 자사 쿠키 등)입니다. 입니다.
 
-## 대상 유형:URL 및 쿠키 {#destination-types}
+## 대상 유형: URL 및 쿠키 {#destination-types}
 
-매개 변수에 사용되는 변수를 `destinationType` 나열합니다. 또는 를 사용하여 `push` 또는 `ADS` 작업할 [!UICONTROL URL] 수 [!UICONTROL cookie destination]있습니다. 사용 가능한 대상 [!UICONTROL server-to-server destinations] [!DNL API] 메서드로 만들 수 없습니다.
+매개 변수에 사용되는 변수를 `destinationType` 나열합니다. 또는 `push``ADS` 으로 작업하거나 지정할 [!UICONTROL URL] 수 있습니다 [!UICONTROL cookie destination]. 사용 가능한 대상 메서드 [!UICONTROL server-to-server destinations] 로 만들 수 [!DNL API] 없습니다.
 
 <!-- r_destination_types.xml -->
 
@@ -32,5 +36,5 @@ Audience Manager에서 대상은 다른 시스템(광고 서버, [!DNL DSP]광�
 
 >[!MORELIKETHIS]
 >
->* [대상 유형을 선택하는 방법](../../../features/destinations/destinations.md)
+>* [대상 유형 선택 방법](../../../features/destinations/destinations.md)
 

@@ -4,9 +4,12 @@ seo-description: 글로벌 데이터 소스를 사용하여 장치 광고 ID를 
 seo-title: 글로벌 데이터 소스
 solution: Audience Manager
 title: 글로벌 데이터 소스
-uuid: null
+feature: Data Sources
 translation-type: tm+mt
-source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 5%
 
 ---
 
@@ -23,38 +26,38 @@ Global data sources are accessible by all Audience Manager customers and contain
 |---|---|
 | 20914 | **Google 광고 ID** - **** GAID는 [!DNL Android] 운영 체제를 실행하는 장치를 나타냅니다. |
 | 20915 | **광고용 Apple ID** - **** IDFA는 [!DNL iOS] 운영 체제를 실행하는 장치를 나타냅니다. |
-| 121963 | **광고에 대한 Roku ID** - **** RIDA는 [!DNL Roku] 스트리밍 장치를 나타냅니다. |
-| 389146 | **Microsoft Advertising** ID - **** MAID는 [!DNL Windows 10] 운영 체제를 실행하는 장치를 나타냅니다. |
-| 404660 | **삼성** DUID는 스마트 TV를 [!DNL Samsung] 나타냅니다. |
+| 121963 | **광고용 Roku ID** - **** RIDA는 [!DNL Roku] 스트리밍 장치를 나타냅니다. |
+| 389146 | **Microsoft Advertising ID** - **** WIDD는 운영 체제를 실행하는 장치를 [!DNL Windows 10] 나타냅니다. |
+| 404660 | **삼성**&#x200B;두드는 스마트TV를 [!DNL Samsung] 대표한다. |
 | 488258 | **Amazon Fire TV 광고** ID는 실행 중인 장치를 나타냅니다. [!DNL Amazon Fire OS] |
 
 ## 글로벌 데이터 소스에서 데이터 가져오기
 
-전역 데이터 소스에서 [실시간 데이터 전송](../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md) 및 [일괄 데이터 전송을](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)통해 장치 ID를 가져올 수 있습니다.
+글로벌 데이터 소스에서 [실시간 데이터 전송](../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md) 및 [일괄 데이터 전송을 통해 장치 ID를 가져올 수 있습니다](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md).
 
 >[!IMPORTANT]
 >
->글로벌 장치 ID를 사용하여 Audience Manager로 데이터를 보낼 때는 해당 장치 ID에 해당하는 데이터 소스를 사용해야 합니다. 예:데이터를 가져오려면 데이터 소스 ID [!DNL Apple IDFA]20915를 사용하십시오.
+>글로벌 장치 ID를 사용하여 데이터를 Audience Manager으로 보낼 때는 해당 장치 ID에 해당하는 데이터 소스를 사용해야 합니다. 예: 데이터를 가져오려면 데이터 소스 ID 20915 [!DNL Apple IDFA]를 사용하십시오.
 
 ## 제한
 
-운영 체제가 실행 [!DNL iOS] 및 [!DNL Android] 작동하는 장치에서는 기본 애플리케이션만 장치 광고 ID([!UICONTROL DAID]s)를 검색하고 사용할 수 있습니다. 모바일 브라우저에서 실행되는 웹 애플리케이션에는 장치 광고 ID에 대한 액세스 권한이 없습니다.
+운영 체제 [!DNL iOS] 와 [!DNL Android] 운영 체제를 실행하는 장치에서는 기본 애플리케이션만 장치 광고 ID를 검색하고 사용할 수[!UICONTROL DAID]있습니다. 모바일 브라우저에서 실행되는 웹 애플리케이션에는 장치 광고 ID에 액세스할 수 없습니다.
 
 ## 전역 장치 ID 유효성 검사
 
-Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) imported by customers, based on their format, to ensure they match the standard format outlined by device manufacturers. 장치 [광고 ID를 전역 데이터 소스에](../reference/ids-in-aam.md) 대한 자세한 매핑과 각 ID에 대한 올바른 형식은 Audience Manager의 ID 인덱스를 참조하십시오. 장치 유형에 따라 올바른 형식으로 장치 ID를 가져오는지 확인하십시오. Audience Manager는 올바른 형식을 충족하지 않는 장치 ID를 거부하고 ID가 거부되었음을 나타내는 오류 메시지를 반환합니다.
+Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) imported by customers, based on their format, to ensure they match the standard format outlined by device manufacturers. 장치 광고 ID를 전역 데이터 소스에 대한 자세한 매핑과 각 ID에 대한 적절한 형식에 대해서는 Audience Manager [의](../reference/ids-in-aam.md) ID 색인을 참조하십시오. 장치 유형에 따라 올바른 형식으로 장치 ID를 가져오는지 확인하십시오. Audience Manager은 올바른 형식을 충족하지 않는 장치 ID를 거부하며 ID가 거부되었음을 나타내는 오류 메시지를 반환합니다.
 
-* 배치 데이터 전송을 위한 오류 메시지는 다음과 같이 요약되어 있습니다.온보딩 [상태 보고서 용어 및 정의를 참조하십시오](../reporting/onboarding-status-report.md#report-terms-conditions).
-* 다음은 실시간 데이터 전송을 위한 오류 메시징에 대한 요약입니다.DCS [오류 코드, 메시지 및 예제를 참조하십시오](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
+* 배치 데이터 전송에 대한 오류 메시지는 다음과 같습니다. [온보딩 상태 보고서 용어 및 정의를 참조하십시오](../reporting/onboarding-status-report.md#report-terms-conditions).
+* 실시간 데이터 전송을 위한 오류 메시지는 다음과 같습니다. [DCS 오류 코드, 메시지 및 예제를 참조하십시오](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## 장치 ID 만료 정책
 
-Audience Manager는 AAM UUID와 유사하게 120일 동안 비활동 후 디바이스 광고 [ID를 자동으로](../faq/faq-privacy.md)삭제합니다.
+Audience Manager은 AAM UUID와 유사하게 120일 동안 비활동 후 디바이스 광고 ID를 [자동으로](../faq/faq-privacy.md)삭제합니다.
 
 ## 새 전역 데이터 소스 요청
 
-Audience Manager에 새로운 글로벌 데이터 소스를 추가하도록 요청하려면 Adobe Consulting 또는 Adobe 고객 지원 센터에 연락하여 필요한 데이터 소스에 대한 자세한 정보를 제공합니다.
+Audience Manager에 추가될 새로운 글로벌 데이터 소스를 요청하려면 Adobe 컨설팅 또는 Adobe 고객 지원 센터에 연락하여 필요한 데이터 소스에 대한 자세한 정보를 제공합니다.
 
 * 요청된 플랫폼의 이름(예: [!UICONTROL Apple IDFA]);
 * 플랫폼을 관리하는 회사/조직의 이름(예: [!UICONTROL Apple Inc.]);
-* 장치 광고 ID 네임스페이스에 대한 기술 사양(예: AdSupport [설명서)에 대한 링크](https://developer.apple.com/documentation/adsupport).
+* 장치 광고 ID 네임스페이스에 대한 기술 사양(예: [AdSupport 설명서](https://developer.apple.com/documentation/adsupport))에 연결합니다.

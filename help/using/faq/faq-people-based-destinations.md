@@ -4,9 +4,10 @@ seo-description: '사용자 기반 대상에 대한 일반적인 질문에 대�
 seo-title: 사용자 기반 대상 FAQ
 solution: Audience Manager
 title: 사용자 기반 대상 FAQ
-translation-type: ht
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
-workflow-type: ht
+feature: People-Based Destinations
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 100%
 

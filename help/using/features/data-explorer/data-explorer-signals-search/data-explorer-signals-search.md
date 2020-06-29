@@ -1,22 +1,26 @@
 ---
-description: 특정 기간 동안 받은 사용 및 사용되지 않은 신호를 검색합니다. 신호를 검색하려면 대상 데이터 > 신호 > 검색으로 이동합니다.
-seo-description: 특정 기간 동안 받은 사용 및 사용되지 않은 신호를 검색합니다. 신호를 검색하려면 대상 데이터 > 신호 > 검색으로 이동합니다.
+description: 특정 기간에 받은 사용 및 사용하지 않는 신호를 검색합니다. 신호를 검색하려면 대상 데이터 > 신호 > 검색으로 이동합니다.
+seo-description: 특정 기간에 받은 사용 및 사용하지 않는 신호를 검색합니다. 신호를 검색하려면 대상 데이터 > 신호 > 검색으로 이동합니다.
 seo-title: 신호 검색
 title: 신호 검색
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 64d0bdb8e7da43c2b467aef44cec2a185d1f79d7
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 29%
 
 ---
 
 
 # 신호 검색 개요 {#signals-search}
 
-특정 기간 동안 받은 사용 및 사용되지 않은 신호를 검색합니다. 신호를 검색하려면 대상 데이터 &gt; 신호 &gt; 검색으로 이동합니다.
+특정 기간에 받은 사용 및 사용하지 않는 신호를 검색합니다. 신호를 검색하려면 대상 데이터 > 신호 > 검색으로 이동합니다.
 
-* [키-값 쌍별 검색 신호](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
-* [필터별 검색 신호](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
+* [키-값 쌍으로 신호 검색](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
+* [필터로 신호 검색](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
 * [Adobe Analytics에 대한 고급 검색](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
 * [검색 결과 필터링](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [검색 기준 저장](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/25148/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25148/)

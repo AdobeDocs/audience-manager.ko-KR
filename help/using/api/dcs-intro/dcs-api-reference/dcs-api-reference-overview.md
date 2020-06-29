@@ -3,8 +3,9 @@ description: DCS API 코드, 메서드 및 프로세스에 대한 개념 정보,
 seo-description: AAM(Adobe Audience Manager)의 DCS API 코드, 메서드 및 프로세스에 대한 개념 정보, 설명 및 정의
 seo-title: AAM(Adobe Audience Manager)의 DCS API 참조 개요
 title: DCS API 참조 개요
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 13%

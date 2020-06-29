@@ -1,21 +1,25 @@
 ---
-description: DART Enterprise(및 기타 대상 유형)가 Audience Manager 고유 사용자 ID(UUID) 값을 캡처하는 데 필요한 코드입니다.
-seo-description: DART Enterprise(및 기타 대상 유형)가 Audience Manager 고유 사용자 ID(UUID) 값을 캡처하는 데 필요한 코드입니다.
+description: DART Enterprise(및 기타 대상 유형)가 UUID(Audience Manager 고유 사용자 ID) 값을 캡처하는 데 필요한 코드입니다.
+seo-description: DART Enterprise(및 기타 대상 유형)가 UUID(Audience Manager 고유 사용자 ID) 값을 캡처하는 데 필요한 코드입니다.
 seo-title: get_aamCookie 코드
 solution: Audience Manager
 title: get_aamCookie 코드
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: abb66d75a0d47f5257ea8c63bdb59e604db801d3
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 
 
 # `get_aamCookie` 코드 {#get-aamcookie-code}
 
-Audience Manager 고유 사용자 ID( [!DNL DART Enterprise] ) 값을 캡처하는 데 필요한[!DNL UUID](및 기타 대상 유형)의 코드입니다.
+Audience Manager 고유 사용자 ID( [!DNL DART Enterprise][!DNL UUID]ID) 값을 캡처하는 데 필요한 코드(및 기타 대상 유형)입니다.
 
-페이지 맨 위에 이 함수를 정의하면, 코드 블록 내에서 편리하게 사용할 수 `<head>` 있습니다.
+페이지 맨 위에 코드 블록 내에서 이 함수를 `<head>` 정의합니다.
 
 <!-- r_aam_de_cookie.xml -->
 

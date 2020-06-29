@@ -6,8 +6,12 @@ seo-title: 인스턴스 수준 DIL 메서드
 solution: Audience Manager
 title: 인스턴스 수준 DIL 메서드
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 15%
 
 ---
 
@@ -164,7 +168,7 @@ partnerObject.api.logs({
 
 ## 제출 {#submit}
 
-인스턴스에 대해 보류 중인 모든 데이터를 Audience Manager에 [!UICONTROL DIL] 제출합니다.
+인스턴스에 대해 모든 보류 중인 데이터를 Audience Manager에 [!UICONTROL DIL] 제출합니다.
 
 <!-- 
 
@@ -505,11 +509,11 @@ r_dil_idsync.xml
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간에 예를 들어 파트너 x은 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager에 보냅니다. </p> <p> <p><b>중요:</b>  이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByURL </code> 방법을 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간의 관계 예를 들어 파트너 x은 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager으로 보냅니다. </p> <p> <p><b>중요:</b>  이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByURL </code> 방법을 사용하십시오. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager로 보내려는 경우 </p> <p> <p><b>중요:</b>  이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByDataSource </code> 방법을 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager으로 보내려는 경우 </p> <p> <p><b>중요:</b>  이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByDataSource </code> 방법을 사용하십시오. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -718,9 +722,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [주요 변수의 이름 요구 사항](../features/traits/trait-key-name-requirements.md)
->* [키 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
+>* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
 >* [Adobe Experience Platform ID 서비스의 동기화 기능](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform Identity Service: UseBOULEVARDnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Adobe Experience Platform ID 서비스: UseBOULEVARDnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Adobe Experience Platform ID 서비스의 CORS 지원](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 

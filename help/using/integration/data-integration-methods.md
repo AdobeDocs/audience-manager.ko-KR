@@ -5,8 +5,9 @@ seo-title: 데이터 통합 방법
 solution: Audience Manager
 title: 데이터 통합 방법
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 1%
@@ -58,7 +59,7 @@ Audience Manager 데이터 통합 방법의 사용 사례 요약과 각 솔루�
 
 ### [!DNL Server-to-Server] 일괄 통합
 
-일괄 [!DNL server-to-server] 통합은 데이터를 번들로 묶어서 거의 실시간으로 이루어지는 것이 아니라 정해진 간격으로 다른 시스템으로 전송합니다. 데이터 전송 간격은 24시간에서 시작됩니다. 일부 데이터 공급자는 이 통합 유형만 지원합니다. 하지만 일괄 통합에서 실시간 통합 방법론으로 이어지는 일반적인 트렌드가 나타났습니다.
+일괄 [!DNL server-to-server] 통합은 데이터를 번들로 묶어서 거의 실시간으로 이루어지는 것이 아니라 정해진 간격으로 다른 시스템으로 전송합니다. 데이터 전송 간격이 24시간에서 시작됩니다. 일부 데이터 공급자는 이 통합 유형만 지원합니다. 하지만 일괄 통합에서 실시간 통합 방법론으로 이어지는 일반적인 트렌드가 나타났습니다.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">

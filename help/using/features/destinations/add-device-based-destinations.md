@@ -4,8 +4,9 @@ seo-description: 이 문서에서는 Audience Manager 사용자 인터페이스�
 seo-title: 새 장치 기반 대상 추가
 solution: Audience Manager
 title: 새 장치 기반 대상 추가
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 4%

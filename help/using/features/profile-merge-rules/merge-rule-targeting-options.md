@@ -1,17 +1,21 @@
 ---
 description: 프로필 병합 규칙 옵션을 사용하면 비즈니스 요구 사항이나 목표에 따라 특정 대상에 대한 고객 초점을 늘리거나 줄일 수 있습니다. 이러한 일반적인 사용 사례에서는 사용 가능한 옵션을 사용하고 개별, 가정 및 크로스 디바이스 타깃팅에 대한 병합 규칙을 만드는 방법을 살펴봅니다.
 seo-description: 프로필 병합 규칙 옵션을 사용하면 비즈니스 요구 사항이나 목표에 따라 특정 대상에 대한 고객 초점을 늘리거나 줄일 수 있습니다. 이러한 일반적인 사용 사례에서는 사용 가능한 옵션을 사용하고 개별, 가정 및 크로스 디바이스 타깃팅에 대한 병합 규칙을 만드는 방법을 살펴봅니다.
-seo-title: 프로파일 병합 규칙에 대한 일반 사용 사례
+seo-title: 프로필 병합 규칙에 대한 일반 사용 사례
 solution: Audience Manager
-title: 프로파일 병합 규칙에 대한 일반 사용 사례
+title: 프로필 병합 규칙에 대한 일반 사용 사례
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 4%
 
 ---
 
 
-# 프로파일 병합 규칙에 대한 일반 사용 사례 {#general-use-cases-for-profile-merge-rules}
+# 프로필 병합 규칙에 대한 일반 사용 사례 {#general-use-cases-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules] 옵션을 사용하면 비즈니스 요구 사항이나 목표에 따라 특정 고객에 대한 고객의 초점을 늘리거나 줄일 수 있습니다. 이러한 일반적인 사용 사례에서는 사용 가능한 옵션을 사용하고 개별, 가정 및 크로스 디바이스 타깃팅에 대한 병합 규칙을 만드는 방법을 살펴봅니다. [!UICONTROL Profile Merge Rules] 실시간 및 배치 대상으로 작업할 수 있습니다.
 
@@ -43,7 +47,7 @@ John이 세 대의 스마트폰을 소유하고 있다고 합시다. 이 중 2�
 
 ![현재 장치 없음](assets/current-no-device.png)
 
-Audience Manager는 이 규칙을 사용하여 장치 프로파일, 세그먼트에 대한 적격한 John의 CRM ID와 Jane의 CRM ID를 전혀 무시합니다.
+이 규칙을 사용하면 Audience Manager은 장치 프로파일, 세그먼트에 대한 적격한 John의 CRM ID를 완전히 무시하고 Jane의 CRM ID를 한정하지 않습니다.
 
 ![shared-device-targeting](assets/shared-device-targeting.png)
 
@@ -55,9 +59,9 @@ Audience Manager는 이 규칙을 사용하여 장치 프로파일, 세그먼트
 
 연간 100.00달러 이상의 소득을 가진 가정으로 구성된 세그먼트를 생각해 봅시다. 이 세그먼트는 하나 이상의 부가가치 장치를 포함하고 [!DNL iPhone 7] 있습니다 [!DNL Data Plan B]. 두 개의 가계부 프로필(크로스 디바이스 프로파일)이 있으며, 각각 서로 다른 두 개의 디바이스 프로파일에 연결됩니다. 세그먼트의 자격에 필요한 트레이트는 장치 및 장치 간 프로파일에 배포됩니다.
 
-Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병합된 트레이트 세트가 세그먼트에 해당하는지 확인합니다. Audience Manager는 병합에 포함된 모든 프로필을 평가하므로 장치 프로파일과 가구 프로필 모두 세그먼트화할 수 있습니다.
+Audience Manager은 모든 장치 + 장치 간 프로파일 쌍을 병합하여 병합된 트레이트 세트가 세그먼트에 해당하는지 확인합니다. Audience Manager은 병합에 포함된 모든 프로파일을 평가하므로 장치 프로파일과 가구 프로파일 모두 세그먼트화할 수 있습니다.
 
-장치 및 가구 프로필 간의 링크를 통해 Audience Manager는 세그먼트 자격 [!DNL Household 2] 을 부여할 수 있지만 그렇지 않습니다 [!DNL Household 1]. 부터 [!DNL Household 2]는 세그먼트 [!DNL Device 3] 에 대한 자격만 받습니다. 이를 [!UICONTROL Profile Merge Rule] 통해 마케터는 개별 장치([!DNL Device 3])와 더 넓은 가구([!DNL Household 2])에 일관된 마케팅 메시지를 전달할 수 있습니다.
+장치 및 가구 프로필 간의 링크를 통해 Audience Manager이 세그먼트 자격 [!DNL Household 2] 을 부여할 수 있지만 그렇지 않습니다 [!DNL Household 1]. 부터 [!DNL Household 2]는 세그먼트 [!DNL Device 3] 에 대한 자격만 받습니다. 이를 [!UICONTROL Profile Merge Rule] 통해 마케터는 개별 장치([!DNL Device 3])와 더 넓은 가구([!DNL Household 2])에 일관된 마케팅 메시지를 전달할 수 있습니다.
 
 ![가계 관리](assets/household-management.png)
 
@@ -69,7 +73,7 @@ Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병
 
 이 타깃팅 시나리오는 Add-on을 구입한 고객만 사용할 수 [!DNL People-Based Destinations] 있습니다. 이 규칙을 통해 마케터는 인증 데이터를 기반으로 고객에게 도달할 수 있습니다.
 
-온라인 소매업체는 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문에 따라 개인화된 제안을 제공한다고 가정해 보겠습니다. 또한 해시된 이메일 주소 [!UICONTROL People-Based Destinations]를 Audience Manager [!DNL CRM] 로 인제스트하고, 오프라인 데이터에서 세그먼트를 만들고, 해시된 식별자를 사용하여 광고 지출을 최적화하는 등 보급하려는 소셜 플랫폼에 이러한 세그먼트를 보낼 수 있습니다.
+온라인 소매업체는 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문에 따라 개인화된 제안을 제공한다고 가정해 보겠습니다. 또한 해시된 이메일 주소 [!UICONTROL People-Based Destinations]를 자체 [!DNL CRM] 의 Audience Manager으로 인제스트하고, 오프라인 데이터에서 세그먼트를 만들고, 해시된 식별자를 사용하여 광고 지출을 최적화하는 등 보급하려는 소셜 플랫폼에 이러한 세그먼트를 보낼 수 있습니다.
 
 이 옵션에 대한 자세한 내용은 [사람 기반 대상을 참조하십시오](../destinations/people-based-destinations-overview.md).
 
@@ -77,7 +81,7 @@ Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병
 
 ## 장치 그래프 옵션 {#device-graph-options}
 
-규칙에 대한 [!UICONTROL device graph] 옵션 [!UICONTROL Profile Merge] 을 선택하는 것은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 달라집니다. 이러한 일반 지침은 그래프 유형을 사용하는 시기와 사용하는 시기를 이해하는 데 도움이 됩니다. 참고: 이러한 옵션을 사용하려면 [Adobe Experience Cloud 장치](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) Co-op의 구성원이거나 외부 장치 그래프와 계약 관계에 있어야 합니다. 장치 그래프 옵션을 선택하는 방법에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례를 참조하십시오](external-graph-use-cases.md).
+규칙에 대한 [!UICONTROL device graph] 옵션 [!UICONTROL Profile Merge] 을 선택하는 것은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 달라집니다. 이러한 일반 지침은 그래프 유형을 사용하는 시기와 사용하는 시기를 이해하는 데 도움이 됩니다. 참고: 이러한 옵션을 사용하려면 [Adobe Experience Cloud 장치](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html) Co-op의 구성원이거나 외부 장치 그래프와 계약 관계에 있어야 합니다. 장치 그래프 옵션을 선택하는 방법에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례를 참조하십시오](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -98,12 +102,12 @@ Audience Manager는 모든 장치 + 장치 간 프로필 쌍을 병합하여 병
   </tr> 
   <tr> 
    <td colname="col1"> <p>외부 장치 그래프 옵션 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Adobe Experience Cloud Device Co-op으로</span> 구축된 프로필 병합 <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> 규칙 또는 Audience Manager와 통합된 외부 장치 그래프로</a><span class="keyword"></span> 이상적인 방법은 다음과 같습니다. </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Experience Cloud 장치</span> Co-op <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> 또는 Audience Manager에 통합된 외부 장치 그래프로</a> 작성한 프로파일 병합 <span class="keyword"></span> 규칙은 다음 경우에 이상적입니다. </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">낮은 수준의 고객 인증을 제공하는 디지털 속성 </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">광범위한 브랜드 캠페인 </li> 
       <li id="li_14AEC54CE34440889A3A36324EC6F497">고객이 세그멘테이션의 자격을 갖추기 위해 인증된 상태에 있을 필요가 없는 경우. </li> 
-     </ul> </p> <p> <p>팁: 디바이스 <span class="keyword"> Co-op</span> 은 인증이 낮고 <span class="keyword"> 디바이스 그래프 제공업체와의 관계가 없는 Experience Cloud</span> 고객일 경우에 가장 적합합니다. </p> </p> </td> 
+     </ul> </p> <p> <p>팁: 디바이스 <span class="keyword"> Co-op</span> 은 낮은 인증과 디바이스 그래프 공급자와의 관계가 없는 <span class="keyword"> Experience Cloud</span> 고객인 경우에 가장 적합한 옵션입니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

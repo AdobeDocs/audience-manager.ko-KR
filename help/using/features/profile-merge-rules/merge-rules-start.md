@@ -5,11 +5,12 @@ seo-title: 프로필 병합 규칙 시작
 solution: Audience Manager
 title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 1%
 
 <!-- merge-rules-start.xml -->
 
-## 장치 간 데이터 소스 만들기 {#create-data-source}
+## Create a Cross-Device Data Source {#create-data-source}
 
 장치 간 데이터 소스를 만들려면 이동 **[!UICONTROL Audience Data > Data Sources > Add New]** 으로 이동하여 여기에 설명된 각 섹션에 대한 단계를 완료하십시오. 장치 간 데이터 소스를 만들거나 편집하려면 관리자 권한이 필요합니다.
 
@@ -54,7 +55,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Use as a Device Graph]**: 이 컨트롤은 데이터 공급자로 나열된 계정에만 사용할 수 있습니다. 이 확인란을 선택하면 데이터 소스가 장치 그래프로 만들어지고 다른 [!DNL Audience Manager] 고객과 공유할 수 있습니다. 컨설턴트와 협력하여 데이터 제공업체로 설정하고 공유할 고객을 [!DNL Audience Manager] [!UICONTROL Data Source] 지정합니다. 컨설턴트는 내부 프로비저닝 프로세스를 통해 계정 및 디바이스 그래프 공유를 프로비저닝합니다.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: 이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 보존 기간을 설정할 수 있습니다. 이는 Audience Manager 플랫폼에서 고객 ID를 마지막으로 본 후 Audience Manager가 데이터베이스에 유지하는 시간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소 값은 1개월이고 최대 값은 5년입니다. 모든 달은 30일로 계산됩니다. Audience Manager는 비활성 고객 ID에 대해 설정한 데이터 보유에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: 이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 보존 기간을 설정할 수 있습니다. Audience Manager이 Audience Manager 플랫폼에서 마지막으로 본 후 고객 ID를 데이터베이스에 유지하는 기간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소 값은 1개월이고 최대 값은 5년입니다. 모든 달은 30일로 계산됩니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 보유에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
 이러한 설정과 연결된 텍스트 필드를 사용하면 프로필 병합 규칙 옵션 [!UICONTROL Data Source] 에 나타나는 별칭으로 [이름을 변경할 수 있습니다](merge-rule-definitions.md). 예를 들어 별칭을 추가할 경우 **[!UICONTROL Use as Authenticated Profile]**&#x200B;해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. 별칭을 추가할 경우 **[!UICONTROL Use as a Device Graph]**&#x200B;해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
 
@@ -68,7 +69,7 @@ To create [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile M
 
 <!-- create-profile-merge-rule.xml -->
 
-**전제 조건:** 데이터를 만들려면 장치 간 데이터 소스가 필요합니다 [!UICONTROL Profile Merge Rule]. 데이터 소스 [만들기를 참조하십시오](../manage-datasources.md#create-data-source).
+**전제 조건:** 데이터를 만들려면 장치 간 데이터 소스가 필요합니다 [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -104,16 +105,16 @@ To create [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile M
 
 ### 사용자 ID 키로 장치 간 ID를 사용하는 Adobe Campaign 대상에 대한 고려 사항 {#considerations}
 
-2019년 말에는 크로스 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 향상시키기 위해 일련의 향상된 프로필 병합 규칙을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에서 엄격하게 적용됩니다. 마지막으로, 장치 간 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
+2019년 말에는 크로스 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 향상시키기 위해 일련의 향상된 프로필 병합 규칙을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에 엄격하게 적용됩니다. 마지막으로, 장치 간 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
 
-Adobe Campaign과 같은 장치 간 ID를 사용하는 Audience Manager 인스턴스와 대상 간의 올바른 통합을 보장하려면 다음 요구 사항을 충족해야 합니다.
+Adobe Campaign과 같은 장치 간 ID를 사용하여 Audience Manager 인스턴스와 대상 간의 올바른 통합을 보장하려면 다음 요구 사항을 충족해야 합니다.
 
-1. Adobe Campaign 선언 ID 대상에 매핑된 세그먼트가 사용한 프로필 병합 규칙을 검토하십시오. 프로필 병합 규칙은 이 옵션을 사용해야 [!UICONTROL Last Authenticated Profile] 하므로 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙이 다른 옵션을 사용하고 있는 경우 다른 옵션으로 전환합니다 [!UICONTROL Last Authenticated Profile].
+1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트가 사용한 프로필 병합 규칙을 검토하십시오. 프로필 병합 규칙은 이 옵션을 사용해야 [!UICONTROL Last Authenticated Profile] 하므로 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙이 다른 옵션을 사용하고 있는 경우 다른 옵션으로 전환합니다 [!UICONTROL Last Authenticated Profile].
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]
 >
-> 이러한 상황에 처한 고객에 대해 프로필 병합 규칙 제한을 1로 늘렸기 때문에 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
+> 이러한 상황에 처한 고객에 대해 프로필 병합 규칙 제한을 1로 늘렸기 때문에 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
 
 ## 병합 규칙 코드 구성 {#configure-merge-rule-code}
 
@@ -121,11 +122,11 @@ Adobe Campaign과 같은 장치 간 ID를 사용하는 Audience Manager 인스�
 
 <!-- merge-rules-configure-code.xml -->
 
-### 전제 조건
+### 사전 요구 사항
 
 이러한 절차를 완료하기 [전에](#create-data-source) 장치 간 데이터 소스 [및](#create-profile-merge-rule) 프로필 병합 규칙을 *설정해야* 합니다.
 
-## Adobe Experience Platform Identity Service 고객 {#id-service-customers}
+## Adobe Experience Platform ID 서비스 고객의 경우 {#id-service-customers}
 
 DIL [!UICONTROL Adobe Experience Platform Identity Service] 과 최신 [버전](../../dil/dil-overview.md) 은 작업 시 권장됩니다 [!UICONTROL Profile Merge Rules]. 그러나 이 기능을 사용하는 데 이 [!UICONTROL Adobe Experience Platform Identity Service] 를 사용할 필요는 없습니다. 사용 중인 경우 [!UICONTROL DIL]아래 [기존 DIL 섹션을](#legacy-dil) 참조하십시오.
 
@@ -166,7 +167,7 @@ var vDil = DIL.create({
 });
 ```
 
-네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없는 경우 [!UICONTROL Administration] 대시보드 섹션 [!DNL Experience Cloud] 에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없는 경우 [!UICONTROL Administration] 대시보드 섹션 [!DNL Experience Cloud] 에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. See [Administration: Core Services](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### SDK 구성
 
@@ -224,7 +225,7 @@ DIL.create({
  </tbody>
 </table>
 
-Android용 [Audience Manager](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) 메서드 및 iOS용 [Audience Manager 메서드를 참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Android용 [Audience Manager 방법](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) 및 iOS용 [Audience Manager 방법을 참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >

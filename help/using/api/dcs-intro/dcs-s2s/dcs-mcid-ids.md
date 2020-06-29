@@ -5,8 +5,9 @@ seo-title: Adobe Experience Platform ID 서비스를 통해 사용자 ID 및 지
 solution: Audience Manager
 title: Adobe Experience Platform ID 서비스를 통해 사용자 ID 및 지역 가져오기
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 9%

@@ -1,34 +1,38 @@
 ---
-description: PGP 암호화를 사용하여 데이터 파일을 Audience Manager로 보낼 때 암호화할 수 있습니다.
-seo-description: PGP 암호화를 사용하여 데이터 파일을 Audience Manager로 보낼 때 암호화할 수 있습니다.
+description: Audience Manager으로 보낼 때 PGP 암호화로 데이터 파일을 암호화할 수 있습니다.
+seo-description: Audience Manager으로 보낼 때 PGP 암호화로 데이터 파일을 암호화할 수 있습니다.
 seo-title: 인바운드 데이터 유형에 대한 파일 PGP 암호화
 solution: Audience Manager
 title: 인바운드 데이터 유형에 대한 파일 PGP 암호화
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 11%
 
 ---
 
 
 # 인바운드 데이터 유형에 대한 파일 PGP 암호화{#file-pgp-encryption-for-inbound-data-types}
 
-데이터 파일을 Audience Manager로 보낼 때 [!DNL PGP] 암호화를 사용하여 암호화할 수 있습니다.
+데이터 파일을 Audience Manager으로 보낼 때 [!DNL PGP] 암호화로 데이터 파일을 암호화할 수 있습니다.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] 암호에는 파일 압축이 포함됩니다. 암호화된 인바운드 파일을 보낼 때 gzip( [!DNL PGP] )을 사용하여 [압축하지](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 않도록`.gz`합니다.
+>[!DNL PGP] 암호에는 파일 압축이 포함됩니다. 암호화된 [!DNL PGP] 인바운드 파일을 전송할 때는 gzip( [)을 사용하여](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 압축하지`.gz`않도록 합니다.
 >
 >[!DNL PGP] 또한 [압축된](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 암호화된 인바운드 파일은 Audience Manager에서 유효하지 않습니다.
 
-인바운드 데이터 파일을 암호화하려면 아래 설명된 단계를 따르십시오.
+인바운드 데이터 파일을 암호화하려면 아래 단계를 따르십시오.
 
-1. Audience Manager [공개 키를](./assets/adobe_pgp.pub)다운로드합니다.
+1. [Audience Manager 공개 키를 다운로드합니다](./assets/adobe_pgp.pub).
 2. 공용 키를 신뢰할 수 있는 스토어로 가져옵니다.
 
-   예를 들어, 명령을 사용하는 [!DNL GPG]경우 다음과 유사할 수 있습니다.
+   예를 들어, 명령을 사용하는 경우 [!DNL GPG]명령은 다음과 유사할 수 있습니다.
 
    `gpg --import adobe_pgp.pub`
 
@@ -48,8 +52,8 @@ source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   모든 암호화된 데이터는 파일 확장명(예: `.pgp` 또는 `.gpg` `ftp_dpm_100_123456789.sync.pgp` `ftp_dpm_100_123456789.overwrite.gpg`)으로 사용하거나 사용해야 합니다.
+   암호화된 모든 데이터는 파일 확장명 `.pgp` 으로 또는 `.gpg` 를 사용해야 합니다(예: `ftp_dpm_100_123456789.sync.pgp` 또는 `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >Audience Manager는 [!DNL Advanced Encryption Standard (AES)] 데이터 암호화 알고리즘만 지원합니다. Audience Manager는 모든 키 크기를 지원합니다.
+   >Audience Manager은 [!DNL Advanced Encryption Standard (AES)] 데이터 암호화 알고리즘만 지원합니다. Audience Manager은 모든 키 크기를 지원합니다.

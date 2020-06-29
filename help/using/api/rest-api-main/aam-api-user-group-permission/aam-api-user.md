@@ -1,19 +1,23 @@
 ---
-description: 사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환 등 사용자를 관리하는 Rest API 메서드입니다.
-seo-description: 사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환 등 사용자를 관리하는 Rest API 메서드입니다.
+description: 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 나머지 API 메서드입니다.
+seo-description: 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 나머지 API 메서드입니다.
 seo-title: 사용자 관리 API 메서드
 solution: Audience Manager
 title: 사용자 관리 API 메서드
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 7%
 
 ---
 
 
 # 사용자 관리 API 메서드 {#user-management-api-methods}
 
-사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환을 포함하여 사용자를 관리하는 기타 [!DNL API] 방법입니다.
+사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환 등 사용자를 관리하는 나머지 [!DNL API] 방법입니다.
 
 <!-- c_rest_api_user_man_user.xml -->
 
@@ -62,9 +66,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 }
 ```
 
-이 `isAdmin` 값이 true로 설정된 경우 사용자가 파트너 관리자로 생성됩니다. 또한 이 속성을 사용하여 사용자가 파트너 관리자인지 알 수 있습니다.
+true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니다. 또한 이 속성을 사용하여 사용자가 파트너 관리자인지 알 수 있습니다.
 
-사용자 이름을 이미 가져왔는지 `409 Conflict` 반환합니다.
+사용자 이름 `409 Conflict` 이 이미 수행된 경우 반환합니다.
 
 ## 사용자 업데이트 {#update-user}
 
@@ -107,7 +111,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 }
 ```
 
-사용자 이름을 이미 가져왔는지 `409 Conflict` 반환합니다.
+사용자 이름 `409 Conflict` 이 이미 수행된 경우 반환합니다.
 
 ## 로그인한 사용자 업데이트 {#update-logged-in-user}
 
@@ -117,7 +121,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -150,7 +154,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 }
 ```
 
-사용자 이름을 이미 가져왔는지 `409 Conflict` 반환합니다.
+사용자 이름 `409 Conflict` 이 이미 수행된 경우 반환합니다.
 
 ## 로그인한 사용자 암호 업데이트 {#update-logged-in-user-pw}
 
@@ -160,7 +164,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -172,7 +176,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-성공하면 `200 OK` 반환합니다. 암호 중 하나에 문제가 `400 Bad Request` 있으면 반환합니다.
+성공한 경우 `200 OK` 반환합니다. 두 암호 중 하나에 잘못된 `400 Bad Request` 경우 반환합니다.
 
 ## 로그인한 사용자 암호 재설정 {#reset-logged-in-user-pw}
 
@@ -182,13 +186,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
 `POST /self/reset-password`
 
-성공하면 `200 OK` 반환합니다.
+성공한 경우 `200 OK` 반환합니다.
 
 ## 사용자 ID에 대한 사용자 개체 반환 {#return-user-object-for-id}
 
@@ -218,7 +222,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 }
 ```
 
-## 로그인한 사용자에 대한 사용자 개체 반환 {#return-user-object-for-logged-in-user}
+## 로그인한 사용자의 사용자 개체 반환 {#return-user-object-for-logged-in-user}
 
 현재 로그인한 사용자의 사용자 개체를 반환하는 `Get` 방법입니다.
 
@@ -226,7 +230,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면, 이 메서드는 관리자가 아닌 사용자가 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -294,9 +298,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-성공하면 `204 No Content` 반환합니다. 충돌이 반환되는 경우 `409 Conflict`.
+성공한 경우 `204 No Content` 반환합니다. 충돌이 재발할 경우 `409 Conflict`.
 
-## 일괄 사용자 삭제 {#delete-users-bulk}
+## 사용자 일괄 삭제 {#delete-users-bulk}
 
 여러 사용자를 일괄 삭제하는 `POST` 방법입니다.
 

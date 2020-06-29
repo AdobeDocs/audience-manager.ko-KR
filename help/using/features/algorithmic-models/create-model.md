@@ -6,8 +6,12 @@ seo-title: 알고리즘 모델 만들기
 solution: Audience Manager
 title: 알고리즘 모델 만들기
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +74,7 @@ Create a. [!UICONTROL Look-Alike Model]
 
 <!-- r_model_configuration.xml -->
 
-### 전제 조건
+### 사전 요구 사항
 
 먼저 섹션의 필수 필드를 [!UICONTROL Basic Information] 완료합니다.
 
@@ -94,7 +98,7 @@ Create a. [!UICONTROL Look-Alike Model]
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>알고리즘 선택(3)</b> </p> </td> 
-   <td colname="col2"> <p>현재 Model Builder는 독점적 특성 가중치 <span class="keyword"></span> 알고리즘에서만 작동합니다. <span class="keyword"> Audience Manager</span> 이후 릴리스에 다른 알고리즘 기능을 추가할 수 있습니다. </p> </td>
+   <td colname="col2"> <p>현재 Model Builder는 독점적 특성 가중치 <span class="keyword"></span> 알고리즘에서만 작동합니다. <span class="keyword"> Audience Manager</span> 는 이후 릴리스에서 다른 알고리즘 기능을 추가할 수 있습니다. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>데이터 소스에서 모델 데이터 선택(4)</b> </p> </td> 

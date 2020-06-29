@@ -4,13 +4,17 @@ seo-description: 특성 제외는 모델링 워크플로우에서 추가적인 �
 seo-title: 알고리즘 모델 특성 제외
 title: 알고리즘 모델 특성 제외
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 1%
 
 ---
 
 
-# 유사 모델링: 특성 제외 {#algorithmic-models-trait-exclusion}
+# 유사 모델링: 트레이트 제외 {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] 모델링 워크플로우에서 추가적인 컨트롤을 제공하므로 도메인 전문 지식 및 규정 요구 사항에 따라 필요한 가드 레일을 모델에 추가할 수 있습니다. 하나 이상의 데이터 소스에서 모델을 생성할 때 무시할 특성을 선택하려면 옵션을 사용합니다. [!UICONTROL Exclusions]
 

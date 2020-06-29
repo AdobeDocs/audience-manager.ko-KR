@@ -1,29 +1,33 @@
 ---
-description: 이러한 RESTful API 메서드를 사용하여 세그먼트를 대상에 매핑합니다.
-seo-description: 이러한 RESTful API 메서드를 사용하여 세그먼트를 대상에 매핑합니다.
+description: 이러한 RESTful API 메서드로 세그먼트를 대상에 매핑합니다.
+seo-description: 이러한 RESTful API 메서드로 세그먼트를 대상에 매핑합니다.
 seo-title: 대상에 세그먼트 매핑
 solution: Audience Manager
 title: 대상에 세그먼트 매핑
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 11%
 
 ---
 
 
 # 대상에 세그먼트 매핑 {#map-segments-to-a-destination}
 
-이러한 [!DNL RESTful API] 방법으로 세그먼트를 대상에 매핑합니다.
+이러한 방법으로 세그먼트를 대상에 [!DNL RESTful API] 매핑합니다.
 
 <!-- c_api_map_seg_dest.xml -->
 
-## 지원되는 대상 유형:URL 및 쿠키만
+## 지원되는 대상 유형: URL 및 쿠키만
 
-사용 가능한 `POST` 방법을 사용하면 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 에 매핑만 할 수 있습니다. 현재, 세그먼트를 이러한 [!UICONTROL server-to-server destinations][!DNL REST API] 메서드로 매핑할 수 없습니다. 사용자 인터페이스를 대신 사용하십시오. 그러나 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 [!UICONTROL server-to-server destinations] 만든 정보를 검색할 수 있습니다.
+사용 가능한 `POST` 방법을 사용하여 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 매핑할 수 있습니다. 현재, 세그먼트를 이러한 방법 [!UICONTROL server-to-server destinations] 으로 매핑할 수 [!DNL REST API] 없습니다. 사용자 인터페이스를 대신 사용하십시오. 하지만 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 만든 정보를 검색할 [!UICONTROL server-to-server destinations] 수 있습니다.
 
 ## 세그먼트를 일련 번호가 없는 URL 대상에 매핑 {#map-segment-non-serial}
 
-세그먼트를 비직렬 `POST` 대상에 매핑할 수 있는 [!UICONTROL URL] 방법입니다.
+세그먼트를 비직렬 대상에 매핑할 수 있는 `POST` [!UICONTROL URL] 방법입니다.
 
 <!-- r_map_noserial_url.xml -->
 
@@ -33,7 +37,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -73,7 +77,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 세그먼트를 직렬화된 URL 대상에 매핑 {#map-segment-serial}
 
-세그먼트를 직렬화된 `POST` 대상에 매핑할 수 있는 [!UICONTROL URL] 방법입니다.
+세그먼트를 직렬화된 대상에 매핑할 수 있는 `POST` [!UICONTROL URL] 방법입니다.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -83,7 +87,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-요청에서, 키는 키-값 쌍의 키에 `traitAlias` 해당합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+요청에서 이 `traitAlias` 값은 키-값 쌍의 키에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -121,9 +125,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 }
 ```
 
-## 세그먼트를 쿠키 대상에 매핑:단일 키, 일련 번호가 없는 {#map-segment-cookie-noserial}
+## 세그먼트를 쿠키 대상에 매핑: 단일 키, 일련 번호가 아님 {#map-segment-cookie-noserial}
 
-세그먼트를 단일 키의 일련 번호가 없는 `POST` [!UICONTROL cookie] 대상에 매핑할 수 있는 방법입니다.
+세그먼트를 단일 키, 일련 번호가 없는 대상에 매핑할 수 있는 `POST` [!UICONTROL cookie] 방법입니다.
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -133,7 +137,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-요청에서 이 값은 키-값 쌍의 값에 `valueAlias` 해당합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+요청에서, 이 `valueAlias` 값은 키-값 쌍의 값에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -168,9 +172,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 }
 ```
 
-## 세그먼트를 쿠키 대상에 매핑:다중 키, 일련 번호가 없는 {#map-segment-cookie-multi-noserial}
+## 세그먼트를 쿠키 대상에 매핑: 다중 키, 일련 번호가 지정되지 않음 {#map-segment-cookie-multi-noserial}
 
-세그먼트를 여러 개의 키가 있고 일련 번호가 없는 `POST` [!UICONTROL cookie] 대상에 매핑할 수 있는 방법입니다.
+세그먼트를 여러 개의 키가 있고 일련 번호가 없는 대상에 매핑할 수 있는 `POST` [!UICONTROL cookie] 방법입니다.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -180,7 +184,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-요청에서 키-값 쌍에 있는 키와 값을 각각 `traitAlias` 설정하고 `valueAlias` 설정합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+요청에서 키-값 쌍에서 키 `traitAlias` 와 값을 각각 설정하고 `valueAlias` 설정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -216,9 +220,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 }
 ```
 
-## 세그먼트를 쿠키 대상에 매핑:다중 키, 직렬화 {#map-segment-cookie-multi-serial}
+## 세그먼트를 쿠키 대상에 매핑: 다중 키, 직렬화 {#map-segment-cookie-multi-serial}
 
-세그먼트를 여러 개의 일련 번호로 매핑할 수 있는 `POST` 방법입니다 [!UICONTROL cookie destination].
+세그먼트를 여러 개의 `POST` 키에 매핑하고 직렬화된 방식으로 사용할 수 있는 방법입니다 [!UICONTROL cookie destination].
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -228,7 +232,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-요청에서 키와 값을 키-값 쌍으로 `traitAlias` 설정하고 `valueAlias` 설정합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+요청에서 키-값 쌍 `traitAlias` 에서 키와 값을 `valueAlias` 설정하고 설정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -266,7 +270,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 서버 간 대상에 세그먼트 매핑 {#map-segment-s2s}
 
-세그먼트를 기존 `POST` 대상에 매핑할 수 있는 [!UICONTROL server-to-server] 방법입니다. 그러나 현재 사용 가능한 이러한 [!UICONTROL server-to-server] 방법으로 [!DNL API] 대상을 만들 수는 없습니다.
+기존 대상에 세그먼트를 매핑할 수 있는 `POST` [!UICONTROL server-to-server] 방법입니다. 그러나 현재 사용 가능한 이러한 방법으로 [!UICONTROL server-to-server] 대상을 만들 수는 [!DNL API] 없습니다.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -276,7 +280,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-요청에서, 키는 키-값 쌍의 키에 `traitAlias` 해당합니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+요청에서 이 `traitAlias` 값은 키-값 쌍의 키에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -310,7 +314,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 }
 ```
 
-## 대상 매핑 일괄 만들기 {#bulk-create}
+## 벌크 만들기 대상 매핑 {#bulk-create}
 
 배열 `POST` 또는 [!UICONTROL cookie] [!UICONTROL URL] 대상 매핑을 전달할 수 있는 메서드입니다.
 
@@ -322,7 +326,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 [
@@ -343,7 +347,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 응답
 
-성공적인 응답은 작성된 매핑의 배열을 반환합니다.
+성공적인 응답은 만들어진 매핑의 배열을 반환합니다.
 
 ```
 [
@@ -406,7 +410,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-배열에서 여러 대상 매핑을 만듭니다. 별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+배열에 여러 대상 매핑을 만듭니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 [
@@ -427,7 +431,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 응답
 
-만들어진 매핑 배열을 반환합니다.
+만들어진 매핑의 배열을 반환합니다.
 
 ```
 [
@@ -478,9 +482,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 ]
 ```
 
-## 대상 ID로 대상 업데이트 {#update-dest-data-order}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
-기존 대상을 업데이트하기 위한 `PUT` 방법입니다 `destinationId`.
+기존 대상을 다음으로 업데이트할 수 있는 `PUT` 방법입니다 `destinationId`.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -490,7 +494,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -530,7 +534,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 매핑 ID로 대상에 매핑 업데이트 {#update-mapping-dest-id}
 
-지정된 `PUT` 기준으로 대상에 대한 매핑을 업데이트할 수 있는 `mappingId`방법입니다.
+지정된 기준으로 대상에 대한 매핑을 업데이트할 수 있는 `PUT` 메서드입니다 `mappingId`.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
@@ -540,7 +544,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 샘플 요청
 
-별도로 명시되지 않는 한 모든 요청 값이 필요합니다.
+별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -581,6 +585,6 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >[!MORELIKETHIS]
 >
 >* [대상](../../../features/destinations/destinations.md)
->* [대상 일련화](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [대상 정리](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
 

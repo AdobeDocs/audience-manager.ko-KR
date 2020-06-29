@@ -6,8 +6,9 @@ seo-title: 유사 모델링 정보
 solution: Audience Manager
 title: 유사 모델링 정보
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1590'
 ht-degree: 1%
@@ -83,7 +84,7 @@ Adobe는 연속해서 3회 동안 데이터를 생성하지 [!UICONTROL Look-Ali
 
 ## 및 [!UICONTROL Look-Alike Models] 에 대한 업데이트 일정 [!UICONTROL Traits] {#update-schedule}
 
-신규 또는 기존 및 기존 [!UICONTROL algorithmic models] 에 대한 스케줄 생성 및 갱신 [!UICONTROL traits].
+신규 또는 기존 및 기존 [!UICONTROL algorithmic models] 에 대한 예약을 생성하고 업데이트합니다 [!UICONTROL traits].
 
 ### [!UICONTROL Look-Alike Model] 작성 및 업데이트 일정
 

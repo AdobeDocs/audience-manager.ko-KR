@@ -4,8 +4,9 @@ seo-description: 타사 컨텐츠 제공업체에 일괄 처리 데이터를 전
 seo-title: 일괄 데이터 통합 구성
 solution: Audience Manager
 title: 배치 데이터 전송 통합 구성
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%

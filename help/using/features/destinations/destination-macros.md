@@ -5,11 +5,12 @@ seo-title: 정의된 대상 매크로
 solution: Audience Manager
 title: 정의된 대상 매크로
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -49,7 +50,7 @@ ht-degree: 1%
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">데이터 소스 ID: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">내부 고객 ID: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">선언된 ID: 파트너가 이러한 값을 선언된 ID로 전달하려고 합니다 <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>이 작업을 수행하려면 Audience Manager <code>%dpid_<i>data source id</i>%</code><span class="keyword"></span> 파트너가 다음과 같은 매크로 형식을 지정합니다. </p> 
+    </ul> <p>이 작업을 수행하려면 Audience Manager <code>%dpid_<i>data source id</i>%</code><span class="keyword"></span> 파트너가 다음과 같이 매크로 형식을 지정합니다. </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>매크로가 다음으로 <code> 1</code> 바뀝니다 <code> CustomerABC</code>. </p> <p> 
@@ -80,7 +81,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>DCS( <span class="wintitle"> Data Collection Server)</span> 영역을 대상 URL에 삽입합니다. 지연을 최소화하기 위해 방문자가 <span class="keyword"> Audience Manager</span>에 HTTP 호출을 하면 가장 가까운 DCS <span class="wintitle"> 데이터 센터로 리디렉션됩니다</span> . 이 방법은 방문자의 위치를 감지하고 적절한 데이터 센터로 안내하는 DNS를 통해 수행됩니다. </p> </td> 
+   <td colname="col2"> <p>DCS( <span class="wintitle"> Data Collection Server)</span> 영역을 대상 URL에 삽입합니다. 지연을 최소화하기 위해 방문자가 <span class="keyword"> Audience Manager</span>에 HTTP 호출을 하면 가장 가까운 DCS 데이터 센터로 리디렉션됩니다 <span class="wintitle"></span> . 이 방법은 방문자의 위치를 감지하고 적절한 데이터 센터로 안내하는 DNS를 통해 수행됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 

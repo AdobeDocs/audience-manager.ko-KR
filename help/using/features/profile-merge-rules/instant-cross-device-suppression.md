@@ -4,8 +4,9 @@ seo-description: 즉각적인 장치 간 억제는 이러한 장치에서 특정
 seo-title: 즉각적인 장치 간 억제
 title: 즉각적인 장치 간 억제
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 15%
@@ -41,7 +42,7 @@ ht-degree: 15%
 
 최근 및 빈도 컨트롤을 설정하여 사용자가 동일한 크리에이티브한 방식으로 넘치는 것을 방지할 수 있습니다. 이 시나리오에서 아래 단계에 설명된 것처럼 두 가지 트레이트로 세그먼트를 만듭니다.
 
-1. 두 가지 트레이트를 사용하여 세그먼트를 만들고 아래 이미지와 같이 [!UICONTROL AND] 논리를 사용합니다. 실시간으로 세그먼트화되지 않은 이벤트를 트리거하기 위해 규칙 기반 트레이트를 사용해야 합니다. 규칙 기반 트레이트를 [만드는 방법에 대한 자세한 내용을 살펴보십시오](../traits/create-onboarded-rule-based-traits.md).
+1. 두 가지 트레이트를 사용하여 세그먼트를 만들고 아래 이미지에 표시된 것처럼 [!UICONTROL AND] 논리를 사용합니다. 실시간으로 세그먼트화되지 않은 이벤트를 트리거하기 위해 규칙 기반 트레이트를 사용해야 합니다. 규칙 기반 트레이트를 [만드는 방법에 대한 자세한 내용을 살펴보십시오](../traits/create-onboarded-rule-based-traits.md).
    >[!NOTE]
    >
    >사용자 노출 횟수 [!UICONTROL Actionable Log Files] 를 기반으로 트레이트를 만들거나 [!UICONTROL Pixel Calls] 만들 수 있습니다. 실행 가능한 로그 파일 [및 픽셀 호출에 대한 자세한](../../integration/media-data-integration/actionable-log-files.md) 내용을 [참조하십시오](../../integration/media-data-integration/impression-data-pixels.md).

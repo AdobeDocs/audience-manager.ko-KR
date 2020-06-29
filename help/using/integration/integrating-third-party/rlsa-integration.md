@@ -1,20 +1,21 @@
 ---
 description: 이 절차는 AdWords 리마케팅 목록, 픽셀 코드 및 Audience Manager URL 대상이 필요합니다. RLSA(Search Ads) 통합을 위한 리마케팅 목록이라고도 합니다. 유료 검색에만 적용됩니다.
 seo-description: 이 절차는 AdWords 리마케팅 목록, 픽셀 코드 및 Audience Manager URL 대상이 필요합니다. RLSA(Search Ads) 통합을 위한 리마케팅 목록이라고도 합니다. 유료 검색에만 적용됩니다.
-seo-title: Google AdWords 리마케팅 목록에 세그먼트 보내기
+seo-title: Google 애드워즈 리마케팅 목록에 세그먼트 보내기
 solution: Audience Manager
-title: Google AdWords 리마케팅 목록에 세그먼트 보내기
+title: Google 애드워즈 리마케팅 목록에 세그먼트 보내기
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c70d02637615848a86fc980a70868a6b0f7bda00
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Google 광고 리마케팅 목록에 세그먼트 보내기 {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 이 절차는 [!DNL Google Ads] 리마케팅 목록, 픽셀 코드 및 Audience Manager이 필요합니다 [!DNL URL] [!DNL destination]. 검색 광고([!DNL RLSA]) 통합을 위한 리마케팅 목록이라고도 합니다. 유료 검색에만 적용됩니다.
 

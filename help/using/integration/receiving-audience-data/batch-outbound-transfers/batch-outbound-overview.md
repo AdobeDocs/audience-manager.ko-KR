@@ -2,17 +2,18 @@
 description: Audience Manager은 이러한 사양에 따라 타사 컨텐츠 제공자에게 배치 데이터를 전송합니다.
 seo-description: Adobe Audience Manager(AAM)은 이러한 사양에 따라 타사 컨텐츠 제공자에게 배치 데이터를 전송합니다.
 seo-title: AAM(Adobe Audience Manager)에서 일괄 아웃바운드 데이터 전송
-title: 일괄 아웃바운드 데이터 전송
+title: 배치 아웃바운드 데이터 전송
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
 
-# 일괄 아웃바운드 데이터 전송
+# 배치 아웃바운드 데이터 전송
 
 Audience Manager은 이러한 사양에 따라 타사 컨텐츠 제공자에게 배치 데이터를 전송합니다.
 

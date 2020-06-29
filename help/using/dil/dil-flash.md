@@ -1,19 +1,23 @@
 ---
-description: FLA 파일에서 Analytics로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업할 수 있습니다.
-seo-description: FLA 파일에서 Analytics로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업할 수 있습니다.
+description: FLA 파일에서 Analytics으로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업할 수 있습니다.
+seo-description: FLA 파일에서 Analytics으로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업할 수 있습니다.
 seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 4%
 
 ---
 
 
 # Flash DIL{#flash-dil}
 
-FLA 파일에서 Analytics로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업할 수 있습니다.
+FLA 파일에서 Analytics으로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업할 수 있습니다.
 
 <!-- 
 
@@ -21,7 +25,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] 는 Audience Manager에서 비디오 재생 데이터를 사용하여 작업할 수 있는 코드 라이브러리입니다. [!DNL ActionScript] [!DNL Flash DIL] Adobe 라이브러리가 Analytics에 전달하는 SWF 컨텐츠를 캡처하여 [!UICONTROL AppMeasurement] 사용할 수 있습니다. [!DNL Flash DIL] 이 데이터를 별도의 [!UICONTROL DIL] JavaScript 데이터 수집 모듈로 보냅니다. 이 데이터는 Audience Manager에 전달됩니다. 분석 데이터( [!UICONTROL Props], [!UICONTROL eVars]이벤트 등) Audience Manager에서 [!DNL FLA] 캡처한 파일은 트레이트 또는 미사용 신호로 사용할 수 있습니다.
+[!UICONTROL Flash DIL] 는 Audience Manager에서 비디오 재생 데이터를 사용하여 작업할 수 있는 코드 라이브러리입니다. [!DNL ActionScript] [!DNL Flash DIL] Adobe 라이브러리가 Analytics으로 전달하는 SWF 컨텐츠를 캡처하여 [!UICONTROL AppMeasurement] 사용할 수 있습니다. [!DNL Flash DIL] 이 데이터를 별도의 [!UICONTROL DIL] JavaScript 데이터 수집 모듈로 보내 Audience Manager으로 전달합니다. Analytics 데이터( [!UICONTROL Props], [!UICONTROL eVars]이벤트 등) 파일에서 캡처한 [!DNL FLA] 파일은 트레이트 또는 미사용 신호로 Audience Manager에서 사용할 수 있습니다.
 
 ## Flash DIL 데이터 수집 요구 사항 {#requirements}
 
@@ -97,7 +101,7 @@ r_flash_dil_data_collected.xml
 
 ## Audience Manager의 Flash DIL 데이터 {#flash-dil-data}
 
-이 [!UICONTROL Flash DIL] 모듈에서는 Adobe AppMeasurement 데이터를 Audience Manager 트레이트 및 미사용 신호로 바꿉니다.
+이 [!UICONTROL Flash DIL] 모듈은 Adobe AppMeasurement 데이터를 Audience Manager 트레이트 및 미사용 신호로 바꿉니다.
 
 <!-- 
 
@@ -105,7 +109,7 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars]및 이벤트는 Audience Manager의 특성처럼 작동합니다. 트레이트는 키-값 쌍이며 세그먼트를 만드는 데 사용됩니다. 예를 들어 다음과 같은 Analytics prop에서 `c30=foo`는 키(상수) `c30` 이고 값(변수) `foo` 입니다.
+Analytics [!UICONTROL Props], [!UICONTROL eVars]및 이벤트는 Audience Manager의 특성처럼 작동합니다. 트레이트는 키-값 쌍이며 세그먼트를 만드는 데 사용됩니다. 예를 들어, Analytics prop에서 `c30=foo`는 키(상수) `c30` 이고 값(변수) `foo` 입니다.
 
 **Analytics 변수에 Audience Manager 트레이트 일치**
 
@@ -113,7 +117,7 @@ Analytics [!UICONTROL Props], [!UICONTROL eVars]및 이벤트는 Audience Manage
 
 예는 다음 표를 참조하십시오.
 
-| 분석 데이터 요소 | 분석 예 | Audience Manager 특성 |
+| Analytics 데이터 요소 | Analytics 예 | Audience Manager 특성 |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
 | **evar** | `v35=bar` | `c_evar35=bar` |
@@ -121,11 +125,11 @@ Analytics [!UICONTROL Props], [!UICONTROL eVars]및 이벤트는 Audience Manage
 
 **미사용 신호로 DIL/Analytics 데이터**
 
-Audience Manager는 해당 특성 [!UICONTROL Props]이 없어도 Analytics, [!UICONTROL eVars]및 이벤트를 허용합니다. 이 경우, 데이터는 트레이트 생성에 사용할 수 없으며 대신 [미사용 신호 보고서에](../reporting/dynamic-reports/unused-signals.md) 나타납니다. 이 정보를 최대한 활용하려면 라이브러리에서 전달한 Analytics 데이터와 일치하는 Audience Manager 트레이트를 [!UICONTROL Flash DIL] 만드십시오.
+Audience Manager은 해당 특성 [!UICONTROL Props]이 없어도 Analytics, [!UICONTROL eVars]및 이벤트를 허용합니다. 이 경우, 데이터는 트레이트 생성에 사용할 수 없으며 대신 [미사용 신호 보고서에](../reporting/dynamic-reports/unused-signals.md) 나타납니다. 이러한 정보를 최대한 활용하려면 라이브러리에서 전달한 Analytics 데이터와 일치하는 Audience Manager 트레이트를 [!UICONTROL Flash DIL] 만드십시오.
 
 ## Flash DIL ActionScript 라이브러리 {#flash-dil-actionscript}
 
-Analytics 데이터를 Audience Manager에 전송하는 [!DNL Flash] 개체에 대한 코드입니다.
+Analytics 데이터를 Audience Manager으로 보내는 개체의 [!DNL Flash] 코드입니다.
 
 <!-- 
 
@@ -157,5 +161,5 @@ s.loadModule(d);
 >* [트레이트](../features/traits/trait-details-page.md)
 >* [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)
 >* [키-값 쌍 설명](../reference/key-value-pairs-explained.md)
->* [키 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
+>* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
 

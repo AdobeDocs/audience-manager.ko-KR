@@ -5,8 +5,9 @@ seo-title: 세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터
 solution: Audience Manager
 title: 세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 2%
@@ -40,7 +41,7 @@ ht-degree: 2%
 
 ![](assets/confidence-interval.png)
 
-에서 [!UICONTROL Segment Builder]예상 모집단 그래프의 파란색 막대는 세그먼트 크기에 대해 가능한 상한 및 하한 범위를 나타냅니다. 이전 성능은 향후 결과를 보장하지 않지만 예상 데이터는 새 세그먼트 또는 편집된 세그먼트의 잠재적인 크기를 이해하는 데 도움이 될 수 있습니다.
+이 [!UICONTROL Segment Builder]에서 예상 모집단 그래프의 파란색 막대는 세그먼트 크기에 대해 가능한 상한 및 하한 범위를 나타냅니다. 이전 성능은 향후 결과를 보장하지 않지만 예상 데이터는 새 세그먼트 또는 편집된 세그먼트의 잠재적인 크기를 이해하는 데 도움이 될 수 있습니다.
 
 ## 세그먼트 모집단 데이터 개요 {#segment-populations}
 

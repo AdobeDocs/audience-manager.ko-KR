@@ -4,9 +4,10 @@ seo-description: Predictive Audiences을 사용하면 데이터 과학을 사용
 seo-title: Predictive Audiences FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
-translation-type: ht
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
-workflow-type: ht
+feature: Algorithmic Models
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 100%
 

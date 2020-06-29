@@ -4,9 +4,10 @@ seo-description: 이 제품과 설명서의 사용에 관한 법적 문제를 �
 seo-title: 연락처 및 법적 정보
 solution: Audience Manager
 title: 연락처 및 법적 정보
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
+feature: Support
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 

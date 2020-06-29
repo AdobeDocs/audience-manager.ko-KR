@@ -5,8 +5,9 @@ seo-title: 인바운드 데이터 파일 내용 구문, 잘못된 문자, 변수
 solution: Audience Manager
 title: 인바운드 데이터 파일 내용 구문, 잘못된 문자, 변수 및 예제
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 4%
@@ -275,7 +276,7 @@ ht-degree: 4%
    <td colname="col1"> <p>자신의 CRM ID(DPUUID) </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> 예 13 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> 예 14 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> 예 14 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> 예제 15 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> 예 16 </a> </p> </td> 
   </tr> 
  </tbody> 

@@ -6,8 +6,9 @@ solution: Audience Manager
 title: 세그먼트 세부 사항 페이지
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 2. **[!UICONTROL Edit]**: 현재 세그먼트의 구성을 변경하려면 이 옵션을 사용합니다.
 3. **[!UICONTROL Duplicate]**: 이 옵션을 사용하여 현재 세그먼트의 복사본을 만듭니다.
 4. **[!UICONTROL Delete]**: Audience Manager 계정에서 현재 세그먼트를 제거하려면 이 옵션을 사용합니다.
-5. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 [!UICONTROL Audience Marketplace] 데이터 피드에서 현재 보고 있는 세그먼트와 유사한 세그먼트를 찾을 수 있습니다. Marketplace [를 탐색하고 유사한 세그먼트를 찾는](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) 방법을 알려면 데이터 구매자를 위한 Audience Marketplace를 참조하십시오.
+5. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 [!UICONTROL Audience Marketplace] 데이터 피드에서 현재 보고 있는 세그먼트와 유사한 세그먼트를 찾을 수 있습니다. Marketplace를 탐색하고 유사한 세그먼트를 [](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) 찾는 방법을 알려면 데이터 구매자 Audience Marketplace을 참조하십시오.
 
 ![basic-segment-information](assets/basic-segment-information.png)
 
@@ -46,7 +47,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Audience Manager는 세그먼트에 자격이 있는 장치 간 ID가 있는 경우에만 [!UICONTROL Identity Type Breakdown] 보고서를 표시합니다.
+   >Audience Manager은 세그먼트에 대한 [!UICONTROL Identity Type Breakdown] 장치 간 ID가 인증된 경우에만 보고서를 표시합니다.
 
    아래 비디오에서 개요를 살펴보십시오 [!UICONTROL Identity Type Breakdown].
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)

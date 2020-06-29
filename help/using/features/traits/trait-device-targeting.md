@@ -1,29 +1,33 @@
 ---
-description: Audience Manager 계정의 모든 속성에 대해 장치 관련 변수를 사용하여 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍을 설명합니다.
-seo-description: Audience Manager 계정의 모든 속성에 대해 장치 관련 변수를 사용하여 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍을 설명합니다.
-seo-title: 플랫폼 수준 키를 사용한 디바이스 타깃팅
+description: Audience Manager 계정의 모든 속성에 장치 관련 변수가 있는 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
+seo-description: Audience Manager 계정의 모든 속성에 장치 관련 변수가 있는 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
+seo-title: 플랫폼 수준 키로 장치 타겟팅
 solution: Audience Manager
-title: 플랫폼 수준 키를 사용한 디바이스 타깃팅
+title: 플랫폼 수준 키로 장치 타겟팅
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 9%
 
 ---
 
 
-# Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
+# 플랫폼 수준 키로 장치 타겟팅 {#device-targeting-with-platform-level-keys}
 
-Audience Manager 계정의 모든 속성에 대해 장치 관련 변수를 사용하여 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍을 설명합니다.
+Audience Manager 계정의 모든 속성에 장치 관련 변수가 있는 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
 
-## 플랫폼 수준 변수의 목적 {#platform-variables}
+## Platform 수준 변수의 목적 {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성을 대상으로 타깃팅할 수 있습니다. 이러한 변수는 [키-값 쌍에](../../reference/key-value-pairs-explained.md) 의해 `d_` 형성되며, 키는 아래와같이 접두사로 사용됩니다.
+Platform 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와서 계정의 모든 속성에 대해 타깃팅할 수 있도록 할 수 [!DNL Audience Manager] 있습니다. 이러한 변수는 [키-값 쌍으로](../../reference/key-value-pairs-explained.md) 구성되며 `d_` , 키 접두사는 아래와같습니다.
 
-## 사용자 에이전트가 정의하는 플랫폼 수준 키 {#keys-user-agent}
+## 사용자 에이전트가 정의하는 Platform 수준 키 {#keys-user-agent}
 
-요청의 [!UICONTROL Data Collection Servers] 사용자 에이전트 헤더에서 [이러한 키에 대한 값을](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) `HTTP` 추출합니다. 값은 [!UICONTROL Device Atlas] 데이터베이스의 장치 수준 정보를 나타냅니다. 사용자 에이전트 예제에서 추출한 대로 아래 표의 신호를 사용할 수 있습니다. [측정에 따라 가장 일반적인 키](assets/device_keys.csv)목록을 다운로드합니다 [!UICONTROL Device Atlas] .
+요청의 [!UICONTROL Data Collection Servers] 사용자 에이전트 헤더에서 [이러한 키에 대한 값을](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) `HTTP` 추출합니다. 값은 [!UICONTROL Device Atlas] 데이터베이스의 장치 수준 정보를 나타냅니다. 사용자 에이전트 예제에서 추출한 대로 아래 표의 신호를 사용할 수 있습니다. [측정에 따라 가장 일반적인 키](assets/device_keys.csv)목록을 [!UICONTROL Device Atlas] 다운로드합니다.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -41,7 +45,7 @@ Audience Manager 계정의 모든 속성에 대해 장치 관련 변수를 사�
 
 >[!NOTE]
 >
->사용자 에이전트 헤더에서 하나 이상의 신호를 검색할 수 없는 경우에도 다른 신호는 여전히 [!UICONTROL Data Collection Servers]로 전달됩니다.
+>사용자 에이전트 헤더에서 하나 이상의 신호를 검색할 수 없는 경우에도 다른 신호는 여전히 으로 전달됩니다 [!UICONTROL Data Collection Servers].
 
 >[!MORELIKETHIS]
 >

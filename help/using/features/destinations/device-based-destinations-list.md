@@ -5,8 +5,9 @@ seo-title: 서버 간 Adobe Audience Manager 대상
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: 서버 간 Adobe Audience Manager 대상
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 72%

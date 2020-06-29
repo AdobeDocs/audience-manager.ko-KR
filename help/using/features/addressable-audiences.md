@@ -7,8 +7,9 @@ solution: Audience Manager
 title: 대응 가능 대상
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
+feature: Match Rates
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 1%
@@ -134,7 +135,7 @@ ht-degree: 1%
 
 ### Platform 수준 지표 {#platform-level-metrics}
 
-이 지표는 모든 [!DNL Audience Manager] 고객 간에 수집된 활동에 대한 데이터를 반환합니다. 이러한 고객 접점은 집계된 [!DNL Audience Manager] 고객과 비교하여 고객의 전체 상황을 파악할 수 있습니다.
+이 지표는 모든 고객 [!DNL Audience Manager] 에서 수집된 활동에 대한 데이터를 반환합니다. 이러한 고객 접점은 집계된 [!DNL Audience Manager] 고객과 비교하여 고객의 전체 상황을 파악할 수 있습니다.
 
 | 지표 | 설명 |
 |---|---|

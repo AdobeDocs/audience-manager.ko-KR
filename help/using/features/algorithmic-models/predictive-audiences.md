@@ -4,8 +4,9 @@ seo-description: Predictive Audiences을 사용하면 데이터 과학을 사용
 seo-title: Predictive Audiences 개요
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 9%
@@ -80,7 +81,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 
 ### Target 대상을 위한 선택 기준 {#selection-audience}
 
-페르소나 선택과 유사하게, 타겟 고객을 정의하는 트레이트 또는 세그먼트를 선택하여 풍부한 트레이트 세트를 가진 실시간 사용자가 있는 방식으로 적절한 모습을 분류해야 합니다.
+페르소나 선택과 유사하게, 타겟 고객을 정의하는 트레이트 또는 세그먼트를 선택하여 풍부한 트레이트 세트를 가진 실시간 사용자가 있는 방식으로 적합한 페르소나를 분류해야 합니다.
 
 ### [!UICONTROL Predictive Audiences] 모델 교육 단계 {#model-training}
 

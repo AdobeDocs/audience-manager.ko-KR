@@ -1,17 +1,21 @@
 ---
 description: 지정된 destinationId의 대상을 반환하는 GET 메서드입니다.
 seo-description: 지정된 destinationId의 대상을 반환하는 GET 메서드입니다.
-seo-title: 대상 ID로 대상 반환
+seo-title: 대상 ID별 대상 반환
 solution: Audience Manager
-title: 대상 ID로 대상 반환
+title: 대상 ID별 대상 반환
 uuid: abce7426-55a5-4045-93a7-0487652a7189
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 9%
 
 ---
 
 
-# 대상 ID로 대상 반환 {#return-a-destination-by-destination-id}
+# 대상 ID별 대상 반환 {#return-a-destination-by-destination-id}
 
 지정된 대상에 대한 대상을 반환하는 `GET` 메서드입니다 `destinationId`.
 
@@ -23,7 +27,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 >[!NOTE]
 >
->URL에서 `mappings` 필드 `includeMappings=true` 전달을 채우려면
+>URL에 `mappings` 전달된 필드 `includeMappings=true` 를 채우려면
 
 ## 응답
 
@@ -65,15 +69,15 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 >[!NOTE]
 >
->* *(선택 사항)* 지정된 세그먼트에 매핑된 모든 대상의 배열을 반환하려면 `containsSegment=<sid>` 전달됩니다. 예를 들어 쿼리는 다음과 비슷합니다. `GET .../destinations/?containsSegment=4321`Adobe
+>* *(선택 사항)* 지정된 세그먼트 `containsSegment=<sid>` 에 매핑된 모든 대상의 배열을 반환하려면 전달됩니다. 예를 들어 쿼리는 다음과 비슷합니다. `GET .../destinations/?containsSegment=4321`.
    >
    >
-* 전체 대상 개체를 반환하지 않습니다. 전체 개체를 채우려면 데이터 순서로 대상을 가져옵니다.
+* 전체 대상 개체를 반환하지 않습니다. 완전히 채워진 개체가 필요한 경우 데이터 순서로 대상을 가져옵니다.
 
 
 ### 선택적 쿼리 매개 변수
 
-객체에 대한 *모든* 속성을 반환하는 API 메서드에서 이러한 선택적 매개 변수를 사용할 수 있습니다. 요청 문자열에서 해당 쿼리를 [!DNL API]에 전달할 때 이 옵션을 설정합니다. 선택적 [매개 변수를 참조하십시오](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+개체에 대한 *모든* 속성을 반환하는 API 메서드에서 이러한 선택적 매개 변수를 사용할 수 있습니다. 요청 문자열에 해당 쿼리를 전달하면 이 옵션을 설정합니다 [!DNL API]. 선택적 매개 [변수를 참조하십시오](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -85,7 +89,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> 페이지 번호별로 결과를 반환합니다. 번호는 0부터 시작됩니다. </td>
+   <td colname="col2"> 페이지 번호별로 결과를 반환합니다. 번호 매기는 0부터 시작됩니다. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
@@ -96,12 +100,12 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
    <td colname="col2">지정된 JSON 속성에 따라 결과를 정렬하고 <span class="keyword"> 반환합니다</span> . </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> 내림차순</code> </td>
+   <td colname="col1"><code> descending</code> </td>
    <td colname="col2"> 결과를 내림차순으로 정렬하고 반환합니다. 기본값은 오름차순입니다. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 "테스트"라는 단어가 있는 모든 모델의 결과를 찾으려 합니다. 샘플 요청은 다음과 같습니다. <p><code> https://api.demdex.com/v1/models/?search=Test다운로드</code>. </p> <p>"모두 가져오기" 메서드에서 반환되는 값을 검색할 수 있습니다. </p> </td>
+   <td colname="col2">검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 "Test"라는 단어가 있는 모든 모델의 결과를 찾으려고 합니다. 샘플 요청은 다음과 같습니다. <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>에서 보냅니다. </p> <p>"get all" 메서드에서 반환되는 모든 값을 검색할 수 있습니다. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -138,9 +142,9 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ]
 ```
 
-## 매핑 ID 파섹 {#return-dest-mapping-id}
+## 매핑 ID로 대상 매핑 반환 {#return-dest-mapping-id}
 
-에 따라 개별 대상 매핑을 반환하는 `GET` 메서드입니다 `mappingId`.
+개별 대상 매핑을 반환하는 `GET` 메서드입니다 `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -249,9 +253,9 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 {
 ```
 
-## 사용 가능한 모든 대상 플랫폼 반환 {#return-dest-platforms}
+## 사용 가능한 모든 대상 Platform 반환 {#return-dest-platforms}
 
-대상에 대해 사용 가능한 모든 장치 플랫폼을 반환하는 `GET` 방법입니다.
+대상에 대해 사용 가능한 모든 장치 플랫폼을 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -269,7 +273,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## S2S 및 벌크 S2S 대상 작업 내역 반환 {#return-job-history}
 
-아웃바운드 `GET` ( [!UICONTROL Server-to-Server] ) 및 벌크 [!UICONTROL S2S]대상 작업 내역 정보를 반환하는 [!UICONTROL S2S] 방법입니다.
+아웃바운드 `GET` () [!UICONTROL Server-to-Server] 및 벌크 대상 [!UICONTROL S2S][!UICONTROL S2S] 작업 내역 정보를 반환하는 방법입니다.
 
 <!-- r_get_job_history.xml -->
 
@@ -277,7 +281,7 @@ BROWSER, ANDROID, iOS, ALL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-필수 쿼리 매개 변수: `startDate` *=`epochtime`&lt;* &gt; `endDate` and *=`epochtime`&lt;*&gt;.
+필요한 쿼리 매개 변수: `startDate` = *&lt;`epochtime`>*`endDate` and *=`epochtime`&lt;*>.
 
 ### 응답
 

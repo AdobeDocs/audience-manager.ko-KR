@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프서비스 장치 기반 대상으로 구성
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '553'
 ht-degree: 4%
 
 ---
@@ -73,5 +73,4 @@ Audience Manager과를 연결한 후 새 대상을 만들 [!DNL Twitter Tailored
 
 ## 일치 비율 고려 사항 {#match-rates-considerations}
 
-* 사용 [!UICONTROL Twitter Tailored Audiences]시 대상 페이지의 [!UICONTROL Segment Addressable Audience] 및 [!UICONTROL Segment Match Rate] 지표에 값이 표시되지 않습니다. 이 대상에 대한 일치 비율과 함께 대상을 일치시키는 것은 Adobe가 아니라 Adobe가 처리 및 호스팅하기 때문에 이러한 동작은 일반적인 [!UICONTROL Twitter]동작입니다.
 * Audience Manager과 이전 대상 채우기 간의 통합을 [!UICONTROL Twitter Tailored Audiences] 지원합니다. 대상을 만들면 모든 세그먼트 자격 [!UICONTROL Twitter] 이 전송됩니다.

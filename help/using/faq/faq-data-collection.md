@@ -6,8 +6,9 @@ solution: Audience Manager
 title: 데이터 수집 및 제품 통합 FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
+feature: Administration
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 96%
@@ -43,7 +44,7 @@ faq_data_collection_integration.xml
 
 <br> 
 
-**인바운드 및 아웃바운드 sFTP 서버에 대한 허용 목록에 추가할 수 있는 IP 주소를 제공할 수 있습니까?**
+**인바운드 및 아웃바운드 sFTP 서버에 대해 허용 목록에 추가할 수 있는 IP 주소를 제공할 수 있습니까?**
 
 예, 아래를 참조하십시오.
 

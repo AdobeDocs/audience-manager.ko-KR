@@ -7,9 +7,9 @@ title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크�
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1152'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,11 @@ ht-degree: 6%
 
 허용되는 다른 파일 이름 포맷은 사용자 지정 파트너 [통합을 참조하십시오](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
->[!NOTE] {importance=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL Audience Manager] 프로세스 [!DNL ASCII] 와 [!DNL UTF-8] 인코딩된 파일만 처리합니다.
 

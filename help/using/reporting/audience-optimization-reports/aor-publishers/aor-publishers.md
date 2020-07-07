@@ -7,9 +7,9 @@ title: 게시자를 위한 Audience Optimization
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '274'
 ht-degree: 36%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 36%
 
 ## 개요 {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] 세그먼트 지표와 로그 수준 캠페인 성과 데이터 [!UICONTROL DFP] 를 [!DNL Audience Manager] 비교합니다. 이 보고서는 로그인 처리를 설정한 고객에게 사용할 수 [!UICONTROL DFP] 있습니다 [!DNL Audience Manager]. 아직 로그 섭취를 설정하지 않은 경우 Audience Manager으로 [DFP 데이터 파일 가져오기를](import-dfp.md) 읽어 보십시오.
+[!UICONTROL Audience Optimization for Publishers] 세그먼트 지표와 로그 수준 캠페인 성과 데이터 [!DNL Google Ad Manager] 를 [!DNL Audience Manager] 비교합니다. 이 보고서는 로그 섭취 [!DNL Google Ad Manager]를 설정한 고객에게 사용할 수 [!DNL Audience Manager]있습니다. 아직 로그 섭취를 설정하지 않은 경우 [Google Ad Manager 데이터 파일 Audience Manager](import-dfp.md) 가져오기를 참조하십시오.
 
 ## 메타데이터 {#metadata}
 
-보고서에 표시되는 성능 정보는 인스턴스에서 [!UICONTROL DFP] 가져옵니다. ID 대신 보고서의 항목에 설명적이고 친숙한 이름을 추가할 수 있도록 메타데이터 파일을 보내야 합니다. Audience Manager으로 [DFP 데이터 파일 가져오기의 3단계에서는 메타데이터를](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) 보내는 방법을 설명합니다.
+보고서에 표시되는 성능 정보는 인스턴스에서 [!DNL Google Ad Manager] 가져옵니다. ID 대신 보고서의 항목에 설명적이고 친숙한 이름을 추가할 수 있도록 메타데이터 파일을 보내야 합니다. Audience Manager으로 [Google Ad Manager 데이터 파일 가져오기의 3단계에서는 메타데이터를](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) 보내는 방법에 대해 설명합니다.
 
 ## 사용 가능한 보고서 {#available-reports}
 

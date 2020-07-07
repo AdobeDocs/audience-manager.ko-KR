@@ -8,10 +8,10 @@ title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 4%
+source-wordcount: '1574'
+ht-degree: 3%
 
 ---
 
@@ -33,14 +33,18 @@ ht-degree: 4%
 시작하려면 로그 데이터 [!UICONTROL Actionable Log Files]를 로 가져와야 합니다 [!DNL Audience Manager]. 다음 링크를 통해 시작할 수 있습니다.
 
 * 로그에 대해서는 Audience Manager으로 [!UICONTROL Google DCM] DCM 데이터 파일 가져오기 [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) 를 *참조하고 컨설턴트에게* [!DNL Audience Manager] 문의하십시오.
-* (이전 Google DFP) 로그 [!UICONTROL Google Ad Manager] 의 경우 Audience Manager으로 [DFP 데이터 파일 가져오기](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)*를 참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
+* (이전 Google DFP) 로그 [!UICONTROL Google Ad Manager] 의 경우 Google [Ad Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)*를 참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
 * 기타 광고 서버 로그에 대해서는 [데이터 및 메타데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 을 *참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
 
 로그 데이터를 이미 로 가져오는 경우 컨설턴트나 [!DNL Audience Manager]고객 지원 [!DNL Audience Manager] 센터에 [문의하여](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) 자동으로 [!UICONTROL Actionable Log Files] 활성화하도록 하십시오.
 
+<!--
+
 >[!IMPORTANT]
 >
-> 2019년 말 [!UICONTROL Actionable Log Files] , 새로운 광고 서버에 대한 가용성을 확장하기 시작했습니다. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+
+-->
 
 ## 실행 가능한 로그 파일 작업 {#working-with-actionable-log-files}
 

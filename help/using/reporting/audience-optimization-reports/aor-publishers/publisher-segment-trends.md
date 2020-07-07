@@ -7,9 +7,9 @@ title: 세그먼트 트렌드 보고서
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->활성화할 [!UICONTROL Audience Optimization for Publishers]때 DFP 데이터 파일을 Audience Manager으로 [!UICONTROL Line Item] 가져오기 3단계에 설명된 대로 [ID에 대한 설명 메타데이터를 포함해야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 ID 대신 웹 속성 [!UICONTROL Line Item] 을 자세히 알 수 [!UICONTROL Line Item] 있습니다.
+>활성화할 [!UICONTROL Audience Optimization for Publishers]때 Google Ad Manager(이전 DFP) 데이터 파일을 Audience Manager으로 [!UICONTROL Line Item] 가져오기 3단계에 설명된 대로 [ID에 대한 설명 메타데이터를 포함해야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 ID 대신 웹 속성 [!UICONTROL Line Item] 을 자세히 알 수 [!UICONTROL Line Item] 있습니다.
 
 ## 결과 해석 {#interpreting-results}
 

@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+source-git-commit: 5e8dfca8de0faeecbd44da1804b71bbe77bc89be
 workflow-type: tm+mt
-source-wordcount: '1740'
-ht-degree: 97%
+source-wordcount: '1754'
+ht-degree: 94%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 97%
          + [크로스 채널 전환](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + 게시자를 위한 Audience Optimization{#audience-optimization-publishers}
          + [게시자를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [DFP 데이터 파일을 Audience Manager에 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager(이전 DFP) 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [세그먼트 트렌드 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [상위 사용하지 않는 특성](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -284,9 +284,9 @@ ht-degree: 97%
 + 구현 및 통합 안내서{#implementation-integration-guides}
    + [구현 및 통합 안내서](integration/implementation-and-integration.md)
    + [데이터 통합 방법](integration/data-integration-methods.md)
-   + GPT(Google Publisher Tags)를 사용한 DFP 통합{#integrate-dfp-using-gpt}
-      + [GPT를 사용한 DFP 통합 개요](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [GPT를 사용하여 DFP에 세그먼트 전송](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + Google Publisher Tags(GPT)를 사용하여 Google Ad Manager 통합{#integrate-dfp-using-gpt}
+      + [GPT 개요를 사용하여 Google 광고 관리자 통합](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [GPT를 사용하여 Google Ad Manager로 세그먼트 보내기](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 대상 만들기](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [GPT setTargeting API 호출 수정](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google Publisher Tag용 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -294,7 +294,7 @@ ht-degree: 97%
       + [Facebook WCA 통합](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS를 Audience Manager 대상으로 사용](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX를 Audience Manager 대상으로 사용](integration/integrating-third-party/openx-destination.md)
-      + [DFP를 Audience Manager 대상으로 사용](integration/aam-dfp.md)
+      + [Audience Manager 대상으로 Google 광고 관리자(이전 DFP)](integration/aam-dfp.md)
       + [Google 애드워즈 리마케팅 목록에 세그먼트 보내기](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager 구현](integration/implement-audience-manager.md)
    + 미디어 데이터 통합{#media-data-integration}

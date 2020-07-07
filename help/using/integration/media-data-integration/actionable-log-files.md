@@ -8,9 +8,9 @@ title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1597'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 시작하려면 로그 데이터 [!UICONTROL Actionable Log Files]를 로 가져와야 합니다 [!DNL Audience Manager]. 다음 링크를 통해 시작할 수 있습니다.
 
 * 로그에 대해서는 Audience Manager으로 [!UICONTROL Google DCM] DCM 데이터 파일 가져오기 [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) 를 *참조하고 컨설턴트에게* [!DNL Audience Manager] 문의하십시오.
-* 로그에 대해서는 Audience Manager으로 [!UICONTROL Google DFP] DFP 데이터 파일 가져오기 [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) 를 *참조하고 컨설턴트에게* [!DNL Audience Manager] 문의하십시오.
+* (이전 Google DFP) 로그 [!UICONTROL Google Ad Manager] 의 경우 Audience Manager으로 [DFP 데이터 파일 가져오기](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)*를 참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
 * 기타 광고 서버 로그에 대해서는 [데이터 및 메타데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 을 *참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
 
 로그 데이터를 이미 로 가져오는 경우 컨설턴트나 [!DNL Audience Manager]고객 지원 [!DNL Audience Manager] 센터에 [문의하여](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) 자동으로 [!UICONTROL Actionable Log Files] 활성화하도록 하십시오.
@@ -163,6 +163,35 @@ Removed  {importance="high"} for ExL
 >
 >* 로그 파일의 데이터 행에 타임스탬프를 사용할 수 없는 경우 [!DNL DCM] 호출 시간을 `HTTP` 이벤트 타임스탬프로 사용합니다.
 >* 로그 파일의 데이터 행에 잘못된 형식의 타임스탬프가 [!DNL DCM] 있으면 전체 행을 무시합니다.
+
+
+<br> 
+
+### 로그에서 실행 가능한 [!DNL Google Ad Manager] 신호 {#ad-manager-logs-signals}
+
+아래 표는 [!DNL Google Ad Manager] 로그 파일에서 실행 가능한 신호를 나열합니다.
+
+
+| 로그 파일의 헤더 이름 | 신호 | 설명 |
+---------|----------|---------
+| `LineItemId` | `d_lineitem` | 배달된 광고 관리자 라인 항목에 대한 숫자 ID |
+| `OrderId` | `d_orderid` | 배달된 라인 항목 및 크리에이티브가 포함된 광고 관리자 주문에 대한 숫자 ID입니다. |
+| `CreativeId` | `d_creative` | 배달된 Ad Manager 크리에이티브의 숫자 ID. |
+| `-` | `d_event` | 이벤트 유형을 나타냅니다. Audience Manager은 광고 관리자 로그 파일 이름에서 이벤트 유형을 읽고 실행 가능한 신호로 변환합니다. 허용된 값은 다음과 같습니다. <br> <ul><li>d_event = 노출 횟수에 대한 imp</li><li>d_event = 클릭을 위한 클릭.</li><li>d_event = 전환 및 활동에 대한 conv</li></ul> |
+| `-` | `d_src` | 광고 관리자 데이터를 캡처하는 데 사용하는 데이터 소스의 ID입니다. 데이터 소스 [를 만드는 방법을 참조하십시오](/help/using/features/manage-datasources.md). |
+
+표에 설명된 신호들은 실시간 HTTP 호출처럼 Audience Manager에서 캡처됩니다. 아래 예제 호출에는 Google 광고 관리자의 전환 이벤트에 대한 정보가 포함되어 있습니다. 호출에는 예제 호출에 모든 신호가 포함될 필요는 없습니다.
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>로그에 제공된 이벤트 타임스탬프는 [!DNL Google Ad Manager] [!UICONTROL Data Collection Servers]그대로 유지되며
+>
+>* 로그 파일의 데이터 행에 타임스탬프를 사용할 수 없는 경우 [!DNL Google Ad Manager] 호출 시간을 `HTTP` 이벤트 타임스탬프로 사용합니다.
+>* 로그 파일의 데이터 행에 잘못된 형식의 타임스탬프가 [!DNL Google Ad Manager] 있으면 전체 행을 무시합니다.
 
 
 <br> 

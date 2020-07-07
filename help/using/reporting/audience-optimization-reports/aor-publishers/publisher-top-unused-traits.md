@@ -7,9 +7,9 @@ title: 상위 사용하지 않는 특성
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '647'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 모양 **[!UICONTROL Day Range]** 및 **[!UICONTROL Date Through]** 컨트롤을 사용하여 뒤로 범위를 조정합니다. 이 보고서에서는 30일 룩백 기간만 사용할 수 있습니다.
 
-정보를 반환할 포트폴리오의 웹 속성을 선택하려면 **[!UICONTROL Order]** 드롭다운 상자를 사용합니다.
+드롭다운 상자를 사용하여 정보를 반환할 포트폴리오의 웹 속성을 선택합니다. **[!UICONTROL Order]**
 
 드롭다운 **[!UICONTROL Data Provider]** 상자에서 보고서에 표시할 트레이트가 포함된 데이터 소스를 선택합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->활성화할 [!UICONTROL Audience Optimization for Publishers]때 DFP 데이터 파일을 Audience Manager으로 가져오기 [!UICONTROL Order IDs]의 3단계에 설명된 대로 설명 메타데이터를 [포함해야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 웹 속성 대신 웹 속성 [!UICONTROL Order] 을 자세히 설명합니다 [!UICONTROL Order ID].
+>활성화할 [!UICONTROL Audience Optimization for Publishers]때 Google 광고 관리자(이전 DFP) 데이터 파일을 Audience Manager으로 [!UICONTROL Order IDs]가져오기 3단계에 설명된 [대로 설명 메타데이터를 포함시켜야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 웹 속성 대신 웹 속성 [!UICONTROL Order] 을 자세히 설명합니다 [!UICONTROL Order ID].
 
 ## 결과 해석 {#interpreting-results}
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 보고서에서 트레이트의 위치는 기존 대상 세그먼트를 최적화하는 데 사용할 수 있는 트레이트에 대해 많은 것을 알 수 있습니다.
 
-노출 수 축에 더 높은 트레이트는 캠페인에 사용할 트레이트입니다. 노출 횟수가 적은 트레이트의 경우 DFP 데이터를 기반으로 웹 속성에서 이 사용자에게 도달할 가능성은 희박합니다.
+노출 수 축에 더 높은 트레이트는 캠페인에 사용할 트레이트입니다. 노출 횟수가 적은 트레이트의 경우 [!DNL Google Ad Manager] 데이터를 기반으로 웹 속성에서 이 사용자에게 도달할 가능성이 높습니다.
 
 축 왼쪽을 [!UICONTROL Unique Trait Realizations] 보면 매우 정확한 트레이트가 표시되고 오른쪽에는 스케일링을 구동할 수 있는 트레이트가 표시됩니다.
 

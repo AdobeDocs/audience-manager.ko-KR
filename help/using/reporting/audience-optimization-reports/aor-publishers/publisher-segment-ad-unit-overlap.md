@@ -7,9 +7,9 @@ title: 세그먼트 대 광고 단위 겹치기
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '420'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->활성화할 [!UICONTROL Audience Optimization for Publishers]때 DFP 데이터 파일을 Audience Manager으로 가져오기 [!UICONTROL Ad Unit IDs]의 3단계에 설명된 대로 설명 메타데이터를 [포함해야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 웹 속성 대신 웹 속성 [!UICONTROL Ad Unit] 을 자세히 설명합니다 [!UICONTROL Ad Unit ID].
+>활성화할 [!UICONTROL Audience Optimization for Publishers]때 Google 광고 관리자(이전 DFP) 데이터 파일을 Audience Manager으로 [!UICONTROL Ad Unit IDs]가져오기 3단계에 설명된 [대로 설명 메타데이터를 포함시켜야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 웹 속성 대신 웹 속성 [!UICONTROL Ad Unit] 을 자세히 설명합니다 [!UICONTROL Ad Unit ID].
 
 ## 결과 해석 {#interpreting-results}
 
@@ -59,7 +59,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 광고 단위 고유 수</span> </p> </td> 
-   <td colname="col2"> <p>특정 광고 단위에 대한 방문자 수입니다. 이 정보는 DFP 로그에서 추출됩니다. </p> </td> 
+   <td colname="col2"> <p>특정 광고 단위에 대한 방문자 수입니다. 이 정보는 Google 광고 관리자 로그에서 추출됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 겹치기 고유 수</span> </p> </td> 

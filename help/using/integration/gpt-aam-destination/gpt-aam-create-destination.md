@@ -1,15 +1,15 @@
 ---
-description: 클라이언트측(브라우저 측) 통합 또는 서버측 통합을 통해 적격한 세그먼트를 DFP로 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에서 Google 게시자 태그의 쿠키 기반 대상을 만들어야 합니다.
-seo-description: 클라이언트측(브라우저 측) 통합 또는 서버측 통합을 통해 적격한 세그먼트를 DFP로 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에서 Google 게시자 태그의 쿠키 기반 대상을 만들어야 합니다.
+description: 클라이언트측(브라우저 측) 통합 또는 서버측 통합을 통해 자격 조건을 갖춘 세그먼트를 Google Ad Manager로 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에서 Google 게시자 태그의 쿠키 기반 대상을 만들어야 합니다.
+seo-description: 클라이언트측(브라우저 측) 통합 또는 서버측 통합을 통해 자격 조건을 갖춘 세그먼트를 Google Ad Manager로 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에서 Google 게시자 태그의 쿠키 기반 대상을 만들어야 합니다.
 seo-title: GPT 대상 만들기
 solution: Audience Manager
 title: GPT 대상 만들기
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # GPT 대상 만들기 {#create-a-gpt-destination}
 
-클라이언트측(브라우저 [!DNL DFP] 측) 통합 또는 서버측 통합을 통해 적격한 세그먼트를 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에 대한 쿠키 기반 대상을 만들어야 [!DNL Google Publisher Tags] 합니다.
+클라이언트측(브라우저 [!DNL Google Ad Manager] 측) 통합 또는 서버측 통합을 통해 적격한 세그먼트를 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에 대한 쿠키 기반 대상을 만들어야 [!DNL Google Publisher Tags] 합니다.
 
 ## 대상
 

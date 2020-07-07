@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 96%
+source-wordcount: '1066'
+ht-degree: 89%
 
 ---
 
@@ -136,9 +136,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**한 사이트에서 데이터를 수집하고 다른 사이트에서 DFP를 통해 사용자를 타겟팅하고 싶습니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
+**한 사이트에서 데이터를 수집하고 다른 사이트를 통해 사용자[!DNL Google Ad Manager]를 타깃팅하고자 합니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
 
-아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. DFP를 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 한 초기 사이트의 데이터 수집을 사용하고 DFP를 통해 타겟팅할 수 있습니다.
+아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -148,9 +148,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!DNL Audience Manager]는 어떻게 쿠키를 설정하고 변수를 DFP에 전달합니까?**
+**쿠키를 설정하고 변수를 어떻게 전달합니까[!DNL Audience Manager][!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager]는 2 개의 쿠키를 설정합니다. 하나는 세그먼트 변수를 DFP 광고 태그에 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며 이것은 DFP도 읽습니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
+[!DNL Audience Manager] 2개 쿠키: 하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그로 전송하고 다른 하나는 UUID(고유한 사용자 ID)를 설정하며, 이 ID는 읽은 것입니다 [!DNL Google Ad Manager]. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
 
 <br> 
 

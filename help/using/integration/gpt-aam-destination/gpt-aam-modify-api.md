@@ -7,7 +7,7 @@ title: GPT setTargeting API 호출 수정
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 9%
@@ -38,11 +38,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->통합할 방법에 따라 위의 코드 샘플에 있는 일부 [!DNL DFP]줄만 있으면 됩니다.
+>통합할 방법에 따라 위의 코드 샘플에 있는 일부 [!DNL Google Ad Manager]줄만 있으면 됩니다.
 >
 >* 클라이언트측 통합: 1-3줄만 사용하십시오.
 >* 서버측 통합: 모든 줄이 필요하지 않습니다.
->* 보고할 [!DNL DFP] 로그 파일 인제스트 [!DNL Audience Manager]: 4-6줄만 사용하십시오. 이 코드는 보고용으로 인제스트될 수 있도록 `aam_uuid` 쿠키의 값을 로그에 삽입합니다.
+>* 보고할 [!DNL Google Ad Manager] 로그 파일 인제스트 [!DNL Audience Manager]: 4-6줄만 사용하십시오. 이 코드는 보고용으로 인제스트될 수 있도록 `aam_uuid` 쿠키의 값을 로그에 삽입합니다.
 
 
 ### `AamGpt` 함수 및 데이터 유형

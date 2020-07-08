@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 사용자 기반 대상 FAQ
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 97%
 
 ---
 
@@ -112,3 +112,7 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 추가 비용없이 [!DNL URL Destinations] 기능을 통해 Audience Manager의 [!DNL Facebook] [!DNL WCA] 통합을 사용할 수 있습니다.
 
 이 두 가지 통합은 상호 보완적입니다. 두 가지 모두를 사용하여 대상 범위를 개선할 수 있습니다. 예를 들어, [!DNL WCA]는 회사가 계정을 등록하지 않은 웹 사이트 방문자를 타겟팅하려고 하는 경우 예측에 사용할 수 있지만, [!DNL People-Based Destinations]은 이메일 주소를 제공했지만 웹 사이트를 방문하지 않은 기존 고객을 타겟팅하는 데 도움이 될 수 있습니다.
+
+**지원과의[!DNL People-Based Destinations]통합으로 인해 더 이상 해당 사용자에게 자격을 부여하지[!DNL Facebook]못할 경우 대상이 아닌 사용자를 식별할 수 있습니까?**
+
+예. 통합에서는 더 이상 [!DNL Facebook] 자격이 없는 사용자가 대상에서 제외되도록 지원합니다.

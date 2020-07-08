@@ -8,9 +8,9 @@ title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
+source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1605'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 시작하려면 로그 데이터 [!UICONTROL Actionable Log Files]를 로 가져와야 합니다 [!DNL Audience Manager]. 다음 링크를 통해 시작할 수 있습니다.
 
-* 로그에 대해서는 Audience Manager으로 [!UICONTROL Google DCM] DCM 데이터 파일 가져오기 [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) 를 *참조하고 컨설턴트에게* [!DNL Audience Manager] 문의하십시오.
+* 로그의 경우 Google [!UICONTROL Google Campaign Manager] Campaign Manager 데이터 파일 Audience Manager으로 가져오기 [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)** 를 참조하고 [!DNL Audience Manager] 컨설턴트에게 문의하십시오.
 * (이전 Google DFP) 로그 [!UICONTROL Google Ad Manager] 의 경우 Google [Ad Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)*를 참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
 * 기타 광고 서버 로그에 대해서는 [데이터 및 메타데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 을 *참조하고* 컨설턴트에게 [!DNL Audience Manager] 문의하십시오.
 
@@ -62,9 +62,9 @@ ht-degree: 3%
 
 고객 생성 및 세분화에 이 정보를 사용하려면 규칙 기반 트레이트를 직접 설정해야 합니다.
 
-### Google DCM 로그의 실행 가능한 신호 {#dcm-logs-signals}
+### Google Campaign Manager 로그의 실행 가능한 신호 {#dcm-logs-signals}
 
-아래 표는 [!DNL DCM] 로그 파일에서 실행 가능한 신호를 나열합니다.
+아래 표는 [!DNL Google Campaign Manager] 로그 파일에서 실행 가능한 신호를 나열합니다.
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -79,13 +79,13 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>전환 이벤트에만 사용할 수 있습니다. </p> <p>DCM의 전환 활동에 대한 숫자 ID를 나타냅니다. 이 필드는 DCM의 활동 ID에 매핑됩니다. </p> <p> <p>팁: DCM에서 여러 가지 또는 특정 전환 활동을 캡처할 수 있습니다. DCM의 각 전환 활동 <code> d_conversion = activity ID</code> 에 대해 트레이트를 만듭니다. </p> </p> </td> 
+   <td colname="col3"> <p>전환 이벤트에만 사용할 수 있습니다. </p> <p>Google Campaign Manager의 전환 활동에 대한 숫자 ID를 나타냅니다. 이 필드는 Google 캠페인 관리자의 활동 ID에 매핑됩니다. </p> <p> <p>팁: Google Campaign Manager에서 여러 가지 또는 특정 전환 활동을 캡처할 수 있습니다. Google Campaign Manager의 각 전환 활동 <code> d_conversion = activity ID</code> 에 대해 트레이트를 만듭니다. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Conversion ID</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
-   <td colname="col3"> <p>전환 이벤트에만 사용할 수 있습니다. </p> <p>이 필드는 DCM의 전환 ID에 매핑됩니다. DCM에서 사용자 변환 전 활동을 나타냅니다. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
+   <td colname="col3"> <p>전환 이벤트에만 사용할 수 있습니다. </p> <p>이 필드는 Google 캠페인 관리자의 전환 ID에 매핑됩니다. Google Campaign Manager에서 사용자 전환 전의 활동을 나타냅니다. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> 을 참조하십시오. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> 을 참조하십시오. </li> 
@@ -102,25 +102,25 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>광고주의 데이터 소스에 대한 통합 코드입니다. Audience Manager 데이터 소스는 관련이 없습니다.</p> <p>이 필드는 DCM의 광고주 그룹 ID에 매핑됩니다. </p> </td> 
+   <td colname="col3"><p>광고주의 데이터 소스에 대한 통합 코드입니다. Audience Manager 데이터 소스는 관련이 없습니다.</p> <p>이 필드는 Google 캠페인 관리자의 광고주 그룹 ID에 매핑됩니다. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col3"> <p>비즈니스 단위 ID. 이 필드는 DCM의 광고주 ID에 매핑됩니다. </p> </td> 
+   <td colname="col3"> <p>비즈니스 단위 ID. 이 필드는 Google 캠페인 관리자의 광고주 ID에 매핑됩니다. </p> </td> 
    <td colname="col4"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>DCM에서 제공하는 캠페인 ID.</p> </td> 
+   <td colname="col3"> <p>Google 캠페인 관리자가 제공한 캠페인 ID.</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Creative ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>DCM에서 제공하는 Creative ID. </p> </td> 
+   <td colname="col3"> <p>Google 캠페인 관리자에서 제공하는 크리에이티브 ID. </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ ht-degree: 3%
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>이벤트 유형을 나타냅니다. Audience Manager은 DCM 로그 파일 이름에서 이벤트 유형을 읽고 실행 가능한 신호로 변환합니다. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
+   <td colname="col3"> <p>이벤트 유형을 나타냅니다. Audience Manager은 Google Campaign Manager 로그 파일 이름에서 이벤트 유형을 읽고 실행 가능한 신호로 변환합니다. </p> <p>허용된 값은 다음과 같습니다. </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> for expressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> 를 참조하십시오. </li> 
@@ -143,19 +143,19 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>DCM 데이터를 캡처하는 데 사용하는 데이터 소스의 ID입니다. 데이터 소스 <a href="../../features/manage-datasources.md#create-data-source"> 생성 방법을 참조하십시오</a>. </p> </td> 
+   <td colname="col3"> <p>Google 캠페인 관리자 데이터를 캡처하는 데 사용하는 데이터 소스의 ID입니다. 데이터 소스 <a href="../../features/manage-datasources.md#create-data-source"> 생성 방법을 참조하십시오</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-테이블에 설명된 신호들은 실시간 [!DNL Audience Manager] 호출과 `HTTP` 같이 캡처됩니다. 아래의 예제 호출에는 전환 이벤트에 대한 정보가 포함되어 있습니다 [!DNL DCM]. 호출에는 예제 호출에 *모든* 신호가 포함될 필요는 없습니다.
+테이블에 설명된 신호들은 실시간 [!DNL Audience Manager] 호출과 `HTTP` 같이 캡처됩니다. 아래의 예제 호출에는 전환 이벤트에 대한 정보가 포함되어 있습니다 [!DNL Google Campaign Manager]. 호출에는 예제 호출에 *모든* 신호가 포함될 필요는 없습니다.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-200만 줄로 구성된 평균 크기의 [!DNL DCM] 로그 파일의 경우 실행 가능한 신호로 생성된 모든 트레이트는 로그를 처리한 후 약 1시간 이내에 실현됩니다.
+200만 줄로 구성된 평균 크기의 [!DNL Google Campaign Manager] 로그 파일의 경우 실행 가능한 신호로 생성된 모든 트레이트는 로그를 처리한 후 약 1시간 이내에 실현됩니다.
 
 <!--
 Removed  {importance="high"} for ExL
@@ -163,10 +163,10 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->로그에 제공된 이벤트 타임스탬프는 [!DNL DCM] [!UICONTROL Data Collection Servers]그대로 유지되며
+>로그에 제공된 이벤트 타임스탬프는 [!DNL Google Campaign Manager] [!UICONTROL Data Collection Servers]그대로 유지되며
 >
->* 로그 파일의 데이터 행에 타임스탬프를 사용할 수 없는 경우 [!DNL DCM] 호출 시간을 `HTTP` 이벤트 타임스탬프로 사용합니다.
->* 로그 파일의 데이터 행에 잘못된 형식의 타임스탬프가 [!DNL DCM] 있으면 전체 행을 무시합니다.
+>* 로그 파일의 데이터 행에 타임스탬프를 사용할 수 없는 경우 [!DNL Google Campaign Manager] 호출 시간을 `HTTP` 이벤트 타임스탬프로 사용합니다.
+>* 로그 파일의 데이터 행에 잘못된 형식의 타임스탬프가 [!DNL Google Campaign Manager] 있으면 전체 행을 무시합니다.
 
 
 <br> 
@@ -322,9 +322,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 4. 크리에이티브 456을 사용하여 세그먼트 [!DNL Retarget Users] 를 대상에 매핑하고 대상의 사용자를 타깃팅합니다.
 
-### 고객 최적화 보고서 또는 Audience Lab에서 DCM Floodlight 활동 사용
+### 고객 최적화 보고서 또는 Audience Lab에서 Google Campaign Manager Floodlight 활동 사용
 
-[Floodlight 태그로](https://support.google.com/dcm/partner/answer/4293719?hl=en) 인해 광고주는 사용자 전환을 추적할 수 있습니다. 를 [!UICONTROL Actionable Log Files]사용하면 대상 최적화 보고서 [!DNL DCM] 또는 [Audience Lab에서](../../reporting/audience-optimization-reports/audience-optimization-reports.md) 전환을 추적할 수 [있습니다](../../features/audience-lab/audience-lab.md).
+[Floodlight 태그로](https://support.google.com/dcm/partner/answer/4293719?hl=en) 인해 광고주는 사용자 전환을 추적할 수 있습니다. 를 [!UICONTROL Actionable Log Files]사용하면 대상 최적화 보고서 [!DNL Google Campaign Manager] 또는 [Audience Lab에서](../../reporting/audience-optimization-reports/audience-optimization-reports.md) 전환을 추적할 수 [있습니다](../../features/audience-lab/audience-lab.md).
 
 1. 트레이트를 만들고 다음 트레이트 규칙을 사용하여 광고 서버 로그에서 변환을 캡처합니다.
 
@@ -336,6 +336,6 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 >[!MORELIKETHIS]
 >
->* [DCM 데이터 파일을 Audience Manager에 가져오기](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [대상 최적화 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 

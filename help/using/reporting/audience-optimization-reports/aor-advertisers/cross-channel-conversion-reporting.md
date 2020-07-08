@@ -7,9 +7,9 @@ title: 크로스 채널 전환
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 4%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 대상 최적화 보고서의 크로스 채널 전환 옵션을 사용하면 오프라인 전환을 제공된 온라인 노출 또는 클릭에 연결할 수 있습니다.
 
-이 [!UICONTROL Cross Channel Conversion] 보고서는 [!DNL DoubleClick Campaign Manager] (DCM) 플랫폼의 결과와 [!DNL Audience Manager] 전환 특성을 결합합니다. 이를 통해 오프라인 전환을 온라인 노출 또는 클릭에 연결할 수 있습니다.
+이 [!UICONTROL Cross Channel Conversion] 보고서는 [!DNL Google Campaign Manager] 플랫폼 결과와 [!DNL Audience Manager] 전환 트레이트를 결합합니다. 이를 통해 오프라인 전환을 온라인 노출 또는 클릭에 연결할 수 있습니다.
 
 세그먼트 성능 [!UICONTROL Cross Channel Conversion] 및 [최적](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) 빈도 [보고서에 사용할 수](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) 있습니다.
 
-보고서를 보려면 [!UICONTROL Cross Channel Conversion] 드롭다운 목록에서 **[!UICONTROL AAM+DCM]** 항목을 **[!UICONTROL Platform]** 선택합니다.
+보고서를 보려면 [!UICONTROL Cross Channel Conversion] 드롭다운 목록에서 **[!UICONTROL AAM + Ad Server Name]** 항목을 **[!UICONTROL Platform]** 선택합니다.
 
 다음 표에는 설정 시 고려해야 할 중요한 사항이 나와 있습니다 [!UICONTROL Cross Channel Conversion].
 
@@ -41,7 +41,7 @@ ht-degree: 4%
   </tr>
   <tr> 
    <td> <p>속성 창 </p> </td> 
-   <td> <p> <b><span class="uicontrol"> AAM+DCM</span></b> 속성 창은 14일입니다. 즉, 지난 2주 동안 표시된 전환 특성만 고려합니다. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> AAM+Google Campaign Manager</span></b> 속성 창은 14일입니다. 즉, 지난 2주 동안 표시된 전환 특성만 고려됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>마지막 접촉 방법론 </p> </td> 

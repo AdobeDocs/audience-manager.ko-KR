@@ -7,9 +7,9 @@ title: 디지털 서명된 HTTP 요청
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ POST message content
 1. [!UICONTROL IRIS] 파트너가 전달하는 `HTTP(S)` 메시지 및 개인 키를 기반으로 서명을 만듭니다.
 1. [!UICONTROL IRIS] 이 요청을 `HTTP(S)` 파트너에게 보냅니다. 이 메시지에는 위의 예에서 보듯이 서명과 실제 메시지가 포함됩니다.
 1. 파트너 서버가 요청을 `HTTP(S)` 받습니다. 메시지 본문과 수신한 서명을 읽습니다 [!UICONTROL IRIS].
-1. 메시지 본문과 개인 키를 기준으로 파트너 서버가 서명을 다시 계산합니다. 이를 실현하는 방법에 대한 [자세한 내용은 아래 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) 계산 섹션을 참조하십시오.
+1. 메시지 본문과 개인 키를 기준으로 파트너 서버가 서명을 다시 계산합니다. 이를 [실현하는 방법에 대한 자세한 내용은 아래 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) 계산 섹션을 참조하십시오.
 1. 파트너 서버(받는 사람)에서 만든 서명을 (보낸 사람)으로부터 받은 서명 [!UICONTROL IRIS] 과 비교합니다.
 1. 서명이 일치하면 **신뢰성** 및 **메시지 무결성이** 검증됩니다. 개인 키가 있는 발신자만 유효한 서명(인증)을 보낼 수 있습니다. 또한 가운데 있는 사람은 개인 키가 없으므로 메시지를 수정하고 유효한 서명을 만들 수 없습니다(메시지 무결성).
 
@@ -90,10 +90,7 @@ String signature = Base64.encodeBase64String(result).trim();
 
 ## 개인 키 회전 {#rotate-private-key}
 
-보안상의 이유로 개인 키를 정기적으로 회전하는 것이 좋습니다. 개인 키와 순환 기간을 결정하는 것은 사용자의 책임입니다. 다운타임이 0으로 키 회전을 수행하려면 여러 개의 서명 헤더 추가를 [!UICONTROL IRIS] 지원합니다. 한 헤더에는 이전 키로 생성된 서명이 포함되며 다른 헤더에는 새 개인 키를 사용하여 생성된 서명이 포함됩니다. 자세한 내용은 아래 단계를 참조하십시오.
-
-1. 파트너는 새 개인 키를 다음으로 [!DNL Adobe Audience Manager]통신합니다.
-1. 이전 키는 제거되고 [!DNL Audience Manager] 새 서명 [!UICONTROL IRIS] 헤더만 보냅니다. 열쇠가 회전되었습니다.
+개인 키를 회전하려면 파트너는 새 개인 키를 컨설턴트에게 [!DNL Adobe Audience Manager] 전달해야 합니다. 이전 키는 제거되고 [!DNL Audience Manager] 새 서명 [!UICONTROL IRIS] 헤더만 보냅니다. 열쇠가 회전되었습니다.
 
 ## 서명에 사용되는 데이터 {#data-signing}
 

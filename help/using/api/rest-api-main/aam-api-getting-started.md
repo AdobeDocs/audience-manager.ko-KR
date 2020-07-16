@@ -7,10 +7,10 @@ title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 2%
+source-wordcount: '1854'
+ht-degree: 1%
 
 ---
 
@@ -40,22 +40,28 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 
 두 가지 인증 방법을 [!DNL Audience Manager] [!DNL REST APIs] 지원합니다.
 
-* [JWT(서비스 계정) 인증](#jwt). 권장되는 인증 방법입니다.
+* [JWT(서비스 계정](#jwt) ) [Adobe I/O를 사용한 인증](https://www.adobe.io/). [!DNL Adobe I/O] 는 Adobe의 개발자 에코시스템 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [Adobe I/O 개발자 도구, API](https://www.adobe.io/apis/experienceplatform.html) 및 [API가 포함됩니다](https://www.adobe.io/apis.html). 이를 통해 설정 및 사용 방법이 권장됩니다 [!DNL Adobe] [!DNL APIs].
 * [OAuth 인증(더 이상 사용되지 않음)](#oauth). 이 메서드는 더 이상 사용되지 않지만 기존 통합을 사용하는 고객은 이 방법을 계속 사용할 수 [!DNL OAuth] 있습니다.
 
 >[!IMPORTANT]
 >
 >인증 방법에 따라 요청을 적절하게 조정해야 [!DNL URLs] 합니다. 사용해야 하는 호스트 이름에 대한 자세한 내용은 [환경](#environments) 섹션을 참조하십시오.
 
-## [!DNL JWT] ([!DNL Service Account]인증) {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Adobe I/O를 사용한 인증 {#jwt}
+
+### Adobe I/O 개요 {#adobeio}
+
+[!DNL Adobe I/O] 는 Adobe의 개발자 에코시스템 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [Adobe I/O 개발자 도구, API](https://www.adobe.io/apis/experienceplatform.html) 및 [API가 포함됩니다](https://www.adobe.io/apis.html).
+
+이를 통해 설정 및 사용 방법이 권장됩니다 [!DNL Adobe] [!DNL APIs].
 
 ### 사전 요구 사항 {#prerequisites}
 
-인증을 구성하려면 먼저 [!DNL JWT] Adobe 개발자 콘솔 [](https://console.adobe.io/)액세스 권한이 있어야 합니다. 액세스 요청은 조직 관리자에게 문의하십시오.
+인증을 구성하려면 먼저 [!DNL JWT] Adobe I/O에서 [Adobe 개발자 콘솔](https://console.adobe.io/) 에 대한 액세스 권한이 [있어야 합니다](https://www.adobe.io/). 액세스 요청은 조직 관리자에게 문의하십시오.
 
 ### 인증
 
-아래 절차에 따라 [!DNL JWT (Service Account)] 인증을 구성하십시오.
+아래 절차에 따라 다음을 사용하여 [!DNL JWT (Service Account)] 인증을 구성하십시오 [!DNL Adobe I/O].
 
 1. Adobe 개발자 [콘솔에 로그인합니다](https://console.adobe.io/).
 1. 서비스 계정 [연결의 단계를 따릅니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).

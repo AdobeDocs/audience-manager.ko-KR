@@ -46,6 +46,7 @@ ht-degree: 2%
 1. 데이터 피드를 저장하고 활성화하려면:
    1. 슬라이더를 **[!UICONTROL Availability]** 다음으로 이동합니다 **[!UICONTROL Active]**.
    1. 클릭 **[!UICONTROL Save]**.
+
    >[!NOTE]
    >
    >* 저장 및 활성화된 데이터 피드는 삭제할 수 없습니다.

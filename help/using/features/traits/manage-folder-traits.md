@@ -31,6 +31,7 @@ ht-degree: 9%
 
    * &quot;모든 특성&quot; 텍스트를 추가하여 새 루트 수준 폴더를 추가합니다.
    * 새 하위 폴더를 추가할 기존 상위 폴더.
+
    ![](assets/folder_traits_create.PNG)
 
 1. 폴더를 만들려면 + 아이콘을 클릭합니다. 분류에 최대 2000개의 폴더를 만들 수 있습니다. 자세한 내용은 [사용 제한](../../features/administration/usage-limits.md) 문서를 참조하십시오.

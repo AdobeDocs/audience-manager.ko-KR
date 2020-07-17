@@ -236,7 +236,7 @@ ht-degree: 94%
          + [DCS API 참조 개요](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API 메서드](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS 오류 코드, 메시지 및 예제](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [ID 모니터링 및 거부 목록](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [ID 모니터링 및 차단 목록에 추가](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [DCS 지역 ID, 위치 및 호스트 이름](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [DCS 호출에서 키-값 쌍 형식 지정](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [경합 조건 및 오류 처리](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)

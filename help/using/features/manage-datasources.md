@@ -57,7 +57,7 @@ ht-degree: 5%
 
 ## [!UICONTROL Data Source] 설정 {#settings}
 
-이러한 설정에 따라 [!UICONTROL data source] 의 식별, 사용 및 공유 방식이 결정됩니다. 인바운드 데이터 파일에 대한 오류 보고를 활성화할 수도 있습니다. 섹션을 완료하려면 [!UICONTROL Data Source Settings] 다음을 수행하십시오.
+이러한 설정에 따라 a [!UICONTROL data source] 가 어떻게 식별, 사용 및 공유되는지 결정됩니다. 인바운드 데이터 파일에 대한 오류 보고를 활성화할 수도 있습니다. 섹션을 완료하려면 [!UICONTROL Data Source Settings] 다음을 수행하십시오.
 
 1. 옵션을 [!UICONTROL Data Source Setting] 적용할 확인란을 선택합니다 [!UICONTROL data source].
 2. 클릭 **[!UICONTROL Save]**.

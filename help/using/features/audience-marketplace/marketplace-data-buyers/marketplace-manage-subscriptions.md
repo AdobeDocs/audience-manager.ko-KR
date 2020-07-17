@@ -39,12 +39,14 @@ ht-degree: 2%
 1. 가입 테이블에서 사용 사례를 선택하고 다음을 수행합니다.
    * 슬라이더를 **[!UICONTROL Subscription]** 다음으로 이동합니다 **[!UICONTROL On]**.
    * 클릭 **[!UICONTROL Review & Subscribe]**. 그러면 [!UICONTROL Terms and Conditions] 창이 열립니다.
+
    ![구독](assets/subscribe3.png)
 
 1. 창 [!UICONTROL Terms and Conditions] :
 
    * **중요:** 체크 상자를 **[!UICONTROL ID sync]** 선택된 상태로 두십시오. 이 설정은 데이터 제공자와의 일치 속도를 개선하는 데 도움이 됩니다.
    * 약관 상자를 선택하고 을 클릭하여 구독 프로세스 **[!UICONTROL Accept]** 를 완료합니다.
+
    ![구독](assets/subscribe4.png)
 
 ### 다음 단계

@@ -1,6 +1,6 @@
 ---
-description: 쿠키 대상은 사용자 브라우저의 쿠키에 데이터를 반환하고 씁니다. 쿠키에는 페이지에 대한 액세스 권한이 있는 다른 플랫폼에서 읽을 수 있는 데이터가 포함됩니다. 다음 지침에 따라 [!UICONTROL 대상 빌더]로 쿠키 대상을 만듭니다.
-seo-description: 쿠키 대상은 사용자 브라우저의 쿠키에 데이터를 반환하고 씁니다. 쿠키에는 페이지에 대한 액세스 권한이 있는 다른 플랫폼에서 읽을 수 있는 데이터가 포함됩니다. 다음 지침에 따라 [!UICONTROL 대상 빌더]로 쿠키 대상을 만듭니다.
+description: 쿠키 대상은 사용자 브라우저의 쿠키에 데이터를 반환하고 씁니다. 쿠키에는 페이지에 대한 액세스 권한이 있는 다른 플랫폼에서 읽을 수 있는 데이터가 포함됩니다. 다음 지침에 따라 쿠키 대상을 만듭니다 [!UICONTROL Destination Builder].
+seo-description: 쿠키 대상은 사용자 브라우저의 쿠키에 데이터를 반환하고 씁니다. 쿠키에는 페이지에 대한 액세스 권한이 있는 다른 플랫폼에서 읽을 수 있는 데이터가 포함됩니다. 다음 지침에 따라 쿠키 대상을 만듭니다 [!UICONTROL Destination Builder].
 seo-title: 쿠키 대상 구성
 solution: Audience Manager
 title: 쿠키 대상 구성
@@ -8,7 +8,7 @@ feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---

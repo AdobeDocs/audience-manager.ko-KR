@@ -68,7 +68,7 @@ ht-degree: 2%
 
 숫자를 이렇게 생각해 보세요. 위의 이미지에서 [세그먼트 세부 사항](../../features/segments/segment-summary-view.md) 보기에서 9,993은 어제 속성을 방문하고 세그먼트에 적합한 활성 장치의 수를 나타냅니다. 699,532 [!UICONTROL Total Segment Population] 는 현재 이 세그먼트에 자격이 있는 총 장치 수를 나타냅니다. 이 [!UICONTROL Total Segment Population] 수치는 세그먼테이션/타깃팅에 사용할 수 있는 총 장치 수를 보여주기 위한 것입니다.
 
-두 인구를 계산하기 위해 두 가지 서로 다른 계산 작업을 하기 때문에, [!UICONTROL Total Segment Population] 항상 24시간 [!UICONTROL Real-time Segment Population] 에 뒤쳐집니다. 위의 그래프에서 당신은 2월 2일 [!UICONTROL Real-time Segment Population] 의 8,116 [!UICONTROL Total Segment Population] 과 742,000을 볼 수 있습니다. 8,116개의 프로필이 그 다음날 [!UICONTROL Total Segment Population] 에 추가됩니다.
+두 인구를 계산하기 위해 두 가지 다른 계산 작업을 하기 때문에, [!UICONTROL Total Segment Population] 항상 24시간 [!UICONTROL Real-time Segment Population] 에 뒤쳐집니다. 위의 그래프에서 당신은 2월 2일 [!UICONTROL Real-time Segment Population] 의 8,116 [!UICONTROL Total Segment Population] 과 742,000을 볼 수 있습니다. 8,116개의 프로필이 그 다음날 [!UICONTROL Total Segment Population] 에 추가됩니다.
 
 집까지 향해서, 만약 당신이 지금 10,000명의 방문자를 경험했다면, 그들은 내일 [!UICONTROL Real-time Segment Population]에 나타났지만, 단지 24시간 후에 그 곳에 나타날 것입니다 [!UICONTROL Total Segment Population].
 

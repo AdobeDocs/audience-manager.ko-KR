@@ -46,6 +46,7 @@ To create new traits from **[!UICONTROL Signal Dashboard]** the trait, identify 
 2. 결과 목록에서 트레이트에 사용할 신호를 식별합니다.
    * 한 신호로 트레이트를 생성하려면 해당 **[!UICONTROL Create Rule-Based Trait]** 또는 **[!UICONTROL Create Onboarded Trait]** 링크를 클릭합니다.
    * 여러 신호로 트레이트를 생성하려면 각 신호의 해당 확인란을 클릭한 다음 을 클릭합니다 **[!UICONTROL Create Trait from Multiple Signals]**.
+
    >[!NOTE]
    >같은 유형의 신호에서만 트레이트를 생성할 수 있습니다. 실시간 신호와 온보드 신호의 조합을 기반으로 하여 트레이트를 만들 수 없습니다.
    >

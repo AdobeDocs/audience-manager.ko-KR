@@ -129,7 +129,7 @@ ht-degree: 4%
 
 ### [!UICONTROL Trait IDs]
 
-[!UICONTROL Trait IDs] 숫자 문자로만 구성됩니다. 인바운드 데이터 파일 *에만[!UICONTROL onboarded traits]*포함시키십시오. 인바운드 데이터 전송에서 다른[!UICONTROL trait]유형은 처리하지 않습니다.
+[!UICONTROL Trait IDs] 숫자 문자로만 구성됩니다. 인바운드 데이터 파일 *에만[!UICONTROL onboarded traits]*포함시켜 주시기 바랍니다. 인바운드 데이터 전송에서 다른[!UICONTROL trait]유형은 처리하지 않습니다.
 
 ### [!UICONTROL User IDs]
 
@@ -494,7 +494,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-자격 정보 `ic` 를 전송하려면 [!UICONTROL trait] 접두사를 사용하십시오 [!DNL DPUUIDs].
+접두사를 `ic` 사용하여 자격 [!UICONTROL trait] 정보를 보낼 수 [!DNL DPUUIDs]있습니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626

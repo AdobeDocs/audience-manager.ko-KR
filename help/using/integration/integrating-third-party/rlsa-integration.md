@@ -9,7 +9,7 @@ feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '334'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 5%
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Audience Manager에서 [[!DNL URL 대상]을](../../features/destinations/create-url-destination.md) 만들거나 기존 대상을 편집합니다 [!DNL destination]. Use the following settings when creating the [!DNL destination]:
+1. Audience Manager에서 기존 [을 [!DNL URL destination]](../../features/destinations/create-url-destination.md) 만들거나 편집합니다 [!DNL destination]. Use the following settings when creating the [!DNL destination]:
    * 유형: URL
    * 일련화: 활성화됨
    * 구분 기호: 세미콜론(;)
@@ -72,7 +72,7 @@ ht-degree: 5%
 >[!MORELIKETHIS]
 >
 >* [[!DNL 대상]](../../features/destinations/destinations.md)
->* [[!DNL URL 대상] 만들기](../../features/destinations/create-url-destination.md)
+>* [웹 사이트에 있는 각각의 고유한 랜딩 위치에 대해 [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [AdWords 리마케팅 목록 정보](https://support.google.com/adwords/answer/2472738)
 >* [AdWords 리마케팅 작동 방식](https://support.google.com/adwords/answer/2454000)
 

@@ -80,7 +80,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Trait] 감사 / 기록 로그 {#trait-audit-history}
 
-및 [!UICONTROL rule-based] 의 경우 [!UICONTROL onboarded traits], 표현식 규칙에 대한 마지막 10개 변경 사항 [!UICONTROL Trait Expression Change History] [!UICONTROL trait] 및 변경 사항을 만든 사람을 표시합니다. 10개가 [!UICONTROL trait] 넘는 변경 사항이 있는 경우 를 클릭하여 전체 감사 로그를 **[!UICONTROL Export to CSV]** 다운로드합니다. 감사 로그는 [!UICONTROL folder] 또는 에서 사용할 수 없습니다 [!UICONTROL algorithmic traits].
+에 대해 [!UICONTROL rule-based] 와 [!UICONTROL onboarded traits]의 경우, 표현식 규칙에 대한 마지막 10개 변경 사항 [!UICONTROL Trait Expression Change History] [!UICONTROL trait] 과 변경 사항을 만든 사람을 표시합니다. 10개 [!UICONTROL trait] 이상의 변경 사항이 있는 경우 를 클릭하여 전체 감사 로그를 **[!UICONTROL Export to CSV]** 다운로드합니다. 감사 로그는 [!UICONTROL folder] 또는 에서 사용할 수 없습니다 [!UICONTROL algorithmic traits].
 
 >[!NOTE]
 >

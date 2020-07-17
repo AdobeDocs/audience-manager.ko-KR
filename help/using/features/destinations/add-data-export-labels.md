@@ -35,6 +35,7 @@ ht-degree: 7%
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >데이터 원본에 [일치하는 내보내기 컨트롤을](../../features/data-export-controls.md) 설정하지 않으면 내보내기 제한이 작동하지 않습니다.

@@ -159,22 +159,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>차단된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID가 악성 ID로 식별되고 거부 목록에 추가되면 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>고객 ID가 악의적인 것으로 식별되어 차단 목록에 추가되면 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>차단된 데이터 소스 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>데이터 소스 ID가 악성 ID로 식별되어 denylist에 추가되면 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>데이터 소스 ID가 악의적인 것으로 식별되어 차단 목록에 추가되면 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>차단된 선언된 장치 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>장치 ID가 악의적인 것으로 식별되었으며 비밀 목록에 추가되었습니다. 이 장치 ID가 들어 있는 엄청난 양의 <span class="wintitle"> DCS</span> 요청을 짧은 시간 내에 받는 경우 이 문제가 발생할 수 있습니다. </p> </td>
+   <td colname="col3"> <p>장치 ID가 악의적인 것으로 식별되어 차단 목록에 추가되었습니다. 이 장치 ID가 들어 있는 엄청난 양의 <span class="wintitle"> DCS</span> 요청을 짧은 시간 내에 받는 경우 이 문제가 발생할 수 있습니다. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>차단된 프로필 작업 <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>ID가 악성 ID로 식별되어 denylist에 추가되었기 때문에 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>ID가 악성 ID로 식별되어 차단 목록에 추가되었기 때문에 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 

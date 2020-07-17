@@ -53,7 +53,7 @@ ht-degree: 5%
 
 ## [!DNL d_] 속성 {#d-attributes}
 
-이 모든 것은 선택 사항이며, 이 경우 응답할 필요가 없습니다 [!DNL DCS]. 응답을 [!DNL DCS] 반환하려면 필수 `d_rtbd=json` 가 됩니다.
+이 모든 것은 선택 사항이며, 단, [!DNL DCS] 응답을 [!DNL DCS] 반환하려면 필수 `d_rtbd=json` 가 됩니다.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 

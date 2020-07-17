@@ -25,9 +25,9 @@ ht-degree: 13%
 
    코드 ID별로 숫자 순서로 나열된 DCS(데이터 수집 서버)에서 생성된 오류 코드 및 메시지
 
-* [ID 모니터링 및 거부 목록](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+* [ID 모니터링 및 차단 목록에 추가](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   DCS는 수신한 ID를 모니터링하고 짧은 시간 동안 비정상적으로 높은 비율로 전송되는 ID를 거부 목록에 추가합니다.
+   DCS는 수신되는 ID를 모니터링하고 짧은 시간 동안 비정상적으로 높은 비율로 전송되는 ID를 차단 목록에 추가합니다.
 
 * [DCS 지역 ID, 위치 및 호스트 이름](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 

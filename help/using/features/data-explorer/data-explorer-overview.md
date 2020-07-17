@@ -24,7 +24,7 @@ ht-degree: 2%
 
 [!UICONTROL Data Explorer] 특성 관리 프로세스를 간소화할 수 있고 분류 체계와 관련하여 더욱 높은 수준의 유연성을 제공합니다. 두 [!UICONTROL Data Explorer] 구성 요소를 사용하여 다음을 수행할 수 있습니다.
 
-* [Signatures Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) and [!UICONTROL Signals Search] help you keep track of signal by [!DNL Audience Manager] you can use to build new traits or add to existing one.
+* [대시보드에](../../features/data-explorer/data-explorer-signals-dashboard.md) 신호를 보내 새로운 트레이트를 만들거나 기존 트레이트에 추가할 수 [!UICONTROL Signals Search] [!DNL Audience Manager] 있는 신호를 추적할 수 있습니다.
 
 * [트레이트 구현 백채우기를](../../features/data-explorer/data-explorer-trait-backfill.md) 사용하면 새로 만든 트레이트에 대해 내역 대상을 평가할 수 있으므로 향후 타깃팅 노력에 이러한 트레이트를 포함할 수 있습니다.
 

@@ -157,6 +157,7 @@ dil-google-universal-analytics.xml
    >
    >
 * 여전히 Google의 기존 분석 추적 코드(예: `GA.submitUniversalAnalytics();` 또는 `ga.js` `dc.js`)로 작업하는 경우에는 사용할 수 없습니다. 대신 [GA.init를](../dil/dil-modules.md#ga-init) 참조하십시오.
+
 >
 
 

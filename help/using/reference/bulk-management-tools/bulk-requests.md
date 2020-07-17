@@ -43,6 +43,7 @@ t_bulk_requests.xml
    * 알고리즘, 규칙 기반, 온보드 트레이트
    * 세그먼트
    * 특성 및 세그먼트 폴더 ID
+
    API [!DNL Audience Manager] 는 벌크 데이터를 다시 [!UICONTROL Request] 워크시트에 기록합니다.
 
 >[!NOTE]

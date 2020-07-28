@@ -7,9 +7,9 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
+source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1441'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 개요 {#overview}
 
-Audience Manager과 Adobe Experience Platform 간 대상 공유 기능을 사용하면 Audience Manager 트레이트와 세그먼트를 Adobe Experience Platform에 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager과 Adobe Experience Platform 간에 대상 [공유를 사용하려면](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) Audience Manager 커넥터가 필요합니다.
+Audience Manager과 Adobe Experience Platform 간 대상 공유 기능을 사용하면 Audience Manager 트레이트와 세그먼트를 Adobe Experience Platform에 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager과 Adobe Experience Platform 간에 대상 공유를 사용하려면 [[!DNL Audience Manager 커넥터]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 가 필요합니다.
 
 Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform [세분화 서비스를 활용할 수 있습니다](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
 
@@ -149,7 +149,7 @@ Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업
 
 ### 프로필 병합 규칙과 병합 정책 간의 차이점
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Experience Platform의 Audience Manager 및 [병합 정책](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 은 서로 다르게 작동하며, 각각에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Audience Manager과 Experience Platform [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 에서 서로 다르게 작동하며 각각에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
 
 ### Experience Platform의 세그먼트 구성
 

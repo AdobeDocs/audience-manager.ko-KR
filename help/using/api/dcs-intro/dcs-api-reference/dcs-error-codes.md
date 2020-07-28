@@ -7,10 +7,10 @@ title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 3%
+source-wordcount: '1518'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## 시스템 오류 코드 {#system-error-codes}
 
-|오류 코드|오류 메시지|설명|
-||—|—|—|
-|0|지정되지 않음 오류|다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 catch-all 오류입니다. 이 오류를 해결하기 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오.|
-|1|호스트 이름에 대한 구성을 찾을 수 없습니다. `hostname`|요청에서 보낸 호스트 이름이 파트너 제공 팀에서 설정하지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오.|
-|2|잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID`|조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 보유하고 있지 않은 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결에](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) 대한 자세한 내용을 참조하십시오.|
+| 오류 코드 | 오류 메시지 | 설명 |
+|---|---|---|
+| 0 | 지정되지 않은 오류 | 다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 다목적 캐치(catch-all) 오류입니다. 이 오류를 해결하기 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
+| 1 | 호스트 이름에 대한 구성을 찾을 수 없습니다. `hostname` | 요청에 전송된 호스트 이름이 파트너 프로비저닝 팀에서 설정하지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오. |
+| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 보유하고 있지 않은 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결에](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) 대한 자세한 내용을 참조하십시오. |
 
 ## 통합 오류 코드 {#integration-error-codes}
 
-|오류 코드|오류 메시지|설명|
-||—|—|—|
-|100|요청에 대한 호스트 이름을 검색할 수 없습니다| [!DNL API] 호출에서 요청에 호스트 [!DNL HTTP] 헤더를 보내지 않았습니다. 호스트 헤더를 호출에 추가하고 다시 시도하십시오. 대부분의 브라우저와 [!DNL API] 클라이언트는 자동으로 이 작업을 수행합니다. |
-|101|잘못된 [!DNL Experience Cloud] ID가 전달되었습니다. `ID`| [!DNL DCS] 호출에 잘못된 [!DNL Experience Cloud] ID가 있습니다. 헤더 문자열에서 `d_mid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Experience Cloud] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
-|102|잘못된 [!DNL AAM ID] 합격 요청 `ID`| [!DNL DCS] 호출에 잘못된 [!DNL Audience Manager] ID가 있습니다. 헤더 문자열에서 `d_uuid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Audience Manager] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
-|104|모든 고객 ID가 잘못되었습니다. | 호출의 모든 고객 ID가 잘못되었습니다. ID를 확인하고 다시 시도하십시오.|
-|109|파트너 `HTTP referer` 에 대한 참조가 허용되지 않음 `Partner ID`|호출의 `HTTP referer` 헤더는 호출의 파트너 ID에 사용할 수 없습니다. 헤더가 `HTTP referer` 올바른지 확인하십시오.|
-|111|잘못된 토큰 `IMS` 을 받았습니다| [!DNL Audience Manager] 을(를) 통한 [!DNL Adobe Target] 통합입니다. 잘못된 [!DNL DCS][!DNL IMS] 토큰이 들어 있는 호출을 수행할 때 오류가 발생합니다. 토큰의 형식이 잘못되었거나, 만료되었거나, 사용자에게 필요한 리소스에 액세스할 수 있는 권한이 없을 수 있습니다.|
+| 오류 코드 | 오류 메시지 | 설명 |
+|---|---|---|
+| 100 | 요청에 대한 호스트 이름을 검색할 수 없습니다. | 요청에 [!DNL API] 호스트 [!DNL HTTP] 헤더가 전송되지 않았습니다. 호스트 헤더를 호출에 추가하고 다시 시도하십시오. 대부분의 브라우저와 [!DNL API] 클라이언트는 자동으로 이 작업을 수행합니다. |
+| 101 | 잘못된 [!DNL Experience Cloud] ID가 전달되었습니다. `ID` | 호출에 잘못된 [!DNL DCS] [!DNL Experience Cloud] ID가 포함되어 있습니다. 헤더 문자열에서 `d_mid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Experience Cloud] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
+| 102 | 잘못된 [!DNL AAM ID] 요청 전달 `ID` | 호출에 잘못된 [!DNL DCS] [!DNL Audience Manager] ID가 포함되어 있습니다. 헤더 문자열에서 `d_uuid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Audience Manager] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
+| 104 | 모든 고객 ID가 잘못되었습니다. | 호출의 모든 고객 ID가 잘못되었습니다. ID를 확인하고 다시 시도하십시오. |
+| 109 | 파트너 `HTTP referer` 에 대한 참조가 허용되지 않음 `Partner ID` | 호출의 `HTTP referer` 헤더는 호출의 파트너 ID에 대해 허용되지 않습니다. 헤더가 `HTTP referer` 올바른지 확인하십시오. |
+| 111 | 잘못된 `IMS` 토큰을 수신했습니다. | - [!DNL Audience Manager] 통합을 위해 [!DNL Adobe Target] 반환됩니다. 잘못된 [!DNL DCS][!DNL IMS] 토큰이 들어 있는 호출을 수행할 때 오류가 발생합니다. 토큰의 형식이 잘못되었거나, 만료되었거나, 사용자에게 필요한 리소스에 액세스할 수 있는 권한이 없을 수 있습니다. |
 
 ## 옵트아웃 오류 코드 {#opt-out-error-codes}
 
@@ -159,22 +159,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>차단된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID가 악의적인 것으로 식별되어 차단 목록에 추가되면 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>고객 ID가 악성 ID로 식별되고에 추가되면 차단 목록 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>차단된 데이터 소스 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>데이터 소스 ID가 악의적인 것으로 식별되어 차단 목록에 추가되면 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>데이터 소스 ID가 악성 ID로 식별되어에 추가되면 차단 목록 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>차단된 선언된 장치 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>장치 ID가 악의적인 것으로 식별되어 차단 목록에 추가되었습니다. 이 장치 ID가 들어 있는 엄청난 양의 <span class="wintitle"> DCS</span> 요청을 짧은 시간 내에 받는 경우 이 문제가 발생할 수 있습니다. </p> </td>
+   <td colname="col3"> <p>장치 ID가 악의적인 것으로 식별되어에 차단 목록 추가되었습니다. 이 장치 ID가 들어 있는 엄청난 양의 <span class="wintitle"> DCS</span> 요청을 짧은 시간 내에 받는 경우 이 문제가 발생할 수 있습니다. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>차단된 프로필 작업 <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>ID가 악성 ID로 식별되어 차단 목록에 추가되었기 때문에 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>ID가 악성 ID로 식별되어에 추가되었기 때문에 읽기/쓰기 작업이 차단되었습니다. 오류 코드 306을 차단 목록 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 

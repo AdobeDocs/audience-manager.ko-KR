@@ -7,10 +7,10 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 4%
+source-wordcount: '1442'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> 이 기능에 대한 액세스 권한을 부여하려면 Adobe 세일즈 담당자에게 문의하십시오.
+> 이 기능에 대한 액세스 권한을 부여하려면 Adobe 영업 담당자에게 문의하십시오.
 
 ## 개요 {#overview}
 
@@ -56,9 +56,17 @@ Audience Manager 트레이트 및 세그먼트는 세그먼트 워크플로우�
 
 ## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
 
-Experience Platform에서 만든 세그먼트는 다음 컴포지션 규칙과 함께 Audience Manager 인터페이스에 트레이트 및 세그먼트로 나타납니다.
+Experience Platform에서 만드는 세그먼트는 다음 컴포지션 규칙을 사용하여 Audience Manager 인터페이스에 신호, 트레이트 및 세그먼트로 나타납니다.
+
+* 신호: 각 Experience Platform 세그먼트에 대해 양식에서 신호를 볼 수 있습니다 `segID = segment ID`.
 * 특성: 특성 규칙은 Experience Platform 세그먼트의 ID입니다.
 * 세그먼트: 세그먼트는 위에서 설명한 트레이트로 구성됩니다.
+
+### 신호 {#aep-segments-as-aam-signals}
+
+Experience Platform **[!UICONTROL Audience Data > Signals > General Online Data]** 에서 들어오는 신호를 `SegId` 찾으려면 다음을 선택하여 검색합니다. 디버깅을 위해 이 화면을 사용하여 Experience Platform과 Audience Manager 간 통합이 올바르게 설정되어 있는지 확인할 수 있습니다.
+
+![신호 대시보드의 Audience Manager에서 Experience Platform 신호 보기](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
 ### 트레이트 {#aep-segments-as-aam-traits}
 
@@ -133,10 +141,38 @@ Audience Manager과 Experience Platform 간 대상 공유 프로세스에서 Aud
 
 ## Audience Manager과 Experience Platform 간의 세그먼트 모집단 차이점 이해
 
-세그먼트 인구 수는 Audience Manager 세그먼트와 Experience Platform 세그먼트 간에 다를 수 있습니다. 유사하거나 동일한 대상에 대한 세그먼트 번호는 비슷해야 하지만 모집단의 차이는 다음과 같습니다.
+세그먼트 인구 수는 Audience Manager 세그먼트와 Experience Platform 세그먼트 간에 다를 수 있습니다. 유사하거나 동일한 대상에 대한 세그먼트 번호는 비슷해야 하지만 모집단 차이는 아래에 나열된 요소 때문일 수 있습니다.
 
-* 세그멘테이션 작업은 실행 시간을 나타냅니다. Audience Manager은 인터페이스에서 하루에 한 번 숫자를 업데이트하는 세그멘테이션 작업을 실행합니다. 이 작업은 Experience Platform의 세그멘테이션 작업과 거의 일치하지 않습니다.
-* [Experience Platform의 프로필 병합 규칙](/help/using/features/profile-merge-rules/merge-rules-overview.md) 및 [병합 정책](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 은 다르게 작동하며, 각 항목에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
+### Experience Platform의 세그먼트 평가
+
+Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업데이트합니다.   이 업데이트의 타이밍은 Experience Platform에서 세그먼트 평가 시간에 거의 맞지 않습니다.
+
+### 프로필 병합 규칙과 병합 정책 간의 차이점
+
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Experience Platform의 Audience Manager 및 [병합 정책](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 은 서로 다르게 작동하며, 각각에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
+
+### Experience Platform의 세그먼트 구성
+
+Adobe Experience Platform과 Audience Manager 간의 통합은 모든 고객을 위한 다양한 표준 [ID 네임스페이스를](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) 공유합니다. ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID 등. Experience Platform 세그먼트가 이러한 프로파일 중 하나를 자격이 있는 프로파일에 대한 기본 ID로 사용하는 경우 프로파일은 Audience Manager 트레이트 및 세그먼트에서 계산됩니다.
+
+또한 Audience Manager은 Experience Platform 세그먼트에서 사용하는 모든 사용자 지정 ID 네임스페이스에 대해 들어오는 할당을 등록할 수 있습니다. 단, 이미 해당 식별자의 코딩이 된 Audience Manager에 해당 데이터 소스가 있는 경우에는 이 ID 네임스페이스에 대해 이 업데이트를 적용할 수 있습니다.
+
+>[!NOTE]
+>
+> Raw 이메일의 ID가 지정된 Experience Platform의 대상은 Audience Manager에 표시되지 않습니다.
+
+예를 들어 Experience Platform 세그먼트 &quot;모든 내 고객&quot;이 있고 자격이 있는 프로필은 CRM ID, ECID, IDFA, 원시 이메일 주소 및 해시된 이메일 주소인 경우 Audience Manager의 해당 세그먼트에는 CRM ID, ECID, IDFA 및 해시된 이메일 주소만 포함됩니다. Audience Manager의 세그먼트 모집단도 Experience Platform의 세그먼트보다 작습니다.
+
+![Audience Manager 세그먼트 공유 - 세그먼트 구성](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+
+<!--
+
+If you created a data source in Audience Manager for the CRM IDs in Experience Platform, then the qualified profiles keyed off those CRM IDs would appear in Audience Manager and the segment population in Audience Manager would increase.
+
+![AEP to AAM segment sharing - segment composition after creating a data source for CRM IDs in Audience Manager](/help/using/integration/integration-aep/assets/AEP-to-AAM-identities2.png)
+
+-->
+
 
 >[!MORELIKETHIS]
 >

@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
+source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Audience Manager은 계정에 대해 만들 수 있는 트레이트, 세그먼�
 | [!UICONTROL Look-Alike Models] 최대 고객 규모 | 25,000,000.  이 제한은 늘릴 수 없습니다. 모델의 데이터 소스를 적게 선택하거나 보다 짧은 뒤로 보기를 선택하여 대상 크기를 줄일 수 있습니다. |
 | 제외되는 최대 트레이트 수 [!UICONTROL Look-Alike Model] | 500. 알고리즘 모델링에서 [특성 제외를 참조하십시오](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | 최시움 [!UICONTROL Predictive Audiences Models] | 10 |
-| 모델에 대한 기준선 페르소나의 최대 [!UICONTROL Predictive Audiences] 수 | 50 |
+| 최대 기준 개인 수 [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### 폴더 제한
 

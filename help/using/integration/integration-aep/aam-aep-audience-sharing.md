@@ -7,7 +7,7 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Audience Manager 트레이트 및 세그먼트는 세그먼트 워크플로우�
 
 ## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
 
-Experience Platform에서 만드는 세그먼트는 신호, 트레이트 및 세그먼트로 Audience Manager 인터페이스에 다음 컴포지션 규칙을 사용하여 나타납니다.
+Experience Platform에서 만드는 세그먼트는 다음 컴포지션 규칙을 사용하여 Audience Manager 인터페이스에 신호, 트레이트 및 세그먼트로 나타납니다.
 
 * 신호: 각 Experience Platform 세그먼트에 대해 양식에서 신호를 볼 수 있습니다 `segID = segment ID`.
 * 특성: 특성 규칙은 Experience Platform 세그먼트의 ID입니다.
@@ -139,7 +139,7 @@ Audience Manager과 Experience Platform 간 대상 공유 프로세스에서 Aud
 | 이 대상은 온사이트 광고 타깃팅에 사용할 수 있습니다. | 온사이트 광고 |
 | 이 대상은 온사이트 광고 개인화에 사용될 수 있습니다. | 온사이트 개인화 |
 
-## Audience Manager과 Experience Platform 간의 세그먼트 모집단 차이점 이해
+## Audience Manager과 Experience Platform 간의 세그먼트 모집단 차이점 이해 {#aep-aam-segment-population-differences}
 
 세그먼트 인구 수는 Audience Manager 세그먼트와 Experience Platform 세그먼트 간에 다를 수 있습니다. 유사하거나 동일한 대상에 대한 세그먼트 번호는 비슷해야 하지만 모집단 차이는 아래에 나열된 요소 때문일 수 있습니다.
 

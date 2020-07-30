@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 67%
 
 ---
 
@@ -66,28 +66,45 @@ ht-degree: 100%
 
 [!UICONTROL Predictive Audiences] 모델이 다수의 이유로 인해 결과를 내놓지 못할 수 있습니다.
 
-1. 선택한 성향 트레이트/세그먼트 중 어느 것에도 충분한 사용자 프로필이 없습니다. 각 성향에 사용자 프로필이 최소 수백 개 이상 포함되도록 트레이트 또는 세그먼트를 선택하는 것이 좋습니다.
-1. 선택한 성향 트레이트/세그먼트 중 어느 것에도 사용자 프로필에 충분한 데이터가 없습니다(분석하기에 충분한 트레이트가 아님).
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
 1. 지난 30일 내에 타겟 대상 트레이트/세그먼트에 활성 상태이거나 온보딩된 사용자가 없었습니다.
 1. 지난 30일 내에 활성 상태이거나 온보딩된 타겟 대상 사용자의 사용자 프로필에 충분한 데이터가 없습니다(분석하기에 충분한 트레이트가 아님).
+1. 대상 대상 세그먼트는 모델에 대해 선택한 세그먼트 [!UICONTROL Profile Merge Rule] 와 다르게 사용됩니다.
+1. 대상 고객 트레이트의 데이터 소스는 모델에 대해 선택한 데이터 [!UICONTROL Profile Merge Rule] 에 포함되지 않을 수 있습니다.
 
-적절한 결과를 생성하기 위해 [!UICONTROL Predictive Audiences] 알고리즘은 DCS에서 보는 실시간 사용자 활동을 기반으로 트레이트 및 세그먼트 실현을 평가합니다. 아직 충분한 사용자가 없는 새 기본 트레이트 및 세그먼트를 선택하는 경우 알고리즘이 대상을 분류하는 데에는 2일 정도 걸릴 수 있습니다.
+To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. 아직 충분한 사용자가 없는 새 기본 트레이트 및 세그먼트를 선택하는 경우 알고리즘이 대상을 분류하는 데에는 2일 정도 걸릴 수 있습니다.
 
 최적의 결과를 얻으려면 [성향 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-personas) 및 [타겟 대상 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-audience)의 제안된 지침을 따르십시오.
 
  
 
-**내 모델이 오류 상태를 표시하는 이유는 무엇입니까?**
+**모델이[!UICONTROL Error]상태를 표시하는 이유는 무엇입니까?**
 
-모델을 실행하지 못했습니다. 이러한 경우 Adobe 담당자에게 문의하십시오.
+모델을 실행하지 못했습니다. In such cases, please reach out to your [!DNL Adobe] representative.
+
+ 
+
+**어떻게 하면[!UICONTROL Profile Merge Rule]바꿀 수[!UICONTROL Predictive Audiences]있습니까[!UICONTROL segment]?**
+
+이전 모델과 동일한 개인 및 대상 대상을 선택하여 새 모델을 만듭니다. 모델을 생성하는 동안 다른 항목을 지정합니다 [!UICONTROL Profile Merge Rule].
+
+>[!WARNING]
+> 또는 [세그먼트 빌더를 사용하여](../features/segments/segment-builder.md) 기존 예측 [!UICONTROL segment] 을 [!UICONTROL trait] 사용하여 [!UICONTROL Profile Merge Rule] 수동으로 만들고 원하는것을 지정할 수있습니다.
+> 
+> 하지만, 예측 [!UICONTROL traits] 은 해당 모델이 속한 모델의 [!UICONTROL Profile Merge Rule] 이름을 자동으로 상속하며, 모델의 [!UICONTROL traits] 를 준수하는 영향력 있는 요소 [!UICONTROL Profile Merge Rule] 에서 만들어지기 때문에 이러한 관행은 권장하지 않습니다.
 
  
 
-**Predictive Audiences 세그먼트에 대한 프로필 병합 규칙을 변경하려면 어떻게 해야 합니까?**
+**무엇을[!UICONTROL Profile Merge Rule]선택해야 합니까?**
 
-[!UICONTROL Predictive Audiences] 세그먼트를 복제하고 복제된 세그먼트에 대한 [!UICONTROL Profile Merge Rule]을 변경합니다.
+모델에 대해 [!UICONTROL Profile Merge Rule] 선택할 때 사용 사례를 자세히 분석하십시오.
 
- 
+타겟 고객이 인증된 프로필 + [!UICONTROL segment] 프로필을 [!UICONTROL Profile Merge Rule] 기반으로 [!DNL Device Graph] 한 프로필을 사용하고 예측 [!UICONTROL Profile Merge Rule] 에 대해 동일한 항목을 선택한다고 가정해 보겠습니다 [!UICONTROL segments]. 이 경우, 장치 수준 및 장치 간 수준 모두 모델을 교육하는 [!UICONTROL traits] 데 사용되고 사용자가 예측 모델로 배치됩니다 [!UICONTROL segment].
+
+그러나 장치 프로파일만을 [!UICONTROL Profile Merge Rule] 기반으로 선택하면, 크로스 디바이스 중 어느 것도 영향을 받지 [!UICONTROL traits] 않으며 사용자가 예측 모델로 배치되는 데 영향을 주지 않습니다 [!UICONTROL segment]. 이로 인해 모델 정확도와 도달 수가 저하될 수 있습니다.
+
+사용 사례를 주의 깊게 분석하고 모델이 학습할 유형과 모델이 분류에 사용할 데이터 유형을 결정합니다. [!UICONTROL trait]
 
 **어떤 성향 트레이트/세그먼트에도 속하지 않는 타겟 대상의 사용자를 분류할 수 있습니까?**
 

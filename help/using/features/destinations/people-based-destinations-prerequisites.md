@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0ca118abd4e4e8aa3eb8b01123d1f02b712841b2
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 4%
+source-wordcount: '1015'
+ht-degree: 3%
 
 ---
 
@@ -50,6 +50,14 @@ ht-degree: 4%
 
 비디오 [지침은 LinkedIn 사람 기반 대상](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 이해 및 구성을 참조하십시오.
 
+### [!DNL Google Customer Match]
+
+퍼스트 파티 대상 세그먼트 [!UICONTROL People-Based Destinations] 를 [!DNL Google Customer Match] 대상으로 전송하려면 먼저 해당 허용 목록에 사용자를 [!DNL Google] 추가해야 합니다.
+
+담당자에게 [!DNL Google] 연락하고 고객 일치 파트너 사용 [에 설명된 허용 목록 지침을 따라 데이터](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) 설명서를 [!DNL Google] 업로드합니다.
+
+이 프로세스가 완료되면 사용자를 만들 수 있습니다 [!UICONTROL People-Based Destination].
+
 ## 데이터 온보딩 {#data-onboarding}
 
 데이터 수집은 [!UICONTROL People-Based Destinations] 현재 일괄 전송당 하나의 고객 ID([!DNL CRM ID])에 연결된 최대 10개의 해시된 이메일 주소를 지원합니다. 하나의 고객 ID에 연결된 해시된 이메일 주소를 10개 이상 업로드하면 Audience Manager이 10개의 이메일 주소를 특정 순서대로 인제스트합니다.
@@ -81,7 +89,7 @@ ht-degree: 4%
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud는 [!DNL Adobe Experience Platform Identity Service (ECID)] ECID를 [사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 setCustomerID에](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 대한 SHA256 해싱 지원을 참조하십시오.
+Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID)] ECID를 [사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 setCustomerID에](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 대한 SHA256 해싱 지원을 참조하십시오.
 
 ## 사용자 권한 얻기 {#obtaining-user-permission}
 

@@ -8,9 +8,9 @@ title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ ht-degree: 4%
 
 [!UICONTROL CDF] 파일에는 [!DNL Audience Manager] 이벤트 호출(`/event`)이 서버에 보내는 것과 동일한 데이터가 포함되어 있습니다. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. 내부 [!DNL Audience Manager] 시스템은 이벤트 데이터를 [!UICONTROL CDF] 파일로 처리하며 컨텐츠는 설정된 순서로 표시되는 필드로 구성됩니다. [!DNL Audience Manager] 시마다 [!UICONTROL CDF] 파일을 생성하여 [!DNL Amazon S3] 서버의 안전한 고객별 버킷에 저장합니다. Adobe는 이러한 파일을 제공하므로 사용자 인터페이스가 설정한 제한 사항 이외의 [!DNL Audience Manager] 데이터를 사용하여 작업할 수 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->페이지 트래픽을 모니터링하고, 보고서 불일치를 조정하거나, 청구하기 위해 [!UICONTROL CDF] 파일을 프록시로 사용해서는 안됩니다.
+>CDF 파일을 사용하여 작업할 때는 다음 제한 사항을 참고하십시오.
+>
+>* CDF 파일 배달을 설정하기 전에 타사 트레이트를 내보낼 때 타사 데이터 제공자로부터 적절한 권한이 있는지 확인하십시오.
+>* 페이지 트래픽을 모니터링하고, 보고서 불일치를 조정하거나, 청구하기 위해 [!UICONTROL CDF] 파일을 프록시로 사용해서는 안됩니다.
+
 
 ## 시작하기 {#getting-started}
 

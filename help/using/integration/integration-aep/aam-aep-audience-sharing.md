@@ -7,7 +7,7 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: abe2a63c2ee9ad1028dac0a69ecb006a0fbdd029
+source-git-commit: f9e6aedb408db218c548f469330ece584db75853
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -150,7 +150,6 @@ Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업
 ### 프로필 병합 규칙과 병합 정책 간의 차이점
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Audience Manager과 Experience Platform [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 에서 서로 다르게 작동하며 각각에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
-
 
 ### Experience Platform의 세그먼트 구성
 

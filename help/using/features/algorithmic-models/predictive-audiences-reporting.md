@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 모델을 저장한 후 Audience Manager에서 [!UICONTROL Predictive Audiences] 교육을 시작합니다. 몇 시간 내에 계산된 모델은 [데이터 수집 서버에서 대상 분석을 시작합니다](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). 보고 기능은 다음 날에 제공됩니다.
 
-분류 결과를 [!UICONTROL Predictive Audiences] 보려면 **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**&#x200B;로 이동하고 목록에서 모델을 클릭합니다.
+분류 결과를 [!UICONTROL Predictive Audiences] 보려면 **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**&#x200B;으로 이동하고 목록에서 모델을 클릭합니다.
 
 왼쪽의 필터링 옵션을 사용하여 모델 이름을 검색하거나 모델 유형에 따라 결과를 필터링합니다.
 
@@ -69,7 +69,7 @@ Audience Manager은 색상 코딩된 도넛형 차트와 타임라인 그래프�
 
 모든 성향에 영향을 미치는 요소를 보려면 을 클릭합니다 [!UICONTROL View All Influential Traits].
 
-선택한 [!UICONTROL Influential Traits] 모델의 각 사용자에 대한 다음 정보가 창에 표시됩니다.
+선택한 모델의 각 사용자에 대한 다음 정보가 창에 표시됩니다. [!UICONTROL Influential Traits]
 
 ![영향력 있는 특성](assets/predictive-audiences-influential-traits.png)
 

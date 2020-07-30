@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '492'
 ht-degree: 8%
 
 ---
@@ -39,9 +39,10 @@ ht-degree: 8%
    ![smart-persona-select-audience](assets/predictive-audiences-audience.png)
 1. 대상자를 선택한 **[!UICONTROL Next]** 후 을 클릭합니다.
 1. 모델 세부 사항을 입력합니다.
-   1. **[!UICONTROL Model Name]**: 나중에 식별할 수 있도록 모델에 대해 설명형 이름을 입력합니다. 모델에서 생성된 세그먼트의 이름은 모델 이름으로 시작됩니다.
-   2. **[!UICONTROL Description]**: 사용 사례를 식별하는 데 도움이 되는 모델의 설명을 입력합니다.
-   3. **[!UICONTROL Data Source]**: 이 모델의 세그먼트를 할당할 자사 데이터 소스 [!UICONTROL Predictive Audiences] 를 선택합니다.
+   * **[!UICONTROL Model Name]**: 나중에 식별할 수 있도록 모델에 대해 설명형 이름을 입력합니다. 모델에서 생성된 세그먼트의 이름은 모델 이름으로 시작됩니다.
+   * **[!UICONTROL Description]**: 사용 사례를 식별하는 데 도움이 되는 모델의 설명을 입력합니다.
+   * **[!UICONTROL Data Source]**: 이 모델의 세그먼트를 할당할 자사 데이터 소스 [!UICONTROL Predictive Audiences] 를 선택합니다.
+   * **[!UICONTROL Profile Merge Rule]**: 이 모델 [!UICONTROL Profile Merge Rule] 에 의해 생성된 모든 예측 [!UICONTROL segments] 에 대해 지정할 항목을 선택합니다. 선택한 대상 대상이 [!UICONTROL segment]같은 경우 대상 대상자와 동일한 대상 [!UICONTROL Profile Merge Rule] 을 선택하는 것이 좋습니다.
       ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. 클릭 **[!UICONTROL Save]**.
 

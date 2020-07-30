@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 0ca118abd4e4e8aa3eb8b01123d1f02b712841b2
+source-git-commit: f9e6aedb408db218c548f469330ece584db75853
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 3%
+source-wordcount: '953'
+ht-degree: 4%
 
 ---
 
@@ -49,14 +49,6 @@ ht-degree: 3%
 사용자 권한을 편집하는 방법을 알아보려면 LinkedIn 문서에서 광고 계정 [!DNL LinkedIn Campaign Manager] 에 대한 사용자 권한 추가, 편집 및 [](https://www.linkedin.com/help/lms/answer/5753) 제거를 참조하십시오.
 
 비디오 [지침은 LinkedIn 사람 기반 대상](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 이해 및 구성을 참조하십시오.
-
-### [!DNL Google Customer Match]
-
-퍼스트 파티 대상 세그먼트 [!UICONTROL People-Based Destinations] 를 [!DNL Google Customer Match] 대상으로 전송하려면 먼저 해당 허용 목록에 사용자를 [!DNL Google] 추가해야 합니다.
-
-담당자에게 [!DNL Google] 연락하고 고객 일치 파트너 사용 [에 설명된 허용 목록 지침을 따라 데이터](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) 설명서를 [!DNL Google] 업로드합니다.
-
-이 프로세스가 완료되면 사용자를 만들 수 있습니다 [!UICONTROL People-Based Destination].
 
 ## 데이터 온보딩 {#data-onboarding}
 

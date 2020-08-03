@@ -8,9 +8,9 @@ title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
+source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 >
 >CDF 파일을 사용하여 작업할 때는 다음 제한 사항을 참고하십시오.
 >
->* CDF 파일 배달을 설정하기 전에 타사 트레이트를 내보낼 때 타사 데이터 제공자로부터 적절한 권한이 있는지 확인하십시오.
+>* CDF 파일 배달을 설정하기 전에 타사 트레이트를 내보낼 때 타사 데이터 제공자로부터 적절한 권한이 있는지 확인하십시오. Audience Manager은 현재 타사 데이터 공급자로부터 CDF 파일 전달 내보내기 권한을 요청하는 사용자 인터페이스 기능을 지원하지 않으므로 독립적으로 연락하십시오.
 >* 페이지 트래픽을 모니터링하고, 보고서 불일치를 조정하거나, 청구하기 위해 [!UICONTROL CDF] 파일을 프록시로 사용해서는 안됩니다.
 
 

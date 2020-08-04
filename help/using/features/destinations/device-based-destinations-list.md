@@ -1,15 +1,15 @@
 ---
-description: 이 페이지에는 현재 서버간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
-seo-description: 이 페이지에는 현재 서버간 통합만 포함됩니다. 통합에 대한 자세한 내용은 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+description: 이 페이지에는 현재 서버간 통합만 포함됩니다. 통합에 대한 자세한 내용은 해당 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+seo-description: 이 페이지에는 현재 서버간 통합만 포함됩니다. 통합에 대한 자세한 내용은 해당 Adobe Exchange 목록(해당되는 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 seo-title: 서버 간 Adobe Audience Manager 대상
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: 서버 간 Adobe Audience Manager 대상
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1116'
 ht-degree: 72%
 
 ---
@@ -84,7 +84,6 @@ ht-degree: 72%
 | [!DNL FreakOut] | 03/03/2017 | 1xday | 예 | 아니요 | 아니요 | 아니요 |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | 예 | 예 | 아니요 | 예 |
 | [!DNL Gamut Media] | 03/03/2017 | 실시간 |  | 아니요 | 아니요 |  |
-| [!DNL Google AdsWords Display] | 02/08/2018 | 실시간 | 예 | 예 | 아니요 | 예 |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | 실시간 | 예 | 예 | 예 | 예 |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | 실시간 | 예 | 예 | 예 | 예 |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 24/04/2017 | 실시간 | 예 | 예 | 예 | 예 |

@@ -7,9 +7,9 @@ title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
+source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1860'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Adobe Marketing Cloud를 사용하여 작업할 때 수행해야 하는 사항 [
 Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/portal/swagger/index.html#/) 참고하십시오.
 
 * **요청 매개 변수:** 별도로 명시되지 않는 한 모든 요청 매개 변수가 필요합니다.
-* **요청 헤더**: [Adobe I/O](https://www.adobe.io/) 토큰을 사용하는 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 [!DNL API] 페이지의 지침에 따라 키를 [가져올 수 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) .
+* **요청 헤더**: Adobe [I/O](https://www.adobe.io/) 토큰을 사용하는 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 [!DNL API] 페이지의 지침에 따라 키를 [가져올 수 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) .
 * **[!DNL JSON]콘텐트 유형:**코드에`content-type: application/json`and *를*`accept: application/json`지정합니다.
 * **요청 및 응답:** 요청을 올바른 형식으로 [!DNL JSON] 보냅니다. [!DNL Audience Manager] 형식이 지정된 데이터로 [!DNL JSON] 응답합니다. 서버 응답에는 요청된 데이터, 상태 코드 또는 둘 다를 포함할 수 있습니다.
 * **액세스:** 컨설턴트는 요청을 할 수 있는 클라이언트 ID와 키를 [!DNL Audience Manager] [!DNL API] 제공합니다.
@@ -40,24 +40,24 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 
 두 가지 인증 방법을 [!DNL Audience Manager] [!DNL REST APIs] 지원합니다.
 
-* [JWT(서비스 계정](#jwt) ) [Adobe I/O를 사용한 인증](https://www.adobe.io/). [!DNL Adobe I/O] 는 Adobe의 개발자 에코시스템 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [Adobe I/O 개발자 도구, API](https://www.adobe.io/apis/experienceplatform.html) 및 [API가 포함됩니다](https://www.adobe.io/apis.html). 이를 통해 설정 및 사용 방법이 권장됩니다 [!DNL Adobe] [!DNL APIs].
+* [JWT(서비스 계정](#jwt) ) [Adobe I/O를 사용한 인증](https://www.adobe.io/). [!DNL Adobe I/O] 는 Adobe 개발자 에코시스템 및 커뮤니티입니다. 여기에는 모든 Adobe 제품의 [Adobe I/O 개발자 도구, API](https://www.adobe.io/apis/experienceplatform.html) 및 [API가 포함됩니다](https://www.adobe.io/apis.html). 이를 통해 설정 및 사용 방법이 권장됩니다 [!DNL Adobe] [!DNL APIs].
 * [OAuth 인증(더 이상 사용되지 않음)](#oauth). 이 메서드는 더 이상 사용되지 않지만 기존 통합을 사용하는 고객은 이 방법을 계속 사용할 수 [!DNL OAuth] 있습니다.
 
 >[!IMPORTANT]
 >
 >인증 방법에 따라 요청을 적절하게 조정해야 [!DNL URLs] 합니다. 사용해야 하는 호스트 이름에 대한 자세한 내용은 [환경](#environments) 섹션을 참조하십시오.
 
-## [!DNL JWT] ([!DNL Service Account]) Adobe I/O를 사용한 인증 {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Adobe 입출력을 사용한 인증 {#jwt}
 
 ### Adobe I/O 개요 {#adobeio}
 
-[!DNL Adobe I/O] 는 Adobe의 개발자 에코시스템 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [Adobe I/O 개발자 도구, API](https://www.adobe.io/apis/experienceplatform.html) 및 [API가 포함됩니다](https://www.adobe.io/apis.html).
+[!DNL Adobe I/O] 는 Adobe 개발자 에코시스템 및 커뮤니티입니다. 여기에는 모든 Adobe 제품의 [Adobe I/O 개발자 도구, API](https://www.adobe.io/apis/experienceplatform.html) 및 [API가 포함됩니다](https://www.adobe.io/apis.html).
 
 이를 통해 설정 및 사용 방법이 권장됩니다 [!DNL Adobe] [!DNL APIs].
 
 ### 사전 요구 사항 {#prerequisites}
 
-인증을 구성하려면 먼저 [!DNL JWT] Adobe I/O에서 [Adobe 개발자 콘솔](https://console.adobe.io/) 에 대한 액세스 권한이 [있어야 합니다](https://www.adobe.io/). 액세스 요청은 조직 관리자에게 문의하십시오.
+인증을 구성하려면 먼저 [!DNL JWT] Adobe I/O에서 [Adobe 개발자 콘솔](https://console.adobe.io/) 에 액세스할 수 있어야 합니다 [](https://www.adobe.io/). 액세스 요청은 조직 관리자에게 문의하십시오.
 
 ### 인증
 
@@ -65,8 +65,8 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 
 1. Adobe 개발자 [콘솔에 로그인합니다](https://console.adobe.io/).
 1. 서비스 계정 [연결의 단계를 따릅니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
-   * 2단계 [중: 서비스 계정 인증을](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)사용하여 프로젝트에 API를 추가하고 [!DNL Audience Manager] 옵션을 [!DNL API] 선택합니다.
-1. 3단계의 지침에 따라 처음 [!DNL API] 전화를 걸어 연결을 [시도해 보십시오](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.).
+   * 2단계 [중: 서비스 계정 인증을](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)사용하여 프로젝트에 API를 추가하고 [!DNL Audience Manager] 옵션을 [!DNL API] 선택합니다.
+1. 3단계의 지침에 따라 처음 [!DNL API] 전화를 걸어 연결을 [시도해 보십시오](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!NOTE]
 >
@@ -178,7 +178,7 @@ Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 
 사용 가능한 방법에 대해 [!DNL API] 호출하려면
 
 * 헤더에서 `HTTP` 를 설정합니다 `Authorization: Bearer <token>`.
-* JWT( [서비스 계정) 인증을](#jwt)사용하는 경우 `x-api-key` 헤더를 제공해야 합니다. 헤더는 사용자와 `client_id`동일합니다. Adobe `client_id` I/O 통합 [](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지
+* JWT( [서비스 계정) 인증을](#jwt)사용하는 경우 `x-api-key` 헤더를 제공해야 합니다. 헤더는 사용자와 `client_id`동일합니다. Adobe `client_id` I/O 통합 [](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지에서 원하는 항목을 찾을 수 있습니다.
 * 필요한 메서드를 [!DNL API] 호출합니다.
 
 ## 선택적 [!DNL API] 쿼리 매개 변수 {#optional-api-query-parameters}

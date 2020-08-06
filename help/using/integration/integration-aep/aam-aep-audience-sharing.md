@@ -1,13 +1,13 @@
 ---
-description: 이 문서에서는 Audience Manager과 Adobe Experience Platform 간에 대상을 공유하는 방법을 설명합니다.
-seo-description: 이 문서에서는 Audience Manager과 Adobe Experience Platform 간에 대상을 공유하는 방법을 설명합니다.
+description: 이 문서에서는 Audience Manager과 Adobe Experience Platform 사이에 대상이 공유되는 방식을 설명합니다.
+seo-description: 이 문서에서는 Audience Manager과 Adobe Experience Platform 사이에 대상이 공유되는 방식을 설명합니다.
 seo-title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -23,11 +23,11 @@ ht-degree: 3%
 
 ## 개요 {#overview}
 
-Audience Manager과 Adobe Experience Platform 간 대상 공유 기능을 사용하면 Audience Manager 트레이트와 세그먼트를 Adobe Experience Platform에 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager과 Adobe Experience Platform 간에 대상 공유를 사용하려면 [[!DNL Audience Manager 커넥터]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 가 필요합니다.
+Audience Manager과 Adobe Experience Platform 간의 대상 공유 기능을 사용하면 Audience Manager 특성과 세그먼트를 Adobe Experience Platform과 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager과 Adobe Experience Platform 간에 대상 공유를 사용하려면 [[!DNL Audience Manager 커넥터]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 가 필요합니다.
 
 Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform [세분화 서비스를 활용할 수 있습니다](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
 
-Audience Manager에서는 다음과 같은 데이터 관리 Platform 사용 사례에 Experience Platform 세그먼트를 사용할 수 있습니다.
+Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사례에 Experience Platform 세그먼트를 사용할 수 있습니다.
 * 세그먼트에 [타사 데이터](/help/using/overview/data-types-collected.md#third-party-data) 추가;
 * [알고리즘 모델링](/help/using/features/algorithmic-models/understanding-models.md);
 * Experience Platform [대상 카탈로그에서 아직 지원되지 않는 대상에 세그먼트를 활성화합니다](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
@@ -40,7 +40,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 Platform 사용 사�
 
 | **사용 사례** | **Adobe Experience Platform** | **Audience Manager** | **핵심 서비스** |
 ---------|----------|---------|---------
-| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target 또는 Analytics과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
+| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target 또는 분석과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
 
 <br> 
 
@@ -56,7 +56,7 @@ Audience Manager 트레이트 및 세그먼트는 세그먼트 워크플로우�
 
 ## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
 
-Experience Platform에서 만드는 세그먼트는 다음 컴포지션 규칙을 사용하여 Audience Manager 인터페이스에 신호, 트레이트 및 세그먼트로 나타납니다.
+Experience Platform에서 만드는 세그먼트는 신호, 트레이트 및 세그먼트로 Audience Manager 인터페이스에 다음 컴포지션 규칙을 사용하여 나타납니다.
 
 * 신호: 각 Experience Platform 세그먼트에 대해 양식에서 신호를 볼 수 있습니다 `segID = segment ID`.
 * 특성: 특성 규칙은 Experience Platform 세그먼트의 ID입니다.
@@ -114,8 +114,10 @@ Experience Platform에서 데이터 사용 규정을 준수하려면 해당 데�
 
 Audience Manager과 Experience Platform 간 대상 공유 프로세스에서 Audience Manager 세그먼트에 적용된 모든 데이터 내보내기 컨트롤은 Experience Platform 데이터 거버넌스에서 인식하는 동일한 레이블 및 마케팅 작업으로 변환됩니다.
 
->[!NOTE] 데이터 내보내기 컨트롤에 대한 자세한 내용은 [데이터 내보내기 컨트롤 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
-이 문서에서는 특정 Audience Manager 데이터 내보내기 컨트롤이 Platform의 데이터 사용 레이블 및 마케팅 작업에 매핑되는 방법에 대한 참조를 제공합니다.
+>[!NOTE]
+>
+>데이터 내보내기 컨트롤에 대한 자세한 내용은 [데이터 내보내기 컨트롤 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
+이 문서에서는 특정 Audience Manager 데이터 내보내기 컨트롤이 플랫폼의 데이터 사용 레이블 및 마케팅 작업에 매핑되는 방법에 대한 참조를 제공합니다.
 
 ### 데이터 내보내기 컨트롤을 데이터 사용 레이블로
 

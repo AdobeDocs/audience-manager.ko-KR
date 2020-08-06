@@ -7,9 +7,9 @@ title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요�
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '894'
 ht-degree: 9%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 허용되는 다른 파일 이름 포맷은 사용자 지정 파트너 [통합을 참조하십시오](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
->[!NOTE] {importance=&quot;high&quot;}
+>[!NOTE]
 >
 >[!DNL Audience Manager] 프로세스 [!DNL ASCII] 와 [!DNL UTF-8] 인코딩된 파일만 처리합니다.
 

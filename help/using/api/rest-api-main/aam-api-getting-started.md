@@ -30,7 +30,7 @@ Adobe Marketing Cloud를 사용하여 작업할 때 수행해야 하는 사항 [
 Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/portal/swagger/index.html#/) 참고하십시오.
 
 * **요청 매개 변수:** 별도로 명시되지 않는 한 모든 요청 매개 변수가 필요합니다.
-* **요청 헤더**: Adobe [I/O](https://www.adobe.io/) 토큰을 사용하는 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 [!DNL API] 페이지의 지침에 따라 키를 [가져올 수 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) .
+* **요청 헤더**:adobe [I/O](https://www.adobe.io/) 토큰을 사용하는 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 [!DNL API] 페이지의 지침에 따라 키를 [가져올 수 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) .
 * **[!DNL JSON]콘텐트 유형:**코드에`content-type: application/json`and *를*`accept: application/json`지정합니다.
 * **요청 및 응답:** 요청을 올바른 형식으로 [!DNL JSON] 보냅니다. [!DNL Audience Manager] 형식이 지정된 데이터로 [!DNL JSON] 응답합니다. 서버 응답에는 요청된 데이터, 상태 코드 또는 둘 다를 포함할 수 있습니다.
 * **액세스:** 컨설턴트는 요청을 할 수 있는 클라이언트 ID와 키를 [!DNL Audience Manager] [!DNL API] 제공합니다.
@@ -65,7 +65,7 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 
 1. Adobe 개발자 [콘솔에 로그인합니다](https://console.adobe.io/).
 1. 서비스 계정 [연결의 단계를 따릅니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
-   * 2단계 [중: 서비스 계정 인증을](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)사용하여 프로젝트에 API를 추가하고 [!DNL Audience Manager] 옵션을 [!DNL API] 선택합니다.
+   * 2단계 [중:서비스 계정 인증을](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)사용하여 프로젝트에 API를 추가하고 [!DNL Audience Manager] 옵션을 [!DNL API] 선택합니다.
 1. 3단계의 지침에 따라 처음 [!DNL API] 전화를 걸어 연결을 [시도해 보십시오](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!NOTE]
@@ -83,10 +83,10 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 
 ### 일반 [!DNL API] 사용자 만들기 {#requirements}
 
-Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 계정을 만드는 것이 [!DNL Audience Manager] [!DNL API]좋습니다. 조직의 특정 사용자에게 연결되어 있거나 연결되어 있지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
+Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 계정을 만드는 것이 [!DNL Audience Manager] [!DNL API]좋습니다.조직의 특정 사용자에게 연결되어 있거나 연결되어 있지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
 
 * 어떤 서비스가 호출되는지 [!DNL API] 확인합니다(예: Adobe [!DNL API]를 사용하는 앱이나 [!DNL API] 요청을 만드는 기타 도구에서 거는 호출).
-* 중단 없는 액세스를 [!DNL API]제공합니다. 특정 사용자에 연결된 계정은 회사를 떠날 때 삭제될 수 있습니다. 이렇게 하면 사용 가능한 [!DNL API] 코드를 사용할 수 없습니다. 특정 직원과 연결되지 않은 일반 계정은 이 문제를 해결하는 데 도움이 됩니다.
+* 중단 없는 액세스를 [!DNL API]제공합니다.특정 사용자에 연결된 계정은 회사를 떠날 때 삭제될 수 있습니다. 이렇게 하면 사용 가능한 [!DNL API] 코드를 사용할 수 없습니다. 특정 직원과 연결되지 않은 일반 계정은 이 문제를 해결하는 데 도움이 됩니다.
 
 이 유형의 계정에 대한 예제 또는 사용 사례로서 벌크 관리 도구를 사용하여 한 번에 많은 세그먼트를 변경하려고 한다고 [가정합니다](../../reference/bulk-management-tools/bulk-management-intro.md). 이렇게 하려면 사용자 계정에 [!DNL API] 액세스 권한이 필요합니다. 특정 사용자에게 권한을 추가하는 대신 적절한 자격 증명, 키 및 암호를 가진 [!DNL API] 사용자 계정을 만들어 [!DNL API] 호출합니다. 이 기능은 Flash Platform(플래시 플랫폼)을 사용하는 애플리케이션을 개발할 때도 [!DNL Audience Manager] 유용합니다 [!DNL API].
 
@@ -100,13 +100,13 @@ Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 
 >
 >액세스 토큰을 데이터베이스에 저장하는 경우 암호화 및 새로 고침 토큰을 사용하십시오.
 
-#### 1단계: 액세스 [!DNL API] 요청
+#### 1단계:액세스 [!DNL API] 요청
 
 파트너 솔루션 관리자에게 문의하십시오. 클라이언트 ID와 암호를 [!DNL API] 제공합니다. ID와 암호는 사용자를 인증합니다 [!DNL API].
 
-참고: 새로 고침 토큰을 받으려면 액세스 권한을 요청할 때 이 토큰을 [!DNL API] 지정합니다.
+참고:새로 고침 토큰을 받으려면 액세스 권한을 요청할 때 이 토큰을 [!DNL API] 지정합니다.
 
-#### 2단계: 토큰 요청
+#### 2단계:토큰 요청
 
 기본 [!DNL JSON] 클라이언트와 함께 토큰 요청을 전달합니다. 요청을 빌드할 때:
 
@@ -116,7 +116,7 @@ Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 
 * 다음과 같이 요청 본문을 설정합니다.
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
-#### 3단계: 토큰 받기
+#### 3단계:토큰 받기
 
 응답에 액세스 토큰이 [!DNL JSON] 포함되어 있습니다. 응답은 다음과 같아야 합니다.
 
@@ -144,7 +144,7 @@ Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 
 
 다음 단계에서는 새로 고침 토큰을 사용하여 브라우저의 [!DNL JSON] 클라이언트에서 새 액세스 토큰을 만드는 워크플로우에 대해 간략하게 설명합니다.
 
-#### 1단계: 새 토큰 요청
+#### 1단계:새 토큰 요청
 
 기본 클라이언트와 함께 새로 고침 토큰 요청을 [!DNL JSON] 전달합니다. 요청을 빌드할 때:
 
@@ -153,7 +153,7 @@ Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 
 * HTTP 헤더와 HTTP 헤더 `Authorization:Basic <base-64 clientID:clientSecret>` 를 전달합니다 `Content-Type: application/x-www-form-urlencoded`. 예를 들어 헤더는 다음과 같을 수 있습니다. <br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
 * 요청 본문에 이전 액세스 요청에서 받은 새로 고침 토큰 `grant_type:refresh_token` 을 지정하고 전달합니다. 요청은 다음과 같아야 합니다. <br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
-#### 2단계: 새 토큰 받기
+#### 2단계:새 토큰 받기
 
 응답에 새 액세스 토큰이 [!DNL JSON] 포함되어 있습니다. 응답은 다음과 같아야 합니다.
 
@@ -193,9 +193,9 @@ Adobe에서는 Adobe Marketing Cloud를 사용하여 별도의 기술 사용자 
 | `pageSize` | 요청에 의해 반환되는 응답 결과 수를 설정합니다(기본값 10). |
 | `sortBy` | 지정된 속성에 따라 결과를 정렬하고 [!DNL JSON] 반환합니다. |
 | `descending` | 결과를 내림차순으로 정렬하고 반환합니다. `ascending` 기본값은 기본값입니다. |
-| `search` | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 &quot;Test&quot;라는 단어가 있는 모든 모델의 결과를 찾으려고 합니다. 샘플 요청은 다음과 같습니다.   `GET https://aam.adobe.io/v1/models/?search=Test`.  &quot;[!DNL get all]&quot; 메서드에서 반환되는 모든 값을 검색할 수 있습니다. |
+| `search` | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목에 대한 값 필드에 &quot;Test&quot;라는 단어가 있는 모든 모델의 결과를 찾으려고 합니다. 샘플 요청은 다음과 같습니다.  `GET https://aam.adobe.io/v1/models/?search=Test`.  &quot;[!DNL get all]&quot; 메서드에서 반환되는 모든 값을 검색할 수 있습니다. |
 | `folderId` | 지정된 폴더 내의 모든 ID를 [!UICONTROL traits] 반환합니다. 일부 메서드에는 사용할 수 없습니다. |
-| `permissions` | 지정된 권한을 기반으로 세그먼트 목록을 반환합니다. `READ` 기본값은 기본값입니다. 권한은 다음과 같습니다.<ul><li>`READ` : 세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` : 세그먼트 `PUT` 를 업데이트하는 데 사용합니다.</li><li>`CREATE` : 세그먼트 `POST` 를 만드는 데 사용합니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 액세스해야 합니다(있는 경우). 예를 들어 세그먼트를 제거하려면 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>별도의 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어, `READ` 및 `WRITE` 권한만 있는 세그먼트 목록을 반환하려면 `"permissions":"READ"`, 을 전달합니다 `"permissions":"WRITE"` . |
+| `permissions` | 지정된 권한을 기반으로 세그먼트 목록을 반환합니다. `READ` 기본값은 기본값입니다. 권한은 다음과 같습니다.<ul><li>`READ` :세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` :세그먼트 `PUT` 를 업데이트하는 데 사용합니다.</li><li>`CREATE` :세그먼트 `POST` 를 만드는 데 사용합니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 액세스해야 합니다(있는 경우). 예를 들어 세그먼트를 제거하려면 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>별도의 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어, `READ` 및 `WRITE` 권한만 있는 세그먼트 목록을 반환하려면 `"permissions":"READ"`, 을 전달합니다 `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) `true` 세그먼트에 대한 권한을 반환하도록 설정합니다. 기본값은 `false`입니다. |
 
 ### 페이지 옵션에 대한 참고 사항
@@ -225,7 +225,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Derived Signals] | `https://aam.adobe.io/v1/signals/derived/` |
 | [!DNL Destinations] | `https://aam.adobe.io/v1/destinations/` |
 | [!DNL Domains] | `https://aam.adobe.io/v1/partner-sites/` |
-| [!DNL Folders] | 트레이트:  `https://aam.adobe.io/v1/folders/traits /`<br>세그먼트:  `https://aam.adobe.io/v1/folders/segments /` |
+| [!DNL Folders] | 트레이트: `https://aam.adobe.io/v1/folders/traits /`<br>세그먼트:  `https://aam.adobe.io/v1/folders/segments /` |
 | [!DNL Schema] | `https://aam.adobe.io/v1/schemas/` |
 | [!DNL Segments] | `https://aam.adobe.io/v1/segments/` |
 | [!DNL Traits] | `https://aam.adobe.io/v1/traits/` |
@@ -241,7 +241,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Derived Signals] | `https://api.demdex.com/v1/signals/derived/` |
 | [!DNL Destinations] | `https://api.demdex.com/v1/destinations/` |
 | [!DNL Domains] | `https://api.demdex.com/v1/partner-sites/` |
-| [!DNL Folders] | 트레이트:  `https://api.demdex.com/v1/folders/traits /`<br>세그먼트:  `https://api.demdex.com/v1/folders/segments /` |
+| [!DNL Folders] | 트레이트: `https://api.demdex.com/v1/folders/traits /`<br>세그먼트:  `https://api.demdex.com/v1/folders/segments /` |
 | [!DNL Schema] | `https://api.demdex.com/v1/schemas/` |
 | [!DNL Segments] | `https://api.demdex.com/v1/segments/` |
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |

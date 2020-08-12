@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 4%
+source-wordcount: '1015'
+ht-degree: 3%
 
 ---
 
@@ -50,6 +50,14 @@ ht-degree: 4%
 
 비디오 [지침은 LinkedIn 사람 기반 대상](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 이해 및 구성을 참조하십시오.
 
+### [!DNL Google Customer Match]
+
+퍼스트 파티 대상 세그먼트 [!UICONTROL People-Based Destinations] 를 [!DNL Google Customer Match] 대상으로 전송하려면 먼저 해당 허용 목록에 사용자를 [!DNL Google] 추가해야 합니다.
+
+담당자에게 [!DNL Google] 연락하고 고객 일치 파트너 사용 [에 설명된 허용 목록 지침을 따라 데이터](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) 설명서를 [!DNL Google] 업로드합니다.
+
+이 프로세스가 완료되면 사용자를 만들 수 있습니다 [!UICONTROL People-Based Destination].
+
 ## 데이터 온보딩 {#data-onboarding}
 
 데이터 수집은 [!UICONTROL People-Based Destinations] 현재 일괄 전송당 하나의 고객 ID([!DNL CRM ID])에 연결된 최대 10개의 해시된 이메일 주소를 지원합니다. 하나의 고객 ID에 연결된 해시된 이메일 주소를 10개 이상 업로드하면 Audience Manager이 10개의 이메일 주소를 특정 순서대로 인제스트합니다.
@@ -70,7 +78,7 @@ ht-degree: 4%
 
 이메일 주소를 붙여넣을 때는 다음 요구 사항을 준수해야 합니다.
 
-* 이메일 문자열에서 모든 선행 및 후행 공백을 트리밍합니다. 예: `johndoe@example.com`, not `<space>johndoe@example.com<space>`
+* 이메일 문자열에서 모든 선행 및 후행 공백을 트리밍합니다.예: `johndoe@example.com`, not `<space>johndoe@example.com<space>`
 * 이메일 문자열을 해싱할 때는 소문자 문자열을 해시해야 합니다.
    * 예: `example@email.com`, not `EXAMPLE@EMAIL.COM`
 * 해시된 문자열이 모두 소문자인지 확인하십시오.

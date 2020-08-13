@@ -7,9 +7,9 @@ title: Audience Manager 제품 설명서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 98%
 
 ---
@@ -160,10 +160,10 @@ ht-degree: 98%
      <br> 
      <p> <b>최신 기능</b> </p> <p> 
      최신 Audience Manager 기능을 살펴보십시오.</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
+     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사람 기반 대상에 대한 Google 고객 일치</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">CCPA(캘리포니아 소비자 개인 정보 보호법) 지원 및 개인 정보 보호 설명서 정비</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Adobe Sensei 제공, Audience Marketplace 데이터에 대한 지능형 추천</a></li>
-     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">프로필 병합 규칙 개선 사항</a></li></ul><p>
+     </ul><p>
     </td>
   </tr> 
  </tbody> 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 3%
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 ## 파트너별 사전 요구 사항 {#partner-prerequisites}
 
-### [!DNL Facebook]
+### [!DNL Facebook] {#facebook}
 
 퍼스트 파티 대상자 [!UICONTROL People-Based Destinations] 를 보낼 수 있으려면 먼저 다음 요구 사항 [!UICONTROL segments] 을 충족해야 [!DNL Facebook]합니다.
 
@@ -42,7 +42,7 @@ ht-degree: 3%
    > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. 이 단계는 [!UICONTROL People-Based Destinations] 통합에 필요합니다.
 3. 서비스 약관을 읽고 [!DNL Facebook Custom Audiences] 서명합니다. 이렇게 하려면 `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`로 이동하십시오. 여기서 `accountID`는 [!DNL Facebook Ad Account ID]입니다.
 
-### [!DNL LinkedIn]
+### [!DNL LinkedIn] {#linkedin}
 
 퍼스트 파티 대상 세그먼트 [!UICONTROL People-Based Destinations] 를 보낼 수 [!DNL LinkedIn]있으려면 [!DNL LinkedIn Campaign Manager] 계정에 권한 수준 [!DNL Creative Manager] 이상이 있는지 확인하십시오.
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 
 비디오 [지침은 LinkedIn 사람 기반 대상](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 이해 및 구성을 참조하십시오.
 
-### [!DNL Google Customer Match]
+### [!DNL Google Customer Match] {#gcm}
 
 퍼스트 파티 대상 세그먼트 [!UICONTROL People-Based Destinations] 를 [!DNL Google Customer Match] 대상으로 전송하려면 먼저 해당 허용 목록에 사용자를 [!DNL Google] 추가해야 합니다.
 

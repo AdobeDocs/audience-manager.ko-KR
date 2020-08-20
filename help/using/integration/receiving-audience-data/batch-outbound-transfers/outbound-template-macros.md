@@ -7,7 +7,7 @@ title: 아웃바운드 템플릿 매크로
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 3%
@@ -68,8 +68,8 @@ ht-degree: 3%
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>동기화 유형을 나타내며 다음을 포함합니다. </p> 
     <ul id="ul_CA5057DA18144AB8BC17B3EB79891B25"> 
-     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code> full </code>: 전체 동기화 </li> 
-     <li id="li_1A7BBBB40AD94FC39B06F4FC49586595"> <code> iter </code>: 증분 동기화. </li> 
+     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code> full </code>:전체 동기화 </li> 
+     <li id="li_1A7BBBB40AD94FC39B06F4FC49586595"> <code> iter </code>:증분 동기화. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>닫는 중괄호 } 문자를 삽입합니다. </p> </td> 
+   <td colname="col2"> <p>닫는 중괄호 문자를 <code>}</code> 삽입합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -135,7 +135,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>여는 중괄호 { 문자를 삽입합니다. </p> </td> 
+   <td colname="col2"> <p>열려 있는 중괄호 <code>{</code> 문자를 삽입합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -169,12 +169,12 @@ ht-degree: 3%
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>목록의 세그먼트 목록을 반환합니다. 다음 선택적 인수를 수락합니다. </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: 세그먼트 ID. 삭제 예정. <code> sid </code>를 사용하십시오.  </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: 고객 세그먼트 ID. 삭제 예정. <code> sid </code>를 사용하십시오.  </li> 
-     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: 세그먼트 ID </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: 데이터를 세그먼트 데이터 <code> 5 </code>로 식별하는 정적 하드 코딩된 값을 반환합니다. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>:세그먼트 ID. 삭제 예정. <code> sid </code>를 사용하십시오.  </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>:고객 세그먼트 ID. 삭제 예정. <code> sid </code>를 사용하십시오.  </li> 
+     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>:세그먼트 ID </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>:데이터를 세그먼트 데이터 <code> 5 </code>로 식별하는 정적 하드 코딩된 값을 반환합니다. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: 삭제 예정. 사용하지 마십시오. </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: 세그먼트가 마지막으로 실현된 시간을 나타내는 Unix 타임스탬프 </li> 
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>:세그먼트가 마지막으로 실현된 시간을 나타내는 Unix 타임스탬프 </li> 
     </ul> <p>이 변수를 매크로 뒤에 중괄호로 묶습니다. 예를 들어 이 코드는 파이프 "|" 문자로 결과를 구분합니다. <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
@@ -185,8 +185,8 @@ ht-degree: 3%
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>동기화 유형을 나타내며 다음을 포함합니다. </p> 
     <ul id="ul_A3ADC37E66F043DABDA9C4066024B6C1"> 
-     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code> full </code>: 전체 동기화 </li> 
-     <li id="li_520DDED3662B428DB9DB55D494221D97"> <code> iter </code>: 증분 동기화. </li> 
+     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code> full </code>:전체 동기화 </li> 
+     <li id="li_520DDED3662B428DB9DB55D494221D97"> <code> iter </code>:증분 동기화. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,13 +206,13 @@ ht-degree: 3%
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
    <td colname="col2"> <p>트레이트 목록을 반환합니다. 다음 선택적 인수를 수락합니다. </p> 
     <ul id="ul_E9CDC4DD47B9435086FF42143D9E8177"> 
-     <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>: 숫자 ID로 트레이트 유형을 식별합니다. 반환: 
+     <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>:숫자 ID로 트레이트 유형을 식별합니다. 반환: 
       <ul id="ul_D2357E6CF47B4EBC8D3772D17B2EADA3"> 
        <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10 </code> DPM 특성(오프라인, 인바운드 작업에 의해 온보드)을 식별합니다. </li> 
        <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code> 3 </code> DCS를 통해 실시간으로 온보드(규칙 기반 특성)을 식별합니다. </li> 
       </ul> </li> 
-     <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>: 특성 ID. </li> 
-     <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>: 마지막으로 그 특징이 실현되었다. Unix 타임스탬프 </li> 
+     <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>:특성 ID. </li> 
+     <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>:마지막으로 그 특징이 실현되었다. Unix 타임스탬프 </li> 
     </ul> <p>이 변수를 매크로 뒤에 중괄호로 묶습니다. 예를 들어 이 코드는 "|" 문자로 결과를 구분합니다. <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
   </tr> 
   <tr> 

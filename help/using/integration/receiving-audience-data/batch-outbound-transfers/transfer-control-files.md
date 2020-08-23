@@ -7,9 +7,9 @@ title: 로그 파일 전송을 위한 전송 제어 파일
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
@@ -76,7 +76,7 @@ Transfer-control ([!DNL .info]) 파일은 Audience Manager에서 처리한 파�
 }
 ```
 
->[참고]
+>[!NOTE]
 >
 > 일괄 처리 총수는 [!DNL .info] 파일 자체에만 적용됩니다. 즉, 합계에 [!DNL .info] 파일, 바이트 크기 또는 라인 카운트가 포함되지 않습니다.
 >

@@ -8,9 +8,9 @@ title: 폴더 트레이트 관리
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 9%
 
 1. 폴더를 만들려면 + 아이콘을 클릭합니다. 분류에 최대 2000개의 폴더를 만들 수 있습니다. 자세한 내용은 [사용 제한](../../features/administration/usage-limits.md) 문서를 참조하십시오.
 1. 폴더 이름을 지정하고 [저장]을 **클릭합니다**. 예를 들어 Electronics라는 폴더에는 &#39;Electronics Folder Trait&#39;이라는 폴더 특성이 있습니다. 트레이트 대시보드에서 새 폴더 트레이트를 보고 선택할 수 있습니다.
-1. 새 폴더 특성은 생성된 데이터 소스에 자동으로 [!DNL Audience Manager] 할당됩니다. 적절한 [!UICONTROL 역할 기반 액세스 제어([!DNL RBAC])] 권한을 가진 사용자는 폴더 특성 편집 워크플로에서 데이터 원본을 변경할 수 있습니다. 폴더 [특성 편집을 참조하십시오](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. 새 폴더 특성은 생성된 데이터 소스에 자동으로 [!DNL Audience Manager] 할당됩니다. 적절한 [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) 권한을 가진 사용자는 폴더 특성 편집 워크플로우에서 데이터 소스를 변경할 수 있습니다. 폴더 [특성 편집을 참조하십시오](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
 ## 폴더 특성 편집 {#edit-folder-trait}
 

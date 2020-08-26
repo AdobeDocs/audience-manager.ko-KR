@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 글로벌 데이터 소스
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -24,12 +24,12 @@ Global data sources are accessible by all Audience Manager customers and contain
 
 | 데이터 소스 ID | 설명 |
 |---|---|
-| 20914 | **Google 광고 ID** - **** GAID는 [!DNL Android] 운영 체제를 실행하는 장치를 나타냅니다. |
-| 20915 | **광고용 Apple ID** - **** IDFA는 [!DNL iOS] 운영 체제를 실행하는 장치를 나타냅니다. |
-| 121963 | **광고용 Roku ID** - **** RIDA는 [!DNL Roku] 스트리밍 장치를 나타냅니다. |
-| 389146 | **Microsoft Advertising ID** - **** WIDD는 운영 체제를 실행하는 장치를 [!DNL Windows 10] 나타냅니다. |
-| 404660 | **삼성**&#x200B;두드는 스마트TV를 [!DNL Samsung] 대표한다. |
-| 488258 | **Amazon Fire TV 광고** ID는 실행 중인 장치를 나타냅니다. [!DNL Amazon Fire OS] |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** ID는 [!DNL Android] 운영 체제를 실행하는 장치를 나타냅니다. |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** ID는 [!DNL iOS] 운영 체제를 실행하는 장치를 나타냅니다. |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** ID는 [!DNL Roku] 스트리밍 디바이스를 나타냅니다. |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** ID는 [!DNL Windows 10] 운영 체제를 실행하는 장치를 나타냅니다. |
+| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID는 [!DNL Samsung] 스마트 TV를 나타냅니다. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** 실행 중인 장치 표시 [!DNL Amazon Fire OS] |
 
 ## 글로벌 데이터 소스에서 데이터 가져오기
 
@@ -37,7 +37,7 @@ Global data sources are accessible by all Audience Manager customers and contain
 
 >[!IMPORTANT]
 >
->글로벌 장치 ID를 사용하여 데이터를 Audience Manager으로 보낼 때는 해당 장치 ID에 해당하는 데이터 소스를 사용해야 합니다. 예: 데이터를 가져오려면 데이터 소스 ID 20915 [!DNL Apple IDFA]를 사용하십시오.
+>글로벌 장치 ID를 사용하여 데이터를 Audience Manager으로 보낼 때는 해당 장치 ID에 해당하는 데이터 소스를 사용해야 합니다. 예:데이터를 가져오려면 데이터 소스 ID 20915 [!DNL Apple IDFA]를 사용하십시오.
 
 ## 제한
 
@@ -52,11 +52,11 @@ Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) import
 
 ## 장치 ID 만료 정책
 
-Audience Manager은 AAM UUID와 유사하게 120일 동안 비활동 후 디바이스 광고 ID를 [자동으로](../faq/faq-privacy.md)삭제합니다.
+Audience Manager은 [AAM](../faq/faq-privacy.md)UUID와 유사하게 120일 동안 비활동 후 디바이스 광고 ID를 자동으로 폐기합니다.
 
 ## 새 전역 데이터 소스 요청
 
-Audience Manager에 추가될 새로운 글로벌 데이터 소스를 요청하려면 Adobe 컨설팅 또는 Adobe 고객 지원 센터에 연락하여 필요한 데이터 소스에 대한 자세한 정보를 제공합니다.
+Audience Manager에 추가할 새로운 글로벌 데이터 소스를 요청하려면 Adobe 컨설팅 또는 Adobe 고객 지원 센터에 연락하여 필요한 데이터 소스에 대한 자세한 정보를 제공합니다.
 
 * 요청된 플랫폼의 이름(예: [!UICONTROL Apple IDFA]);
 * 플랫폼을 관리하는 회사/조직의 이름(예: [!UICONTROL Apple Inc.]);

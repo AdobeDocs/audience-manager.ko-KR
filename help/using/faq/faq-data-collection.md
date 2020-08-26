@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: a1e95f421b725cc93fbedc4c001e34e4291bf828
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 89%
+source-wordcount: '1151'
+ht-degree: 83%
 
 ---
 
@@ -21,12 +21,6 @@ ht-degree: 89%
 일반적인 데이터 수집 및 통합 질문 및 문제
 
 <br> 
-
-<!-- 
-
-faq_data_collection_integration.xml
-
- -->
 
 **[!DNL DCS]로그 파일 내보내기에서 인바운드 트래픽을[!DNL DCS]트래픽과 어떻게 구별할 수 있습니까?**
 
@@ -42,18 +36,39 @@ faq_data_collection_integration.xml
 
 안타깝지만 불가능합니다. 이러한 IP는 지역에 따라 [!DNL Amazon Web Services]를 통해 동적으로 지정됩니다. 따라서 [!DNL Audience Manager]는 이 주소에 지정할 수 있는 IP 범위를 제어하지 않습니다.
 
-<br> 
+ 
 
-**인바운드 및 아웃바운드 sFTP 서버에 대해 허용 목록에 추가할 수 있는 IP 주소를 제공할 수 있습니까?**
+**인바운드 및 아웃바운드 SFTP 서버의 허용 목록에 추가할 수 있는 IP 주소를 알려주시겠습니까?**
 
 예, 아래를 참조하십시오.
 
-| 항목 | 주소 |
+| 서버 | IP 주소 |
+| ---------|----------|
+| ftp-in-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-out-gtw.demdex.com | 3.233.68.222; 52.3.74.119 |
+
+ 
+
+아래의 SFTP 서버는 사용되지 않습니다. 이러한 서버를 사용하여 새 계정이 제공되지 않습니다.
+
+| 서버 | IP 주소 |
 ---------|----------|
 | ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
-<br> 
+ 
+
+**새 SFTP 서버를 사용하도록 Audience Manager 인스턴스를 구성하려면 어떻게 합니까?**
+
+컨설턴트나 고객 지원 센터에 [!DNL Audience Manager] 문의하십시오. 그러면 컨설턴트가 새 SFTP 계정을 구성합니다.
+
+ 
+
+**새 SFTP 서버에 대해 지원되는 인증 방법은 무엇입니까?**
+
+새로운 SFTP 서버(`ftp-in-gtw` 및 `ftp-out-gtw`) 지원 [!DNL OpenSSH Key-Based Authentication]. 저희가 당신을 위해 [!DNL SSH] 키를 생성하거나 당신이 직접 공개 키를 제공할 수 있습니다.
+
+ 
 
 **[!UICONTROL DIL]/[!DNL Analytics]데이터 통합을 위한 코드 배치 및 페이지 로드 요구 사항은 무엇입니까?**
 
@@ -73,7 +88,7 @@ faq_data_collection_integration.xml
 
 [DIL(데이터 통합 라이브러리) API](../dil/dil-overview.md)를 참조하십시오.
 
-<br> 
+ 
 
 **왜 내[!DNL Analytics]변수가[!DNL Audience Manager]이벤트 호출에서 누락되었습니까?**
 
@@ -82,7 +97,7 @@ faq_data_collection_integration.xml
 * 페이지의 다른 코드 요소와 비동기적으로 로드하는 태그 관리 시스템을 통해 [!UICONTROL DIL]을 제공합니다.
 * `s.t()` 함수는 [!UICONTROL DIL] 앞에 로드됩니다.
 
-<br> 
+ 
 
 **[!UICONTROL DIL]과 호환되는[!DNL Analytics]버전은 무엇입니까?**
 
@@ -150,7 +165,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **쿠키를 설정하고 변수를 어떻게 전달합니까[!DNL Audience Manager][!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] 2개 쿠키: 하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그로 전송하고 다른 하나는 UUID(고유한 사용자 ID)를 설정하며, 이 ID는 읽은 것입니다 [!DNL Google Ad Manager]. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
+[!DNL Audience Manager] 2개 쿠키:하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그로 전송하고 다른 하나는 UUID(고유한 사용자 ID)를 설정하며, 이 ID는 읽은 것입니다 [!DNL Google Ad Manager]. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
 
 <br> 
 

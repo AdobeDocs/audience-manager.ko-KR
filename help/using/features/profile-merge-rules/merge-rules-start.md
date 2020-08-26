@@ -7,9 +7,9 @@ title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1304'
 ht-degree: 4%
 
 ---
@@ -40,8 +40,8 @@ ht-degree: 4%
 3. 통합 코드를 제공합니다. 통합 코드는 이 데이터 소스에 대한 사용자 고유의 ID입니다.
 4. 목록에서 **[!UICONTROL ID Type]** 선택합니다 **[!UICONTROL Cross Device]**.
 5. 목록에서 **[!UICONTROL ID Definition]** 데이터 소스 유형을 정의하는 옵션을 선택합니다. 옵션은 다음과 같습니다.
-   * **[!UICONTROL Person]**: 한 사람을 정의하는 ID입니다. 이 ID는 여러 ID에 매핑할 수 [!DNL Audience Manager] 있습니다.
-   * **[!UICONTROL Household]**: 사람 그룹을 정의하는 ID입니다. 이 ID는 여러 ID에 매핑할 수 [!DNL Audience Manager] 있습니다.
+   * **[!UICONTROL Person]**:한 사람을 정의하는 ID입니다. 이 ID는 여러 ID에 매핑할 수 [!DNL Audience Manager] 있습니다.
+   * **[!UICONTROL Household]**:사람 그룹을 정의하는 ID입니다. 이 ID는 여러 ID에 매핑할 수 [!DNL Audience Manager] 있습니다.
 
 ## 데이터 내보내기 제어 {#export-controls}
 
@@ -51,11 +51,11 @@ ht-degree: 4%
 
 [!UICONTROL Data Source Settings] 섹션은 여러 옵션을 제공하지만, 다음 2가지는 장치 간 데이터 소스를 만드는 데 중요합니다.
 
-* **[!UICONTROL Use as Authenticated Profile]**: 기본적으로 이 설정을 사용하면 인증된 사용자 [!UICONTROL Profile Merge Rule] 의 데이터를 사용하여 만들 수 있습니다.
+* **[!UICONTROL Use as Authenticated Profile]**:기본적으로 이 설정을 사용하면 인증된 사용자 [!UICONTROL Profile Merge Rule] 의 데이터를 사용하여 만들 수 있습니다.
 
-* **[!UICONTROL Use as a Device Graph]**: 이 컨트롤은 데이터 공급자로 나열된 계정에만 사용할 수 있습니다. 이 확인란을 선택하면 데이터 소스가 장치 그래프로 만들어지고 다른 [!DNL Audience Manager] 고객과 공유할 수 있습니다. 컨설턴트와 협력하여 데이터 제공업체로 설정하고 공유할 고객을 [!DNL Audience Manager] [!UICONTROL Data Source] 지정합니다. 컨설턴트는 내부 프로비저닝 프로세스를 통해 계정 및 디바이스 그래프 공유를 프로비저닝합니다.
+* **[!UICONTROL Use as a Device Graph]**:이 컨트롤은 데이터 공급자로 나열된 계정에만 사용할 수 있습니다. 이 확인란을 선택하면 데이터 소스가 장치 그래프로 만들어지고 다른 [!DNL Audience Manager] 고객과 공유할 수 있습니다. 컨설턴트와 협력하여 데이터 제공업체로 설정하고 공유할 고객을 [!DNL Audience Manager] [!UICONTROL Data Source] 지정합니다. 컨설턴트는 내부 프로비저닝 프로세스를 통해 계정 및 디바이스 그래프 공유를 프로비저닝합니다.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: 이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 보존 기간을 설정할 수 있습니다. Audience Manager이 Audience Manager 플랫폼에서 마지막으로 본 후 고객 ID를 데이터베이스에 유지하는 기간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소 값은 1개월이고 최대 값은 5년입니다. 모든 달은 30일로 계산됩니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 보유에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
+* **[!UICONTROL Data retention for inactive Customer IDs]**:이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 보존 기간을 설정할 수 있습니다. Audience Manager이 Audience Manager 플랫폼에서 마지막으로 본 후 고객 ID를 데이터베이스에 유지하는 기간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소 값은 1개월이고 최대 값은 5년입니다. 모든 달은 30일로 계산됩니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 보유에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
 이러한 설정과 연결된 텍스트 필드를 사용하면 프로필 병합 규칙 옵션 [!UICONTROL Data Source] 에 나타나는 별칭으로 [이름을 변경할 수 있습니다](merge-rule-definitions.md). 예를 들어 별칭을 추가할 경우 **[!UICONTROL Use as Authenticated Profile]**&#x200B;해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. 별칭을 추가할 경우 **[!UICONTROL Use as a Device Graph]**&#x200B;해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
 
@@ -107,14 +107,14 @@ To create [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile M
 
 2019년 말에는 크로스 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 향상시키기 위해 일련의 향상된 프로필 병합 규칙을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에 엄격하게 적용됩니다. 마지막으로, 장치 간 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
 
-Adobe Campaign과 같은 장치 간 ID를 사용하여 Audience Manager 인스턴스와 대상 간의 올바른 통합을 보장하려면 다음 요구 사항을 충족해야 합니다.
+Audience Manager 인스턴스와 대상 간에 Adobe Campaign과 같은 장치 간 ID를 사용하여 올바르게 통합하려면 다음 요구 사항을 충족해야 합니다.
 
 1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트가 사용한 프로필 병합 규칙을 검토하십시오. 프로필 병합 규칙은 이 옵션을 사용해야 [!UICONTROL Last Authenticated Profile] 하므로 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙이 다른 옵션을 사용하고 있는 경우 다른 옵션으로 전환합니다 [!UICONTROL Last Authenticated Profile].
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]
 >
-> 이러한 상황에 처한 고객에 대해 프로필 병합 규칙 제한을 1로 늘렸기 때문에 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
+> 최대 수에 도달했고 위 지침에 따라 구성 [!UICONTROL Profile Merge Rules] 에 대한 지원이 필요한 경우 고객 지원 센터에 문의하십시오.
 
 ## 병합 규칙 코드 구성 {#configure-merge-rule-code}
 
@@ -128,7 +128,7 @@ Adobe Campaign과 같은 장치 간 ID를 사용하여 Audience Manager 인스�
 
 ## Adobe Experience Platform ID 서비스 고객의 경우 {#id-service-customers}
 
-DIL [!UICONTROL Adobe Experience Platform Identity Service] 과 최신 [버전](../../dil/dil-overview.md) 은 작업 시 권장됩니다 [!UICONTROL Profile Merge Rules]. 그러나 이 기능을 사용하는 데 이 [!UICONTROL Adobe Experience Platform Identity Service] 를 사용할 필요는 없습니다. 사용 중인 경우 [!UICONTROL DIL]아래 [기존 DIL 섹션을](#legacy-dil) 참조하십시오.
+DIL [!UICONTROL Adobe Experience Platform Identity Service] 를 사용하는 경우 [](../../dil/dil-overview.md) 및 최신 버전을 사용하는 것이 좋습니다 [!UICONTROL Profile Merge Rules]. 그러나 이 기능을 사용하는 데 이 [!UICONTROL Adobe Experience Platform Identity Service] 를 사용할 필요는 없습니다. 사용 중인 경우 [!UICONTROL DIL]아래 [레거시 DIL 섹션을](#legacy-dil) 참조하십시오.
 
 ### 고객 ID 설정 함수 구성
 
@@ -193,8 +193,8 @@ DIL.create({
 
 코드 [!DNL SDK] 에서 [!UICONTROL declared IDs] 및 [!DNL Android] [!DNL iOS] 모바일 장치에서 전달할 수 있는 방법을 확인합니다. 변수 이름 [!DNL Android] 및 [!DNL iOS] 코드 라이브러리는 동일합니다.
 
-* `dpid`: 장치 간 데이터 소스 ID.
-* `dpuuid`: ( [!UICONTROL declared ID] 즉, 사용자 ID).
+* `dpid`:장치 간 데이터 소스 ID.
+* `dpuuid`:( [!UICONTROL declared ID] 즉, 사용자 ID).
 
 <table id="table_2ACA3E5F316D4413B10A4403B786CC23"> 
  <thead> 

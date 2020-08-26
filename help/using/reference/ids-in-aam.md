@@ -8,9 +8,9 @@ title: Audience Manager의 ID 색인
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '943'
 ht-degree: 5%
 
 ---
@@ -56,5 +56,5 @@ ht-degree: 5%
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s는 Android 장치 제조업체에서 제공하는 모바일 장치 식별자입니다. 이러한 ID는 [!DNL Android] 운영 체제를 실행하는 장치를 나타냅니다. | 형식은 5개 그룹으로 표시되고 하이픈으로 구분되는 32개의 소문자 16진수로 엄격히 구성되며, 총 36자입니다. <br>예: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
 | [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] 는 [!DNL Roku] 스트리밍 장치를 나타냅니다. | 형식은 5개 그룹으로 표시되고 하이픈으로 구분되는 32개의 소문자 16진수로 엄격히 구성되며, 총 36자입니다. <br>예: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s는 사용자별로 장치 단위 [!DNL Windows 10] 로 생성된 장치 식별자입니다. | [!DNL MAID]의 형식은 영숫자 문자열로 지정됩니다. |
-| [!DNL DUID] | 404660 | [!DNL Samsung DUID]s는 스마트 TV에서 제공하는 장치 [!DNL Samsung] 식별자입니다. | [!DNL Samsung] [!DNL DUID]의 형식은 영숫자 문자열로 지정됩니다. |
+| [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] 은 스마트 TV에서 제공하는 장치 [!DNL Samsung] 식별자입니다. | [!DNL Samsung] [!DNL TIFA] ID는 영숫자 문자열로 서식이 지정됩니다. |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | 운영 체제를 실행하는 장치를 나타내는 장치 [!DNL Fire OS] 식별자입니다. | 형식은 5개 그룹으로 표시되고 하이픈으로 구분되는 32개의 소문자 16진수로 엄격히 구성되며, 총 36자입니다. <br>예: `df07c7dc-cea7-4a89-b328-810ff5acb15d` |

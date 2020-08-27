@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 글로벌 데이터 소스
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
+source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Global data sources are accessible by all Audience Manager customers and contain
 | 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** ID는 [!DNL iOS] 운영 체제를 실행하는 장치를 나타냅니다. |
 | 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** ID는 [!DNL Roku] 스트리밍 디바이스를 나타냅니다. |
 | 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** ID는 [!DNL Windows 10] 운영 체제를 실행하는 장치를 나타냅니다. |
-| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID는 [!DNL Samsung] 스마트 TV를 나타냅니다. |
+| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID는 [!DNL Samsung] 스마트 TV를 나타냅니다. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** 실행 중인 장치 표시 [!DNL Amazon Fire OS] |
 
 ## 글로벌 데이터 소스에서 데이터 가져오기

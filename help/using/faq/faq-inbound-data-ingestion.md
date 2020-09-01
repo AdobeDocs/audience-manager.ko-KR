@@ -217,7 +217,7 @@ Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(�
 
 **데이터 파일 내용은 대/소문자를 구분합니까? ID 동기화는 어떻습니까?**
 
-데이터 파일에는 [!UICONTROL User ID]([정의된 파일 변수](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)의 [!UICONTROL User ID] 참조)와 프로필 데이터(일반적으로 키-값 쌍 또는 코드 형식), 이렇게 두 가지 기본 구성 요소가 있습니다. [!UICONTROL User ID]는 대/소문자를 구분합니다. 일반적으로 프로필 또는 키 값 데이터는 대/소문자를 구분하지 않습니다.
+데이터 파일에는 [!UICONTROL User ID] ([정의된 파일 변수](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)의 [!UICONTROL User ID] 참조)와 프로필 데이터(일반적으로 키-값 쌍 또는 코드 형식), 이렇게 두 가지 기본 구성 요소가 있습니다. [!UICONTROL User ID]는 대/소문자를 구분합니다. 일반적으로 프로필 또는 키 값 데이터는 대/소문자를 구분하지 않습니다.
 
  
 

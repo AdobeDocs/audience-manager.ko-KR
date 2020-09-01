@@ -80,7 +80,7 @@ Adobe Audience Manager에 [데이터 개인 정보 보호 요청](data-privacy-r
 ## Adobe Experience Cloud ID
 
 * **사용자 ID**: `mid`
-* **정의**: [!DNL Adobe Experience Cloud ID](이전에는 [!DNL Visitor ID] 또는 [!DNL Marketing Cloud ID]라고 함)
+* **정의**: [!DNL Adobe Experience Cloud ID] (이전에는 [!DNL Visitor ID] 또는 [!DNL Marketing Cloud ID]라고 함)
 * **네임스페이스 ID**: 4
 
 >[!NOTE]

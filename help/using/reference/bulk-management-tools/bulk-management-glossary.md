@@ -7,9 +7,9 @@ title: 벌크 관리 도구 용어집
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> 설명</span> </p> </td> 
-   <td colname="col2"> <p>개체에 제공할 수 있는 간단한 정보 설명입니다. </p> </td> 
+   <td colname="col2"> <p>객체에 제공할 수 있는 간단한 정보를 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
@@ -59,7 +59,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> folderId</span> </p> </td> 
-   <td colname="col2"> <p>세그먼트 또는 특성 폴더의 ID. </p> </td> 
+   <td colname="col2"> <p>세그먼트 또는 특성 폴더의 ID입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> 이름</span> </p> </td> 
@@ -83,7 +83,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>세그먼트를 대상에 보낼 수 있는 시기를 나타냅니다. yyyy- <tt>mm-dd</tt> 형식을 사용합니다. </p> </td> 
+   <td colname="col2"> <p>세그먼트를 대상에 보낼 수 있는 시기를 나타냅니다. 형식을 <code>yyyy-mm-dd</code> 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
@@ -112,7 +112,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>사용자가 세그먼트에 자격이 있을 때 DIL에서 픽셀 실행 </p> </td> 
+   <td colname="col2"> <p>사용자가 세그먼트를 받을 수 있는 경우 DIL에 의해 픽셀이 실행됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 

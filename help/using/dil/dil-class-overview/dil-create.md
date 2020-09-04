@@ -7,15 +7,15 @@ title: DIL 만들기
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '825'
 ht-degree: 12%
 
 ---
 
 
-# DIL 만들기 메서드{#dil-create}
+# DIL 생성 방법{#dil-create}
 
 ## DIL 만들기 {#dil-create-new}
 
@@ -49,24 +49,24 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. 여러 사이트에 DIL을 <code> containerNSID </code><span class="wintitle"> </span> 배포한 경우 설정합니다. 이러한 각 사이트에는 고유한 컨테이너 ID와 ID 동기화가 있습니다. 사이트가 1개인 경우 컨테이너 ID는 기본적으로 0이며 이를 제대로 설정할 필요가 없습니다. 사이트 및 컨테이너 ID의 목록을 얻으려면 컨설턴트에게 문의하십시오. </p> <p>Adobe Experience Platform ID 서비스 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html" format="https" scope="external"> 에서 속성은 </a>DIL <code> idSyncContainerID </code> 에 해당합니다 <code> containerNSID </code> <span class="wintitle"> </span>. 여러 사이트에서 DIL <span class="wintitle"> 및 </span> <i></i> ID 서비스를 사용하는 경우 다음을 참고하십시오. </p> <p> 
+   <td colname="col3"> <p>이 속성은 ID 동기화를 위해 <span class="keyword">Audience Manager</span>에서 사용하는 컨테이너 ID를 설정합니다. 여러 사이트 <code> containerNSID </code> 에 DIL을 배포한 경우 설정할 수 <span class="wintitle"> </span> 있습니다. 이러한 각 사이트에는 고유한 컨테이너 ID와 ID 동기화가 있습니다. 사이트가 1개인 경우 컨테이너 ID는 기본적으로 0이며 이를 제대로 설정할 필요가 없습니다. 사이트 및 컨테이너 ID의 목록을 얻으려면 컨설턴트에게 문의하십시오. </p> <p>Adobe Experience Platform ID 서비스 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html" format="https" scope="external"> 에서 이 </a>속성은 <code> idSyncContainerID </code> DIL <code> containerNSID </code> 에 해당합니다 <span class="wintitle"> </span>. 여러 사이트에서 DIL <span class="wintitle"> 와 </span> <i></i> ID 서비스를 사용하는 경우 다음을 참고하십시오. </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">각 사이트에 대해 및 의 동일한 컨테이너 ID를 <code> containerNSID </code> 설정합니다 <code> idSyncContainerID </code>. </li> 
-      <li id="li_CC932D3A0D154F6C9566EF31260A14CF">DIL <span class="wintitle"> </span> 및 ID 서비스는 ID 동기화를 데이터 수집 iFrame에 보내려고 시도합니다. 그러나 iFrame은 DIL에서 ID 동기화 <span class="wintitle"> 를 </span> 실행하지 않도록 합니다. 이렇게 하면 중복을 방지할 수 있습니다. </li> 
-      <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">DIL만 <span class="wintitle"> 데이터를 </span> URL 대상에 보냅니다 <a href="../../features/destinations/destinations.md"> </a>. </li> 
+      <li id="li_CC932D3A0D154F6C9566EF31260A14CF">DIL <span class="wintitle"> </span> 와 ID 서비스 모두 ID 동기화를 데이터 수집 iFrame에 보내려고 시도합니다. 그러나 iFrame은 <span class="wintitle"> DIL에서 ID 동기화를 실행하지 </span> 않도록 합니다. 이렇게 하면 중복을 방지할 수 있습니다. </li> 
+      <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">DIL만 <span class="wintitle"> URL </span> 대상으로 데이터를 보냅니다 <a href="../../features/destinations/destinations.md"> </a>. </li> 
      </ul> </p> <p>idSyncContainerID도 <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncontainerid.html" format="https" scope="external"> 참조하십시오 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
    <td colname="col2"> <p>개체 </p> </td> 
    <td colname="col3"> 
-    <draft-comment> 
-     <p>Audience Manager으로 모든 이벤트 <a href="../../features/declared-ids.md"> 호출에서 선언된 ID 변수 </a> 를 <span class="keyword"> 전송합니다 </span>. </p> 
-    </draft-comment> <p> <code> delcaredId </code> 는 다음 중 하나를 전달하는 데 사용됩니다. </p> 
+    <!-- 
+     <p>Sends the <a href="../../features/declared-ids.md"> Declared ID variables </a> on every event call to <span class="keyword"> Audience Manager </span>. </p> 
+    --> <p> <code> delcaredId </code> 는 다음 중 하나를 전달하는 데 사용됩니다. </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
-     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Audience Manager에 의해 사용자에게 할당된 데이터 파트너 ID <span class="keyword"> </span>. </li> 
-     <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: 사용자의 고유 ID. </li> 
-    </ul> <p> <p>중요:  ID에 대해 인코딩되지 않은 값만 사용하십시오. 인코딩하면 이중으로 인코딩된 식별자가 생성됩니다. </p> </p> <p> <p>참고:  Adobe Experience Platform ID 서비스 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html" format="https" scope="external"> 를 사용하는 경우 DIL </a>대신 <code> setCustomerIDs </code> 방법으로 고객 ID를 <span class="wintitle"> 설정하십시오 </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
+     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>:Audience Manager에 의해 사용자에게 할당된 데이터 파트너 ID <span class="keyword"> </span>. </li> 
+     <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>:사용자의 고유 ID. </li> 
+    </ul> <p> <p>중요: ID에 대해 인코딩되지 않은 값만 사용하십시오. 인코딩하면 이중으로 인코딩된 식별자가 생성됩니다. </p> </p> <p> <p>참고: Adobe Experience Platform ID 서비스 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html" format="https" scope="external"> 를 사용하는 </a>경우 DIL 대신 <code> setCustomerIDs </code> 방법으로 고객 ID를 <span class="wintitle"> 설정합니다 </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -81,12 +81,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> <p>중요:  이 요소는 <span class="wintitle"> DIL </span> 버전 8.0에서 더 이상 사용되지 않습니다(2018년 8월 릴리스). Adobe Experience Platform ID 서비스 <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> 에서 함수를 대신 사용하십시오. </p> </p> <p> 이 경우 <code> true </code>는 대상 게시 IFRAME을 DOM이나 화재 대상에 연결하지 않습니다. 기본값은 <code> false </code>입니다. </p> </td> 
+   <td colname="col3"> <p> <p>중요: 이 요소는 <span class="wintitle"> DIL </span> 버전 8.0에서 더 이상 사용되지 않습니다(2018년 8월 릴리스). Adobe Experience Platform ID 서비스 <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> 에서 함수를 대신 사용하십시오. </p> </p> <p> 이 경우 <code> true </code>는 대상 게시 IFRAME을 DOM이나 화재 대상에 연결하지 않습니다. 기본값은 <code> false </code>입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> <p>중요:  이 요소는 <span class="wintitle"> DIL </span> 버전 8.0에서 더 이상 사용되지 않습니다(2018년 8월 릴리스). Adobe Experience Platform ID 서비스 <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> 에서 함수를 대신 사용하십시오. </p> </p> <p>ID 동기화를 사용하지 않도록 설정합니다. DIL v6.2+ 및 방문자 ID 서비스를 사용할 때는 ID 동기화를 비활성화해야 합니다. 이 <code> visitorService </code> 작업은 함수(아래 샘플 코드 참조)에서 처리합니다. </p> </td> 
+   <td colname="col3"> <p> <p>중요: 이 요소는 <span class="wintitle"> DIL </span> 버전 8.0에서 더 이상 사용되지 않습니다(2018년 8월 릴리스). Adobe Experience Platform ID 서비스 <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> 에서 함수를 대신 사용하십시오. </p> </p> <p>ID 동기화를 사용하지 않도록 설정합니다. DIL v6.2+ 및 방문자 ID 서비스를 사용할 때는 ID 동기화를 비활성화해야 합니다. 이 <code> visitorService </code> 작업은 함수(아래 샘플 코드 참조)에서 처리합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
@@ -96,7 +96,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> iframeAkamaiHTTPS </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> <p>중요:  이 요소는 <span class="wintitle"> DIL </span> 버전 8.0에서 더 이상 사용되지 않습니다(2018년 8월 릴리스). Adobe Experience Platform ID 서비스 <code> visitor.idSyncSSLUseAkamai </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> </a> 에서 함수를 대신 사용하십시오. </p> </p> <p> 대상 게시 템플릿이 HTTPS 연결에 대해 Akamai를 사용하는지를 지정합니다. 파트너 기준으로 설정됩니다. </p> </td> 
+   <td colname="col3"> <p> <p>중요: 이 요소는 <span class="wintitle"> DIL </span> 버전 8.0에서 더 이상 사용되지 않습니다(2018년 8월 릴리스). Adobe Experience Platform ID 서비스 <code> visitor.idSyncSSLUseAkamai </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> </a> 에서 함수를 대신 사용하십시오. </p> </p> <p> 대상 게시 템플릿이 HTTPS 연결에 대해 Akamai를 사용하는지를 지정합니다. 파트너 기준으로 설정됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> mappings </code> </p> </td> 
@@ -116,7 +116,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> removeFinishedScriptsAndCallbacks </code> </p> </td> 
    <td colname="col2"> <p>부울 </p> </td> 
-   <td colname="col3"> <p> 스크립트 및 콜백을 제거합니다. 기본값은 <code> False </code>입니다. 현재 DIL <span class="wintitle"> 인스턴스에만 </span> 적용됩니다. v3.3으로 출시되었습니다. </p> </td> 
+   <td colname="col3"> <p> 스크립트 및 콜백을 제거합니다. 기본값은 <code> False </code>입니다. 현재 DIL 인스턴스에만 <span class="wintitle"> </span> 적용됩니다. v3.3으로 출시되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> uuidCookie </code> </p> </td> 
@@ -126,7 +126,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>개체 </p> </td> 
-   <td colname="col3"> <p>DIL <span class="wintitle"></span> 6.2 이상에서 필요합니다. </p> <p> DIL은 Adobe Experience Platform ID 서비스 <code> setCustomerIDs </code> 의 기능을 사용하여 선언된 ID를 <span class="wintitle"> Audience Manager </span> 로 전달합니다 <span class="keyword"> </span>. 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>DIL <span class="wintitle"> </span> 6.2 이상 버전이 필요한 경우 필요합니다. </p> <p> DIL은 <code> setCustomerIDs </code> Adobe Experience Platform ID 서비스 <span class="wintitle"> 의 기능을 사용하여 선언된 ID를 </span> Audience Manager으로 전달합니다 <span class="keyword"> </span>. 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">고객 ID 및 인증 상태</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

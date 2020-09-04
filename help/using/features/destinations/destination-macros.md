@@ -7,9 +7,9 @@ title: 정의된 대상 매크로
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '667'
 ht-degree: 3%
 
 ---
@@ -49,14 +49,14 @@ ht-degree: 3%
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">데이터 소스 ID: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">내부 고객 ID: <code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">선언된 ID: 파트너가 이러한 값을 선언된 ID로 전달하려고 합니다 <code> 1:CustomerABC</code>. </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">선언된 ID:파트너가 이러한 값을 선언된 ID로 전달하려고 합니다 <code> 1:CustomerABC</code>. </li> 
     </ul> <p>이 작업을 수행하려면 Audience Manager <code>%dpid_<i>data source id</i>%</code><span class="keyword"></span> 파트너가 다음과 같이 매크로 형식을 지정합니다. </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>매크로가 다음으로 <code> 1</code> 바뀝니다 <code> CustomerABC</code>. </p> <p> 
-     <draft-comment>
-       AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 기반 
-     </draft-comment> </p> </td> 
+     <!--
+       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     --> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
@@ -106,8 +106,8 @@ ht-degree: 3%
 
 캐쉬 버팅을 사용하면 브라우저가 컨텐츠를 저장하고 재사용할 수 없습니다. 이 기술은 URL 문자열에 무작위 숫자나 타임스탬프를 삽입하는 코드를 사용하므로 브라우저에서만 볼 수 있습니다. 따라서 각 `HTTP` 호출은 서버에 대한 별도의 요청으로 카운트됩니다. 각 요청에 대해 새로운 서버 호출을 적용하면 보고 정확도를 유지하고 불일치를 줄이는 데 도움이 됩니다. [!DNL Audience Manager] 캐시 빌드에 대한 두 가지 매크로를 제공합니다.
 
-* `%rnd%`: URL에 무작위 숫자를 삽입합니다.
-* `%timestamp%`: Unix 날짜/시간을 URL에 삽입합니다.
+* `%rnd%`:URL에 무작위 숫자를 삽입합니다.
+* `%timestamp%`:Unix 날짜/시간을 URL에 삽입합니다.
 
 ## 비교 `%rnd%` 및 `%timestamp%` {#compare-rnd-timestamp}
 

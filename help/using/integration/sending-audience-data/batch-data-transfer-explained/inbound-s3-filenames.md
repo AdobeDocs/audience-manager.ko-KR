@@ -7,10 +7,10 @@ title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크�
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 6%
+source-wordcount: '1006'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 [!DNL S3] 파일 이름에는 다음과 같은 필수 요소와 선택 사항이 포함됩니다.
 
-* **[!DNL S3]접두사로 인해 영구적으로 지정되는 Mbox 매개 변수입니다:**`s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* **[!DNL S3]접두사로 인해 영구적으로 지정되는 Mbox 매개 변수입니다:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
 * **파일 이름 요소:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
@@ -64,13 +64,13 @@ Removed  {importance="high"} for ExL
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>DPID( <span class="term"> 데이터 공급자 ID</span> )는 데이터 파일에 사용자 ID나 Android 또는 iOS ID가 <span class="keyword"> 포함되어</span> 있는지 Audience Manager을 알려주는 식별자입니다. 다음 옵션을 수락합니다. </p> <p> <b>데이터 파트너 ID</b> </p> <p>회사 또는 조직에 할당하는 고유한 ID Audience Manager입니다. 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어, ID 21을 가진 파트너가 파일을 전송했으며 해당 파트너가 할당한 사용자 ID를 포함하고 있다고 Audience Manager에 <code>...ftp_dpm_21_123456789.sync</code> <span class="keyword"></span> 알려줍니다. </p> <p> <b>Android ID(GAID)</b> </p> <p> 파일에 Android ID가 포함된 경우 데이터 파일 이름에 DPID로 ID 20914를 사용하십시오. ID 20914를 DPID로 사용하는 경우 여전히 <span class="keyword"> Audience Manager</span>을 위해 회사를 식별해야 합니다. 즉, 파일 이름은 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 매개 변수를 사용하여 회사 ID를 보유해야 합니다. 예를 들어 Android ID가 있는 파일을 전달하면 데이터 공급자 ID가 21이 됩니다. 이 경우 파일 이름은 다음과 같습니다 <code>...ftp_dpm_20914_21_123456789.sync</code>. 이 ID는 <span class="keyword"> Audience Manager</span> 파일에 Android ID가 포함되어 있고 ID 21로 식별된 파트너의 파일임을 나타냅니다. </p> <p> <b>iOS ID(IDFA)</b> </p> <p> 파일에 iOS ID가 포함된 경우 데이터 파일 이름에 DPID로 ID 20915를 사용하십시오. ID 20915를 DPID로 사용하는 경우 여전히 <span class="keyword"> Audience Manager</span>을 위해 회사를 식별해야 합니다. 즉, 파일 이름은 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 매개 변수를 사용하여 회사 ID를 보유해야 합니다. 예를 들어 Android ID가 있는 파일을 전달하면 데이터 공급자 ID가 21이 됩니다. 이 경우 파일 이름은 다음과 같습니다 <code>...ftp_dpm_20915_21_123456789.sync</code>. 그러면 파일이 iOS ID를 포함하고 ID 21로 식별된 파트너의 파일임을 <span class="keyword"> Audience Manager에 알려줍니다</span> . </p> 
-    <draft-comment> 
+    <!-- 
      <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 파트너 ID:</b> 회사 또는 조직에 할당하는 고유한 ID Audience Manager입니다. 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어, ID 21을 가진 파트너가 파일을 전송했으며 해당 파트너가 할당한 사용자 ID를 포함하고 있다고 Audience Manager에 <code>...ftp_dpm_21_123456789.sync</code> <span class="keyword"></span> 알려줍니다. </li> 
-      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914를 사용하십시오. 예를 들어 데이터 파일에 <code>...ftp_dpm_20914_21_123456789.sync</code> <span class="keyword"></span> Android ID만 포함되어 있음을 Audience Manager에 알려줍니다. 참고, ID 21 </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> iOS ID가 포함된 경우 데이터 파일 이름에 ID 20915를 사용하십시오. 예를 들어, 데이터 파일에 iOS ID만 <code>...ftp_dpm_20915_123456789.sync</code> 포함되어 있다는 <span class="keyword"> 점을 Audience Manager에</span> 알려줍니다. </li> 
+      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Data Partner ID:</b> This is a unique ID Audience Manager assigns to your company or organization. Use this assigned ID in a file name when sending in data that contains your own user IDs. For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </li> 
+      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Use ID 20914 in a data file name if it contains Android ID. For example, <code>...ftp_dpm_20914_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only. Note, the ID 21 </li> 
+      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Use ID 20915 in a data file name if it contains iOS IDs. For example, <code>...ftp_dpm_20915_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only. </li> 
      </ul> 
-    </draft-comment> <p> <p>참고:  데이터 파일에 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 iOS ID나 자신의 ID를 데이터 파일에 넣지 마십시오. </p> </p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">글로벌 데이터 소스</a>를 참조하십시오.</p> <p>아래 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 항목도 참조하십시오. </p> </td> 
+    --> <p> <p>참고: 데이터 파일에 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 iOS ID나 자신의 ID를 데이터 파일에 넣지 마십시오. </p> </p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">글로벌 데이터 소스</a>를 참조하십시오.</p> <p>아래 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 항목도 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -88,24 +88,24 @@ Removed  {importance="high"} for ExL
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>10자리 UTC UNIX 타임스탬프(초)입니다. 타임스탬프는 각 파일 이름을 고유하게 만드는 데 도움이 됩니다. </p> 
-    <draft-comment> 
-     <p> <p>참고:  Audience Manager은 인바운드 파일을 처리하는 동안 타임스탬프를 사용하지 않습니다. 파일 이름에 있는 타임스탬프는 Audience Manager에서 사용되지 않지만 이전 버전과의 호환성을 위해 필요합니다. </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>다음을 포함하는 동기화 옵션 </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: 타사 데이터 공급자가 Audience Manager 시스템에서 추가 또는 제거되도록 사용자별로 트레이트를 보낼 때의 일반적인 시나리오입니다. </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: 데이터 제공자가 Audience Manager에서 이 데이터 공급자에 대한 이 사용자의 기존 타사 특성을 모두 덮어써야 하는 사용자 단위 트레이트 목록을 보낼 수 있습니다. 덮어쓰기 파일에 모든 사용자를 포함할 필요는 없습니다. 변경할 사용자만 포함합니다. </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>:타사 데이터 공급자가 Audience Manager 시스템에서 추가 또는 제거되도록 사용자별로 트레이트를 보낼 때의 일반적인 시나리오입니다. </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>:데이터 제공자가 Audience Manager에서 이 데이터 공급자에 대한 이 사용자의 기존 타사 특성을 모두 덮어써야 하는 사용자 단위 트레이트 목록을 보낼 수 있습니다. 덮어쓰기 파일에 모든 사용자를 포함할 필요는 없습니다. 변경할 사용자만 포함합니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
    <td colname="col2"> <p>정수입니다. 대용량 파일을 여러 부분으로 분할할 때 사용되므로 처리 시간이 향상됩니다. 숫자는 원본 파일의 어느 부분을 전송하는지를 나타냅니다. </p> <p>효율적인 파일 처리를 위해 다음과 같이 데이터 파일을 분할합니다. </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
-     <li id="li_B275708DFE3F49E29EFAE6B838429E39">압축되지 않음: 1GB </li> 
-     <li id="li_A9638EB46ED14E0680B6575D5457E32F">압축: 200-300MB </li> 
+     <li id="li_B275708DFE3F49E29EFAE6B838429E39">압축되지 않음:1GB </li> 
+     <li id="li_A9638EB46ED14E0680B6575D5457E32F">압축:200-300MB </li> 
     </ul> <p>아래의 처음 2개의 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> 파일 이름 예를</a> 참조하십시오. </p> </td> 
   </tr> 
   <tr> 

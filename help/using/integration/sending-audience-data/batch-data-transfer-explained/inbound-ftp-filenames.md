@@ -7,9 +7,9 @@ title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요�
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '863'
 ht-degree: 9%
 
 ---
@@ -92,9 +92,9 @@ ht-degree: 9%
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>10자리 UTC UNIX 타임스탬프(초)입니다. 타임스탬프는 각 파일 이름을 고유하게 만드는 데 도움이 됩니다. </p> 
-    <draft-comment> 
-     <p> <p>참고: Audience Manager은 인바운드 파일을 처리하는 동안 타임스탬프를 사용하지 않습니다. 파일 이름에 있는 타임스탬프는 Audience Manager에서 사용되지 않지만 이전 버전과의 호환성을 위해 필요합니다. </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 

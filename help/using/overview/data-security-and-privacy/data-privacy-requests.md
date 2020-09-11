@@ -31,13 +31,13 @@ You can submit individual requests to access and delete consumer data from [!DNL
 * [Privacy Service UI](https://privacyui.cloud.adobe.io/) 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)에서 볼 수 있습니다.
 * **[!DNL Privacy Service API]** 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[!DNL API]에서,  참조는 [여기에서 볼 수 있습니다](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)**section, along with their respective namespace IDs (data source IDs).
+When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)** section, along with their respective namespace IDs (data source IDs).
 
 [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)는 데이터 액세스 요청과 데이터 삭제 요청, 이렇게 두 가지 유형의 요청을 지원합니다.
 
 ## 데이터 액세스 요청 {#access-data}
 
-[Privacy Service UI](https://privacyui.cloud.adobe.io/)(설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md))를 이용하거나 [!DNL Privacy Service API] (설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), [!DNL API] 참조는 [여기](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml))를 호출하여 개별 데이터 액세스 요청을 보낼 수 있습니다.
+[Privacy Service UI](https://privacyui.cloud.adobe.io/) (설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md))를 이용하거나 [!DNL Privacy Service API] (설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), [!DNL API] 참조는 [여기](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml))를 호출하여 개별 데이터 액세스 요청을 보낼 수 있습니다.
 
 [Privacy Service UI](https://privacyui.cloud.adobe.io/)를 사용하면 [!UICONTROL Request Builder]를 사용하거나 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 

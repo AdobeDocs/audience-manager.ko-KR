@@ -7,7 +7,7 @@ title: 데이터 작업 구성 요소
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -58,21 +58,21 @@ c_compact.xml
 * 쿠키와 세그먼트에 대한 빠른 동기화(30초 이내) 제공 쿠키, 파트너 쿠키 또는 둘 다를 동기화할 수 있습니다. [!DNL Audience Manager]
 * 실시간 데이터 전송 [!UICONTROL IRIS] 은 파트너 또는 다른 대상에 실시간 세그먼트 자격 이벤트를 보낼 책임이 있습니다. 이 데이터는 JSON 포맷으로 HTTP `POST` 요청을 통해 전송됩니다.
 
-* 서버 간 일괄 데이터 전송: 대용량 데이터를 서로 교환하는 경우 [!DNL Audience Manager]서버가 데이터 전송 [!UICONTROL IRIS] 을 위해 사용하는 시스템입니다.
+* 서버 간 일괄 데이터 전송:대용량 데이터를 서로 교환하는 경우 [!DNL Audience Manager]서버가 데이터 전송 [!UICONTROL IRIS] 을 위해 사용하는 시스템입니다.
 
-* 규모에 맞게 작동하고 내결함성이 있는 안정적인 인프라 전력을 공급하는 시스템에는 Amazon SQS, Amazon EC2 및 Cassandra가 [!UICONTROL IRIS] 포함됩니다.
+* 규모에 맞게 작동하고 내결함성이 있는 안정적인 인프라 전력 공급 시스템에는 Amazon SQS, Amazon EC2 및 Cassandra가 [!UICONTROL IRIS] 포함됩니다.
 
 **세그먼트 매핑 규칙**
 
 세그먼트 대상 간 [!UICONTROL IRIS] 의 트래픽을 최적화하기 위해 규칙 세트를 [!UICONTROL IRIS] 기반으로 세그먼트를 대상에 보냅니다.
 
-1. **새 세그먼트 자격**: 장치가 새 세그먼트를 받을 자격이 있으면 [!UICONTROL IRIS] 해당 장치에 연결된 모든 세그먼트를 이러한 세그먼트에 매핑된 모든 대상에 전송합니다.
+1. **새 세그먼트 자격**:장치가 새 세그먼트를 받을 자격이 있으면 [!UICONTROL IRIS] 해당 장치에 연결된 모든 세그먼트를 이러한 세그먼트에 매핑된 모든 대상에 전송합니다.
 
-1. **새로운 세그먼트 결격**: 장치가 더 이상 세그먼트에 적격하지 않으면, 해당 장치에 연결된 모든 세그먼트 자격 조건과 결격 사유를 [!UICONTROL IRIS] 이러한 세그먼트에 매핑된 모든 대상에 전송합니다.
+1. **새로운 세그먼트 결격**:장치가 더 이상 세그먼트에 적격하지 않으면, 해당 장치에 연결된 모든 세그먼트 자격 조건과 결격 사유를 [!UICONTROL IRIS] 이러한 세그먼트에 매핑된 모든 대상에 전송합니다.
 
-1. **대상 매핑 업데이트**: 대상 매핑이 업데이트되면 [!UICONTROL IRIS] 장치에 연결된 모든 세그먼트를 이러한 세그먼트에 매핑된 모든 대상에 전송합니다. 다음에 Audience Manager에서 장치를 볼 때
+1. **대상 매핑 업데이트**:대상 매핑이 업데이트되면 [!UICONTROL IRIS] 장치에 연결된 모든 세그먼트를 이러한 세그먼트에 매핑된 모든 대상에 전송합니다. 다음에 Audience Manager에서 장치를 볼 때
 
-1. **장치 그래프 업데이트**: 세그먼트를 평가하는 데 사용되는 장치 그래프에서 장치 ID가 추가 또는 제거되면, 해당 장치에 연결된 모든 세그먼트를 이러한 세그먼트에 매핑된 모든 대상에 전송합니다. 다음 번에 Audience Manager에서 장치를 보게 됩니다. [!UICONTROL IRIS]
+1. **장치 그래프 업데이트**:세그먼트를 평가하는 데 사용되는 장치 그래프에서 장치 ID가 추가 또는 제거되면, 해당 장치에 연결된 모든 세그먼트를 이러한 세그먼트에 매핑된 모든 대상에 전송합니다. 다음 번에 Audience Manager에서 장치를 보게 됩니다. [!UICONTROL IRIS]
 
 >[!IMPORTANT]
 >
@@ -82,7 +82,7 @@ c_compact.xml
 
 다음 예제는 데이터의 실시간 세그먼트 데이터를 포함합니다 [!UICONTROL IRIS]. 이 데이터는 샘플 데이터에만 해당됩니다. 각 고객은 서로 다른 형식 요구 사항을 가지므로 내용이 다를 수 있습니다.
 
-```
+```json
 {
     "ProcessTime": "Tue Jul 21 19:12:45 UTC 2015",
     "Client_ID": "111111",

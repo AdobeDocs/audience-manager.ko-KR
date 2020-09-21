@@ -1,15 +1,15 @@
 ---
-description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager으로 가져와서 대상 최적화 보고서와 실행 가능한 로그 파일에서 사용할 수 있습니다. 이 섹션의 사양에 따라 데이터 파일의 형식을 지정합니다.
-seo-description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager으로 가져와서 대상 최적화 보고서와 실행 가능한 로그 파일에서 사용할 수 있습니다. 이 섹션의 사양에 따라 데이터 파일의 형식을 지정합니다.
+description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager으로 가져와서 Audience Optimization 보고서와 실행 가능한 로그 파일에 사용할 수 있습니다. 이 섹션의 사양에 따라 데이터 파일의 형식을 지정합니다.
+seo-description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager으로 가져와서 Audience Optimization 보고서와 실행 가능한 로그 파일에 사용할 수 있습니다. 이 섹션의 사양에 따라 데이터 파일의 형식을 지정합니다.
 seo-title: Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 파일
 solution: Audience Manager
 title: Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 파일
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1010'
 ht-degree: 5%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 파일 {#data-files-for-audience-optimization-reports}
 
-데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager으로 가져와 [대상 최적화 보고서에서](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) 보고 실행 가능한 로그 파일을 통해 데이터를 사용하여 트레이트를 [만들 수 있습니다](/help/using/integration/media-data-integration/actionable-log-files.md). 이 섹션의 이러한 사양에 따라 데이터 파일의 형식을 지정합니다.
+데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함됩니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager으로 가져와 [Audience Optimization 보고서에서](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) 보고 실행 가능한 로그 파일을 통해 데이터를 사용하여 트레이트를 만들 [수 있습니다](/help/using/integration/media-data-integration/actionable-log-files.md). 이 섹션의 이러한 사양에 따라 데이터 파일의 형식을 지정합니다.
 
 ## 개요 {#overview}
 
-적절한 이름 및 형식 지정된 데이터 파일을 사용하면 노출, 클릭 또는 전환 데이터를 [대상 최적화 보고서로 가져올 수 있습니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). 이 기능은 통합되지 않은 파트너와 함께 작업하고 해당 보고서 세트에서 해당 데이터 [!DNL Audience Manager] 로 작업하려는 경우 유용합니다. 이 프로세스에서는 노출, 클릭 및 전환 데이터를 위해 개별 파일이 필요합니다. 이러한 이벤트를 하나의 파일로 취합하지 마십시오.
+적절한 이름 및 형식 지정된 데이터 파일을 사용하면 노출, 클릭 또는 전환 데이터를 [Audience Optimization 보고서로 가져올 수 있습니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). 이 기능은 통합되지 않은 파트너와 함께 작업하고 해당 보고서 세트에서 해당 데이터 [!DNL Audience Manager] 로 작업하려는 경우 유용합니다. 이 프로세스에서는 노출, 클릭 및 전환 데이터를 위해 개별 파일이 필요합니다. 이러한 이벤트를 하나의 파일로 취합하지 마십시오.
 
 데이터 파일에는 메타데이터 파일이 있어야 합니다. 메타데이터 파일 컨텐츠는 보고서 메뉴에서 읽을 수 있는 관련 레이블과 데이터 파일 정보를 일치시킵니다. 자세한 내용은 메타데이터 파일에 대한 [개요 및 매핑을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 다음 구문은 형식이 올바른 데이터 파일 이름의 구조를 정의합니다. 기울임꼴은 *파일* 내용에 따라 변경되는 변수 자리 표시자를 나타냅니다.
 
-**구문:** <pre><i>이벤트 유형</i>_<i>yyyyymdd</i></code></pre>
+**구문:** `event type_yyyymmdd`
 
 파일 이름:
 
@@ -39,15 +39,15 @@ ht-degree: 5%
 
 이러한 요구 사항이 주어지면 다음과 같은 내용에 따라 데이터 파일의 이름을 지정합니다.
 
-* 노출 횟수 데이터: <pre>impressions_<i>yyyymdd</i>.gz</code></pre>
-* 데이터 클릭: <pre>clicks_<i>yyyymdd</i>.gz</code></pre>
-* 전환 데이터: <pre>conversions_<i>yyyymdd</i>.gz</code></pre>
+* 노출 횟수 데이터: `impressions_yyyymmdd.gz`
+* 데이터 클릭: `clicks_yyyymmdd.gz`
+* 전환 데이터: `conversions_yyyymmdd.gz`
 
 ## Content Format for Data Files {#content-format}
 
 다음 구문은 형식이 올바른 데이터 파일의 콘텐츠 구조를 정의합니다. 기울임꼴은 *변수 자리 표시자를* 나타내며 실제 데이터 파일의 레이블로 대체됩니다.
 
-**구문:** <pre><i>헤더 레이블 1</i> | <i>헤더 레이블 2</i> ... <i>헤더 레이블 n</i> | <i>버전</i></code></pre>
+**구문:** `header label 1 | header label 2 ... header label n | version`
 
 파일 내용에서:
 
@@ -119,7 +119,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p>수입 </p> </td> 
-   <td colname="col2"> <p>구매 또는 기타 전환 금액 데이터 유형: 부동. </p> <p> <i>전환 데이터 파일만 해당합니다.</i> </p> </td> 
+   <td colname="col2"> <p>구매 또는 기타 전환 금액 데이터 유형:부동. </p> <p> <i>전환 데이터 파일만 해당합니다.</i> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>기타 데이터 </p> </td> 
@@ -131,7 +131,7 @@ ht-degree: 5%
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
      <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: 노출 횟수 </li> 
      <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: 클릭 </li> 
-     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>: 특성 없음 또는 알 수 없음 </li> 
+     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>:특성 없음 또는 알 수 없음 </li> 
     </ul> <p> <i>전환 데이터 파일만 해당합니다.</i> </p> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ ht-degree: 5%
 
 ## Delivery Methods for Data Files {#delivery-methods}
 
-임프레션, 클릭 또는 전환 데이터 파일을 [!DNL Audience Manager] 계정의 Amazon S3 디렉토리로 업로드합니다. 배달/디렉토리 경로, 파일 처리 시간 및 업데이트에 대한 자세한 내용은 이 섹션을 참조하십시오.
+노출, 클릭 또는 전환 데이터 파일을 [!DNL Audience Manager] 계정에 대한 Amazon S3 디렉토리로 업로드합니다. 배달/디렉토리 경로, 파일 처리 시간 및 업데이트에 대한 자세한 내용은 이 섹션을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -153,7 +153,7 @@ ht-degree: 5%
 
 데이터는 [!DNL Amazon S3] 디렉토리의 각 고객에 대한 별도의 네임스페이스에 저장됩니다. 파일 경로는 아래에 표시된 구문을 따릅니다. Note, *italics* indicates a variable placeholder. 다른 요소는 상수 또는 키이며 변경되지 않습니다.
 
-**구문:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>파일 유형</i>_yyyymmdd<i></i></code></pre>
+**구문:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
 
 다음 표에서는 파일 배달 경로에서 이러한 각 요소를 정의합니다.
 

@@ -6,10 +6,10 @@ solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
 source-wordcount: '2449'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -64,19 +64,19 @@ Audience Manager은 사용자의 개인 정보 보호 선택 사항을 존중하
 Audience Manager이 있는 IAB TCF용 Audience Manager 플러그인을 사용하려면 다음 사전 요구 사항을 충족해야 합니다.
 
 1. Adobe ECID(Experience Platform Identity Service) 버전 5 이상을 사용해야 합니다. 최신 ECID 릴리스를 [다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)하십시오.
-2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). [Audience Manager 설명서에서 DIL](../..//dil/dil-overview.md)에 대해 알아보십시오. Audience Manager을 위한 [가장 쉬운 DIL](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) 구현을 위해 Adobe Launch를 사용하는 것이 좋습니다.
+2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). [Audience Manager 설명서에서 DIL](../..//dil/dil-overview.md)에 대해 알아보십시오. Audience Manager에 대한 가장 손쉬운 DIL 구현을 위해 [Adobe](https://docs.adobe.com/content/help/ko-KR/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) 론치를 사용하는 것이 좋습니다.
 3. Alternatively, if you use [!DNL Server-Side Forwarding] (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. [Analytics 코드 관리자](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 AppMeasurement를 다운로드합니다.
-4. IAB TCF v2.0과 통합되고 IAB TCF에 등록되어 있는 CMP(Consent Management Library)를 사용하거나 자체 CMP를 사용해야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
+4. 귀하는 IAB TCF v2.0과 통합되고 IAB TCF에 등록된 CMP(Consent Management Platform) 또는 자체 CMP를 사용하고 있어야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
 
 >[!WARNING]
 >
->IAB TCF v.2.0을 지원하지 않는 CMP(동의 관리 Platform)을 사용하는 경우, 방문자가 유럽 연합(EU)에 있더라도 Audience Manager은 ID 동기화에서 매개 변수를 자동으로 전송합니다. `gdpr=0` GDPR 유효성이 유효한지 확인하려면 CMP(Consent Management Platform)에서 IAB TCF v2.0을 지원하는지 확인하는 것이 좋습니다.
+>IAB TCF v.2.0을 지원하지 않는 CMP(Consent Management Platform)를 사용하는 경우, Audience Manager은 방문자가 유럽 연합(EU)에 있더라도 ID 동기화에서 매개 변수를 자동으로 전송합니다. `gdpr=0` GDPR 유효성이 유효한지 확인하려면 CMP(Consent Management Platform)에서 IAB TCF v2.0을 지원하는지 확인하는 것이 좋습니다.
 
 ## 권장 사항 및 구현 방법 {#recommendations}
 
 Audience Manager에서 IAB TCF 지원을 활성화하려면 [옵트인으로 IAB를 설정하는 방법](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/opt-in-service/iab.html)에 대한 설명서를 참조하십시오.
 
-가장 쉬운 방법은 [Adobe Experience Platform 론치를](https://docs.adobe.com/content/help/en/launch/using/overview.html) 사용하여 속성에 [!DNL ECID Opt-in] 추가하는 것입니다. Launch 확장을 설정하는 방법을 알려면 [ECID 옵트인 확장](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)에 대한 설명서를 읽어 보십시오.
+가장 쉬운 방법은 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) 를 사용하여 속성에 [!DNL ECID Opt-in] 추가하는 것입니다. Launch 확장을 설정하는 방법을 알려면 [ECID 옵트인 확장](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)에 대한 설명서를 읽어 보십시오.
 
 ## IAB 프레임워크 사용 시 사용자 선택 워크플로우 {#user-choice-workflow}
 
@@ -102,9 +102,9 @@ IAB TCF에 등록된 모든 공급업체는 IAB TC 문자열을 평가하고 사
 
 Audience Manager은 IAB 유럽 투명도 및 동의 프레임워크 정책에 정의된 다음 목적을 위해 IAB TC 문자열에 저장된 사용자 선택 사항을 [평가합니다](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes). 또한 [글로벌 공급업체 목록에서 해당 목적을 찾을 수도 있습니다](https://vendorlist.consensu.org/vendorlist.json).
 
-* **목적 1**: 장치에 정보 저장 및/또는 액세스
-* **목적 10**: 제품 개발 및 개선
-* **특수 목적 1**: 보안, 부정 행위 방지 및 디버그를 보장합니다.
+* **목적 1**:장치에 정보 저장 및/또는 액세스
+* **목적 10**:제품 개발 및 개선
+* **특수 목적 1**:보안, 부정 행위 방지 및 디버그를 보장합니다.
 
 >[!IMPORTANT]
 >
@@ -118,7 +118,7 @@ Audience Manager은 IAB TC 문자열에 사용자 동의(장치에 대한 정보
 
 Audience Manager에서 근무하는 모든 대상에 대한 사용자 동의도 확인하며, 해당 대상이 IAB TCF에 등록되어 있는 경우 이에 동의합니다.
 
-| 사용자가 *동의하면* Audience Manager는 | 사용자의 동의를 *거부하면* Audience Manager는 |
+| When your user *provides* consent, Audience Manager: | 사용자의 동의를 *거부하면* Audience Manager는 |
 |---|---|
 | <ul><li>요청하신 모든 Audience Manager 사용 사례를 수행합니다.</li><li>Conveys consent to third parties in ID syncs (by passing `gdpr = 1` and the consent string as `gdpr_consent` on ID sync calls).</li><li>광고 서버 픽셀에서 전달된 동의를 평가하고 적용합니다.</li><li>파트너가 시작한 ID 동기화를 수행합니다.</li></ul> | <ul><li>인스턴스에서 새 사용자 데이터를 저장하지 않습니다. 여기에는 파트너 ID, 신호, 트레이트 또는 픽셀 데이터가 포함됩니다.</li><li>타사 ID 동기화를 시작하지 않습니다.</li><li>파트너가 시작한 ID 동기화를 수행하지 않습니다.</li><li>사용자를 추가 데이터 수집에서 옵트아웃합니다.</li></ul> |
 

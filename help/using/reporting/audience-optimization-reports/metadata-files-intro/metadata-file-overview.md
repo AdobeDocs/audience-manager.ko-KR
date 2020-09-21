@@ -1,15 +1,15 @@
 ---
-description: 메타데이터 파일은 읽고 이해할 수 있는 이름의 숫자 ID를 연결합니다. 대상 최적화 보고서에는 다양한 보고서 옵션 메뉴에 읽을 수 있는 이름이 표시됩니다.
-seo-description: 메타데이터 파일은 읽고 이해할 수 있는 이름의 숫자 ID를 연결합니다. 대상 최적화 보고서에는 다양한 보고서 옵션 메뉴에 읽을 수 있는 이름이 표시됩니다.
+description: 메타데이터 파일은 읽고 이해할 수 있는 이름의 숫자 ID를 연결합니다. Audience Optimization 보고서에는 다양한 보고서 옵션 메뉴에 읽을 수 있는 이름이 표시됩니다.
+seo-description: 메타데이터 파일은 읽고 이해할 수 있는 이름의 숫자 ID를 연결합니다. Audience Optimization 보고서에는 다양한 보고서 옵션 메뉴에 읽을 수 있는 이름이 표시됩니다.
 seo-title: 메타데이터 파일에 대한 개요 및 매핑
 solution: Audience Manager
 title: 메타데이터 파일에 대한 개요 및 매핑
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '836'
 ht-degree: 4%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # 메타데이터 파일에 대한 개요 및 매핑{#overview-and-mappings-for-metadata-files}
 
-메타데이터 파일은 읽고 이해할 수 있는 이름의 숫자 ID를 연결합니다. 대상 최적화 보고서에는 다양한 보고서 옵션 메뉴에 읽을 수 있는 이름이 표시됩니다.
+메타데이터 파일은 읽고 이해할 수 있는 이름의 숫자 ID를 연결합니다. Audience Optimization 보고서에는 다양한 보고서 옵션 메뉴에 읽을 수 있는 이름이 표시됩니다.
 
 ## 개요 {#overview}
 
-메타데이터와 사용 방법에 대한 검토 메타데이터 파일은 데이터 파일과 함께 있어야 합니다. 메타데이터 파일 컨텐츠는 보고서 메뉴에서 읽을 수 있는 관련 레이블과 데이터 파일 정보를 일치시킵니다. 자세한 내용은 대상 최적화 보고서 및 [실행 가능한 로그 파일을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+메타데이터와 사용 방법에 대한 검토 메타데이터 파일은 데이터 파일과 함께 있어야 합니다. 메타데이터 파일 컨텐츠는 보고서 메뉴에서 읽을 수 있는 관련 레이블과 데이터 파일 정보를 일치시킵니다. 자세한 내용은 Audience Optimization 보고서용 [데이터 파일 및 실행 가능한 로그 파일을 참조하십시오](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### 메타데이터 파일에 다른 데이터에 대한 데이터가 포함됩니다.
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 ### 메타데이터 파일이 필요한 시기
 
-먼저, [대상 최적화 보고서를 사용하려면 이벤트 호출에 메타데이터 파일과 아래에 나열된 모든 매개 변수가 필요합니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+먼저, [Audience Optimization 보고서를 사용하려면 이벤트 호출에서 메타데이터 파일과 아래에 나열된 모든 매개 변수가 필요합니다](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 둘째, 데이터를 전송 중인 경우 [!DNL Audience Manager] 또는 통합되지 않은 다른 제공업체의 보고서에서 데이터를 보려는 경우 메타데이터 파일이 필요합니다. 예를 들어, Google [!DNL Audience Manager] 의 [두 번 클릭 캠페인 관리자](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM)와 통합됩니다. 이러한 관계로 인해 ID를 보고서 옵션에서 사용하는 이름 및 설명에 연결할 [!DNL Audience Manager] 수 있습니다. 통합이 없으면 데이터를 인제스트할 수 있지만 보고서 옵션은 설명 이름 대신 숫자 ID를 표시합니다.
 
@@ -112,7 +112,7 @@ ht-degree: 4%
 
 이 예에서는 크리에이티브 이름을 [!UICONTROL Audience Optimization] 보고서에 가져오는 메타데이터 파일을 만듭니다. 이를 위해서는 이벤트 호출에서 크리에이티브, 캠페인 및 데이터 소스 ID를 추출해야 합니다.
 
-![](assets/metadata_file_event.png)
+![메타데이터 파일 이벤트 스키마](assets/metadata_file_event.png)
 
 ### 파일 이름
 
@@ -124,7 +124,7 @@ ht-degree: 4%
 
 * 크리에이티브 및 캠페인 ID는 실제 식별자가 아닌 카테고리를 나타냅니다.
 
-![](assets/metadata_file_name.png)
+![메타데이터 파일 이름 스키마](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,17 +132,17 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 이 예에서 파일 내용은 이벤트 호출에 전달된 크리에이티브 및 캠페인 ID를 반영합니다. 여기에서 새 요소는 읽을 수 있는 이름입니다. 처리되면 이 파일의 이름이 [!UICONTROL Audience Optimization] 보고서의 [크리에이티브] 메뉴에 옵션으로 표시됩니다.
 
-![](assets/metadata_file_contents.png)
+![메타데이터 파일 내용 스키마](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### 파일 배달
 
-이름을 지정하고 파일에 데이터를 추가한 후 이 파일을 에서 제공하는 Amazon S3 스토리지 디렉토리로 보냅니다 [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+이름을 지정하고 파일에 데이터를 추가한 후 이 파일을 에서 제공하는 Amazon S3 저장소 디렉토리로 보냅니다 [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
->* [대상 최적화 보고서를 위한 데이터 파일](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [Audience Optimization 보고서용 데이터 파일](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [픽셀 호출을 통해 캠페인 클릭 데이터 캡처](../../../integration/media-data-integration/click-data-pixels.md)
 >* [픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처](../../../integration/media-data-integration/impression-data-pixels.md)
 

@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
+source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 64%
 
 ---
@@ -106,6 +106,8 @@ To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm eva
 
 사용 사례를 주의 깊게 분석하고 모델이 학습할 유형과 모델이 분류에 사용할 데이터 유형을 결정합니다. [!UICONTROL trait]
 
+ 
+
 **어떤 성향 트레이트/세그먼트에도 속하지 않는 타겟 대상의 사용자를 분류할 수 있습니까?**
 
 예, 사용자의 프로필에 어떤 트레이트도 포함되어 있지 않은 경우 분류할 수 있습니다. 이 경우, 사용자는 모든 성향 트레이트/세그먼트에 대해 일치 점수 0을 받게 되며, 따라서 예측 세그먼트로 분류되지 않습니다.
@@ -120,7 +122,7 @@ To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm eva
 
 **일반 세그먼트에 예측 트레이트를 추가할 수 있습니까?**
 
-예측 트레이트를 일반 세그먼트에 추가하면 세그먼트가 예측 세그먼트가 됩니다. 따라서 모든 관련 프로필은 세그먼트화되지 않습니다. 예측 세그먼트는 실시간 대상으로만 전송할 수 있습니다.
+예측 트레이트를 일반 세그먼트에 추가하면 예측 세그먼트가 됩니다. 따라서 모든 관련 프로필은 세그먼트화되지 않습니다. 예측 세그먼트는 실시간 대상으로만 전송할 수 있습니다.
 
  
 

@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 8%
+source-wordcount: '1551'
+ht-degree: 7%
 
 ---
 
@@ -113,6 +113,9 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 * 각 모델에 대해 최대 50개의 기본 트레이트/세그먼트를 선택할 수 있습니다.
 * 타사 및 타사 데이터는 현재 에서 지원되지 않습니다 [!UICONTROL Predictive Audiences].
 * 고객 분류는 퍼스트 파티 대상자에게만 수행됩니다. 향후 업데이트에서는 온보드 퍼스트 파티 분류가 지원될 수 있습니다.
+   >[!IMPORTANT]
+   > 예측 트레이트를 일반 세그먼트에 추가하면 예측 세그먼트가 됩니다. 따라서 모든 관련 프로필은 세그먼트화되지 않습니다.
+
    >[!IMPORTANT]
    > 현재 예측 세그먼트는 실시간 대상에서만 활성화할 수 있습니다. 예측 세그먼트 [!UICONTROL Total Segment Population] 와 [!UICONTROL Addressable Audience] 가 0으로 표시되고, [아웃바운드 데이터 전송](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) 일괄 [!UICONTROL Predictive Audiences]작업은 지원되지 않습니다. 이 동작은 향후 업데이트 시 변경됩니다.
 * [!UICONTROL Predictive Audiences] 모든 자사 데이터 소스에서 자사 트레이트를 기반으로 고객 분류를 수행합니다.

@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 67%
+source-wordcount: '1024'
+ht-degree: 64%
 
 ---
 
@@ -115,6 +115,12 @@ To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm eva
 **예측 세그먼트 중 하나로 분류된 사용자가 다른[!UICONTROL Predictive Audiences]세그먼트로 재분류될 수 있습니까?**
 
 예. 알고리즘은 매일 훈련되므로 트레이트 점수 측면에서 각 성향에 대한 변경 사항을 적용합니다. [!UICONTROL Predictive Audiences] 세그먼트에 속하는 사용자가 활성 상태인 경우, 트레이트 점수가 변경되면 지난 30일 활동을 기반으로 분류가 변경될 수 있습니다.
+
+ 
+
+**일반 세그먼트에 예측 트레이트를 추가할 수 있습니까?**
+
+예측 트레이트를 일반 세그먼트에 추가하면 세그먼트가 예측 세그먼트가 됩니다. 따라서 모든 관련 프로필은 세그먼트화되지 않습니다. 예측 세그먼트는 실시간 대상으로만 전송할 수 있습니다.
 
  
 

@@ -7,9 +7,9 @@ title: 트렌드 보고서
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d1edc392c2017f4625f0494d50463c395248918f
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ t_working_with_trend_reports.xml
 1. 대시보드에서 를 **[!UICONTROL Analytics]** 클릭합니다 **[!UICONTROL Trend Reports]**.
 1. 드롭다운 **[!UICONTROL Report Type]** 목록에서 원하는 유형을 선택합니다. **[!UICONTROL Trait]** 또는 **[!UICONTROL Segment]**.
 1. 날짜 상자를 클릭하여 달력을 표시한 다음 보고서의 시작 및 종료 날짜를 선택합니다.
-1. 표시 간격을 지정합니다. 1, 7, 14, 30, 60 또는 90일
+1. 표시 간격을 지정합니다.1, 7, 14, 30, 60 또는 90일
 1. 이름이나 ID로 트레이트 또는 세그먼트를 검색합니다.
 1. 폴더 목록에서 보고할 트레이트나 세그먼트를 오른쪽 [!UICONTROL Selections] 패널에 드래그하여 놓습니다.
    * 최상의 성능을 위해 한 번에 20개 미만의 트레이트 또는 세그먼트에 대한 보고서를 실행합니다. [!UICONTROL Trend]
@@ -102,13 +102,13 @@ t_working_with_trend_reports.xml
 
 크로스 디바이스 지표가 작동하는 방식을 자세히 살펴보려면 아래 비디오를 참조하십시오.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## 세그먼트에 대한 트렌드 보고서 결과 {#segment-report-results-traits}
 
 아래 필터는 를 실행하고 보고서 유형 [!UICONTROL Trend Report] **[!UICONTROL Segments]** 으로 선택할 때 사용할 수 있습니다.
 
-* **[!UICONTROL Real-time Segment Population]**: 선택한 시간 범위 내의 세그먼트에 대해 자격이 있는 방문자 수.
-* **[!UICONTROL Total Segment Population]**: 세그먼트에 자격이 있는 총 방문자 수입니다.
+* **[!UICONTROL Real-time Segment Population]**:선택한 시간 범위 내의 세그먼트에 대해 자격이 있는 방문자 수.
+* **[!UICONTROL Total Segment Population]**:세그먼트에 자격이 있는 총 방문자 수입니다.
 
 ![trend-report-segments](assets/trend-report-segments.png)

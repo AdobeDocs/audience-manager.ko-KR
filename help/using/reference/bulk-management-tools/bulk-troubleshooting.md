@@ -7,7 +7,7 @@ title: 벌크 관리 도구 문제 해결 팁
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 5%
@@ -53,15 +53,15 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <b>인증 오류</b> </td> 
    <td colname="col2"> 
-    <b>최신 버전의 Microsoft Excel로 업데이트</b>: 새 버전의 Microsoft Excel을 릴리스하고 이전 버전을 사용 중인 경우 벌크 관리 워크시트에서 인증 오류가 발생할 수 있습니다. 최신 버전의 Microsoft Excel로 업데이트하여 인증 오류를 해결하십시오.
+    <b>최신 버전의 Microsoft Excel로 업데이트</b>:새 버전의 Microsoft Excel을 릴리스하고 이전 버전을 사용 중인 경우 벌크 관리 워크시트에서 인증 오류가 발생할 수 있습니다. 최신 버전의 Microsoft Excel로 업데이트하여 인증 오류를 해결하십시오.
 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>긴 지연</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>호환성 모드 해제</b>: Microsoft Excel의 호환성 모드에서 다른 워크시트가 열려 있는지 확인합니다. 호환성 모드를 사용하면 런타임이 늘어날 수 있습니다. 이 모드에서 열려 있는 스프레드시트를 모두 닫고 벌크 요청을 다시 시도하십시오. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>시스템 리소스</b>: 시스템 리소스가 제한되므로 지연 시간이 오래 걸립니다. 일괄 요청 전에 다른 프로그램을 모두 닫으십시오. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>호환성 모드 해제</b>:Microsoft Excel의 호환성 모드에서 다른 워크시트가 열려 있는지 확인합니다. 호환성 모드를 사용하면 런타임이 늘어날 수 있습니다. 이 모드에서 열려 있는 스프레드시트를 모두 닫고 벌크 요청을 다시 시도하십시오. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>시스템 리소스</b>:시스템 리소스가 제한되므로 지연 시간이 오래 걸립니다. 일괄 요청 전에 다른 프로그램을 모두 닫으십시오. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -78,5 +78,5 @@ ht-degree: 5%
 
 ## 오류 메시지
 
-벌크 변경 시 오류 메시지가 표시되는 경우가 있습니다. 오류 메시지를 해석하려면 API 설명서에서 [정의된](/help/using/api/rest-api-main/aam-api-getting-started.md) 응답 코드를 참조하십시오.
+벌크 변경 시 오류 메시지가 표시되는 경우가 있습니다. 오류 메시지를 해석하려면 API 설명서에서 [정의된](/help/using/api/rest-api-main/aam-api-getting-started.md#response-codes-defined) 응답 코드를 참조하십시오.
 

@@ -7,9 +7,9 @@ title: 일별 트레이트 변형 보고서
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 표준 편차는 평균(또는 평균/예상 값)의 변화 또는 분산의 양을 측정합니다. 표준 편차는 데이터 포인트가 평균과 매우 가까운 경향이 있음을 나타냅니다. 높은 표준 편차는 데이터 포인트가 많은 값 범위에 분산되어 있음을 나타냅니다.
 
-![](assets/daily_trait_variation.png)
+![스크린샷 일일 특성 변형 보고서](assets/daily_trait_variation.png)
 
 보고서 [!UICONTROL Date] 에 대해 하나 이상의 날짜를 선택하려면 목록을 사용하십시오. 선택한 모든 날짜에 걸쳐 모든 트레이트의 표준 편차 범위를 시각적으로 나타내는 색으로 구분된 막대 차트가 목록 맨 아래에 표시됩니다. 검은색 세로 줄은 평균을 나타냅니다.
 
@@ -41,14 +41,14 @@ ht-degree: 1%
 
 ## 사용 사례 {#use-cases}
 
-**예 #1**: 이 보고서는 계절 수준이 높은 트레이트가 있는 경우 매우 유용합니다. 예를 들어 온라인 스토어가 다양한 유형과 가격에 대한 계절별 판촉 행사를 테스트하고 있다고 가정해 봅시다. 다음 트레이트가 정의되어 있습니다 [!DNL Audience Manager].
+**예 #1**:이 보고서는 계절 수준이 높은 트레이트가 있는 경우 매우 유용합니다. 예를 들어 온라인 스토어가 다양한 유형과 가격에 대한 계절별 판촉 행사를 테스트하고 있다고 가정해 봅시다. 다음 트레이트가 정의되어 있습니다 [!DNL Audience Manager].
 
 * `productPage == "December Promotion"`
 * `price > "500"`
 
 12월 20일에 보고서를 [!UICONTROL Daily Trait Variation] 실행한다고 가정하면 지난 30일 동안 위에서 언급한 트레이트에 대해 확고한 긍정적인 편차가 나타납니다. 이것은 방문자가 계절별 판촉 행사에 언급된 제품을 찾고 있음을 암시합니다. 이러한 트렌드를 활용하기 위해 특정 제품 카테고리에 대한 크리에이티브를 관심 있는 방문자에 타깃팅하는 데 더 많은 노력을 기울일 수 있습니다.
 
-**예 #2**: 이 보고서를 사용하면 태그 지정 문제 또는 트레이트 잘못된 구성과 관련된 예외 항목을 식별하는 데 도움이 될 수 있습니다. 온라인 스토어의 카테고리를 기반으로 다음과 같은 특성을 정의했다고 가정해 보십시오.
+**예 #2**:이 보고서를 사용하면 태그 지정 문제 또는 트레이트 잘못된 구성과 관련된 예외 항목을 식별하는 데 도움이 될 수 있습니다. 온라인 스토어의 카테고리를 기반으로 다음과 같은 특성을 정의했다고 가정해 보십시오.
 
 * `productPage == "smartphones"`
 
@@ -56,8 +56,8 @@ ht-degree: 1%
 
 한 달 후 [!UICONTROL Daily Trait Variation] 보고서를 실행하고 사이트 분석에 따라 방문자 수가 증가했지만 `productPage == "smartphones"` 트레이트에 대한 큰 부정적 편차가 있음을 확인합니다. 이 정보를 바탕으로 새 제품 페이지에 대한 트레이트를 업데이트하지 않았기 때문에 다음 트레이트를 만들어야 [!DNL Audience Manager] 합니다.
 
-* productPage == &quot;samsung&quot;
-* productPage == &quot;apple&quot;
-* productPage == &quot;huawei&quot;
+* `productPage == "samsung"`
+* `productPage == "apple"`
+* `productPage == "huawei"`
 
 이렇게 하면 새로 만든 트레이트에 대한 대상 자격을 얻게 됩니다.

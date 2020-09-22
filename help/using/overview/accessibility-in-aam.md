@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager의 접근성
 feature: overview
 translation-type: tm+mt
-source-git-commit: 032e01f2483543271680093ae3286bcf3b3b3740
+source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe은 액세서빌러티 부문의 업계 선도적인 제품으로 개발자
 
    ![액세서빌러티 강조 표시](assets/accesibility-highlight.png)
 
-* 및 키 `Return` `Space` 가 선택한 항목을 활성화합니다.
+* ( `Return` )`Enter`및 `Space` 키는 선택한 항목을 활성화합니다.
 
 ## 액세스 가능한 테이블 정렬 {#table-sorting}
 
@@ -62,6 +62,4 @@ Audience Manager 사용자 인터페이스 내의 모든 대화형 요소에는 
 
 [!DNL Audience Manager] 누구나 손쉽게 사용할 수 있도록 접근성을 향상시키고자 노력하고 있습니다.
 
-접근성 개선 및 준수 상태에 대한 자세한 내용은 접근성 적합성 보고서를 참조하십시오.
-
-또한, [Adobe 접근성 피드백 양식을](https://www.adobe.com/accessibility/feedback.html) 사용하여 귀하가 실행하는 개선 사항 제안 및 접근성 문제를 보내 주십시오. 귀하의 의견을 반영하여 개선해 주시면 감사하겠습니다 [!DNL Audience Manager].
+Adobe는 [Adobe 액세서빌러티 피드백 양식을](https://www.adobe.com/accessibility/feedback.html) 사용하여 사용자가 실행하는 개선 사항 제안 및 접근성 문제를 전송할 것을 권장합니다. 귀하의 의견을 반영하여 개선해 주시면 감사하겠습니다 [!DNL Audience Manager].

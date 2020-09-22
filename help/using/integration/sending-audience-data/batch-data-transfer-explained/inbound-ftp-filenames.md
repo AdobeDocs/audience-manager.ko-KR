@@ -7,9 +7,9 @@ title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요�
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: d6d15ed68cd70fd7da1037a7cb397a00d252e4dd
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '868'
 ht-degree: 9%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>데이터 파일에 사용자 ID나 Android 또는 iOS ID가 포함되어 있는지 <span class="keyword"> Audience Manager</span> 를 알리는 ID입니다. 다음 옵션을 수락합니다. </p> 
+   <td colname="col2"> <p>데이터 파일에 사용자 ID나 Android 또는 iOS ID가 포함되어 있는지 <span class="keyword"> Audience Manager</span> 를 알리는 ID입니다. 다음 옵션을 수락합니다.</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 파트너 ID:</b> 회사 또는 조직에 할당하는 고유한 ID Audience Manager입니다. 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어, ID 21을 가진 파트너가 파일을 전송했으며 해당 파트너가 할당한 사용자 ID를 포함하고 있다고 Audience Manager에 <code>...ftp_dpm_21_123456789.sync</code> <span class="keyword"></span> 알려줍니다. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 공급자 ID(데이터 소스 ID라고도 함):</b> 데이터 공급자에 할당하는 고유한 ID Audience Manager입니다. 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어, ID 21을 가진 파트너가 파일을 전송했으며 해당 파트너가 할당한 사용자 ID를 포함하고 있다고 Audience Manager에 <code>...ftp_dpm_21_123456789.sync</code> <span class="keyword"></span> 알려줍니다. </li> 
      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914를 사용하십시오. 예를 들어 데이터 파일에 <code>...ftp_dpm_20914_123456789.sync</code> <span class="keyword"></span> Android ID만 포함되어 있음을 Audience Manager에 알려줍니다. </li> 
      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> iOS ID가 포함된 경우 데이터 파일 이름에 ID 20915를 사용하십시오. 예를 들어, 데이터 파일에 iOS ID만 <code>...ftp_dpm_20915_123456789.sync</code> 포함되어 있다는 <span class="keyword"> 점을 Audience Manager에</span> 알려줍니다. </li> 
     </ul> <p> <p>참고: 데이터 파일에 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 iOS ID나 자신의 ID를 데이터 파일에 넣지 마십시오. </p> </p> </td> 

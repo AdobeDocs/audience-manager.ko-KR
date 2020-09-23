@@ -5,15 +5,15 @@ seo-title: 신호 검색
 title: 신호 검색
 feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 29%
+ht-degree: 21%
 
 ---
 
 
-# 신호 검색 개요 {#signals-search}
+# 신호 검색 개요 {#signal-search}
 
 특정 기간에 받은 사용 및 사용하지 않는 신호를 검색합니다. 신호를 검색하려면 대상 데이터 > 신호 > 검색으로 이동합니다.
 

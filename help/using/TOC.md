@@ -8,7 +8,7 @@ breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a726ad4fa4d1404efd363f8ed61222fcf3795c34
+source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 93%
@@ -78,7 +78,7 @@ ht-degree: 93%
       + [데이터 탐색기 - 개요, 이점 및 사용 사례](features/data-explorer/data-explorer-overview.md)
       + [신호 이해](features/data-explorer/data-explorer-understanding-signals.md)
       + [신호 대시보드](features/data-explorer/data-explorer-signals-dashboard.md)
-      + 신호 검색{#signals-search}
+      + 신호 검색{#signal-search}
          + [신호 검색 개요](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [키-값 쌍으로 신호 검색](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [필터로 신호 검색](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)

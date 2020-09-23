@@ -8,9 +8,9 @@ title: 알고리즘 모델 만들기
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: bff108115e7ebd4375d81c1c32ec9bb7d1a207c1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Create a. [!UICONTROL Look-Alike Model]
 
 크로스 디바이스 지표가 작동하는 방식을 자세히 살펴보려면 아래 비디오를 참조하십시오.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## 알고리즘 모델에 대한 기본 정보 {#basic-information}
 
@@ -90,7 +90,7 @@ Create a. [!UICONTROL Look-Alike Model]
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>기준 특성 또는 세그먼트 선택(1)</b> </p> </td> 
-   <td colname="col2"> <p>트레이트 또는 세그먼트 단추를 클릭하여 모든 트레이트 또는 세그먼트 목록을 봅니다. 선택한 세그먼트나 트레이트는 시스템 알고리즘이 모델링에 사용하는 기준선이 됩니다. </p> <p> <p><b>참고</b>:  온보드 특성, 규칙 기반 특성 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p>트레이트 또는 세그먼트 단추를 클릭하여 모든 트레이트 또는 세그먼트 목록을 봅니다. 선택한 세그먼트나 트레이트는 시스템 알고리즘이 모델링에 사용하는 기준선이 됩니다. </p> <p> <p><b>참고</b>: 온보드 특성, 규칙 기반 특성 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>뒤로 보기 기간(2) 선택</b> </p> </td> 
@@ -106,7 +106,7 @@ Create a. [!UICONTROL Look-Alike Model]
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>제외(5)</b> </p> </td> 
-   <td colname="col2"> <p>모델링을 위해 선택한 데이터 소스에서 트레이트를 제외할 수 있습니다. 제외 <span class="wintitle"> 목록을</span> 사용하고 알고리즘 <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> 모델을 읽으십시오. 특성 제외를 참조하십시오</a> . </p> </td>
+   <td colname="col2"> <p>모델링을 위해 선택한 데이터 소스에서 트레이트를 제외할 수 있습니다. 제외 <span class="wintitle"> 목록을</span> 사용하고 알고리즘 <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> 모델을 읽으십시오.특성 제외를 참조하십시오</a> . </p> </td>
   </tr> 
  </tbody>
 </table>

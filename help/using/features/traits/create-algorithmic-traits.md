@@ -7,9 +7,9 @@ title: 알고리즘 트레이트 만들기
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '343'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,12 @@ ht-degree: 5%
 1. 창을 [!UICONTROL Configuration] 열고 을 클릭합니다 **[!UICONTROL Browse All Models]**.
 트레이트와 함께 사용할 모델을 선택할 수 있는 새 창이 열립니다.
 1. 모델을 선택하고 을 클릭합니다 **[!UICONTROL Add Selected Model to Trait]**.
-모델을 추가하면 도달 및 정확도 설정이 표시됩니다.
+
+   >[!NOTE]
+   > 
+   > 선택한 모델을 기존 알고리즘 특성으로 바꿀 수 없습니다. 다른 모델을 사용하려면 새로운 알고리즘 특성을 만들어야 합니다.
+
+   모델을 추가하면 도달 및 정확도 설정이 표시됩니다.
 1. 목표로 도달 또는 정확도를 선택하고 각각의 드롭다운 메뉴에서 값을 선택합니다. 완료되면 을 **[!UICONTROL Save]** 클릭합니다.
 
 ## 알고리즘 트레이트를 위한 구성 설정 {#configure-settings}

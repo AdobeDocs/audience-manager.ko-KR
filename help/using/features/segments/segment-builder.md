@@ -7,9 +7,9 @@ title: 세그먼트 빌더
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1082'
 ht-degree: 2%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 2%
 
    * 이름을 [!UICONTROL segment]지정합니다. 이름의 최대 길이는 255자입니다. [!UICONTROL segment]
    * 상태를 [!UICONTROL segment] 설정합니다(활성 상태).
-   * 원하는 [!UICONTROL data source]항목 선택 첫 번째 드롭다운 메뉴를 사용하여 Audience Manager, Adobe Analytics 보고서 세트 [!UICONTROL data sources]또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 원하는 메뉴를 선택합니다 [!UICONTROL data source]. Adobe Analytics 보고서 세트를 사용하지 않는 경우, 유형 선택기가 비활성화되어 [!UICONTROL data source] Audience Manager 데이터 소스만 기본값으로 설정됩니다.
-   * 자격에 사용할 항목 [!UICONTROL profile merge rule] 을 [!UICONTROL segment] 선택합니다.
+   * 원하는 [!UICONTROL data source]항목 선택 첫 번째 드롭다운 메뉴를 사용하여 Audience Manager, Adobe Analytics 보고서 세트 [!UICONTROL data sources]또는 둘 다 간에 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 원하는 메뉴를 선택합니다 [!UICONTROL data source]. Adobe Analytics 보고서 세트를 사용하지 않는 경우, 유형 선택기가 비활성화되어 [!UICONTROL data source] Audience Manager 데이터 소스만 기본값으로 설정됩니다.
+   * 자격에 [!UICONTROL profile merge rule] 사용할 항목을 [!UICONTROL segment] 선택합니다.
    * 저장소 폴더 [!UICONTROL segment] 에 할당합니다.
 
 1. 트레이트 [섹션에서](../../features/segments/segment-builder.md#segment-builder-controls-traits) 다음을 수행합니다.
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 크로스 디바이스 지표가 작동하는 방식을 자세히 살펴보려면 아래 비디오를 참조하십시오.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## [!UICONTROL Segment Builder] 컨트롤: [!UICONTROL Basic Information] 섹션 {#segment-builder-controls-basics}
 
@@ -133,8 +133,8 @@ ht-degree: 2%
 | **[!UICONTROL Basic View]** | 이 섹션에서는 다음과 같은 시각적 컨트롤을 제공합니다. <ul><li>신규 구축 및 기존 관리 [!UICONTROL segments].</li><li>Remove [!UICONTROL traits] from a [!UICONTROL segment].</li><li>최대 50개(최대) [!UICONTROL traits] 를 [!UICONTROL segment]추가합니다.</li><li>드래그 앤 드롭 [!UICONTROL traits] 으로 새 그룹을 만듭니다.</li><li>한 곳에서 [!UICONTROL traits] 및 [!UICONTROL trait] 그룹 [!UICONTROL segment]보기</li><li>부울 표현식, 비교 연산자 및 최근/빈도 설정으로 자격 조건을 설정합니다.</li></ul> |
 | **[!UICONTROL Code View]** | 시각적 인터페이스 대신 코드를 사용하여 요구 사항 [!UICONTROL traits]을 작성 및 관리하고, 그룹 및 자격을 평가할 수 있는 개발 환경을 엽니다. 코드 보기는 다음과 같은 경우에 유용합니다. [!UICONTROL segments] <ul><li>한 개인 [!UICONTROL traits] 에 50개 이상을 포함합니다 [!UICONTROL segment]. 참고: [!UICONTROL Segments] 은 5000 [!UICONTROL traits] (최대)으로 제한됩니다.</li><li>여러 그룹을 [!UICONTROL trait] 포함합니다.</li><li>자격 조건은 복잡합니다.</li></ul> |
 | 검색 | Add [!UICONTROL traits] to a를 찾는 데 도움이 [!UICONTROL segment]됩니다. |
-| 권장 사항 | 가입한 자사 [!UICONTROL traits]및 [!UICONTROL traits] [!UICONTROL Audience Marketplace] 데이터 피드에서 유사한 제품에 대한 라이브 추천을 받을 수 있습니다. 이러한 권장 사항을 규칙에 [!UICONTROL segment] 추가하여 대상을 확장합니다. 트레이트 추천에서 [자세히 알아보십시오](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | 가입하지 않은 데이터 피드 [!UICONTROL traits]에서 유사한 기능의 [!UICONTROL Audience Marketplace] 라이브 추천을 받을 수 있습니다. 트레이트 추천에서 [자세히 알아보십시오](trait-recommendations.md). |
+| 권장 사항 | 가입한 자사 [!UICONTROL traits]및 [!UICONTROL traits] [!UICONTROL Audience Marketplace] 데이터 피드에서 유사한 제품에 대한 라이브 추천을 받을 수 있습니다. 이러한 권장 사항을 규칙에 [!UICONTROL segment] 추가하여 대상을 확장합니다. 트레이트 Recommendations에서 자세한 [내용을 살펴보십시오](trait-recommendations.md). |
+| **[!UICONTROL Marketplace Recommendations]** | 가입하지 않은 데이터 피드 [!UICONTROL traits]에서 유사한 기능의 [!UICONTROL Audience Marketplace] 라이브 추천을 받을 수 있습니다. 트레이트 Recommendations에서 자세한 [내용을 살펴보십시오](trait-recommendations.md). |
 | 실제 및 예상 [!UICONTROL Segment] 크기 데이터 | [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](segment-builder-data.md)를 참조하십시오. |
 
 ## Remove [!UICONTROL Traits] from a [!UICONTROL Segment] {#remove-traits}

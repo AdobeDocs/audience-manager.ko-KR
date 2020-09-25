@@ -1,5 +1,5 @@
 ---
-description: Audience Manager에서 대상은 타사 시스템(광고 서버, DSP, 광고 네트워크 등)입니다. 입니다. 대상 빌더는 쿠키, URL 또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
+description: Audience Manager에서 대상은 타사 시스템(광고 서버, DSP, 광고 네트워크 등)입니다. 입니다. 대상 빌더 도구를 사용하여 쿠키, URL 또는 서버 간 대상을 만들고 관리합니다.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: Audience Manager에서 대상은 타사 시스템(광고 서버, DSP, 광고 네트워크 등)입니다. 입니다. 대상 빌더는 쿠키, URL 또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
 seo-title: 대상
@@ -8,9 +8,9 @@ title: 대상
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '530'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 # [!UICONTROL Destinations] 개요 {#destinations}
 
-Audience Manager [!UICONTROL destination] 에서 a는 타사 시스템(광고 서버, [!DNL DSP]광고 네트워크 등)입니다. 입니다. [!UICONTROL Destination Builder] 은 작성 및 관리 [!UICONTROL cookie], [!DNL URL]또는 [!UICONTROL server-to-server destinations]관리하는 데 사용한 도구입니다.
+Audience Manager [!UICONTROL destination] 에서 a는 타사 시스템(광고 서버, [!DNL DSP]광고 네트워크 등)입니다. 입니다. [!UICONTROL Destination Builder] 은 작성 및 관리 [!UICONTROL cookie], [!DNL URL]또는 [!UICONTROL server-to-server destinations]관리하는 데 사용하는 도구입니다.
 
 ## 목적 및 장점 {#purposes}
 
@@ -26,7 +26,7 @@ Audience Manager [!UICONTROL destination] 에서 a는 타사 시스템(광고 �
 
 [!UICONTROL Destinations] 또한 세그먼트화된 사용자 [!UICONTROL Destination Builder] [!UICONTROL destinations] 에 대한 정보를 만들어 데이터 파트너에게 보낼 수 있습니다. 이를 통해 다음과 같은 이점이 있습니다.
 
-* **데이터 값 보호:** 모든 사용자 데이터를 한 사람에게 보내지 않고 자격 조건을 갖춘 사용자에 대한 특정 [!UICONTROL destination]정보만 공유할 [!UICONTROL Destination Builder] 수 있습니다.
+* **Protect 데이터 값:** 모든 사용자 데이터를 한 사람에게 보내지 않고 자격 조건을 갖춘 사용자에 대한 특정 [!UICONTROL destination]정보만 공유할 [!UICONTROL Destination Builder] 수 있습니다.
 * **데이터에 대한 조치 수행:** 데이터를 [!UICONTROL destination] 파트너에게 보내면 자격을 갖춘 고객 세그먼트를 신속하게 개발하고 타겟팅할 수 있습니다.
 * **기술 간접비 절감:** 비즈니스 사용자는 [!UICONTROL destinations] 인터페이스 [!UICONTROL Destination Builder] 에서 안전하게 설정할 수 있습니다. 이를 통해 배포 전 테스트에 필요한 시간을 줄일 수 있습니다. 비즈니스 요구 사항 [!UICONTROL Destination Builder]이 변경될 때마다 긴 개발 주기 [!UICONTROL destinations] 를 거치지 않고도 제작, 관리 및 삭제할 수 있습니다.
 

@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
+source-git-commit: 8e43da4c8b890fc5f8468f3779918dbfbbf960b8
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 64%
+source-wordcount: '933'
+ht-degree: 62%
 
 ---
 
@@ -46,14 +46,6 @@ ht-degree: 64%
 
  
 
-**왜 온보딩된 방문자 중 일부가 분류되지 않습니까?**
-
-현재, 대상 분류는 [!UICONTROL Profile Merge Rules]의 일부로 정의된 인증된 사용자를 제외하고 실시간 자격에 대해서만 작동합니다.
-
-차후 업데이트에서는 온보딩된 데이터에 대한 완전 지원이 추가됩니다.
-
- 
-
 **내 모델에서 나온 첫 번째 결과는 언제 볼 수 있습니까?**
 
 [!UICONTROL Predictive Audiences] 모델이 성공적으로 실행되는 경우 모델 생성 후 24시간 내에 이 모델의 결과를 사용할 수 있습니다.
@@ -68,12 +60,10 @@ ht-degree: 64%
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. 지난 30일 내에 타겟 대상 트레이트/세그먼트에 활성 상태이거나 온보딩된 사용자가 없었습니다.
+1. 대상 대상 특성/세그먼트에 활성 또는 온보드 사용자가 없습니다.
 1. 지난 30일 내에 활성 상태이거나 온보딩된 타겟 대상 사용자의 사용자 프로필에 충분한 데이터가 없습니다(분석하기에 충분한 트레이트가 아님).
 1. 대상 대상 세그먼트는 모델에 대해 선택한 세그먼트 [!UICONTROL Profile Merge Rule] 와 다르게 사용됩니다.
 1. 대상 고객 트레이트의 데이터 소스는 모델에 대해 선택한 데이터 [!UICONTROL Profile Merge Rule] 에 포함되지 않을 수 있습니다.
-
-To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. 아직 충분한 사용자가 없는 새 기본 트레이트 및 세그먼트를 선택하는 경우 알고리즘이 대상을 분류하는 데에는 2일 정도 걸릴 수 있습니다.
 
 최적의 결과를 얻으려면 [성향 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-personas) 및 [타겟 대상 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-audience)의 제안된 지침을 따르십시오.
 

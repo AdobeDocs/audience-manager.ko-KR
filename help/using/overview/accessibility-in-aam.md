@@ -1,12 +1,12 @@
 ---
-description: 접근성(Accessibility) 은 시각, 청각, 인지, 모터 등 다양한 장애가 있는 사용자로부터 가능한 한 최소한의 노력으로 소프트웨어 제품을 사용 가능하게 만드는 일련의 기능을 말합니다.
-seo-description: 접근성(Accessibility) 은 시각, 청각, 인지, 모터 등 다양한 장애가 있는 사용자로부터 가능한 한 최소한의 노력으로 소프트웨어 제품을 사용 가능하게 만드는 일련의 기능을 말합니다.
+description: 액세서빌러티(Accessibility) 는 시각, 청각, 인지, 모터 또는 기타 종류의 장애와 같은 다양한 장애가 있는 사용자로부터 가능한 한 최소한의 노력으로 소프트웨어 제품을 사용 가능하게 만드는 일련의 기능을 말합니다.
+seo-description: 액세서빌러티(Accessibility) 는 시각, 청각, 인지, 모터 또는 기타 종류의 장애와 같은 다양한 장애가 있는 사용자로부터 가능한 한 최소한의 노력으로 소프트웨어 제품을 사용 가능하게 만드는 일련의 기능을 말합니다.
 seo-title: Audience Manager의 접근성
 solution: Audience Manager
 title: Audience Manager의 접근성
 feature: overview
 translation-type: tm+mt
-source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
+source-git-commit: 2dc015ccf358724f0caa45265fab962821569d1e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 개요 {#overview}
 
-접근성(Accessibility) 은 시각, 청각, 인지, 모터 등 다양한 장애가 있는 사용자로부터 가능한 한 최소한의 노력으로 소프트웨어 제품을 사용 가능하게 만드는 일련의 기능을 말합니다.
+액세서빌러티(Accessibility) 는 시각, 청각, 인지, 모터 또는 기타 종류의 장애와 같은 다양한 장애가 있는 사용자로부터 가능한 한 최소한의 노력으로 소프트웨어 제품을 사용 가능하게 만드는 일련의 기능을 말합니다.
 
 Adobe은 액세서빌러티 부문의 업계 선도적인 제품으로 개발자는 모든 사용자가 액세스할 수 있는 풍부하고 매력적인 컨텐츠를 제작할 수 있도록 유도하여 뛰어난 웹 경험을 제작할 수 있습니다. Adobe의 액세서빌러티 기능에 대한 자세한 내용은 [Adobe 접근성을 참조하십시오](https://www.adobe.com/accessibility.html).
 

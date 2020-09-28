@@ -7,9 +7,9 @@ title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크�
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '901'
 ht-degree: 7%
 
 ---
@@ -63,14 +63,13 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>DPID( <span class="term"> 데이터 공급자 ID</span> )는 데이터 파일에 사용자 ID나 Android 또는 iOS ID가 <span class="keyword"> 포함되어</span> 있는지 Audience Manager을 알려주는 식별자입니다. 다음 옵션을 수락합니다. </p> <p> <b>데이터 파트너 ID</b> </p> <p>회사 또는 조직에 할당하는 고유한 ID Audience Manager입니다. 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어, ID 21을 가진 파트너가 파일을 전송했으며 해당 파트너가 할당한 사용자 ID를 포함하고 있다고 Audience Manager에 <code>...ftp_dpm_21_123456789.sync</code> <span class="keyword"></span> 알려줍니다. </p> <p> <b>Android ID(GAID)</b> </p> <p> 파일에 Android ID가 포함된 경우 데이터 파일 이름에 DPID로 ID 20914를 사용하십시오. ID 20914를 DPID로 사용하는 경우 여전히 <span class="keyword"> Audience Manager</span>을 위해 회사를 식별해야 합니다. 즉, 파일 이름은 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 매개 변수를 사용하여 회사 ID를 보유해야 합니다. 예를 들어 Android ID가 있는 파일을 전달하면 데이터 공급자 ID가 21이 됩니다. 이 경우 파일 이름은 다음과 같습니다 <code>...ftp_dpm_20914_21_123456789.sync</code>. 이 ID는 <span class="keyword"> Audience Manager</span> 파일에 Android ID가 포함되어 있고 ID 21로 식별된 파트너의 파일임을 나타냅니다. </p> <p> <b>iOS ID(IDFA)</b> </p> <p> 파일에 iOS ID가 포함된 경우 데이터 파일 이름에 DPID로 ID 20915를 사용하십시오. ID 20915를 DPID로 사용하는 경우 여전히 <span class="keyword"> Audience Manager</span>을 위해 회사를 식별해야 합니다. 즉, 파일 이름은 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 매개 변수를 사용하여 회사 ID를 보유해야 합니다. 예를 들어 Android ID가 있는 파일을 전달하면 데이터 공급자 ID가 21이 됩니다. 이 경우 파일 이름은 다음과 같습니다 <code>...ftp_dpm_20915_21_123456789.sync</code>. 그러면 파일이 iOS ID를 포함하고 ID 21로 식별된 파트너의 파일임을 <span class="keyword"> Audience Manager에 알려줍니다</span> . </p> 
-    <!-- 
-     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Data Partner ID:</b> This is a unique ID Audience Manager assigns to your company or organization. Use this assigned ID in a file name when sending in data that contains your own user IDs. For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </li> 
-      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Use ID 20914 in a data file name if it contains Android ID. For example, <code>...ftp_dpm_20914_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only. Note, the ID 21 </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Use ID 20915 in a data file name if it contains iOS IDs. For example, <code>...ftp_dpm_20915_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only. </li> 
-     </ul> 
-    --> <p> <p>참고: 데이터 파일에 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 iOS ID나 자신의 ID를 데이터 파일에 넣지 마십시오. </p> </p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">글로벌 데이터 소스</a>를 참조하십시오.</p> <p>아래 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 항목도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>데이터 파일에 사용자 ID, Android ID, iOS ID 또는 <span class="keyword"> 글로벌 데이터 소스에 속하는 기타 ID가 포함되어 있는지 Audience Manager</span> 을 알리는 <a href="/help/using/features/global-data-sources.md"> ID입니다</a>. 다음 옵션을 수락합니다.</p> 
+    <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 소스 ID(데이터 공급자 ID라고도 함):</b> Audience Manager이 데이터 소스에 할당하는 고유한 ID입니다(ID의 Audience Manager <a href="/help/using/reference/ids-in-aam.md"> 색인 참조 </a>). 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어 데이터 소스 21에 속하는 ID에 데이터를 <code>...ftp_dpm_21_123456789.sync</code> Audience Manager <span class="keyword"></span> 에 전송합니다. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914를 사용하십시오. 예를 들어 데이터 파일에 <code>...ftp_dpm_20914_123456789.sync</code> <span class="keyword"></span> Android ID만 포함되어 있음을 Audience Manager에 알려줍니다. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> iOS ID가 포함된 경우 데이터 파일 이름에 ID 20915를 사용하십시오. 예를 들어, 데이터 파일에 iOS ID만 <code>...ftp_dpm_20915_123456789.sync</code> 포함되어 있다는 <span class="keyword"> 점을 Audience Manager에</span> 알려줍니다. </li>
+     <li> <b>다른 글로벌 데이터 소스에 속하는 ID</b>:RIDA(Advertising), Microsoft Advertising ID(WEDER) 및 기타 ID를 위한 Roku ID를 게시할 수 있습니다. 글로벌 데이터 소스 문서에 설명된 대로 각 데이터 소스에 해당하는 ID를 <a href="/help/using/features/global-data-sources.md"> 사용하십시오</a>.</li> 
+    </ul> <p> <p>참고: 데이터 파일에 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 iOS ID나 자신의 ID를 데이터 파일에 넣지 마십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 

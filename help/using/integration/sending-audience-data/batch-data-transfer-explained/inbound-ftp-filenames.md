@@ -7,10 +7,10 @@ title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요�
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
+source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 9%
+source-wordcount: '1042'
+ht-degree: 8%
 
 ---
 
@@ -60,18 +60,19 @@ ht-degree: 9%
    <td colname="col2"> <p>데이터 파일에 사용자 ID, Android ID, iOS ID 또는 <span class="keyword"> 글로벌 데이터 소스에 속하는 기타 ID가 포함되어 있는지 Audience Manager</span> 을 알리는 <a href="/help/using/features/global-data-sources.md"> ID입니다</a>. 다음 옵션을 수락합니다.</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 소스 ID(데이터 공급자 ID라고도 함):</b> Audience Manager이 데이터 소스에 할당하는 고유한 ID입니다(ID의 Audience Manager <a href="/help/using/reference/ids-in-aam.md"> 색인 참조 </a>). 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어 데이터 소스 21에 속하는 ID에 데이터를 <code>...ftp_dpm_21_123456789.sync</code> Audience Manager <span class="keyword"></span> 에 전송합니다. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914를 사용하십시오. 예를 들어 데이터 파일에 <code>...ftp_dpm_20914_123456789.sync</code> <span class="keyword"></span> Android ID만 포함되어 있음을 Audience Manager에 알려줍니다. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> iOS ID가 포함된 경우 데이터 파일 이름에 ID 20915를 사용하십시오. 예를 들어, 데이터 파일에 iOS ID만 <code>...ftp_dpm_20915_123456789.sync</code> 포함되어 있다는 <span class="keyword"> 점을 Audience Manager에</span> 알려줍니다. </li>
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914를 사용하십시오. Android ID를 사용할 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 때는 필드를 사용해야 합니다. 예를 들어 데이터 파일에 Android ID만 <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> 포함되어 있고 ID는 <span class="keyword"></span> <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트를 사용할 수 있어야 한다고 Audience Manager에 알려줍니다.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> iOS ID가 포함된 경우 데이터 파일 이름에 ID 20915를 사용하십시오. iOS ID를 사용할 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 때 필드를 사용해야 합니다. 예를 들어 데이터 파일에 iOS ID만 <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> 포함되어 있고 ID는 <span class="keyword"></span> <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트를 사용할 수 있어야 한다고 Audience Manager에 알려줍니다.</li>
      <li> <b>다른 글로벌 데이터 소스에 속하는 ID</b>:RIDA(Advertising), Microsoft Advertising ID(WEDER) 및 기타 ID를 위한 Roku ID를 게시할 수 있습니다. 글로벌 데이터 소스 문서에 설명된 대로 각 데이터 소스에 해당하는 ID를 <a href="/help/using/features/global-data-sources.md"> 사용하십시오</a>.</li> 
     </ul> <p> <p>참고: 데이터 파일에 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 iOS ID나 자신의 ID를 데이터 파일에 넣지 마십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>ID의 자리 표시자 예를 들어 DPID를 데이터 소스 ID 또는 Android 또는 iOS ID로 설정하는 경우 <span class="keyword"> Audience Manager</span> ID로 설정할 수 있습니다. 이렇게 하면 <span class="keyword"> Audience Manager</span> 에서 파일 데이터를 조직에 다시 연결할 수 있습니다. </p> <p>예: </p> 
-    <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
-     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> ID 21이 있는 파트너가 ID 33을 사용하는 데이터 소스에서 데이터를 보낸 것으로 보여줍니다. </li> 
-     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> 은 Android ID가 포함된 데이터로 보낸 ID 21의 파트너를 보여줍니다. </li> 
-     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> 는 iOS ID가 포함된 데이터로 보낸 ID 21의 파트너를 보여줍니다. </li> 
+   <td colname="col2"> <p>이 필드에서는 데이터 입체를 위한 데이터 소스를 Audience Manager에 알려 줍니다. DPID를 Android ID 또는 iOS ID나 글로벌 데이터 소스에 속하는 다른 ID로 설정하는 경우 이 필드는 필수입니다. 이렇게 하면 <span class="keyword"> Audience Manager</span> 에서 파일 데이터를 조직에 다시 연결할 수 있습니다. </p> <p>예: </p> 
+    <ul> 
+     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> 데이터 소스 21에 속하는 트레이트 또는 신호에 대해 데이터 소스 33에 속하는 고객 ID를 Audience Manager에 알려줍니다. </li> 
+     <li> <b>Android ID(GAID):</b><code>...ftp_dpm_20914_21_1234567890.sync</code> 은 데이터 파일에 Android ID만 포함되며 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 함을 <span class="keyword"> Audience Manager에</span> 알립니다.</li> 
+     <li> <b>iOS ID(IDFA):</b><code>...ftp_dpm_20915_21_1234567890.sync</code> 는 데이터 파일에 iOS ID만 포함되며 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 함을 <span class="keyword"> Audience Manager에</span> 알립니다.</li>
+     <li> <b>다른 글로벌 데이터 소스에 속하는 ID</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> 은 데이터 파일에 Roku ID만 포함되며 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 함을 <span class="keyword"> Audience Manager에</span> 알립니다. 글로벌 데이터 소스 문서에 설명된 대로 각 데이터 소스에 해당하는 ID를 <a href="/help/using/features/global-data-sources.md"> 사용하십시오</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 

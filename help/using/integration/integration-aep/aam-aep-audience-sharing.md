@@ -7,7 +7,7 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -56,11 +56,11 @@ Audience Manager 트레이트 및 세그먼트는 세그먼트 워크플로우�
 
 ## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
 
-Experience Platform에서 만드는 세그먼트는 신호, 트레이트 및 세그먼트로 Audience Manager 인터페이스에 다음 컴포지션 규칙을 사용하여 나타납니다.
+Experience Platform에서 만드는 세그먼트는 다음 컴포지션 규칙을 사용하여 Audience Manager 인터페이스에 신호, 트레이트 및 세그먼트로 나타납니다.
 
-* 신호: 각 Experience Platform 세그먼트에 대해 양식에서 신호를 볼 수 있습니다 `segID = segment ID`.
-* 특성: 특성 규칙은 Experience Platform 세그먼트의 ID입니다.
-* 세그먼트: 세그먼트는 위에서 설명한 트레이트로 구성됩니다.
+* 신호:각 Experience Platform 세그먼트에 대해 양식에서 신호를 볼 수 있습니다 `segID = segment ID`.
+* 특성:특성 규칙은 Experience Platform 세그먼트의 ID입니다.
+* 세그먼트:세그먼트는 위에서 설명한 트레이트로 구성됩니다.
 
 ### 신호 {#aep-segments-as-aam-signals}
 
@@ -117,7 +117,8 @@ Audience Manager과 Experience Platform 간 대상 공유 프로세스에서 Aud
 >[!NOTE]
 >
 >데이터 내보내기 컨트롤에 대한 자세한 내용은 [데이터 내보내기 컨트롤 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
-이 문서에서는 특정 Audience Manager 데이터 내보내기 컨트롤이 플랫폼의 데이터 사용 레이블 및 마케팅 작업에 매핑되는 방법에 대한 참조를 제공합니다.
+>
+>이 문서에서는 특정 Audience Manager 데이터 내보내기 컨트롤이 플랫폼의 데이터 사용 레이블 및 마케팅 작업에 매핑되는 방법에 대한 참조를 제공합니다.
 
 ### 데이터 내보내기 컨트롤을 데이터 사용 레이블로
 
@@ -125,10 +126,10 @@ Audience Manager과 Experience Platform 간 대상 공유 프로세스에서 Aud
 
 | 데이터 내보내기 제어 | 데이터 사용 레이블 |
 | --- | --- |
-| 개인 식별 정보에는 사용할 수 없습니다. | C3: 데이터를 결합하거나 직접 식별 가능한 정보와 함께 사용할 수 없습니다. |
-| 오프사이트 광고 타깃팅에 사용할 수 없음 | C5: 컨텐츠 또는 광고의 관심 기반, 사이트 간 타깃팅에는 데이터를 사용할 수 없습니다. |
-| 온사이트 광고 타깃팅에 사용할 수 없음 | C6: 온사이트 광고 타깃팅에 데이터를 사용할 수 없습니다. |
-| 온사이트 개인화에 사용할 수 없음 | C7: 컨텐츠의 온사이트 타깃팅에 데이터를 사용할 수 없습니다. |
+| 개인 식별 정보에는 사용할 수 없습니다. | C3:데이터를 결합하거나 직접 식별 가능한 정보와 함께 사용할 수 없습니다. |
+| 오프사이트 광고 타깃팅에 사용할 수 없음 | C5:컨텐츠 또는 광고의 관심 기반, 사이트 간 타깃팅에는 데이터를 사용할 수 없습니다. |
+| 온사이트 광고 타깃팅에 사용할 수 없음 | C6:온사이트 광고 타깃팅에 데이터를 사용할 수 없습니다. |
+| 온사이트 개인화에 사용할 수 없음 | C7:컨텐츠의 온사이트 타깃팅에 데이터를 사용할 수 없습니다. |
 
 ### 마케팅 작업으로 데이터 내보내기 제어
 
@@ -143,7 +144,7 @@ Audience Manager과 Experience Platform 간 대상 공유 프로세스에서 Aud
 
 ## Audience Manager과 Experience Platform 간의 세그먼트 모집단 차이점 이해 {#aep-aam-segment-population-differences}
 
-세그먼트 인구 수는 Audience Manager 세그먼트와 Experience Platform 세그먼트 간에 다를 수 있습니다. 유사하거나 동일한 대상에 대한 세그먼트 번호는 비슷해야 하지만 모집단 차이는 아래에 나열된 요소 때문일 수 있습니다.
+세그먼트 모집단 수는 Audience Manager 세그먼트와 Experience Platform 세그먼트 간에 다를 수 있습니다. 유사하거나 동일한 대상에 대한 세그먼트 번호는 비슷해야 하지만 모집단 차이는 아래에 나열된 요소 때문일 수 있습니다.
 
 ### Experience Platform의 세그먼트 평가
 
@@ -151,11 +152,11 @@ Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업
 
 ### 프로필 병합 규칙과 병합 정책 간의 차이점
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Audience Manager과 Experience Platform [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 에서 서로 다르게 작동하며 각각에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) audience manager과 Experience Platform [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) 에서 서로 다르게 작동하며 각각에 사용되는 ID 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
 
 ### Experience Platform의 세그먼트 구성
 
-Adobe Experience Platform과 Audience Manager 간의 통합은 모든 고객을 위한 다양한 표준 [ID 네임스페이스를](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) 공유합니다. ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID 등. Experience Platform 세그먼트가 이러한 프로파일 중 하나를 자격이 있는 프로파일에 대한 기본 ID로 사용하는 경우 프로파일은 Audience Manager 트레이트 및 세그먼트에서 계산됩니다.
+Adobe Experience Platform과 Audience Manager 간의 통합은 모든 고객을 위한 다양한 표준 [ID 네임스페이스를](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) 공유합니다.ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID 등. Experience Platform 세그먼트가 이러한 프로파일 중 하나를 자격이 있는 프로파일에 대한 기본 ID로 사용하는 경우 프로파일은 Audience Manager 트레이트 및 세그먼트에서 계산됩니다.
 
 또한 Audience Manager은 Experience Platform 세그먼트에서 사용하는 모든 사용자 지정 ID 네임스페이스에 대해 들어오는 할당을 등록할 수 있습니다. 단, 이미 해당 식별자의 코딩이 된 Audience Manager에 해당 데이터 소스가 있는 경우에는 이 ID 네임스페이스에 대해 이 업데이트를 적용할 수 있습니다.
 

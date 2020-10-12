@@ -7,9 +7,9 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 283acc1ef9152af3399c6010105728d397422a7f
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 >[!IMPORTANT]
 >
 > * 위에 언급된 데이터 관리 플랫폼 사용 사례를 활성화하려면 Audience Manager 라이선스가 필요합니다.
-> * 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Ad Cloud, Adobe Target 및 기타 Experience Cloud 솔루션과 공유하려면 Audience Manager 라이선스가 필요하지 *않습니다* .
+> * 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Ad Cloud, Adobe Target, Adobe Analytics 및 기타 Experience Cloud 솔루션과 공유하려면 Audience Manager 라이선스가 필요하지 *않습니다* .
 
 
 <br> 

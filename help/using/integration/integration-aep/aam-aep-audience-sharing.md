@@ -7,9 +7,9 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 283acc1ef9152af3399c6010105728d397422a7f
+source-git-commit: 6a9a48aa6d3a7a5d871ea9aabbca2c2ec1229c0e
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1492'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 >[!IMPORTANT]
 >
 > * 위에 언급된 데이터 관리 플랫폼 사용 사례를 활성화하려면 Audience Manager 라이선스가 필요합니다.
-> * 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Ad Cloud, Adobe Target, Adobe Analytics 및 기타 Experience Cloud 솔루션과 공유하려면 Audience Manager 라이선스가 필요하지 *않습니다* .
+> * 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Ad Cloud, Adobe Target, 마케팅 및 기타 Experience Cloud 솔루션과 공유하기 위해 Audience Manager 라이선스가 필요하지 *않습니다* .
 
 
 <br> 
@@ -46,7 +46,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 
 | **사용 사례** | **Adobe Experience Platform** | **Audience Manager** | **핵심 서비스** |
 ---------|----------|---------|---------
-| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target 또는 분석과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
+| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target, Ad Cloud 또는 Marketing과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
 
 <br> 
 
@@ -164,7 +164,9 @@ Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업
 
 Adobe Experience Platform과 Audience Manager 간의 통합은 모든 고객을 위한 다양한 표준 [ID 네임스페이스를](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) 공유합니다.ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID 등. Experience Platform 세그먼트가 이러한 프로파일 중 하나를 자격이 있는 프로파일에 대한 기본 ID로 사용하는 경우 프로파일은 Audience Manager 트레이트 및 세그먼트에서 계산됩니다.
 
-또한 Audience Manager은 Experience Platform 세그먼트에서 사용하는 모든 사용자 지정 ID 네임스페이스에 대해 들어오는 할당을 등록할 수 있습니다. 단, 이미 해당 식별자의 코딩이 된 Audience Manager에 해당 데이터 소스가 있는 경우에는 이 ID 네임스페이스에 대해 이 업데이트를 적용할 수 있습니다.
+또한 Audience Manager은 다음과 같은 경우 Experience Platform 세그먼트에서 사용하는 모든 사용자 지정 ID 네임스페이스에 대해 들어오는 참조를 등록할 수 있습니다.
+* ID가 기본 *및*
+* audience manager에 해당 장치 간 데이터 소스가 이미 있습니다.
 
 >[!NOTE]
 >

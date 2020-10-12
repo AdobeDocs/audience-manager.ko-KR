@@ -3,20 +3,20 @@ product: audience-manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager 안내서
-breadcrumb-title: Audience Manager Guide
+breadcrumb-title: Audience Manager 안내서
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
-user-guide-description: Audience Manager provides industry-leading services for online audience data management.
+user-guide-description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
+source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1773'
 ht-degree: 93%
 
 ---
 
 
-# Audience Manager Guide {#user-guide}
+# Audience Manager 안내서 {#user-guide}
 
 + [Audience Manager 안내서](aam-home.md)
 + 개요{#overview}
@@ -340,7 +340,7 @@ ht-degree: 93%
          + [인바운드 처리 후 파트너에 대한 샘플 메시지](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [사용자 지정 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
-      + [Audience Manager와 Adobe Experience Platform 간의 대상 공유](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Audience Manager 및 기타 Experience Cloud 솔루션과 Experience Platform 세그먼트 공유](integration/integration-aep/aam-aep-audience-sharing.md)
    + 다른 Experience Cloud 솔루션과의 통합 {#integration-other-solutions}
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)

@@ -7,15 +7,15 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
+source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 3%
+source-wordcount: '1485'
+ht-degree: 2%
 
 ---
 
 
-# Audience Manager와 Adobe Experience Platform 간의 대상 공유 {#aam-aep-audience-sharing}
+# Audience Manager 및 기타 Experience Cloud 솔루션과 Experience Platform 세그먼트 공유 {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 개요 {#overview}
 
-Audience Manager과 Adobe Experience Platform 간의 대상 공유 기능을 사용하면 Audience Manager 특성과 세그먼트를 Adobe Experience Platform과 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager과 Adobe Experience Platform 간에 대상 공유를 사용하려면 [[!DNL Audience Manager 커넥터]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 가 필요합니다.
+Audience Manager과 Adobe Experience Platform 간의 대상 공유 기능을 사용하면 Audience Manager 특성과 세그먼트를 Adobe Experience Platform과 공유할 수 있고 그 반대의 경우도 가능합니다. Audience Manager [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 와 Adobe Experience Platform 간에 고객 공유를 사용하려면
 
 Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform [세분화 서비스를 활용할 수 있습니다](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
 
@@ -33,6 +33,12 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 * Experience Platform [대상 카탈로그에서 아직 지원되지 않는 대상에 세그먼트를 활성화합니다](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
 
 또한 Experience Platform 세그먼트는 [핵심 서비스를 통해 다른 Experience Cloud 솔루션에 공유됩니다](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+
+>[!IMPORTANT]
+>
+> * 위에 언급된 데이터 관리 플랫폼 사용 사례를 활성화하려면 Audience Manager 라이선스가 필요합니다.
+> * 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Ad Cloud, Adobe Target 및 기타 Experience Cloud 솔루션과 공유하려면 Audience Manager 라이선스가 필요하지 *않습니다* .
+
 
 <br> 
 

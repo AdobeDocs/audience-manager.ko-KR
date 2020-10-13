@@ -7,7 +7,7 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 6a9a48aa6d3a7a5d871ea9aabbca2c2ec1229c0e
+source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 2%
@@ -37,7 +37,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 >[!IMPORTANT]
 >
 > * 위에 언급된 데이터 관리 플랫폼 사용 사례를 활성화하려면 Audience Manager 라이선스가 필요합니다.
-> * 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Ad Cloud, Adobe Target, 마케팅 및 기타 Experience Cloud 솔루션과 공유하기 위해 Audience Manager 라이선스가 필요하지 *않습니다* .
+> * 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Advertising Cloud, Adobe Target, 마케팅 및 기타 Experience Cloud 솔루션과 공유하기 위해 Audience Manager 라이선스가 필요하지 *않습니다* .
 
 
 <br> 
@@ -46,7 +46,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 
 | **사용 사례** | **Adobe Experience Platform** | **Audience Manager** | **핵심 서비스** |
 ---------|----------|---------|---------
-| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target, Ad Cloud 또는 Marketing과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
+| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target, Advertising Cloud 또는 Marketing과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
 
 <br> 
 

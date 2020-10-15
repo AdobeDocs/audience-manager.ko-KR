@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
 
 # [!UICONTROL Signals], [!UICONTROL Traits]and [!UICONTROL Segments] {#signals-traits-and-segments}
 
-이벤트의 구성 요소 [!DNL Audience Manager] , 대상 자격 조건 [!UICONTROL segment]을 설정하는 데 사용되는 표현식 및 이벤트 호출에서 데이터가 전송되는 방법을 설명합니다.
+Describes the components of an [!DNL Audience Manager] [!UICONTROL segment], the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
 ## 구성 및 목적
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ![](assets/signals-traits-segments.png)
 
-**시각적인 툴[!UICONTROL Traits]과 코드 편집기를 사용하여[!UICONTROL Segment]규칙 구축**
+**시각적인 툴 [!UICONTROL Traits] 과 코드 편집기를 사용하여 [!UICONTROL Segment] 규칙 구축**
 
 클라이언트는 [!UICONTROL traits] [!UICONTROL segments] [!DNL Audience Manager] 유저 인터페이스에서 시각적 툴과 코드 편집기를 사용하여 관리하고 관리할 수 있습니다. 시각적인 도구를 사용하여 검색 기능, 팝업 옵션, 드롭다운 메뉴 및 드래그 앤 드롭 기능을 사용하여 규칙을 만들 수 있습니다. 코드 편집자는 고급 사용자에게 프로그래밍 방식으로 고객 세분화 기준을 개발할 수 있는 방법을 제공합니다.
 

@@ -1,5 +1,5 @@
 ---
-description: 데이터 관리 플랫폼의 주요 기능(데이터 수집, 고객 생성 및 활성화)에 대한 정보입니다.
+description: 데이터 관리 플랫폼의 주요 기능(데이터 수집, 고객 생성 및 활성화)에 대한 정보를 제공합니다.
 seo-description: Adobe Audience Manager의 내역, 수집된 데이터 유형, 세그먼테이션, 보고 등에 대한 정보입니다.
 seo-title: Audience Manager 개요
 solution: Audience Manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

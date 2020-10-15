@@ -1,6 +1,6 @@
 ---
-description: 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 URL 및 기타 참조에 대한 정보입니다.
-seo-description: 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 URL 및 기타 참조에 대한 정보입니다.
+description: 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 URL 및 기타 참조에 대한 정보를 제공합니다.
+seo-description: 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 URL 및 기타 참조에 대한 정보를 제공합니다.
 seo-title: REST API 시작
 solution: Audience Manager
 title: REST API 시작
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
 # Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
-일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 [!DNL URLs]및 기타 참조에 대한 정보입니다.
+Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
 <!-- c_rest_api_overview.xml -->
 
@@ -31,7 +31,7 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 
 * **요청 매개 변수:** 별도로 명시되지 않는 한 모든 요청 매개 변수가 필요합니다.
 * **요청 헤더**:adobe [I/O](https://www.adobe.io/) 토큰을 사용하는 경우 `x-api-key` 헤더를 제공해야 합니다. 서비스 계정 통합 [!DNL API] 페이지의 지침에 따라 키를 [가져올 수 있습니다](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) .
-* **[!DNL JSON]콘텐트 유형:**코드에`content-type: application/json`and *를*`accept: application/json`지정합니다.
+* **[!DNL JSON]콘텐트 유형:** 코드에 `content-type: application/json` and *를* `accept: application/json` 지정합니다.
 * **요청 및 응답:** 요청을 올바른 형식으로 [!DNL JSON] 보냅니다. [!DNL Audience Manager] 형식이 지정된 데이터로 [!DNL JSON] 응답합니다. 서버 응답에는 요청된 데이터, 상태 코드 또는 둘 다를 포함할 수 있습니다.
 * **액세스:** 컨설턴트는 요청을 할 수 있는 클라이언트 ID와 키를 [!DNL Audience Manager] [!DNL API] 제공합니다.
 * **설명서 및 코드 샘플:** 기울임꼴의 *텍스트는* 데이터를 만들거나 수신할 때 제공하거나 전달하는 변수를 [!DNL API] 나타냅니다. 기울임체 *가* 지정된 텍스트를 고유한 코드, 매개 변수 또는 기타 필수 정보로 바꿀 수 있습니다.

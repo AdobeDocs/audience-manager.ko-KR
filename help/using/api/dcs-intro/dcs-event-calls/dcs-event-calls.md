@@ -1,6 +1,6 @@
 ---
-description: 이벤트 호출은 URL 문자열의 DCS로 정보를 보냅니다. 일반적인 Audience Manager 배포에서는 DIL(JavaScript 데이터 수집 코드)을 사용하여 데이터를 DCS로 보냅니다. 그러나 고객이 JavaScript 코드를 페이지에 넣을 수 없는 경우가 있습니다. 회사 정책이나 기타 기술 문제로 인해 JavaScript 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 API를 사용하여 DCS에서 데이터를 전송하고 반환할 수 있도록 Audience Manager을 사용하여 작업할 수 있습니다.
-seo-description: 이벤트 호출은 URL 문자열의 DCS로 정보를 보냅니다. 일반적인 Audience Manager 배포에서는 DIL(JavaScript 데이터 수집 코드)을 사용하여 데이터를 DCS로 보냅니다. 그러나 고객이 JavaScript 코드를 페이지에 넣을 수 없는 경우가 있습니다. 회사 정책이나 기타 기술 문제로 인해 JavaScript 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 API를 사용하여 DCS에서 데이터를 전송하고 반환할 수 있도록 Audience Manager을 사용하여 작업할 수 있습니다.
+description: 이벤트 호출은 URL 문자열의 DCS로 정보를 보냅니다. 일반적인 Audience Manager 배포에서 고객은 JavaScript 데이터 수집 코드(DIL)을 사용하여 데이터를 DCS로 보냅니다. 그러나 고객이 JavaScript 코드를 페이지에 넣을 수 없는 경우가 있습니다. 회사 정책이나 기타 기술 문제로 인해 JavaScript 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 API를 사용하여 DCS에서 데이터를 전송하고 반환할 수 있도록 Audience Manager를 사용하여 작업할 수 있습니다.
+seo-description: 이벤트 호출은 URL 문자열의 DCS로 정보를 보냅니다. 일반적인 Audience Manager 배포에서 고객은 JavaScript 데이터 수집 코드(DIL)을 사용하여 데이터를 DCS로 보냅니다. 그러나 고객이 JavaScript 코드를 페이지에 넣을 수 없는 경우가 있습니다. 회사 정책이나 기타 기술 문제로 인해 JavaScript 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 API를 사용하여 DCS에서 데이터를 전송하고 반환할 수 있도록 Audience Manager를 사용하여 작업할 수 있습니다.
 seo-title: DCS 이벤트 호출 API
 solution: Audience Manager
 title: DCS 이벤트 호출 API
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 8%
+ht-degree: 59%
 
 ---
 
 
 # DCS 이벤트 호출 API {#dcs-event-call-apis}
 
-이벤트 호출은 정보를 문자열 [!DNL DCS] 에 [!DNL URL] 보냅니다. 일반적인 Audience Manager 배포의 경우 고객은 Adobe의 [!DNL JavaScript] 데이터 수집 코드([!UICONTROL DIL])를 사용하여 데이터를 로 [!DNL DCS]보냅니다. 그러나 고객이 자신의 페이지에 Adobe [!DNL JavaScript] 코드를 배치할 수 없는 경우가 있습니다. 회사 정책이나 기타 기술 문제로 인해 페이지에서 Adobe [!DNL JavaScript] 코드를 삽입하지 못하는 경우 Audience Manager을 사용하여 이러한 이벤트 호출 [!DNL DCS] 을 사용하여 데이터를 전송하고 반환할 수 [!DNL API]있습니다.
+Event calls send information to the [!DNL DCS] in a [!DNL URL] string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!DNL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!DNL DCS] with these event call [!DNL API]s.
 
 ## 시작하기 {#dcs-getting-started}
 

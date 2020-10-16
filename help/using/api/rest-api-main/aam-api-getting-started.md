@@ -7,7 +7,7 @@ title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
+source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 3%
@@ -59,7 +59,7 @@ Audience Manager API [코드 작업 시 다음을](https://bank.demdex.com/porta
 
 인증을 구성하려면 먼저 [!DNL JWT] Adobe I/O에서 [Adobe 개발자 콘솔](https://console.adobe.io/) 에 액세스할 수 있어야 합니다 [](https://www.adobe.io/). 액세스 요청은 조직 관리자에게 문의하십시오.
 
-### 인증
+### 인증 {#auth}
 
 아래 절차에 따라 다음을 사용하여 [!DNL JWT (Service Account)] 인증을 구성하십시오 [!DNL Adobe I/O].
 

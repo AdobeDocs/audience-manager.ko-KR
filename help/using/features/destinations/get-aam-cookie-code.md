@@ -7,15 +7,15 @@ title: get_aamCookie 코드
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 7d0735fa9620b7765db7be8d3a7c8731536ffd32
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 11%
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 
 
-# get_aamCookie 코드 {#get-aamcookie-code}
+# `get_aamCookie` 코드 {#get-aamcookie-code}
 
 Audience Manager 고유 사용자 ID( [!DNL DART Enterprise][!DNL UUID]ID) 값을 캡처하는 데 필요한 코드(및 기타 대상 유형)입니다.
 

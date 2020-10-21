@@ -1,5 +1,5 @@
 ---
-description: Audience Manager에서 대상은 데이터를 공유할 수 있는 입니다. Destination Builder 도구를 사용하여 쿠키, URL 또는 서버 간 대상을 만들고 관리합니다.
+description: Audience Manager에서 대상은 데이터를 공유할 수 있는 입니다. 대상 빌더는 쿠키, URL 또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: Audience Manager에서 대상은 데이터를 공유할 수 있는 입니다. 대상 빌더는 쿠키, URL 또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
 seo-title: 대상
@@ -8,17 +8,17 @@ title: 대상
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 11%
 
 ---
 
 
 # [!UICONTROL Destinations] 개요 {#destinations}
 
-In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) 입니다. [!UICONTROL Destination Builder] 은 작성 및 관리 [!UICONTROL cookie], [!DNL URL]또는 [!UICONTROL server-to-server destinations]관리하는 데 사용하는 도구입니다.
+In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) 입니다. [!UICONTROL Destination Builder] 은 작성 및 관리 [!UICONTROL cookie], [!DNL URL]또는 [!UICONTROL server-to-server destinations]관리하는 데 사용한 도구입니다.
 
 ## 목적 및 장점 {#purposes}
 

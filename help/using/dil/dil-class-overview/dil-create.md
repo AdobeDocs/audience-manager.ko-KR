@@ -7,9 +7,9 @@ title: DIL 만들기
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '837'
 ht-degree: 12%
 
 ---
@@ -60,9 +60,9 @@ r_dil_create.xml
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
    <td colname="col2"> <p>개체 </p> </td> 
    <td colname="col3"> 
-    <!-- 
-     <p>Sends the <a href="../../features/declared-ids.md"> Declared ID variables </a> on every event call to <span class="keyword"> Audience Manager </span>. </p> 
-    --> <p> <code> delcaredId </code> 는 다음 중 하나를 전달하는 데 사용됩니다. </p> 
+    <draft-comment> 
+     <p>Audience Manager으로 모든 이벤트 <a href="../../features/declared-ids.md"> 호출에서 선언된 ID 변수 </a> 를 <span class="keyword"> 전송합니다 </span>. </p> 
+    </draft-comment> <p> <code> delcaredId </code> 는 다음 중 하나를 전달하는 데 사용됩니다. </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>:Audience Manager에 의해 사용자에게 할당된 데이터 파트너 ID <span class="keyword"> </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>:사용자의 고유 ID. </li> 

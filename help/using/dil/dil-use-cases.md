@@ -7,7 +7,7 @@ title: DIL 사용 사례 및 코드 샘플
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 3%
@@ -47,35 +47,35 @@ c_dil_send_page_objects.xml
 
 이 기본 예에서는 색상 및 가격 데이터를 키-값 쌍의 형태로 Audience Manager으로 보냅니다. 코드는 다음과 비슷합니다.
 
-```
-var sample_dil = DIL.create({partner:"partner name"}); 
+<pre class="&ldquo;java&rdquo;"><code>
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
 }); 
 sample_dil.api.submit();
-```
+</code></pre>
 
 **예 2:개체에서 데이터 보내기**
 
 이 고급 예에서는 개체의 데이터를 Audience Manager으로 보내는 방법을 보여 줍니다. 이 메서드로 작업할 때 함수 매개 변수로 객체를 메서드에 전달할 [!UICONTROL DIL] 수 [!DNL signals()] 있습니다. [!UICONTROL DIL] 코드는 다음과 비슷합니다.
 
-```js
+<pre class="java"><code>
 var my_object = { 
    color : "blue", 
    price : "900" 
 }; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
 sample_dil.api.signals(my_object,"c_").submit();
-```
+</code></pre>
 
 **예 3:배열에 페이지 데이터 보내기**
 
 이 경우 변수에 데이터 `my_object` 가 있는 배열이 사용됩니다. 이 예에서는 위의 권장 방법으로 전달된 정보를 기반으로 구축되지만 제품 유형과 모델을 수용할 추가 레이어를 추가합니다. 코드는 다음과 비슷합니다.
 
-```js
+<pre class="java"><code>
 var my_objects = [{ 
    color : "blue", 
    price : "900" 
@@ -84,7 +84,7 @@ var my_objects = [{
    model : "tl" 
 }]; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
@@ -92,7 +92,7 @@ for (var i = 0; i < my_objects.length; i++)
     sample_dil.api.signals(my_objects[i], "c_"); 
 } 
 sample_dil.api.submit();
-```
+</code></pre>
 
 ## 참조 URL 캡처 {#capture-referring-url}
 
@@ -112,10 +112,10 @@ c_dil_hrefer_over_https.xml
 
 코드는 다음과 비슷합니다.
 
-```js
-var adobe_dil = DIL.create({ partner : "partner name" }); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
-```
+</code></pre>
 
 ## 검색 엔진 유형 및 키워드 검색 용어 캡처 {#capture-search-engine-types}
 
@@ -143,7 +143,7 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 검색 레퍼러(예: 시작)를 가져오기 위한 기본 코드 `google.com`는 다음과 같습니다.
 
-```js
+```java
 var search_referrer = DIL.tools.getSearchReferrer();
 ```
 
@@ -151,8 +151,8 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 이 경우 사용자가 [!DNL Google] 캐나다()에서 &quot;homes&quot;라는 용어를 검색했다고 `www.google.ca`가정합니다. 코드가 검색 엔진()과 검색어()에 필요한 `c_` 매개 변수 `c_se`의 접두사를 지정하는 방법을 `c_st`확인하십시오. `c_` 는 Audience Manager에 대한 고객 정의 변수로 식별되는 [필수](../features/traits/trait-variable-prefixes.md) 접두사입니다.
 
-```js
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
 if (search_referrer && search_referrer.valid) { 
@@ -161,14 +161,14 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 **목록에 없는 검색 엔진 코드 샘플**
 
 이 경우 사용자가 &quot;homes&quot;라는 용어를 검색했다고 가정합니다 `dogpile.com`. 기본적으로 지원되지 [!DNL Dogpile] 않으므로 이 검색 엔진을 인식하도록 DIL을 구성하고 검색어를 Audience Manager으로 반환할 수 있습니다. 코드는 다음과 비슷합니다.
 
-```js
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
@@ -180,7 +180,7 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 ## 다른 키에 키 값 매핑 {#map-key-values}
 
@@ -202,7 +202,7 @@ c_dil_map_keys.xml
 
 코드는 다음과 비슷합니다.
 
-```js
+```java
 var adobe_dil = DIL.create({ 
     partner : "adobe", 
     mappings : { 

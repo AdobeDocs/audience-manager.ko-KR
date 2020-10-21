@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: 3c39ef38d2833d5d706641f70649251d79b2ee6f
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 7%
+source-wordcount: '1511'
+ht-degree: 8%
 
 ---
 
@@ -81,7 +81,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 
 ### Target 대상을 위한 선택 기준 {#selection-audience}
 
-페르소나 선택과 유사하게, [!UICONTROL trait] 또는 타겟 고객을 정의하는 대상을 선택하는 [!UICONTROL segment] 방법은 풍부한 세트의 실시간 사용자가 적절한 페르소나를 분류할 수 [!UICONTROL traits]있도록 해야 합니다.
+사용 사례에 따라 사용자를 실시간으로 분류할지, 일괄적으로 분류할지 또는 둘 다에 따라 상당한 실시간 및/또는 총 인구를 가지는 타겟 대상자([!UICONTROL trait] 또는 [!UICONTROL segment])를 선택합니다. 가상 사용자 선택과 유사하게, 대상 대상자 [!UICONTROL trait] 또는 리치 프로필(풍부한 세트)을 가진 사용자가 있는 것이 [!UICONTROL segment] [!UICONTROL traits]좋습니다.
 
 대상 대상을 선택할 때 사용 사례를 분석하고 분류할 ID 유형을 결정합니다. [!UICONTROL device IDs] 또는 [!UICONTROL cross-device IDs]. 모델을 생성할 때 선택하는 [!UICONTROL Profile Merge Rule] 데이터는 각 사용자를 예측으로 배치하는 데 사용할 데이터를 정의합니다 [!UICONTROL segments].
 
@@ -96,7 +96,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 
 ### [!UICONTROL Predictive Audiences] 모델 분류 단계 {#model-classification}
 
-타겟 대상의 일부인 방문자를 실시간으로 볼 때 모델은 방문자가 정의된 성향에 속하는지 여부를 평가합니다. 어떤 개인에도 속하지 않는 모든 방문자에 대해 모델은 페르소나 자격 점수를 지정합니다.
+실시간 및 일괄 처리 대상 분류의 경우 모델은 먼저 사용자가 대상 대상자에 속하는지 여부를 확인합니다. 사용자가 대상 대상에 대해 자격이 되고 해당 대상에 속하지 않는 경우 모델은 해당 사용자에게 페르소나 자격 점수를 지정합니다.
 
 자사 대상을 평가하고 점수를 할당하는 동안 모델은 계정에 정의된 기본값을 사용합니다. **[!UICONTROL Profile Merge Rule]** 마지막으로 방문자는 최고 점수를 받은 가상 사용자로 분류됩니다.
 
@@ -112,12 +112,6 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 * 최대 10개의 [!UICONTROL Predictive Audiences] 모델을 만들 수 있습니다.
 * 각 모델에 대해 최대 50개의 기본 트레이트/세그먼트를 선택할 수 있습니다.
 * 타사 및 타사 데이터는 현재 에서 지원되지 않습니다 [!UICONTROL Predictive Audiences].
-* 고객 분류는 퍼스트 파티 대상자에게만 수행됩니다. 향후 업데이트에서는 온보드 퍼스트 파티 분류가 지원될 수 있습니다.
-   >[!IMPORTANT]
-   > 예측 트레이트를 일반 세그먼트에 추가하면 예측 세그먼트가 됩니다. 따라서 모든 관련 프로필은 세그먼트화되지 않습니다.
-
-   >[!IMPORTANT]
-   > 현재 예측 세그먼트는 실시간 대상에서만 활성화할 수 있습니다. 예측 세그먼트 [!UICONTROL Total Segment Population] 와 [!UICONTROL Addressable Audience] 가 0으로 표시되고, [아웃바운드 데이터 전송](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) 일괄 [!UICONTROL Predictive Audiences]작업은 지원되지 않습니다. 이 동작은 향후 업데이트 시 변경됩니다.
 * [!UICONTROL Predictive Audiences] 모든 자사 데이터 소스에서 자사 트레이트를 기반으로 고객 분류를 수행합니다.
 * 세그먼트 평가 [!UICONTROL Predictive Audiences] 는 모델을 생성하는 동안 선택한 **[!UICONTROL Profile Merge Rule]** 값을 사용합니다. 자세한 내용은 [!UICONTROL Profile Merge Rules] 전용 [설명서를 참조하십시오](../profile-merge-rules/merge-rules-overview.md).
 * 일부 트레이트 및 세그먼트는 기준선 또는 대상 대상으로 지원되지 않습니다. [!UICONTROL Predictive Audiences] 다음 중 하나를 기준선 또는 대상 대상으로 선택할 때 모델이 저장되지 않습니다.
@@ -125,6 +119,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
    * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) 트레이트 또는 세그먼트
    * 알고리즘 특성;
    * 제휴 및 제3자 특성
+* [!UICONTROL Predictive Audience] [!UICONTROL segments] 를 사용할 수 없습니다 [!UICONTROL Audience Lab].
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
@@ -146,6 +141,7 @@ e커머스 회사의 마케터로서 모든 웹 및 모바일 방문자를 다�
 * 모델 교육 단계에서 사용해야 하는 [!UICONTROL trait] 유형(장치 수준 또는 장치 간 수준)을 규율하고 영향력이 있는 것으로 드러났습니다 [!UICONTROL traits]. 예측 [!UICONTROL segments] 은 타겟 대상의 하위 세트입니다.
    * 대상 대상이 세그먼트인 경우 대상 대상에 할당된 대상 또는 대상 대상의 프로필 유형을 포함하는 모델 [!UICONTROL Profile Merge Rule] 에 대해 동일한 것을 선택하는 것이 [!UICONTROL Profile Merge Rule] 좋습니다.
    * 대상 대상이 a인 경우 대상 특성 [!UICONTROL trait]과 동일한 유형의 데이터(장치 프로필 데이터 또는 장치 간 프로필 데이터)에 액세스할 수 [!UICONTROL Profile Merge Rule] 있는 데이터를 선택하는 것이 좋습니다.
+* [!UICONTROL Profile Merge Rules] 및 옵션 [!UICONTROL Current Authenticated Profiles] 사용은 실시간 대상 분류에만 [!UICONTROL No Device Profile] 지원됩니다. 자세한 내용은 정의된 [프로필 병합 규칙 옵션을 참조하십시오](../profile-merge-rules/merge-rule-definitions.md).
 
 장치 데이터와 [!UICONTROL Profile Merge Rule] 장치 간 데이터를 모두 사용하는 데이터를 선택하면 모델 교육 및 사용자 분류에 사용할 수 [!UICONTROL traits] 있는 개수가 예측으로 극대화됩니다 [!UICONTROL segments].
 

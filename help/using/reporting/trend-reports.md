@@ -7,9 +7,9 @@ title: 트렌드 보고서
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: d1edc392c2017f4625f0494d50463c395248918f
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ t_working_with_trend_reports.xml
 
 크로스 디바이스 지표가 작동하는 방식을 자세히 살펴보려면 아래 비디오를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## 세그먼트에 대한 트렌드 보고서 결과 {#segment-report-results-traits}
 

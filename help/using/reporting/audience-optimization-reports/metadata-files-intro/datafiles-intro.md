@@ -7,9 +7,9 @@ title: Audience Optimization 보고서 및 실행 가능 로그 파일을 위한
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1042'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 다음 구문은 형식이 올바른 데이터 파일 이름의 구조를 정의합니다. 기울임꼴은 *파일* 내용에 따라 변경되는 변수 자리 표시자를 나타냅니다.
 
-**구문:** `event type_yyyymmdd`
+**구문:** <pre><i>이벤트 유형</i>_<i>yyyyymdd</i></code></pre>
 
 파일 이름:
 
@@ -39,15 +39,15 @@ ht-degree: 5%
 
 이러한 요구 사항이 주어지면 다음과 같은 내용에 따라 데이터 파일의 이름을 지정합니다.
 
-* 노출 횟수 데이터: `impressions_yyyymmdd.gz`
-* 데이터 클릭: `clicks_yyyymmdd.gz`
-* 전환 데이터: `conversions_yyyymmdd.gz`
+* 노출 횟수 데이터: <pre>impressions_<i>yyyymdd</i>.gz</code></pre>
+* 데이터 클릭: <pre>clicks_<i>yyyymdd</i>.gz</code></pre>
+* 전환 데이터: <pre>conversions_<i>yyyymdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 다음 구문은 형식이 올바른 데이터 파일의 콘텐츠 구조를 정의합니다. 기울임꼴은 *변수 자리 표시자를* 나타내며 실제 데이터 파일의 레이블로 대체됩니다.
 
-**구문:** `header label 1 | header label 2 ... header label n | version`
+**구문:** <pre><i>헤더 레이블 1</i> | <i>헤더 레이블 2</i> ... <i>헤더 레이블 n</i> | <i>버전</i></code></pre>
 
 파일 내용에서:
 
@@ -153,7 +153,7 @@ ht-degree: 5%
 
 데이터는 [!DNL Amazon S3] 디렉토리의 각 고객에 대한 별도의 네임스페이스에 저장됩니다. 파일 경로는 아래에 표시된 구문을 따릅니다. Note, *italics* indicates a variable placeholder. 다른 요소는 상수 또는 키이며 변경되지 않습니다.
 
-**구문:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**구문:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i><i>_yyyymmdd</i></code></pre>
 
 다음 표에서는 파일 배달 경로에서 이러한 각 요소를 정의합니다.
 

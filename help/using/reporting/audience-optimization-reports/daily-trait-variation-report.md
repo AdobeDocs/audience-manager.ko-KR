@@ -7,9 +7,9 @@ title: 일별 트레이트 변형 보고서
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 표준 편차는 평균(또는 평균/예상 값)의 변화 또는 분산의 양을 측정합니다. 표준 편차는 데이터 포인트가 평균과 매우 가까운 경향이 있음을 나타냅니다. 높은 표준 편차는 데이터 포인트가 많은 값 범위에 분산되어 있음을 나타냅니다.
 
-![스크린샷 일일 특성 변형 보고서](assets/daily_trait_variation.png)
+![](assets/daily_trait_variation.png)
 
 보고서 [!UICONTROL Date] 에 대해 하나 이상의 날짜를 선택하려면 목록을 사용하십시오. 선택한 모든 날짜에 걸쳐 모든 트레이트의 표준 편차 범위를 시각적으로 나타내는 색으로 구분된 막대 차트가 목록 맨 아래에 표시됩니다. 검은색 세로 줄은 평균을 나타냅니다.
 
@@ -56,8 +56,8 @@ ht-degree: 1%
 
 한 달 후 [!UICONTROL Daily Trait Variation] 보고서를 실행하고 사이트 분석에 따라 방문자 수가 증가했지만 `productPage == "smartphones"` 트레이트에 대한 큰 부정적 편차가 있음을 확인합니다. 이 정보를 바탕으로 새 제품 페이지에 대한 트레이트를 업데이트하지 않았기 때문에 다음 트레이트를 만들어야 [!DNL Audience Manager] 합니다.
 
-* `productPage == "samsung"`
-* `productPage == "apple"`
-* `productPage == "huawei"`
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
 이렇게 하면 새로 만든 트레이트에 대한 대상 자격을 얻게 됩니다.

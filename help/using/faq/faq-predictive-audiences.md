@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '895'
 ht-degree: 64%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 64%
 
  
 
-**언제[!UICONTROL Predictive Audiences]이 아니라[!UICONTROL Look-alike modeling]을 사용해야 합니까?**
+**언제 [!UICONTROL Predictive Audiences]이 아니라 [!UICONTROL Look-alike modeling]을 사용해야 합니까?**
 
 [!UICONTROL Predictive Audiences]과 [!UICONTROL Look-alike modeling]은 서로 다른 활용 사례를 제공합니다. 두 알고리즘 간의 주요 차이점은 다음과 같습니다.
 
@@ -40,17 +40,9 @@ ht-degree: 64%
 
  
 
-**[!UICONTROL Predictive Audiences]세그먼트에서 새 세그먼트를 만들려면 어떻게 해야 합니까?**
+**[!UICONTROL Predictive Audiences] 세그먼트에서 새 세그먼트를 만들려면 어떻게 해야 합니까?**
 
 **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**&#x200B;로 이동하고 **[!UICONTROL Predictive Audiences]** 폴더를 클릭합니다. 원하는 세그먼트를 찾아 복제한 다음 필요에 따라 편집하십시오.
-
- 
-
-**왜 온보딩된 방문자 중 일부가 분류되지 않습니까?**
-
-현재, 대상 분류는 [!UICONTROL Profile Merge Rules]의 일부로 정의된 인증된 사용자를 제외하고 실시간 자격에 대해서만 작동합니다.
-
-차후 업데이트에서는 온보딩된 데이터에 대한 완전 지원이 추가됩니다.
 
  
 
@@ -68,24 +60,22 @@ ht-degree: 64%
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. 지난 30일 내에 타겟 대상 트레이트/세그먼트에 활성 상태이거나 온보딩된 사용자가 없었습니다.
+1. 대상 대상 특성/세그먼트에 활성 또는 온보드 사용자가 없습니다.
 1. 지난 30일 내에 활성 상태이거나 온보딩된 타겟 대상 사용자의 사용자 프로필에 충분한 데이터가 없습니다(분석하기에 충분한 트레이트가 아님).
 1. 대상 대상 세그먼트는 모델에 대해 선택한 세그먼트 [!UICONTROL Profile Merge Rule] 와 다르게 사용됩니다.
 1. 대상 고객 트레이트의 데이터 소스는 모델에 대해 선택한 데이터 [!UICONTROL Profile Merge Rule] 에 포함되지 않을 수 있습니다.
-
-To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. 아직 충분한 사용자가 없는 새 기본 트레이트 및 세그먼트를 선택하는 경우 알고리즘이 대상을 분류하는 데에는 2일 정도 걸릴 수 있습니다.
 
 최적의 결과를 얻으려면 [성향 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-personas) 및 [타겟 대상 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-audience)의 제안된 지침을 따르십시오.
 
  
 
-**모델이[!UICONTROL Error]상태를 표시하는 이유는 무엇입니까?**
+**모델이 [!UICONTROL Error] 상태를 표시하는 이유는 무엇입니까?**
 
 모델을 실행하지 못했습니다. In such cases, please reach out to your [!DNL Adobe] representative.
 
  
 
-**어떻게 하면[!UICONTROL Profile Merge Rule]바꿀 수[!UICONTROL Predictive Audiences]있습니까[!UICONTROL segment]?**
+**어떻게 하면 [!UICONTROL Profile Merge Rule] 바꿀 수 [!UICONTROL Predictive Audiences] 있습니까 [!UICONTROL segment]?**
 
 이전 모델과 동일한 개인 및 대상 대상을 선택하여 새 모델을 만듭니다. 모델을 생성하는 동안 다른 항목을 지정합니다 [!UICONTROL Profile Merge Rule].
 
@@ -96,7 +86,7 @@ To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm eva
 
  
 
-**무엇을[!UICONTROL Profile Merge Rule]선택해야 합니까?**
+**무엇을 [!UICONTROL Profile Merge Rule] 선택해야 합니까?**
 
 모델에 대해 [!UICONTROL Profile Merge Rule] 선택할 때 사용 사례를 자세히 분석하십시오.
 
@@ -106,23 +96,15 @@ To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm eva
 
 사용 사례를 주의 깊게 분석하고 모델이 학습할 유형과 모델이 분류에 사용할 데이터 유형을 결정합니다. [!UICONTROL trait]
 
- 
-
 **어떤 성향 트레이트/세그먼트에도 속하지 않는 타겟 대상의 사용자를 분류할 수 있습니까?**
 
 예, 사용자의 프로필에 어떤 트레이트도 포함되어 있지 않은 경우 분류할 수 있습니다. 이 경우, 사용자는 모든 성향 트레이트/세그먼트에 대해 일치 점수 0을 받게 되며, 따라서 예측 세그먼트로 분류되지 않습니다.
 
  
 
-**예측 세그먼트 중 하나로 분류된 사용자가 다른[!UICONTROL Predictive Audiences]세그먼트로 재분류될 수 있습니까?**
+**예측 세그먼트 중 하나로 분류된 사용자가 다른 [!UICONTROL Predictive Audiences] 세그먼트로 재분류될 수 있습니까?**
 
 예. 알고리즘은 매일 훈련되므로 트레이트 점수 측면에서 각 성향에 대한 변경 사항을 적용합니다. [!UICONTROL Predictive Audiences] 세그먼트에 속하는 사용자가 활성 상태인 경우, 트레이트 점수가 변경되면 지난 30일 활동을 기반으로 분류가 변경될 수 있습니다.
-
- 
-
-**일반 세그먼트에 예측 트레이트를 추가할 수 있습니까?**
-
-예측 트레이트를 일반 세그먼트에 추가하면 예측 세그먼트가 됩니다. 따라서 모든 관련 프로필은 세그먼트화되지 않습니다. 예측 세그먼트는 실시간 대상으로만 전송할 수 있습니다.
 
  
 

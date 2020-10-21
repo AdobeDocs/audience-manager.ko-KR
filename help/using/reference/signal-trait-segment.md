@@ -1,5 +1,5 @@
 ---
-description: Audience Manager 세그먼트의 구성 요소, 대상 자격 기준을 설정하는 데 사용되는 표현식 및 이벤트 호출에서 데이터가 전송되는 방법을 이해합니다.
+description: Audience Manager 세그먼트의 구성 요소, 대상 자격 기준을 설정하는 데 사용되는 표현식 및 이벤트 호출에서 데이터가 전송되는 방법을 설명합니다.
 seo-description: Audience Manager 세그먼트의 구성 요소, 대상 자격 기준을 설정하는 데 사용되는 표현식 및 이벤트 호출에서 데이터가 전송되는 방법을 설명합니다.
 seo-title: 신호, 트레이트 및 세그먼트
 solution: Audience Manager
@@ -7,10 +7,10 @@ title: 신호, 트레이트 및 세그먼트
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 

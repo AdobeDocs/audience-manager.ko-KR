@@ -7,7 +7,7 @@ title: 데이터 작업 구성 요소
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -82,7 +82,7 @@ c_compact.xml
 
 다음 예제는 데이터의 실시간 세그먼트 데이터를 포함합니다 [!UICONTROL IRIS]. 이 데이터는 샘플 데이터에만 해당됩니다. 각 고객은 서로 다른 형식 요구 사항을 가지므로 내용이 다를 수 있습니다.
 
-```json
+```
 {
     "ProcessTime": "Tue Jul 21 19:12:45 UTC 2015",
     "Client_ID": "111111",

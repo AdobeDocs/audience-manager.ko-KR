@@ -6,7 +6,7 @@ solution: Audience Manager
 title: CCPA 용어집
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
@@ -55,3 +55,4 @@ CCPA와 관련하여 사용되는 주요 용어에 익숙해지십시오. 가장
 >[!MORELIKETHIS]
 >
 >[데이터 개인 정보 보호 개요](/help/using/overview/data-security-and-privacy/data-privacy.md)
+

@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -170,8 +170,7 @@ Audience Marketplace 데이터 구매자는 천 광고 노출 횟수([!DNL CPM])
 데이터 피드 수준에서 [CPM 사용을 보고할](#feed-level-report)경우 트레이트 자격 규칙에 사용된 [!DNL Boolean] 연산자에 따라 각 데이터 피드에 대해 비례적으로 노출 횟수를 할당해야 합니다. 다음 표에는 부울 규칙 또는 트레이트 유형별로 노출 횟수를 적절히 할당하는 방법이 나와 있습니다.
 
 >[!TIP]
->
-> [세그먼트 수준에서](#segment-level-report) CPM 사용을 보고하여 데이터 피드 수준 보고를 Audience Manager에 의해 자동으로 수행합니다.
+>[세그먼트 수준에서](#segment-level-report) CPM 사용을 보고하여 데이터 피드 수준 보고를 Audience Manager에 의해 자동으로 수행합니다.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 

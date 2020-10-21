@@ -2,23 +2,21 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager 안내서
-breadcrumb-title: Audience Manager 안내서
-breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
+user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1769'
 ht-degree: 93%
 
 ---
 
 
-# Audience Manager 안내서 {#user-guide}
+# Audience Manager 사용 안내서 {#user-guide}
 
-+ [Audience Manager 안내서](aam-home.md)
++ [Audience Manager 제품 설명서](aam-home.md)
 + 개요{#overview}
    + [Audience Manager 개요](overview/aam-overview.md)
    + [수집한 데이터 유형](overview/data-types-collected.md)
@@ -36,7 +34,6 @@ ht-degree: 93%
          + [동의 관리](overview/data-security-and-privacy/data-privacy-consent.md)
          + [IAB TCF를 위한 Audience Manager 플러그인](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [데이터 거버넌스](overview/data-security-and-privacy/data-governance.md)
-   + [Audience Manager의 접근성](overview/accessibility-in-aam.md)
 + 기능{#features}
    + [대응 가능 대상](features/addressable-audiences.md)
    + 관리{#administration}
@@ -78,7 +75,7 @@ ht-degree: 93%
       + [데이터 탐색기 - 개요, 이점 및 사용 사례](features/data-explorer/data-explorer-overview.md)
       + [신호 이해](features/data-explorer/data-explorer-understanding-signals.md)
       + [신호 대시보드](features/data-explorer/data-explorer-signals-dashboard.md)
-      + 신호 검색{#signal-search}
+      + 신호 검색{#signals-search}
          + [신호 검색 개요](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [키-값 쌍으로 신호 검색](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [필터로 신호 검색](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)

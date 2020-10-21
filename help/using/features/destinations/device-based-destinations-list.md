@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Adobe Audience Manager 서버 간 대상
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1116'
 ht-degree: 72%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 72%
 * **마지막 업데이트** = 이 항목에 대한 업데이트가 있었던 마지막 날짜를 표시합니다 [!UICONTROL device-based destination].
 * **업데이트** = 데이터를 [!DNL Audience Manager] 실시간 또는 일괄(1일)으로 전송할지 여부를 [!UICONTROL destination]나타냅니다.
 * **Unsegment** = Unsegmentation은 장치 프로파일을 분류하고 제거하는 프로세스에 대해 설명합니다 [!UICONTROL segments]. 장치 프로파일을 제거하는 기능은 장치 옵션을 만드는 데 사용되는 장치 옵션에 [!UICONTROL segment] 따라 다릅니다 [!UICONTROL Profile Merge Rule]. 삭제 요청 컨텍스트에서도 [!DNL GDPR] 세그먼테이션이 사용됩니다. 비세그멘테이션 기능을 사용하여 [프로필 병합 규칙 및 장치 세그멘테이션 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [Audience Manager 파트너를 읽어 보십시오](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] 세그먼트 해제 정보를 아래에 [!UICONTROL destinations] 예 **로** 표시된
-* **동의[!DNL IAB TCF]신호** 수신 [!DNL Audience Manager Plug-in for IAB TCF] = 사용자 개인 정보 선택을 존중하면서 활성화 파트너에게 [!DNL IAB TC] 문자열을 전달할 수 있습니다. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **동의 [!DNL IAB TCF] 신호** 수신 [!DNL Audience Manager Plug-in for IAB TCF] = 사용자 개인 정보 선택을 존중하면서 활성화 파트너에게 [!DNL IAB TC] 문자열을 전달할 수 있습니다. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = 이 열에는 지원하는 파트너가 나열됩니다 [!UICONTROL Instant Cross-Device Suppression]. 즉각적인 [장치 간 억제 대책을 읽어보십시오](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **모바일 장치 ID** = 이 열에는 모바일 장치 ID를 받을 수 있는 파트너가 나열됩니다 [!DNL Audience Manager].
 
@@ -51,7 +51,6 @@ ht-degree: 72%
 | [!DNL AOL ONE] | 02/03/2017 | 실시간 | 예 | 아니요 | 아니요 | 예 |
 | [!DNL AppNexus] | 02/03/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | 예 | 아니요 | 아니요 | 아니요 |
-| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1xday | 아니요 | 아니요 | 아니요 | 아니요 |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
 | [!DNL Avocet] | 06/12/2017 | 1xday | 아니요 | 아니요 | 아니요 | 아니요 |
 | [!DNL Bidtellect] | 03/03/2017 | 실시간 | 예 | 아니요 | 아니요 | 아니요 |
@@ -82,7 +81,6 @@ ht-degree: 72%
 | [!DNL EyeView Digital] | 14/06/2018 | 1xday | 예 | 아니요 | 아니요 | 예 |
 | [!DNL Fiksu] | 03/03/2017 | 1xday | 예 | 아니요 | 아니요 | 예 |
 | [!DNL Flashtalking] | 02/03/2017 | 1xday | 아니요 | 아니요 | 아니요 | 아니요 |
-| [!DNL Flybits] | 31/07/2020 | 실시간 | 예 | 아니요 | 예 | 예 |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | 예 | 아니요 | 아니요 | 아니요 |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | 예 | 예 | 아니요 | 예 |
 | [!DNL Gamut Media] | 03/03/2017 | 실시간 |  | 아니요 | 아니요 |  |

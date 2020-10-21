@@ -7,9 +7,9 @@ title: 정의된 대상 매크로
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 3%
 
 ---
@@ -54,9 +54,9 @@ ht-degree: 3%
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>매크로가 다음으로 <code> 1</code> 바뀝니다 <code> CustomerABC</code>. </p> <p> 
-     <!--
-       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     --> </p> </td> 
+     <draft-comment>
+       AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193을 기반으로 합니다. 
+     </draft-comment> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
@@ -98,7 +98,7 @@ ht-degree: 3%
 
 및 매크로 `%rnd%` 는 고유한 값을 `%timestamp%` [!DNL URL] 문자열에 삽입하여 브라우저 캐싱을 방지합니다.
 
-## %rnd% 및 %timestamp%의 캐시 빌드 {#dest-cache-busting}
+## 및 를 사용하여 캐시 `%rnd%` 제거 `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ ht-degree: 3%
 * `%rnd%`:URL에 무작위 숫자를 삽입합니다.
 * `%timestamp%`:Unix 날짜/시간을 URL에 삽입합니다.
 
-## %rnd%과 %timestamp% 비교 {#compare-rnd-timestamp}
+## 비교 `%rnd%` 및 `%timestamp%` {#compare-rnd-timestamp}
 
 두 매크로 모두 캐싱은 차단하지만 보다 효율적인 것 `%rnd%` 이 가능합니다. 예를 들어, 여러 사용자가 페이지를 동시에 보는 `%timestamp%`경우 동일한 날짜/시간 값을 얻게 됩니다. 따라서, 이 [!DNL URL] 는 고유하지 않으며 여러 개의 호출은 한 번만 카운트됩니다. 하지만 `%rnd%` 각 호출에 대해 고유한 숫자 값을 생성합니다(사용자가 동일한 페이지를 동시에 볼 때에도). 이것은 [!DNL URL] 문자열에 다른 값이 포함되어 있으며 고유으로 카운트됨을 의미합니다.
 

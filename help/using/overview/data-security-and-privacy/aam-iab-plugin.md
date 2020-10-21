@@ -6,10 +6,10 @@ solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2449'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -118,7 +118,7 @@ Audience Manager은 IAB TC 문자열에 사용자 동의(장치에 대한 정보
 
 Audience Manager에서 근무하는 모든 대상에 대한 사용자 동의도 확인하며, 해당 대상이 IAB TCF에 등록되어 있는 경우 이에 동의합니다.
 
-| When your user *provides* consent, Audience Manager: | 사용자의 동의를 *거부하면* Audience Manager는 |
+| 사용자가 *동의하면* Audience Manager는 | 사용자의 동의를 *거부하면* Audience Manager는 |
 |---|---|
 | <ul><li>요청하신 모든 Audience Manager 사용 사례를 수행합니다.</li><li>Conveys consent to third parties in ID syncs (by passing `gdpr = 1` and the consent string as `gdpr_consent` on ID sync calls).</li><li>광고 서버 픽셀에서 전달된 동의를 평가하고 적용합니다.</li><li>파트너가 시작한 ID 동기화를 수행합니다.</li></ul> | <ul><li>인스턴스에서 새 사용자 데이터를 저장하지 않습니다. 여기에는 파트너 ID, 신호, 트레이트 또는 픽셀 데이터가 포함됩니다.</li><li>타사 ID 동기화를 시작하지 않습니다.</li><li>파트너가 시작한 ID 동기화를 수행하지 않습니다.</li><li>사용자를 추가 데이터 수집에서 옵트아웃합니다.</li></ul> |
 

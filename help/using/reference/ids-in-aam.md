@@ -8,7 +8,7 @@ title: Audience Manager의 ID 색인
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -31,7 +31,7 @@ ht-degree: 5%
 ## [!DNL Audience Manager] ID 목록 {#id-list}
 
 | ID | 이름 및 설명 | 사용 및 예 | 사용자 인터페이스 위치 |
-|---|-----------|---|------------|
+|---|---|---|---|
 | [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID]으로 알려져 [!UICONTROL Device ID]있습니다. 상호 작용하는 각 장치에 [!DNL Audience Manager] 연결하는 38자리 숫자 장치 ID입니다. UI에서 고유한 사용자에 대한 언급이 나타날 때마다 이 ID를 [!DNL Audience Manager] 고려하십시오. Audience Manager은 이 ID를 타사 도메인 [!DNL cookie] 에 `demdex.net` 저장합니다. | 호출에서 [!DNL DCS] 앞에 `uuid` `d_` 접두사가 붙습니다. <br>예: `d_uuid = 07955261652886032950143702505894272138` | 유사 모델 [!DNL traits] 을 만들 [!UICONTROL Device ID] 때 [필터링하고 세그먼트를](../features/algorithmic-models/create-model.md)작성할 수 있습니다 [](../features/segments/segment-builder.md). 트레이트에 대한 [!UICONTROL Device ID] 일반 보고서 [및 트레이트에 대한 트렌드 보고서](../reporting/general-reports.md) 를 실행할 때 결과를 필터링할 수도 있습니다 [](../reporting/trend-reports.md). |
 | [!DNL ImsOrgId] | [!DNL Organization ID]. 이것은 [!DNL Experience Cloud] 계정 등록 시 회사가 제공하는 ID입니다. | `5DC5123F5245B1D20A490D46@AdobeOrg` | 사용자 인터페이스에 표시되지 [!DNL Audience Manager] 않습니다. 회사 ID를 찾는 방법에 대한 자세한 내용은 조직 ID [!DNL Organization ID]찾기를 참조하십시오 [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255). |
 | [!DNL PID] | [!DNL Partner ID]. 회사 [!DNL PID] 의 ID입니다 [!DNL Audience Manager]. Audience Manager은 한 사람 [!DNL imsOrgId] 에 연결합니다 [!DNL PID]. | `1352` | 사용자 인터페이스에 표시되지 [!DNL Audience Manager] 않습니다. |

@@ -7,9 +7,9 @@ title: 주요 변수의 이름 요구 사항
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 12%
 
 * 잘못된 키 이름: `123`, `price!123`.
 
-## c_를 사용하여 키 변수 미리 수정
+## 키 변수 접두어 `c_`
 
 이벤트 호출 URL에서 데이터를 전송하는 매개 변수가 해당 구문을 사용하는 경우 `c_` 접두어는 *항상* 필요합니다.

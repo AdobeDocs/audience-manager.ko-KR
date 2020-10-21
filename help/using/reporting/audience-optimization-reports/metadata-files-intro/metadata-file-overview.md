@@ -7,9 +7,9 @@ title: 메타데이터 파일에 대한 개요 및 매핑
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: f37ba905d603a3b95fda3ab797bb882f94e0066d
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '824'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 둘째, 데이터를 전송 중인 경우 [!DNL Audience Manager] 또는 통합되지 않은 다른 제공업체의 보고서에서 데이터를 보려는 경우 메타데이터 파일이 필요합니다. 예를 들어, Google [!DNL Audience Manager] 의 [두 번 클릭 캠페인 관리자](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM)와 통합됩니다. 이러한 관계로 인해 ID를 보고서 옵션에서 사용하는 이름 및 설명에 연결할 [!DNL Audience Manager] 수 있습니다. 통합이 없으면 데이터를 인제스트할 수 있지만 보고서 옵션은 설명 이름 대신 숫자 ID를 표시합니다.
 
-![메타데이터 메뉴 스키마](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-menu.png)
+![](assets/metadata_menu.png)
 
 ## 파일 매핑 {#file-mappings}
 
@@ -112,7 +112,7 @@ ht-degree: 4%
 
 이 예에서는 크리에이티브 이름을 [!UICONTROL Audience Optimization] 보고서에 가져오는 메타데이터 파일을 만듭니다. 이를 위해서는 이벤트 호출에서 크리에이티브, 캠페인 및 데이터 소스 ID를 추출해야 합니다.
 
-![메타데이터 파일 이벤트 스키마](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-event.png)
+![](assets/metadata_file_event.png)
 
 ### 파일 이름
 
@@ -124,7 +124,7 @@ ht-degree: 4%
 
 * 크리에이티브 및 캠페인 ID는 실제 식별자가 아닌 카테고리를 나타냅니다.
 
-![메타데이터 파일 이름 스키마](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-name.png)
+![](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,7 +132,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 이 예에서 파일 내용은 이벤트 호출에 전달된 크리에이티브 및 캠페인 ID를 반영합니다. 여기에서 새 요소는 읽을 수 있는 이름입니다. 처리되면 이 파일의 이름이 [!UICONTROL Audience Optimization] 보고서의 [크리에이티브] 메뉴에 옵션으로 표시됩니다.
 
-![메타데이터 파일 내용 스키마](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-contents.png)
+![](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 

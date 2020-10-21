@@ -7,9 +7,9 @@ title: 벌크 관리 도구 용어집
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '346'
 ht-degree: 5%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>세그먼트를 대상에 보낼 수 있는 시기를 나타냅니다. 형식을 <code>yyyy-mm-dd</code> 사용합니다. </p> </td> 
+   <td colname="col2"> <p>세그먼트를 대상에 보낼 수 있는 시기를 나타냅니다. yyyy- <tt>mm-dd</tt> 형식을 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 

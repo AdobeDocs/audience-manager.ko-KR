@@ -1,5 +1,5 @@
 ---
-description: 데이터 관리 플랫폼의 주요 기능(데이터 수집, 고객 생성 및 활성화)에 대한 정보를 제공합니다.
+description: Adobe Audience Manager의 내역, 수집된 데이터 유형, 세그먼테이션, 보고 등에 대한 정보입니다.
 seo-description: Adobe Audience Manager의 내역, 수집된 데이터 유형, 세그먼테이션, 보고 등에 대한 정보입니다.
 seo-title: Audience Manager 개요
 solution: Audience Manager
@@ -7,9 +7,9 @@ title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overview
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---

@@ -8,9 +8,9 @@ title: Audience Manager의 방문자 인증 상태
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 5%
 
 ---
@@ -24,10 +24,25 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
 
 ## 인증 상태:알 수 없음 {#auth-status-unknown}
 
-| 요청 값 | **인증된 프로필에서 정보 읽기** | **인증된 프로필에** 새 트레이트 쓰기 |
----------|----------|---------
-| 0 | <ul><li>예, 인증된 옵션 병합 규칙 = &quot;마지막으로 인증된 프로필&quot;인 경우.</li><li>아니요, 인증된 옵션 병합 규칙 = &quot;현재 인증된 프로필&quot; 또는 &quot;인증된 프로필 없음&quot;인 경우.</li></ul> | 장치 프로필에 트레이트 데이터가 추가됩니다. |
-
+<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>인증된 프로필에서 정보 읽기</b> </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>인증된 프로필에</b> 새 트레이트 쓰기 </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
+   <td colname="col2"> <p>예, 인증된 옵션 병합 규칙 = "마지막으로 인증된 프로필"인 경우. </p> </td> 
+   <td colname="col3" morerows="1"> <p>장치 프로필에 트레이트 데이터가 추가됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>아니요, 인증된 옵션 병합 규칙 = "현재 인증된 프로필" 또는 "인증된 프로필 없음"인 경우. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 샘플 호출(인증 상태에 해당하는 요청 값 강조 표시):
 
@@ -35,9 +50,25 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
 
 ## 인증 상태:인증됨 {#auth-status-authenticated}
 
-| 요청 값 | **인증된 프로필에서 정보 읽기** | **인증된 프로필에** 새 트레이트 쓰기 |
----------|----------|---------
-| 1 | <ul><li>예, 인증된 옵션 병합 규칙 = &quot;현재 인증된 프로필&quot; 또는 &quot;마지막 인증된 프로필&quot;인 경우.</li><li>아니요, 인증된 옵션 병합 규칙 = &quot;인증된 프로필 없음&quot;인 경우.</li></ul> | 예, 특성 데이터는 인증된 프로필에 추가됩니다. |
+<table id="table_956ABF96024744308F7773E1F96482B7"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>인증된 프로필에서 정보 읽기</b> </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>인증된 프로필에</b> 새 트레이트 쓰기 </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
+   <td colname="col2"> <p>예, 인증된 옵션 병합 규칙 = "현재 인증된 프로필" 또는 "마지막 인증된 프로필"인 경우. </p> </td> 
+   <td colname="col3" morerows="1"> <p>예, 특성 데이터는 인증된 프로필에 추가됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>아니요, 인증된 옵션 병합 규칙 = "인증된 프로필 없음"인 경우. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 샘플 호출(인증 상태에 해당하는 요청 값 강조 표시):
 
@@ -45,9 +76,25 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
 
 ## 인증 상태:LOGGED_OUT {#auth-status-logged-out}
 
-| 요청 값 | **인증된 프로필에서 정보 읽기** | **인증된 프로필에** 새 트레이트 쓰기 |
----------|----------|---------
-| 2 | <ul><li>예, 인증된 옵션 병합 규칙 = &quot;마지막으로 인증된 프로필&quot;</li><li>아니요, 인증된 옵션 병합 규칙 = &quot;현재 인증된 프로필&quot; 또는 &quot;인증된 프로필 없음&quot;인 경우</li></ul> | 아니오, 특성 데이터는 장치 프로필에 기록됩니다. |
+<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>인증된 프로필에서 정보 읽기</b> </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>인증된 프로필에</b> 새 트레이트 쓰기 </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
+   <td colname="col2"> 예, 인증된 옵션 병합 규칙 = "마지막으로 인증된 프로필" </td> 
+   <td colname="col3" morerows="1"> <p>아니오, 특성 데이터는 장치 프로필에 기록됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> 아니요, 인증된 옵션 병합 규칙 = "현재 인증된 프로필" 또는 "인증된 프로필 없음"인 경우 </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 샘플 호출(인증 상태에 해당하는 요청 값 강조 표시):
 

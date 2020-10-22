@@ -7,9 +7,9 @@ title: 정의된 대상 매크로
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '667'
 ht-degree: 3%
 
 ---
@@ -53,10 +53,7 @@ ht-degree: 3%
     </ul> <p>이 작업을 수행하려면 Audience Manager <code>%dpid_<i>data source id</i>%</code><span class="keyword"></span> 파트너가 다음과 같이 매크로 형식을 지정합니다. </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>매크로가 다음으로 <code> 1</code> 바뀝니다 <code> CustomerABC</code>. </p> <p> 
-     <draft-comment>
-       AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193을 기반으로 합니다. 
-     </draft-comment> </p> </td> 
+    </ul> <p>매크로가 다음으로 <code> 1</code> 바뀝니다 <code> CustomerABC</code>. </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>

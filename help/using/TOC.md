@@ -6,9 +6,9 @@ user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1773'
 ht-degree: 93%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 93%
          + [동의 관리](overview/data-security-and-privacy/data-privacy-consent.md)
          + [IAB TCF를 위한 Audience Manager 플러그인](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [데이터 거버넌스](overview/data-security-and-privacy/data-governance.md)
+   + [Audience Manager의 접근성](/help/using/overview/accessibility-in-aam.md)
 + 기능{#features}
    + [대응 가능 대상](features/addressable-audiences.md)
    + 관리{#administration}

@@ -5,9 +5,9 @@ seo-title: 배치 데이터 전송 프로세스 설명
 solution: Audience Manager
 title: 배치 데이터 전송 프로세스 설명
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
-feature: null
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 7%
@@ -36,5 +36,5 @@ ht-degree: 7%
 1. 사용자가 고객 사이트를 방문합니다.
 1. [!DNL Audience Manager] 그리고 타사 데이터 공급자는 방문자에게 고유한 ID를 지정합니다(일반적으로 쿠키가 있음).
 1. [!DNL Audience Manager] 방문자 ID와 일치하도록 타사 데이터 공급자를 호출합니다.
-1. 일반적으로 일별 간격으로 예약된 요청은 방문자 세그먼트 데이터를 [!DNL Audience Manager] 타사 데이터 공급자와 교환합니다.
+1. 일반적으로 일별 간격으로 예약된 요청은 방문자 세그먼트 데이터 [!DNL Audience Manager] 를 타사 데이터 공급자와 교환합니다.
 1. 인바운드 [!UICONTROL Server-to-Server] 파일이 처리될 때마다 이메일은 파트너 솔루션에 전송되고, 구성된 경우 파트너에게 전송됩니다. 자세한 내용은 인바운드 [처리 후 파트너에게 메시지 샘플을 참조하십시오](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).

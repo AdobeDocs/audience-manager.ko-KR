@@ -7,10 +7,10 @@ title: 선택한 Audience Manager 보고서의 데이터 샘플링 및 오류율
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 ## 민해시 샘플링 방법론 사용 {#minhash}
 
-Minhash [샘플링 방법을 기반으로](https://en.wikipedia.org/wiki/MinHash) Audience Manager은 원퍼블리싱 해싱 데이터 스케치 위에 트레이트와 세그먼트 견적 도구를 계산하는 새로운 방법을 사용합니다. 이 새 방법은 Jacard 유사성 견적 도구용 표준 견적 도구보다 낮은 분산을 생성합니다. 이 방법을 사용하는 보고서에 대해서는 아래 섹션을 참조하십시오.
+Minhash [샘플링 방법을 기반으로](https://en.wikipedia.org/wiki/MinHash) Audience Manager은 원퍼블리싱 해싱 데이터 스케치 위에 트레이트와 세그먼트 견적 도구를 계산하는 새로운 방법을 사용합니다. 이 새 방법은 Java 유사성에 대한 표준 견적 도구보다 낮은 분산을 생성합니다. 이 방법을 사용하는 보고서에 대해서는 아래 섹션을 참조하십시오.
 
 <!--
 

@@ -7,9 +7,9 @@ title: 겹치기 보고서 업데이트 일정 및 최소 세그먼트 크기
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 5%
 
 # Overlap Reports: 일정 및 최소 세그먼트 크기 업데이트{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-겹침 보고서 업데이트 프로세스에 필요한 세그먼트 크기 및 생성 시간 요구 사항을 설명합니다.
+겹침 보고서 업데이트 프로세스에 필요한 트레이트 및 세그먼트 크기 및 생성 시간 요구 사항을 설명합니다.
 
 ## 업데이트 일정 및 요구 사항 {#update-schedule}
 
 [!UICONTROL Overlap] 보고서는 일요일에 매주 업데이트됩니다. 보고 사전 처리는 토요일에 시작됩니다. 이는 월요일에 중복 보고서에 새로운 세그먼트나 기존 세그먼트가 표시되는 방식에 영향을 줍니다. 중복 보고서에 포함하려면 다음을 수행합니다.
 
-* 세그먼트는 지난 14일 동안 총 70,000명의 실시간 사용자를 포함해야 합니다. 트레이트 및 세그먼트에 대한 [최소 고유 방문자 요구 사항을 참조하십시오](../../reporting/report-sampling.md#data-sampling-ratio).
+* 지난 14일 동안 세그먼트에는 최소 70,000명의 실시간 사용자가 포함되어야 합니다.
+* 트레이트는 지난 14일 동안 28,000개의 [고유한 특성](/help/using/features/traits/trait-and-segment-qualification-reference.md) 관계를 포함해야 합니다.
 * 세그먼트는 오전 12시 목요일 UTC(주별 오버랩 보고서 업데이트 프로세스가 시작되기 2일 전)에 만들어졌어야 합니다.
 * 회사는 정식 [!DNL Audience Manager] 고객이어야 합니다. 자세한 내용은 컨설턴트나 고객 지원 센터에 [!DNL Audience Manager] 문의하십시오.
 

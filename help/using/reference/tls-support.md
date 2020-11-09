@@ -7,30 +7,32 @@ title: TLS 1.0 및 1.1 사용 중단
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 31%
+source-wordcount: '276'
+ht-degree: 3%
 
 ---
 
 
 # TLS 1.0 및 1.1 사용 중단{#tls-deprecation}
 
-TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 시스템 중 하나 또는 둘 다를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월 TLS 프로토콜의 세 가지 버전이 사용 중입니다. TLS 1.0, 1.1 및 1.2.
+TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 시스템 중 하나 또는 둘 다를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월 TLS 프로토콜의 세 가지 버전이 사용 중입니다.TLS 1.0, 1.1 및 1.2.
 
-2019년 3월, [!DNL Adobe] 의전 지원은 [!DNL TLS 1.0] 끝났습니다. 최종 사용자는 Adobe Audience Manager 기능만 지원하는 브라우저를 사용할 수 없습니다 [!DNL TLS 1.0].
+2019년 3월, [!DNL Adobe] 그 [!DNL TLS 1.0] 프로토콜에 대한 지원이 종료되었습니다. 최종 사용자는 지원되 [!DNL TLS 1.0]는 브라우저만 사용할 수 있지만 Adobe Audience Manager 기능은 작동하지 않습니다.
 
-2020년 3월 [!DNL Adobe] 에 [!DNL TLS 1.1] 의전 지원이 종료됩니다. Adobe Audience Manager 기능은 지원만 하는 브라우저를 사용하는 최종 사용자에 대해 작업을 중단합니다 [!DNL TLS 1.1].
+2020년 3월 [!DNL Adobe] 에 [!DNL TLS 1.1] 의전 지원이 종료됩니다. Adobe Audience Manager 기능은 지원만 하는 브라우저를 사용하는 최종 사용자에 대해 작업을 중지합니다 [!DNL TLS 1.1].
 
-Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용되는 것을 적극 권장합니다. 최신 브라우저는 모두 사용합니다 [!DNL TLS 1.2]. Adobe는 브라우저, 버전 및 지원 목록을 [!DNL TLS] 수집했습니다. 자세한 내용은 [이 Wikipedia 링크를 참조하십시오](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Adobe은 작성 [!DNL TLS 1.2]시 최신 버전의 의전을 사용하는 것을 적극 권장합니다. 최신 브라우저는 모두 사용합니다 [!DNL TLS 1.2]. Adobe는 브라우저, 버전 및 지원 목록을 [!DNL TLS] 수집했습니다. TLS 브라우저 지원에 대한 자세한 내용은 전송 레이어 보안 위키백과 링크 [를 참조하십시오](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+
+<!--
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col03" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col03" class="entry"> <p>Platform </p> </th> 
    <th colname="col3" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -38,31 +40,31 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="2"> <p>Google Chrome(Android용 Chrome) </p> </td> 
+   <td colname="col1" morerows="2"> <p>Google Chrome (Chrome for Android) </p> </td> 
    <td colname="col2"> <p>1 - 21 </p> </td> 
    <td colname="col03" morerows="2"> <p> 
      <ul id="ul_73F2C4C645E1411ABB3AD7ABD1013C59"> 
-      <li id="li_EBFC73DCEF3342DDADFF2CBA716DFE93">Windows(7+) </li> 
-      <li id="li_75D0A27BB3B246AC8456B0A984BD5DBD">OS X(10.9+) </li> 
-      <li id="li_60C1FA4C61EF4AD68719384CDEFC2CF0">Linux Android(4.1+) </li> 
-      <li id="li_761665B51622486FA0D6ABBDAA1DCA60">iOS(9.0+) </li> 
+      <li id="li_EBFC73DCEF3342DDADFF2CBA716DFE93">Windows (7+) </li> 
+      <li id="li_75D0A27BB3B246AC8456B0A984BD5DBD">OS X (10.9+) </li> 
+      <li id="li_60C1FA4C61EF4AD68719384CDEFC2CF0">Linux Android (4.1+) </li> 
+      <li id="li_761665B51622486FA0D6ABBDAA1DCA60">iOS (9.0+) </li> 
       <li id="li_9E19588870DA4EFB963C0C650116DC94">Chrome OS </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>아니요 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
+   <td colname="col3"> <p>Yes </p> </td> 
+   <td colname="col4"> <p>No </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>22 - 29 </p> </td> 
-   <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
+   <td colname="col3"> <p>Yes </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>30 - 현재 버전 </p> </td> 
-   <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
+   <td colname="col2"> <p>30 - present version </p> </td> 
+   <td colname="col3"> <p>Yes </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,9 +72,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_B34D89BF3C7646208D353CD55D1F4851"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -80,24 +82,24 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="2"> <p>Google Android OS 브라우저 </p> </td> 
+   <td colname="col1" morerows="2"> <p>Google Android OS Browser </p> </td> 
    <td colname="col2"> <p>Android 1.0 - 4.0.4 </p> </td> 
-   <td colname="col3" morerows="2"> 해당 없음 </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col3" morerows="2"> N/A </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Android 4.1 - 4.4.4 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col6"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Android 5.0 - 현재 버전 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col2"> <p>Android 5.0 - present version </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,9 +107,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_A33FD2FE756641DE8881EEE930CAA244"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -115,42 +117,42 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="3"> <p>Mozilla Firefox(모바일용 Firefox) </p> </td> 
+   <td colname="col1" morerows="3"> <p>Mozilla Firefox (Firefox for Mobile) </p> </td> 
    <td colname="col2"> <p>1.0 - ESR 17.0.11 </p> </td> 
    <td colname="col3" morerows="3"> <p> 
      <ul id="ul_617CE841EC7743A08BE004E309A3B0D7"> 
-      <li id="li_1A189B9BE2AD4305AF786FBC41A321AC">Windows(7+) </li> 
-      <li id="li_E5EF7410AEE948A68F4E3D6D1290B5A4">OS X(10.9+) </li> 
-      <li id="li_320467E34FC44492877283935553B87A">Linux Android(4.1+) </li> 
-      <li id="li_6827CD3D51B24B54BDCA0DAE7DD43696">iOS(9.0+) </li> 
+      <li id="li_1A189B9BE2AD4305AF786FBC41A321AC">Windows (7+) </li> 
+      <li id="li_E5EF7410AEE948A68F4E3D6D1290B5A4">OS X (10.9+) </li> 
+      <li id="li_320467E34FC44492877283935553B87A">Linux Android (4.1+) </li> 
+      <li id="li_6827CD3D51B24B54BDCA0DAE7DD43696">iOS (9.0+) </li> 
       <li id="li_B4C08937A5BD47188A97E03AF2F3689B">Chrome OS </li> 
-     </ul> </p> <p>ESR만 해당: 
+     </ul> </p> <p>ESR only for: 
      <ul id="ul_6AF06AEC2B494912BA480EA8FF54BF80"> 
-      <li id="li_DB30E35051474FBEABE70C69292037DE">Windows(XP SP2+) </li> 
-      <li id="li_B412EDEF4FEC4AC9A17C7152BA493768">OS X(10.9+) </li> 
+      <li id="li_DB30E35051474FBEABE70C69292037DE">Windows (XP SP2+) </li> 
+      <li id="li_B412EDEF4FEC4AC9A17C7152BA493768">OS X (10.9+) </li> 
       <li id="li_C2E18F13BFE24C55A7C14488F115810C"> Linux </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>23 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>24 - 26 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col6"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>27 - 현재 버전 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col2"> <p>27 - present version </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -158,9 +160,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_3BF8A559A263482B9CEF991C13C3F379"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -175,9 +177,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
       <li id="li_53C5453187E34007B8FD32FF88A83C9B">Windows 3.1, 95, NT </li> 
       <li id="li_C8D9FAD1C46E4CE882EAFCD0B3CD1A27">Mac OS 7,8 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>아니요 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>No </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>4 - 6 </p> </td> 
@@ -186,9 +188,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
       <li id="li_4BC6C41C2EF546A797122B746F4D943E">Windows 3.1, 95, 98, NT, 2000, XP, Server 2003 </li> 
       <li id="li_2890B5044BBA4F3CA37ECED8A38D6C1B">Mac OS 7.1, 8, X, Solaris, HP-UX </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Disabled by default </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>7 - 9 </p> </td> 
@@ -198,9 +200,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
       <li id="li_41CAFC08AFC04D85A04BE9CE55D92AE5">Windows Server 2003 </li> 
       <li id="li_983D588A30CD4B4E8BB00E70C669CED2">Windows Vista </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>7 - 10 </p> </td> 
@@ -209,9 +211,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
       <li id="li_B69400528CB64CB2994F4FB8CF3B4A2A">Windows 7, 8 </li> 
       <li id="li_B759C917E04F4A12826C9ABAE4A7C476">Windows Server 2002, Server 2008, Server 2008 R2 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col6"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>11 </p> </td> 
@@ -220,9 +222,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
       <li id="li_CA93F2471EEE404992792918E46D27A0">Windows 7, 8.1, 10 </li> 
       <li id="li_97CE6072071748318B9A33ECD7009F8A">Windows Server 2008, Server 2012, Server 2012 R2, Server 2016, Server 2019 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -230,9 +232,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_08DB65F6A7F24D6B93303549BDE40D8D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -243,23 +245,23 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
    <td colname="col1" morerows="2"> <p>Microsoft Internet Explorer Mobile </p> </td> 
    <td colname="col2"> <p>7, 9 </p> </td> 
    <td colname="col3"> <p>Windows Phone 7, 7.5, 7.8 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>10 </p> </td> 
    <td colname="col3"> <p>Windows Phone 8 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col6"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>11 </p> </td> 
    <td colname="col3"> <p>Windows Phone 8.1 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -267,9 +269,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_330DA31AD79547E3969A5600AE47A19D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -277,8 +279,8 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Microsoft Edge 및 Microsoft Edge for mobile </p> </td> 
-   <td colname="col2"> <p>모든 버전 </p> </td> 
+   <td colname="col1"> <p>Microsoft Edge and Microsoft Edge for Mobile </p> </td> 
+   <td colname="col2"> <p>All versions </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_87B9CD9D72CA43A1A4DC824C5DEA3638"> 
       <li id="li_23DE8D894B0C43DF8420E8B49E5F8FCE">Windows 10 </li> 
@@ -286,9 +288,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
       <li id="li_9257BBAE90914E97A6244F22FCE0F9FE">Windows Server 2016 </li> 
       <li id="li_10940F64FA9349159A88305BE303CC37">Windows Server 2019 </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,9 +298,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_2857B874FA714925AC51E6690365F504"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -306,59 +308,59 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="7"> <p>Opera 브라우저(Opera Mobile) </p> </td> 
+   <td colname="col1" morerows="7"> <p>Opera Browser (Opera Mobile) </p> </td> 
    <td colname="col2"> <p>1 - 4 </p> </td> 
    <td colname="col3" morerows="7"> <p> 
      <ul id="ul_0B243815FE07488F934B61C1ABF30F38"> 
-      <li id="li_73A74B30C935451FA0870177E7DE91AC">Windows(7+) </li> 
-      <li id="li_E0CC0A99244443488026F4EA82027EE0">OS X(10.9+) </li> 
-      <li id="li_F04CA1BD8DAD473CABCD64221883FA56">Linux Android(4.0+) </li> 
+      <li id="li_73A74B30C935451FA0870177E7DE91AC">Windows (7+) </li> 
+      <li id="li_E0CC0A99244443488026F4EA82027EE0">OS X (10.9+) </li> 
+      <li id="li_F04CA1BD8DAD473CABCD64221883FA56">Linux Android (4.0+) </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>아니요 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>No </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>5 - 7 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>8 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>9 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>10 - 12.17 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
-   <td colname="col6"> <p>기본적으로 비활성화되어 있습니다 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Disabled by default </p> </td> 
+   <td colname="col6"> <p>Disabled by default </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>12.18 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>14 - 16 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>17 - 현재 버전 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col2"> <p>17 - present version </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -366,9 +368,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_E68FEFB9CAA248B8938918EF2D9AF1E0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -383,16 +385,16 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
       <li id="li_44A6D54B5BC64724B9FF853D3F7D7EAE">Mac OS X 10.2 - 10.8 </li> 
       <li id="li_C0EE310C369444F4AA8F5D22912554B5">Win XP) </li> 
      </ul> </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>7 - 현재 버전 </p> </td> 
+   <td colname="col2"> <p>7 - present version </p> </td> 
    <td colname="col3"> <p>Mac OS X 10.9 - 10.13 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,9 +402,9 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
 <table id="table_8A1A4DCB22A949D697B37A96F86FDE7F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>브라우저 </p> </th> 
-   <th colname="col2" class="entry"> <p>버전 </p> </th> 
-   <th colname="col3" class="entry"> <p>플랫폼 </p> </th> 
+   <th colname="col1" class="entry"> <p>Browser </p> </th> 
+   <th colname="col2" class="entry"> <p>Version </p> </th> 
+   <th colname="col3" class="entry"> <p>Platform </p> </th> 
    <th colname="col4" class="entry"> <p>TLS 1.0 </p> </th> 
    <th colname="col5" class="entry"> <p>TLS 1.1 </p> </th> 
    <th colname="col6" class="entry"> <p>TLS 1.2 </p> </th> 
@@ -410,20 +412,21 @@ Adobe는 문서 작성 [!DNL TLS 1.2]시 최신 버전의 프로토콜이 사용
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p>Apple Safari(모바일) </p> </td> 
+   <td colname="col1" morerows="1"> <p>Apple Safari (mobile) </p> </td> 
    <td colname="col2"> <p>3 - 5 </p> </td> 
    <td colname="col3"> <p>iOS 1 - 4 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>아니요 </p> </td> 
-   <td colname="col6"> <p>아니요 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>No </p> </td> 
+   <td colname="col6"> <p>No </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>5 - 현재 버전 </p> </td> 
+   <td colname="col2"> <p>5 - present version </p> </td> 
    <td colname="col3"> <p>iOS 5 - 11 </p> </td> 
-   <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p>예 </p> </td> 
-   <td colname="col6"> <p>예 </p> </td> 
+   <td colname="col4"> <p>Yes </p> </td> 
+   <td colname="col5"> <p>Yes </p> </td> 
+   <td colname="col6"> <p>Yes </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+-->

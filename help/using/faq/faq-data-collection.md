@@ -8,7 +8,7 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: a292f44a63aa1e627d75d37c9ff0c1489f160729
+source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 83%
@@ -22,7 +22,7 @@ ht-degree: 83%
 
 <br> 
 
-**[!DNL DCS]로그 파일 내보내기에서 인바운드 트래픽을[!DNL DCS]트래픽과 어떻게 구별할 수 있습니까?**
+**[!DNL DCS] 로그 파일 내보내기에서 인바운드 트래픽을 [!DNL DCS] 트래픽과 어떻게 구별할 수 있습니까?**
 
 [!UICONTROL Inbound]를 통해 온보딩된 트레이트는 [!DNL DCS]에 의해 채워지는 것과 같은 방식으로 [!UICONTROL Inbound]에 의해 채워집니다. 트래픽이 [!UICONTROL Inbound]에서 발생했음을 아는 방법은 몇 가지가 있습니다.
 
@@ -44,8 +44,8 @@ ht-degree: 83%
 
 | 서버 | IP 주소 |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
-| ftp-out-gtw.demdex.com | 3.233.68.222; 52.3.74.119 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
@@ -70,7 +70,7 @@ ht-degree: 83%
 
  
 
-**[!UICONTROL DIL]/[!DNL Analytics]데이터 통합을 위한 코드 배치 및 페이지 로드 요구 사항은 무엇입니까?**
+**[!UICONTROL DIL]/[!DNL Analytics] 데이터 통합을 위한 코드 배치 및 페이지 로드 요구 사항은 무엇입니까?**
 
 [!DNL Analytics] 데이터를 [!DNL Audience Manager]에 가져오려면 `s_code` 모듈 뒤에 `s.t()` 함수 *앞에* [!UICONTROL DIL]을 로드하십시오. 예를 들어, 다음 순서대로 코드를 배치하거나 코드가 로드되도록 하십시오.
 
@@ -90,7 +90,7 @@ ht-degree: 83%
 
  
 
-**왜 내[!DNL Analytics]변수가[!DNL Audience Manager]이벤트 호출에서 누락되었습니까?**
+**왜 내 [!DNL Analytics] 변수가 [!DNL Audience Manager] 이벤트 호출에서 누락되었습니까?**
 
 이런 일은 일반적으로 다음의 경우에 발생합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 83%
 
  
 
-**[!UICONTROL DIL]과 호환되는[!DNL Analytics]버전은 무엇입니까?**
+**[!UICONTROL DIL]과 호환되는 [!DNL Analytics] 버전은 무엇입니까?**
 
 [!UICONTROL DIL]을 사용하여 작업하려면 [!DNL Analytics] 버전 20.2 이상과 [!DNL Adobe AppMeasurement AS] 라이브러리 버전 3.5.2 이상을 사용해야 합니다. [!DNL Analytics] 또는 [!DNL AppMeasurement] 버전을 모르는 경우에는 페이지에서 수행되는 [!DNL Analytics] 호출을 확인하십시오. 버전 정보는 아래에 나와 있습니다.
 
@@ -117,7 +117,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!DNL Analytics]고객이 아닌 경우 페이지 데이터를 수집할 수 있습니까?**
+**[!DNL Analytics] 고객이 아닌 경우 페이지 데이터를 수집할 수 있습니까?**
 
 예. [!UICONTROL DIL] 모듈은 [!DNL Analytics]를 사용하지 않더라도 페이지 데이터를 수집하는 데 도움이 됩니다. [!UICONTROL DIL]은 올바로 설정되면 다음 항목에서 해당 항목에 대한 데이터를 캡처할 수 있습니다.
 
@@ -130,7 +130,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!UICONTROL DIL]이[!DNL Google Analytics]에서 데이터를 수집할 수 있습니까?**
+**[!UICONTROL DIL]이 [!DNL Google Analytics]에서 데이터를 수집할 수 있습니까?**
 
 예. [!UICONTROL DIL]은 일부 [!DNL Google Analytics] (GA) 요소를 수집하고 해당 데이터를 [!DNL Audience Manager]에 전달할 수 있습니다. 다음을 참조하십시오.
 
@@ -151,7 +151,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**한 사이트에서 데이터를 수집하고 다른 사이트를 통해 사용자[!DNL Google Ad Manager]를 타깃팅하고자 합니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
+**한 사이트에서 데이터를 수집하고 다른 사이트를 통해 사용자 [!DNL Google Ad Manager] 를 타깃팅하고자 합니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
 
 아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
@@ -163,7 +163,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**쿠키를 설정하고 변수를 어떻게 전달합니까[!DNL Audience Manager][!DNL Google Ad Manager]?**
+**쿠키를 설정하고 변수를 어떻게 전달합니까 [!DNL Audience Manager] [!DNL Google Ad Manager]?**
 
 [!DNL Audience Manager] 2개 쿠키:하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그로 전송하고 다른 하나는 UUID(고유한 사용자 ID)를 설정하며, 이 ID는 읽은 것입니다 [!DNL Google Ad Manager]. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
 
@@ -175,13 +175,13 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**FTP를 통해 전송된 데이터가[!DNL Audience Manager]에 의해 선택되었음을 어떻게 확인할 수 있습니까?**
+**FTP를 통해 전송된 데이터가 [!DNL Audience Manager]에 의해 선택되었음을 어떻게 확인할 수 있습니까?**
 
 확장자가 `.sync`에서 `.processed`로 변경될 때 파일이 선택되었습니다. 이렇게 되면 파일은 섭취 큐에 있게 됩니다. 또한 계정 관리자는 파일이 업로드된 시점을 확인할 수 있습니다.
 
 <br> 
 
-**[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)의 기능을 테스트하고 싶습니다. 아래 표시된 것과 같은 이벤트 호출을 보내고 있습니다. 호출에는[선언된 ID](../features/declared-ids.md)및 신호가 포함되어 있으며, 이렇게 되면 이미 설정한 트레이트 및 세그먼트를 실현해야 합니다.[!UICONTROL General Reports]및[!UICONTROL Trend Reports]를 사용하여 트레이트 및 세그먼트 인구가 증가하고 있는지 확인할 수 있습니까?**
+**[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)의 기능을 테스트하고 싶습니다. 아래 표시된 것과 같은 이벤트 호출을 보내고 있습니다. 호출에는 [선언된 ID](../features/declared-ids.md) 및 신호가 포함되어 있으며, 이렇게 되면 이미 설정한 트레이트 및 세그먼트를 실현해야 합니다. [!UICONTROL General Reports] 및 [!UICONTROL Trend Reports]를 사용하여 트레이트 및 세그먼트 인구가 증가하고 있는지 확인할 수 있습니까?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -203,6 +203,6 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 <br> 
 
-**[지역](../api/dcs-intro/dcs-api-reference/dcs-regions.md)간에 사용자 프로필을 동기화하는 데 시간이 얼마나 걸립니까?**
+**[지역](../api/dcs-intro/dcs-api-reference/dcs-regions.md) 간에 사용자 프로필을 동기화하는 데 시간이 얼마나 걸립니까?**
 
 일반적으로 사용자 프로필이 지역 간에 동기화되려면 최대 24시간이 걸립니다. 그러나 드문 경우 이 프로세스는 최대 48시간이 걸릴 수 있습니다.

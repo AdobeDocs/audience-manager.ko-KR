@@ -31,7 +31,7 @@ c_api_overview.xml
 인스턴스 수준 [!UICONTROL DIL] API로 작업하는 경우:
 
 * 액세스하려면 파트너 이름과 컨테이너 네임스페이스 ID(NSID)가 필요합니다. 이 정보를 얻으려면 Audience Manager 계정 관리자에게 문의하십시오.
-* API 설명서의 샘플 *기울임체* 텍스트를 작업 중인 메서드에 필요한 값, ID 또는 기타 변수로 대체할 수 있습니다.
+* API 설명서의 샘플 *기울임꼴* 텍스트를 작업 중인 메서드에 필요한 값, ID 또는 기타 변수로 바꿉니다.
 
 <!-- 
 
@@ -39,7 +39,7 @@ c_instance_start.xml
 
  -->
 
-## 신호 {#signals}
+## sig신호 {#signals}
 
 보류 중인 요청의 쿼리 문자열에 고객 및 플랫폼 수준 매핑을 추가합니다.
 
@@ -54,7 +54,7 @@ r_dil_signals.xml
 >[!NOTE]
 >
 >* 이 메서드에 다른 API 호출을 체인으로 연결할 수 있습니다.
->* Adobe Experience Cloud JavaScript 라이브러리가 페이지에 있는 경우 요청을 보내기 전에 클라우드가 쿠키를 설정하기를 `submit()` 기다립니다.
+>* Adobe Experience Cloud JavaScript 라이브러리가 페이지에 있는 경우 `submit()` 클라우드가 요청을 보내기 전에 쿠키를 설정할 때까지 기다립니다.
 
 
 **예약된 요청 키**
@@ -78,7 +78,7 @@ r_dil_signals.xml
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 
@@ -125,7 +125,7 @@ r_dil_traits.xml
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 
@@ -151,7 +151,7 @@ r_dil_logs.xml
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 
@@ -168,7 +168,7 @@ partnerObject.api.logs({
 
 ## 제출 {#submit}
 
-인스턴스에 대해 모든 보류 중인 데이터를 Audience Manager에 [!UICONTROL DIL] 제출합니다.
+[!UICONTROL DIL] 인스턴스에 대해 보류 중인 모든 데이터를 Audience Manager에 제출합니다.
 
 <!-- 
 
@@ -180,11 +180,11 @@ r_dil_submit.xml
 
 >[!NOTE]
 >
->이 메서드에 다른 API 호출을 체인으로 연결할 수 있습니다. 또한 인코딩된 데이터를 대상 쿠키에 [!UICONTROL DIL] 씁니다. 예를 들어 공백은 세미콜론으로 인코딩되어 `%20` 있습니다 `%3B`.
+>이 메서드에 다른 API 호출을 체인으로 연결할 수 있습니다. 또한 [!UICONTROL DIL]은(는) 인코딩된 데이터를 대상 쿠키에 씁니다. 예를 들어 공백은 `%20`으로 인코딩되고 세미콜론은 `%3B`로 인코딩됩니다.
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 
@@ -228,7 +228,7 @@ r_dil_after_result.xml
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 
@@ -264,7 +264,7 @@ r_dil_clear_data.xml
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 
@@ -332,7 +332,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-인스턴스에 대한 컨테이너 NSID의 값을 [!UICONTROL DIL] 반환합니다. 디버깅 및 문제 해결에 유용합니다.
+[!UICONTROL DIL] 인스턴스에 대한 컨테이너 NSID의 값을 반환합니다. 디버깅 및 문제 해결에 유용합니다.
 
 <!-- 
 
@@ -393,7 +393,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-인스턴스의 파트너 이름을 [!UICONTROL DIL] 반환합니다. 디버깅 및 문제 해결에 유용합니다.
+[!UICONTROL DIL] 인스턴스의 파트너 이름을 반환합니다. 디버깅 및 문제 해결에 유용합니다.
 
 <!-- 
 
@@ -417,7 +417,7 @@ var partner = dataLib.api.getPartner();
 
 ## getState {#getstate}
 
-현재 인스턴스의 상태를 [!UICONTROL DIL] 반환합니다. 디버깅 및 문제 해결에 유용합니다.
+현재 [!UICONTROL DIL] 인스턴스의 상태를 반환합니다. 디버깅 및 문제 해결에 유용합니다.
 
 <!-- 
 
@@ -497,7 +497,7 @@ r_dil_idsync.xml
 
 **함수 서명:**
 
-버전 2.10 및 [!UICONTROL DIL] 3.1 이상에서 작동합니다.
+[!UICONTROL DIL] 버전 2.10 및 3.1 이상에서 작동합니다.
 
 <table id="table_ADC7501511914805A6A6B24B2DFEBA51"> 
  <thead> 
@@ -509,11 +509,11 @@ r_dil_idsync.xml
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간의 관계 예를 들어 파트너 x은 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager으로 보냅니다. </p> <p> <p><b>중요:</b> 이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByURL </code> 방법을 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>서로 다른 데이터 파트너와 Audience Manager 간의 관계 예를 들어 파트너 x은 이 변수를 사용하여 파트너 y와 사용자 ID를 동기화한 다음 Audience Manager으로 보냅니다. </p> <p> <p><b>중요: </b>  이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByURL </code> 메서드를 사용하십시오. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager으로 보내려는 경우 </p> <p> <p><b>중요:</b> 이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByDataSource </code> 방법을 사용하십시오. </p> </p> </td> 
+   <td colname="col2"> <p>사용자 ID를 이미 알고 있고 Audience Manager으로 보내려는 경우 </p> <p> <p><b>중요: </b>  이 메서드는 더 이상 사용되지 않습니다. Adobe Experience Platform ID 서비스 인스턴스의 <code> idSyncByDataSource </code> 메서드를 사용하십시오. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -560,11 +560,11 @@ r_dil_idsync.xml
 
 * **`%TIMESTAMP%`:** 타임스탬프를 생성합니다(밀리초 단위). 캐시 무효화에 사용됩니다.
 * **`%DID%`:** 사용자의 Audience Manager ID를 삽입합니다.
-* **`%HTTP_PROTO%`:** 페이지 프로토콜( `http` 또는 `https`)을 설정합니다.
+* **`%HTTP_PROTO%`:** 페이지 프로토콜(  `http` 또는  `https`)을 설정합니다.
 
 **응답**
 
-두 함수 모두 성공하면 `Successfully queued` 반환됩니다. 실패한 경우 오류 메시지 문자열을 반환합니다.
+두 함수 모두 성공한 경우 `Successfully queued`을 반환합니다. 실패한 경우 오류 메시지 문자열을 반환합니다.
 
 **샘플 코드**
 
@@ -617,7 +617,7 @@ r_dil_result.xml
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 
@@ -634,7 +634,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 
 ## secureDataCollection {#securedatacollection}
 
-`secureDataCollection` 는 및 Akamai를 호출하는 방법 [!UICONTROL DIL] 을 제어하는 부울 매개 [!UICONTROL Data Collection Servers (DCS)] 변수입니다.
+`secureDataCollection` 는  [!UICONTROL DIL] 및 Akamai를 호출하는 방법을 제어하는 부울 매개 변수 [!UICONTROL Data Collection Servers (DCS)] 입니다.
 
 <!-- 
 
@@ -642,13 +642,13 @@ dil-secure-data-collection.xml
 
  -->
 
-* 이때 `secureDataCollection= true` (기본값)는 [!UICONTROL DIL] 항상 보안 HTTPS 호출을 만듭니다.
+* `secureDataCollection= true`(기본값)에서는 [!UICONTROL DIL]가 항상 보안을 설정하고 HTTPS 호출을 수행합니다.
 
-* 이 경우 `secureDataCollection= false`페이지에서 설정한 보안 프로토콜 [!UICONTROL DIL] 을 따라 HTTP 또는 HTTPS를 호출합니다.
+* `secureDataCollection= false`일 때 [!UICONTROL DIL]은 페이지에서 설정한 보안 프로토콜을 따라 HTTP 또는 HTTPS 호출을 만듭니다.
 
 >[!IMPORTANT]
 >
->visitorAPI.js를 사용하고 동일한 페이지에서 사용하는 경우 `secureDataCollection= false` [!UICONTROL DIL] 설정합니다. 아래 코드 샘플을 참조하십시오.
+>동일한 페이지에서 visitorAPI.js 및 [!UICONTROL DIL]를 사용하는 경우 `secureDataCollection= false`을 설정합니다. 아래 코드 샘플을 참조하십시오.
 
 <pre><code class="js">
 var dilInstance = DIL.create({ 
@@ -669,7 +669,7 @@ dil-use-cors-only.xml
 
 **개요**
 
-`useCORSOnly` 은 기본적으로 false입니다. False는 브라우저가 CORS 또는 JSONP를 사용하여 리소스 확인을 수행할 수 있음을 의미합니다. 하지만 항상 CORS가 있는 리소스를 먼저 요청하려고 [!UICONTROL DIL] 합니다. ID 서비스는 CORS를 지원하지 않는 오래된 브라우저에서는 JSONP로 되돌립니다. 보안 요구 사항이 높은 사이트와 같이 브라우저가 CORS만 사용하도록 강제해야 하는 경우 를 설정하십시오 `useCORSOnly:true`.
+`useCORSOnly` 은 기본적으로 false입니다. False는 브라우저가 CORS 또는 JSONP를 사용하여 리소스 확인을 수행할 수 있음을 의미합니다. 그러나 [!UICONTROL DIL]는 항상 CORS가 있는 리소스를 먼저 요청하려고 합니다. ID 서비스는 CORS를 지원하지 않는 오래된 브라우저에서는 JSONP로 되돌립니다. 보안 요구 사항이 높은 사이트와 같이 브라우저가 CORS만 사용하도록 강제해야 하는 경우 `useCORSOnly:true`을 설정합니다.
 
 **코드 샘플**
 
@@ -682,8 +682,8 @@ var dilInstance = DIL.create({
 
 >[!IMPORTANT]
 >
->* 사이트 방문자에게 이 기능을 지원하는 브라우저가 있는지 확인할 `useCORSOnly: true` 때만 설정하는 것이 좋습니다.
->* 이 경우 `useCORSOnly: true`는 Internet Explorer 버전 9 이상에서 ID 호출을 [!UICONTROL DIL] 하지 않습니다.
+>* 사이트 방문자에게 이 기능을 지원하는 브라우저가 있다고 확신하는 경우에만 `useCORSOnly: true`을 설정하는 것이 좋습니다.
+>* `useCORSOnly: true`이면 [!UICONTROL DIL]은 Internet Explorer 버전 9 이상에서 ID 호출을 하지 않습니다.
 
 >
 
@@ -691,7 +691,7 @@ var dilInstance = DIL.create({
 
 ## useImageRequest {#useimagerequest}
 
-요청 유형을 스크립트에서 이미지 `<img>` 로 변경합니다 `<src>`.
+요청 유형을 스크립트 `<src>`에서 이미지 `<img>`으로 변경합니다.
 
 <!-- 
 
@@ -707,7 +707,7 @@ r_dil_use_image_request.xml
 
 **응답**
 
-현재 인스턴스의 API 개체를 [!UICONTROL DIL] 반환합니다.
+현재 [!UICONTROL DIL] 인스턴스의 API 개체를 반환합니다.
 
 **샘플 코드**
 

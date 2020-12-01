@@ -20,7 +20,7 @@ ht-degree: 5%
 
 Audience Manager의 방문자 인증 상태는 새 특성 정보가 방문자의 인증된 프로필 또는 데이터가 수집되는 장치 프로필에 기록되었는지 여부를 결정합니다. Audience Manager은 같은 방식으로 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 이벤트 호출에서 처리합니다.
 
-ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드에는 선택적 `AuthState` 개체가 포함됩니다. `AuthState` 인증 상태에 따라 방문자를 [식별합니다](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] 호출에서 전달된 인증 상태와 세그멘테이션에 사용하는 [프로필 병합 규칙에](../features/profile-merge-rules/merge-rules-dashboard.md) 따라 실현된 특성을 다르게 처리합니다.
+[!DNL Experience Cloud] ID 서비스 v1.5+로 시작하는 `setCustomerID` 메서드에는 선택적 `AuthState` 개체가 포함됩니다. `AuthState` 인증 상태에 따라 방문자를  [식별합니다](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] 호출에서 전달된 인증 상태와 세그멘테이션에 사용하는  [프로필 병합 ](../features/profile-merge-rules/merge-rules-dashboard.md) 규칙에 따라 실현된 특성을 다르게 처리합니다.
 
 ## 인증 상태:알 수 없음 {#auth-status-unknown}
 
@@ -28,8 +28,8 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>인증된 프로필에서 정보 읽기</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>인증된 프로필에</b> 새 트레이트 쓰기 </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>인증된 </b> 프로필의 정보 읽기 </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>인증된 </b> 프로필에 아티클 작성 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -48,14 +48,14 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## 인증 상태:인증됨 {#auth-status-authenticated}
+## 인증 상태:인증된 {#auth-status-authenticated}
 
 <table id="table_956ABF96024744308F7773E1F96482B7"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>인증된 프로필에서 정보 읽기</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>인증된 프로필에</b> 새 트레이트 쓰기 </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>인증된 </b> 프로필의 정보 읽기 </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>인증된 </b> 프로필에 아티클 작성 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -80,8 +80,8 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>인증된 프로필에서 정보 읽기</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>인증된 프로필에</b> 새 트레이트 쓰기 </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>인증된 </b> 프로필의 정보 읽기 </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>인증된 </b> 프로필에 아티클 작성 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -102,7 +102,7 @@ ID [!DNL Experience Cloud] 서비스 v1.5+부터 이 `setCustomerID` 메서드�
 
 >[!NOTE]
 >
->[!DNL Audience Manager] 세 가지 경우 모두 [CID와 UUID](../reference/ids-in-aam.md) 간의 ID 동기화를 수행합니다.
+>[!DNL Audience Manager] 세 가지 경우 모두에서  [CID와 ](../reference/ids-in-aam.md) UUID 간의 ID 동기화를 수행합니다.
 
 >[!MORELIKETHIS]
 >

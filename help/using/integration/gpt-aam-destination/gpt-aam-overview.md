@@ -1,7 +1,7 @@
 ---
 description: GPT(Google Publisher Tags)를 사용하여 Google Ad Manager를 통합하는 방법에 대한 개요입니다.
-seo-description: AAM(Adobe Audience Manager)에서 Google Publisher Tags(GPT)를 사용하여 Google Ad Manager를 통합하는 방법에 대한 개요입니다.
-seo-title: AAM(Adobe Audience Manager)에서 Google 게시자 태그(GPT)를 사용하여 Google 광고 관리자 통합
+seo-description: Adobe Audience Manager(AAM)에서 Google Publisher Tags(GPT)를 사용하여 Google Ad Manager를 통합하는 방법에 대한 개요입니다.
+seo-title: Adobe Audience Manager(AAM)에서 Google Publisher Tags(GPT)를 사용하여 Google Ad Manager 통합
 title: Google Publisher Tags(GPT)를 사용하여 Google Ad Manager 통합
 feature: Third Party Integrations
 translation-type: tm+mt
@@ -13,17 +13,17 @@ ht-degree: 6%
 ---
 
 
-# Integrate [!DNL Google Ad Manager] (formerly DFP) using Google Publisher Tags (GPT)
+# Google Publisher Tags(GPT)를 사용하여 [!DNL Google Ad Manager](이전 DFP) 통합
 
-아래 기술문서는 GPT(Google Publisher Tags)를 [!DNL Google Ad Manager] 사용하여 통합하는 방법에 대한 개요를 제공합니다. 서버측 통합을 사용하거나 Audience Manager 세그먼트 데이터를 보낼 대상으로 GPT를 설정할 수 있습니다 [!DNL Google Ad Manager]. 또한 Audience Manager에서 보고하기 위해 로그 파일을 인제스트하는 데 필요한 단계도 알아봅니다. [!DNL Google Ad Manager]
+아래 기술문서는 Google Publisher Tags(GPT)를 사용하여 [!DNL Google Ad Manager]을(를) 통합하는 방법에 대한 개요를 제공합니다. 서버측 통합을 사용하거나 GPT를 대상으로 설정하여 Audience Manager 세그먼트 데이터를 [!DNL Google Ad Manager]에 보낼 수 있습니다. Audience Manager에서 보고를 위해 [!DNL Google Ad Manager] 로그 파일을 인제스트하는 데 필요한 단계도 학습합니다.
 
 * [Google Publisher Tags(GPT)를 사용하여 Google Ad Manager로 세그먼트를 전송하는 요구 사항 및 방법](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
-   클라이언트측 또는 서버측 통합을 통해 적격 세그먼트를 보낼 수 [!DNL Google Ad Manager] 있습니다. 두 방법 모두에 대한 요구 사항 및 관련 정보는 아래에 나와 있습니다.
+   클라이언트측 또는 서버측 통합을 통해 자격이 있는 세그먼트를 [!DNL Google Ad Manager]으로 보낼 수 있습니다. 두 방법 모두에 대한 요구 사항 및 관련 정보는 아래에 나와 있습니다.
 
 * [GPT 대상 만들기](/help/using/integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-   클라이언트측(브라우저 [!DNL Google Ad Manager] 측) 통합 또는 서버측 통합을 통해 적격한 세그먼트를 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에서 Google 게시자 태그의 쿠키 기반 대상을 만들어야 합니다.
+   클라이언트측(브라우저 측) 통합 또는 서버측 통합을 통해 자격이 있는 세그먼트를 [!DNL Google Ad Manager]으로 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에서 Google 게시자 태그의 쿠키 기반 대상을 만들어야 합니다.
 
 * [GPT setTargeting API 호출 수정](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 

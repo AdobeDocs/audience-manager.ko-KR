@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # DCS 지역 ID, 위치 및 호스트 이름 {#dcs-region-ids-locations-and-host-names}
 
-지역 [!DNL DCS] 서버 호스트 이름은 을 호출하기 위해 필요합니다 [!DNL DCS]. 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 [!DNL DCS] 저장하기 때문입니다. 쿼리를 잘못된 것으로 보낼 경우 쿼리가 [!DNL DCS]작동하지만 이러한 호출은 비효율적이며 응답이 지연될 수 있습니다. 요청을 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성합니다. [!DNL DCS]
+[!DNL DCS]을(를) 호출하려면 지역 [!DNL DCS] 서버 호스트 이름이 필요합니다. 이것은 [!DNL DCS]이 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 [!DNL DCS]으로 보낸 경우 사용할 수 있지만 이러한 호출은 비효율적이며 응답이 지연될 수 있습니다. [!DNL DCS] 요청을 하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성하십시오.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -71,4 +71,4 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-메서드를 사용하여 사용 가능한 지역 목록을 가져올 수도 [!DNL API] [!DNL DCS] 있습니다. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
+[!DNL API] 메서드를 사용하여 사용 가능한 [!DNL DCS] 지역 목록을 가져올 수도 있습니다. [DCS 영역 API 메서드](../../../api/rest-api-main/aam-api-dcs-regions.md)를 참조하십시오.

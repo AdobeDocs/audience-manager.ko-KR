@@ -44,8 +44,8 @@ ht-degree: 83%
 
 | 서버 | IP 주소 |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119;3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252;18.211.109.184 |
 
  
 
@@ -60,13 +60,13 @@ ht-degree: 83%
 
 **새 SFTP 서버를 사용하도록 Audience Manager 인스턴스를 구성하려면 어떻게 합니까?**
 
-컨설턴트나 고객 지원 센터에 [!DNL Audience Manager] 문의하십시오. 그러면 컨설턴트가 새 SFTP 계정을 구성합니다.
+[!DNL Audience Manager] 컨설턴트 또는 고객 지원 센터에 연락하면 새 SFTP 계정을 구성합니다.
 
  
 
 **새 SFTP 서버에 대해 지원되는 인증 방법은 무엇입니까?**
 
-새로운 SFTP 서버(`ftp-in-gtw` 및 `ftp-out-gtw`) 지원 [!DNL OpenSSH Key-Based Authentication]. 저희가 당신을 위해 [!DNL SSH] 키를 생성하거나 당신이 직접 공개 키를 제공할 수 있습니다.
+새 SFTP 서버(`ftp-in-gtw` 및 `ftp-out-gtw`)는 [!DNL OpenSSH Key-Based Authentication]를 지원합니다. [!DNL SSH] 키를 생성하거나 사용자가 직접 공개 키를 제공할 수 있습니다.
 
  
 
@@ -153,7 +153,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **한 사이트에서 데이터를 수집하고 다른 사이트를 통해 사용자 [!DNL Google Ad Manager] 를 타깃팅하고자 합니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
 
-아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
+아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. [!DNL Google Ad Manager]을 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 경우, 초기 사이트의 데이터 수집 및 [!DNL Google Ad Manager]를 통해 타깃팅할 수 있습니다.
 
 <br> 
 
@@ -163,9 +163,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**쿠키를 설정하고 변수를 어떻게 전달합니까 [!DNL Audience Manager] [!DNL Google Ad Manager]?**
+**쿠키를  [!DNL Audience Manager] 설정하고 변수를 어떻게 전달합니까 [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] 2개 쿠키:하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그로 전송하고 다른 하나는 UUID(고유한 사용자 ID)를 설정하며, 이 ID는 읽은 것입니다 [!DNL Google Ad Manager]. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
+[!DNL Audience Manager] 2개 쿠키:하나는 세그먼트 변수를  [!DNL Google Ad Manager] 광고 태그로 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며, 이 ID는 읽은  [!DNL Google Ad Manager]사람입니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
 
 <br> 
 

@@ -20,9 +20,9 @@ ht-degree: 2%
 
 테스트 그룹 보고 섹션은 테스트 그룹 변환에 대한 정보를 반환하므로 테스트 세그먼트 효과를 쉽게 비교할 수 있습니다. 데이터 시각화에 다양한 필터와 차원을 사용할 수 있습니다.
 
-[!UICONTROL Audience Lab] 사용자가 만든 테스트 세그먼트에 대한 자세한 보고 정보를 반환하고 보고 데이터를 파일로 저장할 수 있도록 [!DNL CSV] 해줍니다. 과(와) 중에서 선택할 수 **[!UICONTROL Aggregate Reporting]** 있습니다 **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] 사용자가 만든 테스트 세그먼트에 대한 자세한 보고 정보를 반환하고 보고 데이터를  [!DNL CSV] 파일로 저장할 수 있습니다. **[!UICONTROL Aggregate Reporting]**&#x200B;과 **[!UICONTROL Trend Reporting]** 중에서 선택할 수 있습니다.
 
-**[!UICONTROL Aggregate Reporting]** 테스트 세그먼트에 대한 절대값을 반환합니다. **[!UICONTROL Trend Reporting]** 특정 기간 *동안의 트렌드 그래프를 반환합니다*. 네 개의 탭을 사용하여 보고서를 사용자 지정할 수 있습니다.
+**[!UICONTROL Aggregate Reporting]** 테스트 세그먼트에 대한 절대값을 반환합니다. **[!UICONTROL Trend Reporting]** 특정 기간  *동안의 트렌드 그래프를 반환합니다*. 네 개의 탭을 사용하여 보고서를 사용자 지정할 수 있습니다.
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -38,7 +38,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 변환기</span></b> </p> </td> 
-   <td colname="col2"> <p>테스트 그룹에서 선택한 전환 특성을 표시한 장치의 수를 반환합니다. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> 이 비디오를</a> 통해 전환 특성을 만드는 방법을 살펴볼 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>테스트 그룹에서 선택한 전환 특성을 표시한 장치의 수를 반환합니다. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> 전환 </a> 트레이트를 만드는 방법을 살펴보려면 이 비디오를 시청하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 총 전환 수</span></b> </p> </td> 
@@ -46,7 +46,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 세그먼트 모집단 테스트</span></b> </p> </td> 
-   <td colname="col2"> <p>테스트 세그먼트에 속하는 장치의 수를 반환합니다. 전체 <b><span class="uicontrol"> 모집단</span></b> 또는 <b><span class="uicontrol"> 실시간 모집단 간에 전환합니다</span></b>. 이 차이점은 보고 FAQ에 <a href="../../faq/faq-reporting.md"> 설명되어 있습니다</a> . </p> </td>
+   <td colname="col2"> <p>테스트 세그먼트에 속하는 장치의 수를 반환합니다. <b><span class="uicontrol"> 총 모집단</span></b> 또는 <b><span class="uicontrol"> 실시간 모집단</span></b> 간을 전환합니다. 이 차이는 <a href="../../faq/faq-reporting.md"> 보고 FAQ</a>에 설명되어 있습니다. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -63,6 +63,6 @@ ht-degree: 2%
 
 ![](assets/aggregate-reporting.PNG)
 
-반환된 **[!UICONTROL Trend Reporting]** 차트는 아래 것과 비슷합니다. 절대 숫자를 무시하고 테스트 세그먼트 트렌드에 초점을 맞추려면 확인란 **[!UICONTROL Normalized]** 에서 선택하십시오.
+반환된 **[!UICONTROL Trend Reporting]** 차트는 아래 차트와 비슷합니다. 절대 숫자를 무시하고 테스트 세그먼트 트렌드에 초점을 맞추려면 이 확인란을 **[!UICONTROL Normalized]**&#x200B;을 선택합니다.
 
 ![](assets/trend-reporting.PNG)

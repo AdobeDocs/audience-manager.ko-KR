@@ -25,30 +25,30 @@ ht-degree: 2%
 
 ## 사용 사례 {#use-cases}
 
-보고서를 사용하여 [!UICONTROL Segment Performance] 다음을 수행할 수 있습니다.
+[!UICONTROL Segment Performance] 보고서를 사용하여 다음을 수행할 수 있습니다.
 
 * 규모 또는 성과를 높이는 매핑된 고객 세그먼트를 식별합니다.
 * 대상의 과거 성과에 대한 기여도를 기반으로 향후 캠페인에 도입할 매핑되지 않은 세그먼트를 식별합니다.
 
 ## 세그먼트 성과 보고서 사용 {#using-segment-performance-report}
 
-대상 **[!UICONTROL Mapped]** 에 **[!UICONTROL Unmapped]** 매핑되거나 설정되지 않은 세그먼트를 선택할 수 있도록 전환합니다. 보고서에 모든 세그먼트 **[!UICONTROL All]** 를 포함하려면 선택합니다.
+대상에 매핑된 세그먼트를 선택하려면 **[!UICONTROL Mapped]**&#x200B;과 **[!UICONTROL Unmapped]** 간을 전환합니다. 보고서에 모든 세그먼트를 포함하려면 **[!UICONTROL All]**&#x200B;을 선택합니다.
 
-일 **범위** 및 **일** 기준 컨트롤을 사용하여 룩백 범위를 조정합니다. 7일 및 30일 룩백 기간은 일요일 날짜에만 사용할 수 있습니다.
+**일 범위** 및 **Date Through** 컨트롤을 사용하여 룩백 범위를 조정합니다. 7일 및 30일 룩백 기간은 일요일 날짜에만 사용할 수 있습니다.
 
-정보를 반환할 웹 속성을 선택하려면 **[!UICONTROL Line Item]** 드롭다운 상자를 사용합니다.
+**[!UICONTROL Line Item]** 드롭다운 상자를 사용하여 정보를 반환할 웹 속성을 선택합니다.
 
-드롭다운 **[!UICONTROL Segment Data Source]** 상자에서 보고서에 표시할 세그먼트가 들어 있는 데이터 소스를 선택합니다.
+**[!UICONTROL Segment Data Source]** 드롭다운 상자에서 보고서에 표시할 세그먼트가 포함된 데이터 소스를 선택합니다.
 
-드롭다운 **[!UICONTROL Segment]** 상자를 사용하여 보고서에 표시할 세그먼트를 선택합니다.
+**[!UICONTROL Segment]** 드롭다운 상자를 사용하여 보고서에 표시할 세그먼트를 선택합니다.
 
 >[!IMPORTANT]
 >
->활성화할 [!UICONTROL Audience Optimization for Publishers]때 Google 광고 관리자(이전 DFP) 데이터 파일을 Audience Manager으로 [!UICONTROL Line Item IDs]가져오기 3단계에 설명된 [대로 설명 메타데이터를 포함시켜야 합니다](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). 이렇게 하면 보고서가 웹 속성 대신 웹 속성 [!UICONTROL Line Item] 을 자세히 설명합니다 [!UICONTROL Line Item ID].
+>[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때는 [Google Ad Manager 가져오기(이전 DFP) 데이터 파일을 Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)으로 가져오는 3단계에 설명된 대로 [!UICONTROL Line Item IDs]에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서가 웹 속성을 [!UICONTROL Line Item ID] 대신 [!UICONTROL Line Item](으)로 상세 정보로 지정하는지 확인합니다.
 
 ## 결과 해석 {#interpreting-results}
 
-보고서가 아래 보고서와 유사할 수 있습니다. [!UICONTROL Segment Performance] 보고서에서 버블을 클릭하여 기본 데이터를 봅니다. 샘플 보고서 아래 표에 나와 있는 추가 정보는 설명을 참조하십시오.
+[!UICONTROL Segment Performance] 보고서가 아래 보고서와 유사할 수 있습니다. 보고서에서 버블을 클릭하여 기본 데이터를 봅니다. 샘플 보고서 아래 표에 나와 있는 추가 정보는 설명을 참조하십시오.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -70,7 +70,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p>라인 항목 </p> </td> 
-   <td colname="col2"> <p>이 보고서가 표시되는 웹 속성입니다. </p> </td> 
+   <td colname="col2"> <p>이 보고서를 보고 있는 웹 속성입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>클릭 수 </p> </td> 
@@ -86,7 +86,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p>실시간 세그먼트 채우기 </p> </td> 
-   <td colname="col2"> <p>지정된 시간 범위 동안 실시간으로 표시되고 <span class="keyword"> Audience Manager에 의해 표시되는 시간에 세그먼트에 자격을 갖춘 실제 고유 방문자 수입니다</span>. </p> </td> 
+   <td colname="col2"> <p>지정된 시간 범위 동안 실시간으로 보고, 해당 세그먼트에 자격을 갖춘 실제 고유 방문자 수입니다(<span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 ## 매핑되지 않은 세그먼트 결과를 읽는 방법 {#read-unmapped-segment}
 
-보고서에서 매핑되지 않은 세그먼트를 [!UICONTROL Segment Performance] 보는 것은 타깃팅으로 간주하지 않은 새 세그먼트를 찾는 좋은 방법입니다. 실제로 이러한 세그먼트 중 일부는 매핑된 세그먼트보다 성과가 높을 수 있습니다.
+[!UICONTROL Segment Performance] 보고서에서 매핑되지 않은 세그먼트를 보는 것은 타깃팅할 필요가 없는 새 세그먼트를 찾는 좋은 방법입니다. 실제로 이러한 세그먼트 중 일부는 매핑된 세그먼트보다 성과가 높을 수 있습니다.
 
 이 보고서를 읽으려면 아래 샘플 보고서에 표시된 가상 선(빨간색)과 카테고리가 있는 네 개의 섹션으로 결과를 나누는 데 도움이 됩니다.
 

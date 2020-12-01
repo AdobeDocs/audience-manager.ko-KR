@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # DIL 도구
 
-네임스페이스의 메서드를 `DIL.tools` 설명합니다. 이러한 유틸리티 기능은 특정 작업을 수행하는 데 도움이 됩니다.
+`DIL.tools` 네임스페이스의 메서드를 설명합니다. 이러한 유틸리티 기능은 특정 작업을 수행하는 데 도움이 됩니다.
 
 <!-- 
 
@@ -35,20 +35,20 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### 목적 `getSearchReferrer`
+### `getSearchReferrer` 목적
 
-DIL에서 `getSearchReferrer` 사이트에 도달하는 데 사용된 검색 결과(이름 및 키워드)를 반환합니다. 이 함수에 특정 검색어를 전달하거나 기본적으로 지원되는 검색 엔진( [!DNL AOL], [!DNL Ask], [!DNL Bing]및 [!DNL Google][!DNL Yahoo])을 검색하도록 할 수 `document.referrer` 있습니다.
+DIL에서 `getSearchReferrer`은 사이트에 도달하는 데 사용된 검색 결과(이름 및 키워드)를 반환합니다. 기본적으로 이 함수에 특정 검색어를 전달하거나 지원되는 검색 엔진( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] 및 [!DNL Yahoo])을 `document.referrer`에 대해 검색하도록 할 수 있습니다.
 
 ### 함수 서명
 
-함수 서명: `DIL.tools.getSearchReferrer(uri, initConfig)`
+함수 서명:`DIL.tools.getSearchReferrer(uri, initConfig)`
 
 ### 함수 매개 변수
 
 `getSearchReferrer` accepts:
 
-* *`{string}`*: *(선택 사항)* 검색 URL이 들어 있는 문자열(정의되지 않은 경우 `document.referrer` 사용).
-* *`{object}`*: *(선택 사항)* `hostPattern`, `queryParam`또는 `queryPattern`의 구성이 들어 있는 개체입니다.
+* *`{string}`*: *(선택 사항)* 검색 URL이 포함된 문자열(정의되지  `document.referrer` 않은 경우 사용).
+* *`{object}`*: *(선택 사항)* 또는 `hostPattern`,  `queryParam`또는 `queryPattern`의 구성이 들어 있는 개체입니다.
 
 반환:
 
@@ -114,7 +114,7 @@ DIL에서 `getSearchReferrer` 사이트에 도달하는 데 사용된 검색 결
 
 ## decomposeURI
 
-균일 리소스 ID( [!DNL URI])를 구성 요소로 분해합니다. `hash`, `host`, `href`, `pathname``protocol`, `search`and `[!DNL uriParams]`를 선택합니다.
+Uniform Resource Identifier( [!DNL URI])를 구성 요소로 분해합니다.`hash`, `host`, `href`, `pathname`, `protocol`, `search` 및 `[!DNL uriParams]`
 
 <!-- 
 
@@ -122,13 +122,13 @@ r_dil_decompose.xml
 
  -->
 
-함수 서명: `DIL.tools.decomposeURI`
+함수 서명:`DIL.tools.decomposeURI`
 
 ### 함수 매개 변수
 
 `decomposeURI` accepts:
 
-* *`uri {string}`*: *(선택 사항)* URI를 포함하는 문자열입니다. Defaults to `document.location.href` if not specified.
+* *`uri {string}`*: *(선택 사항)* URI를 포함하는 문자열입니다. 지정하지 않을 경우 기본값은 `document.location.href`입니다.
 
 반환:
 
@@ -166,7 +166,7 @@ r_dil_get_metatags.xml
 
 ### 함수 서명
 
-함수 서명: `DIL.tools.getMetaTags( 1 or more parameters)`
+함수 서명:`DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### 함수 매개 변수
 

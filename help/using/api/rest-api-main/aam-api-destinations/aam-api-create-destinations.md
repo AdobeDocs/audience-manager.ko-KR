@@ -17,17 +17,17 @@ ht-degree: 9%
 
 # 대상 만들기 {#create-destinations}
 
-이러한 방법으로 대상을 [!UICONTROL RESTful API] 만듭니다.
+이러한 [!UICONTROL RESTful API] 메서드로 대상을 만듭니다.
 
 <!-- c_create_destinations.xml -->
 
-## 지원되는 대상 유형: URL 및 쿠키만
+## 지원되는 대상 유형:URL 및 쿠키만
 
-사용 가능한 `POST` 방법을 사용하면 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 만들 수 있습니다. 현재 이러한 방법 [!UICONTROL server-to-server destinations] 으로 만들 수 [!DNL REST API] 없습니다. 하지만 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 만든 정보를 검색할 [!UICONTROL server-to-server destinations] 수 있습니다.
+사용 가능한 `POST` 메서드는 [!UICONTROL URL] 및 [!UICONTROL cookie destinations]만 만들 수 있습니다. 현재 이러한 [!DNL REST API] 메서드로 [!UICONTROL server-to-server destinations]을(를) 만들 수 없습니다. 그러나 관련 대상 `GET` 메서드는 사용자 인터페이스에서 만든 [!UICONTROL server-to-server destinations]에 대한 정보를 검색할 수 있도록 해줍니다.
 
-## 비직렬 URL 대상 만들기 {#create-nonserial-dest}
+## 비직렬 URL 대상 {#create-nonserial-dest} 만들기
 
-단일 키-값 쌍(예: `POST` 또는 `gender=male` `gender=female`)으로 구성된 세그먼트를 허용하는 대상을 만들 수 있는 방법입니다.
+단일 키-값 쌍(예: `gender=male` 또는 `gender=female`)으로 구성된 세그먼트를 허용하는 대상을 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -50,7 +50,7 @@ ht-degree: 9%
 
 ### 응답
 
-요청이 성공적으로 반환되면 `201 created` 대상이 반환됩니다.
+요청이 성공하면 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -78,9 +78,9 @@ ht-degree: 9%
 } 
 ```
 
-## 직렬화된 URL 대상 만들기 {#create-serial-url-dest}
+## 직렬화된 URL 대상 {#create-serial-url-dest} 만들기
 
-단일 키와 연관된 여러 값을 허용하는 대상을 만들 수 있는 `POST` `color=blue, red, green`방법입니다.
+단일 키와 연관된 여러 값을 허용하는 대상을 만들 수 있는 `POST` 메서드입니다(예: `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -90,7 +90,7 @@ ht-degree: 9%
 
 ### 샘플 요청
 
-대상에 전달된 키 값 쌍에 대한 보안 [!DNL URL] 및 구분 기호를 지정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
+대상에 전달된 키-값 쌍의 보안 [!DNL URL] 및 구분 기호를 지정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -106,7 +106,7 @@ ht-degree: 9%
 
 ### 응답
 
-업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -134,9 +134,9 @@ ht-degree: 9%
 }
 ```
 
-## 쿠키 대상 만들기: 단일 키, 일련 번호가 아님 {#create-cookie-dest-single}
+## 쿠키 대상 만들기:단일 키, 일련 번호가 없는 {#create-cookie-dest-single}
 
-단일 키-값 쌍(예: `POST` 또는 [!UICONTROL cookie destination] `gender=male` `gender=female`)으로 구성된 세그먼트를 허용하는 방법을 만드는 데 사용할 수 있습니다.
+단일 키-값 쌍(예: `gender=male` 또는 `gender=female`)으로 구성된 세그먼트를 허용하는 [!UICONTROL cookie destination]을(를) 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -171,7 +171,7 @@ ht-degree: 9%
 
 ### 응답
 
-업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -203,9 +203,9 @@ ht-degree: 9%
 } 
 ```
 
-## 쿠키 대상 만들기: 단일 키, 일련 번호 {#create-cookie-dest-single-serial}
+## 쿠키 대상 만들기:단일 키, 일련 번호 {#create-cookie-dest-single-serial}
 
-단일 키와 연관된 여러 값을 허용하는 대상을 만들 수 있는 `POST` `color=blue, red, green`방법입니다.
+단일 키와 연관된 여러 값을 허용하는 대상을 만들 수 있는 `POST` 메서드입니다(예: `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -241,7 +241,7 @@ ht-degree: 9%
 
 ### 응답
 
-업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -274,9 +274,9 @@ ht-degree: 9%
 }
 ```
 
-## 쿠키 대상 만들기: 다중 키, 일련 번호가 지정되지 않음 {#create-cookie-dest-multi}
+## 쿠키 대상 만들기:다중 키, 일련 번호가 없는 {#create-cookie-dest-multi}
 
-값이 다른 여러 개의 키가 포함된 세그먼트를 허용하는 대상을 만들 수 있는 `POST` `gender=male; gender=female; color=blue; color=red`방법입니다.
+값이 다른 여러 개의 키를 포함하는 대상을 수락하는 대상을 만들 수 있는 `POST` 메서드입니다(예: `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -310,7 +310,7 @@ ht-degree: 9%
 
 ### 응답
 
-업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -341,9 +341,9 @@ ht-degree: 9%
 }
 ```
 
-## 쿠키 대상 만들기: 다중 키, 직렬화 {#create-cookie-dest-multi-serial}
+## 쿠키 대상 만들기:다중 키, 일련 번호 {#create-cookie-dest-multi-serial}
 
-여러 개의 키와 값(예:, `POST` `gender=male, female; color=blue, red, green`)을 포함하는 세그먼트를 허용하는 대상을 만들 수 있는 방법입니다.
+여러 키와 값이 포함된 세그먼트를 허용하는 대상을 만들 수 있는 `POST` 메서드입니다(예: `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -378,7 +378,7 @@ ht-degree: 9%
 
 ### 응답
 
-업데이트가 성공하면 응답 코드 `201 created` 와 대상이 반환됩니다.
+업데이트가 성공하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 

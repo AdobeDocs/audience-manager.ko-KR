@@ -21,30 +21,30 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-[!UICONTROL Data Export Controls] 데이터 소스 및 [대상을 분류할](../features/datasources-list-and-settings.md#data-sources-list-and-settings) 수 [있습니다](../features/destinations/destinations.md). 적용하는 분류에서 데이터를 대상으로 내보낼 수 있거나 내보낼 수 없는 시기를 결정합니다. 이 기능은 다음과 같이 구성됩니다.
+[!UICONTROL Data Export Controls] 데이터 소스 및  [대상을 ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) 분류할  [수 있습니다](../features/destinations/destinations.md). 적용하는 분류에서 데이터를 대상으로 내보낼 수 있거나 내보낼 수 없는 시기를 결정합니다. 이 기능은 다음과 같이 구성됩니다.
 
-* **[!UICONTROL Data Export Controls]**: 데이터 소스에 데이터 내보내기 컨트롤을 설정할 수 *있습니다*. 데이터 소스를 설정할 때 이러한 컨트롤은 데이터 소스 및 해당 트레이트의 사용 방법을 제한합니다.
-* **[!UICONTROL Data Export Labels]**: 대상에 데이터 내보내기 레이블을 설정할 수 *있습니다*. 대상에 설정할 때 이러한 레이블은 대상이 데이터를 사용하는 방법을 식별합니다. 대상에 [내보내기 레이블을](/help/using/features/destinations/add-data-export-labels.md) 추가하는 방법을 알려면 대상에 데이터 내보내기 레이블 추가를 참조하십시오.
+* **[!UICONTROL Data Export Controls]**:데이터 소스에 데이터 내보내기 컨트롤을 설정할 수  *있습니다*. 데이터 소스를 설정할 때 이러한 컨트롤은 데이터 소스 및 해당 트레이트의 사용 방법을 제한합니다.
+* **[!UICONTROL Data Export Labels]**:대상에 데이터 내보내기 레이블을 설정할 수  *있습니다*. 대상에 설정되면, 이러한 레이블은 대상이 데이터를 사용하는 방법을 식별합니다. 대상에 내보내기 레이블을 추가하는 방법을 알려면 [데이터 내보내기 레이블 추가를 참조하십시오.](/help/using/features/destinations/add-data-export-labels.md)
 
 데이터 소스 및 대상에 적용된 분류를 기반으로 내보내기 컨트롤을 사용하면 다음 작업을 수행할 수 없습니다.
 
 * 세그먼트가 매핑된 대상 중 하나 이상에 데이터 내보내기 레이블과 호환되지 않는 데이터 내보내기 컨트롤이 있는 데이터 원본에 트레이트를 세그먼트에 추가합니다.
-예를 들어, 세그먼트가 내보내기 레이블이 있는 대상에 매핑된다고 가정합니다 **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. 트레이트가 속한 데이터 소스에 데이터 내보내기 컨트롤이 있는 경우 내보내기 컨트롤을 사용하면 해당 세그먼트에 트레이트를 추가할 수 없습니다 **[!DNL Cannot be tied to personally identifiable information (PII)]**.
-* 대상 대상으로 데이터를 전송하는 경우 데이터 내보내기 컨트롤이 다음 중 하나에 대해 차단한 데이터 내보내기 레이블이 있습니다.
+예를 들어 세그먼트가 내보내기 레이블이 **[!DNL This destination may enable a combination with personally identifiable information (PII)]**&#x200B;인 대상에 매핑된다고 가정할 경우 트레이트가 속한 데이터 소스에 **[!DNL Cannot be tied to personally identifiable information (PII)]**&#x200B;이라는 데이터 내보내기 컨트롤이 있는 경우 내보내기 컨트롤을 사용하면 해당 세그먼트에 트레이트를 추가할 수 없습니다.
+* 대상 대상으로 데이터를 전송하는 경우 데이터 내보내기 레이블이 다음 중 하나에 대해 데이터 내보내기 컨트롤에 의해 차단됩니다.
    * 포함된 트레이트의 데이터 소스
    * 포함된 세그먼트에서 사용되는 트레이트의 데이터 소스
    * 포함된 세그먼트가 활용하는 프로필 병합 규칙;
    * 포함된 세그먼트의 프로필 병합 규칙이 사용하는 모든 데이터 소스
 
-[!UICONTROL Data Export Controls] 모든 Audience Manager 고객에게 자동으로 제공됩니다. 그러나 데이터 소스에 내보내기 컨트롤을 추가하려면 관리자 권한이 필요합니다. 대상에 내보내기 레이블을 추가하려면 대상을 만들거나 편집하려면 관리자 권한 *또는* 충분한 권한이 필요합니다.
+[!UICONTROL Data Export Controls] 모든 Audience Manager 고객에게 자동으로 제공됩니다. 그러나 데이터 소스에 내보내기 컨트롤을 추가하려면 관리자 권한이 필요합니다. 대상에 내보내기 레이블을 추가하려면 대상을 만들거나 편집할 수 있는 관리자 권한 *또는*&#x200B;이(가) 필요합니다.
 
-## 정의된 컨트롤 및 레이블 {#controls-labels}
+## {#controls-labels} 컨트롤 및 레이블 정의
 
 [!UICONTROL Data Export Controls] 데이터 소스 및 대상을 분류하는 데 도움이 되는 다음 컨트롤을 제공합니다.
 
-데이터 배달을 차단하려면 내보내기 컨트롤을 사용하여 데이터 소스를 분류하고 대상에 내보내기 레이블을 추가해야 합니다. 데이터 소스 또는 대상에만 내보내기 컨트롤을 적용하는 경우 이 기능은 데이터 제공을 제한하지 않습니다. 데이터 소스 *와* 대상에 모두 설정된 경우 내보내기 컨트롤은 세그먼트에 추가할 수 있는 트레이트를 제한하며 세그먼트 멤버를 대상으로 보내지 않습니다.
+데이터 배달을 차단하려면 내보내기 컨트롤을 사용하여 데이터 소스를 분류하고 대상에 내보내기 레이블을 추가해야 합니다. 데이터 소스 또는 대상에만 내보내기 컨트롤을 적용하는 경우 이 기능은 데이터 제공을 제한하지 않습니다. 데이터 소스 *과* 대상에 모두 설정된 경우 내보내기 컨트롤은 세그먼트에 추가할 수 있는 트레이트를 제한하고 세그먼트 구성원을 대상으로 보내지 않습니다.
 
-또한 데이터 전달 제한이 적용되기 전에 하나 이상의 내보내기 레이블이 내보내기 컨트롤과 일치해야 합니다. 예를 들어 데이터 소스에 [!UICONTROL PII] 내보내기 컨트롤을 추가한다고 가정해 봅시다. 그런 다음 대상에 온사이트 타깃팅 레이블을 추가합니다. 이 경우 설정이 일치하지 않으므로 내보내기 컨트롤이 데이터 배달을 제한하지 않습니다. 그러나 대상에 [!UICONTROL PII] 내보내기 레이블을 추가하면 내보내기 컨트롤이 내보내기를 차단합니다.
+또한 데이터 전달 제한이 적용되기 전에 하나 이상의 내보내기 레이블이 내보내기 컨트롤과 일치해야 합니다. 예를 들어 데이터 소스에 [!UICONTROL PII] 내보내기 컨트롤을 추가한다고 가정해 보십시오. 그런 다음 대상에 온사이트 타깃팅 레이블을 추가합니다. 이 경우 설정이 일치하지 않으므로 내보내기 컨트롤이 데이터 배달을 제한하지 않습니다. 그러나 [!UICONTROL PII] 내보내기 레이블을 대상에 추가하면 내보내기 컨트롤이 내보내기를 차단합니다.
 
 >[!IMPORTANT]
 >

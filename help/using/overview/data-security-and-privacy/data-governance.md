@@ -32,7 +32,7 @@ Audience Manager의 데이터 거버넌스는 Audience Manager에서 고객 데�
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
+>Audience Manager 사용자 인터페이스에서 [!DNL IP] 주소 난독화를 활성화하는 방법을 알려면 [IP 주소 난독화](../../features/administration/ip-obfuscation.md)를 참조하십시오.
 
 Audience Manager에서 [!DNL IP] 주소 난독화가 작동하는 방식을 이해하려면 아래 비디오를 보십시오.
 

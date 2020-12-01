@@ -1,6 +1,6 @@
 ---
 title: DCS(데이터 수집 서버) API 메서드 및 코드
-seo-title: AAM(Adobe Audience Manager)용 DCS(데이터 수집 서버) API 메서드 및 코드
+seo-title: Adobe Audience Manager(AAM)용 데이터 수집 서버(DCS) API 메서드 및 코드
 description: DCS(Audience Manager 데이터 수집 서버)에서 프로그래밍 방식으로 작업할 수 있는 코드, 메서드 및 기법.
 seo-description: DCS(Audience Manager 데이터 수집 서버)에서 프로그래밍 방식으로 작업할 수 있는 코드, 메서드 및 기법.
 feature: DCS
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 17%
+ht-degree: 38%
 
 ---
 
@@ -19,7 +19,7 @@ DCS(Audience Manager 데이터 수집 서버)에서 프로그래밍 방식으로
 
 * [DCS 이벤트 호출 API](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 
-   회사 정책이나 기타 기술 문제로 인해 JavaScript 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 API를 사용하여 DCS에서 데이터를 전송하고 반환할 수 있도록 Audience Manager을 사용하여 작업할 수 있습니다.
+   회사 정책이나 기타 기술 문제로 인해 JavaScript 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 API를 사용하여 DCS에서 데이터를 전송하고 반환할 수 있도록 Audience Manager를 사용하여 작업할 수 있습니다.
 
 * [서버 간 데이터 전송을 위한 DCS API](/help/using/api/dcs-intro/dcs-s2s/dcs-s2s.md)
 

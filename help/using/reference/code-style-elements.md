@@ -29,7 +29,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>변수가 <i>기울임꼴로 표시됩니다</i>. 변수 이름에 적절한 값을 대체합니다. </p> <p>시각적 명확성을 위해 변수 및 기타 코드 요소가 &lt; &gt; brackets 사이에 나타나는 경우가 있습니다. 코드에 이러한 심볼을 사용할 필요는 없습니다. </p> </td> 
+   <td colname="col2"> <p>변수가 <i>기울임체</i>에 나타납니다. 변수 이름에 적절한 값을 대체합니다. </p> <p>시각적 명확성을 위해 변수 및 기타 코드 요소가 &lt; &gt; brackets 사이에 나타나는 경우가 있습니다. 코드에 이러한 심볼을 사용할 필요는 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -37,7 +37,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>괄호 안의 항목은 부울 <span class="wintitle"> OR 선택을</span> 나타냅니다. </p> </td> 
+   <td colname="col2"> <p>괄호 안의 항목은 부울 <span class="wintitle"> OR</span> 선택을 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 

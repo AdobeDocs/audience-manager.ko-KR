@@ -44,14 +44,14 @@ Added re: AAM-30826.
 
 | 서비스 | URL/호스트 이름 | 액세스 권한을 얻는 방법 |
 |--- |--- | --- |
-| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의 | 베타 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3 [의 이점을](../reference/amazon-s3.md)확인하십시오. |
-| DCS | `https://dcs-beta.demdex.net/...` | 베타 [환경에서 DCS 액세스를 참조하십시오](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의 | 베타 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3](../reference/amazon-s3.md)을(를) 사용할 때의 [이점을 참조하십시오. |
+| DCS | `https://dcs-beta.demdex.net/...` | 베타 환경에서 [DCS 액세스](../reference/beta-environment.md#access-dcs-beta-environment)를 참조하십시오. |
 | UI | `https://bank-beta.demdex.com` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. |
-| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. 자세한 [내용을 참조하십시오](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. [자세한 내용](../api/rest-api-main/aam-api-getting-started.md#requirements)을 참조하십시오. |
 
 ## 베타 환경에서 DCS 액세스 {#access-dcs-beta-environment}
 
-1. 말림 [명령을 사용하여 DCS 호출을 만듭니다](https://curl.haxx.se/docs/manpage.html). Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 데이터를 서버로부터 또는 서버로 전송하는 도구입니다.
+1. curl [command](https://curl.haxx.se/docs/manpage.html)를 사용하여 DCS 호출을 만듭니다. Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 데이터를 서버로부터 또는 서버로 전송하는 도구입니다.
 
    예:
 

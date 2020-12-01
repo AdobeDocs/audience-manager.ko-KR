@@ -1,7 +1,7 @@
 ---
 description: 다른 소스에서 Audience Manager으로 고객 데이터 전송
-seo-description: 다른 소스에서 Adobe Audience Manager(AAM)로 대상 데이터를 보냅니다.
-seo-title: AAM(Adobe Audience Manager)에서 대상 데이터 전송
+seo-description: 다른 소스의 고객 데이터를 Adobe Audience Manager(AAM)으로 전송할 수 있습니다.
+seo-title: Adobe Audience Manager에서 대상 데이터 전송(AAM)
 title: 대상 데이터 보내기
 feature: Inbound Data Transfer
 translation-type: tm+mt

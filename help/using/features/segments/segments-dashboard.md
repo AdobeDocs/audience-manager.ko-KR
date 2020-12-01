@@ -17,11 +17,11 @@ ht-degree: 9%
 
 # 세그먼트 목록 보기 {#segments-list-view}
 
-세그먼트 [대시보드는](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) 대상 세그먼트를 관리하기 위한 중앙 작업 공간입니다. > [!UICONTROL Segments] 으로 이동하여 대시보드를 볼 수 **[!UICONTROL Audience Data]** 있습니다 **[!UICONTROL Segments]**.
+[세그먼트 대시보드](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list)는 대상 세그먼트를 관리하기 위한 중앙 작업 공간입니다. [!UICONTROL Segments] 대시보드는 **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**&#x200B;로 이동하여 볼 수 있습니다.
 
 ![segments-dashboard](assets/segments-dashboard.png)
 
-이 [!UICONTROL Segments] 페이지에는 다음과 같은 유용한 기능과 도구가 포함되어 있습니다.
+[!UICONTROL Segments] 페이지에는 다음과 같은 유용한 기능과 도구가 포함되어 있습니다.
 
 * 새 세그먼트 만들기;
 * 세그먼트 편집 및 삭제

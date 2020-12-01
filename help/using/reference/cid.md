@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # CID가 DPID 및 DPUUID 대체{#cid-replaces-dpid-and-dpuuid}
 
-및 `d_cid` 이 아닌 또 `d_cid_ic` 는 `d_dpid` 사용하도록 코드를 업데이트하십시오 `d_dpuuid`. DPID 및 DPUUID 변수는 계속 작동하지만 더 이상 사용되지 않습니다. 여기에는 DPID 및 DPUUID 변형이 포함되지 `d_ prefix`않습니다.
+`d_dpid` 및 `d_dpuuid` 대신 `d_cid` 또는 `d_cid_ic`을 사용하도록 코드를 업데이트하십시오. DPID 및 DPUUID 변수는 계속 작동하지만 더 이상 사용되지 않습니다. 여기에는 `d_ prefix` 없이 DPID 및 DPUUID 변형이 포함됩니다.
 
-## DPID 및 DPUUID: 검토 {#dpid-dpuuid-review}
+## DPID 및 DPUUID:검토 {#dpid-dpuuid-review}
 
-DPID 및 DPUUID는 데이터 공급자 ID와 사용자 ID가 포함된 키-값 쌍입니다. 이 키-값 쌍은 링크 공급자 ID를 사용자 ID에 연결합니다. 이벤트 호출 동안, 인바운드 동기화 이벤트에 대해, ID 호출에 대해 데이터를 전송합니다. ID, [!DNL Audience Manager]및 기타 서비스 또는 기능이 없으면 ID와 일치하거나 동기화할 수 없습니다. 이러한 변수는 아래와 같이 접두사가 있거나 없는 경우에 `d_` 표시됩니다. Note, in the code, *italics* indicates a variable placeholder.
+DPID 및 DPUUID는 데이터 공급자 ID와 사용자 ID가 포함된 키-값 쌍입니다. 이 키-값 쌍은 링크 공급자 ID를 사용자 ID에 연결합니다. 이벤트 호출 동안, 인바운드 동기화 이벤트에 대해, ID 호출에 대해 데이터를 전송합니다. 이러한 도메인이 없으면 [!DNL Audience Manager] 및 기타 서비스 또는 기능은 ID와 일치하거나 동기화할 수 없습니다. 이러한 변수는 종종 아래와 같이 `d_` 접두사로 표시되거나 사용되지 않습니다. 코드에서 *기울임체*&#x200B;는 변수 자리 표시자를 나타냅니다.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -52,14 +52,14 @@ DPID 및 DPUUID는 데이터 공급자 ID와 사용자 ID가 포함된 키-값 �
 
 이러한 키-값 쌍은 여전히 작동하지만 더 이상 사용되지 않습니다. CID 또는 CID_IC를 대신 사용하도록 코드를 업데이트해야 합니다.
 
-## CID 및 CID_IC: 정보 {#cid-cidic-about}
+## CID 및 CID_IC:{#cid-cidic-about} 정보
 
 CID 및 CID_IC 키-값 쌍은 DPID 및 DPUUID를 대체합니다. DPID 및 DPUUID와 동일한 기능을 제공하지만 데이터 공급자 ID(또는 통합 코드)와 사용자 ID를 단일 키-값 쌍에 포함하므로 보다 효율적입니다. 각 키-값 쌍에서:
 
 * = 기호는 키와 관련 값을 구분합니다.
 * 인쇄되지 않는 ASCII 문자 %01은 값을 구분합니다.
 
-`d_cid` 및 아래 표시된 구문을 `d_cid_ic` 사용하십시오. Note, in the code, *italics* indicates a variable placeholder.
+`d_cid` 및 아래 표시된 구문을  `d_cid_ic` 사용하십시오. 코드에서 *기울임체*&#x200B;는 변수 자리 표시자를 나타냅니다.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
@@ -75,19 +75,19 @@ CID 및 CID_IC 키-값 쌍은 DPID 및 DPUUID를 대체합니다. DPID 및 DPUUI
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 통합 코드(CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> 통합 코드 <span class="term"> 는 Audience Manager에서 할당한 데이터 소스 ID 대신 사용할 수 있는 대체 ID입니다</span><span class="keyword"></span>. 통합 코드 <a href="../features/manage-datasources.md#create-data-source"> 를</a> 구성해야 하는 경우 데이터 소스 만들기를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> <span class="term"> 통합 코드</span>는 <span class="keyword"> Audience Manager</span>에서 할당한 데이터 소스 ID 대신 사용할 수 있는 대체 ID입니다. 통합 코드를 구성해야 하는 경우 <a href="../features/manage-datasources.md#create-data-source"> 데이터 소스 만들기</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-선언된 ID에 대한 [URL 변수 및 구문을 참조하십시오](../features/declared-ids.md#variables-and-syntax).
+선언된 ID](../features/declared-ids.md#variables-and-syntax)에 대한 [URL 변수 및 구문을 참조하십시오.
 
 >[!NOTE]
 >
->액세스 권한이 있는 데이터 소스 및 전역 [공유 데이터 소스에](../features/datasources-list-and-settings.md#settings-menu-options)통합 코드를 사용할 수 있습니다. 예를 들어 모바일 식별자 데이터 소스를 사용하여 작업할 때 통합 코드를 사용할 수 있습니다. 아래 지정된 것과 정확히 동일하게 다음 통합 코드를 사용하십시오.
+>사용자가 액세스할 수 있는 전역 [공유 데이터 소스](../features/datasources-list-and-settings.md#settings-menu-options)에 대해 사용자 자신의 데이터 소스 및 통합 코드를 사용할 수 있습니다. 예를 들어 모바일 식별자 데이터 소스를 사용하여 작업할 때 통합 코드를 사용할 수 있습니다. 아래 지정된 것과 정확히 동일하게 다음 통합 코드를 사용하십시오.
 
 * **GAID용 DSID_20914** , Android 운영 체제를 실행하는 장치를 나타냅니다.
-* **iOS 운영 체제를 실행하는 장치를 나타내는 IDFA용 DSID_20915** .
+* **iOS 운영 체제** 를 실행하는 장치를 나타내는 IDFA용 DSID_20915
 
 **예**
 
@@ -128,13 +128,13 @@ CID 및 CID_IC 키-값 쌍은 DPID 및 DPUUID를 대체합니다. DPID 및 DPUUI
  </tbody> 
 </table>
 
-각 호출에는 다음과 같은 여러 `d_cid` 및 `d_cid_ic` 키 값 쌍을 포함할 수도 있습니다.
+각 호출에는 다음과 같은 여러 개의 `d_cid` 및 `d_cid_ic` 키 값 쌍을 포함할 수도 있습니다.
 
 ```
 ...?d_cid=123%01456&d_cid=123%01789&d_cid_ic=543%01333...
 ```
 
-## 개발 팀의 주요 고려 사항 {#dev-considerations}
+## 개발 팀의 중요 고려 사항 {#dev-considerations}
 
 <table id="table_5DD068FAE68A42CDB49B6C064706802A"> 
  <thead> 
@@ -146,18 +146,18 @@ CID 및 CID_IC 키-값 쌍은 DPID 및 DPUUID를 대체합니다. DPID 및 DPUUI
  <tbody> 
   <tr> 
    <td colname="col1"> <p>URL 인코딩 </p> </td> 
-   <td colname="col2"> <p>개발 팀은 CID 키-값 쌍의 다음 변수에 URL 인코딩을 <i>적용해야</i> 합니다. </p> <p> 
+   <td colname="col2"> <p>개발 팀 <i>은(는) CID 키-값 쌍의 다음 변수에 URL 인코딩을 적용해야 합니다.</i> </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
       <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
-     </ul> </p> <p> <p>참고: 사용자 ID와 통합 코드를 문자열에 연결하기 <i>전에</i> URL을 인코딩해야 합니다. 두 변수를 구분하는 ASCII 문자 %01은 URL 인코딩에서 캡처되지 않아야 합니다. </p> </p> <p>URL 인코딩을 사용하면 + 또는 = 와 같이 예약되거나 안전하지 않은 문자가 포함되어 있는 사용자 ID 및 통합 코드가 서버로 올바르게 전송되도록 할 수 있습니다. </p> <p>참조용으로 <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> ASCII 인코딩 테이블을</a> 사용합니다. </p> </td> 
+     </ul> </p> <p> <p>참고:사용자 ID와 통합 코드 <i>을(를) 문자열에 연결하기 전에 URL을 인코딩해야 합니다. </i> 두 변수를 구분하는 ASCII 문자 %01은 URL 인코딩에서 캡처되지 않아야 합니다. </p> </p> <p>URL 인코딩을 사용하면 + 또는 = 와 같이 예약되거나 안전하지 않은 문자가 포함되어 있는 사용자 ID 및 통합 코드가 서버로 올바르게 전송되도록 할 수 있습니다. </p> <p>참조용으로 <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> ASCII 인코딩 표</a>를 사용하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>전역 공유 데이터 소스에 대한 통합 코드 사용 </p> </td> 
-   <td colname="col2"> <p>액세스 권한이 있는 고유한 데이터 소스 및 전역 <a href="../features/datasources-list-and-settings.md#settings-menu-options"> 공유 데이터 소스에</a>통합 코드를 사용할 수 있습니다. 예를 들어 모바일 식별자 데이터 소스를 사용하여 작업할 때 통합 코드를 사용할 수 있습니다. 아래 지정된 것과 정확히 동일하게 다음 통합 코드를 사용하십시오. </p> <p> 
+   <td colname="col2"> <p>액세스 권한이 있는 사용자 자신의 데이터 소스 및 전역 <a href="../features/datasources-list-and-settings.md#settings-menu-options"> 공유 데이터 소스</a>에 대한 통합 코드를 사용할 수 있습니다. 예를 들어 모바일 식별자 데이터 소스를 사용하여 작업할 때 통합 코드를 사용할 수 있습니다. 아래 지정된 것과 정확히 동일하게 다음 통합 코드를 사용하십시오. </p> <p> 
      <ul id="ul_B306EE96A3BD4CE982E113D5E23826CF"> 
       <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>GAID용 DSID_20914</b> , Android 운영 체제를 실행하는 장치를 나타냅니다. </li> 
-      <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>iOS 운영 체제를 실행하는 장치를 나타내는 IDFA용 DSID_20915</b> . </li> 
+      <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>iOS 운영 체제</b> 를 실행하는 장치를 나타내는 IDFA용 DSID_20915 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

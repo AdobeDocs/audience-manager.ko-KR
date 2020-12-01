@@ -21,9 +21,9 @@ ht-degree: 6%
 
 <!-- c_partner_site.xml -->
 
-## Create a New Domain {#create-new-domain}
+## 새 도메인 {#create-new-domain} 만들기
 
-새 도메인(쿠키 대상만)을 만들 수 있는 `POST` 방법입니다.
+쿠키 목적으로만 새 도메인을 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 
 ### 응답
 
-성공적인 응답과 고유 ID를 비롯한 파트너 사이트 `201 created` 가 반환됩니다.
+성공적인 응답은 고유 ID를 포함하여 `201 created` 및 파트너 사이트를 반환합니다.
 
 ```
 {
@@ -51,9 +51,9 @@ ht-degree: 6%
 }
 ```
 
-## 도메인 삭제 {#delete-domain}
+## 도메인 {#delete-domain} 삭제
 
-도메인을 제거할 수 있는 `DELETE` 메서드입니다(쿠키 대상에만 해당).
+도메인을 제거할 수 있는 `DELETE` 메서드입니다(쿠키 목적지에만 해당).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -63,11 +63,11 @@ ht-degree: 6%
 
 ### 응답
 
-성공적인 응답이 반환됩니다 `204 no content`. 파트너 사이트를 찾을 수 없는 `404 not found` 경우 반환합니다.
+성공적인 응답은 `204 no content`을 반환합니다. 파트너 사이트를 찾을 수 없을 경우 `404 not found`을 반환합니다.
 
-## 도메인에 대한 속성 반환 {#return-props-domain}
+## 도메인 {#return-props-domain}에 대한 속성 반환
 
-지정된 도메인에 대한 세부 사항을 반환하는 `GET` 메서드입니다(쿠키 목적지에만 해당).
+지정한 도메인에 대한 세부 정보를 반환하는 `GET` 메서드입니다(쿠키 목적지에만 해당).
 
 <!-- r_get_partner_site.xml -->
 
@@ -77,7 +77,7 @@ ht-degree: 6%
 
 ### 응답
 
-성공적인 응답은 아래 샘플에 표시된 대로 `200 OK` 와 데이터를 반환합니다. 사이트 ID 또는 파트너가 없으면 `404 Not found` 반환합니다.
+성공적인 응답은 아래 샘플에 표시된 대로 `200 OK`과 데이터를 반환합니다. 사이트 ID 또는 파트너가 없으면 `404 Not found`을 반환합니다.
 
 ```
 {
@@ -87,7 +87,7 @@ ht-degree: 6%
 }
 ```
 
-## 모든 도메인에 대한 속성 반환 {#return-props-all-domains}
+## 모든 도메인 {#return-props-all-domains}에 대한 속성 반환
 
 모든 도메인에 대한 정보를 반환하는 `GET` 메서드입니다(쿠키 대상에만 해당).
 
@@ -99,7 +99,7 @@ ht-degree: 6%
 
 ### 선택적 쿼리 매개 변수
 
-이러한 선택적 매개 변수를 개체에 대한 [!DNL API] 모든 ** 속성을 반환하는 메서드와 함께 사용할 수 있습니다. 요청 문자열에 해당 쿼리를 전달하면 이 옵션을 설정합니다 [!DNL API]. 선택적 매개 [변수를 참조하십시오](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+개체에 대해 *모든* 속성을 반환하는 [!DNL API] 메서드와 함께 이러한 선택적 매개 변수를 사용할 수 있습니다. 요청 문자열에서 해당 쿼리를 [!DNL API]에 전달할 때 이 옵션을 설정합니다. [선택적 매개 변수](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)를 참조하십시오.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -134,7 +134,7 @@ ht-degree: 6%
 
 ### 응답
 
-성공적인 응답은 아래 샘플과 같이 배열에 있는 데이터 `200 OK` 를 반환합니다. 사이트 ID 또는 파트너가 없으면 `404 Not found` 반환합니다.
+성공적인 응답은 아래 샘플과 같이 배열에 있는 `200 OK`과 데이터를 반환합니다. 사이트 ID 또는 파트너가 없으면 `404 Not found`을 반환합니다.
 
 ```
 [

@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # 메타데이터 파일에 대한 상태 업데이트{#status-updates-for-metadata-files}
 
-S3 상태 디렉토리에는 업로드된 파일에 대한 성공 및 실패 정보가 포함된 `.info` 파일이 저장됩니다. 이 파일에는 JSON 형식의 데이터가 포함되어 있으며 상태 결과는 배열에 있습니다.
+S3 상태 디렉토리에는 업로드된 파일에 대한 성공 및 실패 정보가 있는 `.info` 파일이 있습니다. 이 파일에는 JSON 형식의 데이터가 포함되어 있으며 상태 결과는 배열에 있습니다.
 
-파일의 내용은 이 `.info` 예제와 비슷합니다.
+`.info` 파일의 내용은 이 예제와 비슷합니다.
 
 ```js
 //sample file path
@@ -60,9 +60,9 @@ S3 상태 디렉토리에는 업로드된 파일에 대한 성공 및 실패 정
 }
 ```
 
-## 정의된 메타데이터 키-값 쌍 {#key-value-pairs}
+## 메타데이터 키-값 쌍 정의 {#key-value-pairs}
 
-다음 표 목록을 작성하고 메타데이터 상태 파일의 `Files` 및 섹션 `Summary` 에서 키를 정의합니다.
+다음 표 목록을 표시하고 메타데이터 상태 파일의 `Files` 및 `Summary` 섹션에서 키를 정의합니다.
 
 **파일 배열의 키**
 
@@ -84,19 +84,19 @@ S3 상태 디렉토리에는 업로드된 파일에 대한 성공 및 실패 정
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>디렉터리에 업로드된 메타데이터 파일의 MD 5 체크섬 <code> meta</code> . </p> </td> 
+   <td colname="col2"> <p><code> meta</code> 디렉토리로 업로드된 메타데이터 파일의 MD 5 체크섬. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>디렉토리에 업로드된 메타데이터 파일의 <code> meta</code> 이름입니다. </p> </td> 
+   <td colname="col2"> <p><code> meta</code> 디렉토리로 업로드된 메타데이터 파일의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>파일에 포함된 데이터 유형에 대해 읽을 수 있는 이름입니다. 파일 이름의 자식 ID를 기반으로 합니다. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>파일에 포함된 데이터 유형에 대해 읽을 수 있는 이름입니다. 파일 이름의 자식 ID를 기반으로 합니다. </p> <p>메타데이터 파일에 대한 <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> 이름 지정 규칙</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>파일에 포함된 데이터 유형에 대해 읽을 수 있는 이름입니다. 파일 이름의 상위 ID를 기반으로 합니다. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>파일에 포함된 데이터 유형에 대해 읽을 수 있는 이름입니다. 파일 이름의 상위 ID를 기반으로 합니다. </p> <p>메타데이터 파일에 대한 <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> 이름 지정 규칙</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -121,7 +121,7 @@ S3 상태 디렉토리에는 업로드된 파일에 대한 성공 및 실패 정
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>파일 처리 날짜 형식을 <code><i>yyyy-mm-dd</i></code> 지정합니다. </p> </td> 
+   <td colname="col2"> <p>파일 처리 날짜( <code><i>yyyy-mm-dd</i></code> 형식)입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 

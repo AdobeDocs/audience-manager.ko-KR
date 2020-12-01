@@ -16,16 +16,16 @@ ht-degree: 39%
 ---
 
 
-# [!DNL API] 및 [!DNL SDK] 코드 {#api-and-sdk-code}
+# [!DNL API] 및  [!DNL SDK] 코드  {#api-and-sdk-code}
 
 [!DNL API]s 및 toolkit을 사용하여 프로그래밍 방식으로 작업할 수 있습니다 [!DNL Audience Manager].
 
 >[!NOTE]
 >
->이러한 기능은 Adobe에서 지원하지 [!DNL API]않습니다.
+>이러한 기능은 [!DNL API]s에서 지원되지 않습니다.
 >
->* [!UICONTROL General], [!UICONTROL Trend]및 [!UICONTROL Interactive] 보고서.
->* 더 이상 사용되지 [!DNL Tag Insertion Manager] 않는 ([!DNL TIM]) 기능.
+>* [!UICONTROL General],  [!UICONTROL Trend]and  [!UICONTROL Interactive] reports.
+>* 더 이상 사용되지 않는 [!DNL Tag Insertion Manager]([!DNL TIM]) 기능입니다.
 
 
 세부 사항:

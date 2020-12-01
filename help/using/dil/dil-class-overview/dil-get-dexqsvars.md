@@ -33,11 +33,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | 문자열 | 값을 가져올 변수의 이름. |
 | `partner` | 문자열 | 검색할 파트너 이름입니다. |
-| `containerNSID` | 정수 | 검색하는 컨테이너 [!DNL NSID] 의 이름입니다. 기본값은 입니다 `0`. |
+| `containerNSID` | 정수 | 검색하는 컨테이너의 [!DNL NSID]입니다. 기본값은 `0`입니다. |
 
 **응답**
 
-인스턴스의 변수 값을 [!UICONTROL DIL] 반환합니다.
+[!UICONTROL DIL] 인스턴스의 변수 값을 반환합니다.
 
 **샘플 코드**
 

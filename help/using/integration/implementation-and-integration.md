@@ -16,7 +16,7 @@ ht-degree: 81%
 
 # 구현 및 통합 개요
 
-Work with data from [!DNL Experience Cloud] solutions or other external systems in [!DNL Audience Manager].
+[!DNL Experience Cloud] 솔루션 또는 [!DNL Audience Manager]의 다른 외부 시스템에서 얻은 데이터를 사용하여 작업할 수 있습니다.
 
 * [데이터 통합 방법](data-integration-methods.md)
 * [Audience Manager 구현](implement-audience-manager.md)

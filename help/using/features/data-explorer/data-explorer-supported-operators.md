@@ -34,12 +34,12 @@ ht-degree: 9%
 
 ### 명명된 연산자
 
-| 연산자 | 평가일 [!DNL True] 때 |
+| 연산자 | When[!DNL True] |
 |---|---|
-| **[!UICONTROL Contains]** | 키-값 쌍의 값에는 이 연산자로 지정된 문자가 *포함되어* 있습니다. |
-| **[!UICONTROL Startswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 ** 시작합니다. |
-| **[!UICONTROL Endswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 ** 끝납니다. |
+| **[!UICONTROL Contains]** | 키-값 쌍 *에 있는 값은 이 연산자가 지정한* 문자를 포함합니다. |
+| **[!UICONTROL Startswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자*&#x200B;로 시작합니다. |
+| **[!UICONTROL Endswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자로 끝납니다.* |
 
 ## 특성 채우기 및 추정에 지원되는 연산자 {#supported-operators-backfilling}
 
-에서 지원하는 연산자가 포함된 표현식을 포함하는 트레이트를 채울 수 있습니다 [!UICONTROL Signal Search]. 이러한 연산자 외에도, 트레이트 채우기 및 추정은 백채워진 트레이트 표현식 내에서 키-값 쌍을 결합하는 데 사용되는 [!UICONTROL AND], [!UICONTROL OR]및 [!UICONTROL AND NOT] 논리 연산자를 지원합니다.
+[!UICONTROL Signal Search]에서 지원하는 연산자를 포함하는 표현식이 포함된 트레이트를 채울 수 있습니다. 이러한 연산자 외에도 트레이트 채우기 및 추정은 백채워진 트레이트 표현식 내에서 키-값 쌍을 결합하는 데 사용되는 [!UICONTROL AND], [!UICONTROL OR] 및 [!UICONTROL AND NOT] 논리 연산자를 지원합니다.

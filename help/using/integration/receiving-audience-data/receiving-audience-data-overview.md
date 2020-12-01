@@ -1,7 +1,7 @@
 ---
 description: Audience Manager에서 고객 데이터를 수신합니다.
-seo-description: Adobe Audience Manager(AAM)에서 대상 데이터를 받습니다.
-seo-title: AAM(Adobe Audience Manager)에서 대상 데이터 수신
+seo-description: Adobe Audience Manager(AAM)에서 고객 데이터를 수신합니다.
+seo-title: Adobe Audience Manager에서 대상 데이터 수신(AAM)
 title: 대상 데이터 수신
 feature: Outbound Data Transfers
 translation-type: tm+mt

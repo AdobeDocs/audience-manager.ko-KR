@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # [!DNL Amazon S3]인바운드 데이터 파일에 대한 이름 및 파일 크기 요구 사항{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-데이터를 보낼 때 따라야 하는 필수 필드, 구문, 이름 지정 규칙 및 파일 크기에 대해 설명합니다 [!DNL Audience Manager]. 데이터를 [!DNL Audience Manager] / [!DNL Amazon S3] 디렉토리로 전송할 때 이러한 사양에 따라 파일의 이름과 크기를 설정할 수 있습니다.
+데이터를 [!DNL Audience Manager]으로 보낼 때 따라야 할 필수 필드, 구문, 이름 지정 규칙 및 파일 크기에 대해 설명합니다. 데이터를 [!DNL Audience Manager] / [!DNL Amazon S3] 디렉토리로 전송할 때 이러한 사양에 따라 파일의 이름과 크기를 설정합니다.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 * **파일 이름 요소:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-허용되는 다른 파일 이름 포맷은 사용자 지정 파트너 [통합을 참조하십시오](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+허용되는 다른 파일 이름 포맷은 [사용자 지정 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)을 참조하십시오.
 
 <!--
 Removed  {importance="high"} for ExL
@@ -39,11 +39,11 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->[!DNL Audience Manager] 프로세스 [!DNL ASCII] 와 [!DNL UTF-8] 인코딩된 파일만 처리합니다.
+>[!DNL Audience Manager] 프로세스 [!DNL ASCII] 와  [!DNL UTF-8] 인코딩된 파일만 처리합니다.
 
 ### 이름 요소
 
-이 표에서는 파일 이름의 요소를 [!DNL S3] 정의합니다.
+이 표에서는 [!DNL S3] 파일 이름의 요소를 정의합니다.
 
 <table id="table_455D174BAB9B494D973DA1023F22B962"> 
  <thead> 
@@ -63,27 +63,27 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>데이터 파일에 사용자 ID, Android ID, iOS ID 또는 <span class="keyword"> 글로벌 데이터 소스에 속하는 기타 ID가 포함되어 있는지 Audience Manager</span> 을 알리는 <a href="/help/using/features/global-data-sources.md"> ID입니다</a>. 다음 옵션을 수락합니다.</p> 
+   <td colname="col2"> <p>데이터 파일에 사용자 ID, Android ID, iOS ID 또는 <a href="/help/using/features/global-data-sources.md"> 글로벌 데이터 소스</a>에 속하는 기타 ID가 포함된 경우 <span class="keyword"> Audience Manager</span>을 알려주는 ID입니다. 다음 옵션을 수락합니다.</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 소스 ID(데이터 공급자 ID라고도 함):</b> Audience Manager이 데이터 소스에 할당하는 고유한 ID입니다(ID의 Audience Manager <a href="/help/using/reference/ids-in-aam.md"> 색인 참조 </a>). 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어 데이터 소스 21에 속하는 ID에 데이터를 <code>...ftp_dpm_21_123456789.sync</code> Audience Manager <span class="keyword"></span> 에 전송합니다. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914를 사용하십시오. Android ID를 사용할 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 때는 필드를 사용해야 합니다. 예를 들어 데이터 파일에 Android ID만 <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> 포함되어 있고 ID는 <span class="keyword"></span> <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트를 사용할 수 있어야 한다고 Audience Manager에 알려줍니다.</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> iOS ID가 포함된 경우 데이터 파일 이름에 ID 20915를 사용하십시오. iOS ID를 사용할 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 때 필드를 사용해야 합니다. 예를 들어 데이터 파일에 iOS ID만 <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> 포함되어 있고 ID는 <span class="keyword"></span> <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트를 사용할 수 있어야 한다고 Audience Manager에 알려줍니다.</li>
-     <li> <b>다른 글로벌 데이터 소스에 속하는 ID</b>:RIDA(Advertising), Microsoft Advertising ID(WEDER) 및 기타 ID를 위한 Roku ID를 게시할 수 있습니다. 글로벌 데이터 소스 문서에 설명된 대로 각 데이터 소스에 해당하는 ID를 <a href="/help/using/features/global-data-sources.md"> 사용하십시오</a>.</li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 소스 ID(데이터 공급자 ID라고도 함): </b> Audience Manager이 데이터 소스에 할당하는 고유한 ID입니다(ID의 Audience Manager  <a href="/help/using/reference/ids-in-aam.md">   </a>색인 참조). 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용합니다. 예를 들어 <code>...ftp_dpm_21_123456789.sync</code>은 <span class="keyword"> Audience Manager</span>에게 데이터 소스 21에 속하는 ID에 데이터를 올리도록 지시합니다. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID): 데이터 파일 이름에 </b> Android ID가 포함된 경우 ID 20914를 사용합니다. Android ID를 사용할 때는 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 필드를 사용해야 합니다. 예를 들어 <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code>은 <span class="keyword"> Audience Manager</span>에게 데이터 파일에 Android ID만 포함되며 ID는 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트를 사용할 수 있어야 한다고 알려줍니다.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA): </b> 데이터 파일 이름에 iOS ID가 포함된 경우 ID 20915를 사용합니다. iOS ID를 사용할 때는 필드 <code><i>_DPID_TARGET_DATA_OWNER</i></code>을 사용해야 합니다. 예를 들어 <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code>은 <span class="keyword"> Audience Manager</span>에게 데이터 파일에 iOS ID만 포함되며 ID는 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트를 사용할 수 있어야 한다고 알려줍니다.</li>
+     <li> <b>다른 글로벌 데이터 소스에 속하는 ID</b>:RIDA(Advertising), Microsoft Advertising ID(WEDER) 및 기타 ID를 위한 Roku ID를 게시할 수 있습니다. <a href="/help/using/features/global-data-sources.md"> 글로벌 데이터 소스 아티클</a>에 설명된 대로 각 데이터 소스에 해당하는 ID를 사용하십시오.</li> 
     </ul> <p> <p>참고: 데이터 파일에 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 iOS ID나 자신의 ID를 데이터 파일에 넣지 마십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>이 필드에서는 데이터 입체를 위한 데이터 소스를 Audience Manager에 알려 줍니다. DPID를 Android ID 또는 iOS ID나 글로벌 데이터 소스에 속하는 다른 ID로 설정하는 경우 이 필드는 필수입니다. 이렇게 하면 <span class="keyword"> Audience Manager</span> 에서 파일 데이터를 조직에 다시 연결할 수 있습니다. </p> <p>예: </p> 
+   <td colname="col2"> <p>이 필드에서는 데이터 입체를 위한 데이터 소스를 Audience Manager에 알려 줍니다. DPID를 Android ID 또는 iOS ID나 글로벌 데이터 소스에 속하는 다른 ID로 설정하는 경우 이 필드는 필수입니다. 이렇게 하면 <span class="keyword"> Audience Manager</span>에서 파일 데이터를 조직에 다시 연결할 수 있습니다. </p> <p>예: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> 데이터 소스 21에 속하는 트레이트 또는 신호에 대해 데이터 소스 33에 속하는 고객 ID를 Audience Manager에 알려줍니다. </li> 
-     <li> <b>Android ID(GAID):</b><code>...ftp_dpm_20914_21_1234567890.sync</code> 은 데이터 파일에 Android ID만 포함되며 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 함을 <span class="keyword"> Audience Manager에</span> 알립니다.</li> 
-     <li> <b>iOS ID(IDFA):</b><code>...ftp_dpm_20915_21_1234567890.sync</code> 는 데이터 파일에 iOS ID만 포함되며 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 함을 <span class="keyword"> Audience Manager에</span> 알립니다.</li>
-     <li> <b>다른 글로벌 데이터 소스에 속하는 ID</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> 은 데이터 파일에 Roku ID만 포함되며 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 함을 <span class="keyword"> Audience Manager에</span> 알립니다. 글로벌 데이터 소스 문서에 설명된 대로 각 데이터 소스에 해당하는 ID를 <a href="/help/using/features/global-data-sources.md"> 사용하십시오</a>.</li> 
+     <li> <b>Android ID(GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> Audience Manager <span class="keyword"> 에게 데이터 파일에 Android ID만 포함되어 있고 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 한다고 </span> 알립니다.</li> 
+     <li> <b>iOS ID(IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> 데이터 파일에 iOS ID만  <span class="keyword"> 포함되어 있고 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 한다고 Audience </span> Manager에게 알립니다.</li>
+     <li> <b>다른 글로벌 데이터 소스에 속하는 ID</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> 데이터 파일 <span class="keyword"> 에 Roku </span> ID만 있고 ID는 데이터 소스 21에 속하는 트레이트를 사용할 수 있어야 한다고 대상 관리자에게 알립니다. <a href="/help/using/features/global-data-sources.md"> 글로벌 데이터 소스 아티클</a>에 설명된 대로 각 데이터 소스에 해당하는 ID를 사용하십시오.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner_name</i> </code> </p> </td> 
-   <td colname="col2"> <p>Audience Manager에서 사용하는 회사 또는 조직 <span class="keyword"> 이름입니다</span>. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>에서 사용하는 회사 또는 조직 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
@@ -106,11 +106,11 @@ Removed  {importance="high"} for ExL
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">압축되지 않음:1GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">압축:200-300MB </li> 
-    </ul> <p>아래의 처음 2개의 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> 파일 이름 예를</a> 참조하십시오. </p> </td> 
+    </ul> <p>아래의 첫 번째 2개의 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> 파일 이름 예</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>파일을 Amazon S3로 보낼 때는 gzip 압축만 사용하십시오. 압축하면 확장자가 <code> .gz</code> 지정됩니다. .zip 압축을 사용하지 마십시오. </p> <p>압축된 파일은 3GB 이하여야 합니다. 파일이 더 큰 경우 고객 지원 센터에 문의하십시오. Audience Manager은 대용량 파일을 처리할 수 있지만 파일 크기를 줄이고 데이터 전송을 보다 효율적으로 수행할 수 있습니다. <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">인바운드 데이터 전송 파일에 대한 파일 압축</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>파일을 Amazon S3로 보낼 때는 gzip 압축만 사용하십시오. 압축되면 이러한 파일은 <code> .gz</code> 확장자를 가져옵니다. .zip 압축을 사용하지 마십시오. </p> <p>압축된 파일은 3GB 이하여야 합니다. 파일이 더 큰 경우 고객 지원 센터에 문의하십시오. Audience Manager은 대용량 파일을 처리할 수 있지만 파일 크기를 줄이고 데이터 전송을 보다 효율적으로 수행할 수 있습니다. <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">인바운드 데이터 전송 파일에 대한 파일 압축</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,11 +127,11 @@ Removed  {importance="high"} for ExL
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-추가 예를 [원할 경우 샘플 파일을 다운로드할](assets/ftp_dpm_1234_1445374061.overwrite) 수 있습니다. 이 파일은 파일 확장자와 함께 `.overwrite` 저장되었습니다. 간단한 텍스트 편집기로 엽니다.
+추가 예를 원할 경우 [샘플 파일을 다운로드할 수 있습니다. ](assets/ftp_dpm_1234_1445374061.overwrite) 이 파일은 `.overwrite` 파일 확장자로 저장되었습니다. 간단한 텍스트 편집기로 엽니다.
 
 ## 허용되는 파일 크기 {#accepted-file-sizes}
 
-파일 처리 속도가 빠르고 빨라진 것은 물론 데이터를 [!DNL Audience Manager] / [!DNL Amazon S3] 디렉토리로 전송할 때는 파일 크기 제한을 고려해야 합니다.
+데이터를 [!DNL Audience Manager] / [!DNL Amazon S3] 디렉토리로 전송할 때 파일 크기가 제한되므로 파일을 가장 빠르고 빨리 처리하기 위한 아래 수치를 고려합니다.
 
 <table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
  <thead> 

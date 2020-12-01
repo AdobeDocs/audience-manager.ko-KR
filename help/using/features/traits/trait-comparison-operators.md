@@ -17,13 +17,13 @@ ht-degree: 11%
 
 # 트레이트 빌더에서 비교 연산자 사용 {#working-with-comparison-operators-in-trait-builder}
 
-이 문서에서는 사용자가 사용하는 비교 연산자에 대해 설명합니다 [!UICONTROL Trait Builder].
+이 문서에서는 [!UICONTROL Trait Builder]에 사용되는 비교 연산자에 대해 설명합니다.
 
 ## 비교 연산자 목적
 
 <!-- c_tb_comparison_operators.xml -->
 
-비교 연산자(또는 관계형 연산자)는 서로 다른 값 간의 관계를 비교, 테스트 또는 평가하는 데 사용됩니다. 에서 신호 규칙을 작성할 [!UICONTROL Trait Builder]때 비교 연산자를 사용하면 서로 다른 키-값 쌍 간의 관계를 테스트할 수 있습니다. 예를 들어 신호 규칙을 만들어 값비싼 카메라 구매자를 위한 대상을 정의할 수 있습니다. 이 경우 카메라/가격 키-값 쌍을 만들고 사용자가 설정한 금액보다 가격이 크거나 같은 카메라를 찾은 경우 자격을 부여할 수 있습니다.
+비교 연산자(또는 관계형 연산자)는 서로 다른 값 간의 관계를 비교, 테스트 또는 평가하는 데 사용됩니다. [!UICONTROL Trait Builder]에서 신호 규칙을 작성할 때 비교 연산자를 사용하면 다른 키-값 쌍 간의 관계를 테스트할 수 있습니다. 예를 들어 신호 규칙을 만들어 값비싼 카메라 구매자를 위한 대상을 정의할 수 있습니다. 이 경우 카메라/가격 키-값 쌍을 만들고 사용자가 설정한 금액보다 가격이 크거나 같은 카메라를 찾은 경우 자격을 부여할 수 있습니다.
 
 ## 비교 연산자의 이점
 
@@ -46,13 +46,13 @@ ht-degree: 11%
 
 다음과 같은 명명된 연산자로 규칙을 작성할 수 있습니다.
 
-| 연산자 | 평가일 [!DNL True] 때 |
+| 연산자 | When[!DNL True] |
 |---|---|
-| **[!UICONTROL Contains]** | 키-값 쌍의 값에는 이 연산자로 지정된 문자가 *포함되어* 있습니다. |
-| **[!UICONTROL Matcheswords]** | 키-값 쌍의 값은 이 연산자가 지정한 패턴과 *일치합니다* . |
-| **[!UICONTROL Startswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 ** 시작합니다. |
-| **[!UICONTROL Endswith]** | 키-값 쌍의 값은 이 연산자가 지정한 문자로 ** 끝납니다. |
-| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값은 정규 표현식으로 지정된 패턴과 *일치합니다* . [정규 표현식을 사용하는 방법에 대해 자세히](../../features/traits/trait-builder-regex.md) 알아보십시오 [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Contains]** | 키-값 쌍 *에 있는 값은 이 연산자가 지정한* 문자를 포함합니다. |
+| **[!UICONTROL Matcheswords]** | 키-값 쌍 *의 값은 이 연산자가 지정한 패턴과 일치합니다.* |
+| **[!UICONTROL Startswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자*&#x200B;로 시작합니다. |
+| **[!UICONTROL Endswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자로 끝납니다.* |
+| **[!UICONTROL Matchesregex]** | 키-값 쌍 *의 값은 정규 표현식에 의해 지정된 패턴과 일치합니다.* [정규 표현식 사용에 ](../../features/traits/trait-builder-regex.md) 대한 자세한 내용을  [!UICONTROL Trait Builder]살펴보십시오. |
 
 >[!MORELIKETHIS]
 >

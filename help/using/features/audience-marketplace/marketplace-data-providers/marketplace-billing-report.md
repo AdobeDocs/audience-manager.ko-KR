@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # 데이터 피드 공급자에 대한 청구 {#billing-for-data-feed-providers}
 
-각 가입자에 대한 이전 월의 데이터 피드 사용을 보려면 청구 보고서를 [!DNL Audience Marketplace] 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
+각 가입자에 대한 이전 달의 데이터 피드 사용을 보려면 [!DNL Audience Marketplace] 청구 보고서를 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
 
 ## 청구 보고서 다운로드 {#download-billing-report}
 
 보고서를 다운로드하려면
 
-1. 로 **[!UICONTROL Audience Marketplace > Receivables]**&#x200B;이동합니다.
+1. **[!UICONTROL Audience Marketplace > Receivables]**&#x200B;으로 이동합니다.
 1. 클릭 **[!UICONTROL Generate Billing Report]**.
 
-## 정의된 보고서 필드 {#report-fields-defined}
+## 보고서 필드 정의 {#report-fields-defined}
 
 청구 보고서에는 다음 정보가 포함되어 있습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 데이터 공급자 PID</span></b> </p> </td> 
-   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> 데이터 공급자 ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 데이터 공급자 이름</span></b> </p> </td> 
@@ -70,7 +70,7 @@ ht-degree: 5%
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">세그먼트 및 겹치기 </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">모델링 </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">활성화 </li> 
-    </ul> <p>데이터 피드에 대한 <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> 계획 유형을 참조하십시오</a>. </p> </td> 
+    </ul> <p>데이터 피드<a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types">에 대한 계획 유형을 참조하십시오.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> UOM</span></b> </p> </td> 
@@ -82,19 +82,19 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 할인된 가격</span></b> </p> </td> 
-   <td colname="col2"> <p>할인된 데이터 피드의 구독 비용 데이터 제공업체를 위한 <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> 할인을 참조하십시오</a>. </p> </td> 
+   <td colname="col2"> <p>할인된 데이터 피드의 구독 비용 <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> 데이터 공급자에 대한 할인 혜택</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 판매량</span></b> </p> </td> 
    <td colname="col2"> <p>피드 가격 유형에 따라 다릅니다. </p> 
     <ul id="ul_01550B436EEE4FBC8C9945E08E3CE2C6"> 
-     <li id="li_C589F6A751AB407E853AC6F726A47F14">정액 요금 데이터 피드: 1만 반환합니다. </li> 
-     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">CPM 데이터 피드: CPM 데이터 피드에 대한 실제 사용 금액을 반환합니다. 구독자가 CPM 피드에 대한 노출 데이터를 제공하지 않은 경우 판매량 셀은 비어 있고 플래그 셀이 1로 설정됩니다. </li> 
+     <li id="li_C589F6A751AB407E853AC6F726A47F14">정액 요금 데이터 피드:1만 반환합니다. </li> 
+     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">CPM 데이터 피드:CPM 데이터 피드에 대한 실제 사용 금액을 반환합니다. 구독자가 CPM 피드에 대한 노출 데이터를 제공하지 않은 경우 판매량 셀은 비어 있고 플래그 셀이 1로 설정됩니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 총 비용</span></b> </p> </td> 
-   <td colname="col2"> <p>Audience Manager <span class="keyword"> 는 구매자에게 청구됩니다</span> . </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>은 구매자에게 청구됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 청구 기간</span></b> </p> </td> 
@@ -116,8 +116,8 @@ ht-degree: 5%
    <td colname="col1"> <p><b><span class="uicontrol"> 플래그</span></b> </p> </td> 
    <td colname="col2"> <p> <i>CPM 피드의 경우에만 해당됩니다</i>. 플래그 옵션은 다음과 같습니다. </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: 구독자가 Audience Manager에 사용 정보를 보고했음을 <span class="keyword"> 나타냅니다</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: 구독자가 Audience Manager에 사용 정보를 보고하지 않았음을 <span class="keyword"> 나타냅니다</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0:구독자가 <span class="keyword"> Audience Manager</span>에 사용 정보를 보고했음을 나타냅니다. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1:구독자가 <span class="keyword"> Audience Manager</span>에 사용 정보를 보고하지 않았음을 나타냅니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

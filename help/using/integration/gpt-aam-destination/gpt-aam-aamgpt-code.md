@@ -17,15 +17,15 @@ ht-degree: 19%
 
 # Google Publisher Tag용 Audience Manager 코드 {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt` 는 Audience Manager 쿠키 데이터를 읽고 해당 정보를 전송하는 [!DNL JavaScript] 함수입니다 [!DNL Google Publisher Tags].
+`AamGpt` 는 Audience Manager 쿠키 데이터를 읽고 해당 정보를 전송하는  [!DNL JavaScript] 함수입니다 [!DNL Google Publisher Tags].
 
 >[!NOTE]
 >
->이 함수는 자체 코드가 있으면 [!UICONTROL UUID] 및 대상 쿠키의 Audience Manager 쿠키 데이터를 읽을 필요가 없습니다.
+>이 함수는 [!UICONTROL UUID] 및 대상 쿠키의 Audience Manager 쿠키 데이터를 읽는 자체 코드가 있는 경우에는 필요하지 않습니다.
 
 ## 샘플 코드
 
-코드 `AamGpt` 블록 내에 있는 페이지 맨 위에 코드를 `<head>` 배치합니다. 이 `AamGpt` 코드는 다음과 같습니다.
+`AamGpt` 코드를 페이지 맨 위에 배치하고, 가장 좋은 방법은 `<head>` 코드 블록 내에 넣습니다. `AamGpt` 코드는 아래에서 사용할 수 있습니다.
 
 ```js
 var AamGpt = {  

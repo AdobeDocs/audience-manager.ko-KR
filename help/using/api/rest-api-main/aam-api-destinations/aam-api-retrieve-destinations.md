@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # 대상 ID별 대상 반환 {#return-a-destination-by-destination-id}
 
-지정된 대상에 대한 대상을 반환하는 `GET` 메서드입니다 `destinationId`.
+지정한 `destinationId`의 대상을 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->URL에 `mappings` 전달된 필드 `includeMappings=true` 를 채우려면
+>URL의 `includeMappings=true`에 있는 `mappings` 필드를 채우려면
 
 ## 응답
 
@@ -69,7 +69,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->* *(선택 사항)* 지정된 세그먼트 `containsSegment=<sid>` 에 매핑된 모든 대상의 배열을 반환하려면 전달됩니다. 예를 들어 쿼리는 다음과 비슷합니다. `GET .../destinations/?containsSegment=4321`.
+>* *(선택 사항)* 지정된 세그먼트 `containsSegment=<sid>` 에 매핑된 모든 대상의 배열을 반환하려면 전달됩니다. 예를 들어 쿼리는 다음과 비슷합니다.`GET .../destinations/?containsSegment=4321`.
    >
    >
 * 전체 대상 개체를 반환하지 않습니다. 완전히 채워진 개체가 필요한 경우 데이터 순서로 대상을 가져옵니다.
@@ -77,7 +77,7 @@ ht-degree: 9%
 
 ### 선택적 쿼리 매개 변수
 
-개체에 대한 *모든* 속성을 반환하는 API 메서드에서 이러한 선택적 매개 변수를 사용할 수 있습니다. 요청 문자열에 해당 쿼리를 전달하면 이 옵션을 설정합니다 [!DNL API]. 선택적 매개 [변수를 참조하십시오](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+개체에 대해 *모든* 속성을 반환하는 API 메서드에서 이러한 선택적 매개 변수를 사용할 수 있습니다. 요청 문자열에서 해당 쿼리를 [!DNL API]에 전달할 때 이 옵션을 설정합니다. [선택적 매개 변수](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)를 참조하십시오.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -97,7 +97,7 @@ ht-degree: 9%
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">지정된 JSON 속성에 따라 결과를 정렬하고 <span class="keyword"> 반환합니다</span> . </td>
+   <td colname="col2">지정된 <span class="keyword"> JSON</span> 속성에 따라 결과를 정렬하고 반환합니다. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -142,9 +142,9 @@ ht-degree: 9%
 ]
 ```
 
-## 매핑 ID로 대상 매핑 반환 {#return-dest-mapping-id}
+## 매핑 ID가 {#return-dest-mapping-id}인 대상 매핑을 반환합니다.
 
-개별 대상 매핑을 반환하는 `GET` 메서드입니다 `mappingId`.
+`mappingId`에 따라 개별 대상 매핑을 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -253,7 +253,7 @@ ht-degree: 9%
 {
 ```
 
-## 사용 가능한 모든 대상 Platform 반환 {#return-dest-platforms}
+## 사용 가능한 모든 대상 플랫폼 반환 {#return-dest-platforms}
 
 대상에 대해 사용 가능한 모든 장치 플랫폼을 반환하는 `GET` 메서드입니다.
 
@@ -271,9 +271,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## S2S 및 벌크 S2S 대상 작업 내역 반환 {#return-job-history}
+## 반환 S2S 및 벌크 S2S 대상 작업 내역 {#return-job-history}
 
-아웃바운드 `GET` () [!UICONTROL Server-to-Server] 및 벌크 대상 [!UICONTROL S2S][!UICONTROL S2S] 작업 내역 정보를 반환하는 방법입니다.
+아웃바운드 [!UICONTROL Server-to-Server]( [!UICONTROL S2S]) 및 벌크 [!UICONTROL S2S] 대상 작업 내역 정보를 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_job_history.xml -->
 
@@ -281,7 +281,7 @@ BROWSER, ANDROID, iOS, ALL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-필요한 쿼리 매개 변수: `startDate` = *&lt;`epochtime`>*`endDate` and *=`epochtime`&lt;*>.
+필요한 쿼리 매개 변수:`startDate` = *&lt;`epochtime`* 및 `endDate` = *&lt;`epochtime`*
 
 ### 응답
 

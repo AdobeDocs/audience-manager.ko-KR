@@ -19,13 +19,13 @@ ht-degree: 6%
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] 데이터 제공업체와 구매자는 최소한의 노력으로 셀프 서비스 방식으로 데이터 거래를 수행할 수 있습니다. 데이터 구매자 또는 데이터 판매자의 역할에 따라 달라지는 특수 기능을 제공합니다. 실제 구매자와 판매자도 동시에 판매할 수 있습니다. 또한 데이터 제공업체와 판매자 간의 계약, 대금 청구 및 결제 [!UICONTROL Audience Marketplace] 를 원활하게 처리할 수 있습니다.
+[!UICONTROL Audience Marketplace] 데이터 제공업체와 구매자는 최소한의 노력으로 셀프 서비스 방식으로 데이터 거래를 수행할 수 있습니다. 데이터 구매자 또는 데이터 판매자의 역할에 따라 달라지는 특수 기능을 제공합니다. 실제 구매자와 판매자도 동시에 판매할 수 있습니다. 또한 이보다 더 좋을 수 없을 경우 [!UICONTROL Audience Marketplace]은 데이터 제공업체와 판매자 간의 계약, 대금 청구 및 결제 과정을 처리합니다.
 
-Talk to your [!DNL Audience Manager] sales specialist to get started. 정품 인증을 받을 수 [!UICONTROL Audience Marketplace for you]있습니다.
+시작하려면 [!DNL Audience Manager] 영업 전문가에게 문의하십시오. [!UICONTROL Audience Marketplace for you]을(를) 활성화할 수 있습니다.
 
 >[!NOTE]
 >
->사용자 역할은 할 수 있는 일과 할 수 없는 작업을 제어합니다 [!UICONTROL Audience Marketplace].
+>사용자 역할은 [!UICONTROL Audience Marketplace]에서 수행할 수 있는 작업과 할 수 없는 작업을 제어합니다.
 >
 > * 관리자는 데이터 피드를 만들고, 가입자를 관리하고, 데이터 피드에 가입할 수 있습니다.
 > * 사용자는 피드만 검색하고 볼 수 있습니다.

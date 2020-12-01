@@ -17,17 +17,17 @@ ht-degree: 12%
 
 # 아웃바운드 데이터 전송을 위한 ID 동기화{#id-synchronization-for-outbound-data-transfers}
 
-Audience Manager과 타사 데이터 공급자 간 사용자 ID를 동기화하는 초기 `HTTP` 호출에 사용되는 구문과 매개 변수에 대해 설명합니다. 첫 번째 ID 동기화를 시도하기 전에 Adobe Audience Manager 컨설턴트에게 문의하십시오.
+Audience Manager과 타사 데이터 공급자 간에 사용자 ID를 동기화하는 초기 `HTTP` 호출에 사용되는 구문과 매개 변수에 대해 설명합니다. 첫 번째 ID 동기화를 시도하기 전에 Adobe Audience Manager 컨설턴트에게 문의하십시오.
 
 <!-- c_id_sync_out.xml -->
 
 ## ID 동기화 목적
 
-ID 동기화는 아웃바운드, 비동기 데이터 전송 프로세스의 첫 번째 단계입니다. 이 단계에서 공급업체 [!DNL Audience Manager] 는 해당 사이트 방문자에 대해 ID를 비교하고 일치시킵니다. 예를 들어 [!DNL Audience Manager] 고객은 ID 123으로 사용자를 알 수 있습니다. 그러나 데이터 파트너는 ID 456으로 이 사용자를 식별할 수 있습니다. 동기화 프로세스를 통해 데이터 공급업체 [!DNL Audience Manager] 는 이러한 서로 다른 ID를 조정하고 각각의 시스템에서 사용자를 식별할 수 있습니다. 완료되면 [!DNL Audience Manager] 타사 데이터 제공업체는 네트워크에서 볼 수 있는 각 고유 사용자에 대해 해당 ID를 가져야 합니다.
+ID 동기화는 아웃바운드, 비동기 데이터 전송 프로세스의 첫 번째 단계입니다. 이 단계에서, [!DNL Audience Manager] 및 공급업체는 해당 사이트 방문자의 ID를 비교하고 일치시킵니다. 예를 들어 [!DNL Audience Manager] 고객은 ID 123으로 사용자를 알 수 있습니다. 그러나 데이터 파트너는 ID 456으로 이 사용자를 식별할 수 있습니다. 동기화 프로세스를 통해 [!DNL Audience Manager] 및 데이터 공급업체가 이러한 다른 ID를 조정하고 각각의 시스템에서 사용자를 식별할 수 있습니다. 완료되면, [!DNL Audience Manager] 및 타사 데이터 공급자는 네트워크에서 볼 수 있는 각 고유 사용자에 대해 해당 ID를 가져야 합니다.
 
 ## URL 구문
 
-ID 교환 시 올바른 형식의 [!DNL URL] 문자열이 다음과 같아야 합니다.
+ID 교환에서 올바른 형식의 [!DNL URL] 문자열은 다음과 같아야 합니다.
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
@@ -35,7 +35,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 ## URL 매개 변수
 
-인바운드 ID 동기화 호출 [!DNL URL] 에 아래 표에 설명된 변수가 포함되어야 합니다.
+인바운드 ID 동기화 호출에 대한 [!DNL URL]에는 아래 표에 설명된 변수가 포함되어야 합니다.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2">데이터 공급자에 대한 고유 ID(Audience Manager에 의해 <span class="keyword"> 지정됨</span>). </td> 
+   <td colname="col2">데이터 공급자에 대한 고유 ID(<span class="keyword"> Audience Manager</span>에 의해 지정됨) </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
@@ -59,17 +59,17 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
-   <td colname="col2">매크로가 포함된 인코딩된 URL 리디렉션 <code> ${DD_UUID}</code> 입니다. <p><b>참고:</b> 데이터 공급자가 호출을 시작할 때만 추가되었습니다. </p> </td> 
+   <td colname="col2">매크로 <code> ${DD_UUID}</code>이 포함된 인코딩된 URL 리디렉션입니다. <p><b>참고: </b> 데이터 공급자가 호출을 시작하는 경우에만 추가됩니다. </p> </td> 
   </tr> 
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> 0일 수(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p><p><b>참고:</b> <ul><li>ID 동기화 URL에서 활성화 파트너 <code>gdpr</code> <code>gdpr_consent</code> 와 매개 변수를 점진적으로 롤아웃하고 있습니다. IAB TCF용 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager 플러그인의 IAB TCF를 지원하는 인증 파트너를 참조하십시오.</a></li><li>이 매개 변수는 <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> 0일 수(GDPR은 적용되지 않음) 또는 1(GDPR 적용)일 수 있습니다.</p><p><b>참고:</b> <ul><li><code>gdpr</code> 및 <code>gdpr_consent</code> 매개 변수는 ID 동기화 URL에서 활성화 파트너와 점진적으로 롤아웃됩니다. IAB TCF용 Audience Manager 플러그인 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">에서 IAB TCF를 지원하는 인증 파트너를 참조하십시오.</a></li><li>이 매개 변수는 <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"><p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p><p><b>참고:</b> 이 매개 변수는 함께 사용해야 합니다 <code>gdpr</code>.</p> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> 은 URL-safe base64로 인코딩된 GDPR 동의 문자열입니다(<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB 사양</a> 참조).</p><p><b>참고: </b> 이 매개 변수는 함께 사용해야 합니다 <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -27,7 +27,7 @@ c_report_technology.xml
 
 ## 대화형 보고서에서는 타블로 기술을 사용합니다.
 
-[!DNL Audience Manager] 타블로 [소프트웨어를](https://www.tableausoftware.com/) 사용하여 대화형 보고서에 데이터를 표시합니다. 이 보고서 [!DNL Tableau]에서 [!UICONTROL Delivery and Overlap] 유용한 시각적 큐와 심볼을 사용합니다.
+[!DNL Audience Manager] 는  [](https://www.tableausoftware.com/) Tableaussoftware를 사용하여 대화형 보고서에 데이터를 표시합니다. [!DNL Tableau]에서 [!UICONTROL Delivery and Overlap] 보고서는 다음과 같은 유용한 시각적 큐 및 기호를 사용합니다.
 
 * 높은 성능 및 낮은 성능 특성 검색
 * 방문자 수가 낮고 방문자가 겹치는 트레이트 및 세그먼트를 찾을 수 있습니다.
@@ -38,7 +38,7 @@ c_report_technology.xml
 
 보고서 데이터는 매주 일요일마다 업데이트됩니다. 이 업데이트는 토요일(전일)부터 이전 일요일까지 데이터를 처리합니다.
 
-## 대화형 보고서에 사용되는 모양, 색상 및 크기 {#shapes-colors-sizes}
+## 대화형 보고서에 사용된 모양, 색상 및 크기 {#shapes-colors-sizes}
 
 대부분의 대화형 보고서는 서로 다른 크기와 색상의 모양을 사용하여 결과를 표시합니다. 이 표시 형식은 행과 숫자 열을 일일이 확인하지 않고도 시각적으로 데이터를 이해할 수 있도록 고안되었습니다.
 
@@ -72,8 +72,8 @@ r_legend.xml
    <td colname="col1"> <b>색상</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">빨간색 색상은 <i>낮은</i> 겹침을 나타냅니다. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">녹색 색상은 <i>높은</i> 오버랩을 나타냅니다. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">빨간색 음영은 <i>로우</i> 겹침을 나타냅니다. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">녹색 색상은 <i>높음</i> 겹침을 나타냅니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

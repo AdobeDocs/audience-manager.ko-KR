@@ -37,7 +37,7 @@ ht-degree: 13%
   </tr> 
   <tr> 
    <td colname="col1"> 비교 연산자 </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> 다음으로 보다 작음, 큼, 보다 작음/같음, 크거나 같음 </td> 
   </tr> 
   <tr> 
@@ -46,12 +46,12 @@ ht-degree: 13%
    <td colname="col3"> 같음, 같지 않음. 이전 연산자 뒤에 평가됩니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">부울 <span class="wintitle"> 및</span> </td> 
+   <td colname="col1">부울 <span class="wintitle"> AND</span> </td> 
    <td colname="col2"><span class="wintitle"> 그리고</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
   <tr> 
-   <td colname="col1">부울 <span class="wintitle"> 또는</span> </td> 
+   <td colname="col1">부울 <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> 또는</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 

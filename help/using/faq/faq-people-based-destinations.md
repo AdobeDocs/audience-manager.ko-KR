@@ -20,7 +20,7 @@ ht-degree: 97%
 
 ## 가용성 {#availability}
 
-**Audience Manager 계정[!DNL People-Based Destinations]을 볼 수 없습니다. 가용성에 대해 무엇을 알아야 합니까?**
+**Audience Manager 계정 [!DNL People-Based Destinations]을 볼 수 없습니다. 가용성에 대해 무엇을 알아야 합니까?**
 
 [!DNL People-Based Destinations]은 구입 시 사용할 수 있는 프리미엄 Audience Manager 기능입니다. 가격 및 가용성에 대한 자세한 내용은 Adobe 영업 담당자에게 문의하십시오.
 
@@ -81,7 +81,7 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 ## 데이터 내보내기 제어 {#data-export-controls}
 
-**[!DNL Data Export Controls]은[!DNL People-Based Destinations]에서 어떻게 작동합니까?**
+**[!DNL Data Export Controls]은 [!DNL People-Based Destinations]에서 어떻게 작동합니까?**
 
 [!DNL Data Export Controls]는 사용자가 [!DNL People-Based Destinations]에 보내려 하는 제2자 데이터와 타사 데이터가 포함된 모든 세그먼트를 차단합니다. [!DNL People-Based Destinations]에서는 타겟팅에 자사 데이터만 사용할 수 있습니다. 또한 [!DNL Data Export Controls]는 장치 그래프와 함께 [!DNL Profile Merge Rules]을 사용하여 세그먼트를 차단합니다. [!DNL People-Based Destinations]은 적절한 데이터 내보내기 레이블이 선택된 상태로 만들어지는데 내보내기 설정은 덮어쓸 수 없습니다.
 
@@ -89,7 +89,7 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 ### [!DNL Facebook]
 
-**대상 세그먼트를[!DNL Facebook]에 보낼 수 있으려면 먼저 무엇을 해야 합니까?**
+**대상 세그먼트를 [!DNL Facebook]에 보낼 수 있으려면 먼저 무엇을 해야 합니까?**
 
 [!DNL People-Based Destinations]을 사용하여 대상 세그먼트를 [!DNL Facebook]에 보내려면 먼저 다음 구성 작업을 수행해야 합니다.
 
@@ -101,11 +101,11 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 1. [!DNL Facebook Custom Audiences Terms of Service]을 읽고 서명합니다. 이렇게 하려면 `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`로 이동하십시오. 여기서 `accountID`는 [!DNL Facebook Ad Account ID]입니다.
 
-**[!DNL People-Based Destinations]은[!DNL Instagram]과 같은 다른[!DNL Facebook]앱에서 대상 타겟팅을 지원합니까?**
+**[!DNL People-Based Destinations]은 [!DNL Instagram]과 같은 다른 [!DNL Facebook] 앱에서 대상 타겟팅을 지원합니까?**
 
 [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] 및 [!DNL Messenger]을 포함하여 [!DNL Custom Audiences]이 지원하는 [!DNL Facebook]의 앱 제품군에서 [!DNL People-Based Destinations]을 사용할 수 있습니다. 캠페인을 실행할 앱의 선택은 [!DNL Facebook Ads Manager]의 배치 수준에서 표시됩니다.
 
-**[!DNL People-Based Destinations]과[!DNL Website Custom Audiences]간의 차이점은 무엇입니까?**
+**[!DNL People-Based Destinations]과 [!DNL Website Custom Audiences] 간의 차이점은 무엇입니까?**
 
 [!DNL People-Based Destinations]은 [!DNL Facebook]과의 [!DNL Custom Audiences (CA)] 통합을 활용합니다. [!DNL WCA]와 [!DNL CA] 통합의 차이점은 고객이 [!DNL Facebook]에 대상을 보낼 때 사용하는 키입니다. [!DNL WCA]는 [!DNL Facebook] 픽셀(웹 사이트 사용자 ID임)을 사용하고 [!DNL People-Based Destinations]은 해시된 이메일 주소를 사용하여 [!DNL CA]와 통합합니다.
 
@@ -113,6 +113,6 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 이 두 가지 통합은 상호 보완적입니다. 두 가지 모두를 사용하여 대상 범위를 개선할 수 있습니다. 예를 들어, [!DNL WCA]는 회사가 계정을 등록하지 않은 웹 사이트 방문자를 타겟팅하려고 하는 경우 예측에 사용할 수 있지만, [!DNL People-Based Destinations]은 이메일 주소를 제공했지만 웹 사이트를 방문하지 않은 기존 고객을 타겟팅하는 데 도움이 될 수 있습니다.
 
-**지원과의[!DNL People-Based Destinations]통합으로 인해 더 이상 해당 사용자에게 자격을 부여하지[!DNL Facebook]못할 경우 대상이 아닌 사용자를 식별할 수 있습니까?**
+**지원과의  [!DNL People-Based Destinations] 통합으로 인해 더 이상  [!DNL Facebook] 자격이 부여되지 않는 사용자가 대상으로부터 자격을 박탈당합니까?**
 
-예. 통합에서는 더 이상 [!DNL Facebook] 자격이 없는 사용자가 대상에서 제외되도록 지원합니다.
+예. 통합에서는 사용자가 더 이상 자격이 없을 때 [!DNL Facebook] 대상에서 사용자를 제거할 수 있습니다.

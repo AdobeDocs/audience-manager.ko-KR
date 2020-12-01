@@ -23,7 +23,7 @@ ht-degree: 7%
 >
 >텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]``( )` 등)은 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
-## 파일 이름 구문 및 예제 {#file-name-syntax}
+## 파일 이름 구문 및 예 {#file-name-syntax}
 
 <!-- c_file_based_id_sync.xml -->
 
@@ -86,23 +86,23 @@ ID 파일 이름에는 다음과 같은 필수 요소와 선택 사항이 포함
 </ul>
 
 >[!NOTE]
-> 사용자 기반 대상에 대한 ID 동기화 파일 이름 지정(c2c 접두사)에 대해서는 [워크플로 A - 오프라인 데이터](../../../features/destinations/people-based-destinations-workflow-combined.md) 또는 워크플로 B와 결합된 모든 온라인 활동을 기반으로 개인화를 [참조하십시오](../../../features/destinations/people-based-destinations-workflow-offline.md).
+> 사용자 기반 대상에 대한 ID 동기화 파일 이름 지정(c2c 접두사)에 대해서는 오프라인 데이터[ 또는 ](../../../features/destinations/people-based-destinations-workflow-combined.md)워크플로 B - 오프라인 전용 데이터를 기반으로 한 개인화를 참조하십시오[.](../../../features/destinations/people-based-destinations-workflow-offline.md)
 
-## 파일 컨텐츠 구문 및 예제 {#file-content-syntax}
+## 파일 내용 구문 및 예 {#file-content-syntax}
 
 ID 파일의 내용은 다음 요소를 포함합니다.
 
-*`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
+*`UUID`* `<tab>`*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*
 
-파일에 사용자 ID(사용자 ID)가[!DNL UUID]포함되어 있습니다. 각 행에서 ID를 탭으로 구분합니다. 다음 예는 올바른 형식의 ID 파일을 보여줍니다. 내용이 비슷할 수 있습니다.
+파일에 사용자 ID([!DNL UUID])가 포함되어 있습니다. 각 행에서 ID를 탭으로 구분합니다. 다음 예는 올바른 형식의 ID 파일을 보여줍니다. 내용이 비슷할 수 있습니다.
 
 ```
 abc123 def456 ghi789 xyz987
 ```
 
-## 동기화는 DPUUID와 UUID를 일치시킵니다. {#sync-matches-dpuuids-uuids}
+## 동기화는 DPUUID를 UUIDs {#sync-matches-dpuuids-uuids}와 일치합니다.
 
-ID 동기화 파일의 목적은 자체 Data Sources에서 [DPUUID를](../../../reference/ids-in-aam.md) UUID와 동기화하는 [!DNL Audience Manager] 것입니다. 동기화는 마스터 [!DNL DPUUID]와 관련 [!DNL DPID] s를 [!DNL DPID]s에 매핑합니다 [!DNL Audience Manager] [!DNL UUID]. 파일 이름과 본문에 ID를 넣는 위치에 따라 이러한 식별자가 서로 매핑되는 방식이 결정됩니다. 예를 들어 여기에 표시된 두 샘플 파일을 예로 들어 보겠습니다.
+ID 동기화 파일의 목적은 자신의 데이터 소스에서 [!DNL Audience Manager] UUID와 [DPUUID](../../../reference/ids-in-aam.md)를 동기화하는 것입니다. 동기화는 마스터 [!DNL DPID]의 [!DNL DPUUID]s 및 관련 [!DNL DPID]s를 [!DNL Audience Manager] [!DNL UUID]s로 매핑합니다.파일 이름과 본문에 ID를 넣는 위치에 따라 이러한 식별자가 서로 매핑되는 방식이 결정됩니다. 예를 들어 여기에 표시된 두 샘플 파일을 예로 들어 보겠습니다.
 
 * **파일 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -112,20 +112,20 @@ ID 동기화 파일의 목적은 자체 Data Sources에서 [DPUUID를](../../../
 
 샘플 이름과 컨텐츠가 주어지면 ID는 다음과 같이 매핑됩니다.
 
-**파일 1** ( [샘플 파일](assets/adobe_id_0_12345_1476312152.sync)다운로드)
+**파일 1** (  [샘플 파일](assets/adobe_id_0_12345_1476312152.sync) 다운로드)
 
 | DPID 0 = Adobe Audience Manager UUID | DPID 12345 |
 |---|---|
-| 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TtRj6E4njaMR 38 |
-| 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
-| 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
-| 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxyqUfmIBxE3_55bvQJMLwregJU2M |
-| 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
+| 680798276567319850405265607456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TtRj6E4njaMR 38 |
+| 674126820834199572553870443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
+| 8 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
+| 65527574075174946280588194528602094 | XYZ3017QvBddD-bLJS28DPxyqUfmIBxE3_55bvQJMLwregJU2M |
+| 661847822267870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-1단계: ID 동기화 프로세스는 [!DNL DPUUID]12345 [!DNL DPID] 의 s를 왼쪽 열 [!DNL Audience Manager] [!DNL UUID]의 s와 동기화합니다. 파일 이름의 [!DNL DPID] &quot;0&quot;은 s를 [!DNL Audience Manager] 나타냅니다 [!DNL UUID].
+1단계:ID 동기화 프로세스는 왼쪽 열의 [!DNL Audience Manager] [!DNL UUID]s와 [!DNL DPID] 12345의 [!DNL DPUUID]s를 동기화합니다. 파일 이름의 [!DNL DPID] &quot;0&quot;은 [!DNL Audience Manager] [!DNL UUID]s를 나타냅니다.
 <br/>
 
-**파일 2** ( [샘플 파일](assets/adobe_id_12345_67890_1477846458.sync)다운로드)
+**파일 2** (  [샘플 파일](assets/adobe_id_12345_67890_1477846458.sync) 다운로드)
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
@@ -135,7 +135,7 @@ ID 동기화 파일의 목적은 자체 Data Sources에서 [DPUUID를](../../../
 | XYZ3017QvBddD-bLJS28DPxyqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-2단계: 12345 [!DNL DPUUID]의 [!DNL DPID] s는 1단계에서 Audience Manager과 [!DNL UUID]동기화되었습니다. 이 ID 동기화에서 수행할 작업은 67890 [!DNL DPUUID]에서 1단계의 Audience Manager과 [!DNL DPID] 동기화 [!DNL UUID]를 하는 것입니다.
+2단계:[!DNL DPID] 12345의 [!DNL DPUUID]은 1단계에서 Audience Manager [!DNL UUID]s와 동기화되었습니다.이 ID 동기화에서 수행하는 작업은 1단계의 Audience Manager [!DNL UUID]과 [!DNL DPID] 67890의 [!DNL DPUUID]s를 동기화하는 것입니다.
 
 <br/>
 
@@ -144,7 +144,7 @@ ID 동기화 파일의 목적은 자체 Data Sources에서 [DPUUID를](../../../
 사용자 ID는 다음을 수행할 수 없습니다.
 
 * ID 자체에 탭이 있습니다. 탭은 데이터 파일에서 개별 ID를 구분하는 데에만 사용됩니다.
-* 개인 식별 정보([!UICONTROL PII])를 포함합니다.
-* 인코딩 [!DNL URL] 사용 인코딩되지 않은 ID만 전달합니다.
+* 개인 식별 정보를 포함합니다([!UICONTROL PII]).
+* [!DNL URL] 인코딩을 사용하십시오. 인코딩되지 않은 ID만 전달합니다.
 
 탭 또는 공백으로 끝나는 모든 행은 처리되거나 실현되지 않습니다. 규칙으로서 행 끝을 명확하게 유지해야 합니다.

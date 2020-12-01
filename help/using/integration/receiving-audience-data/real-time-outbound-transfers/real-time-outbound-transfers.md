@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # 실시간 아웃바운드 데이터 전송 {#real-time-outbound-data-transfers}
 
-아웃바운드 실시간 데이터 전송 프로세스는 일련의 형식의 메시지를 대상 플랫폼으로 사용자 데이터를 [!DNL JSON] 전달합니다.
+아웃바운드 실시간 데이터 전송 프로세스는 사용자 데이터를 일련의 [!DNL JSON] 형식의 메시지로 대상 플랫폼에 전달합니다.
 
 <!-- c_outbound_json.xml -->
 
@@ -25,9 +25,9 @@ ht-degree: 5%
 
 이 메서드를 사용하려면 대상 플랫폼이 다음 요구 사항을 충족해야 합니다.
 
-* Audience Manager에서 대량의 메시지를 받을 수 있도록 확장할 [!DNL URL] 수 있는 끝점을 제공해야 합니다.
-* 데이터를 [!DNL JSON] 형식(`Content-type: application/json`);
-* 보안 `HTTPS` 데이터 전송을 승인해야 합니다. [!DNL Audience Manager] 안전하지 않은 `HTTP` 프로토콜을 통해 메시지를 전송하지 않습니다.
+* Audience Manager에서 대량의 메시지를 수신하도록 확장할 수 있는 끝점 [!DNL URL]을(를) 제공해야 합니다.
+* [!DNL JSON] 형식(`Content-type: application/json`);
+* 보안 `HTTPS` 데이터 전송을 승인해야 합니다. [!DNL Audience Manager] 안전하지 않은  `HTTP` 프로토콜을 통해 메시지를 전송하지 않습니다.
 
 ## 빈도
 
@@ -43,11 +43,11 @@ There are no rate limits set on the throughput of delivered messages. 속도 제
 
 ## 필수 응답
 
-기본적으로 수신자 서버는 성공적인 입고를 나타내는 `200 OK` 코드를 반환해야 합니다. 다른 코드는 실패로 해석됩니다. 이 응답은 3000밀리초 이내에 필요합니다. 실패에 대한 응답으로 한 번만 다시 [!DNL Audience Manager] 시도합니다.
+받는 사람 서버는 기본적으로 `200 OK` 코드를 반환하여 성공적인 입고를 나타내야 합니다. 다른 코드는 실패로 해석됩니다. 이 응답은 3000밀리초 이내에 필요합니다. 오류에 대한 응답으로 [!DNL Audience Manager]은(는) 한 번만 다시 시도합니다.
 
 ## 매개 변수
 
-다음 표에서는 대상으로 전송하는 데이터 파일의 [!DNL JSON] 요소를 정의합니다.
+다음 표에서는 대상으로 보내는 [!DNL JSON] 데이터 파일의 요소를 정의합니다.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -68,9 +68,9 @@ There are no rate limits set on the throughput of delivered messages. 속도 제
    <td colname="col2"> <p>정수 </p> </td> 
    <td colname="col3"> <p>메시지 내에 포함된 장치 ID의 유형을 나타내는 ID를 User.DataPartner_UUID 속성에서 지정합니다. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID(GAID): <code> 20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID(IDFA): <code> 20915</code> </li>
-     <li>웹/쿠키 ID: 대상 플랫폼별로 다름</li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID(GAID):<code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID(IDFA):<code> 20915</code> </li>
+     <li>웹/쿠키 ID:대상 플랫폼별로 다름</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
@@ -86,7 +86,7 @@ There are no rate limits set on the throughput of delivered messages. 속도 제
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>요청에 있는 총 사용자 <code> POST</code> 수입니다. </p> </td> 
+   <td colname="col3"> <p><code> POST</code> 요청의 총 사용자 수입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -96,7 +96,7 @@ There are no rate limits set on the throughput of delivered messages. 속도 제
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>Audience Manager <span class="keyword"></span> UUID입니다. </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> UUID입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -106,7 +106,7 @@ There are no rate limits set on the throughput of delivered messages. 속도 제
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> 배열 </td> 
-   <td colname="col3"> 이 장치를 본 <span class="keyword"> Audience Manager</span> 지역 ID. 예를 들어, 장치가 파리(유럽)에서 일부 활동을 했다면 지역 ID가 됩니다 <code> 6</code>. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </td> 
+   <td colname="col3"> 이 장치를 본 <span class="keyword"> Audience Manager</span> 영역 ID. 예를 들어, 장치가 파리(유럽)에서 일부 활동을 하는 경우 지역 ID는 <code> 6</code>입니다. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -123,15 +123,15 @@ There are no rate limits set on the throughput of delivered messages. 속도 제
    <td colname="col2"> <p>정수 </p> </td> 
    <td colname="col3"> <p>세그먼트에 있는 사용자의 상태를 정의합니다. 다음 값을 수락합니다. </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
-     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>: 활성(기본값) </li> 
-     <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>: 비활성, 옵트아웃 또는 세그먼트화되지 않은 </li> 
+     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>:활성(기본값) </li> 
+     <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>:비활성, 옵트아웃 또는 세그먼트화되지 않은 </li> 
     </ul> <p>사용자는 다음 경우에 세그먼트화되지 않습니다. </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">세그먼트 규칙에 따라 세그먼트에서 제거되었습니다. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">세그먼트의 실시간 <a href="../../../features/traits/segment-ttl-explained.md"> 간격에 따라 세그먼트에서 제거되었습니다</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">세그먼트의 <a href="../../../features/traits/segment-ttl-explained.md"> time-to-live interval</a>을 기준으로 세그먼트에서 제거했습니다. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">지난 120일 동안 표시되지 않은 경우 비활성 상태로 이동되었습니다. </li>
-     <li>개인 정보 변경 요청(예: GDPR)으로 인해 <span class="keyword"> 제거됨</span></li>
-    </ul> <p>Audience Manager <span class="keyword"> ID에 동기화된 모든 파트너 ID는 사용자가 세그먼트화되지 않은 경우</span> <code> "Status":"0"</code> 플래그를 수신합니다. </p> </td> 
+     <li>개인 정보 변경 요청(예:<span class="keyword"> GDPR</span>)</li>
+    </ul> <p><span class="keyword"> Audience Manager</span> ID에 동기화된 모든 파트너 ID는 사용자가 세그먼트화되지 않은 경우 <code> "Status":"0"</code> 플래그를 수신합니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -143,7 +143,7 @@ There are no rate limits set on the throughput of delivered messages. 속도 제
 
 ## 보안
 
-개인 키를 사용하여 HTTP 요청에 [서명하거나](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) OAuth 2.0 [!DNL Audience Manager] 프로토콜을 통해 [인증함으로써 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 있습니다.
+개인 키를 사용하여 [HTTP 요청](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)에 서명하거나 [!DNL Audience Manager]가 [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 프로토콜을 통해 인증하도록 하여 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
 
 ## 요청
 

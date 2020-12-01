@@ -18,7 +18,7 @@ ht-degree: 22%
 
 이 페이지에 Audience Manager와 데이터 파트너 간의 사용자 지정 통합 목록이 표시됩니다.
 
-## Oracle Data Cloud {#oracle-data-cloud}
+## Oracle 데이터 클라우드 {#oracle-data-cloud}
 
 ### 설명
 
@@ -26,7 +26,7 @@ Audience Manager는 인바운드 데이터 파일을 통해 Oracle Data Cloud fo
 
 ### 통합 세부 사항
 
-Oracle Data Cloud에서 받은 인바운드 데이터 파일은 인바운드 데이터 파일에 대한 [Amazon S3 이름 및 파일 크기 요구 사항에 설명된 표준 인바운드 파일 이름 구문과 인바운드 데이터 파일](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) 내용에 설명된 표준 인바운드 파일 컨텐츠 구문과 [다릅니다. 구문, 잘못된 문자, 변수 및 예입니다](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+oracle Data Cloud에서 받은 인바운드 데이터 파일은 인바운드 데이터 파일](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)에 대한 [Amazon S3 이름 및 파일 크기 요구 사항에 설명된 표준 인바운드 파일 이름 구문과 [인바운드 데이터 파일 내용에 설명된 표준 인바운드 파일 컨텐츠 구문과 다릅니다.구문, 잘못된 문자, 변수 및 예](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 인바운드 데이터 파일에 대한 표준 구현 필드 외에도 아래에 강조 표시된 요소가 필요합니다. 다른 모든 표준 필드 및 파일 이름 요소에 대한 설명은 위에 연결된 두 페이지의 파일 이름 구문 및 파일 내용 구문을 참조하십시오.
 
@@ -36,7 +36,7 @@ ODC 파일 이름은 다음과 같이 구성됩니다.
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-파일 `odc` 이름 요소는 파일을 Oracle Data Cloud에서 가져오는 것으로 식별하고 Audience Manager 인바운드 파일 유효성 검사기에 이와 같이 처리하도록 지시합니다.
+`odc` 파일 이름 요소는 파일을 Oracle Data Cloud에서 가져오는 것으로 식별하고 Audience Manager 인바운드 파일 유효성 검사기에 이와 같이 처리하도록 지시합니다.
 
 ### 파일 내용
 
@@ -44,7 +44,7 @@ ODC 인바운드 데이터 파일의 필드는 아래 표시된 순서대로 표
 
 `<`**`ID type`**`><TAB><user ID><TAB><trait ID>,<trait ID>,<trait ID>,...`
 
-이 방법은 다음과 `ID type` 같습니다.
+`ID type`은(는) 다음과 같을 수 있습니다.
 
 * IDFA
 * Android 장치 ID
@@ -55,4 +55,4 @@ ODC 인바운드 데이터 파일의 필드는 아래 표시된 순서대로 표
 
 ## 샘플 ODC 인바운드 파일
 
-샘플 [파일을 다운로드합니다](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). 이 파일은 특성 ID 38838에 대해 여러 IDFA를 검증합니다. 이 파일을 표준 텍스트 편집기 또는 코드 편집기에서 열 수 있습니다.
+[샘플 파일](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync)을 다운로드합니다. 이 파일은 특성 ID 38838에 대해 여러 IDFA를 검증합니다. 이 파일을 표준 텍스트 편집기 또는 코드 편집기에서 열 수 있습니다.

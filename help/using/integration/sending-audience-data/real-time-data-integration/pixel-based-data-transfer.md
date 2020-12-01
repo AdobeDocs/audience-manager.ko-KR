@@ -24,18 +24,18 @@ ht-degree: 4%
 인바운드 데이터 전송을 활성화하려면 공급업체 및 클라이언트는 다음을 수행합니다.
 
 1. 공급업체 또는 파트너가 실행할 트레이트를 결정합니다.
-1. 트레이트 픽셀을 가져옵니다. 트레이트 목록 화면에서 열 위로 마우스를 가져간 다음 원하는 트레이트에 대한 **[!UICONTROL Actions]** **[!UICONTROL Get trait URL]** 기호를 클릭합니다.
-1. 공급업체 또는 파트너 [!DNL URL] 에게 해당 코드를 제공합니다.
+1. 트레이트 픽셀을 가져옵니다. 트레이트 목록 화면에서 **[!UICONTROL Actions]** 열 위로 마우스를 가져간 다음 원하는 트레이트에 대해 **[!UICONTROL Get trait URL]** 기호를 클릭합니다.
+1. 공급업체 또는 파트너에 [!DNL URL]을(를) 제공하십시오.
 
 ## 예
 
-이 기본 이벤트 호출은 트레이트 ID 1234를 로 전송합니다 [!DNL Audience Manager].
+이 기본 이벤트 호출은 특성 ID 1234를 [!DNL Audience Manager]으로 보냅니다.
 
 ```
 https://something.demdex.net/event?d_sid=1234
 ```
 
-이벤트 호출에서 트레이트 ID를 정리하여 페이지에서 트래픽을 줄일 수 `HTTP` 있습니다. 다음 예와 같이 URL 문자열에 추가 트레이트 ID를 추가합니다.
+이벤트 호출에서 특성 ID를 직렬화하여 페이지에서 `HTTP` 트래픽을 줄일 수 있습니다. 다음 예와 같이 URL 문자열에 추가 트레이트 ID를 추가합니다.
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432

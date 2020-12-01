@@ -23,6 +23,6 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->폴더 [!DNL API] [!DNL Swagger] 메서드는 함께 다시 작성되고 마이그레이션되었습니다. 이 문서에 언급된 함수, 속성 또는 구성에 대한 자세한 내용은:  >
+>폴더 [!DNL API] 메서드는 [!DNL Swagger]로 다시 작성되고 마이그레이션되었습니다. 이 문서에 언급된 함수, 속성 또는 구성에 대한 자세한 내용은:  >
 >* [Adobe Audience Manager API 문서](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager API 코드 마이그레이션](../../api/api-swagger-migration.md)

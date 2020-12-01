@@ -21,7 +21,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Audience Manager의 겹치기 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 RBAC 사용자 그룹을 기준으로 액세스할 수 있는 데이터 소스의 [세그먼트만](/help/using/features/administration/administration-overview.md) 볼 수 있습니다.
+>Audience Manager의 겹치기 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 [RBAC 사용자 그룹](/help/using/features/administration/administration-overview.md)을 기반으로 액세스할 수 있는 데이터 소스의 세그먼트만 볼 수 있습니다.
 
 <!-- 
 
@@ -31,18 +31,18 @@ c_segment_segment_overlap.xml
 
 ## 개요
 
-이 [!UICONTROL Segment-to-Segment Overlap] 보고서를 통해 다음과 같은 이점을 얻을 수 있습니다.
+[!UICONTROL Segment-to-Segment Overlap] 보고서를 통해 다음을 수행할 수 있습니다.
 
 * 요구 사항에 따라 겹치거나 낮은 세그먼트를 식별할 수 있습니다. 겹치는 트레이트는 타깃팅된 대상이지만 고유 방문자 수는 줄어듭니다. 오버랩이 낮은 트레이트는 더 크고 고유한 방문자 세트에 도달하는 데 유용합니다.
 * 예상치 않은 겹치기 정보를 찾아 고성능 새로운 세그먼트를 작성합니다.
 
 ## 샘플 보고서
 
-다음 그림은 [!UICONTROL Segment-to-Segment Overlap] 보고서에 대한 고급 개요를 제공합니다.
+다음 그림은 [!UICONTROL Segment-to-Segment Overlap] 보고서의 수준 높은 개요를 제공합니다.
 
 >[!NOTE]
 >
->보고서는 동일한 세그먼트를 자신과 비교할 때 빈 필드를 반환합니다. [!UICONTROL Segment-to-Segment Overlap]
+>[!UICONTROL Segment-to-Segment Overlap] 보고서는 동일한 세그먼트를 자신과 비교할 때 빈 필드를 반환합니다.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -58,7 +58,7 @@ r_s2s_data_pop.xml
 
  -->
 
-보고서의 팝업에 [!UICONTROL Segment-to-Segment Overlap] 아래 지표가 포함되어 있습니다. 표의 고유 수 지표는 *실시간 사용자를 나타냅니다*.
+[!UICONTROL Segment-to-Segment Overlap] 보고서의 팝업에 아래 지표가 포함되어 있습니다. 표의 고유 수 지표는 *실시간 사용자*&#x200B;를 나타냅니다.
 
 | 지표 | 설명 |
 |---|---|
@@ -69,7 +69,7 @@ r_s2s_data_pop.xml
 | **[!UICONTROL Base Segment Uniques]** | 기본 세그먼트의 고유 방문자 수. |
 | **[!UICONTROL Base Segment Uniques]** | 겹치는 세그먼트에서 고유 방문자 수. |
 | **[!UICONTROL Overlapping Uniques]** | 비교 세그먼트 간에 공유된 고유 방문자 수. |
-| **[!UICONTROL Overlap %]** | 겹침 %를 가져오려면 Audience Manager에서 다음 공식을 사용합니다. 겹치는 고유 수 /(기본 세그먼트 고유 수 + 겹치는 세그먼트 고유 수 - 겹치는 고유 수) |
+| **[!UICONTROL Overlap %]** | 겹침 %를 가져오려면 Audience Manager에서 다음 공식을 사용합니다.겹치는 고유 수 /(기본 세그먼트 고유 수 + 겹치는 세그먼트 고유 수 - 겹치는 고유 수) |
 
 
 

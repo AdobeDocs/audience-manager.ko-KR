@@ -17,11 +17,11 @@ ht-degree: 3%
 
 # 정의된 대상 매크로 {#destination-macros-defined}
 
-대상에 추가할 수 있는 매크로를 설명합니다 [!DNL URL].
+대상 [!DNL URL]에 추가할 수 있는 매크로를 설명합니다.
 
 <!-- destination-macros.xml -->
 
-대상을 만들 때 [!DNL URL] 다음 매크로를 [!DNL URL] 문자열에 삽입할 수 있습니다. 대상 내에서 적절한 매크로 위치에 대해 데이터/대상 파트너에게 문의하십시오 [!DNL URL].
+[!DNL URL] 대상을 만들 때 다음 매크로를 [!DNL URL] 문자열에 삽입할 수 있습니다. 대상 [!DNL URL] 내에서 적절한 매크로 배달에 대해 데이터/대상 파트너에게 문의하십시오.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> %alias%</code> </p> </td> 
-   <td colname="col2"> <p>필수 여부. </p> <p>대상 URL에서 매핑된 세그먼트 값의 위치를 정의합니다. 일반적으로 <i>세그먼트 ID이지만</i>통합 코드일 수도 있습니다. </p> </td> 
+   <td colname="col2"> <p>필수 여부. </p> <p>대상 URL에서 매핑된 세그먼트 값의 위치를 정의합니다. 일반적으로 이것은 <i>세그먼트 ID</i>이지만 통합 코드일 수도 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
@@ -45,23 +45,23 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>데이터 <i>소스 id</i> 는 매크로에 전달된 데이터 소스의 식별자에 해당합니다. </p> <p>간단한 예로 이것이 어떻게 작동하는지 살펴보겠습니다. 이 경우 다음과 같은 ID와 조건을 가진 <span class="keyword"> Audience Manager</span> 파트너가 있습니다. </p> 
+   <td colname="col2"> <p><i>데이터 소스 id</i>는 매크로에 전달된 데이터 소스의 식별자에 해당합니다. </p> <p>간단한 예로 이것이 어떻게 작동하는지 살펴보겠습니다. 이 경우 다음 ID와 조건이 있는 <span class="keyword"> Audience Manager</span> 파트너가 있습니다. </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
-     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">데이터 소스 ID: <code> 1</code> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">내부 고객 ID: <code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">선언된 ID:파트너가 이러한 값을 선언된 ID로 전달하려고 합니다 <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>이 작업을 수행하려면 Audience Manager <code>%dpid_<i>data source id</i>%</code><span class="keyword"></span> 파트너가 다음과 같이 매크로 형식을 지정합니다. </p> 
+     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">데이터 소스 ID:<code> 1</code> </li> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">내부 고객 ID:<code> CustomerABC</code> </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">선언된 ID:파트너가 이 값을 선언된 ID <code> 1:CustomerABC</code>으로 전달하려고 합니다. </li> 
+    </ul> <p>이 작업을 수행하려면 <code>%dpid_<i>data source id</i>%</code> Audience Manager</span> 파트너가 다음과 같이 매크로를 포맷합니다.<span class="keyword"> </span></p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>매크로가 다음으로 <code> 1</code> 바뀝니다 <code> CustomerABC</code>. </p> </td> 
+    </ul> <p>매크로가 <code> 1</code>을(를) <code> CustomerABC</code>(으)로 대체합니다. </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>방문자에게 GDPR 규정이 적용되는지 여부를 나타냅니다. IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의를 포함하려면 이 매크로를 사용하십시오. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인을</a> 참조하십시오.</p></td>
+    <td><p>방문자에게 GDPR 규정이 적용되는지 여부를 나타냅니다. IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의를 포함하려면 이 매크로를 사용하십시오. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF</a>용 Audience Manager 플러그인을 참조하십시오.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>방문자가 사이트에서 동의를 제공하거나 거부할 때 수집된 동의 문자열(IAB 공급업체 ID 포함). IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의 문자열을 포함하려면 이 매크로를 사용하십시오. 대상 파트너 ID <code>XXXX</code> 로 대체합니다. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인을</a> 참조하십시오. </p></td>
+    <td><p>방문자가 사이트에서 동의를 제공하거나 거부할 때 수집된 동의 문자열(IAB 공급업체 ID 포함). IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의 문자열을 포함하려면 이 매크로를 사용하십시오. <code>XXXX</code>을(를) 대상 파트너 ID로 바꿉니다. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF</a>용 Audience Manager 플러그인을 참조하십시오. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
@@ -74,11 +74,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>대상 URL에 <span class="keyword"> Experience Cloud</span> ID를 삽입합니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID를 대상 URL에 삽입합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>DCS( <span class="wintitle"> Data Collection Server)</span> 영역을 대상 URL에 삽입합니다. 지연을 최소화하기 위해 방문자가 <span class="keyword"> Audience Manager</span>에 HTTP 호출을 하면 가장 가까운 DCS 데이터 센터로 리디렉션됩니다 <span class="wintitle"></span> . 이 방법은 방문자의 위치를 감지하고 적절한 데이터 센터로 안내하는 DNS를 통해 수행됩니다. </p> </td> 
+   <td colname="col2"> <p><span class="wintitle"> 데이터 수집 서버(DCS)</span> 영역을 대상 URL에 삽입합니다. 지연을 최소화하기 위해 방문자가 <span class="keyword"> Audience Manager</span>에 HTTP 호출을 하면 가장 가까운 <span class="wintitle"> DCS</span> 데이터 센터로 리디렉션됩니다. 이 방법은 방문자의 위치를 감지하고 적절한 데이터 센터로 안내하는 DNS를 통해 수행됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
@@ -91,11 +91,11 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-## 대상 매크로로 캐시 빌드 {#destination-cache-busting}
+## 대상 매크로가 있는 캐시 빌드 {#destination-cache-busting}
 
-및 매크로 `%rnd%` 는 고유한 값을 `%timestamp%` [!DNL URL] 문자열에 삽입하여 브라우저 캐싱을 방지합니다.
+`%rnd%` 및 `%timestamp%` 매크로는 브라우저 캐싱을 방지하기 위해 고유한 값을 [!DNL URL] 문자열에 삽입합니다.
 
-## 및 를 사용하여 캐시 `%rnd%` 제거 `%timestamp%` {#dest-cache-busting}
+## `%rnd%` 및 `%timestamp%` {#dest-cache-busting}로 캐시 버스트
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -106,9 +106,9 @@ ht-degree: 3%
 * `%rnd%`:URL에 무작위 숫자를 삽입합니다.
 * `%timestamp%`:Unix 날짜/시간을 URL에 삽입합니다.
 
-## 비교 `%rnd%` 및 `%timestamp%` {#compare-rnd-timestamp}
+## `%rnd%`과 `%timestamp%` {#compare-rnd-timestamp} 비교
 
-두 매크로 모두 캐싱은 차단하지만 보다 효율적인 것 `%rnd%` 이 가능합니다. 예를 들어, 여러 사용자가 페이지를 동시에 보는 `%timestamp%`경우 동일한 날짜/시간 값을 얻게 됩니다. 따라서, 이 [!DNL URL] 는 고유하지 않으며 여러 개의 호출은 한 번만 카운트됩니다. 하지만 `%rnd%` 각 호출에 대해 고유한 숫자 값을 생성합니다(사용자가 동일한 페이지를 동시에 볼 때에도). 이것은 [!DNL URL] 문자열에 다른 값이 포함되어 있으며 고유으로 카운트됨을 의미합니다.
+두 매크로 모두 캐싱을 차단하지만 `%rnd%`이(가) 더 효율적일 수 있습니다. 예를 들어 `%timestamp%`을 사용하면 여러 사용자가 동시에 페이지를 보는 경우 동일한 날짜/시간 값을 받게 됩니다. 따라서 [!DNL URL]은 고유하지 않으며 여러 개의 호출은 한 번만 카운트됩니다. 하지만, `%rnd%`은 각 호출에 대해 고유한 숫자 값을 생성합니다(사용자가 동일한 페이지를 동시에 볼 때에도). 즉, [!DNL URL] 문자열에는 다른 값이 포함되어 있으며 고유하도록 계산됩니다.
 
 >[!MORELIKETHIS]
 >

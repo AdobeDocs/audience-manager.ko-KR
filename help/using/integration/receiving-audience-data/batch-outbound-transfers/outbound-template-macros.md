@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## 파일 이름 및 파일 헤더 매크로 {#file-name-header-macros}
 
-이 표에서는 파일 이름에 사용하고 헤더 필드를 정의하는 데 사용할 수 있는 매크로를 나열하고 설명합니다. 코드 샘플은 [아웃바운드 매크로 예를 참조하십시오](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+이 표에서는 파일 이름에 사용하고 헤더 필드를 정의하는 데 사용할 수 있는 매크로를 나열하고 설명합니다. 코드 샘플은 [아웃바운드 매크로 예](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)를 참조하십시오.
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -87,15 +87,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>10자리, UTC, Unix 타임스탬프. </p> <p>다음 Java 날짜/타임스탬프 서식 지정 규칙으로 형식을 지정할 수도 있습니다 <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> . </p> </td> 
+   <td colname="col2"> <p>10자리, UTC, Unix 타임스탬프. </p> <p>또한 Java 날짜/타임스탬프 서식 규칙 다음에 <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> 형식을 지정할 수도 있습니다. </p> </td> 
   </tr>
 
 </tbody> 
 </table>
 
-## 콘텐츠 매크로 {#content-macros}
+## 내용 매크로 {#content-macros}
 
-데이터 파일의 내용을 포맷하는 데 사용되는 매크로입니다. 코드 샘플은 [아웃바운드 매크로 예를 참조하십시오](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+데이터 파일의 내용을 포맷하는 데 사용되는 매크로입니다. 코드 샘플은 [아웃바운드 매크로 예](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)를 참조하십시오.
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -107,7 +107,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>닫는 중괄호 문자를 <code>}</code> 삽입합니다. </p> </td> 
+   <td colname="col2"> <p>닫는 중괄호 <code>}</code> 문자를 삽입합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -123,7 +123,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>이 매크로의 출력은 데이터 공급자 ID(DPID)를 관련 DPUUID(고유한 사용자 ID)에 매핑합니다. 이 매크로는 출력을 제어할 수 있는 서식 문자열이 있어야 합니다. 샘플 출력은 다음과 비슷합니다. </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>이 <code> maxMappings </code> 설정은 매크로를 반환할 매핑 수를 결정합니다. 이 <code> maxMappings=0 </code>매크로는 지정된 각 DPID에 대한 모든 매핑을 반환합니다. 데이터는 타임스탬프(가장 최근 첫 번째)별로 정렬되고 가장 큰 타임스탬프가 있는 결과를 먼저 반환합니다. </p> </td> 
+   <td colname="col2"> <p>이 매크로의 출력은 데이터 공급자 ID(DPID)를 관련 DPUUID(고유한 사용자 ID)에 매핑합니다. 이 매크로는 출력을 제어할 수 있는 서식 문자열이 있어야 합니다. 샘플 출력은 다음과 비슷합니다. </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p><code> maxMappings </code> 설정은 매크로를 반환할 매핑 수를 결정합니다. <code> maxMappings=0 </code>이면 이 매크로는 지정된 각 DPID에 대한 모든 매핑을 반환합니다. 데이터는 타임스탬프(가장 최근 첫 번째)별로 정렬되고 가장 큰 타임스탬프가 있는 결과를 먼저 반환합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -151,7 +151,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>정적 하드 코딩된 값 <code> 1 </code> 으로 반환합니다. </p> </td> 
+   <td colname="col2"> <p><code> 1 </code>을(를) 정적 하드 코딩된 값으로 반환합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -175,11 +175,11 @@ ht-degree: 3%
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>:데이터를 세그먼트 데이터 <code> 5 </code>로 식별하는 정적 하드 코딩된 값을 반환합니다. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: 삭제 예정. 사용하지 마십시오. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>:세그먼트가 마지막으로 실현된 시간을 나타내는 Unix 타임스탬프 </li> 
-    </ul> <p>이 변수를 매크로 뒤에 중괄호로 묶습니다. 예를 들어 이 코드는 파이프 "|" 문자로 결과를 구분합니다. <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+    </ul> <p>이 변수를 매크로 뒤에 중괄호로 묶습니다. 예를 들어 이 코드는 파이프 "|" 문자로 결과를 구분합니다.<code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>정적 하드 코딩된 값 <code> 1 </code>으로 반환합니다. </p> </td> 
+   <td colname="col2"> <p>정적 하드 코딩된 값으로 <code> 1 </code>을 반환합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -213,11 +213,11 @@ ht-degree: 3%
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>:특성 ID. </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>:마지막으로 그 특징이 실현되었다. Unix 타임스탬프 </li> 
-    </ul> <p>이 변수를 매크로 뒤에 중괄호로 묶습니다. 예를 들어 이 코드는 "|" 문자로 결과를 구분합니다. <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
+    </ul> <p>이 변수를 매크로 뒤에 중괄호로 묶습니다. 예를 들어 이 코드는 "|" 문자로 결과를 구분합니다.<code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> 사용자 ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> 사용자 ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>

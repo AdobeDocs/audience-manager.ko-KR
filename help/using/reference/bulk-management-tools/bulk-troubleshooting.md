@@ -29,7 +29,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->[UI에 할당된 RBAC 그룹 권한](../../features/administration/administration-overview.md) 은 [!DNL Audience Manager] 에서 유지됩니다 [!UICONTROL Bulk Management Tools].
+>[UI에 ](../../features/administration/administration-overview.md) 할당된 RBAC 그룹 권한 [!DNL Audience Manager] 은 에서 유지됩니다 [!UICONTROL Bulk Management Tools].
 
 대용량 네트워크 트래픽, 서버 사용량 및 대용량 데이터 세트와 같은 요인으로 인해 벌크 요청이 실패하거나 시간 초과될 수 있습니다. 문제가 있으면 워크시트가 데이터 쓰기를 중지하고 오류 메시지를 표시합니다. 이 경우 다음을 수행해야 합니다.
 
@@ -78,5 +78,5 @@ ht-degree: 5%
 
 ## 오류 메시지
 
-벌크 변경 시 오류 메시지가 표시되는 경우가 있습니다. 오류 메시지를 해석하려면 API 설명서에서 [정의된](/help/using/api/rest-api-main/aam-api-getting-started.md) 응답 코드를 참조하십시오.
+벌크 변경 시 오류 메시지가 표시되는 경우가 있습니다. 오류 메시지를 해석하려면 API 설명서의 [응답 코드 정의](/help/using/api/rest-api-main/aam-api-getting-started.md)를 참조하십시오.
 

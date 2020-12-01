@@ -18,9 +18,9 @@ ht-degree: 0%
 
 타사 컨텐츠 제공업체에 일괄 처리 데이터를 전송하려면 먼저 Audience Manager과 타사 컨텐츠 제공업체 간의 통합을 구성해야 합니다. 다음 두 가지 방법으로 이 작업을 수행할 수 있습니다.
 
-## Adobe 컨설턴트를 통해 지원 구성 요청 {#config-consultant}
+## Adobe 컨설턴트 {#config-consultant}를 통해 지원 구성 요청
 
-Adobe 컨설턴트와 함께 일하는 경우 컨설턴트는 사용자를 위해 구성 프로세스를 처리합니다.
+Adobe 컨설턴트와 함께 일하는 경우 구성 프로세스가 자동으로 처리됩니다.
 
 ## Adobe 고객 지원을 통해 지원 구성 요청 {#config-support}
 

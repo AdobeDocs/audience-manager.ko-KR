@@ -21,11 +21,11 @@ ht-degree: 14%
 
 <!-- c_separator.xml -->
 
-파생된 신호에 대한 자세한 내용은 파생 신호 [를 참조하십시오](../../features/derived-signals.md).
+파생된 신호에 대한 자세한 내용은 [파생 신호](../../features/derived-signals.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->파생 신호 [!DNL API] 방법은 [!DNL Swagger] 새로 작성하고 마이그레이션되었습니다. 다음을 참조하십시오.
+>파생된 신호 [!DNL API] 메서드는 [!DNL Swagger]로 다시 작성되고 마이그레이션되었습니다. 다음을 참조하십시오.
 >
 >* [Adobe Audience Manager API 문서](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager API 코드 마이그레이션](../../api/api-swagger-migration.md)

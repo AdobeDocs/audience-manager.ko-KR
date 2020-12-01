@@ -48,9 +48,9 @@ faq_features_functions.xml
 
  
 
-**대상으로 벌크 ID 내보내기를 수행할 때 고객 ID 중 일부가 누락되었습니다. Why does that happen?**
+**대상으로 벌크 ID 내보내기를 수행할 때 고객 ID 중 일부가 누락되었습니다. 왜 이런 일이 발생합니까?**
 
-장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUID](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보내집니다. 따라서 내보내려는 장치 ID 개수보다 적은 수가 표시될 수 있습니다.
+장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUIDs](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보내집니다. 따라서 내보내려는 장치 ID 개수보다 적은 수가 표시될 수 있습니다.
 
  
 

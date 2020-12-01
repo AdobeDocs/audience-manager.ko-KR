@@ -22,16 +22,16 @@ ht-degree: 3%
 
 테스트 그룹에 사용한 기준 세그먼트와 테스트 세그먼트가 어떻게 나누어지는지 확인할 수도 있습니다.
 
-테스트 **[!UICONTROL Test Segments]** 그룹에 사용한 기준 세그먼트의 사용자가 임의로 채워집니다. 개요는 각 테스트 세그먼트에 할당된 사용자의 백분율을 보여줍니다.
+**[!UICONTROL Test Segments]**&#x200B;은 테스트 그룹에 사용한 기준 세그먼트의 사용자가 임의로 채워집니다. 개요는 각 테스트 세그먼트에 할당된 사용자의 백분율을 보여줍니다.
 
-테스트 그룹에 대한 보고를 **[!UICONTROL Conversion Traits]** 구동합니다. 트레이트를 전환으로 지정하려면 에서 트레이트를 만들거나 편집할 때 [!UICONTROL Trait Builder]전환 **을** 이벤트 유형으로 **[선택합니다](../../features/traits/create-onboarded-rule-based-traits.md).**
+**[!UICONTROL Conversion Traits]**&#x200B;은 테스트 그룹에 대한 보고를 구동합니다. 트레이트를 전환으로 지정하려면 [!UICONTROL Trait Builder]에서 트레이트를 만들거나 편집할 때 **전환**&#x200B;을 **[이벤트 유형](../../features/traits/create-onboarded-rule-based-traits.md)으로 선택합니다.**
 
-카드 **[!UICONTROL Destinations]** 는 접을 수 있다. 화살표를 눌러 개별 대상을 열거나 닫고 테스트 세그먼트에 대한 다음 정보를 얻습니다. 이 정보는 테스트 세그먼트에 매핑됩니다.
+**[!UICONTROL Destinations]** 카드는 축소 가능합니다. 화살표를 눌러 개별 대상을 열거나 닫고 테스트 세그먼트에 대한 다음 정보를 얻습니다. 이 정보는 테스트 세그먼트에 매핑됩니다.
 
 * 각 대상에 할당된 기본 세그먼트의 총 모집단에서 장치 수입니다.
 * 매핑 키;
 * 매핑 값;
-* [!DNL URL] 및 보안 [!DNL URL] 을 [!DNL URL] 설정합니다.
+* [!DNL URL] 및 보안 [!DNL URL] 을  [!DNL URL] 설정합니다.
 
 >[!NOTE]
 >

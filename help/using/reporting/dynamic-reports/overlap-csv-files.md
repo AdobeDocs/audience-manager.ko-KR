@@ -33,15 +33,15 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>파일 익스텐션 </p> </td> 
-   <td colname="col2"> <p>겹치는 보고서 파일은 압축되며 확장자가 <code> .gz</code> 지정됩니다. 압축 해제 후 파일에 <code> .csv</code> 확장자를 추가해야 합니다. </p> </td> 
+   <td colname="col2"> <p>겹치는 보고서 파일은 압축되어 <code> .gz</code> 파일 확장자가 있습니다. 압축 해제 후 파일에 <code> .csv</code> 확장자를 추가해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>파일 이름 </p> </td> 
    <td colname="col2"> <p>파일 이름 구문: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">세그먼트 간 파일: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_7DEC51D693FB4377840D652AF40386EF">세그먼트-특성 파일: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">특성-특성 파일: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">세그먼트 간 파일:<code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_7DEC51D693FB4377840D652AF40386EF">세그먼트-특성 파일:<code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">특성-특성 파일:<code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -60,8 +60,8 @@ ht-degree: 9%
    <td colname="col1"> <p>예 </p> </td> 
    <td colname="col2"> <p>단일 보고서의 파일 이름 예: </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
-      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">7일 단일 파일: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
-      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">30일 단일 파일: <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
+      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">7일 단일 파일:<code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">30일 단일 파일:<code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
      </ul> </p> <p>여러 파일이 있는 보고서의 파일 이름 예: </p> <p> 
      <ul id="ul_D307EECBB3524962AB8C8332BF699D29"> 
       <li id="li_9FA3B5539E5A4F95899075866D96DEA0"> <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
@@ -85,7 +85,7 @@ ht-degree: 9%
 
 ## 세그먼트 간 보고서 레코드 {#segment-segment-records}
 
-세그먼트에서 세그먼트로 [겹치기 보고서에 대한 데이터 파일은](segment-segment-overlap-report.md) 다음 레코드를 포함합니다.
+[세그먼트 간 겹침 보고서](segment-segment-overlap-report.md)에 대한 데이터 파일에는 다음 레코드가 포함되어 있습니다.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -113,7 +113,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7일 및 30일 룩백 간격에 대한 보고서를 볼 수 있습니다. 이 <code> rangeid</code> 는 아래에 표시된 시간 간격에 해당합니다. </p> <p> 
+   <td colname="col2"> <p>7일 및 30일 룩백 간격에 대한 보고서를 볼 수 있습니다. <code> rangeid</code>은 아래에 표시된 시간 간격에 해당합니다. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>:7일 </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>:30일 </li> 
@@ -142,9 +142,9 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-## 세그먼트-트레이트 보고서 레코드 {#segment-trait-records}
+## 세그먼트-특성 보고서 레코드 {#segment-trait-records}
 
-세그먼트- [트레이트 겹치기 보고서에 대한 데이터](segment-trait-overlap-report.md) 파일에는 다음 레코드가 포함되어 있습니다.
+[세그먼트-특성 겹침 보고서](segment-trait-overlap-report.md)에 대한 데이터 파일에는 다음 레코드가 포함되어 있습니다.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -176,7 +176,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7일 및 30일 룩백 간격에 대한 보고서를 볼 수 있습니다. 이 <code> rangeid</code> 는 아래에 표시된 시간 간격에 해당합니다. </p> <p> 
+   <td colname="col2"> <p>7일 및 30일 룩백 간격에 대한 보고서를 볼 수 있습니다. <code> rangeid</code>은 아래에 표시된 시간 간격에 해당합니다. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>:7일 </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>:30일 </li> 
@@ -209,9 +209,9 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-## 트레이트-트레이트 보고서 레코드 {#trait-trait-records}
+## 특성-특성 보고서 레코드 {#trait-trait-records}
 
-트레이트- [트레이트 겹치기 보고서에 대한 데이터](trait-trait-overlap-report.md) 파일에는 다음 레코드가 포함되어 있습니다.
+[트레이트-투-트레이트 겹침 보고서](trait-trait-overlap-report.md)에 대한 데이터 파일에는 다음 레코드가 포함되어 있습니다.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -251,7 +251,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7일 및 30일 룩백 간격에 대한 보고서를 볼 수 있습니다. 이 <code> rangeid</code> 는 아래에 표시된 시간 간격에 해당합니다. </p> <p> 
+   <td colname="col2"> <p>7일 및 30일 룩백 간격에 대한 보고서를 볼 수 있습니다. <code> rangeid</code>은 아래에 표시된 시간 간격에 해당합니다. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>:7일 </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>:30일 </li> 

@@ -1,7 +1,7 @@
 ---
 description: DCS API 코드, 메서드 및 프로세스에 대한 개념 정보, 설명 및 정의
-seo-description: AAM(Adobe Audience Manager)의 DCS API 코드, 메서드 및 프로세스에 대한 개념 정보, 설명 및 정의
-seo-title: AAM(Adobe Audience Manager)의 DCS API 참조 개요
+seo-description: Adobe Audience Manager(AAM)의 DCS API 코드, 메서드 및 프로세스에 대한 개념 정보, 설명 및 정의
+seo-title: Adobe Audience Manager(AAM)의 DCS API 참조 개요
 title: DCS API 참조 개요
 feature: DCS
 translation-type: tm+mt
@@ -15,11 +15,11 @@ ht-degree: 13%
 
 # DCS API 참조 개요
 
-코드, 방법 및 프로세스에 대한 개념 정보, 설명 및 [!DNL DCS API] 정의
+[!DNL DCS API] 코드, 메서드 및 프로세스에 대한 개념 정보, 설명 및 정의
 
 * [DCS API 메서드](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   GET 또는 POST 메서드를 [!DNL DCS API] 사용하여 데이터를 로 보냅니다.
+   GET 또는 POST 방법을 사용하여 데이터를 [!DNL DCS API]으로 보냅니다.
 
 * [DCS 오류 코드, 메시지 및 예제](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 

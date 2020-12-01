@@ -16,21 +16,21 @@ ht-degree: 4%
 
 # 검색 기준 저장 {#save-search-criteria}
 
-필요할 때마다 사용할 수 있도록 최대 10개의 검색 기준을 저장하여 신호 검색 활동을 최적화하고, 실시간으로 추적할 수 있습니다 [!UICONTROL Signals Dashboard]. Audience Manager은 사용자가 로드될 때마다 저장된 검색을 다시 로드합니다 [!UICONTROL Signals Dashboard].
+필요할 때마다 사용할 검색 기준 세트를 최대 10개까지 저장하여 신호 검색 노력을 최적화하고, [!UICONTROL Signals Dashboard]에서 추적할 수 있습니다. Audience Manager은 [!UICONTROL Signals Dashboard]을(를) 로드할 때마다 저장된 검색을 다시 로드합니다.
 
-1. 이후 검색 **[!UICONTROL Audience Data > Signals > Search]** 을 위해 저장할 키-값 쌍 및/또는 필터로 이동하여 **[!UICONTROL Signals Search]** 실행합니다.
-1. 검색 결과가 나오면 **[!UICONTROL Save this Search]** 클릭합니다.
+1. **[!UICONTROL Audience Data > Signals > Search]**&#x200B;으로 이동하여 키-값 쌍 및/또는 나중에 검색할 필터를 사용하여 **[!UICONTROL Signals Search]**&#x200B;을 실행합니다.
+1. 검색 결과가 나오면 **[!UICONTROL Save this Search]**&#x200B;을 클릭합니다.
 
    ![단계 결과](assets/save-search-criteria.png)
 1. 나중에 식별할 수 있도록 검색에 사용할 의미 있는 이름을 입력합니다.
 1. (선택 사항) 신호 대시보드에 현재 검색 세트에 신호를 포함하려면 **[!UICONTROL Track this search result in the dashboard]** 옵션을 활성화합니다.
-1. Select the **[!UICONTROL Default Sorting]** criteria:
+1. **[!UICONTROL Default Sorting]** 기준을 선택합니다.
    * **[!UICONTROL Total Counts]**
    * **[!UICONTROL Key Name]**
-1. 다음 **[!UICONTROL Default Sorting]** 모드를 선택합니다.
+1. **[!UICONTROL Default Sorting]** 모드를 선택합니다.
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. 클릭 **[!UICONTROL Save]**. 섹션에서 저장한 검색을 볼 수 [!UICONTROL Saved Search] 있으며 필요할 때마다 사용할 수 있습니다.
+1. 클릭 **[!UICONTROL Save]**. [!UICONTROL Saved Search] 섹션에서 저장한 검색을 볼 수 있으며 필요할 때마다 사용할 수 있습니다.
 
 ![저장된 검색](assets/saved-search.png)
 

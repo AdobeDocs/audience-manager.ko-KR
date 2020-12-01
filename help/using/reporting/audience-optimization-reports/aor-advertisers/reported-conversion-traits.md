@@ -27,6 +27,6 @@ Audience Manager에서 전환 특성을 만드는 방법을 알아보려면 아�
 
 ## 샘플 보고서
 
-보고서가 아래 보고서와 유사할 수 있습니다. [!UICONTROL Reported Conversion Traits]
+[!UICONTROL Reported Conversion Traits] 보고서가 아래 보고서와 유사할 수 있습니다.
 
 ![](assets/reported-conversion-traits.png)

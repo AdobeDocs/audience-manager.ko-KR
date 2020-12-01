@@ -17,6 +17,6 @@ ht-degree: 9%
 
 # 트레이트 빌더에서 정규 표현식 사용 {#using-regular-expressions-in-trait-builder}
 
-코드 편집기를 사용하여 고유한 특성 규칙을 만들 수 [!UICONTROL Trait Builder] 있습니다. 에서 코드 편집기 [!UICONTROL Traits > Add New > Rule-based > Trait Expression] 를 찾아 다음으로 전환합니다 [!UICONTROL Code View]. Audience Manager은 [!DNL Java Regular Expression Class Pattern] 일반 표현식을 [!DNL Expression Builder]
+[!UICONTROL Trait Builder] 코드 편집기를 사용하여 고유한 특성 규칙을 만들 수 있습니다. [!UICONTROL Traits > Add New > Rule-based > Trait Expression]에서 코드 편집기를 찾아 [!UICONTROL Code View](으)로 전환합니다. Audience Manager은 [!DNL Java Regular Expression Class Pattern]에서 참조되는 모든 사용 가능한 정규식 구문을 지원합니다. [!DNL Expression Builder]에서 직접 정규 표현식의 유효성을 확인할 수 있습니다.
 
-Java 정규 [표현식 클래스 패턴을 참조하십시오](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+[Java 정규 표현식 클래스 패턴](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)도 참조하십시오.

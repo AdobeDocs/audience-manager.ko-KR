@@ -17,9 +17,9 @@ ht-degree: 12%
 
 # DCS 호출에서 키-값 쌍 형식 지정 {#formatting-key-value-pairs-in-dcs-calls}
 
-호출을 수행할 때 이 값은 [!DNL DCS] 키-값 데이터를 표준 또는 직렬화된 형식으로 허용합니다. 표준 및 직렬화된 키-값 데이터의 형식을 지정하는 방법에 대한 자세한 내용은 이 섹션을 검토하십시오.
+호출을 수행할 때 [!DNL DCS]은(는) 키 값 데이터를 표준 또는 직렬화된 형식으로 받아들입니다. 표준 및 직렬화된 키-값 데이터의 형식을 지정하는 방법에 대한 자세한 내용은 이 섹션을 검토하십시오.
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized}
+## 표준 및 직렬화된 키-값 쌍 {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -43,7 +43,7 @@ ht-degree: 12%
  </tbody>
 </table>
 
-## 직렬화된 키-값 쌍의 구분 기호 및 구분 기호 {#delimiters-separators}
+## 직렬화된 키-값 쌍 구분 기호 {#delimiters-separators}
 
 직렬화된 키-값 쌍으로, 이러한 변수 내와 사이에서 값을 구분하는 마커를 지정해야 합니다. Audience Manager에는 다음 구분 기호와 구분 기호가 필요합니다.
 

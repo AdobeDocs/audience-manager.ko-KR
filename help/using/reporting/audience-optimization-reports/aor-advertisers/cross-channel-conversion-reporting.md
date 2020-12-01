@@ -1,6 +1,6 @@
 ---
-description: 대상 최적화 보고서의 크로스 채널 전환 옵션을 사용하면 오프라인 전환을 제공된 온라인 노출 또는 클릭에 연결할 수 있습니다.
-seo-description: 대상 최적화 보고서의 크로스 채널 전환 옵션을 사용하면 오프라인 전환을 제공된 온라인 노출 또는 클릭에 연결할 수 있습니다.
+description: Audience Optimization 보고서의 크로스 채널 전환 옵션을 사용하면 제공된 온라인 노출 횟수 또는 클릭에 오프라인 전환을 적용할 수 있습니다.
+seo-description: Audience Optimization 보고서의 크로스 채널 전환 옵션을 사용하면 제공된 온라인 노출 횟수 또는 클릭에 오프라인 전환을 적용할 수 있습니다.
 seo-title: 크로스 채널 전환
 solution: Audience Manager
 title: 크로스 채널 전환
@@ -17,15 +17,15 @@ ht-degree: 4%
 
 # 크로스 채널 전환{#cross-channel-conversion}
 
-대상 최적화 보고서의 크로스 채널 전환 옵션을 사용하면 오프라인 전환을 제공된 온라인 노출 또는 클릭에 연결할 수 있습니다.
+Audience Optimization 보고서의 크로스 채널 전환 옵션을 사용하면 제공된 온라인 노출 횟수 또는 클릭에 오프라인 전환을 적용할 수 있습니다.
 
-이 [!UICONTROL Cross Channel Conversion] 보고서는 [!DNL Google Campaign Manager] 플랫폼 결과와 [!DNL Audience Manager] 전환 트레이트를 결합합니다. 이를 통해 오프라인 전환을 온라인 노출 또는 클릭에 연결할 수 있습니다.
+[!UICONTROL Cross Channel Conversion] 보고서는 [!DNL Google Campaign Manager] 플랫폼의 결과를 [!DNL Audience Manager] 전환 트레이트와 결합합니다. 이를 통해 오프라인 전환을 온라인 노출 또는 클릭에 연결할 수 있습니다.
 
-세그먼트 성능 [!UICONTROL Cross Channel Conversion] 및 [최적](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) 빈도 [보고서에 사용할 수](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) 있습니다.
+[세그먼트 성능](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) 및 [최적 빈도](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) 보고서에 [!UICONTROL Cross Channel Conversion]을 사용할 수 있습니다.
 
-보고서를 보려면 [!UICONTROL Cross Channel Conversion] 드롭다운 목록에서 **[!UICONTROL AAM + Ad Server Name]** 항목을 **[!UICONTROL Platform]** 선택합니다.
+[!UICONTROL Cross Channel Conversion] 보고서를 보려면 **[!UICONTROL Platform]** 드롭다운 목록에서 **[!UICONTROL AAM + Ad Server Name]** 항목을 선택합니다.
 
-다음 표에는 설정 시 고려해야 할 중요한 사항이 나와 있습니다 [!UICONTROL Cross Channel Conversion].
+다음 표에는 [!UICONTROL Cross Channel Conversion]을(를) 설정할 때의 중요한 고려 사항이 나와 있습니다.
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -37,11 +37,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col01"> <p>최소 전환 트레이트 수 </p> </td> 
-   <td colname="col1"> <p>크로스 채널 전환 보고서가 실행되려면 하나 이상의 전환 트레이트가 <span class="wintitle"> 데이터 소스에</span> 할당되어야 합니다. 트레이트에 <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> 대한 자세한 내용은 트레이트에</a> 대한 기본 정보를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> 크로스 채널 전환</span> 보고서를 실행하려면 하나 이상의 전환 트레이트를 데이터 소스에 할당해야 합니다. 트레이트에 대한 자세한 내용은 <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> 트레이트</a>에 대한 기본 정보를 참조하십시오. </p> </td> 
   </tr>
   <tr> 
    <td> <p>속성 창 </p> </td> 
-   <td> <p> <b><span class="uicontrol"> AAM+Google Campaign Manager</span></b> 속성 창은 14일입니다. 즉, 지난 2주 동안 표시된 전환 특성만 고려됩니다. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> AAM+Google Campaign </span></b> Manager 속성 창은 14일입니다. 즉, 지난 2주 동안 표시된 전환 특성만 고려됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>마지막 접촉 방법론 </p> </td> 

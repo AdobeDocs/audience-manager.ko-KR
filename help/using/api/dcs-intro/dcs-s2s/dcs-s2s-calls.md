@@ -15,15 +15,15 @@ ht-degree: 9%
 
 # 서버 간 DCS API 호출 만들기 {#making-server-to-server-dcs-api-calls}
 
-호출에는 지역 DCS 서버의 호스트 이름과 사용자 ID가 필요합니다. 필요한 사용자 및 지역 ID가 없는 경우 DCS 응답 [및/또는](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) Experience Cloud에서 사용자 ID 및 지역 가져오기를 참조하십시오 [](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). 사용자 및 지역 ID가 있는 경우 DCS를 서버 간 호출하도록 할 수 있습니다. 구문 및 예는 이 섹션을 참조하십시오.
+호출에는 지역 DCS 서버의 호스트 이름과 사용자 ID가 필요합니다. 필수 사용자 및 지역 ID가 없는 경우 [DCS 응답에서 사용자 ID 및 지역 가져오기](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) 및/또는 [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)를 참조하십시오. 사용자 및 지역 ID가 있는 경우 DCS를 서버 간 호출하도록 할 수 있습니다. 구문 및 예는 이 섹션을 참조하십시오.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. 서버에 대한 서버 호출 시 자리 표시자에 대한 실제 값으로 대체하십시오 [!DNL DCS].
+>코드 및 예에서 *기울임체*&#x200B;는 변수 자리 표시자를 나타냅니다. [!DNL DCS]을(를) 서버 간 호출하면 자리 표시자의 실제 값으로 대체합니다.
 
 ## 호출 구문 및 예 {#call-syntax-example}
 
-데이터를 서버로 보내는 기본 서버 간 요청에서는 아래에 표시된 구문을 [!DNL DCS] 사용합니다.
+데이터를 [!DNL DCS]으로 전송하는 기본 서버 간 요청에서는 아래에 표시된 구문을 사용합니다.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
@@ -49,13 +49,13 @@ ht-degree: 9%
    <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>호출의 이 부분에는 다음이 포함됩니다. </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Audience Manager에 의해 <span class="keyword"> 할당된 도메인</span> 별칭(예: <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">항상 대상 도메인입니다 <i><code> demdex.net</code></i>. <a href="../../../reference/demdex-calls.md">Demdex 도메인에 대한 호출 이해</a>를 참조하십시오. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9"><span class="keyword"> Audience Manager</span>(예: <i><code> my_domain.demdex.net</code></i>)에서 지정한 도메인 별칭입니다. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">항상 <i><code> demdex.net</code></i>인 대상 도메인입니다. <a href="../../../reference/demdex-calls.md">Demdex 도메인에 대한 호출 이해</a>를 참조하십시오. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>지역 <span class="wintitle"> DCS</span> 서버 이름을 표시하는 http 헤더 호스트 매개 변수입니다. 호스트 이름은 지역 ID에 연결되어 있으므로 이러한 유형의 호출을 하기 전에 이 이름이 필요합니다. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>지역 <span class="wintitle"> DCS</span> 서버의 이름을 표시하는 http 헤더 호스트 매개 변수입니다. 호스트 이름은 지역 ID에 연결되어 있으므로 이러한 유형의 호출을 하기 전에 이 이름이 필요합니다. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> /event?</code> </p> </td> 
@@ -67,11 +67,11 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>키-값 쌍에서 <span class="keyword"> Audience Manager</span> 사용자 ID 값을 보관하는 고유한 사용자 ID 키입니다. </p> <p>Audience Manager <code><i>d_uuid</i></code> 사용자 ID를 전달하는 경우 <span class="keyword"> 사용합니다</span> . </p> </td>
+   <td colname="col2"> <p>키-값 쌍에 <span class="keyword"> Audience Manager</span> 사용자 ID 값을 포함하는 고유한 사용자 ID 키입니다. </p> <p><span class="keyword"> Audience Manager</span> 사용자 ID를 전달하는 경우 <code><i>d_uuid</i></code>을 사용하십시오. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>키-값 쌍에서 <span class="keyword"> Experience Cloud</span> 사용자 ID 값을 보관하는 고유한 사용자 ID 키입니다. ID 서비스 쿠키에서 사용자 ID 가져오기를 참조하십시오 <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"></a>. </p> <p>Experience Cloud <i><code> d_mid</code></i> ID 서비스에서 캡처한 <span class="keyword"> Experience Cloud</span> ID를 전달하는 경우 <span class="keyword"> 사용합니다</span> . </p> </td> 
+   <td colname="col2"> <p>키-값 쌍에 <span class="keyword"> Experience Cloud</span> 사용자 ID 값을 포함하는 고유한 사용자 ID 키입니다. ID 서비스 쿠키<a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie">에서 사용자 ID 가져오기를 참조하십시오.</a> </p> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 캡처한 <span class="keyword"> Experience Cloud</span> ID를 전달하는 경우 <i><code> d_mid</code></i>을 사용하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -80,11 +80,11 @@ ht-degree: 9%
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"><code> d_rtbd=json</code> </li> 
       <li id="li_3430CD0438604B83BE6437E6EC480816"><code>d_cb=<i>callback</i></code> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>선택적 응답 매개 변수입니다. </p> <p> DCS로 데이터를 전송할 필요가 <span class="wintitle"> 없습니다</span>. 그러나 DCS에서 응답을 <span class="wintitle"> 반환하려면</span> 요청에 <i><code> d_rtbd=json</code></i> 포함해야 합니다. </p> </td> 
+   <td colname="col2"> <p>선택적 응답 매개 변수입니다. </p> <p> 이 중 어떤 것도 데이터를 <span class="wintitle"> DCS</span>로 보낼 필요가 없습니다. 그러나 <span class="wintitle"> DCS</span>에서 응답을 반환하려면 요청에 <i><code> d_rtbd=json</code></i>를 포함해야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 샘플 응답 {#sample-response}
 
-See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+[DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)에서 데이터 받기를 참조하십시오.

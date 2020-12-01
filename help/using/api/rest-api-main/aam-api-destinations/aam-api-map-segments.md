@@ -17,17 +17,17 @@ ht-degree: 11%
 
 # 대상에 세그먼트 매핑 {#map-segments-to-a-destination}
 
-이러한 방법으로 세그먼트를 대상에 [!DNL RESTful API] 매핑합니다.
+이러한 [!DNL RESTful API] 메서드로 세그먼트를 대상에 매핑합니다.
 
 <!-- c_api_map_seg_dest.xml -->
 
-## 지원되는 대상 유형: URL 및 쿠키만
+## 지원되는 대상 유형:URL 및 쿠키만
 
-사용 가능한 `POST` 방법을 사용하여 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 매핑할 수 있습니다. 현재, 세그먼트를 이러한 방법 [!UICONTROL server-to-server destinations] 으로 매핑할 수 [!DNL REST API] 없습니다. 사용자 인터페이스를 대신 사용하십시오. 하지만 관련 대상 `GET` 방법을 사용하면 사용자 인터페이스에서 만든 정보를 검색할 [!UICONTROL server-to-server destinations] 수 있습니다.
+사용 가능한 `POST` 메서드는 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations]에만 매핑할 수 있습니다. 현재 이러한 [!DNL REST API] 메서드로 세그먼트를 [!UICONTROL server-to-server destinations]에 매핑할 수 없습니다. 사용자 인터페이스를 대신 사용하십시오. 그러나 관련 대상 `GET` 메서드는 사용자 인터페이스에서 만든 [!UICONTROL server-to-server destinations]에 대한 정보를 검색할 수 있도록 해줍니다.
 
 ## 세그먼트를 일련 번호가 없는 URL 대상에 매핑 {#map-segment-non-serial}
 
-세그먼트를 비직렬 대상에 매핑할 수 있는 `POST` [!UICONTROL URL] 방법입니다.
+세그먼트를 비직렬 [!UICONTROL URL] 대상에 매핑할 수 있는 `POST` 메서드입니다.
 
 <!-- r_map_noserial_url.xml -->
 
@@ -77,7 +77,7 @@ ht-degree: 11%
 
 ## 세그먼트를 직렬화된 URL 대상에 매핑 {#map-segment-serial}
 
-세그먼트를 직렬화된 대상에 매핑할 수 있는 `POST` [!UICONTROL URL] 방법입니다.
+세그먼트를 직렬화된 [!UICONTROL URL] 대상에 매핑할 수 있는 `POST` 메서드입니다.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -87,7 +87,7 @@ ht-degree: 11%
 
 ### 샘플 요청
 
-요청에서 이 `traitAlias` 값은 키-값 쌍의 키에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
+요청에서 `traitAlias`은 키-값 쌍의 키에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -125,9 +125,9 @@ ht-degree: 11%
 }
 ```
 
-## 세그먼트를 쿠키 대상에 매핑: 단일 키, 일련 번호가 아님 {#map-segment-cookie-noserial}
+## 세그먼트를 쿠키 대상에 매핑:단일 키, 일련 번호가 없는 {#map-segment-cookie-noserial}
 
-세그먼트를 단일 키, 일련 번호가 없는 대상에 매핑할 수 있는 `POST` [!UICONTROL cookie] 방법입니다.
+세그먼트를 단일 키의 일련 번호가 없는 [!UICONTROL cookie] 대상에 매핑할 수 있는 `POST` 메서드입니다.
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -137,7 +137,7 @@ ht-degree: 11%
 
 ### 샘플 요청
 
-요청에서, 이 `valueAlias` 값은 키-값 쌍의 값에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
+요청에서 `valueAlias`은 키-값 쌍의 값에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -172,9 +172,9 @@ ht-degree: 11%
 }
 ```
 
-## 세그먼트를 쿠키 대상에 매핑: 다중 키, 일련 번호가 지정되지 않음 {#map-segment-cookie-multi-noserial}
+## 세그먼트를 쿠키 대상에 매핑:다중 키, 일련 번호가 없는 {#map-segment-cookie-multi-noserial}
 
-세그먼트를 여러 개의 키가 있고 일련 번호가 없는 대상에 매핑할 수 있는 `POST` [!UICONTROL cookie] 방법입니다.
+세그먼트를 다중 키, 일련 번호가 없는 [!UICONTROL cookie] 대상에 매핑할 수 있는 `POST` 메서드입니다.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -184,7 +184,7 @@ ht-degree: 11%
 
 ### 샘플 요청
 
-요청에서 키-값 쌍에서 키 `traitAlias` 와 값을 각각 설정하고 `valueAlias` 설정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
+요청에서 `traitAlias` 및 `valueAlias`는 키와 값을 각각 키-값 쌍으로 설정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -220,9 +220,9 @@ ht-degree: 11%
 }
 ```
 
-## 세그먼트를 쿠키 대상에 매핑: 다중 키, 직렬화 {#map-segment-cookie-multi-serial}
+## 세그먼트를 쿠키 대상에 매핑:다중 키, 일련 번호 {#map-segment-cookie-multi-serial}
 
-세그먼트를 여러 개의 `POST` 키에 매핑하고 직렬화된 방식으로 사용할 수 있는 방법입니다 [!UICONTROL cookie destination].
+세그먼트를 여러 개의 키에 매핑하고 직렬화된 [!UICONTROL cookie destination]에 매핑할 수 있는 `POST` 메서드입니다.
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -232,7 +232,7 @@ ht-degree: 11%
 
 ### 샘플 요청
 
-요청에서 키-값 쌍 `traitAlias` 에서 키와 값을 `valueAlias` 설정하고 설정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
+요청에서 `traitAlias` 및 `valueAlias`는 키와 값을 키-값 쌍으로 설정합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -268,9 +268,9 @@ ht-degree: 11%
 }
 ```
 
-## 서버 간 대상에 세그먼트 매핑 {#map-segment-s2s}
+## 세그먼트를 서버 간 대상에 매핑 {#map-segment-s2s}
 
-기존 대상에 세그먼트를 매핑할 수 있는 `POST` [!UICONTROL server-to-server] 방법입니다. 그러나 현재 사용 가능한 이러한 방법으로 [!UICONTROL server-to-server] 대상을 만들 수는 [!DNL API] 없습니다.
+기존 [!UICONTROL server-to-server] 대상에 세그먼트를 매핑할 수 있는 `POST` 메서드입니다. 그러나 현재 사용 가능한 [!DNL API] 메서드로 [!UICONTROL server-to-server] 대상을 만들 수는 없습니다.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -280,7 +280,7 @@ ht-degree: 11%
 
 ### 샘플 요청
 
-요청에서 이 `traitAlias` 값은 키-값 쌍의 키에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
+요청에서 `traitAlias`은 키-값 쌍의 키에 해당합니다. 별도의 설명이 없는 한 모든 요청 값이 필요합니다.
 
 ```
 {
@@ -316,7 +316,7 @@ ht-degree: 11%
 
 ## 벌크 만들기 대상 매핑 {#bulk-create}
 
-배열 `POST` 또는 [!UICONTROL cookie] [!UICONTROL URL] 대상 매핑을 전달할 수 있는 메서드입니다.
+[!UICONTROL cookie] 또는 [!UICONTROL URL] 대상 매핑의 배열을 전달할 수 있는 `POST` 메서드입니다.
 
 <!-- r_bulk_create.xml -->
 
@@ -400,7 +400,7 @@ ht-degree: 11%
 
 ## 대상에 여러 세그먼트 추가 {#add-segments-dest}
 
-여러 세그먼트를 대상에 매핑할 수 있는 `POST` 방법입니다.
+여러 세그먼트를 대상에 매핑할 수 있는 `POST` 메서드입니다.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -482,9 +482,9 @@ ht-degree: 11%
 ]
 ```
 
-## Update a Destination by Destination ID {#update-dest-data-order}
+## 대상 ID {#update-dest-data-order}별로 대상 업데이트
 
-기존 대상을 다음으로 업데이트할 수 있는 `PUT` 방법입니다 `destinationId`.
+`destinationId`에 의해 기존 대상을 업데이트할 수 있는 `PUT` 메서드입니다.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -532,9 +532,9 @@ ht-degree: 11%
 }
 ```
 
-## 매핑 ID로 대상에 매핑 업데이트 {#update-mapping-dest-id}
+## 매핑 ID {#update-mapping-dest-id}로 대상에 매핑 업데이트
 
-지정된 기준으로 대상에 대한 매핑을 업데이트할 수 있는 `PUT` 메서드입니다 `mappingId`.
+지정된 `mappingId`에 따라 대상에 대한 매핑을 업데이트할 수 있는 `PUT` 메서드입니다.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 

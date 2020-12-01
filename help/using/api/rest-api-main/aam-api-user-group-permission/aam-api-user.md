@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # 사용자 관리 API 메서드 {#user-management-api-methods}
 
-사용자 객체 만들기, 업데이트, 목록 작성, 삭제 및 반환 등 사용자를 관리하는 나머지 [!DNL API] 방법입니다.
+[!DNL API] 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 데 필요한 나머지 메서드를 사용합니다.
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Create a User {#create-user}
+## 사용자 {#create-user} 만들기
 
-새 사용자를 만드는 `POST` 방법입니다.
+새 사용자를 만드는 `POST` 메서드입니다.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -66,13 +66,13 @@ ht-degree: 7%
 }
 ```
 
-true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니다. 또한 이 속성을 사용하여 사용자가 파트너 관리자인지 알 수 있습니다.
+`isAdmin`이(가) true로 설정된 경우 사용자가 파트너 관리자로 생성됩니다. 또한 이 속성을 사용하여 사용자가 파트너 관리자인지 알 수 있습니다.
 
-사용자 이름 `409 Conflict` 이 이미 수행된 경우 반환합니다.
+사용자 이름이 이미 수행된 경우 `409 Conflict`을 반환합니다.
 
 ## 사용자 업데이트 {#update-user}
 
-사용자를 업데이트하는 `PUT` 방법입니다.
+사용자를 업데이트하는 `PUT` 메서드입니다.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -111,17 +111,17 @@ true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니
 }
 ```
 
-사용자 이름 `409 Conflict` 이 이미 수행된 경우 반환합니다.
+사용자 이름이 이미 수행된 경우 `409 Conflict`을 반환합니다.
 
 ## 로그인한 사용자 업데이트 {#update-logged-in-user}
 
-현재 로그인한 사용자를 업데이트하는 `PUT` 방법입니다.
+현재 로그인한 사용자를 업데이트하는 `PUT` 메서드입니다.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -154,17 +154,17 @@ true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니
 }
 ```
 
-사용자 이름 `409 Conflict` 이 이미 수행된 경우 반환합니다.
+사용자 이름이 이미 수행된 경우 `409 Conflict`을 반환합니다.
 
 ## 로그인한 사용자 암호 업데이트 {#update-logged-in-user-pw}
 
-현재 로그인한 사용자를 업데이트하는 `PUT` 방법입니다.
+현재 로그인한 사용자를 업데이트하는 `PUT` 메서드입니다.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -176,27 +176,27 @@ true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-성공한 경우 `200 OK` 반환합니다. 두 암호 중 하나에 잘못된 `400 Bad Request` 경우 반환합니다.
+성공한 경우 `200 OK`을 반환합니다. 두 암호 중 하나에 잘못된 경우 `400 Bad Request`을 반환합니다.
 
 ## 로그인한 사용자 암호 재설정 {#reset-logged-in-user-pw}
 
-현재 로그인한 사용자를 재설정하는 `PUT` 방법입니다. [!UICONTROL Audience Management] 사용자에게 시스템 생성 암호를 보냅니다.
+현재 로그인한 사용자를 재설정하는 `PUT` 메서드입니다. [!UICONTROL Audience Management] 사용자에게 시스템 생성 암호를 보냅니다.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
 `POST /self/reset-password`
 
-성공한 경우 `200 OK` 반환합니다.
+성공한 경우 `200 OK`을 반환합니다.
 
-## 사용자 ID에 대한 사용자 개체 반환 {#return-user-object-for-id}
+## 사용자 ID {#return-user-object-for-id}에 대한 사용자 개체 반환
 
-사용자 ID에 대한 사용자 개체를 반환하는 `Get` 방법입니다.
+사용자 ID에 대한 사용자 개체를 반환하는 `Get` 메서드입니다.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -222,15 +222,15 @@ true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니
 }
 ```
 
-## 로그인한 사용자의 사용자 개체 반환 {#return-user-object-for-logged-in-user}
+## 로그인한 사용자의 반환 사용자 {#return-user-object-for-logged-in-user}
 
-현재 로그인한 사용자의 사용자 개체를 반환하는 `Get` 방법입니다.
+현재 로그인한 사용자의 사용자 개체를 반환하는 `Get` 메서드입니다.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있는 반면 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -254,9 +254,9 @@ true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니
 }
 ```
 
-## 사용자 목록 {#list-users}
+## 목록 사용자 {#list-users}
 
-사용자를 나열하는 `GET` 방법입니다.
+사용자를 나열하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -288,9 +288,9 @@ true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니
 }
 ```
 
-## Delete a User {#delete-users}
+## 사용자 {#delete-users} 삭제
 
-사용자를 삭제하는 `DELETE` 방법입니다.
+사용자를 삭제하는 `DELETE` 메서드입니다.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -298,11 +298,11 @@ true `isAdmin` 로 설정하면 사용자가 파트너 관리자로 생성됩니
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-성공한 경우 `204 No Content` 반환합니다. 충돌이 재발할 경우 `409 Conflict`.
+성공한 경우 `204 No Content`을 반환합니다. 충돌이 발생하는 경우 `409 Conflict`이(가) 반환됩니다.
 
-## 사용자 일괄 삭제 {#delete-users-bulk}
+## 벌크 {#delete-users-bulk}에서 사용자 삭제
 
-여러 사용자를 일괄 삭제하는 `POST` 방법입니다.
+여러 사용자를 일괄 삭제하는 `POST` 메서드입니다.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 

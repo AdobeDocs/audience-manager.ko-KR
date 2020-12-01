@@ -24,13 +24,13 @@ c_compintro.xml
 
  -->
 
-이 안내서에서는 전원을 공급하는 기본 구성 요소에 대한 기본 개요를 제공합니다 [!DNL Audience Manager]. 다음 용도로 작성됩니다.
+이 안내서에서는 [!DNL Audience Manager]에 사용되는 기본 구성 요소에 대한 기본 개요를 제공합니다. 다음 용도로 작성됩니다.
 
 * 기술적인 면을 잘 모르는 독자
-* 현 [!DNL Audience Manager] 고객은 이 모든 것이 어떻게 작동하는지 궁금합니다.
-* 이 시스템을 실사 또는 제안 프로세스의 일부로 평가해야 하는 잠재 [!DNL Audience Manager] 고객입니다.
+* 현재 [!DNL Audience Manager] 고객은 모든 것이 어떻게 작동하는지 궁금합니다.
+* 이 시스템을 실사 또는 제안 프로세스의 일부로 평가해야 하는 잠재 고객 [!DNL Audience Manager].
 
-이 가이드는 일반적인 설명과 깊은 다이빙 사이의 균형을 맞추려고 한다. 하지만, 어떤 것들은 독점적이라서 우리는 그곳에 가지 않을 것입니다. 마요네즈와 케첩보다 더 특별한 소스가 있습니다 피클은 비밀로 해야 한다. 늘 그렇듯 질문이 있으면 컨설턴트에게 [!DNL Audience Manager] 문의할 수 있다.
+이 가이드는 일반적인 설명과 깊은 다이빙 사이의 균형을 맞추려고 한다. 하지만, 어떤 것들은 독점적이라서 우리는 그곳에 가지 않을 것입니다. 마요네즈와 케첩보다 더 특별한 소스가 있습니다 피클은 비밀로 해야 한다. 질문이 있는 경우 컨설턴트에게 확인할 수 있습니다.[!DNL Audience Manager]
 
 * [Audience Manager 시스템의 주요 구성 요소](/help/using/reference/system-components/components-stack.md)
 * [데이터 작업 구성 요소](/help/using/reference/system-components/components-data-action.md)

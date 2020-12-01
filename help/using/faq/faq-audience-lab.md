@@ -40,7 +40,7 @@ audience-lab-faq.xml
 
 <br> 
 
-**테스트 그룹이 테스트 세그먼트 분할에 대해 인증된 프로필을 사용하고 있다고 가정합니다. 인증된 프로필은 4개의[Audience Manager UUID](../reference/ids-in-aam.md)에 연결되어 있습니다. 방문자가 4개의 UUID 중 하나로부터 전환 트레이트를 보이면[!UICONTROL Audience Lab]은 이것을 1개의 전환으로 계산합니까, 아니면 4개의 전환으로 계산합니까?**
+**테스트 그룹이 테스트 세그먼트 분할에 대해 인증된 프로필을 사용하고 있다고 가정합니다. 인증된 프로필은 4개의 [Audience Manager UUID](../reference/ids-in-aam.md)에 연결되어 있습니다. 방문자가 4개의 UUID 중 하나로부터 전환 트레이트를 보이면 [!UICONTROL Audience Lab]은 이것을 1개의 전환으로 계산합니까, 아니면 4개의 전환으로 계산합니까?**
 
 이 경우 한 [!UICONTROL Audience Lab]은 1개의 전환만 계산합니다.
 
@@ -52,10 +52,10 @@ audience-lab-faq.xml
 
 <br> 
 
-**사용자는[!UICONTROL Segment: Read-Only]액세스 권한과 함께[!UICONTROL Audience Lab]테스트 세그먼트 생성 액세스 권한도 보유할 수 있습니까?**
+**사용자는 [!UICONTROL Segment: Read-Only] 액세스 권한과 함께 [!UICONTROL Audience Lab] 테스트 세그먼트 생성 액세스 권한도 보유할 수 있습니까?**
 
 [!UICONTROL RBAC] 권한과 함께 [!UICONTROL Audience Lab]을 사용하는 방법에 대한 내용은 [세그먼트 테스트 그룹 만들기](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)를 참조하십시오.
 
-**[!UICONTROL Profile Link Device Graph]및 외부 장치 그래프([Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html), Tapad 장치 그래프, Liveramp 장치 그래프)와 함께[!UICONTROL Audience Lab]을 사용할 수 있습니까?**
+**[!UICONTROL Profile Link Device Graph] 및 외부 장치 그래프([Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html), Tapad 장치 그래프, Liveramp 장치 그래프)와 함께 [!UICONTROL Audience Lab]을 사용할 수 있습니까?**
 
 현재, [!UICONTROL Audience Lab]은 [!UICONTROL Profile Link Device Graph]를 사용할 때 자격을 부여하는 장치에 연결된 장치로만 세그먼트 인구를 분할할 수 있습니다. [!UICONTROL Audience Lab]에서 다른 장치 그래프에 대한 지원을 추가하는 작업이 진행 중이며 추가되면 알려드리겠습니다.

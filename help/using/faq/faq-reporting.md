@@ -27,7 +27,7 @@ faq_reports.xml
 
  -->
 
-**새로운 온보딩 트레이트의 경우, 왜[!UICONTROL Trait Graph]가 가끔씩 예상 수치나 0보다 낮게 표시됩니까?**
+**새로운 온보딩 트레이트의 경우, 왜 [!UICONTROL Trait Graph]가 가끔씩 예상 수치나 0보다 낮게 표시됩니까?**
 
 경우에 따라 트레이트를 업로드하면 [!UICONTROL Trait Graph]에 결과가 표시되지 않거나 예상 수치보다 낮은 결과가 표시됩니다. 이런 일은 우리가 받는 데이터의 양이 너무 커서 인바운드 처리 작업이 해당 날짜에 대한 보고 최종 기한 이후까지 이 정보의 섭취를 완료할 수 없을 때 발생합니다.
 
@@ -35,7 +35,7 @@ faq_reports.xml
 
 <br> 
 
-**일부 세그먼트가[!UICONTROL Overlap]보고서에서 누락되었습니다. 해당 세그먼트는 어디 있습니까?**
+**일부 세그먼트가 [!UICONTROL Overlap] 보고서에서 누락되었습니다. 해당 세그먼트는 어디 있습니까?**
 
 컴퓨터 부담을 줄이기 위해 이 보고서에서는 통계적으로 중요하지 않은 데이터를 결과에서 생략합니다. 해당 세그먼트는 누락되지 않았고 의미 있는 결과나 타겟팅할 수 있는 유용한 사용자 풀을 내놓지 않기 때문에 뺐을 뿐입니다. 다음을 참조하십시오.
 
@@ -101,12 +101,12 @@ faq_reports.xml
 
 <br> 
 
-**온보딩된 트레이트에 대해[!UICONTROL Total Trait Realizations]이 왜 항상 0입니까?**
+**온보딩된 트레이트에 대해 [!UICONTROL Total Trait Realizations]이 왜 항상 0입니까?**
 
 [!UICONTROL Total Trait Realizations]은 페이지 로드에 해당합니다. [!UICONTROL Total Trait Realizations]은 특정 트레이트가 실시간으로 실행된 횟수를 제공합니다. 이 숫자는 규칙 기반 트레이트에 대해서만 계산됩니다. 온보딩된 트레이트는 항상 [!UICONTROL Total Trait Realizations]을 0으로 표시됩니다.
 
 <br> 
 
-**트레이트 하나를 만들었는데[!UICONTROL Trait Graph]에[!UICONTROL Total Trait Population]보다 더 많은[!UICONTROL Unique Trait Realizations]이 표시됩니다. 이것이 정상입니까?**
+**트레이트 하나를 만들었는데 [!UICONTROL Trait Graph]에 [!UICONTROL Total Trait Population]보다 더 많은 [!UICONTROL Unique Trait Realizations]이 표시됩니다. 이것이 정상입니까?**
 
 [!UICONTROL Unique Trait Realizations]이 실시간 지표라서 이렇게 표시되고 있지만, [!UICONTROL Total Trait Population]를 계산하기 위해 수행하는 보고 작업은 실시간이 아닙니다. [!UICONTROL Total Trait Population]는 이틀 정도 있어야 [!UICONTROL Unique Trait Realizations]보다 커지게 됩니다.

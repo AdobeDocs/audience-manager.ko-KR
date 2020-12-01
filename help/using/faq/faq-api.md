@@ -29,7 +29,7 @@ faq_api.xml
 
 <br> 
 
-**왜[!UICONTROL DIL]이[!UICONTROL GET]및[!UICONTROL POST]메서드로 이벤트를 호출합니까?**
+**왜 [!UICONTROL DIL]이 [!UICONTROL GET] 및 [!UICONTROL POST] 메서드로 이벤트를 호출합니까?**
 
 [!UICONTROL DIL]은 이벤트 호출의 쿼리 문자열 길이를 기반으로 `GET` 또는 `POST` 메서드를 사용하여 데이터를 [!DNL Audience Manager]에 전달합니다. 이 동작은 기본적으로 `GET` 및 `POST` 메서드에 내장되어 있으며, [!DNL Audience Manager]에만 국한되지 않습니다.
 
@@ -47,6 +47,6 @@ faq_api.xml
 
 <br> 
 
-**[!UICONTROL REST API]클라이언트 ID와 암호를 어떻게 얻습니까?**
+**[!UICONTROL REST API] 클라이언트 ID와 암호를 어떻게 얻습니까?**
 
 [!DNL API] 액세스 자격 증명을 받으려면 파트너 솔루션 담당자에게 문의하십시오. Adobe API는 토큰 인증, 허가 및 갱신에 [OAuth 2.0](https://oauth.net/2/) 표준을 사용합니다. 자세한 내용은 [OAuth 인증](../api/rest-api-main/aam-api-getting-started.md#oauth)을 참조하십시오.

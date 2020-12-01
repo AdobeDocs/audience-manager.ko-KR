@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Audience Manager의 겹치기 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 RBAC 사용자 그룹을 기반으로 액세스할 수 있는 데이터 소스에서만 [트레이트를](/help/using/features/administration/administration-overview.md) 볼 수 있습니다.
+>Audience Manager의 겹치기 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 [RBAC 사용자 그룹](/help/using/features/administration/administration-overview.md)을 기반으로 액세스할 수 있는 데이터 소스에서만 트레이트를 볼 수 있습니다.
 
 <!-- 
 
@@ -31,19 +31,19 @@ c_overlap_reports.xml
 
 ## 개요
 
-이 [!UICONTROL Trait-to-Trait Overlap] 보고서는 자신의 모든 트레이트와 타사 트레이트 간에 공유되는 고유한 사용자의 % 데이터를 반환합니다. 이 보고서는 최적화 도구로서 다음과 같은 이점을 제공합니다.
+[!UICONTROL Trait-to-Trait Overlap] 보고서는 자신의 모든 트레이트와 타사 트레이트 간에 공유된 고유한 사용자의 % 데이터를 반환합니다. 이 보고서는 최적화 도구로서 다음과 같은 이점을 제공합니다.
 
 * 요구 사항에 따라 겹치거나 낮은 세그먼트를 만들 수 있습니다. 겹치는 트레이트는 타깃팅된 대상이지만 고유 방문자 수는 줄어듭니다. 오버랩이 낮은 트레이트는 더 크고 고유한 방문자 세트에 도달하는 데 유용합니다.
-* 타사 특성 데이터의 유효성 검사: 유사한 자사 트레이트와 타사 트레이트 간의 강한 오버랩은 데이터 파트너의 특성이 정확하고 신뢰할 수 있음을 나타냅니다. 반대로, 낮은 겹침은 타사 트레이트가 실제로 자신과 비슷한 자사 트레이트와 동일한 정보를 포함하지 않을 수도 있음을 나타낼 수 있습니다.
+* 타사 특성 데이터의 유효성 검사:유사한 자사 트레이트와 타사 트레이트 간의 강한 오버랩은 데이터 파트너의 특성이 정확하고 신뢰할 수 있음을 나타냅니다. 반대로, 낮은 겹침은 타사 트레이트가 실제로 자신과 비슷한 자사 트레이트와 동일한 정보를 포함하지 않을 수도 있음을 나타낼 수 있습니다.
 * 트레이트 간에 예기치 않은 겹침을 찾아 이 정보를 사용하여 혁신적인 세그먼트를 만들 수 있습니다.
 
 ## 샘플 보고서
 
-다음 그림은 보고서의 요소에 대한 고급 개요를 [!UICONTROL Trait-to-Trait Overlap] 제공합니다.
+다음 그림은 [!UICONTROL Trait-to-Trait Overlap] 보고서의 요소에 대한 고급 개요를 제공합니다.
 
 >[!NOTE]
 >
->동일한 트레이트를 [!UICONTROL Trait-to-Trait Overlap] 자신과 비교할 때 보고서에는 빈 필드가 반환됩니다.
+>[!UICONTROL Trait-to-Trait Overlap] 보고서는 동일한 특성을 자신과 비교할 때 빈 필드를 반환합니다.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -61,7 +61,7 @@ r_t2t_data_pop.xml
 
  -->
 
-보고서의 팝업에 [!UICONTROL Trait-to-Trait Overlap] 아래 지표가 포함되어 있습니다. 표의 고유 수 지표는 *실시간 사용자를 나타냅니다*.
+[!UICONTROL Trait-to-Trait Overlap] 보고서의 팝업에 아래 지표가 포함되어 있습니다. 표의 고유 수 지표는 *실시간 사용자*&#x200B;를 나타냅니다.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 

@@ -17,13 +17,13 @@ ht-degree: 14%
 
 # 권한 관리 API 메서드 {#permissions-management-api-methods}
 
-개체 및 그룹에 대한 권한을 관리하는 나머지 [!DNL API] 방법입니다.
+개체 및 그룹에 대한 권한을 관리하려면 [!DNL API] 메서드를 중지합니다.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## 사용 가능한 객체 유형 목록 {#list-object-types}
+## 사용 가능한 개체 유형 목록 {#list-object-types}
 
-역할 기반 액세스 컨트롤을 설정할 수 있는 사용 가능한 개체 유형을 나열하는 `GET` 방법입니다.
+역할 기반 액세스 컨트롤을 설정할 수 있는 사용 가능한 개체 유형을 나열하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -37,9 +37,9 @@ ht-degree: 14%
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## 객체 유형에 사용할 수 있는 권한 목록 {#list-permissions-object-type}
+## 개체 유형 {#list-permissions-object-type}에 대한 사용 가능한 권한 목록
 
-객체 유형에 사용 가능한 권한을 나열하는 `GET` 방법입니다.
+개체 유형에 사용할 수 있는 권한을 나열하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 

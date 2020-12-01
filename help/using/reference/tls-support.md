@@ -19,11 +19,11 @@ ht-degree: 3%
 
 TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 시스템 중 하나 또는 둘 다를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월 TLS 프로토콜의 세 가지 버전이 사용 중입니다.TLS 1.0, 1.1 및 1.2.
 
-2019년 3월, [!DNL Adobe] 그 [!DNL TLS 1.0] 프로토콜에 대한 지원이 종료되었습니다. 최종 사용자는 지원되 [!DNL TLS 1.0]는 브라우저만 사용할 수 있지만 Adobe Audience Manager 기능은 작동하지 않습니다.
+2019년 3월, [!DNL Adobe]이(가) [!DNL TLS 1.0] 프로토콜에 대한 지원을 종료했습니다. 최종 사용자는 [!DNL TLS 1.0]만 지원하는 브라우저를 사용할 경우 Adobe Audience Manager 기능이 작동하지 않습니다.
 
-2020년 3월 [!DNL Adobe] 에 [!DNL TLS 1.1] 의전 지원이 종료됩니다. Adobe Audience Manager 기능은 지원만 하는 브라우저를 사용하는 최종 사용자에 대해 작업을 중지합니다 [!DNL TLS 1.1].
+2020년 3월에 [!DNL Adobe]은 [!DNL TLS 1.1] 프로토콜에 대한 지원을 종료합니다. Adobe Audience Manager 기능은 [!DNL TLS 1.1]만 지원하는 브라우저를 사용하는 최종 사용자에 대해 작업을 중지합니다.
 
-Adobe은 작성 [!DNL TLS 1.2]시 최신 버전의 의전을 사용하는 것을 적극 권장합니다. 최신 브라우저는 모두 사용합니다 [!DNL TLS 1.2]. Adobe는 브라우저, 버전 및 지원 목록을 [!DNL TLS] 수집했습니다. TLS 브라우저 지원에 대한 자세한 내용은 전송 레이어 보안 위키백과 링크 [를 참조하십시오](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Adobe은 작성 시 최신 버전의 프로토콜인 [!DNL TLS 1.2]을 사용하는 것이 좋습니다. 모든 최신 브라우저는 [!DNL TLS 1.2]을 사용합니다. 브라우저, 버전 및 해당 [!DNL TLS] 지원 목록을 수집했습니다. TLS 브라우저 지원에 대한 자세한 내용은 [전송 레이어 보안 위키백과](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)를 참조하십시오.
 
 <!--
 

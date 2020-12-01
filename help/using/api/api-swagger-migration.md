@@ -17,13 +17,13 @@ ht-degree: 6%
 
 # Audience Manager API 코드 마이그레이션 {#audience-manager-api-code-migration}
 
-여기 Audience Manager에서 엔지니어들, 개발자들 그리고 코드 닌자 같은 분들이죠 또한 Adobe는 신뢰할 수 있고 정확한 [!DNL API] 문서를 제공하고 있습니다. 따라서 컨텐츠를 다시 작성하고 새로운 위치로 [!DNL API] [!DNL Swagger] 옮깁니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드를 통해 경험을 향상시키는 데 도움이 됩니다.
+여기 Audience Manager에서 엔지니어들, 개발자들 그리고 코드 닌자 같은 분들이죠 Adobe는 귀사처럼 신뢰할 수 있고 정확한 [!DNL API] 설명서를 사용하여 작업하고자 합니다. 따라서 [!DNL Swagger]에 [!DNL API] 콘텐츠를 다시 쓰고 새 위치로 이동하는 중입니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드를 통해 사용자 경험을 향상시키는 데 도움이 됩니다.
 
 ## 위로 이동 {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-Adobe Audience Manager [API 문서](https://bank.demdex.com/portal/swagger/index.html) 사이트는 수정된 [!DNL API] 컨텐츠의 새로운 홈입니다. 각 릴리스에서 몇 가지 방법을 다시 작성하고 [!DNL API] 이동시켜 보겠습니다. 즉, 새로운 위치와 [REST API](../api/rest-api-main/rest-api-main.md) 설명서를 모두 체크 인하여 사용 가능한 모든 방법을 찾아야 합니다. 결국 모든 일반 사용자 [!DNL API]가 [!DNL Audience Manager] 문서 [!DNL API] 사이트에 포함됩니다. 다음 표에는 수정된 및 마이그레이션된 항목이 [!DNL API]나열됩니다.
+[Adobe Audience Manager API 문서](https://bank.demdex.com/portal/swagger/index.html) 사이트는 수정된 [!DNL API] 컨텐츠의 새 홈입니다. 각 릴리스에 대해 몇 가지 [!DNL API] 메서드 세트를 다시 작성하고 이동하려고 합니다. 즉, 모든 사용 가능한 방법을 찾으려면 새 위치와 [REST API](../api/rest-api-main/rest-api-main.md) 설명서를 모두 체크 인해야 합니다. 결국 모든 공용 [!DNL API]은 [!DNL Audience Manager] [!DNL API] 문서 사이트에 있게 됩니다. 다음 표에는 수정된 및 마이그레이션된 [!DNL API]이 나열되어 있습니다.
 
 <!--
 

@@ -57,12 +57,12 @@ ht-degree: 91%
 
  
 
-**[!DNL Audience Manager]코드를 프로덕션에 배포하기 전에 인바운드 데이터 파일([!DNL .sync]또는[!DNL .overwrite]파일)을 업로드할 수 있습니까?**
+**[!DNL Audience Manager] 코드를 프로덕션에 배포하기 전에 인바운드 데이터 파일([!DNL .sync] 또는 [!DNL .overwrite] 파일)을 업로드할 수 있습니까?**
 
-예. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. 다음을 참조하십시오.
+예. 업로드한 CRM 데이터를 저장하기 위해 [!UICONTROL cross-device data source]을 사용하는 경우 Audience Manager은 항상 데이터를 저장합니다. 실제로 오프라인 전용 사용 사례를 허용하는 2019년 10월 Audience Manager이 향상된 [!UICONTROL Profile Merge Rules] 이후 프로덕션에 Audience Manager 코드를 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
 
 * [프로필 병합 규칙 개선 사항 개요](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - 오프라인 [전용 데이터를 기반으로 개인화](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - 오프라인  [전용 데이터를 기반으로 개인화](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -188,7 +188,7 @@ FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 �
 
  
 
-**a란 무엇이며[!DNL Data Provider ID (DPID)]어떻게 얻을 수 있습니까?**
+**어떤  [!DNL Data Provider ID (DPID)] 제품이며 어떻게 얻을 수 있습니까?**
 
 Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(데이터 공급자 ID)](../reference/ids-in-aam.md)를 지정합니다. 이 ID는 고유하며 변경되지 않습니다.
 
@@ -221,13 +221,13 @@ Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(�
 
  
 
-**FTP와[!DNL Amazon S3]중 어느 것을 사용하여 파일을 전송해야 합니까?**
+**FTP와 [!DNL Amazon S3] 중 어느 것을 사용하여 파일을 전송해야 합니까?**
 
 가장 좋은 방법은 프로세스가 단순하기 때문에 [!DNL Amazon S3]을 사용하는 것입니다. [!DNL Audience Manager]는 FTP 파일을 어떻든지 [!DNL S3]에 전송하며, 따라서 직접 [!DNL Amazon S3]에 파일을 놓는 경우 프로세스가 보다 간소화됩니다. 또한 FTP에 동시에 업로드하는 고객들은 FTP의 대역폭을 공유하므로 업로드 속도가 느려질 것으로 예상됩니다. 또한 [!DNL Amazon S3]은 복제되고 배포되므로 FTP 서버보다 일반적으로 더 안전하고 안정적입니다. 자세한 내용은 [Amazon S3 정보](../reference/amazon-s3.md)를 참조하십시오.
 
 >[!WARNING]
 >
->FTP 구성에 대한 지원을 점차 단계적으로 중단하고 있습니다. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. 자세한 내용은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)을 참조하십시오.
+>FTP 구성에 대한 지원을 점차 단계적으로 중단하고 있습니다. 기존 FTP 통합에서는 인바운드 데이터 파일 처리가 여전히 지원되지만, 새로운 통합을 위해 오프라인 데이터를 온보드([!DNL Amazon S3])하는 것이 좋습니다. 자세한 내용은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)을 참조하십시오.
 
  
 

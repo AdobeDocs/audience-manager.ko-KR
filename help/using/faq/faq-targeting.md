@@ -95,7 +95,7 @@ Audience Manager를 사용하면 공유 특성 또는 트레이트에 따라 사
 
 <br> 
 
-**Audience Manager는[!UICONTROL Server-to-Server]대상에 대해서만[!UICONTROL Addressable Audiences]지표와 일치율을 표시합니다. 쿠키 및 URL 대상에 대해서는 이러한 수치가 표시되지 않는 이유를 설명해 주십시오**
+**Audience Manager는 [!UICONTROL Server-to-Server] 대상에 대해서만 [!UICONTROL Addressable Audiences] 지표와 일치율을 표시합니다. 쿠키 및 URL 대상에 대해서는 이러한 수치가 표시되지 않는 이유를 설명해 주십시오**
 
 ID 동기화 문제입니다. [!UICONTROL Server-to-Server] 대상의 경우, Adobe에서는 데이터를 오프라인(실시간 또는 배치)으로 전송하며, 다시 브라우저에 매핑할 수 있도록 대상 파트너가 인식하는 ID를 보내야 합니다.  세그먼트 대응 가능 수는 총 세그먼트 인구의 하위 집합입니다.
 

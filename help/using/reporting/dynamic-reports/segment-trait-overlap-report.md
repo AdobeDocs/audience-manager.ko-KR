@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Audience Manager의 겹치기 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 RBAC 사용자 그룹을 기반으로 액세스할 수 있는 데이터 소스에서만 [세그먼트와 트레이트를](/help/using/features/administration/administration-overview.md) 볼 수 있습니다.
+>Audience Manager의 겹치기 보고서는 RBAC 원칙을 따릅니다. 사용자가 속한 [RBAC 사용자 그룹](/help/using/features/administration/administration-overview.md)을 기반으로 액세스할 수 있는 데이터 소스에서만 세그먼트와 트레이트를 볼 수 있습니다.
 
 <!-- 
 
@@ -31,11 +31,11 @@ c_segment_trait_overlap.xml
 
 ## 개요
 
-최적화 도구인 이 보고서를 사용하면 집중도가 높은 세그먼트를 만들거나 세그먼트 범위를 확장할 수 있습니다. [!UICONTROL Segment to Trait Overlap] 예를 들어, 겹치는 높은 세그먼트 및 트레이트를 만들어 특정 대상에 도달할 수 있습니다. 그러나 겹치는 경우가 많을수록 고유한 사용자 수가 적어질 수 있습니다(도달 수 감소). 이 보고서를 실행하면 많은 세그먼트가 겹치는 트레이트를 제거하고 겹치지 않는 트레이트로 대체하여 도달 범위를 확장할 수 있습니다.
+최적화 도구인 [!UICONTROL Segment to Trait Overlap] 보고서를 사용하면 집중도가 높은 세그먼트를 만들거나 세그먼트 범위를 확장할 수 있습니다. 예를 들어, 겹치는 높은 세그먼트 및 트레이트를 만들어 특정 대상에 도달할 수 있습니다. 그러나 겹치는 경우가 많을수록 고유한 사용자 수가 적어질 수 있습니다(도달 수 감소). 이 보고서를 실행하면 많은 세그먼트가 겹치는 트레이트를 제거하고 겹치지 않는 트레이트로 대체하여 도달 범위를 확장할 수 있습니다.
 
 ### 샘플 보고서
 
-다음 그림은 [!UICONTROL Segment-to-Trait Overlap] 보고서에 대한 고급 개요를 제공합니다.
+다음 그림은 [!UICONTROL Segment-to-Trait Overlap] 보고서의 수준 높은 개요를 제공합니다.
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -43,7 +43,7 @@ c_segment_trait_overlap.xml
 
 개별 포인트를 선택하여 팝업 창에서 데이터 세부 사항을 봅니다. 클릭 작업은 보고서에 표시된 데이터를 자동으로 업데이트합니다.
 
-## 세그먼트를 트레이트와 비교 {#comparing-segments-to-traits}
+## 세그먼트를 트레이트 {#comparing-segments-to-traits}과 비교
 
 결과와 의미 있는 정보를 도출하기 위해 세그먼트와 트레이트를 비교하는 방법을 설명합니다.
 
@@ -53,7 +53,7 @@ c_compare_s2t.xml
 
  -->
 
-### 특성 및 세그먼트 고유 값 비교: 예
+### 특성 및 세그먼트 고유 값 비교:예
 
 처음에, 세그먼트를 트레이트와 비교하고 결과로부터 결론을 도출하려고 하는 것은 비논리적일 수 있다. 결국 세그먼트와 트레이트는 다르므로, 서로 다른 항목에서 도출된 데이터가 의미를 가질 수 있습니까? 하지만 이 경우 트레이트와 세그먼트를 비교하지 않고 이 두 방문자 간에 공유된 고유 방문자 수를 비교합니다. 공유 고유 방문자 수는 세그먼트를 트레이트 비교를 가능하게 하는 공통 값을 제공합니다.
 
@@ -89,7 +89,7 @@ c_compare_s2t.xml
  </tbody> 
 </table>
 
-## 세그먼트-트레이트 겹침 보고서의 데이터 필터 이해 {#data-filters-s2t-report}
+## 세그먼트-트레이트 겹치기 보고서의 데이터 필터 이해 {#data-filters-s2t-report}
 
 특성 및 세그먼트 고유 겹침 % 슬라이더의 작동 방식을 설명합니다.
 
@@ -99,7 +99,7 @@ r_s2t_sliders.xml
 
  -->
 
-이 보고서에서는 두 개의 슬라이더를 사용하여 특성 또는 세그먼트별로 겹치는 비율(%)을 기준으로 데이터를 필터링할 수 있습니다. [!UICONTROL Segment-to-Trait overlap]
+[!UICONTROL Segment-to-Trait overlap] 보고서에서는 두 개의 슬라이더를 사용하여 특성 또는 세그먼트별로 겹치는 비율(%)을 기준으로 데이터를 필터링할 수 있습니다.
 
 * **[!UICONTROL Filter Trait Uniques %:]** 트레이트와 세그먼트 간에 공유된 고유 방문자 비율(%)로 데이터를 필터링합니다.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** 세그먼트와 특성 간에 고유한 방문자의 % 단위로 데이터를 필터링합니다.
@@ -123,7 +123,7 @@ r_s2t_data_pop.xml
 
  -->
 
-보고서의 팝업에 [!UICONTROL Segment-to-Trait Overlap] 아래 지표가 포함되어 있습니다. 표의 고유 수 지표는 *실시간 사용자를 나타냅니다*.
+[!UICONTROL Segment-to-Trait Overlap] 보고서의 팝업에 아래 지표가 포함되어 있습니다. 표의 고유 수 지표는 *실시간 사용자*&#x200B;를 나타냅니다.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
@@ -138,7 +138,7 @@ r_s2t_data_pop.xml
    <td colname="col2"> 세그먼트의 고유 숫자 ID. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 특성 데이터 소스 </span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> 특성 데이터 소스  </span></b> </td> 
    <td colname="col2"> 특성 소유자의 이름입니다. </td> 
   </tr> 
   <tr> 

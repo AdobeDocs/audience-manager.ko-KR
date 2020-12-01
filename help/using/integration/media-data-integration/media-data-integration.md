@@ -28,5 +28,5 @@ Audience Manager에 대한 픽셀 호출(크리에이티브라고 함)을 사용
 로그 섭취를 설정하려면 다음 문서를 참조하십시오.
 
 * [Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기 ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [범용 로그 파일에 대한 로그](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 인제스트를 설정하는 데이터 및 메타데이터 파일 로그
+* [Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [로그 데이터 및 메타데이터 ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 파일을 사용하여 일반 로그 파일에 대한 로그 인제스트를 설정합니다.

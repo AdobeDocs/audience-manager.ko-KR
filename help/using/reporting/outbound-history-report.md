@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![단계 결과](assets/outbound_history.png)
 
-1. 상자에 입력을 시작하고 원하는 대상을 선택합니다 **[!UICONTROL Search for a Destination]** .
-1. 상자에서 **[!UICONTROL Select a Date Range]** 보고서의 시작 날짜와 종료 날짜를 지정한 다음 을 클릭합니다 **[!UICONTROL Apply Date Filter]**.
+1. **[!UICONTROL Search for a Destination]** 상자에서 입력을 시작하고 원하는 대상을 선택합니다.
+1. **[!UICONTROL Select a Date Range]** 상자에서 보고서의 시작 날짜와 종료 날짜를 지정한 다음 **[!UICONTROL Apply Date Filter]**&#x200B;을 클릭합니다.
 
    ![단계 결과](assets/outbound_history_stats.png)
 
@@ -46,11 +46,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 데이터 동기화 파일 이름 </td> 
-   <td colname="col2"> <p>함께 처리된 이 대상에 대해 <span class="keyword"> Adobe</span> 가 생성한 모든 아웃바운드 파일의 목록입니다. </p> </td> 
+   <td colname="col2"> <p>함께 처리된 대상에 대해 <span class="keyword"> Adobe</span>이(가) 생성한 모든 아웃바운드 파일 목록입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 성공 </td> 
-   <td colname="col2"> <p>Audience Manager에서 <span class="keyword"> 대상으로 성공적으로</span> 전송된 레코드 수입니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>에서 대상으로 성공적으로 전송된 레코드 수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 실패 </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> 받은 레코드 </td> 
-   <td colname="col2"> <p>파일에서 <span class="keyword"> Adobe</span> 가 생성되어 대상에 보내려고 시도한 총 레코드 수입니다. 대부분의 경우 성공한 파일과 실패한 파일의 총 수가 되어야 합니다. </p> </td> 
+   <td colname="col2"> <p>파일에서 생성되어 대상에 보내려고 시도한 총 레코드 <span class="keyword"> Adobe</span> 수 대부분의 경우 성공한 파일과 실패한 파일의 총 수가 되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

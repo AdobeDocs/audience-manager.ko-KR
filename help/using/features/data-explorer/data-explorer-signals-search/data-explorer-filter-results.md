@@ -18,12 +18,12 @@ ht-degree: 6%
 
 신호 유형에 따라 신호 검색 결과를 필터링합니다.
 
-1. 필터 [!UICONTROL Audience Data > Signals > Search] 를 사용하여 원하는 키-값 쌍 [!UICONTROL Signals Search] 또는 더 광범위한 검색을 사용하여 항목을 실행하고
-1. 다음 카테고리에 따라 결과를 필터링하려면 **[!UICONTROL Filter by Signal Type]** 섹션을 사용하십시오.
+1. [!UICONTROL Audience Data > Signals > Search]으로 이동하여 원하는 키-값 쌍으로 [!UICONTROL Signals Search] 또는 필터를 사용하여 더 광범위한 검색을 실행합니다.
+1. **[!UICONTROL Filter by Signal Type]** 섹션을 사용하여 다음 카테고리를 기준으로 결과를 필터링합니다.
 
-   * **[!UICONTROL Actionable log files]**: 로그 파일을 통해 [!DNL Google] 받은 [!DNL DCM] 신호
-   * **[!DNL Adobe Analytics]**: 귀하의 [!DNL Adobe Analytics] 계정에서 받은 신호. 신호를 표시할 보고서 세트를 **[!UICONTROL Filter by report suites]** 선택하려면 드롭다운 메뉴를 사용합니다.
-   * **[!UICONTROL General online data]**: 방문자가 생성하고 실행 가능한 로그 파일에 포함되지 않은 실시간 데이터 [!DNL Adobe Analytics];
-   * **[!UICONTROL Onboarded records]**: 일괄 데이터 전송을 통해 받은 데이터 신호를 표시할 데이터 소스를 **[!UICONTROL Filter by data source]** 선택하려면 드롭다운 메뉴를 사용합니다.
+   * **[!UICONTROL Actionable log files]**:신호를  [!DNL Google] [!DNL DCM] 로그 파일로 받은 경우
+   * **[!DNL Adobe Analytics]**:귀하의  [!DNL Adobe Analytics] 계좌에서 받은 신호. **[!UICONTROL Filter by report suites]** 드롭다운 메뉴를 사용하여 신호를 표시할 보고서 세트를 선택합니다.
+   * **[!UICONTROL General online data]**:방문자가 생성하고 실행 가능한 로그 파일에 포함되지 않은 실시간 데이터  [!DNL Adobe Analytics];
+   * **[!UICONTROL Onboarded records]**:일괄 데이터 전송을 통해 받은 데이터 **[!UICONTROL Filter by data source]** 드롭다운 메뉴를 사용하여 신호를 표시할 데이터 소스를 선택합니다.
 
-1. 나중에 사용할 수 있도록 검색 [기준을](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) 저장할 수도 있습니다.
+1. 필요에 따라 나중에 사용할 수 있도록 [검색 조건 저장](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)을(를) 할 수 있습니다.

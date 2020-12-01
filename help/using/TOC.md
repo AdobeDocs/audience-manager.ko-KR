@@ -286,7 +286,7 @@ ht-degree: 93%
 + 구현 및 통합 안내서{#implementation-integration-guides}
    + [구현 및 통합 안내서](integration/implementation-and-integration.md)
    + [데이터 통합 방법](integration/data-integration-methods.md)
-   + Google Publisher Tags(GPT)를 사용하여 Google Ad Manager 통합{#integrate-dfp-using-gpt}
+   + Google 게시자 태그(GPT){#integrate-dfp-using-gpt}를 사용하여 Google 광고 관리자 통합
       + [GPT 개요를 사용하여 Google 광고 관리자 통합](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [GPT를 사용하여 Google Ad Manager로 세그먼트 보내기](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 대상 만들기](integration/gpt-aam-destination/gpt-aam-create-destination.md)

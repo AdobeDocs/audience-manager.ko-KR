@@ -25,7 +25,7 @@ ht-degree: 5%
 >
 >주의 사항:
 >
->* 이 [!UICONTROL Unique User Reach] 보고서는 권한 수준이 있는 사용자에 대한 정보만 [!UICONTROL Admin] 표시합니다. 컨설턴트 또는 고객 지원 센터에서 계정에 권한을 부여할 수 [!DNL Audience Manager] [!UICONTROL Admin] 있습니다.
+>* [!UICONTROL Unique User Reach] 보고서에는 [!UICONTROL Admin] 권한 수준이 있는 사용자에 대한 정보만 표시됩니다. [!DNL Audience Manager] 컨설턴트 또는 고객 지원 센터는 [!UICONTROL Admin] 권한을 통해 계정을 제공할 수 있습니다.
    >
    >
 * 7일 및 30일의 룩백 기간은 일요일만 사용할 수 있습니다.
@@ -33,6 +33,6 @@ ht-degree: 5%
 
 ## 샘플 보고서
 
-보고서가 아래 보고서와 유사할 수 있습니다. [!UICONTROL Unique User Reach] 보고서에서 버블을 클릭하여 기본 데이터를 봅니다.
+[!UICONTROL Unique User Reach] 보고서가 아래 보고서와 유사할 수 있습니다. 보고서에서 버블을 클릭하여 기본 데이터를 봅니다.
 
 ![](assets/unique-user-reach.png)

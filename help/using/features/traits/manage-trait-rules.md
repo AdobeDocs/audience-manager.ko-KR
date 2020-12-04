@@ -7,7 +7,7 @@ title: 트레이트 규칙 관리
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%
@@ -29,13 +29,17 @@ ht-degree: 1%
 
 1. 이 섹션의 필드 및 컨트롤을 사용하면 키-값 쌍에서 신호를 만들고 비교 연산자와 그 사이의 관계를 설정할 수 있습니다. 키, 연산자 및 값이 필요합니다.
 1. [!UICONTROL Data Explorer Options]을 사용하면 신호에 대한 트레이트 할당을 채울 수 있습니다.
+
    >[!NOTE]
    >
    >이 옵션은 [!UICONTROL Data Explorer] 고객만 사용할 수 있습니다. 자세한 내용은 Adobe 컨설턴트에게 문의하십시오.
+
 1. 이 섹션에서는 [!UICONTROL Expression Builder]에 정의된 신호에 대한 지난 7일 동안 채워진 트레이트와 채우지 않은 트레이트에 대한 트레이트 실현에 대한 추정을 보여 줍니다.
+
    >[!NOTE]
    >
    >이 옵션은 [!UICONTROL Data Explorer] 고객만 사용할 수 있습니다. 자세한 내용은 Adobe 컨설턴트에게 문의하십시오.
+
 1. 테스트 필드를 사용하면 데이터를 Audience Manager으로 보낼 때 사용할 신호 규칙 또는 [!DNL URL]의 조합을 확인할 수 있습니다.
 
 ## 특성 규칙 만들기 {#create-trait-rule}
@@ -47,18 +51,23 @@ ht-degree: 1%
 특성 규칙을 만들기 전에 **[!UICONTROL Basic Information]** 섹션 *에서 필요한 필드를 완료합니다.*
 
 1. **[!UICONTROL Trait Expression]** 섹션을 확장하고 키와 값 이름을 입력합니다. 그러면 *`signal`*&#x200B;이 만들어집니다.
+
    >[!NOTE]
    >
    >이벤트 호출이 해당 구문을 사용하여 [!DNL Audience Manager]로 데이터를 전송하는 경우 키 변수에 대한 `c_` 접두어(또는 다른 이름 지정 규칙)를 포함시키십시오.
+
 1. **[!UICONTROL Operator]** 드롭다운에서 [비교 연산자](../../features/traits/trait-comparison-operators.md)를 선택합니다. 비교 연산자는 신호의 요소 사이의 관계를 평가합니다.
+
    >[!NOTE]
    >
    >[!DNL Boolean] [!UICONTROL OR] 연산자는 그룹 내에 *여러 신호 간의 관계를 설정하며 변경할 수 없습니다.*
+
 1. 클릭 **[!UICONTROL Add Rule]**. 저장된 규칙은 데이터 입력 필드 위의 트레이트 작업 공간에 나타납니다.
 
 ### 예 {#example-trait-rule}
 
 아래 예에서 사용자가 제품 ID를 기반으로 새로운 특성 규칙을 만들었습니다. 이 규칙을 빌드하기 위해 사용자는 같음 연산자( `==`)와 연결된 키 `productkey`을 값 `2093`에 제공했습니다.
+
 ![](assets/tb_sample_rule1.png)
 
 **[!UICONTROL Add Rule]**&#x200B;을 클릭하면 트레이트가 저장되고 [!UICONTROL Expression Builder] 작업 공간으로 이동합니다.
@@ -75,11 +84,14 @@ ht-degree: 1%
 
 1. 이동할 규칙 위로 커서를 이동하여 강조 표시합니다.
 1. 강조 표시된 규칙 테두리 위로 마우스를 가져갑니다.
-규칙을 현재 그룹에서 자동으로 분리하고 새 그룹으로 이동합니다.
+
+   규칙을 현재 그룹에서 자동으로 분리하고 새 그룹으로 이동합니다.
+
    >[!NOTE]
    >
    >의도치 않게 규칙을 이동하면 규칙을 원래 그룹으로 다시 드래그합니다.
-1. 드롭다운 메뉴에서 [!DNL Boolean] 연산자( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT])를 선택하여 규칙 그룹 간의 관계를 설정합니다.
+
+1. 드롭다운 메뉴에서 [!DNL Boolean] 연산자([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT])를 선택하여 규칙 그룹 간의 관계를 설정합니다.
 
 ## 그룹 간 규칙 이동 {#move-rules-between-groups}
 

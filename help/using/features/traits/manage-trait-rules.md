@@ -1,6 +1,6 @@
 ---
-description: 특성 빌더에서 표현식 빌더를 사용하면 대상 자격 요구 사항을 설정하는 규칙을 만들고 테스트할 수 있습니다. 규칙은 "color == blue" 또는 "price > 100"과 같은 키-값 쌍으로 구성됩니다. 비교 연산자는 키와 값 간의 관계를 설정합니다. 부울 표현식으로 규칙 그룹 간의 관계가 결정됩니다.
-seo-description: 특성 빌더에서 표현식 빌더를 사용하면 대상 자격 요구 사항을 설정하는 규칙을 만들고 테스트할 수 있습니다. 규칙은 "color == blue" 또는 "price > 100"과 같은 키-값 쌍으로 구성됩니다. 비교 연산자는 키와 값 간의 관계를 설정합니다. 부울 표현식으로 규칙 그룹 간의 관계가 결정됩니다.
+description: 특성 빌더에서 표현식 빌더를 사용하면 대상 자격 요구 사항을 설정하는 규칙을 만들고 테스트할 수 있습니다. 규칙은 "color == blue" 또는 "price&gt;"과 같은 키-값 쌍으로 구성됩니다.100형. 비교 연산자는 키와 값 간의 관계를 설정합니다. 부울 표현식으로 규칙 그룹 간의 관계가 결정됩니다.
+seo-description: 특성 빌더에서 표현식 빌더를 사용하면 대상 자격 요구 사항을 설정하는 규칙을 만들고 테스트할 수 있습니다. 규칙은 "color == blue" 또는 "price&gt;"과 같은 키-값 쌍으로 구성됩니다.100형. 비교 연산자는 키와 값 간의 관계를 설정합니다. 부울 표현식으로 규칙 그룹 간의 관계가 결정됩니다.
 seo-title: 트레이트 규칙 관리
 solution: Audience Manager
 title: 트레이트 규칙 관리
@@ -9,7 +9,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---

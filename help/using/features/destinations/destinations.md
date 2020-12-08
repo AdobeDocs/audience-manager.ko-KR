@@ -1,17 +1,17 @@
 ---
 description: Audience Manager에서 대상은 데이터를 공유할 수 있는 입니다. 대상 빌더는 쿠키, URL 또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: Audience Manager에서 대상은 데이터를 공유할 수 있는 입니다. 대상 빌더는 쿠키, URL 또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
+landing-page-description: A destination is any third-party system, such as ad server or DSP, with which to share data. Use Destination Builder to create and manage cookie, URL, or server-to-server destinations.
 seo-title: 대상
 solution: Audience Manager
 title: 대상
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 17%
+source-wordcount: '494'
+ht-degree: 11%
 
 ---
 

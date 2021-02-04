@@ -6,10 +6,10 @@ user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
+source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 93%
+source-wordcount: '1779'
+ht-degree: 92%
 
 ---
 
@@ -34,10 +34,11 @@ ht-degree: 93%
          + [동의 관리](overview/data-security-and-privacy/data-privacy-consent.md)
          + [IAB TCF를 위한 Audience Manager 플러그인](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [데이터 거버넌스](overview/data-security-and-privacy/data-governance.md)
-   + [Audience Manager의 접근성](/help/using/overview/accessibility-in-aam.md)
+   + [Audience Manager의 액세스 가능성](/help/using/overview/accessibility-in-aam.md)
 + 기능{#features}
    + [대응 가능 대상](features/addressable-audiences.md)
    + 관리{#administration}
+      + [Admin Console으로 Audience Manager 사용자 마이그레이션](features/administration/admin-console-migration.md)
       + [관리](features/administration/administration-overview.md)
       + [계정 설정 편집](features/administration/edit-account-settings.md)
       + [IP 주소 난독화](features/administration/ip-obfuscation.md)
@@ -181,7 +182,7 @@ ht-degree: 93%
       + [대상 최적화 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + 광고주를 위한 Audience Optimization{#audience-optimization-advertisers}
          + [광고주를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Google 캠페인 관리자 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [트렌드 분석 및 볼륨 분석 보고서](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [최적 빈도 보고서](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -190,7 +191,7 @@ ht-degree: 93%
          + [크로스 채널 전환](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + 게시자를 위한 Audience Optimization{#audience-optimization-publishers}
          + [게시자를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Google Ad Manager(이전 DFP) 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google 광고 관리자(이전 DFP) 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [세그먼트 트렌드 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [상위 사용하지 않는 특성](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -288,7 +289,7 @@ ht-degree: 93%
    + [데이터 통합 방법](integration/data-integration-methods.md)
    + Google 게시자 태그(GPT){#integrate-dfp-using-gpt}를 사용하여 Google 광고 관리자 통합
       + [GPT 개요를 사용하여 Google 광고 관리자 통합](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [GPT를 사용하여 Google Ad Manager로 세그먼트 보내기](integration/gpt-aam-destination/gpt-aam-requirements.md)
+      + [GPT를 사용하여 Google 광고 관리자에게 세그먼트 보내기](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 대상 만들기](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [GPT setTargeting API 호출 수정](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google Publisher Tag용 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -343,7 +344,7 @@ ht-degree: 93%
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
       + [Experience Cloud에 Adobe Analytics 세그먼트 게시(Adobe Analytics 설명서 열기)](https://docs.adobe.com/content/help/ko-KR/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Adobe Campaign과 Audience Manager 통합(Adobe Campaign 문서 열기)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Adobe Campaign과 Audience Manager 통합(Adobe Campaign 설명서 열기)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)
    + [Amazon S3: 설명](reference/amazon-s3.md)

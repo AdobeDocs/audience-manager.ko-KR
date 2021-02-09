@@ -7,10 +7,10 @@ title: Audience Manager 안내서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 97%
+source-wordcount: '652'
+ht-degree: 96%
 
 ---
 
@@ -160,10 +160,8 @@ ht-degree: 97%
      <br> 
      <p> <b>최신 기능</b> </p> <p> 
      최신 Audience Manager 기능을 살펴보십시오.</p>
-     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사람 기반 대상에 대한 Google 고객 일치</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
-     <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">CCPA(캘리포니아 소비자 개인 정보 보호법) 지원 및 개인 정보 보호 설명서 정비</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Adobe Sensei 제공, Audience Marketplace 데이터에 대한 지능형 추천</a></li>
-     </ul><p>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사람 기반 대상에 대한 Google 고객 일치</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
+     </ul></p>
     </td>
   </tr> 
  </tbody> 
@@ -209,7 +207,7 @@ Read about the latest Audience Manager features:
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/kr/support/audience-manager.html" format="https" scope="external"> Audience Manager 학습 및 지원</a> </li> 
      </ul> </p> 
      <br> 
-     <p><a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/documentation-updates/docs-2020.html">2020 설명서 업데이트</a>를 참조하십시오. </p> </td>
+     <p><a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/documentation-updates/docs-2021.html">2021 설명서 업데이트</a>를 참조하십시오. </p> </td>
   </tr> 
  </tbody> 
 </table>

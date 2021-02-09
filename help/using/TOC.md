@@ -6,9 +6,9 @@ user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1781'
 ht-degree: 92%
 
 ---
@@ -409,6 +409,7 @@ ht-degree: 92%
    + [Audience Manager 고객이 아닌데 당사 사이트에 Audience Manager Javascript 호출이 표시됩니다](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [대상 세부 사항 페이지에 Audience Manager 대상 랩 매핑 세그먼트가 표시되어야 합니까?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + 설명서 업데이트{#documentation-updates}
+   + [2021 설명서 업데이트](docs-updates/docs-2021.md)
    + [2020 설명서 업데이트](docs-updates/docs-2020.md)
    + [2019 설명서 업데이트](docs-updates/docs-2019.md)
    + [2018 설명서 업데이트](docs-updates/docs-2018.md)

@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Admin Console으로 Audience Manager 사용자 마이그레이션
 feature: Administration
 translation-type: tm+mt
-source-git-commit: e4a9ae06a1283870613d2751b171fc443b8701d8
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Audience Manager 관리자는 아래 절차에 따라 사용자를 [!DNL Admin C
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)로 이동하여 Adobe ID 또는 Enterprise ID을 사용하여 로그인합니다. [!DNL Admin Console]에 액세스할 수 없는 경우 고객 지원 센터 또는 Adobe 컨설턴트에게 문의하십시오.
 2. 사용자 계정을 만들고 관리하는 방법에 대한 자세한 지침은 [!DNL Adobe Admin Console] [도움말 안내서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html)를 참조하십시오.
-3. 모든 기존 Audience Manager 사용자에 대한 새 사용자 계정을 만듭니다.
+3. 모든 기존 Audience Manager 사용자에 대해 새 사용자 계정을 만듭니다.
 4. 새로 만든 사용자 계정에 대해 사용자에게 알려줍니다. 사용자가 [!DNL Admin Console]으로 마이그레이션되면 기존 로그인 사용을 중단해야 합니다.
 
 ## 사용자 마이그레이션 고려 사항 {#considerations}

@@ -4,12 +4,12 @@ seo-description: '사용자 기반 대상에 대한 일반적인 질문에 대�
 seo-title: 사용자 기반 대상 FAQ
 solution: Audience Manager
 title: 사용자 기반 대상 FAQ
-feature: People-Based Destinations
+feature: 사용자 기반 대상
 translation-type: tm+mt
-source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
+source-git-commit: eb998042acb46fef2b0e407b3565d8ba4769f0bb
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1171'
+ht-degree: 94%
 
 ---
 
@@ -79,6 +79,10 @@ Audience Manager는 원시 이메일 주소를 섭취하는 것이 아니므로 
 
 Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대상 플랫폼에 보낼 수 있지만 이메일 주소는 동기화 파일을 통해 캡처해야 합니다. Audience Manager가 대상 플랫폼에 이메일 주소를 보낸 후 이메일 주소를 자체 사용자 기반에 대해 일치시키는 것은 플랫폼에 달려 있습니다. 일부 플랫폼에는 Audience Manager에서 사용자 프로필에 보낸 주소를 일치시키기 위한 추가적인 이메일 주소 그래프가 있을 수 있습니다.
 
+**이용가능한가요 [!DNL People-Based Destinations]   [!DNL Audience Lab]?**
+
+아니요. 현재 모든 [!DNL People-Based Destinations] 대상은 [!DNL Audience Lab]에서 제외됩니다. [!DNL People-Based Destinations] 및 수요 측 플랫폼은 서로 다른 ID를 사용하기 때문에 두 ID 간에 균등하게 분할된 대상이 있는 성과를 테스트하고 측정할 수 없습니다.
+
 ## 데이터 내보내기 제어 {#data-export-controls}
 
 **[!DNL Data Export Controls]은 [!DNL People-Based Destinations]에서 어떻게 작동합니까?**
@@ -113,6 +117,6 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 이 두 가지 통합은 상호 보완적입니다. 두 가지 모두를 사용하여 대상 범위를 개선할 수 있습니다. 예를 들어, [!DNL WCA]는 회사가 계정을 등록하지 않은 웹 사이트 방문자를 타겟팅하려고 하는 경우 예측에 사용할 수 있지만, [!DNL People-Based Destinations]은 이메일 주소를 제공했지만 웹 사이트를 방문하지 않은 기존 고객을 타겟팅하는 데 도움이 될 수 있습니다.
 
-**지원과의  [!DNL People-Based Destinations] 통합으로 인해 더 이상  [!DNL Facebook] 자격이 부여되지 않는 사용자가 대상으로부터 자격을 박탈당합니까?**
+**지원 [!DNL People-Based Destinations] 과의 통합으로  [!DNL Facebook] 더 이상 해당 자격이 없는 사용자가 대상으로부터 자격을 박탈할 수 있습니까?**
 
-예. 통합에서는 사용자가 더 이상 자격이 없을 때 [!DNL Facebook] 대상에서 사용자를 제거할 수 있습니다.
+예. 통합은 더 이상 자격이 없을 때 [!DNL Facebook] 대상에서 사용자를 제거하는 기능을 지원합니다.

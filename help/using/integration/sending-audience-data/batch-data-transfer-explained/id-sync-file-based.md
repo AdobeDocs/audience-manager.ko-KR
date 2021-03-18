@@ -7,9 +7,9 @@ title: ID 동기화 파일 이름 및 컨텐츠 요구 사항
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: 인바운드 데이터 전송
 translation-type: tm+mt
-source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
+source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ ID 파일 이름에는 다음과 같은 필수 및 선택 사항이 포함됩니
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> 마스터 데이터 공급자 ID는 파일 이름에 있는 DPID의 부모 ID입니다. 또한 데이터 파일의 첫 번째 사용자 ID는 마스터 ID에 해당합니다. 이후 DPID는 마스터에 속한 다른 식별자입니다. 동기화는 파일 이름의 DPID를 파일의 UUID에 매핑합니다. </td> 
+   <td colname="col2"> <p>마스터 데이터 공급자 ID는 파일 이름에 있는 DPID의 부모 ID입니다. 또한 데이터 파일의 첫 번째 사용자 ID는 마스터 ID에 해당합니다. 이후 DPID는 마스터에 속한 다른 식별자입니다. 동기화는 파일 이름의 DPID를 파일의 UUID에 매핑합니다.</p> <p>이 DPID는 AAM UUID, GAID, IDFA 등과 같은 장치 ID만 포함해야 합니다. DPUUID를 포함할 수 없습니다. 이렇게 하면 동기화가 잘못될 수 있습니다.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 

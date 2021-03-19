@@ -1,30 +1,30 @@
 ---
-description: DIL과 작동 방법에 대한 개요입니다.
-seo-description: DIL과 작동 방법에 대한 개요입니다.
+description: DIL 및 작동 방법에 대한 개요입니다.
+seo-description: DIL 및 작동 방법에 대한 개요입니다.
 seo-title: DIL(데이터 통합 라이브러리) 이해
-keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
+keywords: 'dil, dil, dil, dil, d, l, dil, d, l, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, l, dil, dil, l, dil, dil, d, l, dil, l, d l, '
 solution: Audience Manager
 title: DIL(데이터 통합 라이브러리) 이해
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL Implementation
+feature: DIL 구현
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 18%
+source-wordcount: '512'
+ht-degree: 16%
 
 ---
 
 
 # [!DNL Data Integration Library](DIL){#understanding-the-data-integration-library-dil} 이해
 
-[!DNL Audience Manager DIL] 코드 라이브러리에서 사용할 수 있는 개요, 시작 및 코드 메서드입니다.
+개요, 시작 및 코드 메서드는 [!DNL Audience Manager DIL] 코드 라이브러리에서 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->버전 8.0(2018년 8월 릴리스)부터 시작하여 [!UICONTROL DIL]은(는) [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html), 버전 3.3 이상에 대해 강한 종속성을 갖습니다. ID 동기화 및 URL 대상을 실행하는 데 [!DNL ID Service]이 사용됩니다. [!DNL ID Service]이(가) 없거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
+>버전 8.0(2018년 8월 출시)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html), 버전 3.3 이상에 대한 강한 종속성을 갖습니다. ID 동기화 및 URL 대상을 실행하는 데 [!DNL ID Service]을 사용합니다. [!DNL ID Service]이(가) 누락되었거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
 >
->[!DNL Adobe Experience Platform Launch]을(를) 사용하여 [!DNL DIL] 및 [!DNL Adobe Experience Platform Identity Service] 라이브러리를 구현하고 관리하는 것이 좋습니다.
+>[!DNL Adobe Experience Platform Launch]을 사용하여 [!DNL DIL] 및 [!DNL Adobe Experience Platform Identity Service] 라이브러리를 구현하고 관리하는 것이 좋습니다.
 
 그러나 GitHub 페이지에서 최신 Experience Cloud 및 [!DNL DIL] 릴리스를 다운로드할 수도 있습니다. 아래 다운로드 링크를 참조하십시오.
 
@@ -33,27 +33,27 @@ ht-degree: 18%
 
 ## DIL {#purpose-dil} 목적
 
-[!UICONTROL DIL] 은 API 라이브러리입니다. [!DNL Adobe Audience Manager]에 대한 헬퍼 코드 본문으로 간주할 수 있습니다. [!DNL Audience Manager]을(를) 사용할 필요는 없지만 메서드 및 함수 [!UICONTROL DIL]에서 제공하는 것은 데이터를 [!DNL Audience Manager]에 보내기 위해 자체 코드를 개발할 필요가 없음을 의미합니다. 또한 [!UICONTROL DIL]은(는) [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/home.html)에서 제공하는 API와 다릅니다. 이 서비스는 다른 [!DNL Experience Cloud] 솔루션에서 방문자 ID를 관리하도록 설계되었습니다. 반면 [!UICONTROL DIL]은(는) 다음과 같이 디자인되었습니다.
+[!UICONTROL DIL] 는 API 라이브러리입니다. 이 코드를 [!DNL Adobe Audience Manager]의 도우미 코드 본문으로 간주할 수 있습니다. [!DNL Audience Manager]을(를) 사용할 필요는 없지만 [!UICONTROL DIL] 메서드와 함수는 [!DNL Audience Manager]에 데이터를 보내기 위해 자체 코드를 개발할 필요가 없다는 것을 의미합니다. 또한 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)에서 제공하는 API와 다릅니다. 이 서비스는 다른 [!DNL Experience Cloud] 솔루션에서 방문자 ID를 관리하도록 설계되었습니다. 반대로 [!UICONTROL DIL]은(는) 다음과 같이 설계되었습니다.
 
-* 이벤트를 호출하고 데이터를 [데이터 수집 서버](../reference/system-components/components-data-collection.md)로 보냅니다.
+* 이벤트를 호출하고 데이터를 [데이터 수집 서버](../reference/system-components/components-data-collection.md)에 보냅니다.
 * 데이터를 [대상](../features/destinations/destinations.md)으로 보냅니다.
 
 ## DIL 코드 {#get-implement-dil-code} 가져오기 및 구현
 
-[!UICONTROL DIL] 코드를  **[여기에서 다운로드할 수 있습니다](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. 버전 8.0(2018년 8월 출시)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/home.html), 버전 3.3 이상에 대해 강한 종속성을 갖습니다. ID 동기화 및 [!DNL URL destinations]를 실행하는 데 [!DNL ID Service]이 사용됩니다. [!DNL ID Service]이(가) 없거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
+[!UICONTROL DIL] 코드는  **[여기에서 다운로드할 수 있습니다](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. 버전 8.0(2018년 8월 출시)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/home.html), 버전 3.3 이상에 대한 강한 종속성을 갖습니다. [!DNL ID Service]에 의존하여 ID 동기화 및 [!DNL URL destinations]을 실행합니다. [!DNL ID Service]이(가) 누락되었거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
 
-[!UICONTROL DIL]에서 수동으로 작업하고 [!DNL Audience Manager]를 설정하는 대신 [Adobe Experience Platform Launch](https://docs.adobelaunch.com/)을 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Launch] 는 코드 배포, 배치 및 버전 관리를 간소화하므로 권장 구현 도구입니다. [!DNL Adobe Experience Platform Launch]의 [Audience Manager 확장](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension)에 대한 자세한 내용을 참조하십시오.
+[!UICONTROL DIL]에서 수동으로 작업하고 [!DNL Audience Manager]을 설정하는 대신 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)을 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Launch] 는 코드 배포, 배치 및 버전 관리를 간소화하므로 권장 구현 도구입니다. [!DNL Adobe Experience Platform Launch]의 [Audience Manager 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html)에 대해 자세히 알아보십시오.
 
-[!DNL Adobe Experience Platform Launch] 는  [Adobe 다이내믹 태그 관리자](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM])의 후속이름입니다.
+[!DNL Adobe Experience Platform Launch] 는  [Adobe 다이내믹 태그 관리자](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM])의 후속 이름입니다.
 
 ## 샘플 호출 {#sample-code}
 
-[!UICONTROL DIL] 데이터를 이벤트 호출 [!DNL Audience Manager] 에 전송합니다. 이벤트 호출은 페이지의 XML HTTP 요청입니다. 이 메서드는 `POST` 메서드를 사용하여 요청 본문에 데이터를 보냅니다.
+[!UICONTROL DIL] 이벤트 호출 [!DNL Audience Manager] 에서 데이터를 전송합니다. 이벤트 호출은 페이지의 XML HTTP 요청입니다. 이 메서드는 `POST` 메서드를 사용하여 요청 본문에 데이터를 보냅니다.
 
 | 이벤트 호출 요소 | 설명 |
 |--- |--- |
 | URL | DIL 이벤트 호출은 다음 구문을 사용합니다.`https://adobe.demdex.net/event?_ts =` *`UNIX UTC timestamp`* |
-| 본문 | 아래 샘플에서와 같이 DIL은 데이터를 키-값 쌍으로 전달합니다. 특수 접두사 문자는 키-값 쌍을 Audience Manager 또는 파트너 변수로 식별합니다.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br> |
+| 본문 | 아래 샘플에서 보듯이 DIL은 데이터를 키-값 쌍으로 전달합니다. 특수 접두사 문자는 키-값 쌍을 Audience Manager 또는 파트너 변수로 식별합니다.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br> |
 
 다음을 참조하십시오.
 * [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)

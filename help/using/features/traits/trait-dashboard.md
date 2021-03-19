@@ -1,23 +1,23 @@
 ---
-description: 트레이트 대시보드는 트레이트를 관리하기 위한 중앙 작업 공간입니다.
-seo-description: 트레이트 대시보드는 트레이트를 관리하기 위한 중앙 작업 공간입니다.
+description: 트레이트 대시보드는 트레이트를 관리하기 위한 중앙 관리 작업 공간입니다.
+seo-description: 트레이트 대시보드는 트레이트를 관리하기 위한 중앙 관리 작업 공간입니다.
 seo-title: 트레이트 대시보드
 solution: Audience Manager
 title: 트레이트 대시보드
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
-feature: Traits
+feature: 트레이트
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 4%
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
 
 # 트레이트 대시보드 {#traits-dashboard}
 
-[트레이트 대시보드](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list)는 트레이트를 관리하는 중앙 작업 공간입니다. [!UICONTROL Traits] 대시보드는 **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**&#x200B;로 이동하여 볼 수 있습니다.
+트레이트 대시보드는 트레이트를 관리하기 위한 중앙 작업 공간입니다. **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**&#x200B;으로 이동하여 [!UICONTROL Traits] 대시보드를 볼 수 있습니다.
 
 ![](assets/traits-dashboard.png)
 
@@ -30,4 +30,4 @@ ht-degree: 4%
 3. 트레이트를 생성, 편집 및 삭제합니다.
 4. 특성 저장소 폴더를 보고 관리합니다.
 5. 이름, ID, 설명 또는 데이터 소스별로 트레이트를 검색합니다. 검색 중에 해당 폴더 및 하위 폴더로 결과를 제한하려면 폴더를 클릭합니다.
-6. 특성 유형별로 트레이트를 필터링합니다(온보드, 규칙 기반, 알고리즘, 폴더 트레이트).
+6. 트레이트를 트레이트 유형별로 필터링합니다(온보드, 규칙 기반, 알고리즘, 폴더 트레이트).

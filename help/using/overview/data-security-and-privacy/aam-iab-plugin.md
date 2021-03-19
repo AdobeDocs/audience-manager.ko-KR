@@ -4,11 +4,11 @@ seo-description: Adobe는 옵트인 기능 및 IAB 투명성 및 동의 프레�
 seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
-feature: data governance & privacy
+feature: 데이터 거버넌스 및 개인 정보 보호
 translation-type: tm+mt
-source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2441'
 ht-degree: 40%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 40%
 
 ## 개요
 
-사용자에게 부여할 수 있는 개인정보 보호 책임의 중요한 관점은 개인 데이터를 어떻게 사용할 수 있는지(예를 들어, &quot;목적&quot;) 및 누가 (예를 들어, &quot;회사&quot;) 보다 사용자 선택을 누가 취득하고 운반하는 것입니다.
+사용자에게 부여할 수 있는 개인정보 보호 책임의 중요한 관점은 개인 데이터를 어떻게 사용할 수 있는지(예를 들어, &quot;목적&quot;) 및 누가(예를 들어, &quot;회사&quot;) 보다 사용자 선택을 누가 취득하고 운반하는 것입니다.
 
 Adobe는 [옵트인 기능](https://docs.adobe.com/content/help/ko-KR/id-service/using/implementation/opt-in-service/optin-overview.html) 및 [IAB 투명성 및 동의 프레임워크(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다.
 
@@ -100,7 +100,7 @@ IAB TCF에 등록된 모든 공급업체는 IAB TC 문자열을 평가하고 사
 
 ## Audience Manager {#aam-standard-purposes}에 필요한 목적
 
-Audience Manager은 [IAB 유럽 투명도 및 동의 프레임워크 정책](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)에 정의된 목적에 따라 IAB TC 문자열에 저장된 사용자 선택을 평가합니다. 또한 [글로벌 공급업체 목록](https://vendorlist.consensu.org/vendorlist.json)에서도 목적을 찾을 수 있습니다.
+Audience Manager은 [IAB 유럽 투명도 및 동의 프레임워크 정책](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions)에 정의된 목적에 따라 IAB TC 문자열에 저장된 사용자 선택을 평가합니다.
 
 * **목적 1**:장치에 정보 저장 및/또는 액세스;
 * **목적 10**:제품 개발 및 개선;

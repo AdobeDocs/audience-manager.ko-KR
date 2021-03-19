@@ -1,17 +1,17 @@
 ---
 description: 일반적인 제품 및 기능 관련 질문 및 문제
-keywords: audience manager cookies
+keywords: audience manager 쿠키
 seo-description: 일반적인 제품 및 기능 관련 질문 및 문제
 seo-title: 제품 및 기능 FAQ
 solution: Audience Manager
 title: 제품 및 기능 FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: Overview
+feature: 개요
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 91%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -48,9 +48,9 @@ faq_features_functions.xml
 
  
 
-**대상으로 벌크 ID 내보내기를 수행할 때 고객 ID 중 일부가 누락되었습니다. 왜 이런 일이 발생합니까?**
+**대상으로 벌크 ID 내보내기를 수행할 때 고객 ID 중 일부가 누락되었습니다. 왜 그럴까?**
 
-장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUIDs](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보내집니다. 따라서 내보내려는 장치 ID 개수보다 적은 수가 표시될 수 있습니다.
+장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUIDs](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보내집니다. 이 때문에 내보내는 장치 ID의 개수가 예상보다 적을 수 있습니다.
 
  
 
@@ -68,7 +68,7 @@ faq_features_functions.xml
 
 **[!UICONTROL Tag Insertion Manager (TIM)]은 무엇입니까?**
 
-Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Launch]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) 및 [Dynamic Tag Management](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)를 참조하십시오.
+Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Launch]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) 및 [Dynamic Tag Management](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)를 참조하십시오.
 
  
 

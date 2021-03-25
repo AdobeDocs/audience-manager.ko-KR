@@ -8,7 +8,7 @@ title: Audience Manager의 ID 색인
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: 참조
 translation-type: tm+mt
-source-git-commit: 5abb131966e0b27e6c628ff992c4c30b89f65ae9
+source-git-commit: 30d18c32f519930703c46046b0c2a413b222c317
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 5%
@@ -45,14 +45,6 @@ ht-degree: 5%
 | [!DNL CRM ID] | 자세한 내용은 `DPUUID`를 참조하십시오. | 자세한 내용은 `DPUUID`를 참조하십시오. | 자세한 내용은 `DPUUID`를 참조하십시오. |
 | [!DNL CID],  [!DNL CID_IC] | [!UICONTROL Customer ID], [!UICONTROL Customer ID Integration Code]. [!DNL CID] 및 [!DNL CID_IC] 키-값 쌍은 [!DNL DPID] 및 [!DNL DPUUID]을(를) 대체합니다. 이 매개 변수는 [!DNL DPID] 및 [!DNL DPUUID] 함수와 동일한 기능을 제공하지만 데이터 공급자 ID 및 사용자 ID(또는 통합 코드)를 단일 키-값 쌍에 포함하므로 보다 효율적입니다. | [!DNL DCS] 호출에서 이러한 ID 앞에 `d_` 접두어가 추가됩니다. <br>예: `d_cid_ic=39217_myIntegrationCode`. | `DPID` 및 `DPUUID`을 참조하십시오. |
 | [!DNL DAID] | [!UICONTROL Device Advertising ID]. 각 하드웨어 장치에 고유한 ID로서, 광고 목적으로 사용됩니다. 보통 장치 또는 장치 운영 체제의 제조업체에서 제공합니다. | [전역 장치 ID](#global-device-ids)를 참조하십시오. |  |
-
-<!--
-
-Commenting out the table style. Fixed layout works better than auto layout for the index of IDs.
-
-{style="table-layout:auto"}
-
--->
 
 ## [!DNL Global Device IDs] {#global-device-ids}
 

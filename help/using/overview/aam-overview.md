@@ -7,7 +7,7 @@ title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: 개요
 translation-type: tm+mt
-source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -31,13 +31,9 @@ DMP(데이터 관리 플랫폼)의 기능은 아래와 같이 세 가지 범주�
 
 Audience Manager가 채널 및 장치에서 자사 데이터(웹 분석, CRM, 장치 데이터, 전자 상거래 등)를 수집합니다.
 
-<br> 
-
 **대상 만들기**
 
 데이터를 대상 프로필에 통합하여 다양한 장치와 채널에서 완전한 고객 보기를 제공합니다. 유사 모델을 만들고, 대상 세그먼트와 프로필 그룹을 만들고, 제2자 데이터 및 타사 데이터 소스로 보완합니다.
-
-<br> 
 
 **데이터 출력**
 

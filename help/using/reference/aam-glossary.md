@@ -5,12 +5,12 @@ seo-title: 용어 설명
 solution: Audience Manager
 title: 용어 설명
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: reference
+feature: 참조
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 100%
+source-wordcount: '1187'
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 100%
 
 [알고리즘 모델 이해](../features/algorithmic-models/algo-models-overview.md)를 참조하십시오.
 
-<br> 
-
 **BAAAM**
 
 [!UICONTROL Bulk Management Tools]. [!DNL Audience Manager]의 [!UICONTROL Bulk Management Tools]는 한 번의 작업으로 여러 개체를 한 번에 만들거나 수정하거나 삭제할 수 있는 Microsoft Excel 기반 도구 세트입니다. 데이터 소스, 파생된 신호, 대상, 폴더, 세그먼트 및 트레이트를 사용하여 작업할 수 있습니다. 이 기능에서는 [!DNL Audience Manager] API에 대한 안전하고 인증된 호출을 수행하는 매크로가 포함된 Microsoft Excel 스프레드시트를 사용합니다.
@@ -43,15 +41,13 @@ ht-degree: 100%
 
 [고객 데이터 피드](../features/cdf-files.md)를 참조하십시오.
 
-<br> 
-
 **CRM ID**
 
 CRM ID는 고객이 자신의 CRM 시스템에서 사용자를 식별하는 ID입니다. Audience Manager에서는 CRM ID 대신 DPUUID라는 용어를 사용합니다.
 
 [Audience Manager의 ID 색인](../reference/ids-in-aam.md)에서 DPUUID를 참조하십시오.
 
-<br> 
+
 
 **고객 대응 가능 대상**
 
@@ -60,25 +56,25 @@ CRM ID는 고객이 자신의 CRM 시스템에서 사용자를 식별하는 ID�
    **그리고**
 * 동기화 시간과 관계없이 선택한 대상과의 ID 동기화가 있습니다.
 
-<br> 
+
 
 **고객 특성**
 
 [!DNL Experience Cloud Core Services] 제품 설명서에서 [고객 특성](https://docs.adobe.com/content/help/ko-KR/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
-<br> 
+
 
 **고객 일치율**
 
 %로 표현되는 고객 대응 가능 대상 ÷ 고객 총 대상. [대응 가능 대상](/help/using/features/addressable-audiences.md)을 참조하십시오.
 
-<br> 
+
 
 **고객 총 대상**
 
 [대응 가능 대상](/help/using/features/addressable-audiences.md)에서 이 지표는 전환 확인 기간 동안 자산에 대한 규칙 기반 트레이트 또는 오프라인 파일에서 온보딩된 트레이트를 실현한 장치 수를 나타냅니다.
 
-<br> 
+
 
 **demdex.net**
 
@@ -86,7 +82,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 [Demdex 도메인에 대한 호출 이해](../reference/demdex-calls.md)를 참조하십시오.
 
-<br> 
+
 
 **DAID**
 
@@ -94,19 +90,19 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하십시오.
 
-<br> 
+
 
 **대상**
 
 [!DNL Audience Manager]에서 대상은 데이터를 공유하려는 다른 시스템(광고 서버, DSP, 광고 네트워크 등) 입니다. UI의 [!UICONTROL Destination Builder]는 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. [!DNL Audience Manager] 대상 기능은 **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
 
-<br> 
+
 
 **DIL**
 
 [!UICONTROL Data Integration Library]는 사용자 상호 작용 데이터를 수집하기 위해 [!DNL Audience Manager]에서 사용하는 API 라이브러리입니다. [DIL(데이터 통합 라이브러리) API](../dil/dil-overview.md)를 참조하십시오.
 
-<br> 
+
 
 **dpm**
 
@@ -118,7 +114,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 이전 이름은 [!DNL Marketing Cloud] ID(MID 또는 MCID)였습니다. [!DNL Experience Cloud] ID는 ID 서비스의 중심입니다. 사이트 방문자에 대한 고유하고 지속적인 식별자입니다. 쿠키 및 [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html)를 참조하십시오.
 
-<br> 
+
 
 **폴더 트레이트**
 
@@ -126,7 +122,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 [폴더 트레이트: 설명](../features/traits/about-folder-traits.md)을 참조하십시오.
 
-<br> 
+
 
 **빈도 제한**
 
@@ -140,7 +136,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 Google 광고 ID. Google이 Android 운영 체제를 실행하는 하드웨어 장치에 지정하는 고유 장치 ID입니다. [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하십시오.
 
-<br> 
+
 
 **GUID**
 
@@ -153,13 +149,13 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 광고주용 식별자. Apple이 제품에 할당하는 고유 장치 ID입니다.  [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하십시오.
 
-<br> 
+
 
 **인바운드**
 
 다른 소스의 대상 데이터를 [!DNL Audience Manager]에 보낼 수 있는 프로세스입니다. [대상 데이터 보내기](/help/using/integration/sending-audience-data/send-audience-data.md)를 참조하십시오.
 
-<br> 
+
 
 **통합 코드**
 
@@ -189,13 +185,13 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 [데이터 수집 구성 요소](../reference/system-components/components-data-collection.md)를 참조하십시오.
 
-<br> 
+
 
 **프로필 링크**
 
 [정의된 프로필 병합 규칙 옵션](../features/profile-merge-rules/merge-rule-definitions.md)을 참조하십시오.
 
-<br> 
+
 
 **프로필 병합 규칙**
 
@@ -217,25 +213,25 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 [세그먼트: 목적, 구성 및 규칙](../features/segments/segments-purpose.md)을 참조하십시오.
 
-<br> 
+
 
 **세그먼트 대응 가능 대상**
 
 [대응 가능 대상](/help/using/features/addressable-audiences.md)에서 이 지표는 보고서 전환 확인 기간 동안 세그먼트에 속하고 해당 사이트에 대한 활성 ID 동기화를 보유한 사용자 수를 나타냅니다. 세그먼트는 [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md)에서 획득한 트레이트를 통해 자신의 자사 데이터와 제2자 데이터, 타사 데이터를 포함할 수 있습니다.
 
-<br> 
+
 
 **세그먼트 총 인구**
 
 [대응 가능 대상](/help/using/features/addressable-audiences.md)에서 이 지표는 보고서 전환 확인 기간 동안 세그먼트의 구성원이었던 모든 장치의 수를 나타냅니다.
 
-<br> 
+
 
 **세그먼트 일치율**
 
 %로 표현되는 세그먼트 대응 가능 대상 ÷ 총 세그먼트 인구. [대응 가능 대상](/help/using/features/addressable-audiences.md)을 참조하십시오.
 
-<br> 
+
 
 **신호**
 
@@ -243,13 +239,13 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)를 참조하십시오.
 
-<br> 
+
 
 **트레이트**
 
 트레이트는 하나 이상의 신호가 결합된 것입니다. [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)를 참조하십시오.
 
-<br> 
+
 
 **트레이트 인구**
 
@@ -259,7 +255,7 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 TTL은 자격이 있는 방문자가 트레이트에 남아 있는 일수를 정의합니다. TTL은 세그먼트가 아니라 트레이트에 대해 설정됩니다. 방문자가 TTL 간격 종료 전에 자격 트레이트를 보지 못할 경우 세그먼트에서 이탈됩니다. [세그먼트 및 트레이트 유지 시간 설명](/help/using/features/traits/segment-ttl-explained.md)에서 더 확인하십시오.
 
-<br> 
+
 
 ## U-V {#u-v}
 
@@ -267,7 +263,7 @@ TTL은 자격이 있는 방문자가 트레이트에 남아 있는 일수를 정
 
 [!DNL Audience Manager] 고유 사용자 ID. [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하십시오.
 
-<br> 
+
 
 **Visitor ID**
 

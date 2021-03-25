@@ -7,7 +7,7 @@ title: Audience Manager 안내서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: 개요
 translation-type: tm+mt
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
+source-git-commit: 191e2b0c5d511853273d0ebf7d6f0a965c4fc3fc
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 96%
@@ -77,15 +77,15 @@ ht-degree: 96%
    <td colname="col1"> <p><b>중요한 개념 설명</b></p>
    <p>Audience Manager 개념에 대해 깊이 알려면 아래 페이지를 읽어 보십시오. 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager 개요</a></li><li><a href="/help/using/reference/signal-trait-segment.md">신호, 트레이트 및 세그먼트</a></li><li><a href="/help/using/reference/aam-glossary.md"> 용어 설명</a> </li><li><a href="/help/using/reference/ids-in-aam.md">ID 색인</a></li></ul></p>
-   <br> 
-   <p><b>Audience Manager 구현</b></p>
+
+<p><b>Audience Manager 구현</b></p>
    <p> 아래 페이지를 읽고 Audience Manager 구현을 시작하십시오.
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">데이터 통합 방법</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md">구현 안내서</a></li>
      </ul> </p>
-     <br> 
-   <p> <b>기술 구현 안내서</b> </p> <p>Audience Manager API를 시작하고 앱에서 Audience Manager를 설정합니다.</p> <p> 
+
+<p> <b>기술 구현 안내서</b> </p> <p>Audience Manager API를 시작하고 앱에서 Audience Manager를 설정합니다.</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API 시작</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS API 시작</a></li>
@@ -151,7 +151,6 @@ ht-degree: 96%
   <tr> 
    <td> <p> <b>릴리스 노트</b> </p> <p> 
      새 기능 및 수정 사항에 대해서는 최신 <a href="https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오.</p> 
-     <br> 
      <p> <b>최신 기능</b> </p> <p> 
      최신 Audience Manager 기능을 살펴보십시오.</p>
      <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사람 기반 대상에 대한 Google 고객 일치</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
@@ -199,7 +198,6 @@ Read about the latest Audience Manager features:
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/kr/support/experience-cloud.html" scope="external" format="https">Experience Cloud 제품 설명서 홈</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/kr/support/audience-manager.html" format="https" scope="external"> Audience Manager 학습 및 지원</a> </li> 
      </ul> </p> 
-     <br> 
      <p><a href="https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/documentation-updates/docs-2021.html">2021 설명서 업데이트</a>를 참조하십시오. </p> </td>
   </tr> 
  </tbody> 

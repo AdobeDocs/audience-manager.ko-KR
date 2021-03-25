@@ -5,11 +5,11 @@ seo-title: Adobe Audience Manager 제품 기술 설명서
 solution: Audience Manager
 title: Audience Manager 안내서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: overview
+feature: 개요
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 96%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 96%
 * 다음으로, **Audience Manager 시작**&#x200B;을 읽어 Audience Manager 개념에 익숙해집니다. 비즈니스 및 기술 구현 안내서도 반드시 확인하십시오.
 * 최신 Audience Manager 릴리스 노트를 확인하고 **릴리스 노트 및 최신 기능** 섹션에서 최신 기능에 대해 읽어 보십시오.
 * 마지막으로, **교육 센터 - 권장 Audience Manager 및 Experience Cloud 리소스** 섹션에서 포럼, 비디오 자습서, 대면 및 온라인 교육 과정과 같은 Experience Cloud 리소스를 더 많이 이용할 수 있습니다.
-
-<br> 
 
 ## Audience Manager 기본 기능
 
@@ -70,8 +68,6 @@ ht-degree: 96%
    </td>
 </table>
 
-
-<br> 
 
 ## Audience Manager 시작
 
@@ -148,8 +144,6 @@ ht-degree: 96%
 
 -->
 
-<br> 
-
 ## 릴리스 노트 및 최신 기능
 
 <table> 
@@ -186,7 +180,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br> 
 
 ## 교육 센터 - 권장 Audience Manager 및 Experience Cloud 리소스
 

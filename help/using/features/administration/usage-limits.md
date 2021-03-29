@@ -8,9 +8,9 @@ keywords: ID 매핑, ID 매핑, 쿠키 매핑
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: 사용 및 청구
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '585'
 ht-degree: 6%
 
 ---
@@ -45,8 +45,6 @@ Audience Manager은 계정에 대해 만들 수 있는 트레이트, 세그먼�
 | 온보드 | 100,000 |
 | 폴더 트레이트 | 2,000 |
 
-{style=&quot;table-layout:auto&quot;}
-
 ### 세그먼트 제한
 
 | 세그먼트 유형 | 최대 제한 |
@@ -71,9 +69,7 @@ Audience Manager은 계정에 대해 만들 수 있는 트레이트, 세그먼�
 | [!UICONTROL Look-Alike Models] 최대 대상 크기 | 25,000,000.  이 제한은 늘릴 수 없습니다. 모델의 데이터 소스를 적게 선택하거나 보다 짧은 룩백 창을 선택하여 대상 크기를 줄일 수 있습니다. |
 | [!UICONTROL Look-Alike Model]에 대해 제외된 최대 트레이트 수 | 500. 알고리즘 모델링 중 [특성 제외](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)를 참조하십시오. |
 | 최대 [!UICONTROL Predictive Audiences Models] | 10 |
-| [!UICONTROL Predictive Audiences Models]에 대한 기준선 개인 최대 수 | 50 |
-
-{style=&quot;table-layout:auto&quot;}
+| [!UICONTROL Predictive Audiences Models]에 대한 최대 기준선 개인 수 | 50 |
 
 ### 폴더 제한
 

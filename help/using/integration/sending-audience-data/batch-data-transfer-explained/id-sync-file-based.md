@@ -7,9 +7,9 @@ title: ID 동기화 파일 이름 및 컨텐츠 요구 사항
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: 인바운드 데이터 전송
 translation-type: tm+mt
-source-git-commit: de1483763998027c4fc7694223c39dd7a37e87ab
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -130,8 +130,6 @@ ID 동기화 파일의 목적은 자신의 데이터 소스에서 [!DNL Audience
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxyqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-{style=&quot;table-layout:auto&quot;}
-
 1단계:ID 동기화 프로세스는 왼쪽 열의 [!DNL Audience Manager] [!DNL UUID]s와 [!DNL DPID] 12345의 [!DNL DPUUID]s를 동기화합니다. 파일 이름의 [!DNL DPID] &quot;0&quot;은 [!DNL Audience Manager] [!DNL UUID]s를 나타냅니다.
 <br/>
 
@@ -144,8 +142,6 @@ ID 동기화 파일의 목적은 자신의 데이터 소스에서 [!DNL Audience
 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
 | XYZ3017QvBddD-bLJS28DPxyqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
-
-{style=&quot;table-layout:auto&quot;}
 
 2단계:[!DNL DPID] 12345의 [!DNL DPUUID]이(가) 1단계에서 Audience Manager [!DNL UUID]s와 동기화되었습니다.이 ID 동기화를 통해 수행하는 작업은 1단계의 Audience Manager [!DNL UUID]와 [!DNL DPID] 67890의 [!DNL DPUUID]을(를) 동기화하는 것입니다.
 

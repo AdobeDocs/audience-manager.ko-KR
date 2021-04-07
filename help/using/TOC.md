@@ -5,10 +5,11 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1789'
 ht-degree: 92%
 
 ---
@@ -146,7 +147,7 @@ ht-degree: 92%
       + [세그먼트 표현식 편집기에 사용되는 코드 구문](features/segments/segment-code-syntax.md)
       + [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](features/segments/segment-builder-data.md)
       + [트레이트 추천](features/segments/trait-recommendations.md)
-      + [트레이트 및 세그먼트 자격 참조](features/traits/trait-and-segment-qualification-reference.md)
+      + [트레이트 및 세그먼트 자격 참조](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + 트레이트{#traits}
       + [트레이트 개요](/help/using/features/traits/traits-overview.md)
       + [트레이트 세부 사항 페이지](features/traits/trait-details-page.md)

@@ -3,16 +3,16 @@ description: Predictive Audiences을 사용하면 데이터 과학을 사용하�
 seo-description: Predictive Audiences을 사용하면 데이터 과학을 사용하여 알 수 없는 대상을 실시간으로 개별 성향으로 분류할 수 있습니다.
 seo-title: Predictive Audiences FAQ
 solution: Audience Manager
-title: Audience Manager Predictive Audiences
-feature: Algorithmic Models
+title: 예측 대상 FAQ
+feature: 알고리즘 모델
+exl-id: 21073970-8457-470b-89fc-724a118a18d2
 translation-type: tm+mt
-source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '969'
 ht-degree: 59%
 
 ---
-
 
 # 예측 대상 FAQ
 
@@ -92,7 +92,7 @@ ht-degree: 59%
 
 대상 대상 대상 [!UICONTROL segment]이(가) 인증된 프로필 + [!DNL Device Graph] 프로필을 기반으로 [!UICONTROL Profile Merge Rule]을(를) 사용하고 예측 [!UICONTROL segments]에 대해 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택한다고 가정해 보겠습니다. 이 경우 장치 수준 및 크로스 장치 수준 [!UICONTROL traits]은 모두 모델을 교육하는 데 사용되고 사용자가 예측 [!UICONTROL segment]에 배치되는 데 사용됩니다.
 
-그러나 장치 프로파일만을 기반으로 [!UICONTROL Profile Merge Rule]을 선택하면 크로스 디바이스 [!UICONTROL traits]에 영향을 주지 않으며 사용자가 예측 [!UICONTROL segment]에 배치되는 데 기여하지 않습니다. 이로 인해 모델 정확도와 도달 수가 저하될 수 있습니다.
+그러나 장치 프로파일만을 기반으로 [!UICONTROL Profile Merge Rule]을 선택하면 크로스 디바이스 [!UICONTROL traits]의 영향력이 발생하지 않으며 사용자가 예측 [!UICONTROL segment]에 배치되는 데 기여하지 않습니다. 이로 인해 모델 정확도와 도달 수가 저하될 수 있습니다.
 
 사용 사례를 주의 깊게 분석하고 모델이 분류에서 학습할 데이터 유형과 모델이 어떤 유형의 데이터를 사용할지를 결정합니다.[!UICONTROL trait]
 

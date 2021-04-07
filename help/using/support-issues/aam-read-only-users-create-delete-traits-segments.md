@@ -1,18 +1,16 @@
 ---
-description: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
-seo-description: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
-seo-title: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
+description: 읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?
 solution: Audience Manager
-title: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
-feature: support
+title: 읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?
+feature: 지원
+exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 98%
 
 ---
-
 
 # 읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?
 

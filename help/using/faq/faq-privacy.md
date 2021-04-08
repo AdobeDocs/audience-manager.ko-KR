@@ -8,10 +8,10 @@ uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: 데이터 거버넌스 및 개인 정보
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
+source-git-commit: 04877a4a607457ad1ca179faec680df8118ff965
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 96%
+ht-degree: 83%
 
 ---
 
@@ -56,15 +56,15 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>백엔드 서버 </p> </td> 
-   <td colname="col2"> <p>120일. </p> <p> Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 120일 후에 백엔드 서버에서 사용자 데이터를 삭제합니다. 이 120일 주기 내에 <span class="keyword">Audience Manager</span>가 사용자 활동을 기록하면 Adobe에서는 이 데이터를 120일 더 보관합니다. </p> </td> 
+   <td colname="col2"> <p>120일 </p> <p> Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 120일 후에 백엔드 서버에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이 120일 주기 내의 사용자 활동을 기록하는 경우, 이 데이터는 다른 120일 동안 유지됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge Server </p> </td> 
-   <td colname="col2"> <p> 14일. </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. 이 14일 주기 내에 </span>Audience Manager<span class="keyword">가 사용자 활동을 기록하면 Adobe에서는 이 데이터를 14일 더 보관합니다. 14일 기간 후에 사용자가 다시 활성 상태가 되면 첫 번째 새 페이지 보기와 사용자가 조치를 취할 수 있는 시점 사이에 지연이 생깁니다. 14일 이상 활동을 하지 않을 경우 전체 프로필을 Edge 센터로 되돌리는 데 6~18시간이 걸립니다. </span></p> </td> 
+   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이 14일 주기 내의 사용자 활동을 기록하는 경우, 이 데이터는 다른 14일 동안 유지됩니다. 사용자가 14일 주기 후에 다시 활성화되면 해당 첫 번째 새 페이지 보기와 사용자가 작업을 수행할 수 있게 되는 시기 사이에 지연이 발생합니다. 14일 이상의 활동이 없는 후 전체 프로파일을 Edge Center로 다시 연결하는 데 6-18시간이 소요됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>원시 로그 </p> </td> 
-   <td colname="col2"> <p>60일(60일 동안 활동이 없으면 제거됨). </p> <p>원시 로그는 HTTP 호출이나 <span class="keyword">Audience Manager</span>에 전송된 온보딩된 파일을 통해 Edge Server에 의해 수신되는 데이터입니다. </p> </td> 
+   <td colname="col2"> <p>60일(활동이 없는 60일 후 제거됨) </p> <p>원시 로그는 HTTP 호출이나 <span class="keyword">Audience Manager</span>에 전송된 온보딩된 파일을 통해 Edge Server에 의해 수신되는 데이터입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>광고 서버 로그 </p> </td> 

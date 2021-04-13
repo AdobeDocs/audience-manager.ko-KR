@@ -1,13 +1,12 @@
 ---
-product: audience-manager
+product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다.
-user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
+source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 92%

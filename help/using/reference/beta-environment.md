@@ -1,20 +1,20 @@
 ---
 description: 베타 환경은 Audience Manager 구현을 테스트하는 것입니다. 베타에서 변경한 내용은 프로덕션 데이터에 영향을 주지 않습니다. 베타 환경을 사용하려면 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
-keywords: sandbox
+keywords: 샌드박스
 seo-description: 베타 환경은 Audience Manager 구현을 테스트하는 것입니다. 베타에서 변경한 내용은 프로덕션 데이터에 영향을 주지 않습니다. 베타 환경을 사용하려면 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
 seo-title: 베타 환경
 solution: Audience Manager
 title: 베타 환경
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: reference
+feature: 참조
+exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
-
 
 # 베타 환경 {#beta-environment}
 
@@ -22,11 +22,11 @@ ht-degree: 4%
 
 ## 개요
 
-베타 환경은 실험이나 미출시 기능이 없는 프로덕션 환경의 정확한 복제본입니다. 제작 환경의 로그인 자격 증명은 베타 환경에서 유효합니다.
+베타 환경은 실험적인 기능 또는 미출시 기능 없이 운영 환경의 정확한 복제본입니다. 제작 환경의 로그인 자격 증명은 베타 환경에서 유효합니다.
 
 **업데이트 일정**
 
-베타 환경은 비성수기 동안 매월 말에 업데이트됩니다.
+베타 환경은 사용량이 적은 시간에 매월 말에 업데이트됩니다.
 
 **아웃바운드 트래픽**
 
@@ -46,12 +46,12 @@ Added re: AAM-30826.
 |--- |--- | --- |
 | S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의 | 베타 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3](../reference/amazon-s3.md)을(를) 사용할 때의 [이점을 참조하십시오. |
 | DCS | `https://dcs-beta.demdex.net/...` | 베타 환경에서 [DCS 액세스](../reference/beta-environment.md#access-dcs-beta-environment)를 참조하십시오. |
-| UI | `https://bank-beta.demdex.com` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. |
-| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. [자세한 내용](../api/rest-api-main/aam-api-getting-started.md#requirements)을 참조하십시오. |
+| UI | `https://bank-beta.demdex.com` | 제작 환경 자격 증명은 베타 환경에 사용할 수 있습니다. |
+| API | `https://api-beta.demdex.com/...` | 제작 환경 자격 증명은 베타 환경에 사용할 수 있습니다. 일반 API 사용자를 만드는 것이 좋습니다. [세부 사항](../api/rest-api-main/aam-api-getting-started.md#requirements)을 참조하십시오. |
 
 ## 베타 환경에서 DCS 액세스 {#access-dcs-beta-environment}
 
-1. curl [command](https://curl.haxx.se/docs/manpage.html)를 사용하여 DCS 호출을 만듭니다. Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 데이터를 서버로부터 또는 서버로 전송하는 도구입니다.
+1. 말림 [명령](https://curl.haxx.se/docs/manpage.html)을 사용하여 DCS 호출을 만듭니다. Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 서버로부터 데이터를 전송하는 도구입니다.
 
    예:
 

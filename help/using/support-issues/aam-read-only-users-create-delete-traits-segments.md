@@ -5,10 +5,10 @@ title: 읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집
 feature: 지원
 exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 translation-type: tm+mt
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

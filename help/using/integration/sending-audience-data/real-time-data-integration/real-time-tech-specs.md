@@ -1,23 +1,23 @@
 ---
-description: 타사 컨텐츠 제공업체는 이러한 기술 사양에 따라 Audience Manager과 데이터를 교환할 수 있습니다. 실시간(동기) 통합은 사용자가 사이트를 방문하거나 사이트에서 조치를 취할 때 거의 실시간으로 데이터를 전송합니다. 기술, 엔지니어링 또는 개발 팀은 이 자료를 사용하여 Audience Manager을 통한 실시간 데이터 전송을 설정해야 합니다.
-seo-description: 타사 컨텐츠 제공업체는 이러한 기술 사양에 따라 Audience Manager과 데이터를 교환할 수 있습니다. 실시간(동기) 통합은 사용자가 사이트를 방문하거나 사이트에서 조치를 취할 때 거의 실시간으로 데이터를 전송합니다. 기술, 엔지니어링 또는 개발 팀은 이 자료를 사용하여 Audience Manager을 통한 실시간 데이터 전송을 설정해야 합니다.
+description: 타사 컨텐츠 제공업체는 이러한 기술 사양에 따라 Audience Manager과 데이터를 교환할 수 있습니다. 실시간(동기) 통합은 사용자가 사이트를 방문하거나 조치를 취할 때 거의 실시간으로 데이터를 전송합니다. 기술, 엔지니어링 또는 개발 팀은 이 자료를 사용하여 Audience Manager을 통한 실시간 데이터 전송을 설정해야 합니다.
+seo-description: 타사 컨텐츠 제공업체는 이러한 기술 사양에 따라 Audience Manager과 데이터를 교환할 수 있습니다. 실시간(동기) 통합은 사용자가 사이트를 방문하거나 조치를 취할 때 거의 실시간으로 데이터를 전송합니다. 기술, 엔지니어링 또는 개발 팀은 이 자료를 사용하여 Audience Manager을 통한 실시간 데이터 전송을 설정해야 합니다.
 seo-title: 인바운드 실시간 데이터 전송을 위한 기술 사양
 solution: Audience Manager
 title: 인바운드 실시간 데이터 전송을 위한 기술 사양
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
-feature: Inbound Data Transfers
+feature: 인바운드 데이터 전송
+exl-id: 4d777b67-6330-4582-b398-abc267b84d83
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 16%
 
 ---
 
-
 # 인바운드 실시간 데이터 전송을 위한 기술 사양{#technical-specifications-for-inbound-real-time-data-transfers}
 
-타사 컨텐츠 제공업체는 이러한 기술 사양에 따라 Audience Manager과 데이터를 교환할 수 있습니다. 실시간(동기) 통합은 사용자가 사이트를 방문하거나 사이트에서 조치를 취할 때 거의 실시간으로 데이터를 전송합니다. 기술, 엔지니어링 또는 개발 팀은 이 자료를 사용하여 Audience Manager을 통한 실시간 데이터 전송을 설정해야 합니다.
+타사 컨텐츠 제공업체는 이러한 기술 사양에 따라 Audience Manager과 데이터를 교환할 수 있습니다. 실시간(동기) 통합은 사용자가 사이트를 방문하거나 조치를 취할 때 거의 실시간으로 데이터를 전송합니다. 기술, 엔지니어링 또는 개발 팀은 이 자료를 사용하여 Audience Manager을 통한 실시간 데이터 전송을 설정해야 합니다.
 
 <!-- c_rt_realtime_intro.xml -->
 

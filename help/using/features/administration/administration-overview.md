@@ -5,17 +5,17 @@ seo-description: '[관리] 메뉴의 옵션을 사용하여 Audience Manager 사
 seo-title: 관리
 solution: Audience Manager
 title: 관리
-topic: DIL API
+topic-edit: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-feature: Administration
+feature: 관리
+exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 translation-type: tm+mt
-source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
-
 
 # [!UICONTROL Administration] (RBAC 컨트롤)  {#administration}
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
 * `MAP_ALL_TRAITS_TO_MODELS` - 사용자는 기준 [!UICONTROL traits] 으로 선택할 수  [!UICONTROL models]있습니다.
 * `EDIT_ALL_TRAITS` - 사용자는 회사 계정  [!UICONTROL traits] 내에서 설정된 모든 설정을 편집할 수 있습니다.
-* `VIEW_ALL_TRAITS` - 사용자는 회사 계정 내에서  [!UICONTROL traits] 설정된 모든 설정을 볼 수 있습니다.
+* `VIEW_ALL_TRAITS` - 사용자는 회사 계정  [!UICONTROL traits] 내에서 설정된 모든 설정을 볼 수 있습니다.
 * `DELETE_ALL_TRAITS` - 사용자는 회사 계정  [!UICONTROL traits] 내에서 설정된 모든 설정을 삭제할 수 있습니다.
 * `CREATE_ALL_ALGO_TRAITS` - 사용자가 만들 수  [!UICONTROL algorithmic traits]있습니다.
 * `MAP_ALL_TO_SEGMENTS` - 사용자는 자신의 회사에  [!UICONTROL traits] 속하는 항목을 추가할 수  [!UICONTROL segments]있습니다.

@@ -1,33 +1,32 @@
 ---
-description: 각 가입자에 대한 이전 월의 데이터 피드 사용을 보려면 Audience Marketplace 청구 보고서를 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
-seo-description: 각 가입자에 대한 이전 월의 데이터 피드 사용을 보려면 Audience Marketplace 청구 보고서를 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
+description: 각 구독자에 대한 이전 월의 데이터 피드 사용을 보려면 Audience Marketplace 청구 보고서를 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
+seo-description: 각 구독자에 대한 이전 월의 데이터 피드 사용을 보려면 Audience Marketplace 청구 보고서를 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
 seo-title: 데이터 피드 공급자에 대한 청구
 solution: Audience Manager
 title: 데이터 피드 공급자에 대한 청구
-topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
+exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 5%
+source-wordcount: '455'
+ht-degree: 6%
 
 ---
 
-
 # 데이터 피드 공급자에 대한 청구 {#billing-for-data-feed-providers}
 
-각 가입자에 대한 이전 달의 데이터 피드 사용을 보려면 [!DNL Audience Marketplace] 청구 보고서를 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
+각 가입자에 대한 이전 월의 데이터 피드 사용을 보려면 [!DNL Audience Marketplace] 청구 보고서를 생성합니다. 이전 달에 대한 보고서를 언제든지 만들 수 있습니다. 하지만 현재 월의 10일 이후에 보고서를 생성할 때 보다 정확합니다.
 
-## 청구 보고서 다운로드 {#download-billing-report}
+## 청구 보고서 {#download-billing-report} 다운로드
 
 보고서를 다운로드하려면
 
 1. **[!UICONTROL Audience Marketplace > Receivables]**&#x200B;으로 이동합니다.
 1. 클릭 **[!UICONTROL Generate Billing Report]**.
 
-## 보고서 필드 정의 {#report-fields-defined}
+## 정의된 보고서 필드 {#report-fields-defined}
 
 청구 보고서에는 다음 정보가 포함되어 있습니다.
 
@@ -45,7 +44,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 데이터 공급자 이름</span></b> </p> </td> 
-   <td colname="col2"> <p>회사 또는 조직 이름. </p> </td> 
+   <td colname="col2"> <p>회사 또는 조직명. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 구매자 PID</span></b> </p> </td> 
@@ -70,47 +69,47 @@ ht-degree: 5%
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">세그먼트 및 겹치기 </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">모델링 </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">활성화 </li> 
-    </ul> <p>데이터 피드<a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types">에 대한 계획 유형을 참조하십시오.</a> </p> </td> 
+    </ul> <p>데이터 피드 <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> 계획 유형</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> UOM</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> 측정 단위</span></b> </p> </td> 
    <td colname="col2"> <p>CPM 또는 정액 요금 청구를 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 목록 가격</span></b> </p> </td> 
-   <td colname="col2"> <p>각 데이터 피드의 구독 비용. </p> </td> 
+   <td colname="col2"> <p>각 데이터 피드에 대한 구독 비용. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 할인된 가격</span></b> </p> </td> 
-   <td colname="col2"> <p>할인된 데이터 피드의 구독 비용 <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> 데이터 공급자에 대한 할인 혜택</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>할인된 데이터 피드에 대한 구독 비용. <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> 데이터 공급자에 대한 할인 혜택</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 판매량</span></b> </p> </td> 
    <td colname="col2"> <p>피드 가격 유형에 따라 다릅니다. </p> 
     <ul id="ul_01550B436EEE4FBC8C9945E08E3CE2C6"> 
      <li id="li_C589F6A751AB407E853AC6F726A47F14">정액 요금 데이터 피드:1만 반환합니다. </li> 
-     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">CPM 데이터 피드:CPM 데이터 피드에 대한 실제 사용 금액을 반환합니다. 구독자가 CPM 피드에 대한 노출 데이터를 제공하지 않은 경우 판매량 셀은 비어 있고 플래그 셀이 1로 설정됩니다. </li> 
+     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">CPM 데이터 피드:CPM 데이터 피드에 대한 실제 사용 금액을 반환합니다. 구독자가 CPM 피드에 대한 노출 데이터를 제공하지 않은 경우 단위 셀은 비어 있고 플래그 셀이 1로 설정됩니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 총 비용</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>은 구매자에게 청구됩니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> 금액은 구매자에게 청구됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 청구 기간</span></b> </p> </td> 
-   <td colname="col2"> <p> 보고서에서 이것은 이전 달의 마지막 날입니다. </p> </td> 
+   <td colname="col2"> <p> 보고서에서 이것은 이전 월의 마지막 날입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 시작 날짜</span></b> </p> </td> 
-   <td colname="col2"> <p>구매자가 가입/사용 정보를 입력한 날짜입니다. </p> </td> 
+   <td colname="col2"> <p>구매자가 가입/사용 정보를 입력한 날짜. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 구독 시작 날짜</span></b> </p> </td> 
-   <td colname="col2"> <p>구매자가 데이터 피드 구독을 시작한 날짜입니다. </p> </td> 
+   <td colname="col2"> <p>구매자가 데이터 피드 가입을 시작한 날짜. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 구독 종료 날짜</span></b> </p> </td> 
-   <td colname="col2"> <p>구매자가 데이터 피드 구독을 종료한 날짜 </p> </td> 
+   <td colname="col2"> <p>구매자가 데이터 피드 가입을 종료한 날짜 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 플래그</span></b> </p> </td> 
@@ -126,6 +125,6 @@ ht-degree: 5%
 >[!MORELIKETHIS]
 >
 >* [CPM 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [고정 요금 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [정액 요금 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
 >* [CPM 사용을 보고하는 방법](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 

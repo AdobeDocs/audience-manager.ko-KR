@@ -8,7 +8,7 @@ uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: 대상 최적화 보고서
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 translation-type: tm+mt
-source-git-commit: f5efd2d5032cb6d9fcceaee72d849a9dedcce698
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 2%

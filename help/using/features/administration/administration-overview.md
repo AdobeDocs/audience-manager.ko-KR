@@ -5,12 +5,11 @@ seo-description: '[관리] 메뉴의 옵션을 사용하여 Audience Manager 사
 seo-title: 관리
 solution: Audience Manager
 title: 관리
-topic-edit: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: 관리
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 1%

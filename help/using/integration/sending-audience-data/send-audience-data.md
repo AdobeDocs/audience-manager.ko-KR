@@ -1,21 +1,21 @@
 ---
-description: 다른 소스에서 Audience Manager으로 고객 데이터 전송
-seo-description: 다른 소스의 고객 데이터를 Adobe Audience Manager(AAM)으로 전송할 수 있습니다.
-seo-title: Adobe Audience Manager에서 대상 데이터 전송(AAM)
+description: 다른 소스의 고객 데이터를 Audience Manager으로 보낼 수 있습니다.
+seo-description: 다른 소스의 고객 데이터를 Adobe Audience Manager(AAM)으로 보낼 수 있습니다.
+seo-title: Adobe Audience Manager(AAM)에서 대상 데이터 보내기
 title: 대상 데이터 보내기
-feature: Inbound Data Transfer
+feature: 인바운드 데이터 전송
+exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 32%
+source-wordcount: '93'
+ht-degree: 34%
 
 ---
 
-
 # 대상 데이터 보내기
 
-다른 소스에서 Audience Manager으로 고객 데이터 전송
+다른 소스의 고객 데이터를 Audience Manager으로 보낼 수 있습니다.
 
 * [실시간 인바운드 데이터 통합](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 

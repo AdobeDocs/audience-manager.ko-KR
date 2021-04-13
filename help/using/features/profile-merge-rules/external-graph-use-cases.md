@@ -1,31 +1,31 @@
 ---
-description: 외부 디바이스 그래프로 알 수 없는 사용자를 위한 Recommendations 및 활용 사례 외부 장치 그래프는 Audience Manager과 별개인 장치 그래프로 정의됩니다. 여기에는 Adobe Experience Cloud Device Co-op 및 기타 통합 Adobe이 타사 결정 또는 확률적 장치 그래프 회사가 포함됩니다.
-seo-description: 외부 디바이스 그래프로 알 수 없는 사용자를 위한 Recommendations 및 활용 사례 외부 장치 그래프는 Audience Manager과 별개인 장치 그래프로 정의됩니다. 여기에는 Adobe Experience Cloud Device Co-op 및 기타 통합 Adobe이 타사 결정 또는 확률적 장치 그래프 회사가 포함됩니다.
+description: 외부 디바이스 그래프로 알 수 없는 사용자를 위한 Recommendations 및 활용 사례 외부 장치 그래프는 Audience Manager과 독립된 장치 그래프로 정의됩니다. 여기에는 Adobe Experience Cloud Device Co-op 및 기타 통합 Adobe에 제3자 결정적 또는 확률적 장치 그래프 회사가 포함됩니다.
+seo-description: 외부 디바이스 그래프로 알 수 없는 사용자를 위한 Recommendations 및 활용 사례 외부 장치 그래프는 Audience Manager과 독립된 장치 그래프로 정의됩니다. 여기에는 Adobe Experience Cloud Device Co-op 및 기타 통합 Adobe에 제3자 결정적 또는 확률적 장치 그래프 회사가 포함됩니다.
 seo-title: 외부 장치 그래프 사용 사례
 solution: Audience Manager
 title: 외부 장치 그래프 사용 사례
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-feature: Profile Merge Rules
+feature: 프로필 병합
+exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '553'
 ht-degree: 5%
 
 ---
 
-
 # 외부 장치 그래프 사용 사례 {#external-device-graph-use-cases}
 
-외부 디바이스 그래프로 알 수 없는 사용자를 위한 Recommendations 및 활용 사례 외부 장치 그래프는 Audience Manager과 별개인 장치 그래프로 정의됩니다. 여기에는 [!DNL Adobe Experience Cloud Device Co-op] 및 기타 통합 Adobe에 타사 결정 또는 확률적 장치 그래프 회사가 포함됩니다.
+외부 디바이스 그래프로 알 수 없는 사용자를 위한 Recommendations 및 활용 사례 외부 장치 그래프는 Audience Manager과 독립된 장치 그래프로 정의됩니다. 여기에는 [!DNL Adobe Experience Cloud Device Co-op] 및 기타 통합 Adobe이 제3자 결정적 또는 확률적 장치 그래프 회사와 보유하고 있는 기능이 포함됩니다.
 
 ## 권장 사항 {#recommendations}
 
 다음의 캠페인에 대해 [!DNL Experience Cloud Device Co-op] 및 타사 디바이스 그래프 옵션을 고려하십시오.
 
-* 디지털 속성 전반에 걸쳐 낮은 수준의 인증 인증된 사용자가 많은 경우 [!UICONTROL Profile Link Device Graph option]을(를) 사용하십시오.
-* 광범위한 고객 Target [!DNL Experience Cloud Device Co-op] 및 타사 장치 그래프에는 인증된 데이터와 인증되지 않은 데이터가 포함되어 있습니다.
-* 인증된 방문자 및/또는 인증되지 않은 방문자를 개인 및 가구 수준에서 세그먼트화합니다.
+* 디지털 자산 전체에서 낮은 수준의 인증을 받을 수 있습니다. 인증된 사용자가 많을 경우 [!UICONTROL Profile Link Device Graph option]을(를) 사용합니다.
+* 광범위한 고객 Target [!DNL Experience Cloud Device Co-op] 및 제3자 장치 그래프에는 인증된 데이터와 인증되지 않은 데이터가 포함되어 있습니다.
+* 인증된 방문자 및/또는 인증되지 않은 방문자를 개별 및 가족 수준으로 세그먼트화할 수 있습니다.
 
 ![](assets/merge-rule-triangle1.png)
 <!-- 
@@ -101,29 +101,29 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 
 이 사용 사례는 [!DNL Adobe Co-Op Device Graph] 또는 다른 [!DNL External Device Graphs]을 통해 정확한 크로스 디바이스 개인화를 통해 지정 가능한 대상의 크기를 확장하는 방법을 보여줍니다.
 
-Jane이 휴일 패키지 거래를 찾기 위해 정기적으로 사용하는 세 가지 장치를 가지고 있다고 가정해 봅시다.그녀의 노트북([!DNL Device 1]), 스마트폰([!DNL Device 2]) 및 태블릿([!DNL Device 3]). 제인은 노트북을 사용하는 동안 항공, 호텔, 가이드 투어를 찾아보았다. 김 씨는 스마트폰과 태블릿PC를 사용하면서 여행사 홈페이지만 찾아가 봤다.
+Jane이 휴일 패키지 거래를 찾기 위해 정기적으로 사용하는 세 가지 장치를 가지고 있다고 가정해 봅시다.그녀의 노트북([!DNL Device 1]), 그녀의 스마트폰([!DNL Device 2]) 및 태블릿([!DNL Device 3]). 노트북을 사용하는 동안, 제인은 비행장, 호텔, 가이드 여행을 찾았다. 스마트폰과 태블릿 PC를 사용하면서 여행사 홈페이지만 찾았다.
 
-[!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph] 규칙을 사용하여 여행사는 세 장치 프로필이 모두 병합될 수 있습니다. 이 프로필은 [!UICONTROL Adobe Co-op Device Graph]를 통해 동일한 소유자에 연결되어 있습니다.
+[!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph] 규칙을 사용하여, 여행사는 세 디바이스 프로파일이 [!UICONTROL Adobe Co-op Device Graph]를 통해 동일한 소유자에 연결되어 있으므로 모든 3개의 디바이스 프로파일을 병합할 수 있습니다.
 
 ![audience-expansion-rule](assets/audience-expansion-rule.png)
 
-이 예제에서 세그먼트 자격 조건에 필요한 트레이트는 모두 [!DNL Device 1]에 수집되었습니다. Audience Manager은 세그먼트에 대해 프로필 병합에 참여한 모든 장치 프로파일을 검사하므로 이제 Jane의 세 가지 장치 프로필이 모두 세그먼트화됩니다.
+이 예에서 세그먼트 자격을 평가하는 데 필요한 트레이트는 모두 [!DNL Device 1]에 수집되었습니다. Audience Manager은 세그먼트에 대해 프로필 병합에 참여한 모든 장치 프로파일을 검사하므로 이제 Jane의 3개 장치 프로파일이 모두 세그먼트화됩니다.
 
-이 규칙을 통해 장치 그래프는 이 세그먼트를 1개에서 3개로 분류할 수 있는 장치 프로파일 수를 확장했으며, 여행사를 통해 Jane이 소유한 모든 3개의 디바이스에 일관된 메시지를 전달할 수 있게 되었습니다.
+이 규칙을 통해, 장치 그래프는 이 세그먼트를 분류할 수 있는 장치 프로파일 수를 1개에서 3개로 확대했으며, 여행사가 제인이 소유한 세 개 디바이스 모두에 일관된 메시지를 전달할 수 있도록 했다.
 
 ![고객 확대](assets/audience-expansion.png)
 
-## 고급 크로스 장치 타깃팅 {#advanced-graph-expansion}
+## 고급 크로스 디바이스 타깃팅 {#advanced-graph-expansion}
 
-이 사용 사례에서는 **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** 규칙을 사용하여 외부 장치 그래프나 [!DNL Adobe Co-Op Device Graph]에서 장치가 있는 인증된 방문자에 대한 대상 타깃팅을 확장하는 방법을 보여 줍니다.
+이 사용 사례는 **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** 규칙을 사용하여 외부 장치 그래프에서 장치를 사용하거나 [!DNL Adobe Co-Op Device Graph]에서 인증된 방문자에 대한 대상 타깃팅을 확장하는 방법을 보여줍니다.
 
 ![마지막 장치 그래프](assets/last-device-coop.png)
 
-아래 예에서, Acme Inc. 회사는 소득 $100.000/년 이상이 있는 모든 가구를 대상으로 [!DNL Acme Inc.]에 구독자가 있고 [!DNL Data Plan A] 장치를 사용한다고 합니다.[!DNL iPhone 7]
+아래 예에서 Acme Inc. 회사는 $100.000/년 이상의 소득을 가진 모든 가구를 대상으로 [!DNL Data Plan A]에 [!DNL Acme Inc.] 구독자가 있고 [!DNL iPhone 7] 장치를 사용하는 모든 가구를 대상으로 타깃팅하고자 합니다.
 
-존은 데이터 플랜 A에서 자신의 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Co-Op Device Graph] 클러스터에는 정기적으로 사용하는 두 개의 추가 장치가 포함되어 있습니다.그의 랩탑([!DNL Device 1]) 및 보조 스마트폰 [!DNL Device 2](a [!DNL Data Plan B]의 [!DNL Samsung S7]).
+John은 데이터 플랜 A에서 자신의 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Co-Op Device Graph] 클러스터에는 정기적으로 사용하는 2개의 추가 장치가 포함되어 있습니다.그의 랩탑([!DNL Device 1]) 및 보조 스마트폰 [!DNL Device 2]([!DNL Data Plan B]의 [!DNL Samsung S7]).
 
-**[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**&#x200B;을 사용하여, 처음 세그먼트 자격이 되는 장치 그래프 클러스터 중 하나만 있더라도 [!DNL Acme Inc.]는 John의 장치 그래프 클러스터에서 세 장치 모두에 개인화된 메시지를 전달할 수 있습니다.
+**[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**&#x200B;을 사용하여, [!DNL Acme Inc.]는 John의 장치 그래프 클러스터의 3개 장치 모두에 개인화된 메시지를 제공할 수 있으며, 이들 중 하나만 처음 세그먼트에 해당됩니다.
 
 ![고급 그래프 확장](assets/advanced-device-graph-expansion.png)
 

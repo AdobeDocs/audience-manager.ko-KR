@@ -5,12 +5,12 @@ seo-title: AAM에서 겹치기 및 일반 보고서에서 고유 사용자 수 �
 solution: Audience Manager
 title: Overlap Reports 및 일반 보고서의 고유 사용자 수 계산
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-feature: 보고 참조 참조
+feature: 보고 참조
 exl-id: 439e7e8e-0c2e-4d3e-8148-61b9d57bf4df
 translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 10%
 
 ---

@@ -1,18 +1,18 @@
 ---
-description: 시스템 기능, 데이터 통합 및 도움말 파일에 대한 기술 설명서를 포함합니다.
-seo-description: 시스템 기능, 데이터 통합 및 도움말 파일에 대한 기술 설명서를 포함합니다.
+description: 시스템 기능, 데이터 통합 및 도움말 파일에 대한 기술 설명서를 제공합니다.
+seo-description: 시스템 기능, 데이터 통합 및 도움말 파일에 대한 기술 설명서를 제공합니다.
 seo-title: 참조
 solution: Audience Manager
 title: 참조
-feature: reference
+feature: 참조
+exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 32%
+source-wordcount: '65'
+ht-degree: 33%
 
 ---
-
 
 # 참조
 

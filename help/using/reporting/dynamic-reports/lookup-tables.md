@@ -5,12 +5,12 @@ seo-title: 조회 테이블을 사용하여 로그 파일 처리 시간 개선
 solution: Audience Manager
 title: 조회 테이블을 사용하여 로그 파일 처리 시간 개선
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: 보고 참조 참조
+feature: 보고 참조
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '503'
 ht-degree: 18%
 
 ---

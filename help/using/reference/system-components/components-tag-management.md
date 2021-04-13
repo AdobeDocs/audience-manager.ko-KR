@@ -6,14 +6,14 @@ solution: Audience Manager
 title: 태그 관리 구성 요소
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: 시스템 구성 요소
+exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
-
 
 # 태그 관리 구성 요소{#tag-management-components}
 
@@ -56,4 +56,3 @@ Audience Manager에는 다음 구성 요소가 포함되어 있습니다.
 * 포털에서 클라이언트 입력을 처리합니다(예: 트레이트 및 대상 만들기).
 * 컨테이너 템플릿 및 대상 게시 iFrame을 작성하는 데 사용되는 데이터가 포함된 데이터를 Akamai로 데이터를 전송합니다.
 * UI 보고 시스템의 데이터를 반환합니다.
-

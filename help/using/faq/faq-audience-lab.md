@@ -4,17 +4,16 @@ seo-description: 대상 랩 기능에 대한 FAQ
 seo-title: 대상 랩 FAQ
 solution: Audience Manager
 title: 대상 랩 FAQ
-topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
+exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # 대상 랩 FAQ{#audience-lab-faq}
 

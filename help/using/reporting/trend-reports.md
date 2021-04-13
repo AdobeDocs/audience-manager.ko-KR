@@ -5,15 +5,15 @@ seo-title: 트렌드 보고서
 solution: Audience Manager
 title: 트렌드 보고서
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-feature: general & trend reports
+feature: 일반 및 트렌드 보고서
+exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
-
 
 # 트렌드 보고서{#trend-reports}
 
@@ -27,19 +27,19 @@ c_trend_reports.xml
 
  -->
 
-[!DNL Audience Manager] 사용자 그룹  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC])을 사용하여  [!UICONTROL Trend] 보고서로 권한을 확장합니다. 사용자는 보고 시 볼 권한이 있다는 트레이트 및 세그먼트만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 보고 데이터 내부 팀이 볼 수 있는 기능을 제어할 수 있습니다.
+[!DNL Audience Manager] 사용자  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC])를 사용하여 사용자 그룹 권한을 보고서에  [!UICONTROL Trend] 확장합니다. 사용자는 보고 시 볼 권한이 있는 트레이트와 세그먼트만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀이 볼 수 있는 보고 데이터 기능을 제어할 수 있습니다.
 
 예를 들어 다른 광고주 계정을 관리하는 에이전시는 광고주 A의 계정을 관리하는 팀이 광고주 B의 보고 데이터를 볼 수 없도록 사용자 그룹 권한을 구성할 수 있습니다.
 
-필요할 때 [!UICONTROL Trend] 보고서를 실행합니다.
+다음을 수행해야 할 때 [!UICONTROL Trend] 보고서를 실행합니다.
 
 * 트레이트 및 세그먼트별로 트렌드 데이터를 검토합니다.
-* 1, 7, 14, 30, 60 및 90일 간격으로 트렌드를 추적합니다.
+* 1, 7, 14, 30, 60 및 90일 간격으로 트렌드를 추적할 수 있습니다.
 * 시간에 따른 트레이트 및 세그먼트 트렌드를 비교할 수 있습니다.
-* 강력하거나 좋지 않은 성능 특성과 세그먼트를 식별할 수 있습니다.
-* 추가적인 분석 및 공유를 위해 데이터(.csv 형식)를 내보냅니다.
+* 강하거나 부족한 성능 특성 및 세그먼트를 식별할 수 있습니다.
+* 추가 분석 및 공유를 위해 데이터(.csv 형식)를 내보냅니다.
 
-다음 그림은 [!UICONTROL Trend] 보고서의 주요 요소에 대한 고급 개요를 제공합니다.
+다음 그림은 [!UICONTROL Trend] 보고서의 주요 요소에 대한 높은 수준의 개요를 제공합니다.
 
 ![](assets/trend_reports.png)
 
@@ -48,7 +48,7 @@ c_trend_reports.xml
    **날짜 범위:** 보고서의 날짜 범위(시작 날짜 및 종료 날짜)를 지정합니다.
    **표시 간격:** 표시 간격(1, 7, 14, 30, 60 및 90일 간격)을 지정합니다.
 1. 이름이나 ID로 트레이트 또는 세그먼트를 검색합니다.
-1. 폴더 목록에서 보고할 트레이트나 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널에 드래그하여 놓습니다.
+1. 폴더 목록에서 보고하려는 트레이트 또는 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널로 드래그하여 놓습니다.
 1. 데이터를 그래픽 형식으로 표시하거나 보고서를 CSV 형식으로 내보냅니다.
 
 ## 트렌드 보고서 실행 {#run-trend-report}
@@ -64,36 +64,36 @@ t_working_with_trend_reports.xml
 1. **[!UICONTROL Analytics]** 대시보드에서 **[!UICONTROL Trend Reports]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL Report Type]** 드롭다운 목록에서 원하는 유형을 선택합니다.**[!UICONTROL Trait]** 또는 **[!UICONTROL Segment]**.
 1. 날짜 상자를 클릭하여 달력을 표시한 다음 보고서의 시작 및 종료 날짜를 선택합니다.
-1. 표시 간격을 지정합니다.1, 7, 14, 30, 60 또는 90일
+1. 표시 간격 지정:1, 7, 14, 30, 60 또는 90일
 1. 이름이나 ID로 트레이트 또는 세그먼트를 검색합니다.
-1. 폴더 목록에서 보고할 트레이트나 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널에 드래그하여 놓습니다.
-   * 최상의 성능을 위해 한 번에 20개 미만의 특성이나 세그먼트에 대해 [!UICONTROL Trend] 보고서를 실행하십시오.
+1. 폴더 목록에서 보고하려는 트레이트 또는 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널로 드래그하여 놓습니다.
+   * 최상의 성능을 위해 한 번에 20개 미만의 트레이트 또는 세그먼트에 대해 [!UICONTROL Trend] 보고서를 실행하십시오.
 1. 보고 있는 보고서 유형(트레이트 또는 세그먼트)에 따라 **[!UICONTROL Graph Traits]** 또는 **[!UICONTROL Graph Segments]**&#x200B;을 클릭합니다. 이러한 옵션은 개별적으로 선택한 트레이트 또는 세그먼트만 모든 폴더 및 그래프를 무시합니다.
 
    또는
 
-   추가 분석 및 공유를 위해 트레이트 또는 세그먼트 데이터와 모든 폴더를 CSV 형식으로 내보내려면 **[!UICONTROL Export to CSV]**&#x200B;을 클릭합니다. 이렇게 하면 모든 일 범위에 대해 [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] 및 [!UICONTROL Total Trait Population]가 내보내집니다.
+   추가 분석 및 공유를 위해 트레이트 또는 세그먼트 데이터와 모든 폴더를 CSV 형식으로 내보내려면 **[!UICONTROL Export to CSV]**&#x200B;을 클릭합니다. 모든 일 범위에 대해 [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] 및 [!UICONTROL Total Trait Population]를 내보냅니다.
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] 의 값은  [!UICONTROL Rule-based Traits] 오직
+   >[!UICONTROL Total Trait Realizations] 에 대해서만 계산됩니다 [!UICONTROL Rule-based Traits] .
 
-1. (선택 사항) 개별 트레이트 또는 세그먼트 위로 마우스를 가져가면 각 데이터 포인트에 대한 방문 수와 날짜가 표시됩니다. 테이블의 열 헤더를 클릭하여 결과를 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+1. (선택 사항) 개별 트레이트 또는 세그먼트 위로 마우스를 가져가면 각 데이터 포인트의 방문 수와 날짜가 표시됩니다. 표의 열 헤더를 클릭하여 결과를 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
 ## 트레이트 {#trend-report-results-traits}에 대한 트렌드 보고서 결과
 
-아래 필터는 [!UICONTROL Trend Report]을 실행하고 보고서 유형으로 **[!UICONTROL Trait]**&#x200B;을 선택하면 사용할 수 있습니다.
+아래 필터는 [!UICONTROL Trend Report]을 실행하고 **[!UICONTROL Trait]**&#x200B;을 보고서 유형으로 선택하면 사용할 수 있습니다.
 
 결과를 [!UICONTROL Device ID]별로 필터링할 때:
 
-* [!UICONTROL Unique Trait Realizations] 는 선택한 시간 범위 내에 프로필에 특성을 추가한 익명 장치 방문자 수입니다.
+* [!UICONTROL Unique Trait Realizations] 는 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 익명 장치 방문자 수입니다.
 * [!UICONTROL Total Trait Realization] 은 선택한 시간 범위 내의 익명 마우스 트레이트 실현의 총 수입니다.
 * [!UICONTROL Total Trait Population] 는 이 특성이 프로필에 있는 익명 장치 방문자 수입니다.
 
 결과를 [!UICONTROL Cross-Device ID]별로 필터링할 때:
 
-* [!UICONTROL Unique Trait Realizations] 은 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
-* [!UICONTROL Total Trait Realization] 은 선택한 시간 범위 내의 인증된 특성 구현의 총 수입니다.
+* [!UICONTROL Unique Trait Realizations] 은 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자의 수입니다.
+* [!UICONTROL Total Trait Realization] 은 선택한 시간 범위 내의 인증된 트레이트 실현의 총 수입니다.
 * [!UICONTROL Total Trait Population] 은 이 특성이 프로필에 있는 인증된 방문자의 수입니다.
 
 ![trend-report-traits](assets/trend-report-traits.png)
@@ -106,9 +106,9 @@ t_working_with_trend_reports.xml
 
 ## 세그먼트 {#segment-report-results-traits}에 대한 트렌드 보고서 결과
 
-아래 필터는 [!UICONTROL Trend Report]을 실행하고 보고서 유형으로 **[!UICONTROL Segments]**&#x200B;을 선택하면 사용할 수 있습니다.
+아래 필터는 [!UICONTROL Trend Report]을 실행하고 **[!UICONTROL Segments]**&#x200B;을 보고서 유형으로 선택하면 사용할 수 있습니다.
 
-* **[!UICONTROL Real-time Segment Population]**:선택한 시간 범위 내의 세그먼트에 대해 자격이 있는 방문자 수.
+* **[!UICONTROL Real-time Segment Population]**:선택한 시간 범위 내의 세그먼트에 자격을 부여받은 방문자 수입니다.
 * **[!UICONTROL Total Segment Population]**:세그먼트에 자격이 있는 총 방문자 수입니다.
 
 ![trend-report-segments](assets/trend-report-segments.png)

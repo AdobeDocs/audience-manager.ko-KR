@@ -5,15 +5,15 @@ seo-title: 미디어 데이터 통합
 solution: Audience Manager
 title: 미디어 데이터 통합
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
-feature: Integration with Campaign
+feature: Adobe Campaign 통합
+exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
 translation-type: tm+mt
-source-git-commit: 3c70178dc1a020545793ea7facc70e34d23543fa
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '149'
 ht-degree: 17%
 
 ---
-
 
 # 미디어 데이터 통합 {#media-data-integration}
 
@@ -27,6 +27,6 @@ Audience Manager에 대한 픽셀 호출(크리에이티브라고 함)을 사용
 
 로그 섭취를 설정하려면 다음 문서를 참조하십시오.
 
-* [Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+* [Google 캠페인 관리자 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 * [Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
 * [로그 데이터 및 메타데이터 ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 파일을 사용하여 일반 로그 파일에 대한 로그 인제스트를 설정합니다.

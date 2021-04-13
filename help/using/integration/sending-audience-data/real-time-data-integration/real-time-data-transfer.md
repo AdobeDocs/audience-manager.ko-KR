@@ -1,19 +1,19 @@
 ---
-description: 실시간 인바운드 데이터 수집 프로세스는 사용자 브라우저의 일련의 HTTP 요청을 사용하여 데이터를 Audience Manager으로 전달합니다.
-seo-description: 실시간 인바운드 데이터 수집 프로세스는 사용자 브라우저의 일련의 HTTP 요청을 사용하여 데이터를 Audience Manager으로 전달합니다.
+description: 실시간 인바운드 데이터 통합 프로세스는 사용자 브라우저에서 일련의 HTTP 요청을 사용하여 데이터를 Audience Manager으로 전달합니다.
+seo-description: 실시간 인바운드 데이터 통합 프로세스는 사용자 브라우저에서 일련의 HTTP 요청을 사용하여 데이터를 Audience Manager으로 전달합니다.
 seo-title: 실시간 인바운드 데이터 섭취
 solution: Audience Manager
 title: 실시간 인바운드 데이터 섭취
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
-feature: Inbound Data Transfers
+feature: 인바운드 데이터 전송
+exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 7%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
-
 
 # 실시간 인바운드 데이터 섭취 {#real-time-inbound-data-ingestion}
 
@@ -25,11 +25,11 @@ ht-degree: 7%
 
 ## URL 문자열 매개 변수 및 구문 {#url-string-syntax}
 
-인바운드 데이터 전송의 [!DNL URL]에는 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [!DNL Audience Manager] UI에서 [특성](../../../features/traits/create-onboarded-rule-based-traits.md) 및 [폴더 구조](../../../features/traits/trait-storage.md#create-trait-storage-folder)를 만들어야 합니다.
+인바운드 데이터 전송의 [!DNL URL]에는 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [!DNL Audience Manager] UI에서 [트레이트](../../../features/traits/create-onboarded-rule-based-traits.md) 및 [폴더 구조](../../../features/traits/trait-storage.md#create-trait-storage-folder)를 만들어야 합니다.
 
 >[!NOTE]
 >
->기울임꼴 컨텐츠를 실제 매개 변수 값으로 대체합니다.
+>기울임꼴로 표시된 내용을 실제 매개 변수 값으로 바꿀 수 있습니다.
 
 | 매개 변수 | 설명 |
 |---|---|
@@ -38,7 +38,7 @@ ht-degree: 7%
 
 ### URL 구문
 
-실시간 인바운드 데이터 수집 프로세스 중에 올바른 형식의 [!DNL URL] 문자열은 다음 구문을 사용합니다.
+실시간 인바운드 데이터 수집 프로세스 동안 올바른 형식의 [!DNL URL] 문자열은 다음 구문을 사용합니다.
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC

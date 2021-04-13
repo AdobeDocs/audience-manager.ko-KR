@@ -4,15 +4,15 @@ seo-description: Adobe는 옵트인 기능 및 IAB 투명성 및 동의 프레�
 seo-title: IAB TCF를 위한 Audience Manager 플러그인
 solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
-feature: 데이터 거버넌스 및 개인 정보 보호
+feature: 데이터 거버넌스 및 개인 정보
+exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 40%
 
 ---
-
 
 # [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 

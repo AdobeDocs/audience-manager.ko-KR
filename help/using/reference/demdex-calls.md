@@ -5,15 +5,15 @@ seo-title: Demdex 도메인에 대한 호출 이해
 solution: Audience Manager
 title: Demdex 도메인에 대한 호출 이해
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
-feature: reference
+feature: 참조
+exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
 translation-type: tm+mt
-source-git-commit: 7286af6dd85a0464ccf52a88139d07cb151783e6
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '371'
 ht-degree: 15%
 
 ---
-
 
 # [!DNL Demdex] 도메인 {#understanding-calls-to-the-demdex-domain}에 대한 호출 이해
 

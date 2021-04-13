@@ -4,12 +4,11 @@ seo-description: 이 섹션에는 테스트 그룹 및 테스트 그룹으로 �
 seo-title: 테스트 그룹 정보
 solution: Audience Manager
 title: 테스트 그룹 정보
-topic-edit: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 feature: Audience Lab
 exl-id: fb691c12-304d-4331-a395-a9005efa8bb0
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%

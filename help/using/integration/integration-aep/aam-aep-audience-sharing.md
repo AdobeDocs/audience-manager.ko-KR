@@ -5,15 +5,15 @@ seo-title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP 고객 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유
-feature: Integration with Platform
+feature: 플랫폼 통합
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
-
 
 # Audience Manager 및 기타 Experience Cloud 솔루션과 Experience Platform 세그먼트 공유 {#aam-aep-audience-sharing}
 
@@ -109,9 +109,9 @@ Experience Platform 세그먼트에서 자동으로 생성된 세그먼트의 �
 
 | 항목 번호 | 이름 | 설명 |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
+| 3 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
 | 2 | [!UICONTROL Data Source] | 자동으로 만들어집니다. Experience Platform 세그먼트에서 자동으로 생성되는 모든 트레이트와 세그먼트는 데이터 소스 **[!DNL Adobe Experience Platform Audience Sharing]**&#x200B;에 저장됩니다. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 자동으로 생성된 세그먼트가 Experience Platform에 설정된 병합 정책 다음에 온다는 것을 나타냅니다. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 자동으로 생성된 세그먼트가 Experience Platform에 설정된 병합 정책 다음에 온다는 것을 나타냅니다. |
 | 4 | [!UICONTROL Segment Rule] | 세그먼트는 [트레이트 섹션](#aep-segments-as-aam-traits)에 설명된 트레이트로 구성됩니다. |
 
 ## Experience Platform {#aam-data-export-control-in-aep}의 Audience Manager 데이터 내보내기 제어 지원
@@ -190,3 +190,4 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [세그멘테이션 서비스 개요](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Experience Platform 세그먼트 빌더 사용 안내서](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Audience Manager 커넥터](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+

@@ -324,7 +324,7 @@ ht-degree: 4%
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### 예 4 {#example-4}
+### 예 5 {#example-4}
 
 `ic` 접두어를 사용하여 [!DNL Audience Manager] [!DNL UUIDs]의 자격 정보를 전송합니다.[!UICONTROL trait]
 

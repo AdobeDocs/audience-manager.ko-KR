@@ -4,19 +4,19 @@ seo-description: Experience Cloud 솔루션 또는 Audience Manager의 기타 �
 seo-title: Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에 있는 데이터로 작업합니다.
 solution: Audience Manager
 title: 구현 및 통합 안내서
-feature: Third Party Integrations
+feature: 타사 통합
+exl-id: 6e3cccdd-10af-4b17-9ddb-c4faf63f0a50
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 81%
+source-wordcount: '77'
+ht-degree: 79%
 
 ---
 
-
 # 구현 및 통합 개요
 
-[!DNL Experience Cloud] 솔루션 또는 [!DNL Audience Manager]의 다른 외부 시스템에서 얻은 데이터를 사용하여 작업할 수 있습니다.
+[!DNL Experience Cloud] 솔루션 또는 [!DNL Audience Manager]에 있는 다른 외부 시스템의 데이터로 작업합니다.
 
 * [데이터 통합 방법](data-integration-methods.md)
 * [Audience Manager 구현](implement-audience-manager.md)

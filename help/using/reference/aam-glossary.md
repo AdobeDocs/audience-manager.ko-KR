@@ -6,14 +6,14 @@ solution: Audience Manager
 title: 용어 설명
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: 참조
+exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 translation-type: tm+mt
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # 용어 설명{#glossary}
 
@@ -272,4 +272,3 @@ TTL은 자격이 있는 방문자가 트레이트에 남아 있는 일수를 정
 [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html) 설명서를 참조하십시오.
 
 ## W-X-Y-Z {#w-z}
-

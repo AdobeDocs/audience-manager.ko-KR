@@ -84,7 +84,7 @@ ht-degree: 6%
 
 ## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-[!UICONTROL Cross-Device Profile Options]에 [!UICONTROL cross-device data sources]이 나열됩니다. 이러한 옵션은 [!UICONTROL cross-device] [!UICONTROL data source]([장치 간 데이터 소스 만들기](merge-rules-start.md#create-data-source) 참조)를 만들 때 제공한 이름을 사용합니다. 각 프로필 규칙에 사용할 최대 3개의 [!UICONTROL cross-device data sources]을 선택할 수 있습니다. [!UICONTROL Authenticated Profile Options]은 **[!UICONTROL Current Authenticated Profiles]** 또는 **[!UICONTROL Last Authenticated Profiles]**&#x200B;를 선택하면 사용할 수 있습니다.
+[!UICONTROL Cross-Device Profile Options]에 [!UICONTROL cross-device data sources]이 나열됩니다. 이러한 옵션은 [!UICONTROL cross-device] [!UICONTROL data source] ([장치 간 데이터 소스 만들기](merge-rules-start.md#create-data-source) 참조)를 만들 때 제공한 이름을 사용합니다. 각 프로필 규칙에 사용할 최대 3개의 [!UICONTROL cross-device data sources]을 선택할 수 있습니다. [!UICONTROL Authenticated Profile Options]은 **[!UICONTROL Current Authenticated Profiles]** 또는 **[!UICONTROL Last Authenticated Profiles]**&#x200B;를 선택하면 사용할 수 있습니다.
 
 ## [!UICONTROL Device Options] {#device-options}
 

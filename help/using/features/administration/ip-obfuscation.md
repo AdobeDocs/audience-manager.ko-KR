@@ -3,7 +3,7 @@ description: 회사에서 글로벌 개인 정보 보호 규정으로 인해 여
 seo-description: 회사에서 글로벌 개인 정보 보호 규정으로 인해 여러 국가의 IP 주소를 난독 처리하려고 할 수 있습니다. Audience Manager를 사용하면 글로벌 또는 국가별로 방문자 IP 주소를 난독 처리할 수 있습니다.
 solution: Audience Manager
 title: IP 주소 난독화
-feature: 데이터 거버넌스 및 개인 정보
+feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 사용 제한
 keywords: ID 매핑, ID 매핑, 쿠키 매핑
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: 사용 및 청구
+feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt

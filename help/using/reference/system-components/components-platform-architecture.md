@@ -5,7 +5,7 @@ seo-title: 플랫폼 아키텍처 데이터 흐름 맵
 solution: Audience Manager
 title: 플랫폼 아키텍처 데이터 흐름 맵
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
-feature: 시스템 구성 요소
+feature: System Components
 exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

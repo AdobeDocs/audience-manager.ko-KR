@@ -5,7 +5,7 @@ seo-title: 메타데이터 파일에 대한 컨텐츠 형식
 solution: Audience Manager
 title: 메타데이터 파일에 대한 컨텐츠 형식
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
-feature: 로그 파일
+feature: Log Files
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

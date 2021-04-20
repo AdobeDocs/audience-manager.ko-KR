@@ -3,7 +3,7 @@ description: Google 게시자 태그(GPT)를 사용하여 Google 광고 관리�
 seo-description: AAM(Adobe Audience Manager)에서 Google 게시자 태그(GPT)를 사용하여 Google 광고 관리자를 통합하는 방법에 대한 개요입니다.
 seo-title: Adobe Audience Manager(AAM)에서 Google 게시자 태그(GPT)를 사용하여 Google 광고 관리자 통합
 title: Google 게시자 태그(GPT)를 사용하여 Google 광고 관리자 통합
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

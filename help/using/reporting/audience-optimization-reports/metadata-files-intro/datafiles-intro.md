@@ -5,7 +5,7 @@ seo-title: Audience Optimization 보고서 및 실행 가능 로그 파일을 �
 solution: Audience Manager
 title: Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 파일
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: 로그 파일
+feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -5,7 +5,7 @@ seo-title: 인바운드 데이터 전송을 위한 ID 동기화
 solution: Audience Manager
 title: 인바운드 데이터 전송을 위한 ID 동기화
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

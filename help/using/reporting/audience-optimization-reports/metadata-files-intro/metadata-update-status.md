@@ -5,7 +5,7 @@ seo-title: 메타데이터 파일의 상태 업데이트
 solution: Audience Manager
 title: 메타데이터 파일의 상태 업데이트
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: 로그 파일
+feature: Log Files
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt

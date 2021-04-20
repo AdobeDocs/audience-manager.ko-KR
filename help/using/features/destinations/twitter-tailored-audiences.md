@@ -4,7 +4,7 @@ seo-description: 이 문서에서는 신규 및 기존 통합 모두에 대해 T
 seo-title: Twitter 맞춤 대상을 셀프서비스 장치 기반 대상으로 구성
 solution: Audience Manager
 title: Twitter 맞춤 대상을 셀프서비스 장치 기반 대상으로 구성
-feature: 사람 기반 대상
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

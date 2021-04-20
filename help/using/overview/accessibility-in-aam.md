@@ -4,7 +4,7 @@ seo-description: 액세서빌러티란 시각, 청각, 인지, 모터 등 여러
 seo-title: Audience Manager의 액세스 가능성
 solution: Audience Manager
 title: Audience Manager의 액세스 가능성
-feature: 개요
+feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815

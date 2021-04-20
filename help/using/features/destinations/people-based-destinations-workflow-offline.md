@@ -4,7 +4,7 @@ seo-description: '이 페이지에는 오프라인 전용 고객 데이터에서
 seo-title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 solution: Audience Manager
 title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
-feature: 사람 기반 대상
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 solution: Audience Manager
-type: 설명서
+type: Documentation
 solution-title: 학습 및 지원
 solution-hub-url: https://helpx.adobe.com/kr/support/audience-manager.html
 solution-image: assets/aam-icon-24.png

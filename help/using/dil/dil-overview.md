@@ -6,7 +6,7 @@ keywords: 'dil, dil, dil, dil, d, l, dil, d, l, dil, dil, dil, dil, dil, dil, di
 solution: Audience Manager
 title: DIL(데이터 통합 라이브러리) 이해
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL 구현
+feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt

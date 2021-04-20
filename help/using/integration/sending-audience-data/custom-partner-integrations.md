@@ -4,7 +4,7 @@ seo-description: 이 페이지에 Audience Manager와 데이터 파트너 간의
 seo-title: 사용자 지정 파트너 통합
 solution: Audience Manager
 title: 사용자 지정 파트너 통합
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

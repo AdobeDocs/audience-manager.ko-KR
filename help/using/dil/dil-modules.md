@@ -5,7 +5,7 @@ seo-title: DIL 모듈
 solution: Audience Manager
 title: DIL 모듈
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-feature: DIL 구현
+feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt

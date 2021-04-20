@@ -5,7 +5,7 @@ seo-title: 선택한 Audience Manager 보고서의 데이터 샘플링 및 오�
 solution: Audience Manager
 title: 선택한 Audience Manager 보고서의 데이터 샘플링 및 오류율
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: 보고 참조
+feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

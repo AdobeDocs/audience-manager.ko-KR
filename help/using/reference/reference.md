@@ -4,7 +4,7 @@ seo-description: 시스템 기능, 데이터 통합 및 도움말 파일에 대�
 seo-title: 참조
 solution: Audience Manager
 title: 참조
-feature: 참조
+feature: Reference
 exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

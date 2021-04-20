@@ -4,7 +4,7 @@ seo-description: '이 페이지에는 Audience Manager과 사람 기반 플랫�
 seo-title: 사용자 기반 플랫폼을 통한 인증
 solution: Audience Manager
 title: 사용자 기반 플랫폼을 통한 인증
-feature: 사람 기반 대상
+feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

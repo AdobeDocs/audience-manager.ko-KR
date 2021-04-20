@@ -5,7 +5,7 @@ seo-title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 �
 solution: Audience Manager
 title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

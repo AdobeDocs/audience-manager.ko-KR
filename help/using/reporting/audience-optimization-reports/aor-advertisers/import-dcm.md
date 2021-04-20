@@ -5,7 +5,7 @@ seo-title: Google 캠페인 관리자 데이터 파일을 Audience Manager으로
 solution: Audience Manager
 title: Google 캠페인 관리자 데이터 파일을 Audience Manager으로 가져오기
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

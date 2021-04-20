@@ -5,7 +5,7 @@ seo-title: 보고된 전환 특성
 solution: Audience Manager
 title: 보고된 전환 특성
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: 22335e8d-35cf-4014-803a-efdd35552ef2
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

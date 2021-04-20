@@ -4,7 +4,7 @@ seo-description: Predictive Audiences을 사용하면 데이터 과학을 사용
 seo-title: 예측 대상자 관리
 solution: Audience Manager
 title: Predictive Audiences 시작
-feature: 알고리즘 모델
+feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656

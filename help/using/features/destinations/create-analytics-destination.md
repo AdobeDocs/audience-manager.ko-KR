@@ -4,7 +4,7 @@ seo-description: Audience Analytics를 통해 Audience Manager 세그먼트를 A
 seo-title: Analytics 대상 구성
 solution: Audience Manager
 title: Analytics 대상 구성
-feature: Adobe Analytics 통합
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

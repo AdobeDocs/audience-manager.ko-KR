@@ -5,7 +5,7 @@ seo-title: 대상 최적화 보고서
 solution: Audience Manager
 title: 대상 최적화 보고서
 uuid: b06efa28-f56a-4b72-978e-e0c067f54798
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: 673267fb-5655-4cc2-ac2c-c717ea5830fc
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

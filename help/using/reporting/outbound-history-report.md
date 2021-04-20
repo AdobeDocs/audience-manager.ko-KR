@@ -5,7 +5,7 @@ seo-title: 아웃바운드 파일 내역
 solution: Audience Manager
 title: 아웃바운드 파일 내역
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: 인바운드 및 아웃바운드 보고서
+feature: Inbound and Outbound Reports
 exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

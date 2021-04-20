@@ -5,7 +5,7 @@ seo-title: Google Ad Manager 데이터 파일을 Audience Manager으로 가져�
 solution: Audience Manager
 title: Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

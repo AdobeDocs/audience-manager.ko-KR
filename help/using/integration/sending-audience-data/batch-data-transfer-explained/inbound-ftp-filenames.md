@@ -5,7 +5,7 @@ seo-title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 
 solution: Audience Manager
 title: 인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요구 사항
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

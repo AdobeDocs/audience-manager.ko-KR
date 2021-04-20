@@ -5,7 +5,7 @@ seo-title: Audience Manager 대상으로 Google 광고 관리자 사용
 solution: Audience Manager
 title: Audience Manager 대상으로 Google 광고 관리자 사용
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: 54599948-1a32-421f-a37d-555f3807f746
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

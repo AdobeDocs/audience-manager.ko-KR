@@ -5,7 +5,7 @@ seo-title: 인바운드 데이터 유형에 대한 파일 PGP 암호화
 solution: Audience Manager
 title: 인바운드 데이터 유형에 대한 파일 PGP 암호화
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

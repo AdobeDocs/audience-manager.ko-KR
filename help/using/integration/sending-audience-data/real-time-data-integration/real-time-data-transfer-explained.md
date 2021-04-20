@@ -5,7 +5,7 @@ seo-title: 실시간 데이터 전송 프로세스 설명
 solution: Audience Manager
 title: 실시간 데이터 전송 프로세스 설명
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt

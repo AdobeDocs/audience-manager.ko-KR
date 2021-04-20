@@ -3,7 +3,7 @@ description: 대시보드 및 다양한 보고서를 보려면 [분석] 메뉴 �
 seo-description: Adobe Audience Manager(AAM)에서 대시보드와 다양한 보고서를 보려면 [분석] 메뉴 아래의 옵션을 사용합니다.
 seo-title: Adobe Audience Manager(AAM)의 보고 개요
 title: 보고 개요
-feature: 보고 참조
+feature: Reporting Reference
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

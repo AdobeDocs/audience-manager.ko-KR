@@ -5,7 +5,7 @@ seo-title: Audience Manager 식별자(ID)
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CPA, 개인 정보, AAM ID
 title: Audience Manager 식별자(ID)
-feature: 데이터 거버넌스 및 개인 정보
+feature: Data Governance & Privacy
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

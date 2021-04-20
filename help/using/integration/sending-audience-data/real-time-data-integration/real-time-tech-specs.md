@@ -5,7 +5,7 @@ seo-title: 인바운드 실시간 데이터 전송을 위한 기술 사양
 solution: Audience Manager
 title: 인바운드 실시간 데이터 전송을 위한 기술 사양
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 exl-id: 4d777b67-6330-4582-b398-abc267b84d83
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

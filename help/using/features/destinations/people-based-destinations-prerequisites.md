@@ -4,7 +4,7 @@ seo-description: '사람 기반 대상에 등록하기 전에 충족해야 하�
 seo-title: 사람 기반 대상 사전 요구 사항 및 고려 사항
 solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
-feature: 사람 기반 대상
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

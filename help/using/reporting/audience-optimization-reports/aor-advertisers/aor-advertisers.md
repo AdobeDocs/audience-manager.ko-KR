@@ -5,7 +5,7 @@ seo-title: 광고주를 위한 Audience Optimization
 solution: Audience Manager
 title: 광고주를 위한 Audience Optimization
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

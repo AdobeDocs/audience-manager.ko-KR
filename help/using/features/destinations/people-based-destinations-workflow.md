@@ -4,7 +4,7 @@ seo-description: '사람 기반 대상은 고객 데이터의 구조 방식에 �
 seo-title: 사람 기반 대상 구현 지침
 solution: Audience Manager
 title: 구현 지침
-feature: 사람 기반 대상
+feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

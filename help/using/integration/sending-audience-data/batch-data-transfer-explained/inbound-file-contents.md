@@ -5,7 +5,7 @@ seo-title: 인바운드 데이터 파일 내용 구문, 잘못된 문자, 변수
 solution: Audience Manager
 title: 인바운드 데이터 파일 내용 구문, 잘못된 문자, 변수 및 예제
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

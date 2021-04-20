@@ -5,7 +5,7 @@ seo-title: 코드 및 텍스트 요소에 대한 스타일 규칙
 solution: Audience Manager
 title: 코드 및 텍스트 요소에 대한 스타일 규칙
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: 참조
+feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

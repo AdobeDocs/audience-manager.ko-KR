@@ -5,7 +5,7 @@ seo-title: 상위 사용하지 않는 특성
 solution: Audience Manager
 title: 상위 사용하지 않는 특성
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

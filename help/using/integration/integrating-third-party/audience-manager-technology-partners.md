@@ -5,7 +5,7 @@ seo-title: Adobe Audience Manager 기술 파트너
 keywords: 활성화정품 인증 파트너, 대상, 대상
 solution: Audience Manager
 title: Adobe Audience Manager 기술 파트너
-feature: 타사 통합
+feature: Third-party Integration
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt

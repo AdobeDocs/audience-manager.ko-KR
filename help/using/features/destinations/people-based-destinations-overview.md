@@ -4,7 +4,7 @@ seo-description: '사람 기반 대상을 사용하여 자사 고객 세그먼�
 seo-title: 사람 기반 대상 개요 및 사용 사례
 solution: Audience Manager
 title: 개요 및 사용 사례
-feature: 사람 기반 대상
+feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

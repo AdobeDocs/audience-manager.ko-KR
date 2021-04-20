@@ -5,7 +5,7 @@ seo-title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP 고객 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유
-feature: 플랫폼 통합
+feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

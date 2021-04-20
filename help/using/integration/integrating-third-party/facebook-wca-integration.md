@@ -4,7 +4,7 @@ seo-description: 이 페이지에서는 투명도가 향상된 온라인 광고 
 seo-title: Facebook WCA 통합
 solution: Audience Manager
 title: Facebook WCA 통합
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

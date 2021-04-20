@@ -4,7 +4,7 @@ seo-description: 즉각적인 장치 간 억제는 이러한 장치에서 특정
 seo-title: 즉각적인 장치 간 억제
 title: 즉각적인 장치 간 억제
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-feature: 프로필 병합
+feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

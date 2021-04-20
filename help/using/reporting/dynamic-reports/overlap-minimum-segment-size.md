@@ -5,7 +5,7 @@ seo-title: 보고서 업데이트 일정 및 최소 세그먼트 크기 오버�
 solution: Audience Manager
 title: 보고서 업데이트 일정 및 최소 세그먼트 크기 오버랩
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: 중복 보고서
+feature: Overlap Reports
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

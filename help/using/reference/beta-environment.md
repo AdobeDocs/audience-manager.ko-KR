@@ -6,7 +6,7 @@ seo-title: 베타 환경
 solution: Audience Manager
 title: 베타 환경
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: 참조
+feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

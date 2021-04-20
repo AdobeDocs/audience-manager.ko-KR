@@ -5,7 +5,7 @@ seo-title: 일별 트레이트 변형 보고서
 solution: Audience Manager
 title: 일별 트레이트 변형 보고서
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

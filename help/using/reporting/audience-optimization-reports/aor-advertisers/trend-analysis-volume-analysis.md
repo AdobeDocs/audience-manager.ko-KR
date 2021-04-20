@@ -5,7 +5,7 @@ seo-title: 트렌드 분석 및 볼륨 분석 보고서
 solution: Audience Manager
 title: 트렌드 분석 및 볼륨 분석 보고서
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

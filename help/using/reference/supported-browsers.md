@@ -5,7 +5,7 @@ seo-title: 지원되는 브라우저
 solution: Audience Manager
 title: 지원되는 브라우저
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
-feature: 참조
+feature: Reference
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

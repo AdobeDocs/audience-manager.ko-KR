@@ -5,7 +5,7 @@ seo-title: Google 애드워즈 리마케팅 목록에 세그먼트 보내기
 solution: Audience Manager
 title: Google 애드워즈 리마케팅 목록에 세그먼트 보내기
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

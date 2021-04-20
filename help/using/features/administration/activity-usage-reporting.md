@@ -5,7 +5,7 @@ seo-description: 활동 사용량 보고를 사용하면 Audience Manager 인스
 seo-title: 활동 사용 보고
 solution: Audience Manager
 title: 활동 사용 보고
-feature: 사용 및 청구
+feature: Usage and Billing
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

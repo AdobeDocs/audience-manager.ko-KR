@@ -4,7 +4,7 @@ seo-description: '이 페이지에는 오프라인 CRM 데이터를 Audience Man
 seo-title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동을 기반으로 한 개인화
 solution: Audience Manager
 title: 워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동을 기반으로 한 개인화
-feature: 사람 기반 대상
+feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

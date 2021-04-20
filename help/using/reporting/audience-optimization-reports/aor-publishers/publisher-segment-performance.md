@@ -5,7 +5,7 @@ seo-title: 세그먼트 성과 보고서
 solution: Audience Manager
 title: 게시자를 위한 세그먼트 성과 보고서
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: 대상 최적화 보고서
+feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

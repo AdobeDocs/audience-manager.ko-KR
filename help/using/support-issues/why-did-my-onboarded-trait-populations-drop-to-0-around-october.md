@@ -4,7 +4,7 @@ seo-description: 2019년 10월 14일쯤, 장치 ID 그래프에 대한 내 온�
 seo-title: 10월 15일경 온보딩된 트레이트 인구가 0으로 떨어진 이유는 무엇입니까?
 solution: Audience Manager
 title: 10월 15일경 온보딩된 트레이트 인구가 0으로 떨어진 이유는 무엇입니까?
-feature: 지원
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

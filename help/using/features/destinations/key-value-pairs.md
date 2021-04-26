@@ -1,12 +1,12 @@
 ---
-description: ' [!DNL key-value pair] 은 관련 요소 A 키로 구성됩니다. 키는 데이터 세트(예: 성별, 색상, 가격)와 세트에 속하는 변수(예: 남성/여성, 녹색, 100)를 정의하는 상수입니다. 대상 빌더는 키-값 쌍으로 형식이 지정된 데이터를 전송합니다.'
+description: ' [!DNL key-value pair] 은 관련 요소로 구성됩니다. 키(데이터 세트(예: 성별, 색상, 가격) 및 집합에 속하는 변수(예: 남성/여성, 녹색, 100)를 정의하는 상수입니다. 대상 빌더는 키-값 쌍으로 형식이 지정된 데이터를 전송합니다.'
 solution: Audience Manager
 title: 표준 및 직렬 [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: 대상 기본 사항
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: c895ec099ff92f94328ad29e6f2349e79b77d667
+source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%

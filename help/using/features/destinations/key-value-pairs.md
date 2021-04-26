@@ -6,7 +6,7 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: 대상 기본 사항
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
+source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 표준 및 일련 키-값 쌍 {#standard-and-serial-key-value-pairs}
 
-키-값 쌍은 관련 요소로 구성됩니다.키(데이터 세트(예: 성별, 색상, 가격) 및 집합에 속하는 변수(예: 남성/여성, 녹색, 100)를 정의하는 상수입니다. [!UICONTROL Destination Builder] 키-값 쌍으로 서식이 지정된 데이터를 전송합니다.
+키-값 쌍은 관련 요소로 구성됩니다.키(예:성별, 색상, 가격)과 값(예: 남성/여성, 녹색, 100)을 사용하여 세트에 속하는 변수입니다. [!UICONTROL Destination Builder] 키-값 쌍으로 서식이 지정된 데이터를 전송합니다.
 
 ## 기본 키-값 쌍 {#basic-key-value-pairs}
 

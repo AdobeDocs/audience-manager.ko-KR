@@ -5,7 +5,7 @@ seo-title: 신호, 트레이트 및 세그먼트
 solution: Audience Manager
 title: 신호, 트레이트 및 세그먼트
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-feature: Reference
+feature: 참조
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

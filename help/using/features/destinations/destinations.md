@@ -1,12 +1,12 @@
 ---
 description: Audience Manager에서 대상은 데이터를 공유할 수 있는 입니다. 대상 빌더는 쿠키, URL 또는 서버 간 대상을 만들고 관리하는 데 사용하는 도구입니다.
 keywords: 통합 코드, 대상, 대상 개요, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상
-landing-page-description: 대상은 데이터를 공유할 광고 서버나 DSP와 같은 모든 서드 파티 시스템입니다. 대상 빌더 도구를 사용하여 쿠키, URL 또는 서버 간 대상을 만들고 관리합니다.
+landing-page-description: 대상은 데이터를 공유할 광고 서버나 DSP와 같은 모든 서드파티 시스템입니다. 대상 빌더 도구를 사용하여 쿠키, URL 또는 서버 간 대상을 만들고 관리합니다.
 seo-title: 대상
 solution: Audience Manager
 title: 대상
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: 대상 기본 사항
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 translation-type: tm+mt
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd

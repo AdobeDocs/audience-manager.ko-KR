@@ -6,13 +6,13 @@ seo-title: Audience Manager의 방문자 인증 상태
 solution: Audience Manager
 title: Audience Manager의 방문자 인증 상태
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: Reference
+feature: 참조
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
+source-wordcount: '391'
+ht-degree: 7%
 
 ---
 
@@ -24,25 +24,9 @@ Audience Manager의 방문자 인증 상태는 새 트레이트 정보가 방문
 
 ## 인증 상태:알 수 없음 {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>인증된 </b> 프로필의 읽기 정보 </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>인증된 </b> 프로필에 새 트레이트 쓰기 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>예, 인증된 옵션 병합 규칙 = "마지막으로 인증된 프로필"인 경우. </p> </td> 
-   <td colname="col3" morerows="1"> <p>아니요, 특성 데이터가 장치 프로필에 추가됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>아니요, 인증된 옵션 병합 규칙 = "현재 인증된 프로필" 또는 "인증된 프로필 없음"인 경우. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 요청 값 | 인증된 프로필에서 정보 읽기 | 인증된 프로필에 새 트레이트 쓰기 |
+|---|---|---|
+| 0 | <ul><li>예, [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles]인 경우.</li><li>아니요, [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] 또는 [!UICONTROL No Authenticated Profile]인 경우.</li></ul> | 아니요, 특성 데이터가 장치 프로필에 추가됩니다. |
 
 샘플 호출(인증 상태에 해당하는 요청 값이 강조 표시됨):
 
@@ -50,25 +34,9 @@ Audience Manager의 방문자 인증 상태는 새 트레이트 정보가 방문
 
 ## 인증 상태:인증된 {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>인증된 </b> 프로필의 읽기 정보 </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>인증된 </b> 프로필에 새 트레이트 쓰기 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>예, 인증된 옵션 병합 규칙 = "현재 인증된 프로필" 또는 "마지막으로 인증된 프로필"인 경우. </p> </td> 
-   <td colname="col3" morerows="1"> <p>예, 트레이트 데이터는 인증된 프로필에 추가됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>아니요, 인증된 옵션 병합 규칙 = "인증된 프로필 없음"인 경우. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 요청 값 | 인증된 프로필에서 정보 읽기 | 인증된 프로필에 새 트레이트 쓰기 |
+|---|---|---|
+| 1 | <ul><li>예, [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] 또는 [!UICONTROL Last Authenticated Profiles]인 경우.</li><li>아니요, [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile]인 경우.</li></ul> | 예, 트레이트 데이터는 인증된 프로필에 추가됩니다. |
 
 샘플 호출(인증 상태에 해당하는 요청 값이 강조 표시됨):
 
@@ -76,25 +44,9 @@ Audience Manager의 방문자 인증 상태는 새 트레이트 정보가 방문
 
 ## 인증 상태:LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>요청 값 </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>인증된 </b> 프로필의 읽기 정보 </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>인증된 </b> 프로필에 새 트레이트 쓰기 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> 예, 인증된 옵션 병합 규칙 = "마지막으로 인증된 프로필" </td> 
-   <td colname="col3" morerows="1"> <p>아니오. 트레이트 데이터는 장치 프로파일에 기록됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> 아니요, 인증된 옵션 병합 규칙 = "현재 인증된 프로필" 또는 "인증된 프로필 없음"인 경우 </td> 
-  </tr> 
- </tbody> 
-</table>
+| 요청 값 | 인증된 프로필에서 정보 읽기 | 인증된 프로필에 새 트레이트 쓰기 |
+|---|---|---|
+| 2 | <ul><li>예, [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles]인 경우.</li><li>아니요, [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] 또는 [!UICONTROL No Authenticated Profile]인 경우.</li></ul> | 아니오. 트레이트 데이터는 장치 프로파일에 기록됩니다. |
 
 샘플 호출(인증 상태에 해당하는 요청 값이 강조 표시됨):
 

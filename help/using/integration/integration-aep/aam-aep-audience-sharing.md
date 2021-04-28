@@ -5,13 +5,13 @@ seo-title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 solution: Audience Manager
 title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP 고객 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유
-feature: Platform Integration
+feature: 플랫폼 통합
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1465'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 >[!IMPORTANT]
 >
 > * 위에 언급된 데이터 관리 플랫폼 사용 사례를 활성화하려면 Audience Manager 라이선스가 필요합니다.
-> * 귀하는 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Advertising Cloud, Adobe Target, Marketing 및 기타 Experience Cloud 솔루션과 공유하기 위해 Audience Manager 라이센스를&#x200B;*필요로 하지 않습니다.*
+> * 귀하는 핵심 서비스 통합을 통해 Experience Platform 세그먼트를 Adobe Advertising Cloud, Adobe Target, Marketo 및 기타 Experience Cloud 솔루션과 공유하기 위해 Audience Manager 라이센스를&#x200B;*필요로 하지 않습니다.*
 
 
 <br> 
@@ -46,7 +46,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 
 | **사용 사례** | **Adobe Experience Platform** | **Audience Manager** | **핵심 서비스** |
 ---------|----------|---------|---------
-| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 제3자 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target, Advertising Cloud 또는 Marketing과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
+| **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로파일 강화</li><li>Experience Platform 세그멘테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 제3자 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 대한 활성화</li></ul> | Adobe Target, Advertising Cloud 또는 Marketo과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용할 수 있습니다. |
 
 <br> 
 
@@ -109,7 +109,7 @@ Experience Platform 세그먼트에서 자동으로 생성된 세그먼트의 �
 
 | 항목 번호 | 이름 | 설명 |
 ---------|----------|---------
-| 3 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
+| 1 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
 | 2 | [!UICONTROL Data Source] | 자동으로 만들어집니다. Experience Platform 세그먼트에서 자동으로 생성되는 모든 트레이트와 세그먼트는 데이터 소스 **[!DNL Adobe Experience Platform Audience Sharing]**&#x200B;에 저장됩니다. |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 자동으로 생성된 세그먼트가 Experience Platform에 설정된 병합 정책 다음에 온다는 것을 나타냅니다. |
 | 4 | [!UICONTROL Segment Rule] | 세그먼트는 [트레이트 섹션](#aep-segments-as-aam-traits)에 설명된 트레이트로 구성됩니다. |
@@ -164,17 +164,13 @@ Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업
 
 Adobe Experience Platform과 Audience Manager 간의 통합은 모든 고객을 위해 수많은 표준 [identity 네임스페이스](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types)를 공유합니다.ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID. Experience Platform 세그먼트가 이러한 프로파일 중 하나를 자격 있는 프로파일에 대한 기본 ID로 사용하는 경우 프로파일은 Audience Manager 트레이트 및 세그먼트에서 계산됩니다.
 
-또한 Audience Manager은 다음과 같은 경우 Experience Platform 세그먼트에서 사용하는 모든 사용자 지정 ID 네임스페이스에 대해 들어오는 참조를 등록할 수 있습니다.
-* ID가 기본 *및*&#x200B;으로 표시됩니다.
-* Audience Manager에 해당 장치 간 데이터 소스가 이미 있습니다.
-
 >[!NOTE]
 >
 > ID가 부여된 Experience Platform의 대상은 Raw 이메일에 표시되지 않습니다.
 
-예를 들어 Experience Platform 세그먼트 &quot;모든 내 고객&quot;이 있고 자격이 있는 프로파일이 CRM ID, ECID, IDFA, 원시 이메일 주소 및 해시된 이메일 주소일 경우 Audience Manager의 해당 세그먼트에는 CRM ID, ECID, IDFA 및 해시된 이메일 주소만 포함됩니다. Audience Manager의 세그먼트 모집단은 Experience Platform의 세그먼트보다 작습니다.
+예를 들어 Experience Platform 세그먼트 &quot;모든 내 고객&quot;이 있고 자격이 있는 프로파일이 CRM ID, ECID, IDFA, 원시 이메일 주소 및 해시된 이메일 주소일 경우 Audience Manager의 해당 세그먼트에는 ECID, IDFA 및 해시된 이메일 주소에서만 키잉 처리된 프로파일만 포함됩니다. Audience Manager의 세그먼트 모집단은 Experience Platform의 세그먼트보다 작습니다.
 
-![Audience Manager 세그먼트 공유에 대한 Experience Platform - 세그먼트 구성](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Audience Manager 세그먼트 공유에 대한 Experience Platform - 세그먼트 구성](assets/AEP-to-AAM-profiles.png)
 
 <!--
 

@@ -1,23 +1,23 @@
 ---
-description: Audience Manager 태그 관리 구성 요소에는 클라이언트 포털, Adobe Tag Manager(Adobe 다이내믹 태그 관리자 및 Adobe Experience Platform Launch 대신 사용되지 않음), DIL, Akamai 및 제어 데이터베이스가 포함됩니다.
-seo-description: Audience Manager 태그 관리 구성 요소에는 클라이언트 포털, Adobe Tag Manager(Adobe 다이내믹 태그 관리자 및 Adobe Experience Platform Launch 대신 사용되지 않음), DIL, Akamai 및 제어 데이터베이스가 포함됩니다.
+description: Audience Manager 태그 관리 구성 요소에는 클라이언트 포털, Adobe Tag Manager(Adobe Experience Platform Launch 대신 사용되지 않음), DIL, Akamai 및 제어 데이터베이스가 포함됩니다.
+seo-description: Audience Manager 태그 관리 구성 요소에는 클라이언트 포털, Adobe Tag Manager(Adobe Experience Platform Launch 대신 사용되지 않음), DIL, Akamai 및 제어 데이터베이스가 포함됩니다.
 seo-title: 태그 관리 구성 요소
 solution: Audience Manager
 title: 태그 관리 구성 요소
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: System Components
+feature: 시스템 구성 요소
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 4%
 
 ---
 
 # 태그 관리 구성 요소{#tag-management-components}
 
-Audience Manager 태그 관리 구성 요소에는 클라이언트 포털, Adobe Tag Manager(Adobe 다이내믹 태그 관리자 및 Adobe Experience Platform Launch 대신 사용되지 않음), DIL, Akamai 및 제어 데이터베이스가 포함됩니다.
+Audience Manager 태그 관리 구성 요소에는 클라이언트 포털, Adobe Tag Manager(Adobe Experience Platform Launch 대신 사용되지 않음), DIL, Akamai 및 제어 데이터베이스가 포함됩니다.
 
 <!-- 
 
@@ -39,7 +39,7 @@ Audience Manager에는 다음 구성 요소가 포함되어 있습니다.
 
 ## DIL/TIM 컨테이너 {#dil-tim}
 
-[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM] 은 사용되지 않는 태그 삽입 관리자입니다. 더 이상 [!DNL Audience Manager]에서 사용되지 않습니다. 대신 [다이내믹 태그 관리](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html) 또는 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html)의 [!DNL Audience Manager] 확장을 사용하여 인벤토리의 페이지에 배치하는 컨테이너 코드를 구성하고 생성합니다. [!UICONTROL DTM] 컨테이너는 [!UICONTROL Data Information Library (DIL)]과 함께 작동하여 사이트에서 데이터를 수집하고 [!DNL Audience Manager]에 보냅니다.
+[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM] 은 사용되지 않는 태그 삽입 관리자입니다. 더 이상 [!DNL Audience Manager]에서 사용되지 않습니다. 대신 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html)의 [!DNL Audience Manager] 확장을 사용하여 인벤토리의 페이지에 배치하는 컨테이너 코드를 구성하고 생성합니다.
 
 ## DIL(데이터 통합 라이브러리) {#dil}
 
@@ -47,7 +47,7 @@ Audience Manager에는 다음 구성 요소가 포함되어 있습니다.
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] 에서는  [](https://www.akamai.com/us/en/about/) Akamaito를 사용하여 Adobe의 태그 관리 플랫폼(일명)에서 컨테이너 코드를 호스팅하고 제공합니다 [!UICONTROL TIM (Tag Insertion Manager)]. 그러나 [!UICONTROL TIM]의 코드 배포는 [!DNL Adobe Dynamic Tag Management] 및 [!DNL Adobe Experience Platform Launch]에 대해 단계적으로 중단되었습니다.
+[!DNL Audience Manager] 에서는  [](https://www.akamai.com/us/en/about/) Akamaito를 사용하여 Adobe의 태그 관리 플랫폼(일명)에서 컨테이너 코드를 호스팅하고 제공합니다 [!UICONTROL TIM (Tag Insertion Manager)]. 그러나 [!UICONTROL TIM]을(를) 사용하는 코드 배포는 [!DNL Adobe Experience Platform Launch]을(를) 위해 단계적으로 중단되었습니다.
 
 ## 제어 데이터베이스 {#control-database}
 

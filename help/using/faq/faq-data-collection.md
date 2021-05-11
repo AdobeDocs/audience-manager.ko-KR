@@ -5,16 +5,16 @@ seo-title: 데이터 수집 및 제품 통합 FAQ
 solution: Audience Manager
 title: 데이터 수집 및 제품 통합 FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP address; STFP IP address; FTP address
-feature: Administration
+keywords: SFTP;SFTP 주소;STFP IP 주소;FTP 주소
+feature: 관리
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 translation-type: tm+mt
-source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 83%
+source-wordcount: '1159'
+ht-degree: 82%
 
 ---
-
 
 # 데이터 수집 및 제품 통합 FAQ{#data-collection-and-product-integration-faq}
 
@@ -38,7 +38,7 @@ ht-degree: 83%
 
  
 
-**인바운드 및 아웃바운드 SFTP 서버의 허용 목록에 추가할 수 있는 IP 주소를 알려주시겠습니까?**
+**인바운드 및 아웃바운드 SFTP 서버의 허용 목록에 추가할 수 있는 IP 주소를 제공할 수 있습니까?**
 
 예, 아래를 참조하십시오.
 
@@ -64,9 +64,9 @@ ht-degree: 83%
 
  
 
-**새 SFTP 서버에 대해 지원되는 인증 방법은 무엇입니까?**
+**새로운 SFTP 서버에 대해 지원되는 인증 방법은 무엇입니까?**
 
-새 SFTP 서버(`ftp-in-gtw` 및 `ftp-out-gtw`)는 [!DNL OpenSSH Key-Based Authentication]를 지원합니다. [!DNL SSH] 키를 생성하거나 사용자가 직접 공개 키를 제공할 수 있습니다.
+새 SFTP 서버(`ftp-in-gtw` 및 `ftp-out-gtw`)는 [!DNL OpenSSH Key-Based Authentication]를 지원합니다. [!DNL SSH] 키를 생성하거나 직접 공개 키를 제공할 수 있습니다.
 
  
 
@@ -84,7 +84,7 @@ ht-degree: 83%
 
 * `s_code`에 바로 [!UICONTROL DIL]을 넣습니다.
 
-* [!DNL Adobe Experience Platform Launch] 또는 [!DNL Adobe DTM]을 통해 [!UICONTROL DIL]과 `s_code`를 제공합니다.
+* [!UICONTROL DIL] 및 `s_code`에서 [!DNL Adobe Experience Platform Launch]까지 제공합니다.
 
 [DIL(데이터 통합 라이브러리) API](../dil/dil-overview.md)를 참조하십시오.
 
@@ -153,7 +153,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **한 사이트에서 데이터를 수집하고 다른 사이트를 통해 사용자 [!DNL Google Ad Manager] 를 타깃팅하고자 합니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
 
-아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. [!DNL Google Ad Manager]을 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 경우, 초기 사이트의 데이터 수집 및 [!DNL Google Ad Manager]를 통해 타깃팅할 수 있습니다.
+아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. [!DNL Google Ad Manager]을 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 경우, 초기 사이트의 데이터 수집 및 [!DNL Google Ad Manager]을 통해 타겟을 사용할 수 있습니다.
 
 <br> 
 
@@ -165,7 +165,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **쿠키를  [!DNL Audience Manager] 설정하고 변수를 어떻게 전달합니까 [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] 2개 쿠키:하나는 세그먼트 변수를  [!DNL Google Ad Manager] 광고 태그로 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며, 이 ID는 읽은  [!DNL Google Ad Manager]사람입니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
+[!DNL Audience Manager] 2개 쿠키를 설정합니다.하나는 세그먼트 변수를  [!DNL Google Ad Manager] 광고 태그로 전송하고 다른 하나는 UUID(고유한 사용자 ID)를 설정하며, 이 ID [!DNL Google Ad Manager]는 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
 
 <br> 
 

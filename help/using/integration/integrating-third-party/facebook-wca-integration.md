@@ -1,15 +1,15 @@
 ---
-description: 이 페이지에서는 투명도가 향상된 온라인 광고 타깃팅을 위해 웹 기반 Audience Manager 대상 세그먼트를 Facebook에 보낼 목적으로 Facebook 웹 사이트 사용자 지정 대상(WCA) 픽셀을 만드는 프로세스를 보여 줍니다.
-seo-description: 이 페이지에서는 투명도가 향상된 온라인 광고 타깃팅을 위해 웹 기반 Audience Manager 대상 세그먼트를 Facebook에 보낼 목적으로 Facebook 웹 사이트 사용자 지정 대상(WCA) 픽셀을 만드는 프로세스를 보여 줍니다.
+description: 이 페이지에서는 향상된 투명도의 온라인 광고 타깃팅을 위해 웹 기반 Audience Manager 대상 세그먼트를 Facebook으로 보낼 목적으로 Facebook WCA(Website Custom Audiences) 픽셀을 만드는 프로세스를 보여 줍니다.
+seo-description: 이 페이지에서는 향상된 투명도의 온라인 광고 타깃팅을 위해 웹 기반 Audience Manager 대상 세그먼트를 Facebook으로 보낼 목적으로 Facebook WCA(Website Custom Audiences) 픽셀을 만드는 프로세스를 보여 줍니다.
 seo-title: Facebook WCA 통합
 solution: Audience Manager
 title: Facebook WCA 통합
-feature: Third-party Integration
+feature: 타사 통합
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 ## 개요 {#overview}
 
-[WCA(Facebook Website Custom Audiences)를 ](https://www.facebook.com/business/help/449542958510885) 사용하면 특정 페이지를 방문했거나 웹 사이트에서 특정 작업을 수행한 사람들의 목록을 만들 수 있습니다. [!DNL Audience Manager] 대상 [!DNL WCA] 을 사용하여 활성화할 수 있습니다. 대상을  [!DNL URL] 사용하여 활성화하면 웹 기반 대상을 타깃팅용으로 보내도록 사용자 정의 픽셀 기반 통합을 구성할 수  [!DNL Facebook] 있습니다.
+[Facebook WCA(Website Custom Audiences)를 ](https://www.facebook.com/business/help/449542958510885) 사용하면 특정 페이지를 방문했거나 웹 사이트에서 특정 작업을 수행한 사람의 목록을 만들 수 있습니다. [!DNL Audience Manager] 대상 [!DNL WCA] 을 사용하여 활성화할 수 있습니다. 대상을  [!DNL URL] 사용하여 활성화하면 웹 기반 대상을 타깃팅용으로 보내도록 사용자 정의 픽셀 기반 통합을 구성할 수  [!DNL Facebook] 있습니다.
 
 ![Facebook WCA 통합](/help/using/integration/assets/facebook-wca-integration.png)
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) 버전 4.1.0 이상. 최신 버전 **[여기](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**&#x200B;를 다운로드합니다.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]여기에서 다운로드할 수 있는 버전 9.0 이상 **[](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. 또는 [서버측 포워딩(SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하여 데이터를 [!DNL Audience Manager]로 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. [분석 코드 관리자](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 [!DNL AppMeasurement]을(를) 다운로드합니다.
 
-[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) 또는 [Adobe 다이내믹 태그 관리](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)를 사용하여 3-4단계에서 라이브러리를 설치하거나 업그레이드하는 것이 좋습니다.
+[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)을 사용하여 3단계와 4단계의 라이브러리를 설치하거나 업그레이드하는 것이 좋습니다.
 
 ## 1단계 - [!DNL Audience Manager] {#step-1-create-facebook-destination}에 [!UICONTROL Facebook Destination] 만들기
 

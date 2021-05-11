@@ -6,15 +6,15 @@ keywords: 'dil, dil, dil, dil, d, l, dil, d, l, dil, dil, dil, dil, dil, dil, di
 solution: Audience Manager
 title: DIL(데이터 통합 라이브러리) 이해
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL Implementation
+feature: DIL 구현
+exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 16%
+source-wordcount: '496'
+ht-degree: 17%
 
 ---
-
 
 # [!DNL Data Integration Library](DIL){#understanding-the-data-integration-library-dil} 이해
 
@@ -43,8 +43,6 @@ ht-degree: 16%
 [!UICONTROL DIL] 코드는  **[여기에서 다운로드할 수 있습니다](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. 버전 8.0(2018년 8월 출시)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/en/id-service/using/home.html), 버전 3.3 이상에 대한 강한 종속성을 갖습니다. [!DNL ID Service]에 의존하여 ID 동기화 및 [!DNL URL destinations]을 실행합니다. [!DNL ID Service]이(가) 누락되었거나, 오래되었거나, 구성되지 않은 경우 오류가 발생합니다.
 
 [!UICONTROL DIL]에서 수동으로 작업하고 [!DNL Audience Manager]을 설정하는 대신 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)을 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Launch] 는 코드 배포, 배치 및 버전 관리를 간소화하므로 권장 구현 도구입니다. [!DNL Adobe Experience Platform Launch]의 [Audience Manager 확장](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html)에 대해 자세히 알아보십시오.
-
-[!DNL Adobe Experience Platform Launch] 는  [Adobe 다이내믹 태그 관리자](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM])의 후속 이름입니다.
 
 ## 샘플 호출 {#sample-code}
 

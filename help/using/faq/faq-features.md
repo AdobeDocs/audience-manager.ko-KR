@@ -6,15 +6,15 @@ seo-title: 제품 및 기능 FAQ
 solution: Audience Manager
 title: 제품 및 기능 FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: Overview
+feature: 개요
+exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 89%
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
-
 
 # 제품 및 기능 FAQ{#product-features-and-functions-faq}
 
@@ -68,7 +68,7 @@ faq_features_functions.xml
 
 **[!UICONTROL Tag Insertion Manager (TIM)]은 무엇입니까?**
 
-Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Launch]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) 및 [Dynamic Tag Management](https://docs.adobe.com/content/help/ko-KR/dtm/using/dtm-home.html)를 참조하십시오.
+Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Launch]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)을 참조하십시오.
 
  
 

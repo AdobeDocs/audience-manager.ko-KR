@@ -1,140 +1,22 @@
 ---
-title: Apache License
-translation-type: tm+mt
-source-git-commit: 375dff525598ef392f9eecd0f22ee9dc097df4bd
+source-git-commit: fd35da41cb2fff1cae41bec5d4cff772d1158f20
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 46%
 
 ---
+# MIT 라이센스
 
+© Copyright 2021 Adobe. All rights reserved.
 
-# Apache License
+본 소프트웨어 및 관련 문서 파일(&quot;소프트웨어&quot;)의 사본을 입수하는 사람에게 다음 조건에 따라 이 소프트웨어의 사용, 복사, 수정, 병합, 출판, 배포, 서브라이센스 및/또는 판매할 권리를 포괄하는 제한 없이 소프트웨어를 취급하고, 이 소프트웨어를 제공한 사람에게 허용할 수 있는 권한은 무료로 제공됩니다.
 
-    버전 2.0, 2004 년 1 월
-<!--                        https://www.apache.org/licenses/  -->
+상기의 저작권 통지 사항 및 본 허가 통지서는 소프트웨어의 모든 사본 또는 상당 부분에 포함되어야 합니다.
 
-사용, 복제 및 배포에 대한 약관
-
-1. 정의.
-
-   " 라이센스 "라 함은 본 문서의 제 1 조부터 제 9 절에 정의된 사용, 복제 및 배포에 대한 조건을 의미합니다.
-
-   " 라이센서 "는 라이센스를 부여하는 저작권 소유자가 승인한 저작권 소유자 또는 법인을 의미합니다.
-
-   " 법인 (Legal Entity) "이라 함은 해당 실체와 함께 통제하거나, 통제하거나, 공통
-통제하에 있는 실체 및 기타 모든 단체의 조합을 의미합니다. 본 정의의 목적에 따라, "통제" 라 함은 (i) 계약 또는
-기타 다른 경우든 또는 (ii) 50% 이상 (50%) 의 소유권소유권자이든 또는 (iii) 이러한 실체에 대한 유리한 소유권에든 상관 없이, 이러한 실체의 방향 또는 관리를 야기하는 것을 의미합니다.
-
-   " 귀하 " (또는" 귀하 ") 는 본 라이센스에서 부여한 권한을 행사하는 개인 또는 법적 실체를
-의미합니다.
-
-   " 소스 "양식은 소프트웨어 소스 코드, 설명서
-소스 및 구성 파일을 포함하며 이에 국한되지 않는 기본 양식을 의미합니다.
-
-   " 목적 "양식은 컴파일된 목적 코드, 생성된 설명서, 그리고 다른 미디어 유형으로 변환 등을 포괄하는 소스 양식의 기계적인
-변형 또는 번역으로 인해 발생하는 모든 양식을 의미합니다.
-
-   " 작업물 "이라 함은 작업물에 포함되어 있거나 작업물에 첨부되어 있는 저작권 고지사항으로 명시된 바와
-같이, 출품작의 출품작을 의미합니다 (아래의 부록 참조).
-
-   " 파생물 "이라 함은 작업물을 (또는 파생물에서 파생됨) 에 기반을 두고 있고 편집용 개정판, 주석, 정교하게 또는 기타 수정 사항이
-출품작의 원래 작업물을 대표하는 작업물을 의미합니다. 본 사용권의 목적에 따라, 파생물을 작업물 및 파생물의 인터페이스와 분리하거나 링크 (또는 이름별로 바인딩) 하는 작업물을 포함하지 않아야 합니다.
-
-   " 기여도 "라 함은 저작물의 원래 버전과 작업물 또는 그와 관련된 수정 또는 추가물에 대한 수정 또는 추가본을
-의미하며 저작권자 또는 저작권자 대리인을 대리할 권한이 있는 개인 또는 법적 실체에 의한 작품에 포함시키기 위해
-의도적으로 라이센서에 제출됩니다. 본 정의의 목적에 따라, "제출됨"
-이라 함은 라이센스 또는 그 대표자에게 보내진
-전자, 구두 또는 서면 커뮤니케이션 형태의 형태로서, 작업물을 논의 및 개선하기 위한 목적으로 사용권자 또는 작업자를 대신하여 관리되거나, 눈에 띄게 표시되는 커뮤니케이션을 제외하는 문제 추적 시스템 (예를 들어, 전자 메일링 목록, 소스 코드 제어 시스템 및 발행물 추적 시스템) 를 의미합니다. 저작권 소유자가 서면으로 작성하거나 서면으로
-지정한 경우 "기여도" 가 아닙니다.
-
-   " 기고자 "는 라이센싱이 기부를 받고 이후에 작업물 내에 통합한 라이센서 및 개인 또는 법적 실체를
-의미합니다.
-
-2. 저작권 라이센스 부여. 본 라이센스의 약관에 따라, 각 기여자는 작업물을 재생하고, 파생물을 준비하고, 공개적 게시, 공개적으로 실행, 서브라이센스, 배포하며, 작업물을 소스
-또는 목적 형식으로 배포할 수 있는 영구적이고,
-전세계적, 비배타적, 무비용, 무로열티, 취소 불가능한
-저작권 라이센스를 귀하에게 허여합니다.
-
-3. 특허 라이센스 부여. 본 라이센스의 약관에 따라, 각 기여자는 작업물을 판매, 수입, 판매, 판매, 판매, 판매, 판매, 판매, 수입 및 기타 다른 방법으로 양도할 수 있는 특허 라이센스 (본 조항에서 명시한 사항은 제외) 를 귀하에게 허여하며,
-이러한 라이센스는 해당 특허 클레임에 대해서만 적용됩니다.
-이러한 기고자의 기여 또는 기여 (s)
-가 제출된 작업물과 결합된 기여. 작업물 또는
-저작물에 포함된 증여가 직접적 또는
-기증여용 특허 침해를 구성하는 것이라고 주장하는 모든 법인 (소송의 크로스 클레임 또는 대금청구 포함) 에 대한 특허 소송을 제기하는 경우, 해당 작업물에 대해 본 사용권에 따라 귀하에게 부여된 특허 라이센스는
-해당 소송이 제출된 날짜로부터 소멸합니다.
-
-4. 재배포. 귀하는 다음 조건을 충족하는 경우에 한해 수정, 수정,
-소스 또는 목적 형태로 작업물 또는 파생물의 사본을 복제 및 배포할 수 있습니다.
-
-   (a) 귀하는 작업물 또는
-파생물을 본 라이센스의 사본을 다른 사람에게 제공해야 합니다. and
-
-   (b) 귀하는 수정된 파일이 파일을 변경했음을 명시하는 눈에 띄는 통지를
-전달해야 합니다. and
-
-   (c) 귀하는 작업물의 소스 형식에서 저작권, 특허, 상표 및
-귀속 통지서를 배포하는 파생물의
-소스 형식으로 파생물의 일부와 관련이 없는 통지사항을 배제해야 합니다. and
-
-   (d) 작업물에 배포 시 "통지" 텍스트 파일이 포함되어 있는 경우, 배포자가 배포한 파생물에는 이러한 통지 파일 내에 포함되어
-있는 읽기 쉬운 고지 사항이 포함되어야 하며, 이는 파생물의 일부와 관련이 없는 통지 사항을 다음 위치 중 최소한 하나에
-포함시켜야 합니다. 파생물의 일부로 배포되는
-통지 텍스트 파일 내에서; 소스 양식 또는
-문서 내에서 파생물과 함께 제공된 경우 또는 파생 작업물에 의해 생성된 디스플레이 내에서 그러한 서드 파티 통지가 정상적으로 나타나는 경우. 통지 파일의 내용은
-정보용으로만 사용되며 라이센스를 수정하지 않습니다. 귀하는 이러한 추가 기여도 고지가 라이센스를 수정하는 것으로 해석되지 않는다는 점을 조건으로,
-작업물에서 통지 텍스트에 대한 부록과 함께,
-또는 작업물에서 통지 텍스트에 대한 부록으로 귀하의 자체 귀속
-통지문을 추가할 수 있습니다.
-
-   귀하는 귀하의 수정 사항에 귀하의 저작권을 추가할 수 있으며, 작업물의 사용,
-복제 및 배포가 본 라이센스에 명시된 조건을 준수하는 경우에 한해서만 수정, 또는 이러한 파생물의 사용, 복제 또는 배포를 위한 추가 또는 다른 라이센스를 제공할 수 있습니다.
-
-5. 증여의 제출. 귀하가 달리 명시하지 않는 한, 귀하에 의한 작업물에 귀하에 의한 작업물에
-포함시키기 위해 의도적으로 제출된 증여는 추가 약관이나 조건 없이 본 라이센스의 약관에 따릅니다.
-상기의 사항에도 불구하고, 본 계약상의 어떠한 조항도 이러한 증여와 관련하여 사용권자와 체결한
-별도의 사용권 계약의 조항을 대체하거나 수정하지
-않습니다.
-
-6. 상표. 본 라이센스는 작업물의 원본을 설명하고 통지 파일의 내용을 재생하는데 적당하고 관례적인 용도로 사용해야 하는 경우를 제외하고는 라이센서의 상표,
-상표, 서비스 마크 또는 제품 이름을 사용할 수 있는 권한을 부여하지 않습니다.
-
-7. 보증 부인. 적용 법률에서 요구하거나 서면으로 동의한 경우를 제외하고, 라이센싱은 직위, 비침해, 상업성 또는 특정 목적에의 적합성 등에 대한 보증 또는 조건
-없이 "있는 그대로" 작업물을 "있는 그대로" 제공합니다. 귀하는 작업물을 사용하거나 재배포하는 것의 적절성을 결정하고 본 라이센스에 따른 귀하의 권한 행사와 관련된 위험을 부담하는 전적인 책임을 집니다.
-
-8. 책임의 제한. No event and under legal theory,
-whether in tort (including negligence), contract, or otherwise, required in
-applicable law (such as deliberate and grossly
-negligent acts) or agreed to writing, if any contributor be
-responsible to you any directly, indirect, special,
-incidental, or resuldamages of any character arising as a
-result of this license or out. Work or inability use inability inability inability Work Work Work Work Work Work Work Work Work inability inability inability inability inability inability inability inability inability inability inability inability inability inability inability inability, 기여자는
-이러한 손해의 가능성을 통보받았습니다.
-
-9. 보증 또는 추가 책임 수락. 귀하는 작업물 또는 파생물을 재배포하는
-동안, 지원, 보증, 배상, 또는 기타 책임 의무 및/또는 본 라이센스에 부합하는 권리를 수용하도록 선택할 수 있습니다. 그러나, 이러한 의무를 수용함에 있어, 귀하는 해당 보증 또는 추가 책임을 인정하는 이유 때문에, 기고자가 제기한 책임
-또는 이러한 기고자에 대해 제기된 클레임에 대해 각 기고자를 면책시키고,
-방어하고, 보호할 것임에 동의하는 경우에 한해 귀하를 대신하는 경우와 귀하를 대신하여 전적으로 책임을 질 수 있습니다.
-
-약관의 끝
-
-부록: 작업물에 Apache 라이센스를 적용하는 방법.
-
-    작업물에 Apache 라이센스를 적용하려면 팔로워 " {}" 로 둘러싸인 필드가 사용자의 식별 정보로 대체되어 뒤에 오는 상용구
-    
-    통지를 첨부합니다. (Don't include
-    the brackets!)  The text should be enclosed in the appropriate
-    comment syntax for the file format. We also recommend that a
-    file or class name and description of purpose be included on the
-    same "printed page" as the copyright notice for easier
-    identification within third-party archives.
-
-Copyright 2018 Adobe Systems, Inc
-
-Apache License, 버전 2.0 ("라이센스") 에 따라 라이센스 부여
-라이센스 규정을 준수하는 경우를 제외하고는 이 파일을 사용할 수 없습니다.
-You may obtain a copy of the license at
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-해당 법에서 요구하거나 서면으로 합의하지 않는 한, 라이센스에 의하여 배포되는 소프트웨어는
-명시적이거나 묵시적인 어떠한 종류의 보증 또는 조건 없이 "있는 그대로" 배포됩니다.
-라이센스에서 사용 권한 및
-제한 사항에 적용되는 특정 언어의 라이센스를 참조하십시오.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

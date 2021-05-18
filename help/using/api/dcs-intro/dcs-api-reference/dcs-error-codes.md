@@ -7,9 +7,9 @@ title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
+source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1547'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 | 0 | 지정되지 않은 오류 | 다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 catch-all 오류입니다. 이 오류를 해결하기 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트에 의해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 | 1 | 호스트 이름에 대한 구성을 찾을 수 없습니다.`hostname` | 요청에서 보낸 호스트 이름이 파트너 프로비저닝 팀에서 설정되지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 | 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음):`ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 해당 조직 ID를 모르거나 조직 ID를 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)을(를) 참조하십시오. |
-| 10 | 트레이트를 평가할 수 없음 | 요청의 트레이트가 부분적으로 평가되었거나 전혀 평가되지 않았습니다. |
+| 10 | 트레이트를 평가할 수 없음 | 요청의 트레이트가 부분적으로 평가되었거나 전혀 평가되지 않았습니다. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 
 ## 통합 오류 코드 {#integration-error-codes}
 

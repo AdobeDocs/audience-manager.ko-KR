@@ -4,15 +4,14 @@ seo-description: 일반적인 Audience Manager 질문 및 문제
 seo-title: Audience Manager FAQ
 solution: Audience Manager
 title: Audience Manager FAQ
-feature: Overview
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: 개요
+exl-id: 2777fdf1-df79-4111-9fe4-d2638ee10395
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '85'
 ht-degree: 100%
 
 ---
-
 
 # Audience Manager FAQ 개요 {#audience-manager-faq}
 

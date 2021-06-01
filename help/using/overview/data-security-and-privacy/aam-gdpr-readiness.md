@@ -4,9 +4,8 @@ seo-description: Audience Manager 고객을 위한 GDPR 준비 지침
 seo-title: Audience Manager 고객을 위한 GDPR 준비 지침
 solution: Audience Manager
 title: Audience Manager 고객을 위한 GDPR 준비 지침
-feature: Data Governance & Privacy
+feature: 데이터 거버넌스 및 개인 정보
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '478'

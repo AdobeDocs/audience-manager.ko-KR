@@ -6,9 +6,8 @@ seo-title: 프로필 병합 규칙 및 장치 그래프 FAQ
 solution: Audience Manager
 title: 프로필 병합 규칙 및 장치 그래프 FAQ
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge
+feature: 프로필 병합
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1552'
@@ -260,18 +259,18 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 아니요. 
 
-**2020년 3월 16일 이후 Adobe Campaign으로 세그먼트 내보내기에 대해 세그먼트 수가 0인 이유는 무엇입니까?**
+**2020년 3월 16일 이후 Adobe Campaign으로 세그먼트 내보내기에 대해 세그먼트 인구가 0으로 표시되는 이유는 무엇입니까?**
 
-2019년 말에는 장치 간 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 개선하기 위해 일련의 향상된 프로필 병합 규칙을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에서 엄격하게 적용됩니다. 마지막으로, 장치 간 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
+2019년 말에는 교차 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 개선하기 위해 일련의 프로필 병합 규칙 개선 사항을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에 엄격하게 적용됩니다. 따라서 교차 장치 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
 
-Audience Manager 인스턴스와 대상 간에 Adobe Campaign과 같은 장치 간 ID를 사용하여 올바르게 통합하려면 다음 요구 사항을 충족해야 합니다.
+Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바르게 통합하려면 다음 요구 사항을 충족하는지 확인하십시오.
 
-1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토하십시오. 프로필 병합 규칙은 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙이 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile]으로 전환합니다.
+1. Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙 을 검토하십시오. 프로필 병합 규칙 은 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙에 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile](으)로 전환합니다.
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]
 >
-> 이 상황이 발생한 고객의 경우 프로필 병합 규칙 제한을 1로 늘려서 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
+> 이 상황이 발생하는 고객에 대해 프로필 병합 규칙 제한을 1씩 증가했으므로 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
 
 >[!MORELIKETHIS]
 >

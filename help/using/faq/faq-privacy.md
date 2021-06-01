@@ -5,9 +5,8 @@ seo-title: 개인 정보 보호 및 데이터 유지 관련 FAQ
 solution: Audience Manager
 title: 개인 정보 보호 및 데이터 유지 관련 FAQ
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance & Privacy
+feature: 데이터 거버넌스 및 개인 정보
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '761'
@@ -56,15 +55,15 @@ ht-degree: 84%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>백엔드 서버 </p> </td> 
-   <td colname="col2"> <p>120일 </p> <p> Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 120일 후에 백엔드 서버에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이 120일 주기 내의 사용자 활동을 기록하는 경우, 이 데이터는 다른 120일 동안 유지됩니다. </p> </td> 
+   <td colname="col2"> <p>120일 </p> <p> Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 120일 후에 백엔드 서버에서 사용자 데이터를 삭제합니다. 이 120일 주기 내에 <span class="keyword"> Audience Manager</span>이 사용자 활동을 기록하면 Adobe에서는 이 데이터를 120일 더 보관합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge Server </p> </td> 
-   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이 14일 주기 내의 사용자 활동을 기록하는 경우, 이 데이터는 다른 14일 동안 유지됩니다. 사용자가 14일 주기 후에 다시 활성화되면 해당 첫 번째 새 페이지 보기와 사용자가 작업을 수행할 수 있게 되는 시기 사이에 지연이 발생합니다. 14일 이상의 활동이 없는 후 전체 프로파일을 Edge Center로 다시 연결하는 데 6-18시간이 소요됩니다. </p> </td> 
+   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. 이 14일 주기 내에 <span class="keyword"> Audience Manager</span>이 사용자 활동을 기록하면 Adobe에서는 이 데이터를 14일 더 보관합니다. 14일 주기 후에 사용자가 다시 활성 상태가 되면 첫 번째 새 페이지 보기와 사용자가 조치를 취할 수 있는 시점 사이에 지연이 생깁니다. 14일 이상 활동을 하지 않을 경우 전체 프로필을 Edge 센터로 되돌리는 데 6~18시간이 걸립니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>원시 로그 </p> </td> 
-   <td colname="col2"> <p>60일(활동이 없는 60일 후 제거됨) </p> <p>원시 로그는 HTTP 호출이나 <span class="keyword">Audience Manager</span>에 전송된 온보딩된 파일을 통해 Edge Server에 의해 수신되는 데이터입니다. </p> </td> 
+   <td colname="col2"> <p>60일(60일 동안 활동이 없으면 제거됨) </p> <p>원시 로그는 HTTP 호출이나 <span class="keyword">Audience Manager</span>에 전송된 온보딩된 파일을 통해 Edge Server에 의해 수신되는 데이터입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>광고 서버 로그 </p> </td> 
@@ -72,7 +71,7 @@ ht-degree: 84%
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM 수준 프로필(인증된 프로필) </p> </td> 
-   <td colname="col2"> <p>비활성 CRM 수준 프로필(고객 ID)의 기본 TTL(Time-to-Live) 간격은 24개월입니다. 그러나 Audience Manager 사용자 인터페이스를 사용하여 비활성 CRM 수준 프로필의 TTL 간격을 1개월에서 5년 간 줄이거나 확장할 수 있습니다. 교차 장치 데이터 소스를 만들거나 편집할 때 이렇게 할 수 있습니다.</p> <p>자세한 내용은 <a href="../features/profile-merge-rules/merge-rules-start.md#settings">교차 장치 데이터 소스 만들기</a>의 데이터 소스 설정을 참조하십시오.</p> </td> 
+   <td colname="col2"> <p>비활성 CRM 수준 프로필(고객 ID)의 기본 TTL(Time-to-Live) 간격은 24개월입니다. 그러나 Audience Manager 사용자 인터페이스를 사용하여 비활성 CRM 수준 프로필의 TTL 간격을 1개월에서 5년 사이에서 줄이거나 연장할 수 있습니다. 교차 장치 데이터 소스를 만들거나 편집할 때 이렇게 할 수 있습니다.</p> <p>자세한 내용은 <a href="../features/profile-merge-rules/merge-rules-start.md#settings">교차 장치 데이터 소스 만들기</a>의 데이터 소스 설정을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>모바일 장치 ID </p> </td> 

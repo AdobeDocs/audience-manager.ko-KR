@@ -3,12 +3,11 @@ description: 이 문서에서는 Audience Manager의 동의 관리 작동 방식
 seo-description: 이 문서에서는 Audience Manager의 동의 관리 작동 방식을 설명합니다.
 seo-title: 동의 관리
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CPA, 개인 정보 보호, 동의
+keywords: GDPR UI, GDPR API, CCPA, 개인 정보, 동의
 title: 동의 관리
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Data Governance & Privacy
+feature: 데이터 거버넌스 및 개인 정보
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '747'

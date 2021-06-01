@@ -4,9 +4,8 @@ seo-description: 사용하고 있지 않은데 Javascript 디버거에 Audience 
 seo-title: Audience Manager를 사용하고 있지 않은데 Javascript 디버거에 Audience Manager Javascript 호출이 표시됩니다. 왜입니까?
 solution: Audience Manager
 title: Audience Manager를 사용하고 있지 않은데 Javascript 디버거에 Audience Manager Javascript 호출이 표시됩니다. 왜입니까?
-feature: Support
+feature: 지원
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '189'

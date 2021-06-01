@@ -1,30 +1,29 @@
 ---
-description: Audience Manager을 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 툴킷
-seo-description: Audience Manager을 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 툴킷
+description: Audience Manager을 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 도구 키트.
+seo-description: Audience Manager을 사용하여 프로그래밍 방식으로 작업할 수 있는 API 및 도구 키트.
 seo-title: API 및 SDK 코드
-keywords: api, api, api, api, api, api, api, api, api, api
+keywords: 'api, api, api, api, api, api, api, api, api, api, api, api, api, api, api '
 solution: Audience Manager
 title: API 및 SDK 코드
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: db3d1f3b-9a39-4ff7-a301-1236d3b33fc2
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 39%
+source-wordcount: '85'
+ht-degree: 35%
 
 ---
 
-
 # [!DNL API] 및  [!DNL SDK] 코드  {#api-and-sdk-code}
 
-[!DNL API]s 및 toolkit을 사용하여 프로그래밍 방식으로 작업할 수 있습니다 [!DNL Audience Manager].
+[!DNL API]를 사용하여 프로그래밍 방식으로 작업할 수 있는 및 도구 키트입니다 [!DNL Audience Manager].
 
 >[!NOTE]
 >
->이러한 기능은 [!DNL API]s에서 지원되지 않습니다.
+>이러한 기능은 [!DNL API]에서 지원되지 않습니다.
 >
->* [!UICONTROL General],  [!UICONTROL Trend]and  [!UICONTROL Interactive] reports.
+>* [!UICONTROL General],  [!UICONTROL Trend]및  [!UICONTROL Interactive] 보고서 등
 >* 더 이상 사용되지 않는 [!DNL Tag Insertion Manager]([!DNL TIM]) 기능입니다.
 
 

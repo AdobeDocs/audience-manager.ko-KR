@@ -3,9 +3,8 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager 사용 안내서
-user-guide-description: Audience Manager을 통해 사이트 방문자에 대한 상업적으로 연관성 있는 정보를 수집하고, 마케팅 가능한 세그먼트를 만들고, 타깃팅된 광고 및 컨텐츠를 적합한 고객에게 제공하는 방법을 살펴볼 수 있습니다.
+user-guide-description: Audience Manager을 통해 사이트 방문자에 대한 상업적으로 연관성 있는 정보를 수집하고, 마케팅 가능한 세그먼트를 만들고, 타깃팅된 광고 및 컨텐츠를 적절한 대상자에게 제공하는 방법을 알아봅니다.
 feature-set: Audience Manager
-translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
 source-wordcount: '1806'
@@ -34,7 +33,7 @@ ht-degree: 91%
          + [동의 관리](overview/data-security-and-privacy/data-privacy-consent.md)
          + [IAB TCF를 위한 Audience Manager 플러그인](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [데이터 거버넌스](overview/data-security-and-privacy/data-governance.md)
-   + [Audience Manager의 액세스 가능성](/help/using/overview/accessibility-in-aam.md)
+   + [Audience Manager의 접근성](/help/using/overview/accessibility-in-aam.md)
 + 기능{#features}
    + [대응 가능 대상](features/addressable-audiences.md)
    + 관리{#administration}
@@ -182,7 +181,7 @@ ht-degree: 91%
       + [대상 최적화 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + 광고주를 위한 Audience Optimization{#audience-optimization-advertisers}
          + [광고주를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Google 캠페인 관리자 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Google Campaign Manager 데이터 파일을 Audience Manager에 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [트렌드 분석 및 볼륨 분석 보고서](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [최적 빈도 보고서](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -191,7 +190,7 @@ ht-degree: 91%
          + [크로스 채널 전환](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + 게시자를 위한 Audience Optimization{#audience-optimization-publishers}
          + [게시자를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Google 광고 관리자(이전 DFP) 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager(이전 DFP) 데이터 파일을 Audience Manager에 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [세그먼트 트렌드 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [상위 사용하지 않는 특성](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -287,9 +286,9 @@ ht-degree: 91%
 + 구현 및 통합 안내서{#implementation-integration-guides}
    + [구현 및 통합 안내서](integration/implementation-and-integration.md)
    + [데이터 통합 방법](integration/data-integration-methods.md)
-   + Google 게시자 태그(GPT){#integrate-dfp-using-gpt}를 사용하여 Google 광고 관리자 통합
-      + [GPT 개요를 사용하여 Google 광고 관리자 통합](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [GPT를 사용하여 Google 광고 관리자에게 세그먼트 보내기](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + GPT(Google Publisher Tags)를 사용하여 Google Ad Manager 통합{#integrate-dfp-using-gpt}
+      + [GPT를 사용하여 Google Ad Manager 통합 개요](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [GPT를 사용하여 Google Ad Manager에 세그먼트 보내기](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 대상 만들기](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [GPT setTargeting API 호출 수정](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google Publisher Tag용 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -297,7 +296,7 @@ ht-degree: 91%
       + [Facebook WCA 통합](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS를 Audience Manager 대상으로 사용](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX를 Audience Manager 대상으로 사용](integration/integrating-third-party/openx-destination.md)
-      + [Audience Manager 대상으로 Google 광고 관리자(이전 DFP)](integration/aam-dfp.md)
+      + [Audience Manager 대상으로 Google Ad Manager(이전 DFP)](integration/aam-dfp.md)
       + [Google 애드워즈 리마케팅 목록에 세그먼트 보내기](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager 구현](integration/implement-audience-manager.md)
    + 미디어 데이터 통합{#media-data-integration}
@@ -339,7 +338,7 @@ ht-degree: 91%
          + [인바운드 처리 후 파트너에 대한 샘플 메시지](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [사용자 지정 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
-      + [Audience Manager 및 기타 Experience Cloud 솔루션과 Experience Platform 세그먼트 공유](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Audience Manager 및 기타 Experience Cloud 솔루션과의 Experience Platform 세그먼트 공유](integration/integration-aep/aam-aep-audience-sharing.md)
    + 다른 Experience Cloud 솔루션과의 통합 {#integration-other-solutions}
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)

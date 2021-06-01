@@ -8,7 +8,6 @@ title: 제품 및 기능 FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: 개요
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '615'
@@ -48,9 +47,9 @@ faq_features_functions.xml
 
  
 
-**대상으로 벌크 ID 내보내기를 수행할 때 고객 ID 중 일부가 누락되었습니다. 왜 그럴까?**
+**대상으로 벌크 ID 내보내기를 수행할 때 일부 고객 ID가 누락됩니다. 이유가 무엇입니까?**
 
-장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUIDs](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보내집니다. 이 때문에 내보내는 장치 ID의 개수가 예상보다 적을 수 있습니다.
+장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUIDs](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보냅니다. 내보내는 장치 ID의 예상 수보다 적은 수가 표시될 수 있습니다.
 
  
 

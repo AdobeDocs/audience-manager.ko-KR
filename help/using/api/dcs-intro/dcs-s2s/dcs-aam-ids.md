@@ -1,30 +1,29 @@
 ---
-description: 이 섹션에서는 DCS를 실시간으로 호출하는 데 필요한 방문자 및 지역 ID를 검색하기 위해 DCS 응답을 구문 분석하는 방법을 설명합니다.
-seo-description: 이 섹션에서는 DCS를 실시간으로 호출하는 데 필요한 방문자 및 지역 ID를 검색하기 위해 DCS 응답을 구문 분석하는 방법을 설명합니다.
+description: 이 섹션에서는 DCS에 대한 실시간 호출을 수행하는 데 필요한 방문자 및 지역 ID를 검색하기 위해 DCS 응답을 구문 분석하는 방법을 설명합니다.
+seo-description: 이 섹션에서는 DCS에 대한 실시간 호출을 수행하는 데 필요한 방문자 및 지역 ID를 검색하기 위해 DCS 응답을 구문 분석하는 방법을 설명합니다.
 seo-title: DCS 응답에서 사용자 ID 및 지역 가져오기
 solution: Audience Manager
 title: DCS 응답에서 사용자 ID 및 지역 가져오기
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 17%
 
 ---
 
-
 # DCS 응답에서 사용자 ID 및 지역 가져오기 {#get-user-ids-and-regions-from-a-dcs-response}
 
-이 섹션에서는 [!DNL DCS]에 대한 실시간 호출을 수행하는 데 필요한 방문자 및 지역 ID를 검색하기 위해 [!DNL DCS] 응답을 구문 분석하는 방법을 설명합니다.
+이 섹션에서는 [!DNL DCS] 응답을 구문 분석하여 [!DNL DCS]에 대한 실시간 호출을 수행하는 데 필요한 방문자 및 지역 ID를 검색하는 방법을 설명합니다.
 
 ## 사용자 및 지역 ID {#user-region-ids}
 
-[!DNL DCS] 응답에는 사이트 방문자에 대한 데이터가 포함됩니다. [!DNL DCS]에 대한 서버 간 호출을 수행하려면 먼저 방문자 및 지역 ID가 필요합니다.
+[!DNL DCS] 응답에는 사이트 방문자에 대한 데이터가 포함되어 있습니다. [!DNL DCS]에 서버 간 호출을 하려면 먼저 방문자 및 지역 ID가 필요합니다.
 
-* 데이터를 식별하고 특정 방문자와 연결하는 데 사용자 ID가 필요합니다.
-* 지역 ID는 지역 서버 이름에 연결되어 있으므로 [!DNL DCS]에 데이터를 보내야 합니다. [!DNL DCS]은 사이트 방문자와 지리적으로 가장 가까운 데이터 센터에 정보를 저장합니다. [DCS 영역 ID, 위치 및 호스트 이름](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)을 참조하십시오.
+* 데이터를 특정 방문자를 식별하고 연결하는 데 사용자 ID가 필요합니다.
+* 지역 ID는 지역 서버 이름에 연결되어 있어서 [!DNL DCS]에 데이터를 보내야 하므로 필요합니다. [!DNL DCS]은 사이트 방문자에게 지리적으로 가장 가까운 데이터 센터에 정보를 저장합니다. [DCS 영역 ID, 위치 및 호스트 이름](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)을 참조하십시오.
 
 이러한 매개 변수는 아래에 설명되어 있습니다. *기울임체*&#x200B;의 코드는 변수 자리 표시자를 나타냅니다.
 
@@ -52,7 +51,7 @@ ht-degree: 17%
 
 ## 샘플 응답 {#sample-response}
 
-이 간단한 응답에는 `UUID` 및 `ID` 영역이 표시됩니다. 참고, 이것은 샘플 데이터입니다. 로그 파일은 더 길고 복잡할 수 있습니다.
+이 간단한 응답에는 `UUID` 및 `ID` 영역이 표시됩니다. 참고: 이는 샘플 데이터만 포함합니다. 로그 파일이 더 길고 복잡할 수 있습니다.
 
 ```js
 {
@@ -65,4 +64,4 @@ ht-degree: 17%
 
 ## 다음 단계 {#next-steps}
 
-사용자 ID와 지역 서버 이름이 있으면 [!DNL DCS] 데이터를 보내고 받을 수 있습니다. [DCS API 호출 만들기](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)를 참조하십시오.
+사용자 ID 및 지역 서버 이름이 있으면 [!DNL DCS] 데이터 보내기 및 수신을 시작할 수 있습니다. [DCS API 호출 만들기](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)를 참조하십시오.

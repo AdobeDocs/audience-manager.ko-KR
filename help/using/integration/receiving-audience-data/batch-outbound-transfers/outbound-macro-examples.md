@@ -1,31 +1,30 @@
 ---
-description: 몇 가지 일반 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
-seo-description: 몇 가지 일반 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
+description: 몇 가지 일반적인 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
+seo-description: 몇 가지 일반적인 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
 seo-title: 아웃바운드 매크로 예제
 solution: Audience Manager
 title: 아웃바운드 매크로 예제
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 아웃바운드 데이터 전송
+exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 9%
 
 ---
 
-
 # 아웃바운드 매크로 예제 {#outbound-macro-examples}
 
-몇 가지 일반 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
+몇 가지 일반적인 매크로를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
 
 >[!NOTE]
 >
->테이블에서 **굵은체** 유형은 관련 출력으로 각 매크로를 식별합니다. 형식 예제의 경우 각 매크로를 시각적으로 구분하는 데 도움이 되도록 `<` `>` 기호가 추가되었습니다.
+>테이블에서 **굵은 면** 유형은 관련 출력으로 각 매크로를 식별합니다. 형식 예제의 경우 각 매크로를 시각적으로 구분하는 데 도움이 되도록 `<` `>` 기호가 추가되었습니다.
 
 ## 파일 이름 매크로 {#file-name-macros}
 
-사용 가능한 매크로와 정의 목록은 [아웃바운드 템플릿 매크로](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)를 참조하십시오.
+사용 가능한 매크로 및 정의 목록을 보려면 [아웃바운드 템플릿 매크로](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)를 참조하십시오.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -73,7 +72,7 @@ ht-degree: 9%
 
 ## 헤더 행 매크로 {#header-macros}
 
-사용 가능한 매크로와 정의 목록은 [아웃바운드 템플릿 매크로](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)를 참조하십시오.
+사용 가능한 매크로 및 정의 목록을 보려면 [아웃바운드 템플릿 매크로](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)를 참조하십시오.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -90,9 +89,9 @@ ht-degree: 9%
  </tbody>
 </table>
 
-## 파일 내용 매크로 {#file-content-macros}
+## 파일 콘텐츠 매크로 {#file-content-macros}
 
-사용 가능한 매크로와 정의 목록은 [아웃바운드 템플릿 매크로](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)를 참조하십시오.
+사용 가능한 매크로 및 정의 목록을 보려면 [아웃바운드 템플릿 매크로](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)를 참조하십시오.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -112,7 +111,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>아래 별도 섹션을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>아래의 별도 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
@@ -129,7 +128,7 @@ ht-degree: 9%
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>출력:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>참고: 첫 번째 예에서, <code> REMOVED_SEGMENT_LIST </code>이 비어 있으므로 매크로는 <code> SEGMENT_LIST </code>에 대한 데이터만 반환합니다. 두 번째 예에서는 두 매크로 모두에 대한 데이터를 반환합니다. </p> </p> </td> 
+     </code></p> <p> <p>참고: 첫 번째 예제에서는 <code> REMOVED_SEGMENT_LIST </code>이 비어 있으므로 매크로는 <code> SEGMENT_LIST </code>에 대한 데이터만 반환합니다. 두 번째 예제에서는 두 매크로 모두에 대한 데이터를 반환합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -148,12 +147,12 @@ ht-degree: 9%
 
 ### `DPUUID` 예
 
-`DPUUID` 매크로가 데이터를 출력하는 방법을 이해하는 데 도움이 되도록, 아래와 같이 2개의 `DPID`이 `DPUUID`s에 매핑되었다고 가정합니다.
+`DPUUID` 매크로가 데이터를 출력하는 방법을 이해하는 데 도움이 되도록 다음과 같이 `DPID`이 `DPUUID`에 매핑되어 있다고 가정해 보겠습니다.
 
-* DPID `1111`는 DPUUIDs `AAAA`(타임스탬프 = 1) 및 `BBBB`(타임스탬프 = 2)에 매핑됩니다.
-* DPID `2222`가 DPUUID `CCCC`에 매핑됩니다.
+* DPID `1111`는 DPUUIDs `AAAA` (timestamp = 1) 및 `BBBB` (timestamp = 2)에 매핑됩니다.
+* DPID `2222`는 DPUUID `CCCC`에 매핑됩니다.
 
-이러한 조건이 주어지면 다음 표에서는 가능한 일부 형식 문자열 및 해당 출력을 열거합니다.
+이러한 조건이 주어지면 다음 테이블은 가능한 일부 형식 문자열과 해당 출력을 열거합니다.
 
 <table id="table_6A6D94F994C1475BB09126BA0B815B1F"> 
  <thead> 
@@ -170,14 +169,14 @@ ht-degree: 9%
    <td colname="col3"> <p> <code> [["1111","AAAA"],["1111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>모든 DPID에 대해 최대 1개의 매핑을 반환합니다. </p> </td> 
+   <td colname="col1"> <p>모든 DPID에 대해 최대 1개의 매핑 반환 </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>DPID <code> 1111 </code>의 경우 해당 ID에 타임스탬프가 더 크기 때문에 매크로는 DPUUID <code> BBBB </code>에 매핑됩니다. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>DPID <code> 1111 </code>의 경우, 해당 ID에 더 큰 타임스탬프가 있기 때문에 매크로가 DPUUID <code> BBBB </code>에 매핑됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>단일 DPID에 대해 최대 2개의 매핑을 반환합니다. </p> </td> 
+   <td colname="col1"> <p>단일 DPID에 대해 최대 2개의 매핑 반환 </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p><code> maxMappings=2 </code> 그래도 이 매크로는 지정된 DPID에 DPUUID가 하나만 있으므로 DPID를 DPUUID로 1개만 반환합니다. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p><code> maxMappings=2 </code> 이 매크로는 지정된 DPID에 DPUUID가 하나만 있으므로 DPID에서 DPUUID로 1 개만 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

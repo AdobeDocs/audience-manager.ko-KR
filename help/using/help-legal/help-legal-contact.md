@@ -4,15 +4,14 @@ seo-description: 이 제품과 설명서의 사용에 관한 법적 문제를 �
 seo-title: 연락처 및 법적 정보
 solution: Audience Manager
 title: 연락처 및 법적 정보
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 지원
+exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # 연락처 및 법적 정보{#legal-contact}
 
@@ -31,7 +30,7 @@ Adobe Experience Cloud 고객 지원 센터팀은 고객 지원을 위해 구성
 
 솔루션 구성에 따라 이 설명서에서 설명하는 일부 선택 사항을 사용하지 못할 수 있습니다. 각 계정이 고유하므로 가격 책정, 기한 및 약관은 해당 계약을 참조하십시오. 서비스 수준을 높이거나 변경하려는 경우, 또는 현재 서비스에 대한 질문이 있는 경우에는 계정 관리자에게 문의하십시오.
 
-## 법적 정보  {#legal}
+## 법적 정보 {#legal}
 
 Published by Adobe Systems Incorporated.
 

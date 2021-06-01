@@ -5,15 +5,14 @@ seo-title: DIL 도구
 solution: Audience Manager
 title: DIL 도구
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: DIL 구현
+exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 5%
 
 ---
-
 
 # DIL 도구
 
@@ -27,7 +26,7 @@ c_dil_functions.xml
 
 ## getSearchReferrer
 
-현재 페이지에 도달하는 데 사용된 검색어를 반환합니다.
+현재 페이지에 도달하는 데 사용되는 검색어를 반환합니다.
 
 <!-- 
 
@@ -37,7 +36,7 @@ r_dil_get_search_referrer.xml
 
 ### `getSearchReferrer` 목적
 
-DIL에서 `getSearchReferrer`은 사이트에 도달하는 데 사용된 검색 결과(이름 및 키워드)를 반환합니다. 기본적으로 이 함수에 특정 검색어를 전달하거나 지원되는 검색 엔진( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] 및 [!DNL Yahoo])을 `document.referrer`에 대해 검색하도록 할 수 있습니다.
+DIL에서 `getSearchReferrer`은 사이트에 도달하기 위해 사용된 검색 결과(이름 및 키워드)를 반환합니다. 특정 검색어를 이 함수에 전달하거나 지원되는 검색 엔진( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] 및 [!DNL Yahoo])을 기본적으로 `document.referrer`에 대해 검색할 수 있도록 할 수 있습니다.
 
 ### 함수 서명
 
@@ -45,14 +44,14 @@ DIL에서 `getSearchReferrer`은 사이트에 도달하는 데 사용된 검색 
 
 ### 함수 매개 변수
 
-`getSearchReferrer` accepts:
+`getSearchReferrer` 수락:
 
-* *`{string}`*: *(선택 사항)* 검색 URL이 포함된 문자열(정의되지  `document.referrer` 않은 경우 사용).
-* *`{object}`*: *(선택 사항)* 또는 `hostPattern`,  `queryParam`또는 `queryPattern`의 구성이 들어 있는 개체입니다.
+* *`{string}`*: *(선택 사항)* 검색 URL이 포함된 문자열입니다(정의되지 않은  `document.referrer` 경우 사용).
+* *`{object}`*: *(선택 사항)*  `hostPattern`,  `queryParam` 또는  `queryPattern`에 대한 구성이 들어 있는 객체입니다.
 
-반환:
+및 반환:
 
-* `{object}` 유효한 이름과 키워드가 포함된 개체입니다.
+* `{object}` 유효한 이름과 키워드를 포함하는 객체입니다.
 
 ### 예
 
@@ -67,13 +66,13 @@ DIL에서 `getSearchReferrer`은 사이트에 도달하는 데 사용된 검색 
  <tbody> 
   <tr> 
    <td> 기본 검색</td> 
-   <td> AOL, Ask, Bing, Google 및 Yahoo 검색 엔진에서 사용하는 키워드 검색 용어를 반환합니다. </td> 
+   <td> AOL, Ask, Bing, Google 및 Yahoo 검색 엔진에서 사용하는 키워드 검색어를 반환합니다. </td> 
    <td>
       <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
-   <td>사용자 지정 URL 전달</td> 
+   <td>사용자 지정 URL에 전달</td> 
    <td>사용자 지정 URL을 기반으로 검색 레퍼러를 반환합니다.</td> 
    <td> 
   <code>
@@ -83,8 +82,8 @@ DIL에서 `getSearchReferrer`은 사이트에 도달하는 데 사용된 검색 
 </td> 
   </tr> 
   <tr> 
-   <td> <b>URL 호스트 이름과 사용자 지정 정규식 일치</b></td> 
-   <td> 참조 URL의 호스트 이름과 일치하도록 사용자 지정 regex를 전달합니다. </td> 
+   <td> <b>URL 호스트 이름을 사용자 지정 RegEx와 일치</b></td> 
+   <td> 참조 URL의 호스트 이름과 일치하도록 사용자 지정 정규 표현식 을 전달합니다. </td> 
    <td> 
   <code>
       var results = 
@@ -96,8 +95,8 @@ DIL에서 `getSearchReferrer`은 사이트에 도달하는 데 사용된 검색 
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>사용자 지정 레게와 검색 패턴 일치</b> </td> 
-   <td> 사용자 지정 검색을 수행하려면 사용자 지정 regex를 전달합니다. </td> 
+   <td> <b>검색 패턴과 사용자 지정 RegEx 일치</b> </td> 
+   <td> 사용자 지정 reg를 전달하여 사용자 지정 검색을 수행합니다. </td> 
    <td> 
     <code>
       var&nbsp;results&nbsp;= 
@@ -114,7 +113,7 @@ DIL에서 `getSearchReferrer`은 사이트에 도달하는 데 사용된 검색 
 
 ## decomposeURI
 
-Uniform Resource Identifier( [!DNL URI])를 구성 요소로 분해합니다.`hash`, `host`, `href`, `pathname`, `protocol`, `search` 및 `[!DNL uriParams]`
+Uniform Resource Identifier( [!DNL URI])를 해당 구성 요소에 어셈블합니다.`hash`, `host`, `href`, `pathname`, `protocol`, `search` 및 `[!DNL uriParams]`.
 
 <!-- 
 
@@ -126,13 +125,13 @@ r_dil_decompose.xml
 
 ### 함수 매개 변수
 
-`decomposeURI` accepts:
+`decomposeURI` 수락:
 
-* *`uri {string}`*: *(선택 사항)* URI를 포함하는 문자열입니다. 지정하지 않을 경우 기본값은 `document.location.href`입니다.
+* *`uri {string}`*: *(선택 사항)* URI가 포함된 문자열입니다. 지정하지 않은 경우 기본값은 `document.location.href`입니다.
 
-반환:
+및 반환:
 
-* *`{object}`*:유효한 이름과 키워드가 포함된 개체입니다.
+* *`{object}`*:유효한 이름과 키워드를 포함하는 객체입니다.
 
 ### 샘플 코드
 
@@ -170,7 +169,7 @@ r_dil_get_metatags.xml
 
 ### 함수 매개 변수
 
-`getMetaTags` 검색할 하나 이상의 이름 매개 변수(문자열 유형)를 허용합니다. 키-값 쌍으로 구성된 개체를 반환합니다.
+`getMetaTags` 은 검색할 하나 이상의 이름 매개 변수(문자열 유형)를 허용합니다. 키-값 쌍으로 구성된 개체를 반환합니다.
 
 ### 샘플 코드
 

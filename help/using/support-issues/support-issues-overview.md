@@ -4,9 +4,8 @@ seo-description: 이 섹션에는 Audience Manager 고객 지원 센터에 보�
 seo-title: 지원 문제 개요
 solution: Audience Manager
 title: 지원 문제 개요
-feature: Support
+feature: 지원
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '118'

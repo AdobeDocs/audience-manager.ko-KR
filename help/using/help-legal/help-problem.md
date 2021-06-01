@@ -4,15 +4,14 @@ seo-description: 발생할 수 있는 모든 문제의 해결을 돕도록 고�
 seo-title: 문제가 있을 경우
 solution: Audience Manager
 title: 문제가 있을 경우
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 지원
+exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
-
 
 # 문제가 있을 경우 {#problem}
 

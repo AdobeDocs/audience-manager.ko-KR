@@ -1,23 +1,22 @@
 ---
-description: 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 나머지 API 메서드입니다.
-seo-description: 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 나머지 API 메서드입니다.
+description: 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 Rest API 메서드입니다.
+seo-description: 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 Rest API 메서드입니다.
 seo-title: 사용자 관리 API 메서드
 solution: Audience Manager
 title: 사용자 관리 API 메서드
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 7%
 
 ---
 
-
 # 사용자 관리 API 메서드 {#user-management-api-methods}
 
-[!DNL API] 사용자 개체 만들기, 업데이트, 목록, 삭제 및 반환 등 사용자를 관리하는 데 필요한 나머지 메서드를 사용합니다.
+사용자 개체 만들기, 업데이트, 목록 지정, 삭제 및 반환 등 나머지 [!DNL API] 메서드를 사용하여 사용자를 관리합니다.
 
 <!-- c_rest_api_user_man_user.xml -->
 
@@ -66,11 +65,11 @@ ht-degree: 7%
 }
 ```
 
-`isAdmin`이(가) true로 설정된 경우 사용자가 파트너 관리자로 생성됩니다. 또한 이 속성을 사용하여 사용자가 파트너 관리자인지 알 수 있습니다.
+`isAdmin` 이 true로 설정되면 사용자가 파트너 관리자로 생성됩니다. 또한 이 속성을 사용하면 사용자가 파트너 관리자인지 여부를 알 수 있습니다.
 
-사용자 이름이 이미 수행된 경우 `409 Conflict`을 반환합니다.
+사용자 이름이 이미 사용되면 `409 Conflict` 을 반환합니다.
 
-## 사용자 업데이트 {#update-user}
+## 사용자 {#update-user} 업데이트
 
 사용자를 업데이트하는 `PUT` 메서드입니다.
 
@@ -111,9 +110,9 @@ ht-degree: 7%
 }
 ```
 
-사용자 이름이 이미 수행된 경우 `409 Conflict`을 반환합니다.
+사용자 이름이 이미 사용되면 `409 Conflict` 을 반환합니다.
 
-## 로그인한 사용자 업데이트 {#update-logged-in-user}
+## 로그인한 사용자 {#update-logged-in-user} 업데이트
 
 현재 로그인한 사용자를 업데이트하는 `PUT` 메서드입니다.
 
@@ -121,7 +120,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만, 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -154,7 +153,7 @@ ht-degree: 7%
 }
 ```
 
-사용자 이름이 이미 수행된 경우 `409 Conflict`을 반환합니다.
+사용자 이름이 이미 사용되면 `409 Conflict` 을 반환합니다.
 
 ## 로그인한 사용자 암호 업데이트 {#update-logged-in-user-pw}
 
@@ -164,7 +163,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만, 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -176,23 +175,23 @@ ht-degree: 7%
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-성공한 경우 `200 OK`을 반환합니다. 두 암호 중 하나에 잘못된 경우 `400 Bad Request`을 반환합니다.
+성공하면 `200 OK` 을 반환합니다. 두 암호 중 하나에 잘못된 경우 `400 Bad Request`을 반환합니다.
 
 ## 로그인한 사용자 암호 재설정 {#reset-logged-in-user-pw}
 
-현재 로그인한 사용자를 재설정하는 `PUT` 메서드입니다. [!UICONTROL Audience Management] 사용자에게 시스템 생성 암호를 보냅니다.
+현재 로그인한 사용자를 재설정하는 `PUT` 메서드입니다. [!UICONTROL Audience Management] 시스템에서 생성한 암호를 사용자에게 보냅니다.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만, 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
 `POST /self/reset-password`
 
-성공한 경우 `200 OK`을 반환합니다.
+성공하면 `200 OK` 을 반환합니다.
 
 ## 사용자 ID {#return-user-object-for-id}에 대한 사용자 개체 반환
 
@@ -222,15 +221,15 @@ ht-degree: 7%
 }
 ```
 
-## 로그인한 사용자의 반환 사용자 {#return-user-object-for-logged-in-user}
+## 로그인한 사용자 {#return-user-object-for-logged-in-user}에 대한 사용자 개체 반환
 
-현재 로그인한 사용자의 사용자 개체를 반환하는 `Get` 메서드입니다.
+현재 로그인한 사용자에 대한 사용자 개체를 반환하는 `Get` 메서드입니다.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
+>대부분의 [!DNL API] 메서드는 파트너 관리자만 호출할 수 있지만, 관리자가 아닌 사용자는 이 메서드를 호출할 수 있습니다.
 
 ### 요청
 
@@ -254,7 +253,7 @@ ht-degree: 7%
 }
 ```
 
-## 목록 사용자 {#list-users}
+## 사용자 나열 {#list-users}
 
 사용자를 나열하는 `GET` 메서드입니다.
 
@@ -298,9 +297,9 @@ ht-degree: 7%
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-성공한 경우 `204 No Content`을 반환합니다. 충돌이 발생하는 경우 `409 Conflict`이(가) 반환됩니다.
+성공하면 `204 No Content` 을 반환합니다. 충돌의 경우 `409 Conflict`을 반환합니다.
 
-## 벌크 {#delete-users-bulk}에서 사용자 삭제
+## 대량 {#delete-users-bulk}에서 사용자 삭제
 
 여러 사용자를 일괄 삭제하는 `POST` 메서드입니다.
 

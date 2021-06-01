@@ -1,23 +1,22 @@
 ---
-description: 나머지 API 메서드를 사용하여 그룹을 만들고, 업데이트하고, 나열하고, 삭제할 수 있습니다.
-seo-description: 나머지 API 메서드를 사용하여 그룹을 만들고, 업데이트하고, 나열하고, 삭제할 수 있습니다.
+description: 그룹 만들기, 업데이트, 목록 작성, 삭제 등 그룹을 관리하는 나머지 API 메서드입니다.
+seo-description: 그룹 만들기, 업데이트, 목록 작성, 삭제 등 그룹을 관리하는 나머지 API 메서드입니다.
 seo-title: 그룹 관리 API 메서드
 solution: Audience Manager
 title: 그룹 관리 API 메서드
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: b43c8404-1853-4306-8f26-96d9191a2548
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 13%
 
 ---
 
-
 # 그룹 관리 API 메서드 {#group-management-api-methods}
 
-[!DNL API] 메서드를 사용하여 그룹을 만들고, 업데이트하고, 나열하고, 삭제하는 등의 그룹을 관리합니다.
+그룹 만들기, 업데이트, 목록 작성, 삭제 등 그룹을 관리하는 나머지 [!DNL API] 메서드를 사용합니다.
 
 <!-- c_rest_api_user_man_group.xml -->
 
@@ -54,7 +53,7 @@ ht-degree: 13%
   }
 ```
 
-## {#update-group} 그룹 업데이트
+## 그룹 {#update-group} 업데이트
 
 사용자 그룹을 업데이트하는 `PUT` 메서드입니다.
 
@@ -127,9 +126,9 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-성공한 경우 `204 No Content`을 반환합니다. 충돌이 발생하는 경우 `409 Conflict`이(가) 반환됩니다.
+성공하면 `204 No Content` 을 반환합니다. 충돌의 경우 `409 Conflict`을 반환합니다.
 
-## 벌크 {#delete-groups-bulk}에서 그룹 삭제
+## 대량 {#delete-groups-bulk}에서 그룹 삭제
 
 여러 그룹을 일괄적으로 삭제하고 해당 그룹에서 모든 구성원을 제거하는 `DELETE` 메서드입니다.
 
@@ -139,11 +138,11 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/bulk-delete`
 
-성공한 경우 `204 No Content`을 반환합니다. 충돌이 발생하는 경우 `409 Conflict`이(가) 반환됩니다.
+성공하면 `204 No Content` 을 반환합니다. 충돌의 경우 `409 Conflict`을 반환합니다.
 
-## 그룹 {#list-permissions-group}에 대한 모든 권한 나열
+## 그룹에 대한 모든 권한 나열 {#list-permissions-group}
 
-그룹의 권한 개체를 나열하는 `GET` 메서드입니다.
+그룹에 있는 권한 개체를 나열하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -173,11 +172,11 @@ r_rest_api_group_list.xml
 ]
 ```
 
-그룹에 액세스할 수 없는 경우 `400 Bad Request`을 반환합니다.
+그룹에 액세스할 수 없는 경우 `400 Bad Request` 을 반환합니다.
 
-## 그룹 {#set-permissions-group}에 대한 권한 설정
+## {#set-permissions-group} 그룹에 대한 권한 설정
 
-그룹 권한을 업데이트하는 `PUT` 메서드입니다. 이 방법은 이전 권한을 새 권한으로 덮어씁니다.
+그룹 권한을 업데이트하는 `PUT` 메서드입니다. 이 메서드는 이전 권한을 새 권한으로 덮어씁니다.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -208,6 +207,6 @@ r_rest_api_group_list.xml
 ]
 ```
 
-샘플 응답은 업데이트된 권한 개체 목록을 나타냅니다.
+샘플 응답은 업데이트된 권한 객체 목록을 나타냅니다.
 
-성공한 경우 `200 OK`을 반환합니다. 주어진 권한이 잘못된 경우 `400`을 반환합니다. 로그인한 사용자가 개체에 액세스할 수 없을 경우 `403`을(를) 반환할 수도 있습니다.
+성공하면 `200 OK` 을 반환합니다. 주어진 권한이 잘못된 경우 `400` 을 반환합니다. 로그인한 사용자가 개체를 액세스할 수 없는 경우 `403`을 반환할 수도 있습니다.

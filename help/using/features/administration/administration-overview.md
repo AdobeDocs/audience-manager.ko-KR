@@ -1,14 +1,13 @@
 ---
-description: '[관리] 메뉴의 옵션을 사용하여 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 한도(트레이트, 세그먼트, 대상 및 모델)를 볼 수도 있습니다.'
-keywords: rbac;RBAC;역할 기반;역할 기반;역할 기반 액세스 제어
-seo-description: '[관리] 메뉴의 옵션을 사용하여 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 한도(트레이트, 세그먼트, 대상 및 모델)를 볼 수도 있습니다.'
+description: 관리 메뉴 아래의 옵션을 사용하면 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 제한(트레이트, 세그먼트, 대상 및 모델)을 볼 수도 있습니다.
+keywords: rbac;RBAC;역할 기반;역할 기반 액세스 제어
+seo-description: 관리 메뉴 아래의 옵션을 사용하면 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 제한(트레이트, 세그먼트, 대상 및 모델)을 볼 수도 있습니다.
 seo-title: 관리
 solution: Audience Manager
 title: 관리
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-feature: Administration
+feature: 관리
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '1204'
@@ -16,22 +15,22 @@ ht-degree: 1%
 
 ---
 
-# [!UICONTROL Administration] (RBAC 컨트롤)  {#administration}
+# [!UICONTROL Administration] (RBAC 컨트롤) {#administration}
 
 ![](assets/rbac-controls.png)
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)으로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 다음 문서에 설명된 필요한 조치를 즉시 취해야 합니다.[Admin Console](admin-console-migration.md)로의 Audience Manager 사용자 마이그레이션.
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 필요한 조치를 즉시 취해야 합니다.[Admin Console](admin-console-migration.md)로 Audience Manager 사용자 마이그레이션.
 > 
-> 모든 고객이 마이그레이션한 후 이 문서의 사용자 관리 섹션이 사라집니다.
+> 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
 
 
-[!UICONTROL Administration] 메뉴의 옵션을 사용하여 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 한도(트레이트, 세그먼트, 대상 및 모델)를 볼 수도 있습니다.
+[!UICONTROL Administration] 메뉴 아래의 옵션을 사용하면 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 제한(트레이트, 세그먼트, 대상 및 모델)을 볼 수도 있습니다.
 
-[!DNL Audience Manager]을(를) 사용하는 기업 고객은 모든 데이터에 대해 하나의 데이터 관리 플랫폼이 필요하지만 특정 사업부에 대해 다른 데이터 요소의 가시성을 제어할 수 있어야 합니다. 이 작업은 [!UICONTROL Role-Based Access Control]([!UICONTROL RBAC])이라고도 하는 그룹 권한을 사용하여 수행할 수 있습니다.
+[!DNL Audience Manager]을 사용하는 기업 고객은 모든 데이터에 대해 하나의 데이터 관리 플랫폼이 필요하지만 특정 비즈니스 단위에 대해 다른 데이터 요소의 가시성을 제어할 수 있어야 합니다. 이 작업은 [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC])이라고도 하는 그룹 권한을 사용하여 수행할 수 있습니다.
 
-[!DNL Audience Manager] 그룹을 사용하여 권한을 할당합니다. 권한은 사용자 수준에서 할당되지 않습니다. 그룹 권한은 개체([!UICONTROL traits], 세그먼트 등)에 연결되어 있습니다. 및 해당 개체에 대해 수행할 수 있는 작업(편집, 보기 등)에 대해 수행할 수 있습니다. 이러한 컨트롤은 Audience Manager REST API를 통해서도 사용할 수 있습니다. [사용자 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [그룹 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) 및 [권한 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) API 메서드를 참조하십시오.
+[!DNL Audience Manager] 그룹을 사용하여 권한을 할당합니다. 사용 권한은 사용자 수준에서 할당되지 않습니다. 그룹 권한은 개체([!UICONTROL traits], 세그먼트 등)에 연결되어 있습니다. 그리고 해당 객체(편집, 보기 등)에 대해 수행할 수 있는 작업에 대해 이러한 컨트롤은 Audience Manager REST API를 통해서도 사용할 수 있습니다. [사용자 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [그룹 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) 및 [권한 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) API 메서드를 참조하십시오.
 
 ## 사용자 만들기 {#create-users}
 
@@ -39,28 +38,28 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)으로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 다음 문서에 설명된 필요한 조치를 즉시 취해야 합니다.[Admin Console](admin-console-migration.md)로의 Audience Manager 사용자 마이그레이션.
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 필요한 조치를 즉시 취해야 합니다.[Admin Console](admin-console-migration.md)로 Audience Manager 사용자 마이그레이션.
 > 
-> 모든 고객이 마이그레이션한 후 이 문서의 사용자 관리 섹션은 삭제됩니다.
+> 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
 
-[!DNL Audience Manager]에서 사용자를 만들고 사용자 세부 사항, 로그인 상태를 지정하고 사용자를 그룹에 할당합니다.
+[!DNL Audience Manager]에서 사용자를 만들고 사용자 세부 사항, 로그인 상태를 지정하고 사용자를 그룹에 지정합니다.
 
 1. 클릭 **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
-1. ![](assets/icon_add.png)을 클릭하여 [!UICONTROL Create New User] 페이지를 표시합니다.
-1. **[!UICONTROL User Details]**&#x200B;에서 필드를 채웁니다.
-   * **[!UICONTROL Username]:** Audience Manager에 대한 고유한 사용자 이름을 지정합니다.
-   * **[!UICONTROL First Name]:** 사용자의 이름을 지정합니다.
-   * **[!UICONTROL Last Name]:** 사용자의 성을 지정합니다.
-   * **[!UICONTROL Email Address]:** 사용자의 이메일 주소를 지정합니다. [!DNL Audience Manager] 사용자에게 정기적인 알림을 보내지 않습니다. [!DNL Audience Manager] 관리자는 사용자의 이메일 주소에 액세스할 수 있으며 필요에 따라 수동으로 사용자에게 이메일을 보낼 수 있습니다. 예를 들어 사용자가 암호를 잊은 경우 이 필드에 지정된 이메일 주소는 임시 암호와 암호 재설정을 위한 지침을 보내는 데 사용됩니다.
-   * **[!UICONTROL Phone Number]:** 사용자의 전화 번호를 지정합니다.
-   * **[!UICONTROL Is Admin]:** 이 사용자가 관리자인지  [!DNL Audience Manager] 지정합니다. 관리 사용자는 사용자를 관리할 수 있습니다(만들기, 편집 등). 및 그룹(만들기, 권한 할당 등)을 만들 수 있습니다. 관리자가 아닌 사용자는 이메일 주소 편집 및 자체 암호 재설정을 포함하여 자신의 사용자 프로필만 제어할 수 있습니다. 자세한 내용은 [계정 설정 편집](../../features/administration/edit-account-settings.md)을 참조하십시오.
+1. ![](assets/icon_add.png) 을 클릭하여 [!UICONTROL Create New User] 페이지를 표시합니다.
+1. **[!UICONTROL User Details]** 아래에서 다음 필드를 채웁니다.
+   * **[!UICONTROL Username]** : Audience Manager에 사용할 고유한 사용자 이름을 지정합니다.
+   * **[!UICONTROL First Name]** : 사용자의 이름을 지정합니다.
+   * **[!UICONTROL Last Name]** : 사용자의 성을 지정합니다.
+   * **[!UICONTROL Email Address]** : 사용자의 이메일 주소를 지정합니다. [!DNL Audience Manager] 사용자에게 일반 알림을 전송하지 않습니다. [!DNL Audience Manager] 관리자는 사용자의 이메일 주소에 액세스할 수 있으며 필요에 따라 수동으로 사용자에게 이메일을 보낼 수 있습니다. 예를 들어 사용자가 암호를 잊어버리면 이 필드에 지정된 이메일 주소가 임시 암호와 암호 재설정 지침을 보내는 데 사용됩니다.
+   * **[!UICONTROL Phone Number]** : 사용자의 전화 번호를 지정합니다.
+   * **[!UICONTROL Is Admin]:** 이 사용자가 관리자인지  [!DNL Audience Manager] 지정합니다. 관리 사용자는 사용자를 관리(만들기, 편집 등)할 수 있습니다. 및 그룹(만들기, 권한 할당 등)에 사용됩니다. 관리자가 아닌 사용자는 이메일 주소 편집 및 자체 암호 재설정 등 자체 사용자 프로필만 제어할 수 있습니다. 자세한 내용은 [계정 설정 편집](../../features/administration/edit-account-settings.md)을 참조하십시오.
 1. **[!UICONTROL Login]** 아래에서 원하는 상태를 선택합니다.
-   * **[!UICONTROL Active]:**  활성 사용자는 그룹 구성원 [!DNL Audience Manager] 을 통해 권한을 부여받고 액세스할 수 있습니다.
-   * **[!UICONTROL Deactivated]:**  비활성화된 사용자는 액세스할  [!DNL Audience Manager] 수 없으며 권한이 없습니다. 사용자를 비활성화하면 사용자 정보가 [!DNL Audience Manager]에 남아 있으며 필요한 경우 다시 활성화할 수 있습니다. 사용자를 제거하는 경우 나중에 다시 [!DNL Audience Manager]을 사용해야 할 경우 사용자를 다시 만들어야 합니다.
-   * **[!UICONTROL Expired]사용자** 의 암호가 90일을 초과합니다.
-   * **[!UICONTROL Pending]사용자** 는 암호 재설정 후 또는 새 계정으로 임시 암호를 가지고 있으며 영구 암호를 아직 설정하지 않았습니다.
-   * **[!UICONTROL Locked Out]5:** 잘못된 로그인 시도가 있으면 사용자가 잠깁니다.
-1. **[!UICONTROL Assigned Groups]**의 드롭다운 목록에서 이 사용자를 할당할 원하는 그룹을 선택합니다.
+   * **[!UICONTROL Active]:**  활성 사용자는 그룹 멤버십에 의해 부여된 권한 [!DNL Audience Manager] 에 액세스하여 사용할 수 있습니다.
+   * **[!UICONTROL Deactivated]:**  비활성화된 사용자는 액세스할 수  [!DNL Audience Manager] 없으며 권한이 없습니다. 사용자를 비활성화하면 해당 사용자 정보가 [!DNL Audience Manager]에 남아 있으며, 필요한 경우 다시 활성화할 수 있습니다. 사용자를 제거하는 경우 나중에 [!DNL Audience Manager]을 다시 사용해야 하는 경우 사용자를 다시 만들어야 합니다.
+   * **[!UICONTROL Expired]** : 사용자의 암호가 90일 이상 걸립니다.
+   * **[!UICONTROL Pending]** : 사용자에게 암호 재설정 또는 새 계정으로 임시 암호가 있으며 아직 영구 암호를 설정하지 않았습니다.
+   * **[!UICONTROL Locked Out]:** 5번의 잘못된 로그인 시도에서 사용자가 차단됩니다.
+1. **[!UICONTROL Assigned Groups]** 아래의 드롭다운 목록에서 이 사용자를 지정할 그룹을 선택합니다.
 그룹 및 권한에 대한 자세한 내용은 [그룹 만들기](../../features/administration/administration-overview.md#create-group)를 참조하십시오.
 1. 클릭 **[!UICONTROL Save]**.
 
@@ -68,43 +67,44 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)으로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객에게 이 문서에 설명된 필요한 조치를 즉시 취할 것을 권장합니다.[Admin Console](admin-console-migration.md)로의 Audience Manager 사용자 마이그레이션.
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객에게 이 문서에 설명된 필요한 조치를 즉시 취할 것을 권장합니다.[Admin Console](admin-console-migration.md)로 Audience Manager 사용자 마이그레이션.
 > 
-> 모든 고객이 마이그레이션한 후 이 섹션은 삭제됩니다.
+> 모든 고객이 마이그레이션되면 이 섹션이 사라집니다.
 
-*그룹*&#x200B;은 [!UICONTROL destination], [!UICONTROL segment] 및 [!UICONTROL trait] 개체에 대한 액세스 권한을 공유하는 사용자의 모음입니다. 그룹을 단일 개체로만 제한하거나 여러 개체의 조합에 대한 광범위한 액세스 권한을 부여할 수 있습니다.
+*그룹*&#x200B;은 [!UICONTROL destination], [!UICONTROL segment] 및 [!UICONTROL trait] 개체에 대한 액세스 권한을 공유하는 사용자의 모음입니다. 그룹을 단일 개체로만 제한하거나 다양한 개체의 조합에 대한 광범위한 액세스 권한을 제공할 수 있습니다.
 
 <!-- t_create_groups.xml -->
 
 그룹을 만들려면:
 
 1. 클릭 **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
-2. ![](assets/icon_add.png)을 클릭하여 [!UICONTROL Group Settings] 페이지를 엽니다.
+2. ![](assets/icon_add.png) 을 클릭하여 [!UICONTROL Group Settings] 페이지를 엽니다.
 3.  [!UICONTROL Group Details]:
    * 그룹 이름을 지정합니다.
    * 간단한 그룹 설명을 제공합니다.
 4. [!UICONTROL Group Members]에서 **[!UICONTROL Add Users]** 옵션에서 사용자를 클릭하여 그룹에 추가합니다.
-5. [!UICONTROL Group Permissions]에서 [특성](../../features/traits/trait-details-page.md), [세그먼트](../../features/segments/segments-purpose.md) 또는 **[!UICONTROL Add Object]**&#x200B;에서 [대상](../../features/destinations/destinations.md)을 선택합니다.
-선택한 개체에 대한 권한 창이 열립니다.
-6. 그룹 구성원에게 부여할 권한에 대한 확인란을 선택합니다.
-7. *(선택 사항)* 그룹에  [와일드카드 ](../../features/administration/administration-overview.md#wild-card-permissions) 권한을 지정합니다.
+5. [!UICONTROL Group Permissions]에서 [트레이트](../../features/traits/trait-details-page.md), [세그먼트](../../features/segments/segments-purpose.md) 또는 **[!UICONTROL Add Object]**&#x200B;대상](../../features/destinations/destinations.md)을 선택합니다.
+[
+선택한 객체에 대한 권한 창이 열립니다.
+6. 그룹 구성원이 가질 권한에 대한 확인란을 선택합니다.
+7. *(선택 사항)* 그룹에  [와일드카드 ](../../features/administration/administration-overview.md#wild-card-permissions) 권한을 할당합니다.
 8. 클릭 **[!UICONTROL Save Group]**.
 
 ## [!UICONTROL Wild Card Permissions] {#wild-card-permissions} 이해
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)으로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객에게 이 문서에 설명된 필요한 조치를 즉시 취할 것을 권장합니다.[Admin Console](admin-console-migration.md)로의 Audience Manager 사용자 마이그레이션.
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 이동하는 중입니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객에게 이 문서에 설명된 필요한 조치를 즉시 취할 것을 권장합니다.[Admin Console](admin-console-migration.md)로 Audience Manager 사용자 마이그레이션.
 > 
-> 모든 고객이 마이그레이션한 후 이 섹션은 삭제됩니다.
+> 모든 고객이 마이그레이션되면 이 섹션이 사라집니다.
 
-[!UICONTROL Wild Card Permissions]으로 그룹 권한 관리를 간소화할 수 있습니다.
+[!UICONTROL Wild Card Permissions]으로 그룹 권한 관리를 단순화합니다.
 
 <!-- c_wildcard_permissions.xml -->
 
-[!UICONTROL Wild Card Permissions] 그룹 구성원에게  [!UICONTROL segment],  [!UICONTROL destination]또는 [!UICONTROL trait] 등과 연관된 각 데이터 소스에 대한 자동 액세스 권한을 부여합니다. 이에 비해 일반 권한에서는 이러한 개체 중 하나에 특정 [!UICONTROL data sources]만 할당할 수 있습니다. 또한 새 [!UICONTROL data sources]을(를) 추가하면 그룹 구성원이 해당 새 소스에 액세스할 수 없습니다.
+[!UICONTROL Wild Card Permissions] 그룹 구성원에게  [!UICONTROL segment],  [!UICONTROL destination] 또는  [!UICONTROL trait]와 연결된 각 데이터 소스에 대한 자동 액세스 권한을 제공합니다. 비교를 통해 일반 권한만 이러한 개체 중 하나에 특정 [!UICONTROL data sources]을 할당할 수 있습니다. 또한 새 [!UICONTROL data sources]을 추가하면 그룹 구성원이 해당 새로운 소스에 액세스할 수 없습니다.
 
-그룹 권한을 열고 새 [!UICONTROL data sources]을 그룹에 할당해야 합니다. [!UICONTROL Wild Card Permissions] 이 수동  [!UICONTROL data source] 업데이트 프로세스를 피하십시오. [!UICONTROL Wild Card Permissions]이(가) 있는 그룹은 명시적 인증 없이 새 [!UICONTROL data sources]에 액세스할 수 있습니다.
+그룹 권한을 열고 해당 새 [!UICONTROL data sources]을 그룹에 할당해야 합니다. [!UICONTROL Wild Card Permissions] 이 수동  [!UICONTROL data source] 업데이트 프로세스를 사용하지 마십시오. [!UICONTROL Wild Card Permissions]이 있는 그룹은 명시적 권한 없이 새 [!UICONTROL data sources]에 액세스할 수 있습니다.
 
 ![](assets/wild-card.png)
 
@@ -112,39 +112,39 @@ ht-degree: 1%
 
 **[!UICONTROL Trait]**
 
-* `MAP_ALL_TRAITS_TO_MODELS` - 사용자는 기준 [!UICONTROL traits] 으로 선택할 수  [!UICONTROL models]있습니다.
-* `EDIT_ALL_TRAITS` - 사용자는 회사 계정  [!UICONTROL traits] 내에서 설정된 모든 설정을 편집할 수 있습니다.
-* `VIEW_ALL_TRAITS` - 사용자는 회사 계정  [!UICONTROL traits] 내에서 설정된 모든 설정을 볼 수 있습니다.
-* `DELETE_ALL_TRAITS` - 사용자는 회사 계정  [!UICONTROL traits] 내에서 설정된 모든 설정을 삭제할 수 있습니다.
+* `MAP_ALL_TRAITS_TO_MODELS` - 을(를) 기준 [!UICONTROL traits] 으로 선택할 수  [!UICONTROL models]있습니다.
+* `EDIT_ALL_TRAITS` - 사용자는 회사 계정 내 [!UICONTROL traits] 에 설정된 모든 설정을 편집할 수 있습니다.
+* `VIEW_ALL_TRAITS` - 사용자는 회사 계정 내 [!UICONTROL traits] 에 설정된 모든 설정을 볼 수 있습니다.
+* `DELETE_ALL_TRAITS` - 사용자는 회사 계정 내 [!UICONTROL traits] 에 설정된 모든 설정을 삭제할 수 있습니다.
 * `CREATE_ALL_ALGO_TRAITS` - 사용자가 만들 수  [!UICONTROL algorithmic traits]있습니다.
-* `MAP_ALL_TO_SEGMENTS` - 사용자는 자신의 회사에  [!UICONTROL traits] 속하는 항목을 추가할 수  [!UICONTROL segments]있습니다.
+* `MAP_ALL_TO_SEGMENTS` - 사용자는에 회사 [!UICONTROL traits] 에 속하는 항목을 추가할 수  [!UICONTROL segments]있습니다.
 * `CREATE_ALL_TRAITS` - 사용자가 만들 수  [!UICONTROL traits]있습니다.
 
 **[!UICONTROL Reports]**
 
-* `PTRREPORTS` -  [!UICONTROL wildcard permission] 오래된 기능을 참조하며 Audience Manager 사용자 인터페이스에서 곧 제거됩니다.
+* `PTRREPORTS` -  [!UICONTROL wildcard permission] 이전 기능을 나타내며 Audience Manager 사용자 인터페이스에서 곧 제거됩니다.
 
 **[!UICONTROL Models]**
 
-* `VIEW_MODELS` - 사용자는 회사의  [!UICONTROL models] 소속을 볼 수 있는 권한이 있습니다.
+* `VIEW_MODELS` - 사용자에게 회사 [!UICONTROL models] 에 속하는 항목을 볼 수 있는 권한이 있습니다.
 
 **[!UICONTROL Derived Signals]**
 
-* `VIEW_DERIVED_SIGNALS` - 사용자는 회사의 모든  [!UICONTROL derived signals] 소속을 볼 수 있습니다.
+* `VIEW_DERIVED_SIGNALS` - 사용자는 자신의 회사에  [!UICONTROL derived signals] 속하는 모든 항목을 볼 수 있습니다.
 * `CREATE_DERIVED_SIGNALS` - 사용자가 만들 수  [!UICONTROL derived signals]있습니다.
-* `EDIT_DERIVED_SIGNALS` - 사용자는 회사에  [!UICONTROL derived signals] 속한 모든 항목을 편집할 수 있습니다.
-* `DELETE_DERIVED_SIGNALS` - 사용자는 회사  [!UICONTROL derived signals] 소속 항목을 삭제할 수 있습니다.
+* `EDIT_DERIVED_SIGNALS` - 사용자는 자신의 회사에  [!UICONTROL derived signals] 속하는 모든 항목을 편집할 수 있습니다.
+* `DELETE_DERIVED_SIGNALS` - 사용자는 자신의 회사에  [!UICONTROL derived signals] 속하는 항목을 삭제할 수 있습니다.
 
 **[!UICONTROL Destination]**
 
-* `EDIT_ALL_DESTINATIONS` - 사용자는 회사 계정 내에서  [!UICONTROL destinations] 설정한 모든 설정을 편집할 수 있습니다.
+* `EDIT_ALL_DESTINATIONS` - 사용자는 회사 계정 내에서  [!UICONTROL destinations] 설정된 모든 설정을 편집할 수 있습니다.
 * `CREATE_DESTINATIONS` - 사용자가 만들 수  [!UICONTROL destinations]있습니다.
-* `VIEW_ALL_DESTINATIONS` - 사용자는 회사 계정 내에서  [!UICONTROL destinations] 설정한 모든 설정을 볼 수 있습니다.
-* `DELETE_ALL_DESTINATIONS` - 사용자는 회사 계정 내에서  [!UICONTROL destinations] 설정한 모든 설정을 삭제할 수 있습니다.
+* `VIEW_ALL_DESTINATIONS` - 사용자는 회사 계정 내에서  [!UICONTROL destinations] 설정된 모든 설정을 볼 수 있습니다.
+* `DELETE_ALL_DESTINATIONS` - 사용자는 회사 계정 내에서  [!UICONTROL destinations] 설정된 모든 설정을 삭제할 수 있습니다.
 
 **[!UICONTROL Tags]**
 
-* `VIEW_TAGS` - 사용자는 자신의 작업(보기, 만들기, 편집, 삭제)을 모두 수행할 수  [!UICONTROL Tag Containers]있습니다.
+* `VIEW_TAGS` - 사용자는 자신에 대한 모든 작업(보기, 만들기, 편집, 삭제)을 수행할 수  [!UICONTROL Tag Containers]있습니다.
 
 **[!UICONTROL Audience Lab]**
 
@@ -152,31 +152,31 @@ ht-degree: 1%
 
 **[!UICONTROL Segment]**
 
-* `CREATE_ALL_SEGMENTS` - 사용자는 세그먼트를 만들 수 있습니다.
+* `CREATE_ALL_SEGMENTS` - 사용자가 세그먼트를 만들 수 있습니다.
 * `DELETE_ALL_SEGMENTS` - 사용자는 회사 계정 내에 설정된 모든 세그먼트를 삭제할 수 있습니다.
 * `MAP_ALL_TO_DESTINATIONS` - 사용자는 회사에 속하는 세그먼트를 대상에 매핑할 수 있습니다.
 * `EDIT_ALL_SEGMENTS` - 사용자는 회사 계정 내에 설정된 모든 세그먼트를 편집할 수 있습니다.
-* `MAP_ALL_SEGMENTS_TO_MODELS` - 사용자는 모델의 기준선으로 세그먼트를 선택할 수 있습니다.
+* `MAP_ALL_SEGMENTS_TO_MODELS` - 사용자는 모델을 기준으로 세그먼트를 선택할 수 있습니다.
 * `VIEW_ALL_SEGMENTS` - 사용자는 회사 계정 내에 설정된 모든 세그먼트를 볼 수 있습니다.
 
 **[!UICONTROL Signals]**
 
-* `VIEW_ALL_SIGNALS` - 사용자는  [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md)에서 캡처한 모든 신호를 볼 수 있습니다.
+* `VIEW_ALL_SIGNALS` - 사용자는  [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md)에 캡처된 모든 신호를 볼 수 있습니다.
 
 ## 사용 사례 {#use-cases}
 
 ### 사용자 액세스 모니터링 {#monitoring-user-access}
 
-[!UICONTROL Role-Based Access Control] 사용자 로그인 상태를 모니터링하여 Audience Manager 인스턴스에 액세스할 수 있는 사용자를 명확히 확인할 수 있습니다.
+[!UICONTROL Role-Based Access Control] 에서는 사용자 로그인 상태를 모니터하여 Audience Manager 인스턴스에 액세스할 수 있는 사용자를 명확하게 파악할 수 있습니다.
 
-비즈니스 요구 사항에 따라 필요에 따라 사용자 계정을 활성화하거나 비활성화할 수 있습니다.
+비즈니스 요구 사항에 따라 필요에 따라 사용자 계정을 활성화 및 비활성화할 수 있습니다.
 
-![모니터 사용자 액세스](assets/monitor-user-access.png)
+![monitor-user-access](assets/monitor-user-access.png)
 
-### 중요한 [!UICONTROL Data Sources] {#protect-sensitive-data-sources}에 대한 액세스 보호 확인
+### 중요 [!UICONTROL Data Sources] {#protect-sensitive-data-sources}에 대한 액세스 보호 확인
 
 각 사용자 그룹에 대해 [!UICONTROL trait], 세그먼트 및 [!UICONTROL destination] 수준에서 [!UICONTROL Role-Based Access Control]을 구성할 수 있습니다.
 
-이 기능은 사용자가 특정 데이터 세트를 보고, 만들고, 읽고, 쓰고, 편집하는 방법을 관리하고, 사용자가 사용할 수 없을 데이터 세트에 액세스하는 것을 제한할 수 있습니다.
+이 기능을 사용하면 사용자가 특정 데이터 세트를 보고, 만들고, 읽고, 쓰고, 편집하는 방법을 관리하고, 사용자가 사용할 수 없도록 해야 하는 데이터 세트에 액세스하는 것을 제한할 수 있습니다.
 
 ![액세스 보호](assets/access-protection.png)

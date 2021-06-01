@@ -1,35 +1,34 @@
 ---
-description: 사용자 정의 유형 또는 카테고리에 트레이트를 할당할 수 있는 선택적 방법(일반적으로 기능별 또는 자체 내부 보고 프로세스)입니다.
-seo-description: 사용자 정의 유형 또는 카테고리에 트레이트를 할당할 수 있는 선택적 방법(일반적으로 기능별 또는 자체 내부 보고 프로세스)입니다.
+description: 사용자 정의 유형 또는 카테고리에 트레이트를 할당할 수 있는 선택 방법으로서, 일반적으로 기능이나 자체 내부 보고 프로세스에 따라 다릅니다.
+seo-description: 사용자 정의 유형 또는 카테고리에 트레이트를 할당할 수 있는 선택 방법으로서, 일반적으로 기능이나 자체 내부 보고 프로세스에 따라 다릅니다.
 seo-title: 트레이트 유형 메서드
 solution: Audience Manager
 title: 트레이트 유형 메서드
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 9%
+source-wordcount: '180'
+ht-degree: 10%
 
 ---
 
-
 # 트레이트 유형 메서드 {#trait-type-methods}
 
-사용자 정의 유형 또는 카테고리에 트레이트를 할당할 수 있는 선택적 방법(일반적으로 기능별 또는 자체 내부 보고 프로세스)입니다.
+사용자 정의 유형 또는 카테고리에 트레이트를 할당할 수 있는 선택 방법으로서, 일반적으로 기능이나 자체 내부 보고 프로세스에 따라 다릅니다.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->특성 유형 메서드는 [공통 분류](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)에서 사용하는 카테고리에 특성을 할당하지 않습니다. 이러한 분류는 일반적인 분류법과는 별개라고 생각해 보십시오.
+>특성 유형 메서드는 [일반적인 분류](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)에 사용되는 카테고리에 트레이트를 할당하지 않습니다. 이러한 분류는 일반적인 분류법과는 별개인 레이블로 생각하십시오.
 
 시각적 참조의 경우 [!UICONTROL Trait Types]은 **[!UICONTROL Traits > Create new trait > Basic Information]** 아래의 [!DNL UI]에 있는 드롭다운 컨트롤입니다.
 
-## 새 특성 유형 {#create-trait-type} 만들기
+## 새 트레이트 유형 {#create-trait-type} 만들기
 
-새 특성 유형을 만들 수 있는 `POST` 메서드입니다.
+새 트레이트 유형을 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -60,9 +59,9 @@ ht-degree: 9%
 }
 ```
 
-## 특성 유형 {#return-props}에 대한 반환 속성
+## 트레이트 유형 {#return-props}에 대한 속성 반환
 
-지정된 특성 유형에 대한 세부 정보를 반환하는 `GET` 메서드입니다.
+지정된 트레이트 유형에 대한 세부 정보를 반환하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -85,9 +84,9 @@ ht-degree: 9%
 }
 ```
 
-## 모든 특성 유형 {#return-props-all}에 대한 반환 속성
+## 모든 트레이트 유형에 대한 속성 반환 {#return-props-all}
 
-배열에서 모든 특성 유형에 대한 세부 정보를 반환하는 `GET` 메서드입니다.
+배열에 있는 모든 트레이트 유형에 대한 세부 정보를 반환하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

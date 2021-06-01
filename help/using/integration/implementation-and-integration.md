@@ -4,9 +4,8 @@ seo-description: Experience Cloud 솔루션 또는 Audience Manager의 기타 �
 seo-title: Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에 있는 데이터로 작업합니다.
 solution: Audience Manager
 title: 구현 및 통합 안내서
-feature: Third-party Integration
+feature: 타사 통합
 exl-id: 6e3cccdd-10af-4b17-9ddb-c4faf63f0a50
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '77'

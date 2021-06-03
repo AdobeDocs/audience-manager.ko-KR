@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager을 통해 사이트 방문자에 대한 상업적으로 연관성 있는 정보를 수집하고, 마케팅 가능한 세그먼트를 만들고, 타깃팅된 광고 및 컨텐츠를 적절한 대상자에게 제공하는 방법을 알아봅니다.
 feature-set: Audience Manager
-source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
+source-git-commit: cf9368d4690b61066646054543cc60d390eea021
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 91%
+source-wordcount: '1809'
+ht-degree: 90%
 
 ---
 
@@ -393,6 +393,7 @@ ht-degree: 91%
    + [사용자 기반 대상 FAQ](faq/faq-people-based-destinations.md)
    + [제품 및 기능 FAQ](faq/faq-features.md)
    + [프로필 병합 규칙 및 장치 그래프 FAQ](faq/faq-profile-merge.md)
+   + [유사 모델링 FAQ](faq/faq-lookalike-modeling.md)
    + [Predictive Audiences FAQ](faq/faq-predictive-audiences.md)
    + [타겟팅 FAQ](faq/faq-targeting.md)
    + [보고 FAQ](faq/faq-reporting.md)

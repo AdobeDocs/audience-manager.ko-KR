@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP;SFTP 주소;STFP IP 주소;FTP 주소
 feature: 관리
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 24284321570ee5eb9632801a4a333a11b532e386
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 82%
+source-wordcount: '1206'
+ht-degree: 78%
 
 ---
 
@@ -205,3 +205,11 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 **[지역](../api/dcs-intro/dcs-api-reference/dcs-regions.md) 간에 사용자 프로필을 동기화하는 데 시간이 얼마나 걸립니까?**
 
 일반적으로 사용자 프로필이 지역 간에 동기화되려면 최대 24시간이 걸립니다. 그러나 드문 경우 이 프로세스는 최대 48시간이 걸릴 수 있습니다.
+
+ 
+
+**비활성 Amazon S3 사용자 액세스 키는 어떻게 됩니까?**
+
+Adobe은 Audience Manager 고객에게 [!DNL Amazon S3] Audience Manager 버킷에 대한 사용자 액세스 키를 제공합니다. 보안상의 이유로 100일 동안 활동이 없으면 키가 자동으로 비활성화됩니다.
+
+액세스 키를 다시 활성화하거나 새 키를 요청하려면 고객 지원 센터에 문의하십시오.

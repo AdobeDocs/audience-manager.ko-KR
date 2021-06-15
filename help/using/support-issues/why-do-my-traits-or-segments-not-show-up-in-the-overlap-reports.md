@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
 feature: 지원
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -28,4 +28,4 @@ Overlap Reports에 트레이트 또는 세그먼트가 나열되도록 하려면
 * 트레이트: 14일 기간 동안 28,000명
 * 세그먼트: 14일 동안 실시간 사용자 70,000명
 
-이에 대한 자세한 내용은 [선택한 Audience Manager 보고서의 데이터 샘플링 및 오류율](..//reporting/report-sampling.md)에서 확인할 수 있습니다.
+이에 대한 자세한 내용은 [선택한 Audience Manager 보고서의 데이터 샘플링 및 오류율](../reporting/report-sampling.md)에서 확인할 수 있습니다.

@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화
 feature: 사용자 기반 대상
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 ### 예
 
-아래 표에서 고객 ID에 해당하는 온보딩된 트레이트 ID를 자격을 부여하려고 합니다. [DPUUIDs](../../reference/ids-in-aam.md)가 ID 999999이 있는 데이터 소스에 저장되고 Audience Manager 파트너 ID가 123이라고 가정해 보겠습니다.
+아래 표에서 고객 ID에 해당하는 온보딩된 트레이트 ID를 자격을 부여하려고 합니다. [DPUUIDs](../../reference/ids-in-aam.md)가 ID 999999의 데이터 소스에 저장되고 Audience Manager 데이터 소스 ID가 123이라고 가정해 보겠습니다.
 
 | 고객 ID(DPUUID) | 온보딩된 트레이트 ID |
 | -------------------------------------- | ------------------- |

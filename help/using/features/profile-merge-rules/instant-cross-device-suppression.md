@@ -6,7 +6,7 @@ title: 즉각적인 장치 간 억제
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: 프로필 병합
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 15%
@@ -67,4 +67,4 @@ ht-degree: 15%
 타이밍과 관련된 다음 측면을 기억하십시오.
 
 * 세그먼트는 [Edge](../../reference/system-components/components-edge.md)에 저장되며, 장치 프로필은 [!UICONTROL Edge]에 저장됩니다. 즉, 마지막 실시간 상호 작용 이후 14일. 데이터 유지에 대한 자세한 내용은 [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)를 참조하십시오.
-* 세그먼트 해제 작업이 [!DNL DCS] 영역에 걸쳐 전파되는 데 약 24시간이 걸립니다. [!DNL DCS] 지역 [여기](../..//reference/system-components/components-data-collection.md) 및 [여기](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)에 대해 자세히 알아보십시오.
+* 세그먼트 해제 작업이 [!DNL DCS] 영역에 걸쳐 전파되는 데 약 24시간이 걸립니다. [!DNL DCS] 지역 [여기](../../reference/system-components/components-data-collection.md) 및 [여기](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)에 대해 자세히 알아보십시오.

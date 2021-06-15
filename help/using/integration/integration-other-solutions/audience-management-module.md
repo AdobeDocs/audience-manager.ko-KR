@@ -8,7 +8,7 @@ title: 대상 관리 모듈 구현
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics 통합
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 ### [!DNL Adobe Experience Platform Launch]을 사용한 구현
 
-[!DNL Adobe] launchextension을 사용하여  [](https://docs.adobe.com/content/help/en/launch/using/overview.html) 속성  [!DNL Adobe Analytics] 및 [!DNL Audience Manager] 에서 도구를 사용할 것을 권장합니다. 이 경우 코드를 수동으로 복사할 필요가 없습니다. 대신 아래 이미지와 같이 [!DNL Analytics Launch] 확장 프로그램에서 데이터 공유를 활성화해야 합니다. 또한 [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) 설명서를 참조하십시오.
+[!DNL Adobe] launchextension을 사용하여  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) 속성  [!DNL Adobe Analytics] 및 [!DNL Audience Manager] 에서 도구를 사용할 것을 권장합니다. 이 경우 코드를 수동으로 복사할 필요가 없습니다. 대신 아래 이미지와 같이 [!DNL Analytics Launch] 확장 프로그램에서 데이터 공유를 활성화해야 합니다. 또한 [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) 설명서를 참조하십시오.
 
 >[!TIP]
 >

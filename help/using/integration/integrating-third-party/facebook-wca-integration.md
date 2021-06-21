@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Facebook WCA 통합
 feature: 타사 통합
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 5%
@@ -68,7 +68,7 @@ ht-degree: 5%
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
 | 매개 변수 | 설명 |
----------|----------|
+|---------|----------|
 | `id` | 대상 픽셀을 만들 때 [!DNL Facebook Ad Manager] 사용자 인터페이스에서 찾을 수 있는 [!DNL Facebook] 픽셀 ID입니다. |
 | `ev` | Event.     이것은 임의의 값으로, 픽셀이 사이트에서 실행되기 시작하면 [!DNL Facebook Ad Manager] 사용자 인터페이스에 표시됩니다. 자세한 내용은 [3단계](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)의 [!UICONTROL Include] 항목을 참조하십시오. |
 | `cd[segID]` | 사이트에서 픽셀이 실행되기 시작하면 [!DNL Facebook Ad Manager] 사용자 인터페이스 내에서 입력되기 시작하는 추가 매개 변수입니다. `segID` 또한 임의적입니다. |
@@ -91,7 +91,7 @@ ht-degree: 5%
 [!DNL Facebook] 도움말 설명서에서 [웹 사이트 사용자 지정 대상 만들기](https://www.facebook.com/business/help/666509013483225) 를 참조하십시오. 아래 표에서 [!UICONTROL Create Audience] 옵션을 선택합니다.
 
 | 항목 | 설명 |
----------|----------|
+|---------|----------|
 | 웹 사이트 트래픽 | 사용자 지정 조합 |
 | 포함 | <ul><li>**[!UICONTROL Event]** > **[!UICONTROL Adobe-Audience-Manager-Segment]** 을 선택합니다. 이는 1단계의 예제 픽셀에 있는 `ev` 매개 변수의 값입니다. 픽셀을 아직 실행하지 않은 경우 **[!UICONTROL Event]** 옵션 또는 **[!UICONTROL Adobe-Audience-Manager-Segment]**&#x200B;이 [!DNL Facebook] 사용자 인터페이스에 표시되지 않을 수 있습니다.</li><li>매개 변수 추가:`segID` 을 선택합니다.</li><li><p>**포함** 연산자를 선택합니다.</p><p>이는 방문자가 여러 세그먼트에 대한 자격이 있음을 고려하여 픽셀 매개 변수에 여러 [!UICONTROL segment IDs]이 있을 수 있으므로 중요합니다. equals (`=`) 연산자를 사용하면 방문자가 대상에 적합하지 않을 수 있으며, 더 낮은 볼륨을 관찰할 수 있습니다.</p></li><li>값 추가:[!DNL Audience Manager] 세그먼트 ID를 입력합니다.</li></ul> |
 | 새 조건 추가 | 선택적 설정입니다. |

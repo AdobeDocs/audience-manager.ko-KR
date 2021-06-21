@@ -7,7 +7,7 @@ title: Audience Manager와 Adobe Experience Platform 간의 대상 공유
 keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유
 feature: 플랫폼 통합
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Audience Manager에서 다음과 같은 데이터 관리 플랫폼 사용 사례
 대상 공유 사용 사례에 대한 개요를 알려면 아래 표를 참조하십시오.
 
 | **사용 사례** | **Adobe Experience Platform** | **Audience Manager** | **핵심 서비스** |
----------|----------|---------|---------|
+|---------|----------|---------|---------|
 | **대상 공유** | <ul><li>Audience Manager 데이터로 고객 프로필 보강</li><li>Experience Platform 세그먼테이션에서 Audience Manager 데이터 사용</li></ul> | <ul><li>세그먼트에 타사 데이터 추가</li><li>알고리즘 모델링</li><li>추가 대상에 활성화</li></ul> | Adobe Target, Advertising Cloud 또는 Marketo과 같은 다른 Experience Cloud 솔루션에서 Experience Platform 세그먼트를 사용합니다. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -83,7 +83,7 @@ Experience Platform 세그먼트에서 자동으로 생성된 트레이트의 �
 
 
 | 항목 번호 | 이름 | 설명 |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | Experience Platform 세그먼트에서 생성된 트레이트는 Audience Manager에서 온보딩된 트레이트로 만들어집니다. |
 | 2 | [!UICONTROL Data Source] | 자동으로 만들어집니다. Experience Platform 세그먼트에서 자동으로 만들어지는 모든 트레이트와 세그먼트는 데이터 소스 **[!UICONTROL Adobe Experience Platform Audience Sharing]**&#x200B;에 저장됩니다. |
 | 3 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
@@ -103,10 +103,10 @@ Experience Platform 세그먼트에서 자동으로 생성된 세그먼트의 �
 ![세그먼트의 스크린샷](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | 항목 번호 | 이름 | 설명 |
----------|----------|---------|
-| 3 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
+|---------|----------|---------|
+| 1 | [!UICONTROL Integration Code] | 통합 코드는 Experience Platform의 세그먼트 ID에 해당합니다. |
 | 2개 | [!UICONTROL Data Source] | 자동으로 만들어집니다. Experience Platform 세그먼트에서 자동으로 만들어지는 모든 트레이트와 세그먼트는 데이터 소스 **[!DNL Adobe Experience Platform Audience Sharing]**&#x200B;에 저장됩니다. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 자동으로 생성된 세그먼트가 Experience Platform에서 설정된 병합 정책을 따르도록 지정합니다. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 자동으로 생성된 세그먼트가 Experience Platform에서 설정된 병합 정책을 따르도록 지정합니다. |
 | 4 | [!UICONTROL Segment Rule] | 세그먼트는 [트레이트 섹션](#aep-segments-as-aam-traits)에 설명된 트레이트로 구성됩니다. |
 
 {style=&quot;table-layout:auto&quot;}

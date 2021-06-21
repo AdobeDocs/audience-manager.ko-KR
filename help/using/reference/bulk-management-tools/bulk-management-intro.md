@@ -8,9 +8,9 @@ title: 벌크 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ c_bulk_start.xml
 
 ## 다운로드 {#download}
 
-최신 워크시트 **[여기](assets/BAAAM_V2_20200502.xlsm)**&#x200B;를 다운로드하십시오.
+최신 워크시트 **[여기](assets/BAAAM_V2_20210609.xlsm)**(2021년 6월에 마지막 업데이트)를 다운로드하십시오.
 
 ## 사전 요구 사항 {#prereqs}
 

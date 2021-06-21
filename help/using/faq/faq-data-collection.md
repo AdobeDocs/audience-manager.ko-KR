@@ -8,7 +8,7 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP;SFTP 주소;STFP IP 주소;FTP 주소
 feature: 관리
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 24284321570ee5eb9632801a4a333a11b532e386
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 78%
@@ -51,7 +51,7 @@ ht-degree: 78%
 아래의 SFTP 서버는 더 이상 사용되지 않습니다. 이러한 서버를 사용하여 새 계정이 프로비저닝되지 않습니다.
 
 | 서버 | IP 주소 |
----------|----------|
+|---------|----------|
 | ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 

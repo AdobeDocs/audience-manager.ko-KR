@@ -7,7 +7,7 @@ title: 세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: 세그먼트
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 
 | 지표 | 설명 |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | 프로필에서 선택한 트레이트가 있는 고유 ID의 수입니다. |
 
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 
 | 열 A | 열 B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | 현재 프로필과 실시간으로 표시되는 실제 장치 수는 장치 그래프에 의해 연결된 최대 100개의 다른 장치 프로필과 병합될 때 Audience Manager이 본 순간에 세그먼트에 대한 자격이 되는 트레이트를 포함합니다. |
 | [!UICONTROL Total Population (Existing)] | 장치 그래프에 의해 연결된 최대 100개의 다른 장치 프로필과 병합될 때 모두 세그먼트에 대한 자격이 있는 프로필이 있는 총 장치 수입니다. |
 

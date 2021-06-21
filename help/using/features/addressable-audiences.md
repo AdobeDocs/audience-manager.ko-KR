@@ -8,7 +8,7 @@ title: 대응 가능 대상
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: 일치율
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 [!UICONTROL Addressable Audiences] 랜딩 페이지에 표시되는 세 개의 지표는 다음과 같습니다.
 
 | 지표 | 설명 |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | 이 지표는 지난 30일 동안 [!UICONTROL Customer Addressable Audience](위의 표에 설명)을 나타냅니다.** |
 | **[!UICONTROL Match Rate]** | 이 지표는 지난 30일&#x200B;*에 대한 [!UICONTROL Addressable Audience Match Rate](위의 표에 설명)을 나타냅니다.* |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | 보고서 전환 확인 기간 동안 플랫폼 수준에서 모든 [!DNL Audience Manager] 고객과 상호 작용했으며 이 [!UICONTROL destination]과 일치할 수 있는 모든 장치의 수입니다. 자세한 내용은 [플랫폼 수준 지표](/help/using/features/addressable-audiences.md#platform-level-metrics)를 참조하십시오. |

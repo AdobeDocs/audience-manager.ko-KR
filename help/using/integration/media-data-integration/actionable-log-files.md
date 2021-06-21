@@ -8,7 +8,7 @@ title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: 로그 파일
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 3%
@@ -176,7 +176,7 @@ Removed  {importance="high"} for ExL
 
 
 | 로그 파일의 헤더 이름 | 신호 | 설명 |
----------|----------|---------
+|---------|----------|---------|
 | `LineItemId` | `d_lineitem` | 배달된 Ad Manager 라인 항목의 숫자 ID입니다 |
 | `OrderId` | `d_orderid` | 게재된 라인 항목과 크리에이티브가 포함된 광고 관리자 주문의 숫자 ID입니다. |
 | `CreativeId` | `d_creative` | 배달된 Ad Manager 문안의 숫자 ID입니다. |

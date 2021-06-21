@@ -7,7 +7,7 @@ title: 메타데이터 파일에 대한 전달 방법
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: 로그 파일
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 4%
@@ -44,7 +44,7 @@ Audience Manager 계정의 특수 [!DNL Amazon S3] 디렉토리에 메타데이�
 
 
 | 파일 매개 변수 | 설명 |
----------|----------|
+|---------|----------|
 | `.../log_ingestion/` | 디렉토리 저장소 경로의 시작입니다. 모든 것이 설정되면 전체 경로가 표시됩니다. |
 | `pid=<AAM ID>` | 이 키-값 쌍에는 Audience Manager 고객 ID가 포함되어 있습니다. |
 | `dpid=<d_src>` | 이 키-값 쌍에는 이벤트 호출 시 전달된 데이터 소스 ID가 포함되어 있습니다. 데이터 소스 ID는 파일의 모든 컨텐츠를 해당 컨텐츠가 속한 실제 데이터에 연결하는 값입니다. </br> 예를 들어, ID가 123이고 이름이 &quot;Advertiser Creative A&quot;인 크리에이티브가 있다고 가정해 보겠습니다. 이벤트 호출이 ID에서만 전달되므로 메타데이터 파일에 &quot;Advertiser Creative A&quot;를 포함해야 합니다. 캠페인과 크리에이티브는 데이터 소스에 속합니다. 데이터 소스 ID를 사용하면 이러한 ID를 함께 결합하고 이벤트 호출 시 전송된 ID에 파일 컨텐츠를 정확하게 연결할 수 있습니다. [이벤트 호출 ID가 파일 이름, 내용 및 배달 경로를 결정하는 방법](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)을 참조하십시오. |

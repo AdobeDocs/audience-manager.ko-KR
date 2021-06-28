@@ -7,9 +7,9 @@ title: Google 애드워즈 리마케팅 목록에 세그먼트 보내기
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: 타사 통합
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 5%
 1. Audience Manager에서 [Create a [!DNL URL destination]](../../features/destinations/create-url-destination.md)을 만들거나 기존 [!DNL destination]을 편집합니다. [!DNL destination]을 만들 때 다음 설정을 사용하십시오.
    * 유형:URL
    * 정리:활성화됨
-   * 구분 기호:세미콜론(;)
+   * 구분 기호:세미콜론( &amp;semi;))
 
 1. [!DNL URL] [!DNL destination]의 [!UICONTROL Segment Mappings] 섹션에서 2단계의 코드를 [!DNL URL] 및 [!DNL Secure URL] 필드에 추가합니다. 각각 [!DNL URL] 및 [!DNL Secure URL] 필드에 `http:` 및 `https:` 접두사로 코드를 추가합니다.
 

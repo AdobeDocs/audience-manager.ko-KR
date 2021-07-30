@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 트레이트 추천
 feature: 세그먼트
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 8%
@@ -154,7 +154,7 @@ Audience Manager은 [!UICONTROL UUID]s 수에 따라 교집합 및 결합을 계
 ### 예제 1 - 낮은 트레이트 유사성 점수
 
 두 트레이트 A와 B가 주어지면 각 트레이트의 모집단이 100만 [!UICONTROL UUID]s이고, 이 두 트레이트에 모두 사용할 수 있는 인구는 25,000[!UICONTROL UUID]입니다.
-위의 공식을 사용하면 다음과 같은 결과가 발생합니다.25,000 / 1,975,000 = 0.012. 낮은 [!UICONTROL Trait Similarity Score], 두 트레이트는 매우 유사합니다.
+위의 공식을 사용하면 다음과 같은 결과가 발생합니다. 25,000 / 1,975,000 = 0.012. 낮은 [!UICONTROL Trait Similarity Score], 두 트레이트는 매우 유사합니다.
 
 ![특성-recommendations-low-overlap](assets/Trait-Recommendations-Low-overlap.png)
 
@@ -170,7 +170,7 @@ Audience Manager은 [!UICONTROL UUID]s 수에 따라 교집합 및 결합을 계
 트레이트 유사성에 대한 대략적인 안내서로 아래 표를 사용하십시오. 이 안내서는 대부분의 트레이트에서 관찰되는 유사성 점수를 기반으로 합니다.
 
 | [!UICONTROL Trait Similarity Score] | 유의 |
----------|----------|
+|---------|----------|
 | 0.1 이상 | 트레이트 간 높은 유사성 |
 | 0.03 - 0.1 | 트레이트 간 중간 유사성 |
 | 0.01 - 0.03 | 트레이트 간 낮은 유사성 |

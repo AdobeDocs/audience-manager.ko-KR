@@ -7,9 +7,9 @@ title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: 프로필 병합
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1315'
 ht-degree: 4%
 
 ---
@@ -39,8 +39,8 @@ ht-degree: 4%
 3. 통합 코드를 제공합니다. 통합 코드는 이 데이터 소스에 대한 고유한 ID입니다.
 4. **[!UICONTROL ID Type]** 목록에서 **[!UICONTROL Cross Device]** 을 선택합니다.
 5. **[!UICONTROL ID Definition]** 목록에서 데이터 소스 유형을 정의하는 옵션을 선택합니다. 옵션은 다음과 같습니다.
-   * **[!UICONTROL Person]**:한 개인을 정의하는 ID입니다. 이 ID는 여러 [!DNL Audience Manager] ID에 매핑할 수 있습니다.
-   * **[!UICONTROL Household]**:사람 그룹을 정의하는 ID입니다. 이 ID는 여러 [!DNL Audience Manager] ID에 매핑할 수 있습니다.
+   * **[!UICONTROL Person]**: 한 개인을 정의하는 ID입니다. 이 ID는 여러 [!DNL Audience Manager] ID에 매핑할 수 있습니다.
+   * **[!UICONTROL Household]**: 사람 그룹을 정의하는 ID입니다. 이 ID는 여러 [!DNL Audience Manager] ID에 매핑할 수 있습니다.
 
 ## 데이터 내보내기 제어 {#export-controls}
 
@@ -50,11 +50,11 @@ ht-degree: 4%
 
 [!UICONTROL Data Source Settings] 섹션에서는 여러 옵션을 제공하지만 교차 장치 데이터 소스를 만드는 데 중요합니다.
 
-* **[!UICONTROL Use as Authenticated Profile]**:기본적으로 선택됩니다. 이 설정을 사용하면 자체 인증된 데이터 [!UICONTROL Profile Merge Rule] 로 를 작성할 수 있습니다.
+* **[!UICONTROL Use as Authenticated Profile]**: 기본적으로 선택됩니다. 이 설정을 사용하면 자체 인증된 데이터 [!UICONTROL Profile Merge Rule] 로 를 작성할 수 있습니다.
 
-* **[!UICONTROL Use as a Device Graph]**:이 컨트롤은 데이터 공급자로 나열된 계정에만 사용할 수 있습니다. 이 확인란을 선택하면 데이터 소스가 장치 그래프로 만들어지고 다른 [!DNL Audience Manager] 고객과 공유할 수 있습니다. [!DNL Audience Manager] 컨설턴트와 협력하여 데이터 공급자로 설정하고 이 [!UICONTROL Data Source]을(를) 공유해야 하는 고객을 지정합니다. 컨설턴트는 내부 프로비저닝 프로세스를 통해 계정 및 장치 그래프 공유를 프로비저닝합니다.
+* **[!UICONTROL Use as a Device Graph]**: 이 컨트롤은 데이터 공급자로 나열된 계정에만 사용할 수 있습니다. 이 확인란을 선택하면 데이터 소스가 장치 그래프로 만들어지고 다른 [!DNL Audience Manager] 고객과 공유할 수 있습니다. [!DNL Audience Manager] 컨설턴트와 협력하여 데이터 공급자로 설정하고 이 [!UICONTROL Data Source]을(를) 공유해야 하는 고객을 지정합니다. 컨설턴트는 내부 프로비저닝 프로세스를 통해 계정 및 장치 그래프 공유를 프로비저닝합니다.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**:이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 유지 기간을 설정할 수 있습니다. 이는 Audience Manager이 고객 ID를 Audience Manager 플랫폼에서 마지막으로 본 후 데이터베이스에 유지하는 시간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소값은 1개월이고 최대값은 5년입니다. 모든 개월 수를 30일로 계산합니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 유지에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: 이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 유지 기간을 설정할 수 있습니다. 이는 Audience Manager이 고객 ID를 Audience Manager 플랫폼에서 마지막으로 본 후 데이터베이스에 유지하는 시간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소값은 1개월이고 최대값은 5년입니다. 모든 개월 수를 30일로 계산합니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 유지에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
 이러한 설정과 연결된 텍스트 필드를 사용하면 [!UICONTROL Data Source]프로필 병합 규칙 옵션](merge-rule-definitions.md)에 나타나는 별칭으로 [ 이름을 바꿀 수 있습니다. 예를 들어 **[!UICONTROL Use as Authenticated Profile]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. **[!UICONTROL Use as a Device Graph]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
 
@@ -166,7 +166,7 @@ var vDil = DIL.create({
 });
 ```
 
-네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없는 경우 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리 를 참조하십시오.핵심 서비스](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html).
+네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없는 경우 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리 를 참조하십시오. 핵심 서비스](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### SDK 구성
 
@@ -192,8 +192,8 @@ DIL.create({
 
 [!DNL Android] 및 [!DNL iOS] 모바일 장치에서 [!UICONTROL declared IDs]을 전달할 수 있는 [!DNL SDK] 코드의 메서드를 확인합니다. [!DNL Android] 및 [!DNL iOS] 코드 라이브러리의 변수 이름은 동일합니다.
 
-* `dpid`:교차 장치 데이터 소스 ID입니다.
-* `dpuuid`: [!UICONTROL declared ID] (즉, 사용자 ID)입니다.
+* `dpid`: 교차 장치 데이터 소스 ID입니다.
+* `dpuuid`:  [!UICONTROL declared ID] (즉, 사용자 ID)입니다.
 
 <table id="table_2ACA3E5F316D4413B10A4403B786CC23"> 
  <thead> 
@@ -224,7 +224,7 @@ DIL.create({
  </tbody>
 </table>
 
-또한, Android용 [Audience Manager 메서드](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) 및 iOS용 [Audience Manager 메서드](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html)도 참조하십시오.
+또한, Android용 [Audience Manager 메서드](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) 및 iOS용 [Audience Manager 메서드](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html)도 참조하십시오.
 
 >[!MORELIKETHIS]
 >

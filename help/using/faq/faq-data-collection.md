@@ -5,13 +5,13 @@ seo-title: 데이터 수집 및 제품 통합 FAQ
 solution: Audience Manager
 title: 데이터 수집 및 제품 통합 FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP;SFTP 주소;STFP IP 주소;FTP 주소
+keywords: SFTP; SFTP 주소; STFP IP 주소; FTP 주소
 feature: 관리
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 78%
+source-wordcount: '1215'
+ht-degree: 79%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 78%
 
 | 서버 | IP 주소 |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119;3.233.68.222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252;18.211.109.184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
@@ -164,7 +164,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **는 어떻게  [!DNL Audience Manager] 쿠키를 설정하고 변수를 로 전달합니까 [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] 는 2개의 쿠키를 설정합니다.하나는 세그먼트 변수를  [!DNL Google Ad Manager] 광고 태그에 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며 이것은 또한  [!DNL Google Ad Manager]로 읽습니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
+[!DNL Audience Manager] 는 2개의 쿠키를 설정합니다. 하나는 세그먼트 변수를  [!DNL Google Ad Manager] 광고 태그에 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며 이것은 또한  [!DNL Google Ad Manager]로 읽습니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
 
 <br> 
 
@@ -190,7 +190,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 보고서는 보고서가 생성될 때 백엔드에 표시되는 인증되지 않은 프로필 레코드(UUID)를 기반으로 인구를 계산합니다.
 
-[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
+[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-am.html)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
 
 >[!NOTE]
 >

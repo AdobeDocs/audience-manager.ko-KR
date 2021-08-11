@@ -8,9 +8,9 @@ title: 베타 환경
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: 참조
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 4%
 
 ---
@@ -21,25 +21,21 @@ ht-degree: 4%
 
 ## 개요
 
-베타 환경은 실험적이거나 릴리스되지 않은 기능 없이 프로덕션 환경의 정확한 복제본입니다. 프로덕션 환경의 로그인 자격 증명은 베타 환경에서 유효합니다.
+베타 환경의 기능은 실험적이거나 릴리즈되지 않은 기능 없이 프로덕션 환경의 정확한 복제본입니다. 프로덕션 환경의 로그인 자격 증명은 베타 환경에서 유효합니다.
 
 **예약 업데이트**
 
 베타 환경은 비성수기 동안 매월 말에 업데이트됩니다.
 
+>[!IMPORTANT]
+>
+>고객 데이터([신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en))는 프로덕션 환경과 베타 환경 간에 동기화되지 않습니다.
+
 **아웃바운드 트래픽**
 
 베타 환경에 대해 아웃바운드 트래픽을 사용할 수 없습니다.
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## 끝점
-
-
 
 | 서비스 | URL/호스트 이름 | 액세스 권한을 얻는 방법 |
 |--- |--- | --- |
@@ -48,7 +44,7 @@ Added re: AAM-30826.
 | UI | `https://bank-beta.demdex.com` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. |
 | API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. [세부 사항](../api/rest-api-main/aam-api-getting-started.md#requirements) 을 참조하십시오. |
 
-## 베타 환경에서 DCS에 액세스 {#access-dcs-beta-environment}
+## 베타 환경에서 DCS 액세스 {#access-dcs-beta-environment}
 
 1. curl [command](https://curl.haxx.se/docs/manpage.html)를 사용하여 DCS를 호출합니다. Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 또는 서버에서 데이터를 전송하는 도구입니다.
 

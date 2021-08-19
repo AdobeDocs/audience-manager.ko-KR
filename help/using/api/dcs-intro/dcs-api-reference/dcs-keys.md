@@ -8,10 +8,10 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 5%
+source-wordcount: '839'
+ht-degree: 4%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 타사 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Experience Platform Identity 서비스 Adobe에 의해 동적으로 설정되며 <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform Identity 서비스에서 <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
+   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 타사 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Experience Platform Identity 서비스 Adobe에 의해 동적으로 설정되며 <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform Identity 서비스에서 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에 의해 설정되고 사용되는 Experience Cloud ID를 지정합니다. ECID에 대한 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에 의해 설정되고 사용되는 Experience Cloud ID를 지정합니다. ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -167,15 +167,15 @@ ht-degree: 5%
    <td colname="col2"> <p>트레이트 평가를 위한 데이터 소스를 전달합니다. 이 데이터 소스의 트레이트만 평가됩니다. </p> <p>예를 들어 다음과 같은 경우가 있습니다. </p> <p> 
      <ul id="ul_6230777E16C14DCB83025A101A4ECA14"> 
       <li id="li_71F3970417BC4B93881A3E12DADE4120"><b></b> 의 트레이트 T1: </li> 
-      <li id="li_66125E035F524A958C6F4BFAABA2A0D2">트레이트 규칙:"<code> key1 == val1</code>" </li> 
-      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">데이터 소스(<a href="../../../reference/ids-in-aam.md"> DPID</a>):3 </li> 
-      <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">DPID 통합 코드:ic1 </li> 
+      <li id="li_66125E035F524A958C6F4BFAABA2A0D2">트레이트 규칙: "<code> key1 == val1</code>" </li> 
+      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">데이터 소스(<a href="../../../reference/ids-in-aam.md"> DPID</a>): 1 </li> 
+      <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">DPID 통합 코드: ic1 </li> 
      </ul> 
      <ul id="ul_0C30A8AE349D43A08490DA76CB4B06FA"> 
       <li id="li_F1E8DB26168B471FA35D82F4DD3AC601"><b></b> 의 트레이트 T2: </li> 
-      <li id="li_1C943F84A4A149A0A86ABC92761D3E9E">트레이트 규칙:"<code> key2 == val2</code>" </li> 
-      <li id="li_F2AA086C87B7484F8BFE1D5C09E8EBDF">데이터 소스(DPID):2개 </li> 
-      <li id="li_877CAAAE996A4707BEE74F7042708481">DPID 통합 코드:ic2 </li> 
+      <li id="li_1C943F84A4A149A0A86ABC92761D3E9E">트레이트 규칙: "<code> key2 == val2</code>" </li> 
+      <li id="li_F2AA086C87B7484F8BFE1D5C09E8EBDF">데이터 소스(DPID): 2개 </li> 
+      <li id="li_877CAAAE996A4707BEE74F7042708481">DPID 통합 코드: ic2 </li> 
      </ul> </p> <p>샘플 호출에서 <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid=1</code> 트레이트 T1만 반환됩니다. </p> </td> 
   </tr> 
   <tr> 

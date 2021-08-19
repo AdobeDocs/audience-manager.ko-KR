@@ -7,10 +7,10 @@ title: 지원되는 브라우저
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: 참조
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe는 다음 브라우저의 최신 주요 버전을 지원합니다.
 
 * **Google Chrome**
 
-   [http://www.google.com/chrome](http://www.google.com/chrome)에서 최신 Chrome 버전을 다운로드하십시오.
+   [https://www.google.com/chrome](https://www.google.com/chrome)에서 최신 Chrome 버전을 다운로드하십시오.
 
 * **Microsoft Edge**
 
@@ -38,10 +38,10 @@ Adobe는 다음 브라우저의 최신 주요 버전을 지원합니다.
 
 * **Mozilla Firefox**
 
-   [http://www.mozilla.com/ko-KR/firefox](http://www.mozilla.com/ko-KR/firefox)에서 최신 Firefox 버전을 다운로드하십시오.
+   [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox)에서 최신 Firefox 버전을 다운로드하십시오.
 
 * **Safari**
 
-   [http://www.apple.com/safari/download](http://www.apple.com/kr/safari/download)에서 최신 Safari 버전을 다운로드하십시오.
+   [https://www.apple.com/safari/download](https://www.apple.com/safari/download)에서 최신 Safari 버전을 다운로드하십시오.
 
 다른 브라우저도 작동할 수 있지만 기술 및 제품팀에서 지원하지 않습니다. [!DNL Audience Manager] 사용에 문제가 있는 경우 최신의 지원되는 브라우저를 사용하고 있는지 확인하십시오.

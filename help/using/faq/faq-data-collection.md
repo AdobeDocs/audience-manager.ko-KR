@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP 주소; STFP IP 주소; FTP 주소
 feature: 관리
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 79%
+source-wordcount: '1213'
+ht-degree: 78%
 
 ---
 
@@ -190,7 +190,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 보고서는 보고서가 생성될 때 백엔드에 표시되는 인증되지 않은 프로필 레코드(UUID)를 기반으로 인구를 계산합니다.
 
-[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-am.html)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
+[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
 
 >[!NOTE]
 >

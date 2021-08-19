@@ -8,10 +8,10 @@ title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: 데이터 소스
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 6%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 1. [!UICONTROL integration code]을 제공합니다. 일반적으로 [!UICONTROL integration codes]은 선택 사항입니다. 이러한 수정 사항은 다음과 같은 경우에 필요합니다.
 
    * [교차 장치 데이터 소스를 만듭니다](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * [Adobe Experience Platform Identity 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 사용하십시오.
+   * [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하십시오.
    * [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md)을 사용하여 작업합니다.
 
 1. **[!UICONTROL ID Type]**&#x200B;을(를) 선택합니다. [!UICONTROL ID Type] 옵션은 다음과 같습니다.
@@ -61,7 +61,7 @@ ht-degree: 6%
 1. [!UICONTROL data source]에 옵션을 적용하려면 [!UICONTROL Data Source Setting] 확인란을 선택하십시오.
 2. 클릭 **[!UICONTROL Save]**.
 
-## 데이터 소스 {#delete-data-source} 삭제
+## 데이터 소스 삭제 {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
@@ -72,7 +72,7 @@ ht-degree: 6%
 >다음 제한 사항을 참고하십시오.
 >
 >* [활성 대상 또는 데이터 소스 동기화된 트레이트](../features/traits/client-activity-synced-audience-traits.md)는 삭제할 수 없습니다.
->* Adobe Analytics을 사용하는 고객의 경우:Audience Manager에서는 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. 이러한 데이터 소스를 매핑하지 않으려면 [핵심 서비스](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html)를 사용하십시오.
+>* Adobe Analytics을 사용하는 고객의 경우: Audience Manager에서는 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. 이러한 데이터 소스를 매핑하지 않으려면 [핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html)를 사용하십시오.
 
 
 1. 클릭 **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.

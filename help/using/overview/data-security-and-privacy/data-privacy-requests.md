@@ -8,10 +8,10 @@ title: 데이터 개인 정보 보호 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: 데이터 거버넌스 및 개인 정보
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 54%
+source-wordcount: '1482'
+ht-degree: 53%
 
 ---
 
@@ -97,8 +97,8 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
    <td colname="col1"> <p>모바일 장치 </p> </td> 
    <td colname="col2"> <p>다음 장치에 대한 옵트아웃 및 개인 정보 보호 설정을 확인하십시오. </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/ko-KR/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android 장치 </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS 장치 </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android 장치 </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS 장치 </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -162,7 +162,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 * 대상 파트너가 장치 ID에 대한 세그먼트 해제 요청을 받습니다. 세그먼테이션 해제는 [실시간](data-privacy-requests.md#aam-partners-with-unsegmentation) 대상과 배치 대상 모두에 대해 작동합니다.
 * 이전 데이터는 삭제되지 않습니다.
 
-## [!DNL Audience Manager] 세그먼테이션 해제 기능이 있는 파트너  {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] 세그먼테이션 해제 기능이 있는 파트너 {#aam-partners-with-unsegmentation}
 
 소비자 데이터 개인 정보 보호 요청을 자동화할 수 있도록 하기 위해 [!DNL Audience Manager]은(는) 세그먼트 해제(또는 세그먼트 제거) 정보를 활성화 파트너에게 보냄으로써 활성화 파트너에게 데이터 주체의 삭제 요청을 알리려 합니다.
 

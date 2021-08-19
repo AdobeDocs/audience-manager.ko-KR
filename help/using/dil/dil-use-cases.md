@@ -7,9 +7,9 @@ title: DIL 사용 사례 및 코드 샘플
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL 구현
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ c_dil_use_case.xml
 
  -->
 
-## DIL {#send-data-elements-dil}을 사용하여 데이터 요소를 Audience Manager에 전송
+## DIL을 사용하여 Audience Manager으로 데이터 요소 보내기 {#send-data-elements-dil}
 
 Audience Manager 요소에 대한 정보를 페이지에 전송하는 개체 변수를 만듭니다. 이 기능은 일반 데이터 수집 또는 Analytics 변수를 사용하여 데이터를 수집하는 데 유용합니다.
 
@@ -42,7 +42,7 @@ c_dil_send_page_objects.xml
 
 데이터를 전달할 때 값 속성을 동일하게 유지해야 합니다. 예를 들어 값이 다른 동일한 키가 두 개 있는 경우 마지막 키-값 쌍의 값이 이전 값 객체보다 우선합니다. 예를 들어 `color:blue` 및 `color:red`을 전달하면 반환된 값이 빨간색으로 설정됩니다(파란색 덮어쓰기).
 
-**예제 1:데이터를 키-값 쌍으로 보내기**
+**예제 1: 데이터를 키-값 쌍으로 보내기**
 
 이 기본 예에서는 색상 및 가격 데이터를 키-값 쌍 형태로 Audience Manager에 보냅니다. 코드는 다음과 유사할 수 있습니다.
 
@@ -55,7 +55,7 @@ sample_dil.api.signals({
 sample_dil.api.submit();
 </code></pre>
 
-**예제 2:개체에 데이터 보내기**
+**예제 2: 개체에 데이터 보내기**
 
 이 고급 예에서는 개체의 데이터를 Audience Manager으로 보내는 방법을 보여 줍니다. 이 메서드를 사용하여 작업할 때 [!UICONTROL DIL] 에서는 개체를 함수 매개 변수로 [!DNL signals()] 메서드에 전달할 수 있습니다. [!UICONTROL DIL] 코드는 다음과 유사할 수 있습니다.
 
@@ -70,7 +70,7 @@ var sample_dil = DIL.create({ partner : "<i>partner name</i>" });
 sample_dil.api.signals(my_object,"c_").submit();
 </code></pre>
 
-**예제 3:배열에 페이지 데이터 보내기**
+**예제 3: 배열에 페이지 데이터 보내기**
 
 이 경우 변수 `my_object`은(는) 배열을 사용하여 데이터를 보유합니다. 이 예에서는 위의 권장 방법으로 전달된 정보를 기반으로 빌드하지만 제품 유형과 모델을 수용할 추가 레이어를 추가합니다. 코드는 다음과 유사할 수 있습니다.
 
@@ -116,7 +116,7 @@ var adobe_dil = DIL.create({ partner : "<i>partner name</i>" });
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
-## 검색 엔진 유형 및 키워드 검색어 {#capture-search-engine-types} 캡처
+## 검색 엔진 유형 및 키워드 검색어 캡처 {#capture-search-engine-types}
 
 검색 엔진 유형 및 키워드 검색에 대한 정보를 Audience Manager으로 보냅니다.
 
@@ -181,7 +181,7 @@ if (search_referrer && search_referrer.valid) {
 }
 </code></pre>
 
-## 키 값을 다른 키 {#map-key-values}에 매핑
+## 다른 키에 키 값 매핑 {#map-key-values}
 
 키-값 쌍의 값을 다른 키에 연결합니다.
 
@@ -195,7 +195,7 @@ c_dil_map_keys.xml
 
 키-값 쌍에서 키에 추가된 `c_` 접두사는 신호를 고객 정의 데이터로 식별합니다. 고객 정의 데이터는 이벤트 호출 시 데이터를 전달한 특정 사이트에서 타겟팅하는 데 사용됩니다. 그러나 Audience Manager 계정의 모든 속성에서 이 정보를 사용할 수 있는 경우가 있습니다. 이렇게 하려면 `c_` 키-값 쌍의 값을 플랫폼 수준 키에 매핑합니다. 플랫폼 수준 키의 접두사로 `d_`이(가) 있으며, 이 신호를 계정의 모든 속성에서 타겟팅하는 데 사용할 수 있도록 합니다.
 
-예를 들어, 특정 사이트에서 ZIP 코드 데이터를 수집하지만 모든 Audience Manager 속성에 타겟팅하려고 합니다. 플랫폼 수준에서 ZIP 코드를 사용할 수 있도록 하기 위해 고객이 정의한 ZIP 코드 키(예:`c_zip`)를 플랫폼에 추가할 수 있습니다.
+예를 들어, 특정 사이트에서 ZIP 코드 데이터를 수집하지만 모든 Audience Manager 속성에 타겟팅하려고 합니다. 플랫폼 수준에서 ZIP 코드를 사용할 수 있도록 하기 위해 고객이 정의한 ZIP 코드 키(예: `c_zip`)를 플랫폼에 추가할 수 있습니다.
 
 **코드 샘플**
 
@@ -213,7 +213,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## GTM(Google Tag Manager)의 트래픽 DIL {#traffic-dil-gtm}
+## Google Tag Manager (GTM)의 트래픽 DIL {#traffic-dil-gtm}
 
 GTM 태그를 사용하여 DIL을 설정하고 제공합니다.
 
@@ -243,5 +243,5 @@ GTM에서 `dil.js` 파일에 트래픽을 처리하려면 다음을 수행하십
 >
 >* [Google Tag Manager 도움말 센터](https://support.google.com/tagmanager#topic=3441530)
 >* [신호](../dil/dil-instance-methods.md#signals)
-* [주요 변수의 접두사 요구 사항](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+* [주요 변수의 접두사 요구 사항](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 

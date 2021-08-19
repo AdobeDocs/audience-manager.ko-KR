@@ -8,9 +8,9 @@ title: 대상 관리 모듈 구현
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics 통합
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 확장을 활성화하거나 이 문서에 설명된 코드를 구현하는 것 외에도 다음을 수행해야 합니다.
 
 * [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 구현합니다.
-* [!UICONTROL Adobe Analytics Admin Console]의 보고서 세트에 대해 [서버측 전달](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 활성화합니다.
+* [!UICONTROL Adobe Analytics Admin Console]의 보고서 세트에 대해 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 활성화합니다.
 
 ## 구현 {#implementation}
 

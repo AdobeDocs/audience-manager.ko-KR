@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Predictive Audiences 시작
 feature: 알고리즘 모델
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 7%
 >[!IMPORTANT]
 >이 문서에는 이 기능의 설정 및 사용을 안내하는 제품 설명서가 포함되어 있습니다. 여기에 포함된 어떤 것도 법률적인 조언이 아닙니다. 법률 자문을 구하시려면 법률 자문을 구하십시오.
 
-## 예측 대상 모델 {#create-predictive-audiences} 만들기
+## 예측 대상 모델 만들기 {#create-predictive-audiences}
 
-[!UICONTROL Predictive Audiences] 모델을 만들기 전에 [!UICONTROL Predictive Audiences] 트레이트 및 세그먼트를 할당할 자사 데이터 소스를 결정해야 합니다. 기존 자사 데이터 소스를 사용하거나 새 자사 데이터 소스를 만들 수 있습니다. 새 자사 데이터 소스를 만드는 방법에 대한 자세한 내용은 [데이터 소스 관리](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) 를 참조하십시오.
+[!UICONTROL Predictive Audiences] 모델을 만들기 전에 [!UICONTROL Predictive Audiences] 트레이트 및 세그먼트를 할당할 자사 데이터 소스를 결정해야 합니다. 기존 자사 데이터 소스를 사용하거나 새 자사 데이터 소스를 만들 수 있습니다. 새 자사 데이터 소스를 만드는 방법에 대한 자세한 내용은 [데이터 소스 관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) 를 참조하십시오.
 
 사용할 데이터 소스를 알고 있으면 아래 단계를 따르십시오.
 
@@ -38,10 +38,10 @@ ht-degree: 7%
    ![smart-persona-select-audience](assets/predictive-audiences-audience.png)
 1. 대상자를 선택한 후 **[!UICONTROL Next]** 을 클릭합니다.
 1. 모델 세부 사항을 입력합니다.
-   * **[!UICONTROL Model Name]**:나중에 식별할 수 있도록 모델의 수사적 이름을 입력합니다. 모델에서 생성된 세그먼트의 이름은 모델 이름으로 시작됩니다.
-   * **[!UICONTROL Description]**:사용 사례를 식별하는 데 도움이 되는 모델에 대한 설명을 입력합니다.
-   * **[!UICONTROL Data Source]**:이 모델의 세그먼트를 할당할  [!UICONTROL Predictive Audiences] 자사 데이터 소스를 선택합니다.
-   * **[!UICONTROL Profile Merge Rule]**:이 모델 [!UICONTROL Profile Merge Rule] 에서 생성된 모든 예측 [!UICONTROL segments] 에 대해 지정할 을 선택합니다. 선택한 타겟 대상이 [!UICONTROL segment]인 경우 타겟 대상의 동일한 [!UICONTROL Profile Merge Rule]을 선택하는 것이 좋습니다.
+   * **[!UICONTROL Model Name]**: 나중에 식별할 수 있도록 모델의 수사적 이름을 입력합니다. 모델에서 생성된 세그먼트의 이름은 모델 이름으로 시작됩니다.
+   * **[!UICONTROL Description]**: 사용 사례를 식별하는 데 도움이 되는 모델에 대한 설명을 입력합니다.
+   * **[!UICONTROL Data Source]**: 이 모델의 세그먼트를 할당할  [!UICONTROL Predictive Audiences] 자사 데이터 소스를 선택합니다.
+   * **[!UICONTROL Profile Merge Rule]**: 이 모델 [!UICONTROL Profile Merge Rule] 에서 생성된 모든 예측 [!UICONTROL segments] 에 대해 지정할 을 선택합니다. 선택한 타겟 대상이 [!UICONTROL segment]인 경우 타겟 대상의 동일한 [!UICONTROL Profile Merge Rule]을 선택하는 것이 좋습니다.
       ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. 클릭 **[!UICONTROL Save]**.
 

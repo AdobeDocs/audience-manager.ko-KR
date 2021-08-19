@@ -7,10 +7,10 @@ title: 개인 정보 보호 및 데이터 유지 관련 FAQ
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: 데이터 거버넌스 및 개인 정보
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 84%
+source-wordcount: '759'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 84%
 
 **Audience Manager는 쿠키를 어떻게 사용하며 어떤 쿠키를 설정합니까?**
 
-[Audience Manager 쿠키](https://docs.adobe.com/content/help/ko-KR/core-services/interface/ec-cookies/cookies-am.html)를 참조하십시오.
+[Audience Manager 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)를 참조하십시오.
 
 **미국의 Audience Manager 고객이 EU 자산에서 사용자를 타겟팅할 수 있습니까?**
 

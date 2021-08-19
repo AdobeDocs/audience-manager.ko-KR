@@ -8,10 +8,10 @@ title: 선언된 ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID 동기화
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 10%
+source-wordcount: '1183'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 타사 [!DNL cookies] 등의 영구적 스토리지 메커니즘을 사용하거나 허용하지 않는 장치 또는 브라우저에서 사용자 ID를 [!DNL Audience Manager] 와 교환하고 동기화합니다.
 
-## [!UICONTROL Declared ID] 타깃팅 {#declared-id-targeting-purpose} 목적
+## [!UICONTROL Declared ID] 타깃팅 목적 {#declared-id-targeting-purpose}
 
 일부 브라우저 및 대부분의 모바일 장치에서는 타사 [!DNL cookies]을 허용하지 않습니다. 따라서 사이트 방문자에 대한 정보를 유지하거나 영구 ID를 할당하기 어렵습니다. 이 문제를 해결하려면 [!DNL Audience Manager]은 [!UICONTROL DIL]을 사용하여 이벤트 호출 시 [!UICONTROL declared IDs]를 전달할 수 있습니다. 또한 [!UICONTROL declared ID] 은 [!DNL Experience Cloud]의 모든 솔루션에서 동일한 사용자에게 적용되는 범용 ID 역할을 할 수 있습니다. 다음 표에서는 ID 타깃팅/일치 프로세스를 설명합니다.
 
@@ -37,11 +37,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>이벤트 호출</b> </td> 
-   <td colname="col2"> <p>작동하려면 페이지에 <span class="wintitle"> DIL </span> 및 <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 있어야 합니다. <span class="wintitle"> DIL </span> 는  <span class="wintitle"> Adobe Experience Platform Identity 서비스 </span> 에서 제공하는  <code> setVisitorID </code> 함수 <span class="keyword"> 에서 선언된 ID를 가져와서  </span> Audience Manager  <span class="keyword">   </span>에 전달합니다. </p> </td> 
+   <td colname="col2"> <p>작동하려면 페이지에 <span class="wintitle"> DIL </span> 및 <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 있어야 합니다. <span class="wintitle"> DIL </span> 는  <span class="wintitle"> Adobe Experience Platform Identity 서비스 </span> 에서 제공하는  <code> setVisitorID </code> 함수 <span class="keyword"> 에서 선언된 ID를 가져와서  </span> Audience Manager  <span class="keyword">   </span>에 전달합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>일치 ID</b> </td> 
-   <td colname="col2"> <p>Audience Manager은 클라이언트 및 방문자 ID를 Adobe 시스템의 해당 ID와 일치시키려고 합니다. 일치하는 ID가 없으면 Audience Manager은 새 ID를 만들어 클라이언트 및 방문자 ID와 연결합니다. </p> <p> <p>참고: 가장 최근 매핑은 ID가 둘 이상의 Audience Manager ID에 매핑되는 경우 사용됩니다. </p> </p> </td> 
+   <td colname="col2"> <p>Audience Manager은 클라이언트 및 방문자 ID를 Adobe 시스템의 해당 ID와 일치시키려고 합니다. 일치하는 ID가 없으면 Audience Manager은 새 ID를 만들어 클라이언트 및 방문자 ID와 연결합니다. </p> <p> <p>참고:  가장 최근 매핑은 ID가 둘 이상의 Audience Manager ID에 매핑되는 경우 사용됩니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>반환 ID</b> </td> 
@@ -65,7 +65,7 @@ ht-degree: 10%
 
 데이터 수집 옵트아웃에 대한 자세한 내용은 [데이터 개인 정보 보호](../overview/data-security-and-privacy/data-privacy.md) 를 참조하십시오.
 
-## [!UICONTROL Declared ID] 옵트아웃 예  {#opt-out-examples}
+## [!UICONTROL Declared ID] 옵트아웃 예 {#opt-out-examples}
 
 `d_cid` 및 `d_cid_ic` 키-값 쌍을 사용하여 [!UICONTROL declared ID] 옵트아웃 요청을 만들 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
@@ -123,7 +123,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-## [!UICONTROL Declared IDs] {#variables-and-syntax}에 대한 변수 및 구문
+## [!UICONTROL Declared IDs]에 대한 변수 및 구문 {#variables-and-syntax}
 
 다음 표에는 [!DNL Audience Manager] 데이터 공급자 ID와 사용자 ID 또는 통합 코드(사용하는 경우)에 전달되는 키-값 쌍이 나와 있습니다. 참고: *기울임체*&#x200B;는 변수 자리 표시자를 나타냅니다. 이러한 기능을 보다 쉽게 읽을 수 있도록 공백이 추가되었습니다.
 
@@ -184,7 +184,7 @@ ht-degree: 10%
 
 ## [!UICONTROL DIL] 에서 전달 [!DNL Adobe Experience Platform Identity Service] 에 사용  [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-[Adobe Experience Platform Identity 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)와 함께 사용하는 경우 더 이상 사용되지 않는 `dpid` 및 `dpuuid` 변수와 함께 [!UICONTROL declared IDs]를 전달할 필요가 없습니다. 대신 현재 [!UICONTROL DIL] 버전은 `visitorService` 함수에 의존하여 [!UICONTROL Adobe Experience Platform Identity Service]의 `setCustomerIDs` 함수에서 [!UICONTROL declared IDs]를 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)를 참조하십시오. 아래 표시된 대로 `DIL.create`에서 `visitorService`을 호출합니다.
+[Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)와 함께 사용하는 경우 더 이상 사용되지 않는 `dpid` 및 `dpuuid` 변수와 함께 [!UICONTROL declared IDs]를 전달할 필요가 없습니다. 대신 현재 [!UICONTROL DIL] 버전은 `visitorService` 함수에 의존하여 [!UICONTROL Adobe Experience Platform Identity Service]의 `setCustomerIDs` 함수에서 [!UICONTROL declared IDs]를 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오. 아래 표시된 대로 `DIL.create`에서 `visitorService`을 호출합니다.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-`namespace` 키-값 쌍에서 `MCORG` 는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없는 경우 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리 를 참조하십시오.핵심 서비스](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
+`namespace` 키-값 쌍에서 `MCORG` 는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없는 경우 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리 를 참조하십시오. 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
 
 ## 사용되지 않는 함수 {#deprecated-functions}
 
@@ -274,7 +274,7 @@ myCallback({
 })
 ```
 
-## Target 및 옵트아웃 호출 안 함 {#do-not-target}
+## Target 및 옵트아웃 호출 금지 {#do-not-target}
 
 [!UICONTROL declared ID] 프로세스는 웹 사이트에 의한 [!DNL Audience Manager] 타깃팅을 옵트아웃하도록 사이트 방문자 환경 설정을 적용합니다. [!DNL Audience Manager]이 옵트아웃 요청을 받으면 [!DNL DCS]은 [!DNL Audience Manager] 사용자 ID 대신 빈 [!DNL JSON] 개체를 반환합니다.
 

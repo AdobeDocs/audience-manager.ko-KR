@@ -8,10 +8,10 @@ title: 인바운드 고객 데이터 섭취 FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: 오프라인 데이터 온보딩
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 91%
+source-wordcount: '1360'
+ht-degree: 89%
 
 ---
 
@@ -60,8 +60,8 @@ ht-degree: 91%
 
 예. 업로드한 CRM 데이터를 저장하는 데 [!UICONTROL cross-device data source]을 사용하는 한 Audience Manager은 항상 데이터를 저장합니다. 실제로 오프라인 전용 사용 사례를 허용하는 2019년 10월에 Audience Manager이 시작한 [!UICONTROL Profile Merge Rules] 개선 사항에 따라 Audience Manager 코드를 프로덕션에 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
 
-* [프로필 병합 규칙 개선 사항 개요](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [오프라인 전용 데이터를 기반으로 개인화](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [프로필 병합 규칙 개선 사항 개요](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] -  [오프라인 전용 데이터를 기반으로 개인화](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 

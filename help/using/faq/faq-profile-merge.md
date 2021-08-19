@@ -8,9 +8,9 @@ title: 프로필 병합 규칙 및 장치 그래프 FAQ
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: 프로필 병합
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
@@ -111,7 +111,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **세그먼트 크기 추정치에는 장치 그래프 옵션을 사용하는 [!UICONTROL Profile Merge Rule]에 의해 제공되는 연결을 기반으로 세그먼트에 적합한 장치가 포함됩니까?**
 
-아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://docs.adobe.com/content/help/ko-KR/audience-manager/user-guide/features/segments/segment-builder-data.html)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
+아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
 
  
 

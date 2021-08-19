@@ -7,10 +7,10 @@ title: 세그먼트 목적, 구성 및 규칙
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 feature: 세그먼트
 exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 6%
+source-wordcount: '327'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics [!UICONTROL segments] 또는 보고서 세트를 Experience Clou
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments]은 [!DNL Adobe Analytics] [!UICONTROL segments]과 다릅니다. 그 차이점에 대한 심도 있는 설명이 필요하면 [Analytics와 Audience Manager](https://docs.adobe.com/content/help/ko-KR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)의 세그먼트 이해 를 참조하십시오.
+>Audience Manager [!UICONTROL segments]은 [!DNL Adobe Analytics] [!UICONTROL segments]과 다릅니다. 그 차이점에 대한 심도 있는 설명이 필요하면 [Analytics와 Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)의 세그먼트 이해 를 참조하십시오.
 
 ## [!UICONTROL Segment Builder]을 사용하여 규칙 기반 [!UICONTROL Segments] 만들기
 

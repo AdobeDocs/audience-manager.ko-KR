@@ -7,10 +7,10 @@ title: 픽셀 호출을 통해 캠페인 클릭 데이터 캡처
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Adobe Campaign 통합
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 11%
+source-wordcount: '687'
+ht-degree: 10%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 11%
 
 클릭 추적 호출에는 다음 매개 변수가 필요합니다.
 
-* `d_event=click`:이벤트 호출을 클릭 이벤트로 식별하는 키-값 쌍입니다.
-* `d_rd=redirect URL`:이중 인코딩된 리디렉션을 포함하는 키-값 쌍입니다  [!DNL URL]. 온라인 인코딩 도구를 사용하는 경우 인코더를 통해 문자열을 실행한 다음 리디렉션이 작동하도록 결과를 다시 인코딩합니다.
+* `d_event=click`: 이벤트 호출을 클릭 이벤트로 식별하는 키-값 쌍입니다.
+* `d_rd=redirect URL`: 이중 인코딩된 리디렉션을 포함하는 키-값 쌍입니다  [!DNL URL]. 온라인 인코딩 도구를 사용하는 경우 인코더를 통해 문자열을 실행한 다음 리디렉션이 작동하도록 결과를 다시 인코딩합니다.
 
 또한 이 호출에는 트레이트 자격에 사용하거나 다른 보고서에 대한 데이터 및 메타데이터를 제공하는 데 사용할 수 있는 키-값 쌍이 포함될 수 있습니다.
 
@@ -47,7 +47,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 지원되는 매크로
 
-다음 표에 나열된 매크로를 지원하는 클릭 이벤트를 클릭합니다. 매크로는 캠페인 및 사용자 추적을 위해 광고 태그가 로드될 때 활성화되는 소규모 자체 포함된 코드 단위입니다. 매크로는 다음 형식으로 표시된 경우 대상 [!DNL URL]과 함께 전달됩니다.`%macro%`. 일부 키에는 매크로가 없으며 대신 하드 코딩된 ID 값을 허용합니다. [Audience Optimization 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md)에서 데이터를 분석하려는 경우 하드 코딩된 값을 허용하는 키가 필요합니다.
+다음 표에 나열된 매크로를 지원하는 클릭 이벤트를 클릭합니다. 매크로는 캠페인 및 사용자 추적을 위해 광고 태그가 로드될 때 활성화되는 소규모 자체 포함된 코드 단위입니다. 매크로는 다음 형식으로 표시된 경우 대상 [!DNL URL]과 함께 전달됩니다. `%macro%`. 일부 키에는 매크로가 없으며 대신 하드 코딩된 ID 값을 허용합니다. [Audience Optimization 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md)에서 데이터를 분석하려는 경우 하드 코딩된 값을 허용하는 키가 필요합니다.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -96,7 +96,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"></span> ECID(Experience Cloud ID). ECID에 대한 자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>를 참조하십시오. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> ECID(Experience Cloud ID). ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>를 참조하십시오. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 

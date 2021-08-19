@@ -8,9 +8,9 @@ title: 인스턴스 수준 DIL 메서드
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL 구현
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1105'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 인스턴스 수준 [!UICONTROL DIL] API를 사용하면 프로그래밍 방식으로 Audience Manager 개체를 만들고 사용할 수 있습니다. 인스턴스 수준 메서드는 클래스 수준 메서드에서 설정한 API 기능을 향상시킵니다.
 
-## 인스턴스 수준 DIL 메서드 {#get-started-dil-methods} 시작
+## 인스턴스 수준 DIL 메서드 시작 {#get-started-dil-methods}
 
 <!-- 
 
@@ -723,8 +723,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [주요 변수의 이름 요구 사항](../features/traits/trait-key-name-requirements.md)
 * [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
-* [Adobe Experience Platform Identity 서비스의 동기화 함수](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+* [Adobe Experience Platform Identity 서비스의 동기화 함수](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
 * [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
-* [Adobe Experience Platform Identity 서비스:UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
-* [Adobe Experience Platform Identity 서비스에서 CORS 지원](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+* [Adobe Experience Platform Identity 서비스: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+* [Adobe Experience Platform Identity 서비스에서 CORS 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
 

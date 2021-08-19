@@ -7,10 +7,10 @@ title: 프로필 병합 규칙에 대한 일반 사용 사례
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: 프로필 병합
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 4%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -64,7 +64,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
 
 ![가계 관리](assets/household-management.png)
 
-## 사용자 기반 대상 타깃팅 {#all-cross-device}
+## 사용자 기반 대상 타겟팅 {#all-cross-device}
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
 
 ## 장치 그래프 옵션 {#device-graph-options}
 
-[!UICONTROL Profile Merge] 규칙에 대해 [!UICONTROL device graph] 옵션을 선택하는 것은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 다릅니다. 이러한 일반 지침은 한 가지 유형의 그래프를 사용하는지 다른 유형을 사용해야 하는 경우를 이해하는 데 도움이 됩니다. 참고 이러한 옵션을 사용하려면 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)의 구성원이거나 외부 장치 그래프와 계약 관계가 있어야 합니다. 장치 그래프 옵션을 선택할 시기에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례](external-graph-use-cases.md)를 참조하십시오.
+[!UICONTROL Profile Merge] 규칙에 대해 [!UICONTROL device graph] 옵션을 선택하는 것은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 다릅니다. 이러한 일반 지침은 한 가지 유형의 그래프를 사용하는지 다른 유형을 사용해야 하는 경우를 이해하는 데 도움이 됩니다. 참고 이러한 옵션을 사용하려면 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)의 구성원이거나 외부 장치 그래프와 계약 관계가 있어야 합니다. 장치 그래프 옵션을 선택할 시기에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례](external-graph-use-cases.md)를 참조하십시오.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -101,12 +101,12 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
   </tr> 
   <tr> 
    <td colname="col1"> <p>외부 장치 그래프 옵션 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Experience Cloud </span> 장치 Co- <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> op로 빌드된 프로필 병합 </a> 또는 Audience Manager와 통합된 외부 장치  <span class="keyword"> 그래프</span> 는 다음 경우에 이상적입니다. </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Experience Cloud </span> 장치 Co- <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> op로 빌드된 프로필 병합 </a> 또는 Audience Manager와 통합된 외부 장치  <span class="keyword"> 그래프</span> 는 다음 경우에 이상적입니다. </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">낮은 수준의 고객 인증이 있는 디지털 속성. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">광범위하게 활용 가능한 브랜드 캠페인 </li> 
       <li id="li_14AEC54CE34440889A3A36324EC6F497">고객이 세그멘테이션의 자격이 되도록 인증된 상태에 있을 필요가 없는 사용 사례 </li> 
-     </ul> </p> <p> <p>팁:<span class="keyword"> Device Co-op</span> 는 인증이 낮고 Device Graph 공급자와의 관계가 없는 <span class="keyword"> Experience Cloud</span> 고객인 경우 가장 적합한 옵션입니다. </p> </p> </td> 
+     </ul> </p> <p> <p>팁: <span class="keyword"> Device Co-op</span> 는 인증이 낮고 Device Graph 공급자와의 관계가 없는 <span class="keyword"> Experience Cloud</span> 고객인 경우 가장 적합한 옵션입니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

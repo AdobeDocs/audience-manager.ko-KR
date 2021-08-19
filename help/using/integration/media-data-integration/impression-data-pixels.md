@@ -7,7 +7,7 @@ title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Adobe Campaign 통합
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 20%
@@ -31,7 +31,7 @@ Audience Manager에 미디어 데이터를 전송하는 한 가지 방법은 광
 이벤트 호출은 다음 구문을 사용하는 키-값 쌍으로 구성됩니다.
 
 ```
-http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
+https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
 키-값 쌍에서 값 변수는 광고 서버에서 삽입한 ID 또는 매크로입니다. 광고 태그가 로드되면 `%macro%`이(가) 필요한 해당 값으로 대체됩니다. 이 호출은 응답을 반환하지 않습니다.
@@ -72,8 +72,8 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
    <td colname="col1"> <code> d_cid </code> </td> 
    <td colname="col2"> <p>이 컨텍스트에서 <code> d_cid </code>는 모바일 장치 유형을 DPUUID(고유 사용자 ID)에 연결할 수 있는 키-값 쌍을 인스턴스화합니다. 고정 ID가 모바일 장치 유형을 결정합니다. 사용자 ID인 값은 다를 수 있습니다. 키-값 쌍은 인쇄되지 않는 제어 문자인 <code> %01 </code>으로 구분합니다. 이 매개 변수는 다음 키를 허용합니다. </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914:Android(GAID) 장치를 식별합니다. 예를 들어 <code> d_cid = 20914 %01 1234 </code>에 따르면 사용자 1234가 Android 장치와 연결되어 있다고 합니다. </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915:iOS(IDFA) 장치를 식별합니다. 예를 들어 <code> d_cid = 20915 %01 5678 </code>에 따르면 사용자 5678이 iOS 장치와 연결되어 있다고 합니다. </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android(GAID) 장치를 식별합니다. 예를 들어 <code> d_cid = 20914 %01 1234 </code>에 따르면 사용자 1234가 Android 장치와 연결되어 있다고 합니다. </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: iOS(IDFA) 장치를 식별합니다. 예를 들어 <code> d_cid = 20915 %01 5678 </code>에 따르면 사용자 5678이 iOS 장치와 연결되어 있다고 합니다. </li> 
     </ul> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 

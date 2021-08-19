@@ -7,10 +7,10 @@ title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: DIL 구현
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 77%
+source-wordcount: '540'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
 `isCoopSafe`을 사용하려면 다음을 수행해야 합니다.
 
 * [!UICONTROL DIL] v6.11 이상을 사용합니다.
-* [Experience Cloud 장치 Co-op](https://docs.adobe.com/content/help/ko-KR/device-co-op/using/home.html)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
+* [Experience Cloud 장치 Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
 
 * [!DNL Adobe] 컨설턴트와 함께 Device Co-op 계정허용 목록에 추가하다에 차단 목록 또는 플래그를 설정합니다. 이러한 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
@@ -103,7 +103,7 @@ POST 매개 수는 장치 그래프에 사용자 데이터를 포함할 수 있�
  </tbody> 
 </table>
 
-## 사후 인스턴스화 API  {#post-instantiation}
+## 사후 인스턴스화 API {#post-instantiation}
 
 이러한 API를 사용하면 `isCoopSafe` 상태를 재정의할 수 있습니다. 이러한 API는 페이지를 새로 고치지 않은 단일 페이지 앱 또는 사이트에서 방문자의 사후 인스턴스화/사후 로그인 상태를 변경할 수 있으므로 필요합니다. 예를 들어 사용자가 사이트 또는 앱을 인증하고, 장치 Co-op에서 해당 데이터를 사용할 수 있도록 하는 사용 약관 정책에 나중에 동의하는 경우 이러한 API를 호출해야 합니다.
 

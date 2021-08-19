@@ -8,10 +8,10 @@ title: 제품 및 기능 FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: 개요
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '609'
+ht-degree: 84%
 
 ---
 
@@ -33,7 +33,7 @@ faq_features_functions.xml
 
 예를 들어 *`Organization ID`*&#x200B;는 `1FD6776A524453CC0A490D44@AdobeOrg`와 같은 모습입니다.
 
-*`Organization ID`*&#x200B;는 Audience Manager의 [DIL](../dil/dil-overview.md) API, [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html) 및 기타 [!DNL Experience Cloud] 솔루션에서 사용됩니다. 관리자 권한이 있는 사용자는 [!DNL Adobe Admin Console]에서 *`Organization ID`*&#x200B;를 찾을 수 있습니다. [관리 - 사용자 관리 FAQ](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+*`Organization ID`*&#x200B;는 Audience Manager의 [DIL](../dil/dil-overview.md) API, [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 및 기타 [!DNL Experience Cloud] 솔루션에서 사용됩니다. 관리자 권한이 있는 사용자는 [!DNL Adobe Admin Console]에서 *`Organization ID`*&#x200B;를 찾을 수 있습니다. [관리 - 사용자 관리 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
  
 
@@ -95,4 +95,4 @@ Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UI
 
 **Adobe Analytics와 Audience Manager 세그먼트 간에 차이가 있습니까?**
 
-예. 그 차이점에 대한 심도 있는 설명이 필요하면 [Analytics와 Audience Manager의 세그먼트 이해](https://docs.adobe.com/content/help/ko-KR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)를 참조하십시오.
+예. 그 차이점에 대한 심도 있는 설명이 필요하면 [Analytics와 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)를 참조하십시오.

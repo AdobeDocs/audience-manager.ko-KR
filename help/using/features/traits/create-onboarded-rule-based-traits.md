@@ -8,14 +8,14 @@ title: 규칙 기반 또는 온보딩된 트레이트 만들기
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: 트레이트
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 8%
 
 ---
 
-# 원하는 대로 페이지 애플리케이션을 만들거나  [!UICONTROL Rules-Based][!UICONTROL Onboarded Traits]{#create-rules-based-or-onboarded-traits}
+# 원하는 대로 페이지 애플리케이션을 만들거나 [!UICONTROL Rules-Based][!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
 [!UICONTROL rules-based] 및 [!UICONTROL onboarded] 트레이트 작성 프로세스와 관련된 설정 단계 및 기능에 대해 설명합니다.
 
@@ -41,7 +41,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이름 </span></b> </td> 
-   <td colname="col2"> <p>트레이트 이름입니다. 필수 여부. </p> <p>최대 길이:255자. </p> <p> <p>참고:트레이트의 이름을 지정할 때는 다음 특수 문자를 사용하지 마십시오. 
+   <td colname="col2"> <p>트레이트 이름입니다. 필수 여부. </p> <p>최대 길이: 255자. </p> <p> <p>참고: 트레이트의 이름을 지정할 때는 다음 특수 문자를 사용하지 마십시오. 
       <ul id="ul_AB38A333F21A4AA9B5656CBA69BA65E3"> 
        <li id="li_0E5033B540BC41E799075845388E85A7">쉼표 </li> 
        <li id="li_B1A6C3E3FB98473A91E4675EE09460F0">대시 </li> 
@@ -60,7 +60,7 @@ ht-degree: 8%
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이벤트 유형</span></b> </td> 
-   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형이나 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 트레이트를 만드는 방법을 배우려면 <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager 비디오에서 전환 트레이트 만들기</a>를 참조하십시오. </p></td> 
+   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형이나 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 트레이트를 만드는 방법을 배우려면 <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager 비디오에서 전환 트레이트 만들기</a>를 참조하십시오. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 통합 코드</span></b> </td> 
@@ -76,12 +76,12 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 데이터 카테고리</span></b> </td> 
-   <td colname="col2"> 일반적으로 알려진 카테고리에 따라 트레이트를 분류합니다. <p>참고: 트레이트는 단일 카테고리에만 속합니다. 선택 사항입니다. </p> </td> 
+   <td colname="col2"> 일반적으로 알려진 카테고리에 따라 트레이트를 분류합니다. <p>참고:  트레이트는 단일 카테고리에만 속합니다. 선택 사항입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!UICONTROL Trait] 만료 간격 {#set-expiration-interval} 설정
+## [!UICONTROL Trait] 만료 간격 설정 {#set-expiration-interval}
 
 [!UICONTROL Trait Builder]에서 [!UICONTROL Advanced Options]을(를) 사용하면 [!UICONTROL trait]에 대한 유지 시간([!DNL TTL]) 간격을 설정할 수 있습니다. [!DNL TTL] 은(는) 자격이 있는 방문자가 120일 [!UICONTROL trait] 에 남아 있는 일수를 정의합니다. 0으로 설정하면 [!UICONTROL trait] 멤버십이 만료되지 않습니다.
 

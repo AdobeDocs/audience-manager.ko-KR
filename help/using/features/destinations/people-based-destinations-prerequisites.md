@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 feature: 사용자 기반 대상
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 >[!IMPORTANT]
 > 구현 단계로 이동하기 전에 이 문서를 자세히 살펴보십시오.
 
-## [!UICONTROL People-Based Destinations] {#signing-up}에 등록
+## [!UICONTROL People-Based Destinations] 등록 {#signing-up}
 
 [!UICONTROL People-Based Destinations] 는 소셜 네트워크에서 사용자 지정된 오퍼로 대상을 타깃팅하거나 이메일 마케팅을 통해 사람 기반 환경에서 자사 대상 세그먼트를 활성화하여 Audience Manager 경험을 향상시키는 프리미엄 기능입니다.
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 [!DNL LinkedIn Campaign Manager] 사용자 권한을 편집하는 방법에 대한 자세한 내용은 LinkedIn 설명서에서 [광고 계정에 대한 사용자 권한 추가, 편집 및 제거](https://www.linkedin.com/help/lms/answer/5753)를 참조하십시오.
 
-비디오 지침은 [LinkedIn 사용자 기반 대상 이해 및 구성](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)을 참조하십시오.
+비디오 지침은 [LinkedIn 사용자 기반 대상 이해 및 구성](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)을 참조하십시오.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -63,11 +63,11 @@ ht-degree: 3%
 
 여러 배치 전송에서 하나의 고객 ID에 연결된 10개 이상의 해시된 이메일 주소를 업로드하면 Audience Manager이 추가된 가장 최근 10개의 이메일 주소를 유지합니다.
 
-## 데이터 개인 정보{#data-privacy}
+## 데이터 개인 정보 {#data-privacy}
 
 [!UICONTROL People-Based Destinations]을(를) 통해 사용자가 업로드한 해시된 이메일 주소를 기반으로 대상을 타깃팅할 수 있지만, 직접 식별 가능한 방문자 정보를 Audience Manager에 업로드할 수 없습니다. 데이터 온보딩 단계에서 사용하려는 이메일 주소가 [!DNL SHA256] 알고리즘으로 해시되었는지 확인해야 합니다. 그렇지 않으면 [!UICONTROL People-Based Destinations]에서 사용할 수 없습니다.
 
-## 데이터 해시 대 암호화 {#data-hashing-encryption}
+## 데이터 해싱 및 암호화 {#data-hashing-encryption}
 
 암호화는 양방향 기능입니다. 암호화된 모든 정보는 올바른 암호 해독 키를 사용하여 해독할 수도 있습니다. Audience Manager의 컨텍스트에서 데이터를 암호화하는 것은 개인 식별 정보의 암호화된 형태를 해독할 수도 있으므로 심각한 위험을 발생시킵니다. 암호화와 대조적으로 [!UICONTROL People-Based Destinations]은(는) 해시된 데이터로 대신 작동하도록 디자인되었습니다.
 
@@ -77,20 +77,20 @@ ht-degree: 3%
 
 이메일 주소를 해싱할 때는 다음 요구 사항을 충족하는지 확인하십시오.
 
-* 전자 메일 문자열에서 선행 및 후행 공백을 모두 잘라냅니다.예:`<space>johndoe@example.com<space>`;이 아닌 `johndoe@example.com`
+* 전자 메일 문자열에서 선행 및 후행 공백을 모두 잘라냅니다. 예: `<space>johndoe@example.com<space>`;이 아닌 `johndoe@example.com`
 * 이메일 문자열을 해시할 때는 소문자 문자열을 해시해야 합니다.
-   * 예:`EXAMPLE@EMAIL.COM`;이 아닌 `example@email.com`
+   * 예: `EXAMPLE@EMAIL.COM`;이 아닌 `example@email.com`
 * 해시된 문자열이 모두 소문자로 되어 있는지 확인하십시오
-   * 예:`55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;이 아닌 `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`
+   * 예: `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;이 아닌 `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`
 * 문자열의 소금을 치지 마십시오.
 
 [!UICONTROL People-Based Destinations]의 해시 요구 사항을 이해하려면 아래 비디오를 시청하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID)]을 통해 고객 ID를 해시할 수 있는 옵션을 제공합니다. ECID를 사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)에 대한 SHA256 해시 지원 을 참조하십시오.
+Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID)]을 통해 고객 ID를 해시할 수 있는 옵션을 제공합니다. ECID를 사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 [setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html)에 대한 SHA256 해시 지원 을 참조하십시오.
 
-## 사용자 권한 가져오기 {#obtaining-user-permission}
+## 사용자 권한 얻기 {#obtaining-user-permission}
 
 [!UICONTROL People-Based Destinations] 은 사용자 기반 채널에서 자사 대상 데이터를 활성화하는 데 도움이 되므로, 광고 또는 기타 용도로 데이터를 사용할 방법에 대해 고객에게 알리고 필요한 동의를 얻는 것은 귀하의 책임입니다.
 
@@ -98,7 +98,7 @@ Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID
 
 고객이 광고 캠페인을 옵트아웃하려는 경우 Audience Manager이 더 이상 데이터 수집을 중지하는 방법에 대한 자세한 내용은 [옵트아웃 관리](../../overview/data-security-and-privacy/data-privacy-requests.md) 를 참조하십시오.
 
-## 자사 데이터 활성화 실행 {#enforcing-first-party-activation}
+## 자사 데이터 활성화 적용 {#enforcing-first-party-activation}
 
 [!UICONTROL People-Based Destinations] 을 사용할 때는 자사 데이터만 사용하여 사용자 기반 채널에서 대상 세그먼트를 활성화할 수 있습니다. 사용자 기반 채널에서 대상 활성화를 위해 제2자 데이터 또는 타사 데이터를 사용할 수 없습니다.
 

@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Admin Console으로 Audience Manager 사용자 마이그레이션
 feature: 관리
 exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -25,16 +25,16 @@ ht-degree: 1%
 | 이점 | 설명 |
 |---|---|
 | 단일 사인온 다양한 솔루션 | [!DNL Audience Manager] 사용자는 또는  [!DNL Experience Cloud] 를 사용하여 및 기타 모든 솔루션에 로그인할 수  [!DNL Adobe ID] 있습니다  [!DNL Enterprise ID]. 이 로그인을 사용하면 [!DNL Experience Cloud]에서 통합 솔루션 및 핵심 서비스에 액세스할 수 있습니다. 마이그레이션 후 기존 로그인(`bank.demdex.com`)을 통해 로그인하려는 사용자는 `experiencecloud.adobe.com` 로 리디렉션됩니다. |
-| 사용자 및 그룹 관리 | 마이그레이션이 완료되면 [!DNL Audience Manager] 관리자는 [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/)에서 배타적으로 사용자 및 그룹을 관리합니다. |
-| 제품 및 서비스 관리 | [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/)에서 관리자는 다음을 수행할 수 있습니다. <ul><li>사용자 만들기, 업데이트 및 제거</li><li>솔루션 및 서비스에 대한 액세스 권한 부여</li></ul> |
+| 사용자 및 그룹 관리 | 마이그레이션이 완료되면 [!DNL Audience Manager] 관리자는 [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/)에서 배타적으로 사용자 및 그룹을 관리합니다. |
+| 제품 및 서비스 관리 | [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/)에서 관리자는 다음을 수행할 수 있습니다. <ul><li>사용자 만들기, 업데이트 및 제거</li><li>솔루션 및 서비스에 대한 액세스 권한 부여</li></ul> |
 
 사용자 마이그레이션을 용이하게 하기 위해 Adobe에서는 모든 [!DNL Audience Manager] 관리자에게 이 문서에 설명된 단계를 수행하여 가능한 한 빨리 사용자 계정을 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)로 마이그레이션하도록 요청하고 있습니다.
 
-## 사용자가 {#what-to-do-users} 작업을 수행해야 하는 작업
+## 사용자가 수행해야 하는 작업 {#what-to-do-users}
 
 Audience Manager 사용자라면 [!DNL Audience Manager] 관리자에게 연락하여 [!DNL Admin Console]에서 새 사용자 계정을 만들라고 요청하기만 하면 됩니다.
 
-## 관리자가 {#what-to-do-admins} 작업을 수행해야 하는 작업
+## 관리자가 수행해야 하는 작업 {#what-to-do-admins}
 
 Audience Manager 관리자는 아래 단계에 따라 사용자를 [!DNL Admin Console]으로 마이그레이션해야 합니다.
 

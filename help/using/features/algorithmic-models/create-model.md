@@ -8,9 +8,9 @@ title: 알고리즘 모델 만들기
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: 알고리즘 모델
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -53,9 +53,9 @@ ht-degree: 1%
 
 장치 간 지표가 작동하는 방식을 자세히 살펴보려면 아래 비디오를 보십시오.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## 알고리즘 모델에 대한 기본 정보 {#basic-information}
+## 알고리즘 모델의 기본 정보 {#basic-information}
 
 <!-- r_model_basic.xml -->
 
@@ -89,7 +89,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>기준선 트레이트 또는 세그먼트 선택(1)</b> </p> </td> 
-   <td colname="col2"> <p>트레이트 또는 세그먼트 버튼을 클릭하여 모든 트레이트나 세그먼트 목록을 확인합니다. 선택한 세그먼트 또는 트레이트가 시스템 알고리즘이 모델링에 사용하는 기준이 됩니다. </p> <p> <p><b>참고</b>:온보딩된 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p>트레이트 또는 세그먼트 버튼을 클릭하여 모든 트레이트나 세그먼트 목록을 확인합니다. 선택한 세그먼트 또는 트레이트가 시스템 알고리즘이 모델링에 사용하는 기준이 됩니다. </p> <p> <p><b>참고</b>: 온보딩된 트레이트, 규칙 기반 트레이트 또는 세그먼트를 기준선으로 선택합니다. 그렇지 않으면 모델이 실행되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>전환 확인 기간(2) 선택</b> </p> </td> 
@@ -105,7 +105,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>제외 (5)</b> </p> </td> 
-   <td colname="col2"> <p>모델링용으로 선택한 데이터 소스에서 트레이트를 제외할 수 있습니다. <span class="wintitle"> 제외</span> 목록을 사용하고 <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> 알고리즘 모델을 읽으십시오.트레이트 제외</a> 를 참조하십시오. </p> </td>
+   <td colname="col2"> <p>모델링용으로 선택한 데이터 소스에서 트레이트를 제외할 수 있습니다. <span class="wintitle"> 제외</span> 목록을 사용하고 <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> 알고리즘 모델을 읽으십시오. 트레이트 제외</a> 를 참조하십시오. </p> </td>
   </tr> 
  </tbody>
 </table>

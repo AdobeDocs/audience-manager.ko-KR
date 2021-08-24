@@ -7,14 +7,14 @@ title: 정의된 프로필 병합 규칙 옵션
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: 프로필 병합
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1021'
 ht-degree: 6%
 
 ---
 
-# [!UICONTROL Profile Merge Rules] 정의된 옵션  {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] 정의된 옵션 {#profile-merge-rule-options-defined}
 
 [!UICONTROL profile merge rule] 옵션을 사용하면 세그먼테이션에 사용하는 [!DNL Audience Manager] 데이터의 유형을 제어할 수 있습니다. [!UICONTROL profile merge rule]에는 [!UICONTROL Profile Link] 장치 그래프, [!UICONTROL Adobe Experience Cloud Device Co-op] 및/또는 [!DNL Audience Manager]과 통합된 타사 장치 그래프 공급자가 매핑하는 장치 프로필이 포함될 수 있습니다. 최대 4개의 [!UICONTROL Profile Merge Rules]을 만들 수 있습니다. 네 번째 [!UICONTROL Profile Merge Rule]은 [!UICONTROL People-Based Destinations] 추가 기능을 구입한 고객에게만 제공됩니다.
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (포함  [!UICONTROL Co-op Device Graph]) | 모든 고객 | 실시간 및 배치 | 아니요 | [고급 교차 장치 타깃팅](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | 해당 없음 | [사용자 기반 대상](../destinations/people-based-destinations-overview.md) 고객에게만 제공 | 배치만 | 아니요 | [사용자 기반 대상 타겟팅](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] 평가  {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] 평가 {#segment-evaluation}
 
 [!UICONTROL Profile Merge Rules] 구성에 따라 [!DNL Audience Manager] 은 실시간으로, 일괄적으로 또는 두 가지 모두에서 [!UICONTROL segment] 평가를 수행할 수 있습니다.
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 * 배치 [!UICONTROL segment] 평가가 이전에 자격이 있는 [!UICONTROL traits]에 대해 수행됩니다.
 * [!UICONTROL Profile Merge Rules] 실시간 및 배치 평가 [!UICONTROL segment] 를 모두 지원하는 에서는 실시간 방문자 활동을 이전에 자격을 갖춘 활동과 결합할 수  [!UICONTROL traits]있습니다.
 
-## [!UICONTROL Profile Merge Rules] 보고 지연  {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] 보고 지연 {#reporting-latency}
 
 실시간 [!UICONTROL segment] 평가는 [!UICONTROL Profile Merge Rules] 보고서에 즉시 반영됩니다.
 
@@ -111,11 +111,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Co-op 장치 그래프</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>에게 현재 장치에서 프로필을 읽고 <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>에서 제공하는 링크를 사용하는 최대 100개의 다른 장치를 알려줍니다. </p> <p><span class="keyword"> Device Co-op</span>는 참여하는 고객이 장치 링크 정보를 공유하는 디지털 협업입니다. <span class="keyword"> Device Co-op</span>은 <span class="term"> 장치 그래프</span>에서 이 데이터를 처리합니다. 장치 그래프는 장치를 장치 클러스터로 함께 연결합니다. 이러한 링크는 <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"> 확률적 및 결정론적 데이터</a>에서 빌드됩니다. 클러스터는 알 수 없는 사람이 사용하는 장치 그룹을 나타냅니다. <span class="keyword">Device Co-op</span>는 그 구성원들 간에 이러한 클러스터를 공유하며, 이를 통해 고객에게 가치 있고 일관된 크로스 디바이스 환경을 제공할 수 있습니다. </p> <p> <span class="wintitle"> Device Co-op</span>에 대한 자세한 내용은 다음을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>에게 현재 장치에서 프로필을 읽고 <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>에서 제공하는 링크를 사용하는 최대 100개의 다른 장치를 알려줍니다. </p> <p><span class="keyword"> Device Co-op</span>는 참여하는 고객이 장치 링크 정보를 공유하는 디지털 협업입니다. <span class="keyword"> Device Co-op</span>은 <span class="term"> 장치 그래프</span>에서 이 데이터를 처리합니다. 장치 그래프는 장치를 장치 클러스터로 함께 연결합니다. 이러한 링크는 <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html" format="https" scope="external"> 확률적 및 결정론적 데이터</a>에서 빌드됩니다. 클러스터는 알 수 없는 사람이 사용하는 장치 그룹을 나타냅니다. <span class="keyword">Device Co-op</span>는 그 구성원들 간에 이러한 클러스터를 공유하며, 이를 통해 고객에게 가치 있고 일관된 크로스 디바이스 환경을 제공할 수 있습니다. </p> <p> <span class="wintitle"> Device Co-op</span>에 대한 자세한 내용은 다음을 참조하십시오. </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Device Co-op 개요</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> 멤버십 요구 사항</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> 장치 그래프:내부 프로세스 및 출력</a> </li>
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/home.html" format="https" scope="external"> Device Co-op 개요</a> </li> 
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/requirements.html" format="https" scope="external"> 멤버십 요구 사항</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> 장치 그래프: 내부 프로세스 및 출력</a> </li>
      </ul> </p> </td>
   </tr> 
   <tr> 

@@ -1,6 +1,6 @@
 ---
 description: Adobe Audience Manager ID의 전체 목록은 이 문서 를 참조하십시오.
-keywords: DPID;DPUUID;CID;UUID;uuid;uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
+keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
 seo-description: Adobe Audience Manager ID의 전체 목록은 이 문서 를 참조하십시오.
 seo-title: Audience Manager의 ID 색인
 solution: Audience Manager
@@ -8,14 +8,14 @@ title: Audience Manager의 ID 색인
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: 참조
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '961'
 ht-degree: 5%
 
 ---
 
-# [!DNL Audience Manager] {#index-of-ids-in-audience-manager}에 있는 ID 색인
+# [!DNL Audience Manager]에 있는 ID 색인 {#index-of-ids-in-audience-manager}
 
 ## 개요 {#overview}
 
@@ -32,9 +32,9 @@ ht-degree: 5%
 | ID | 이름 및 설명 | 사용 및 예 | 사용자 인터페이스 위치 |
 |---|---|---|---|
 | [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID]이라고도 합니다  [!UICONTROL Device ID]. [!DNL Audience Manager]이 상호 작용하는 각 장치에 연결하는 38자리 숫자 장치 ID입니다. [!DNL Audience Manager] UI에서 고유 사용자에 대한 언급이 표시될 때마다 이 ID를 생각해 보십시오. Audience Manager은 이 ID를 `demdex.net` 타사 도메인에 [!DNL cookie] 로 저장합니다. | [!DNL DCS] 호출에서 `uuid` 앞에는 `d_` 접두사가 붙습니다. <br>예: `d_uuid = 07955261652886032950143702505894272138` | [유사 모델](../features/algorithmic-models/create-model.md)을 만들 때 [!DNL traits]을(를) 기준으로 필터링하고 [세그먼트를 작성할 수 있습니다](../features/segments/segment-builder.md). [!UICONTROL Device ID] [트레이트](../reporting/general-reports.md) 및 [트레이트에 대한 트렌드 보고서](../reporting/trend-reports.md)를 실행할 때 [!UICONTROL Device ID]별로 결과를 필터링할 수도 있습니다. |
-| [!DNL ImsOrgId] | [!DNL Organization ID]. 이 ID는 회사가 [!DNL Experience Cloud] 계정을 등록할 때 제공하는 ID입니다. | `5DC5123F5245B1D20A490D46@AdobeOrg` | [!DNL Audience Manager] 사용자 인터페이스에 표시되지 않습니다. 회사의 [!DNL Organization ID]을 찾는 방법에 대해 알려면 [조직 ID 찾기](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)를 읽어 보십시오. |
+| [!DNL ImsOrgId] | [!DNL Organization ID]. 이 ID는 회사가 [!DNL Experience Cloud] 계정을 등록할 때 제공하는 ID입니다. | `5DC5123F5245B1D20A490D46@AdobeOrg` | [!DNL Audience Manager] 사용자 인터페이스에 표시되지 않습니다. 회사의 [!DNL Organization ID]을 찾는 방법에 대해 알려면 [조직 ID 찾기](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)를 읽어 보십시오. |
 | [!DNL PID] | [!DNL Partner ID]. [!DNL PID]은 [!DNL Audience Manager]에 있는 회사의 ID입니다. Audience Manager은 [!DNL imsOrgId]을 [!DNL PID]에 연결합니다. | `1352` | [!DNL Audience Manager] 사용자 인터페이스에 표시되지 않습니다. |
-| [!DNL ECID], [!DNL MID] | [!DNL Experience Cloud] ID. [!DNL Experience Cloud] ID([!DNL ECID], 기존 약자 [!DNL MID] 또는 [!DNL MCID])는 [!DNL Organization ID] 및 [!DNL Audience Manager] [!UICONTROL Unique User ID]에서 수학적으로 파생됩니다. 이러한 ID가 일정하게 유지된다면, 특정 사용자에 대해 올바른 [!DNL ECID]을 생성하는 것은 단순한 수학 문제입니다. 동일한 [!DNL Organization ID] 및 [!DNL Audience Manager] [!DNL UUID]를 사용하면 항상 동일한 [!DNL ECID] 값을 얻을 수 있습니다. [쿠키 및 Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) 설명서에서 [!DNL ECID]에 대해 자세히 읽어볼 수 있습니다. | `mid = 08382830887934830189014177072406221371` | [!DNL Audience Manager] 사용자 인터페이스에 표시되지 않습니다. |
+| [!DNL ECID], [!DNL MID] | [!DNL Experience Cloud] ID. [!DNL Experience Cloud] ID([!DNL ECID], 기존 약자 [!DNL MID] 또는 [!DNL MCID])는 [!DNL Organization ID] 및 [!DNL Audience Manager] [!UICONTROL Unique User ID]에서 수학적으로 파생됩니다. 이러한 ID가 일정하게 유지된다면, 특정 사용자에 대해 올바른 [!DNL ECID]을 생성하는 것은 단순한 수학 문제입니다. 동일한 [!DNL Organization ID] 및 [!DNL Audience Manager] [!DNL UUID]를 사용하면 항상 동일한 [!DNL ECID] 값을 얻을 수 있습니다. [쿠키 및 Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) 설명서에서 [!DNL ECID]에 대해 자세히 읽어볼 수 있습니다. | `mid = 08382830887934830189014177072406221371` | [!DNL Audience Manager] 사용자 인터페이스에 표시되지 않습니다. |
 | [!DNL SID] | [!UICONTROL Trait ID]. [!UICONTROL Trait ID]은 [!DNL Audience Manager] 환경에서 [!DNL traits]을 고유하게 식별합니다. | [!DNL DCS] 호출에서 `SID` 앞에는 `d_` 접두사가 붙습니다. <br>예 `d_sid=289983`. | [!UICONTROL Trait ID]은 각 [!DNL trait]에 할당되고 [트레이트](../features/traits/trait-details-page.md) 페이지에 사용자 인터페이스에 표시됩니다. |
 | [!DNL SID] | [!UICONTROL Segment ID]. [!UICONTROL Segment ID]은 [!DNL Audience Manager] 환경에서 [!DNL segments]을 고유하게 식별합니다. | [!DNL DCS] 호출에서 `SID` 앞에는 `d_` 접두사가 붙습니다. <br>예 `d_sid=4798574`. | [!UICONTROL Segment ID]은(는) 각 [!DNL segment]에 할당되고 사용자 인터페이스에 [세그먼트](../features/segments/segment-summary-view.md) 페이지에 표시됩니다. |
 | [!DNL csegID] | [!DNL Legacy Segment ID]. 이 ID는 [!DNL Audience Manager] 환경에서 세그먼트를 고유하게 식별합니다. | `741232` | [!UICONTROL Legacy Segment ID] 은 각 세그먼트에 할당되고 [세그먼트](../features/segments/segment-summary-view.md) 페이지에 사용자 인터페이스에 표시됩니다. |

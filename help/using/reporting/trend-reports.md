@@ -7,9 +7,9 @@ title: 트렌드 보고서
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: 일반 및 트렌드 보고서
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -61,9 +61,9 @@ t_working_with_trend_reports.xml
  -->
 
 1. **[!UICONTROL Analytics]** 대시보드에서 **[!UICONTROL Trend Reports]** 을 클릭합니다.
-1. **[!UICONTROL Report Type]** 드롭다운 목록에서 원하는 유형을 선택합니다.**[!UICONTROL Trait]** 또는 **[!UICONTROL Segment]**
+1. **[!UICONTROL Report Type]** 드롭다운 목록에서 원하는 유형을 선택합니다. **[!UICONTROL Trait]** 또는 **[!UICONTROL Segment]**
 1. 날짜 상자를 클릭하여 달력을 표시한 다음 보고서의 시작 및 종료 날짜를 선택합니다.
-1. 표시 간격을 지정합니다.1, 7, 14, 30, 60 또는 90일
+1. 표시 간격을 지정합니다. 1, 7, 14, 30, 60 또는 90일
 1. 이름이나 ID로 트레이트 또는 세그먼트를 검색합니다.
 1. 폴더 목록에서 보고할 트레이트나 세그먼트를 오른쪽의 [!UICONTROL Selections] 패널에 드래그하여 놓습니다.
    * 최상의 성능을 위해 한 번에 20개 미만의 트레이트나 세그먼트에 대해 [!UICONTROL Trend] 보고서를 실행하십시오.
@@ -79,7 +79,7 @@ t_working_with_trend_reports.xml
 
 1. (선택 사항) 개별 트레이트나 세그먼트 위로 마우스를 가져가면 각 데이터 포인트에 대한 방문 횟수와 날짜를 표시할 수 있습니다. 테이블의 열 헤더를 클릭하여 결과를 오름차순이나 내림차순으로 정렬할 수 있습니다.
 
-## 트레이트 {#trend-report-results-traits}에 대한 트렌드 보고서 결과
+## 트레이트에 대한 트렌드 보고서 결과 {#trend-report-results-traits}
 
 아래 필터는 [!UICONTROL Trend Report] 을 실행하고 **[!UICONTROL Trait]** 를 보고서 유형으로 선택할 때 사용할 수 있습니다.
 
@@ -101,13 +101,13 @@ t_working_with_trend_reports.xml
 
 장치 간 지표가 작동하는 방식을 자세히 살펴보려면 아래 비디오를 보십시오.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## 세그먼트 {#segment-report-results-traits} 트렌드 보고서 결과
+## 세그먼트에 대한 트렌드 보고서 결과 {#segment-report-results-traits}
 
 아래 필터는 [!UICONTROL Trend Report] 을 실행하고 **[!UICONTROL Segments]** 를 보고서 유형으로 선택할 때 사용할 수 있습니다.
 
-* **[!UICONTROL Real-time Segment Population]**:선택한 시간 범위 내의 세그먼트에 대해 자격이 있는 방문자 수입니다.
-* **[!UICONTROL Total Segment Population]**:세그먼트에 대해 자격이 있는 총 방문자 수입니다.
+* **[!UICONTROL Real-time Segment Population]**: 선택한 시간 범위 내의 세그먼트에 대해 자격이 있는 방문자 수입니다.
+* **[!UICONTROL Total Segment Population]**: 세그먼트에 대해 자격이 있는 총 방문자 수입니다.
 
 ![트렌드 보고서 세그먼트](assets/trend-report-segments.png)

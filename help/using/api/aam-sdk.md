@@ -7,10 +7,10 @@ title: SDK 코드
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
 exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 41%
+source-wordcount: '154'
+ht-degree: 42%
 
 ---
 
@@ -30,5 +30,5 @@ Audience Manager은 [!DNL Android] 및 [!DNL iOS]용 소프트웨어 개발 키�
 
 Android 및 iOS 4.x SDK는 계속 지원합니다. 그러한 SDK 코드 라이브러리에 대해서는 다음을 참조하십시오.
 
-* [Android SDK](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
-* [iOS SDK](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [Android SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
+* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)

@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Facebook WCA 통합
 feature: 타사 통합
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 5%
+source-wordcount: '851'
+ht-degree: 4%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 5%
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] 세그먼트, 새 대상에 할당할 준비가  [!DNL Facebook] 되었습니다. 다음은 [!DNL Audience Manager] UI에서 세그먼트](/help/using/features/segments/segment-builder.md)를 만드는 방법입니다.[
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) 버전 4.1.0 이상. 최신 버전 **[여기](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**&#x200B;를 다운로드하십시오.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) 버전 9.0 이상,  **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 또는 [서버측 전달(SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하여 데이터를 [!DNL Audience Manager]로 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. [Analytics 코드 관리자](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 [!DNL AppMeasurement]을 다운로드합니다.
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) 버전 9.0 이상,  **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 또는 [서버측 전달(SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하여 데이터를 [!DNL Audience Manager]로 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 [!DNL AppMeasurement]을 다운로드합니다.
 
 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)을 사용하여 3~4단계에서 라이브러리를 설치하거나 업그레이드하는 것이 좋습니다.
 
-## 1단계 - [!DNL Audience Manager] {#step-1-create-facebook-destination}에서 [!UICONTROL Facebook Destination] 만들기
+## 1단계 - [!DNL Audience Manager]에서 [!UICONTROL Facebook Destination] 만들기 {#step-1-create-facebook-destination}
 
 [!DNL Audience Manager]에 새 [!UICONTROL URL Destination]을 만들고 이름을 [!DNL Facebook Website Custom Audiences]로 지정합니다. 대상을 만들 때 아래 설정을 사용하십시오. [URL 대상 구성](/help/using/features/destinations/create-url-destination.md) 페이지를 참조할 수도 있습니다.
 
@@ -61,7 +61,7 @@ ht-degree: 5%
 * **[!UICONTROL Base URL]** 및 **[!UICONTROL Secure URL]** 필드에 [!DNL Facebook WCA] 픽셀을 입력합니다.
 * **[!UICONTROL Delimiter]**:  `,`
 
-기본 [!DNL URL] 예:`https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
+기본 [!DNL URL] 예: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
 
 페이지에서 실행된 픽셀 예. 다음 예에서는 ID가 3401321, 2993399, 3263410,[!DNL Audience Manager]
 
@@ -86,19 +86,19 @@ ht-degree: 5%
 
 해당하는 경우 종료 일자를 입력하고, 종료 일자를 지정하지 않으면 종료 일자를 비워 둡니다.
 
-## 3단계 - [!DNL Facebook Ads Manager] {#step-3-create-audience} 내에 [!UICONTROL Audience] 만들기
+## 3단계 - [!DNL Facebook Ads Manager] 내에 [!UICONTROL Audience] 만들기 {#step-3-create-audience}
 
 [!DNL Facebook] 도움말 설명서에서 [웹 사이트 사용자 지정 대상 만들기](https://www.facebook.com/business/help/666509013483225) 를 참조하십시오. 아래 표에서 [!UICONTROL Create Audience] 옵션을 선택합니다.
 
 | 항목 | 설명 |
 |---------|----------|
 | 웹 사이트 트래픽 | 사용자 지정 조합 |
-| 포함 | <ul><li>**[!UICONTROL Event]** > **[!UICONTROL Adobe-Audience-Manager-Segment]** 을 선택합니다. 이는 1단계의 예제 픽셀에 있는 `ev` 매개 변수의 값입니다. 픽셀을 아직 실행하지 않은 경우 **[!UICONTROL Event]** 옵션 또는 **[!UICONTROL Adobe-Audience-Manager-Segment]**&#x200B;이 [!DNL Facebook] 사용자 인터페이스에 표시되지 않을 수 있습니다.</li><li>매개 변수 추가:`segID` 을 선택합니다.</li><li><p>**포함** 연산자를 선택합니다.</p><p>이는 방문자가 여러 세그먼트에 대한 자격이 있음을 고려하여 픽셀 매개 변수에 여러 [!UICONTROL segment IDs]이 있을 수 있으므로 중요합니다. equals (`=`) 연산자를 사용하면 방문자가 대상에 적합하지 않을 수 있으며, 더 낮은 볼륨을 관찰할 수 있습니다.</p></li><li>값 추가:[!DNL Audience Manager] 세그먼트 ID를 입력합니다.</li></ul> |
+| 포함 | <ul><li>**[!UICONTROL Event]** > **[!UICONTROL Adobe-Audience-Manager-Segment]** 을 선택합니다. 이는 1단계의 예제 픽셀에 있는 `ev` 매개 변수의 값입니다. 픽셀을 아직 실행하지 않은 경우 **[!UICONTROL Event]** 옵션 또는 **[!UICONTROL Adobe-Audience-Manager-Segment]**&#x200B;이 [!DNL Facebook] 사용자 인터페이스에 표시되지 않을 수 있습니다.</li><li>매개 변수 추가: `segID` 을 선택합니다.</li><li><p>**포함** 연산자를 선택합니다.</p><p>이는 방문자가 여러 세그먼트에 대한 자격이 있음을 고려하여 픽셀 매개 변수에 여러 [!UICONTROL segment IDs]이 있을 수 있으므로 중요합니다. equals (`=`) 연산자를 사용하면 방문자가 대상에 적합하지 않을 수 있으며, 더 낮은 볼륨을 관찰할 수 있습니다.</p></li><li>값 추가: [!DNL Audience Manager] 세그먼트 ID를 입력합니다.</li></ul> |
 | 새 조건 추가 | 선택적 설정입니다. |
 | 마지막 | 선택적 설정입니다. |
 | 대상 이름 | 이 대상에 추가 조건을 추가하지 않는 한 일관성을 위해 동일한 [!DNL Audience Manager] 세그먼트 이름을 사용하는 것이 좋습니다. |
 
-## 4단계 - [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}의 [!UICONTROL Campaign]에 [!UICONTROL Audience]을 할당합니다
+## 4단계 - [!DNL Facebook Ads Manager]의 [!UICONTROL Campaign]에 [!UICONTROL Audience] 할당 {#step-4-assign-audience-to-campaign}
 
 [!DNL Custom Audience]을(를) 만든 후 광고 캠페인에 지정합니다. 새 캠페인을 만들거나 기존 캠페인을 편집하십시오. 그러면 새로 만든 대상이 [!DNL Facebook] 사용자 인터페이스에 표시됩니다. [!DNL Audience Manager] 이 세그먼트에 픽셀 호출을 포함하는 경우 광고 캠페인은 사이트를 방문할 때 브라우저에서 픽셀 발생이 발생한 사용자를 타깃팅합니다.
 

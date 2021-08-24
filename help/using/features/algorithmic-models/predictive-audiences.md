@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: 알고리즘 모델
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1505'
 ht-degree: 8%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 8%
 1. 그런 다음 분류할 대상 대상을 정의하는 트레이트 또는 세그먼트를 선택합니다.
 1. 마지막으로, 모델의 이름, 예측 세그먼트를 저장할 데이터 소스 및 모델의 [!UICONTROL Profile Merge Rule] 을 선택합니다.
 
-### 가상 사용자 {#selection-personas} 선택 기준
+### 성향 선택 기준 {#selection-personas}
 
 자사 트레이트나 세그먼트를 선택하여 개인화를 정의할 수 있습니다. 그러나 최적의 결과를 얻으려면 권장되는 우수 사례 세트가 있습니다.
 
@@ -78,22 +78,22 @@ ht-degree: 8%
 * 겹치지 않는 기준선 트레이트 또는 세그먼트를 선택합니다.
 * 디지털 속성에서 세부적으로 트레이트를 캡처하는지 확인합니다.
 
-### Target 대상 {#selection-audience} 선택 기준
+### Target 대상에 대한 선택 기준 {#selection-audience}
 
 사용 사례에 따라 사용자를 실시간으로, 일괄적으로 또는 둘 다 분류할지 여부에 따라 상당한 실시간 및/또는 총 모집단이 있는 대상([!UICONTROL trait] 또는 [!UICONTROL segment])을 선택하십시오. 성향 선택 사항과 유사하게, 타겟 대상 [!UICONTROL trait] 또는 [!UICONTROL segment]에 풍부한 프로필(풍부한 [!UICONTROL traits] 세트)이 있는 사용자가 있는 것이 좋습니다.
 
-타겟 대상을 선택할 때 사용 사례를 분석하고 분류할 ID 유형을 결정합니다.[!UICONTROL device IDs] 또는 [!UICONTROL cross-device IDs] 모델을 만들 때 선택하는 [!UICONTROL Profile Merge Rule] 은 각 사용자를 예측 [!UICONTROL segments]에 배치하는 데 사용할 데이터를 정의합니다.
+타겟 대상을 선택할 때 사용 사례를 분석하고 분류할 ID 유형을 결정합니다. [!UICONTROL device IDs] 또는 [!UICONTROL cross-device IDs] 모델을 만들 때 선택하는 [!UICONTROL Profile Merge Rule] 은 각 사용자를 예측 [!UICONTROL segments]에 배치하는 데 사용할 데이터를 정의합니다.
 
 타겟 대상 [!UICONTROL Profile Merge Rule]과 동일한 구성을 가지는 [!UICONTROL Profile Merge Rule] 또는 타겟 대상의 프로필 유형(장치 프로필 또는 인증된 프로필)을 포함하는 것을 선택하는 것이 좋습니다.
 
-### [!UICONTROL Predictive Audiences] 모델 교육 단계  {#model-training}
+### [!UICONTROL Predictive Audiences] 모델 교육 단계 {#model-training}
 
 알고리즘에서 자사 대상을 적합한 개인으로 분류하려면 먼저 데이터에 대한 자체 교육을 수행해야 합니다.
 
 정의한 각 성향에 대해 알고리즘은 해당 대상을 분석하고 지난 30일 동안 해당 사용자에 대한 실시간 및/또는 온보딩된 트레이트 활동을 평가합니다.
 이 단계는 자사 대상의 변경 사항을 설명하기 위해 24시간마다 한 번 수행됩니다.
 
-### [!UICONTROL Predictive Audiences] 모델 분류 단계  {#model-classification}
+### [!UICONTROL Predictive Audiences] 모델 분류 단계 {#model-classification}
 
 실시간 및 배치 대상 분류의 경우 모델은 먼저 사용자가 타겟 대상에 속하는지 여부를 확인합니다. 사용자가 target 대상 자격을 확보하고 가상 사용자가 아닌 경우, 모델은 사용자에게 성향 자격 점수를 지정합니다.
 
@@ -122,11 +122,11 @@ ht-degree: 8%
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-[!UICONTROL Predictive Audiences] 모델에서 만든 예측 세그먼트는 다음 자사 데이터 소스에서 [데이터 내보내기 컨트롤](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)을 상속합니다.
+[!UICONTROL Predictive Audiences] 모델에서 만든 예측 세그먼트는 다음 자사 데이터 소스에서 [데이터 내보내기 컨트롤](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)을 상속합니다.
 
 1. 모델을 작성할 때 선택하는 자사 데이터 소스입니다.
 1. 타겟 대상의 자사 데이터 소스. 특히 대상 대상을 구성하는 [!UICONTROL traits] 또는 [!UICONTROL segments]의 데이터 내보내기 제어.
-1. 모델에 대해 선택한 [!UICONTROL Profile Merge Rule]의 [데이터 내보내기 컨트롤](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)
+1. 모델에 대해 선택한 [!UICONTROL Profile Merge Rule]의 [데이터 내보내기 컨트롤](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)
 
 새로 만든 예측 [!UICONTROL traits] 및 [!UICONTROL segments]에는 위에 설명된 자사 데이터 소스의 결합과 동일한 개인 정보 보호 제한이 있습니다.
 
@@ -146,6 +146,6 @@ ht-degree: 8%
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-개인화 및 대상 분류에 대해 선택하는 트레이트 및 세그먼트는 Audience Manager [역할 기반 액세스 제어](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)에 따릅니다.
+개인화 및 대상 분류에 대해 선택하는 트레이트 및 세그먼트는 Audience Manager [역할 기반 액세스 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html)에 따릅니다.
 
-Audience Manager 사용자는 [보기 권한이 있는 개인 및 target 대상에 대해서만 트레이트 또는 세그먼트를 선택할 수 있습니다.](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)
+Audience Manager 사용자는 [보기 권한이 있는 개인 및 target 대상에 대해서만 트레이트 또는 세그먼트를 선택할 수 있습니다.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)

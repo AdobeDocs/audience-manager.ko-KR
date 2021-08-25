@@ -1,16 +1,16 @@
 ---
 description: 이 페이지에는 현재 서버 간 통합만 포함되어 있습니다. 통합에 대한 자세한 내용은 해당 Adobe Exchange 목록(사용 가능한 경우)을 참조하거나 Adobe 컨설턴트나 고객 지원에 문의하십시오.
-seo-description: 이 페이지에는 현재 서버 간 통합만 포함되어 있습니다. 통합에 대한 자세한 내용은 해당 Adobe Exchange 목록(사용 가능한 경우)을 참조하거나 Adobe 컨설턴트나 고객 지원에 문의하십시오.
-seo-title: Adobe Audience Manager 서버 간 대상
-keywords: 활성화활성화 파트너, 대상, 대상
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Server-to-Server Destinations
+keywords: 활성화 활성화 파트너, 대상, 대상
 solution: Audience Manager
 title: Adobe Audience Manager 서버 간 대상
-feature: 대상 기본 사항
+feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 72%
+source-wordcount: '1112'
+ht-degree: 74%
 
 ---
 
@@ -162,7 +162,7 @@ ht-degree: 72%
 | [!DNL TubeMogul] | 03/03/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
 | [!DNL Turn] /  [!DNL Amobee] | 03/03/2027 | 실시간 | 아니요 | 아니요 | 아니요 | 예 |
 | [!DNL Twenga] | 29/10/2018 | 실시간 | 예 | 아니요 | 아니요 | 아니요 |
-| [!DNL Twitter Tailored Audiences] | 27/02/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
+| [!DNL Twitter Custom Audiences] | 27/02/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
 | [!DNL Undertone] | 11/07/2017 | 1일 | 아니요 | 아니요 | 아니요 | 아니요 |
 | [!DNL Verve] | 15/06/2017 | 1일 | 예 | 아니요 | 아니요 | 예 |
 | [!DNL VideoAmp] | 03/03/2017 | 실시간 | 아니요 | 아니요 | 아니요 | 아니요 |

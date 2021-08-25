@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Audience Manager을 통해 사이트 방문자에 대한 상업적으로 연관성 있는 정보를 수집하고, 마케팅 가능한 세그먼트를 만들고, 타깃팅된 광고 및 컨텐츠를 적절한 대상자에게 제공하는 방법을 알아봅니다.
 feature-set: Audience Manager
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 90%
@@ -112,7 +112,7 @@ ht-degree: 90%
          + [새 장치 기반 대상 추가](features/destinations/add-device-based-destinations.md)
          + [Audience Manager 장치 기반 대상 목록](/help/using/features/destinations/device-based-destinations-list.md)
          + [서버 간 대상에 대한 세그먼트 추가 또는 편집](features/destinations/add-edit-segments.md)
-         + [Twitter 맞춤 대상을 셀프서비스 장치 기반 대상으로 구성](features/destinations/twitter-tailored-audiences.md)
+         + [twitter 사용자 지정 대상을 셀프 서비스 장치 기반 대상으로 구성](features/destinations/twitter-tailored-audiences.md)
       + 사용자 지정 대상 {#custom-destinations}
          + [URL 대상 구성](features/destinations/create-url-destination.md)
          + [쿠키 대상 구성](features/destinations/create-cookie-destination.md)

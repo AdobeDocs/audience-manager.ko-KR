@@ -1,15 +1,15 @@
 ---
 description: Audience Analytics를 통해 Audience Manager 세그먼트를 Analytics에 보낼 수 있습니다. 이 기능을 사용하려면 Analytics 대상을 만들고 세그먼트를 Audience Manager의 대상에 매핑합니다.
-seo-description: Audience Analytics를 통해 Audience Manager 세그먼트를 Analytics에 보낼 수 있습니다. 이 기능을 사용하려면 Analytics 대상을 만들고 세그먼트를 Audience Manager의 대상에 매핑합니다.
-seo-title: Analytics 대상 구성
+seo-description: Audience Analytics lets you send Audience Manager segments to Analytics. To use this feature, you create an Analytics destination and map segments to it in Audience Manager.
+seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Analytics 대상 구성
-feature: Adobe Analytics 통합
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 9%
+source-wordcount: '807'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Analytics 대상을 구성하려면 Audience Manager 사용자에게 관리자 �
 
 | Analytics 대상 유형 | 설명 |
 |---|---|
-| 기본값 | 이 기본 대상의 이름은 편집할 수 있는 &quot;Adobe Analytics&quot;입니다. 매핑된 보고서 세트 ID는 Audience Manager 트레이트 및 세그먼트의 폴더 저장소에 표시됩니다. <br>  Audience Manager은 계정에 다음이 있는 경우 자동으로 하나의 대상을 만듭니다.  <br>  <ul><li>[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 설명서에 설명된 요구 사항을 충족했습니다.</li><li>Analytics의 [보고서 세트](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)</li><li>[조직에 보고서 세트를 매핑했습니다](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul> |
+| 기본값 | 이 기본 대상의 이름은 편집할 수 있는 &quot;Adobe Analytics&quot;입니다. 매핑된 보고서 세트 ID는 Audience Manager 트레이트 및 세그먼트의 폴더 저장소에 표시됩니다. <br>  Audience Manager은 계정에 다음이 있는 경우 자동으로 하나의 대상을 만듭니다.  <br>  <ul><li>[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 설명서에 설명된 요구 사항을 충족했습니다.</li><li>Analytics의 [보고서 세트](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)</li></ul> |
 | 신규 | 새 Analytics 대상을 만들려면 Audience Data > 대상 > 새 대상 만들기 로 이동한 다음 아래에 설명된 각 섹션에 대해 단계를 수행합니다. |
 
 ## 1단계: 기본 정보 제공

@@ -1,20 +1,20 @@
 ---
 description: 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 URL 및 기타 참조에 대한 정보를 제공합니다.
-seo-description: 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 URL 및 기타 참조에 대한 정보를 제공합니다.
-seo-title: REST API 시작
+seo-description: Information about general requirements, authentication, optional query parameters, request URLs, and other references.
+seo-title: Getting Started with REST APIs
 solution: Audience Manager
 title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 3%
+source-wordcount: '1942'
+ht-degree: 2%
 
 ---
 
-# [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis} 시작하기
+# [!DNL REST] [!DNL APIs] 시작하기 {#getting-started-with-rest-apis}
 
 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 [!DNL URLs] 및 기타 참조에 대한 정보입니다.
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) 코드를 사용하여 작업할 때에는 다음을 참고하십시오.
 
 * **요청 매개 변수:** 별도로 지정하지 않는 한 모든 요청 매개 변수가 필요합니다.
-* **요청 헤더**:Adobe  [I/Otokens를 사용할 ](https://www.adobe.io/) 때 헤더를 제공해야  `x-api-key` 합니다. [서비스 계정 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지의 지침에 따라 [!DNL API] 키를 가져올 수 있습니다.
+* **요청 헤더**: Adobe  [I/Otokens를 사용할 ](https://www.adobe.io/) 때 헤더를 제공해야  `x-api-key` 합니다. [서비스 계정 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지의 지침에 따라 [!DNL API] 키를 가져올 수 있습니다.
 * **[!DNL JSON]컨텐츠 유형:** 코드 `content-type: application/json`  **  `accept: application/json` 에 및 를 지정합니다.
 * **요청 및 응답:** 요청을 올바른 형식의 개체로  [!DNL JSON] 보냅니다. [!DNL Audience Manager] 형식이  [!DNL JSON] 지정된 데이터에 응답합니다. 서버 응답에는 요청된 데이터, 상태 코드 또는 둘 다 포함될 수 있습니다.
 * **액세스:** 컨설턴트 [!DNL Audience Manager] 가 요청을 수행할 수 있는 클라이언트 ID와 키를  [!DNL API] 제공합니다.
@@ -64,12 +64,24 @@ ht-degree: 3%
 
 1. [Adobe 개발자 콘솔](https://console.adobe.io/)에 로그인합니다.
 1. [서비스 계정 연결](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)의 단계를 수행합니다.
-   * [단계 2:서비스 계정 인증](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)을(를) 사용하여 프로젝트에 API를 추가하고 [!DNL Audience Manager] [!DNL API] 옵션을 선택합니다.
+   * [단계 2: 서비스 계정 인증](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)을(를) 사용하여 프로젝트에 API를 추가하고 [!DNL Audience Manager] [!DNL API] 옵션을 선택합니다.
 1. [3단계](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)의 지침에 따라 첫 번째 [!DNL API] 호출을 수행하여 연결을 테스트합니다.
 
 >[!NOTE]
 >
 >[!DNL Audience Manager] [!DNL REST APIs] 을 자동으로 구성하고 작업하려면 프로그래밍 방식으로 [!DNL JWT] 를 생성할 수 있습니다. 자세한 지침은 [JWT(서비스 계정) 인증](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)을 참조하십시오.
+
+### 기술 계정 RBAC 권한
+
+Audience Manager 계정이 [역할 기반 액세스 제어](../../features/administration/administration-overview.md)를 사용하는 경우 Audience Manager 기술 사용자 계정을 만들고 API를 호출하는 Audience Manager RBAC 그룹에 추가해야 합니다.
+
+기술 사용자 계정을 만들고 RBAC 그룹에 추가하려면 아래 단계를 따르십시오.
+
+1. `GET` 을 `https://aam.adobe.io/v1/users/self`에 호출하십시오. 이 호출은 [!UICONTROL Users] 페이지의 [!UICONTROL Admin Console]에 표시되는 기술 사용자 계정을 만듭니다.
+
+   ![기술 계정](assets/technical-account.png)
+
+1. Audience Manager 계정에 로그인하고 [기술 사용자 계정](../../features/administration/administration-overview.md#create-group)을(를) API를 호출할 사용자 그룹에 추가합니다.
 
 ## [!DNL OAuth] 인증(더 이상 사용되지 않음) {#oauth}
 
@@ -82,10 +94,10 @@ ht-degree: 3%
 
 ### 일반 [!DNL API] 사용자 만들기 {#requirements}
 
-[!DNL Audience Manager] [!DNL API]s 작업을 위한 별도의 기술 사용자 계정을 만드는 것이 좋습니다.조직의 특정 사용자에게 연결되어 있지 않거나 관련 없는 일반 계정입니다. 이러한 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
+[!DNL Audience Manager] [!DNL API]s 작업을 위한 별도의 기술 사용자 계정을 만드는 것이 좋습니다. 조직의 특정 사용자에게 연결되어 있지 않거나 관련 없는 일반 계정입니다. 이러한 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
 
 * [!DNL API] 을 호출하는 서비스(예: [!DNL API]을 사용하는 앱이나 [!DNL API] 요청을 수행하는 다른 도구에서 호출)를 식별합니다.
-* [!DNL API]에 대한 끊김 없는 액세스를 제공합니다.특정 사용자에 연결된 계정은 회사를 나갈 때 삭제할 수 있습니다. 이렇게 하면 사용 가능한 [!DNL API] 코드로 작업할 수 없습니다. 특정 직원에 연결되지 않은 일반 계정은 이 문제를 방지하는 데 도움이 됩니다.
+* [!DNL API]에 대한 끊김 없는 액세스를 제공합니다. 특정 사용자에 연결된 계정은 회사를 나갈 때 삭제할 수 있습니다. 이렇게 하면 사용 가능한 [!DNL API] 코드로 작업할 수 없습니다. 특정 직원에 연결되지 않은 일반 계정은 이 문제를 방지하는 데 도움이 됩니다.
 
 이러한 유형의 계정에 대한 예나 사용 사례로서 [벌크 관리 도구](../../reference/bulk-management-tools/bulk-management-intro.md)를 사용하여 한 번에 많은 세그먼트를 변경하려고 한다고 가정합니다. 이렇게 하려면 사용자 계정에 [!DNL API] 액세스가 필요합니다. 특정 사용자에 대한 권한을 추가하는 대신, 적절한 자격 증명, 키 및 암호가 있는 특정하지 않은 [!DNL API] 사용자 계정을 만들어 [!DNL API] 호출을 수행합니다. 이 기능은 [!DNL Audience Manager] [!DNL API]s를 사용하는 애플리케이션을 개발하는 경우에도 유용합니다.
 
@@ -99,23 +111,23 @@ ht-degree: 3%
 >
 >액세스 및 토큰을 데이터베이스에 저장하는 경우 토큰을 암호화하고 새로 고칩니다.
 
-#### 1단계:[!DNL API] 액세스 요청
+#### 1단계: [!DNL API] 액세스 요청
 
 파트너 솔루션 관리자에게 문의하십시오. 그러면 [!DNL API] 클라이언트 ID와 암호가 제공됩니다. ID와 암호는 [!DNL API]에 인증됩니다.
 
-참고:새로 고침 토큰을 받으려면 [!DNL API] 액세스를 요청할 때 을 지정합니다.
+참고: 새로 고침 토큰을 받으려면 [!DNL API] 액세스를 요청할 때 을 지정합니다.
 
-#### 2단계:토큰 요청
+#### 2단계: 토큰 요청
 
 선호하는 [!DNL JSON] 클라이언트와 함께 토큰 요청을 전달합니다. 요청을 작성하는 경우:
 
 * `POST` 메서드를 사용하여 `https://api.demdex.com/oauth/token`을 호출합니다.
 * 클라이언트 ID와 암호를 기본-64 인코딩 문자열로 변환합니다. 전환 프로세스 중에 ID와 암호를 콜론으로 구분합니다. 예를 들어 자격 증명 `testId : testSecret`은 `dGVzdElkOnRlc3RTZWNyZXQ=`로 변환됩니다.
-* [!DNL HTTP] [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` 및 `Content-Type: application/x-www-form-urlencoded`에 전달하십시오. 예를 들어 헤더는 다음과 같을 수 있습니다.<br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
+* [!DNL HTTP] [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` 및 `Content-Type: application/x-www-form-urlencoded`에 전달하십시오. 예를 들어 헤더는 다음과 같을 수 있습니다. <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * 다음과 같이 요청 본문을 설정합니다.
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
-#### 3단계:토큰 받기
+#### 3단계: 토큰 받기
 
 [!DNL JSON] 응답에는 액세스 토큰이 포함되어 있습니다. 응답은 다음과 같습니다.
 
@@ -143,16 +155,16 @@ ht-degree: 3%
 
 다음 단계는 새로 고침 토큰을 사용하여 브라우저의 [!DNL JSON] 클라이언트에서 새 액세스 토큰을 만드는 워크플로우에 대해 설명합니다.
 
-#### 1단계:새 토큰 요청
+#### 1단계: 새 토큰 요청
 
 선호하는 [!DNL JSON] 클라이언트와 함께 새로 고침 토큰 요청을 전달합니다. 요청을 작성하는 경우:
 
 * `POST` 메서드를 사용하여 `https://api.demdex.com/oauth/token`을 호출합니다.
 * 클라이언트 ID와 암호를 기본-64 인코딩 문자열로 변환합니다. 전환 프로세스 중에 ID와 암호를 콜론으로 구분합니다. 예를 들어 자격 증명 `testId : testSecret`은 `dGVzdElkOnRlc3RTZWNyZXQ=`로 변환됩니다.
-* HTTP 헤더 `Authorization:Basic <base-64 clientID:clientSecret>` 및 `Content-Type: application/x-www-form-urlencoded`에 전달합니다. 예를 들어 헤더는 다음과 같을 수 있습니다.<br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
-* 요청 본문에서 `grant_type:refresh_token`을(를) 지정하고 이전 액세스 요청에서 받은 새로 고침 토큰을 전달합니다. 요청은 다음과 같아야 합니다.<br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
+* HTTP 헤더 `Authorization:Basic <base-64 clientID:clientSecret>` 및 `Content-Type: application/x-www-form-urlencoded`에 전달합니다. 예를 들어 헤더는 다음과 같을 수 있습니다. <br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
+* 요청 본문에서 `grant_type:refresh_token`을(를) 지정하고 이전 액세스 요청에서 받은 새로 고침 토큰을 전달합니다. 요청은 다음과 같아야 합니다. <br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
-#### 2단계:새 토큰 받기
+#### 2단계: 새 토큰 받기
 
 [!DNL JSON] 응답에는 새 액세스 토큰이 포함되어 있습니다. 응답은 다음과 같습니다.
 
@@ -170,7 +182,7 @@ ht-degree: 3%
 
 [!DNL Audience Manager] [!UICONTROL REST API]은 인증 코드와 암시적 인증을 지원합니다. 이러한 액세스 방법을 사용하려면 사용자가 `https://api.demdex.com/oauth/authorize`에 로그인하여 액세스 및 토큰을 새로 고쳐야 합니다.
 
-## 인증됨 [!DNL API] 요청 만들기 {#authenticated-api-requests}
+## 인증된 [!DNL API] 요청 만들기 {#authenticated-api-requests}
 
 인증 토큰을 받은 후 [!DNL API] 메서드를 호출하기 위한 요구 사항입니다.
 
@@ -194,7 +206,7 @@ ht-degree: 3%
 | `descending` | 결과를 내림차순으로 정렬하고 반환합니다. `ascending` 기본값은 입니다. |
 | `search` | 검색 매개 변수로 사용할 지정된 문자열을 기반으로 결과를 반환합니다. 예를 들어 해당 항목의 값 필드에 &quot;Test&quot;라는 단어가 있는 모든 모델에 대한 결과를 찾겠다고 가정합니다. 샘플 요청은 다음과 같을 수 있습니다.   `GET https://aam.adobe.io/v1/models/?search=Test`  &quot;[!DNL get all]&quot; 메서드에서 반환된 값을 검색할 수 있습니다. |
 | `folderId` | 지정된 폴더 내의 [!UICONTROL traits]에 대한 모든 ID를 반환합니다. 일부 메서드에서는 사용할 수 없습니다. |
-| `permissions` | 지정된 권한을 기반으로 세그먼트 목록을 반환합니다. `READ` 기본값은 입니다. 권한은 다음과 같습니다.<ul><li>`READ` :세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` :세그먼트  `PUT`  를 업데이트하려면 을(를) 사용하십시오.</li><li>`CREATE` :을   `POST`  사용하여 세그먼트를 만듭니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 대한 액세스(있는 경우)가 필요합니다. 예를 들어 세그먼트를 제거하려면 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>별도의 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어 `READ` 및 `WRITE` 권한만 있는 세그먼트 목록을 반환하려면 `"permissions":"READ"`, `"permissions":"WRITE"` 로 전달하십시오. |
+| `permissions` | 지정된 권한을 기반으로 세그먼트 목록을 반환합니다. `READ` 기본값은 입니다. 권한은 다음과 같습니다.<ul><li>`READ` : 세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` : 세그먼트  `PUT`  를 업데이트하려면 을(를) 사용하십시오.</li><li>`CREATE` : 을   `POST`  사용하여 세그먼트를 만듭니다.</li><li>`DELETE` : 세그먼트 삭제. 기본 트레이트에 대한 액세스(있는 경우)가 필요합니다. 예를 들어 세그먼트를 제거하려면 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>별도의 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어 `READ` 및 `WRITE` 권한만 있는 세그먼트 목록을 반환하려면 `"permissions":"READ"`, `"permissions":"WRITE"` 로 전달하십시오. |
 | `includePermissions` | ([!DNL Boolean]) 세그먼트에 대한 권한을 반환하려면 `true` 로 설정하십시오. 기본값은 `false`입니다. |
 
 ### 페이지 옵션에 대한 참고 사항
@@ -215,7 +227,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 사용하는 인증 방법에 따라 아래 표에 따라 요청 [!DNL URLs]을 조정해야 합니다.
 
-### [!DNL JWT] 인증 {#request-urls-jwt}에 대해 [!DNL URLs] 요청
+### [!DNL JWT] 인증에 [!DNL URLs] 요청 {#request-urls-jwt}
 
 | [!DNL API] 메서드에서 사용할 수 있습니다 | 요청 [!DNL URL] |
 |--- |--- |
@@ -224,14 +236,14 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Derived Signals] | `https://aam.adobe.io/v1/signals/derived/` |
 | [!DNL Destinations] | `https://aam.adobe.io/v1/destinations/` |
 | [!DNL Domains] | `https://aam.adobe.io/v1/partner-sites/` |
-| [!DNL Folders] | 트레이트: `https://aam.adobe.io/v1/folders/traits /`<br>세그먼트: `https://aam.adobe.io/v1/folders/segments /` |
+| [!DNL Folders] | 트레이트:  `https://aam.adobe.io/v1/folders/traits /`<br>세그먼트:  `https://aam.adobe.io/v1/folders/segments /` |
 | [!DNL Schema] | `https://aam.adobe.io/v1/schemas/` |
 | [!DNL Segments] | `https://aam.adobe.io/v1/segments/` |
 | [!DNL Traits] | `https://aam.adobe.io/v1/traits/` |
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### [!DNL OAuth] 인증 요청(사용 중지) {#request-urls-oauth}[!DNL URLs]
+### [!DNL OAuth] 인증에 대해 [!DNL URLs] 요청(더 이상 사용되지 않음) {#request-urls-oauth}
 
 | [!DNL API] 메서드에서 사용할 수 있습니다 | 요청 [!DNL URL] |
 |--- |--- |
@@ -240,7 +252,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Derived Signals] | `https://api.demdex.com/v1/signals/derived/` |
 | [!DNL Destinations] | `https://api.demdex.com/v1/destinations/` |
 | [!DNL Domains] | `https://api.demdex.com/v1/partner-sites/` |
-| [!DNL Folders] | 트레이트: `https://api.demdex.com/v1/folders/traits /`<br>세그먼트: `https://api.demdex.com/v1/folders/segments /` |
+| [!DNL Folders] | 트레이트:  `https://api.demdex.com/v1/folders/traits /`<br>세그먼트:  `https://api.demdex.com/v1/folders/segments /` |
 | [!DNL Schema] | `https://api.demdex.com/v1/schemas/` |
 | [!DNL Segments] | `https://api.demdex.com/v1/segments/` |
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |
@@ -287,6 +299,6 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 >
 >* [JWT(서비스 계정) 인증](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [OAuth 인증](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-* [OAuth 2.0](https://oauth.net/2/)
-* [OAuth 2 간소화](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 간소화](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 

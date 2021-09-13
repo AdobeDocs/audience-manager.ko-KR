@@ -6,16 +6,16 @@ solution: Audience Manager
 title: twitter 사용자 지정 대상을 셀프 서비스 장치 기반 대상으로 구성
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
 # [!DNL Twitter Custom Audiences] 을 셀프 서비스 장치 기반 대상으로 구성 {#configure-twitter}
 
-이 문서에서는 [Twitter 사용자 지정 대상](https://business.twitter.com/en/targeting/tailored-audiences.html)과의 통합을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 [Twitter 사용자 지정 대상](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html)과의 통합을 구성하는 방법에 대해 설명합니다.
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -35,7 +35,10 @@ ht-degree: 1%
 
 1. Audience Manager 계정에 로그인하고 **[!DNL Administration > Integrated Accounts]**&#x200B;으로 이동합니다. 대상 플랫폼과 이전에 구성한 통합이 있는 경우 이 페이지에 해당 통합이 표시되어야 합니다. 그렇지 않으면 페이지가 비어 있습니다.
 1. 클릭 **[!DNL Add Account]**.
-1. [!DNL Twitter Custom Audiences] 을 선택하고 **[!DNL Confirm]** 을 클릭하여 인증 페이지로 리디렉션합니다.                     ![통합 플랫폼](assets/dbd-integrated-platforms.png)
+1. [!DNL Twitter Custom Audiences] 을 선택하고 **[!DNL Confirm]** 을 클릭하여 인증 페이지로 리디렉션합니다.
+
+   ![통합 플랫폼](assets/dbd-integrated-platforms.png)
+
 1. 인증되면 연결된 광고주 계정이 표시되는 Audience Manager으로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 **[!DNL Confirm]** 을 클릭합니다.
 
 ### 2단계. 새 장치 기반 대상 만들기 {#step2-create-new-destination}

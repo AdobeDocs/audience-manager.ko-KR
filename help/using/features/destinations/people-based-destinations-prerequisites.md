@@ -1,15 +1,15 @@
 ---
 description: '사용자 기반 대상에 등록하기 전에 충족해야 하는 고객 요구 사항에 대한 개요를 알려면 아래 문서를 참조하십시오.  '
-seo-description: '사용자 기반 대상에 등록하기 전에 충족해야 하는 고객 요구 사항에 대한 개요를 알려면 아래 문서를 참조하십시오.  '
-seo-title: 사용자 기반 대상 사전 요구 사항 및 고려 사항
+seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
+seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
-feature: 사용자 기반 대상
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: bb0bc62b139917bbf6429bc92a85f8a5010cbebe
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 4%
 
 ---
 
@@ -51,11 +51,9 @@ ht-degree: 3%
 
 ### [!DNL Google Customer Match] {#gcm}
 
-[!UICONTROL People-Based Destinations] 을 사용하여 자사 대상 세그먼트를 [!DNL Google Customer Match] 대상에 보내려면 먼저 [!DNL Google]에서 이 사용자를 해당 허용 목록에 추가해야 합니다.
+[!UICONTROL People-Based Destinations] 을 사용하여 자사 대상 세그먼트를 [!DNL Google Customer Match] 대상으로 보내려면 먼저 [!DNL Google Ads] 계정이 [Google Customer Match 정책](https://support.google.com/google-ads/answer/6299717/customer-match-policy)을 준수하는지 확인하십시오.
 
-[!DNL Google] 담당자에게 문의하여 [고객 일치 파트너 사용 을 통해 데이터](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) [!DNL Google] 설명서에 설명된 허용 목록 지침을 따르십시오.
-
-이 프로세스가 완료되면 [!UICONTROL People-Based Destination]을(를) 만들 수 있습니다.
+호환 계정이 있는 고객은 Google에서 자동으로 나열할 수 있습니다.
 
 ## 데이터 온보딩 {#data-onboarding}
 

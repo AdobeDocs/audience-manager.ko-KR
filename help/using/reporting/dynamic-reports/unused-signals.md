@@ -1,15 +1,15 @@
 ---
 description: 이 보고서는 인벤토리에서 수집되고 Audience Manager으로 전송된 모든 사용되지 않은 정보의 빈도 수를 반환합니다.
-seo-description: 이 보고서는 인벤토리에서 수집되고 Audience Manager으로 전송된 모든 사용되지 않은 정보의 빈도 수를 반환합니다.
-seo-title: 사용되지 않은 신호 보고서
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: 사용되지 않은 신호 보고서
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-feature: 겹치기 보고서
+feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 신호는 [키-값 쌍](../../reference/key-value-pairs-explained.md)(예: `color=blue, price>100, gender=female` 등) 형태로 [!DNL Audience Manager]에 전달되는 웹 사이트의 정보입니다.
 
-사용하지 않은 신호는 수집하지만 트레이트에 매핑되지 않은 데이터로 구성됩니다. [!UICONTROL Unused Signals] 보고서는 날짜, 키, 값 및 빈도 수를 기준으로 테이블의 데이터를 표시합니다. 하루에 최소 100회 [!DNL Audience Manager]에 전달된 매핑되지 않은 신호는 [!UICONTROL Unused Signals] 보고서에 사용할 수 있습니다.
+사용하지 않은 신호는 수집하지만 트레이트에 매핑되지 않은 데이터로 구성됩니다. [!UICONTROL Unused Signals] 보고서는 날짜, 키, 값 및 빈도 수를 기준으로 테이블의 데이터를 표시합니다. 하루에 최소 100회 [!DNL Audience Manager]에 전달된 매핑되지 않은 신호는 [!UICONTROL Unused Signals] 보고서에 사용할 수 있습니다. 사용하지 않은 신호는 45일 동안 저장된 다음 무시됩니다.
 
 이 보고서를 검토하여 신규 또는 기존 트레이트에 매핑할 수 있는 분리된 신호를 식별합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>새 트레이트 만들기</b> </p> </td> 
-   <td colname="col2"> <p>보고서를 검토하여 특정 키에 전달되는 새 값을 확인하십시오. 이러한 새 값을 기반으로 새 키-값 쌍을 만들 수 있습니다. </p> <p> <p>참고: 자주 변경되는 값(예: 표시, 캠페인, 연예인 등)은 보고서를 2주에 걸쳐 확인합니다. </p> </p> </td> 
+   <td colname="col2"> <p>보고서를 검토하여 특정 키에 전달되는 새 값을 확인하십시오. 이러한 새 값을 기반으로 새 키-값 쌍을 만들 수 있습니다. </p> <p> <p>참고:  자주 변경되는 값(예: 표시, 캠페인, 연예인 등)은 보고서를 2주에 걸쳐 확인합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>매핑되지 않은 값 찾기</b> </p> </td> 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
 * T(v=1 [!UICONTROL AND] (a!=23))
-* 두 예 모두 v 및 a 키-값 쌍을 포함하는 트레이트를 보여줍니다.첫 번째 표현식은 다음과 같이 변환됩니다.이 트레이트에는 값이 23인 키 a가 1인 키 v가 포함되어 있습니다. [!UICONTROL AND NOT] 두 번째 표현식은 값이 1 [!UICONTROL AND] 인 키 v와 값이 [!UICONTROL NOT EQUAL] 23인 키 a를 포함합니다.
+* 두 예 모두 v 및 a 키-값 쌍을 포함하는 트레이트를 보여줍니다. 첫 번째 표현식은 다음과 같이 변환됩니다. 이 트레이트에는 값이 23인 키 a가 1인 키 v가 포함되어 있습니다. [!UICONTROL AND NOT] 두 번째 표현식은 값이 1 [!UICONTROL AND] 인 키 v와 값이 [!UICONTROL NOT EQUAL] 23인 키 a를 포함합니다.
 * 위의 두 가지 다른 표현식을 고려하여, [!UICONTROL Unused Signals Report]에서 값이 23이 아닌 다른 키 a에서 전달되는 값에 대해 검색한다고 가정해 보겠습니다. 키에 대한 값이 AT ALL로 전송되지 않았기 때문입니다. 두 번째 경우, 23이 아닌 값이 전송되어 키 a가 사용되지 않습니다.
 
 ## 벌크 트레이트 만들기

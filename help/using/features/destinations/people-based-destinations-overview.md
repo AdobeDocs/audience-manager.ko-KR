@@ -1,14 +1,14 @@
 ---
 description: '사용자 기반 대상을 사용하여 자사 대상 세그먼트를 사용자 기반 환경에 보낼 수 있습니다. 이러한 환경은 표시 중인 컨텐츠를 제어하는 하나의 엔티티에 속한 닫힌 에코시스템입니다. 여기에는 Facebook과 같은 소셜 플랫폼과 고객 계정을 사용하여 표시된 콘텐츠를 개인화하는 다른 플랫폼이 포함됩니다. '
-seo-description: '사용자 기반 대상을 사용하여 자사 대상 세그먼트를 사용자 기반 환경에 보낼 수 있습니다. 이러한 환경은 표시 중인 컨텐츠를 제어하는 하나의 엔티티에 속한 닫힌 에코시스템입니다. 여기에는 Facebook과 같은 소셜 플랫폼과 고객 계정을 사용하여 표시된 콘텐츠를 개인화하는 다른 플랫폼이 포함됩니다.  '
-seo-title: 사용자 기반 대상 개요 및 사용 사례
+seo-description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content.
+seo-title: People-Based Destinations Overview and Use Cases
 solution: Audience Manager
 title: 개요 및 사용 사례
-feature: 사용자 기반 대상
+feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: ab3361a0a54a7200d2f0c03a82ae6ef61a755be9
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 개요 {#overview}
 
-[!DNL People-Based Destinations] 이메일 주소 또는 전화 번호와 같이 해시된 식별자를 기반으로 대상 세그먼트를 만들려면 온라인 및 오프라인  [데이터에](people-based-destinations-prerequisites.md#hashing-requirements) 세그멘테이션을 적용할 수 있습니다. 그런 다음 이러한 세그먼트를 [!DNL Facebook] 등의 &quot;벽으로 둘러싸인 정원&quot;으로 보내어 소셜 플랫폼에서 대상을 타깃팅할 수 있습니다. [!DNL People-Based Destinations] 도움이 될 수 있습니다.
+[!DNL People-Based Destinations] 이메일 주소와 같이 해시된 식별자를 기반으로 대상 세그먼트를 만들기 위해 온라인 및 오프라인 데이터에  [세그멘테이션을 적용할](people-based-destinations-prerequisites.md#hashing-requirements) 수 있습니다. 그런 다음 이러한 세그먼트를 [!DNL Facebook] 등의 &quot;벽으로 둘러싸인 정원&quot;으로 보내어 소셜 플랫폼에서 대상을 타깃팅할 수 있습니다. [!DNL People-Based Destinations] 도움이 될 수 있습니다.
 
 * 해시된 이메일 주소를 기반으로 [!DNL Facebook] 과 같은 플랫폼에 있는 오프라인 및 온라인 대상 Target;
 * Audience Manager의 기존 장치 및 쿠키 타깃팅 기능을 보완합니다.
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 [!DNL People-Based Destinations] 은 프리미엄 Audience Manager 통합입니다. 이 프리미엄 기능을 활용하려면 Adobe 담당자에게 문의하십시오.
 
-## [!UICONTROL People-Based Destinations] {#why-use}을 사용해야 하는 이유
+## [!UICONTROL People-Based Destinations]을 사용해야 하는 이유 {#why-use}
 
 **Audience Manager 내에서 전체 대상 세그먼테이션을 관리하여 고객에게 일관된 크로스 채널 경험을 제공합니다.**
 

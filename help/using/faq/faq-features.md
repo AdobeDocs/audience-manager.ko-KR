@@ -1,16 +1,16 @@
 ---
 description: 일반적인 제품 및 기능 관련 질문 및 문제
 keywords: audience manager 쿠키
-seo-description: 일반적인 제품 및 기능 관련 질문 및 문제
-seo-title: 제품 및 기능 FAQ
+seo-description: Common product and function-related questions and issues.
+seo-title: Product Features and Functions FAQ
 solution: Audience Manager
 title: 제품 및 기능 FAQ
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: 개요
+feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '596'
 ht-degree: 84%
 
 ---
@@ -47,9 +47,9 @@ faq_features_functions.xml
 
  
 
-**대상으로 벌크 ID 내보내기를 수행할 때 일부 고객 ID가 누락됩니다. 이유가 무엇입니까?**
+**대상으로 벌크 ID 내보내기를 수행할 때 일부 고객 ID가 누락됩니다. 왜 이런 일이 발생하는가?**
 
-장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUIDs](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보냅니다. 내보내는 장치 ID의 예상 수보다 적은 수가 표시될 수 있습니다.
+장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID( )에 연결되어 있습니다[DPUUIDs](../reference/ids-in-aam.md)). 최신 매핑만 내보냅니다. 내보내는 장치 ID의 예상 수보다 적은 수가 표시될 수 있습니다.
 
  
 
@@ -67,7 +67,7 @@ faq_features_functions.xml
 
 **[!UICONTROL Tag Insertion Manager (TIM)]은 무엇입니까?**
 
-Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Launch]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)을 참조하십시오.
+Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Tags]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 

@@ -1,16 +1,16 @@
 ---
 description: Audience Manager는 온라인 고객 데이터 관리를 위한 업계를 선도하는 서비스를 제공합니다. 우리 제품과 서비스는 디지털 광고주와 게시자가 영업을 성공으로 이끌 수 있도록 데이터 자산을 통제하고 영향력을 미치는 데 필요한 도구를 제공합니다.
-seo-description: AAM(Audience Manager)에 대한 기술 문서 및 자체 도움말 AAM은 온라인 대상 데이터 관리를 위한 업계 선도적인 서비스를 제공하고, 디지털 광고주와 게시자에게 매출 성과를 높이는 데 도움이 되도록 데이터 자산을 제어하고 활용하는 데 필요한 도구를 제공합니다.
-seo-title: Adobe Audience Manager 제품 기술 설명서
+seo-description: Technical documentation and self help for Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
+seo-title: Adobe Audience Manager Product Technical Documentation
 solution: Audience Manager
 title: Audience Manager 안내서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: 개요
+feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 91%
+source-wordcount: '597'
+ht-degree: 88%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 91%
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API 시작</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS API 시작</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Adobe Experience Platform Launch에 Audience Manager 확장 추가</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adobe Experience Platform 태그에서 Audience Manager 확장 추가</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">앱에 Audience Manager 추가</a></li>
      </ul> </p>
     </td>
@@ -151,7 +151,7 @@ ht-degree: 91%
      새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오.</p> 
      <p> <b>최신 기능</b> </p> <p> 
      최신 Audience Manager 기능을 살펴보십시오.</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사용자 기반 대상에 대한 Google Customer Match</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사용자 기반 대상에 대한 Google 고객 일치</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
      </ul></p>
     </td>
   </tr> 

@@ -1,16 +1,16 @@
 ---
 description: 일반적인 데이터 수집 및 통합 질문 및 문제
-seo-description: 일반적인 데이터 수집 및 통합 질문 및 문제
-seo-title: 데이터 수집 및 제품 통합 FAQ
+seo-description: Common data collection and integration questions and issues.
+seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: 데이터 수집 및 제품 통합 FAQ
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP 주소; STFP IP 주소; FTP 주소
-feature: 관리
+feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1198'
 ht-degree: 78%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 78%
 
 **새 SFTP 서버를 사용하도록 Audience Manager 인스턴스를 구성하려면 어떻게 합니까?**
 
-[!DNL Audience Manager] 컨설턴트나 고객 지원 센터에 문의하여 새 SFTP 계정을 구성합니다.
+다음 사항에 문의하십시오. [!DNL Audience Manager] 컨설턴트 또는 고객 지원 센터에 문의하여 새로운 SFTP 계정을 구성합니다.
 
  
 
 **새 SFTP 서버에 대해 지원되는 인증 방법은 무엇입니까?**
 
-새 SFTP 서버(`ftp-in-gtw` 및 `ftp-out-gtw`)는 [!DNL OpenSSH Key-Based Authentication]를 지원합니다. [!DNL SSH] 키를 생성하거나 사용자가 직접 공개 키를 제공할 수 있습니다.
+새 SFTP 서버(`ftp-in-gtw` 및 `ftp-out-gtw`) 지원 [!DNL OpenSSH Key-Based Authentication]. Adobe에서는 [!DNL SSH] 키가 필요합니다. 또는 자체 공개 키를 제공할 수 있습니다.
 
  
 
@@ -83,7 +83,7 @@ ht-degree: 78%
 
 * `s_code`에 바로 [!UICONTROL DIL]을 넣습니다.
 
-* [!UICONTROL DIL] 및 `s_code` 을 [!DNL Adobe Experience Platform Launch]에 제공합니다.
+* 서비스 [!UICONTROL DIL] 그리고 `s_code` through [!DNL Adobe Experience Platform Tags].
 
 [DIL(데이터 통합 라이브러리) API](../dil/dil-overview.md)를 참조하십시오.
 
@@ -150,9 +150,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**한 사이트에서 데이터를 수집하고 다른 사이트에서 사용자 [!DNL Google Ad Manager] 를 타겟팅하고 싶습니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
+**한 사이트에서 데이터를 수집하고 [!DNL Google Ad Manager] 다른 사이트에 있을 때 사용됩니다. 해당 위치에서 데이터를 수집하지 않으려면 다른 자산에서 코드를 배포해야 합니까?**
 
-아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. [!DNL Google Ad Manager] 을 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 한 초기 사이트의 데이터 수집을 사용하고 [!DNL Google Ad Manager] 을 통해 타겟팅할 수 있습니다.
+아니요. 두 번째 사이트에 대한 데이터 수집이 요구 사항이 아니라면 거기에 DIL을 배포할 필요가 없습니다. 를 통해 두 번째 사이트의 인벤토리에 액세스할 수 있는 한 [!DNL Google Ad Manager]를 통해 초기 사이트 및 타겟 의 데이터 수집을 사용할 수 있습니다. [!DNL Google Ad Manager].
 
 <br> 
 
@@ -162,9 +162,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**는 어떻게  [!DNL Audience Manager] 쿠키를 설정하고 변수를 로 전달합니까 [!DNL Google Ad Manager]?**
+**어떻게 [!DNL Audience Manager] 쿠키 설정 및 변수 전달 [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] 는 2개의 쿠키를 설정합니다. 하나는 세그먼트 변수를  [!DNL Google Ad Manager] 광고 태그에 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며 이것은 또한  [!DNL Google Ad Manager]로 읽습니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
+[!DNL Audience Manager] 는 2개의 쿠키를 설정합니다. 하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그와 다른 세트는 고유한 사용자 ID(UUID)를 설정하며 이 ID는 [!DNL Google Ad Manager]. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
 
 <br> 
 
@@ -210,6 +210,6 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 **비활성 Amazon S3 사용자 액세스 키는 어떻게 됩니까?**
 
-Adobe은 Audience Manager 고객에게 [!DNL Amazon S3] Audience Manager 버킷에 대한 사용자 액세스 키를 제공합니다. 보안상의 이유로 100일 동안 활동이 없으면 키가 자동으로 비활성화됩니다.
+Adobe은 Audience Manager 고객에게 Audience Manager에 대한 사용자 액세스 키를 제공합니다 [!DNL Amazon S3] 버킷. 보안상의 이유로 100일 동안 활동이 없으면 키가 자동으로 비활성화됩니다.
 
 액세스 키를 다시 활성화하거나 새 키를 요청하려면 고객 지원 센터에 문의하십시오.

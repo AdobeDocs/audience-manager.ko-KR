@@ -1,17 +1,17 @@
 ---
 description: 베타 환경은 Audience Manager 구현을 테스트하는 것입니다. 베타에서 변경한 사항은 프로덕션 데이터에 영향을 주지 않습니다. 베타 환경을 사용하려면 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
 keywords: 샌드박스
-seo-description: 베타 환경은 Audience Manager 구현을 테스트하는 것입니다. 베타에서 변경한 사항은 프로덕션 데이터에 영향을 주지 않습니다. 베타 환경을 사용하려면 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
-seo-title: 베타 환경
+seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
+seo-title: Beta Environment
 solution: Audience Manager
 title: 베타 환경
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: 참조
+feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
+source-git-commit: fce39268f1c8c4dd1b7ff21b61a9830a20fa0b4e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 4%
+source-wordcount: '373'
+ht-degree: 3%
 
 ---
 
@@ -29,9 +29,17 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->고객 데이터([신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en))는 프로덕션 환경과 베타 환경 간에 동기화되지 않습니다.
+>고객 데이터([신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en))은 프로덕션 환경과 베타 환경 간에 동기화되지 않습니다.
 
-**아웃바운드 트래픽**
+## 인바운드 트래픽
+
+베타 환경은 파일 이름 및 콘텐츠 구문 유효성 검사를 위한 인바운드 트래픽만 지원합니다. 베타 환경에서 ID 매핑이 발생하지 않으므로 고객은 세그먼트 모집단을 볼 수 없습니다.
+
+따라서, [!UICONTROL Onboarding Status] 페이지는 항상 보고됩니다 [!UICONTROL No matching AAM ID] 베타 환경에서 파일을 섭취할 때.
+
+모든 고객에게 프로덕션 환경에서 인바운드 테스트를 수행할 것을 권장합니다.
+
+## 아웃바운드 트래픽
 
 베타 환경에 대해 아웃바운드 트래픽을 사용할 수 없습니다.
 
@@ -39,14 +47,14 @@ ht-degree: 4%
 
 | 서비스 | URL/호스트 이름 | 액세스 권한을 얻는 방법 |
 |--- |--- | --- |
-| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오 | 베타 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3](../reference/amazon-s3.md)을 사용할 때의 [장점에 대해 읽어보십시오. |
-| DCS | `https://dcs-beta.demdex.net/...` | 베타 환경에서 [DCS 액세스](../reference/beta-environment.md#access-dcs-beta-environment)를 참조하십시오. |
+| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오 | 베타 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. 다음 문서를 참조하십시오 [Amazon S3 사용의 이점](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | 자세한 내용은 [베타 환경에서 DCS 액세스](../reference/beta-environment.md#access-dcs-beta-environment). |
 | UI | `https://bank-beta.demdex.com` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. |
-| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. [세부 사항](../api/rest-api-main/aam-api-getting-started.md#requirements) 을 참조하십시오. |
+| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 베타 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. [세부 정보 보기](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## 베타 환경에서 DCS 액세스 {#access-dcs-beta-environment}
 
-1. curl [command](https://curl.haxx.se/docs/manpage.html)를 사용하여 DCS를 호출합니다. Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 또는 서버에서 데이터를 전송하는 도구입니다.
+1. curl을 사용하여 DCS 호출 만들기 [명령](https://curl.haxx.se/docs/manpage.html). Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 또는 서버에서 데이터를 전송하는 도구입니다.
 
    예:
 

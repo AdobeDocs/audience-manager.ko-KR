@@ -3,12 +3,12 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager 사용 안내서
-user-guide-description: Audience Manager을 통해 사이트 방문자에 대한 상업적으로 연관성 있는 정보를 수집하고, 마케팅 가능한 세그먼트를 만들고, 타깃팅된 광고 및 컨텐츠를 적절한 대상자에게 제공하는 방법을 알아봅니다.
+user-guide-description: Audience Manager를 사용하여 사이트 방문자에 대한 상업적인 연관성 있는 정보를 수집하고, 마케팅 가능한 세그먼트를 생성하고, 타기팅된 광고 및 콘텐츠를 적절한 고객에게 제공하는 방법에 대해 알아봅니다.
 feature-set: Audience Manager
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -339,7 +339,7 @@ ht-degree: 90%
       + [사용자 지정 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
       + [Audience Manager 및 기타 Experience Cloud 솔루션과의 Experience Platform 세그먼트 공유](integration/integration-aep/aam-aep-audience-sharing.md)
-   + 다른 Experience Cloud 솔루션과의 통합 {#integration-other-solutions}
+   + 다른 Experience Cloud 애플리케이션과의 통합 {#integration-other-solutions}
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
       + [Experience Cloud에 Adobe Analytics 세그먼트 게시(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)

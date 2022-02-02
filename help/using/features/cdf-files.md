@@ -8,9 +8,9 @@ title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1914'
 ht-degree: 3%
 
 ---
@@ -146,12 +146,11 @@ A [!UICONTROL CDF] 파일에는 아래에 정의된 일부 또는 모든 필드�
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a(ASCII) <code> 001</code> 또는 <code> ^A</code>)은 인쇄되지 않는 공간 표시기로 개별 필드의 데이터를 구분합니다. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b(ASCII) <code> 002</code> 또는 <code> ^B</code>)는 데이터 배열과 요청 매개 변수를 구분합니다. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c(ASCII) <code> 003</code> 또는 <code> ^C</code>)은 키-값 쌍을 정의합니다. </li> 
-      <li> 새 줄 구분 기호(/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>필드 시퀀스 </p> </td> 
-   <td colname="col2"> <p> <p>중요 사항: <span class="keyword"> Audience Manager</span> 는 향후 릴리스에서 CDF 파일의 끝에 새 필드를 추가할 권한을 갖습니다. 즉, 파일 구문 분석 시스템의 기술 설계에서는 고정된 수의 열을 가정하지 않아야 합니다(하지만 기존 열에 대해 고정된 순서가 있을 수 있음). </p> </p> <p>CDF 파일의 데이터는 아래 표시된 순서대로 나타납니다. </p> <p> 
+   <td colname="col2"> <p> <p>중요 사항: <span class="keyword"> Audience Manager</span> 는 향후 릴리스에서 CDF 파일의 끝에 새 필드를 추가할 권한을 갖습니다. 즉, 파일 구문 분석 시스템의 기술 설계에서는 고정된 수의 열을 가정하지 않아야 합니다(하지만 기존 열에 대해 고정된 순서가 있을 수 있음).</p> </p> <p>CDF 파일의 데이터는 아래 표시된 순서대로 나타납니다. /N은 이러한 필드 대신 나타날 수 있으며 null 값을 나타냅니다.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">이벤트 시간 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">장치 </li> 

@@ -4,9 +4,10 @@ solution: Audience Manager
 title: Audience Manager 및 기타 Experience Cloud 솔루션과의 Experience Platform 세그먼트 공유
 keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유, AAM AEP 세그먼트 공유
 feature: Platform Integration
-source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
+source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -152,11 +153,15 @@ Audience Manager 모집단 번호는 세그먼트와 Experience Platform 세그�
 
 ### Experience Platform의 세그먼트 평가
 
-Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업데이트합니다.   이 업데이트 시점은 Experience Platform에서 세그먼트 평가 시간에 거의 맞지 않습니다.
+Audience Manager은 인터페이스에서 하루에 한 번 보고 번호를 업데이트합니다. 이 업데이트 시점은 Experience Platform에서 세그먼트 평가 시간에 거의 맞지 않습니다.
 
 ### 프로필 병합 규칙과 병합 정책 간의 차이점
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Audience Manager 및 [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) Experience Platform에서 다르게 작동하며 각각에 사용되는 id 그래프가 달라집니다. 이로 인해 세그먼트 모집단 간의 몇 가지 차이점이 예상됩니다.
+
+>[!NOTE]
+>
+> Experience Platform에서 Audience Manager으로 세그먼트를 공유할 때 플랫폼 조직 [기본 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) 는 보다 우선합니다. [세그먼트에서 사용하는 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) 공유한 모든 세그먼트를 표시합니다. 예를 들어, 공유 세그먼트의 병합 정책이 [ID 결합](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure)그러나 조직의 기본 병합 정책은 적용되지 않습니다. 이로 인해 플랫폼과 Audience Manager 간에 모집단 차이가 발생할 수 있습니다.
 
 ### Experience Platform의 세그먼트 구성
 

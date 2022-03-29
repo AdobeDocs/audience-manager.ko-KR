@@ -7,9 +7,9 @@ title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크�
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: 3e25db0fc74a0b125f4f0ecd0f45f3fb877be099
+source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1105'
 ht-degree: 4%
 
 ---
@@ -72,7 +72,7 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>이 필드는 데이터를 온보딩할 데이터 소스를 Audience Manager에 알려줍니다. DPID를 Android ID 또는 iOS ID 또는 글로벌 데이터 소스에 속하는 다른 ID로 설정하는 경우 이 필드는 필수입니다. 이렇게 하면 Audience Manager이 파일 데이터를 다시 조직에 연결할 수 있습니다. <br> 이 대상 데이터 소스는 회사가 소유해야 합니다. 제2자 데이터 공유 목적의 경우, 데이터를 다른 회사에 속하는 대상 데이터 소스에 수집하려면 회사와 대상 데이터 소스 간에 액세스 매핑이 있어야 합니다. 매핑을 설정하려면 Adobe 컨설턴트나 고객 지원에 문의하십시오.</p> <p>예: </p> 
+   <td colname="col2"> <p>이 필드는 데이터를 온보딩할 데이터 소스를 Audience Manager에 알려줍니다. DPID를 Android ID 또는 iOS ID 또는 글로벌 데이터 소스에 속하는 다른 ID로 설정하는 경우 이 필드는 필수입니다. 이렇게 하면 Audience Manager이 파일 데이터를 다시 조직에 연결할 수 있습니다. <br> 이 대상 데이터 소스는 회사가 소유해야 합니다. 제2자 데이터 공유 목적의 경우, 데이터를 다른 회사에 속하는 대상 데이터 소스에 수집하려면 회사와 대상 데이터 소스 간에 액세스 매핑이 있어야 합니다. 매핑을 설정하려면 Adobe 컨설턴트나 고객 지원에 문의하십시오.</p> <p><b>중요 참고:</b> 사용자 <i>포함하지 않음</i> 기존 데이터 공유 관계에 대한 매핑을 요청해야 합니다(2022년 3월 14일 이전에 데이터를 온보딩한 다른 회사에 속하는 target 데이터 소스의 경우). PID에 속하는 대상 데이터 소스에 데이터를 온보딩할 때도 매핑이 필요하지 않습니다. </p> <p>예: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> 는 Audience Manager에게 데이터 소스 21에 속하는 트레이트 또는 신호에 대해 데이터 소스 33에 속하는 고객 ID에 자격을 부여하는 것을 알려줍니다. </li> 
      <li> <b>Android ID(GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> division <span class="keyword"> Audience Manager</span> 데이터 파일에 Android ID만 포함되어 있으며 ID는 데이터 소스 21에 속하는 트레이트에 대한 자격이 있어야 합니다.</li> 

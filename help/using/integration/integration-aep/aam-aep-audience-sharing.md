@@ -5,9 +5,9 @@ title: Audience Manager 및 기타 Experience Cloud 솔루션과의 Experience P
 keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유, AAM AEP 세그먼트 공유
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1516'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Audience Manager과 Adobe Experience Platform 간의 대상 공유 기능을 사용하면 Audience Manager 트레이트와 세그먼트를 Adobe Experience Platform에 공유하거나 그 반대로 공유할 수 있습니다. 다음을 수행해야 합니다. [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) Audience Manager과 Adobe Experience Platform 간 대상 공유를 가능하게 하기 위해 .
 
-Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform을 활용할 수 있습니다 [세분화 서비스](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
+Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform을 활용할 수 있습니다 [세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
 
 Audience Manager에서 다음과 같은 데이터 관리 플랫폼 사용 사례에 Experience Platform 세그먼트를 사용할 수 있습니다.
 * 추가 [타사 데이터](/help/using/overview/data-types-collected.md#third-party-data) 세그먼트를 보거나 편집하거나 삭제할 수 있습니다.
@@ -143,7 +143,7 @@ Audience Manager과 Experience Platform 간의 대상 공유 프로세스에서 
 | 이 대상은 PII(개인 식별 정보)와 함께 사용할 수 있습니다 | PII와 결합 |
 | 이 대상은 오프사이트 광고 타깃팅에 사용할 수 있습니다 | 사이트 간 타깃팅 |
 | 이 대상은 온사이트 광고 타깃팅에 사용할 수 있습니다 | 온사이트 광고 |
-| 이 대상은 온사이트 광고 개인화에 사용할 수 있습니다 | 온사이트 개인화 |
+| 이 대상은 온사이트 광고 개인화에 사용할 수 있습니다 | 온사이트 Personalization |
 
 {style=&quot;table-layout:auto&quot;}
 

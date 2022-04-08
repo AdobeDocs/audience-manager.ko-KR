@@ -1,16 +1,16 @@
 ---
 description: 이 문서에서는 GDPR(유럽 일반 개인정보보호 규정)에서 사용되는 개념과 용어 및 데이터 처리자인 Adobe Audience Manager가 다양한 GDPR 요구 사항을 어떻게 해결하는지에 대해 설명합니다.
-seo-description: 이 문서에서는 GDPR(유럽 일반 개인정보보호 규정)에서 사용되는 개념과 용어 및 데이터 처리자인 Adobe Audience Manager가 다양한 GDPR 요구 사항을 어떻게 해결하는지에 대해 설명합니다.
-seo-title: GDPR 용어집
+seo-description: This article explains the concepts and terminology used by the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
+seo-title: GDPR Glossary
 solution: Audience Manager
 title: GDPR 용어집
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-feature: 데이터 거버넌스 및 개인 정보
+feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '693'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 GDPR은 EU(데이터 주제)의 개인에게 개인 데이터에 대한 더 많은 제어 권한을 부여하는 동시에 EU 내 규정을 보다 효과적으로 통합함으로써 국제 비즈니스에 대한 규제 환경을 단순화한다는 기본 목표를 가지고 2018년 5월 25일부터 시행되었습니다. Adobe Audience Manager팀은 Adobe의 GDPR 대비의 일환으로 소비자인 데이터 주제의 액세스 및 삭제 요청을 지원하는 데 필요한 서비스 및 프로세스를 향상시켰습니다.
 
-Experience Cloud에서 GDPR이 어떻게 작동하는지를 더 잘 이해하려면 [Experience Cloud GDPR FAQ](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)도 반드시 읽어 보십시오.
+에서 GDPR에 대해서도 읽어야 합니다 [개인 정보 보호 규정 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) 도 반드시 읽어 보십시오.
 
 ## GDPR 용어집 {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ GDPR과 관련하여 사용되는 주요 용어에 익숙해지십시오. 가장
 
  
 
-**Audience Manager 식별자(ID):** Adobe Audience Manager는 다양한 유형의 ID를 저장합니다. [Audience Manager 식별자](data-privacy-ids.md) 페이지에는 이러한 ID, 해당 데이터 소스 및 간단한 설명이 요약되어 있습니다. [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)에 요청을 보낼 때 이러한 ID를 참조하여 데이터 주제에 대한 삭제 또는 액세스 요청을 수행하십시오.
+**Audience Manager 식별자(ID):** Adobe Audience Manager는 다양한 유형의 ID를 저장합니다. [Audience Manager 식별자](data-privacy-ids.md) 페이지에는 이러한 ID, 해당 데이터 소스 및 간단한 설명이 요약되어 있습니다. [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)에 요청을 보낼 때 이러한 ID를 참조하여 데이터 주제에 대한 삭제 또는 액세스 요청을 수행하십시오.
 
  
 

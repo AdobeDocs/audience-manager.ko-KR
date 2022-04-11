@@ -8,10 +8,10 @@ title: 데이터 개인 정보 보호 요청
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 6b43885deddb0cdaeb3698051ea110f0a4eed44e
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 47%
+source-wordcount: '1431'
+ht-degree: 45%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 47%
 개별 요청을 제출하여 다음 위치에서 소비자 데이터에 액세스하고 삭제할 수 있습니다. [!DNL Audience Manager]에는 두 가지 방법으로,
 
 * [Privacy Service UI](https://privacyui.cloud.adobe.io/) 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)에서 볼 수 있습니다.
-* **[!DNL Privacy Service API]** 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[!DNL API]에서,  참조는 [여기에서 볼 수 있습니다](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* **[!DNL Privacy Service API]** 사용. 설명서는 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)[!DNL API]에서,  참조는 [여기에서 볼 수 있습니다](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 개별 데이터 개인 정보 보호 요청을 보낼 때 임의의 [!DNL Audience Manager] 식별자(ID)에 설명되어 있습니다. **[Audience Manager 식별자](data-privacy-ids.md)** 해당 네임스페이스 ID(데이터 소스 ID)와 함께 섹션을 참조하십시오.
 

@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Facebook WCA 통합
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ## 개요 {#overview}
 
-[Facebook 웹 사이트 사용자 지정 대상(WCA)](https://www.facebook.com/business/help/449542958510885) 특정 페이지를 방문하거나 웹 사이트에서 특정 작업을 수행한 사람 목록을 만들 수 있습니다. [!DNL Audience Manager] 에서 활성화 사용 [!DNL WCA] 사용 [!DNL URL] 대상 - 웹 기반 대상을 로 보내도록 사용자 지정 픽셀 기반 통합을 구성할 수 있습니다. [!DNL Facebook] 타겟팅할 수 있습니다.
+[Facebook 웹 사이트 사용자 지정 대상(WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) 특정 페이지를 방문하거나 웹 사이트에서 특정 작업을 수행한 사람 목록을 만들 수 있습니다. [!DNL Audience Manager] 에서 활성화 사용 [!DNL WCA] 사용 [!DNL URL] 대상 - 웹 기반 대상을 로 보내도록 사용자 지정 픽셀 기반 통합을 구성할 수 있습니다. [!DNL Facebook] 타겟팅할 수 있습니다.
 
 ![Facebook WCA 통합](/help/using/integration/assets/facebook-wca-integration.png)
 
@@ -70,7 +70,7 @@ ht-degree: 3%
 | 매개 변수 | 설명 |
 |---------|----------|
 | `id` | 사용자 [!DNL Facebook] 에서 찾을 수 있는 픽셀 ID [!DNL Facebook Ad Manager] 대상 픽셀을 만들 때 사용자 인터페이스를 사용합니다. |
-| `ev` | Event.     이 값은 [!DNL Facebook Ad Manager] 픽셀이 사이트에서 실행되기 시작하면 사용자 인터페이스입니다. 자세한 내용은 [!UICONTROL Include] 항목 [3단계](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)를 참조하십시오. |
+| `ev` | Event. 이 값은 [!DNL Facebook Ad Manager] 픽셀이 사이트에서 실행되기 시작하면 사용자 인터페이스입니다. 자세한 내용은 [!UICONTROL Include] 항목 [3단계](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)를 참조하십시오. |
 | `cd[segID]` | 추가 매개 변수는 [!DNL Facebook Ad Manager] 픽셀이 사이트에서 실행되기 시작하면 사용자 인터페이스입니다. `segID` 또한 임의적입니다. |
 | `%ALIAS%` | An [!DNL Audience Manager] 매크로, 동적으로 [!DNL Audience Manager] [!UICONTROL segment] 사이트 방문자가 받을 ID를 쉼표로 구분하여 입력합니다 |
 

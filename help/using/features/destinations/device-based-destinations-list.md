@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Adobe Audience Manager 서버 간 대상
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 74%
@@ -16,18 +16,18 @@ ht-degree: 74%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-이 페이지에는 현재 [!DNL Audience Manager] [장치 기반 대상](/help/using/features/destinations/add-device-based-destinations.md)만 포함되어 있습니다. [!DNL Audience Manager]에서 [!UICONTROL device-based destinations]도 [!UICONTROL server-to-server destinations]라고 합니다. 통합에 대한 자세한 내용은 [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) 목록(사용 가능한 경우)을 참조하거나 [!DNL Adobe] 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+이 페이지에는 현재 항목이 포함되어 있습니다 [!DNL Audience Manager] [장치 기반 대상](/help/using/features/destinations/add-device-based-destinations.md) 전용. in [!DNL Audience Manager], [!UICONTROL device-based destinations] 라는 호출도 [!UICONTROL server-to-server destinations]. 통합에 대한 자세한 내용은 다음을 참조하십시오 [Adobe 교환](https://exchange.adobe.com/experiencecloud.html) 목록 작성(사용 가능한 경우) 또는 [!DNL Adobe] 컨설턴트 또는 고객 지원 .
 
 
-* **최근 업데이트**  = 이 항목에 대한 업데이트가 있는 마지막 날짜를  [!UICONTROL device-based destination]표시합니다.
-* **업데이트**  = 데이터 [!DNL Audience Manager] 를 실시간으로 전송하는지 또는 일괄 처리(1xday)를 이 이벤트에 전송하는지를  [!UICONTROL destination]나타냅니다.
-* **세그먼트 해제**  = 세그먼테이션 해제 는 장치 프로필을 분류하지 않고 제거하는 프로세스를 설명합니다 [!UICONTROL segments]. [!UICONTROL segment]에서 장치 프로필을 제거하는 기능은 [!UICONTROL Profile Merge Rule]을(를) 만드는 데 사용되는 장치 옵션에 따라 다릅니다. 세그먼테이션 해제는 [!DNL GDPR] 삭제 요청 컨텍스트에서도 사용됩니다. [프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [세그먼테이션 해제 기능이 있는 Audience Manager 파트너](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)를 읽어 보십시오. [!DNL Audience Manager] 아래의 예시로 표시된 세그먼트  [!UICONTROL destinations] 해제 정보를  **** 보냅니다.
-* **동의  [!DNL IAB TCF] 신호 수신**  =  [!DNL Audience Manager Plug-in for IAB TCF] 을 사용하면 사용자의 개인 정보 보호 선택 사항을 준수하면서 활성화  [!DNL IAB TC] 파트너에게 문자열을 전달할 수 있습니다. [IAB TCF용 Audience Manager 플러그인](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)을 참조하십시오.
-* **[!DNL ICDS]** = 이 열에는 를 지원하는 파트너가 나열됩니다  [!UICONTROL Instant Cross-Device Suppression]. [즉각적인 장치 간 억제](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)에 대해 읽어 보십시오.
-* **모바일 장치 ID**  = 이 열에는 모바일 장치 ID에서 모바일 장치 ID를 수신할 수 있는 파트너가  [!DNL Audience Manager]나열됩니다.
+* **마지막 업데이트 날짜** = 이 항목에 대한 업데이트가 있는 마지막 날짜를 표시합니다 [!UICONTROL device-based destination].
+* **업데이트** = 여부를 나타냅니다. [!DNL Audience Manager] 데이터를 이 데이터 세트에 실시간 또는 배치(1일)로 보냅니다 [!UICONTROL destination].
+* **세그먼트 해제** = 세그먼테이션 해제 는 장치 프로필을 [!UICONTROL segments]. 에서 장치 프로필을 제거하는 기능 [!UICONTROL segment] 을(를) 만드는 데 사용되는 장치 옵션에 따라 다릅니다. [!UICONTROL Profile Merge Rule]. 세그먼테이션 해제는 또한 [!DNL GDPR] 삭제 요청. 읽기 [프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [세그먼테이션 해제 기능이 있는 Audience Manager 파트너](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] 세그먼트 해제 정보를 로 보냅니다. [!UICONTROL destinations] 표시 **예** 아래의 제품에서 사용할 수 있습니다.
+* **수신 [!DNL IAB TCF] 동의 신호** = [!DNL Audience Manager Plug-in for IAB TCF] 다음을 수행할 수 있습니다. [!DNL IAB TC] 사용자의 개인 정보 보호 선택 사항을 준수하면서 활성화 파트너에 문자열입니다. 읽기 [IAB TCF용 Audience Manager 플러그인](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = 이 열에는 를 지원하는 파트너가 나열됩니다 [!UICONTROL Instant Cross-Device Suppression]. 자세한 내용 [즉각적인 장치 간 억제](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **모바일 장치 ID** = 이 열에는 모바일 장치 ID를 수신할 수 있는 파트너가 나열됩니다 [!DNL Audience Manager].
 
 
-| 통합 | 마지막 업데이트 날짜 | 업데이트 | 세그먼트 해제 | [!DNL IAB TCF] 동의 신호 수신 | [!DNL ICDS] | 모바일 장치 ID |
+| 통합 | 마지막 업데이트 날짜 | 업데이트 | 세그먼트 해제 | 수신 [!DNL IAB TCF] 동의 신호 | [!DNL ICDS] | 모바일 장치 ID |
 |----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 26/09/2018 | 1일 | 예 | 아니요 | 아니요 | 예 |
 | [!DNL 4info] | 09/02/2017 | 1일 | 아니요 | 아니요 | 아니요 | 예 |
@@ -46,7 +46,7 @@ ht-degree: 74%
 | [!DNL Amazon Advertising] | 15/06/2017 | 1일 | 예 | 아니요 | 아니요 | 아니요 |
 | [!DNL AOL AdLearn] | 02/03/2017 | 실시간 | 아니요 | 아니요 | 아니요 | 예 |
 | [!DNL AOL ONE] | 02/03/2017 | 실시간 | 예 | 아니요 | 아니요 | 예 |
-| [!DNL AppNexus] | 02/03/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
+| [!DNL AppNexus] | 02/03/2017 | 실시간 | 예 | 아니요 | 예 | 예 |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1일 | 예 | 아니요 | 아니요 | 아니요 |
 | [!DNL Artsai] (formerly [!DNL Adxcel]) | 27/01/2020 | 1일 | 아니요 | 아니요 | 아니요 | 예 |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
@@ -160,9 +160,9 @@ ht-degree: 74%
 | [!DNL Triple Lift] | 03/03/2017 | 실시간 | 아니요 | 예 | 아니요 | 아니요 |
 | [!DNL TrueX] | 11/01/2018 | 실시간 | 예 | 아니요 | 아니요 | 예 |
 | [!DNL TubeMogul] | 03/03/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
-| [!DNL Turn] /  [!DNL Amobee] | 03/03/2027 | 실시간 | 아니요 | 아니요 | 아니요 | 예 |
+| [!DNL Turn] / [!DNL Amobee] | 03/03/2027 | 실시간 | 아니요 | 아니요 | 아니요 | 예 |
 | [!DNL Twenga] | 29/10/2018 | 실시간 | 예 | 아니요 | 아니요 | 아니요 |
-| [!DNL Twitter Custom Audiences] | 27/02/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
+| [!DNL Twitter Custom Audiences] | 27/03/2017 | 실시간 | 예 | 아니요 | 예 | 아니요 |
 | [!DNL Undertone] | 11/07/2017 | 1일 | 아니요 | 아니요 | 아니요 | 아니요 |
 | [!DNL Verve] | 15/06/2017 | 1일 | 예 | 아니요 | 아니요 | 예 |
 | [!DNL VideoAmp] | 03/03/2017 | 실시간 | 아니요 | 아니요 | 아니요 | 아니요 |

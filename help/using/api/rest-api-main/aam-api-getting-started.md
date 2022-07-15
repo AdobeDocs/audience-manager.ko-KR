@@ -29,7 +29,7 @@ ht-degree: 3%
 작업 시 다음 사항에 주의하십시오 [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) 코드:
 
 * **요청 매개 변수:** 별도로 지정하지 않는 한 모든 요청 매개 변수가 필요합니다.
-* **헤더 요청**: 사용 시 [Adobe 개발자](https://www.adobe.io/) 토큰을 지정하는 경우 `x-api-key` 헤더. 당신은 당신의 [!DNL API] 키를 눌러 [서비스 계정 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지.
+* **헤더 요청**: 사용 시 [Adobe Developer](https://www.adobe.io/) 토큰을 지정하는 경우 `x-api-key` 헤더. 당신은 당신의 [!DNL API] 키를 눌러 [서비스 계정 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지.
 * **[!DNL JSON]콘텐츠 유형:** 지정 `content-type: application/json`  *및*  `accept: application/json` 코드가 있어야 합니다.
 * **요청 및 응답:** 올바른 형식으로 요청 보내기 [!DNL JSON] 개체. [!DNL Audience Manager] 다음으로 응답 [!DNL JSON] 형식이 지정된 데이터. 서버 응답에는 요청된 데이터, 상태 코드 또는 둘 다 포함될 수 있습니다.
 * **액세스:** 사용자 [!DNL Audience Manager] 컨설턴트는 다음을 수행할 수 있는 클라이언트 ID와 키를 제공합니다 [!DNL API] 요청.
@@ -39,16 +39,16 @@ ht-degree: 3%
 
 다음 [!DNL Audience Manager] [!DNL REST APIs] 두 가지 인증 방법을 지원합니다.
 
-* [JWT(서비스 계정) 인증](#jwt) 사용 [Adobe 개발자](https://www.adobe.io/). [!DNL Adobe Developer] 는 Adobe의 개발자 에코시스템과 커뮤니티입니다. 여기에는 다음이 포함됩니다 [모든 Adobe 제품에 대한 API](https://www.adobe.io/apis.html). 권장되는 설정 및 사용 방법입니다 [!DNL Adobe] [!DNL APIs].
+* [JWT(서비스 계정) 인증](#jwt) 사용 [Adobe Developer](https://www.adobe.io/). [!DNL Adobe Developer] 는 Adobe의 개발자 에코시스템과 커뮤니티입니다. 여기에는 다음이 포함됩니다 [모든 Adobe 제품에 대한 API](https://www.adobe.io/apis.html). 권장되는 설정 및 사용 방법입니다 [!DNL Adobe] [!DNL APIs].
 * [OAuth 인증(더 이상 사용되지 않음)](#oauth). 이 메서드는 더 이상 사용되지 않지만, 기존 고객은 [!DNL OAuth] 통합은 이 메서드를 사용하여 계속 진행할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >인증 방법에 따라 요청을 조정해야 합니다 [!DNL URLs] 따라서, 자세한 내용은 [환경](#environments) 사용해야 하는 호스트 이름에 대한 자세한 내용은 섹션을 참조하십시오.
 
-## [!DNL JWT] ([!DNL Service Account]) Adobe 개발자를 사용한 인증 {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Adobe Developer을 사용한 인증 {#jwt}
 
-### Adobe 개발자 개요 {#adobeio}
+### Adobe Developer 개요 {#adobeio}
 
 [!DNL Adobe Developer] 는 Adobe의 개발자 에코시스템과 커뮤니티입니다. 여기에는 다음이 포함됩니다 [모든 Adobe 제품에 대한 API](https://www.adobe.io/apis.html).
 
@@ -56,13 +56,13 @@ ht-degree: 3%
 
 ### 사전 요구 사항 {#prerequisites}
 
-구성하기 전에 [!DNL JWT] 인증, 액세스 권한이 있는지 확인합니다. [Adobe 개발자 콘솔](https://console.adobe.io/) in [Adobe 개발자](https://www.adobe.io/). 액세스 요청에 대해서는 조직 관리자에게 문의하십시오.
+구성하기 전에 [!DNL JWT] 인증, 액세스 권한이 있는지 확인합니다. [Adobe Developer 콘솔](https://console.adobe.io/) in [Adobe Developer](https://www.adobe.io/). 액세스 요청에 대해서는 조직 관리자에게 문의하십시오.
 
 ### 인증 {#auth}
 
 아래 절차를 수행하여 을 구성합니다 [!DNL JWT (Service Account)] 를 사용하여 인증 [!DNL Adobe Developer]:
 
-1. 에 로그인합니다. [Adobe 개발자 콘솔](https://console.adobe.io/).
+1. 에 로그인합니다. [Adobe Developer 콘솔](https://console.adobe.io/).
 1. 다음 단계를 수행합니다. [서비스 계정 연결](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
    * 다음 기간 동안 [2단계: 서비스 계정 인증을 사용하여 프로젝트에 API 추가](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)을(를) 선택하고 을(를) 선택합니다. [!DNL Audience Manager] [!DNL API] 선택 사항입니다.
 1. 먼저 연결부터 해 보세요 [!DNL API] 의 지침에 따라 을 호출합니다. [3단계](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
@@ -189,7 +189,7 @@ Audience Manager 계정이 [역할 기반 액세스 제어](../../features/admin
 사용 가능한 을 호출하려면 [!DNL API] 메서드:
 
 * 에서 `HTTP` 헤더, 설정 `Authorization: Bearer <token>`.
-* 사용 시 [JWT(서비스 계정) 인증](#jwt)를 채울 때는 `x-api-key` header. `client_id`. 당신은 당신의 `client_id` 에서 [Adobe 개발자 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지.
+* 사용 시 [JWT(서비스 계정) 인증](#jwt)를 채울 때는 `x-api-key` header. `client_id`. 당신은 당신의 `client_id` 에서 [Adobe Developer 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지.
 * 필요한 를 호출합니다 [!DNL API] 메서드를 사용합니다.
 
 ## 선택 사항입니다 [!DNL API] 쿼리 매개 변수 {#optional-api-query-parameters}

@@ -7,9 +7,9 @@ title: 데이터 내보내기 제어
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
+source-git-commit: 26aa0a210a045b40b2329844324315a092947188
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 오프사이트 광고 타깃팅에는 사용할 수 없습니다.</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> 이 대상은 오프사이트 광고 타깃팅에 사용할 수 있습니다</span></b> </td> 
-   <td colname="col3">이러한 제한 사항은 일반적으로 과 함께 사용됩니다. 
+   <td colname="col3">선택한 경우 다음을 수행할 수 없습니다. 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">다른 사이트에서 사용자를 다시 타깃팅하는 대상에 매핑된 세그먼트에 트레이트를 추가합니다. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">데이터 소스의 트레이트로 작성된 세그먼트를 다른 사이트의 사용자를 다시 타깃팅하는 대상에 매핑합니다. </li> 

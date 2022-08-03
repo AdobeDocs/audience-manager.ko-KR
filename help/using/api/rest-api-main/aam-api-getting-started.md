@@ -1,5 +1,5 @@
 ---
-description: 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 URL 및 기타 참조에 대한 정보를 제공합니다.
+description: 일반 요구 사항, 인증, 선택적 쿼리 매개변수, 요청 URL 및 기타 참조에 대한 정보를 제공합니다.
 seo-description: Information about general requirements, authentication, optional query parameters, request URLs, and other references.
 seo-title: Getting Started with REST APIs
 solution: Audience Manager

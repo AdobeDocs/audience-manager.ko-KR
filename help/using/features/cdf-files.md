@@ -8,9 +8,9 @@ title: 고객 데이터 피드
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
+source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1989'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,10 @@ ht-degree: 3%
 
 의 데이터 요소 및 배열을 나열하고 정의합니다 [!UICONTROL CDF] 파일, 모양 순서대로 정의는 데이터 유형을 포함하지만, 이 정보는 [!UICONTROL CDF] 파일.
 
+>[!IMPORTANT]
+>
+>이벤트 픽셀은 CDF 구성에서 기본적으로 제외됩니다. CDF 파일에 이벤트 픽셀을 포함하려는 경우 클라이언트 지원팀에 제공하도록 요청에 지정합니다. 각 이벤트 픽셀은 CDF 파일에서 고유한 행으로 채워집니다.
+
 ## 정의 {#definitions}
 
 A [!UICONTROL CDF] 파일에는 아래에 정의된 일부 또는 모든 필드가 포함되어 있습니다. 내부 파일 조직에 대한 자세한 내용은 [고객 데이터 피드 파일 구조](#cdf-file-structure).
@@ -78,7 +82,7 @@ A [!UICONTROL CDF] 파일에는 아래에 정의된 일부 또는 모든 필드�
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>숫자 </p> </td> 
-   <td colname="col3"> <p>ID 동기화를 실행하는 컨테이너의 ID입니다. </p> </td> 
+   <td colname="col3"> <p>ID 동기화를 실행하는 컨테이너의 ID입니다. 이 필드는 페이지의 <i>d_nsid</i> 사이트 구현 내 필드. 그렇지 않으면 기본값 0이 CDF 파일에 포함되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 

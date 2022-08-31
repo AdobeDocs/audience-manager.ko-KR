@@ -1,28 +1,22 @@
 ---
 description: 대상 랩 기능에 대한 FAQ
-seo-description: 대상 랩 기능에 대한 FAQ
-seo-title: 대상 랩 FAQ
+seo-description: Frequently asked questions about the Audience Lab feature.
+seo-title: Audience Lab FAQ
 solution: Audience Manager
 title: 대상 랩 FAQ
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 98%
+source-wordcount: '325'
+ht-degree: 94%
 
 ---
 
 # 대상 랩 FAQ{#audience-lab-faq}
 
 대상 랩 기능에 대한 FAQ
-
-<!-- 
-
-audience-lab-faq.xml
-
- -->
 
 <br> 
 
@@ -54,6 +48,6 @@ audience-lab-faq.xml
 
 [!UICONTROL RBAC] 권한과 함께 [!UICONTROL Audience Lab]을 사용하는 방법에 대한 내용은 [세그먼트 테스트 그룹 만들기](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)를 참조하십시오.
 
-**[!UICONTROL Profile Link Device Graph] 및 외부 장치 그래프([Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), Tapad 장치 그래프, Liveramp 장치 그래프)와 함께 [!UICONTROL Audience Lab]을 사용할 수 있습니까?**
+**사용할 수 있나요 [!UICONTROL Audience Lab] 그와 함께 [!UICONTROL Profile Link Device Graph] 및 외부 장치 그래프( Tapad 장치 그래프, Liveramp 장치 그래프)?**
 
 현재, [!UICONTROL Audience Lab]은 [!UICONTROL Profile Link Device Graph]를 사용할 때 자격을 부여하는 장치에 연결된 장치로만 세그먼트 인구를 분할할 수 있습니다. [!UICONTROL Audience Lab]에서 다른 장치 그래프에 대한 지원을 추가하는 작업이 진행 중이며 추가되면 알려드리겠습니다.

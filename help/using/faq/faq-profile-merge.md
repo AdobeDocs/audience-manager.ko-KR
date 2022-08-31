@@ -1,17 +1,17 @@
 ---
 description: 일반적인 프로필 병합 규칙 및 장치 그래프 질문에 대한 답변입니다.
 keywords: 조직 ID
-seo-description: 일반적인 프로필 병합 규칙 및 장치 그래프 질문에 대한 답변입니다.
-seo-title: 프로필 병합 규칙 및 장치 그래프 FAQ
+seo-description: Answers to common Profile Merge Rule and device graph questions.
+seo-title: Profile Merge Rules and Device Graph FAQ
 solution: Audience Manager
 title: 프로필 병합 규칙 및 장치 그래프 FAQ
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: 프로필 병합
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 86%
+source-wordcount: '1530'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 86%
 
 **외부 장치 그래프란?**
 
-외부 장치 그래프는 전적으로 자체 교차 장치 데이터 소스에서 제작되지 않은 [!DNL Audience Manager]에 있는 임의의 장치 그래프입니다. 예를 들어, [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md)을 만들고 [!UICONTROL Co-op Device Graph] 또는 타사 장치 그래프 옵션을 선택하면 외부 장치 그래프를 사용하는 것입니다. [장치 옵션](../features/profile-merge-rules/merge-rule-definitions.md#device-options)을 참조하십시오.
+외부 장치 그래프는 전적으로 자체 교차 장치 데이터 소스에서 제작되지 않은 [!DNL Audience Manager]에 있는 임의의 장치 그래프입니다. 예를 들어 [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md) 외부 장치 그래프를 사용하여 작업하고 있는 타사 장치 그래프 옵션을 선택합니다. [장치 옵션](../features/profile-merge-rules/merge-rule-definitions.md#device-options)을 참조하십시오.
 
  
 
@@ -265,7 +265,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바르게 통합하려면 다음 요구 사항을 충족하는지 확인하십시오.
 
-1. Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙 을 검토하십시오. 프로필 병합 규칙 은 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙에 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile](으)로 전환합니다.
+1. Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙 을 검토하십시오. 프로필 병합 규칙은 [!UICONTROL Last Authenticated Profile] 옵션을 선택하면 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙에 다른 옵션이 있는 경우 [!UICONTROL Last Authenticated Profile].
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]

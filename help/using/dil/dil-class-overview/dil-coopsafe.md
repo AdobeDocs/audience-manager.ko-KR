@@ -1,16 +1,19 @@
 ---
 description: DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
-seo-description: DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
+seo-description: An optional, Boolean configuration that determines if DIL sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
 seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-feature: DIL 구현
+feature: DIL Implementation
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+hide: true
+hidefromtoc: true
+index: n
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 76%
+source-wordcount: '516'
+ht-degree: 75%
 
 ---
 
@@ -20,12 +23,12 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
 
 ## 요구 사항 {#requirements}
 
-`isCoopSafe`을 사용하려면 다음을 수행해야 합니다.
+를 사용하려면 `isCoopSafe` 다음을 수행해야 합니다.
 
-* [!UICONTROL DIL] v6.11 이상을 사용합니다.
+* 사용 [!UICONTROL DIL] v6.11 이상
 * [Experience Cloud 장치 Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)에 참여합니다. 예상 Co-op 구성원은 이 설명서를 검토하여 `isCoopSafe`가 데이터 사용하여 장치 그래프를 생성하는 방법으로 인해 발생할 수 있는 문제를 해결하는지 확인해야 합니다.
 
-* [!DNL Adobe] 컨설턴트와 함께 Device Co-op 계정허용 목록에 추가하다에 차단 목록 또는 플래그를 설정합니다. 이러한 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
+* 작업 [!DNL Adobe] Device Co-op 계정허용 목록에 추가하다에 또는 차단 목록 플래그를 설정하는 컨설턴트입니다. 이러한 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
 ## 사용 사례 {#use-cases}
 
@@ -41,11 +44,11 @@ DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>인증된 방문자</b> </p> </td> 
-   <td colname="col2"> <p>장치 그래프를 작성하기 위해 장치 Co-op에서 사용 약관에 동의하거나 동의하지 않은 인증된 방문자에 대한 데이터를 사용하는 방법을 제어하려면 <code> isCoopSafe </code> 코드를 <span class="wintitle"> DIL </span> 코드에 추가합니다. </p> </td> 
+   <td colname="col2"> <p>추가 <code> isCoopSafe </code> 아래와 같이 <span class="wintitle"> DIL </span> 장치 그래프를 작성하기 위해 장치 Co-op에서 사용 약관에 동의하거나 동의하지 않은 인증된 방문자에 대한 데이터를 사용하는 방법을 제어하는 코드. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </b>타사 사이트의 DIL<b> </b></p> </td> 
-   <td colname="col2"> <p>다음과 같은 타사 사이트에서 사용할 <span class="wintitle"> DIL </span> 코드에 <code> isCoopSafe </code>을 추가합니다. </p> <p> 
+   <td colname="col2"> <p>추가 <code> isCoopSafe </code> 아래와 같이 <span class="wintitle"> DIL </span> 다음과 같은 타사 사이트에서 사용할 코드입니다. </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">인증된 방문자가 사용 약관에 동의하거나 동의하지 않았는지 확인할 수 없습니다. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">장치 그래프를 작성하기 위해 장치 Co-op에서 데이터를 사용하는 방법을 제어해야 합니다. </li> 
@@ -77,7 +80,7 @@ var dilInstance = DIL.create({
 
 ## 이벤트 호출 POST 매개 변수 {#post-parameters}
 
-설정하는 플래그( `true` 또는 `false`)에 따라 [!UICONTROL DIL]는 `isCoopSafe`를 이러한 POST 매개 변수로 변환하여 이벤트 호출 시 [!DNL Adobe]로 보냅니다.
+설정한 플래그에 따라( `true` 또는 `false`), [!UICONTROL DIL] 변환 `isCoopSafe` 를 이러한 POST 매개 변수에 추가하여 [!DNL Adobe] 이벤트 호출:
 
 * `d_coop_safe=1`
 * `d_coop_unsafe=1`
@@ -117,11 +120,11 @@ POST 매개 수는 장치 그래프에 사용자 데이터를 포함할 수 있�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>후속 이벤트 호출 시 POST 매개 변수 <code> d_coop_safe=1 </code>을 설정합니다. </p> </td> 
+   <td colname="col2"> <p>POST 매개 변수 설정 <code> d_coop_safe=1 </code> 를 반환합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>후속 이벤트 호출 시 POST 매개 변수 <code> d_coop_unsafe=1 </code>을 설정합니다. </p> </td> 
+   <td colname="col2"> <p>POST 매개 변수 설정 <code> d_coop_unsafe=1 </code> 를 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

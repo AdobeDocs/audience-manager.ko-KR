@@ -7,10 +7,10 @@ title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Audience Manager는 대상 데이터 자산을 함께 가져와서 상업적으로 관련이 있는 사이트 방문자에 대한 데이터를 쉽게 수집하고, 마케팅 가능한 세그먼트를 만들고, 타겟팅 광고 및 컨텐츠를 해당 대상에게 제공할 수 있습니다. 또한 Audience Manager는 강력한 데이터 수집, 제어 및 보호를 통해 손쉽게 태그를 배포하고 관리할 수 있습니다.
 
-Audience Manager를 사용하면 데이터 판매자, 교환 또는 수요 측 플랫폼에 연결되지 않습니다. 또한 파트너의 데이터 자산과 관련하여 Audience Manager는 전혀 알 수 없습니다. 여러 데이터 소스에 대한 액세스 권한을 통해 Audience Manager는 디지털 게시자에게 광범위한 타사 데이터와 개인 데이터 co-op을 사용할 수 있는 기능을 제공합니다. Adobe의 파트너 솔루션팀에 문의하여 타겟 대상에 대한 정확하고 스마트한 결정을 내리는 데 도움을 받으십시오.
+Audience Manager를 사용하면 데이터 판매자, 교환 또는 수요 측 플랫폼에 연결되지 않습니다. 또한 파트너의 데이터 자산과 관련하여 Audience Manager은 전혀 알 수 없습니다. 여러 데이터 소스에 대한 액세스 권한을 통해 Audience Manager은 디지털 게시자에게 광범위한 타사 데이터를 사용할 수 있는 기능을 제공합니다. Adobe의 파트너 솔루션팀에 문의하여 타겟 대상에 대한 정확하고 스마트한 결정을 내리는 데 도움을 받으십시오.
 
 ## DMP(데이터 관리 플랫폼)의 3가지 기능  {#dmp-three-functions}
 

@@ -10,14 +10,18 @@ exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
 hide: true
 hidefromtoc: true
 index: n
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+source-git-commit: 3f4a161ee856357b5cb5eb757ad779dee5357b09
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 75%
+source-wordcount: '521'
+ht-degree: 76%
 
 ---
 
 # isCoopSafe{#iscoopsafe}
+
+>[!WARNING]
+>
+>이 기능은 더 이상 사용되지 않습니다.
 
 DIL에서 Adobe Experience Cloud Device Co-op로 데이터를 전송하거나 전송하지 않는지 여부를 결정하는 선택적 부울 구성입니다.
 

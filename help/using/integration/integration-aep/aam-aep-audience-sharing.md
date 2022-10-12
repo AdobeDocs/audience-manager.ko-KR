@@ -5,9 +5,9 @@ title: Audience Manager 및 기타 Experience Cloud 솔루션과의 Experience P
 keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유, AAM AEP 세그먼트 공유
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
+source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -41,9 +41,9 @@ Audience Manager에서 다음과 같은 데이터 관리 플랫폼 사용 사례
 
 {style=&quot;table-layout:auto&quot;}
 
-## 시작하기 - Audience Manager과 Experience Platform 간 데이터 공유를 활성화하는 방법 {#enable-data-sharing-aam-aep}
+## Adobe Experience Platform에서 세그먼트 및 트레이트 Audience Manager {#aam-segments-traits-in-aep}
 
-아래 두 섹션에서는 Audience Manager과 Experience Platform 간에 데이터 공유를 활성화하는 방법을 설명합니다.
+아래 섹션에서는 Audience Manager에서 Experience Platform으로 데이터 공유를 활성화하는 방법과 Experience Platform에서 Audience Manager 트레이트 및 세그먼트를 사용하는 방법에 대해 설명합니다.
 
 ### Audience Manager에서 Experience Platform으로 데이터 공유 활성화 {#enable-aam-to-aep-data}
 
@@ -58,6 +58,17 @@ Audience Manager에서 다음과 같은 데이터 관리 플랫폼 사용 사례
 >
 >![Audience Manager 소스 커넥터에 연결하기 위해 워크플로우에서 모든 세그먼트 선택 및 모든 트레이트 선택 선택 옵션을 선택하지 않은 상태로 표시하는 스크린샷입니다.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
+### Experience Platform에서 Audience Manager 트레이트 및 세그먼트 사용 {#use-aam-data-in-aep}
+
+Audience Manager 소스 커넥터를 설정하여 Audience Manager에서 트레이트와 세그먼트를 가져온 후 Audience Manager 데이터가 다음과 같이 Experience Platform에 표시됩니다. **대상** 세그먼트 워크플로우에서 사용할 수 있습니다. Experience Platform의 Audience Manager 세그먼트 및 트레이트에 대한 자세한 내용은 다음을 참조하십시오.
+
+* [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+* [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+
+## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
+
+아래 섹션에서는 Experience Platform에서 Audience Manager으로 데이터 공유를 활성화하는 방법과 Audience Manager에서 Experience Platform 세그먼트를 사용하는 방법에 대해 설명합니다.
+
 ### Experience Platform에서 Audience Manager으로 데이터 공유 활성화 {#enable-aep-to-aam-data}
 
 >[!NOTE]
@@ -68,14 +79,7 @@ Audience Manager에서 다음과 같은 데이터 관리 플랫폼 사용 사례
 
 Platform에서 Audience Manager으로 전송되는 데이터에 대한 계획을 공유하여 연결이 올바르게 설정되었는지 확인하십시오. 예를 들어 Adobe Target으로 전송된 세그먼트에 대해 지역 데이터를 공유해야 하는 경우 이 정보를 티켓에서 전달해야 합니다. Experience Platform에서 Audience Manager으로 데이터 공유 연결은 제출되는 요청 후 6영업일 이내에 설정됩니다.
 
-## Adobe Experience Platform에서 세그먼트 및 트레이트 Audience Manager {#aam-segments-traits-in-aep}
-
-Audience Manager 소스 커넥터를 설정하여 Audience Manager에서 트레이트와 세그먼트를 가져온 후 Audience Manager 데이터가 다음과 같이 Experience Platform에 표시됩니다. **대상** 세그먼트 워크플로우에서 사용할 수 있습니다. Experience Platform의 Audience Manager 세그먼트 및 트레이트에 대한 자세한 내용은 다음을 참조하십시오.
-
-* [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
-* [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-
-## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
+### Audience Manager에서 Experience Platform 세그먼트 사용 {#use-aep-data-in-aam}
 
 Experience Platform에서 만든 세그먼트는 다음 구성 규칙을 사용하여 Audience Manager 인터페이스에 신호, 트레이트 및 세그먼트로 표시됩니다.
 

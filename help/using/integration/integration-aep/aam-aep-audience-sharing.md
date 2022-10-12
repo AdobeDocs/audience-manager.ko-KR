@@ -1,22 +1,18 @@
 ---
-description: 이 문서에서는 Audience Manager과 Adobe Experience Platform 간에 대상을 공유하는 방법을 설명합니다
+description: 데이터 공유를 가능하게 하는 방법과 Audience Manager과 Adobe Experience Platform 간에 대상을 공유하는 방법을 알아봅니다
 solution: Audience Manager
 title: Audience Manager 및 기타 Experience Cloud 솔루션과의 Experience Platform 세그먼트 공유
 keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유, AAM AEP 세그먼트 공유
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1862'
 ht-degree: 1%
 
 ---
 
 # Audience Manager 및 기타 Experience Cloud 솔루션과의 Experience Platform 세그먼트 공유
-
->[!NOTE]
->
-> 이 기능에 대한 액세스를 해제하려면 Adobe 영업 담당자에게 문의하십시오.
 
 ## 개요 {#overview}
 
@@ -45,13 +41,39 @@ Audience Manager에서 다음과 같은 데이터 관리 플랫폼 사용 사례
 
 {style=&quot;table-layout:auto&quot;}
 
+## 시작하기 - Audience Manager과 Experience Platform 간 데이터 공유를 활성화하는 방법 {#enable-data-sharing-aam-aep}
+
+아래 두 섹션에서는 Audience Manager과 Experience Platform 간에 데이터 공유를 활성화하는 방법을 설명합니다.
+
+### Audience Manager에서 Experience Platform으로 데이터 공유 활성화 {#enable-aam-to-aep-data}
+
+세그먼트와 트레이트를 Audience Manager에서 Experience Platform으로 보내려면 Experience Platform 소스 카탈로그에서 Audience Manager 소스 커넥터를 설정해야 합니다. Adobe 고객 지원 또는 엔지니어링 팀의 참여가 필요하지 않은 셀프 서비스 워크플로우입니다. Audience Manager 소스 커넥터를 설정하려면 다음을 참조하십시오.
+
+* [Audience Manager 소스](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [UI에서 Adobe Audience Manager 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+
+>[!IMPORTANT]
+>
+>Adobe은 고객이 **[!UICONTROL Select all segments]** 및 **[!UICONTROL Select all traits]** 선택 사항 을 참조하십시오. 크기 조정 가능한 Audience Manager 세그먼트 모집단을 수집하면 Audience Manager 소스를 사용하여 처음 Audience Manager 세그먼트를 Platform으로 보낼 때 총 프로필 수에 직접적인 영향을 줍니다. 즉, 모든 세그먼트를 선택하면 라이센스 사용 권한을 초과하는 프로필 수가 발생할 수 있습니다.
+>
+>![Audience Manager 소스 커넥터에 연결하기 위해 워크플로우에서 모든 세그먼트 선택 및 모든 트레이트 선택 선택 옵션을 선택하지 않은 상태로 표시하는 스크린샷입니다.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
+
+### Experience Platform에서 Audience Manager으로 데이터 공유 활성화 {#enable-aep-to-aam-data}
+
+>[!NOTE]
+>
+> 이 기능에 대한 액세스 권한을 잠금 해제하려면 Adobe 고객 성공 관리자 또는 고객 지원 팀에 문의하십시오.
+
+세그먼트를 Experience Platform에서 Audience Manager으로 보내려면 고객 지원 센터 또는 고객 성공 관리자에게 문의해야 합니다. 고객 지원 및 고객 지원 관리 팀은 플랫폼에서 Audience Manager으로 연결을 활성화하려면 티켓을 파일(템플릿 티켓 AAM-52354 참조)해야 합니다.
+
+Platform에서 Audience Manager으로 전송되는 데이터에 대한 계획을 공유하여 연결이 올바르게 설정되었는지 확인하십시오. 예를 들어 Adobe Target으로 전송된 세그먼트에 대해 지역 데이터를 공유해야 하는 경우 이 정보를 티켓에서 전달해야 합니다. Experience Platform에서 Audience Manager으로 데이터 공유 연결은 제출되는 요청 후 6영업일 이내에 설정됩니다.
+
 ## Adobe Experience Platform에서 세그먼트 및 트레이트 Audience Manager {#aam-segments-traits-in-aep}
 
-Audience Manager 트레이트 및 세그먼트는 다음과 같이 Experience Platform에 나타납니다 **대상** 세그먼트 워크플로우에서 사용할 수 있습니다. Experience Platform의 Audience Manager 세그먼트 및 트레이트에 대한 자세한 내용은 다음을 참조하십시오.
+Audience Manager 소스 커넥터를 설정하여 Audience Manager에서 트레이트와 세그먼트를 가져온 후 Audience Manager 데이터가 다음과 같이 Experience Platform에 표시됩니다. **대상** 세그먼트 워크플로우에서 사용할 수 있습니다. Experience Platform의 Audience Manager 세그먼트 및 트레이트에 대한 자세한 내용은 다음을 참조하십시오.
 
 * [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 * [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
 
@@ -143,7 +165,7 @@ Audience Manager과 Experience Platform 간의 대상 공유 프로세스에서 
 | 이 대상은 PII(개인 식별 정보)와 함께 사용할 수 있습니다 | PII와 결합 |
 | 이 대상은 오프사이트 광고 타깃팅에 사용할 수 있습니다 | 사이트 간 타깃팅 |
 | 이 대상은 온사이트 광고 타깃팅에 사용할 수 있습니다 | 온사이트 광고 |
-| 이 대상은 온사이트 광고 개인화에 사용할 수 있습니다 | 온사이트 Personalization |
+| 이 대상은 온사이트 광고 개인화에 사용할 수 있습니다 | 온사이트 개인화 |
 
 {style=&quot;table-layout:auto&quot;}
 

@@ -1,19 +1,19 @@
 ---
 description: Audience Manager 고객을 위한 GDPR 준비 지침
-seo-description: Audience Manager 고객을 위한 GDPR 준비 지침
-seo-title: Audience Manager 고객을 위한 GDPR 준비 지침
+seo-description: GDPR Readiness Guidance for Audience Manager Customers
+seo-title: GDPR Readiness Guidance for Audience Manager Customers
 solution: Audience Manager
 title: Audience Manager 고객을 위한 GDPR 준비 지침
-feature: 데이터 거버넌스 및 개인 정보
+feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '461'
 ht-degree: 99%
 
 ---
 
-# Audience Manager 고객을 위한 GDPR 준비 지침(데이터 통제자) {#gdpr-readiness-guidance}
+# Audience Manager 고객을 위한 GDPR 준비 지침 (데이터 컨트롤러) {#gdpr-readiness-guidance}
 
 Audience Manager는 데이터 거버넌스 및 조직의 준비성 영역에서 선제적으로 대처할 것을 권장합니다. 이것은 소비자 데이터가 액세스 또는 삭제 요청과 관련된 프로세스용으로 조직화되고, 팀은 이러한 요청을 관리할 수 있게 되며 소비자(데이터 주체)는 브랜드와 관련하여 긍정적이고 차별화된 경험을 갖도록 하는 데 도움이 됩니다.
 

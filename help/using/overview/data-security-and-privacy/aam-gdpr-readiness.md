@@ -28,7 +28,7 @@ Audience Manager는 데이터 거버넌스 및 조직의 준비성 영역에서 
 * 개인 데이터를 수용하는 기술에 대한 대상 활성화를 차단하는 [데이터 내보내기 제어](../../features/data-export-controls.md) 기능의 사용을 고려해 보십시오. 예를 들어 타사 데이터가 있는 세그먼트는 이메일 서비스 공급자에게 배급되어서는 안 됩니다. 조직의 누군가가 이 데이터를 실수로 활성화하지 않도록 [!UICONTROL Data Export Control]를 설정하십시오.
 * [역할 기반 액세스 제어](../../features/administration/administration-overview.md) 기능을 활용하여 적절한 팀이 의도한 데이터에 액세스할 수 있도록 합니다.
 * 데이터에 대한 적절한 [유지 기간](../../faq/faq-privacy.md#data-retention-faq)을 고려합니다.
-* ID 연결 및 개인 정보 보호 정책 및 법적 요구 사항을 검토하여 ID 세트들을 언제 어디서 함께 연결하는 것이 적절한지 확인하십시오. Audience Manager의 [프로필 병합 규칙](../../features/profile-merge-rules/merge-rules-overview.md)을 적절하게 사용하십시오.
+* ID 연결 및 개인정보 처리방침 및 법적 요구 사항을 검토하여 ID 세트들을 언제 어디서 함께 연결하는 것이 적절한지 확인하십시오. Audience Manager의 [프로필 병합 규칙](../../features/profile-merge-rules/merge-rules-overview.md)을 적절하게 사용하십시오.
 
 ## 조직 준비: 비즈니스 프로세스를 구축합니다
 

@@ -1,6 +1,6 @@
 ---
 description: Adobe Audience Manager의 내역, 수집된 데이터 유형, 세그먼테이션, 보고 등에 대한 정보입니다.
-landing-page-description: Audience Manager 내역, 수집된 데이터 유형, 세그먼테이션, 보고 등에 대한 정보입니다.
+landing-page-description: Audience Manager 내역, 수집된 데이터 유형, 세분화, 보고 등에 대한 정보입니다.
 seo-title: Audience Manager Overview
 solution: Audience Manager
 title: Audience Manager 개요

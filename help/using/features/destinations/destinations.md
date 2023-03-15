@@ -2,13 +2,14 @@
 description: 데이터를 공유하는 광고 서버 또는 DSP와 같은 모든 서드파티 시스템의 장점, 유형 및 용도를 살펴보십시오. Destination Builder를 사용하여 쿠키, URL 또는 서버 간 대상을 만들고 관리할 수 있습니다.
 keywords: 통합 코드, 대상, 대상 개요, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상, 대상
 landing-page-description: 데이터를 공유하는 광고 서버 또는 DSP와 같은 모든 서드파티 시스템의 장점, 유형 및 용도를 살펴보십시오. Destination Builder를 사용하여 쿠키, URL 또는 서버 간 대상을 만들고 관리할 수 있습니다.
+short-description: Discover the advantages, types, and uses of destinations – any third-party system, such as an ad server or DSP, where you share data. Use Destination Builder to create and manage cookies, URL, or server-to-server destinations.
 seo-title: Destinations
 solution: Audience Manager
 title: 대상
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
-source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
+source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 15%

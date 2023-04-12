@@ -1,7 +1,7 @@
 ---
 description: Adobe Audience Manager의 내역, 수집된 데이터 유형, 세그먼테이션, 보고 등에 대한 정보입니다.
 landing-page-description: Audience Manager 내역, 수집된 데이터 유형, 세분화, 보고 등에 대한 정보입니다.
-short-description: Information about the history of Audience Manager, types of data collected, segmentation, reporting, and more.
+short-description: Audience Manager 내역, 수집된 데이터 유형, 세분화, 보고 등에 대한 정보입니다.
 seo-title: Audience Manager Overview
 solution: Audience Manager
 title: Audience Manager 개요
@@ -10,7 +10,7 @@ feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '312'
 ht-degree: 88%
 
 ---

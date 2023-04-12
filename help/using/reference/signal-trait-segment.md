@@ -1,7 +1,7 @@
 ---
 description: 세그먼트의 구성 요소와 대상자 자격 기준을 설정하는 데 사용되는 표현식에 대해 알아봅니다. 또한 데이터가 전송되는 방식에 대한 정보를 살펴보십시오.
 landing-page-description: 세그먼트의 구성 요소와 대상자 자격 기준을 설정하는 데 사용되는 표현식에 대해 알아봅니다. 또한 데이터가 전송되는 방식에 대한 정보를 살펴보십시오.
-short-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
+short-description: 세그먼트의 구성 요소와 대상자 자격 기준을 설정하는 데 사용되는 표현식에 대해 알아봅니다. 또한 데이터가 전송되는 방식에 대한 정보를 살펴보십시오.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: 신호, 트레이트 및 세그먼트
@@ -10,8 +10,8 @@ feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 21%
 
 ---
 

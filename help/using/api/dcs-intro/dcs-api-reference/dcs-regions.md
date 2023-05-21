@@ -1,7 +1,7 @@
 ---
-description: DCS를 호출하려면 지역 DCS 서버 호스트 이름이 필요합니다. 이것은 DCS가 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 DCS로 보낼 경우 쿼리 기능이 작동하지만 이러한 호출은 비효율적이고 응답을 지연시킬 수 있습니다. DCS 요청을 수행하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성하십시오.
-seo-description: DCS를 호출하려면 지역 DCS 서버 호스트 이름이 필요합니다. 이것은 DCS가 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 DCS로 보낼 경우 쿼리 기능이 작동하지만 이러한 호출은 비효율적이고 응답을 지연시킬 수 있습니다. DCS 요청을 수행하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성하십시오.
-seo-title: DCS 지역 ID, 위치 및 호스트 이름
+description: DCS를 호출하려면 지역 DCS 서버 호스트 이름이 필요합니다. DCS가 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리를 잘못된 DCS로 보내면 쿼리가 작동하지만, 이러한 호출은 비효율적이고 응답을 지연시킬 수 있습니다. DCS 요청을 만들려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 적절한 호스트 이름으로 쿼리를 만듭니다.
+seo-description: The regional DCS server host name is required to make calls to the DCS. This is because the DCS stores information in data centers that are geographically close to site visitors. Your queries will work if you send them to the wrong DCS, but these calls are inefficient and can delay the response. To make a DCS request, match the region ID to its corresponding regional host name and form your query with the proper host name.
+seo-title: DCS Region IDs, Locations, and Host Names
 solution: Audience Manager
 title: DCS 지역 ID, 위치 및 호스트 이름
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
@@ -9,14 +9,14 @@ feature: DCS
 exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 10%
 
 ---
 
 # DCS 지역 ID, 위치 및 호스트 이름 {#dcs-region-ids-locations-and-host-names}
 
-[!DNL DCS]을 호출하려면 지역 [!DNL DCS] 서버 호스트 이름이 필요합니다. [!DNL DCS]은 사이트 방문자와 지리적으로 가까운 데이터 센터에 정보를 저장하기 때문입니다. 쿼리는 잘못된 [!DNL DCS]으로 보낼 경우 작동하지만 이러한 호출은 비효율적이며 응답을 지연시킬 수 있습니다. [!DNL DCS] 요청을 수행하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 올바른 호스트 이름으로 쿼리를 형성하십시오.
+지역 [!DNL DCS] 을 호출하려면 서버 호스트 이름이 필요합니다. [!DNL DCS]. 이유는 다음과 같습니다. [!DNL DCS] 사이트 방문자에게 지리적으로 가까운 데이터 센터에 정보를 저장합니다. 쿼리를 잘못된 항목으로 보내면 작동합니다. [!DNL DCS], 그러나 이러한 호출은 비효율적이며 응답을 지연시킬 수 있습니다. 을(를) 만들려면 [!DNL DCS] 요청하려면 지역 ID를 해당 지역 호스트 이름과 일치시키고 적절한 호스트 이름으로 쿼리를 만듭니다.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -34,7 +34,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID4 </p> </td> 
-   <td colname="col2"> <p>남미(상파울루, 브라질) </p> </td> 
+   <td colname="col2"> <p>남아메리카(상파울루, 브라질) </p> </td> 
    <td colname="col3"> <p> <code> sae.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID8 </p> </td> 
-   <td colname="col2"> <p>남태평양 / 오세아니아(호주 시드니) </p> </td> 
+   <td colname="col2"> <p>남태평양/오세아니아(시드니, 오스트레일리아) </p> </td> 
    <td colname="col3"> <p> <code> apse2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
@@ -70,4 +70,4 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-[!DNL API] 메서드를 사용하여 사용 가능한 [!DNL DCS] 영역 목록을 가져올 수도 있습니다. [DCS 지역 API 메서드](../../../api/rest-api-main/aam-api-dcs-regions.md)를 참조하십시오.
+다음을 사용할 수도 있습니다. [!DNL API] 사용 가능한 목록을 가져오는 방법 [!DNL DCS] 지역. 다음을 참조하십시오 [DCS 지역 API 메서드](../../../api/rest-api-main/aam-api-dcs-regions.md).

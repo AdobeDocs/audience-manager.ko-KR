@@ -1,6 +1,6 @@
 ---
 description: 일반적인 API 질문 및 문제
-seo-description: 일반적인 API 질문 및 문제
+seo-description: Common API questions and issues.
 seo-title: API FAQ
 solution: Audience Manager
 title: API FAQ
@@ -9,7 +9,7 @@ feature: API
 exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---

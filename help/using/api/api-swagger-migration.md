@@ -1,7 +1,7 @@
 ---
-description: 여기 Audience Manager에서 우리는 엔지니어들, 개발자들, 그리고 코드닌자들입니다. 당신처럼 말이죠. 또한 여러분과 마찬가지로 신뢰할 수 있고 정확한 API 설명서와 함께 작업하려고 합니다. 따라서 Swagger에서 API 컨텐츠를 다시 작성하여 새 위치로 이동하는 중입니다. 이러한 변경 사항은 Audience Manager API 코드를 통해 경험을 개선하는 데 도움이 되도록 설계되었습니다.
-seo-description: 여기 Audience Manager에서 우리는 엔지니어들, 개발자들, 그리고 코드닌자들입니다. 당신처럼 말이죠. 또한 여러분과 마찬가지로 신뢰할 수 있고 정확한 API 설명서와 함께 작업하려고 합니다. 따라서 Swagger에서 API 컨텐츠를 다시 작성하여 새 위치로 이동하는 중입니다. 이러한 변경 사항은 Audience Manager API 코드를 통해 경험을 개선하는 데 도움이 되도록 설계되었습니다.
-seo-title: Audience Manager API 코드 마이그레이션
+description: 여기 Audience Manager에서 우리는 여러분과 마찬가지로 엔지니어, 개발자, 그리고 코드 닌자입니다. 그리고 귀하와 마찬가지로 신뢰할 수 있고 정확한 API 설명서를 사용하려고 합니다. 따라서 Swagger에서 API 콘텐츠를 다시 작성하여 새 위치로 이동하고 있습니다. 이러한 변경 사항은 Audience Manager API 코드에 대한 경험을 개선하는 데 도움이 되도록 설계되었습니다.
+seo-description: Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate API documentation. As a result, we're re-writing our API content in Swagger and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager API code.
+seo-title: Audience Manager API Code Migration
 solution: Audience Manager
 title: Audience Manager API 코드 마이그레이션
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
@@ -9,20 +9,20 @@ feature: API
 exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 6%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
 
 # Audience Manager API 코드 마이그레이션 {#audience-manager-api-code-migration}
 
-여기 Audience Manager에서 우리는 엔지니어들, 개발자들, 그리고 코드닌자들입니다. 당신처럼 말이죠. 또한 여러분과 마찬가지로 신뢰할 수 있고 정확한 [!DNL API] 문서를 사용하여 작업하고자 합니다. 따라서 [!DNL API] 콘텐츠를 [!DNL Swagger]에 다시 쓰고 새 위치로 이동하겠습니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드를 사용하여 경험을 개선하는 데 도움이 되도록 설계되었습니다.
+여기 Audience Manager에서 우리는 여러분과 마찬가지로 엔지니어, 개발자, 그리고 코드 닌자입니다. 그리고 여러분과 마찬가지로, 우리는 신뢰할 수 있고 정확하게 작업하기를 원합니다 [!DNL API] 설명서를 참조하십시오. 그 결과, 우리는 우리의 [!DNL API] 콘텐츠 [!DNL Swagger] 새 위치로 이동합니다. 이러한 변경 사항은 Audience Manager 경험을 개선하는 데 도움이 되도록 설계되었습니다 [!DNL API] 코드.
 
-## 위로 {#code-migration-details} 이동
+## 위로 이동 {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-[Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) 사이트는 수정된 [!DNL API] 컨텐츠의 새 홈입니다. 각 릴리스에서 몇 가지 [!DNL API] 메서드 세트를 다시 쓰고 이동하려고 합니다. 즉, 새 위치와 [REST API](../api/rest-api-main/rest-api-main.md) 설명서 모두 체크 인하여 사용 가능한 모든 메서드를 찾아야 합니다. 결과적으로 모든 공개 [!DNL API]은 [!DNL Audience Manager] [!DNL API] 문서 사이트에 있게 됩니다. 다음 표에는 수정된 및 마이그레이션된 [!DNL API]이 나열되어 있습니다.
+다음 [Adobe Audience Manager API 문서](https://bank.demdex.com/portal/swagger/index.html) 사이트는 우리의 수정된 새로운 집입니다 [!DNL API] 콘텐츠. 다시 작성하여 몇 세트 이동 [!DNL API] 각 릴리스에 포함된 메서드. 즉, 새 위치와 을(를) 모두 체크 인해야 합니다. [나머지 API](../api/rest-api-main/rest-api-main.md) 사용 가능한 모든 메서드를 찾을 수 있는 설명서입니다. 결국, 모든 대중들은 [!DNL API]s은(는) 다음에 있습니다. [!DNL Audience Manager] [!DNL API] 문서 사이트. 다음 표에는 수정된 내용과 마이그레이션된 내용이 나와 있습니다 [!DNL API]s.
 
 <!--
 
@@ -90,7 +90,7 @@ ht-degree: 6%
 | API 유형 | API 메서드 |
 |---------|----------|
 | **[!UICONTROL Algorithmic Models**] | [알고리즘 모델](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) |
-| **[!UICONTROL Audience Marketplace]** | <ul><li>[데이터 피드](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[데이터 피드 요청](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[데이터 피드 재무](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[데이터 피드 계획](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[데이터 피드 가입](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
+| **[!UICONTROL Audience Marketplace]** | <ul><li>[데이터 피드](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[데이터 피드 요청](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[데이터 피드 재무](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[데이터 피드 계획](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[데이터 피드 구독](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
 | **[!UICONTROL Data Sources]** | [데이터 소스 ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
 | **[!UICONTROL Folders]** | <ul><li>[폴더 분할](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[트레이트 폴더](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
 | **[!UICONTROL Reporting]** | [보고](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API) |

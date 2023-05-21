@@ -1,14 +1,14 @@
 ---
 description: Overlap Reports 페이지에 트레이트와 세그먼트가 표시되지 않을 수 있는 이유에 대한 설명입니다.
-seo-description: Overlap Reports 페이지에 트레이트와 세그먼트가 표시되지 않을 수 있는 이유에 대한 설명입니다.
-seo-title: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
+seo-description: Explanation for why traits and segments might not show up in the Overlap Reports page.
+seo-title: Why do my traits or segments not show up in the Overlap Reports page?
 solution: Audience Manager
 title: Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?
-feature: 지원
+feature: Support
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
 source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '136'
 ht-degree: 100%
 
 ---

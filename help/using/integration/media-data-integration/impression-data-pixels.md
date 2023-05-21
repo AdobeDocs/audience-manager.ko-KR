@@ -1,24 +1,24 @@
 ---
-description: Audience Manager에 미디어 데이터를 전송하는 한 가지 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
-seo-description: Audience Manager에 미디어 데이터를 전송하는 한 가지 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
-seo-title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
+description: Audience Manager에 미디어 데이터를 전송하는 한 가지 접근 방식은 광고 서버 매크로를 사용하여 Audience Manager에 캠페인 속성을 전송합니다.
+seo-description: One approach for sending media data to Audience Manager uses ad server macros to send campaign attributes to Audience Manager.
+seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
 title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-feature: Adobe Campaign 통합
+feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '708'
 ht-degree: 20%
 
 ---
 
 # 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처{#capturing-campaign-impression-data-via-pixel-calls}
 
-Audience Manager에 미디어 데이터를 전송하는 한 가지 방법은 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
+Audience Manager에 미디어 데이터를 전송하는 한 가지 접근 방식은 광고 서버 매크로를 사용하여 Audience Manager에 캠페인 속성을 전송합니다.
 
-이러한 방법론은 종종 &quot;창작의 화소&quot;라고 불린다. 이러한 데이터 포인트는 캠페인의 주요 보고 속성에 따라 모든 노출 횟수 및 클릭 수를 매핑하고 보고하는 데 사용되는 타사 광고 서버 매크로에 의해 [!DNL Audience Manager] 픽셀 코드에 동적으로 삽입됩니다. 집계된 데이터는 캠페인 성능에 대한 통합 보기를 제공하고 사용자 지정 전환 경로를 식별하는 데 도움이 되며, 고객이 전환으로 이어지는 광고 서버 이벤트 시퀀스를 개선하는 데 도움이 됩니다.
+이 방법론은 종종 &quot;창조적인 것의 픽셀화&quot;라고 불린다. 이러한 데이터 포인트는 [!DNL Audience Manager] campaign의 주요 보고 특성을 기반으로 모든 노출과 클릭을 매핑하고 보고하는 데 사용되는 타사 광고 서버 매크로의 픽셀 코드. 집계된 데이터는 캠페인 성능에 대한 통합 보기를 제공하고 사용자 지정 전환 경로를 식별하며 고객이 전환으로 이어지는 광고 서버 이벤트의 시퀀스를 개선하는 데 도움이 됩니다.
 
 ## 이벤트 호출 구문
 
@@ -34,11 +34,11 @@ Audience Manager에 미디어 데이터를 전송하는 한 가지 방법은 광
 https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
-키-값 쌍에서 값 변수는 광고 서버에서 삽입한 ID 또는 매크로입니다. 광고 태그가 로드되면 `%macro%`이(가) 필요한 해당 값으로 대체됩니다. 이 호출은 응답을 반환하지 않습니다.
+키-값 쌍에서 값 변수는 광고 서버에서 삽입한 ID 또는 매크로입니다. 광고 태그가 로드되면 `%macro%` 는 필요한 해당 값으로 대체됩니다. 이 호출은 응답을 반환하지 않습니다.
 
 ## 지원되는 키-값 쌍 {#supported-key-value-pairs}
 
-노출 이벤트 호출은 키-값 쌍으로 구성된 데이터를 허용합니다. 다음 표에는 이러한 변수를 유지하는 데 사용되는 키가 나열되어 있으며 설명합니다. [Audience Optimization 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md)에서 데이터를 캡처하고 분석하려는 경우 이러한 중 많은 수가 필요합니다.
+노출 이벤트 호출은 키-값 쌍으로 형성된 데이터를 수락합니다. 다음 표에서는 이러한 변수를 보관하는 데 사용되는 키를 나열하고 설명합니다. 에서 데이터를 캡처하고 분석하려는 경우 이러한 요소의 대부분이 필요합니다. [Audience Optimization 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -54,31 +54,31 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>광고주용 데이터 소스 ID 또는 통합 코드. </p> <p><span class="wintitle"> Audience Optimization </span> 보고서에 필요합니다. </p> <p>선택 사항입니다.</p> </td> 
+   <td colname="col2"> <p>광고주용 데이터 소스 ID 또는 통합 코드. </p> <p>다음에 필요합니다. <span class="wintitle"> Audience Optimization </span> 보고서. </p> <p>선택 사항입니다.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
-   <td colname="col2"> <p>비즈니스 단위에 대한 데이터 소스 ID 또는 통합 코드. </p> <p><span class="wintitle"> Audience Optimization </span> 보고서에 필요합니다. </p> </td> 
+   <td colname="col2"> <p>사업부의 데이터 소스 ID 또는 통합 코드. </p> <p>다음에 필요합니다. <span class="wintitle"> Audience Optimization </span> 보고서. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>캐시 무효화 값입니다. <span class="keyword"> Audience Manager </span> 는 대부분의 브라우저 및 프록시에서 적용한 캐시 제어 헤더를 자동으로 전송합니다. 추가 캐시 버스팅을 수행하려면 이 매개 변수를 이벤트 호출에 포함시킨 후 임의의 문자열을 포함하십시오. </p> <p> 선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>캐시 무효화 값입니다. <span class="keyword"> Audience Manager </span> 대부분의 브라우저 및 프록시에서 허용하는 캐시 제어 헤더를 자동으로 보냅니다. 추가 캐시 무효화를 수행하려면 이벤트 호출에 이 매개 변수를 포함하고 임의의 문자열을 포함합니다. </p> <p> 선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
-   <td colname="col2"> <p>광고 서버의 숫자 캠페인 ID. </p> <p><span class="wintitle"> Audience Optimization </span> 보고서에 필요합니다. </p> </td> 
+   <td colname="col2"> <p>광고 서버의 숫자 캠페인 ID. </p> <p>다음에 필요합니다. <span class="wintitle"> Audience Optimization </span> 보고서. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>이 컨텍스트에서 <code> d_cid </code>는 모바일 장치 유형을 DPUUID(고유 사용자 ID)에 연결할 수 있는 키-값 쌍을 인스턴스화합니다. 고정 ID가 모바일 장치 유형을 결정합니다. 사용자 ID인 값은 다를 수 있습니다. 키-값 쌍은 인쇄되지 않는 제어 문자인 <code> %01 </code>으로 구분합니다. 이 매개 변수는 다음 키를 허용합니다. </p> 
+   <td colname="col2"> <p>이 맥락에서, <code> d_cid </code> 모바일 장치 유형을 DPUUID(고유 사용자 ID)에 연결할 수 있는 키-값 쌍을 인스턴스화합니다. 고정 ID가 모바일 장치 유형을 결정합니다. 사용자 ID인 값은 다를 수 있습니다. 키-값 쌍을 <code> %01 </code>: 인쇄되지 않는 제어 문자입니다. 이 매개 변수는 다음 키를 허용합니다. </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android(GAID) 장치를 식별합니다. 예를 들어 <code> d_cid = 20914 %01 1234 </code>에 따르면 사용자 1234가 Android 장치와 연결되어 있다고 합니다. </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: iOS(IDFA) 장치를 식별합니다. 예를 들어 <code> d_cid = 20915 %01 5678 </code>에 따르면 사용자 5678이 iOS 장치와 연결되어 있다고 합니다. </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android(GAID) 장치를 식별합니다. 예를 들어, <code> d_cid = 20914 %01 1234 </code> 에서는 사용자 1234가 Android 장치와 연결되어 있다고 가정합니다. </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: IDFA(iOS) 장치를 식별합니다. 예를 들어, <code> d_cid = 20915 %01 5678 </code> 사용자 5678이 iOS 장치와 연결되어 있다고 표시됩니다. </li> 
     </ul> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_creative </code> </td> 
-   <td colname="col2"> <p>광고 서버의 숫자 광고 ID. </p> <p><span class="wintitle"> Audience Optimization </span> 보고서에 필요합니다. </p> </td> 
+   <td colname="col2"> <p>광고 서버의 숫자 크리에이티브 ID. </p> <p>다음에 필요합니다. <span class="wintitle"> Audience Optimization </span> 보고서. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_event=imp </code> </td> 
@@ -86,34 +86,34 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_placement </code> </td> 
-   <td colname="col2"> <p>광고 서버의 숫자 배치 ID입니다. </p> <p> 선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p>광고 서버의 숫자 배치 ID. </p> <p> 선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_site </code> </td> 
-   <td colname="col2"> <p>광고 서버의 숫자 사이트 ID입니다. </p> <p><span class="wintitle"> Audience Optimization </span> 보고서에 필요합니다. </p> </td> 
+   <td colname="col2"> <p>광고 서버의 숫자 사이트 ID. </p> <p>다음에 필요합니다. <span class="wintitle"> Audience Optimization </span> 보고서. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_src </code> </td> 
-   <td colname="col2"> <p>메타데이터를 제공하는 플랫폼의 데이터 소스 ID 또는 통합 코드(예: DFA, Atlas, GBM, Media Math 등)입니다. </p> <p><span class="wintitle"> Audience Optimization </span> 보고서에 필요합니다. </p> </td> 
+   <td colname="col2"> <p>메타데이터를 제공하는 플랫폼의 데이터 소스 ID 또는 통합 코드 (예: DFA, Atlas, GBM, Media Math 등). </p> <p>다음에 필요합니다. <span class="wintitle"> Audience Optimization </span> 보고서. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다.</p> <p><code>gdpr</code> 은 0(GDPR이 적용되지 않음) 또는 1(GDPR이 적용됨)일 수 있습니다.</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p><p><code>gdpr=1</code>이면 <code>gdpr_consent</code> 매개 변수에는 데이터를 성공적으로 처리하려면 IAB TC 동의 매개 변수가 포함되어야 합니다. 그렇지 않으면 모든 데이터가 삭제됩니다.</p> </td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다.</p> <p><code>gdpr</code> 은 0(GDPR이 적용되지 않음) 또는 1(GDPR이 적용됨)일 수 있습니다.</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p><p>If <code>gdpr=1</code>, 그런 다음 <code>gdpr_consent</code> 데이터를 성공적으로 처리하려면 매개 변수에 IAB TC 동의 매개 변수가 포함되어야 합니다. 그렇지 않으면 모든 데이터가 삭제됩니다.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다.</p><p> <code>gdpr=1</code>이면 <code>${gdpr_consent_XXXX}</code>은 <code>gdpr_consent</code> 문자열 및 공급업체 ID로 대체됩니다( <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"> IAB 사양</a> 참조).</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p></td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>과 관련이 있습니다.</p><p> If <code>gdpr=1</code>, 그런 다음 <code>${gdpr_consent_XXXX}</code> 이(가) (으)로 대체됩니다. <code>gdpr_consent</code> 문자열 및 공급업체 ID(참조) <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"> IAB 사양</a>).</p> <p>기본값은 0입니다.</p><p>선택 사항입니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅이나 계정 리드에 문의하십시오.
+>클라이언트 도메인과 관련된 정확한 URL은 Adobe Audience Manager 컨설팅 또는 계정 리드에 문의하십시오.
 
 ## 추가 기능 - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
-픽셀 호출을 사용하여 [Audience Optimization 보고서](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)를 실행할 수 있습니다. 픽셀을 사용하여 보고서를 실행하려면 [메타데이터 파일에 대한 개요 및 매핑](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)을 참조하십시오.
+픽셀 호출을 사용하여 [Audience Optimization 보고서](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). 다음을 참조하십시오 [메타데이터 파일에 대한 개요 및 매핑](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 픽셀 을 사용하여 보고서를 향상시키려면 다음을 수행하십시오.
 
 >[!MORELIKETHIS]
 >

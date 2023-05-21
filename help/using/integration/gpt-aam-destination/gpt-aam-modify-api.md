@@ -1,30 +1,30 @@
 ---
 description: Google Publisher Tag .setTargeting 메서드를 호출하기 전에 Audience Manager 쿠키를 확인하는 if 문을 추가합니다.
-seo-description: Google Publisher Tag .setTargeting 메서드를 호출하기 전에 Audience Manager 쿠키를 확인하는 if 문을 추가합니다.
-seo-title: GPT setTargeting API 호출 수정
+seo-description: Add an if statement to check for Audience Manager cookies before calling the Google Publisher Tag .setTargeting method.
+seo-title: Modify the GPT setTargeting API Call
 solution: Audience Manager
 title: GPT setTargeting API 호출 수정
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 9%
+source-wordcount: '274'
+ht-degree: 7%
 
 ---
 
-# GPT `setTargeting` API 호출 수정 {#modify-the-gpt-settargeting-api-call}
+# GPT 수정 `setTargeting` API 호출 {#modify-the-gpt-settargeting-api-call}
 
-[!DNL Google Publisher Tag] `.setTargeting` 메서드를 호출하기 전에 Audience Manager 쿠키를 확인하는 if 문을 추가합니다.
+를 호출하기 전에 Audience Manager 쿠키를 확인하는 if 문 추가 [!DNL Google Publisher Tag] `.setTargeting` 메서드를 사용합니다.
 
-## `IF` 문이 있는 Audience Manager 쿠키 확인
+## 다음을 사용하여 Audience Manager 쿠키 확인 `IF` 명령문
 
-`.setTargeting` 메서드는 Audience Manager 대상 쿠키와 고유 사용자 ID 쿠키( `aam_uuid`)에서 데이터를 가져옵니다. 그러나 [!UICONTROL DIL] 이 쿠키를 쓰기 전에 `.setTargeting`이 호출되거나 쿠키가 비어 있으면 페이지가 로드될 때 오류가 표시될 수 있습니다. 이를 방지하려면 이러한 쿠키를 확인하는 `if` 문에 `.setTargeting` 메서드를 래핑하십시오. 설정되지 않은 경우 이 문은 `.setTargeting`이 `AamGpt` 함수를 호출하지 않도록 합니다.
+다음 `.setTargeting` 메서드는 Audience Manager 대상 쿠키 및 고유한 사용자 ID 쿠키( )에서 데이터를 가져옵니다. `aam_uuid`). 그러나 다음과 같은 경우에는 `.setTargeting` 다음 시간 이전에 호출됩니다. [!UICONTROL DIL] 이 쿠키를 작성하거나 쿠키가 비어 있는 경우 페이지가 로드될 때 오류가 표시될 수 있습니다. 이를 방지하려면 다음을 래핑하십시오. `.setTargeting` 의 메서드 `if` 이러한 쿠키를 확인하는 문입니다. 설정되지 않은 경우 이 문은 `.setTargeting` (으)로 호출하여 `AamGpt` 함수.
 
-### `IF` 문 코드 샘플
+### `IF` 명령문 코드 샘플
 
-이 예에서 Audience Manager 대상 쿠키 이름은 `Sample`입니다. Audience Manager 사용자 인터페이스에서 대상 쿠키를 만들 때 이 이름을 설정합니다. [!UICONTROL DIL] 쿠키 `aam_uuid` 를 설정하고 이름을 변경할 수 없습니다.
+이 예에서 Audience Manager 대상 쿠키 이름은 입니다. `Sample`. Audience Manager 사용자 인터페이스에서 대상 쿠키를 만들 때 이 이름을 설정합니다. [!UICONTROL DIL] 를 설정합니다. `aam_uuid` 쿠키 및 이름은 변경할 수 없습니다.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -37,16 +37,16 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->를 [!DNL Google Ad Manager]과 통합하는 방법에 따라 위의 코드 샘플에 일부 줄만 있으면 됩니다.
+>을 통합하는 방법에 따라 [!DNL Google Ad Manager], 위의 코드 샘플에 있는 줄 중 일부만 있으면 됩니다.
 >
->* 클라이언트측 통합:1-3줄만 사용합니다.
->* 서버측 통합:모든 줄이 필요하지 않습니다.
->* [!DNL Audience Manager]에서 보고를 위해 [!DNL Google Ad Manager] 로그 파일을 수집하는 중:4-6줄만 사용합니다. 이 코드는 `aam_uuid` 쿠키의 값을 로그에 삽입하여 보고용으로 수집할 수 있습니다.
+>* 클라이언트측 통합: 라인 1-3만 사용합니다.
+>* 서버 측 통합: 필요한 행이 없습니다.
+>* 수집 [!DNL Google Ad Manager] 보고를 위한 로그 파일 [!DNL Audience Manager]: 4-6행만 사용합니다. 이 코드는 `aam_uuid` 보고를 위해 수집할 수 있도록 로그에 쿠키를 추가합니다.
 
 
 ### `AamGpt` 함수 및 데이터 유형
 
-`if` 문에 사용된 키 변수를 정의합니다.
+에 사용되는 주요 변수를 정의합니다. `if` 명령문입니다.
 
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
@@ -60,17 +60,17 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>키-값 세그먼트 쌍의 키를 반환합니다. 예를 들어 키-값 쌍이 <code> color=blue </code> 인 경우 <code> color </code>을 반환합니다. </p> </td> 
+   <td colname="col3"> <p>키-값 세그먼트 쌍의 키를 반환합니다. 예를 들어, 키-값 쌍이 <code> color=blue </code>, 반환 <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
    <td colname="col2"> <p>문자열 배열 </p> </td> 
-   <td colname="col3"> <p>배열의 값을 반환합니다(예: <code> ["value1","value2"] </code>). </p> </td> 
+   <td colname="col3"> <p>배열의 값을 반환합니다(예: ). <code> ["value1","value2"] </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
-   <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Audience Manager 사용자 ID(예: <code> 12345 </code>)를 반환합니다. </p> </td> 
+   <td colname="col2"> <p>정수 </p> </td> 
+   <td colname="col3"> <p>Audience Manager 사용자 ID 반환(예: ) <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -78,5 +78,5 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >[!MORELIKETHIS]
 >
 >* [GPT 대상 만들기](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [Google Publisher Tag용 Audience Manager 코드](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Google Publisher Tag용 Audience Manager 코드](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 

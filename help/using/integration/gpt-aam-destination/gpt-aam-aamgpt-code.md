@@ -1,30 +1,30 @@
 ---
-description: AamGpt는 Audience Manager 쿠키 데이터를 읽고 Google Publisher Tags에 해당 정보를 전송하는 JavaScript 함수입니다.
-seo-description: AamGpt는 Audience Manager 쿠키 데이터를 읽고 Google Publisher Tags에 해당 정보를 전송하는 JavaScript 함수입니다.
-seo-title: Google Publisher Tag용 Audience Manager 코드
+description: AamGpt는 Audience Manager 쿠키 데이터를 읽고 해당 정보를 Google 게시자 태그로 전송하는 JavaScript 함수입니다.
+seo-description: AamGpt is a JavaScript function that reads Audience Manager cookie data and sends that information to Google Publisher Tags.
+seo-title: Audience Manager Code for Google Publisher Tags
 solution: Audience Manager
 title: Google Publisher Tag용 Audience Manager 코드
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: 04e74399-7b6a-400e-a1e6-94fe296e7209
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 19%
+source-wordcount: '90'
+ht-degree: 17%
 
 ---
 
 # Google Publisher Tag용 Audience Manager 코드 {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt` 는  [!DNL JavaScript] Audience Manager 쿠키 데이터를 읽고 해당 정보를 로 전송하는  [!DNL Google Publisher Tags]함수입니다.
+`AamGpt` 다음 값: [!DNL JavaScript] Audience Manager 쿠키 데이터를 읽고 해당 정보를 로 보내는 함수 [!DNL Google Publisher Tags].
 
 >[!NOTE]
 >
->이 함수는 [!UICONTROL UUID] 및 대상 쿠키에서 Audience Manager 쿠키 데이터를 읽을 코드가 있는 경우에는 필요하지 않습니다.
+>에서 Audience Manager 쿠키 데이터를 읽는 자체 코드가 있는 경우 이 함수는 필요하지 않습니다. [!UICONTROL UUID] 및 대상 쿠키입니다.
 
 ## 샘플 코드
 
-`AamGpt` 코드를 페이지의 맨 위에 배치하되, 가장 좋은 방법은 `<head>` 코드 블록 내에 배치하십시오. `AamGpt` 코드는 아래에 있습니다.
+배치 `AamGpt` 페이지 맨 위에 있는 코드, 이상적으로 `<head>` 코드 블록. 다음 `AamGpt` 코드는 아래에서 사용할 수 있습니다.
 
 ```js
 var AamGpt = {  

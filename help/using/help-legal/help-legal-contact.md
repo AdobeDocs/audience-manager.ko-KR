@@ -1,19 +1,19 @@
 ---
 description: 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
-seo-description: 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
-seo-title: 연락처 및 법적 정보
+seo-description: Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
+seo-title: Contact and Legal Information
 solution: Audience Manager
 title: 연락처 및 법적 정보
-feature: 지원
+feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '262'
 ht-degree: 100%
 
 ---
 
-# 연락처 및 법적 정보{#legal-contact}
+# 연락처 및 법적 정보 {#legal-contact}
 
 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
 

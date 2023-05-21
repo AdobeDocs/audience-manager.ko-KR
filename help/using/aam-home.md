@@ -87,7 +87,7 @@ ht-degree: 88%
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API 시작</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS API 시작</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adobe Experience Platform 태그에서 Audience Manager 확장 추가</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adobe Experience Platform Tags에서 Audience Manager 확장 추가</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">앱에 Audience Manager 추가</a></li>
      </ul> </p>
     </td>
@@ -151,7 +151,7 @@ ht-degree: 88%
      새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오.</p> 
      <p> <b>최신 기능</b> </p> <p> 
      최신 Audience Manager 기능을 살펴보십시오.</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사용자 기반 대상에 대한 Google 고객 일치</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사용자 기반 대상을 위한 Google Customer Match</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
      </ul></p>
     </td>
   </tr> 

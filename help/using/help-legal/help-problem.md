@@ -1,14 +1,14 @@
 ---
 description: 발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때에는 다음 정보를 가능한 많이 제공하십시오. 많은 정보가 팀이 문제를 이해하고 해결하는 데 도움이 됩니다.
-seo-description: 발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 고객 지원 센터에 문의할 때에는 다음 정보를 가능한 많이 제공하십시오. 많은 정보가 팀이 문제를 이해하고 해결하는 데 도움이 됩니다.
-seo-title: 문제가 있을 경우
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
 title: 문제가 있을 경우
-feature: 지원
+feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '373'
 ht-degree: 100%
 
 ---

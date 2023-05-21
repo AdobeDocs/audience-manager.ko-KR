@@ -1,33 +1,33 @@
 ---
-description: 규칙 기반 및 온보딩된 트레이트 생성 프로세스와 관련된 설정 단계 및 기능에 대해 설명합니다.
+description: 규칙 기반 및 온보딩된 트레이트 만들기 프로세스와 관련된 설정 단계 및 기능에 대해 설명합니다.
 keywords: 트레이트 만들기;트레이트 만들기
-seo-description: 규칙 기반 및 온보딩된 트레이트 생성 프로세스와 관련된 설정 단계 및 기능에 대해 설명합니다.
-seo-title: 규칙 기반 또는 온보딩된 트레이트 만들기
+seo-description: Describes set up steps and features specific to the rules-based and onboarded trait creation process.
+seo-title: Create Rules-Based or Onboarded Traits
 solution: Audience Manager
 title: 규칙 기반 또는 온보딩된 트레이트 만들기
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-feature: 트레이트
+feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 8%
+source-wordcount: '360'
+ht-degree: 7%
 
 ---
 
 # 원하는 대로 페이지 애플리케이션을 만들거나 [!UICONTROL Rules-Based][!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
-[!UICONTROL rules-based] 및 [!UICONTROL onboarded] 트레이트 작성 프로세스와 관련된 설정 단계 및 기능에 대해 설명합니다.
+다음과 관련된 설정 단계 및 기능에 대해 설명합니다. [!UICONTROL rules-based] 및 [!UICONTROL onboarded] 트레이트 만들기 프로세스입니다.
 
 <!-- c_tb_rules_traits.xml -->
 
 ## 트레이트에 대한 기본 정보 {#basics}
 
-[!UICONTROL Trait Builder]에서 [!UICONTROL Basic Information] 설정을 사용하여 새로 만들거나 기존 [!UICONTROL traits]를 편집할 수 있습니다. [!UICONTROL Basic Information] 설정은 [!UICONTROL rules-based], [!UICONTROL onboarded] 및 [!UICONTROL algorithmic traits]에 대해 동일합니다. 새 [!UICONTROL trait]을(를) 만들려면 이름(특수 문자 제외)과 [!UICONTROL data source]을(를) 제공하고 [!UICONTROL storage folder]를 선택합니다. 다른 [!UICONTROL Basic Information] 필드는 선택 사항입니다.
+위치 [!UICONTROL Trait Builder], [!UICONTROL Basic Information] 설정을 사용하여 새로 만들거나 기존 설정을 편집할 수 있습니다. [!UICONTROL traits]. 다음 [!UICONTROL Basic Information] 설정은 다음과 같습니다. [!UICONTROL rules-based], [!UICONTROL onboarded] 및 [!UICONTROL algorithmic traits]. 새로 만들려면 [!UICONTROL trait], 이름 입력(특수 문자 제외), [!UICONTROL data source]을(를) 클릭하고 [!UICONTROL storage folder]. 기타 [!UICONTROL Basic Information] 필드는 선택 사항입니다.
 
 <!-- c_tb_basics.xml -->
 
-![특성 만들기](assets/create-trait.png)
+![create-trait](assets/create-trait.png)
 
 ### 정의된 기본 정보 필드
 
@@ -41,26 +41,26 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이름 </span></b> </td> 
-   <td colname="col2"> <p>트레이트 이름입니다. 필수 여부. </p> <p>최대 길이: 255자. </p> <p> <p>참고: 트레이트의 이름을 지정할 때는 다음 특수 문자를 사용하지 마십시오. 
+   <td colname="col2"> <p>트레이트 이름. 필수 여부. </p> <p>최대 길이: 255자. </p> <p> <p>참고: 트레이트 이름을 지정할 때는 다음 특수 문자를 사용하지 마십시오. 
       <ul id="ul_AB38A333F21A4AA9B5656CBA69BA65E3"> 
        <li id="li_0E5033B540BC41E799075845388E85A7">쉼표 </li> 
        <li id="li_B1A6C3E3FB98473A91E4675EE09460F0">대시 </li> 
        <li id="li_579302FE34B64FE0AE3C751012839229">하이픈 </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">탭 </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">세로 막대 또는 파이프 기호 </li> 
-      </ul> </p> </p> <p>이렇게 하면 <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 인바운드 데이터 파일 전송</a>을 설정할 때 처리 오류를 줄일 수 있습니다. </p> </td> 
+      </ul> </p> </p> <p>이렇게 하면 을(를) 설정할 때 처리 오류를 줄이는 데 도움이 됩니다 <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 인바운드 데이터 파일 전송</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 설명</span></b> </td> 
-   <td colname="col2"> 트레이트의 목적 또는 기능을 설명하는 데 도움이 되는 몇 가지 단어. 선택 사항입니다. </td> 
+   <td colname="col2"> 트레이트의 목적 또는 기능을 설명하는 데 도움이 되는 몇 가지 단어입니다. 선택 사항입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 데이터 소스</span></b> </td> 
-   <td colname="col2"> 트레이트를 특정 데이터 공급자와 연결합니다. 필수 여부. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트를 사용하지 않는 경우, 데이터 소스 유형 선택기가 비활성화되어 있으며, 기본적으로 Audience Manager 데이터 소스만 사용됩니다.</p>  </td> 
+   <td colname="col2"> 특정 데이터 공급자와 트레이트를 연결합니다. 필수 여부. <p>첫 번째 드롭다운 메뉴를 사용하여 Audience Manager 데이터 소스, Adobe Analytics 보고서 세트 또는 둘 다 간에 필터링합니다. 그런 다음 두 번째 드롭다운 메뉴를 사용하여 데이터 소스를 선택합니다.</p><p> Adobe Analytics 보고서 세트를 사용하지 않는 경우 데이터 소스 유형 선택기가 비활성화되고 기본값이 Audience Manager 데이터 소스로만 설정됩니다.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이벤트 유형</span></b> </td> 
-   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형이나 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 트레이트를 만드는 방법을 배우려면 <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager 비디오에서 전환 트레이트 만들기</a>를 참조하십시오. </p></td> 
+   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형 또는 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 특성을 만드는 방법을 알아보려면 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager 비디오에서 전환 트레이트 만들기</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 통합 코드</span></b> </td> 
@@ -75,26 +75,26 @@ ht-degree: 8%
    <td colname="col2"> 트레이트가 속한 저장소 폴더를 결정합니다. 필수 여부. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> 데이터 카테고리</span></b> </td> 
-   <td colname="col2"> 일반적으로 알려진 카테고리에 따라 트레이트를 분류합니다. <p>참고:  트레이트는 단일 카테고리에만 속합니다. 선택 사항입니다. </p> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> 데이터 범주</span></b> </td> 
+   <td colname="col2"> 일반적으로 이해되는 범주에 따라 트레이트를 분류합니다. <p>참고: 트레이트는 단일 카테고리에만 속합니다. 선택 사항입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!UICONTROL Trait] 만료 간격 설정 {#set-expiration-interval}
+## 설정 [!UICONTROL Trait] 만료 간격 {#set-expiration-interval}
 
-[!UICONTROL Trait Builder]에서 [!UICONTROL Advanced Options]을(를) 사용하면 [!UICONTROL trait]에 대한 유지 시간([!DNL TTL]) 간격을 설정할 수 있습니다. [!DNL TTL] 은(는) 자격이 있는 방문자가 120일 [!UICONTROL trait] 에 남아 있는 일수를 정의합니다. 0으로 설정하면 [!UICONTROL trait] 멤버십이 만료되지 않습니다.
+위치 [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] ttl(time-to-live)을 설정할 수 있습니다([!DNL TTL]) 간격 [!UICONTROL trait]. [!DNL TTL] 은 적격한 방문자가 다음 기간 내에 남아 있는 일 수를 정의합니다. [!UICONTROL trait] (기본값은 120일). 0으로 설정하면, [!UICONTROL trait] 멤버십이 만료되지 않습니다.
 
 <!-- t_tb_ttl.xml -->
 
-### [!UICONTROL trait]에 대한 TTL 설정
+### 에 대한 TTL 설정 [!UICONTROL trait]
 
-1. [!UICONTROL Advanced Options] 섹션을 확장하고 [!UICONTROL trait]에 대한 [!DNL TTL] 값을 설정할 숫자를 입력합니다.
+1. 확장 [!UICONTROL Advanced Options] 섹션에 숫자를 입력하여 [!DNL TTL] 값: [!UICONTROL trait].
 1. 클릭 **[!UICONTROL Save]**.
 
    ![](assets/TTL.png)
 
 >[!MORELIKETHIS]
 >
->* [세그먼트 사용 시간 설명](../../features/traits/segment-ttl-explained.md)
+>* [세그먼트 TTL(Time to Live) 설명](../../features/traits/segment-ttl-explained.md)
 

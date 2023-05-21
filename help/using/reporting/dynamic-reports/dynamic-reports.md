@@ -1,22 +1,22 @@
 ---
-description: 대화형 보고서에는 트레이트 및 세그먼트에 대한 성능 및 겹치기 데이터가 표시됩니다. 열 및 행으로 배치된 숫자를 사용하는 대신 다양한 모양, 색상 및 크기를 사용하여 데이터를 반환합니다. 또한 개별 또는 데이터 포인트 그룹을 선택하고 자세한 내용을 보려면 보고서 결과로 드릴다운할 수 있습니다. 이러한 시각화 기법과 보고서 상호 작용을 통해 많은 숫자 데이터를 쉽게 이해할 수 있습니다.
-seo-description: 대화형 보고서에는 트레이트 및 세그먼트에 대한 성능 및 겹치기 데이터가 표시됩니다. 열 및 행으로 배치된 숫자를 사용하는 대신 다양한 모양, 색상 및 크기를 사용하여 데이터를 반환합니다. 또한 개별 또는 데이터 포인트 그룹을 선택하고 자세한 내용을 보려면 보고서 결과로 드릴다운할 수 있습니다. 이러한 시각화 기법과 보고서 상호 작용을 통해 많은 숫자 데이터를 쉽게 이해할 수 있습니다.
-seo-title: 대화형 및 Overlap Reports
+description: 대화형 보고서는 성능을 표시하며 트레이트 및 세그먼트에 대한 데이터와 겹칩니다. 이러한 보고서는 열과 행에 정렬된 숫자를 사용하는 대신 다양한 모양, 색상 및 크기를 사용하여 데이터를 반환합니다. 또한 개별 또는 데이터 포인트 그룹을 선택하고 보고서 결과를 드릴다운하여 자세한 내용을 확인할 수 있습니다. 이러한 시각화 기술과 보고서 상호 작용성은 대량의 숫자 데이터를 더 쉽게 이해할 수 있도록 해줍니다.
+seo-description: Interactive reports display performance and overlap data for traits and segments. Instead of using numbers arranged in columns and rows, these reports return data using different shapes, colors, and sizes. Additionally, you can choose individual or groups of data points and drill down into the report results for more details. These visualization techniques and report interactivity help make large amounts of numeric data easier to understand.
+seo-title: Interactive and Overlap Reports
 solution: Audience Manager
 title: 대화형 및 Overlap Reports
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-feature: 겹치기 보고서
+feature: Overlap Reports
 exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 21%
+source-wordcount: '182'
+ht-degree: 27%
 
 ---
 
 # 대화형 및 Overlap Reports{#interactive-and-overlap-reports}
 
-대화형 보고서에는 트레이트 및 세그먼트에 대한 성능 및 겹치기 데이터가 표시됩니다. 열 및 행으로 배치된 숫자를 사용하는 대신 다양한 모양, 색상 및 크기를 사용하여 데이터를 반환합니다. 또한 개별 또는 데이터 포인트 그룹을 선택하고 자세한 내용을 보려면 보고서 결과로 드릴다운할 수 있습니다. 이러한 시각화 기법과 보고서 상호 작용을 통해 많은 숫자 데이터를 쉽게 이해할 수 있습니다.
+대화형 보고서는 성능을 표시하며 트레이트 및 세그먼트에 대한 데이터와 겹칩니다. 이러한 보고서는 열과 행에 정렬된 숫자를 사용하는 대신 다양한 모양, 색상 및 크기를 사용하여 데이터를 반환합니다. 또한 개별 또는 데이터 포인트 그룹을 선택하고 보고서 결과를 드릴다운하여 자세한 내용을 확인할 수 있습니다. 이러한 시각화 기술과 보고서 상호 작용성은 대량의 숫자 데이터를 더 쉽게 이해할 수 있도록 해줍니다.
 
 + [보고서 기술](interactive-report-technology.md)
 + [특성-특성 Overlap Reports](trait-trait-overlap-report.md)

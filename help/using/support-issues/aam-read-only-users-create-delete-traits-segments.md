@@ -2,11 +2,11 @@
 description: 읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?
 solution: Audience Manager
 title: 읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?
-feature: 지원
+feature: Support
 exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '88'
 ht-degree: 100%
 
 ---

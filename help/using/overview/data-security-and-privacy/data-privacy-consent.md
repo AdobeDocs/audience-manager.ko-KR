@@ -1,16 +1,16 @@
 ---
 description: 이 문서에서는 Audience Manager의 동의 관리 작동 방식을 설명합니다.
-seo-description: 이 문서에서는 Audience Manager의 동의 관리 작동 방식을 설명합니다.
-seo-title: 동의 관리
+seo-description: This document explains how consent management works in Audience Manager.
+seo-title: Consent Management
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, 개인 정보, 동의
 title: 동의 관리
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: 데이터 거버넌스 및 개인 정보
+feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '724'
 ht-degree: 94%
 
 ---
@@ -43,7 +43,7 @@ Audience Manager 고객은 Audience Manager에서 트레이트로서 광고 또�
 
 ## 옵트아웃 관리 / 동의 철회
 
-[귀하의 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) 페이지를 통해 Adobe Experience Cloud에 대한 옵트아웃을 관리할 수 있습니다. 1번의 클릭으로 최종 사용자가 Adobe Experience Cloud 광고 솔루션(Audience Manager 포함)에 의한 데이터 수집을 제어하고 옵트아웃할 수 있습니다. 특히 개인 정보 보호 선택 사항 페이지의 [비즈니스 고객 섹션](https://www.adobe.com/privacy/opt-out.html#customeruse)을 참조하십시오. 타사 쿠키를 지원하지 않는 브라우저의 경우 [선언된 ID 타겟팅](../../features/declared-ids.md#declared-id-targeting)을 참조하십시오. 모바일 장치의 경우, 적절한 Audience Manager 식별자를 검색하고 [선언된 ID 옵트아웃 예](../../features/declared-ids.md#opt-out-examples)에서 언급한 대로 Audience Manager 옵트아웃 API를 호출하십시오. 뒤이어 Mobile SDK에서 옵트아웃 API를 사용하는 해당 사용자에 대한 모든 데이터 수집을 중단할 수 있습니다. [Android 장치](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) 및 [iOS 장치](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html)를 참조하십시오. 옵트아웃에 대한 자세한 내용은 [데이터 개인 정보 보호 요청 문서](../../overview/data-security-and-privacy/data-privacy-requests.md)에 있습니다.
+[귀하의 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) 페이지를 통해 Adobe Experience Cloud에 대한 옵트아웃을 관리할 수 있습니다. 1번의 클릭으로 최종 사용자가 Adobe Experience Cloud 광고 솔루션(Audience Manager 포함)에 의한 데이터 수집을 제어하고 옵트아웃할 수 있습니다. 특히 개인 정보 보호 선택 사항 페이지의 [비즈니스 고객 섹션](https://www.adobe.com/kr/privacy/opt-out.html#customeruse)을 참조하십시오. 타사 쿠키를 지원하지 않는 브라우저의 경우 [선언된 ID 타겟팅](../../features/declared-ids.md#declared-id-targeting)을 참조하십시오. 모바일 장치의 경우, 적절한 Audience Manager 식별자를 검색하고 [선언된 ID 옵트아웃 예](../../features/declared-ids.md#opt-out-examples)에서 언급한 대로 Audience Manager 옵트아웃 API를 호출하십시오. 뒤이어 Mobile SDK에서 옵트아웃 API를 사용하는 해당 사용자에 대한 모든 데이터 수집을 중단할 수 있습니다. [Android 장치](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) 및 [iOS 장치](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html)를 참조하십시오. 옵트아웃에 대한 자세한 내용은 [데이터 개인 정보 보호 요청 문서](../../overview/data-security-and-privacy/data-privacy-requests.md)에 있습니다.
 
 ## 제2자 파트너에 대한 동의 관리
 

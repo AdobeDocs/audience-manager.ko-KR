@@ -1,14 +1,14 @@
 ---
 description: 대상 세부 사항 페이지에 대상 랩 매핑 세그먼트가 표시되지 않는 이유입니다.
-seo-description: 대상 세부 사항 페이지에 대상 랩 매핑 세그먼트가 표시되지 않는 이유입니다.
-seo-title: 대상 세부 사항 페이지에 대상 랩 매핑 세그먼트가 표시되지 않는 이유입니다.
+seo-description: Why Audience Lab mapped segments will not show up on the destination details page.
+seo-title: Why Audience Lab mapped segments will not show up on the destination details page.
 solution: Audience Manager
 title: 대상 세부 사항 페이지에 대상 랩 매핑 세그먼트가 표시되어야 합니까?
-feature: 지원
+feature: Support
 exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '141'
 ht-degree: 100%
 
 ---

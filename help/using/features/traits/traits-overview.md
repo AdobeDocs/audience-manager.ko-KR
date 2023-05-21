@@ -1,22 +1,22 @@
 ---
-description: 규칙 기반, 온보딩, 알고리즘 또는 폴더 트레이트를 사용하여 데이터 수집 및 대상 생성을 관리합니다.
-seo-description: 규칙 기반, 온보딩, 알고리즘 또는 폴더 트레이트를 사용하여 데이터 수집 및 대상 생성을 관리합니다.
-keywords: 트레이트;트레이트트레이트 개요
-seo-title: 트레이트 개요
+description: 규칙 기반, 온보딩, 알고리즘 또는 폴더 트레이트로 데이터 수집 및 대상자 생성을 관리합니다.
+seo-description: Manage data collection and audience creation with rules-based, onboarded, algorithmic or folder traits.
+keywords: 트레이트; 트레이트; 트레이트 개요
+seo-title: Traits Overview
 solution: Audience Manager
 title: 트레이트 개요
-feature: 트레이트
+feature: Traits
 exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 38%
+source-wordcount: '60'
+ht-degree: 43%
 
 ---
 
 # [!UICONTROL Traits] 개요 {#traits-overview}
 
-[!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] 또는 [!UICONTROL folder traits]로 데이터 수집 및 대상 생성을 관리합니다. 아래 링크된 페이지를 읽고 [!UICONTROL traits] 을 시작하십시오.
+를 사용하여 데이터 수집 및 대상자 만들기 관리 [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] 또는 [!UICONTROL folder traits]. 시작하려면 아래 링크된 페이지를 읽어 보십시오. [!UICONTROL traits]:
 
 * [트레이트 세부 사항 페이지](/help/using/features/traits/trait-details-page.md)
 * [특성 빌더](/help/using/features/traits/about-trait-builder.md)

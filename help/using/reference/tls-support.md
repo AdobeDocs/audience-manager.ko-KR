@@ -1,28 +1,28 @@
 ---
-description: TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 시스템 중 하나 또는 둘 다를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월에는 TLS 1.0, 1.1 및 1.2를 사용하는 세 가지 버전의 TLS 프로토콜이 있었습니다.
-seo-description: TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 시스템 중 하나 또는 둘 다를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월에는 TLS 1.0, 1.1 및 1.2를 사용하는 세 가지 버전의 TLS 프로토콜이 있었습니다.
-seo-title: TLS 1.0 및 1.1 사용 중단
+description: 전송 계층 보안(TLS)은 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. EMC Documentum은 한 시스템 또는 두 시스템을 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월, TLS 프로토콜의 세 가지 버전이 TLS 1.0, 1.1, 1.2에 사용되었다.
+seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
+seo-title: TLS 1.0 and 1.1 Deprecation
 solution: Audience Manager
 title: TLS 1.0 및 1.1 사용 중단
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-feature: 참조
+feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '220'
+ht-degree: 2%
 
 ---
 
 # TLS 1.0 및 1.1 사용 중단{#tls-deprecation}
 
-TLS(전송 계층 보안)는 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. 시스템 중 하나 또는 둘 다를 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월에는 세 가지 버전의 TLS 프로토콜이 사용되었습니다.TLS 1.0, 1.1 및 1.2.
+전송 계층 보안(TLS)은 두 시스템 간의 보안 통신 채널을 설정하는 데 사용되는 암호화 프로토콜입니다. EMC Documentum은 한 시스템 또는 두 시스템을 인증하고 시스템 간에 전달되는 정보의 기밀성과 무결성을 보호하는 데 사용됩니다. 2018년 5월에 TLS 프로토콜의 세 가지 버전(TLS 1.0, 1.1, 1.2)이 사용되었습니다.
 
-2019년 3월에 [!DNL Adobe]이 [!DNL TLS 1.0] 프로토콜에 대한 지원을 종료했습니다. [!DNL TLS 1.0]만 지원하는 브라우저를 사용하는 최종 사용자에게는 Adobe Audience Manager 기능이 작동하지 않습니다.
+2019년 3월, [!DNL Adobe] 에 대한 지원이 종료됨 [!DNL TLS 1.0] 프로토콜. Adobe Audience Manager 기능은 만 지원하는 브라우저를 사용하는 최종 사용자에게 작동하지 않습니다. [!DNL TLS 1.0].
 
-2020년 3월에 [!DNL Adobe]은 [!DNL TLS 1.1] 프로토콜에 대한 지원을 종료합니다. Adobe Audience Manager 기능은 [!DNL TLS 1.1]만 지원하는 브라우저를 사용하는 최종 사용자에 대해 작동하지 않습니다.
+2020년 3월, [!DNL Adobe] 에 대한 지원을 종료합니다. [!DNL TLS 1.1] 프로토콜. Adobe Audience Manager 기능은 를 지원하는 브라우저만 사용하는 최종 사용자에 대한 작동이 중지됩니다. [!DNL TLS 1.1].
 
-Adobe은 쓰기 시 최신 버전의 프로토콜인 [!DNL TLS 1.2] 을 사용하는 것을 권장합니다. 최신 모든 브라우저는 [!DNL TLS 1.2]을 사용합니다. 브라우저, 버전 및 [!DNL TLS] 지원 목록을 수집했습니다. TLS 브라우저 지원에 대한 자세한 내용은 [전송 계층 보안 Wikipedia 링크](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)를 참조하십시오.
+Adobe은 다음을 사용할 것을 강력히 권장합니다. [!DNL TLS 1.2]: 최신 버전의 프로토콜입니다. 모든 최신 브라우저는 [!DNL TLS 1.2]. 브라우저, 버전 및 해당 브라우저 목록을 수집했습니다. [!DNL TLS] 지원. TLS 브라우저 지원에 대한 자세한 내용은 다음을 참조하십시오. [전송 계층 보안 위키백과 링크](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 

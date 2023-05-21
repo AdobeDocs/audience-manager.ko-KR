@@ -1,22 +1,22 @@
 ---
-description: FLA 파일에서 Analytics로 보낸 데이터를 수집하고 Audience Manager에서 해당 정보로 작업할 수 있습니다.
-seo-description: FLA 파일에서 Analytics로 보낸 데이터를 수집하고 Audience Manager에서 해당 정보로 작업할 수 있습니다.
+description: FLA 파일에서 Analytics로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업합니다.
+seo-description: Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
 seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-feature: DIL 구현
+feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '620'
 ht-degree: 4%
 
 ---
 
 # Flash DIL{#flash-dil}
 
-FLA 파일에서 Analytics로 보낸 데이터를 수집하고 Audience Manager에서 해당 정보로 작업할 수 있습니다.
+FLA 파일에서 Analytics로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업합니다.
 
 <!-- 
 
@@ -24,7 +24,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] 는  [!DNL ActionScript] Audience Manager에서 비디오 재생 데이터로 작업할 수 있는 코드 라이브러리입니다. [!DNL Flash DIL] 는 Adobe 라이브러리가 Analytics에 전달하는 SWF  [!UICONTROL AppMeasurement] 컨텐츠를 캡처하여 작동합니다. [!DNL Flash DIL] 는 해당 데이터를 별도의  [!UICONTROL DIL] JavaScript 데이터 수집 모듈로 전송하여 Audience Manager으로 전달합니다. Analytics 데이터( [!UICONTROL Props], [!UICONTROL eVars], 이벤트 등) [!DNL FLA] 파일에서 캡처된 는 트레이트 또는 사용되지 않은 신호로 Audience Manager에서 사용할 수 있습니다.
+[!UICONTROL Flash DIL] 은(는) [!DNL ActionScript] Audience Manager에서 비디오 재생 데이터로 작업할 수 있는 코드 라이브러리입니다. [!DNL Flash DIL] Adobe에서 SWF 콘텐츠를 캡처하여 작동 [!UICONTROL AppMeasurement] 라이브러리가 Analytics에 전달됩니다. [!DNL Flash DIL] 는 해당 데이터를 [!UICONTROL DIL] JavaScript 데이터 수집 모듈. 해당 정보를 Audience Manager에 전달합니다. Analytics 데이터 ( [!UICONTROL Props], [!UICONTROL eVars], 이벤트 등) 에서 캡처됨 [!DNL FLA] 파일은 Audience Manager에서 트레이트 또는 사용되지 않은 신호로 사용할 수 있습니다.
 
 ## Flash DIL 데이터 수집을 위한 요구 사항 {#requirements}
 
@@ -40,23 +40,23 @@ c_flash_dil_intro.xml
 
 [!UICONTROL Flash] 데이터 수집에는 다음이 필요합니다.
 
-* [!UICONTROL DIL] 클래스 라이브러리( `dil.swc`)입니다. 파트너 솔루션 연락처에서 [!UICONTROL DIL] 클래스 라이브러리를 가져옵니다.
+* 다음 [!UICONTROL DIL] 클래스 라이브러리( `dil.swc`). 다음을 획득 [!UICONTROL DIL] 파트너 솔루션 담당자의 클래스 라이브러리
 
-* 페이지의 JavaScript [!UICONTROL DIL] 데이터 수집 코드.
-* [DIL ActionScript ](../dil/dil-flash.md#flash-dil-actionscript) 라이브러리 데이터를 수집할 Flash 개체에 로드되었습니다.
-* Adobe [!DNL AppMeasurement] [!DNL AS] 라이브러리(버전 3.5.2 이상)가 데이터를 수집할 [!DNL Flash] 개체를 로드했습니다.
+* JavaScript [!UICONTROL DIL] 페이지에서 데이터 수집 코드.
+* [DIL ActionScript 라이브러리](../dil/dil-flash.md#flash-dil-actionscript) 에서 데이터를 수집할 Flash 개체에 로드됩니다.
+* Adobe [!DNL AppMeasurement] [!DNL AS] 라이브러리(버전 3.5.2 이상)가 [!DNL Flash] 데이터를 수집하려는 개체입니다.
 
-**AllowScriptAccess를  `Always` 또는`sameDomain`**
+**AllowScriptAccess 설정 `Always` 또는`sameDomain`**
 
-SWF 파일을 로드하는 HTML 코드의 `AllowScriptAccess`은 SWF 파일 내에서 아웃바운드 URL 액세스를 수행하는 기능을 제어합니다. [!UICONTROL Flash DIL] 데이터 통합을 구성할 때는 Flash `AllowScriptAccess` 매개 변수가 `always` 또는 `sameDomain`로 설정되어 있는지 확인하십시오. [!UICONTROL Flash DIL] 이 로 설정되어 있으면 데이터 수집 `AllowScriptAccess` 이 작동하지 않습니다  `never`. 스크립트 또는 호스트 웹 페이지에 대한 액세스 제어](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)를 참조하십시오.[
+다음 `AllowScriptAccess` SWF 파일을 로드하는 HTML 코드에서 SWF 파일 내에서 아웃바운드 URL 액세스를 수행하는 기능을 제어합니다. 을(를) 구성할 때 [!UICONTROL Flash DIL] 데이터 통합, Flash 확인 `AllowScriptAccess` 매개 변수가 로 설정되어 있습니다. `always` 또는 `sameDomain`. [!UICONTROL Flash DIL] 다음의 경우 데이터 수집이 작동하지 않음 `AllowScriptAccess` 이(가) (으)로 설정됨 `never`. 다음을 참조하십시오 [스크립트 또는 호스트 웹 페이지에 대한 액세스 제어](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
 
-**JS  [!UICONTROL DIL] 코드 배치**
+**JS [!UICONTROL DIL] 코드 배치**
 
-JS [!UICONTROL DIL] 데이터 수집 모듈이 [!DNL FLA] 파일 앞에 로드되도록 페이지에 배치해 보십시오. [!DNL FLA] 파일이 처음 로드되고 [!UICONTROL DIL] 데이터 수집이 준비되기 전에 [!UICONTROL Flash DIL]에서 해당 모듈에 보내는 초기 데이터 신호를 누락할 수 있습니다. 그러나 인스턴스화되면 [!UICONTROL DIL] 데이터 수집 모듈은 [!UICONTROL Flash DIL]에서 전달한 모든 후속 SWF 파일 데이터를 캡처합니다.
+JS 배치 시도 [!UICONTROL DIL] 페이지의 데이터 수집 모듈 [!DNL FLA] 파일. 다음의 경우 [!DNL FLA] 파일이 먼저 로드되고 그 전에 [!UICONTROL DIL] 데이터 수집이 준비되면 다음과 같은 초기 데이터 신호를 놓칠 수 있습니다. [!UICONTROL Flash DIL] 가 해당 모듈로 전송됩니다. 그러나 인스턴스화되면 [!UICONTROL DIL] 데이터 수집 모듈은 에서 전달한 모든 후속 SWF 파일 데이터를 캡처합니다. [!UICONTROL Flash DIL].
 
-## Flash DIL {#data-collected}에 의해 수집된 데이터
+## Flash DIL에서 수집한 데이터 {#data-collected}
 
-[!UICONTROL Flash DIL] 는 Adobe 라이브러리에서 페이지 보기, 링크 추적, 미디어 추적 및 기타 미디어 보기 이벤트를  [!UICONTROL AppMeasurement] 캡처합니다.
+[!UICONTROL Flash DIL] Adobe에서 페이지 보기, 링크 추적, 미디어 추적 및 기타 미디어 보기 이벤트를 캡처합니다 [!UICONTROL AppMeasurement] 라이브러리입니다.
 
 <!-- 
 
@@ -66,7 +66,7 @@ r_flash_dil_data_collected.xml
 
 **페이지 보기 이벤트**
 
-`s.trackVars`에서 별도로 지정하지 않는 한 [!UICONTROL Flash DIL]은 Adobe AppMeasurement에서 다음 데이터를 수집합니다.
+다른 규정이 없는 한 `s.trackVars`, [!UICONTROL Flash DIL] Adobe AppMeasurement에서 다음 데이터를 수집합니다.
 
 * `pageName`
 * `channel`
@@ -78,29 +78,29 @@ r_flash_dil_data_collected.xml
 
 **링크 추적 이벤트**
 
-`s.linkTrackVars`에 별도로 지정하지 않는 한 [!UICONTROL Flash DIL] Adobe [!UICONTROL AppMeasurement]에서 다음 데이터를 수집합니다.
+다른 규정이 없는 한 `s.linkTrackVars`, [!UICONTROL Flash DIL] Adobe에서 다음 데이터 수집 [!UICONTROL AppMeasurement]:
 
-* `pe` (라는 추적 링크의 유형)
+* `pe` (호출된 추적 링크 유형)
 * `pev1` (링크 URL)
 * `pev2`(링크 텍스트)
 
 **미디어 추적 이벤트**
 
-`s.Media.trackVars`에서 별도로 지정하지 않는 한 [!UICONTROL Flash DIL]은 페이지 보기 이벤트 섹션에 열거된 모든 데이터를 수집합니다.
+다른 규정이 없는 한 `s.Media.trackVars`, [!UICONTROL Flash DIL] 는 페이지 보기 이벤트 섹션에 나열된 모든 데이터를 수집합니다.
 
 **기타 데이터 포인트**
 
-이러한 매개 변수의 데이터는 기본적으로 수집됩니다.
+기본적으로 다음 매개 변수의 데이터가 수집됩니다.
 
 * `mediaName` (미디어/비디오 요소 이름)
 * `mediaAdName` (광고 이름)
-* `mediaAdParentName` (광고가 중첩된 기본 미디어 컨텐츠의 이름)
-* `mediaAdParentPod` (기본 컨텐츠 내에서 광고가 재생되는 pod 또는 광고 브레이크)
-* `mediaAdParentPodPos` (Pod 내에서 광고가 재생되는 숫자 위치입니다. 둘 이상의 광고가 Pod 내에서 재생될 수 있습니다.
+* `mediaAdParentName` (광고가 중첩된 기본 미디어 콘텐츠의 이름)
+* `mediaAdParentPod` (광고가 재생되는 기본 콘텐츠 내의 pod 또는 광고 브레이크)
+* `mediaAdParentPodPos` (Pod 내에서 광고가 재생되는 숫자 위치입니다. Pod 내에서 두 개 이상의 광고를 재생할 수 있습니다.
 
-## Audience Manager {#flash-dil-data}의 DIL 데이터 Flash
+## Audience Manager에서 DIL 데이터 Flash {#flash-dil-data}
 
-[!UICONTROL Flash DIL] 모듈은 Adobe AppMeasurement 데이터를 Audience Manager 트레이트 및 사용되지 않는 신호로 바꿉니다.
+다음 [!UICONTROL Flash DIL] 모듈은 Adobe AppMeasurement 데이터를 Audience Manager 트레이트 및 사용되지 않는 신호로 바꿉니다.
 
 <!-- 
 
@@ -108,11 +108,11 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars] 및 이벤트는 Audience Manager의 트레이트처럼 작동합니다. 트레이트는 키-값 쌍이며 세그먼트를 만드는 데 사용됩니다. 예를 들어 `c30=foo` 과 같은 Analytics prop에서 `c30`은 키(상수)이고 `foo`는 값(변수)입니다.
+분석 [!UICONTROL Props], [!UICONTROL eVars], 및 이벤트는 Audience Manager에서 트레이트처럼 작동합니다. 트레이트는 키-값 쌍으로, 세그먼트를 만드는 데 사용됩니다. 예를 들어 와 같은 Analytics prop에서 `c30=foo`, `c30` 는 키(상수)이고 `foo` 는 값(변수)입니다.
 
-**Analytics 변수에 Audience Manager 트레이트 일치**
+**Audience Manager 트레이트를 Analytics 변수에 일치**
 
-[!UICONTROL Flash DIL]에서 전달한 Analytics 데이터를 사용하려면 `c_` 접두사가 있는 키 값이 있는 Audience Manager 트레이트를 만들어야 합니다.
+전달한 Analytics 데이터를 사용하려면 [!UICONTROL Flash DIL], 키 값 접두사가 있는 Audience Manager 트레이트를 만들어야 합니다 `c_`.
 
 예제는 표를 참조하십시오.
 
@@ -122,13 +122,13 @@ Analytics [!UICONTROL Props], [!UICONTROL eVars] 및 이벤트는 Audience Manag
 | **evar** | `v35=bar` | `c_evar35=bar` |
 | **events** | `events=event10` | `c_events=event10` |
 
-**DIL/Analytics 데이터를 사용하지 않은 신호로 사용**
+**사용하지 않는 신호로 DIL/분석 데이터**
 
-Audience Manager은 해당 트레이트 없이도 Analytics [!UICONTROL Props], [!UICONTROL eVars] 및 이벤트를 허용합니다. 이 경우 데이터는 트레이트 생성에 사용할 수 없으며, 대신 [사용되지 않은 신호 보고서](../reporting/dynamic-reports/unused-signals.md)에 표시됩니다. 이 정보를 최대한 활용하려면 [!UICONTROL Flash DIL] 라이브러리에서 전달한 Analytics 데이터와 일치하는 Audience Manager 트레이트를 만드십시오.
+Audience Manager이 Analytics를 수락합니다. [!UICONTROL Props], [!UICONTROL eVars], 및 해당하는 트레이트가 없는 이벤트입니다. 이 경우 데이터는 트레이트 만들기에 사용할 수 없으며 [사용되지 않은 신호 보고서](../reporting/dynamic-reports/unused-signals.md) 대신, 이 정보를 최대한 활용하려면 가 전달한 Analytics 데이터와 일치하는 Audience Manager 트레이트를 만듭니다. [!UICONTROL Flash DIL] 라이브러리입니다.
 
 ## Flash DIL ActionScript 라이브러리 {#flash-dil-actionscript}
 
-Analytics 데이터를 Audience Manager에 보낼 [!DNL Flash] 개체의 코드입니다.
+코드 [!DNL Flash] analytics 데이터를 Audience Manager에 보낼 개체입니다.
 
 <!-- 
 
@@ -138,10 +138,9 @@ r_flash_dil_actionscript.xml
 
 >[!NOTE]
 >
->* 각 [!DNL Flash] 개체에 대해 코드는 하나의 파트너 인스턴스( `d.partner`)만 지원합니다.
-   >
-   >
-* Adobe [!UICONTROL AppMeasurement] [!DNL AS] 라이브러리 버전 3.5.2 이상이 필요합니다.
+>* 각 [!DNL Flash] 개체에서 코드는 하나의 파트너 인스턴스( `d.partner`)만 사용할 수 있습니다.
+>
+>* Adobe 필요 [!UICONTROL AppMeasurement] [!DNL AS] 라이브러리 버전 3.5.2 이상
 
 
 ```js
@@ -158,7 +157,7 @@ s.loadModule(d);
 >[!MORELIKETHIS]
 >
 >* [트레이트](../features/traits/trait-details-page.md)
-* [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)
-* [키-값 쌍 설명](../reference/key-value-pairs-explained.md)
-* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
+>* [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)
+>* [키-값 쌍 설명](../reference/key-value-pairs-explained.md)
+>* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
 

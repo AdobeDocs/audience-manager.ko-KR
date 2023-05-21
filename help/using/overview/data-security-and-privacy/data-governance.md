@@ -1,15 +1,15 @@
 ---
 description: 이 문서에서는 Audience Manager에서 고객 데이터가 어떻게 제어되는지 설명합니다.
-seo-description: 이 문서에서는 Audience Manager에서 고객 데이터가 어떻게 제어되는지 설명합니다.
-seo-title: 데이터 거버넌스
+seo-description: TThis document explains how customer data is governed in Audience Manager.
+seo-title: Data Governance
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, 개인 정보, 동의, 난독화, 거버넌스
 title: 데이터 거버넌스
-feature: 데이터 거버넌스 & 개인 정보 보호
+feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 94%
 
 ---
@@ -31,7 +31,7 @@ Audience Manager의 데이터 거버넌스는 Audience Manager에서 고객 데�
 
 >[!NOTE]
 >
->Audience Manager 사용자 인터페이스에서 [!DNL IP] 주소 난독화를 사용하도록 설정하는 방법을 알려면 [IP 주소 난독화](../../features/administration/ip-obfuscation.md) 를 참조하십시오.
+>다음을 참조하십시오 [IP 주소 난독화](../../features/administration/ip-obfuscation.md) 을(를) 활성화하는 방법을 알아봅니다. [!DNL IP] Audience Manager 사용자 인터페이스에서 주소 난독화.
 
 Audience Manager에서 [!DNL IP] 주소 난독화가 작동하는 방식을 이해하려면 아래 비디오를 보십시오.
 

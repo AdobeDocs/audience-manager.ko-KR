@@ -1,15 +1,15 @@
 ---
 description: 이 페이지에서는 Audience Manager 사용과 관련된 함의와 함께 파트너가 직접 제공하는 정보에 대해 설명합니다. 이러한 업데이트를 수행하는 파트너에게 중요한 의미는 2018년 5월 25일부터 적용된 GDPR(일반 개인정보보호 규정)과 새로운 IAB GDPR 투명성 및 동의 프레임워크(IAB 프레임워크)의 결과입니다.
-seo-description: 이 페이지에서는 Audience Manager 사용과 관련된 함의와 함께 파트너가 직접 제공하는 정보에 대해 설명합니다. 이러한 업데이트를 수행하는 파트너에게 중요한 의미는 2018년 5월 25일부터 적용된 GDPR(일반 개인정보보호 규정)과 새로운 IAB GDPR 투명성 및 동의 프레임워크(IAB 프레임워크)의 결과입니다.
-seo-title: 대상에 대한 GDPR 고려 사항
+seo-description: This page outlines information provided directly by our partners, as it becomes available, along with any implications related to your Audience Manager practice. Key implications for partners making these updates are the result of GDPR (General Data Protection Regulation), which went into effect on May 25th, 2018 and the new IAB GDPR Transparency & Consent Framework (IAB Framework).
+seo-title: GDPR Considerations for Destinations
 solution: Audience Manager
 title: 대상에 대한 GDPR 고려 사항
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: 데이터 거버넌스 및 개인 정보
+feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '297'
 ht-degree: 96%
 
 ---

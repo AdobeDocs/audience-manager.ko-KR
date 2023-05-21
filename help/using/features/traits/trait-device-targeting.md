@@ -18,9 +18,9 @@ ht-degree: 5%
 
 >[!WARNING]
 >
->Google이 의 기능을 업데이트했습니다 [!DNL Google Chrome] 모든 [!DNL Chromium]를 통해 수집된 정보를 최소화하기 위한 - 기반 브라우저 `User-Agent` 헤더.
->2023년 3월부터 Audience Manager은 다음을 활용하여 이러한 업데이트를 지원합니다 [웹 SDK Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). 를 통해 제공된 트레이트 정보를 계속 사용하려면 `User-Agent` header, [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 및 활성화 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
->이 업데이트는 [DIL](../../../using/dil/dil-overview.md), 이렇게 하면 [!DNL DIL] 는 `User-Agent` 헤더.
+>Google의 기능 업데이트 [!DNL Google Chrome] 및 모두 [!DNL Chromium]를 통해 수집된 정보를 최소화하기 위한 기반 브라우저 `User-Agent` 머리글입니다.
+>2023년 3월부터 Audience Manager은 을 활용하여 이러한 업데이트를 지원합니다 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). 를 통해 제공된 트레이트 정보를 계속 사용하려면 `User-Agent` 머리글에서 다음을 사용해야 합니다. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 및 활성화 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>이러한 업데이트는에서 지원하지 않습니다. [DIL](../../../using/dil/dil-overview.md), 따라서 다음을 사용하는 Audience Manager 고객 [!DNL DIL] 을(를) 통해 트레이트 정보를 수집할 수 없습니다. `User-Agent` 머리글입니다.
 
 Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하여 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
 
@@ -28,11 +28,11 @@ Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하
 
 <!-- c_tb_device_targeting.xml -->
 
-플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 의 모든 속성에서 타겟팅할 수 있습니다 [!DNL Audience Manager] 계정이 필요합니다. 이러한 변수는 [키 값 쌍](../../reference/key-value-pairs-explained.md) 접두사가 있는 키 `d_` 아래와 같이 표시됩니다.
+플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 의 모든 속성에서 타겟팅에 사용할 수 있습니다. [!DNL Audience Manager] 계정입니다. 이 변수들은 [키-값 쌍](../../reference/key-value-pairs-explained.md) 접두사가 있는 키 `d_` 아래와 같이 표시됩니다.
 
-## 사용자 에이전트가 정의하는 플랫폼 수준 키 {#keys-user-agent}
+## 사용자 에이전트에서 정의한 플랫폼 수준 키 {#keys-user-agent}
 
-다음 [!UICONTROL Data Collection Servers] 에서 이러한 키의 값을 추출합니다. [사용자 에이전트 헤더](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` 요청. 값은 의 장치 수준 정보를 나타냅니다 [!UICONTROL Device Atlas] 데이터베이스. 아래 표에 있는 신호는 사용자 에이전트 예제에서 추출한 대로 사용할 수 있습니다. [가장 일반적인 키 목록 다운로드](assets/device_keys.csv)에 따라 [!UICONTROL Device Atlas] 측정.
+다음 [!UICONTROL Data Collection Servers] 에서 이러한 키의 값을 추출합니다. [사용자 에이전트 헤더](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) 위치: `HTTP` 요청. 값은 의 장치 수준 정보를 나타냅니다. [!UICONTROL Device Atlas] 데이터베이스. 사용자 에이전트 예에서 추출한 대로 아래 표의 신호를 사용할 수 있습니다. [가장 일반적인 키 목록 다운로드](assets/device_keys.csv)에 따라 [!UICONTROL Device Atlas] 측정.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -50,7 +50,7 @@ Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하
 
 >[!NOTE]
 >
->사용자 에이전트 헤더에서 하나 이상의 신호를 검색할 수 없는 경우에도 다른 신호는 여전히 [!UICONTROL Data Collection Servers].
+>사용자 에이전트 헤더에서 하나 이상의 신호를 검색할 수 없는 경우에도 다른 신호는 [!UICONTROL Data Collection Servers].
 
 >[!MORELIKETHIS]
 >

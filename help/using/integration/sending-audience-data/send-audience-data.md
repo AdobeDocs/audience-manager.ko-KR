@@ -1,14 +1,14 @@
 ---
 description: 다른 소스의 대상 데이터를 Audience Manager으로 보냅니다.
-seo-description: 다른 소스의 대상 데이터를 Adobe Audience Manager (AAM)에 보냅니다.
-seo-title: Adobe Audience Manager(AAM)에서 대상 데이터 보내기
+seo-description: Send audience data from other sources to Adobe Audience Manager (AAM).
+seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: 대상 데이터 보내기
-feature: 인바운드 데이터 전송
+feature: Inbound Data Transfers
 exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 34%
+source-wordcount: '71'
+ht-degree: 40%
 
 ---
 

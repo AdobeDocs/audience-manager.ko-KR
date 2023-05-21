@@ -9,8 +9,8 @@ feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ faq_reports.xml
 
 **이메일 마케팅 캠페인을 실행하는 경우 리디렉션된 사용자가 해당 캠페인이나 다른 소스에서 내 사이트로 오는지 어떻게 판단할 수 있습니까?**
 
-모니터링하려는 사이트 섹션의 URL에 캠페인 관련 쿼리 문자열을 추가하십시오. 그런 다음 이 변수를 캡처하도록 트레이트 규칙을 설정합니다. 예를 들어 URL이 다음과 같이 캠페인 ID를 전달한다면, `www.test123.com/electronics?campaign=123`그런 다음 트레이트 규칙을 만들어 `h_referer` 과 같은 헤더를 찾는 트레이트 규칙이 있는 변수입니다 `h_referer = 'campaign=123'`.
+모니터링하려는 사이트 섹션의 URL에 캠페인 관련 쿼리 문자열을 추가하십시오. 그런 다음 이 변수를 캡처하도록 트레이트 규칙을 설정합니다. 예를 들어 URL이 다음과 같이 캠페인 ID를 전달하는 경우 `www.test123.com/electronics?campaign=123`를 클릭한 다음 트레이트 규칙을 만들어 에서 해당 데이터를 캡처합니다 `h_referer` 과 유사한 헤더를 찾는 트레이트 규칙이 있는 변수 `h_referer = 'campaign=123'`.
 
 <br> 
 

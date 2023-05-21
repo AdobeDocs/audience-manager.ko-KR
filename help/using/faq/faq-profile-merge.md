@@ -31,13 +31,13 @@ ht-degree: 82%
 
 **외부 장치 그래프란?**
 
-외부 장치 그래프는 전적으로 자체 교차 장치 데이터 소스에서 제작되지 않은 [!DNL Audience Manager]에 있는 임의의 장치 그래프입니다. 예를 들어 [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md) 외부 장치 그래프를 사용하여 작업하고 있는 타사 장치 그래프 옵션을 선택합니다. [장치 옵션](../features/profile-merge-rules/merge-rule-definitions.md#device-options)을 참조하십시오.
+외부 장치 그래프는 전적으로 자체 교차 장치 데이터 소스에서 제작되지 않은 [!DNL Audience Manager]에 있는 임의의 장치 그래프입니다. 예를 들어 [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md) 외부 장치 그래프를 사용하여 작업하는 경우 서드파티 장치 그래프 옵션을 선택하십시오. [장치 옵션](../features/profile-merge-rules/merge-rule-definitions.md#device-options)을 참조하십시오.
 
  
 
 **[!UICONTROL Profile Merge Rule]에서 외부 장치 그래프를 사용하는 일반적인 사용 사례는 무엇입니까?**
 
-[!UICONTROL Profile Merge Rule]에서 장치 그래프를 사용하는 주요 목적은 개인 또는 가구에 속하는 여러 장치를 특정 세그먼트에 대해 평가하고 자격을 부여하는 것입니다. 세그먼트 자체에는 DSP에서 제공하는 광고를 통해 잠재 고객을 대상으로 타겟팅하거나 온사이트 개인화 플랫폼을 통해 고객의 온사이트 경험을 개인화하는 등 다양한 용도가 있을 수 있습니다. [외부 장치 그래프 사용 사례](../features/profile-merge-rules/external-graph-use-cases.md)를 참조하십시오.
+[!UICONTROL Profile Merge Rule]에서 장치 그래프를 사용하는 주요 목적은 개인 또는 가구에 속하는 여러 장치를 특정 세그먼트에 대해 평가하고 자격을 부여하는 것입니다. 세그먼트 자체에는 DSP에서 제공하는 광고를 통해 잠재 고객 대상을 타겟팅하거나 온사이트 개인화 플랫폼을 통해 고객의 온사이트 경험을 개인화하는 등 다양한 용도가 있을 수 있습니다. [외부 장치 그래프 사용 사례](../features/profile-merge-rules/external-graph-use-cases.md)를 참조하십시오.
 
  
 
@@ -259,18 +259,18 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 아니요. 
 
-**2020년 3월 16일 이후 Adobe Campaign으로 세그먼트 내보내기에 대해 세그먼트 인구가 0으로 표시되는 이유는 무엇입니까?**
+**2020년 3월 16일 이후 Adobe Campaign으로 세그먼트 내보내기에 대해 0개 세그먼트 인구가 표시되는 이유는 무엇입니까?**
 
-2019년 말에는 교차 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 개선하기 위해 일련의 프로필 병합 규칙 개선 사항을 발표했습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에 엄격하게 적용됩니다. 따라서 교차 장치 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중지합니다.
+2019년 말에는 교차 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 개선하기 위해 일련의 프로필 병합 규칙 개선 사항이 릴리스되었습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에서 엄격하게 적용됩니다. 결과적으로 교차 장치 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중단합니다.
 
-Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바르게 통합하려면 다음 요구 사항을 충족하는지 확인하십시오.
+Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바른 통합을 보장하려면 다음 요구 사항을 충족하는지 확인하십시오.
 
-1. Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙 을 검토하십시오. 프로필 병합 규칙은 [!UICONTROL Last Authenticated Profile] 옵션을 선택하면 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙에 다른 옵션이 있는 경우 [!UICONTROL Last Authenticated Profile].
+1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토합니다. 프로필 병합 규칙은 다음을 사용해야 합니다. [!UICONTROL Last Authenticated Profile] 인증된 모든 프로필을 내보내기에 포함할 수 있습니다. 프로필 병합 규칙에서 다른 옵션을 사용하는 경우 다음으로 전환합니다. [!UICONTROL Last Authenticated Profile].
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]
 >
-> 이 상황이 발생하는 고객에 대해 프로필 병합 규칙 제한을 1씩 증가했으므로 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
+> 이 상황이 발생한 고객에 대해 프로필 병합 규칙 제한을 1만큼 늘렸으므로 다른 사용 사례에 대한 프로필 병합 규칙을 변경하지 않고 Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에 대한 전용 프로필 병합 규칙을 만들 수 있습니다.
 
 >[!MORELIKETHIS]
 >

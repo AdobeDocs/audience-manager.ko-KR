@@ -1,15 +1,15 @@
 ---
 description: 정의 및 추가적으로 읽을 수 있는 링크.
-seo-description: 정의 및 추가적으로 읽을 수 있는 링크.
-seo-title: 용어 설명
+seo-description: Definitions and links to further reading.
+seo-title: Glossary
 solution: Audience Manager
 title: 용어 설명
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: 참조
+feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---

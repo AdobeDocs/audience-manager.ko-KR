@@ -1,14 +1,14 @@
 ---
-description: '사용자 기반 대상에 대한 일반적인 질문에 대한 답변입니다.  '
-seo-description: '사용자 기반 대상에 대한 일반적인 질문에 대한 답변입니다.  '
-seo-title: 사용자 기반 대상 FAQ
+description: 사용자 기반 대상에 대한 일반적인 질문에 대한 답변입니다.
+seo-description: Answers to common questions about People-Based Destinations.
+seo-title: People-Based Destinations FAQ
 solution: Audience Manager
 title: 사용자 기반 대상 FAQ
-feature: 사용자 기반 대상
+feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1159'
 ht-degree: 94%
 
 ---
@@ -78,9 +78,9 @@ Audience Manager는 원시 이메일 주소를 섭취하는 것이 아니므로 
 
 Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대상 플랫폼에 보낼 수 있지만 이메일 주소는 동기화 파일을 통해 캡처해야 합니다. Audience Manager가 대상 플랫폼에 이메일 주소를 보낸 후 이메일 주소를 자체 사용자 기반에 대해 일치시키는 것은 플랫폼에 달려 있습니다. 일부 플랫폼에는 Audience Manager에서 사용자 프로필에 보낸 주소를 일치시키기 위한 추가적인 이메일 주소 그래프가 있을 수 있습니다.
 
-**사용  [!DNL People-Based Destinations] 가능한가요 [!DNL Audience Lab]?**
+**사용할 수 있습니까 [!DNL People-Based Destinations] 위치: [!DNL Audience Lab]?**
 
-아니요. 현재 모든 [!DNL People-Based Destinations] 대상은 [!DNL Audience Lab]에서 제외됩니다. [!DNL People-Based Destinations] 및 수요 측 플랫폼이 서로 다른 ID를 사용한다는 점에서 두 ID 간에 균일하게 분할된 대상의 성능을 테스트하고 측정할 수 없습니다.
+아니요. 현재 모두 [!DNL People-Based Destinations] 대상에서 제외됨 [!DNL Audience Lab]. 주어진 [!DNL People-Based Destinations] 및 수요 측 플랫폼은 서로 다른 ID를 사용하므로 대상을 균등하게 분할하여 성능을 테스트하고 측정할 수 없습니다.
 
 ## 데이터 내보내기 제어 {#data-export-controls}
 
@@ -116,6 +116,6 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 이 두 가지 통합은 상호 보완적입니다. 두 가지 모두를 사용하여 대상 범위를 개선할 수 있습니다. 예를 들어, [!DNL WCA]는 회사가 계정을 등록하지 않은 웹 사이트 방문자를 타겟팅하려고 하는 경우 예측에 사용할 수 있지만, [!DNL People-Based Destinations]은 이메일 주소를 제공했지만 웹 사이트를 방문하지 않은 기존 고객을 타겟팅하는 데 도움이 될 수 있습니다.
 
-**지원 [!DNL People-Based Destinations] 과 통합하면  [!DNL Facebook] 더 이상 대상이 될 수 없는 대상의 사용자에게 자격을 제공하지 않습니까?**
+**다음을 수행합니다. [!DNL People-Based Destinations] 과 통합 [!DNL Facebook] 더 이상 자격이 없는 경우 대상에서 사용자 자격을 박탈할 수 있습니까?**
 
-예. 통합은 더 이상 대상의 자격이 없는 경우 [!DNL Facebook] 대상에서 사용자를 제거할 수 있도록 지원합니다.
+예. 통합은에서 사용자 제거를 지원합니다. [!DNL Facebook] 대상이 더 이상 해당 대상에 적합하지 않을 때.

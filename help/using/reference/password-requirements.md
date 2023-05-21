@@ -1,15 +1,15 @@
 ---
 description: 30일마다 암호를 만료하도록 Audience Manager를 구성할 수 있습니다. 암호 만료를 사용하려면 Audience Manager 컨설턴트나 고객 지원 센터에 이야기하십시오. 암호 요구 사항 및 분실했거나 기억나지 않는 암호를 복구하는 방법을 알려면 이 섹션을 참조하십시오.
-seo-description: 30일마다 암호를 만료하도록 Audience Manager를 구성할 수 있습니다. 암호 만료를 사용하려면 Audience Manager 컨설턴트나 고객 지원 센터에 이야기하십시오. 암호 요구 사항 및 분실했거나 기억나지 않는 암호를 복구하는 방법을 알려면 이 섹션을 참조하십시오.
-seo-title: 암호 요구 사항, 잠긴 계정 및 잊어버린 암호
+seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
+seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: 암호 요구 사항, 잠긴 계정 및 잊어버린 암호
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: 참조
+feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
@@ -80,5 +80,5 @@ c_password_requirements.xml
 >[!MORELIKETHIS]
 >
 >* [데이터 보안](../overview/data-security-and-privacy/data-security.md)
-* [데이터 보안](../overview/data-security-and-privacy/data-privacy.md)
+>* [데이터 보안](../overview/data-security-and-privacy/data-privacy.md)
 

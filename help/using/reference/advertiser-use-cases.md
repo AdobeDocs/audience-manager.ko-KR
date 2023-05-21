@@ -1,15 +1,15 @@
 ---
 description: Adobe Audience Manager가 충족하는 몇 가지 일반적인 광고주 요구 사항 보기
-seo-description: Adobe Audience Manager가 충족하는 몇 가지 일반적인 광고주 요구 사항 보기
-seo-title: 광고주 사용 사례
+seo-description: A look at some common advertiser needs met by Adobe Audience Manager.
+seo-title: Advertiser Use Cases
 solution: Audience Manager
 title: 광고주 사용 사례
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
-feature: 참조
+feature: Reference
 exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '724'
 ht-degree: 100%
 
 ---

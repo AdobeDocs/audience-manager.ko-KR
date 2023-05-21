@@ -1,21 +1,21 @@
 ---
 description: Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에 있는 데이터로 작업합니다.
-seo-description: Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에 있는 데이터로 작업합니다.
-seo-title: Experience Cloud 솔루션 또는 Audience Manager의 기타 외부 시스템에 있는 데이터로 작업합니다.
+seo-description: Work with data from Experience Cloud solutions or other external systems in Audience Manager.
+seo-title: Work with data from Experience Cloud solutions or other external systems in Audience Manager.
 solution: Audience Manager
 title: 구현 및 통합 안내서
-feature: 타사 통합
+feature: Third-party Integration
 exl-id: 6e3cccdd-10af-4b17-9ddb-c4faf63f0a50
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 79%
+source-wordcount: '47'
+ht-degree: 70%
 
 ---
 
 # 구현 및 통합 개요
 
-[!DNL Experience Cloud] 솔루션 또는 [!DNL Audience Manager]에 있는 다른 외부 시스템의 데이터로 작업합니다.
+의 데이터를 사용하여 작업 [!DNL Experience Cloud] 의 솔루션 또는 기타 외부 시스템 [!DNL Audience Manager].
 
 * [데이터 통합 방법](data-integration-methods.md)
 * [Audience Manager 구현](implement-audience-manager.md)

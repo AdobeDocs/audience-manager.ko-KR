@@ -7,10 +7,10 @@ title: SDK 코드
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
 exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 79ce9c05c9168e3bcecabc11db3f9585a5b5ef6c
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 44%
+source-wordcount: '145'
+ht-degree: 39%
 
 ---
 
@@ -24,7 +24,7 @@ Audience Manager에서 소프트웨어 개발 키트 제공([!DNL SDK]s) 대상 
 
 * 시작하려면 [Launch](https://launch.adobe.com/)로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-* 새 SDK v.5를 사용하여 앱에서 Audience Manager을 구현하려면 다음을 참조하십시오. [Adobe Audience Manager 설명서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) 새 SDK 페이지에서 을 참조하십시오.
+* 새 SDK v.5를 사용하여 앱에서 Audience Manager을 구현하려면 다음을 참조하십시오. [Adobe Audience Manager 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en) 새 SDK 페이지에서 을 참조하십시오.
 
 <br> 
 

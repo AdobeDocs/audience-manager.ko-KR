@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타겟팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
 feature-set: Audience Manager
-source-git-commit: e50aab600f0bf197b1356ba77ac86efb4456979a
+source-git-commit: 27581b03b71d5254f24d7e46646abce82f9e4df2
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 91%
+source-wordcount: '1827'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 91%
 # Audience Manager 사용 안내서 {#user-guide}
 
 + [Audience Manager 안내서](aam-home.md)
++ [Real-Time CDP 진화 안내서에 대한 Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + 개요{#overview}
    + [Audience Manager 개요](overview/aam-overview.md)
    + [수집한 데이터 유형](overview/data-types-collected.md)
@@ -198,7 +199,7 @@ ht-degree: 91%
          + [세그먼트 대 광고 단위 겹치기](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [고유 사용자 도달 범위](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 및 메타데이터 파일 {#data-and-metadata-files}
-         + [ 로그 데이터 및 메타데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+         + [로그 데이터 및 메타데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [메타데이터 파일에 대한 개요 및 매핑](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [메타데이터 파일에 대한 이름 지정 규칙](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
@@ -402,7 +403,7 @@ ht-degree: 91%
    + [연락처 및 법적 정보](/help/using/help-legal/help-legal-contact.md)
 + 주요 고객 지원 문제{#top-support-issues}
    + [개요](/help/using/support-issues/support-issues-overview.md)
-   + [10월 15일경 온보딩된 트레이트 인구가 0으로 떨어진 이유는 무엇입니까? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [10월 15일경 온보딩된 트레이트 인구가 0으로 떨어진 이유는 무엇입니까?](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Audience Manager 고객이 아닌데 당사 사이트에 Audience Manager Javascript 호출이 표시됩니다](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)

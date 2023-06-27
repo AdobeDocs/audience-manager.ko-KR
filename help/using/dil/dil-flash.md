@@ -7,14 +7,22 @@ title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 4%
+source-wordcount: '698'
+ht-degree: 3%
 
 ---
 
 # Flash DIL{#flash-dil}
+
+>[!WARNING]
+>
+>2023년 7월부터 Adobe은 의 개발을 중단했습니다. [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장명.
+><br><br>
+>기존 고객은 [!DNL DIL] 구현. 그러나 Adobe은 개발되지 않습니다 [!DNL DIL] 이 점을 넘어서는 것입니다. 고객은 다음을 평가하는 것이 좋습니다. [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 을 참조하십시오.
+><br><br>
+>2023년 7월 이후 새로운 데이터 수집 통합을 구현하려는 고객은 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 대신,
 
 FLA 파일에서 Analytics로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보를 사용하여 작업합니다.
 
@@ -142,7 +150,6 @@ r_flash_dil_actionscript.xml
 >
 >* Adobe 필요 [!UICONTROL AppMeasurement] [!DNL AS] 라이브러리 버전 3.5.2 이상
 
-
 ```js
 import com.omniture.AppMeasurement; // Omit this line if it already exists in the code 
 import com.adobe.am.DIL; 
@@ -160,4 +167,3 @@ s.loadModule(d);
 >* [신호, 트레이트 및 세그먼트](../reference/signal-trait-segment.md)
 >* [키-값 쌍 설명](../reference/key-value-pairs-explained.md)
 >* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
-

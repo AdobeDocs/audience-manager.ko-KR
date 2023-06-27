@@ -8,14 +8,22 @@ title: 인스턴스 수준 DIL 메서드
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 15%
+source-wordcount: '1153'
+ht-degree: 14%
 
 ---
 
 # 인스턴스 수준 DIL 메서드{#instance-level-dil-methods}
+
+>[!WARNING]
+>
+>2023년 7월부터 Adobe은 의 개발을 중단했습니다. [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장명.
+><br><br>
+>기존 고객은 [!DNL DIL] 구현. 그러나 Adobe은 개발되지 않습니다 [!DNL DIL] 이 점을 넘어서는 것입니다. 고객은 다음을 평가하는 것이 좋습니다. [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 을 참조하십시오.
+><br><br>
+>2023년 7월 이후 새로운 데이터 수집 통합을 구현하려는 고객은 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 대신,
 
 인스턴스 수준 [!UICONTROL DIL] API를 사용하면 프로그래밍 방식으로 Audience Manager 개체를 만들고 작업할 수 있습니다. 인스턴스 수준 메서드는 클래스 수준 메서드에서 설정한 API 기능을 향상시킵니다.
 
@@ -54,7 +62,6 @@ r_dil_signals.xml
 >
 >* 이 메서드에 다른 API 호출을 연결할 수 있습니다.
 >* Adobe Experience Cloud JavaScript 라이브러리가 페이지에 있는 경우, `submit()` 는 클라우드가 요청을 보내기 전에 쿠키를 설정할 때까지 기다립니다.
-
 
 **예약된 요청 키**
 
@@ -685,7 +692,6 @@ var dilInstance = DIL.create({
 >* 날짜 `useCORSOnly: true`, [!UICONTROL DIL] 은 Internet Explorer 버전 9 이상에서 ID를 호출하지 않습니다.
 >
 
-
 ## useImageRequest {#useimagerequest}
 
 요청 유형을 이미지로 변경합니다. `<img>` 스크립트에서 `<src>`.
@@ -725,4 +731,3 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >* [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Adobe Experience Platform Identity 서비스: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Adobe Experience Platform Identity 서비스에서 CORS 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
-

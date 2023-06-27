@@ -7,14 +7,22 @@ title: DIL 사용 사례 및 코드 샘플
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '981'
 ht-degree: 2%
 
 ---
 
 # DIL 사용 사례 및 코드 샘플{#dil-use-cases-and-code-samples}
+
+>[!WARNING]
+>
+>2023년 7월부터 Adobe은 의 개발을 중단했습니다. [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장명.
+><br><br>
+>기존 고객은 [!DNL DIL] 구현. 그러나 Adobe은 개발되지 않습니다 [!DNL DIL] 이 점을 넘어서는 것입니다. 고객은 다음을 평가하는 것이 좋습니다. [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 을 참조하십시오.
+><br><br>
+>2023년 7월 이후 새로운 데이터 수집 통합을 구현하려는 고객은 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 대신,
 
 특정 DIL 사용 사례에 대한 코드 샘플 및 설명.
 
@@ -46,7 +54,7 @@ c_dil_send_page_objects.xml
 
 이 기본 예는 색상 및 가격 데이터를 키-값 쌍의 형태로 Audience Manager에 보냅니다. 코드는 다음과 유사할 수 있습니다.
 
-<pre class="&ldquo;java&rdquo;"><code>
+<pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
@@ -244,4 +252,3 @@ t_dil_google_tagmanager.xml
 >* [Google Tag Manager 도움말 센터](https://support.google.com/tagmanager#topic=3441530)
 >* [신호](../dil/dil-instance-methods.md#signals)
 >* [주요 변수의 접두사 요구 사항](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
-

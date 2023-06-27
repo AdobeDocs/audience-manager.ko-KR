@@ -7,14 +7,22 @@ title: DIL 만들기
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 10%
+source-wordcount: '878'
+ht-degree: 9%
 
 ---
 
 # DIL 만들기 메서드{#dil-create}
+
+>[!WARNING]
+>
+>2023년 7월부터 Adobe은 의 개발을 중단했습니다. [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장명.
+><br><br>
+>기존 고객은 [!DNL DIL] 구현. 그러나 Adobe은 개발되지 않습니다 [!DNL DIL] 이 점을 넘어서는 것입니다. 고객은 다음을 평가하는 것이 좋습니다. [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 을 참조하십시오.
+><br><br>
+>2023년 7월 이후 새로운 데이터 수집 통합을 구현하려는 고객은 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 대신,
 
 ## DIL 만들기 {#dil-create-new}
 

@@ -2,20 +2,28 @@
 description: DIL 및 작동 방식에 대한 개요입니다.
 seo-description: An overview of DIL and how it works.
 seo-title: Understanding the Data Integration Library (DIL)
-keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil
+keywords: dil
 solution: Audience Manager
 title: DIL(데이터 통합 라이브러리) 이해
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 11%
+source-wordcount: '519'
+ht-degree: 10%
 
 ---
 
 # 이해 [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
+
+>[!WARNING]
+>
+>2023년 7월부터 Adobe은 의 개발을 중단했습니다. [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장명.
+><br><br>
+>기존 고객은 [!DNL DIL] 구현. 그러나 Adobe은 개발되지 않습니다 [!DNL DIL] 이 점을 넘어서는 것입니다. 고객은 다음을 평가하는 것이 좋습니다. [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 을 참조하십시오.
+><br><br>
+>2023년 7월 이후 새로운 데이터 수집 통합을 구현하려는 고객은 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 대신,
 
 개요, 시작 및 코드에서 사용할 수 있는 [!DNL Audience Manager DIL] 코드 라이브러리.
 

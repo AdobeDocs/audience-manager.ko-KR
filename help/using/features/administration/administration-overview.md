@@ -8,9 +8,9 @@ title: 관리
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1187'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 2%
 > 사용자 계정 관리를 (으)로 이동 중입니다. [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 필요한 조치를 즉시 취해야 합니다. [Admin Console으로 Audience Manager 사용자 마이그레이션](admin-console-migration.md).
 > 
 > 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
+
+>[!IMPORTANT]
+>
+> 을(를) 사용하기 전에 [!DNL RBAC], 이 기능은 조직의 Adobe이 활성화해야 합니다. 요청하려면 계정 팀에 문의하십시오. [!DNL RBAC] 활성화하거나 고객 지원 센터에 문의하십시오.
 
 
 아래 옵션 [!UICONTROL Administration] 메뉴를 사용하면 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 제한(트레이트, 세그먼트, 대상 및 모델)을 볼 수도 있습니다.
@@ -41,6 +45,7 @@ ht-degree: 2%
 > 사용자 계정 관리를 (으)로 이동 중입니다. [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 필요한 조치를 즉시 취해야 합니다. [Admin Console으로 Audience Manager 사용자 마이그레이션](admin-console-migration.md).
 > 
 > 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
+> 
 에서 사용자 만들기 [!DNL Audience Manager] 사용자 세부 정보, 로그인 상태를 지정하고 사용자를 그룹에 할당합니다.
 
 1. 클릭 **[!UICONTROL Administration]** > **[!UICONTROL Users]**.

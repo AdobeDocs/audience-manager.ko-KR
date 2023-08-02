@@ -4,7 +4,7 @@ title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 4%
@@ -156,17 +156,17 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>차단된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID가 악의적인 것으로 식별되어 차단 목록에 추가되면 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>고객 ID가 악의적인 것으로 식별되어 차단 목록에 추가하다에 추가되면 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>차단된 데이터 소스 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>데이터 소스 ID가 악의적인 것으로 식별되고 차단 목록에 추가되면 반환됩니다 </p> </td> 
+   <td colname="col3"> <p>데이터 소스 ID가 악의적인 것으로 식별되고 차단 목록에 추가하다에 추가되면 반환됩니다 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>선언된 장치 ID가 차단됨 <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>장치 ID가 악의적인 것으로 확인되었으며 차단 목록에 추가되었습니다. 이 문제는 극단적인 양을 받을 때 발생할 수 있습니다 <span class="wintitle"> DCS</span> 짧은 시간 내에 이 장치 ID를 포함하는 요청. </p> </td>
+   <td colname="col3"> <p>장치 ID가 악의적인 것으로 확인되었으며 차단 목록에 추가하다에 추가되었습니다. 이 문제는 극단적인 양을 받을 때 발생할 수 있습니다 <span class="wintitle"> DCS</span> 짧은 시간 내에 이 장치 ID를 포함하는 요청. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
@@ -199,13 +199,13 @@ ht-degree: 4%
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>CMP ID가 GCL에 없음</p> </td> 
-   <td colname="col3"> <p>날짜 <code>gdpr=1</code> 그리고 IAB TC 문자열은 평가 시점에 Audience Manager의 캐시된 글로벌 CMP 목록 버전에 없는 CMP ID에 의해 생성되며, IAB TCF용 Audience Manager 플러그인은 IAB TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.0 ${GDPR} 매크로가 0으로 설정되고 ${GDPR_CONSENT_XXX} 매크로가 비어 있습니다.</p>
+   <td colname="col3"> <p>날짜 <code>gdpr=1</code> 그리고 IAB TC 문자열은 평가 시점에 Audience Manager의 캐시된 글로벌 CMP 목록 버전에 없는 CMP ID에 의해 생성되며, IAB TCF용 Audience Manager 플러그인은 IAB TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.2 ${GDPR} 매크로가 0으로 설정되고 ${GDPR_CONSENT_XXX} 매크로가 비어 있습니다.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>CMP ID가 GCL에서 삭제된 것으로 표시됨</p> </td> 
-   <td colname="col3"> <p>날짜 <code>gdpr=1</code> 그리고 IAB TC 문자열은 글로벌 CMP 목록의 캐시된 버전에서 삭제된 것으로 표시된 CMP에 의해 생성되며, 평가 시간이 글로벌 CMP 목록에서 삭제 시간을 경과한 경우 IAB TCF용 Audience Manager 플러그인은 TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.0 ${GDPR} 매크로가 0으로 설정되고 ${GDPR_CONSENT_XXX} 매크로가 비어 있습니다.</p></td>
+   <td colname="col3"> <p>날짜 <code>gdpr=1</code> 그리고 IAB TC 문자열은 글로벌 CMP 목록의 캐시된 버전에서 삭제된 것으로 표시된 CMP에 의해 생성되며, 평가 시간이 글로벌 CMP 목록에서 삭제 시간을 경과한 경우 IAB TCF용 Audience Manager 플러그인은 TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.2 ${GDPR} 매크로가 0으로 설정되고 ${GDPR_CONSENT_XXX} 매크로가 비어 있습니다.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 

@@ -7,7 +7,7 @@ title: Audience Manager 안내서
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 79ce9c05c9168e3bcecabc11db3f9585a5b5ef6c
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 87%
@@ -151,7 +151,7 @@ ht-degree: 87%
      새 기능 및 수정 사항에 대해서는 최신 <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 릴리스 노트</a>를 참조하십시오.</p> 
      <p> <b>최신 기능</b> </p> <p> 
      최신 Audience Manager 기능을 살펴보십시오.</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사용자 기반 대상을 위한 Google Customer Match</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console으로 Audience Manager 사용자 마이그레이션</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">사용자 기반 대상을 위한 Google Customer Match</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.2용 Audience Manager 플러그인</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">활동 사용 보고</a></li>
      </ul></p>
     </td>
   </tr> 

@@ -6,9 +6,9 @@ solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2353'
 ht-degree: 34%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 34%
 
 ## 개요
 
-사용자에게 부여할 수 있는 개인 정보 보호 의무의 중요한 측면은 개인 데이터가 사용되는 방법(즉, &quot;목적&quot;) 및 사용되는 대상(즉, &quot;회사&quot;)에 대한 사용자 선택의 획득 및 양도입니다.
+개인 정보 보호 의무의 중요한 측면은 사용자에 대한 개인 데이터가 사용되는 방법(즉, &quot;목적&quot;) 및 사용되는 대상(즉, &quot;회사&quot;)에 대한 사용자 선택의 획득 및 양도입니다.
 
 Adobe는 [옵트인 기능](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) 및 [IAB 투명성 및 동의 프레임워크(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다.
 
@@ -44,15 +44,15 @@ Audience Manager은 사용자의 개인 정보 보호 선택 사항을 준수하
 * 모바일 장치 워크플로우
 * 세그먼트 내보내기에 동의 추가.
 
-## Insight [!DNL IAB TCF v2.0] {#upgrading}
+## Insight [!DNL IAB TCF v2.2] {#upgrading}
 
-을(를) 업그레이드하는 고객 [!DNL Audience Manager Plug-in for IAB TCF] 구현 위치 [!DNL IAB TCF] v1.1 ~ [!DNL IAB TCF] v2.0 또는 활성화 [!DNL IAB TCF] v2.0은 맨 처음으로 아래에 설명된 대로 사전 요구 사항 및 구현에 대한 동일한 지침을 따라야 합니다.
+을(를) 업그레이드하는 고객 [!DNL Audience Manager Plug-in for IAB TCF] 구현 위치 [!DNL IAB TCF] v1.1 ~ [!DNL IAB TCF] v2.2 또는 활성화 [!DNL IAB TCF] v2.2에서는 처음으로 아래 설명된 대로 사전 요구 사항 및 구현에 대한 동일한 지침을 따라야 합니다.
 
 ## 사전 요구 사항 {#prerequisites}
 
 >[!IMPORTANT]
 >
->Audience Manager은 IAB TCF v2.0을 지원합니다.
+>Audience Manager은 IAB TCF v2.2를 지원합니다.
 >
 >IAB TCF v1.1 지원은 2020년 8월 15일에 종료됩니다.
 >
@@ -64,12 +64,12 @@ Audience Manager에서 IAB TCF용 Audience Manager 플러그인을 사용하려�
 
 1. Adobe ECID(Experience Platform Identity Service) 버전 5 이상을 사용해야 합니다. 최신 ECID 릴리스를 [다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)하십시오.
 2. Audience Manager을 사용해야 합니다. [!DNL Data Integration Library] (DIL) 버전 9.0 이상, 다운로드 가능 [여기](https://github.com/Adobe-Marketing-Cloud/dil/releases). [Audience Manager 설명서에서 DIL](../../dil/dil-overview.md)에 대해 알아보십시오. 다음을 사용하는 것이 좋습니다. [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) Audience Manager의 가장 쉬운 DIL 구현
-3. 또는 다음을 사용하는 경우 [!DNL Server-Side Forwarding] (SSF) 데이터를 Audience Manager으로 가져오려면 최신 버전의 AppMeasurement로 업그레이드해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 AppMeasurement를 다운로드합니다.
-4. IAB TCF v2.0과 통합되고 IAB TCF에 등록된 상업용이거나 본인 소유의 CMP(동의 관리 플랫폼)를 사용하고 있어야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
+3. 또는 다음을 사용하는 경우 [!DNL Server-Side Forwarding] (SSF) 데이터를 Audience Manager으로 가져오려면 최신 버전의 AppMeasurement으로 업그레이드해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 AppMeasurement를 다운로드합니다.
+4. IAB TCF v2.2와 통합되고 IAB TCF에 등록된 상업용이거나 본인 소유의 CMP(동의 관리 플랫폼)를 사용하고 있어야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
 
 >[!WARNING]
 >
->IAB TCF v.2.0을 지원하지 않는 CMP(동의 관리 플랫폼)를 사용하는 경우, Audience Manager이 자동으로 `gdpr=0` 방문자가 유럽 연합에 있는 경우에도 ID 동기화의 매개 변수입니다. GDPR 유효성 검사가 활성 상태인지 확인하려면 IAB TCF v2.0을 지원하는지 CMP(동의 관리 플랫폼)를 확인하는 것이 좋습니다.
+>IAB TCF v.2.0을 지원하지 않는 CMP(동의 관리 플랫폼)를 사용하는 경우, Audience Manager이 자동으로 `gdpr=0` 방문자가 유럽 연합에 있는 경우에도 ID 동기화의 매개 변수입니다. GDPR 유효성 검사가 활성 상태인지 확인하려면 IAB TCF v2.2를 지원하는지 CMP(동의 관리 플랫폼)를 확인하는 것이 좋습니다.
 
 ## 권장 사항 및 구현 방법 {#recommendations}
 
@@ -81,17 +81,17 @@ Audience Manager에서 IAB TCF 지원을 활성화하려면 [옵트인으로 IAB
 
 웹 자산을 방문할 때 사용자는 게시자 및 게시자가 작업에 사용하는 타사 공급업체의 데이터 사용 방법에 대한 선택 사항을 제공할 수 있습니다.
 
-사용자는 다음과 같은 형식으로 자신의 선택 사항을 제공합니다. *동의* 및 *합법적 이익* 의 IAB 목적으로 *서드파티 공급업체* 글로벌 공급업체 목록에 등록되었습니다.
+사용자는 다음과 같은 형식으로 자신의 선택 사항을 제공합니다. *동의* 의 IAB 목적으로 *서드파티 공급업체* 글로벌 공급업체 목록에 등록되었습니다.
 
 아래 이미지는 어떤 웹 사이트를 처음 방문하는 사람에게 표시되는 CMP 대화 상자의 예를 나타냅니다. 고객 구현에 따라 이 대화 상자가 매우 다르게 보일 수 있음을 명심하십시오.
 
 ![CMP 대화 상자](assets/cmp-example.png)
 
-IAB TCF v2.0에 포함된 다양한 목적 및 권한에 대한 자세한 내용은 [IAB 유럽 투명성 및 동의 프레임워크 정책](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
+IAB TCF v2.2에 포함된 다양한 목적 및 권한에 대한 자세한 내용은 [IAB 유럽 투명성 및 동의 프레임워크 정책](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
-사용자는 목적과 공급업체의 조합에 동의하거나 합법적 이익(가능한 경우)을 부여할 수 있습니다. 예를 들어, 사용자는 디바이스에 대한 정보 저장, 제품 개발 및 개선에 동의하고 CMP가 표시하는 모든 타사 공급업체에 동의할 수 있습니다.
+사용자는 목적과 공급업체의 조합에 동의할 수 있습니다. 예를 들어, 사용자는 디바이스에 대한 정보 저장, 제품 개발 및 개선에 동의하고 CMP가 표시하는 모든 타사 공급업체에 동의할 수 있습니다.
 
-또는 다른 예로, 모든 목적을 위해 동의 또는 적법한 이자를 부여할 수 있지만 CMP가 표시하는 공급업체 중 일부에 대해서만 동의 또는 적법한 이자를 부여할 수 있습니다.
+또는 다른 예로, 모든 목적을 위해 동의할 수 있지만 CMP가 표시하는 공급업체에 대해서는 일부에만 동의할 수 있습니다.
 
 사용자가 개인 정보 보호 선택 사항을 선택하면 사용자 선택 사항이 IAB TC 문자열에 기록됩니다. IAB TC 문자열은 승인된 목적과 공급업체의 조합과 기타 메타데이터 정보를 저장합니다( [IAB 페이지](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string) 을 참조하십시오.
 
@@ -173,7 +173,7 @@ IAB TCF용 Audience Manager 플러그인을 사용하면 사용자의 개인 정
 
 ## URL 대상에 전송된 URL에 동의 추가
 
-IAB TCF v2.0과 Audience Manager 통합은에 전송되는 정보에 동의하는 것을 지원합니다. [URL 대상](../../features/destinations/create-url-destination.md) IAB TCF v2.0과 통합됩니다. 그러나 특정 URL 형식이 손상되는 것을 방지하기 위해 이 프로세스는 자동으로 Audience Manager에 의해 수행되지 않습니다.
+IAB TCF v2.2와의 Audience Manager 통합은 로 전송된 정보에 대한 동의 추가를 지원합니다. [URL 대상](../../features/destinations/create-url-destination.md) IAB TCF v2.2와 통합됩니다. 그러나 특정 URL 형식이 손상되는 것을 방지하기 위해 이 프로세스는 자동으로 Audience Manager에 의해 수행되지 않습니다.
 
 (으)로 전송된 데이터에 동의를 추가하려는 고객 [!DNL URL destinations] 을(를) 수동으로 추가해야 합니다. `${GDPR}` 및 `${GDPR_CONSENT_XXXX}` 매크로를 해당 URL 형식으로 변환 `XXXX` 대상 파트너 ID와 함께 사용할 수 있습니다.
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 8b370a64d80b40124abee91351cbef09711243d4
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 34%
@@ -69,7 +69,7 @@ Audience Manager에서 IAB TCF용 Audience Manager 플러그인을 사용하려�
 
 >[!WARNING]
 >
->IAB TCF v.2.0을 지원하지 않는 CMP(동의 관리 플랫폼)를 사용하는 경우, Audience Manager이 자동으로 `gdpr=0` 방문자가 유럽 연합에 있는 경우에도 ID 동기화의 매개 변수입니다. GDPR 유효성 검사가 활성 상태인지 확인하려면 IAB TCF v2.2를 지원하는지 CMP(동의 관리 플랫폼)를 확인하는 것이 좋습니다.
+>IAB TCF v2.2를 지원하지 않는 CMP(동의 관리 플랫폼)를 사용하는 경우, Audience Manager이 자동으로 `gdpr=0` 방문자가 유럽 연합에 있는 경우에도 ID 동기화의 매개 변수입니다. GDPR 유효성 검사가 활성 상태인지 확인하려면 IAB TCF v2.2를 지원하는지 CMP(동의 관리 플랫폼)를 확인하는 것이 좋습니다.
 
 ## 권장 사항 및 구현 방법 {#recommendations}
 

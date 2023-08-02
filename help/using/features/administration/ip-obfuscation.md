@@ -5,10 +5,10 @@ solution: Audience Manager
 title: IP 주소 난독화
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '518'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 16%
 * 난독화 후: `255.255.255.0`
 
 에서 IP 주소 수집 및 IP 주소 난독화 를 참조하십시오. [데이터 개인 정보 보호 섹션](/help/using/overview/data-security-and-privacy/data-privacy.md).
+
+### IP 난독화 사전 요구 {#precedence}
+
+[데이터 스트림 수준 IP 난독화](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) 는 Audience Manager에 설정된 IP 난독화 옵션보다 우선하며 모든 IP 주소에 적용됩니다. Audience Manager에 의해 수행된 모든 지리적 위치 조회는 데이터 스트림 수준의 영향을 받습니다 [!UICONTROL IP obfuscation] 옵션을 선택합니다. 완전히 난독화된 IP를 기반으로 하는 Audience Manager에서 지리적 위치 조회를 수행하면 알 수 없는 영역이 발생하고 결과 지리적 위치 데이터를 기반으로 하는 모든 세그먼트는 실현되지 않습니다.
 
 ## IP 주소 난독화 요구 사항 {#ip-obfuscation-requirements}
 

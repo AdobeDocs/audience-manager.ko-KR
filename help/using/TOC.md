@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타겟팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
 feature-set: Audience Manager
-source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1835'
 ht-degree: 90%
 
 ---
@@ -336,6 +336,7 @@ ht-degree: 90%
          + [인바운드 데이터 유형에 대한 파일 PGP 암호화](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [인바운드 데이터 전송 파일에 대한 파일 압축](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [인바운드 처리 후 파트너에 대한 샘플 메시지](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+         + [인바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [사용자 지정 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
       + [Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Experience Platform 세그먼트](integration/integration-aep/aam-aep-audience-sharing.md)

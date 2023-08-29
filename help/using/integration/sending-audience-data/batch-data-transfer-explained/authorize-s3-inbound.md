@@ -3,7 +3,7 @@ description: 자신의 Amazon S3 버킷에서 Audience Manager으로 데이터�
 solution: Audience Manager
 title: 인바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용
 feature: Inbound Data Transfers
-source-git-commit: ff023fb57e2653ca65323313a37852d379e4b00c
+source-git-commit: 17cee6971ca1d5cda8f272558a46220227fc51f7
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -24,6 +24,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >인바운드 데이터를 Audience Manager Amazon S3 버킷으로 전송할 때 다음을 사용하십시오. `bucket-owner-full-control` [액세스 제어 목록](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) audience Manager가 데이터를 올바르게 처리하도록 합니다.
-><br>
->Amazon Web Services 명령의 예: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`.
+>
+>Amazon Web Services 명령의 예: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`
 

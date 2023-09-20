@@ -7,9 +7,9 @@ title: 트레이트 규칙 및 세그먼트 규칙 만들기 또는 업데이트
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '342'
 ht-degree: 8%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 8%
 # 트레이트 규칙 및 세그먼트 규칙 만들기 또는 업데이트{#create-or-update-trait-rules-and-segment-rules}
 
 생성 및 업데이트 워크시트에는 한 번의 작업으로 여러 규칙을 적용할 수 있는 traitRule 헤더가 적용됩니다. 다음 지침에 따라 벌크 규칙 요청을 수행합니다.
+
+>[!IMPORTANT]
+>
+>Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 

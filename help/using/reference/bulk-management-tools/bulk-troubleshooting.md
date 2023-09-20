@@ -7,10 +7,10 @@ title: 벌크 관리 도구 문제 해결 팁
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 4%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 4%
 
 워크시트가 오류를 반환하거나 대량 요청이 실패할 경우 수행할 작업.
 
-
+>[!IMPORTANT]
+>
+>Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 

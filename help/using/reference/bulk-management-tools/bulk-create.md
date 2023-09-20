@@ -7,9 +7,9 @@ title: 벌크 만들기
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 feature: BAAAM
 exl-id: 7828fc95-24eb-4a80-bdb8-0d9adea43d8f
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # 벌크 만들기{#bulk-create}
 
 일괄 생성을 사용하면 단일 작업으로 여러 데이터 소스, 파생된 신호, 세그먼트, 트레이트 및 기타 항목을 구성할 수 있습니다. 다음 지침에 따라 벌크 만들기 요청을 수행합니다.
+
+>[!IMPORTANT]
+>
+>Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 

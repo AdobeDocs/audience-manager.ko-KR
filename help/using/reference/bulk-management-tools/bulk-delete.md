@@ -7,9 +7,9 @@ title: 벌크 삭제
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: BAAAM
 exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # 벌크 삭제{#bulk-delete}
 
 일괄 삭제를 사용하면 한 번의 작업으로 여러 세그먼트, 트레이트, 폴더, 파생된 신호, 데이터 소스, 모델 및 대상을 제거할 수 있습니다. 대량 삭제를 요청하려면 다음 지침을 따르십시오.
+
+>[!IMPORTANT]
+>
+>Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 

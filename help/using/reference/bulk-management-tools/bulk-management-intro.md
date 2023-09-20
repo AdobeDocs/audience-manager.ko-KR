@@ -8,16 +8,21 @@ title: 벌크 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
+source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
 
+
 # 벌크 관리 시작{#getting-started-with-bulk-management}
 
 다음 [!DNL Bulk Management Tools] 을 사용하면 한 번의 작업으로 여러 개체를 한 번에 만들고 관리할 수 있습니다. 다음을 사용할 수 있습니다. [!DNL Bulk Management Tools] 로 작업하기 [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], 및 [!UICONTROL traits].
+
+>[!IMPORTANT]
+>
+>Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 

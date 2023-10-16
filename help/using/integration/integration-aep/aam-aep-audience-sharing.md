@@ -3,9 +3,9 @@ description: 데이터 공유를 활성화하는 방법 및 Audience Manager과 
 solution: Audience Manager
 title: Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Experience Platform 세그먼트
 keywords: AEP 대상 공유, AEP 세그먼트, Platform 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유, AAM AEP 세그먼트 공유
-feature: Platform Integration
+feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: f0e5541e4a72d81ab9c587a8daaed6af5e2b89d9
+source-git-commit: d21d0574ee0338dbd5e11c60e0d64042182aa18b
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 1%
@@ -33,7 +33,6 @@ Audience Manager에서 다음과 같은 데이터 관리 플랫폼 사용 사례
 >
 > * 위에서 언급한 데이터 관리 플랫폼 사용 사례를 활성화하려면 Audience Manager 라이선스가 필요합니다.
 > * 본인 *필요 없음* 핵심 서비스 통합을 통해 Adobe Advertising Cloud, Adobe Target, Marketo 및 기타 Experience Cloud 솔루션과 Experience Platform 세그먼트를 공유할 수 있는 Audience Manager 라이센스입니다.
-
 
 대상 공유 사용 사례에 대한 개요는 아래 표를 참조하십시오.
 
@@ -143,7 +142,7 @@ Experience Platform 세그먼트에서 자동으로 생성된 세그먼트의 �
 
 ## Experience Platform에서 Audience Manager 데이터 내보내기 제어 지원 {#aam-data-export-control-in-aep}
 
-Experience Platform에서 데이터 사용 규정 준수를 시행하려면 적용 가능한 모든 데이터 세트와 필드에 적합한 값이 제공되어야 합니다 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html). 또한, [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko) 은(는) 다음을 통해 요약된 대로 해당 레이블에 대한 특정 마케팅 작업에 대해 활성화되어 있어야 합니다. [데이터 사용 레이블 및 적용 (DULE) 프레임워크](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework).
+Experience Platform에서 데이터 사용 규정 준수를 시행하려면 적용 가능한 모든 데이터 세트와 필드에 적합한 값이 제공되어야 합니다 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html). 또한, [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko-KR) 은(는) 다음을 통해 요약된 대로 해당 레이블에 대한 특정 마케팅 작업에 대해 활성화되어 있어야 합니다. [데이터 사용 레이블 및 적용 (DULE) 프레임워크](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework).
 
 Audience Manager과 Experience Platform 간의 대상 공유 프로세스에서, Audience Manager 세그먼트에 적용된 모든 데이터 내보내기 컨트롤은 Experience Platform 데이터 거버넌스에서 인식하는 동등한 레이블 및 마케팅 작업으로 변환되고 그 반대의 경우도 마찬가지입니다.
 
@@ -221,4 +220,3 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 >* [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Audience Manager 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-

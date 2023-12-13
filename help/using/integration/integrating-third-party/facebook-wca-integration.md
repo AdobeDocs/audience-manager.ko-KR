@@ -6,16 +6,20 @@ solution: Audience Manager
 title: Facebook WCA 통합
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
+source-git-commit: 6dc931b88666515cf51ab89ce1a54bbcf9995679
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 3%
+source-wordcount: '808'
+ht-degree: 1%
 
 ---
 
 # [!DNL Facebook WCA] 통합 {#facebook-wca-integration}
 
 이 페이지는 작성 프로세스를 보여 줍니다. [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) 웹 기반 전송용 픽셀 [!DNL Audience Manager] 대상 세그먼트 [!DNL Facebook]투명도가 향상된 온라인 광고 타겟팅용 입니다.
+
+>[!IMPORTANT]
+>
+>이는 Audience Manager과 Facebook 간에 제품화된 통합이 아닙니다.
 
 ## 개요 {#overview}
 
@@ -27,7 +31,7 @@ ht-degree: 3%
 >
 > 이 기능을 사용하려면 다음을 선택해야 합니다. [!UICONTROL Website] 의 소셜 플랫폼 대상 옵션 [URL 대상](/help/using/features/destinations/create-url-destination.md). 소셜 플랫폼을 사용하려면 해당 플랫폼으로 전송할 때 레퍼러 정보가 마스크 해제되어야 합니다. 이는 대상 플랫폼/파트너가 레퍼러에서 정보를 볼 수 있음을 의미합니다 [!DNL URL].
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] 세그먼트, 새 사용자에게 할당할 준비 완료 [!DNL Facebook] 대상. 여기 있습니다 [세그먼트를 만드는 방법](/help/using/features/segments/segment-builder.md) 다음에서 [!DNL Audience Manager] UI.
@@ -42,7 +46,7 @@ ht-degree: 3%
 
 ### 기본 정보
 
-* **[!UICONTROL Category]**: 사용자 지정
+* **[!UICONTROL Category]**: 사용자 정의
 * **[!UICONTROL Type]**: [!DNL URL]
 * 다음 항목 선택 **[!UICONTROL Auto-fill Destination Mapping]** 확인란을 선택한 다음 을 선택합니다 **[!UICONTROL Segment ID]**.
 
@@ -56,8 +60,8 @@ ht-degree: 3%
 
 ### 구성
 
-* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. 다음을 선택: [!UICONTROL URL Type] 옵션, [!DNL Audience Manager] 는 레퍼러를 가리지 않습니다 [!DNL URL] 을(를) 실행할 때의 정보 [!DNL Facebook WCA] 픽셀.
-* **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
+* **[!UICONTROL URL type]**: 선택 **[!UICONTROL Website audience for social platforms]**. 다음을 선택: [!UICONTROL URL Type] 옵션, [!DNL Audience Manager] 는 레퍼러를 가리지 않습니다 [!DNL URL] 을(를) 실행할 때의 정보 [!DNL Facebook WCA] 픽셀.
+* **[!UICONTROL Serialize]**: 선택 **[!UICONTROL Enable]**.
 * 다음에서 **[!UICONTROL Base URL]** 및 **[!UICONTROL Secure URL]** 필드에 [!DNL Facebook WCA] 픽셀.
 * **[!UICONTROL Delimiter]**: `,`
 
@@ -70,7 +74,7 @@ ht-degree: 3%
 | 매개 변수 | 설명 |
 |---------|----------|
 | `id` | 사용자 [!DNL Facebook] 픽셀 ID, 다음에서 찾을 수 있습니다. [!DNL Facebook Ad Manager] 대상 픽셀을 생성할 때 사용자 인터페이스 |
-| `ev` | Event. 이 값은 다음에 나타날 임의의 값입니다. [!DNL Facebook Ad Manager] 사용자 인터페이스 픽셀이 사이트에서 실행되기 시작하면 다음을 참조하십시오. [!UICONTROL Include] 의 항목 [3단계](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)를 참조하십시오. |
+| `ev` | 이벤트. 이 값은 다음에 나타날 임의의 값입니다. [!DNL Facebook Ad Manager] 사용자 인터페이스 픽셀이 사이트에서 실행되기 시작하면 다음을 참조하십시오. [!UICONTROL Include] 의 항목 [3단계](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)를 참조하십시오. |
 | `cd[segID]` | 에서 채워지기 시작하는 추가 매개변수 [!DNL Facebook Ad Manager] 사용자 인터페이스 픽셀이 사이트에서 실행되기 시작하면 `segID` 또한 임의적입니다. |
 | `%ALIAS%` | An [!DNL Audience Manager] 매크로입니다. 매크로는 동적으로 [!DNL Audience Manager] [!UICONTROL segment] 사이트 방문자가 사용할 수 있는 ID이며, 쉼표로 구분됩니다. |
 
@@ -109,3 +113,4 @@ ht-degree: 3%
 >[!NOTE]
 >
 > 사용자가 다음에서 제외되는 경우 [!DNL Audience Manager] 세그먼트, 현재에 대한 방법은 없습니다. [!DNL Audience Manager] 알리다 [!DNL Facebook] 에서 사용자를 제거하려면 [!DNL Custom Audience].
+>

@@ -8,10 +8,10 @@ title: 벌크 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
+source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '708'
+ht-degree: 1%
 
 ---
 
@@ -42,12 +42,12 @@ c_bulk_start.xml
 
 최신 워크시트 다운로드 **[여기](assets/BAAAM_V2_20210609.xlsm)** (2021년 6월에 마지막으로 업데이트됨).
 
-## 사전 요구 사항 {#prereqs}
+## 전제 조건 {#prereqs}
 
 을(를) 사용하려면 [!DNL Bulk Management Tools], 다음이 필요합니다.
 
 * 사용자 [!DNL Experience Cloud] 로그인합니다. 고객은 이미 이러한 자격 증명을 가지고 있어야 합니다.
-* 다음 [!DNL Bulk Management Tools] 워크시트입니다. [워크시트 다운로드](assets/BAAAM_V2_20200502.xlsm) 최신 버전을 다운로드하십시오.
+* 다음 [!DNL Bulk Management Tools] 워크시트입니다. [워크시트 다운로드](assets/BAAAM_V2_20210609.xlsm) 최신 버전을 다운로드하십시오.
 * [!DNL Microsoft Excel] 실행 중 [!DNL macOS] 또는 64비트 [!DNL Microsoft Windows]. 최신 버전의 를 사용하는 것이 좋습니다. [!DNL Microsoft Excel].
 * 워크시트를 열 때 다음을 수행해야 합니다. **매크로 활성화** 대상: [!DNL Bulk Management Tools] 일 때문에.
 

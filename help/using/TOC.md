@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타겟팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
 feature-set: Audience Manager
-source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
+source-git-commit: 95028ac2131dda5a483c9d12007dcd38369d5b6f
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 90%
+source-wordcount: '1827'
+ht-degree: 26%
 
 ---
 
@@ -69,12 +69,12 @@ ht-degree: 90%
          + [데이터 피드 공급자에 대한 청구](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
       + 데이터 구매자용 Audience Marketplace{#audience-marketplace-for-data-buyers}
          + [데이터 구매자용 Audience Marketplace](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
-         + [데이터 피드 가입 관리](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
+         + [데이터 피드 구독 관리](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [데이터 피드 구매자에 대한 청구](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [비공개 데이터 피드](features/audience-marketplace/marketplace-private-feeds.md)
    + [고객 데이터 피드](features/cdf-files.md)
    + 데이터 탐색기{#data-explorer}
-      + [데이터 탐색기 - 개요, 이점 및 사용 사례](features/data-explorer/data-explorer-overview.md)
+      + [Data Explorer - 개요, 이점 및 사용 사례](features/data-explorer/data-explorer-overview.md)
       + [신호 이해](features/data-explorer/data-explorer-understanding-signals.md)
       + [신호 대시보드](features/data-explorer/data-explorer-signals-dashboard.md)
       + 신호 검색{#signals-search}
@@ -96,7 +96,7 @@ ht-degree: 90%
    + [파생 신호](features/derived-signals.md)
    + 대상{#destinations}
       + [대상 개요](features/destinations/destinations.md)
-      + [대상 홈페이지](features/destinations/destinations-home.md)
+      + [대상 홈 페이지](features/destinations/destinations-home.md)
       + Adobe Experience Cloud 대상{#experience-cloud-destinations}
          + [Analytics 대상 구성](features/destinations/create-analytics-destination.md)
       + 사용자 기반 대상 {#people-based}
@@ -114,6 +114,7 @@ ht-degree: 90%
          + [Audience Manager 장치 기반 대상 목록](/help/using/features/destinations/device-based-destinations-list.md)
          + [서버 간 대상에 대한 세그먼트 추가 또는 편집](features/destinations/add-edit-segments.md)
          + [twitter 사용자 지정 대상을 셀프서비스 장치 기반 대상으로 구성](features/destinations/twitter-tailored-audiences.md)
+         + [Amazon Advertising을 셀프서비스 장치 기반 대상으로 구성](features/destinations/amazon-advertising.md)
       + 사용자 지정 대상 {#custom-destinations}
          + [URL 대상 구성](features/destinations/create-url-destination.md)
          + [쿠키 대상 구성](features/destinations/create-cookie-destination.md)
@@ -139,13 +140,13 @@ ht-degree: 90%
       + [세그먼트: 목적, 구성 및 규칙](features/segments/segments-purpose.md)
       + [세그먼트 목록 보기](features/segments/segments-dashboard.md)
       + [세그먼트 요약 보기](features/segments/segment-summary-view.md)
-      + [세그먼트 메타데이터 검색](features/segments/retrieve-segment-metadata.md)
+      + [세그먼트 메타데이터 검색 중](features/segments/retrieve-segment-metadata.md)
       + [일시 중지 및 삭제된 세그먼트](features/segments/paused-deleted-segments.md)
       + [최신성 및 빈도](features/segments/recency-and-frequency.md)
       + [세그먼트 빌더](features/segments/segment-builder.md)
       + [세그먼트 표현식 편집기에 사용되는 코드 구문](features/segments/segment-code-syntax.md)
       + [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](features/segments/segment-builder-data.md)
-      + [트레이트 추천](features/segments/trait-recommendations.md)
+      + [트레이트 Recommendations](features/segments/trait-recommendations.md)
       + [트레이트 및 세그먼트 자격 참조](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + 트레이트{#traits}
       + [트레이트 개요](/help/using/features/traits/traits-overview.md)
@@ -155,7 +156,7 @@ ht-degree: 90%
       + [폴더 트레이트: 설명](features/traits/about-folder-traits.md)
       + [폴더 트레이트 관리](features/traits/manage-folder-traits.md)
       + 특성 빌더{#trait-builder}
-         + [특성 빌더에 대하여](features/traits/about-trait-builder.md)
+         + [트레이트 빌더에 대하여](features/traits/about-trait-builder.md)
          + [규칙 기반 또는 온보딩된 트레이트 만들기](features/traits/create-onboarded-rule-based-traits.md)
          + [트레이트 규칙 관리](features/traits/manage-trait-rules.md)
          + [알고리즘 트레이트 만들기](features/traits/create-algorithmic-traits.md)
@@ -168,7 +169,7 @@ ht-degree: 90%
       + [주요 변수의 이름 요구 사항](features/traits/trait-key-name-requirements.md)
       + [세그먼트 및 트레이트 유지 시간 설명](features/traits/segment-ttl-explained.md)
       + [주요 변수의 접두사 요구 사항](features/traits/trait-variable-prefixes.md)
-      + [플랫폼 수준 키로 지리 기반 타겟팅](features/traits/trait-geotarget-keys.md)
+      + [플랫폼 수준 키가 포함된 Geotargeting](features/traits/trait-geotarget-keys.md)
       + [플랫폼 수준 키로 장치 타겟팅](features/traits/trait-device-targeting.md)
       + [부울 및 비교 연산자가 있는 샘플 표현식](features/traits/trait-expression-samples.md)
       + [트레이트 및 세그먼트 자격 참조](features/traits/trait-and-segment-qualification-reference.md)
@@ -179,7 +180,7 @@ ht-degree: 90%
    + [일반 보고서](reporting/general-reports.md)
    + [트렌드 보고서](reporting/trend-reports.md)
    + 대상 최적화 보고서 {#audience-optimization-reports}
-      + [대상 최적화 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
+      + [Audience Optimization 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + 광고주를 위한 Audience Optimization{#audience-optimization-advertisers}
          + [광고주를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
          + [Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
@@ -194,13 +195,13 @@ ht-degree: 90%
          + [Google Ad Manager(이전의 DFP) 데이터 파일을 Audience Manager에 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [세그먼트 트렌드 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
-         + [상위 사용하지 않는 특성](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
+         + [상위 사용하지 않는 트레이트](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
          + [광고 단위 겹치기](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [세그먼트 대 광고 단위 겹치기](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [고유 사용자 도달 범위](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 및 메타데이터 파일 {#data-and-metadata-files}
          + [로그 데이터 및 메타데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+         + [Audience Optimization 보고서용 데이터 파일 및 실행 가능 로그 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [메타데이터 파일에 대한 개요 및 매핑](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [메타데이터 파일에 대한 이름 지정 규칙](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [메타데이터 파일에 대한 컨텐츠 형식](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -208,18 +209,18 @@ ht-degree: 90%
       + [일별 트레이트 변형 보고서](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + 대화형 및 Overlap Reports {#interactive-and-overlap-reports}
       + [대화형 및 Overlap Reports 개요](reporting/dynamic-reports/dynamic-reports.md)
-      + [특성-특성 Overlap Reports](reporting/dynamic-reports/trait-trait-overlap-report.md)
-      + [세그먼트-특성 Overlap Reports](reporting/dynamic-reports/segment-trait-overlap-report.md)
-      + [세그먼트-세그먼트 Overlap Reports](reporting/dynamic-reports/segment-segment-overlap-report.md)
+      + [특성-특성 중복 보고서](reporting/dynamic-reports/trait-trait-overlap-report.md)
+      + [세그먼트-특성 중복 보고서](reporting/dynamic-reports/segment-trait-overlap-report.md)
+      + [세그먼트-세그먼트 중복 보고서](reporting/dynamic-reports/segment-segment-overlap-report.md)
       + [사용되지 않은 신호 보고서](reporting/dynamic-reports/unused-signals.md)
       + [조회 테이블을 사용하여 로그 파일 처리 시간 개선](reporting/dynamic-reports/lookup-tables.md)
       + [데이터 슬라이더를 사용하여 보고서 결과 필터링](reporting/dynamic-reports/data-sliders.md)
       + [Overlap Reports: 일정 및 최소 세그먼트 크기 업데이트](reporting/dynamic-reports/overlap-minimum-segment-size.md)
-      + [Overlap Reports에 대한 CSV 파일](reporting/dynamic-reports/overlap-csv-files.md)
+      + [중복 보고서용 CSV 파일](reporting/dynamic-reports/overlap-csv-files.md)
       + [보고서 기술](reporting/dynamic-reports/interactive-report-technology.md)
    + [온보딩 상태 보고서](reporting/onboarding-status-report.md)
-   + [아웃바운드 파일 내역](reporting/outbound-history-report.md)
-   + [Overlap Reports 및 일반 보고서의 고유 사용자 수 계산](reporting/unique-user-counts.md)
+   + [아웃바운드 파일 기록](reporting/outbound-history-report.md)
+   + [Overlap Reports 및 일반 보고서의 고유 사용자 계산](reporting/unique-user-counts.md)
    + [선택한 Audience Manager 보고서의 데이터 샘플링 및 오류율](reporting/report-sampling.md)
 + API 및 SDK 코드{#api-and-sdk-code}
    + [API 및 SDK 코드 개요](api/api.md)
@@ -248,7 +249,7 @@ ht-degree: 90%
       + [REST API 개요](api/rest-api-main/rest-api-main.md)
       + [REST API 시작](api/rest-api-main/aam-api-getting-started.md)
       + [알고리즘 API 메서드](api/rest-api-main/aam-api-algo-methods.md)
-      + [데이터 통합 라이브러리 API 메서드](api/rest-api-main/aam-api-dil-methods.md)
+      + [Data Integration Library API 메서드](api/rest-api-main/aam-api-dil-methods.md)
       + [데이터 소스 API 메서드](api/rest-api-main/aam-api-data-sources.md)
       + [파생 신호 API 메서드](api/rest-api-main/aam-api-derived-signals.md)
       + 대상 API 메서드{#destination-api-methods}
@@ -270,7 +271,7 @@ ht-degree: 90%
       + [DCS 지역 API 메서드](api/rest-api-main/aam-api-dcs-regions.md)
    + [SDK 코드](api/aam-sdk.md)
 + DIL(데이터 통합 라이브러리) API{#dil-api}
-   + [DIL(데이터 통합 라이브러리) 이해](dil/dil-overview.md)
+   + [Data Integration Library(DIL) 이해](dil/dil-overview.md)
    + 클래스 수준 DIL 메서드{#class-level-dil-methods}
       + [클래스 수준 DIL API 시작](dil/dil-class-overview/dil-start.md)
       + [DIL 만들기](dil/dil-class-overview/dil-create.md)
@@ -291,14 +292,14 @@ ht-degree: 90%
       + [GPT를 사용하여 Google Ad Manager에 세그먼트 전송](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 대상 만들기](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [GPT setTargeting API 호출 수정](integration/gpt-aam-destination/gpt-aam-modify-api.md)
-      + [Google Publisher Tag용 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+      + [Google 게시자 태그에 대한 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + 타사 대상과의 통합 {#integrating-third-party}
       + [Facebook WCA 통합](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
-      + [OAS를 Audience Manager 대상으로 사용](integration/integrating-third-party/open-ad-server-destination.md)
-      + [OpenX를 Audience Manager 대상으로 사용](integration/integrating-third-party/openx-destination.md)
+      + [Audience Manager 대상으로서의 OAS](integration/integrating-third-party/open-ad-server-destination.md)
+      + [Audience Manager 대상으로 OpenX](integration/integrating-third-party/openx-destination.md)
       + [Google Ad Manager (이전의 DFP) as a Audience Manager 대상](integration/aam-dfp.md)
-      + [Google 애드워즈 리마케팅 목록에 세그먼트 보내기](integration/integrating-third-party/rlsa-integration.md)
-   + [Audience Manager 구현](integration/implement-audience-manager.md)
+      + [Google AdWords 리마케팅 목록에 세그먼트 보내기](integration/integrating-third-party/rlsa-integration.md)
+   + [구현 Audience Manager](integration/implement-audience-manager.md)
    + 미디어 데이터 통합{#media-data-integration}
       + [미디어 데이터 통합 개요](integration/media-data-integration/media-data-integration.md)
       + [실행 가능 로그 파일](integration/media-data-integration/actionable-log-files.md)
@@ -314,7 +315,7 @@ ht-degree: 90%
       + 배치 아웃바운드 데이터 전송{#batch-outbound-data-transfers}
          + [배치 아웃바운드 데이터 전송 개요](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
          + [일괄 데이터 전송 통합 구성](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
-         + [아웃바운드 데이터 파일 이름: 구문 및 예제](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+         + [아웃바운드 데이터 파일 이름: 구문 및 예](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [로그 파일 전송을 위한 전송 제어 파일](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [아웃바운드 템플릿 매크로](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [아웃바운드 매크로 예제](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
@@ -327,7 +328,7 @@ ht-degree: 90%
          + [실시간 인바운드 데이터 섭취](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
       + 배치 데이터 전송 프로세스{#batch-data-transfer-process}
          + [배치 데이터 전송 프로세스 설명](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-         + [Audience Manager로 배치 데이터 보내기 개요](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+         + [Audience Manager 개요로 배치 데이터 보내기](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [인바운드 데이터 전송을 위한 ID 동기화](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [ID 동기화 파일 이름 및 컨텐츠 요구 사항](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
          + [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
@@ -337,34 +338,34 @@ ht-degree: 90%
          + [인바운드 데이터 전송 파일에 대한 파일 압축](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [인바운드 처리 후 파트너에 대한 샘플 메시지](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
          + [인바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
-      + [사용자 지정 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+      + [사용자 정의 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
       + [Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Experience Platform 세그먼트](integration/integration-aep/aam-aep-audience-sharing.md)
    + 다른 Experience Cloud 애플리케이션과 통합 {#integration-other-solutions}
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
-      + [데이터를 Adobe Analytics에서 Audience Manager로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
+      + [데이터를 Adobe Analytics에서 Audience Manager으로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
       + [Experience Cloud에 Adobe Analytics 세그먼트 게시(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Adobe Campaign과 Audience Manager 통합(Adobe Campaign 설명서 열기)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)
-   + [Amazon S3: 설명](reference/amazon-s3.md)
+   + [Amazon S3: 정보](reference/amazon-s3.md)
    + [광고주 사용 사례](reference/advertiser-use-cases.md)
    + [게시자 사용 사례](reference/publisher-use-cases.md)
    + [베타 환경](reference/beta-environment.md)
    + [트레이트 및 세그먼트 빌더의 부울 표현식](reference/boolean-expressions-tsb.md)
    + 벌크 관리 도구{#bulk-management-tools}
       + [벌크 관리 시작](reference/bulk-management-tools/bulk-management-intro.md)
-      + [벌크 요청](reference/bulk-management-tools/bulk-requests.md)
+      + [대량 요청](reference/bulk-management-tools/bulk-requests.md)
       + [벌크 업데이트](reference/bulk-management-tools/bulk-updates.md)
       + [벌크 만들기](reference/bulk-management-tools/bulk-create.md)
       + [벌크 예상](reference/bulk-management-tools/bulk-estimates.md)
-      + [벌크 삭제](reference/bulk-management-tools/bulk-delete.md)
+      + [일괄 삭제](reference/bulk-management-tools/bulk-delete.md)
       + [트레이트 규칙 및 세그먼트 규칙 만들기 또는 업데이트](reference/bulk-management-tools/bulk-rules.md)
       + [벌크 관리 도구 문제 해결 팁](reference/bulk-management-tools/bulk-troubleshooting.md)
       + [벌크 관리 도구 용어집](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID가 DPID 및 DPUUID 대체](reference/cid.md)
    + [데이터 전달 및 파일 처리 시간이 보고서에 미치는 영향](reference/reporting-file-transfer-timeframe.md)
-   + [Audience Manager의 ID 색인](reference/ids-in-aam.md)
+   + [Audience Manager 내 ID 색인](reference/ids-in-aam.md)
    + [키-값 쌍 설명](reference/key-value-pairs-explained.md)
    + [암호 요구 사항, 잠긴 계정 및 잊어버린 암호](reference/password-requirements.md)
    + [신호, 트레이트 및 세그먼트](reference/signal-trait-segment.md)
@@ -375,7 +376,7 @@ ht-degree: 90%
       + [데이터 작업 구성 요소](reference/system-components/components-data-action.md)
       + [데이터 수집 구성 요소](reference/system-components/components-data-collection.md)
       + [데이터 처리 구성 요소](reference/system-components/components-data-processing.md)
-      + [태그 관리 구성 요소](reference/system-components/components-tag-management.md)
+      + [Tag Management 구성 요소](reference/system-components/components-tag-management.md)
       + [플랫폼 아키텍처: 데이터 흐름 맵](reference/system-components/components-platform-architecture.md)
       + [에지 데이터 센터 이해](reference/system-components/components-edge.md)
    + [코드 및 텍스트 요소에 대한 스타일 규칙](reference/code-style-elements.md)

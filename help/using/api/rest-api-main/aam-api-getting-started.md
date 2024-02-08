@@ -7,9 +7,9 @@ title: REST API 시작
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 16421f8f15a8aa8c1a561b0b6682091bf78683ce
+source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2558'
 ht-degree: 1%
 
 ---
@@ -382,6 +382,8 @@ Audience Manager 계정에서 [역할 기반 액세스 제어](../../features/ad
 | `permissions` | 지정된 권한에 따라 세그먼트 목록을 반환합니다. `READ` 는 기본값입니다. 사용 권한에는 다음이 포함됩니다.<ul><li>`READ` : 세그먼트에 대한 정보를 반환하고 봅니다.</li><li>`WRITE` : 사용  `PUT`  세그먼트 업데이트.</li><li>`CREATE` : 사용  `POST`  세그먼트 만들기.</li><li>`DELETE` : 세그먼트를 삭제합니다. 필요한 경우 기본 트레이트에 대한 액세스 권한이 필요합니다. 예를 들어, 세그먼트를 제거하려면 세그먼트에 속하는 트레이트를 삭제할 수 있는 권한이 필요합니다.</li></ul><br>별도의 키-값 쌍으로 여러 권한을 지정합니다. 예를 들어, 세그먼트 목록을  `READ`  및  `WRITE`  권한만, 전달  `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) 로 설정합니다. `true` 세그먼트에 대한 권한을 반환합니다. 기본값은 입니다 `false`. |
 
+{style="table-layout:auto"}
+
 ### 페이지 옵션에 대한 참고 사항
 
 페이지 정보 *은(는) 아님* 지정하면, 요청이 plain을 반환합니다. [!DNL JSON] 을 반환하면 배열이 생성됩니다. 페이지 정보인 경우 *은(는)* 을 지정하면 반환된 목록이 [!DNL JSON] 전체 결과 및 현재 페이지에 대한 정보가 포함된 개체입니다. 페이지 옵션을 사용하는 샘플 요청은 다음과 유사할 수 있습니다.
@@ -400,7 +402,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 사용하는 인증 방법에 따라 요청을 조정해야 합니다 [!DNL URLs] 아래 표에 따르면.
 
-### 요청 [!DNL URLs] 대상 [!DNL JWT] 인증 {#request-urls-jwt}
+### 요청 [!DNL URLs] 대상: [!BADGE 추천]{type=positive}[!BADGE 더 이상 사용되지 않음]{type=negative}[!DNL JWT] Adobe Developer을 통한 인증 {#request-urls-jwt}
 
 | [!DNL API] 메서드 | 요청 [!DNL URL] |
 |--- |--- |
@@ -416,7 +418,9 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### 요청 [!DNL URLs] 대상 [!DNL OAuth] 인증(사용하지 않음) {#request-urls-oauth}
+{style="table-layout:auto"}
+
+### 요청 [!DNL URLs] 대상: [!BADGE 더 이상 사용되지 않음]{type=negative}[!DNL OAuth] 인증 {#request-urls-oauth}
 
 | [!DNL API] 메서드 | 요청 [!DNL URL] |
 |--- |--- |
@@ -431,6 +435,8 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |
 | [!DNL Trait Types] | `https://api.demdex.com/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://api.demdex.com/v1/taxonomies/0/` |
+
+{style="table-layout:auto"}
 
 ## 환경 {#environments}
 

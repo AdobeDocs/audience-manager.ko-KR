@@ -6,12 +6,13 @@ solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
+
 
 # 사전 요구 사항 및 고려 사항 {#prerequisites-considerations}
 
@@ -37,8 +38,10 @@ ht-degree: 3%
 
 1. 사용자 [!DNL Facebook] 사용자 계정에는 **캠페인 관리** 사용하려는 광고 계정에 대해 권한이 활성화되었습니다.
 2. 추가 **Adobe Experience Cloud** 비즈니스 계정 을(를) 광고 파트너로 사용 [!DNL Facebook Ad Account]. `business ID=206617933627973`를 사용하십시오. 다음을 참조하십시오 [비즈니스 관리자에 파트너 추가](https://www.facebook.com/business/help/1717412048538897) 을 참조하십시오.
+
    >[!IMPORTANT]
-   > Adobe Experience Cloud에 대한 권한을 구성할 때 다음을 활성화해야 합니다 **캠페인 관리** 권한. 이 단계는 [!UICONTROL People-Based Destinations] 통합에 필요합니다.
+   >Adobe Experience Cloud에 대한 권한을 구성할 때 다음을 활성화해야 합니다 **캠페인 관리** 권한. 이 단계는 [!UICONTROL People-Based Destinations] 통합에 필요합니다.
+
 3. 읽기 및 서명 [!DNL Facebook Custom Audiences] 서비스 약관. 이렇게 하려면 `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`로 이동하십시오. 여기서 `accountID`는 [!DNL Facebook Ad Account ID]입니다.
 
 ### [!DNL LinkedIn] {#linkedin}
@@ -59,11 +62,19 @@ ht-degree: 3%
 
 ## 데이터 온보딩 {#data-onboarding}
 
-다음에 대한 데이터 수집 [!UICONTROL People-Based Destinations] 는 현재 하나의 고객 ID( )에 연결된 최대 10개의 해시된 이메일 주소를 지원합니다.[!DNL CRM ID]), 일괄 전송당. 하나의 고객 ID에 연결된 10개 이상의 해시된 이메일 주소를 업로드하면 Audience Manager이 특정 순서 없이 10개의 이메일 주소를 수집합니다.
+>[!IMPORTANT]
+>
+>모든 Audience Manager 고객은 다음에 등록하지 않고 해시된 이메일을 수집할 수 있습니다. [!UICONTROL People-Based Destinations].
+
+다음에 대한 데이터 수집 [!UICONTROL People-Based Destinations] 는 현재 하나의 고객 ID( )에 연결된 최대 10개의 해시된 이메일 주소를 지원합니다.[!DNL CRM ID]), 일괄 전송당.
 
 여러 배치 전송에서 한 고객 ID에 연결된 해시된 이메일 주소를 10개 이상 업로드하면 Audience Manager이 추가된 최신 이메일 주소 10개를 유지합니다.
 
-## 데이터 개인 정보 {#data-privacy}
+해시된 식별자를 수집하려면 [해시된 식별자에 대한 크로스 디바이스 데이터 소스 만들기](../create-data-source-hashed-emails.md) 및 활성화 **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** 옵션을 선택합니다.
+
+![사람 기반 대상 및/또는 해시된 이메일 워크플로우에서 연결된 교차 장치 ID를 공유하는 옵션을 보여 주는 Audience Manager UI 이미지](assets/data-source-share-ids.png)
+
+## 데이터 개인 정보 보호 {#data-privacy}
 
 그러나 [!UICONTROL People-Based Destinations] 업로드한 해시된 이메일 주소를 기반으로 대상을 타기팅할 수 있도록 허용하므로, 직접 식별할 수 있는 방문자 정보를 Audience Manager에 업로드할 수 없습니다. 데이터 온보딩 단계에서는 사용하고자 하는 이메일 주소가 [!DNL SHA256] 알고리즘. 그렇지 않으면 다음에서 사용할 수 없습니다. [!UICONTROL People-Based Destinations].
 

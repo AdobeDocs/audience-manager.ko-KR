@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타겟팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
 feature-set: Audience Manager
-source-git-commit: 95028ac2131dda5a483c9d12007dcd38369d5b6f
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 26%
+source-wordcount: '1835'
+ht-degree: 25%
 
 ---
 
@@ -91,6 +91,7 @@ ht-degree: 26%
    + 데이터 소스 {#data-sources}
       + [데이터 소스 목록 및 설정](features/datasources-list-and-settings.md)
       + [데이터 소스 만들기](features/manage-datasources.md)
+      + [해시된 이메일 워크플로우에 대한 데이터 소스 구성](features/create-data-source-hashed-emails.md)
       + [글로벌 데이터 소스](features/global-data-sources.md)
    + [선언된 ID](features/declared-ids.md)
    + [파생 신호](features/derived-signals.md)

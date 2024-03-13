@@ -6,12 +6,13 @@ solution: Audience Manager
 title: 사용자 기반 플랫폼을 통한 인증
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
+
 
 # 사용자 기반 플랫폼을 통한 인증 {#authentication-with-people-based-platforms}
 
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 1. Audience Manager 계정에 로그인하고 다음으로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. 소셜 플랫폼과 이전에 구성한 통합이 있는 경우 이 페이지에 표시됩니다. 그렇지 않으면 페이지가 비어 있습니다.
    ![사용자 기반 통합](assets/pbd-config.png)
-2. 클릭 **[!UICONTROL Add Account]**.
+2. **[!UICONTROL Add Account]** 아이콘을 클릭합니다.
 3. 사용 **[!UICONTROL People-Based Platform]** 드롭다운 메뉴를 사용하여 통합을 구성할 플랫폼을 선택합니다.
    ![사용자 기반 플랫폼](assets/pbd-add.png)
 4. 클릭 **[!UICONTROL Confirm]** 을(를) 선택한 플랫폼의 인증 페이지로 리디렉션합니다.
@@ -43,7 +44,7 @@ Audience Manager은 일정 시간이 지나면 만료되는 인증 토큰을 통
 1. Audience Manager 계정에 로그인하고 다음으로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. 토큰 만료 알림을 받을 통합을 식별하고 **[!UICONTROL Edit]** 아이콘.
 1. 토큰 만료 알림을 수신할 이메일 주소를 쉼표로 구분하여 입력합니다.
-1. 클릭 **[!UICONTROL Save]**.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
 ## 인증 토큰 갱신 {#token-renewal}
 

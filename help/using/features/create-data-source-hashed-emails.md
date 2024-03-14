@@ -3,7 +3,7 @@ title: 해시된 이메일 워크플로우에 대한 데이터 소스 구성
 description: 해시된 이메일 워크플로우에 대한 해시된 이메일을 저장하는 데이터 소스를 만드는 방법을 알아봅니다.
 solution: Audience Manager
 feature: Data Sources
-source-git-commit: 903c2602f759e0d507e45f1db4cbc880a599c32e
+source-git-commit: b88f180808ec9723a2a5324441733f6383f6302d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -29,4 +29,5 @@ ht-degree: 0%
    >이 옵션은 특정 알고리즘으로 해시된 데이터를 포함하는 것으로 데이터 소스에만 레이블을 지정합니다. Audience Manager은 이 단계에서 데이터를 해시하지 않습니다. 이 데이터 소스에 저장할 이메일 주소를 이미 해시했는지 확인합니다. [!DNL SHA256] 알고리즘. 그렇지 않으면 해시된 이메일 워크플로에 사용할 수 없습니다.
 
    ![데이터 소스 설정 섹션을 보여 주는 Audience Manager UI 이미지입니다.](../features/assets/data-source-settings.png)
+
 

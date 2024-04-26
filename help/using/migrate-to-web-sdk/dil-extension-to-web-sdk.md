@@ -1,7 +1,7 @@
 ---
 title: Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션
 description: Audience Manager 태그 확장에서 Web SDK 태그 확장으로 Audience Manager을 위한 데이터 수집 라이브러리를 업데이트하는 절차에 대해 알아봅니다
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성�
 +++
 
 이 시점에서 Audience Manager 구현은 Web SDK로 완전히 마이그레이션되며 향후 Real-Time CDP으로 이동할 준비가 되었습니다.
+

@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타겟팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
 feature-set: Audience Manager
-source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
+source-git-commit: b0c35d79a07b481e332ddf8f4aedab5484416a51
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1865'
 ht-degree: 25%
 
 ---
@@ -17,6 +17,9 @@ ht-degree: 25%
 
 + [Audience Manager 안내서](aam-home.md)
 + [Real-Time CDP에 대한 진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ 웹 SDK로 마이그레이션{#migrate-to-web-sdk}
+   + [Adobe Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 마이그레이션](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 개요{#overview}
    + [Audience Manager 개요](overview/aam-overview.md)
    + [수집한 데이터 유형](overview/data-types-collected.md)

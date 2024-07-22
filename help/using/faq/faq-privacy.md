@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 83%
+source-wordcount: '754'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 
 <!-- faq_privacy.xml -->
 
-## 개인 정보 관련 FAQ {#privacy-faq}
+## 개인 정보 FAQ {#privacy-faq}
 
 >[!TIP]
 >
@@ -41,7 +41,7 @@ ht-degree: 83%
 
  -->
 
-## 데이터 유지 FAQ {#data-retention-faq}
+## 데이터 보존 FAQ {#data-retention-faq}
 
 다음 표에는 다양한 데이터 유형 및 저장소 시스템의 유지 시간이 나와 있습니다.
 
@@ -55,11 +55,11 @@ ht-degree: 83%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>백엔드 서버 </p> </td> 
-   <td colname="col2"> <p>120일 </p> <p> Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 120일 후에 백엔드 서버에서 사용자 데이터를 삭제합니다. If <span class="keyword"> Audience Manager</span> 사용자 활동을 이 120일 주기 내에 기록합니다. 이 데이터는 다른 120일 동안 보관됩니다. </p> </td> 
+   <td colname="col2"> <p>120일 </p> <p> Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 120일 후에 백엔드 서버에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이(가) 이 120일 주기 내에 사용자 활동을 기록하는 경우 이 데이터를 다른 120일 동안 보관합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge Server </p> </td> 
-   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. If <span class="keyword"> Audience Manager</span> 사용자 활동을 이 14일 주기 내에 기록합니다. 이 데이터는 다른 14일 동안 보관됩니다. 14일 주기 후에 사용자가 다시 활성 상태가 되면 첫 번째 새 페이지 보기와 사용자가 조치를 취할 수 있는 시점 사이에 지연이 생깁니다. 14일 이상 활동이 없으면 전체 프로필을 Edge 센터로 되돌리는 데 6~18시간이 걸립니다. </p> </td> 
+   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이(가) 이 14일 주기 내에 사용자 활동을 기록하는 경우 이 데이터를 14일 더 보관합니다. 14일 주기 후에 사용자가 다시 활성 상태가 되면 첫 번째 새 페이지 보기와 사용자가 조치를 취할 수 있는 시점 사이에 지연이 생깁니다. 14일 이상 활동이 없으면 전체 프로필을 Edge 센터로 되돌리는 데 6~18시간이 걸립니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>원시 로그 </p> </td> 

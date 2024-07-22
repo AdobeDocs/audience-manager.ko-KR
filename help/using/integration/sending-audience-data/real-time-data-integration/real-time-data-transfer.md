@@ -9,22 +9,22 @@ feature: Inbound Data Transfers
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
 # 실시간 인바운드 데이터 섭취 {#real-time-inbound-data-ingestion}
 
-실시간 인바운드 데이터 섭취 프로세스에서는 `HTTP` Audience Manager에 데이터를 전달할 사용자 브라우저의 요청입니다.
+실시간 인바운드 데이터 수집 프로세스는 Audience Manager의 브라우저에서 일련의 `HTTP` 요청을 사용하여 데이터를 사용자에게 전달합니다.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-인바운드 데이터는 신호라는 키-값 쌍으로 포맷되어야 합니다. 일반적으로, 각 신호는 사용자 인터페이스를 통해 생성 또는 관리되는 세그먼트에 매핑되거나, [!DNL API].
+인바운드 데이터는 신호라는 키-값 쌍으로 포맷되어야 합니다. 일반적으로 각 신호는 사용자 인터페이스 또는 [!DNL API]을(를) 통해 생성되거나 관리되는 세그먼트에 매핑됩니다.
 
 ## URL 문자열 매개 변수 및 구문 {#url-string-syntax}
 
-다음 [!DNL URL] 인바운드 데이터 전송의 경우 아래에 설명된 변수를 포함해야 합니다. 다음을 잊지 마십시오. [트레이트 만들기](../../../features/traits/create-onboarded-rule-based-traits.md) 및 a [폴더 구조](../../../features/traits/trait-storage.md#create-trait-storage-folder) 다음에서 [!DNL Audience Manager] 실시간 데이터 전송을 설정하기 전의 UI입니다.
+인바운드 데이터 전송에 대한 [!DNL URL]에 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [!DNL Audience Manager] UI에서 [트레이트 만들기](../../../features/traits/create-onboarded-rule-based-traits.md) 및 [폴더 구조](../../../features/traits/trait-storage.md#create-trait-storage-folder)를 참조하세요.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 ### URL 구문
 
-실시간 인바운드 데이터 섭취 프로세스 중에 의 형식이 올바르게 지정됨 [!DNL URL] string에서는 다음 구문을 사용합니다.
+실시간 인바운드 데이터 섭취 프로세스 중에 올바른 형식의 [!DNL URL] 문자열은 다음 구문을 사용합니다.
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC

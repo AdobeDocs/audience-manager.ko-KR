@@ -9,7 +9,7 @@ feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '326'
 ht-degree: 94%
 
 ---
@@ -48,6 +48,6 @@ ht-degree: 94%
 
 [!UICONTROL RBAC] 권한과 함께 [!UICONTROL Audience Lab]을 사용하는 방법에 대한 내용은 [세그먼트 테스트 그룹 만들기](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)를 참조하십시오.
 
-**사용할 수 있습니까 [!UICONTROL Audience Lab] 과 함께 [!UICONTROL Profile Link Device Graph] 및 외부 장치 그래프( Tapad 장치 그래프, Liveramp 장치 그래프)**
+**[!UICONTROL Audience Lab]을(를) [!UICONTROL Profile Link Device Graph] 및 외부 장치 그래프(Tapad 장치 그래프, Liveramp 장치 그래프)와 함께 사용할 수 있습니까?**
 
 현재, [!UICONTROL Audience Lab]은 [!UICONTROL Profile Link Device Graph]를 사용할 때 자격을 부여하는 장치에 연결된 장치로만 세그먼트 인구를 분할할 수 있습니다. [!UICONTROL Audience Lab]에서 다른 장치 그래프에 대한 지원을 추가하는 작업이 진행 중이며 추가되면 알려드리겠습니다.

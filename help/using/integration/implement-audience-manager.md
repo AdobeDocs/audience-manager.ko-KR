@@ -3,20 +3,20 @@ description: 이 섹션에서는 DMP(Audience Manager 데이터 관리 플랫폼
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: Audience Manager 구현
+title: 구현 Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 0%
 
 ---
 
-# Audience Manager 구현 {#implementing-audience-manager}
+# 구현 Audience Manager {#implementing-audience-manager}
 
-이 섹션에서는 Audience Manager 데이터 관리 플랫폼([!DNL DMP]). 이 섹션은 비즈니스 팀, 프로젝트 관리자 및 기술 관리자가 Audience Manager 구현 프로세스를 이해하는 데 도움이 되도록 설계되었습니다. Audience Manager 시작은 데이터 수집 요구 사항에 따라 약 6주에서 3개월 정도 소요될 수 있습니다.
+이 섹션에서는 Audience Manager 데이터 관리 플랫폼([!DNL DMP]) 시작과 관련된 프로세스에 대해 간략히 설명합니다. 이 섹션은 비즈니스 팀, 프로젝트 관리자 및 기술 관리자가 Audience Manager 구현 프로세스를 이해하는 데 도움이 되도록 설계되었습니다. Audience Manager 시작은 데이터 수집 요구 사항에 따라 약 6주에서 3개월 정도 소요될 수 있습니다.
 
 Dell의 구현 기술은 새로운 고객과 컨설팅 파트너십을 구축하는 데 도움이 됩니다. 이 프로세스는 다음 작업을 수행하도록 설계되었습니다.
 
@@ -136,7 +136,7 @@ Audience Manager은 설정 및 구현에 대한 단계별 접근 방식을 취�
 이 단계의 결과물은 다음과 같습니다.
 
 * 완료된 자사, 제2자 및 타사 데이터 수집 전략
-* 완료된 [!DNL CRM] 또는 data warehouse 수집 계획
+* 완료된 [!DNL CRM] 또는 Data Warehouse 수집 계획
 * 정의된 대상자 세분화 요구 사항;
 * 완료된 데이터 분류
 * 개발된 타사 데이터 통합 계획입니다.
@@ -147,7 +147,7 @@ Audience Manager은 설정 및 구현에 대한 단계별 접근 방식을 취�
 
 <!-- c_build_test_train.xml -->
 
-데이터 수집 전략은 전체적인 과정을 거칩니다. [!DNL QA] 테스트 중. 파트너 솔루션은 발견된 버그를 추적하고 시스템 엔지니어와 문제 해결을 조정합니다. 고객 교육은 이러한 다른 노력과 병행하여 시작할 수 있습니다.
+데이터 수집 전략은 전체 [!DNL QA] 테스트를 거칩니다. 파트너 솔루션은 발견된 버그를 추적하고 시스템 엔지니어와 문제 해결을 조정합니다. 고객 교육은 이러한 다른 노력과 병행하여 시작할 수 있습니다.
 
 다음 표에서는 이 단계 중에 발생하는 주요 활동에 대해 설명합니다.
 
@@ -161,13 +161,13 @@ Audience Manager은 설정 및 구현에 대한 단계별 접근 방식을 취�
 이 단계의 결과물은 다음과 같습니다.
 
 * 작성·승인된 자료수집 계획
-* 철저해 [!DNL QA] 테스트;
+* 전체 [!DNL QA] 테스트;
 * Audience Manager 사용자 인터페이스 기능에 대한 기본 지침
 * 수락 및 승인.
 
 ## 시작, 지원 및 최적화 단계 {#launch-support-optimize-phase}
 
-시작, 지원 및 최적화 단계에서 데이터 수집과 프로토타입 구현은 개발에서 라이브 프로덕션 환경으로 이동합니다. 제품 친숙도와 제품 설명력을 높이는 데 도움이 되는 전략에 대한 교육을 계속할 것입니다 [!DNL ROI] 데이터 기반 최적화를 통해
+시작, 지원 및 최적화 단계에서 데이터 수집과 프로토타입 구현은 개발에서 라이브 프로덕션 환경으로 이동합니다. 데이터 기반 최적화를 통해 [!DNL ROI]을(를) 늘리는 데 도움이 되는 제품 친숙도와 전략에 대한 교육을 계속할 것입니다.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -220,9 +220,9 @@ Audience Manager은 설정 및 구현에 대한 단계별 접근 방식을 취�
 
 ## 코드 구현 {#code-implementation}
 
-Audience Manager은 Data Integration Library([!DNL DIL])를 입력하여 대상 데이터를 수신하게 할 수 있습니다.
+Audience Manager은 Data Integration Library([!DNL DIL])를 사용하여 대상 데이터를 받습니다.
 
-사용 방법에 대한 자세한 지침 [!DNL DIL], 참조 [DIL 코드 가져오기 및 구현](../dil/dil-overview.md).
+[!DNL DIL]을(를) 사용하는 방법에 대한 자세한 지침은 [DIL 코드 가져오기 및 구현](../dil/dil-overview.md)을 참조하십시오.
 
 ### 참가자
 
@@ -234,4 +234,4 @@ Audience Manager은 Data Integration Library([!DNL DIL])를 입력하여 대상 
 
 계정 관리자는 제품 구현 프로세스가 완료된 후 지속적인 지원 및 상담 서비스를 제공합니다. 계정 관리자와 정기적인 모임을 가질 수 있습니다. 이러한 모임을 통해 Audience Manager에서 최대한 많은 사용 및 가치를 얻을 수 있습니다.
 
-연락처 [여기](https://www.adobe.com/products/audiencemanager.html) Audience Manager 을 참조하십시오.
+자세한 내용을 알고 Audience Manager을 시작하려면 [여기](https://www.adobe.com/products/audiencemanager.html)로 문의하세요.

@@ -9,7 +9,7 @@ exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 38%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 38%
 
 * [벌크 관리 도구](/help/using/reference/bulk-management-tools/bulk-management-intro.md)
 * [시스템 구성 요소](/help/using/reference/system-components/components-overview.md)
-* [베타 환경](/help/using/reference/beta-environment.md)
+* [Beta 환경](/help/using/reference/beta-environment.md)
 * [용어 설명](/help/using/reference/aam-glossary.md)
-* [Audience Manager의 ID 색인](/help/using/reference/ids-in-aam.md)
+* [Audience Manager 내 ID 색인](/help/using/reference/ids-in-aam.md)
 * [신호, 트레이트 및 세그먼트](/help/using/reference/signal-trait-segment.md)

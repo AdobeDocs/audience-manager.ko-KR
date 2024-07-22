@@ -9,8 +9,8 @@ feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->[RBAC 그룹 권한](../../features/administration/administration-overview.md) 에 할당됨 [!DNL Audience Manager] UI는 [!UICONTROL Bulk Management Tools].
+>[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 네트워크 트래픽이 많거나, 서버 사용량 및 대용량 데이터 세트와 같은 요인으로 인해 대량 요청이 실패하거나 시간 초과가 발생할 수 있습니다. 문제가 있는 경우 워크시트가 데이터 쓰기를 중지하고 오류 메시지를 표시합니다. 이 경우 다음을 수행해야 합니다.
 
@@ -54,15 +54,15 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <b>인증 오류</b> </td> 
    <td colname="col2"> 
-    <b>최신 버전의 Microsoft Excel로 업데이트</b>: 새 버전의 Microsoft Excel을 릴리스하고 이전 버전을 사용하는 경우 벌크 관리 워크시트에서 인증 오류가 발생할 수 있습니다. 최신 버전의 Microsoft Excel로 업데이트하여 인증 오류를 해결합니다.
+    <b>최신 버전의 Microsoft Excel로 업데이트</b>: 새 버전의 Microsoft Excel을 릴리스하고 이전 버전을 사용하는 경우 벌크 관리 워크시트에 인증 오류가 발생할 수 있습니다. 최신 버전의 Microsoft Excel로 업데이트하여 인증 오류를 해결합니다.
 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>긴 지연</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>호환성 모드 끄기</b>: Microsoft Excel의 호환성 모드에서 다른 워크시트를 열고 있는지 확인합니다. 호환 모드는 실행 시간을 늘릴 수 있습니다. 이 모드에서 열려 있는 스프레드시트를 닫고 대량 요청을 다시 시도하십시오. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>시스템 리소스</b>: 제한된 시스템 리소스로 인해 오랜 지연이 발생합니다. 일괄 요청하기 전에 다른 프로그램을 모두 닫아 보십시오. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>호환성 모드 해제</b>: Microsoft Excel의 호환성 모드에서 다른 워크시트가 열려 있는지 확인하십시오. 호환 모드는 실행 시간을 늘릴 수 있습니다. 이 모드에서 열려 있는 스프레드시트를 닫고 대량 요청을 다시 시도하십시오. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>시스템 리소스</b>: 제한된 시스템 리소스는 긴 지연에 기여합니다. 일괄 요청하기 전에 다른 프로그램을 모두 닫아 보십시오. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -79,4 +79,4 @@ ht-degree: 3%
 
 ## 오류 메시지
 
-경우에 따라 일괄 변경 시 오류 메시지를 받을 수 있습니다. 오류 메시지를 해석하려면 다음을 참조하십시오 [정의된 응답 코드](/help/using/api/rest-api-main/aam-api-getting-started.md) API 설명서에서 참조하십시오.
+경우에 따라 일괄 변경 시 오류 메시지를 받을 수 있습니다. 오류 메시지를 해석하려면 API 설명서에서 [정의된 응답 코드](/help/using/api/rest-api-main/aam-api-getting-started.md)를 참조하십시오.

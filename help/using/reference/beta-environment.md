@@ -4,18 +4,18 @@ keywords: 샌드박스
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
 solution: Audience Manager
-title: 베타 환경
+title: Beta 환경
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 source-git-commit: fce39268f1c8c4dd1b7ff21b61a9830a20fa0b4e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '362'
+ht-degree: 2%
 
 ---
 
-# 베타 환경 {#beta-environment}
+# Beta 환경 {#beta-environment}
 
 Beta 환경은 Audience Manager 구현을 테스트하기 위한 것입니다. Beta에서 변경한 사항은 프로덕션 데이터에 영향을 주지 않습니다. Beta 환경 사용에 관심이 있는 경우 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
 
@@ -35,7 +35,7 @@ Beta 환경은 사용량이 적은 시간 동안 매월 말에 업데이트됩�
 
 베타 환경은 파일 이름 및 콘텐츠 구문 유효성 검사 목적으로만 인바운드 트래픽을 지원합니다. Beta 환경에서 발생하는 ID 매핑이 없으므로 고객에게 세그먼트 인구가 표시되지 않습니다.
 
-따라서 [!UICONTROL Onboarding Status] 페이지가 항상 보고함 [!UICONTROL No matching AAM ID] beta 환경에서 파일 수집 시
+따라서 [!UICONTROL Onboarding Status] 페이지는 Beta 환경에서 파일 수집 시 항상 [!UICONTROL No matching AAM ID]을(를) 보고합니다.
 
 모든 고객은 프로덕션 환경에서 인바운드 테스트를 수행하는 것이 좋습니다.
 
@@ -47,14 +47,14 @@ Beta 환경에 대해 아웃바운드 트래픽이 활성화되지 않았습니�
 
 | 서비스 | URL/호스트 이름 | 액세스 권한을 얻는 방법 |
 |--- |--- | --- |
-| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오 | Beta 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. 에 대해 읽기 [Amazon S3 사용의 이점](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | 다음을 참조하십시오 [Beta 환경에서 DCS에 액세스](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오 | Beta 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3 사용의 [장점](../reference/amazon-s3.md)을 읽어 보십시오. |
+| DCS | `https://dcs-beta.demdex.net/...` | [Beta 환경에서 DCS에 액세스](../reference/beta-environment.md#access-dcs-beta-environment)를 참조하십시오. |
 | UI | `https://bank-beta.demdex.com` | 프로덕션 환경 자격 증명은 Beta 환경에 유효합니다. |
-| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 Beta 환경에 유효합니다. 일반 API 사용자를 생성하고, [세부 정보 보기](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 Beta 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. [세부 정보 보기](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Beta 환경에서 DCS에 액세스 {#access-dcs-beta-environment}
 
-1. curl을 사용하여 DCS 호출 만들기 [명령](https://curl.haxx.se/docs/manpage.html). Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 서버에서 또는 서버로 데이터를 전송하는 도구입니다.
+1. curl [command](https://curl.haxx.se/docs/manpage.html)을(를) 사용하여 DCS를 호출합니다. Curl은 지원되는 여러 프로토콜 중 하나를 사용하여 서버에서 또는 서버로 데이터를 전송하는 도구입니다.
 
    예:
 

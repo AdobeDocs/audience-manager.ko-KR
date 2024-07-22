@@ -8,7 +8,7 @@ feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ r_problem.xml
 
 * **전화:** 1-800-497-0335
 
-   미국 이외의 무료 전화번호에 대해서는 [지역 고객 지원 연락처 번호](https://helpx.adobe.com/kr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 사이트를 참조하십시오. 제품에 대한 옵션을 선택하라는 메시지가 표시되면 4를 눌러 [!DNL Audience Manager] 팀에 연락하십시오.
+  미국 이외의 무료 전화번호에 대해서는 [지역 고객 지원 연락처 번호](https://helpx.adobe.com/kr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 사이트를 참조하십시오. 제품에 대한 옵션을 선택하라는 메시지가 표시되면 4를 눌러 [!DNL Audience Manager] 팀에 연락하십시오.
 
 * **이메일:** amsupport@adobe.com
 

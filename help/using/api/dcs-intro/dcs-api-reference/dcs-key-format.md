@@ -10,13 +10,13 @@ exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
 # DCS 호출에서 키-값 쌍 형식 지정 {#formatting-key-value-pairs-in-dcs-calls}
 
-호출 시 [!DNL DCS] 는 표준 또는 직렬화된 형식의 키-값 데이터를 허용합니다. 표준 및 직렬화된 키-값 데이터의 포맷을 지정하는 방법에 대한 자세한 내용은 이 섹션을 검토하십시오.
+호출할 때 [!DNL DCS]은(는) 표준 또는 직렬화된 형식의 키-값 데이터를 허용합니다. 표준 및 직렬화된 키-값 데이터의 포맷을 지정하는 방법에 대한 자세한 내용은 이 섹션을 검토하십시오.
 
 ## 표준 및 직렬화된 키-값 쌍 {#standard-serialized}
 
@@ -35,7 +35,7 @@ ht-degree: 11%
    <td colname="col3"> <code> key1=val1&amp;key2=val2&amp;key3=val3</code> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <b>직렬화됨</b> </td> 
+   <td colname="col1"> <b>직렬화</b> </td> 
    <td colname="col2"> <p>직렬화된 키-값 쌍은 단일 키와 여러 값으로 구성됩니다. 이렇게 하면 데이터를 효율적으로 구성할 수 있지만, serialize된 키-값 쌍은 각 키와 각 키-값 집합을 구분하기 위해 특정 기호가 필요합니다. </p> </td> 
    <td colname="col3"> <code> key1=val1,val2,val3</code> </td> 
   </tr>
@@ -61,7 +61,7 @@ ht-degree: 11%
    <td colname="col3"> <p>키-값 쌍: </p> <p><code> key1=val1&amp;key2=val2,val3</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>구분 문자</b> </td> 
+   <td colname="col1"><b>구분 기호</b> </td> 
    <td colname="col2"> 쉼표 , </td> 
    <td colname="col3"> <p>키-값 쌍 내의 값: </p> <p><code> key1=val1,val2,val3&amp;key2=valA,valB,valC</code> </p> </td> 
   </tr> 
@@ -73,4 +73,3 @@ ht-degree: 11%
 >* [DCS에 데이터 보내기](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [DCS에서 지원하는 키-값 접두사 및 변수](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 >* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
-

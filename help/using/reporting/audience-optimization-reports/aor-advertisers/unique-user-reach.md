@@ -10,7 +10,7 @@ exl-id: 1b7ddafd-40b8-4c64-97e9-ecc7ffdd9efa
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -24,13 +24,12 @@ ht-degree: 5%
 >
 >주의 사항:
 >
->* 다음 [!UICONTROL Unique User Reach] 이 보고서는 다음 사용자의 정보만 표시합니다. [!UICONTROL Admin] 권한 수준. 사용자 [!DNL Audience Manager] 컨설턴트 또는 고객 지원 팀에서 다음 방법으로 계정을 프로비저닝할 수 있습니다. [!UICONTROL Admin] 사용 권한.
+>* [!UICONTROL Unique User Reach] 보고서에는 [!UICONTROL Admin] 권한 수준이 있는 사용자에 대한 정보만 표시됩니다. [!DNL Audience Manager] 컨설턴트 또는 고객 지원 팀에서 [!UICONTROL Admin] 권한으로 계정을 프로비저닝할 수 있습니다.
 >
 >* 7일 및 30일 룩백 기간은 일요일에만 사용할 수 있습니다.
 
-
 ## 샘플 보고서
 
-사용자 [!UICONTROL Unique User Reach] 보고서는 아래 보고서와 유사할 수 있습니다. 보고서에서 버블을 클릭하여 기본 데이터를 봅니다.
+[!UICONTROL Unique User Reach] 보고서는 아래 보고서와 유사할 수 있습니다. 보고서에서 버블을 클릭하여 기본 데이터를 봅니다.
 
 ![](assets/unique-user-reach.png)

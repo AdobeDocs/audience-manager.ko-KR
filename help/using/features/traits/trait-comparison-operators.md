@@ -10,19 +10,19 @@ exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
 # 트레이트 빌더에서 비교 연산자 사용 {#working-with-comparison-operators-in-trait-builder}
 
-이 문서에서는 다음에서 사용하는 비교 연산자에 대해 설명합니다. [!UICONTROL Trait Builder].
+이 문서에서는 [!UICONTROL Trait Builder]에서 사용하는 비교 연산자에 대해 설명합니다.
 
 ## 비교 연산자 목적
 
 <!-- c_tb_comparison_operators.xml -->
 
-비교 연산자(또는 관계 연산자)는 다른 값 간의 관계를 비교, 테스트 또는 평가하는 데 사용됩니다. 위치 [!UICONTROL Trait Builder], 신호 규칙을 작성할 때 비교 연산자를 사용하여 서로 다른 키-값 쌍 간의 관계를 테스트할 수 있습니다. 예를 들어 비싼 카메라 구매자를 위한 대상을 정의하는 신호 규칙을 만들 수 있습니다. 이 경우, 사용자가 가격이 설정된 금액보다 크거나 같은 카메라를 찾았다면 카메라/가격 키-값 쌍을 만들고 자격을 부여할 수 있습니다.
+비교 연산자(또는 관계 연산자)는 다른 값 간의 관계를 비교, 테스트 또는 평가하는 데 사용됩니다. [!UICONTROL Trait Builder]에서 신호 규칙을 작성할 때 비교 연산자를 사용하여 서로 다른 키-값 쌍 간의 관계를 테스트할 수 있습니다. 예를 들어 비싼 카메라 구매자를 위한 대상을 정의하는 신호 규칙을 만들 수 있습니다. 이 경우, 사용자가 가격이 설정된 금액보다 크거나 같은 카메라를 찾았다면 카메라/가격 키-값 쌍을 만들고 자격을 부여할 수 있습니다.
 
 ## 비교 연산자의 이점
 
@@ -45,18 +45,17 @@ ht-degree: 10%
 
 다음 명명된 연산자로 규칙을 작성할 수 있습니다.
 
-| 연산자 | 다음으로 평가: [!DNL True] 날짜 |
+| 연산자 | 다음과 같은 경우 [!DNL True](으)로 평가됨 |
 |---|---|
-| **[!UICONTROL Contains]** | 키-값 쌍의 값 *다음 포함* 이 연산자로 지정된 문자입니다. |
-| **[!UICONTROL Matcheswords]** | 키-값 쌍의 값 *일치* 이 연산자에 의해 지정된 패턴입니다. |
-| **[!UICONTROL Startswith]** | 키-값 쌍의 값 *다음으로 시작* 이 연산자로 지정된 문자입니다. |
-| **[!UICONTROL Endswith]** | 키-값 쌍의 값 *다음으로 끝남* 이 연산자로 지정된 문자입니다. |
-| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값 *일치* 정규 표현식에서 지정한 패턴입니다. [자세히 알아보기](../../features/traits/trait-builder-regex.md) 에서 정규 표현식 사용 정보 [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Contains]** | 키-값 쌍 *에 있는 값은 이 연산자에 의해 지정된*&#x200B;자를 포함합니다. |
+| **[!UICONTROL Matcheswords]** | 키-값 쌍의 값은 이 연산자에 의해 지정된 패턴과 *일치*&#x200B;합니다. |
+| **[!UICONTROL Startswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한*&#x200B;자로 시작합니다. |
+| **[!UICONTROL Endswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자로 끝납니다*. |
+| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값이 정규식에 지정된 패턴과 *일치*&#x200B;합니다. [!UICONTROL Trait Builder]에서 정규식을 사용하는 방법에 대해 [자세히 알아보기](../../features/traits/trait-builder-regex.md). |
 
 >[!MORELIKETHIS]
 >
 >* [트레이트 및 세그먼트 빌더의 부울 표현식](../../reference/boolean-expressions-tsb.md)
->* [TraitBuilder의 부울 표현식 이해](../../reference/boolean-expressions-tsb.md)
->* [TraitBuilder 표현식의 작업 순서](../../features/traits/trait-operator-precedence.md)
+>* [TraitBuilder에서 부울 식 이해](../../reference/boolean-expressions-tsb.md)
+>* [TraitBuilder 식의 작업 순서](../../features/traits/trait-operator-precedence.md)
 >* [부울 및 비교 연산자가 있는 샘플 표현식](../../features/traits/trait-expression-samples.md)
-

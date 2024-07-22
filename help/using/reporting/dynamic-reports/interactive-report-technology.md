@@ -9,8 +9,8 @@ feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ c_report_technology.xml
 
 ## Tableau 기술을 사용하는 대화형 보고서
 
-[!DNL Audience Manager] 사용 [타블로](https://www.tableausoftware.com/) 대화형 보고서에 데이터를 표시하는 소프트웨어입니다. 포함 [!DNL Tableau], [!UICONTROL Delivery and Overlap] 보고서는 다음과 같은 작업에 도움이 되는 시각적 큐와 기호를 사용합니다.
+[!DNL Audience Manager]은(는) [Tableau](https://www.tableausoftware.com/) 소프트웨어를 사용하여 대화형 보고서에 데이터를 표시합니다. [!DNL Tableau]에서 [!UICONTROL Delivery and Overlap] 보고서는 다음 작업에 도움이 되는 시각적 큐와 기호를 사용합니다.
 
 * 고성능 및 저성능의 특성을 찾습니다.
 * 고유 방문자 수가 적고 높은 스팟 트레이트 및 세그먼트가 겹칩니다.
@@ -60,7 +60,7 @@ r_legend.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>모양</b> </td> 
+   <td colname="col1"> <b>도형</b> </td> 
    <td colname="col2"> 
     <ul id="ul_076773ABD0BB4CE6834ACFA8B3D6AC2E"> 
      <li id="li_BBAB37A6EC1549B48C0E4D3BFAF7062C">원은 고유한 자사 특성을 나타냅니다. </li> 
@@ -71,8 +71,8 @@ r_legend.xml
    <td colname="col1"> <b>색상</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">빨간색 색조는 <i>낮음</i> 겹칩니다. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">녹색 색조는 다음을 나타냅니다. <i>높음</i> 겹칩니다. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">빨간색 음영은 <i>low</i> 겹침을 나타냅니다. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">녹색 음영은 <i>높음</i> 겹침을 나타냅니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -84,4 +84,4 @@ r_legend.xml
 
 ## 타블로 설명서 {#tableau-documentation}
 
-대화형 보고서에서 볼 수 있는 Tableau 컨트롤에 대한 자세한 내용은 [Linux 2018.2의 Tableau Server](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+대화형 보고서에서 볼 수 있는 Tableau 컨트롤에 대한 자세한 내용은 [Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)의 Tableau Server 공식 설명서를 참조하십시오.

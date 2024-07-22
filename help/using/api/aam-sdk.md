@@ -9,22 +9,22 @@ feature: API
 exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
 source-git-commit: 79ce9c05c9168e3bcecabc11db3f9585a5b5ef6c
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 39%
+source-wordcount: '120'
+ht-degree: 15%
 
 ---
 
 # [!DNL SDK] 코드 {#sdk-code}
 
-Audience Manager에서 소프트웨어 개발 키트 제공([!DNL SDK]s) 대상 [!DNL Android] 및 [!DNL iOS].
+Audience Manager에서 [!DNL Android] 및 [!DNL iOS]에 대한 소프트웨어 개발 키트([!DNL SDK]s)를 제공합니다.
 
 >[!IMPORTANT]
 >
->2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
+>2018년 9월부터 새로운 주요 버전의 SDK가 출시되었습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
 * 시작하려면 [Launch](https://launch.adobe.com/)로 이동합니다.
-* Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-* 새 SDK v.5를 사용하여 앱에서 Audience Manager을 구현하려면 다음을 참조하십시오. [Adobe Audience Manager 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en) 새 SDK 페이지에서 을 참조하십시오.
+* Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)(으)로 이동하십시오.
+* 앱에서 Audience Manager을 구현하려면 새 SDK v.5를 사용하여 새 SDK 페이지에서 [Adobe Audience Manager 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en)를 읽어 보십시오.
 
 <br> 
 

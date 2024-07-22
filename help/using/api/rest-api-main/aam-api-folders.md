@@ -9,8 +9,8 @@ feature: API
 exl-id: ab8d6421-ba6a-4eac-9b2b-dbd0a1ef2a64
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->폴더 [!DNL API] 메서드가 로 다시 작성되었습니다. [!DNL Swagger] 및 마이그레이션되었습니다. 이 문서에 언급된 함수, 속성 또는 구성에 대한 자세한 내용은:  >
+>[!DNL API] 폴더 메서드가 [!DNL Swagger](으)로 다시 작성되고 마이그레이션되었습니다. 참조: >
 >* [Adobe Audience Manager API 문서](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager API 코드 마이그레이션](../../api/api-swagger-migration.md)
-

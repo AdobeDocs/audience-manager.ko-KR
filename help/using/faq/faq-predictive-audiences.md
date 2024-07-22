@@ -8,7 +8,7 @@ feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '957'
 ht-degree: 59%
 
 ---
@@ -57,43 +57,43 @@ ht-degree: 59%
 
 [!UICONTROL Predictive Audiences] 모델이 다수의 이유로 인해 결과를 내놓지 못할 수 있습니다.
 
-1. 선택한 사용자 없음 [!UICONTROL traits] / [!UICONTROL segments] 사용자 프로필이 충분합니다. 다음을 선택하는 것이 좋습니다. [!UICONTROL traits] 또는 [!UICONTROL segments] 따라서 각 성향에 최소 수백 개의 사용자 프로필이 있습니다.
-1. 선택한 사용자 없음 [!UICONTROL traits] / [!UICONTROL segments] 사용자 프로필에 충분한 데이터가 있습니다(분석하기에 충분한 트레이트가 아님).
+1. 선택한 사용자 [!UICONTROL traits]/[!UICONTROL segments]의 사용자 프로필이 충분하지 않습니다. 각 성향에 사용자 프로필이 최소 수백 개 이상 포함되도록 [!UICONTROL traits] 또는 [!UICONTROL segments]을(를) 선택하는 것이 좋습니다.
+1. 선택한 성향 [!UICONTROL traits]/[!UICONTROL segments]의 사용자 프로필에 충분한 데이터가 없습니다(분석하기에 충분한 트레이트가 아님).
 1. 대상 대상 트레이트/세그먼트에 활성 상태이거나 온보딩된 사용자가 없습니다.
 1. 지난 30일 내에 활성 상태이거나 온보딩된 타겟 대상 사용자의 사용자 프로필에 충분한 데이터가 없습니다(분석하기에 충분한 트레이트가 아님).
-1. Target 대상 세그먼트는 다른 [!UICONTROL Profile Merge Rule] 선택한 모델에서.
-1. 대상 대상 트레이트의 데이터 소스는 [!UICONTROL Profile Merge Rule] 모델에 대해 선택한 옵션입니다.
+1. 대상 대상 세그먼트는 모델에 대해 선택한 세그먼트와 다른 [!UICONTROL Profile Merge Rule]을(를) 사용합니다.
+1. 대상 대상의 데이터 원본이 모델에 대해 선택한 [!UICONTROL Profile Merge Rule]에 포함되지 않을 수 있습니다.
 
 최적의 결과를 얻으려면 [성향 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-personas) 및 [타겟 대상 선택 기준](../features/algorithmic-models/predictive-audiences.md#selection-audience)의 제안된 지침을 따르십시오.
 
  
 
-**내 모델이 다음을 표시하는 이유 [!UICONTROL Error] 상태?**
+**내 모델이 [!UICONTROL Error] 상태를 표시하는 이유는 무엇입니까?**
 
-모델을 실행하지 못했습니다. 이러한 경우, 다음 연락처로 문의하십시오. [!DNL Adobe] 담당자.
+모델을 실행하지 못했습니다. 이러한 경우 [!DNL Adobe] 담당자에게 문의하십시오.
 
  
 
-**어떻게 하면 변경할 수 있습니까 [!UICONTROL Profile Merge Rule] 용 [!UICONTROL Predictive Audiences] [!UICONTROL segment]?**
+**[!UICONTROL Predictive Audiences] [!UICONTROL segment]에 대한 [!UICONTROL Profile Merge Rule]을(를) 변경하려면 어떻게 해야 합니까?**
 
-이전 모델과 동일한 가상 사용자 및 타겟 대상을 선택하여 새 모델을 만듭니다. 모델을 만드는 동안 다른 을(를) 지정합니다 [!UICONTROL Profile Merge Rule].
+이전 모델과 동일한 가상 사용자 및 타겟 대상을 선택하여 새 모델을 만듭니다. 모델을 만드는 동안 다른 [!UICONTROL Profile Merge Rule]을(를) 할당하십시오.
 
 >[!WARNING]
-> 또는 다음을 사용할 수 있습니다 [세그먼트 빌더](../features/segments/segment-builder.md) 수동으로 만들기 [!UICONTROL segment] 기존 예측 사용 [!UICONTROL trait] 할당 [!UICONTROL Profile Merge Rule] 원하는 대로 선택할 수 있습니다.
+> 또는 [세그먼트 빌더](../features/segments/segment-builder.md)를 사용하여 기존 예측 [!UICONTROL trait]을(를) 사용하여 [!UICONTROL segment]을(를) 수동으로 만들고 선택한 [!UICONTROL Profile Merge Rule]을(를) 할당할 수 있습니다.
 > 
-> 그러나 예측 가능하므로 이 방법은 권장하지 않습니다 [!UICONTROL traits] 자동으로 상속 [!UICONTROL Profile Merge Rule] 모델이 속해 있고, 영향력 있는 모델에서 빌드됨 [!UICONTROL traits] 다음을 준수하는 [!UICONTROL Profile Merge Rule] 모델.
+> 그러나 예측 [!UICONTROL traits]은(는) 자신이 속한 모델의 [!UICONTROL Profile Merge Rule]을(를) 자동으로 상속하며 모델의 [!UICONTROL Profile Merge Rule]을(를) 준수하는 영향력 있는 [!UICONTROL traits]에서 빌드되므로 이 방법을 사용하지 않는 것이 좋습니다.
 
  
 
-**내용 [!UICONTROL Profile Merge Rule] 선택해야 합니까?**
+**어떤 [!UICONTROL Profile Merge Rule]을(를) 선택해야 합니까?**
 
-선택 시 [!UICONTROL Profile Merge Rule] 모델의 경우 사용 사례를 면밀히 분석합니다.
+모델에 대한 [!UICONTROL Profile Merge Rule]을(를) 선택할 때 사용 사례를 면밀히 분석하십시오.
 
-타겟 대상자를 살펴보겠습니다 [!UICONTROL segment] 를 사용합니다. [!UICONTROL Profile Merge Rule] 인증된 프로필 기반 + [!DNL Device Graph] 프로파일을 선택한 경우 [!UICONTROL Profile Merge Rule] 예측 [!UICONTROL segments]. 이 경우 장치 수준과 교차 장치 수준이 모두 [!UICONTROL traits] 는 모델 교육 및 사용자를 예측으로 배치하는 데 사용됩니다 [!UICONTROL segment].
+대상 대상 [!UICONTROL segment]이(가) 인증된 프로필 + [!DNL Device Graph]개 프로필을 기반으로 [!UICONTROL Profile Merge Rule]을(를) 사용하고 예측 [!UICONTROL segments]에 대해 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택한다고 가정해 보겠습니다. 이 경우 장치 수준 및 교차 장치 수준 [!UICONTROL traits]이(가) 모두 모델 교육 및 예측 [!UICONTROL segment]에 사용자 배치에 사용됩니다.
 
-그러나 을(를) 선택하는 경우 [!UICONTROL Profile Merge Rule] 장치 프로필만 기준으로 했을 때 교차 장치가 없습니다. [!UICONTROL traits] 은 영향력이 커지며 사용자를 예측으로 배치하는 데 기여하지 않습니다 [!UICONTROL segment]. 이는 모델 정확도 및 도달 거리에 악영향을 미칠 수 있다.
+그러나 장치 프로필만 기반으로 [!UICONTROL Profile Merge Rule]을(를) 선택하면 교차 장치 [!UICONTROL traits]의 영향력이 없어지고 예측 [!UICONTROL segment]에 사용자를 배치하는 데 기여하지 않습니다. 이는 모델 정확도 및 도달 거리에 악영향을 미칠 수 있다.
 
-사용 사례를 주의 깊게 분석하고 원하는 사용 사례를 결정하십시오. [!UICONTROL trait] 모델이 학습할 데이터 유형과 모델이 분류에 사용할 데이터 유형을 지정합니다.
+사용 사례를 주의 깊게 분석하고 모델을 학습할 [!UICONTROL trait] 유형과 모델이 분류에 사용할 데이터 유형을 결정합니다.
 
 **어떤 성향 트레이트/세그먼트에도 속하지 않는 타겟 대상의 사용자를 분류할 수 있습니까?**
 
@@ -113,9 +113,9 @@ ht-degree: 59%
 
  
 
-**예측 트레이트에 대한 TTL(Time to Live)을 변경할 수 있습니까?**
+**예측 특성에 대한 TTL(Time to Live)을 변경할 수 있습니까?**
 
-예측 트레이트 TTL은 0(라이프타임)으로 설정되며 변경할 수 없습니다. [!UICONTROL Predictive Audiences] 사용자가 기본 세그먼트에 적합하거나 다른 예측 세그먼트로 재분류된 경우에만 예측 세그먼트에서 세그먼트를 해제할 수 있습니다.
+예측 트레이트 TTL은 0(라이프타임)으로 설정되며 변경할 수 없습니다. [!UICONTROL Predictive Audiences]은(는) 기본 세그먼트에 대한 자격이 있거나 다른 예측 세그먼트로 재분류된 경우에만 예측 세그먼트에서 사용자 세그먼트를 해제할 수 있습니다.
 
 필요한 경우 지정된 TTL로 예측 트레이트와 활동 트레이트를 모두 포함하는 새 세그먼트를 만들어 이 기능을 해결할 수 있습니다.
 

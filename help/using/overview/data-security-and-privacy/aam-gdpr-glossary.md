@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
 source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 94%
+source-wordcount: '678'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
 GDPR은 EU(데이터 주제)의 개인에게 개인 데이터에 대한 더 많은 제어 권한을 부여하는 동시에 EU 내 규정을 보다 효과적으로 통합함으로써 국제 비즈니스에 대한 규제 환경을 단순화한다는 기본 목표를 가지고 2018년 5월 25일부터 시행되었습니다. Adobe Audience Manager팀은 Adobe의 GDPR 대비의 일환으로 소비자인 데이터 주제의 액세스 및 삭제 요청을 지원하는 데 필요한 서비스 및 프로세스를 향상시켰습니다.
 
-에서 GDPR에 대해서도 읽어야 합니다. [개인 정보 보호 규정 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) Experience Cloud에서 GDPR이 작동하는 방식을 더 잘 이해할 수 있습니다.
+Experience Cloud에서 GDPR이 작동하는 방식을 더 잘 이해하려면 [개인 정보 보호 규정 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en)에서도 GDPR에 대해 읽어야 합니다.
 
 ## GDPR 용어집 {#gdpr-glossay}
 

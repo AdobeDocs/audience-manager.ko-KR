@@ -10,7 +10,7 @@ exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 2%
 
 ## 사용 사례 {#use-cases}
 
-포함 [!UICONTROL Unique User Reach] 보고서에서 많은 수의 고유 사용자를 유도하는 포트폴리오의 속성을 식별할 수 있습니다.
+[!UICONTROL Unique User Reach] 보고서를 사용하면 포트폴리오에서 많은 고유 사용자를 끌어들이는 속성을 식별할 수 있습니다.
 
 ## 고유 도달 범위 보고서 사용 {#using-the-report}
 
-사용 **[!UICONTROL Dimension Value]** 보고서에 표시할 광고 단위를 선택하는 상자입니다. 클릭 **[!UICONTROL All]** 거품형 차트에 모든 등록 정보를 표시합니다.
+**[!UICONTROL Dimension Value]** 상자를 사용하여 보고서에 표시할 광고 단위를 선택합니다. **[!UICONTROL All]**&#x200B;을(를) 클릭하여 거품형 차트에 있는 모든 속성을 표시합니다.
 
-사용 **일 범위** 및 **종료 날짜** 를 제어하여 룩백 범위를 조정합니다.
+**일 범위** 및 **날짜 범위** 컨트롤을 사용하여 전환 확인 범위를 조정하세요.
 
 ## 결과 해석 {#interpreting-results}
 
 **샘플 보고서**
 
-사용자 [!UICONTROL Unique User Reach] 보고서는 아래 보고서와 유사할 수 있습니다. 보고서에서 버블을 클릭하여 기본 데이터를 봅니다. 아래 표에서 추가 정보는 설명을 참조하십시오.
+[!UICONTROL Unique User Reach] 보고서는 아래 보고서와 유사할 수 있습니다. 보고서에서 버블을 클릭하여 기본 데이터를 봅니다. 아래 표에서 추가 정보는 설명을 참조하십시오.
 
 ![](assets/publisher_unique_user_reach.png)
 

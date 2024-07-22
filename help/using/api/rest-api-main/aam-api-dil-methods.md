@@ -3,30 +3,30 @@ description: 프로그래밍 방식으로 Data Integration Library(DIL)를 사�
 seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
 seo-title: Data Integration Library API Methods
 solution: Audience Manager
-title: 데이터 통합 라이브러리 API 메서드
+title: Data Integration Library API 메서드
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 13%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
-# 데이터 통합 라이브러리 API 메서드 {#data-integration-library-api-methods}
+# Data Integration Library API 메서드 {#data-integration-library-api-methods}
 
-을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다. [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+[!UICONTROL Data Integration Library]([!UICONTROL DIL])을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
 
 >[!IMPORTANT]
 >
->Data Integration Library API는 더 이상 사용되지 않습니다. 이 API는 이제 여기에서 자체 다운로드할 수 있는 DIL을 생성하는 데 사용됩니다. [DIL 다운로드](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>Data Integration Library API는 더 이상 사용되지 않습니다. 이 API는 DIL을 생성하는 데 사용되며, 이제 여기에서 직접 다운로드할 수 있습니다. [DIL 다운로드](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
 ## DIL 반환 버전 {#return-version-dil}
 
-A `GET` 가장 오래된 버전에서 가장 최신 버전으로 정렬된 버전 목록을 반환하는 메서드
+가장 오래된 버전에서 가장 최신 버전으로 정렬된 버전 목록을 반환하는 `GET` 메서드입니다.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -36,7 +36,7 @@ A `GET` 가장 오래된 버전에서 가장 최신 버전으로 정렬된 버�
 
 ### 응답
 
-성공적인 요청이 응답 코드를 반환합니다. `["4.0", "4.1"]` 아래와 같이 표시됩니다.
+성공적인 요청은 아래와 같이 응답 코드 `["4.0", "4.1"]`을(를) 반환합니다.
 
 ```
 ["4.0", "4.1"]
@@ -44,7 +44,7 @@ A `GET` 가장 오래된 버전에서 가장 최신 버전으로 정렬된 버�
 
 ## 버전에 대한 JSON 스키마 반환 {#return-json-schema-version}
 
-A `GET` 를 반환하는 메서드 [!DNL JSON] 스키마 [!UICONTROL DIL] 버전. 별칭 사용 지원 [!UICONTROL LATEST] 최신 버전의 를 가져올 수 있는 버전용 [!UICONTROL DIL].
+[!UICONTROL DIL] 버전에 대한 [!DNL JSON] 스키마를 반환하는 `GET` 메서드입니다. 버전용 별칭 [!UICONTROL LATEST]을(를) 사용하여 [!UICONTROL DIL]의 최신 버전을 가져올 수 있습니다.
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -54,7 +54,7 @@ A `GET` 를 반환하는 메서드 [!DNL JSON] 스키마 [!UICONTROL DIL] 버전
 
 ### 응답
 
-성공적인 요청이 응답 코드를 반환합니다. `["4.0", "4.1"]` 및 데이터가 아래에 표시됩니다.
+성공적인 요청은 아래와 같이 응답 코드 `["4.0", "4.1"]` 및 데이터를 반환합니다.
 
 ```
 { 
@@ -380,7 +380,7 @@ A `GET` 를 반환하는 메서드 [!DNL JSON] 스키마 [!UICONTROL DIL] 버전
 
 ## DIL 생성 {#generate-dil}
 
-A `GET` 을 생성하는 메서드 [!UICONTROL DIL] 지정된 버전을 사용하여 전달된 요청 본문 기준 [!UICONTROL DIL]. 별칭인 경우 `LATEST` 는 URL의 최신 버전인 버전에 사용됩니다. [!UICONTROL DIL] 이 생성됩니다.
+지정된 버전의 [!UICONTROL DIL]을(를) 사용하여 전달된 요청 본문을 기반으로 [!UICONTROL DIL]을(를) 생성하는 `GET` 메서드입니다. 별칭 `LATEST`이(가) URL의 버전에 사용되는 경우 [!UICONTROL DIL]의 최신 버전이 생성됩니다.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -464,4 +464,4 @@ A `GET` 을 생성하는 메서드 [!UICONTROL DIL] 지정된 버전을 사용�
 
 ### 응답
 
-성공한 업데이트가 응답 코드를 반환합니다. `201 created` 과 함께 [!UICONTROL DIL] [!DNL JavaScript] 코드.
+성공적으로 업데이트하면 응답 코드 `201 created`이(가) [!UICONTROL DIL] [!DNL JavaScript] 코드와 함께 반환됩니다.

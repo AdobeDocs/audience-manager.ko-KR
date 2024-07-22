@@ -9,8 +9,8 @@ feature: Customer Data Feeds
 exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 고객 데이터 피드(CDF) 파일에 대한 FAQ입니다.
 
-## Amazon S3 저장소 {#amazon-s3-storage}
+## Amazon S3 스토리지 {#amazon-s3-storage}
 
 **[!DNL Amazon]에서 CDF 파일은 어디에 저장됩니까?**
 
@@ -87,4 +87,3 @@ CDF 파일은 [!DNL Amazon S3] 서버의 `aam-cdf` 루트 디렉토리에 저장
 >[!MORELIKETHIS]
 >
 >* [고객 데이터 피드](../features/cdf-files.md)
-

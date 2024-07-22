@@ -8,7 +8,7 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 메타데이터 파일에 대한 상태 업데이트{#status-updates-for-metadata-files}
 
-S3 상태 디렉터리에는 `.info` 업로드한 파일에 대한 성공 및 실패 정보가 포함된 파일입니다. 파일에는 상태가 배열로 나타나는 JSON 형식의 데이터가 포함되어 있습니다.
+S3 상태 디렉터리에는 업로드한 파일에 대한 성공 및 실패 정보가 포함된 `.info` 파일이 있습니다. 파일에는 상태가 배열로 나타나는 JSON 형식의 데이터가 포함되어 있습니다.
 
-의 콘텐츠 `.info` 파일은 이 예제와 유사합니다.
+`.info` 파일의 내용은 이 예제와 비슷합니다.
 
 ```js
 //sample file path
@@ -61,7 +61,7 @@ S3 상태 디렉터리에는 `.info` 업로드한 파일에 대한 성공 및 �
 
 ## 정의된 메타데이터 키-값 쌍 {#key-value-pairs}
 
-다음 표에는 `Files` 및 `Summary` 메타데이터 상태 파일의 섹션입니다.
+다음 표는 메타데이터 상태 파일의 `Files` 및 `Summary` 섹션에 있는 키를 나열하고 정의합니다.
 
 **파일 배열의 키**
 
@@ -83,19 +83,19 @@ S3 상태 디렉터리에는 `.info` 업로드한 파일에 대한 성공 및 �
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>다음에 업로드된 메타데이터 파일에 대한 MD 5 체크섬 <code> meta</code> 디렉토리. </p> </td> 
+   <td colname="col2"> <p><code> meta</code> 디렉터리에 업로드된 메타데이터 파일에 대한 MD 5 체크섬입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>에 업로드된 메타데이터 파일의 이름 <code> meta</code> 디렉토리. </p> </td> 
+   <td colname="col2"> <p><code> meta</code> 디렉터리에 업로드된 메타데이터 파일의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>사람이 인식할 수 있는 파일에 포함된 데이터 유형 이름. 파일 이름의 하위 ID를 기반으로 합니다. </p> <p>다음을 참조하십시오 <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> 메타데이터 파일에 대한 이름 지정 규칙</a>. </p> </td> 
+   <td colname="col2"> <p>사람이 인식할 수 있는 파일에 포함된 데이터 유형 이름. 파일 이름의 하위 ID를 기반으로 합니다. </p> <p>메타데이터 파일에 대한 <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> 이름 지정 규칙을 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>사람이 인식할 수 있는 파일에 포함된 데이터 유형 이름. 파일 이름의 상위 ID를 기반으로 합니다. </p> <p>다음을 참조하십시오 <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> 메타데이터 파일에 대한 이름 지정 규칙</a>. </p> </td> 
+   <td colname="col2"> <p>사람이 인식할 수 있는 파일에 포함된 데이터 유형 이름. 파일 이름의 상위 ID를 기반으로 합니다. </p> <p>메타데이터 파일에 대한 <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> 이름 지정 규칙을 참조하십시오</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -108,7 +108,7 @@ S3 상태 디렉터리에는 `.info` 업로드한 파일에 대한 성공 및 �
  </tbody> 
 </table>
 
-**요약 오브젝트의 키**
+요약 개체의 **키**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -120,7 +120,7 @@ S3 상태 디렉터리에는 `.info` 업로드한 파일에 대한 성공 및 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>다음 위치의 파일 처리 날짜 <code><i>yyyy-mm-dd</i></code> 포맷. </p> </td> 
+   <td colname="col2"> <p><code><i>yyyy-mm-dd</i></code> 형식의 파일 처리 날짜입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 

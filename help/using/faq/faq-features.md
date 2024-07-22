@@ -10,8 +10,8 @@ feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 84%
+source-wordcount: '574'
+ht-degree: 87%
 
 ---
 
@@ -47,9 +47,9 @@ faq_features_functions.xml
 
  
 
-**대상으로 벌크 ID 내보내기를 수행할 때 일부 고객 ID가 누락되었습니다. 왜 그런 일이 발생합니까?**
+**대상으로 일괄 ID 내보내기를 수행할 때 일부 고객 ID가 누락되었습니다. 이유는 무엇입니까?**
 
-장치 ID인 경우([AAM UUID](../reference/ids-in-aam.md))이 여러 CRM ID( )에 연결되어 있습니다.[DPUUIDs](../reference/ids-in-aam.md))를 입력하면 최신 매핑만 내보내집니다. 장치 ID를 내보내는 횟수가 예상한 것보다 적을 수 있습니다.
+장치 ID([AAM UUID](../reference/ids-in-aam.md))가 여러 CRM ID([DPUUID](../reference/ids-in-aam.md))에 연결되어 있으면 최신 매핑만 내보내집니다. 장치 ID를 내보내는 횟수가 예상한 것보다 적을 수 있습니다.
 
  
 
@@ -67,7 +67,7 @@ faq_features_functions.xml
 
 **[!UICONTROL Tag Insertion Manager (TIM)]은 무엇입니까?**
 
-Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Tags]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Tags]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
 
  
 

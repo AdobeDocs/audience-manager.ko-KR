@@ -10,8 +10,8 @@ feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 89%
+source-wordcount: '1343'
+ht-degree: 86%
 
 ---
 
@@ -58,10 +58,10 @@ ht-degree: 89%
 
 **[!DNL Audience Manager] 코드를 프로덕션에 배포하기 전에 인바운드 데이터 파일([!DNL .sync] 또는 [!DNL .overwrite] 파일)을 업로드할 수 있습니까?**
 
-예. 를 사용하는 한 [!UICONTROL cross-device data source] 업로드한 CRM 데이터를 저장하기 위해 Audience Manager은 항상 데이터를 저장합니다. 실제로 다음 작업을 수행합니다. [!UICONTROL Profile Merge Rules] 오프라인 전용 사용 사례를 허용하는 Audience Manager이 2019년 10월에 실행한 개선 사항을 사용하면 Audience Manager 코드를 프로덕션에 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
+예. [!UICONTROL cross-device data source]을(를) 사용하여 업로드한 CRM 데이터를 저장하는 한 Audience Manager은 항상 데이터를 저장합니다. 실제로 오프라인 전용 사용 사례를 허용하는 2019년 10월에 Audience Manager이 실행한 [!UICONTROL Profile Merge Rules] 개선 사항에 따라 Audience Manager 코드를 프로덕션에 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
 
 * [프로필 병합 규칙 개선 사항 개요](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [오프라인 전용 데이터를 기반으로 개인화](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [오프라인 전용 데이터를 기반으로 하는 Personalization](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -154,9 +154,9 @@ FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 �
 
 * **전체:** 전체 파일은 기존 방문자 프로필을 모두 덮어쓰고 파일의 데이터로 대체합니다. 전체 파일은 파일 이름에 첨부된 `.overwrite` 태그로 식별됩니다. `.overwrite` 파일을 사용하여 방문자 트레이트를 재설정하거나 오래되어 더 이상 쓸모가 없는 트레이트를 제거할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >[!DNL .overwrite] 파일은 이 데이터 공급자에 연결된 [!DNL Audience Manager] 프로필 데이터만 덮어씁니다. 즉, [!DNL .overwrite] 파일이 처리된 후에도 방문자와 연관된 모든 [!DNL Audience Manager] 데이터가 그대로 유지됩니다.
+  >[!NOTE]
+  >
+  >[!DNL .overwrite] 파일은 이 데이터 공급자에 연결된 [!DNL Audience Manager] 프로필 데이터만 덮어씁니다. 즉, [!DNL .overwrite] 파일이 처리된 후에도 방문자와 연관된 모든 [!DNL Audience Manager] 데이터가 그대로 유지됩니다.
 
 * **증분:** 증분 파일은 기존 방문자 프로필에 새 데이터를 추가합니다. 증분 파일은 파일 이름에 첨부된 `.sync` 태그로 식별됩니다. 증분 파일로 보내도 기존 프로필을 지우거나 덮어쓰지 않습니다.
 
@@ -169,7 +169,7 @@ FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 �
 
 전체 파일 및 증분 파일 유형에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [인바운드 데이터 파일에 대한 Amazon S3 이름 및 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [인바운드 데이터에 대한 Amazon S3 이름 및 파일 크기 요구 사항...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -187,7 +187,7 @@ FTP 파일은 처리된 후에 제거됩니다. [!DNL S3] 파일은 30일 후 �
 
  
 
-**(이)란? [!DNL Data Provider ID (DPID)] 어떻게 구하죠?**
+**[!DNL Data Provider ID (DPID)]은(는) 무엇이며 어떻게 얻습니까?**
 
 Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(데이터 공급자 ID)](../reference/ids-in-aam.md)를 지정합니다. 이 ID는 고유하며 변경되지 않습니다.
 
@@ -226,7 +226,7 @@ Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(�
 
 >[!WARNING]
 >
->FTP 구성에 대한 지원을 점차 단계적으로 중단하고 있습니다. 기존 FTP 통합에서는 인바운드 데이터 파일 섭취가 여전히 지원되지만 를 사용하는 것이 좋습니다 [!DNL Amazon S3] 를 클릭하여 새로운 통합을 위해 오프라인 데이터를 온보딩할 수 있습니다. 자세한 내용은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)을 참조하십시오.
+>FTP 구성에 대한 지원을 점차 단계적으로 중단하고 있습니다. 기존 FTP 통합에서는 인바운드 데이터 파일 섭취가 여전히 지원되지만 새 통합을 위해 [!DNL Amazon S3]을(를) 사용하여 오프라인 데이터를 온보딩하는 것이 좋습니다. 자세한 내용은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)을 참조하십시오.
 
  
 
@@ -247,4 +247,3 @@ Adobe 컨설턴트는 특정 데이터 소스에 3자리 또는 4자리 [DPID(�
 >[!MORELIKETHIS]
 >
 >* [배치 데이터 전송 프로세스 설명](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-

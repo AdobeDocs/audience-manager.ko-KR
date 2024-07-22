@@ -10,7 +10,7 @@ exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 19%
+ht-degree: 2%
 
 ---
 
@@ -27,5 +27,5 @@ Audience Manager에 대한 픽셀 호출(종종 크리에이티브 픽셀 지정
 로그 수집을 설정하려면 다음 문서를 참조하십시오.
 
 * [Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기 ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [로그 데이터 및 메타데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 일반 로그 파일에 대한 로그 수집을 설정하려면
+* [Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* 일반 로그 파일에 대한 로그 수집을 설정하려면 [로그 데이터 및 메타데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

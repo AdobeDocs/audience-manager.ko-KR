@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
 source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 13%
+source-wordcount: '511'
+ht-degree: 14%
 
 ---
 
@@ -20,20 +20,20 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
 
 ## Google Ad Manager 로그 수집을 위한 사전 요구 사항 {#prereqs-dfp-ingestion}
 
-이 섹션에서 설명하는 프로세스를 완료해야 합니다 *다음 이전* 로그 수집 활성화를 위한 사전 요구 사항으로 이동합니다.
+로그 수집 활성화를 위한 필수 조건으로 전환하려면 이 섹션에서 설명하는 프로세스를 *이전*&#x200B;에 완료해야 합니다.
 
-를 사용하려면 [!DNL Google Ad Manager] (이전 Google DFP) 로그 파일 [!DNL Audience Manager], 먼저 다음을 설정해야 합니다. [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md) 광고 태그 호출. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그를 사용하여 다음 간 ID를 일치시킬 수 있습니다. [!DNL Google Ad Manager] 및 [!DNL Audience Manager]. 사용 [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module] 을(를) 설정하려면 [!DNL Audience Manager] 자사 쿠키의 UUID입니다.
+[!DNL Audience Manager]에서 [!DNL Google Ad Manager](이전 Google DFP) 로그 파일을 사용하려면 먼저 광고 태그 호출에서 [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md)을(를) 설정해야 합니다. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그에 포함되며 [!DNL Google Ad Manager]과(와) [!DNL Audience Manager] 사이의 ID를 일치시킬 수 있습니다. [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module]을(를) 사용하여 자사 쿠키에 [!DNL Audience Manager] UUID를 설정합니다.
 
-다음은 를 설정하는 방법입니다 [!DNL Audience Manager] 설명서에 설명된 광고 태그 호출의 ID:
+설명서에 설명된 대로 광고 태그 호출에서 [!DNL Audience Manager] ID를 설정하는 방법은 다음과 같습니다.
 
-* [Google 게시자 태그(GPT)를 통해](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [GPT(Google 게시자 태그)를 통해](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [쿠키 대상을 통해](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-다음을 설정해야 합니다. [!DNL Audience Manager] 본인 확인 및 다음으로 작업 가능 [!DNL Audience Manager] 모든 것이 제대로 작동하는지 확인하기 위해 컨설팅 을(를) 설정했습니다. [!DNL Audience Manager] 다음의 경우 ID가 올바르게 설정됨:
+[!DNL Audience Manager] ID를 직접 설정해야 하며, [!DNL Audience Manager] 컨설팅과 함께 모든 것이 작동하는지 확인할 수 있습니다. 다음과 같은 경우 [!DNL Audience Manager] ID를 올바르게 설정했습니다.
 
-* `'aamid'` 은 식별자로 사용되는 키입니다.
-* 사용자 ID 값의 형식이 올바르게 지정됨 [!DNL Audience Manager] 다음에 설명된 대로 UUID [Audience Manager 내 ID 색인](../../../reference/ids-in-aam.md).
-* 다음을 포함했습니다. [!DNL Audience Manager] 의 정의된 필드에 있는 UUID [!DNL Google Ad Manager] 로그(예: CustomTargeting).
+* `'aamid'`은(는) 식별자로 사용되는 키입니다.
+* [Audience Manager의 ID 색인](../../../reference/ids-in-aam.md)에 설명된 대로 사용자 ID 값의 형식이 [!DNL Audience Manager] UUID로 올바르게 지정되었습니다.
+* [!DNL Google Ad Manager] 로그의 정의된 필드에 [!DNL Audience Manager] UUID를 포함했습니다(예: CustomTargeting).
 
 ## 로그 수집 활성화를 위한 사전 요구 사항 {#prereqs-ingestion-enablement}
 
@@ -48,14 +48,14 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1단계 </p> </td> 
-   <td colname="col2"> <p>를 설정하는 데 필요한 단계를 확인합니다. <span class="keyword"> Audience Manager</span> 2단계로 이동하기 전에 UUID(위에 설명)가 완료되었습니다. </p> </td> 
+   <td colname="col2"> <p>2단계로 이동하기 전에 <span class="keyword"> Audience Manager</span> UUID를 설정하는 데 필요한 단계(위에 설명)가 완료되었는지 확인하십시오 </p> </td> 
    <td colname="col3"> <p><span class="keyword"> Audience Manager</span> 고객 지원 센터 또는 컨설팅 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2단계 </p> </td> 
    <td colname="col2"> <p>Google Ad Manager 관리자는 다음을 생성합니다. </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Google Ad Manager를 수집하기 위한 서비스 계정이에 로그인합니다 <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Google Ad Manager를 수집하기 위한 서비스 계정은 <span class="keyword"> Audience Manager</span>에 로그인합니다. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">새 자격 증명. <p>참고: 이 작업에는 이 프로젝트와 관련된 고유한 이메일 주소가 필요할 수 있으며 Google 스토리지 버킷에 대한 액세스 권한을 프로비저닝할 때 사용됩니다. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">개인 키(JSON 기반 자격 증명) </li> 
      </ol> </p> </td> 
@@ -82,8 +82,8 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
   </tr> 
   <tr> 
    <td colname="col1"> <p>Step 6 </p> </td> 
-   <td colname="col2"> <p>필수 구성 요소를 컴파일하고 자세한 지침에 따라 지원 티켓을 엽니다 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">여기</a> 로그 수집 프로세스를 시작합니다. </p> </td> 
-   <td colname="col3"> <p>귀하 또는 <span class="keyword"> Audience Manager</span> 귀하를 대신하여 컨설팅 </p> </td> 
+   <td colname="col2"> <p>로그 수집 프로세스를 시작하려면 필수 구성 요소를 컴파일하고 자세한 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">여기</a>의 지침에 따라 지원 티켓을 여십시오. </p> </td> 
+   <td colname="col3"> <p>귀하 또는 귀하를 대신하여 <span class="keyword"> Audience Manager</span> 컨설팅 </p> </td> 
   </tr> 
  </tbody> 
 </table>

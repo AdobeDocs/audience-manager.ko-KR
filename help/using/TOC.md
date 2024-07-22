@@ -16,7 +16,7 @@ ht-degree: 25%
 # Audience Manager 사용 안내서 {#user-guide}
 
 + [Audience Manager 안내서](aam-home.md)
-+ [Real-Time CDP에 대한 진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ Real-Time CDP에 대한 [진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + 웹 SDK로 마이그레이션{#migrate-to-web-sdk}
    + [Adobe Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 마이그레이션](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -93,8 +93,8 @@ ht-degree: 25%
    + [데이터 내보내기 제어](features/data-export-controls.md)
    + 데이터 소스 {#data-sources}
       + [데이터 소스 목록 및 설정](features/datasources-list-and-settings.md)
-      + [데이터 소스 만들기](features/manage-datasources.md)
-      + [해시된 이메일 워크플로우에 대한 데이터 소스 구성](features/create-data-source-hashed-emails.md)
+      + [Data Source 만들기](features/manage-datasources.md)
+      + [해시된 이메일 워크플로우를 위한 Data Source 구성](features/create-data-source-hashed-emails.md)
       + [글로벌 데이터 소스](features/global-data-sources.md)
    + [선언된 ID](features/declared-ids.md)
    + [파생 신호](features/derived-signals.md)
@@ -108,9 +108,9 @@ ht-degree: 25%
          + [사전 요구 사항 및 고려 사항](features/destinations/people-based-destinations-prerequisites.md)
          + 구현 안내서 {#implementation-guide}
             + [구현 개요](features/destinations/people-based-destinations-workflow.md)
-            + [워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동을 기반으로 한 개인화](features/destinations/people-based-destinations-workflow-combined.md)
-            + [워크플로우 B - 오프라인 전용 데이터를 기반으로 개인화](features/destinations/people-based-destinations-workflow-offline.md)
-            + [워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 한 개인화](features/destinations/people-based-destinations-workflow-authenticated.md)
+            + [워크플로우 A - 오프라인 데이터와 결합된 모든 온라인 활동을 기반으로 하는 Personalization](features/destinations/people-based-destinations-workflow-combined.md)
+            + [워크플로우 B - 오프라인 전용 데이터를 기반으로 하는 Personalization](features/destinations/people-based-destinations-workflow-offline.md)
+            + [워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 한 Personalization](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [사용자 기반 플랫폼을 통한 인증](features/destinations/people-based-destinations-authentication.md)
          + [공유 가능한 대상](/help/using/features/destinations/people-based-destinations-reporting.md)
       + 장치 기반 대상(서버 간) {#device-based}
@@ -156,7 +156,7 @@ ht-degree: 25%
       + [트레이트 개요](/help/using/features/traits/traits-overview.md)
       + [트레이트 세부 사항 페이지](features/traits/trait-details-page.md)
       + [트레이트 대시보드](features/traits/trait-dashboard.md)
-      + [활성 대상 트레이트 및 데이터 소스 동기화된 트레이트](features/traits/client-activity-synced-audience-traits.md)
+      + [활성 대상 트레이트 및 데이터 Source 동기화된 트레이트](features/traits/client-activity-synced-audience-traits.md)
       + [폴더 트레이트: 설명](features/traits/about-folder-traits.md)
       + [폴더 트레이트 관리](features/traits/manage-folder-traits.md)
       + 특성 빌더{#trait-builder}
@@ -291,7 +291,7 @@ ht-degree: 25%
 + 구현 및 통합 안내서{#implementation-integration-guides}
    + [구현 및 통합 안내서](integration/implementation-and-integration.md)
    + [데이터 통합 방법](integration/data-integration-methods.md)
-   + GPT(Google Publisher Tags)를 사용하여 Google Ad Manager 통합{#integrate-dfp-using-gpt}
+   + GPT(Google 게시자 태그)를 사용하여 Google Ad Manager 통합{#integrate-dfp-using-gpt}
       + [GPT를 사용한 Google Ad Manager 통합 개요](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [GPT를 사용하여 Google Ad Manager에 세그먼트 전송](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 대상 만들기](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -335,7 +335,7 @@ ht-degree: 25%
          + [Audience Manager 개요로 배치 데이터 보내기](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [인바운드 데이터 전송을 위한 ID 동기화](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [ID 동기화 파일 이름 및 컨텐츠 요구 사항](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및   예](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [인바운드 데이터 파일에 대한 FTP 이름 및 파일 크기 요구 사항](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [인바운드 데이터 유형에 대한 파일 PGP 암호화](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
@@ -345,17 +345,17 @@ ht-degree: 25%
       + [사용자 정의 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
       + [Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Experience Platform 세그먼트](integration/integration-aep/aam-aep-audience-sharing.md)
-   + 다른 Experience Cloud 애플리케이션과 통합 {#integration-other-solutions}
+   + 다른 Experience Cloud 응용 프로그램 {#integration-other-solutions}과(와) 통합
       + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager으로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
-      + [Experience Cloud에 Adobe Analytics 세그먼트 게시(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Experience Cloud에 대한 Publish 및 Adobe Analytics 세그먼트(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Adobe Campaign과 Audience Manager 통합(Adobe Campaign 설명서 열기)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)
    + [Amazon S3: 정보](reference/amazon-s3.md)
    + [광고주 사용 사례](reference/advertiser-use-cases.md)
    + [게시자 사용 사례](reference/publisher-use-cases.md)
-   + [베타 환경](reference/beta-environment.md)
+   + [Beta 환경](reference/beta-environment.md)
    + [트레이트 및 세그먼트 빌더의 부울 표현식](reference/boolean-expressions-tsb.md)
    + 벌크 관리 도구{#bulk-management-tools}
       + [벌크 관리 시작](reference/bulk-management-tools/bulk-management-intro.md)
@@ -382,7 +382,7 @@ ht-degree: 25%
       + [데이터 처리 구성 요소](reference/system-components/components-data-processing.md)
       + [Tag Management 구성 요소](reference/system-components/components-tag-management.md)
       + [플랫폼 아키텍처: 데이터 흐름 맵](reference/system-components/components-platform-architecture.md)
-      + [에지 데이터 센터 이해](reference/system-components/components-edge.md)
+      + [Edge 데이터 센터 이해](reference/system-components/components-edge.md)
    + [코드 및 텍스트 요소에 대한 스타일 규칙](reference/code-style-elements.md)
    + [Audience Manager의 시간대](reference/aam-time-zones.md)
    + [TLS 1.0 및 1.1 사용 중단](reference/tls-support.md)

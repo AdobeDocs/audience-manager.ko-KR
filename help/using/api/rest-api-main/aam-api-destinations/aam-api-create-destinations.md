@@ -10,23 +10,23 @@ exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
 # 대상 만들기 {#create-destinations}
 
-다음을 사용하여 대상 만들기 [!UICONTROL RESTful API] 메서드를 사용합니다.
+이 [!UICONTROL RESTful API] 메서드로 대상을 만듭니다.
 
 <!-- c_create_destinations.xml -->
 
 ## 지원되는 대상 유형: URL 및 쿠키만
 
-사용 가능한 `POST` 메서드를 사용하면 을 만들 수 있습니다. [!UICONTROL URL] 및 [!UICONTROL cookie destinations] 만 해당. 현재 다음을 만들 수 없습니다. [!UICONTROL server-to-server destinations] 다음 포함 [!DNL REST API] 메서드를 사용합니다. 그러나 관련 대상 `GET` 메서드를 사용하면 다음에 대한 정보를 검색할 수 있습니다. [!UICONTROL server-to-server destinations] 사용자 인터페이스에서 만들어집니다.
+사용 가능한 `POST` 메서드를 사용하면 [!UICONTROL URL] 및 [!UICONTROL cookie destinations]만 만들 수 있습니다. 현재 이 [!DNL REST API] 메서드로 [!UICONTROL server-to-server destinations]을(를) 만들 수 없습니다. 그러나 관련 대상 `GET` 메서드를 사용하면 사용자 인터페이스에서 만든 [!UICONTROL server-to-server destinations]에 대한 정보를 검색할 수 있습니다.
 
 ## 비-직렬 URL 대상 만들기 {#create-nonserial-dest}
 
-A `POST` 단일 키-값 쌍으로 구성된 세그먼트를 받는 대상을 만들 수 있는 메서드(예: `gender=male` 또는 `gender=female`).
+단일 키-값 쌍(예: `gender=male` 또는 `gender=female`)으로 구성된 세그먼트를 받는 대상을 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -49,7 +49,7 @@ A `POST` 단일 키-값 쌍으로 구성된 세그먼트를 받는 대상을 만
 
 ### 응답
 
-성공적인 요청이 반환됩니다. `201 created` 그리고 목적지도요
+요청이 성공하면 `201 created`과(와) 대상이 반환됩니다.
 
 ```
 { 
@@ -79,7 +79,7 @@ A `POST` 단일 키-값 쌍으로 구성된 세그먼트를 받는 대상을 만
 
 ## 직렬화된 URL 대상 만들기 {#create-serial-url-dest}
 
-A `POST` 단일 키와 연관된 여러 값을 받는 대상을 만들 수 있는 메서드(예: `color=blue, red, green`).
+단일 키와 연결된 여러 값을 받는 대상을 만들 수 있는 `POST` 메서드입니다(예: `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -89,7 +89,7 @@ A `POST` 단일 키와 연관된 여러 값을 받는 대상을 만들 수 있�
 
 ### 샘플 요청
 
-보안 지정 [!DNL URL] 대상에 전달된 키-값 쌍의 구분 기호입니다. 별도로 지정하지 않는 한 모든 요청 값이 필요합니다.
+대상에 전달된 키-값 쌍의 보안 [!DNL URL] 및 구분 기호를 지정하십시오. 별도로 지정하지 않는 한 모든 요청 값이 필요합니다.
 
 ```
 { 
@@ -105,7 +105,7 @@ A `POST` 단일 키와 연관된 여러 값을 받는 대상을 만들 수 있�
 
 ### 응답
 
-성공한 업데이트가 응답 코드를 반환합니다. `201 created` 그리고 목적지도요
+성공적으로 업데이트하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -135,7 +135,7 @@ A `POST` 단일 키와 연관된 여러 값을 받는 대상을 만들 수 있�
 
 ## 쿠키 대상 만들기: 단일 키, 직렬화되지 않음 {#create-cookie-dest-single}
 
-A `POST` 을(를) 생성할 수 있는 메서드 [!UICONTROL cookie destination] 는 단일 키-값 쌍으로 구성된 세그먼트를 허용합니다(예: `gender=male` 또는 `gender=female`).
+단일 키-값 쌍(예: `gender=male` 또는 `gender=female`)으로 구성된 세그먼트를 받는 [!UICONTROL cookie destination]을(를) 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -170,7 +170,7 @@ A `POST` 을(를) 생성할 수 있는 메서드 [!UICONTROL cookie destination]
 
 ### 응답
 
-성공한 업데이트가 응답 코드를 반환합니다. `201 created` 그리고 목적지도요
+성공적으로 업데이트하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -204,7 +204,7 @@ A `POST` 을(를) 생성할 수 있는 메서드 [!UICONTROL cookie destination]
 
 ## 쿠키 대상 만들기: 단일 키, 직렬화됨 {#create-cookie-dest-single-serial}
 
-A `POST` 단일 키와 연관된 여러 값을 받는 대상을 만들 수 있는 메서드(예: `color=blue, red, green`).
+단일 키와 연결된 여러 값을 받는 대상을 만들 수 있는 `POST` 메서드입니다(예: `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -240,7 +240,7 @@ A `POST` 단일 키와 연관된 여러 값을 받는 대상을 만들 수 있�
 
 ### 응답
 
-성공한 업데이트가 응답 코드를 반환합니다. `201 created` 그리고 목적지도요
+성공적으로 업데이트하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -275,7 +275,7 @@ A `POST` 단일 키와 연관된 여러 값을 받는 대상을 만들 수 있�
 
 ## 쿠키 대상 만들기: 다중 키, 직렬화되지 않음 {#create-cookie-dest-multi}
 
-A `POST` 다른 값을 가진 여러 키가 포함된 세그먼트를 허용하는 대상을 만들 수 있는 메서드(예: `gender=male; gender=female; color=blue; color=red`).
+값이 다른 여러 키(예: `gender=male; gender=female; color=blue; color=red`)가 포함된 세그먼트를 허용하는 대상을 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -309,7 +309,7 @@ A `POST` 다른 값을 가진 여러 키가 포함된 세그먼트를 허용하�
 
 ### 응답
 
-성공한 업데이트가 응답 코드를 반환합니다. `201 created` 그리고 목적지도요
+성공적으로 업데이트하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -342,7 +342,7 @@ A `POST` 다른 값을 가진 여러 키가 포함된 세그먼트를 허용하�
 
 ## 쿠키 대상 만들기: 다중 키, 직렬화됨 {#create-cookie-dest-multi-serial}
 
-A `POST` 여러 키 및 값이 포함된 세그먼트를 허용하는 대상을 만들 수 있는 메서드(예: `gender=male, female; color=blue, red, green`).
+여러 키와 값이 포함된 세그먼트를 허용하는 대상을 만들 수 있는 `POST` 메서드입니다(예: `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -377,7 +377,7 @@ A `POST` 여러 키 및 값이 포함된 세그먼트를 허용하는 대상을 
 
 ### 응답
 
-성공한 업데이트가 응답 코드를 반환합니다. `201 created` 그리고 목적지도요
+성공적으로 업데이트하면 응답 코드 `201 created` 및 대상이 반환됩니다.
 
 ```
 { 
@@ -414,4 +414,3 @@ A `POST` 여러 키 및 값이 포함된 세그먼트를 허용하는 대상을 
 >* [대상](../../../features/destinations/destinations.md)
 >* [대상 직렬화](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [키-값 쌍 설명](../../../reference/key-value-pairs-explained.md)
-

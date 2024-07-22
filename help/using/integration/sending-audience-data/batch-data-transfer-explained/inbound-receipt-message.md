@@ -9,14 +9,14 @@ feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 2%
+source-wordcount: '636'
+ht-degree: 0%
 
 ---
 
 # 인바운드 처리 후 파트너에 대한 샘플 메시지{#sample-message-to-partners-after-inbound-processing}
 
-인바운드 때마다 [!UICONTROL Server-to-Server] 파일이 처리되고, 전자 메일을 통해 파트너 솔루션으로 영수증이 전송되며, 구성된 경우 파트너에게 전송됩니다.
+인바운드 [!UICONTROL Server-to-Server] 파일이 처리될 때마다 전자 메일을 통해 파트너 솔루션으로 영수증을 보내고 구성된 경우 파트너에게 보냅니다.
 
 <!-- r_inbound_message.xml -->
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>출처: aam-noreply@adobe.com </b> </p> <p> <b>제목: Adobe Audience Manager 서버 간 처리 결과:</b> </p> <p> <b>Adobe 파트너에게: (ID:7)</b> <b></b> </p> <p> <b>Adobe Audience Manager 서버 간 파일 배달을 받았습니다.</b> </p> <p> <b>파일 이름:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>받은 레코드: 40669900</b> </p> <p><b>형식 오류: 0</b> </p> <p> <b>잘못된 AAM ID: 112 </b> </p> <p> <b>일치하는 AAM ID 없음: 0 </b> </p> <p> <b>실현된 트레이트 없음: 26730823 </b> </p> <p> <b>처리된 레코드: 40669900 </b> </p> <p> <b>저장된 레코드: 13938958 </b> </p> <p> <b>총 장치: 21개 </b> </p> <p> <b>총 신호: 918878926 </b> </p> <p> <b>사용되지 않은 총 신호 수: 660348376 </b> </p> <p> <b>실현된 총 트레이트: 258086908 </b> </p> <p> <b>제거된 총 트레이트: 0 </b> </p> <p> <b>유효성 검사에 실패한 총 트레이트: 0 </b> </p> <p> <b>유효성 검사에 실패한 트레이트가 있는 총 사용자 수: 0 </b> </p> <p> <b>작업 시작 시간: 2018-05-17 18:07:49 </b> </p> <p> <b>작업 종료 시간: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>보낸 사람: aam-noreply@adobe.com </b> </p> <p> <b>제목: Adobe Audience Manager 서버 간 처리 결과:</b> </p> <p> <b>Adobe 파트너님께: (ID:7)</b> <b></b> </p> <p> <b>Adobe Audience Manager 서버 간 파일 배달을 받았습니다</b> </p> <p> <b>파일 이름:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>받은 레코드: 40669900</b> </p> <p><b>형식 오류: 0</b> </p> <p> <b>잘못된 AAM ID: 112 </b> </p> <p> <b>일치하는 AAM ID 없음: 0 </b> </p> <p> <b>실현된 트레이트 없음: 26730823 </b> </p> <p> <b>처리된 레코드: 40669900 </b> </p> <p> <b>저장된 레코드: 13938958 </b> </p> <p> <b>총 장치: 21 </b> </p> <p> <b>총 신호: 918878926 </b> </p> <p> <b>사용되지 않은 총 신호 수: 660348376 </b> </p> <p> <b>실현된 총 트레이트: 258086908 </b> </p> <p> <b>제거된 총 특성: 0 </b> </p> <p> <b>총 트레이트 유효성 검사 실패: 0 </b> </p> <p> <b>검증에 실패한 트레이트가 있는 총 사용자 수: 0 </b> </p> <p> <b>작업 시작 시간: 2018-05-17 18:07:49 </b> </p> <p> <b>작업 종료 시간: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>

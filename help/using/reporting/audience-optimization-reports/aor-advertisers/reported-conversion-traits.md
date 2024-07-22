@@ -26,6 +26,6 @@ Audience Manager에서 전환 트레이트를 만드는 방법을 알아보려�
 
 ## 샘플 보고서
 
-사용자 [!UICONTROL Reported Conversion Traits] 보고서는 아래 보고서와 유사합니다.
+[!UICONTROL Reported Conversion Traits] 보고서는 아래 보고서와 유사합니다.
 
 ![](assets/reported-conversion-traits.png)

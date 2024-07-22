@@ -10,13 +10,13 @@ exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
 # 트레이트 빌더의 작업 순서 {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] 높은 우선 순위에서 낮은 우선 순위까지 아래 나열된 작업 순서에 따라 표현식을 평가합니다. 우선 순위가 높은 연산자로 정의된 트레이트 요소는 다른 우선 순위 연산자보다 먼저 평가됩니다. 이 섹션에서는 높은 연산자부터 낮은 연산자까지 우선 순위에 따라 각 연산자의 등급을 지정합니다.
+[!UICONTROL Trait Builder]은(는) 높은 우선 순위에서 낮은 우선 순위까지 아래 나열된 작업 순서에 따라 식을 평가합니다. 우선 순위가 높은 연산자로 정의된 트레이트 요소는 다른 우선 순위 연산자보다 먼저 평가됩니다. 이 섹션에서는 높은 연산자부터 낮은 연산자까지 우선 순위에 따라 각 연산자의 등급을 지정합니다.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -41,12 +41,12 @@ ht-degree: 13%
   </tr> 
   <tr> 
    <td colname="col1"> 같음 연산자 </td> 
-   <td colname="col2"> == != </td> 
+   <td colname="col2"> ==!= </td> 
    <td colname="col3"> 같음, 같지 않음 은 이전 연산자 다음에 평가됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1">부울 <span class="wintitle"> 및</span> </td> 
-   <td colname="col2"><span class="wintitle"> 그리고</span> </td> 
+   <td colname="col2"><span class="wintitle"> 및</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
   <tr> 
@@ -59,6 +59,5 @@ ht-degree: 13%
 
 >[!MORELIKETHIS]
 >
->* [TraitBuilder에서 부울 표현식 (AND, OR, NOT) 작업](../../reference/boolean-expressions-tsb.md)
+>* [TraitBuilder에서 부울 표현식(AND, OR, NOT) 작업](../../reference/boolean-expressions-tsb.md)
 >* [TraitBuilder에서 비교 연산자 사용](../../features/traits/trait-comparison-operators.md)
-

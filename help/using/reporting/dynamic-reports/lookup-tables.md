@@ -10,7 +10,7 @@ exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 18%
+ht-degree: 13%
 
 ---
 
@@ -26,9 +26,9 @@ c_lookup_tables.xml
 
 ## 로그 파일 메타데이터로 파일 크기 및 처리 시간 증가
 
-에서 사용하는 일반적인 로그 파일 [!UICONTROL Delivery Performance] 보고서에는 일반적으로 수천 개의 행과 수십 개의 열이 포함되어 있습니다. 숫자 ID와 크리에이티브, 광고주, 삽입 주문 등의 이름 등 사람이 읽을 수 있는 정보로 구성된다.
+[!UICONTROL Delivery Performance] 보고서에 사용되는 일반적인 로그 파일에는 일반적으로 수천 개의 행과 수십 개의 열이 포함되어 있습니다. 숫자 ID와 크리에이티브, 광고주, 삽입 주문 등의 이름 등 사람이 읽을 수 있는 정보로 구성된다.
 
-이 비 ID 정보를 라고 합니다. *`metadata`* (즉, 다른 정보에 대한 정보) 및 가 로그 파일의 각 행에 기록됩니다.
+ID가 아닌 이 정보를 *`metadata`*(즉, 다른 정보에 대한 정보)이라고 하며 로그 파일의 각 행에 기록됩니다.
 
 그러나 [!UICONTROL Delivery Performance] 보고서는 주로 로그 파일의 ID에서 작동합니다. 메타데이터는 유용하지만 반복적입니다. 파일 크기 및 데이터 수집 시간이 늘어납니다.
 

@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 3%
 
 >[!WARNING]
 >
->2023년 7월부터 Adobe은 의 개발을 중단했습니다. [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장명.
+>2023년 7월부터 Adobe에서 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
 >
->기존 고객은 [!DNL DIL] 구현. 그러나 Adobe은 개발되지 않습니다 [!DNL DIL] 이 점을 넘어서는 것입니다. 고객은 다음을 평가하는 것이 좋습니다. [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 을 참조하십시오.
+>기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)를 평가하는 것이 좋습니다.
 >
->2023년 7월 이후 새로운 데이터 수집 통합을 구현하려는 고객은 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) 대신,
+>2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)를 사용해야 합니다.
 
-의 메서드에 대해 설명합니다. `DIL.tools` 네임스페이스입니다. 이러한 유틸리티 기능은 특정 작업을 수행하는 데 도움이 됩니다.
+`DIL.tools` 네임스페이스의 메서드를 설명합니다. 이러한 유틸리티 기능은 특정 작업을 수행하는 데 도움이 됩니다.
 
 <!-- 
 
@@ -42,9 +42,9 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### 목적 `getSearchReferrer`
+### `getSearchReferrer`의 목적
 
-DIL, `getSearchReferrer` 사이트에 도달하기 위해 사용된 검색 결과(이름 및 키워드)를 반환합니다. 특정 검색어를 이 함수에 전달하거나 지원되는 검색 엔진( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], 및 [!DNL Yahoo]에 대해 ) `document.referrer` 기본적으로.
+DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된 검색 결과(이름 및 키워드)를 반환합니다. 기본적으로 특정 검색어를 이 함수에 전달하거나 `document.referrer`에 대해 지원되는 검색 엔진([!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] 및 [!DNL Yahoo])을 검색하도록 할 수 있습니다.
 
 ### 함수 서명
 
@@ -52,16 +52,16 @@ DIL, `getSearchReferrer` 사이트에 도달하기 위해 사용된 검색 결�
 
 ### 함수 매개 변수
 
-`getSearchReferrer` 수락:
+`getSearchReferrer`이(가) 수락:
 
-* *`{string}`*: *(선택 사항)* 검색 URL을 포함하는 문자열(사용) `document.referrer` 정의되지 않은 경우)입니다.
-* *`{object}`*: *(선택 사항)* 다음에 대한 구성이 포함된 개체 `hostPattern`, `queryParam`, 또는 `queryPattern`.
+* *`{string}`*: *(선택 사항)* 검색 URL을 포함하는 문자열입니다(정의되지 않은 경우 `document.referrer` 사용).
+* *`{object}`*: *(선택 사항)* `hostPattern`, `queryParam` 또는 `queryPattern`에 대한 구성을 포함하는 개체입니다.
 
 반환:
 
-* `{object}` 유효한 이름과 키워드가 포함된 개체입니다.
+* `{object}` 올바른 이름과 키워드가 포함된 개체입니다.
 
-### 예
+### 예시
 
 <table id="table_D035276601EC428295E4D619F05BB8D0"> 
  <thead> 
@@ -90,7 +90,7 @@ DIL, `getSearchReferrer` 사이트에 도달하기 위해 사용된 검색 결�
 </td> 
   </tr> 
   <tr> 
-   <td> <b>URL 호스트 이름을 사용자 정의 정규 표현식과 일치</b></td> 
+   <td> <b>URL 호스트 이름을 사용자 지정 정규식과 일치</b></td> 
    <td> 참조 URL의 호스트 이름과 일치하도록 사용자 지정 정규 표현식을 전달합니다. </td> 
    <td> 
   <code>
@@ -103,7 +103,7 @@ DIL, `getSearchReferrer` 사이트에 도달하기 위해 사용된 검색 결�
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>사용자 정의 정규 표현식과 검색 패턴 일치</b> </td> 
+   <td> <b>검색 패턴을 사용자 지정 정규식과 일치</b> </td> 
    <td> 사용자 정의 정규 표현식을 전달하여 사용자 정의 검색을 수행합니다. </td> 
    <td> 
     <code>
@@ -121,7 +121,7 @@ DIL, `getSearchReferrer` 사이트에 도달하기 위해 사용된 검색 결�
 
 ## deposeURI
 
-Uniform Resource Identifier( 디스어셈블링 [!DNL URI])을 구성 요소에 넣을 수 있습니다. `hash`, `host`, `href`, `pathname`, `protocol`, `search`, 및 `[!DNL uriParams]`.
+Uniform Resource Identifier( [!DNL URI])를 해당 구성 요소(`hash`, `host`, `href`, `pathname`, `protocol`, `search` 및 `[!DNL uriParams]`)로 디스어셈블합니다.
 
 <!-- 
 
@@ -133,13 +133,13 @@ r_dil_decompose.xml
 
 ### 함수 매개 변수
 
-`decomposeURI` 수락:
+`decomposeURI`이(가) 수락:
 
-* *`uri {string}`*: *(선택 사항)* URI를 포함하는 문자열입니다. 기본값은 입니다. `document.location.href` 지정하지 않은 경우
+* *`uri {string}`*: *(선택 사항)* URI를 포함하는 문자열입니다. 지정하지 않은 경우 기본값은 `document.location.href`입니다.
 
 반환:
 
-* *`{object}`*: 유효한 이름과 키워드가 포함된 객체입니다.
+* *`{object}`*: 올바른 이름과 키워드가 포함된 개체입니다.
 
 ### 샘플 코드
 
@@ -177,7 +177,7 @@ r_dil_get_metatags.xml
 
 ### 함수 매개 변수
 
-`getMetaTags` 검색할 하나 이상의 이름 매개 변수(문자열 유형)를 허용합니다. 키-값 쌍으로 구성된 개체를 반환합니다.
+`getMetaTags`은(는) 검색할 하나 이상의 이름 매개 변수(문자열 유형)를 허용합니다. 키-값 쌍으로 구성된 개체를 반환합니다.
 
 ### 샘플 코드
 

@@ -9,16 +9,16 @@ feature: Destination Basics
 exl-id: 66e61a4b-908e-4950-8953-37a9920b67b5
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '52'
+ht-degree: 0%
 
 ---
 
 # `get_aamCookie` 코드 {#get-aamcookie-code}
 
-필요한 코드 [!DNL DART Enterprise] (및 기타 대상 유형) - Audience Manager 고유 사용자 ID([!DNL UUID]) 값을 반환합니다.
+Audience Manager 고유 사용자 ID([!DNL UUID]) 값을 캡처하는 데 [!DNL DART Enterprise](및 기타 대상 형식)에 필요한 코드입니다.
 
-페이지 맨 위에서, 이상적으로 내에서 이 함수를 정의합니다 `<head>` 코드 블록.
+페이지 맨 위에서 `<head>` 코드 블록 내에서 이 함수를 정의하십시오.
 
 <!-- r_aam_de_cookie.xml -->
 

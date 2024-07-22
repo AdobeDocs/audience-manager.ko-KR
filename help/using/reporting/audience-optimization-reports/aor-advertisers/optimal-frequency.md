@@ -9,7 +9,7 @@ feature: Audience Optimization Reports
 exl-id: bf445fde-5cac-40ee-aa67-b4523391a6f1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 최적 빈도 보고서는 제공되는 노출 수와 전환 수 간의 최적 균형을 찾는 데 도움이 됩니다. 이를 통해 축소 수익을 보기 전에 표시할 노출 횟수를 조정할 수 있습니다.
 
-보고서에는 선택한 날짜로부터 30일 전환 확인 간격이 있습니다. [!UICONTROL Date Through] 선택기.
+보고서에는 [!UICONTROL Date Through] 선택기에서 선택한 날짜로부터 30일 전환 확인 간격이 있습니다.
 
 전환 볼륨은 일반적으로 더 높은 노출 빈도 버킷에 따라 감소합니다. 더 적은 사용자가 더 많은 노출 수를 봅니다. 즉, 빈도가 높은 버킷의 전환 수가 더 적습니다.
 

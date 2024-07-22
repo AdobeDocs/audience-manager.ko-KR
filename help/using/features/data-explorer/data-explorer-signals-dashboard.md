@@ -8,22 +8,22 @@ feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 2%
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
 # 신호 대시보드 {#signals-dashboard}
 
-지난 7일 동안 Audience Manager에서 수신한 사용되지 않은 신호에 대한 개요를 확인하고 새로운 잠재적인 특성을 식별하십시오. 사용하지 않는 신호는 온라인 속성에서 Audience Manager에 도달하지만 기존 트레이트에서는 사용되지 않습니다. 을(를) 보려면 [!UICONTROL Signals Dashboard]로 이동합니다. [!UICONTROL Audience Data] > [!UICONTROL Signals]. 다음 [!UICONTROL Signals Dashboard] 에서는 사용되지 않은 가장 활발한 신호를 바탕으로 실행 가능한 통찰력을 보여줍니다.
+지난 7일 동안 Audience Manager에서 수신한 사용되지 않은 신호에 대한 개요를 확인하고 새로운 잠재적인 특성을 식별하십시오. 사용하지 않는 신호는 온라인 속성에서 Audience Manager에 도달하지만 기존 트레이트에서는 사용되지 않습니다. [!UICONTROL Signals Dashboard]을(를) 보려면 [!UICONTROL Audience Data] > [!UICONTROL Signals](으)로 이동하십시오. [!UICONTROL Signals Dashboard]은(는) 가장 활동적인 미사용 신호를 기반으로 실행 가능한 통찰력을 보여 줍니다.
 
 >[!IMPORTANT]
 >
->다음 **[!UICONTROL Top Unused Signals]** 및 **[!UICONTROL New Unused Signals]** 섹션에는 개 이상의 레코드만 표시됩니다. **시간당 100회 발생**. 해당 임계값 아래의 신호는에 포함됩니다. [!UICONTROL Signals Search].
+>**[!UICONTROL Top Unused Signals]** 및 **[!UICONTROL New Unused Signals]** 섹션에는 **100회 발생 횟수/시간**&#x200B;을 초과하는 레코드만 표시됩니다. 해당 임계값 아래의 신호가 [!UICONTROL Signals Search]에 포함됩니다.
 
 ## 상위 미사용 신호 {#top-unused-signals}
 
-이 섹션에서는에 전송된 상위 50개의 미사용 신호(신규 및 기존 신호 모두)를 보여 줍니다. [!DNL Audience Manager] 지난 7일 동안, 총 수를 기준으로. 데이터에 따라 [!DNL Audience Manager] 수신, 이 표에는 항목의 일부 또는 전체가 포함될 수 있습니다. **사용하지 않는 새 신호** 테이블.
+이 섹션에는 지난 7일 동안 [!DNL Audience Manager](으)로 보낸 사용되지 않은 상위 50개 신호(새 신호 및 이전 신호 모두)가 총 개수를 기준으로 표시됩니다. [!DNL Audience Manager]이(가) 받은 데이터에 따라 이 테이블은 **사용되지 않은 새 신호** 테이블의 항목 중 일부 또는 전부를 포함할 수 있습니다.
 
 ![](assets/signals-top-unused.png)
 
@@ -35,9 +35,9 @@ ht-degree: 2%
 
 ## 저장한 검색 결과 {#saved-searches}
 
-[!DNL Audience Manager] 내 모든 항목 표시 [저장된 검색](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) 다음에 있음 [!UICONTROL Dashboard] 를 로드할 때마다 다시 로드합니다. [!UICONTROL Dashboard].
+[!DNL Audience Manager]은(는) [!UICONTROL Dashboard]에 [저장된 검색](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
 
 저장된 검색에는 해당 기준에 대한 상위 50개 결과가 표시됩니다.
 
-아래 비디오를 시청하여 사용 방법 알아보기 [!UICONTROL Signals Dashboard].
+[!UICONTROL Signals Dashboard]을(를) 사용하는 방법을 알아보려면 아래 비디오를 시청하십시오.
 >[!VIDEO](https://video.tv.adobe.com/v/25151/)

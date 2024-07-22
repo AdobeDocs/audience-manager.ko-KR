@@ -10,19 +10,19 @@ exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 12%
+ht-degree: 2%
 
 ---
 
 # 권한 관리 API 메서드 {#permissions-management-api-methods}
 
-Rest [!DNL API] 개체 및 그룹에 대한 권한을 관리하는 방법입니다.
+개체 및 그룹의 권한을 관리하는 나머지 [!DNL API] 메서드입니다.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## 사용 가능한 객체 유형 나열 {#list-object-types}
 
-A `GET` 역할 기반 액세스 컨트롤을 설정할 수 있는 사용 가능한 개체 형식을 나열하는 메서드입니다.
+역할 기반 액세스 컨트롤을 설정할 수 있는 사용 가능한 개체 형식을 나열하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -38,7 +38,7 @@ A `GET` 역할 기반 액세스 컨트롤을 설정할 수 있는 사용 가능�
 
 ## 개체 유형에 사용 가능한 권한 나열 {#list-permissions-object-type}
 
-A `GET` 개체 유형에 사용 가능한 권한을 나열하는 메서드입니다.
+개체 유형에 사용 가능한 권한을 나열하는 `GET` 메서드입니다.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 

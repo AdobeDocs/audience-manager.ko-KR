@@ -9,14 +9,14 @@ feature: Profile Merge
 exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 3%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL Profile Merge Rules] 개요 {#profile-merge-rules-overview}
 
-포함 [!UICONTROL Profile Merge Rules] 세그먼테이션에 사용되는 데이터 세트를 제어하고 여러 디바이스에서 사용자를 정확하게 타깃팅할 수 있습니다.
+[!UICONTROL Profile Merge Rules]을(를) 사용하면 세그먼테이션에 사용되는 데이터 집합을 제어하고 여러 장치에서 사용자를 정확하게 타깃팅할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/28974)
 
@@ -26,23 +26,23 @@ ht-degree: 3%
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] 근본적으로 변경 방법 [!DNL Audience Manager] 은 타깃팅할 데이터 및 사용자를 수집합니다. 장치 프로필과 이라는 두 가지 유형의 프로필로 작업할 수 있습니다. [인증된 프로필](../../reference/visitor-authentication-states.md).
+[!UICONTROL Profile Merge Rules]은(는) 기본적으로 [!DNL Audience Manager]이(가) 타깃팅을 위해 사용자와 세그먼트를 수집하는 방법을 변경합니다. 장치 프로필과 [인증된 프로필](../../reference/visitor-authentication-states.md)이라는 두 가지 유형의 프로필을 사용하여 작업할 수 있습니다.
 
 | 프로필 유형 | 설명 |
 |---|---|
-| [!UICONTROL Device Profile] | A [!UICONTROL device profile] 는 과 같은 특정 디바이스의 ID에 연결되어 있습니다. [!UICONTROL cookie] ID 또는 모바일 장치 ID.<br><br>이러한 서비스에는 다음이 포함됩니다.<ul><li>[!UICONTROL Rule-based traits] 사용자가 인증되지 않은 경우 인식됩니다.</li><li>[!UICONTROL Onboarded traits] 과 같은 장치 ID에 연결됨 [!UICONTROL cookie-based], 타사 데이터.</li></ul> |
-| [!UICONTROL Authenticated Profile] | 다음 [!UICONTROL authenticated profile] 사용자가 사이트에 로그인할 때 전달된 사용자 ID에 연결되어 있습니다.<br><br>이러한 서비스에는 다음이 포함됩니다.<ul><li>[!UICONTROL Rule-based traits] 사용자가 인증되면 장치 간에 수집됩니다.</li><li>[!UICONTROL Onboarded traits] 동일한 사용자 ID에 연결된 오프라인 파일에서</li></ul> |
+| [!UICONTROL Device Profile] | [!UICONTROL device profile]은(는) [!UICONTROL cookie] ID 또는 모바일 장치 ID와 같은 특정 장치의 ID에 연결되어 있습니다.<br><br> 다음을 포함합니다.<ul><li>사용자가 인증되지 않은 경우 [!UICONTROL Rule-based traits]이(가) 인식됩니다.</li><li>[!UICONTROL Onboarded traits]이(가) [!UICONTROL cookie-based], 타사 데이터와 같은 장치 ID에 연결되어 있습니다.</li></ul> |
+| [!UICONTROL Authenticated Profile] | [!UICONTROL authenticated profile]은(는) 사용자가 사이트에 로그인할 때 전달된 사용자 ID에 연결되어 있습니다.<br><br>다음을 포함합니다.<ul><li>사용자가 인증되면 장치 간에 [!UICONTROL Rule-based traits]이(가) 수집됩니다.</li><li>동일한 사용자 ID에 연결된 오프라인 파일의 [!UICONTROL Onboarded traits].</li></ul> |
 
-이러한 다양한 프로필은 세그멘테이션에 사용할 수 있는 데이터를 제어합니다. 예를 들어, [인증된 프로필](../../reference/visitor-authentication-states.md), 정확하게 빌드할 수 있습니다 [!UICONTROL segments] 단일 사용자에 대한 여러 장치의 데이터를 기반으로 합니다. 즉, 여러 장치의 고객에게 일관된 브랜드 경험을 제공할 수 있습니다. [!DNL Audience Manager] 은 개인이 온라인 활동에 사용하는 다양한 디바이스를 해당 디바이스에 매핑하여 저장합니다 [인증된 프로필](../../reference/visitor-authentication-states.md). 이러한 매핑을 라고 합니다. [!UICONTROL Profile Link Device Graph].
+이러한 다양한 프로필은 세그멘테이션에 사용할 수 있는 데이터를 제어합니다. 예를 들어 [인증된 프로필](../../reference/visitor-authentication-states.md)을 사용하면 단일 사용자에 대해 여러 장치의 데이터를 기반으로 정확한 [!UICONTROL segments]을(를) 작성할 수 있습니다. 즉, 여러 장치의 고객에게 일관된 브랜드 경험을 제공할 수 있습니다. [!DNL Audience Manager]은(는) 사용자가 온라인 활동에 사용하는 다른 장치를 [인증된 프로필](../../reference/visitor-authentication-states.md)에 매핑하여 저장합니다. 이러한 매핑을 [!UICONTROL Profile Link Device Graph]이라고 합니다.
 
 ![](assets/authenticated2.png)
 
 ## 장점 {#advantages}
 
-포함 [!UICONTROL Profile Merge Rules] 다음을 수행할 수 있습니다.
+[!UICONTROL Profile Merge Rules]을(를) 사용하여 다음을 수행할 수 있습니다.
 
-* Target 기준 [인증된 프로필](../../reference/visitor-authentication-states.md), 익명 프로필 또는 두 가지 모두를 조합하여 사용할 수 있습니다.
-* 특정 고객을 해당 디바이스에서 Target.
+* [인증된 프로필](../../reference/visitor-authentication-states.md), 익명 프로필 또는 두 가지 모두의 조합을 기반으로 사용자를 타깃팅합니다.
+* 디바이스 전체에서 특정 고객을 타겟팅합니다.
 * 결정론적 데이터를 기반으로 디바이스 그래프를 작성합니다.
-* 의 데이터를 미세 조정하십시오. [!UICONTROL segments] 다른 프로필을 기반으로 합니다.
+* 다른 프로필을 기준으로 [!UICONTROL segments]의 데이터를 미세 조정하십시오.
 * 대상자에 대한 추가적인 통찰력을 얻으십시오.

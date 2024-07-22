@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 94%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Audience Manager의 데이터 거버넌스는 Audience Manager에서 고객 데�
 
 >[!NOTE]
 >
->다음을 참조하십시오 [IP 주소 난독화](../../features/administration/ip-obfuscation.md) 을(를) 활성화하는 방법을 알아봅니다. [!DNL IP] Audience Manager 사용자 인터페이스에서 주소 난독화.
+>Audience Manager 사용자 인터페이스에서 [!DNL IP] 주소 난독화를 사용하는 방법에 대한 자세한 내용은 [IP 주소 난독화](../../features/administration/ip-obfuscation.md)를 참조하십시오.
 
 Audience Manager에서 [!DNL IP] 주소 난독화가 작동하는 방식을 이해하려면 아래 비디오를 보십시오.
 

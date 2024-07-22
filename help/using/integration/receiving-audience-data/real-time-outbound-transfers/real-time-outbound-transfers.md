@@ -9,14 +9,14 @@ feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 5%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
 # 실시간 아웃바운드 데이터 전송 {#real-time-outbound-data-transfers}
 
-아웃바운드 실시간 데이터 전송 프로세스는 사용자 데이터를 다음과 같이 전달합니다 [!DNL JSON] 메시지를 대상 플랫폼으로 보내도록 포맷했습니다.
+아웃바운드 실시간 데이터 전송 프로세스는 일련의 [!DNL JSON] 형식의 메시지로 사용자 데이터를 대상 플랫폼에 전달합니다.
 
 <!-- c_outbound_json.xml -->
 
@@ -24,13 +24,13 @@ ht-degree: 5%
 
 이 방법을 사용하려면 대상 플랫폼이 다음 요구 사항을 충족해야 합니다.
 
-* 끝점을 제공해야 합니다. [!DNL URL] Audience Manager에서 대량의 메시지를 수신하도록 확장할 수 있습니다.
-* 에서 데이터를 허용해야 합니다. [!DNL JSON] 형식(`Content-type: application/json`);
-* 보안을 허용해야 합니다. `HTTPS` 데이터 전송. [!DNL Audience Manager] 은(는) 비보안 상태로 메시지를 보내지 않습니다. `HTTP` 프로토콜.
+* Audience Manager에서 많은 양의 메시지를 받도록 확장할 수 있는 끝점 [!DNL URL]을(를) 제공해야 합니다.
+* [!DNL JSON] 형식(`Content-type: application/json`)의 데이터를 허용해야 합니다.
+* 보안 `HTTPS` 데이터 전송을 허용해야 합니다. [!DNL Audience Manager]이(가) 비보안 `HTTP` 프로토콜을 통해 메시지를 보내지 않습니다.
 
 ## 빈도
 
-이 데이터 전송 방법은 사용자가 세그먼트에 대한 자격을 얻을 때 거의 실시간으로 데이터를 전송할 수 있습니다. 실시간 메시지는 사용자가 온라인 상태이고 Audience Manager 에지 네트워크에 적극적으로 표시되는 동안에만 전달됩니다. 선택적으로, 이 방법은 오프라인 또는 온보딩된 데이터의 배치를 24시간마다 전송할 수도 있습니다.
+이 데이터 전송 방법은 사용자가 세그먼트에 대한 자격을 얻을 때 거의 실시간으로 데이터를 전송할 수 있습니다. 실시간 메시지는 사용자가 온라인 상태이고 Audience Manager Edge 네트워크에 적극적으로 표시되는 동안에만 전달됩니다. 선택적으로, 이 방법은 오프라인 또는 온보딩된 데이터의 배치를 24시간마다 전송할 수도 있습니다.
 
 ## 배치 전송
 
@@ -42,11 +42,11 @@ ht-degree: 5%
 
 ## 필수 응답
 
-기본적으로 수신자 서버는 `200 OK` 성공적인 수신을 나타내는 코드. 다른 코드는 실패로 해석될 것입니다. 이 응답은 3000밀리초 내에 예상됩니다. 실패에 대한 응답으로, [!DNL Audience Manager] 은(는) 한 번만 다시 시도합니다.
+기본적으로 받는 사람 서버는 `200 OK` 코드를 반환하여 성공적으로 받았음을 나타내야 합니다. 다른 코드는 실패로 해석될 것입니다. 이 응답은 3000밀리초 내에 예상됩니다. 실패에 대한 응답으로 [!DNL Audience Manager]이(가) 한 번만 다시 시도합니다.
 
 ## 매개 변수
 
-다음 표에서는 [!DNL JSON] 대상으로 전송하는 데이터 파일입니다.
+다음 표는 대상으로 보내는 [!DNL JSON] 데이터 파일의 요소를 정의합니다.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -85,7 +85,7 @@ ht-degree: 5%
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>의 총 사용자 수 <code> POST</code> 요청. </p> </td> 
+   <td colname="col3"> <p><code> POST</code> 요청의 총 사용자 수입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -95,7 +95,7 @@ ht-degree: 5%
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>다음 <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> UUID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ ht-degree: 5%
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> 배열 </td> 
-   <td colname="col3"> 다음 <span class="keyword"> Audience Manager</span> 이 디바이스를 본 지역 ID입니다. 예를 들어 디바이스에 파리(유럽)에서 활동이 있는 경우 지역 ID는 다음과 같습니다. <code> 6</code>. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 영역 ID, 위치 및 호스트 이름</a>을 참조하십시오. </td> 
+   <td colname="col3"> 이 장치를 본 <span class="keyword"> Audience Manager</span> 지역 ID입니다. 예를 들어 장치에 파리(유럽)에서 활동이 있는 경우 지역 ID는 <code> 6</code>입니다. <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">개의 DCS 지역 ID, 위치 및 호스트 이름을 참조하십시오</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -127,10 +127,10 @@ ht-degree: 5%
     </ul> <p>사용자는 다음과 같은 경우 세분화되지 않습니다. </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">세그먼트 규칙에 따라 세그먼트에서 제거되었습니다. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">의 세그먼트를 기반으로 세그먼트에서 제거됨 <a href="../../../features/traits/segment-ttl-explained.md"> TTL(Time-to-Live) 간격</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">세그먼트의 <a href="../../../features/traits/segment-ttl-explained.md"> TTL(Time-to-Live) 간격</a>을(를) 기반으로 세그먼트에서 제거되었습니다. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">지난 120일 동안 표시되지 않은 경우 비활성 상태로 이동되었습니다. </li>
-     <li>개인 정보 변경 요청으로 인해 제거되었습니다(예: <span class="keyword"> GDPR</span>)</li>
-    </ul> <p>에 동기화된 모든 파트너 ID <span class="keyword"> Audience Manager</span> ID가 다음을 수신함: <code> "Status":"0"</code> 사용자가 세분화되지 않았을 때 플래그로 표시합니다. </p> </td> 
+     <li>개인 정보 변경 요청(예: <span class="keyword"> GDPR</span>)으로 인해 제거되었습니다.</li>
+    </ul> <p><span class="keyword"> Audience Manager</span> ID에 동기화되는 모든 파트너 ID는 사용자가 세분화되지 않은 경우 <code> "Status":"0"</code> 플래그를 받습니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -142,7 +142,7 @@ ht-degree: 5%
 
 ## 보안
 
-다음을 통해 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다. [http 요청 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) 개인 키를 사용하거나 다음을 수행하여 [!DNL Audience Manager] 다음을 통해 인증 [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 프로토콜.
+개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 프로토콜을 통해 [!DNL Audience Manager]을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
 
 ## 요청
 

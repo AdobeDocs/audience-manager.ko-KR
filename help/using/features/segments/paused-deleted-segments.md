@@ -10,17 +10,17 @@ exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 # 일시 중지 및 삭제된 세그먼트 {#paused-and-deleted-segments}
 
-다음을 사용하여 활성 세그먼트를 일시 중지하거나 삭제할 때 세그먼트화된 사용자, 데이터 및 대상에 미치는 영향을 설명합니다. [!UICONTROL Segment Builder].
+[!UICONTROL Segment Builder]을(를) 사용하여 활성 세그먼트를 일시 중지하거나 삭제할 때 세그먼트화된 사용자, 데이터 및 대상에 미치는 영향을 설명합니다.
 
 ## 일시 중지 및 삭제 컨트롤에 액세스
 
-세그먼트 목록의 세그먼트 이름 위로 마우스를 가져가면 **[!UICONTROL pause]** 및 **[!UICONTROL delete]** 아이콘(에서) [!UICONTROL Actions] 열). 이러한 기능은 아래 설명된 대로 세그먼트에 영향을 줍니다.
+[!UICONTROL Actions] 열의 **[!UICONTROL pause]** 및 **[!UICONTROL delete]** 아이콘을 표시하려면 세그먼트 목록의 세그먼트 이름 위에 마우스를 가져갑니다. 이러한 기능은 아래 설명된 대로 세그먼트에 영향을 줍니다.
 
 ## 일시 중지된 세그먼트 기능
 
@@ -45,4 +45,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->를 사용하여 세그먼트를 일시 중지하고 삭제할 수도 있습니다. [!DNL API] 메서드를 사용합니다. 자세한 내용은 [REST API](../../api/rest-api-main/rest-api-main.md).
+>[!DNL API] 메서드를 사용하여 세그먼트를 일시 중지하고 삭제할 수도 있습니다. 자세한 내용은 [REST API](../../api/rest-api-main/rest-api-main.md)를 참조하십시오.

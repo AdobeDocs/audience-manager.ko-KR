@@ -10,7 +10,7 @@ exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -30,19 +30,19 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->[RBAC 그룹 권한](../../features/administration/administration-overview.md) 에 할당됨 [!DNL Audience Manager] UI는 [!UICONTROL Bulk Management Tools].
+>[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
-대량 업데이트를 수행하려면 [!UICONTROL Bulk Management Tools] 워크시트 및:
+대량 업데이트하려면 [!UICONTROL Bulk Management Tools] 워크시트를 열고 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Headers]** 탭 및 복사 [!UICONTROL Estimate Segment Size] 머리글입니다.
-2. 다음을 클릭합니다. **[!UICONTROL Estimate]** 탭.
+1. **[!UICONTROL Headers]** 탭을 클릭하고 [!UICONTROL Estimate Segment Size] 헤더를 복사합니다.
+2. **[!UICONTROL Estimate]** 탭을 클릭합니다.
 3. 예상 워크시트의 첫 행에 예상 헤더를 붙여 넣습니다.
 4. 변경할 데이터를 헤더 레이블을 기반으로 해당 열에 붙여넣거나 입력합니다.
 5. 워크시트 도구 모음에서 업데이트할 항목과 일치하는 생성 단추를 클릭합니다.
-이 작업을 수행하면 [!UICONTROL Account Information] 대화 상자.
-6. 필요한 을 입력합니다. [로그온 정보](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) 및 클릭 **[!UICONTROL Submit]**.
+이 작업은 [!UICONTROL Account Information] 대화 상자를 엽니다.
+6. 필요한 [정보에 대한 로그](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)를 입력하고 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-이 작업을 수행하면 [!UICONTROL Response] 예상 세그먼트 크기 데이터가 포함된 워크시트의 열입니다. 데이터를 입력하기 전에 벌크 예상 워크시트는 다음과 유사해야 합니다.
+이 작업을 수행하면 워크시트에 예상 세그먼트 크기 데이터가 포함된 [!UICONTROL Response] 열이 만들어집니다. 데이터를 입력하기 전에 벌크 예상 워크시트는 다음과 유사해야 합니다.
 
 ![](assets/estimate.png)
-벌크 업데이트가 오류를 반환하거나 실패한 경우 [벌크 관리 도구 문제 해결](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+벌크 업데이트가 오류를 반환하거나 실패한 경우 [벌크 관리 도구 문제 해결](../../reference/bulk-management-tools/bulk-troubleshooting.md)을 참조하십시오.

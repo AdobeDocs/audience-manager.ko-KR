@@ -3,24 +3,24 @@ description: 모든 자사 트레이트와 타사 트레이트에서 공유되�
 seo-description: Returns data on the number of unique users shared among all your first and third-party traits.
 seo-title: Trait-to-Trait Overlap Report
 solution: Audience Manager
-title: 특성-특성 Overlap Reports
+title: 특성-특성 중복 보고서
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
 source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 7%
+source-wordcount: '499'
+ht-degree: 4%
 
 ---
 
-# 특성-특성 Overlap Reports{#trait-to-trait-overlap-report}
+# 특성-특성 중복 보고서{#trait-to-trait-overlap-report}
 
 모든 자사 트레이트와 타사 트레이트에서 공유되는 고유 사용자 수에 대한 데이터를 반환합니다.
 
 >[!NOTE]
 >
->Audience Manager의 겹치기 보고서는 RBAC 원칙을 준수합니다. 를 기반으로 액세스 권한이 있는 데이터 소스의 트레이트만 볼 수 있습니다. [RBAC 사용자 그룹](/help/using/features/administration/administration-overview.md) 귀하가 속한 회사입니다.
+>Audience Manager의 겹치기 보고서는 RBAC 원칙을 준수합니다. 사용자가 속한 [RBAC 사용자 그룹](/help/using/features/administration/administration-overview.md)을(를) 기반으로 액세스 권한이 있는 데이터 원본에서만 특성을 볼 수 있습니다.
 
 <!-- 
 
@@ -30,7 +30,7 @@ c_overlap_reports.xml
 
 ## 개요
 
-다음 [!UICONTROL Trait-to-Trait Overlap] 보고서는 모든 고유한 트레이트와 타사 트레이트 간에 공유된 고유 사용자 비율(%)에 대한 데이터를 반환합니다. 이 보고서는 최적화 도구로서 다음과 같은 작업을 수행하는 데 유용합니다.
+[!UICONTROL Trait-to-Trait Overlap] 보고서는 사용자의 모든 특성과 사용자의 서드파티 특성 간에 공유된 고유 사용자 비율의 데이터를 반환합니다. 이 보고서는 최적화 도구로서 다음과 같은 작업을 수행하는 데 유용합니다.
 
 * 필요에 따라 겹치는 부분이 높거나 낮은 세그먼트를 만듭니다. 겹치는 정도가 높은 트레이트는 타깃팅된 대상을 제공하지만 고유 방문자 수는 줄어듭니다. 겹치는 정도가 낮은 트레이트는 더 크고 고유한 방문자 세트에 도달하기 위해 유용할 수 있습니다.
 * 서드파티 트레이트 데이터의 유효성 검사: 유사한 서드파티 트레이트와 서드파티 트레이트 간의 강한 겹침은 데이터 파트너의 트레이트가 정확하고 신뢰할 수 있음을 나타냅니다. 반대로 겹치는 정도가 낮으면 서드파티 트레이트가 실제로 유사한 자사 트레이트와 동일한 정보를 포함하지 않을 수 있음을 나타낼 수 있습니다.
@@ -38,15 +38,15 @@ c_overlap_reports.xml
 
 ## 샘플 보고서
 
-다음 그림은 의 요소에 대한 높은 수준의 개요를 제공합니다. [!UICONTROL Trait-to-Trait Overlap] 보고서.
+다음 그림에서는 [!UICONTROL Trait-to-Trait Overlap] 보고서의 요소에 대한 높은 수준의 개요를 제공합니다.
 
 >[!NOTE]
 >
->다음 [!UICONTROL Trait-to-Trait Overlap] 보고서는 동일한 트레이트를 자신과 비교할 때 빈 필드를 반환합니다.
+>[!UICONTROL Trait-to-Trait Overlap] 보고서는 같은 특성을 자신과 비교할 때 빈 필드를 반환합니다.
 
 >[!NOTE]
 >
->트레이트 간 중복 보고서 내에서는 폴더 트레이트를 비교할 수 없습니다. 특정 폴더 트레이트를 활용하여 세그먼트를 만들면 [세그먼트-특성 중복 보고서](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+>트레이트 간 중복 보고서 내에서는 폴더 트레이트를 비교할 수 없습니다. 특정 폴더 특성을 사용하여 세그먼트를 만들면 [세그먼트-특성 중복 보고서](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md)를 통해 분석을 수행할 수 있습니다.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -64,7 +64,7 @@ r_t2t_data_pop.xml
 
  -->
 
-다음에 대한 팝업 [!UICONTROL Trait-to-Trait Overlap] 보고서에는 아래 지표가 포함되어 있습니다. 표의 고유 수 지표는 다음을 나타냅니다. *실시간 사용자*.
+[!UICONTROL Trait-to-Trait Overlap] 보고서에 대한 팝업에 아래 지표가 포함되어 있습니다. 테이블의 고유 수 지표는 *실시간 사용자*&#x200B;를 나타냅니다.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -75,11 +75,11 @@ r_t2t_data_pop.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 오버랩 %</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> 겹치기 %</span></b> </td> 
    <td colname="col2"> 비교된 트레이트 간 고유한 겹침 비율(% 고유/고유 트레이트 겹침)을 표시합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 데이터 소스 유형</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> 데이터 Source 형식</span></b> </td> 
    <td colname="col2">트레이트가 속한 데이터 소스의 유형을 정의합니다. 다음 중 하나일 수 있습니다. 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">자사(고유한 트레이트). </li> 
@@ -120,9 +120,8 @@ r_t2t_data_pop.xml
 >[!MORELIKETHIS]
 >
 >* [데이터 슬라이더를 사용하여 보고서 결과 필터링](../../reporting/dynamic-reports/data-sliders.md)
->* [동적 보고서에 사용되는 모양, 색상 및 크기](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [동적 보고서에 사용되는 모양, 색 및 크기](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [보고서 아이콘 및 도구 설명](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Overlap Reports: 일정 및 최소 세그먼트 크기 업데이트](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [선택한 Audience Manager 보고서의 데이터 샘플링 및 오류율...](../../reporting/report-sampling.md)
 >* [Overlap Reports에 대한 CSV 파일](../../reporting/dynamic-reports/overlap-csv-files.md)
-

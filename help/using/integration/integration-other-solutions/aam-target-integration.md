@@ -9,20 +9,20 @@ feature: Adobe Target Integration
 exl-id: a8486778-305a-4f09-a4f8-0e412369228c
 source-git-commit: 34d3699dc779af8fb76a3693e91a0cb73a6a033f
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
-# 통합: Audience Manager [!DNL Target] {#integrate-audience-manager-with-target}
+# [!DNL Target]과(와) Audience Manager 통합 {#integrate-audience-manager-with-target}
 
-이 통합을 통해 Audience Manager 세그먼트를 Adobe에 보낼 수 있습니다. [!DNL Target].
+이 통합을 통해 Audience Manager 세그먼트를 Adobe [!DNL Target]에 보낼 수 있습니다.
 
-AUDIENCE MANAGER - [!DNL Target] 통합에는 다음이 필요합니다.
+Audience Manager - [!DNL Target] 통합에는 다음이 필요합니다.
 
-* 다음 [Experience Cloud 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html). 이 서비스를 사용하지 않는 경우 다음을 참조하십시오. [구현 안내서](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) 시작합니다.
-* [!DNL Profiles and Audiences]. 다음에 대해 프로비저닝되지 않은 경우 [!DNL Profiles and Audiences]시작하려면 고객 지원 센터에 문의하십시오.
+* [Experience Cloud 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html). 이 서비스를 사용하지 않는 경우 시작하려면 [구현 가이드](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)를 참조하세요.
+* [!DNL Profiles and Audiences]. [!DNL Profiles and Audiences]에 대해 프로비저닝되지 않은 경우 고객 지원 센터에 문의하여 시작하십시오.
 
-모든 Audience Manager 세그먼트가에 표시됩니다. [!DNL Target] 구현 프로세스에서 이러한 단계를 완료한 후 곧 완료됩니다. 찾는 위치 **[!UICONTROL Audiences > Audience List]** 에서 Audience Manager 세그먼트를 보려면 [!DNL Target]. 에서 Experience Cloud으로 Audience Manager 세그먼트 식별 **[!UICONTROL Source]** 열 및 기준 `aam-integration-user@adobe.com` 다음에서 **[!UICONTROL Modified]** 열.
+구현 프로세스에서 이 단계를 완료하면 모든 Audience Manager 세그먼트가 [!DNL Target]에 나타납니다. [!DNL Target]에서 Audience Manager 세그먼트를 보려면 **[!UICONTROL Audiences > Audience List]**&#x200B;을(를) 살펴보십시오. **[!UICONTROL Source]** 열의 Experience Cloud 및 **[!UICONTROL Modified]** 열의 `aam-integration-user@adobe.com`별로 Audience Manager 세그먼트를 식별합니다.
 
 ![](../assets/target.png)

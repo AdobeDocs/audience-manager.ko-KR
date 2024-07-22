@@ -9,8 +9,8 @@ feature: Inbound Data Transfers
 exl-id: fe9ecb97-4a45-4fbb-855e-01df007144cf
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 4%
 인바운드 데이터 전송을 활성화하기 위해 공급업체 및 클라이언트는 다음을 수행합니다.
 
 1. 공급업체 또는 파트너가 실행할 트레이트를 결정합니다.
-1. 트레이트에 대한 픽셀을 가져옵니다. 트레이트 목록 화면에서 **[!UICONTROL Actions]** 열을 클릭하고 **[!UICONTROL Get trait URL]** 원하는 트레이트에 대한 기호입니다.
-1. 다음을 제공합니다 [!DNL URL] 공급업체 또는 파트너에게
+1. 트레이트에 대한 픽셀을 가져옵니다. 특성 목록 화면에서 **[!UICONTROL Actions]** 열 위로 마우스를 가져간 후 원하는 특성에 대한 **[!UICONTROL Get trait URL]** 기호를 클릭합니다.
+1. 공급업체 또는 파트너에게 [!DNL URL]을(를) 제공하십시오.
 
-## 예
+## 예시
 
-이 기본 이벤트 호출은 트레이트 ID 1234를 로 보냅니다. [!DNL Audience Manager].
+이 기본 이벤트 호출은 트레이트 ID 1234를 [!DNL Audience Manager](으)로 보냅니다.
 
 ```
 https://something.demdex.net/event?d_sid=1234
 ```
 
-이벤트 호출에서 트레이트 ID를 직렬화하여 크기를 줄일 수 있습니다 `HTTP` 페이지의 트래픽입니다. 다음 예와 같이 URL 문자열에 추가 트레이트 ID를 추가합니다.
+이벤트 호출에서 트레이트 ID를 serialize하여 페이지의 `HTTP` 트래픽을 줄일 수 있습니다. 다음 예와 같이 URL 문자열에 추가 트레이트 ID를 추가합니다.
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432

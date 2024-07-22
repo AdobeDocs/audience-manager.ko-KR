@@ -16,6 +16,6 @@ ht-degree: 0%
 
 # Google Ad Manager (이전의 DFP) as a Audience Manager 대상 {#dfp-as-an-audience-manager-destination}
 
-설정 [!DNL Google Ad Manager] 를 대상으로 하고 Audience Manager 세그먼트 데이터를 해당 플랫폼으로 보냅니다.
+[!DNL Google Ad Manager]을(를) 대상으로 설정하고 해당 플랫폼으로 Audience Manager 세그먼트 데이터를 보냅니다.
 
-이 섹션의 설명서에서는 과 를 통합하는 이전 방법에 대해 설명했습니다 [!DNL Google Ad Manager] 및 이(가) 제거되었습니다. 대상 [!DNL Google Ad Manager] 통합, 참조 [GPT(Google Publisher Tags)를 사용하여 Google Ad Manager 통합](../integration/gpt-aam-destination/gpt-aam-requirements.md).
+이 섹션의 설명서에서 [!DNL Google Ad Manager]과(와) 통합하는 이전 방법을 설명하고 제거되었습니다. [!DNL Google Ad Manager] 통합에 대해서는 [GPT(Google 게시자 태그)를 사용하여 Google Ad Manager 통합](../integration/gpt-aam-destination/gpt-aam-requirements.md)을 참조하십시오.

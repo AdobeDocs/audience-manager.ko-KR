@@ -10,7 +10,7 @@ exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>변수가에 표시됨 <i>기울임체</i>. 변수 이름에 적절한 값으로 대체합니다. </p> <p>시각적 명확성을 위해 &lt; &gt; 대괄호 사이에 변수와 기타 코드 요소가 나타나는 경우가 있습니다. 코드에서는 이러한 기호를 사용할 필요가 없습니다. </p> </td> 
+   <td colname="col2"> <p>변수가 <i>기울임꼴</i>로 나타납니다. 변수 이름에 적절한 값으로 대체합니다. </p> <p>시각적 명확성을 위해 &lt; &gt; 대괄호 사이에 변수와 기타 코드 요소가 나타나는 경우가 있습니다. 코드에서는 이러한 기호를 사용할 필요가 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -36,7 +36,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>괄호로 묶인 항목은 부울을 나타냅니다. <span class="wintitle"> 또는</span> 선택. </p> </td> 
+   <td colname="col2"> <p>괄호로 묶인 항목은 부울 <span class="wintitle"> 또는 </span> 선택을 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 

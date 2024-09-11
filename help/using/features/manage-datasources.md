@@ -8,9 +8,9 @@ title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 6ec76227dd8c7581550c3d95e24fc5b6a4b01093
+source-git-commit: e41dddd022b6fa02cab3e16bd21536d41584975f
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 >다음 제한 사항에 유의하십시오.
 >
 >* [활성 대상 또는 데이터 Source 동기화된 트레이트](../features/traits/client-activity-synced-audience-traits.md)는 삭제할 수 없습니다.
->* Adobe Analytics을 사용하는 고객의 경우: Audience Manager에서 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. [핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html)를 사용하여 이러한 데이터 원본 매핑을 해제하세요.
+>* Adobe Analytics을 사용하는 고객의 경우: Audience Manager에서 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. [핵심 서비스](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)를 사용하여 이러한 데이터 원본 매핑을 해제하세요.
 
 1. **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**&#x200B;을(를) 클릭합니다.
 1. 하나 이상의 데이터 소스 옆에 있는 확인란을 선택합니다.

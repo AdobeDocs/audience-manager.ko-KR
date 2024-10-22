@@ -8,9 +8,9 @@ title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: e41dddd022b6fa02cab3e16bd21536d41584975f
+source-git-commit: bda66cb9aaee3a40ae64dda100f42b88696a027e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -29,26 +29,19 @@ ht-degree: 0%
 
 ## [!UICONTROL Data Source] 세부 정보 {#details}
 
-[!UICONTROL Data Source Details] 섹션을 완료하려면
+[!UICONTROL Data Source Details] 섹션을 완료하려면 다음 필드를 입력하십시오.
 
-1. [!UICONTROL data source] 이름을 지정합니다.
-1. *(선택 사항)*&#x200B;에서 [!UICONTROL data source]을(를) 설명합니다. 간략한 설명을 통해 [!UICONTROL data source]의 역할이나 목적을 정의할 수 있습니다.
-1. [!UICONTROL integration code] 입력. 일반적으로 [!UICONTROL integration codes]은(는) 선택 사항입니다. 다음 작업을 수행할 때 필요합니다.
-
+1. **[!UICONTROL Name]**: 데이터 원본의 이름을 입력하십시오.
+1. **[!UICONTROL Description]**(선택 사항): 데이터 원본의 역할이나 목적을 정의하는 데 도움이 되도록 데이터 원본에 대한 설명을 입력하십시오.
+1. **[!UICONTROL Integration Code]**(선택 사항): 통합 코드를 입력합니다. 다음 코드를 원하는 경우 필요합니다.
    * [장치 간 데이터 원본 만들기](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
    * [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하십시오.
    * [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md)을 사용하여 작업합니다.
-
-1. **[!UICONTROL ID Type]** 선택. [!UICONTROL ID Type] 옵션은 다음과 같습니다.
-
+1. **[!UICONTROL Namespace]**(읽기 전용): 이 필드는 읽기 전용이며 데이터 원본을 저장할 때 자동으로 생성됩니다. Audience Manager에서 Experience Platform으로 세그먼트를 내보내려면 자동으로 생성된 값을 Experience Platform의 네임스페이스 [ID 기호](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace)(으)로 사용하여 Experience Platform에서 해당 [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces)를 만들어야 합니다.
+1. **[!UICONTROL ID Type]**: 이 데이터 원본에 포함할 ID 유형 선택:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
    * **[!UICONTROL Cross-device]**([!UICONTROL Profile Merge Rule]을(를) 만드는 데 필요). 일부 고객의 경우 이 옵션을 선택하면 **[!UICONTROL ID Definition]** 옵션이 표시됩니다.
-
-   >[!NOTE]
-   >
-   >Audience Manager 및 Experience Platform을 위해 프로비저닝된 각 조직에 대해 두 앱 간에 세그먼트 공유를 설정하지 않았더라도 교차 장치 데이터 소스를 만들 때 해당 [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces)가 Experience Platform에 만들어집니다.
-
 1. **[!UICONTROL ID Definition]** 옵션을 선택하십시오. 옵션은 다음과 같습니다.
 
    * **[!UICONTROL Person]**

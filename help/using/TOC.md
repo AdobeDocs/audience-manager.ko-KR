@@ -3,7 +3,7 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager 사용 안내서
-user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타겟팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
+user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타기팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
 feature-set: Audience Manager
 source-git-commit: b0c35d79a07b481e332ddf8f4aedab5484416a51
 workflow-type: tm+mt
@@ -183,7 +183,7 @@ ht-degree: 25%
    + [보고서 대시보드](reporting/reports-dashboard.md)
    + [일반 보고서](reporting/general-reports.md)
    + [트렌드 보고서](reporting/trend-reports.md)
-   + 대상 최적화 보고서 {#audience-optimization-reports}
+   + 대상자 최적화 보고서 {#audience-optimization-reports}
       + [Audience Optimization 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + 광고주를 위한 Audience Optimization{#audience-optimization-advertisers}
          + [광고주를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
@@ -309,7 +309,7 @@ ht-degree: 25%
       + [실행 가능 로그 파일](integration/media-data-integration/actionable-log-files.md)
       + [픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처](integration/media-data-integration/impression-data-pixels.md)
       + [픽셀 호출을 통해 캠페인 클릭 데이터 캡처](integration/media-data-integration/click-data-pixels.md)
-   + 대상 데이터 수신{#receiving-audience-data}
+   + 대상자 데이터 수신{#receiving-audience-data}
       + [대상 데이터 수신 개요](integration/receiving-audience-data/receiving-audience-data-overview.md)
       + [아웃바운드 데이터 전송을 위한 ID 동기화](integration/receiving-audience-data/id-sync-outbound.md)
       + 실시간 아웃바운드 데이터 전송{#real-time-outbound-transfers}
@@ -324,7 +324,7 @@ ht-degree: 25%
          + [아웃바운드 템플릿 매크로](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [아웃바운드 매크로 예제](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
          + [아웃바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
-   + 대상 데이터 보내기{#sending-audience-data}
+   + 대상자 데이터 보내기{#sending-audience-data}
       + [대상 데이터 보내기](integration/sending-audience-data/send-audience-data.md)
       + 실시간 인바운드 데이터 통합 {#real-time-inbound-data-integration}
          + [인바운드 실시간 데이터 전송을 위한 기술 사양](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
@@ -391,7 +391,7 @@ ht-degree: 25%
 + FAQ{#faqs}
    + [Audience Manager FAQ 개요](faq/faq-overview.md)
    + [API FAQ](faq/faq-api.md)
-   + [대상 랩 FAQ](faq/faq-audience-lab.md)
+   + [대상자 랩 FAQ](faq/faq-audience-lab.md)
    + [고객 데이터 피드 FAQ](faq/faq-cdf.md)
    + [데이터 수집 및 제품 통합 FAQ](faq/faq-data-collection.md)
    + [인바운드 고객 데이터 섭취 FAQ](faq/faq-inbound-data-ingestion.md)

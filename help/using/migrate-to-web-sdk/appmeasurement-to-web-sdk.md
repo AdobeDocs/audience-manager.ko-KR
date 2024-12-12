@@ -2,9 +2,9 @@
 title: AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 Audience Manager을 위해 데이터 수집 라이브러리를 업데이트합니다.
 description: AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 Audience Manager을 위해 데이터 수집 라이브러리를 업데이트하는 단계를 이해합니다.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: 3ba980e97763866d82bdf94109068f1f1f8f63d2
+source-git-commit: f8d8eb722e7b5cc4371f400a76fbd548a1318668
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2589'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,18 @@ Analytics 팀과 함께 [Tags](https://experienceleague.adobe.com/en/docs/analyt
 1. **[!UICONTROL Save]**&#x200B;을(를) 선택합니다.
 
 이제 데이터 스트림이 Audience Manager에 데이터를 보내고 Audience Manager 응답을 웹 SDK에 전달할 준비가 되었습니다.
+
++++
+
++++**4. ID 맵에 고객 ID 추가**
+
+대부분의 Audience Manager 구현은 교차 장치 개인화 시나리오에서 [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-overview.md)을 사용하며 인증 상태(로그인 또는 로그아웃)에 따라 방문자가 자격을 부여할 수 있는 세그먼트를 제어하는 데 도움이 됩니다. 프로필 병합 규칙을 사용하려면 인증 후 모든 데이터 수집 호출에서 고객 소유 식별자(CRM ID, 계정 번호 등)를 Audience Manager에게 보내야 합니다. 이전에는 방문자 ID 서비스([!DNL visitor.js])의 `setCustomerIDs` 함수를 사용하여 고객 ID를 각 Analytics 데이터 수집 호출에 추가한 다음 Audience Manager으로 전달했습니다.
+
+웹 SDK을 사용하면 이제 [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap)이라는 특수한 XDM 구문을 사용하여 이러한 ID를 Edge Network으로 전송해야 합니다.
+
+ID 맵에서 ID를 올바르게 전달하려면 [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 이해하고 전달할 ID를 신중하게 고려해야 합니다. 특히 Experience Platform 샌드박스로 데이터를 전송할 때 더욱 그렇습니다. [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305)에서는 이러한 고려 사항과 지침을 간략하게 설명합니다.
+
+전달할 ID와 시기를 결정했으면 Tags 내에서 [!UICONTROL Identity map] **[!UICONTROL Identity map]** [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map)를 사용하기 위한 안내서를 따르거나 [ID 데이터 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)에 설명된 대로 수동으로 설정하여 웹 SDK 배포 전략에 맞게 조정하십시오.
 
 +++
 

@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager 사용 안내서
 user-guide-description: Adobe Audience Manager를 사용하여 사이트 방문자에 대한 상업적 연관성이 있는 정보를 수집하고 마케팅 가능한 세그먼트를 만드는 방법에 대해 알아봅니다. 또한 타기팅 광고 및 콘텐츠를 적합한 대상자에게 제공하는 방법에 대한 자세한 내용을 살펴볼 수 있습니다.
 feature-set: Audience Manager
-source-git-commit: b0c35d79a07b481e332ddf8f4aedab5484416a51
+source-git-commit: fa0e5df921550f3c287baa08aedf53cf486d3675
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1863'
 ht-degree: 25%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 25%
 
 + [Audience Manager 안내서](aam-home.md)
 + Real-Time CDP에 대한 [진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
-+ 웹 SDK로 마이그레이션{#migrate-to-web-sdk}
-   + [Adobe Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 마이그레이션](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
++ 웹 SDK{#migrate-to-web-sdk}(으)로 마이그레이션
+   + [Adobe Audience Manager 태그 확장 프로그램에서 웹 SDK 태그 확장 프로그램으로 마이그레이션](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [데이터 수집 라이브러리를 AppMeasurement에서 Web SDK으로 마이그레이션](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 개요{#overview}
    + [Audience Manager 개요](overview/aam-overview.md)
    + [수집한 데이터 유형](overview/data-types-collected.md)
@@ -37,7 +37,7 @@ ht-degree: 25%
          + [동의 관리](overview/data-security-and-privacy/data-privacy-consent.md)
          + [IAB TCF를 위한 Audience Manager 플러그인](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [데이터 거버넌스](overview/data-security-and-privacy/data-governance.md)
-   + [Audience Manager에서의 접근성](/help/using/overview/accessibility-in-aam.md)
+   + [Audience Manager의 접근성](/help/using/overview/accessibility-in-aam.md)
 + 기능{#features}
    + [대응 가능 대상](features/addressable-audiences.md)
    + 관리{#administration}
@@ -117,7 +117,7 @@ ht-degree: 25%
          + [새 장치 기반 대상 추가](features/destinations/add-device-based-destinations.md)
          + [Audience Manager 장치 기반 대상 목록](/help/using/features/destinations/device-based-destinations-list.md)
          + [서버 간 대상에 대한 세그먼트 추가 또는 편집](features/destinations/add-edit-segments.md)
-         + [twitter 사용자 지정 대상을 셀프서비스 장치 기반 대상으로 구성](features/destinations/twitter-tailored-audiences.md)
+         + [Twitter 사용자 지정 대상을 셀프서비스 장치 기반 대상으로 구성](features/destinations/twitter-tailored-audiences.md)
          + [Amazon Advertising을 셀프서비스 장치 기반 대상으로 구성](features/destinations/amazon-advertising.md)
       + 사용자 지정 대상 {#custom-destinations}
          + [URL 대상 구성](features/destinations/create-url-destination.md)
@@ -150,8 +150,8 @@ ht-degree: 25%
       + [세그먼트 빌더](features/segments/segment-builder.md)
       + [세그먼트 표현식 편집기에 사용되는 코드 구문](features/segments/segment-code-syntax.md)
       + [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](features/segments/segment-builder-data.md)
-      + [트레이트 Recommendations](features/segments/trait-recommendations.md)
-      + [트레이트 및 세그먼트 자격 참조](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
+      + [트레이트 권장 사항](features/segments/trait-recommendations.md)
+      + [트레이트 및 세그먼트 선별 참조](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + 트레이트{#traits}
       + [트레이트 개요](/help/using/features/traits/traits-overview.md)
       + [트레이트 세부 사항 페이지](features/traits/trait-details-page.md)
@@ -186,7 +186,7 @@ ht-degree: 25%
    + 대상자 최적화 보고서 {#audience-optimization-reports}
       + [Audience Optimization 보고서](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + 광고주를 위한 Audience Optimization{#audience-optimization-advertisers}
-         + [광고주를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
+         + [Audience Optimization for Advertisers 개요](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
          + [Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [트렌드 분석 및 볼륨 분석 보고서](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
@@ -195,7 +195,7 @@ ht-degree: 25%
          + [보고된 전환 특성](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
          + [크로스 채널 전환](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + 게시자를 위한 Audience Optimization{#audience-optimization-publishers}
-         + [게시자를 위한 Audience Optimization 개요](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
+         + [게시자용 Audience Optimization 개요](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
          + [Google Ad Manager(이전의 DFP) 데이터 파일을 Audience Manager에 가져오기](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [세그먼트 성과 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [세그먼트 트렌드 보고서](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
@@ -205,7 +205,7 @@ ht-degree: 25%
          + [고유 사용자 도달 범위](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Audience Optimization 보고서 및 실행 가능 로그 파일을 위한 데이터 및 메타데이터 파일 {#data-and-metadata-files}
          + [로그 데이터 및 메타데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [Audience Optimization 보고서용 데이터 파일 및 실행 가능 로그 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+         + [Audience Optimization 보고서 및 실행 가능 로그 파일용 데이터 파일](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [메타데이터 파일에 대한 개요 및 매핑](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [메타데이터 파일에 대한 이름 지정 규칙](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [메타데이터 파일에 대한 컨텐츠 형식](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -275,7 +275,7 @@ ht-degree: 25%
       + [DCS 지역 API 메서드](api/rest-api-main/aam-api-dcs-regions.md)
    + [SDK 코드](api/aam-sdk.md)
 + DIL(데이터 통합 라이브러리) API{#dil-api}
-   + [Data Integration Library(DIL) 이해](dil/dil-overview.md)
+   + [Data Integration Library 이해(DIL)](dil/dil-overview.md)
    + 클래스 수준 DIL 메서드{#class-level-dil-methods}
       + [클래스 수준 DIL API 시작](dil/dil-class-overview/dil-start.md)
       + [DIL 만들기](dil/dil-class-overview/dil-create.md)
@@ -299,11 +299,11 @@ ht-degree: 25%
       + [Google 게시자 태그에 대한 Audience Manager 코드](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + 타사 대상과의 통합 {#integrating-third-party}
       + [Facebook WCA 통합](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
-      + [Audience Manager 대상으로서의 OAS](integration/integrating-third-party/open-ad-server-destination.md)
-      + [Audience Manager 대상으로 OpenX](integration/integrating-third-party/openx-destination.md)
+      + [OAS as a Audience Manager 대상](integration/integrating-third-party/open-ad-server-destination.md)
+      + [OpenX as a Audience Manager 대상](integration/integrating-third-party/openx-destination.md)
       + [Google Ad Manager (이전의 DFP) as a Audience Manager 대상](integration/aam-dfp.md)
       + [Google AdWords 리마케팅 목록에 세그먼트 보내기](integration/integrating-third-party/rlsa-integration.md)
-   + [구현 Audience Manager](integration/implement-audience-manager.md)
+   + [Audience Manager 구현](integration/implement-audience-manager.md)
    + 미디어 데이터 통합{#media-data-integration}
       + [미디어 데이터 통합 개요](integration/media-data-integration/media-data-integration.md)
       + [실행 가능 로그 파일](integration/media-data-integration/actionable-log-files.md)
@@ -332,7 +332,7 @@ ht-degree: 25%
          + [실시간 인바운드 데이터 섭취](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
       + 배치 데이터 전송 프로세스{#batch-data-transfer-process}
          + [배치 데이터 전송 프로세스 설명](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-         + [Audience Manager 개요로 배치 데이터 보내기](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+         + [Audience Manager으로 배치 데이터 보내기 개요](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [인바운드 데이터 전송을 위한 ID 동기화](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [ID 동기화 파일 이름 및 컨텐츠 요구 사항](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
          + [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및   예](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
@@ -346,10 +346,10 @@ ht-degree: 25%
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
       + [Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Experience Platform 세그먼트](integration/integration-aep/aam-aep-audience-sharing.md)
    + 다른 Experience Cloud 응용 프로그램 {#integration-other-solutions}과(와) 통합
-      + [Adobe Target과 Audience Manager 통합](integration/integration-other-solutions/aam-target-integration.md)
+      + [Audience Manager과 Adobe Target 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager으로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
-      + [Experience Cloud에 대한 Publish 및 Adobe Analytics 세그먼트(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Adobe Campaign과 Audience Manager 통합(Adobe Campaign 설명서 열기)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Adobe Analytics 세그먼트를 Experience Cloud에 게시(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Audience Manager과 Adobe Campaign 통합(Adobe Campaign 설명서 열기)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)
    + [Amazon S3: 정보](reference/amazon-s3.md)
@@ -369,7 +369,7 @@ ht-degree: 25%
       + [벌크 관리 도구 용어집](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID가 DPID 및 DPUUID 대체](reference/cid.md)
    + [데이터 전달 및 파일 처리 시간이 보고서에 미치는 영향](reference/reporting-file-transfer-timeframe.md)
-   + [Audience Manager 내 ID 색인](reference/ids-in-aam.md)
+   + [Audience Manager의 ID 색인](reference/ids-in-aam.md)
    + [키-값 쌍 설명](reference/key-value-pairs-explained.md)
    + [암호 요구 사항, 잠긴 계정 및 잊어버린 암호](reference/password-requirements.md)
    + [신호, 트레이트 및 세그먼트](reference/signal-trait-segment.md)

@@ -8,9 +8,9 @@ title: 벌크 관리 시작
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
+source-git-commit: 0c9c333f4e8d6d416d497f336e3e447e2e251d47
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 # 벌크 관리 시작{#getting-started-with-bulk-management}
 
-[!DNL Bulk Management Tools]을(를) 사용하면 한 번의 작업으로 여러 개체를 한 번에 만들고 관리할 수 있습니다. [!DNL Bulk Management Tools]을(를) 사용하여 [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments] 및 [!UICONTROL traits](으)로 작업할 수 있습니다.
+[!DNL Bulk Management Tools]을(를) 사용하면 한 번의 작업으로 여러 개체를 한 번에 만들고 관리할 수 있습니다. [!DNL Bulk Management Tools]을(를) 사용하여 [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments] 및 [!UICONTROL traits]&#x200B;(으)로 작업할 수 있습니다.
 
 >[!IMPORTANT]
 >
->Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
+>벌크 관리 도구는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 
@@ -42,13 +42,13 @@ c_bulk_start.xml
 
 최신 워크시트 **[여기](assets/BAAAM_V2_20210609.xlsm)**(2021년 6월에 마지막으로 업데이트됨)를 다운로드합니다.
 
-## 전제 조건 {#prereqs}
+## 사전 요구 사항 {#prereqs}
 
 [!DNL Bulk Management Tools]을(를) 사용하려면 다음이 필요합니다.
 
 * [!DNL Experience Cloud] 로그인입니다. 고객은 이미 이러한 자격 증명을 가지고 있어야 합니다.
 * [!DNL Bulk Management Tools] 워크시트. [워크시트를 다운로드](assets/BAAAM_V2_20210609.xlsm)하여 최신 버전을 다운로드하세요.
-* [!DNL Microsoft Excel]이(가) [!DNL macOS] 또는 64비트 [!DNL Microsoft Windows]에서 실행 중입니다. 최신 버전의 [!DNL Microsoft Excel]을(를) 사용하는 것이 좋습니다.
+* 64비트 [!DNL Microsoft Windows]에서 실행 중인 [!DNL Microsoft Excel]. 최신 버전의 [!DNL Microsoft Excel]을(를) 사용하는 것이 좋습니다. [!DNL macOS]에서는 대량 관리 도구가 지원되지 않습니다.
 * 워크시트를 열 때 [!DNL Bulk Management Tools]이(가) 작동하려면 **매크로를 사용**&#x200B;해야 합니다.
 
 ## 인증 요구 사항 및 옵션 {#auth-reqs}
@@ -86,7 +86,7 @@ c_bulk_start.xml
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 작업 </th> 
+   <th colname="col1" class="entry"> 액션 </th> 
    <th colname="col2" class="entry"> 오브젝트 </th> 
   </tr> 
  </thead>

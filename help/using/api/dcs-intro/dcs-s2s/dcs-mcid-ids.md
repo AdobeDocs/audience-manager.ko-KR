@@ -7,7 +7,7 @@ title: Adobe Experience Platform ID 서비스를 통해 사용자 ID 및 지역 
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ID 서비스 고객은 [!DNL DCS] API 호출을 수행하는 데 필요한 ID에
 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서는 웹 사이트를 방문하는 사용자에게 방문자와 지역 ID를 할당합니다. 이러한 ID는 [!DNL Experience Cloud]의 모든 솔루션에서 사용자를 식별하며 [!DNL DCS]을(를) 호출하려는 경우 필요합니다.
 
 * 데이터를 식별하고 특정 방문자와 연결하려면 [!UICONTROL user ID]이(가) 필요합니다.
-* [!UICONTROL region ID]은(는) [!DNL DCS](으)로 데이터를 보내야 하는 지역 서버 이름에 연결되어 있기 때문에 필요합니다. [!DNL DCS]은(는) 지리적으로 사이트 방문자에게 가장 가까운 데이터 센터에 정보를 저장합니다. [DCS 영역 ID, 위치 및 호스트 이름](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)을 참조하십시오.
+* [!UICONTROL region ID]은(는) [!DNL DCS]&#x200B;(으)로 데이터를 보내야 하는 지역 서버 이름에 연결되어 있기 때문에 필요합니다. [!DNL DCS]은(는) 지리적으로 사이트 방문자에게 가장 가까운 데이터 센터에 정보를 저장합니다. [DCS 영역 ID, 위치 및 호스트 이름](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)을 참조하십시오.
 
 ID 서비스 고객은 ID 서비스 쿠키나 함수를 호출하여 이 정보를 추출할 수 있습니다. 아래 표는 시작하기 위해 완료해야 하는 작업 또는 단계에 대해 설명합니다.
 
@@ -38,8 +38,8 @@ ID 서비스 고객은 ID 서비스 쿠키나 함수를 호출하여 이 정보�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1. <span class="keyword"> Experience Cloud 확인</span> 상태 확인</b> </p> </td> 
-   <td colname="col2"> <p>ID 서비스를 사용하려면 <span class="keyword"> Experience Cloud</span> 계정이 필요합니다. <span class="keyword"> Experience Cloud</span> 계정이 있는 경우 좋습니다! </p> <p> <span class="keyword"> Experience Cloud</span>에 속하지 않는 경우 등록하세요. 우리는 당신을 만나고 싶고, 항상 더 많은 것을 위한 여지가 있습니다. 계정을 설정하는 방법에 대한 지침은 <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> 핵심 서비스에 대한 솔루션 사용</a>을 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <b>1. <span class="keyword"> Experience Cloud</span> 상태 확인</b> </p> </td> 
+   <td colname="col2"> <p>ID 서비스를 사용하려면 <span class="keyword"> Experience Cloud</span> 계정이 필요합니다. <span class="keyword"> Experience Cloud</span> 계정이 있으면 좋습니다! </p> <p> <span class="keyword"> Experience Cloud</span>에 속하지 않는 경우 등록하세요. 우리는 당신을 만나고 싶고, 항상 더 많은 것을 위한 여지가 있습니다. 계정을 설정하는 방법에 대한 지침은 <a href="https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started" format="https" scope="external"> 핵심 서비스에 대한 솔루션 사용</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. <span class="keyword"> ID 서비스 설정</span></b> </p> </td> 

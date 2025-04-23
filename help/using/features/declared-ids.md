@@ -8,9 +8,9 @@ title: 선언된 ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1151'
 ht-degree: 8%
 
 ---
@@ -41,15 +41,15 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <b>일치 ID</b> </td> 
-   <td colname="col2"> <p>Audience Manager은 클라이언트 및 방문자 ID를 시스템의 해당 ID와 일치시키려고 시도합니다. 일치하는 ID가 없으면 Audience Manager은 새 ID를 만들어 클라이언트 및 방문자 ID와 연결합니다. </p> <p> <p>참고: ID가 둘 이상의 Audience Manager ID에 매핑되는 경우 가장 최근 매핑이 사용됩니다. </p> </p> </td> 
+   <td colname="col2"> <p>Audience Manager은 클라이언트 및 방문자 ID를 시스템의 해당 ID와 일치시키려고 합니다. 일치하는 ID가 없으면 Audience Manager에서 새 ID를 만들어 클라이언트 및 방문자 ID와 연결합니다. </p> <p> <p>참고: ID가 둘 이상의 Audience Manager ID에 매핑되는 경우 가장 최근 매핑이 사용됩니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>반환 ID</b> </td> 
-   <td colname="col2"> <p>Audience Manager은 동기화된 ID를 클라이언트 도메인이나 애플리케이션의 자사 쿠키(또는 기타 주소 지정 가능한 스토리지 공간)에 기록합니다. </p> </td>
+   <td colname="col2"> <p>Audience Manager은 동기화된 ID를 클라이언트 도메인 또는 애플리케이션의 자사 쿠키(또는 기타 주소 지정 가능한 스토리지 공간)에 기록합니다. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <b>후속 이벤트 호출</b> </td>
-   <td colname="col2"> <p>추가 이벤트 호출은 클라이언트의 도메인에서 Audience Manager ID를 읽은 후 Audience Manager으로 보냅니다. </p> </td>
+   <td colname="col2"> <p>추가 이벤트 호출은 클라이언트의 도메인에서 Audience Manager ID를 읽고 Audience Manager으로 보냅니다. </p> </td>
   </tr> 
  </tbody>
 </table>
@@ -61,7 +61,7 @@ ht-degree: 8%
 [!UICONTROL declared ID] 프로세스는 웹 사이트에서 [!DNL Audience Manager] 타깃팅을 옵트아웃하도록 사이트 방문자 환경 설정을 적용합니다. [!DNL Audience Manager]이(가) 옵트아웃 요청을 받으면 [!DNL DCS]이(가) 반환한 [!DNL JSON]에 [!DNL Audience Manager] 사용자 ID 대신 `Encountered opt out tag` 메시지가 있는 오류 코드 171이 포함됩니다.
 
 * [!DNL Audience Manager]은(는) [!DNL URL]의 [!DNL Audience Manager] [!UICONTROL UUID]과(와) 함께 [!UICONTROL declared ID] 옵트아웃을 전달할 수 있습니다.
-* [!UICONTROL declared ID] 옵트아웃은 파트너별로 [!UICONTROL Profile Cache Server]([!UICONTROL PCS])에 저장됩니다. [!UICONTROL declared IDs]을(를) 사용하는 플랫폼 수준 옵트아웃이 없습니다. 또한 [!DNL Audience Manager]은(는) 가장자리의 특정 영역에서 사용자를 옵트아웃합니다(옵트아웃은 [!DNL DCS] 영역과 교차하지 않음).
+* [!UICONTROL declared ID] 옵트아웃은 파트너별로 [!UICONTROL Profile Cache Server]&#x200B;([!UICONTROL PCS])에 저장됩니다. [!UICONTROL declared IDs]을(를) 사용하는 플랫폼 수준 옵트아웃이 없습니다. 또한 [!DNL Audience Manager]은(는) 가장자리의 특정 영역에서 사용자를 옵트아웃합니다(옵트아웃은 [!DNL DCS] 영역과 교차하지 않음).
 
 데이터 수집 옵트아웃에 대한 자세한 내용은 [데이터 개인 정보](../overview/data-security-and-privacy/data-privacy.md)을 참조하세요.
 
@@ -69,7 +69,7 @@ ht-degree: 8%
 
 `d_cid` 및 `d_cid_ic` 키-값 쌍으로 [!UICONTROL declared ID] 옵트아웃을 요청할 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
-### [!UICONTROL CID] 및 [!UICONTROL CID_IC](으)로 옵트아웃
+### [!UICONTROL CID] 및 [!UICONTROL CID_IC]&#x200B;(으)로 옵트아웃
 
 설명 및 구문이 필요하면 [선언된 ID에 대한 URL 변수 및 구문](../features/declared-ids.md#variables-and-syntax)을 참조하십시오.
 
@@ -114,11 +114,11 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <p>파트너 수준 옵트아웃 </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>파트너 수준 옵트아웃은 이 <code> dpid </code> + <code> dpuuid </code> 쌍을 AAM UUID에 매핑하기 위해 저장됩니다. 이전에 존재하는 매핑이 없는 경우 Audience Manager은 요청에 쿠키에 AAM UUID가 포함되어 있는지 확인하고 포함되어 있으면 를 사용하여 옵트아웃을 저장합니다. 그렇지 않으면 Audience Manager은 새 AAM UUID를 생성하고 그 아래에 옵트아웃을 저장합니다. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>이 <code> dpid </code> + <code> dpuuid </code> 쌍을 AAM UUID에 매핑하기 위해 파트너 수준 옵트아웃이 저장됩니다. 이전에 존재한 매핑이 없는 경우 Audience Manager은 요청에 쿠키에 AAM UUID가 포함되어 있는지 확인하고 포함되어 있으면 옵트아웃을 저장하는 데 이를 사용합니다. 그렇지 않으면 Audience Manager은 새 AAM UUID를 생성하고 그 아래에 옵트아웃을 저장합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> 및 명시적 <code> d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code>이(가) 항상 우선합니다. <code> dpid </code> + <code> dpuuid </code> 조합이 다른 AAM UUID에 매핑되면 옵트아웃이 요청(<code> d_uuid </code>)에서 전달된 AAM UUID 아래에 저장됩니다. </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code>이(가) 항상 우선합니다. <code> dpid </code> + <code> dpuuid </code> 조합이 다른 AAM UUID에 매핑되는 경우 옵트아웃은 요청(<code> d_uuid </code>)에서 전달된 AAM UUID 아래에 저장됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,11 +195,11 @@ var vDil = DIL.create({
 });
 ```
 
-`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리: 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html)를 참조하십시오.
+`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [Experience Cloud 서비스 시작](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started)을 참조하세요.
 
 ## 더 이상 사용되지 않는 함수 {#deprecated-functions}
 
-최신 버전의 [!UICONTROL DIL](6.2+)에서는 이러한 키-값 쌍을 사용하여 [!UICONTROL declared IDs]을(를) 전달할 필요가 없습니다. [!UICONTROL DIL]이(가) 이제 위의 코드 샘플에 표시된 `visitorService` 함수에 의존하기 때문입니다. 이 함수는 [!UICONTROL Adobe Experience Platform Identity Service]에서 [!UICONTROL declared IDs]을(를) 가져옵니다. 하지만 여기에서는 이러한 변수를 기록 및 레거시 목적으로 참조하고 있습니다. [!UICONTROL Visitor ID Service]에서 [!UICONTROL declared ID]을(를) 가져오도록 `DIL.create`을(를) 구성하는 방법에 대한 예는 아래 코드를 참조하십시오.
+최신 버전의 [!UICONTROL DIL]&#x200B;(6.2+)에서는 이러한 키-값 쌍을 사용하여 [!UICONTROL declared IDs]을(를) 전달할 필요가 없습니다. [!UICONTROL DIL]이(가) 이제 위의 코드 샘플에 표시된 `visitorService` 함수에 의존하기 때문입니다. 이 함수는 [!UICONTROL Adobe Experience Platform Identity Service]에서 [!UICONTROL declared IDs]을(를) 가져옵니다. 하지만 여기에서는 이러한 변수를 기록 및 레거시 목적으로 참조하고 있습니다. [!UICONTROL Visitor ID Service]에서 [!UICONTROL declared ID]을(를) 가져오도록 `DIL.create`을(를) 구성하는 방법에 대한 예는 아래 코드를 참조하십시오.
 다음 표에서는 `declaredId` 개체에서 사용하는 기존 변수를 설명합니다.
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
@@ -214,7 +214,7 @@ var vDil = DIL.create({
   <tr> 
    <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> 문자열 </td> 
-   <td colname="col3"> <p>Audience Manager이 할당한 데이터 파트너 ID. </p> </td> 
+   <td colname="col3"> <p>Audience Manager에서 할당한 데이터 파트너 ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> dpuuid </code> </td> 
@@ -259,7 +259,7 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 
 ## 요청/응답 예 {#request-response-examples}
 
-요청이 데이터 공급자와 사용자 ID를 [!DNL Audience Manager](으)로 보냅니다.
+요청이 데이터 공급자와 사용자 ID를 [!DNL Audience Manager]&#x200B;(으)로 보냅니다.
 
 ```
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678

@@ -7,9 +7,9 @@ title: 사용되지 않은 신호 보고서
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
+source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 1%
 
 신호는 [키-값 쌍](../../reference/key-value-pairs-explained.md)(예: `color=blue, price>100, gender=female` 등)의 형태로 [!DNL Audience Manager]에 전달된 웹 사이트의 정보입니다.
 
-사용되지 않은 신호는 수집하지만 트레이트에 매핑되지 않은 데이터로 구성됩니다. [!UICONTROL Unused Signals] 보고서는 날짜, 키, 값 및 빈도 수를 기준으로 표에 있는 데이터를 표시합니다. 하루에 100번 이상 [!DNL Audience Manager]에 전달된 매핑되지 않은 신호는 [!UICONTROL Unused Signals] 보고서에 사용할 수 있습니다. 사용되지 않은 신호는 45일 동안 저장된 후 폐기됩니다.
+사용되지 않은 신호는 수집하지만 트레이트에 매핑되지 않은 데이터로 구성됩니다. [!UICONTROL Unused Signals] 보고서는 날짜, 키, 값 및 빈도 수를 기준으로 표에 있는 데이터를 표시합니다. 하루에 100번 이상 [!DNL Audience Manager]에 전달된 매핑되지 않은 신호는 [!UICONTROL Unused Signals] 보고서에 사용할 수 있습니다.
+
+사용되지 않은 신호는 45일 동안 저장된 후 폐기됩니다. 사용되지 않은 신호 보고서에는 지난 10일 동안의 데이터가 표시됩니다.
 
 이 보고서를 검토하여 새 특성 또는 기존 특성에 매핑할 수 있는 분리된 신호를 식별하십시오.
 

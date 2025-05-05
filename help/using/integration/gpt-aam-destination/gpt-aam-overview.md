@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Google 게시자 태그(GPT)를 사용하여 [!DNL Google Ad Manager](이전 DFP) 통합
+# Google 게시자 태그(GPT)를 사용하여 [!DNL Google Ad Manager] (이전 DFP) 통합
 
 아래 나열된 문서는 Google 게시자 태그(GPT)를 사용하여 [!DNL Google Ad Manager]을(를) 통합하는 방법에 대한 개요를 제공합니다. 서버측 통합을 사용하거나 GPT를 대상으로 설정하여 Audience Manager 세그먼트 데이터를 [!DNL Google Ad Manager]에 보낼 수 있습니다. 또한 Audience Manager 보고를 위해 [!DNL Google Ad Manager] 로그 파일을 수집하는 데 필요한 단계를 배웁니다.
 

@@ -192,7 +192,7 @@ Audience Manager의 [[!UICONTROL Profile Merge Rules]](/help/using/features/prof
 
 >[!NOTE]
 >
-> Experience Platform에서 Audience Manager으로 세그먼트를 공유할 때 플랫폼 조직 [기본 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy)이(가) Audience Manager과 공유된 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) 세그먼트에서 사용하는 [병합 정책보다 우선합니다. 예를 들어 공유 세그먼트의 병합 정책에서 [ID 결합](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure)을 허용하지만 조직의 기본 병합 정책이 허용하지 않는 경우, 플랫폼과 Audience Manager 간에 모집단 차이가 발생할 수 있습니다.
+> Experience Platform에서 Audience Manager으로 세그먼트를 공유할 때 플랫폼 조직 [기본 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy)이(가) Audience Manager과 공유된 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) 세그먼트에서 사용하는 병합 정책보다 우선합니다. 예를 들어 공유 세그먼트의 병합 정책에서 [ID 결합](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure)을 허용하지만 조직의 기본 병합 정책이 허용하지 않는 경우, 플랫폼과 Audience Manager 간에 모집단 차이가 발생할 수 있습니다.
 
 ### Experience Platform의 세그먼트 구성
 

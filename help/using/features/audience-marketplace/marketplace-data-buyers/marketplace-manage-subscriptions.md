@@ -291,7 +291,7 @@ ht-degree: 0%
 
 1. 계획 조치 버튼.
    * 변경하지 않고 페이지에서 나가려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하십시오.
-   * 데이터 피드를 구독하려면 **[!UICONTROL Review & Subscribe]**&#x200B;을(를) 클릭하십시오. 이 단추는 [!UICONTROL Subscription] 전환을 [!UICONTROL On](으)로 전환할 때까지 회색으로 표시됩니다. [공개 데이터 피드 구독](#subscript-public-data-feed) 및 [개인 데이터 피드 구독](#subscript-private-data-feed)도 참조하세요.
+   * 데이터 피드를 구독하려면 **[!UICONTROL Review & Subscribe]**&#x200B;을(를) 클릭하십시오. 이 단추는 [!UICONTROL Subscription] 전환을 [!UICONTROL On] (으)로 전환할 때까지 회색으로 표시됩니다. [공개 데이터 피드 구독](#subscript-public-data-feed) 및 [개인 데이터 피드 구독](#subscript-private-data-feed)도 참조하세요.
 
 ## 데이터 피드 사용 사례 이해 {#use-cases}
 

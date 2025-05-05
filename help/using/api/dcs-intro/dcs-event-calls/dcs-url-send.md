@@ -20,11 +20,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->코드 및 예에서 *기울임꼴*&#x200B;은(는) 변수 자리 표시자를 나타냅니다. 이 메서드를 사용하여 데이터를 [!DNL DCS](으)로 보낼 때 자리 표시자의 실제 값으로 대체하십시오.
+>코드 및 예에서 *기울임꼴*&#x200B;은(는) 변수 자리 표시자를 나타냅니다. 이 메서드를 사용하여 데이터를 [!DNL DCS] (으)로 보낼 때 자리 표시자의 실제 값으로 대체하십시오.
 
 ## 호출 구문 {#dcs-call-syntax}
 
-[!DNL DCS](으)로 데이터를 보내는 기본 `URL` 문자열은 아래 표시된 구문을 사용합니다.
+[!DNL DCS] (으)로 데이터를 보내는 기본 `URL` 문자열은 아래 표시된 구문을 사용합니다.
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -96,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## 다음 단계 {#dcs-next-steps}
 
-이제 [!DNL DCS](으)로 데이터를 전송하는 방법을 잘 알고 있으므로 데이터를 다시 가져와 해당 정보를 구문 분석하는 방법을 살펴볼 차례입니다. [DCS에서 데이터 받기](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)를 참조하십시오.
+이제 [!DNL DCS] (으)로 데이터를 전송하는 방법을 잘 알고 있으므로 데이터를 다시 가져와 해당 정보를 구문 분석하는 방법을 살펴볼 차례입니다. [DCS에서 데이터 받기](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

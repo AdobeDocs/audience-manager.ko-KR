@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Administration](RBAC 컨트롤) {#administration}
+# [!UICONTROL Administration] (RBAC 컨트롤) {#administration}
 
 ![](assets/rbac-controls.png)
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 [!UICONTROL Administration] 메뉴 아래의 옵션을 사용하면 Audience Manager 사용자를 만들고 그룹에 할당할 수 있습니다. 제한(트레이트, 세그먼트, 대상 및 모델)을 볼 수도 있습니다.
 
-[!DNL Audience Manager]을(를) 사용하는 기업 고객은 모든 데이터에 대해 하나의 데이터 관리 플랫폼이 필요하지만 특정 비즈니스 단위에 대해 서로 다른 데이터 요소의 가시성을 제어할 수 있어야 합니다. [!UICONTROL Role-Based Access Control]([!UICONTROL RBAC])이라고도 하는 그룹 권한을 사용하여 이를 수행할 수 있습니다.
+[!DNL Audience Manager]을(를) 사용하는 기업 고객은 모든 데이터에 대해 하나의 데이터 관리 플랫폼이 필요하지만 특정 비즈니스 단위에 대해 서로 다른 데이터 요소의 가시성을 제어할 수 있어야 합니다. [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC])이라고도 하는 그룹 권한을 사용하여 이를 수행할 수 있습니다.
 
 [!DNL Audience Manager]은(는) 그룹을 사용하여 권한을 할당합니다. 사용자 수준에서 권한이 할당되지 않습니다. 그룹 권한은 개체([!UICONTROL traits], 세그먼트 등)에 연결되어 있습니다. 해당 객체(편집, 보기 등)에 대해 수행할 수 있는 작업입니다. 이러한 컨트롤은 Audience Manager REST API를 통해서도 사용할 수 있습니다. [사용자 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [그룹 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) 및 [권한 관리](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) API 메서드를 참조하십시오.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 > 
 > 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
 > 
-[!DNL Audience Manager]에서 사용자를 만들고 사용자 세부 정보, 로그인 상태를 지정하고 사용자를 그룹에 할당합니다.
+>[!DNL Audience Manager]에서 사용자를 만들고 사용자 세부 정보, 로그인 상태를 지정하고 사용자를 그룹에 할당합니다.
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;을(를) 클릭합니다.
 1. ![](assets/icon_add.png)을(를) 클릭하여 [!UICONTROL Create New User] 페이지를 표시합니다.
@@ -63,7 +63,7 @@ ht-degree: 0%
    * **[!UICONTROL Expired]:** 사용자의 암호가 90일 이상입니다.
    * **[!UICONTROL Pending]:** 암호 재설정 후나 새 계정으로 사용자에게 임시 암호가 있으며 아직 영구 암호를 설정하지 않았습니다.
    * **[!UICONTROL Locked Out]:** 5번의 잘못된 로그인 시도로 사용자가 잠깁니다.
-1. **[!UICONTROL Assigned Groups]**의 드롭다운 목록에서 이 사용자를 할당할 원하는 그룹을 선택합니다.
+1. **[!UICONTROL Assigned Groups]**&#x200B;의 드롭다운 목록에서 이 사용자를 할당할 원하는 그룹을 선택합니다.
 그룹 및 사용 권한에 대한 자세한 내용은 [그룹 만들기](../../features/administration/administration-overview.md#create-group)를 참조하세요.
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 

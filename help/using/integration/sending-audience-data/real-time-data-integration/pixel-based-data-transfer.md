@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 예시
 
-이 기본 이벤트 호출은 트레이트 ID 1234를 [!DNL Audience Manager](으)로 보냅니다.
+이 기본 이벤트 호출은 트레이트 ID 1234를 [!DNL Audience Manager] (으)로 보냅니다.
 
 ```
 https://something.demdex.net/event?d_sid=1234

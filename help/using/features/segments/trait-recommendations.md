@@ -40,7 +40,7 @@ Audience Manager은 자사 트레이트, **[!UICONTROL Recommendations]** 섹션
 
 **전체:**
 
-* Audience Manager은 [!UICONTROL Recommendations] 섹션의 자사 트레이트를 표시합니다. 구독하지 않은 공개 및 비공개 피드의 마켓플레이스 권장 사항은 [!UICONTROL Recommendations from Marketplace] 섹션에 표시됩니다. [!UICONTROL Audience Marketplace](으)로 이동하여 가입하려면 피드 이름을 클릭하십시오.
+* Audience Manager은 [!UICONTROL Recommendations] 섹션의 자사 트레이트를 표시합니다. 구독하지 않은 공개 및 비공개 피드의 마켓플레이스 권장 사항은 [!UICONTROL Recommendations from Marketplace] 섹션에 표시됩니다. [!UICONTROL Audience Marketplace] (으)로 이동하여 가입하려면 피드 이름을 클릭하십시오.
 * Audience Manager은 세그먼트 규칙의 트레이트와 유사한 트레이트를 최대 50개까지 보여 줍니다.
 * 권장 사항을 보지 않으려는 데이터 소스를 필터링할 수 있습니다.
 * 유사성을 계산할 때 Audience Manager은 지난 30일 동안 트레이트에 적합한 [UUID](../../reference/ids-in-aam.md)을(를) 고려합니다.
@@ -178,7 +178,7 @@ Audience Manager은 [!UICONTROL UUID]의 수로 교차와 합집합을 계산하
 
 ## 역할 기반 액세스 제어(RBAC)
 
-[!UICONTROL Role-Based Access Controls]([!UICONTROL RBAC])을(를) 사용하는 회사의 경우 권장 트레이트를 보려면 세그먼트를 만들고 편집할 수 있는 권한이 있어야 합니다. 표시되는 트레이트 권장 사항은 [!UICONTROL RBAC]을(를) 통해 액세스할 수 있는 데이터 소스의 트레이트 권장 사항뿐입니다.
+[!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC])을(를) 사용하는 회사의 경우 권장 트레이트를 보려면 세그먼트를 만들고 편집할 수 있는 권한이 있어야 합니다. 표시되는 트레이트 권장 사항은 [!UICONTROL RBAC]을(를) 통해 액세스할 수 있는 데이터 소스의 트레이트 권장 사항뿐입니다.
 
 >[!IMPORTANT]
 >

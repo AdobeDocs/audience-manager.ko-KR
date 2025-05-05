@@ -43,7 +43,8 @@ ht-degree: 2%
 1. [트레이트](../../features/segments/segment-builder.md#segment-builder-controls-traits) 섹션에서:
    ![segment-builder-traits](assets/segment-builder-traits.png)
    * 세그먼트에 추가할 [!UICONTROL trait]을(를) 검색하고 **[!UICONTROL Add Trait]**&#x200B;을(를) 클릭합니다. [!UICONTROL trait] 그룹을 만들려면 다른 [!UICONTROL trait]을(를) 추가하십시오.
-   * **[!UICONTROL Browse All Traits]**&#x200B;을(를) 클릭하여 [!UICONTROL Advanced Search] 모달을 표시합니다. 이름, ID, 설명 또는 [!UICONTROL data source]별로 [!UICONTROL traits]을(를) 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 그 하위 폴더로 결과를 제한합니다. [!UICONTROL trait type]([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] 및 [!UICONTROL Algorithmic]) 또는 모집단 유형([장치 ID](../../reference/ids-in-aam.md) 및 [교차 장치 ID](../../reference/ids-in-aam.md))별로 [!UICONTROL traits]을(를) 필터링할 수도 있습니다.
+   * **[!UICONTROL Browse All Traits]**&#x200B;을(를) 클릭하여 [!UICONTROL Advanced Search] 모달을 표시합니다. 이름, ID, 설명 또는 [!UICONTROL data source]별로 [!UICONTROL traits]을(를) 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 그 하위 폴더로 결과를 제한합니다. [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] 및 [!UICONTROL Algorithmic]) 또는 모집단 유형([장치 ID](../../reference/ids-in-aam.md) 및 [교차 장치 ID](../../reference/ids-in-aam.md))별로 [!UICONTROL traits]을(를) 필터링할 수도 있습니다.
+
      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * [!UICONTROL segment]을(를) 빌드할 때 실시간 [트레이트 추천](trait-recommendations.md)을(를) 받습니다.
    * [!UICONTROL traits]을(를) 클릭하고 끌어 별도의 그룹을 만듭니다.
@@ -121,7 +122,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Segment Builder] 컨트롤: [!UICONTROL Traits] 섹션 {#segment-builder-controls-traits}
 
-[!UICONTROL Segment Builder]의 [!UICONTROL Traits] 섹션에서 [!UICONTROL segment]의 [!UICONTROL traits]을(를) 관리하고 [!UICONTROL trait]개의 그룹을 만들고 자격 조건을 설정할 수 있습니다. [!UICONTROL segment]에 [!UICONTROL trait]을(를) 추가하려면 검색 필드에 [!UICONTROL trait] 이름을 입력하고 [!UICONTROL Add Trait]을(를) 클릭하십시오. [!UICONTROL trait]을(를) 저장하거나 [!UICONTROL Destinations Mapping](으)로 이동합니다.
+[!UICONTROL Segment Builder]의 [!UICONTROL Traits] 섹션에서 [!UICONTROL segment]의 [!UICONTROL traits]을(를) 관리하고 [!UICONTROL trait]개의 그룹을 만들고 자격 조건을 설정할 수 있습니다. [!UICONTROL segment]에 [!UICONTROL trait]을(를) 추가하려면 검색 필드에 [!UICONTROL trait] 이름을 입력하고 [!UICONTROL Add Trait]을(를) 클릭하십시오. [!UICONTROL trait]을(를) 저장하거나 [!UICONTROL Destinations Mapping] (으)로 이동합니다.
 
 <!-- r_segment_traits_section.xml-->
 
@@ -130,7 +131,7 @@ ht-degree: 2%
 | 필드 | 설명 |
 |--- |--- |
 | **[!UICONTROL Basic View]** | 이 단원에서는 다음과 같은 시각적 컨트롤을 제공합니다. <ul><li>새로 빌드하고 기존 [!UICONTROL segments]을(를) 관리합니다.</li><li>[!UICONTROL segment]에서 [!UICONTROL traits]을(를) 제거합니다.</li><li>[!UICONTROL segment]에 최대 50개(최대) [!UICONTROL traits]을(를) 추가합니다.</li><li>[!UICONTROL traits]을(를) 끌어다 놓아 새 그룹을 만드십시오.</li><li>[!UICONTROL segment]에서 [!UICONTROL traits] 및 [!UICONTROL trait] 그룹을 봅니다.</li><li>부울 표현식, 비교 연산자 및 최신성/빈도 설정을 사용하여 자격 기준을 설정합니다.</li></ul> |
-| **[!UICONTROL Code View]** | 시각적 인터페이스 대신 코드를 사용하여 [!UICONTROL traits], 그룹 및 자격 요구 사항을 만들고 관리할 수 있는 개발 환경을 엽니다. 코드 보기는 [!UICONTROL segments]에 유용합니다. <ul><li>개별 [!UICONTROL segment]에 50개 이상의 [!UICONTROL traits]을(를) 포함합니다. 참고: [!UICONTROL Segments]은(는) 5000 [!UICONTROL traits](최대)로 제한됩니다.</li><li>[!UICONTROL trait]개의 그룹을 포함합니다.</li><li>복잡한 자격 요구 사항이 있습니다.</li></ul> |
+| **[!UICONTROL Code View]** | 시각적 인터페이스 대신 코드를 사용하여 [!UICONTROL traits], 그룹 및 자격 요구 사항을 만들고 관리할 수 있는 개발 환경을 엽니다. 코드 보기는 [!UICONTROL segments]에 유용합니다. <ul><li>개별 [!UICONTROL segment]에 50개 이상의 [!UICONTROL traits]을(를) 포함합니다. 참고: [!UICONTROL Segments]은(는) 5000 [!UICONTROL traits] (최대)로 제한됩니다.</li><li>[!UICONTROL trait]개의 그룹을 포함합니다.</li><li>복잡한 자격 요구 사항이 있습니다.</li></ul> |
 | 검색 | [!UICONTROL segment]에 추가할 [!UICONTROL traits]을(를) 찾는 데 도움이 됩니다. |
 | 권장 사항 | 구독한 자사 [!UICONTROL traits] 및 [!UICONTROL Audience Marketplace] 데이터 피드에서 유사한 [!UICONTROL traits]에 대한 실시간 권장 사항을 가져옵니다. 대상을 확장하려면 이 권장 사항을 [!UICONTROL segment] 규칙에 추가하십시오. [트레이트 Recommendations](trait-recommendations.md)에서 자세히 알아보세요. |
 | **[!UICONTROL Marketplace Recommendations]** | 구독하지 않은 [!UICONTROL Audience Marketplace] 데이터 피드에서 유사한 [!UICONTROL traits]에 대한 실시간 권장 사항을 가져옵니다. [트레이트 Recommendations](trait-recommendations.md)에서 자세히 알아보세요. |
@@ -149,7 +150,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Segment Builder] 컨트롤: [!UICONTROL Destinations Mappings] 섹션 {#segment-builder-controls-destinations}
 
-[!UICONTROL Segment Builder]에서 선택적 [!UICONTROL Destinations Mapping] 섹션을 사용하면 [!UICONTROL segment] 데이터를 타사 [!DNL cookie], [!DNL URL] 또는 [!UICONTROL server-to-server destination](으)로 보낼 수 있습니다. [!UICONTROL destination]을(를) 추가하려면 [!UICONTROL destination]을(를) 검색하거나 찾아보고 [!UICONTROL destination]개의 특정 정보를 입력한 다음 **[!UICONTROL Add Destination]**&#x200B;을(를) 클릭하십시오.
+[!UICONTROL Segment Builder]에서 선택적 [!UICONTROL Destinations Mapping] 섹션을 사용하면 [!UICONTROL segment] 데이터를 타사 [!DNL cookie], [!DNL URL] 또는 [!UICONTROL server-to-server destination] (으)로 보낼 수 있습니다. [!UICONTROL destination]을(를) 추가하려면 [!UICONTROL destination]을(를) 검색하거나 찾아보고 [!UICONTROL destination]개의 특정 정보를 입력한 다음 **[!UICONTROL Add Destination]**&#x200B;을(를) 클릭하십시오.
 
 <!-- r_segment_destinations_map.xml -->
 
@@ -178,19 +179,19 @@ ht-degree: 2%
 
 ### [!UICONTROL Cookie Destination]개 필드
 
-[!UICONTROL Destination Mapping] 필드에 데이터를 [!UICONTROL destination](으)로 보내는 데 사용되는 키-값 쌍을 지정합니다. 첫 번째 필드에 키를 입력하고 두 번째 필드에 값을 입력합니다. [!UICONTROL cookie destination] 팝은 다음과 비슷합니다.
+[!UICONTROL Destination Mapping] 필드에 데이터를 [!UICONTROL destination] (으)로 보내는 데 사용되는 키-값 쌍을 지정합니다. 첫 번째 필드에 키를 입력하고 두 번째 필드에 값을 입력합니다. [!UICONTROL cookie destination] 팝은 다음과 비슷합니다.
 
 ![](assets/cookie_modal.PNG)
 
 ### [!UICONTROL URL Destination]개 필드
 
-[!UICONTROL URL] 및 [!UICONTROL Secure URL] 필드에서 [!UICONTROL destination](으)로 데이터를 보내는 데 사용되는 전체 표준 또는 보안 주소를 지정합니다.
+[!UICONTROL URL] 및 [!UICONTROL Secure URL] 필드에서 [!UICONTROL destination] (으)로 데이터를 보내는 데 사용되는 전체 표준 또는 보안 주소를 지정합니다.
 
 ![](assets/url_modal.PNG)
 
 ### [!UICONTROL Server-to-Server Destination]개 필드
 
-[!UICONTROL Destination Value] 필드에서 데이터를 [!UICONTROL destination](으)로 보내는 데 사용되는 값(키-값 쌍의 일부)을 지정합니다.
+[!UICONTROL Destination Value] 필드에서 데이터를 [!UICONTROL destination] (으)로 보내는 데 사용되는 값(키-값 쌍의 일부)을 지정합니다.
 
 ![](assets/s2s_modal.PNG)
 

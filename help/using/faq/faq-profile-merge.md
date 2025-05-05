@@ -265,7 +265,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바른 통합을 보장하려면 다음 요구 사항을 충족하는지 확인하십시오.
 
-1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토합니다. 프로필 병합 규칙에서 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필이 내보내기에 포함될 수 있습니다. 프로필 병합 규칙에서 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile](으)로 전환합니다.
+1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토합니다. 프로필 병합 규칙에서 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필이 내보내기에 포함될 수 있습니다. 프로필 병합 규칙에서 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile] (으)로 전환합니다.
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]

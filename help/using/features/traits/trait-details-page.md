@@ -55,7 +55,7 @@ ht-degree: 0%
 * **[!UICONTROL Unique Trait Realizations]**: 지정된 시간 범위 동안 프로필에 이 [!UICONTROL trait]을(를) 추가한 고유 사용자 수입니다.
 * **[!UICONTROL Total Trait Population]**: 현재 이 [!UICONTROL trait]에 대해 자격이 있는 고유 사용자 수입니다.
 
-* **[!UICONTROL Identity Type Breakdown]**: 처음 세 항목은 [!UICONTROL trait]에 적합한 모집단 수가 가장 많은 상위 세 개의 [!UICONTROL cross-device data sources]을(를) 내림차순으로 표시합니다. 네 번째 항목은 [!UICONTROL trait]에 대해 자격이 있는 다른 모든 [!DNL DPUUIDs]([!DNL CRM IDs])과(와) 상위 3에 없는 [!UICONTROL cross-device data sources]의 합계를 보여줍니다. 이 보고서는 페이지 오른쪽 상단의 [!UICONTROL Show Results By] 드롭다운 메뉴에서 [!UICONTROL Cross-device ID]을(를) 선택한 경우에만 나타납니다. 기본 드롭다운 옵션은 [!UICONTROL Device ID]이며, 여기에는 이 보고서가 표시되지 않습니다.
+* **[!UICONTROL Identity Type Breakdown]**: 처음 세 항목은 [!UICONTROL trait]에 적합한 모집단 수가 가장 많은 상위 세 개의 [!UICONTROL cross-device data sources]을(를) 내림차순으로 표시합니다. 네 번째 항목은 [!UICONTROL trait]에 대해 자격이 있는 다른 모든 [!DNL DPUUIDs] ([!DNL CRM IDs])과(와) 상위 3에 없는 [!UICONTROL cross-device data sources]의 합계를 보여줍니다. 이 보고서는 페이지 오른쪽 상단의 [!UICONTROL Show Results By] 드롭다운 메뉴에서 [!UICONTROL Cross-device ID]을(를) 선택한 경우에만 나타납니다. 기본 드롭다운 옵션은 [!UICONTROL Device ID]이며, 여기에는 이 보고서가 표시되지 않습니다.
 
   ![특성 그래프](assets/trait-identity.png)
 

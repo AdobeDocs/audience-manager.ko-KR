@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 파생 신호 목적
 
-[!DNL Audience Manager]에서 다른 지정된 신호 또는 트레이트에 대한 이벤트 호출 동안 전달된 신호(또는 트레이트 규칙) 간의 관계를 만들 수 있습니다. 예를 들어 이벤트 호출이 키 값 [!DNL "product = new_car"](`https://<domain alias>/event?product=new_car`)으로 구성된 신호를 전달한다고 가정해 보겠습니다. [!DNL Audience Manager]은(는) 해당 신호를 [!UICONTROL derived signals] 도구로 만든 다른 모든 신호에 연결합니다. 연결된 신호는 지정한 모든 키 값이 될 수 있지만 이미 [!UICONTROL Trait Builder] 규칙으로 설정된 기존 신호에 연결된 경우 가장 유용합니다. 예를 들어 아래 그림에서 사용자 작업이 신호 [!DNL "product = new car"]을(를) 실행하면 대상 키 및 값 신호에 의해 정의된 트레이트에 대해 사용자가 자격을 부여할 수도 있습니다.
+[!DNL Audience Manager]에서 다른 지정된 신호 또는 트레이트에 대한 이벤트 호출 동안 전달된 신호(또는 트레이트 규칙) 간의 관계를 만들 수 있습니다. 예를 들어 이벤트 호출이 키 값 [!DNL "product = new_car"] (`https://<domain alias>/event?product=new_car`)으로 구성된 신호를 전달한다고 가정해 보겠습니다. [!DNL Audience Manager]은(는) 해당 신호를 [!UICONTROL derived signals] 도구로 만든 다른 모든 신호에 연결합니다. 연결된 신호는 지정한 모든 키 값이 될 수 있지만 이미 [!UICONTROL Trait Builder] 규칙으로 설정된 기존 신호에 연결된 경우 가장 유용합니다. 예를 들어 아래 그림에서 사용자 작업이 신호 [!DNL "product = new car"]을(를) 실행하면 대상 키 및 값 신호에 의해 정의된 트레이트에 대해 사용자가 자격을 부여할 수도 있습니다.
 
 ![](assets/derived_signal_example.png)
 

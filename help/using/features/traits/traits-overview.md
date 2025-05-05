@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # [!UICONTROL Traits] 개요 {#traits-overview}
 
-[!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] 또는 [!UICONTROL folder traits](으)로 데이터 수집 및 대상자 만들기를 관리합니다. [!UICONTROL traits](으)로 시작하려면 아래 링크된 페이지를 읽어 보십시오.
+[!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] 또는 [!UICONTROL folder traits] (으)로 데이터 수집 및 대상자 만들기를 관리합니다. [!UICONTROL traits] (으)로 시작하려면 아래 링크된 페이지를 읽어 보십시오.
 
 * [트레이트 세부 사항 페이지](/help/using/features/traits/trait-details-page.md)
 * [특성 빌더](/help/using/features/traits/about-trait-builder.md)

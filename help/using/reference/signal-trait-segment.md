@@ -39,7 +39,7 @@ ht-degree: 21%
 
 **이벤트 호출에서[!DNL Audience Manager]**(으)로 데이터 보내기
 
-이벤트 호출은 웹 사이트에서 [!DNL Audience Manager](으)로 데이터를 보냅니다. 호출에는 [!DNL HTTP] 요청에 [!UICONTROL signal], [!UICONTROL trait] 및 [!UICONTROL segment] 데이터가 포함되어 있습니다. 이벤트 자체는 [!DNL URL] 문자열의 `/event` 부분 뒤에 있는 모든 것입니다. 아래 예제에서 보듯이 이 프로세스에서는 여러 변수를 [!DNL Audience Manager]에 전달하기 위해 단일 이벤트 호출만 필요합니다.
+이벤트 호출은 웹 사이트에서 [!DNL Audience Manager] (으)로 데이터를 보냅니다. 호출에는 [!DNL HTTP] 요청에 [!UICONTROL signal], [!UICONTROL trait] 및 [!UICONTROL segment] 데이터가 포함되어 있습니다. 이벤트 자체는 [!DNL URL] 문자열의 `/event` 부분 뒤에 있는 모든 것입니다. 아래 예제에서 보듯이 이 프로세스에서는 여러 변수를 [!DNL Audience Manager]에 전달하기 위해 단일 이벤트 호출만 필요합니다.
 
 `https://<domain>/event?product=camera&price>100`
 

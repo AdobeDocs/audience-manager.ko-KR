@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Admin Console](으)로 [!DNL Audience Manager] 사용자 마이그레이션 {#user-migration}
+# [!DNL Admin Console] (으)로 [!DNL Audience Manager] 사용자 마이그레이션 {#user-migration}
 
 ## 개요 {#overview}
 
@@ -36,12 +36,12 @@ Audience Manager 사용자는 [!DNL Audience Manager] 관리자에게 연락하�
 
 ## 관리자가 수행해야 하는 작업 {#what-to-do-admins}
 
-Audience Manager 관리자는 아래 단계에 따라 사용자를 [!DNL Admin Console](으)로 마이그레이션해야 합니다.
+Audience Manager 관리자는 아래 단계에 따라 사용자를 [!DNL Admin Console] (으)로 마이그레이션해야 합니다.
 
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com)(으)로 이동한 다음 Adobe ID 또는 Enterprise ID을 사용하여 로그인합니다. [!DNL Admin Console]에 액세스할 수 없는 경우 고객 지원 센터 또는 Adobe 컨설턴트에게 문의하십시오.
 2. 사용자 계정을 만들고 관리하는 방법에 대한 자세한 지침은 [!DNL Adobe Admin Console] [도움말 안내서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html)를 참조하세요.
 3. 모든 기존 Audience Manager 사용자에 대한 새 사용자 계정을 만듭니다.
-4. 새로 생성된 사용자 계정에 대해 사용자에게 알립니다. 사용자가 [!DNL Admin Console](으)로 마이그레이션되면 이전 로그인의 사용을 중지해야 합니다.
+4. 새로 생성된 사용자 계정에 대해 사용자에게 알립니다. 사용자가 [!DNL Admin Console] (으)로 마이그레이션되면 이전 로그인의 사용을 중지해야 합니다.
 
 ## 사용자 마이그레이션 고려 사항 {#considerations}
 

@@ -55,14 +55,14 @@ POST message content
 1. [!UICONTROL IRIS]이(가) `HTTP(S)` 요청을 파트너에게 보냅니다. 이 메시지에는 위의 예와 같이 서명과 실제 메시지가 포함되어 있습니다.
 1. 파트너 서버가 `HTTP(S)` 요청을 받습니다. [!UICONTROL IRIS]에서 받은 메시지 본문과 서명을 읽습니다.
 1. 수신한 메시지 본문 및 개인 키를 기반으로 파트너 서버는 서명을 다시 계산한다. 이 작업을 수행하는 방법에 대한 아래의 [서명 계산 방법](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) 섹션을 참조하십시오.
-1. 파트너 서버(받는 사람)에서 만든 서명을 [!UICONTROL IRIS](보낸 사람)에서 받은 서명과 비교합니다.
+1. 파트너 서버(받는 사람)에서 만든 서명을 [!UICONTROL IRIS] (보낸 사람)에서 받은 서명과 비교합니다.
 1. 서명이 일치하면 **정품 인증** 및 **메시지 무결성**&#x200B;의 유효성을 검사했습니다. 개인 키를 가진 발신자만 유효한 서명(진정성)을 보낼 수 있다. 또한 중간에 있는 사람은 개인 키(메시지 무결성)가 없기 때문에 메시지를 수정하고 유효한 새 서명을 생성할 수 없습니다.
 
 ![](assets/iris-digitally-sign-http-request.png)
 
 ## 서명 계산 방법 {#calculate-signature}
 
-[!DNL HMAC](해시 기반 메시지 인증 코드)은 [!UICONTROL IRIS]에서 메시지 서명에 사용하는 메서드입니다. 구현과 라이브러리는 기본적으로 모든 프로그래밍 언어로 사용할 수 있습니다. [!DNL HMAC]에 알려진 확장 공격이 없습니다. 아래 [!DNL Java]의 예제를 참조하십시오.
+[!DNL HMAC] (해시 기반 메시지 인증 코드)은 [!UICONTROL IRIS]에서 메시지 서명에 사용하는 메서드입니다. 구현과 라이브러리는 기본적으로 모든 프로그래밍 언어로 사용할 수 있습니다. [!DNL HMAC]에 알려진 확장 공격이 없습니다. 아래 [!DNL Java]의 예제를 참조하십시오.
 
 ```
 // Message to be signed.

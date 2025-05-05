@@ -16,8 +16,8 @@ ht-degree: 25%
 # Audience Manager 사용 안내서 {#user-guide}
 
 + [Audience Manager 안내서](aam-home.md)
-+ Real-Time CDP에 대한 [진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
-+ 웹 SDK{#migrate-to-web-sdk}(으)로 마이그레이션
++ [Real-Time CDP에 대한 진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ 웹 SDK(으)로 마이그레이션{#migrate-to-web-sdk}
    + [Adobe Audience Manager 태그 확장 프로그램에서 웹 SDK 태그 확장 프로그램으로 마이그레이션](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [데이터 수집 라이브러리를 AppMeasurement에서 Web SDK으로 마이그레이션](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 개요{#overview}
@@ -345,7 +345,7 @@ ht-degree: 25%
       + [사용자 정의 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform과 통합 {#integration-experience-platform}
       + [Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Experience Platform 세그먼트](integration/integration-aep/aam-aep-audience-sharing.md)
-   + 다른 Experience Cloud 응용 프로그램 {#integration-other-solutions}과(와) 통합
+   + 다른 Experience Cloud 응용 프로그램과(와) 통합 {#integration-other-solutions}
       + [Audience Manager과 Adobe Target 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager으로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
       + [Adobe Analytics 세그먼트를 Experience Cloud에 게시(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)

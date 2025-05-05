@@ -24,7 +24,7 @@ ht-degree: 0%
 >이러한 기능은 [!DNL API]에서 지원되지 않습니다.
 >
 >* [!UICONTROL General], [!UICONTROL Trend] 및 [!UICONTROL Interactive] 보고서.
->* 사용되지 않는 [!DNL Tag Insertion Manager]([!DNL TIM]) 기능입니다.
+>* 사용되지 않는 [!DNL Tag Insertion Manager] ([!DNL TIM]) 기능입니다.
 
 세부 사항:
 

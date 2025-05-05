@@ -48,8 +48,8 @@ ht-degree: 0%
 
 | 지표 | 설명 |
 |---------|----------|
-| **[!UICONTROL Addressable Audience (Device)]** | 이 지표는 지난 30일 동안의 [!UICONTROL Customer Addressable Audience](위 표에 설명됨) *을(를) 나타냅니다.* |
-| **[!UICONTROL Match Rate]** | 이 지표는 지난 30일 동안의 [!UICONTROL Addressable Audience Match Rate](위 표에 설명됨) *을(를) 나타냅니다*. |
+| **[!UICONTROL Addressable Audience (Device)]** | 이 지표는 지난 30일 동안의 [!UICONTROL Customer Addressable Audience] (위 표에 설명됨) *을(를) 나타냅니다.* |
+| **[!UICONTROL Match Rate]** | 이 지표는 지난 30일 동안의 [!UICONTROL Addressable Audience Match Rate] (위 표에 설명됨) *을(를) 나타냅니다*. |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | 보고서 전환 확인 기간 동안 플랫폼 수준의 모든 [!DNL Audience Manager] 고객과 상호 작용했으며 이 [!UICONTROL destination]과(와) 일치할 수 있는 모든 장치의 수입니다. 자세한 내용은 [플랫폼 수준 지표](/help/using/features/addressable-audiences.md#platform-level-metrics)를 참조하십시오. |
 
 주소 지정 가능한 대상 데이터를 보려면 [!UICONTROL server-to-server destination]의 이름을 클릭하십시오. 이 기능은 [!UICONTROL server-to-server destinations]에 대한 데이터만 반환하며 액세스하려면 관리자 권한이 필요합니다.
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 [!UICONTROL Addressable Audiences] 및 [대상](../features/destinations/destinations.md)에 대한 보고서는 동일한 날짜 범위 간격을 사용합니다. 날짜 범위 옵션은 다음과 같습니다.
 
-* [!UICONTROL Last 1 Day](이 간격은 이전 24시간 동안 자정부터 자정까지 실행됩니다. 실시간 또는 현재 시간 지표가 아닙니다.)
+* [!UICONTROL Last 1 Day] (이 간격은 이전 24시간 동안 자정부터 자정까지 실행됩니다. 실시간 또는 현재 시간 지표가 아닙니다.)
 * [!UICONTROL Last 7 Days]
 * [!UICONTROL Last 14 Days]
 * [!UICONTROL Last 30 Days]
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 | 원인 | 설명 |
 |---|---|
-| 모바일 트래픽 | 대부분의 [!UICONTROL server-to-server] 통합은 타사 [!DNL cookies]에 의해 촉진되는 동기화 프로세스에 의존합니다. 그러나 모바일 환경에서는 타사 [!DNL cookies]을(를) 사용하지 않습니다. 따라서 [!UICONTROL Addressable Audiences] 숫자는 [!UICONTROL segment] 크기에 비해 적어 보일 수 있습니다. <br><br>2018년 1월부터 [!UICONTROL cookie-based]개 대상에 대해 설정된 동일한 [!DNL Google] 및 [!DNL Adobe Advertising Cloud] 대상에서 모바일 대상을 활성화할 수 있습니다. 이는 결합된 [!DNL cookie] 및 모바일 ID 멤버십이 있는 [!UICONTROL segments]을(를) [!DNL Google] 및 [!DNL Advertising Cloud] 대상으로 보낼 수 있음을 의미하지만 [!UICONTROL Addressable Audiences]에는 [!DNL cookie]개의 ID와 대상 간의 중복만 표시된다는 점을 유의하십시오. [!DNL Audience Manager]이(가) 모바일 대상의 100%를 [!UICONTROL destinations](으)로 전송하지만 모바일 대상은 [!UICONTROL Addressable Audience] 지표로 측정되지 않습니다. <br><br>**참고**: 예를 들어 모집단이 1,000,000인 [!UICONTROL segment]을(를) 사용합니다. 이 [!UICONTROL segment]을(를) [!DNL Google] 또는 [!DNL Adobe Advertising Cloud] 대상에 매핑하면 [!UICONTROL Addressable Audience](700,000개 장치) 및 [!UICONTROL Match Rate](70%)가 표시될 수 있습니다. 700,000명의 멤버십은 [!UICONTROL destination]과(와) ID 동기화가 있는 [!DNL cookie]개의 ID로 구성됩니다. 주소 지정 가능한 모바일 ID가 이 지표에 표시되지 않으므로 사실상 [!UICONTROL Addressable Audience]이(가) 훨씬 높을 수 있습니다. |
+| 모바일 트래픽 | 대부분의 [!UICONTROL server-to-server] 통합은 타사 [!DNL cookies]에 의해 촉진되는 동기화 프로세스에 의존합니다. 그러나 모바일 환경에서는 타사 [!DNL cookies]을(를) 사용하지 않습니다. 따라서 [!UICONTROL Addressable Audiences] 숫자는 [!UICONTROL segment] 크기에 비해 적어 보일 수 있습니다. <br><br>2018년 1월부터 [!UICONTROL cookie-based]개 대상에 대해 설정된 동일한 [!DNL Google] 및 [!DNL Adobe Advertising Cloud] 대상에서 모바일 대상을 활성화할 수 있습니다. 이는 결합된 [!DNL cookie] 및 모바일 ID 멤버십이 있는 [!UICONTROL segments]을(를) [!DNL Google] 및 [!DNL Advertising Cloud] 대상으로 보낼 수 있음을 의미하지만 [!UICONTROL Addressable Audiences]에는 [!DNL cookie]개의 ID와 대상 간의 중복만 표시된다는 점을 유의하십시오. [!DNL Audience Manager]이(가) 모바일 대상의 100%를 [!UICONTROL destinations] (으)로 전송하지만 모바일 대상은 [!UICONTROL Addressable Audience] 지표로 측정되지 않습니다. <br><br>**참고**: 예를 들어 모집단이 1,000,000인 [!UICONTROL segment]을(를) 사용합니다. 이 [!UICONTROL segment]을(를) [!DNL Google] 또는 [!DNL Adobe Advertising Cloud] 대상에 매핑하면 [!UICONTROL Addressable Audience] (700,000개 장치) 및 [!UICONTROL Match Rate] (70%)가 표시될 수 있습니다. 700,000명의 멤버십은 [!UICONTROL destination]과(와) ID 동기화가 있는 [!DNL cookie]개의 ID로 구성됩니다. 주소 지정 가능한 모바일 ID가 이 지표에 표시되지 않으므로 사실상 [!UICONTROL Addressable Audience]이(가) 훨씬 높을 수 있습니다. |
 | [!DNL Safari] 트래픽 | [!DNL Safari]이(가) 서드파티 [!DNL cookies]을(를) 차단합니다. 이렇게 하면 [!DNL Audience Manager]이(가) ID를 [!UICONTROL destination]과(와) 동기화할 수 없습니다. [ITP 2.0](https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/)을(를) 도입하면 [!UICONTROL addressable audiences]에 [!DNL Safari]명의 사용자가 포함되지 않을 수 있습니다. |
 | 추적된 미디어 노출 횟수 | 광고 서버 모범 사례로 인해 광고 태그 내에서는 ID 동기화가 수행되지 않습니다. 대량의 오프사이트 광고를 수행하는 고객은 이러한 환경의 서드파티 통합에 사용자를 동기화하지 않습니다. 또한 수집된 미디어 노출 데이터가 많으면 [!UICONTROL addressable audience]개의 숫자를 줄일 수 있습니다. |
 

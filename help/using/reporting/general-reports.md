@@ -26,7 +26,7 @@ c_general_reports.xml
 
  -->
 
-[!DNL Audience Manager]은(는) [!UICONTROL Role Based Access Control]([!UICONTROL RBAC])을(를) 사용하여 사용자 그룹 권한을 [!UICONTROL General] 보고서로 확장합니다. 사용자는 볼 수 있는 권한이 있는 보고에서 이러한 트레이트와 세그먼트만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀에서 볼 수 있는 보고 데이터를 제어할 수 있습니다. 예를 들어 다른 광고주 계정을 관리하는 기관은 광고주 A의 계정을 관리하는 팀이 광고주 B의 보고 데이터를 볼 수 없도록 사용자 그룹 권한을 구성할 수 있습니다.
+[!DNL Audience Manager]은(는) [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC])을(를) 사용하여 사용자 그룹 권한을 [!UICONTROL General] 보고서로 확장합니다. 사용자는 볼 수 있는 권한이 있는 보고에서 이러한 트레이트와 세그먼트만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀에서 볼 수 있는 보고 데이터를 제어할 수 있습니다. 예를 들어 다른 광고주 계정을 관리하는 기관은 광고주 A의 계정을 관리하는 팀이 광고주 B의 보고 데이터를 볼 수 없도록 사용자 그룹 권한을 구성할 수 있습니다.
 
 필요한 경우 [!UICONTROL General] 보고서 실행:
 
@@ -89,7 +89,7 @@ t_run_general_report.xml
 
 일반 보고서를 실행하고 **[!UICONTROL Trait]**&#x200B;을(를) 보고서 유형으로 선택하면 아래 필터를 사용할 수 있습니다.
 
-결과를 [!UICONTROL Device ID](으)로 필터링하는 경우:
+결과를 [!UICONTROL Device ID] (으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 익명 장치 방문자의 수입니다.
 * [!UICONTROL Total Trait Realization]은(는) 선택한 시간 범위 내에 있는 총 익명 트레이트 실현 수입니다.
@@ -97,7 +97,7 @@ t_run_general_report.xml
 
 ![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
-결과를 [!UICONTROL Cross-Device ID](으)로 필터링하는 경우:
+결과를 [!UICONTROL Cross-Device ID] (으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
 * [!UICONTROL Total Trait Realization]은(는) 선택한 시간 범위 내에 있는 인증된 트레이트 실현의 총 수입니다.

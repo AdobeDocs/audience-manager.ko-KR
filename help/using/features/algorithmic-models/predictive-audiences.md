@@ -136,7 +136,7 @@ ht-degree: 3%
 
 모델을 만들 때 선택한 [!UICONTROL Profile Merge Rule]에 모든 예측 세그먼트가 할당됩니다. 선택한 [!UICONTROL Profile Merge Rule]은(는) 다음과 같은 이유로 중요합니다.
 
-* 모델이 사용자를 예측 [!UICONTROL segment](으)로 분류할 때 영향력 있는 [!UICONTROL traits]을(를) 분석할 때 고려해야 하는 장치 및/또는 인증된 프로필을 정의합니다.
+* 모델이 사용자를 예측 [!UICONTROL segment] (으)로 분류할 때 영향력 있는 [!UICONTROL traits]을(를) 분석할 때 고려해야 하는 장치 및/또는 인증된 프로필을 정의합니다.
 * 모델 교육 단계에서 사용해야 하는 [!UICONTROL trait] 유형(장치 수준 또는 교차 장치 수준)을 제어하며 [!UICONTROL traits]에 영향을 줍니다. 예측 [!UICONTROL segments]은(는) 대상 대상의 하위 집합입니다.
    * 대상 대상이 세그먼트인 경우 모델에 대해 대상 대상에 할당된 모델과 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택하거나 대상 대상의 프로필 유형을 포함하는 [!UICONTROL Profile Merge Rule]을(를) 선택하는 것이 좋습니다.
    * 대상 대상이 [!UICONTROL trait]인 경우 대상 대상 트레이트와 동일한 유형의 데이터(장치 프로필 데이터 또는 교차 장치 프로필 데이터)에 액세스할 수 있는 [!UICONTROL Profile Merge Rule]을(를) 선택하는 것이 좋습니다.

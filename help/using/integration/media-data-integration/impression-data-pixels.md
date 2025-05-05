@@ -24,7 +24,7 @@ Audience Manager에 미디어 데이터를 전송하는 한 가지 접근 방식
 
 >[!NOTE]
 >
->텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]``( )` 등)은 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]` `( )` 등)은 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
 
 이벤트 호출은 노출 및 전환 데이터를 수집하여 [!DNL Audience Manager] [데이터 수집 서버](/help/using/reference/system-components/components-data-collection.md)([!DNL DCS])로 보냅니다. 이 프로세스는 코드에 삽입되는 콘텐츠를 제어하는 호출을 크리에이티브에 배치하는 타사 광고 서버를 사용합니다. 타사 광고 서버(예로는 [!DNL DFA])에서는 각 광고 노출 내에 이 코드를 배치할 수 있습니다. 또한 광고 호출은 광고 태그 외부의 게시자 데이터에 액세스할 때 [!DNL JavaScript]를 사용하거나 프레임 버스팅 기술을 사용하지 않습니다.
 

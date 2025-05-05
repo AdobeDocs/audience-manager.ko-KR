@@ -56,10 +56,10 @@ c_dil_send_page_objects.xml
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals({ 
+sample_dil.api.signals(&lbrace; 
    c_color:"blue", 
    c_price:"900" 
-}); 
+&rbrace;); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +68,10 @@ sample_dil.api.submit();
 이 고급 예에서는 개체의 데이터를 Audience Manager으로 보내는 방법을 보여 줍니다. 이 메서드로 작업할 때 [!UICONTROL DIL]을(를) 사용하면 개체를 함수 매개 변수로 [!DNL signals()] 메서드에 전달할 수 있습니다. [!UICONTROL DIL] 코드가 다음과 유사할 수 있습니다.
 
 <pre class="java"><code>
-var my_object = { 
+var my_object = &lbrace; 
    color : "blue", 
    price : "900" 
-}; 
+&rbrace;; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +83,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 이 경우 `my_object` 변수는 배열을 사용하여 데이터를 유지합니다. 이 예제는 위의 권장 방법으로 전달된 정보를 기반으로 하지만 제품 유형 및 모델을 수용하기 위해 추가 레이어를 추가합니다. 코드는 다음과 유사할 수 있습니다.
 
 <pre class="java"><code>
-var my_objects = [{ 
+var my_objects = &lbrack;&lbrace; 
    color : "blue", 
    price : "900" 
-}, { 
+&rbrace;, &lbrace; 
    type : "acura", 
    model : "tl" 
-}]; 
+&rbrace;&rbrack;; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-{ 
+&lbrace; 
     sample_dil.api.signals(my_objects[i], "c_"); 
-} 
+&rbrace; 
 sample_dil.api.submit();
 </code></pre>
 
@@ -162,12 +162,12 @@ var search_referrer = DIL.tools.getSearchReferrer();
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) { 
-  adobe_dil.api.signals({ 
+if (search_referrer && search_referrer.valid) &lbrace; 
+  adobe_dil.api.signals(&lbrace; 
     c_se : se.name, 
     c_st : se.keywords 
-  }).submit(); 
-}
+  &rbrace;).submit(); 
+&rbrace;
 </code></pre>
 
 **목록에 없는 검색 엔진 코드 샘플**
@@ -176,17 +176,17 @@ if (search_referrer && search_referrer.valid) {
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-}); 
+&rbrace;); 
  
-if (search_referrer && search_referrer.valid) { 
-  adobe_dil.api.signals({ 
+if (search_referrer && search_referrer.valid) &lbrace; 
+  adobe_dil.api.signals(&lbrace; 
     c_se : se.name, 
     c_st : se.keywords 
-  }).submit(); 
-}
+  &rbrace;).submit(); 
+&rbrace;
 </code></pre>
 
 ## 다른 키에 키 값 매핑 {#map-key-values}

@@ -24,7 +24,7 @@ ht-degree: 7%
 
 ![](assets/profile-dashboard.png)
 
-[!UICONTROL Profile Merge Rules](으)로 작업할 때 다음을 수행할 수 있습니다.
+[!UICONTROL Profile Merge Rules] (으)로 작업할 때 다음을 수행할 수 있습니다.
 
 * 교차 장치 데이터 원본에서 최대 4개의 [!UICONTROL Profile Merge Rules]을(를) 만듭니다. Source [크로스 디바이스 데이터 만들기](merge-rules-start.md#create-data-source)를 참조하십시오.
 * 기본 병합 규칙을 지정합니다. [세그먼트 빌더](../segments/segment-builder.md)는 사용자가 만드는 모든 새 세그먼트에 기본 규칙을 자동으로 적용합니다.

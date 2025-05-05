@@ -34,7 +34,7 @@ c_tb_boolean.xml
 
 >[!NOTE]
 >
->[!UICONTROL NOT] 연산자는 암시적 &quot;and&quot; 조건을 사용하며 경우에 따라 [!UICONTROL AND NOT](으)로 작성됩니다.
+>[!UICONTROL NOT] 연산자는 암시적 &quot;and&quot; 조건을 사용하며 경우에 따라 [!UICONTROL AND NOT] (으)로 작성됩니다.
 
 **트레이트 및 세그먼트 빌더에서 부울 식을 사용하는 방법**
 

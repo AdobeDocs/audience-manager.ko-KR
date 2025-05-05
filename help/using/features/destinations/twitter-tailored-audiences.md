@@ -29,7 +29,7 @@ ht-degree: 1%
 
 이 섹션에서는 [!DNL Twitter Custom Audiences]에 대한 새 장치 기반 대상을 구성할 때 따라야 하는 단계에 대해 설명합니다. 이 시나리오에서는 Adobe 컨설턴트나 고객 지원 센터를 통해 구성된 기존 [!DNL Twitter Custom Audiences] 대상이 없다고 가정합니다.
 
-### 1단계. [!DNL Twitter Custom Audiences](으)로 인증 {#step1-authenticate-with-twitter}
+### 1단계. [!DNL Twitter Custom Audiences] (으)로 인증 {#step1-authenticate-with-twitter}
 
 장치 기반 대상을 추가하려면 먼저 Audience Manager과 [!DNL Twitter Custom Audiences] 계정을 연결해야 합니다. 방법은 다음과 같습니다.
 
@@ -75,7 +75,7 @@ Audience Manager과 [!DNL Twitter Custom Audiences]을(를) 연결한 후에는 
 
 ## 일치율 고려 사항 {#match-rates-considerations}
 
-* Audience Manager과 [!UICONTROL Twitter Custom Audiences] 간의 통합은 과거 대상 다시 채우기를 지원합니다. 대상을 만들면 모든 세그먼트 자격이 [!UICONTROL Twitter](으)로 전송됩니다.
+* Audience Manager과 [!UICONTROL Twitter Custom Audiences] 간의 통합은 과거 대상 다시 채우기를 지원합니다. 대상을 만들면 모든 세그먼트 자격이 [!UICONTROL Twitter] (으)로 전송됩니다.
 
 ## 문제 해결 {#troubleshooting}
 

@@ -76,7 +76,7 @@ DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된
    <td> 기본 검색</td> 
    <td> AOL, Ask, Bing, Google 및 Yahoo 검색 엔진에서 사용되는 키워드 검색어를 반환합니다. </td> 
    <td>
-      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&nbsp;results&nbsp;=&nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -96,10 +96,10 @@ DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된
   <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
-      search.aspx?q=adobe+rules",{ 
+      search.aspx?q=adobe+rules",&lbrace; 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
-      }); 
+      &rbrace;); 
   </code>
   </td></tr> 
   <tr> 
@@ -109,10 +109,10 @@ DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된
     <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-      {
+      &lbrace;
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-      });
+      &rbrace;);
     </code>
    </td> 
   </tr> 
@@ -182,19 +182,19 @@ r_dil_get_metatags.xml
 ### 샘플 코드
 
 <pre class="javascript"><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
-var dataLib = DIL.create({ 
-     partner: <i>`partnerName'</i>, 
+var dataLib = DIL.create(&lbrace; 
+     partner: <i>&grave;partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>

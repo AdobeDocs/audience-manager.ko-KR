@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 아웃바운드 파일에 대한 Amazon S3 계정 간 버킷 권한 활용 {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
 
-[!DNL Amazon Simple Storage Service]([!DNL Amazon S3])을(를) 사용하는 고객을 위한 [!UICONTROL Outbound Data Transfer] 프로세스에서는 [!DNL Amazon S3] 액세스 키와 비밀 키를 요청하여 아웃바운드 데이터 파일을 버킷에 전달해야 합니다.
+[!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])을(를) 사용하는 고객을 위한 [!UICONTROL Outbound Data Transfer] 프로세스에서는 [!DNL Amazon S3] 액세스 키와 비밀 키를 요청하여 아웃바운드 데이터 파일을 버킷에 전달해야 합니다.
 
 [!DNL Amazon S3] 액세스 키 및 비밀 키를 공유하지 않으려면 [!DNL Audience Manager] 컨설턴트나 고객 지원 팀에 연락하면 [!DNL Cross-Account Bucket Permissions]이(가) 자동으로 설정됩니다.
 

@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # [!DNL URL Destination] 구성 {#configure-url-destination}
 
-[!DNL URL destination]이(가) 페이지에서 [!DNL destination](으)로 픽셀 호출을 합니다. 다음 지침에 따라 [!UICONTROL Destination Builder]을(를) 사용하여 [!DNL URL] [!DNL destination]을(를) 만듭니다.
+[!DNL URL destination]이(가) 페이지에서 [!DNL destination] (으)로 픽셀 호출을 합니다. 다음 지침에 따라 [!UICONTROL Destination Builder]을(를) 사용하여 [!DNL URL] [!DNL destination]을(를) 만듭니다.
 
 <!-- create-url-destination.xml -->
 

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
-[!UICONTROL Customer Data Feed]([!UICONTROL CDF]) 파일에 대한 기본 정보 및 시작 방법에 대한 지침입니다. [!UICONTROL CDF]개의 파일을 받거나 자세한 정보를 보려면 여기에서 시작하십시오.
+[!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) 파일에 대한 기본 정보 및 시작 방법에 대한 지침입니다. [!UICONTROL CDF]개의 파일을 받거나 자세한 정보를 보려면 여기에서 시작하십시오.
 
 ## 파일 내용 및 목적 {#file-contents-purpose}
 
@@ -254,7 +254,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
 
 ## [!UICONTROL Customer Data Feed]개의 파일 처리 알림 {#cdf-file-processing-notifications}
 
-[!DNL Audience Manager]이(가) [!UICONTROL Customer Data File]([!UICONTROL CDF])을(를) 다운로드할 준비가 되면 알리기 위해 [!DNL S3] 디렉터리에 `.info` 파일을 씁니다. `.info` 파일에는 [!UICONTROL CDF] 파일의 내용에 대한 [!DNL JSON] 형식의 메타데이터도 포함되어 있습니다. 이 알림 파일에서 사용하는 구문과 필드에 대한 정보는 이 섹션을 검토하십시오.
+[!DNL Audience Manager]이(가) [!UICONTROL Customer Data File] ([!UICONTROL CDF])을(를) 다운로드할 준비가 되면 알리기 위해 [!DNL S3] 디렉터리에 `.info` 파일을 씁니다. `.info` 파일에는 [!UICONTROL CDF] 파일의 내용에 대한 [!DNL JSON] 형식의 메타데이터도 포함되어 있습니다. 이 알림 파일에서 사용하는 구문과 필드에 대한 정보는 이 섹션을 검토하십시오.
 
 ## 샘플 정보 파일 {#sample-info-file}
 

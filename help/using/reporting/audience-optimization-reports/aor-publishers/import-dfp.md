@@ -22,7 +22,7 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
 
 로그 수집 활성화를 위한 필수 조건으로 전환하려면 이 섹션에서 설명하는 프로세스를 *이전*&#x200B;에 완료해야 합니다.
 
-[!DNL Audience Manager]에서 [!DNL Google Ad Manager](이전 Google DFP) 로그 파일을 사용하려면 먼저 광고 태그 호출에서 [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md)을(를) 설정해야 합니다. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그에 포함되며 [!DNL Google Ad Manager]과(와) [!DNL Audience Manager] 사이의 ID를 일치시킬 수 있습니다. [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module]을(를) 사용하여 자사 쿠키에 [!DNL Audience Manager] UUID를 설정합니다.
+[!DNL Audience Manager]에서 [!DNL Google Ad Manager] (이전 Google DFP) 로그 파일을 사용하려면 먼저 광고 태그 호출에서 [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md)을(를) 설정해야 합니다. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그에 포함되며 [!DNL Google Ad Manager]과(와) [!DNL Audience Manager] 사이의 ID를 일치시킬 수 있습니다. [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module]을(를) 사용하여 자사 쿠키에 [!DNL Audience Manager] UUID를 설정합니다.
 
 설명서에 설명된 대로 광고 태그 호출에서 [!DNL Audience Manager] ID를 설정하는 방법은 다음과 같습니다.
 

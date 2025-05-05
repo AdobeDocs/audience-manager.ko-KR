@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]``( )` 등)은 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]` `( )` 등)은 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
 ## 파일 이름 구문 {#file-name-syntax}
 

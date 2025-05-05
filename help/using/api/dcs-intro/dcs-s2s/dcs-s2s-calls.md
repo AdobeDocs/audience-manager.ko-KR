@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 호출 구문 및 예 {#call-syntax-example}
 
-[!DNL DCS](으)로 데이터를 보내는 기본 서버 간 요청에서는 아래와 같은 구문을 사용합니다.
+[!DNL DCS] (으)로 데이터를 보내는 기본 서버 간 요청에서는 아래와 같은 구문을 사용합니다.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID

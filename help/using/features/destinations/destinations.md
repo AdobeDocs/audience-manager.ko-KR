@@ -26,7 +26,7 @@ Audience Manager에서 [!UICONTROL destination]은(는) 타사 시스템(광고 
 
 [!UICONTROL Destinations] 및 [!UICONTROL Destination Builder]을(를) 사용하면 [!UICONTROL destinations]을(를) 만들고 세그먼트화된 사용자에 대한 정보를 데이터 파트너에게 보낼 수 있습니다. 이렇게 하면 다음과 같은 이점이 있습니다.
 
-* **Protect 데이터 값:** [!UICONTROL Destination Builder]에서는 모든 사용자 데이터를 [!UICONTROL destination](으)로 보내는 대신 자격 있는 사용자에 대한 특정 정보만 공유할 수 있습니다.
+* **Protect 데이터 값:** [!UICONTROL Destination Builder]에서는 모든 사용자 데이터를 [!UICONTROL destination] (으)로 보내는 대신 자격 있는 사용자에 대한 특정 정보만 공유할 수 있습니다.
 * **데이터에 대한 조치 취하기:** 데이터를 [!UICONTROL destination] 파트너에게 보내면 적격 대상 세그먼트를 빠르게 개발하고 타깃팅할 수 있습니다.
 * **기술 오버헤드 감소:** 비즈니스 사용자는 [!UICONTROL Destination Builder] 인터페이스에서 [!UICONTROL destinations]을(를) 안전하게 설정할 수 있습니다. 이렇게 하면 배포 전 테스트에 필요한 시간을 줄일 수 있습니다. [!UICONTROL Destination Builder]을(를) 사용하면 긴 개발 주기를 거치지 않고 비즈니스 요구 사항이 변경될 때 [!UICONTROL destinations]을(를) 만들고 관리하고 삭제할 수 있습니다.
 

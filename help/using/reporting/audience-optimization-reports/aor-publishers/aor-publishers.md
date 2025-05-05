@@ -20,7 +20,7 @@ ht-degree: 19%
 
 ## 개요 {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers]은(는) [!DNL Google Ad Manager]의 로그 수준 캠페인 성과 데이터를 [!DNL Audience Manager] 세그먼트 지표와 병치합니다. 보고서는 [!DNL Google Ad Manager]에서 [!DNL Audience Manager](으)로의 로그 수집을 설정한 고객이 사용할 수 있습니다. 아직 로그 수집을 설정하지 않은 경우, 그 방법에 대한 자세한 내용은 [Audience Manager에 Google Ad Manager 데이터 파일 가져오기](import-dfp.md)를 참조하십시오.
+[!UICONTROL Audience Optimization for Publishers]은(는) [!DNL Google Ad Manager]의 로그 수준 캠페인 성과 데이터를 [!DNL Audience Manager] 세그먼트 지표와 병치합니다. 보고서는 [!DNL Google Ad Manager]에서 [!DNL Audience Manager] (으)로의 로그 수집을 설정한 고객이 사용할 수 있습니다. 아직 로그 수집을 설정하지 않은 경우, 그 방법에 대한 자세한 내용은 [Audience Manager에 Google Ad Manager 데이터 파일 가져오기](import-dfp.md)를 참조하십시오.
 
 ## 메타데이터 {#metadata}
 

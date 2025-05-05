@@ -131,7 +131,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 `d_cid` 및 `d_cid_ic` 키-값 쌍으로 선언된 ID 옵트아웃 요청을 만들 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
-#### [!DNL CID] 및 [!DNL CID_IC](으)로 옵트아웃
+#### [!DNL CID] 및 [!DNL CID_IC] (으)로 옵트아웃
 
 설명 및 구문이 필요하면 [선언된 ID에 대한 URL 변수 및 구문](../../features/declared-ids.md#variables-and-syntax)을 참조하십시오.
 
@@ -149,7 +149,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 | 옵트아웃에 사용하는 값 | 코드 샘플 |
 |--- |--- |
-| [!DNL Audience Manager] [!DNL Unique User ID](`uuid`). | `https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| [!DNL Audience Manager] [!DNL Unique User ID] (`uuid`). | `https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
 | [!DNL Experience Cloud] ID(`mid`) | `https://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
 [Audience Manager의 ID 색인](/help/using/reference/ids-in-aam.md)에서 `uuid`, `mid` 및 `imsOrgId`에 대해 자세히 알아보십시오.

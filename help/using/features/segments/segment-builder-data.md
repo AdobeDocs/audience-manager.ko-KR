@@ -130,7 +130,7 @@ ht-degree: 1%
 
 [!UICONTROL Segment Builder]은(는) 최대 4개의 최신성과 빈도 식을 포함하는 세그먼트 규칙에 대한 세그먼트 크기 예측을 지원합니다. 세그먼트 규칙을 작성할 때 최신성 및 빈도 표현식을 4개 이상 선택하면 모집단을 추정할 때 세그먼트 추정기에 오류가 표시됩니다.
 
-### 세그먼트 모집단을 추정할 때 [!UICONTROL Merge Rules](으)로 인한 제한
+### 세그먼트 모집단을 추정할 때 [!UICONTROL Merge Rules] (으)로 인한 제한
 
 현재 세그먼트 크기 예측기가 [!UICONTROL profile merge rules]을(를) 설명하지 않으므로 알려진 제한 사항이 있습니다. 예를 들어, **[!UICONTROL No Authenticated Profile + Current Device Profile]** [병합 규칙](../../features/profile-merge-rules/merge-rule-definitions.md)이 있는 세그먼트를 확인합니다. 현재 세그먼트 예상 수를 계산하는 방법 때문에 예상 모집단에는 인증된 프로필이 포함됩니다. 그러나 기존 세그먼트 모집단은 인증된 프로필을 올바로 무시합니다.
 

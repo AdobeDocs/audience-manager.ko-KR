@@ -17,7 +17,7 @@ ht-degree: 0%
 
 신호 유형에 따라 신호 검색 결과를 필터링합니다.
 
-1. [!UICONTROL Audience Data > Signals > Search](으)로 이동하여 원하는 키-값 쌍으로 [!UICONTROL Signals Search]을(를) 실행하거나 필터를 사용하여 더 광범위한 검색을 실행하십시오.
+1. [!UICONTROL Audience Data > Signals > Search] (으)로 이동하여 원하는 키-값 쌍으로 [!UICONTROL Signals Search]을(를) 실행하거나 필터를 사용하여 더 광범위한 검색을 실행하십시오.
 1. **[!UICONTROL Filter by Signal Type]** 섹션을 사용하여 다음 범주를 기준으로 결과를 필터링합니다.
 
    * **[!UICONTROL Actionable log files]**: [!DNL Google] [!DNL DCM] 로그 파일을 통해 받은 신호;

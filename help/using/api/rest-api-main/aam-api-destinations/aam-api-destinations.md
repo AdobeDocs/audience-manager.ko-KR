@@ -24,7 +24,7 @@ Audience Manager에서 대상은 다른 시스템(광고 서버, [!DNL DSP], 광
 
 ## 대상 유형: URL 및 쿠키 {#destination-types}
 
-`destinationType` 매개 변수에서 사용하는 변수를 나열합니다. [!UICONTROL URL] 또는 [!UICONTROL cookie destination](으)로 작업하려면 `push` 또는 `ADS`을(를) 지정하십시오. 사용 가능한 대상 [!DNL API] 메서드로 [!UICONTROL server-to-server destinations]을(를) 만들 수 없습니다.
+`destinationType` 매개 변수에서 사용하는 변수를 나열합니다. [!UICONTROL URL] 또는 [!UICONTROL cookie destination] (으)로 작업하려면 `push` 또는 `ADS`을(를) 지정하십시오. 사용 가능한 대상 [!DNL API] 메서드로 [!UICONTROL server-to-server destinations]을(를) 만들 수 없습니다.
 
 <!-- r_destination_types.xml -->
 

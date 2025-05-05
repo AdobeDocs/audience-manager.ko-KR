@@ -136,7 +136,7 @@ Audience Manager이 타사 공급업체와 동기식 데이터 교환을 수행�
 실시간 데이터 통합 프로세스는 다음과 같이 작동합니다.
 
 1. 사용자가 Audience Manager 코드가 포함된 고객의 사이트를 방문합니다.
-1. Audience Manager이 Iframe을 로드하고 [!UICONTROL Data Collection Server]([!DNL DCS])을 호출합니다.
+1. Audience Manager이 Iframe을 로드하고 [!UICONTROL Data Collection Server] ([!DNL DCS])을 호출합니다.
 1. [!DNL DCS]은(는) 서드파티 서버를 실시간으로 호출하여 공급업체에 사용자에 대한 세그먼트 정보가 있는지 확인합니다.
 1. 서드파티는 해당 사용자에 대한 Audience Manager 정보를 사용자에게 반환합니다.
 1. Audience Manager은 세그먼트 정보를 수집하여 타깃팅에 사용할 수 있도록 합니다.
@@ -166,4 +166,4 @@ Audience Manager이 타사 공급업체와 동기적으로(실시간으로) 데�
 
 ![](assets/s2s_70.png)
 
-Audience Manager이 인바운드 및 아웃바운드 [!DNL Server-to-Server]([!UICONTROL S2S]) 파일 전송을 처리하는 기간에 대한 자세한 내용은 [보고 및 파일 전송 기간 지침](../reference/reporting-file-transfer-timeframe.md)을 참조하십시오.
+Audience Manager이 인바운드 및 아웃바운드 [!DNL Server-to-Server] ([!UICONTROL S2S]) 파일 전송을 처리하는 기간에 대한 자세한 내용은 [보고 및 파일 전송 기간 지침](../reference/reporting-file-transfer-timeframe.md)을 참조하십시오.

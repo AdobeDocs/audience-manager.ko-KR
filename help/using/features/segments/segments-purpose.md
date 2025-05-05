@@ -38,7 +38,7 @@ Adobe Analytics [!UICONTROL segments] 또는 보고서 세트를 Experience Clou
 >
 >Audience Manager [!UICONTROL segments]이(가) [!DNL Adobe Analytics] [!UICONTROL segments]과(와) 다릅니다. 차이점에 대한 자세한 설명은 [Analytics 및 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)를 참조하십시오.
 
-## [!UICONTROL Segment Builder](으)로 규칙 기반 [!UICONTROL Segments] 만들기
+## [!UICONTROL Segment Builder] (으)로 규칙 기반 [!UICONTROL Segments] 만들기
 
 간단한 예/아니요 조건에 응답하여 실행되는 기존 픽셀과 달리 [!UICONTROL Segment Builder]을(를) 사용하면 복잡한 [!UICONTROL segment] 요구 사항을 만들 수 있습니다. [!UICONTROL traits]과(와) 마찬가지로 [!UICONTROL segments]은(는) [!DNL Boolean]개 식([!DNL AND], [!DNL OR], [!DNL NOT]), 비교 연산자(보다 큼, 보다 작음, 같음 등) 및 최신성/빈도 기준을 사용하여 데이터를 평가합니다. 이러한 기능은 비즈니스 요구 사항과 관련된 집중 대상자 [!UICONTROL segments]을(를) 만드는 데 도움이 됩니다.
 

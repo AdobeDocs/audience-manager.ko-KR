@@ -46,7 +46,7 @@ Audience Manager은 다음 구성 요소를 포함합니다.
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager]은(는) [Akamai](https://www.akamai.com/us/en/about/)을(를) 사용하여 [!UICONTROL TIM (Tag Insertion Manager)](으)로 알려진 자체 태그 관리 플랫폼에서 컨테이너 코드를 호스트하고 전달합니다. 그러나 [!UICONTROL TIM]을(를) 사용한 코드 배포는 [!DNL Adobe Experience Platform Tags]을(를) 위해 단계적으로 중단되었습니다.
+[!DNL Audience Manager]은(는) [Akamai](https://www.akamai.com/us/en/about/)을(를) 사용하여 [!UICONTROL TIM (Tag Insertion Manager)] (으)로 알려진 자체 태그 관리 플랫폼에서 컨테이너 코드를 호스트하고 전달합니다. 그러나 [!UICONTROL TIM]을(를) 사용한 코드 배포는 [!DNL Adobe Experience Platform Tags]을(를) 위해 단계적으로 중단되었습니다.
 
 ## 컨트롤 데이터베이스 {#control-database}
 

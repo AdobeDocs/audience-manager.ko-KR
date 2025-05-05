@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Google 게시자 태그(GPT)를 사용하여 Google Ad Manager에 세그먼트를 보내기 위한 요구 사항 및 방법 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-클라이언트측 또는 서버측 통합을 통해 정규화된 세그먼트를 [!DNL Google Ad Manager](이전 DFP)에 보낼 수 있습니다. 두 방법에 대한 요구 사항 및 관련 정보는 아래에 나와 있습니다.
+클라이언트측 또는 서버측 통합을 통해 정규화된 세그먼트를 [!DNL Google Ad Manager] (이전 DFP)에 보낼 수 있습니다. 두 방법에 대한 요구 사항 및 관련 정보는 아래에 나와 있습니다.
 
 ## 클라이언트측 통합 {#client-side-integration}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 적격 세그먼트만 GPT로 전송됩니다.
 
-[!DNL GPT]에 전달되는 데이터의 양은 특정 사용자가 사용할 수 있는 세그먼트 수에 따라 다릅니다. 예를 들어 100개의 Audience Manager 세그먼트를 설정한다고 가정해 보겠습니다. 사이트 방문자가 이 중 5개 이상의 자격을 얻으면 해당 5개 세그먼트만 [!DNL GPT](100개 중 일부만)에게 전송됩니다.
+[!DNL GPT]에 전달되는 데이터의 양은 특정 사용자가 사용할 수 있는 세그먼트 수에 따라 다릅니다. 예를 들어 100개의 Audience Manager 세그먼트를 설정한다고 가정해 보겠습니다. 사이트 방문자가 이 중 5개 이상의 자격을 얻으면 해당 5개 세그먼트만 [!DNL GPT] (100개 중 일부만)에게 전송됩니다.
 
 >[!NOTE]
 >

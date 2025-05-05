@@ -29,7 +29,7 @@ ht-degree: 0%
 
 다음은 트레이트 실현을 채우는 방법입니다.
 
-1. [!UICONTROL Audience Data > Signals > Search](으)로 이동하여 신호 검색을 실행하거나 [신호 대시보드](../../features/data-explorer/data-explorer-signals-dashboard.md)를 사용하여 새 트레이트에 사용할 신호를 식별하십시오.
+1. [!UICONTROL Audience Data > Signals > Search] (으)로 이동하여 신호 검색을 실행하거나 [신호 대시보드](../../features/data-explorer/data-explorer-signals-dashboard.md)를 사용하여 새 트레이트에 사용할 신호를 식별하십시오.
 1. 원하는 신호를 기반으로 새 트레이트를 만듭니다.
 1. **[!UICONTROL Trait Expression]** 섹션의 **[!UICONTROL Backfill Options]**&#x200B;을(를) 사용하여 특성 실현을 채울 시간 간격을 선택하십시오. 사전 정의된 채우기 간격에는 1일, 7일, 14일, 30일이 포함됩니다. 최대 30일의 사용자 지정 날짜 범위를 선택할 수도 있습니다.
 

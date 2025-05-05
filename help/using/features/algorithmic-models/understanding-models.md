@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!UICONTROL Look-Alike Modeling] 이해 {#about-algorithmic-models}
 
-## [!UICONTROL Look-Alike Modeling](으)로 새 사용자 찾기 {#find-new-users}
+## [!UICONTROL Look-Alike Modeling] (으)로 새 사용자 찾기 {#find-new-users}
 
 [!UICONTROL Look-Alike Modeling]은(는) 자동화된 데이터 분석을 통해 새롭고 고유한 대상을 찾는 데 도움이 됩니다. [!UICONTROL trait] 또는 [!UICONTROL segment], 시간 간격, 첫 번째 및 타사 [!UICONTROL data sources]을(를) 선택하면 프로세스가 시작됩니다. 선택 항목은 알고리즘 모델에 대한 입력을 제공합니다. Analytics 프로세스가 실행되면 선택한 모집단의 공유 특성을 기반으로 적합한 사용자를 찾습니다. 완료 시 이 데이터는 [트레이트 빌더](../../features/traits/about-trait-builder.md)에서 사용할 수 있습니다. 여기서 [정확도 및 도달](../../features/traits/trait-accuracy-reach.md)을(를) 기준으로 트레이트를 만들 수 있습니다. 또한 알고리즘 트레이트를 [!UICONTROL rules-based traits]과(와) 결합하고 [!DNL Boolean] 표현식 및 비교 연산자와 함께 다른 자격 요구 사항을 추가하는 세그먼트를 만들 수 있습니다. [!UICONTROL Look-Alike Modeling]은(는) 사용 가능한 모든 트레이트 데이터에서 값을 추출하는 동적 방법을 제공합니다.
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 **[!UICONTROL Audience Data > Models]**&#x200B;에서 모델을 관리합니다. 높은 수준에서 워크플로 프로세스에는 다음이 포함됩니다.
 
-* 알고리즘에서 평가할 기준 데이터를 선택합니다. 여기에는 [!UICONTROL trait] 또는 [!UICONTROL segment], 시간 범위 및 [!UICONTROL data sources]([!DNL Audience Manager]을(를) 통해 이미 액세스할 수 있는 사용자 데이터 및 타사 데이터)이 포함됩니다. 모델 만들기 워크플로우에서 모델을 방해하지 않을 [!UICONTROL traits]을(를) 제외할 수 있습니다.
+* 알고리즘에서 평가할 기준 데이터를 선택합니다. 여기에는 [!UICONTROL trait] 또는 [!UICONTROL segment], 시간 범위 및 [!UICONTROL data sources] ([!DNL Audience Manager]을(를) 통해 이미 액세스할 수 있는 사용자 데이터 및 타사 데이터)이 포함됩니다. 모델 만들기 워크플로우에서 모델을 방해하지 않을 [!UICONTROL traits]을(를) 제외할 수 있습니다.
 * 모델을 저장합니다. 저장되면 알고리즘 평가 프로세스가 자동으로 실행됩니다. 단, 이 프로세스가 완료되는 데 최대 7일이 소요될 수 있습니다. [!DNL Audience Manager]이(가) 알고리즘이 완료되어 [!UICONTROL trait]을(를) 만들 수 있는 결과가 나오면 전자 메일을 보냅니다.
 * [!UICONTROL Trait Builder]에서 알고리즘 [!UICONTROL traits]을(를) 빌드합니다.
-* [!UICONTROL traits]을(를) [!UICONTROL Segment Builder]의 [!UICONTROL segments](으)로 결합합니다.
-* [!UICONTROL segment] 데이터를 만들어 [!UICONTROL destination](으)로 보냅니다.
+* [!UICONTROL traits]을(를) [!UICONTROL Segment Builder]의 [!UICONTROL segments] (으)로 결합합니다.
+* [!UICONTROL segment] 데이터를 만들어 [!UICONTROL destination] (으)로 보냅니다.
 
 ## 문제 해결 {#troubleshooting}
 

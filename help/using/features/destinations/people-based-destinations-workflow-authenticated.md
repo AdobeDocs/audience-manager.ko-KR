@@ -130,6 +130,7 @@ ht-degree: 1%
    * **[!UICONTROL Type]**: 사용자 기반;
    * **[!UICONTROL Platform]**: 대상 세그먼트를 보낼 사람 기반 플랫폼을 선택하십시오.
    * **[!UICONTROL Account]**: 선택한 플랫폼과 연결된 원하는 광고주 계정을 선택합니다.
+
      ![create-destination](assets/pbd-create-destination.png)
 1. **[!UICONTROL Next]** 아이콘을 클릭합니다.
 1. 이 대상에 대해 설정할 **[!UICONTROL Data Export Labels]**&#x200B;을(를) 선택하십시오.

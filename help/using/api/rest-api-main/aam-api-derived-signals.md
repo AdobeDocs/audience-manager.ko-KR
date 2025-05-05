@@ -24,7 +24,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->파생 신호 [!DNL API] 메서드가 [!DNL Swagger](으)로 다시 작성되고 마이그레이션되었습니다. 다음을 참조하십시오.
+>파생 신호 [!DNL API] 메서드가 [!DNL Swagger] (으)로 다시 작성되고 마이그레이션되었습니다. 다음을 참조하십시오.
 >
 >* [Adobe Audience Manager API 문서](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager API 코드 마이그레이션](../../api/api-swagger-migration.md)

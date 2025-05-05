@@ -56,7 +56,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Private]** 및 **[!UICONTROL Branded]**: 구매자의 [!UICONTROL Marketplace] 목록에 공급자 열에 판매자 이름이 표시되고 다른 모든 데이터는 숨겨집니다.
 
-* **[!UICONTROL Private]** 및 **[!UICONTROL Unbranded]**: 구매자의 [!UICONTROL Marketplace] 목록에 데이터 피드 이름과 설명만 표시됩니다. 데이터 공급자 이름이 [!UICONTROL Private Seller](으)로 표시됩니다.
+* **[!UICONTROL Private]** 및 **[!UICONTROL Unbranded]**: 구매자의 [!UICONTROL Marketplace] 목록에 데이터 피드 이름과 설명만 표시됩니다. 데이터 공급자 이름이 [!UICONTROL Private Seller] (으)로 표시됩니다.
 
 비공개 피드가 구매자에게 어떻게 보이는지 확인하려면 [비공개 데이터 피드](../../../features/audience-marketplace/marketplace-private-feeds.md)의 구매자 섹션을 참조하십시오.
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 구매자의 비공개 피드 요청 관리를 위한 공급자 워크플로우입니다.
 
-구매자 요청을 검토, 승인 또는 거부하려면 [!UICONTROL My Shared Data](으)로 이동하여 다음을 수행합니다.
+구매자 요청을 검토, 승인 또는 거부하려면 [!UICONTROL My Shared Data] (으)로 이동하여 다음을 수행합니다.
 
 <!-- t_private_feed_workflows.xml -->
 

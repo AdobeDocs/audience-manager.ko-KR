@@ -30,7 +30,7 @@ ht-degree: 0%
 
 이 경우 해당 데이터 소스에 다음과 같이 레이블을 지정해야 합니다.
 
-1. [!UICONTROL Audience Data] -> [!UICONTROL Data Sources](으)로 이동합니다.
+1. [!UICONTROL Audience Data] -> [!UICONTROL Data Sources] (으)로 이동합니다.
 1. [DPUUID](../../reference/ids-in-aam.md)이(가) 포함된 데이터 소스를 찾아 클릭합니다.
 1. **[!UICONTROL ID Type]** 드롭다운 메뉴에서 **[!UICONTROL Cross Device]**&#x200B;을(를) 선택합니다.
 1. [!UICONTROL Cannot be tied to personally identifiable information] 옵션이 선택 취소되었는지 확인하십시오.
@@ -160,6 +160,7 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
    * **[!UICONTROL Type]**: 사용자 기반;
    * **[!UICONTROL Platform]**: 대상 세그먼트를 보낼 사람 기반 플랫폼을 선택하십시오.
    * **[!UICONTROL Account]**: 선택한 플랫폼과 연결된 원하는 광고주 계정을 선택합니다.
+
      ![create-destination](assets/pbd-create-destination.png)
 1. **[!UICONTROL Next]** 아이콘을 클릭합니다.
 1. 이 대상에 대해 설정할 **[!UICONTROL Data Export Labels]**&#x200B;을(를) 선택하십시오.

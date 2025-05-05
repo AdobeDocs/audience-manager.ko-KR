@@ -270,7 +270,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## S2S 및 대량 S2S 대상 작업 내역 반환 {#return-job-history}
 
-아웃바운드 [!UICONTROL Server-to-Server]([!UICONTROL S2S]) 및 대량 [!UICONTROL S2S] 대상 작업 내역 정보를 반환하는 `GET` 메서드입니다.
+아웃바운드 [!UICONTROL Server-to-Server] ([!UICONTROL S2S]) 및 대량 [!UICONTROL S2S] 대상 작업 내역 정보를 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_job_history.xml -->
 

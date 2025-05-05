@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # 인바운드 데이터 전송을 위한 ID 동기화 {#id-synchronization-for-inbound-data-transfers}
 
-공급업체와 [!DNL Audience Manager] 간에 사용자 ID를 동기화하기 위해 초기 `HTTP` 호출에 사용되는 구문과 매개 변수를 설명합니다. 데이터 분류법을 [!DNL Audience Manager](으)로 보낸 후 ID 동기화를 시작할 수 있습니다.
+공급업체와 [!DNL Audience Manager] 간에 사용자 ID를 동기화하기 위해 초기 `HTTP` 호출에 사용되는 구문과 매개 변수를 설명합니다. 데이터 분류법을 [!DNL Audience Manager] (으)로 보낸 후 ID 동기화를 시작할 수 있습니다.
 
 ID 동기화는 인바운드 비동기 데이터 전송 프로세스의 첫 번째 단계입니다. 이 단계에서 [!DNL Audience Manager]과(와) 공급업체는 해당 사이트 방문자의 ID를 비교하고 일치시킵니다. 예를 들어 [!DNL Audience Manager] 고객은 ID 123으로 사용자를 알 수 있습니다. 그러나 데이터 파트너는 ID 456으로 이 사용자를 식별할 수 있습니다. 동기화 프로세스를 통해 [!DNL Audience Manager]과(와) 데이터 공급업체는 서로 다른 ID를 조정하고 해당 시스템의 사용자를 식별할 수 있습니다. 완료되면 [!DNL Audience Manager]과(와) 타사 파트너는 네트워크에서 볼 수 있는 각 고유 사용자에 대해 해당 ID를 보유해야 합니다.
 
-다음 메서드를 사용하여 데이터를 [!DNL Audience Manager](으)로 가져올 수 있습니다.
+다음 메서드를 사용하여 데이터를 [!DNL Audience Manager] (으)로 가져올 수 있습니다.
 
 * [ID 동기화 HTTP 요청](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
 * [선언된 ID 이벤트](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)

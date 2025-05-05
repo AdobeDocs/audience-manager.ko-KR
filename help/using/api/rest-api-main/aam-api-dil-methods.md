@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Data Integration Library API 메서드 {#data-integration-library-api-methods}
 
-[!UICONTROL Data Integration Library]([!UICONTROL DIL])을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
+[!UICONTROL Data Integration Library] ([!UICONTROL DIL])을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
 
 >[!IMPORTANT]
 >

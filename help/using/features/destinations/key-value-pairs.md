@@ -1,5 +1,5 @@
 ---
-description: ' [!DNL key-value pair] 은(는)  [!DNL related elements](으)로 구성됩니다. 데이터 세트(예: 성별, 색상, 가격)를 정의하는 상수인 키와 세트에 속하는 변수(예: 남성/여성, 녹색, 100)인 값입니다. 대상 빌더가 키-값 쌍 형식의 데이터를 보냅니다.'
+description: ' [!DNL key-value pair] 은(는)  [!DNL related elements] (으)로 구성됩니다. 데이터 세트(예: 성별, 색상, 가격)를 정의하는 상수인 키와 세트에 속하는 변수(예: 남성/여성, 녹색, 100)인 값입니다. 대상 빌더가 키-값 쌍 형식의 데이터를 보냅니다.'
 solution: Audience Manager
 title: 표준 및 직렬 [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41

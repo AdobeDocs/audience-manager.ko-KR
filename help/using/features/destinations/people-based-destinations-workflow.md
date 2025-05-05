@@ -35,7 +35,7 @@ ht-degree: 2%
 
 [!DNL People-Based Destinations] 구현을 시작하기 전에 이 기능을 사용할 사용 사례를 명확히 정의해야 합니다. 대상 활동을 기반으로 두 가지 방법으로 대상을 타기팅하는 데 [!DNL People-Based Destinations]을(를) 사용할 수 있습니다.
 
-**A) 온라인 및 오프라인 사용자 활동을 결합한 대상 타깃팅**. 이 시나리오에서는 Audience Manager의 기존 대상 데이터를 내부 [!DNL CRM] 시스템의 데이터와 결합하고 결과 대상 세그먼트를 [!DNL People-Based Destinations](으)로 보냅니다. 다음은 이 시나리오를 보여 주는 예입니다.
+**A) 온라인 및 오프라인 사용자 활동을 결합한 대상 타깃팅**. 이 시나리오에서는 Audience Manager의 기존 대상 데이터를 내부 [!DNL CRM] 시스템의 데이터와 결합하고 결과 대상 세그먼트를 [!DNL People-Based Destinations] (으)로 보냅니다. 다음은 이 시나리오를 보여 주는 예입니다.
 
 항공사인 귀사에는 다양한 고객 계층(브론즈, 실버 및 골드)이 있으며, 소셜 플랫폼을 통해 각 계층에 개인화된 오퍼를 제공하려고 합니다. Audience Manager을 사용하여 웹 사이트에서의 고객 활동을 분석합니다. 다만 모든 고객이 항공사의 모바일 앱을 사용하는 것은 아니며, 이들 중 일부는 회사 홈페이지에 로그인하지 않은 상태다. 고객 데이터는 대부분 멤버십 ID 및 이메일 주소로 제한됩니다.
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 **A) Audience Manager 고객 ID([DPUUID](../../reference/ids-in-aam.md))가 이미 소문자이고 해시된 이메일 주소입니다**. 이 시나리오에서는 이러한 기존 ID를 사용하여 [!DNL People-Based Destinations]에서 대상을 타깃팅할 수 있습니다.
 
-**B) Audience Manager 고객 ID([DPUUIDs](../../reference/ids-in-aam.md))가 소문자가 아니며 해시된 이메일 주소**&#x200B;입니다. 이 시나리오에서는 기존 고객 ID를 [!DNL People-Based Destinations](으)로 보낼 수 없습니다. [!DNL People-Based Destinations]을(를) 사용하려면 기존 고객 ID와 고객 이메일 주소의 해시된 소문자 버전 간에 ID 동기화를 수행해야 합니다. [파일 기반 ID 동기화](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)를 통해 또는 [선언된 ID](../declared-ids.md)를 사용하여 이 작업을 수행합니다.
+**B) Audience Manager 고객 ID([DPUUIDs](../../reference/ids-in-aam.md))가 소문자가 아니며 해시된 이메일 주소**&#x200B;입니다. 이 시나리오에서는 기존 고객 ID를 [!DNL People-Based Destinations] (으)로 보낼 수 없습니다. [!DNL People-Based Destinations]을(를) 사용하려면 기존 고객 ID와 고객 이메일 주소의 해시된 소문자 버전 간에 ID 동기화를 수행해야 합니다. [파일 기반 ID 동기화](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)를 통해 또는 [선언된 ID](../declared-ids.md)를 사용하여 이 작업을 수행합니다.
 
 ## 4. 트레이트 자격 요건 {#trait-qualification}
 

@@ -211,9 +211,9 @@ curl -X 'GET' \
 
 >[!ENDSHADEBOX]
 
-## [!BADGE 사용되지 않음]{type=negative}Adobe Developer을 사용한 [!DNL JWT]([!DNL Service Account]) 인증 {#jwt}
+## [!BADGE 사용되지 않음]{type=negative}Adobe Developer을 사용한 [!DNL JWT] ([!DNL Service Account]) 인증 {#jwt}
 
-+++ 인증 토큰을 얻는 더 이상 사용되지 않는 [!DNL JWT]([!DNL Service Account]) 메서드에 대한 정보를 봅니다.
++++ 인증 토큰을 얻는 더 이상 사용되지 않는 [!DNL JWT] ([!DNL Service Account]) 메서드에 대한 정보를 봅니다.
 
 ### Adobe Developer 개요 {#adobeio}
 
@@ -265,7 +265,7 @@ Audience Manager 계정이 [역할 기반 액세스 제어](../../features/admin
 
 ### 일반 [!DNL API] 사용자 만들기 {#requirements}
 
-[!DNL Audience Manager] [!DNL API](으)로 작업하려면 별도의 기술 사용자 계정을 만드는 것이 좋습니다. 조직의 특정 사용자와 연결되거나 연결되지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
+[!DNL Audience Manager] [!DNL API] (으)로 작업하려면 별도의 기술 사용자 계정을 만드는 것이 좋습니다. 조직의 특정 사용자와 연결되거나 연결되지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
 
 * [!DNL API]을(를) 호출하는 서비스(예: [!DNL API]을(를) 사용하는 앱이나 [!DNL API]개의 요청을 하는 다른 도구의 호출)를 식별합니다.
 * [!DNL API]에 중단 없이 액세스하십시오. 특정 사용자에 연결된 계정은 회사에서 나갈 때 삭제될 수 있습니다. 이 경우 사용 가능한 [!DNL API] 코드를 사용할 수 없습니다. 특정 직원에게 연결되지 않은 일반 계정은 이 문제를 방지하는 데 도움이 됩니다.
@@ -402,7 +402,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 사용하는 인증 방법에 따라 아래 표에 따라 요청 [!DNL URLs]을(를) 조정해야 합니다.
 
-### [!BADGE 권장]에 대한 [!DNL URLs] 요청{type=positive}[!BADGE 사용되지 않음]{type=negative}Adobe Developer을 통한 [!DNL JWT] 인증 {#request-urls-jwt}
+### [!BADGE 권장]에 대한 [!DNL URLs] 요청&lbrace;type=positive&rbrace;[!BADGE 사용되지 않음]{type=negative}Adobe Developer을 통한 [!DNL JWT] 인증 {#request-urls-jwt}
 
 | [!DNL API] 메서드 | [!DNL URL] 요청 |
 |--- |--- |
@@ -420,7 +420,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 {style="table-layout:auto"}
 
-### [!BADGE 사용되지 않음]에 대한 요청 [!DNL URLs]{type=negative}[!DNL OAuth] 인증 {#request-urls-oauth}
+### [!BADGE 사용되지 않음]에 대한 요청 [!DNL URLs]&lbrace;type=negative&rbrace;[!DNL OAuth] 인증 {#request-urls-oauth}
 
 | [!DNL API] 메서드 | [!DNL URL] 요청 |
 |--- |--- |

@@ -39,9 +39,9 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 응답
 
-응답이 브라우저를 `d_rd` 매개 변수에 지정된 [!DNL URL](으)로 리디렉션합니다. 응답 문자열에는 아래 나열된 지원되는 매크로에서 생성된 값이 포함될 수 있습니다.
+응답이 브라우저를 `d_rd` 매개 변수에 지정된 [!DNL URL] (으)로 리디렉션합니다. 응답 문자열에는 아래 나열된 지원되는 매크로에서 생성된 값이 포함될 수 있습니다.
 
-위의 예제를 기반으로 브라우저는 다음 [!DNL URL](으)로 리디렉션됩니다.
+위의 예제를 기반으로 브라우저는 다음 [!DNL URL] (으)로 리디렉션됩니다.
 
 `https://adobe.com/callback?creative=123`
 
@@ -162,7 +162,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 ## 응답
 
-위의 예제를 기반으로 브라우저는 다음 [!DNL URL](으)로 리디렉션됩니다.
+위의 예제를 기반으로 브라우저는 다음 [!DNL URL] (으)로 리디렉션됩니다.
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 

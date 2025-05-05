@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## RBAC(역할 기반 액세스 제어) 권한 {#role-based-access-controls}
 
-[!UICONTROL Role-Based Access Controls]([!UICONTROL RBAC])을(를) 사용하는 회사의 경우 적절한 [!UICONTROL RBAC] 권한을 가진 사용자가 [!UICONTROL folder trait]에 연결된 데이터 원본을 변경할 수 있습니다. 사용자는 다음 중 하나가 있는 그룹에 속해야 합니다.
+[!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC])을(를) 사용하는 회사의 경우 적절한 [!UICONTROL RBAC] 권한을 가진 사용자가 [!UICONTROL folder trait]에 연결된 데이터 원본을 변경할 수 있습니다. 사용자는 다음 중 하나가 있는 그룹에 속해야 합니다.
 
 * 트레이트 데이터 원본에 대한 `READ` 및 `WRITE` 그룹 권한.
 * 트레이트 데이터 원본에 대한 `VIEW_ALL_TRAITS` 및 `EDIT_ALL_TRAITS` 와일드카드 권한입니다.

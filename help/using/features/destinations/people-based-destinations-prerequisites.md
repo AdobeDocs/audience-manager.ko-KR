@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ### [!DNL Facebook] {#facebook}
 
-[!UICONTROL People-Based Destinations]을(를) 사용하여 자사 대상 [!UICONTROL segments]을(를) [!DNL Facebook](으)로 보내려면 먼저 다음 요구 사항을 충족하는지 확인하십시오.
+[!UICONTROL People-Based Destinations]을(를) 사용하여 자사 대상 [!UICONTROL segments]을(를) [!DNL Facebook] (으)로 보내려면 먼저 다음 요구 사항을 충족하는지 확인하십시오.
 
 1. [!DNL Facebook] 사용자 계정에는 사용할 광고 계정에 대해 **캠페인 관리** 권한이 활성화되어 있어야 합니다.
 2. [!DNL Facebook Ad Account]에서 광고 파트너로서 **Adobe Experience Cloud** 비즈니스 계정을 추가합니다. `business ID=206617933627973`를 사용하십시오. 자세한 내용은 [비즈니스 관리자에 파트너 추가](https://www.facebook.com/business/help/1717412048538897)를 참조하십시오.
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ### [!DNL LinkedIn] {#linkedin}
 
-[!UICONTROL People-Based Destinations]을(를) 사용하여 자사 대상 세그먼트를 [!DNL LinkedIn](으)로 보내려면 먼저 [!DNL LinkedIn Campaign Manager] 계정에 [!DNL Creative Manager] 이상의 권한 수준이 있는지 확인하십시오.
+[!UICONTROL People-Based Destinations]을(를) 사용하여 자사 대상 세그먼트를 [!DNL LinkedIn] (으)로 보내려면 먼저 [!DNL LinkedIn Campaign Manager] 계정에 [!DNL Creative Manager] 이상의 권한 수준이 있는지 확인하십시오.
 
 [!DNL LinkedIn Campaign Manager] 사용자 권한을 편집하는 방법에 대해 알아보려면 LinkedIn 설명서의 [Advertising 계정에 대한 사용자 권한 추가, 편집 및 제거](https://www.linkedin.com/help/lms/answer/5753)를 참조하십시오.
 

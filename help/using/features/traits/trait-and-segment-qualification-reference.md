@@ -37,14 +37,14 @@ ht-degree: 0%
 
 ![고유 특성 실현](assets/trait-graph.png)
 
-그래프를 표시할 결과 유형([!UICONTROL Device ID] 또는 [!UICONTROL Cross-Device ID](으)로 필터링)에 따라 지표의 의미가 다릅니다.
+그래프를 표시할 결과 유형([!UICONTROL Device ID] 또는 [!UICONTROL Cross-Device ID] (으)로 필터링)에 따라 지표의 의미가 다릅니다.
 
-결과를 [!UICONTROL Device ID](으)로 필터링하는 경우:
+결과를 [!UICONTROL Device ID] (으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 다른 시간 범위 내에서 프로필에 트레이트를 추가한 익명 장치 방문자의 수입니다.
 * [!UICONTROL Total Trait Population]은(는) 프로필에 이 특성이 있는 익명 장치 방문자의 수입니다.
 
-결과를 [!UICONTROL Cross-Device ID](으)로 필터링하는 경우:
+결과를 [!UICONTROL Cross-Device ID] (으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 다른 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
 * [!UICONTROL Total Trait Population]은(는) 프로필에 이 특성이 있는 인증된 방문자의 수입니다.

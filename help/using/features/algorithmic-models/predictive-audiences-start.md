@@ -42,6 +42,7 @@ ht-degree: 2%
    * **[!UICONTROL Description]**: 사용 사례를 식별하는 데 도움이 되는 모델의 설명을 입력하십시오.
    * **[!UICONTROL Data Source]**: 이 모델의 [!UICONTROL Predictive Audiences] 세그먼트를 할당할 자사 데이터 원본을 선택하십시오.
    * **[!UICONTROL Profile Merge Rule]**: 이 모델에서 만든 모든 예측 [!UICONTROL segments]에 대해 할당할 [!UICONTROL Profile Merge Rule]을(를) 선택하십시오. 선택한 타겟 대상이 [!UICONTROL segment]인 경우 타겟 대상의 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택하는 것이 좋습니다.
+
      ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 

@@ -22,7 +22,7 @@ Audience Manager의 데이터 거버넌스는 Audience Manager에서 고객 데�
 
 ## IP 주소 수집 및 IP 주소 난독화 {#collecting-ip-addresses}
 
-고객의 웹 사이트에 대한 방문자의 [!DNL IP] 주소는 [!DNL IP] 주소가 저장되어 있을 수 있는 Adobe [!DNL DPC]([!DNL Data Processing Center])에 전송됩니다. 방문자에 대한 네트워크 구성에 따라서는, [!DNL IP] 주소가 꼭 방문자의 컴퓨터 [!DNL IP] 주소를 나타내지는 않을 수 있습니다. 예를 들어 [!DNL IP] 주소가 NAT(Network Address Translation) 방화벽, [!DNL HTTP] 프록시 또는 인터넷 게이트웨이의 외부 [!DNL IP] 주소일 수 있습니다.
+고객의 웹 사이트에 대한 방문자의 [!DNL IP] 주소는 [!DNL IP] 주소가 저장되어 있을 수 있는 Adobe [!DNL DPC] ([!DNL Data Processing Center])에 전송됩니다. 방문자에 대한 네트워크 구성에 따라서는, [!DNL IP] 주소가 꼭 방문자의 컴퓨터 [!DNL IP] 주소를 나타내지는 않을 수 있습니다. 예를 들어 [!DNL IP] 주소가 NAT(Network Address Translation) 방화벽, [!DNL HTTP] 프록시 또는 인터넷 게이트웨이의 외부 [!DNL IP] 주소일 수 있습니다.
 
 **IP 난독화 방법론:** &quot;계획적 개인 정보 보호&quot;(Privacy By Design)라는 원칙에 따라 Adobe Audience Manager에서는 고객이 전 세계 모든 지역 간에 또는 특정 국가에 대해 UI에서 [!DNL IP] 난독화를 사용할 수 있도록 허용합니다. 이 설정을 활성화할 경우 [!DNL IP] 주소가 Audience Manager에 섭취될 때 [!DNL IP] 주소의 마지막 옥텟(마지막 부분)이 즉시 삭제됩니다. Audience Manager는 처리 전에([!DNL IP] 주소의 선택적 지역 조회 또는 로깅 전 포함) [!DNL IP] 주소에서 이 부분을 삭제합니다. 예:
 

@@ -48,7 +48,7 @@ ht-degree: 46%
 | [!DNL AOL ONE] | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 아니오 | 예 |
 | [!DNL AppNexus] | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 예 | 예 |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | 예 | 아니오 | 아니오 | 아니오 |
-| [!DNL Artsai](이전 [!DNL Adxcel]) | 27/01/2020 | 1xday | 아니오 | 아니오 | 아니오 | 예 |
+| [!DNL Artsai] (이전 [!DNL Adxcel]) | 27/01/2020 | 1xday | 아니오 | 아니오 | 아니오 | 예 |
 | [!DNL Atedra]/[!DNL AdStanding] | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 예 | 아니요 |
 | [!DNL Avocet] | 2017/06/12 | 1xday | 아니오 | 아니오 | 아니오 | 아니오 |
 | [!DNL Bidtellect] | 03/03/2017 | 실시간 | 예 | 아니오 | 아니오 | 아니오 |
@@ -70,7 +70,7 @@ ht-degree: 46%
 | [!DNL DistrictM] | 2017년 2월 3일 | 1xday | 예 | 아니오 | 아니오 | 아니오 |
 | [!DNL DoubleVerify] | 06/09/2017 | 1xday | 예 | 아니오 | 아니오 | 아니오 |
 | [!DNL Drawbridge] | 2017년 2월 3일 | 실시간 | 아니오 | 아니오 | 아니오 | 예 |
-| [!DNL Dstillery]([!DNL FKA Media6]) | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 아니오 | 예 |
+| [!DNL Dstillery] ([!DNL FKA Media6]) | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 아니오 | 예 |
 | [!DNL Dunnhumby] | 21/11/2019 | 1xday | 아니오 | 아니오 | 아니오 | 아니오 |
 | [!DNL easyfundraising] | 27/06/2019 | 1xday | 아니오 | 아니오 | 아니오 | 예 |
 | [!DNL Epsilon Conversant] | 03/03/2017 | 실시간 | 아니오 | 아니오 | 아니오 | 아니오 |

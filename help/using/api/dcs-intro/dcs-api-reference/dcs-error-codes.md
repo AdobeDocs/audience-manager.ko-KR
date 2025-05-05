@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # DCS 오류 코드, 메시지 및 예제 {#dcs-error-codes-messages-and-examples}
 
-코드 ID별로 숫자 순서로 나열된 [!UICONTROL Data Collection Servers]([!DNL DCS])에서 생성된 오류 코드 및 메시지입니다.
+코드 ID별로 숫자 순서로 나열된 [!UICONTROL Data Collection Servers] ([!DNL DCS])에서 생성된 오류 코드 및 메시지입니다.
 
 아래 표에서 *기울임꼴*&#x200B;은(는) 변수 자리 표시자를 나타냅니다.
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 데이터 파일: 이러한 보고서를 사용하여 자신의 데이터나 [!DNL Audience Manager]과(와) 통합되지 않은 소스의 데이터를 분석하려면 해당 데이터에 대한 데이터 및 메타데이터 파일을 만들고 업로드해야 합니다. 자세한 내용은 [Audience Optimization 보고서에 대한 데이터 파일](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) 및 [Audience Optimization 보고서에 대한 데이터 및 메타데이터 파일](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)을 참조하십시오.
 
-## [!UICONTROL Role-Based Access Controls](RBAC) {#rbac}
+## [!UICONTROL Role-Based Access Controls] (RBAC) {#rbac}
 
 볼 수 있는 보고서 유형은 할당된 [!UICONTROL RBAC] 그룹에 따라 다릅니다. 자세한 내용은 [관리](../../../features/administration/administration-overview.md) 및 [그룹 만들기](../../../features/administration/administration-overview.md#create-group)를 참조하십시오.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 * 브랜드 [!UICONTROL data source]
 * 플랫폼 [!UICONTROL data source]
 
-둘 이상의 [!UICONTROL RBAC] 사용자 그룹에 속하는 사용자는 각 그룹의 보기 간에 전환할 수 있습니다. 표시된 데이터가 선택한 그룹에 맞게 업데이트됩니다. 회사에서 [!UICONTROL RBAC]을(를) 사용하지 않는 경우 모든 사용자는 관리자 권한을 갖게 되고 모든 [!UICONTROL data sources](전환 그룹)에 액세스할 수 있습니다.
+둘 이상의 [!UICONTROL RBAC] 사용자 그룹에 속하는 사용자는 각 그룹의 보기 간에 전환할 수 있습니다. 표시된 데이터가 선택한 그룹에 맞게 업데이트됩니다. 회사에서 [!UICONTROL RBAC]을(를) 사용하지 않는 경우 모든 사용자는 관리자 권한을 갖게 되고 모든 [!UICONTROL data sources] (전환 그룹)에 액세스할 수 있습니다.
 
 ## 전환 그룹 {#conversion-groups}
 

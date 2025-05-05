@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >이는 두 시스템의 제품화된 통합이 아닙니다.
 
-[!DNL Google Ads] 리마케팅 목록을 [!DNL Audience Manager] [!DNL URL destination](으)로 설정하려면:
+[!DNL Google Ads] 리마케팅 목록을 [!DNL Audience Manager] [!DNL URL destination] (으)로 설정하려면:
 
 1. [!DNL Google Ads] 계정에서 [웹 사이트 리마케팅 목록을 만들고](https://support.google.com/tagmanager/answer/6106960?hl=en) 전환 ID를 기록하세요.
 1. 다음 URL을 기본 URL 및 보안 URL의 템플릿으로 사용합니다. xxxxxxxx 섹션을 전환 ID로 바꿉니다.
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. Audience Manager에서 [만들기 [!DNL URL destination]](../../features/destinations/create-url-destination.md)하거나 기존 [!DNL destination]을(를) 편집하세요. [!DNL destination]을(를) 만들 때 다음 설정을 사용하십시오.
    * 유형: URL
    * 직렬화: 활성화됨
-   * 구분 기호: 세미콜론( &amp;semi; )
+   * 구분 기호: 세미콜론( &semi; )
 
 1. [!DNL URL] [!DNL destination]의 [!UICONTROL Segment Mappings] 섹션에서 2단계의 코드를 [!DNL URL] 및 [!DNL Secure URL] 필드에 추가합니다. [!DNL URL] 및 [!DNL Secure URL] 필드에 각각 `http:` 및 `https:`을(를) 사용하여 코드 접두사를 지정합니다.
 

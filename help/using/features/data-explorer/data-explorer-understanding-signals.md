@@ -34,7 +34,7 @@ ht-degree: 1%
    * [!DNL Adobe Analytics]에서 보낸 신호의 경우 데이터 원본은 항상 보고서 세트입니다.
    * 실행 가능한 로그 파일 및 일반 온라인 데이터의 경우 신호 소스 정보가 표시되지 않습니다.
 * *총 개수*&#x200B;는 지난 7일 동안 [!DNL Audience Manager]에서 실시간 신호를 받은 총 횟수를 보여줍니다.
-* *트레이트에 포함됨*&#x200B;은(는) 신호가 어떤 트레이트에 속하는지 여부를 보여 줍니다. 해당 신호를 포함하는 트레이트를 보려면 화살표를 클릭합니다. 어떤 특성에도 속하지 않는 신호의 경우 열 값이 [!UICONTROL Create Onboarded Trait] 또는 [!UICONTROL Create Rule-Based Trait](으)로 변경됩니다.
+* *트레이트에 포함됨*&#x200B;은(는) 신호가 어떤 트레이트에 속하는지 여부를 보여 줍니다. 해당 신호를 포함하는 트레이트를 보려면 화살표를 클릭합니다. 어떤 특성에도 속하지 않는 신호의 경우 열 값이 [!UICONTROL Create Onboarded Trait] 또는 [!UICONTROL Create Rule-Based Trait] (으)로 변경됩니다.
 
 ## 신호 데이터 새로 고침 빈도
 

@@ -16,7 +16,7 @@ ht-degree: 35%
 
 # DCS 이벤트 호출 API {#dcs-event-call-apis}
 
-이벤트 호출은 [!DNL URL] 문자열의 [!DNL DCS](으)로 정보를 보냅니다. 일반적인 Audience Manager 배포에서는 고객이 [!DNL JavaScript] 데이터 수집 코드([!UICONTROL DIL])를 사용하여 데이터를 [!DNL DCS](으)로 보냅니다. 그러나 고객이 [!DNL JavaScript] 코드를 페이지에 넣을 수 없는 경우가 있습니다. 회사 정책이나 기타 기술 문제로 인해 [!DNL JavaScript] 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 [!DNL API]을(를) 사용하여 [!DNL DCS]에서 데이터를 전송하고 반환하도록 Audience Manager과 계속 작업할 수 있습니다.
+이벤트 호출은 [!DNL URL] 문자열의 [!DNL DCS] (으)로 정보를 보냅니다. 일반적인 Audience Manager 배포에서는 고객이 [!DNL JavaScript] 데이터 수집 코드([!UICONTROL DIL])를 사용하여 데이터를 [!DNL DCS] (으)로 보냅니다. 그러나 고객이 [!DNL JavaScript] 코드를 페이지에 넣을 수 없는 경우가 있습니다. 회사 정책이나 기타 기술 문제로 인해 [!DNL JavaScript] 코드를 페이지에 삽입하지 못하는 경우, 이러한 이벤트 호출 [!DNL API]을(를) 사용하여 [!DNL DCS]에서 데이터를 전송하고 반환하도록 Audience Manager과 계속 작업할 수 있습니다.
 
 ## 시작하기 {#dcs-getting-started}
 

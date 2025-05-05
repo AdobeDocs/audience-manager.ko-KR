@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 세그먼트 및 트레이트 유지 시간 설명 {#segment-time-to-live-explained}
 
-트레이트 [!UICONTROL time-to-live]([!DNL TTL]) 간격이 세그먼트 멤버십에 미치는 영향.
+트레이트 [!UICONTROL time-to-live] ([!DNL TTL]) 간격이 세그먼트 멤버십에 미치는 영향.
 
 <!-- segment-ttl-explained.xml -->
 

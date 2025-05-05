@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. [!UICONTROL Profile Merge Rule] 이름을 지정합니다.
 2. *(선택 사항)*&#x200B;에서 [!UICONTROL Profile Merge Rule]을(를) 설명합니다. 간결한 설명은 규칙의 역할이나 목적을 정의하는 데 도움이 됩니다.
-3. *(선택 사항)* 기본 [!UICONTROL Profile Merge Rule](으)로 설정하려면 **[!UICONTROL Set as default]**&#x200B;을(를) 선택하십시오. 새 세그먼트는 기본 규칙과 자동으로 연결됩니다.
+3. *(선택 사항)* 기본 [!UICONTROL Profile Merge Rule] (으)로 설정하려면 **[!UICONTROL Set as default]**&#x200B;을(를) 선택하십시오. 새 세그먼트는 기본 규칙과 자동으로 연결됩니다.
 
 ## 데이터 내보내기 제어 {#data-export-controls}
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바른 통합을 보장하려면 다음 요구 사항을 충족하는지 확인하십시오.
 
-1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토합니다. 프로필 병합 규칙에서 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필이 내보내기에 포함될 수 있습니다. 프로필 병합 규칙에서 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile](으)로 전환합니다.
+1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토합니다. 프로필 병합 규칙에서 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필이 내보내기에 포함될 수 있습니다. 프로필 병합 규칙에서 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile] (으)로 전환합니다.
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]
@@ -130,7 +130,7 @@ Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인�
 
 ### 고객 ID 설정 기능 구성
 
-[!UICONTROL Adobe Experience Platform Identity Service](으)로 작업할 때 `setCustomerIDs` 함수는 선언된 ID를 [!DNL Audience Manager]에 전달합니다. 프로필 병합 규칙을 사용하려면 장치 간 데이터 원본을 만들 때 지정된 통합 코드를 사용하도록 `setCustomerIDs`을(를) 수정해야 합니다. 예를 들어 통합 코드가 `my_datasource_ic`인 장치 간 데이터 원본을 만들었다고 가정합니다. 선언된 ID를 전달하려면 아래 수정된 코드 샘플에 표시된 대로 통합 코드를 방문자 ID 함수에 추가합니다.
+[!UICONTROL Adobe Experience Platform Identity Service] (으)로 작업할 때 `setCustomerIDs` 함수는 선언된 ID를 [!DNL Audience Manager]에 전달합니다. 프로필 병합 규칙을 사용하려면 장치 간 데이터 원본을 만들 때 지정된 통합 코드를 사용하도록 `setCustomerIDs`을(를) 수정해야 합니다. 예를 들어 통합 코드가 `my_datasource_ic`인 장치 간 데이터 원본을 만들었다고 가정합니다. 선언된 ID를 전달하려면 아래 수정된 코드 샘플에 표시된 대로 통합 코드를 방문자 ID 함수에 추가합니다.
 
 #### 일반 코드 샘플
 
@@ -192,7 +192,7 @@ DIL.create({
 [!DNL Android] 및 [!DNL iOS] 모바일 장치에서 [!UICONTROL declared IDs]을(를) 전달할 수 있는 [!DNL SDK] 코드의 메서드를 확인합니다. [!DNL Android] 및 [!DNL iOS] 코드 라이브러리의 변수 이름이 동일합니다.
 
 * `dpid`: 교차 장치 데이터 원본 ID입니다.
-* `dpuuid`: [!UICONTROL declared ID](즉, 사용자 ID).
+* `dpuuid`: [!UICONTROL declared ID] (즉, 사용자 ID).
 
 <table id="table_2ACA3E5F316D4413B10A4403B786CC23"> 
  <thead> 
@@ -215,8 +215,8 @@ DIL.create({
     </code></p>
     <p> <b>예:</b> </p><p>
     <code class="javascript">
-      [ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
+      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
     </code></p>
     </td>
   </tr>

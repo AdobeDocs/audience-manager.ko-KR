@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]``( )` 등)은 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]` `( )` 등)은 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
 
 ## 용도 {#purpose}
 
@@ -29,13 +29,13 @@ ht-degree: 2%
 
 ## 시작하기 {#getting-started}
 
-[!UICONTROL Actionable Log Files]을(를) 시작하려면 로그 데이터를 [!DNL Audience Manager](으)로 가져와야 합니다. 다음 링크는 시작하는 데 도움이 됩니다.
+[!UICONTROL Actionable Log Files]을(를) 시작하려면 로그 데이터를 [!DNL Audience Manager] (으)로 가져와야 합니다. 다음 링크는 시작하는 데 도움이 됩니다.
 
 * [!UICONTROL Google Campaign Manager] 로그의 경우 [Audience Manager에 Google Campaign Manager 데이터 파일 가져오기](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *를 참조하고 [!DNL Audience Manager] 컨설턴트에게 문의하십시오.*
-* [!UICONTROL Google Ad Manager](이전 Google DFP) 로그의 경우 [Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *을(를) 참조하고* [!DNL Audience Manager] 컨설턴트에게 문의하십시오.
+* [!UICONTROL Google Ad Manager] (이전 Google DFP) 로그의 경우 [Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *을(를) 참조하고* [!DNL Audience Manager] 컨설턴트에게 문의하십시오.
 * 다른 광고 서버 로그의 경우 [데이터 및 메타데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *및*&#x200B;을(를) 참조하여 [!DNL Audience Manager] 컨설턴트에게 문의하십시오.
 
-이미 로그 데이터를 [!DNL Audience Manager](으)로 가져오는 경우 [!DNL Audience Manager] 컨설턴트 또는 [고객 지원 센터](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)에 [!UICONTROL Actionable Log Files]을(를) 활성화하도록 요청하세요.
+이미 로그 데이터를 [!DNL Audience Manager] (으)로 가져오는 경우 [!DNL Audience Manager] 컨설턴트 또는 [고객 지원 센터](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)에 [!UICONTROL Actionable Log Files]을(를) 활성화하도록 요청하세요.
 
 <!--
 
@@ -319,7 +319,7 @@ creative 123을 보았지만 클릭하거나 전환하지 않고 creative 456을
 
    `d_creative == 123 AND d_event == imp`
 
-2. 클릭하거나 전환하는 사용자를 캡처할 트레이트를 만듭니다. 이름을 [!DNL Click and Converter](으)로 지정한다고 가정해 보겠습니다. 트레이트 규칙 사용:
+2. 클릭하거나 전환하는 사용자를 캡처할 트레이트를 만듭니다. 이름을 [!DNL Click and Converter] (으)로 지정한다고 가정해 보겠습니다. 트레이트 규칙 사용:
 
    `d_event == click OR d_event=conv`
 
@@ -337,7 +337,7 @@ creative 123을 보았지만 클릭하거나 전환하지 않고 creative 456을
 
    `d_event == conv AND d_conversion == 123`
 
-   Audience Manager [!UICONTROL UI]에서 특성을 만들 때 [!UICONTROL Conversion]을(를) [!UICONTROL Event Type](으)로 선택합니다.
+   Audience Manager [!UICONTROL UI]에서 특성을 만들 때 [!UICONTROL Conversion]을(를) [!UICONTROL Event Type] (으)로 선택합니다.
 
 2. 트레이트를 만들면 [!UICONTROL Audience Optimization Reports]과(와) [!UICONTROL Audience Lab]에 대한 전환이 보고되기 시작합니다.
 

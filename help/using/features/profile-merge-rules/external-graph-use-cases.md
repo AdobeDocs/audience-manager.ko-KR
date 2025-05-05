@@ -120,7 +120,7 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 아래 예에서 Acme Inc.는 [!DNL Data Plan A]에 [!DNL Acme Inc.]명의 구독자를 가지고 있고 [!DNL iPhone 7] 장치를 사용하는 연 소득 $100.000 이상의 모든 가구를 대상으로 하려고 합니다.
 
-John은 데이터 계획 A에서 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Profile Link Device Graph] 클러스터에는 John이 정기적으로 사용하는 두 개의 추가 장치가 있습니다. John의 랩톱([!DNL Device 1])과 보조 스마트폰 [!DNL Device 2]([!DNL Data Plan B]의 [!DNL Samsung S7])입니다.
+John은 데이터 계획 A에서 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Profile Link Device Graph] 클러스터에는 John이 정기적으로 사용하는 두 개의 추가 장치가 있습니다. John의 랩톱([!DNL Device 1])과 보조 스마트폰 [!DNL Device 2] ([!DNL Data Plan B]의 [!DNL Samsung S7])입니다.
 
 [!DNL Acme Inc.]은(는) **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**&#x200B;을(를) 사용하여 John의 Device Graph 클러스터에서 세 장치 모두에 개인화된 메시지를 전달할 수 있습니다. 이들 중 하나만 처음에 세그먼트에 적합하더라도 마찬가지입니다.
 

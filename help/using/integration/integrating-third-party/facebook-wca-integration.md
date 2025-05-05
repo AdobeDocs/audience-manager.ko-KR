@@ -36,9 +36,9 @@ ht-degree: 1%
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager]개 세그먼트, 새 [!DNL Facebook] 대상에 할당할 준비가 되었습니다. 다음은 [!DNL Audience Manager] UI에서 [세그먼트를 만드는 방법](/help/using/features/segments/segment-builder.md)입니다.
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) 버전 4.1.0 이상 최신 버전 **[여기](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**&#x200B;를 다운로드하십시오.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) 버전 9.0 이상, **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 또는 [SSF(서버측 전달)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하여 데이터를 [!DNL Audience Manager] (으)로 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 [!DNL AppMeasurement]을(를) 다운로드합니다.
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) 버전 9.0 이상, **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 또는 [SSF(서버측 전달)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)을 사용하여 데이터를 [!DNL Audience Manager] (으)로 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko)를 사용하여 [!DNL AppMeasurement]을(를) 다운로드합니다.
 
-[Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하여 3단계와 4단계의 라이브러리를 설치하거나 업그레이드하는 것이 좋습니다.
+[Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하여 3단계와 4단계의 라이브러리를 설치하거나 업그레이드하는 것이 좋습니다.
 
 ## 1단계 - [!DNL Audience Manager]에 [!UICONTROL Facebook Destination] 만들기 {#step-1-create-facebook-destination}
 

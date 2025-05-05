@@ -19,7 +19,7 @@ ht-degree: 29%
 
 개인 정보 보호 의무의 중요한 측면은 사용자에 대한 개인 데이터가 사용되는 방법(즉, &quot;목적&quot;) 및 사용되는 대상(즉, &quot;회사&quot;)에 대한 사용자 선택의 획득 및 양도입니다.
 
-Adobe는 [옵트인 기능](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) 및 [IAB 투명성 및 동의 프레임워크(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다.
+Adobe는 [옵트인 기능](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko) 및 [IAB 투명성 및 동의 프레임워크(TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) 지원을 통해 사용자의 개인 정보 보호 선택을 관리 및 소통할 수 있는 수단을 제공합니다.
 
 이 문서에서는 IAB TCF를 지원하는 Audience Manager 사용 사례 및 Audience Manager에서 IAB TCF 지원을 구현하는 방법에 대해 설명합니다.
 
@@ -27,7 +27,7 @@ Adobe는 [옵트인 기능](https://experienceleague.adobe.com/docs/id-service/u
 >
 >Audience Manager이 공급업체 ID 565의 [IAB TCF](https://iabeurope.eu/tcf-for-vendors/)에 등록되었습니다.
 
-IAB TCF용 Audience Manager 플러그인은 [옵트인 기능](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html)을 활용하며, 이 기능은 결과적으로 [ECID(Adobe Experience Platform Identity Service)](https://experienceleague.adobe.com/docs/id-service/using/home.html) 라이브러리의 일부입니다.
+IAB TCF용 Audience Manager 플러그인은 [옵트인 기능](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html?lang=ko)을 활용하며, 이 기능은 결과적으로 [ECID(Adobe Experience Platform Identity Service)](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 라이브러리의 일부입니다.
 
 ## 범위 및 제한 사항 {#scope-and-limitations}
 
@@ -63,8 +63,8 @@ Audience Manager은 사용자의 개인 정보 보호 선택 사항을 준수하
 Audience Manager에서 IAB TCF용 Audience Manager 플러그인을 사용하려면 다음 전제 조건을 충족해야 합니다.
 
 1. Adobe ECID(Experience Platform Identity Service) 버전 5 이상을 사용해야 합니다. 최신 ECID 릴리스를 [다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)하십시오.
-2. [여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)에서 다운로드할 수 있는 Audience Manager [!DNL Data Integration Library] (DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL](../../dil/dil-overview.md)에 대해 읽어 보십시오. Audience Manager을 가장 쉽게 DIL 구현하려면 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)을 사용하는 것이 좋습니다.
-3. 또는 SSF([!DNL Server-Side Forwarding])를 사용하여 데이터를 Audience Manager으로 가져오는 경우 최신 버전의 AppMeasurement으로 업그레이드해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 AppMeasurement를 다운로드합니다.
+2. [여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)에서 다운로드할 수 있는 Audience Manager [!DNL Data Integration Library] (DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL](../../dil/dil-overview.md)에 대해 읽어 보십시오. Audience Manager을 가장 쉽게 DIL 구현하려면 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)을 사용하는 것이 좋습니다.
+3. 또는 SSF([!DNL Server-Side Forwarding])를 사용하여 데이터를 Audience Manager으로 가져오는 경우 최신 버전의 AppMeasurement으로 업그레이드해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko)를 사용하여 AppMeasurement를 다운로드합니다.
 4. IAB TCF v2.2와 통합되고 IAB TCF에 등록된 상업용이거나 본인 소유의 CMP(동의 관리 플랫폼)를 사용하고 있어야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
 
 >[!WARNING]
@@ -73,9 +73,9 @@ Audience Manager에서 IAB TCF용 Audience Manager 플러그인을 사용하려�
 
 ## Recommendations 및 구현 방법 {#recommendations}
 
-Audience Manager에서 IAB TCF 지원을 활성화하려면 [옵트인으로 IAB를 설정하는 방법](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html)에 대한 설명서를 참조하십시오.
+Audience Manager에서 IAB TCF 지원을 활성화하려면 [옵트인으로 IAB를 설정하는 방법](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html?lang=ko)에 대한 설명서를 참조하십시오.
 
-이 작업을 수행하는 가장 쉬운 방법은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)를 사용하여 속성에 [!DNL ECID Opt-in]을(를) 추가하는 것입니다. [ECID 옵트인 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)에 대한 설명서를 읽고 Tags 확장을 설정하는 방법을 알아보십시오.
+이 작업을 수행하는 가장 쉬운 방법은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하여 속성에 [!DNL ECID Opt-in]을(를) 추가하는 것입니다. [ECID 옵트인 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ko)에 대한 설명서를 읽고 Tags 확장을 설정하는 방법을 알아보십시오.
 
 ## IAB 프레임워크 사용 시 사용자 선택 워크플로우 {#user-choice-workflow}
 
@@ -130,7 +130,7 @@ IAB TCF용 Audience Manager 플러그인을 구현하면 Adobe 또는 기타 타
 3. Audience Manager은 GDPR이 적용되는지(`gdpr = 1`), 웹 속성에 IAB TCF에 등록된 CMP가 있는지 여부를 확인합니다. 예를 들어, 유럽 연합에서 방문하는 사용자에게 적용됩니다. GDPR 플래그를 설정하는 것은 게시자로서의 책임입니다.
 4. GDPR이 적용되는 경우 Audience Manager은 `gdpr_consent` 매개 변수에서 전달된 IAB TC 문자열에서 필요한 동의를 확인합니다. Audience Manager은 장치의 정보 저장 및/또는 액세스 동의([IAB TCF 목적 1](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)), 제품 개발 및 개선([IAB TCF 목적 10](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)), 데이터 저장, 처리 또는 활성화에 대한 Audience Manager 공급업체 동의 등이 필요합니다.
 5. IAB TC 문자열이 있고 이 문자열에 필요한 동의가 포함되어 있으면 Audience Manager은 IAB TC 문자열을 [데이터 수집 서버](../../reference/system-components/components-data-collection.md)(DCS)에 전달합니다.
-6. Audience Manager이 브라우저에서 [demdex 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)를 설정하는 것으로 응답하고 타사 ID 동기화를 시작하고 수행합니다.
+6. Audience Manager이 브라우저에서 [demdex 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ko)를 설정하는 것으로 응답하고 타사 ID 동기화를 시작하고 수행합니다.
 7. 또는 4단계에서 전달된 IAB TC 문자열에 필요한 모든 권한이 포함되어 있지 않은 경우 Audience Manager은 사용자 데이터를 수집, 처리 또는 활성화하지 않으며 ID 동기화를 수행하거나 시작하지 않습니다. 또한 함께 작업하는 대상에서 사용자를 옵트아웃합니다.
 
 >[!IMPORTANT]
@@ -187,7 +187,7 @@ IAB TCF v2.2와 Audience Manager 통합에서는 IAB TCF v2.2와 통합된 [URL 
 
 ## IAB 구현 테스트 {#test-iab-implementation}
 
-IAB TCF용 Audience Manager 플러그인을 올바르게 구현했는지 테스트하려면 [옵트인 서비스 유효성 확인의 사용 사례 4](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)를 읽어 보십시오.
+IAB TCF용 Audience Manager 플러그인을 올바르게 구현했는지 테스트하려면 [옵트인 서비스 유효성 확인의 사용 사례 4](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html?lang=ko#section-64331998954d4892960dcecd744a6d88)를 읽어 보십시오.
 
 ## Audience Manager의 IAB 및 옵트아웃. 우선순위. {#iab-and-optout}
 
@@ -205,7 +205,7 @@ Audience Manager는 [설명서의 별도 문서](data-privacy-requests.md#opt-ou
 
 ## 추가 리소스 {#additional-resources}
 
-* [Adobe Experience Platform ID 서비스 옵트인](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
+* [Adobe Experience Platform ID 서비스 옵트인](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko)
 * [IAB 유럽 GDPR 투명성 및 동의 프레임워크](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB 유럽 GDPR 투명성 및 동의 프레임워크 기술 사양](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [IAB TCF 플러그인 - 비디오 데모](https://helpx.adobe.com/kr/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)

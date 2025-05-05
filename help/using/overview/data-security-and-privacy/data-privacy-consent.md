@@ -31,11 +31,11 @@ Audience Manager는 여러 채널을 통해 개인화된 경험을 제공할 수
 
 ## Experience Cloud 옵트인 서비스
 
-[Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)를 사용하면 방문자가 사용자의 사이트를 방문할 때 개인의 장치 또는 브라우저에서 쿠키를 설정할 수 있는지 확인하는 데 방문자가 도움을 줄 수 있도록 프로토콜을 설정할 수 있습니다.
+[Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko)를 사용하면 방문자가 사용자의 사이트를 방문할 때 개인의 장치 또는 브라우저에서 쿠키를 설정할 수 있는지 확인하는 데 방문자가 도움을 줄 수 있도록 프로토콜을 설정할 수 있습니다.
 
 이것은 사용자의 동의를 얻기 전에 방문자를 위해 웹 페이지에 쿠키를 배치할 수 있는지 여부와 배치할 수 있는 Experience Cloud 솔루션을 제어할 수 있도록 설계된 [!DNL Experience Cloud ID (ECID) Service]의 확장입니다.
 
-또한 [Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)를 사용하면 더 큰 디자인의 일부로서 CMP(동의 관리 플랫폼) 및 기존 시스템과 통합되는 프로토콜을 설정할 수도 있습니다.
+또한 [Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko)를 사용하면 더 큰 디자인의 일부로서 CMP(동의 관리 플랫폼) 및 기존 시스템과 통합되는 프로토콜을 설정할 수도 있습니다.
 
 ## 옵트인 관리 / 동의 획득
 

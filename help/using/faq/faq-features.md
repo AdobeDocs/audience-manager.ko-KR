@@ -33,7 +33,7 @@ faq_features_functions.xml
 
 예를 들어 *`Organization ID`*&#x200B;는 `1FD6776A524453CC0A490D44@AdobeOrg`와 같은 모습입니다.
 
-*`Organization ID`*&#x200B;는 Audience Manager의 [DIL](../dil/dil-overview.md) API, [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 및 기타 [!DNL Experience Cloud] 솔루션에서 사용됩니다. 관리자 권한이 있는 사용자는 [!DNL Adobe Admin Console]에서 *`Organization ID`*&#x200B;를 찾을 수 있습니다. [관리 - 사용자 관리 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+*`Organization ID`*&#x200B;는 Audience Manager의 [DIL](../dil/dil-overview.md) API, [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 및 기타 [!DNL Experience Cloud] 솔루션에서 사용됩니다. 관리자 권한이 있는 사용자는 [!DNL Adobe Admin Console]에서 *`Organization ID`*&#x200B;를 찾을 수 있습니다. [관리 - 사용자 관리 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
 
  
 
@@ -67,7 +67,7 @@ faq_features_functions.xml
 
 **[!UICONTROL Tag Insertion Manager (TIM)]은 무엇입니까?**
 
-Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Tags]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 참조하십시오.
+Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Tags]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 참조하십시오.
 
  
 
@@ -95,4 +95,4 @@ Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UI
 
 **Adobe Analytics와 Audience Manager 세그먼트 간에 차이가 있습니까?**
 
-예. 그 차이점에 대한 심도 있는 설명이 필요하면 [Analytics와 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)를 참조하십시오.
+예. 그 차이점에 대한 심도 있는 설명이 필요하면 [Analytics와 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko)를 참조하십시오.

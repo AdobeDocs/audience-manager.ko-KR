@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 예측 대상 모델 만들기 {#create-predictive-audiences}
 
-[!UICONTROL Predictive Audiences] 모델을 만들기 전에 [!UICONTROL Predictive Audiences] 트레이트 및 세그먼트를 할당할 자사 데이터 원본을 결정해야 합니다. 기존 자사 데이터 소스를 사용하거나 새 데이터 소스를 만들 수 있습니다. 새 자사 데이터 원본을 만드는 방법에 대한 자세한 내용은 [데이터 원본 관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)를 참조하세요.
+[!UICONTROL Predictive Audiences] 모델을 만들기 전에 [!UICONTROL Predictive Audiences] 트레이트 및 세그먼트를 할당할 자사 데이터 원본을 결정해야 합니다. 기존 자사 데이터 소스를 사용하거나 새 데이터 소스를 만들 수 있습니다. 새 자사 데이터 원본을 만드는 방법에 대한 자세한 내용은 [데이터 원본 관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=ko)를 참조하세요.
 
 사용할 데이터 소스를 알게 되면 아래 단계를 수행합니다.
 

@@ -27,8 +27,8 @@ ht-degree: 1%
 
 이 문서에 설명된 확장을 활성화하거나 코드를 구현하는 작업 외에 다음 작업도 수행해야 합니다.
 
-* [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 구현합니다.
-* [!UICONTROL Adobe Analytics Admin Console]의 보고서 세트에 대해 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 사용하도록 설정하십시오.
+* [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 구현합니다.
+* [!UICONTROL Adobe Analytics Admin Console]의 보고서 세트에 대해 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)을 사용하도록 설정하십시오.
 
 ## 구현 {#implementation}
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 ### [!DNL Adobe Experience Platform Tags]을(를) 사용한 구현
 
-[!DNL Adobe]에서는 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 확장을 사용하여 속성에 [!DNL Adobe Analytics] 및 [!DNL Audience Manager]을(를) 사용하는 것이 좋습니다. 이 경우 코드를 수동으로 복사할 필요가 없습니다. 대신 아래 그림과 같이 [!DNL Analytics] 확장에서 데이터 공유를 사용하도록 설정해야 합니다. [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html#adobe-audience-manager) 설명서도 참조하세요.
+[!DNL Adobe]에서는 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko) 확장을 사용하여 속성에 [!DNL Adobe Analytics] 및 [!DNL Audience Manager]을(를) 사용하는 것이 좋습니다. 이 경우 코드를 수동으로 복사할 필요가 없습니다. 대신 아래 그림과 같이 [!DNL Analytics] 확장에서 데이터 공유를 사용하도록 설정해야 합니다. [Adobe Analytics 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ko#adobe-audience-manager) 설명서도 참조하세요.
 
 >[!TIP]
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 | `partner` | 필수. [!DNL Adobe]이(가) 귀하에게 할당한 파트너 이름입니다. 경우에 따라 [!UICONTROL partner ID] 또는 파트너 하위 도메인이라고도 합니다.  파트너 이름을 모르는 경우 [!DNL Adobe] 컨설턴트나 [고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)에 문의하십시오. |
 | `containerNSID` | 필수. 대부분의 고객은 `"containerNSID":0`만 설정할 수 있습니다. 그러나 회사에서 ID 동기화를 다른 컨테이너와 사용자 정의해야 하는 경우 여기에서 해당 컨테이너 ID를 지정할 수 있습니다. |
 | `uuidCookie` | 선택 사항. 이 구성을 사용하면 자사 도메인에서 [!DNL Adobe] 쿠키를 설정할 수 있습니다. 이 [!DNL cookie]에는 [UUID](../../reference/ids-in-aam.md) 이(가) 포함되어 있습니다. |
-| `visitorService` - `namespace` | 필수. [!UICONTROL AppMeasurement] 버전 2.10 이상과 함께 번들로 제공되는 [!DNL AudienceManagement] 모듈을 사용하는 경우 `namespace` 매개 변수가 필요합니다. 이 [!UICONTROL AudienceManagement] 모듈에서는 [!UICONTROL Adobe Experience Platform Identity Service] 3.3 이상을 사용해야 합니다. <br><br>[!UICONTROL Experience Cloud Organization ID]은(는) [!UICONTROL Experience Cloud]에 등록할 때 회사에 제공되는 ID입니다. [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)에서 회사의 조직 ID를 확인하세요. |
+| `visitorService` - `namespace` | 필수. [!UICONTROL AppMeasurement] 버전 2.10 이상과 함께 번들로 제공되는 [!DNL AudienceManagement] 모듈을 사용하는 경우 `namespace` 매개 변수가 필요합니다. 이 [!UICONTROL AudienceManagement] 모듈에서는 [!UICONTROL Adobe Experience Platform Identity Service] 3.3 이상을 사용해야 합니다. <br><br>[!UICONTROL Experience Cloud Organization ID]은(는) [!UICONTROL Experience Cloud]에 등록할 때 회사에 제공되는 ID입니다. [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko)에서 회사의 조직 ID를 확인하세요. |
 
 ## 결과: 데이터를 [!DNL Audience Manager] (으)로 전달 {#results-data-forwarding}
 

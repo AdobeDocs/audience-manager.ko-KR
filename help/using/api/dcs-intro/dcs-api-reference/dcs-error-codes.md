@@ -23,7 +23,7 @@ ht-degree: 3%
 |---|---|---|
 | 0 | 지정되지 않은 오류 | 다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 다목적 캐치 오류입니다. 이 오류를 해결하는 것은 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 | 1 | 호스트 이름에 대한 구성을 찾을 수 없습니다. `hostname` | 요청에서 전송된 호스트 이름이 파트너 프로비저닝 팀에 의해 설정되지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오. |
-| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)에서 찾는 방법에 대한 정보를 참조하십시오. |
+| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko)에서 찾는 방법에 대한 정보를 참조하십시오. |
 | 10 | 특성을 평가할 수 없음 | 요청에 대한 트레이트가 부분적으로 평가되었거나 전혀 평가되지 않았습니다. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 
 ## 통합 오류 코드 {#integration-error-codes}
@@ -151,7 +151,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>승인되지 않은 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우, 찾는 방법에 대한 자세한 내용은 <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> 조직 및 계정 연결</a>의 "조직 ID 찾기" 섹션을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우, 찾는 방법에 대한 자세한 내용은 <a href="https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html" format="https" scope="external"> 조직 및 계정 연결</a>의 "조직 ID 찾기" 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 

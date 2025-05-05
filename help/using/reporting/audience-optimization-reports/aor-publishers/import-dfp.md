@@ -82,7 +82,7 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
   </tr> 
   <tr> 
    <td colname="col1"> <p>Step 6 </p> </td> 
-   <td colname="col2"> <p>로그 수집 프로세스를 시작하려면 필수 구성 요소를 컴파일하고 자세한 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">여기</a>의 지침에 따라 지원 티켓을 여십시오. </p> </td> 
+   <td colname="col2"> <p>로그 수집 프로세스를 시작하려면 필수 구성 요소를 컴파일하고 자세한 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=ko">여기</a>의 지침에 따라 지원 티켓을 여십시오. </p> </td> 
    <td colname="col3"> <p>귀하 또는 귀하를 대신하여 <span class="keyword"> Audience Manager</span> 컨설팅 </p> </td> 
   </tr> 
  </tbody> 

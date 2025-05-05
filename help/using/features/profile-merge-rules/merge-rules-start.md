@@ -150,7 +150,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Source 자세한 내용은 [크로스 디바이스 데이터 만들기](#create-data-source) 및 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오.
+Source 자세한 내용은 [크로스 디바이스 데이터 만들기](#create-data-source) 및 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오.
 
 ### `DIL.create` 함수 구성
 
@@ -165,7 +165,7 @@ var vDil = DIL.create({
 });
 ```
 
-네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리: 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리: 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
 
 ### SDK 구성
 
@@ -223,7 +223,7 @@ DIL.create({
  </tbody>
 </table>
 
-[Android용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) 및 [iOS용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html)도 참조하세요.
+[Android용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=ko) 및 [iOS용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=ko)도 참조하세요.
 
 >[!MORELIKETHIS]
 >

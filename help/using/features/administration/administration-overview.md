@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취해야 합니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취해야 합니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
 > 
 > 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취해야 합니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취해야 합니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
 > 
 > 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
 > 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취하는 것이 좋습니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취하는 것이 좋습니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
 > 
 > 모든 고객이 마이그레이션되면 이 섹션은 사라집니다.
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취하는 것이 좋습니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
+> 사용자 계정 관리가 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)(으)로 이동합니다. 사용자 마이그레이션을 시작하려면 모든 Audience Manager 고객이 이 문서에 설명된 대로 즉시 필요한 조치를 취하는 것이 좋습니다. [Admin Console으로 사용자 마이그레이션 Audience Manager](admin-console-migration.md).
 > 
 > 모든 고객이 마이그레이션되면 이 섹션은 사라집니다.
 

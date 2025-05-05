@@ -38,7 +38,7 @@ Audience Manager은 다음 구성 요소를 포함합니다.
 
 ## DIL/TIM 컨테이너 {#dil-tim}
 
-[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM]은(는) 더 이상 사용되지 않는 태그 삽입 관리자입니다. [!DNL Audience Manager]에서 더 이상 사용되지 않습니다. 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)에서 [!DNL Audience Manager] 확장을 사용하여 인벤토리의 페이지에 배치할 컨테이너 코드를 구성하고 생성합니다.
+[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM]은(는) 더 이상 사용되지 않는 태그 삽입 관리자입니다. [!DNL Audience Manager]에서 더 이상 사용되지 않습니다. 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)에서 [!DNL Audience Manager] 확장을 사용하여 인벤토리의 페이지에 배치할 컨테이너 코드를 구성하고 생성합니다.
 
 ## DIL(데이터 통합 라이브러리) {#dil}
 

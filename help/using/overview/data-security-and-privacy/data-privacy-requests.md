@@ -28,15 +28,15 @@ ht-degree: 42%
 다음 두 가지 방법으로 [!DNL Audience Manager]에서 소비자 데이터에 액세스하고 삭제하도록 개별 요청을 제출할 수 있습니다.
 
 * [Privacy Service UI](https://privacyui.cloud.adobe.io/) 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)에서 볼 수 있습니다.
-* **[!DNL Privacy Service API]** 사용. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 참조하세요.
+* **[!DNL Privacy Service API]** 사용. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 참조하세요.
 
 개별 데이터 개인 정보 보호 요청을 보낼 때 각각의 해당 네임스페이스 ID(데이터 소스 ID)와 함께 **[Audience Manager 식별자](data-privacy-ids.md)** 섹션에 설명된 대로 [!DNL Audience Manager]개의 ID를 제출할 수 있습니다.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)는 데이터 액세스 요청과 데이터 삭제 요청, 이렇게 두 가지 유형의 요청을 지원합니다.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)는 데이터 액세스 요청과 데이터 삭제 요청, 이렇게 두 가지 유형의 요청을 지원합니다.
 
 ## 데이터 액세스 요청 {#access-data}
 
-[Privacy Service UI](https://privacyui.cloud.adobe.io)(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 개별 데이터 액세스 요청을 보낼 수 있습니다.
+[Privacy Service UI](https://privacyui.cloud.adobe.io)(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 개별 데이터 액세스 요청을 보낼 수 있습니다.
 
 [Privacy Service UI](https://privacyui.cloud.adobe.io/)를 사용하면 [!UICONTROL Request Builder]를 사용하거나 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe는 법률에 의해 지정된 기간 내에 데이터 개인 정보 보호
 
 ## 데이터 삭제 요청 {#delete-data}
 
-[Privacy Service UI](https://privacyui.cloud.adobe.io)(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 데이터 삭제 요청을 보낼 수 있습니다.
+[Privacy Service UI](https://privacyui.cloud.adobe.io)(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 데이터 삭제 요청을 보낼 수 있습니다.
 
 [Privacy Service UI](https://privacyui.cloud.adobe.io/)를 사용하면 [!UICONTROL Request Builder]를 사용하거나 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 
@@ -71,7 +71,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 [!DNL Audience Manager]은(는) 옵트아웃 관리와 관련된 업계 표준을 지원합니다. [!DNL Audience Manager]이(가) 지원하는 옵트아웃 유형에 대한 전체 정보를 보려면 계속 읽으십시오.
 
-데이터 액세스 및 삭제 요청은 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)을 통해 처리되는 동안 옵트아웃 요청은 현재 [!DNL DCS API]을(를) 통해 지원됩니다. 옵트아웃 [!DNL API] 호출이 어떤 모습이어야 하는지 알아보려면 계속 읽으십시오.
+데이터 액세스 및 삭제 요청은 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)을 통해 처리되는 동안 옵트아웃 요청은 현재 [!DNL DCS API]을(를) 통해 지원됩니다. 옵트아웃 [!DNL API] 호출이 어떤 모습이어야 하는지 알아보려면 계속 읽으십시오.
 
 ### 글로벌 옵트아웃 요청
 

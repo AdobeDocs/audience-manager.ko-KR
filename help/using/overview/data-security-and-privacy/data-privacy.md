@@ -43,9 +43,9 @@ ht-degree: 52%
 
 ## 규정 준수 {#compliance}
 
-[!DNL Audience Manager]은(는) 데이터 액세스 및 삭제 요청을 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)과(와) 같은 개인 정보 보호 도구를 통해 특정 개인 정보 보호 규정에 따른 귀하의 의무를 준수하도록 도와줍니다.
+[!DNL Audience Manager]은(는) 데이터 액세스 및 삭제 요청을 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)과(와) 같은 개인 정보 보호 도구를 통해 특정 개인 정보 보호 규정에 따른 귀하의 의무를 준수하도록 도와줍니다.
 
-이 서비스는 소비자 데이터 요청을 관리하는 데 도움이 되는 [!DNL RESTful API] 및 사용자 인터페이스를 제공합니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)를 사용하면 개별 소비자의 요청에 따라 개인 데이터에 대한 액세스 및 삭제 요청을 제출할 수 있으므로, 규정 준수 의무 부분을 자동화하는 데 도움이 됩니다.
+이 서비스는 소비자 데이터 요청을 관리하는 데 도움이 되는 [!DNL RESTful API] 및 사용자 인터페이스를 제공합니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)를 사용하면 개별 소비자의 요청에 따라 개인 데이터에 대한 액세스 및 삭제 요청을 제출할 수 있으므로, 규정 준수 의무 부분을 자동화하는 데 도움이 됩니다.
 
 데이터 액세스 및 삭제 요청은 Privacy Service을 통해 처리되는 반면 [옵트아웃 요청](data-privacy-requests.md#opt-out-requests)은(는) 현재 [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)을(를) 통해 지원됩니다. 자세한 내용은 [데이터 개인 정보 보호 요청](data-privacy-requests.md)을 참조하십시오.
 

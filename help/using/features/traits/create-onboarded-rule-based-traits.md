@@ -60,7 +60,7 @@ ht-degree: 2%
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이벤트 유형</span></b> </td> 
-   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형 또는 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 특성을 만드는 방법에 대해 알아보려면 <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager 비디오에서 전환 특성 만들기</a>를 참조하십시오. </p></td> 
+   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형 또는 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 특성을 만드는 방법에 대해 알아보려면 <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=ko">Audience Manager 비디오에서 전환 특성 만들기</a>를 참조하십시오. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 통합 코드</span></b> </td> 

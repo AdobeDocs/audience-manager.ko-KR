@@ -80,7 +80,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 서드파티 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Adobe Experience Platform Identity 서비스에 의해 동적으로 설정되며 <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform ID 서비스에서 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
+   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 서드파티 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Adobe Experience Platform Identity 서비스에 의해 동적으로 설정되며 <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform ID 서비스에서 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=ko" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 사용되고 있는 Experience Cloud ID 집합을 지정합니다. ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud ID 서비스</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 사용되고 있는 Experience Cloud ID 집합을 지정합니다. ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Experience Cloud ID 서비스</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -195,7 +195,7 @@ ht-degree: 2%
 
 | 특성 | 설명 |
 | --- | --- | 
-| `h_host` | 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. `host name .demdex.net`(으)로 표시됩니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)를 참조하십시오. |
+| `h_host` | 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. `host name .demdex.net`(으)로 표시됩니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)를 참조하십시오. |
 | `h_user-agent` | `User-Agent` 헤더 값으로 설정합니다. |
 | `h_accept-language` | `Accept-Language` 헤더 값으로 설정합니다. |
 | `h_referer` | `Referer` 헤더 값으로 설정합니다. |

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Audience Manager - [!DNL Target] 통합에는 다음이 필요합니다.
 
-* [Experience Cloud 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html). 이 서비스를 사용하지 않는 경우 시작하려면 [구현 가이드](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)를 참조하세요.
+* [Experience Cloud 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko). 이 서비스를 사용하지 않는 경우 시작하려면 [구현 가이드](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko)를 참조하세요.
 * [!DNL Profiles and Audiences]. [!DNL Profiles and Audiences]에 대해 프로비저닝되지 않은 경우 고객 지원 센터에 문의하여 시작하십시오.
 
 구현 프로세스에서 이 단계를 완료하면 모든 Audience Manager 세그먼트가 [!DNL Target]에 나타납니다. [!DNL Target]에서 Audience Manager 세그먼트를 보려면 **[!UICONTROL Audiences > Audience List]**&#x200B;을(를) 살펴보십시오. **[!UICONTROL Source]** 열의 Experience Cloud 및 **[!UICONTROL Modified]** 열의 `aam-integration-user@adobe.com`별로 Audience Manager 세그먼트를 식별합니다.

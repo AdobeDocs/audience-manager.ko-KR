@@ -50,7 +50,7 @@ ht-degree: 2%
 
 [!DNL LinkedIn Campaign Manager] 사용자 권한을 편집하는 방법에 대해 알아보려면 LinkedIn 설명서의 [Advertising 계정에 대한 사용자 권한 추가, 편집 및 제거](https://www.linkedin.com/help/lms/answer/5753)를 참조하십시오.
 
-비디오 지침은 [LinkedIn 사용자 기반 대상 이해 및 구성](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)을 참조하십시오.
+비디오 지침은 [LinkedIn 사용자 기반 대상 이해 및 구성](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=ko)을 참조하십시오.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID)]을(를) 통해 고객 ID를 해시할 수 있는 옵션을 제공합니다. ECID를 사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 [setCustomerIDs에 대한 SHA256 해시 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html)을 참조하십시오.
+Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID)]을(를) 통해 고객 ID를 해시할 수 있는 옵션을 제공합니다. ECID를 사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 [setCustomerIDs에 대한 SHA256 해시 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=ko)을 참조하십시오.
 
 ## 사용자 권한 얻기 {#obtaining-user-permission}
 

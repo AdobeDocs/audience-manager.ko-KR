@@ -111,7 +111,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>사이트 방문자에게 할당된 <span class="keyword"> Experience Cloud</span> ID(MID)입니다. <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Adobe Experience Platform ID 서비스</a>도 참조하세요. </p> </td> 
+   <td colname="col3"> <p>사이트 방문자에게 할당된 <span class="keyword"> Experience Cloud</span> ID(MID)입니다. <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Adobe Experience Platform ID 서비스</a>도 참조하세요. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +163,7 @@ ht-degree: 2%
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">요청 매개 변수 </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP 주소 </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Adobe Experience Platform Identity 서비스</a>도 참조하세요. </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Adobe Experience Platform Identity 서비스</a>도 참조하세요. </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">모든 세그먼트 </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">모든 트레이트 </li> 
      </ol> </p> <p>필드 설명은 정의된 <a href="#cdf-defined"> 고객 데이터 피드 콘텐츠</a>를 참조하십시오. </p> </td> 

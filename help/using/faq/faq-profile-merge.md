@@ -111,7 +111,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **세그먼트 크기 추정치에는 장치 그래프 옵션을 사용하는 [!UICONTROL Profile Merge Rule]에 의해 제공되는 연결을 기반으로 세그먼트에 적합한 장치가 포함됩니까?**
 
-아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
+아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
 
  
 

@@ -49,4 +49,4 @@ ht-degree: 1%
 
 Audience Manager의 가장 강력한 기능 중 하나는 오프라인 데이터를 온보딩하여 온라인 데이터와 결합하는 기능입니다. 아래 비디오에서는 [!UICONTROL Data Explorer]을(를) 사용하여 이 온보딩된 데이터를 활용하는 데 필요한 모든 특성을 만들었는지 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/30936?captions=kor)

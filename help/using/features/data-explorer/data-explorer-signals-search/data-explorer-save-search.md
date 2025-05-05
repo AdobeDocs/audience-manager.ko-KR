@@ -35,4 +35,4 @@ ht-degree: 0%
 
 아래 비디오를 통해 신호 검색을 저장하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/30532?captions=kor)

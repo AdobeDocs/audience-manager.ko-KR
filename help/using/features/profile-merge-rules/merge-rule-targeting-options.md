@@ -113,7 +113,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
 
 [!UICONTROL Profile Merge Rules]의 가능한 사용 사례에 대한 개요를 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/)
+>[!VIDEO](https://video.tv.adobe.com/v/31963?captions=kor)
 
 >[!MORELIKETHIS]
 >

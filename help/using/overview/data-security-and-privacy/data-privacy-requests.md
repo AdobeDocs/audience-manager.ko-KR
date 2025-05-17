@@ -97,8 +97,8 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
    <td colname="col1"> <p>모바일 장치 </p> </td> 
    <td colname="col2"> <p>다음 장치에 대한 옵트아웃 및 개인 정보 보호 설정을 확인하십시오. </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android 장치 </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS 장치 </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=ko" format="https" scope="external"> Android 장치 </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=ko" format="https" scope="external"> iOS 장치 </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

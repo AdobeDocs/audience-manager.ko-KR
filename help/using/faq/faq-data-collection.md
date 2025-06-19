@@ -8,12 +8,13 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP, SFTP 주소, STFP IP 주소, FTP 주소
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 78%
+source-wordcount: '1255'
+ht-degree: 74%
 
 ---
+
 
 # 데이터 수집 및 제품 통합 FAQ{#data-collection-and-product-integration-faq}
 
@@ -25,7 +26,7 @@ ht-degree: 78%
 
 [!UICONTROL Inbound]를 통해 온보딩된 트레이트는 [!DNL DCS]에 의해 채워지는 것과 같은 방식으로 [!UICONTROL Inbound]에 의해 채워집니다. 트래픽이 [!UICONTROL Inbound]에서 발생했음을 아는 방법은 몇 가지가 있습니다.
 
-* 원격 IP가 68.67.173.18로 설정됩니다.
+* 원격 IP가 68.67.173.18(으)로 설정됩니다.
 * 도메인 ID가 5325로 설정됩니다.
 * 지역이 0으로 설정됩니다.
 
@@ -125,7 +126,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 * 검색 엔진 유형
 * 키워드
 
-또한 고객은 간단한 온사이트 개체를 배포하고 이 개체를 [!UICONTROL DIL]이 데이터를 수집할 키-값 쌍으로 채울 수 있습니다. 이렇게 하면 [!DNL Audience Management] 업데이트 없이 사이트에서 특정 대상 데이터 포인트를 추가 및 제거할 수 있습니다. 파트너 솔루션 담당자와 협력하여 이를 올바로 설정하고 [!DNL DIL] 모듈이 페이지 개체를 올바로 참조하게 하십시오.
+또한 고객은 간단한 온사이트 개체를 배포하고 이 개체를 [!UICONTROL DIL]이 데이터를 수집할 키-값 쌍으로 채울 수 있습니다. 이렇게 하면 [!DNL Audience Management] 업데이트 없이 사이트에서 특정 대상자 데이터 포인트를 추가 및 제거할 수 있습니다. 파트너 솔루션 담당자와 협력하여 이를 올바로 설정하고 [!DNL DIL] 모듈이 페이지 개체를 올바로 참조하게 하십시오.
 
 <br> 
 
@@ -164,7 +165,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **어떻게 [!DNL Audience Manager]이(가) 쿠키를 설정하고 변수를 [!DNL Google Ad Manager]에 전달합니까?**
 
-[!DNL Audience Manager]은(는) 2개의 쿠키를 설정합니다. 하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그에 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며 이것은 [!DNL Google Ad Manager]도 읽습니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상 검색을 수행할 수 있음을 의미합니다.
+[!DNL Audience Manager]은(는) 2개의 쿠키를 설정합니다. 하나는 세그먼트 변수를 [!DNL Google Ad Manager] 광고 태그에 보내고 다른 하나는 고유한 사용자 ID(UUID)를 설정하며 이것은 [!DNL Google Ad Manager]도 읽습니다. 광고 태그에 UUID를 추가하는 것은 사용자 수준의 보고 및 대상자 검색을 수행할 수 있음을 의미합니다.
 
 <br> 
 
@@ -190,7 +191,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 보고서는 보고서가 생성될 때 백엔드에 표시되는 인증되지 않은 프로필 레코드(UUID)를 기반으로 인구를 계산합니다.
 
-[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ko)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
+[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
 
 >[!NOTE]
 >
@@ -210,6 +211,8 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 **비활성 Amazon S3 사용자 액세스 키는 어떻게 됩니까?**
 
-Adobe은 Audience Manager 고객에게 Audience Manager [!DNL Amazon S3] 버킷에 대한 사용자 액세스 키를 제공합니다. 보안상의 이유로 100일 동안 아무 활동이 없으면 키가 자동으로 비활성화됩니다.
+Adobe은 Audience Manager 고객에게 [!DNL Amazon S3] 버킷에 대한 액세스 키를 제공합니다. 보안을 위해 이러한 액세스 키는 100일 동안 사용하지 않는 경우 자동으로 비활성화됩니다.
 
-액세스 키를 다시 활성화하거나 새 키를 요청하려면 고객 지원 센터에 문의하십시오.
+액세스 키가 비활성화되면 고객 지원 센터에 문의하여 다시 활성화하거나 새 액세스 키를 요청할 수 있습니다.
+
+보안을 강화하기 위해 1000일 동안 비활성 상태인 액세스 키는 Amazon S3 IAM 사용자 계정과 함께 영구적으로 삭제됩니다. 재방문 고객이고 이 기간이 지나 액세스 권한이 필요한 경우 고객 지원 센터에 문의하여 계정을 다시 만들고 새 액세스 키를 받으십시오.

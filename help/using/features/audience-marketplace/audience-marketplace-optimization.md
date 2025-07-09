@@ -5,13 +5,13 @@ title: Audience Marketplace 최적화
 feature: Audience Marketplace
 hide: true
 hidefromtoc: true
-source-git-commit: a03953af94e98d1aabfc9cb6cd1af82f42080d91
+exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
+source-git-commit: e9b8f102b5a123ba4a9f6e9c9a29e331d803d293
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
-
 
 # Audience Marketplace 최적화 {#audience-marketplace-optimization}
 
@@ -19,7 +19,7 @@ Adobe은 활성 피드를 통해 데이터 공급자의 가시성을 개선하�
 
 이 프로세스 중에 활발하게 사용되지 않는 데이터 공급자를 제거합니다. 최적화는 또한 이러한 데이터 공급자가 제공하는 트레이트를 제거합니다. 이 프로세스는 시장의 효율성을 높이고 모든 사용자의 전반적인 성능을 개선하기 위해 설계되었습니다.
 
-**타임라인:** 데이터 공급자는 2025년 7월 말에 제거됩니다.
+**타임라인:** 데이터 공급자는 2025년 8월 중에 제거됩니다.
 
 ## 변경 사항 {#what-changes}
 
@@ -121,4 +121,4 @@ Dell은 고객에게 최상의 결과를 제공하는 능동적이고 가치가 
 
 ### 변경 사항은 언제 적용됩니까?
 
-제거하기 위해 선택한 데이터 공급자는 2025년 7월 말에 제거됩니다.
+제거하기 위해 선택한 데이터 공급자는 2025년 8월 중에 제거됩니다.

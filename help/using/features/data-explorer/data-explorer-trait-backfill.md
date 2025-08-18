@@ -51,7 +51,7 @@ ht-degree: 0%
 
 트레이트를 채우는 방법에 대한 비디오 설명은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/)
+>[!VIDEO](https://video.tv.adobe.com/v/30934?captions=kor)
 
 ## 트레이트 채우기 지연 {#trait-backfilling-latency}
 

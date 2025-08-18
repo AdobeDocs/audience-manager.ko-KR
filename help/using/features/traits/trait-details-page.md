@@ -63,7 +63,7 @@ ht-degree: 0%
   >
   >Audience Manager은 [!UICONTROL Identity Type Breakdown]에 적합한 ID가 [!UICONTROL cross-device]개인 경우에만 [!UICONTROL trait] 보고서를 표시합니다.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+  >[!VIDEO](https://video.tv.adobe.com/v/32080?captions=kor)
 
 ## [!UICONTROL Trait] 식 {#trait-expression}
 

@@ -21,11 +21,11 @@ ht-degree: 5%
 
 아래의 [!UICONTROL Trait Recommendations] 비디오를 시청한 후 자세한 내용을 읽어 보십시오. 이 비디오 데모에서는 자사 트레이트의 권장 사항과 [!UICONTROL Audience Marketplace]이미 구독 중&#x200B;*인* 데이터 피드의 트레이트 권장 사항을 사용하여 작업하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/40845?captions=kor)
 
 다음 비디오는 [!UICONTROL Marketplace Recommendations]의 데이터 피드에서 권장 사항을 기반으로 세그먼트에 트레이트를 추가하는 방법을 보여 주는 [!UICONTROL Audience Marketplace]의 워크플로에 대해 간략하게 설명합니다. 이러한 권장 사항은 *구독하지 않은* 데이터 피드를 기반으로 합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/32754?captions=kor)
 
 ## 개요
 

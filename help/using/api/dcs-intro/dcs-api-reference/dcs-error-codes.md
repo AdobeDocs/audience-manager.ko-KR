@@ -181,7 +181,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>지정된 네임스페이스에 대한 제한을 초과하여 고객 ID가 삭제되었습니다. 네임스페이스 ID는 <code><i>ID</i></code>이고 고객 ID는 <code><i>ID</i></code>입니다. </p> </td> 
-   <td colname="col3"> <p>이 오류 코드는 <code> DPID</code> DCS<span class="wintitle"> 호출에서 동일한 네임스페이스(</span>)에 대해 선언된 고객 ID가 3개 이상인 경우 반환됩니다. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>이 샘플 <span class="wintitle"> DCS</span> 요청에는 동일한 네임스페이스에 대해 4개의 ID가 선언되어 있습니다(통합 코드 1개 포함). ID 중 하나가 삭제되고 오류 310이 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>이 오류 코드는 <code> DPID</code> DCS<span class="wintitle"> 호출에서 동일한 네임스페이스(</span>)에 대해 선언된 고객 ID가 3개 이상인 경우 반환됩니다. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>이 샘플 <span class="wintitle"> DCS</span> 요청에는 동일한 네임스페이스에 대해 4개의 ID가 선언되어 있습니다(통합 코드 1개 포함). ID 중 하나가 삭제되고 오류 310이 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ ht-degree: 3%
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>요청에 잘못된 글로벌 장치 ID가 포함되어 있습니다. </p> </td> 
    <td colname="col3"> <p>요청에 잘못된 전역 장치 ID가 포함되어 있으면 <span class="wintitle">DCS</span>에서 이 오류 코드를 반환합니다. DCS에서는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류가 발생합니다. 올바른 장치 광고 ID 형식 및 해당 글로벌 데이터 원본에 대한 자세한 내용은 <a href="../../../features/global-data-sources.md" format="dita" scope="local">글로벌 데이터 원본</a> 및 <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Audience Manager의 ID 색인</a>을 참조하세요.</p>
-   <p>잘못된 호출의 예: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>잘못된 호출의 예: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>설명: <span class="keyword">IDFA(DPID 20915)</span>은(는) 대문자 ID여야 합니다. 요청에 입력한 ID는 소문자입니다.</p>
    </td>
   </tr>

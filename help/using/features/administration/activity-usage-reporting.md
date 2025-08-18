@@ -50,7 +50,7 @@ ht-degree: 5%
 [!UICONTROL Activities]은(는) Audience Manager과의 모든 온사이트 및 오프사이트 상호 작용의 합계를 다음 범주로 나눕니다.
 
 * **[!UICONTROL Server Calls]**: 웹 사이트, 서버, 이메일, 모바일 애플리케이션 또는 기타 시스템에서 Audience Manager으로 전송된 데이터 수집 또는 검색 이벤트입니다.
-* **[!UICONTROL Pixel Calls](이전 이름: [!UICONTROL Impression Server Calls])**: 광고에서 수집된 데이터(타깃팅 플랫폼의 노출 볼륨 등) 또는 Audience Manager에 대한 이메일 노출 호출입니다. 쿼리 문자열에 `d_event` 매개 변수가 있어야 합니다.
+* **[!UICONTROL Pixel Calls] (이전 이름: [!UICONTROL Impression Server Calls])**: 광고에서 수집된 데이터(타깃팅 플랫폼의 노출 볼륨 등) 또는 Audience Manager에 대한 이메일 노출 호출입니다. 쿼리 문자열에 `d_event` 매개 변수가 있어야 합니다.
 * **[!UICONTROL On-Boarded Records]**: 고유한 CRM(고객 관계 관리 시스템) 또는 기타 오프라인 데이터 파일에서 수집한 고유한 레코드(예: 콜센터 레코드, 장치 ID 및 외부 데이터 공급자의 사용자 지정 데이터 피드)입니다.
 * **[!UICONTROL Log File Records]**: 타깃팅 플랫폼에서 Audience Manager으로 수집된 로그 파일의 고유 레코드.
 

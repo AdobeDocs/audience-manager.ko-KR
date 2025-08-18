@@ -22,4 +22,4 @@ ht-degree: 2%
 
 작업을 더 단순화하기 위해 [!DNL REST APIs]을(를) [Swagger](https://swagger.io/solutions/api-documentation/)&#x200B;(으)로 마이그레이션하고 있습니다. 자세한 내용은 [Audience Manager API 코드 마이그레이션](/help/using/api/api-swagger-migration.md)을 참조하십시오.
 
-[ ](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) 메서드를 사용하기 전에 [!DNL Audience Manager]시작하기[!DNL API] 자료를 검토하십시오.
+[&#128279;](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) 메서드를 사용하기 전에 [!DNL Audience Manager]시작하기[!DNL API] 자료를 검토하십시오.

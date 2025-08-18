@@ -25,9 +25,9 @@ ht-degree: 1%
    * 트레이트 이름을 지정합니다.
    * 데이터 소스를 선택합니다.
    * 저장소 폴더를 선택하십시오.
-1. [!UICONTROL Configuration] 창을 확장하고 **[!UICONTROL Browse All Models]**을(를) 클릭합니다.
+1. [!UICONTROL Configuration] 창을 확장하고 **[!UICONTROL Browse All Models]**&#x200B;을(를) 클릭합니다.
 그러면 트레이트와 함께 사용할 모델을 선택할 수 있는 새 창이 열립니다.
-1. 모델을 선택하고 **[!UICONTROL Add Selected Model to Trait]**을(를) 클릭합니다.
+1. 모델을 선택하고 **[!UICONTROL Add Selected Model to Trait]**&#x200B;을(를) 클릭합니다.
 모델을 추가하면 도달 범위와 정확도 설정이 노출됩니다.
 1. 도달 범위 또는 정확도를 목표로 선택하고 해당 드롭다운 메뉴에서 값을 선택합니다. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

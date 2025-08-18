@@ -402,7 +402,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 사용하는 인증 방법에 따라 아래 표에 따라 요청 [!DNL URLs]을(를) 조정해야 합니다.
 
-### Adobe Developer을 통해 [!DNL URLs]권장[!BADGE  OAuth 서버 간 및 ]{type=positive}사용되지 않음[!BADGE  ]{type=negative} 인증에 대한 [!DNL JWT] 요청 {#request-urls-jwt}
+### Adobe Developer을 통해 [!DNL URLs]권장[!BADGE &#x200B; OAuth 서버 간 및 &#x200B;]{type=positive}사용되지 않음[!BADGE &#x200B; &#x200B;]{type=negative} 인증에 대한 [!DNL JWT] 요청 {#request-urls-jwt}
 
 | [!DNL API] 메서드 | [!DNL URL] 요청 |
 |--- |--- |
@@ -420,7 +420,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 {style="table-layout:auto"}
 
-### [!DNL URLs]사용되지 않음[!BADGE  레거시 ]{type=negative} 인증에 대한 [!DNL OAuth] 요청 {#request-urls-oauth}
+### [!DNL URLs]사용되지 않음[!BADGE &#x200B; 레거시 &#x200B;]{type=negative} 인증에 대한 [!DNL OAuth] 요청 {#request-urls-oauth}
 
 | [!DNL API] 메서드 | [!DNL URL] 요청 |
 |--- |--- |

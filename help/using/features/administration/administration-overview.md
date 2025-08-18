@@ -46,7 +46,7 @@ ht-degree: 0%
 > 
 > 모든 고객이 마이그레이션되면 이 문서의 사용자 관리 섹션이 사라집니다.
 > 
-[!DNL Audience Manager]에서 사용자를 만들고 사용자 세부 정보, 로그인 상태를 지정하고 사용자를 그룹에 할당합니다.
+>[!DNL Audience Manager]에서 사용자를 만들고 사용자 세부 정보, 로그인 상태를 지정하고 사용자를 그룹에 할당합니다.
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;을(를) 클릭합니다.
 1. ![](assets/icon_add.png)을(를) 클릭하여 [!UICONTROL Create New User] 페이지를 표시합니다.
@@ -63,7 +63,7 @@ ht-degree: 0%
    * **[!UICONTROL Expired]:** 사용자의 암호가 90일 이상입니다.
    * **[!UICONTROL Pending]:** 암호 재설정 후나 새 계정으로 사용자에게 임시 암호가 있으며 아직 영구 암호를 설정하지 않았습니다.
    * **[!UICONTROL Locked Out]:** 5번의 잘못된 로그인 시도로 사용자가 잠깁니다.
-1. **[!UICONTROL Assigned Groups]**의 드롭다운 목록에서 이 사용자를 할당할 원하는 그룹을 선택합니다.
+1. **[!UICONTROL Assigned Groups]**&#x200B;의 드롭다운 목록에서 이 사용자를 할당할 원하는 그룹을 선택합니다.
 그룹 및 사용 권한에 대한 자세한 내용은 [그룹 만들기](../../features/administration/administration-overview.md#create-group)를 참조하세요.
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    * 그룹 이름을 지정합니다.
    * 간단한 그룹 설명을 입력합니다.
 4. [!UICONTROL Group Members]에서 **[!UICONTROL Add Users]** 옵션에서 사용자를 클릭하여 그룹에 추가합니다.
-5. [!UICONTROL Group Permissions]에서 [의 ](../../features/traits/trait-details-page.md)트레이트[, ](../../features/segments/segments-purpose.md)세그먼트[ 또는 ](../../features/destinations/destinations.md)대상&#x200B;**[!UICONTROL Add Object]**을(를) 선택하십시오.
+5. [!UICONTROL Group Permissions]에서 [의 ](../../features/traits/trait-details-page.md)트레이트[, ](../../features/segments/segments-purpose.md)세그먼트[ 또는 ](../../features/destinations/destinations.md)대상&#x200B;**[!UICONTROL Add Object]**&#x200B;을(를) 선택하십시오.
 선택한 객체에 대한 권한 창이 열립니다.
 6. 그룹 구성원에게 부여할 권한에 대한 확인란을 선택합니다.
 7. *(선택 사항)* 그룹에 [와일드카드 권한](../../features/administration/administration-overview.md#wild-card-permissions)을 할당하십시오.

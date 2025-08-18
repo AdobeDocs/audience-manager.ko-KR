@@ -33,7 +33,7 @@ ht-degree: 0%
 1. Audience Manager에서 [만들기 [!DNL URL destination]](../../features/destinations/create-url-destination.md)하거나 기존 [!DNL destination]을(를) 편집하세요. [!DNL destination]을(를) 만들 때 다음 설정을 사용하십시오.
    * 유형: URL
    * 직렬화: 활성화됨
-   * 구분 기호: 세미콜론( &amp;semi; )
+   * 구분 기호: 세미콜론( &semi; )
 
 1. [!UICONTROL Segment Mappings] [!DNL URL]의 [!DNL destination] 섹션에서 2단계의 코드를 [!DNL URL] 및 [!DNL Secure URL] 필드에 추가합니다. `http:` 및 `https:` 필드에 각각 [!DNL URL] 및 [!DNL Secure URL]을(를) 사용하여 코드 접두사를 지정합니다.
 

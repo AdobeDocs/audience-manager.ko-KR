@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **만들기 [!UICONTROL Cookie Destination]:** [!DNL GPT]은(는) Audience Manager에서 쿠키 기반 대상으로 설정해야 합니다.
 
-* **쿠키 검사 코드 구현:** 권장 [!DNL GPT]쿠키 검사 코드`.setTargeting`에서 [ ](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) API 메서드를 래핑합니다. 이 코드는 `.setTargeting` 메서드가 호출되기 전에 유효한 AAM 쿠키를 찾아 오류를 방지하는 데 도움이 됩니다.
+* **쿠키 검사 코드 구현:** 권장 [!DNL GPT]쿠키 검사 코드`.setTargeting`에서 [&#128279;](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) API 메서드를 래핑합니다. 이 코드는 `.setTargeting` 메서드가 호출되기 전에 유효한 AAM 쿠키를 찾아 오류를 방지하는 데 도움이 됩니다.
 
 * **함수 추가:`AamGpt`** 코드는 Audience Manager 쿠키에서 데이터를 캡처하여 `AamGpt`에 보냅니다. [!DNL GPT] [Google 게시자 태그용 Audience Manager 코드](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)( `AamGpt`)를 페이지 맨 위나 `<head>` 코드 블록 내부에 배치합니다.
 

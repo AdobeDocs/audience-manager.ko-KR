@@ -19,8 +19,8 @@ ht-degree: 1%
 >[!WARNING]
 >
 >Google은 [!DNL Google Chrome] 헤더를 통해 수집된 정보를 최소화하기 위해 [!DNL Chromium] 및 모든 `User-Agent` 기반 브라우저의 기능을 업데이트했습니다.
->>2023년 3월부터는 Audience Manager에서 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 활용하여 이러한 업데이트를 지원합니다. `User-Agent` 헤더를 통해 제공되는 트레이트 정보를 계속 사용하려면 [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)를 사용하고 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en)를 사용하도록 설정해야 합니다.
->>이러한 업데이트는 [DIL](../../../using/dil/dil-overview.md)에서 지원되지 않으므로 [!DNL DIL]을(를) 사용하는 Audience Manager 고객은 `User-Agent` 헤더를 통해 트레이트 정보를 수집할 수 없습니다.
+>&#x200B;>2023년 3월부터는 Audience Manager에서 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 활용하여 이러한 업데이트를 지원합니다. `User-Agent` 헤더를 통해 제공되는 트레이트 정보를 계속 사용하려면 [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)를 사용하고 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en)를 사용하도록 설정해야 합니다.
+>&#x200B;>이러한 업데이트는 [DIL](../../../using/dil/dil-overview.md)에서 지원되지 않으므로 [!DNL DIL]을(를) 사용하는 Audience Manager 고객은 `User-Agent` 헤더를 통해 트레이트 정보를 수집할 수 없습니다.
 
 Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하여 사용자를 타겟팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
 

@@ -53,7 +53,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Actionable Log Files] *픽셀 호출* 대신 [ ](../../integration/media-data-integration/impression-data-pixels.md)을(를) 구현하는 것이 좋습니다. 이 경우 트레이트의 빈도가 증가하므로 두 옵션을 모두 사용하지 않도록 합니다.
+>[!UICONTROL Actionable Log Files] *픽셀 호출* 대신 [&#128279;](../../integration/media-data-integration/impression-data-pixels.md)을(를) 구현하는 것이 좋습니다. 이 경우 트레이트의 빈도가 증가하므로 두 옵션을 모두 사용하지 않도록 합니다.
 
 ## 실행 가능한 신호 {#actionable-signals}
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files]은(는) 다음 광고 서버에 대해 지원됩니다.
->> <br>
+>&#x200B;> <br>
 >
 > * [Google 캠페인 관리자](#dcm-logs-signals)
 > * [Google 광고 관리자](#ad-manager-logs-signals)

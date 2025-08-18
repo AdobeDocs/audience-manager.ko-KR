@@ -44,7 +44,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >**세그먼트 평가 및 자격 상실에 대한 장치 제한**.
->>Audience Manager은 장치 그래프를 사용하는 프로필 병합 규칙으로 세그먼트를 평가할 때 최대 100개의 장치를 병합합니다. Audience Manager은 현재 장치와 현재 장치에 연결된 최대 99개의 장치를 [인증된 프로필](../../reference/visitor-authentication-states.md)(장치 간 ID)로 평가합니다. 세그먼트 해제 신호가 발생하면 현재 장치와 추가 장치가 대상의 세그먼트에서 제거됩니다.
+>&#x200B;>Audience Manager은 장치 그래프를 사용하는 프로필 병합 규칙으로 세그먼트를 평가할 때 최대 100개의 장치를 병합합니다. Audience Manager은 현재 장치와 현재 장치에 연결된 최대 99개의 장치를 [인증된 프로필](../../reference/visitor-authentication-states.md)(장치 간 ID)로 평가합니다. 세그먼트 해제 신호가 발생하면 현재 장치와 추가 장치가 대상의 세그먼트에서 제거됩니다.
 
 ![](assets/last-device-graph.png)
 

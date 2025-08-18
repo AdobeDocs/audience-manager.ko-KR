@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)의 3단계에 설명된 대로 [!UICONTROL Ad Unit IDs]에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Ad Unit ID] 대신 [!UICONTROL Ad Unit] (으)로 자세히 설명되어 있습니다.
+>[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [!UICONTROL Ad Unit IDs]Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기[의 3단계에 설명된 대로 ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Ad Unit] 대신 [!UICONTROL Ad Unit ID]&#x200B;(으)로 자세히 설명되어 있습니다.
 
 ## 결과 해석 {#interpreting-results}
 
@@ -54,7 +54,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle">개 세그먼트 실시간 고유 개수</span> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>이(가) 본 순간 지정된 시간 범위 동안 실시간으로 확인되었으며 세그먼트에 대한 자격이 있는 고유 방문자의 수입니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>이(가) 열람한 시점에 지정된 시간 범위 동안 실시간으로 열람하고 세그먼트에 적합한 고유 방문자의 수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 광고 단위 고유 개수</span> </p> </td> 

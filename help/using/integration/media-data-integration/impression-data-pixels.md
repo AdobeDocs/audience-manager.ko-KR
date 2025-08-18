@@ -1,5 +1,5 @@
 ---
-description: Audience Manager에 미디어 데이터를 전송하는 한 가지 접근 방식은 광고 서버 매크로를 사용하여 Audience Manager에 캠페인 속성을 전송합니다.
+description: Audience Manager으로 미디어 데이터를 전송하는 한 가지 접근 방법에서는 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
 seo-description: One approach for sending media data to Audience Manager uses ad server macros to send campaign attributes to Audience Manager.
 seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
@@ -10,13 +10,13 @@ exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
 # 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처{#capturing-campaign-impression-data-via-pixel-calls}
 
-Audience Manager에 미디어 데이터를 전송하는 한 가지 접근 방식은 광고 서버 매크로를 사용하여 Audience Manager에 캠페인 속성을 전송합니다.
+Audience Manager으로 미디어 데이터를 전송하는 한 가지 접근 방법에서는 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
 
 이 방법론은 종종 &quot;창조적인 것의 픽셀화&quot;라고 불린다. 이러한 데이터 포인트는 캠페인의 주요 보고 특성을 기반으로 모든 노출 횟수 및 클릭 수를 매핑하고 보고하는 데 사용되는 타사 광고 서버 매크로에 의해 [!DNL Audience Manager] 픽셀 코드에 동적으로 삽입됩니다. 집계된 데이터는 캠페인 성능에 대한 통합 보기를 제공하고 사용자 지정 전환 경로를 식별하며 고객이 전환으로 이어지는 광고 서버 이벤트의 시퀀스를 개선하는 데 도움이 됩니다.
 
@@ -24,7 +24,7 @@ Audience Manager에 미디어 데이터를 전송하는 한 가지 접근 방식
 
 >[!NOTE]
 >
->텍스트 스타일(`monospaced text`, *기울임체*, 괄호 `[ ]` `( )` 등)은 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)은 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
 
 이벤트 호출은 노출 및 전환 데이터를 수집하여 [!DNL Audience Manager] [데이터 수집 서버](/help/using/reference/system-components/components-data-collection.md)([!DNL DCS])로 보냅니다. 이 프로세스는 코드에 삽입되는 콘텐츠를 제어하는 호출을 크리에이티브에 배치하는 타사 광고 서버를 사용합니다. 타사 광고 서버(예로는 [!DNL DFA])에서는 각 광고 노출 내에 이 코드를 배치할 수 있습니다. 또한 광고 호출은 광고 태그 외부의 게시자 데이터에 액세스할 때 [!DNL JavaScript]를 사용하거나 프레임 버스팅 기술을 사용하지 않습니다.
 
@@ -117,4 +117,4 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
 
 >[!MORELIKETHIS]
 >
->* Audience Optimization 보고서에 대한 [데이터 및 메타데이터 파일](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Audience Optimization 보고서용 데이터 및 메타데이터 파일](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

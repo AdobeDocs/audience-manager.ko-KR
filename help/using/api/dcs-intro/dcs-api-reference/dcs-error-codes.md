@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # DCS 오류 코드, 메시지 및 예제 {#dcs-error-codes-messages-and-examples}
 
-코드 ID별로 숫자 순서로 나열된 [!UICONTROL Data Collection Servers] ([!DNL DCS])에서 생성된 오류 코드 및 메시지입니다.
+코드 ID별로 숫자 순서로 나열된 [!UICONTROL Data Collection Servers]&#x200B;([!DNL DCS])에서 생성된 오류 코드 및 메시지입니다.
 
 아래 표에서 *기울임꼴*&#x200B;은(는) 변수 자리 표시자를 나타냅니다.
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 |---|---|---|
 | 0 | 지정되지 않은 오류 | 다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 다목적 캐치 오류입니다. 이 오류를 해결하는 것은 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 | 1 | 호스트 이름에 대한 구성을 찾을 수 없습니다. `hostname` | 요청에서 전송된 호스트 이름이 파트너 프로비저닝 팀에 의해 설정되지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오. |
-| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko)에서 찾는 방법에 대한 정보를 참조하십시오. |
+| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)에서 찾는 방법에 대한 정보를 참조하십시오. |
 | 10 | 특성을 평가할 수 없음 | 요청에 대한 트레이트가 부분적으로 평가되었거나 전혀 평가되지 않았습니다. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 
 ## 통합 오류 코드 {#integration-error-codes}
@@ -31,11 +31,11 @@ ht-degree: 3%
 | 오류 코드 | 오류 메시지 | 설명 |
 |---|---|---|
 | 100 | 요청에 대한 호스트 이름을 검색할 수 없습니다. | [!DNL API] 호출이 요청에서 [!DNL HTTP] 호스트 헤더를 보내지 않았습니다. 호출에 호스트 헤더를 추가하고 다시 시도하십시오. 대부분의 브라우저와 [!DNL API] 클라이언트가 자동으로 이 작업을 수행합니다. |
-| 101 | `ID`에 전달된 잘못된 [!DNL Experience Cloud] ID | [!DNL DCS] 호출에 잘못된 [!DNL Experience Cloud] ID가 있습니다. 헤더 문자열에서 `d_mid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Experience Cloud] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
-| 102 | `ID` 요청에서 전달된 잘못된 [!DNL AAM ID] | [!DNL DCS] 호출에 잘못된 [!DNL Audience Manager] ID가 있습니다. 헤더 문자열에서 `d_uuid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Audience Manager] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
+| 101 | [!DNL Experience Cloud]에 전달된 잘못된 `ID` ID | [!DNL DCS] 호출에 잘못된 [!DNL Experience Cloud] ID가 있습니다. 헤더 문자열에서 `d_mid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Experience Cloud] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
+| 102 | [!DNL AAM ID] 요청에서 전달된 잘못된 `ID` | [!DNL DCS] 호출에 잘못된 [!DNL Audience Manager] ID가 있습니다. 헤더 문자열에서 `d_uuid=` 키-값 쌍을 확인합니다. 올바른 [!DNL Audience Manager] ID를 전달하고 있는지 확인하고 요청을 다시 시도하십시오. |
 | 104 | 모든 고객 ID가 잘못되었습니다. | 호출에 있는 모든 고객 ID가 잘못되었습니다. ID를 확인하고 다시 시도하십시오. |
-| 109 | `Partner ID` 파트너에 대해 `HTTP referer` 판독기를 사용할 수 없습니다. | 호출의 `HTTP referer` 헤더는 호출의 파트너 ID에 허용되지 않습니다. `HTTP referer` 헤더가 올바른지 확인하십시오. |
-| 111 | 잘못된 `IMS` 토큰이 수신됨 | [!DNL Audience Manager] - [!DNL Adobe Target] 통합에 대해 반환됨. 잘못된 [!DNL IMS] 토큰이 포함된 [!DNL DCS]을(를) 호출하면 오류가 발생합니다. 토큰이 잘못되었거나 만료되었거나 사용자에게 필요한 리소스에 액세스할 수 있는 권한이 없을 수 있습니다. |
+| 109 | `HTTP referer` 파트너에 대해 `Partner ID` 판독기를 사용할 수 없습니다. | 호출의 `HTTP referer` 헤더는 호출의 파트너 ID에 허용되지 않습니다. `HTTP referer` 헤더가 올바른지 확인하십시오. |
+| 111 | 잘못된 `IMS` 토큰이 수신됨 | [!DNL Audience Manager] - [!DNL Adobe Target] 통합에 대해 반환됨. 잘못된 [!DNL DCS] 토큰이 포함된 [!DNL IMS]을(를) 호출하면 오류가 발생합니다. 토큰이 잘못되었거나 만료되었거나 사용자에게 필요한 리소스에 액세스할 수 있는 권한이 없을 수 있습니다. |
 
 ## 옵트아웃 오류 코드 {#opt-out-error-codes}
 
@@ -151,7 +151,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>승인되지 않은 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우, 찾는 방법에 대한 자세한 내용은 <a href="https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html" format="https" scope="external"> 조직 및 계정 연결</a>의 "조직 ID 찾기" 섹션을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우, 찾는 방법에 대한 자세한 내용은 <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> 조직 및 계정 연결</a>의 "조직 ID 찾기" 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -181,7 +181,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>지정된 네임스페이스에 대한 제한을 초과하여 고객 ID가 삭제되었습니다. 네임스페이스 ID는 <code><i>ID</i></code>이고 고객 ID는 <code><i>ID</i></code>입니다. </p> </td> 
-   <td colname="col3"> <p>이 오류 코드는 <span class="wintitle"> DCS</span> 호출에서 동일한 네임스페이스(<code> DPID</code>)에 대해 선언된 고객 ID가 3개 이상인 경우 반환됩니다. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>이 샘플 <span class="wintitle"> DCS</span> 요청에는 동일한 네임스페이스에 대해 4개의 ID가 선언되어 있습니다(통합 코드 1개 포함). ID 중 하나가 삭제되고 오류 310이 반환됩니다. </p> </td> 
+   <td colname="col3"> <p>이 오류 코드는 <code> DPID</code> DCS<span class="wintitle"> 호출에서 동일한 네임스페이스(</span>)에 대해 선언된 고객 ID가 3개 이상인 경우 반환됩니다. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>이 샘플 <span class="wintitle"> DCS</span> 요청에는 동일한 네임스페이스에 대해 4개의 ID가 선언되어 있습니다(통합 코드 1개 포함). ID 중 하나가 삭제되고 오류 310이 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -191,7 +191,7 @@ ht-degree: 3%
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>요청에 잘못된 글로벌 장치 ID가 포함되어 있습니다. </p> </td> 
-   <td colname="col3"> <p>요청에 잘못된 전역 장치 ID가 포함되어 있으면 <span class="wintitle">DCS</span>에서 이 오류 코드를 반환합니다. DCS에서는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류가 발생합니다. 올바른 Audience Manager 광고 ID 형식 및 해당 글로벌 데이터 소스에 대한 자세한 내용은 <a href="../../../features/global-data-sources.md" format="dita" scope="local">글로벌 데이터 소스</a> 및 <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Device의 ID 색인</a>을 참조하세요.</p>
+   <td colname="col3"> <p>요청에 잘못된 전역 장치 ID가 포함되어 있으면 <span class="wintitle">DCS</span>에서 이 오류 코드를 반환합니다. DCS에서는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류가 발생합니다. 올바른 장치 광고 ID 형식 및 해당 글로벌 데이터 원본에 대한 자세한 내용은 <a href="../../../features/global-data-sources.md" format="dita" scope="local">글로벌 데이터 원본</a> 및 <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Audience Manager의 ID 색인</a>을 참조하세요.</p>
    <p>잘못된 호출의 예: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>설명: <span class="keyword">IDFA(DPID 20915)</span>은(는) 대문자 ID여야 합니다. 요청에 입력한 ID는 소문자입니다.</p>
    </td>

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # [!DNL DCS] [!DNL API] 메서드 {#dcs-api-methods}
 
-`GET` 또는 `POST` 메서드를 사용하여 [!DNL DCS] [!DNL API]에 데이터를 보냅니다.
+[!DNL DCS] 또는 [!DNL API] 메서드를 사용하여 `GET` `POST`에 데이터를 보냅니다.
 
-`GET` 또는 `POST` 메서드 중 하나를 사용하여 [!DNL DCS]에 데이터를 보낼 수 있습니다. [curl](https://curl.haxx.se/)을 사용하여 아래 샘플 호출을 살펴보십시오. 세 개의 샘플 호출 모두에서 신호 `c_likes = famous popstar` 및 `c_loves = famous actress`을(를) 장치 프로필 `12345678901234567890123456789012345678`에 추가하고 있습니다.
+[!DNL DCS] 또는 `GET` 메서드 중 하나를 사용하여 `POST`에 데이터를 보낼 수 있습니다. [curl](https://curl.haxx.se/)을 사용하여 아래 샘플 호출을 살펴보십시오. 세 개의 샘플 호출 모두에서 신호 `c_likes = famous popstar` 및 `c_loves = famous actress`을(를) 장치 프로필 `12345678901234567890123456789012345678`에 추가하고 있습니다.
 
 ## [!DNL GET]을(를) 통해 데이터 보내기 {#send-data-via-get}
 

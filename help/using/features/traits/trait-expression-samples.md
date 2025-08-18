@@ -22,7 +22,7 @@ ht-degree: 3%
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder] 코드 편집기로 고유한 트레이트 규칙을 만듭니다. 다음 예제를 통해 시작할 수 있습니다. 일부 예제에서는 *`key`* 변수 앞에 `c_`을(를) 추가하여 사용자 정의 변수로 식별합니다. 이벤트 호출에서 해당 구문을 사용하여 데이터를 [!DNL Audience Manager]에 전송하는 경우 *`key`* 변수에 대한 `c_` 접두사(또는 기타 명명 규칙)를 포함하십시오.
+[!UICONTROL Expression Builder] 코드 편집기로 고유한 트레이트 규칙을 만듭니다. 다음 예제를 통해 시작할 수 있습니다. 일부 예제에서는 *`key`* 변수 앞에 `c_`을(를) 추가하여 사용자 정의 변수로 식별합니다. 이벤트 호출에서 해당 구문을 사용하여 데이터를 `c_`에 전송하는 경우 *`key`* 변수에 대한 [!DNL Audience Manager] 접두사(또는 기타 명명 규칙)를 포함하십시오.
 
 ## 부울 표현식 {#boolean-expressions}
 

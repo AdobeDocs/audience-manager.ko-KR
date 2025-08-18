@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 트레이트 대시보드 {#traits-dashboard}
 
-트레이트 대시보드는 트레이트를 관리하기 위한 중앙 집중식 작업 영역입니다. **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**(으)로 이동하여 [!UICONTROL Traits] 대시보드를 볼 수 있습니다.
+트레이트 대시보드는 트레이트를 관리하기 위한 중앙 집중식 작업 영역입니다. [!UICONTROL Traits] > **[!UICONTROL Audience Data]**(으)로 이동하여 **[!UICONTROL Traits]** 대시보드를 볼 수 있습니다.
 
 ![](assets/traits-dashboard.png)
 

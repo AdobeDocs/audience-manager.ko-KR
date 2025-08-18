@@ -22,7 +22,7 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
 
 로그 수집 활성화를 위한 필수 조건으로 전환하려면 이 섹션에서 설명하는 프로세스를 *이전*&#x200B;에 완료해야 합니다.
 
-[!DNL Audience Manager]에서 [!DNL Google Ad Manager] (이전 Google DFP) 로그 파일을 사용하려면 먼저 광고 태그 호출에서 [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md)을(를) 설정해야 합니다. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그에 포함되며 [!DNL Google Ad Manager]과(와) [!DNL Audience Manager] 사이의 ID를 일치시킬 수 있습니다. [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module]을(를) 사용하여 자사 쿠키에 [!DNL Audience Manager] UUID를 설정합니다.
+[!DNL Google Ad Manager]에서 [!DNL Audience Manager]&#x200B;(이전 Google DFP) 로그 파일을 사용하려면 먼저 광고 태그 호출에서 [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md)을(를) 설정해야 합니다. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그에 포함되며 [!DNL Google Ad Manager]과(와) [!DNL Audience Manager] 사이의 ID를 일치시킬 수 있습니다. [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module]을(를) 사용하여 자사 쿠키에 [!DNL Audience Manager] UUID를 설정합니다.
 
 설명서에 설명된 대로 광고 태그 호출에서 [!DNL Audience Manager] ID를 설정하는 방법은 다음과 같습니다.
 
@@ -32,8 +32,8 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
 [!DNL Audience Manager] ID를 직접 설정해야 하며, [!DNL Audience Manager] 컨설팅과 함께 모든 것이 작동하는지 확인할 수 있습니다. 다음과 같은 경우 [!DNL Audience Manager] ID를 올바르게 설정했습니다.
 
 * `'aamid'`은(는) 식별자로 사용되는 키입니다.
-* [Audience Manager의 ID 색인](../../../reference/ids-in-aam.md)에 설명된 대로 사용자 ID 값의 형식이 [!DNL Audience Manager] UUID로 올바르게 지정되었습니다.
-* [!DNL Google Ad Manager] 로그의 정의된 필드에 [!DNL Audience Manager] UUID를 포함했습니다(예: CustomTargeting).
+* [!DNL Audience Manager]Audience Manager의 ID 색인[에 설명된 대로 사용자 ID 값의 형식이 ](../../../reference/ids-in-aam.md) UUID로 올바르게 지정되었습니다.
+* [!DNL Audience Manager] 로그의 정의된 필드에 [!DNL Google Ad Manager] UUID를 포함했습니다(예: CustomTargeting).
 
 ## 로그 수집 활성화를 위한 사전 요구 사항 {#prereqs-ingestion-enablement}
 
@@ -48,7 +48,7 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1단계 </p> </td> 
-   <td colname="col2"> <p>2단계로 이동하기 전에 <span class="keyword"> Audience Manager</span> UUID를 설정하는 데 필요한 단계(위에 설명)가 완료되었는지 확인하십시오 </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> UUID를 설정하는 데 필요한 단계(위에 설명)가 2단계로 이동하기 전에 완료되었는지 확인합니다 </p> </td> 
    <td colname="col3"> <p><span class="keyword"> Audience Manager</span> 고객 지원 센터 또는 컨설팅 </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
   </tr> 
   <tr> 
    <td colname="col1"> <p>Step 6 </p> </td> 
-   <td colname="col2"> <p>로그 수집 프로세스를 시작하려면 필수 구성 요소를 컴파일하고 자세한 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=ko">여기</a>의 지침에 따라 지원 티켓을 여십시오. </p> </td> 
+   <td colname="col2"> <p>로그 수집 프로세스를 시작하려면 필수 구성 요소를 컴파일하고 자세한 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">여기</a>의 지침에 따라 지원 티켓을 여십시오. </p> </td> 
    <td colname="col3"> <p>귀하 또는 귀하를 대신하여 <span class="keyword"> Audience Manager</span> 컨설팅 </p> </td> 
   </tr> 
  </tbody> 

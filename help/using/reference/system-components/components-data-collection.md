@@ -57,13 +57,13 @@ DCS와 PCS는 함께 작동하며 트레이트 실현, 대상자 세분화 및 �
 
 ![](assets/dcs-map.png)
 
-고객은 데이터 수집 코드를 통해 간접적으로 [!DNL DCS]에 참여합니다. API 집합을 통해 [!DNL DCS] (으)로 직접 작업할 수도 있습니다. [DCS(데이터 수집 서버) API 메서드 및 코드](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)를 참조하십시오.
+고객은 데이터 수집 코드를 통해 간접적으로 [!DNL DCS]에 참여합니다. API 집합을 통해 [!DNL DCS]&#x200B;(으)로 직접 작업할 수도 있습니다. [DCS(데이터 수집 서버) API 메서드 및 코드](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)를 참조하십시오.
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
 [!UICONTROL PCS]은(는) 큰 데이터베이스(기본적으로 큰 서버측 쿠키)입니다. 서버 간 전송 및 [!DNL DCS]에서 활성 사용자에 대해 받은 데이터를 저장합니다. [!UICONTROL PCS] 데이터는 장치 ID, 인증된 프로필 ID 및 연결된 트레이트로 구성됩니다. [!DNL DCS]이(가) 실시간 호출을 받으면 [!UICONTROL PCS]에서 사용자가 속하거나 자격을 부여할 수 있는 다른 특성이 있는지 확인합니다. 또한 나중에 트레이트가 세그먼트에 추가되면 해당 트레이트 ID가 [!UICONTROL PCS]에 추가되고 사용자는 특정 사이트나 앱을 방문하지 않고도 해당 세그먼트를 자동으로 사용할 수 있습니다. [!UICONTROL PCS]은(는) 실시간으로 또는 새로운 트레이트 데이터와 화면 뒤에서 사용자를 일치시키고 세그먼트화할 수 있으므로 [!DNL Audience Manager]의 사용자 이해를 심화시키는 데 도움이 됩니다. 이 비헤이비어는 실시간 자격으로만 보는 것보다 더 완벽하고 정확한 사용자 사진을 제공합니다.
 
-고객이 [!UICONTROL PCS] (으)로 직접 작업할 수 있도록 하는 UI 컨트롤이 없습니다. [!UICONTROL PCS]에 대한 고객 액세스는 데이터 저장소 및 데이터 전송으로서의 역할을 통해 간접적으로 수행됩니다. [!UICONTROL PCS]은(는) Apache Cassandra에서 실행됩니다.
+고객이 [!UICONTROL PCS]&#x200B;(으)로 직접 작업할 수 있도록 하는 UI 컨트롤이 없습니다. [!UICONTROL PCS]에 대한 고객 액세스는 데이터 저장소 및 데이터 전송으로서의 역할을 통해 간접적으로 수행됩니다. [!UICONTROL PCS]은(는) Apache Cassandra에서 실행됩니다.
 
 **비활성 ID를[!UICONTROL PCS]**&#x200B;에서 제거하는 중
 
@@ -78,11 +78,11 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-[!UICONTROL PCS]은(는) 17일 동안 비활성 상태인 경우 트레이트를 플러시합니다. 그러나 이러한 트레이트는 손실되지 않습니다. hadoop에 저장되어 있습니다. 사용자가 다른 시간에 다시 표시되면 Hadoop은 일반적으로 24시간 이내에 모든 특성을 [!UICONTROL PCS] (으)로 다시 푸시합니다.
+[!UICONTROL PCS]은(는) 17일 동안 비활성 상태인 경우 트레이트를 플러시합니다. 그러나 이러한 트레이트는 손실되지 않습니다. Hadoop에 저장되어 있습니다. 사용자가 다른 시간에 다시 표시되면 Hadoop은 일반적으로 24시간 이내에 모든 트레이트를 [!UICONTROL PCS]&#x200B;(으)로 다시 푸시합니다.
 
 **기타 [!UICONTROL DCS/PCS] 프로세스: 개인 정보 옵트아웃**
 
-이러한 서버 시스템은 개인 정보 및 사용자 옵트아웃 요청을 처리합니다. 사용자가 데이터 수집을 옵트아웃한 경우 사용자 쿠키 정보가 로그 파일에 수집되지 않습니다. 개인정보 처리방침에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/kr/privacy/advertising-services.html)를 참조하세요.
+이러한 서버 시스템은 개인 정보 및 사용자 옵트아웃 요청을 처리합니다. 사용자가 데이터 수집을 옵트아웃한 경우 사용자 쿠키 정보가 로그 파일에 수집되지 않습니다. 개인 정보 보호 정책에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/kr/privacy/advertising-services.html)를 참조하세요.
 
 ## DIL(데이터 통합 라이브러리) {#dil}
 

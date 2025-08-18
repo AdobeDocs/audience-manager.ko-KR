@@ -49,11 +49,11 @@ ht-degree: 0%
 
 비디오 튜토리얼을 선호하는 경우 트레이트 제외에 대한 비디오 데모를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/34823/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 또한 장치 간 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/36875/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## 중요한 측면 및 제한 사항 {#important-aspects-and-limitations}
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 [!UICONTROL Look-Alike Model]에서 특정 특성을 제외하는 방법 및 이유를 알아보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/34823?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## 관련 링크
 

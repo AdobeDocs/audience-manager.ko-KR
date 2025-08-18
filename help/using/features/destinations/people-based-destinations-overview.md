@@ -1,5 +1,5 @@
 ---
-description: 사용자 기반 대상을 사용하여 자사 대상 세그먼트를 사용자 기반 환경으로 보냅니다. 이러한 환경은 그 안에 표시되는 콘텐츠를 제어하는 하나의 엔티티에 속하는 폐쇄형 생태계입니다. 여기에는 Facebook과 같은 소셜 플랫폼과 고객 계정에 의존하여 표시된 콘텐츠를 개인화하는 기타 플랫폼이 포함됩니다.
+description: 사용자 기반 대상을 사용하여 자사 대상 세그먼트를 사용자 기반 환경으로 보냅니다. 이러한 환경은 그 안에 표시되는 콘텐츠를 제어하는 하나의 엔티티에 속하는 폐쇄형 생태계입니다. 여기에는 Facebook과 같은 소셜 플랫폼과, 고객 계정에 의존하여 표시된 콘텐츠를 개인화하는 기타 플랫폼이 포함됩니다.
 seo-description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content.
 seo-title: People-Based Destinations Overview and Use Cases
 solution: Audience Manager
@@ -51,7 +51,7 @@ Audience Manager을 통해 사용자 기반 채널에서 대상 세그먼트를 
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-[!DNL People-Based Destinations]을(를) 통해 Audience Manager을 통해 고객 데이터를 중앙 집중화하고, 대상 세그먼트를 만들고, 여러 사용자 기반 채널에서 활성화할 수 있습니다. Audience Manager 사용자 인터페이스 내에서 이 모든 작업을 수행할 수 있으므로 데이터를 각 플랫폼에 수동으로 업로드하는 추가 작업을 피할 수 있으므로 프로세스에서 귀중한 시간을 절약할 수 있습니다.
+Audience Manager은 [!DNL People-Based Destinations]을(를) 통해 고객 데이터를 중앙 집중화하고, 대상 세그먼트를 만들고, 여러 사용자 기반 채널에서 활성화할 수 있도록 지원합니다. Audience Manager 사용자 인터페이스 내에서 이 모든 작업을 수행할 수 있으므로 데이터를 각 플랫폼에 수동으로 업로드하는 추가 작업을 피할 수 있으므로 프로세스에서 귀중한 시간을 절약할 수 있습니다.
 
 **완전히 오프라인 프로필에서 대상 세그먼트를 만들고 활성화합니다.**
 
@@ -63,7 +63,7 @@ Audience Manager을 통해 사용자 기반 채널에서 대상 세그먼트를 
 
 [!UICONTROL People-Based Destinations]을(를) 사용할 때 데이터 흐름에 대한 개요를 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/31969?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/)
 
 ## 사용 사례 {#use-cases}
 
@@ -71,11 +71,11 @@ Audience Manager을 통해 사용자 기반 채널에서 대상 세그먼트를 
 
 ### 사용 사례 #1 {#use-case-1}
 
-온라인 소매업체는 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문을 기반으로 개인화된 오퍼를 표시하려고 합니다. [!DNL People-Based Destinations]을(를) 사용하면 온라인 소매업체는 자신의 [!DNL CRM]에서 해시된 이메일 주소를 수집하여 Audience Manager을 수행하고, 자신의 오프라인 데이터에서 세그먼트를 작성하고, 이러한 세그먼트를 광고하려는 소셜 플랫폼으로 전송하여 광고 지출을 최적화할 수 있습니다.
+온라인 retailer은 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문을 기반으로 개인화된 오퍼를 표시하려고 합니다. [!DNL People-Based Destinations]을(를) 사용하면 온라인 retailer이 자체 [!DNL CRM]에서 Audience Manager으로 해시된 이메일 주소를 수집하고, 자체 오프라인 데이터에서 세그먼트를 작성하고, 광고 지출을 최적화하여 광고하려는 소셜 플랫폼으로 이러한 세그먼트를 보낼 수 있습니다.
 
 ### 사용 사례 #2 {#use-case-2}
 
-항공사에는 다양한 고객 계층(브론즈, 실버 및 골드)이 있으며 소셜 플랫폼을 통해 각 계층에 개인화된 오퍼를 제공하려고 합니다. 회사는 Audience Manager을 사용하여 웹 사이트에서의 고객 활동을 분석합니다. 다만 모든 고객이 항공사의 모바일 앱을 사용하는 것은 아니며, 이들 중 일부는 회사 홈페이지에 로그인하지 않은 상태다. 회사에 이러한 고객에 대한 유일한 식별자는 멤버십 ID와 이메일 주소입니다.
+항공사에는 다양한 고객 계층(브론즈, 실버 및 골드)이 있으며 소셜 플랫폼을 통해 각 계층에 개인화된 오퍼를 제공하려고 합니다. 이 회사는 Audience Manager을 사용하여 웹 사이트에서의 고객 활동을 분석합니다. 다만 모든 고객이 항공사의 모바일 앱을 사용하는 것은 아니며, 이들 중 일부는 회사 홈페이지에 로그인하지 않은 상태다. 회사에 이러한 고객에 대한 유일한 식별자는 멤버십 ID와 이메일 주소입니다.
 
 소셜 미디어와 유사한 사용자 기반 채널에서 사용자를 타겟팅하기 위해 해시된 이메일 주소를 식별자로 사용하여 [!DNL CRM]에서 Audience Manager으로 고객 데이터를 온보딩할 수 있습니다.
 

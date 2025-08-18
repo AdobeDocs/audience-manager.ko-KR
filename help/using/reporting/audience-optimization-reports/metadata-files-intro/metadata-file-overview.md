@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 개요 {#overview}
 
-메타데이터 및 메타데이터 사용 방법에 대한 리뷰입니다. 메타데이터 파일은 데이터 파일과 함께 있어야 합니다. 메타데이터 파일 콘텐츠는 보고서 메뉴에서 사람이 읽을 수 있는 관련 레이블에 데이터 파일 정보를 일치시킵니다. 자세한 내용은 [Audience Optimization 보고서에 대한 데이터 파일 및 실행 가능한 로그 파일](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)을 참조하십시오.
+메타데이터 및 메타데이터 사용 방법에 대한 리뷰입니다. 메타데이터 파일은 데이터 파일과 함께 있어야 합니다. 메타데이터 파일 콘텐츠는 보고서 메뉴에서 사람이 읽을 수 있는 관련 레이블에 데이터 파일 정보를 일치시킵니다. 자세한 내용은 [Audience Optimization 보고서 및 실행 가능한 로그 파일에 대한 데이터 파일](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)을 참조하십시오.
 
 ### 메타데이터 파일에는 다른 데이터에 대한 데이터가 포함되어 있습니다
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 메타데이터 파일은 숫자 ID를 읽을 수 있는 이름에 연결하는 데 필요합니다. 예를 들어 이벤트 호출에 `d_creative:1234`과(와) 같은 키-값 쌍에 Creative ID가 포함되어 있다고 가정해 보겠습니다. 메타데이터 파일이 없으면 이 크리에이티브는 옵션 메뉴에 1234로 표시됩니다.
 
-그러나 적절한 형식의 메타데이터 파일은 이 크리에이티브를 보고서에서 읽고 인식할 수 있는 이름인 &quot;Advertiser Creative A&quot;와 같은 실제 이름으로 다시 연결할 수 있습니다.
+그러나 적절한 포맷의 메타데이터 파일은 이 크리에이티브를 보고서에서 읽고 인식할 수 있는 이름인 &quot;광고주 Creative A&quot;와 같은 실제 이름으로 다시 연결할 수 있습니다.
 
 ### 메타데이터 파일이 필요한 경우
 
@@ -119,7 +119,7 @@ ht-degree: 2%
 
 파일 이름:
 
-* 데이터 원본 키가 `d_src`에서 `dpid`(으)로 변경됩니다.
+* 데이터 원본 키가 `dpid`에서 `d_src`(으)로 변경됩니다.
 
 * 광고 및 캠페인 ID는 실제 식별자가 아닌 카테고리를 나타냅니다.
 
@@ -129,7 +129,7 @@ ht-degree: 2%
 
 ### 파일 내용
 
-이 예에서 파일 콘텐츠는 이벤트 호출 시 전달된 크리에이티브 및 캠페인 ID를 반영합니다. 여기에서 새 요소는 읽을 수 있는 이름입니다. 이 파일이 처리되면 [!UICONTROL Audience Optimization] 보고서의 [만들기] 메뉴에 이 파일의 이름이 옵션으로 나타납니다.
+이 예에서 파일 콘텐츠는 이벤트 호출 시 전달된 크리에이티브 및 캠페인 ID를 반영합니다. 여기에서 새 요소는 읽을 수 있는 이름입니다. 처리되면 이 파일의 이름이 [!UICONTROL Audience Optimization] 보고서의 Creative 메뉴에 옵션으로 나타납니다.
 
 메타데이터 파일의 ![내용](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 

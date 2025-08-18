@@ -32,11 +32,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[!DNL Audience Manager] 사용자 인터페이스에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 적용됩니다.
+>[ 사용자 인터페이스에 할당된 ](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 적용됩니다.
 
 ## 개요 {#overview}
 
-이 기능은 [!DNL Audience Manager] API에 대한 안전하고 인증된 호출을 수행하는 매크로가 포함된 [!DNL Microsoft Excel] 스프레드시트를 사용합니다. API는 대량으로 변경할 수 있는 메서드 및 서비스를 제공합니다. 사용하기 위해 API를 코딩하거나 작업하는 방법을 알 필요가 없습니다. 이 워크시트에는 특정 일괄 변경 기능을 수행하는 열 머리글과 탭이 있습니다. 일괄 변경을 수행하려면 사전 정의된 헤더를 특정 워크시트에 추가하고, 일괄 변경할 정보를 제공하고 작업 버튼을 클릭하기만 하면 됩니다. 워크시트와 API가 나머지 작업을 수행합니다.
+이 기능은 [!DNL Microsoft Excel] API에 대한 안전하고 인증된 호출을 수행하는 매크로가 포함된 [!DNL Audience Manager] 스프레드시트를 사용합니다. API는 대량으로 변경할 수 있는 메서드 및 서비스를 제공합니다. 사용하기 위해 API를 코딩하거나 작업하는 방법을 알 필요가 없습니다. 이 워크시트에는 특정 일괄 변경 기능을 수행하는 열 머리글과 탭이 있습니다. 일괄 변경을 수행하려면 사전 정의된 헤더를 특정 워크시트에 추가하고, 일괄 변경할 정보를 제공하고 작업 버튼을 클릭하기만 하면 됩니다. 워크시트와 API가 나머지 작업을 수행합니다.
 
 ## 다운로드 {#download}
 
@@ -48,8 +48,8 @@ c_bulk_start.xml
 
 * [!DNL Experience Cloud] 로그인입니다. 고객은 이미 이러한 자격 증명을 가지고 있어야 합니다.
 * [!DNL Bulk Management Tools] 워크시트. [워크시트를 다운로드](assets/BAAAM_V2_20210609.xlsm)하여 최신 버전을 다운로드하세요.
-* 64비트 [!DNL Microsoft Windows]에서 실행 중인 [!DNL Microsoft Excel]. 최신 버전의 [!DNL Microsoft Excel]을(를) 사용하는 것이 좋습니다. [!DNL macOS]에서는 대량 관리 도구가 지원되지 않습니다.
-* 워크시트를 열 때 [!DNL Bulk Management Tools]이(가) 작동하려면 **매크로를 사용**&#x200B;해야 합니다.
+* 64비트 [!DNL Microsoft Excel]에서 실행 중인 [!DNL Microsoft Windows]. 최신 버전의 [!DNL Microsoft Excel]을(를) 사용하는 것이 좋습니다. [!DNL macOS]에서는 대량 관리 도구가 지원되지 않습니다.
+* 워크시트를 열 때 **이(가) 작동하려면**&#x200B;매크로를 사용[!DNL Bulk Management Tools]해야 합니다.
 
 ## 인증 요구 사항 및 옵션 {#auth-reqs}
 

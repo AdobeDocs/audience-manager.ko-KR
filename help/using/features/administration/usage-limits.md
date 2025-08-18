@@ -1,5 +1,5 @@
 ---
-description: Audience Manager은 계정에 대해 생성할 수 있는 트레이트, 세그먼트, 대상 및 알고리즘 모델의 수에 대한 최대 제한을 설정합니다. 이러한 항목은 사용자 인터페이스에서 생성하든 API 메서드를 통해 프로그래밍 방식으로 생성하든 관계없이 제한이 적용됩니다. 사용 제한은 API 또는 사용자 인터페이스를 손상시키려는 자동화된 프로세스로부터 Audience Manager을 보호하는 데 도움이 됩니다.
+description: Audience Manager은 계정에 대해 생성할 수 있는 트레이트, 세그먼트, 대상 및 알고리즘 모델의 수에 대한 최대 제한을 설정합니다. 이러한 항목은 사용자 인터페이스에서 생성하든 API 메서드를 통해 프로그래밍 방식으로 생성하든 관계없이 제한이 적용됩니다. 사용 제한은 API 또는 사용자 인터페이스를 손상시킬 수 있는 자동화된 프로세스로부터 Audience Manager을 보호하는 데 도움이 됩니다.
 seo-description: Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through API methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our APIs or user interface.
 seo-title: Usage Limits
 solution: Audience Manager
@@ -11,13 +11,13 @@ exl-id: 8d29e231-d369-44ad-8e89-e6a4c83175f2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 사용 제한 {#usage-limits}
 
-Audience Manager은 계정에 대해 생성할 수 있는 트레이트, 세그먼트, 대상 및 알고리즘 모델의 수에 대한 최대 제한을 설정합니다. 이러한 항목은 사용자 인터페이스에 만들어졌든 프로그래밍 방식으로 [!DNL API] 메서드를 통해 만들어졌든 관계없이 제한이 적용됩니다. 사용 제한은 [!DNL API] 또는 Audience Manager 인터페이스를 손상시킬 수 있는 자동화된 프로세스로부터 사용자를 보호하는 데 도움이 됩니다.
+Audience Manager은 계정에 대해 생성할 수 있는 트레이트, 세그먼트, 대상 및 알고리즘 모델의 수에 대한 최대 제한을 설정합니다. 이러한 항목은 사용자 인터페이스에 만들어졌든 프로그래밍 방식으로 [!DNL API] 메서드를 통해 만들어졌든 관계없이 제한이 적용됩니다. 사용 제한은 [!DNL API] 또는 사용자 인터페이스를 손상시킬 수 있는 자동화된 프로세스로부터 Audience Manager을 보호하는 데 도움이 됩니다.
 
 ## ID 매핑 제한 {#id-mapping-limits}
 
@@ -64,9 +64,9 @@ Audience Manager은 계정에 대해 생성할 수 있는 트레이트, 세그�
 
 | 항목 | 최대 한도 |
 | -------- | ----- |
-| 활성 [!UICONTROL Look-Alike Models] | 20. Audience Manager은 한도에 대해 *활성* 알고리즘 모델만 계산합니다. |
+| 활성 [!UICONTROL Look-Alike Models] | &#x200B;20. Audience Manager은 한도에 대해 *활성* 알고리즘 모델만 계산합니다. |
 | [!UICONTROL Look-Alike Models] 최대 대상 크기 | 2500만  이 제한은 늘릴 수 없습니다. 모델의 데이터 소스 수를 줄이거나 더 짧은 전환 확인 기간을 선택하여 대상 크기를 줄일 수 있습니다. |
-| [!UICONTROL Look-Alike Model]에 대해 제외된 최대 트레이트 수 | 500. 알고리즘 모델링에서 [트레이트 제외](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)를 참조하십시오. |
+| [!UICONTROL Look-Alike Model]에 대해 제외된 최대 트레이트 수 | &#x200B;500. 알고리즘 모델링에서 [트레이트 제외](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)를 참조하십시오. |
 | 최대 [!UICONTROL Predictive Audiences Models] | 10 |
 | [!UICONTROL Predictive Audiences Models]에 대한 최대 기준선 가상 사용자 수 | 50 |
 

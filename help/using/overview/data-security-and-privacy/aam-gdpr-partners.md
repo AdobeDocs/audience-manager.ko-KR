@@ -58,6 +58,6 @@ Some partners, as listed in the table below, have changed their integration requ
 
 ## Audience Manager 사용자 인터페이스 업데이트 - Yahoo/Oath/DataX 통합 {#ui-update}
 
-위에 언급된 IAB 프레임워크에 대한 업데이트 외에도 Yahoo/Oath/DataX는 분류법 및 대상 API에 새로운 매개 변수인 **gdpr**&#x200B;과 **gdpr_mode**&#x200B;를 추가했습니다. 이 매개 변수들은 Yahoo/Oath/DataX에 데이터 처리자나 데이터 통제자로서 특정 세그먼트를 처리할 권한이 있음을 알려줍니다. 그 결과 Yahoo/Oath/DataX 대상에 세그먼트를 보내는 Audience Manager 고객은 Oath와의 계약에 따라 적절한 매개 변수를 지정해야 합니다(처리자 또는 통제자).
+위에 언급된 IAB 프레임워크에 대한 업데이트 외에도 Yahoo/Oath/DataX는 분류법 및 대상자 API에 새로운 매개 변수인 **gdpr**&#x200B;과 **gdpr_mode**&#x200B;를 추가했습니다. 이 매개 변수들은 Yahoo/Oath/DataX에 데이터 처리자나 데이터 통제자로서 특정 세그먼트를 처리할 권한이 있음을 알려줍니다. 그 결과 Yahoo/Oath/DataX 대상에 세그먼트를 보내는 Audience Manager 고객은 Oath와의 계약에 따라 적절한 매개 변수를 지정해야 합니다(처리자 또는 통제자).
 
 올바른 매개 변수를 설정하려면 컨설턴트 또는 Client Care에 문의하십시오. Adobe는 이 업데이트를 요청하는 서면 메시지를 받지 않는 한 고객을 대신하여 이 업데이트를 수행할 수 없습니다. 이러한 매개 변수에 대한 전체 정의를 알려면 Yahoo/Oath/DataX 담당자에게 문의하십시오.

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 일시 중지 및 삭제 컨트롤에 액세스
 
-[!UICONTROL Actions] 열의 **[!UICONTROL pause]** 및 **[!UICONTROL delete]** 아이콘을 표시하려면 세그먼트 목록의 세그먼트 이름 위에 마우스를 가져갑니다. 이러한 기능은 아래 설명된 대로 세그먼트에 영향을 줍니다.
+**[!UICONTROL pause]** 열의 **[!UICONTROL delete]** 및 [!UICONTROL Actions] 아이콘을 표시하려면 세그먼트 목록의 세그먼트 이름 위에 마우스를 가져갑니다. 이러한 기능은 아래 설명된 대로 세그먼트에 영향을 줍니다.
 
 ## 일시 중지된 세그먼트 기능
 

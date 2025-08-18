@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 데이터 Source 동기화된 트레이트 {#data-source-synced-traits}
 
-[데이터 원본을 만들거나 편집](../../features/manage-datasources.md#create-data-source)할 때 [!UICONTROL Data Source Synced Traits]이(가) [!UICONTROL Audience Traits] 폴더에 나타나고 다음 설정 중 하나를 적용합니다.
+[!UICONTROL Data Source Synced Traits]데이터 원본을 만들거나 편집[!UICONTROL Audience Traits]할 때 [이(가) ](../../features/manage-datasources.md#create-data-source) 폴더에 나타나고 다음 설정 중 하나를 적용합니다.
 
 ![](assets/datasource_synced.png)
 
@@ -36,8 +36,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits]은(는) 문제 해결에 유용합니다. 트레이트 요약 페이지에서 지표를 확인하려면 트레이트 이름을 클릭합니다. 선택한 트레이트가 데이터를 반환하면 ID 동기화 프로세스가 제대로 설정되고 데이터를 [!DNL Audience Manager] (으)로 푸시함을 나타냅니다.
+>[!UICONTROL Data Source Synced Traits]은(는) 문제 해결에 유용합니다. 트레이트 요약 페이지에서 지표를 확인하려면 트레이트 이름을 클릭합니다. 선택한 트레이트가 데이터를 반환하면 ID 동기화 프로세스가 제대로 설정되고 데이터를 [!DNL Audience Manager]&#x200B;(으)로 푸시함을 나타냅니다.
 
 >[!MORELIKETHIS]
 >
->* [대응 가능 대상](../../features/addressable-audiences.md)
+>* [대응 가능 대상자](../../features/addressable-audiences.md)

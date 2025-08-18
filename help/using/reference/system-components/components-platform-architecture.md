@@ -1,5 +1,5 @@
 ---
-description: 이 지도에는 주요 Audience Manager 시스템이 포함되어 있습니다. 데이터가 어떻게 Audience Manager 구성 요소로, 구성 요소에서 외부로, 그리고 이들 구성 요소 사이에서 이동하는지를 시각적으로 나타냅니다.
+description: 이 지도에는 주요 Audience Manager 시스템이 포함되어 있습니다. 데이터가 어떻게 Audience Manager 구성 요소로, 구성 요소에서 외부로, 그리고 구성 요소 간에 흐르는지 시각적으로 나타냅니다.
 seo-description: This map contains the major Audience Manager systems. It visually represents how data flows into, out of, and among Audience Manager components.
 seo-title: Platform Architecture  Data Flow Map
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 플랫폼 아키텍처: 데이터 흐름 맵{#platform-architecture-data-flow-map}
 
-이 지도에는 주요 Audience Manager 시스템이 포함되어 있습니다. 데이터가 어떻게 Audience Manager 구성 요소로, 구성 요소에서 외부로, 그리고 이들 구성 요소 사이에서 이동하는지를 시각적으로 나타냅니다.
+이 지도에는 주요 Audience Manager 시스템이 포함되어 있습니다. 데이터가 어떻게 Audience Manager 구성 요소로, 구성 요소에서 외부로, 그리고 구성 요소 간에 흐르는지 시각적으로 나타냅니다.
 
 ## 이 맵을 읽는 방법 {#compmap}
 

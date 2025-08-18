@@ -45,7 +45,7 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 데이터 동기화 파일 이름 </td> 
-   <td colname="col2"> <p>이 대상에 대해 <span class="keyword"> Adobe</span>이(가) 함께 생성한 모든 아웃바운드 파일 목록입니다. </p> </td> 
+   <td colname="col2"> <p>이 대상에 대해 <span class="keyword"> Adobe</span>이(가) 함께 생성된 모든 아웃바운드 파일의 목록입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 성공 </td> 
@@ -57,7 +57,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> 기록 수신됨 </td> 
-   <td colname="col2"> <p>파일에서 생성되어 대상으로 보내려고 시도한 총 레코드 <span class="keyword"> Adobe</span>의 수입니다. 대부분의 경우 성공한 파일과 실패한 파일의 총 수입니다. </p> </td> 
+   <td colname="col2"> <p>파일에서 생성되어 대상으로 보내려고 시도한 총 레코드 수 <span class="keyword"> Adobe</span>. 대부분의 경우 성공한 파일과 실패한 파일의 총 수입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
-[!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) 파일에 대한 기본 정보 및 시작 방법에 대한 지침입니다. [!UICONTROL CDF]개의 파일을 받거나 자세한 정보를 보려면 여기에서 시작하십시오.
+[!UICONTROL Customer Data Feed]&#x200B;([!UICONTROL CDF]) 파일에 대한 기본 정보 및 시작 방법에 대한 지침입니다. [!UICONTROL CDF]개의 파일을 받거나 자세한 정보를 보려면 여기에서 시작하십시오.
 
 ## 파일 내용 및 목적 {#file-contents-purpose}
 
@@ -76,7 +76,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>사이트 방문자의 38자리 장치 ID인 <span class="wintitle"> UUID(고유 사용자 ID</span>)입니다. </a> Audience Manager의 <a href="../reference/ids-in-aam.md"> ID 색인도 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>사이트 방문자의 38자리 장치 ID인 <span class="wintitle"> UUID(고유 사용자 ID</span>)입니다. Audience Manager의 ID 색인 <a href="../reference/ids-in-aam.md"></a>도 참조하세요. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
@@ -96,7 +96,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>모든 매개 변수(변수, ID, 키-값 쌍, 장치 광고 ID 등)를 캡처하는 문자열 이벤트 호출 시 전달되었습니다. </p> <p>축약된 예: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>이벤트 호출 시 전달된 모든 매개 변수(변수, ID, 키-값 쌍, 장치 광고 ID 등)를 캡처하는 문자열입니다. </p> <p>축약된 예: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -111,7 +111,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>문자열 </p> </td> 
-   <td colname="col3"> <p>사이트 방문자에게 할당된 <span class="keyword"> Experience Cloud</span> ID(MID)입니다. <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Adobe Experience Platform ID 서비스</a>도 참조하세요. </p> </td> 
+   <td colname="col3"> <p>사이트 방문자에게 할당된 <span class="keyword"> Experience Cloud</span> ID(MID)입니다. <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Adobe Experience Platform Identity 서비스</a>도 참조하세요. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +163,7 @@ ht-degree: 2%
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">요청 매개 변수 </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP 주소 </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Adobe Experience Platform Identity 서비스</a>도 참조하세요. </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud 장치 ID(또는 MID). <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Adobe Experience Platform Identity 서비스</a>도 참조하세요. </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">모든 세그먼트 </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">모든 트레이트 </li> 
      </ol> </p> <p>필드 설명은 정의된 <a href="#cdf-defined"> 고객 데이터 피드 콘텐츠</a>를 참조하십시오. </p> </td> 
@@ -254,7 +254,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
 
 ## [!UICONTROL Customer Data Feed]개의 파일 처리 알림 {#cdf-file-processing-notifications}
 
-[!DNL Audience Manager]이(가) [!UICONTROL Customer Data File] ([!UICONTROL CDF])을(를) 다운로드할 준비가 되면 알리기 위해 [!DNL S3] 디렉터리에 `.info` 파일을 씁니다. `.info` 파일에는 [!UICONTROL CDF] 파일의 내용에 대한 [!DNL JSON] 형식의 메타데이터도 포함되어 있습니다. 이 알림 파일에서 사용하는 구문과 필드에 대한 정보는 이 섹션을 검토하십시오.
+[!DNL Audience Manager]이(가) `.info`([!DNL S3])을(를) 다운로드할 준비가 되면 알리기 위해 [!UICONTROL Customer Data File] 디렉터리에 [!UICONTROL CDF] 파일을 씁니다. `.info` 파일에는 [!DNL JSON] 파일의 내용에 대한 [!UICONTROL CDF] 형식의 메타데이터도 포함되어 있습니다. 이 알림 파일에서 사용하는 구문과 필드에 대한 정보는 이 섹션을 검토하십시오.
 
 ## 샘플 정보 파일 {#sample-info-file}
 
@@ -372,7 +372,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
 | 타임스탬프 위치 | 설명 |
 |--- |--- |
 | 파일 이름 | [!DNL CDF] 파일 이름의 타임스탬프는 [!DNL Audience Manager]이(가) 배달을 위해 파일 준비를 시작한 시간을 표시합니다. 이 타임스탬프는 [!DNL UTC] 시간대로 설정되어 있습니다. 이 메서드는 `hour=` 매개 변수를 사용하며, 시간은 24시간 표기법으로 2자리 시간으로 형식이 지정됩니다. 이 시간은 파일 콘텐츠에 기록된 이벤트 시간과 다를 수 있습니다. [!DNL CDF] 파일을 사용하여 작업할 때 경우에 따라 [!DNL S3] 버킷이 특정 시간 동안 비어 있는 것을 확인할 수 있습니다. 빈 버킷 수단은 다음 중 하나를 의미할 수 있습니다.<ul><li>해당 시간에 대한 데이터가 없습니다. </li><li> 서버에 부하가 심해서 특정 시간 동안 파일을 처리할 수 없습니다. 서버가 작업을 완료하면 이전 시간 버킷 파일에 있어야 하는 파일을 이후 시간 값이 있는 버킷에 넣습니다. 예를 들어 17시간 버킷에 있어야 하는 파일이 18시간 버킷에 표시되면(파일 이름에 `hour=18`이(가) 있음) 이 표시됩니다. 이 경우 서버에서 17시간 내에 파일 처리를 시작했지만 해당 시간 간격 내에 완료할 수 없을 수 있습니다. 대신 파일이 다음 시간 버킷으로 푸시됩니다.</li></ul><br>**중요**: 파일 이름 타임스탬프를 사용하여 이벤트를 시간별로 그룹화하지 마십시오. 시간별로 그룹화해야 하는 경우 파일 콘텐츠의 `EventTime` 타임스탬프를 사용하십시오. |
-| 파일 내용 | [!DNL CDF] 파일 컨텐츠의 타임스탬프는 [!DNL Data Collection Servers]이(가) 파일 처리를 시작한 시간을 표시합니다. 이 타임스탬프는 [!DNL UTC] 시간대로 설정되어 있습니다. 시간은 *`yyyy-mm-dd hh:mm:ss`* 형식의 `EventTime` 필드를 사용합니다. 이 시간은 페이지에서 이벤트의 실제 시간에 가깝지만 파일 이름의 시간 표시기와 다를 수 있습니다. <br> **팁**: 파일 이름의 `hour=` 타임스탬프와 달리 `EventTime`을(를) 사용하여 시간별로 데이터를 그룹화할 수 있습니다. |
+| 파일 내용 | [!DNL CDF] 파일 컨텐츠의 타임스탬프는 [!DNL Data Collection Servers]이(가) 파일 처리를 시작한 시간을 표시합니다. 이 타임스탬프는 [!DNL UTC] 시간대로 설정되어 있습니다. 시간은 `EventTime` 형식의 *`yyyy-mm-dd hh:mm:ss`* 필드를 사용합니다. 이 시간은 페이지에서 이벤트의 실제 시간에 가깝지만 파일 이름의 시간 표시기와 다를 수 있습니다. <br> **팁**: 파일 이름의 `hour=` 타임스탬프와 달리 `EventTime`을(를) 사용하여 시간별로 데이터를 그룹화할 수 있습니다. |
 
 >[!MORELIKETHIS]
 >

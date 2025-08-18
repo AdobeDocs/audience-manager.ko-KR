@@ -3,7 +3,7 @@ description: 접근성이란 시각, 청각, 인지, 모터 또는 기타 장애
 seo-description: Accessibility refers to a series of features that make a software product usable, with as little effort as possible from users with various disabilities, such as visual, auditory, cognitive, motor, or other kind.
 seo-title: Accessibility in Audience Manager
 solution: Audience Manager
-title: Audience Manager에서의 접근성
+title: Audience Manager의 접근성
 feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Audience Manager에서의 접근성 {#accessibility}
+# Audience Manager의 접근성 {#accessibility}
 
 ## 개요 {#overview}
 
 접근성이란 시각, 청각, 인지, 모터 또는 기타 장애와 같은 다양한 장애가 있는 사용자가 가능한 한 적은 노력으로 소프트웨어 제품을 사용할 수 있도록 하는 일련의 기능을 의미합니다.
 
-Adobe은 접근성 분야의 업계 선두주자이며, 개발자가 모든 사용자가 액세스할 수 있는 풍부하고 매력적인 콘텐츠를 제작하도록 지원함으로써 탁월한 웹 환경 제작을 지원합니다. 액세스 가능성에 대한 Adobe의 약정에 대한 자세한 내용은 [Adobe 액세스 가능성](https://www.adobe.com/accessibility.html)을 참조하세요.
+Adobe은 접근성 분야의 업계 리더이며 개발자가 모든 사용자가 액세스할 수 있는 풍부하고 매력적인 콘텐츠를 생산하도록 지원하여 탁월한 웹 환경 만들기를 지원합니다. Adobe의 액세스 가능성 약속에 대한 자세한 내용은 [Adobe 액세스 가능성](https://www.adobe.com/accessibility.html)을 참조하세요.
 
 소프트웨어 제품에서 가장 일반적인 접근성 기능으로는 키보드 탐색, 의미 체계 구조, 전경 요소와 배경 요소 간의 충분한 대비, 보조 기술 지원, 요소 레이블 지우기 등이 있습니다.
 

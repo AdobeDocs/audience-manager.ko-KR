@@ -16,7 +16,7 @@ ht-degree: 17%
 # Audience Manager 사용 안내서 {#user-guide}
 
 + [Audience Manager 안내서](aam-home.md)
-+ [Real-Time CDP에 대한 진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=ko)
++ Real-Time CDP에 대한 [진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + 웹 SDK으로 마이그레이션{#migrate-to-web-sdk}
    + [Adobe Audience Manager 태그 확장 프로그램에서 웹 SDK 태그 확장 프로그램으로 마이그레이션](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [데이터 수집 라이브러리를 AppMeasurement에서 Web SDK으로 마이그레이션](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -152,7 +152,7 @@ ht-degree: 17%
       + [세그먼트 표현식 편집기에 사용되는 코드 구문](features/segments/segment-code-syntax.md)
       + [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](features/segments/segment-builder-data.md)
       + [트레이트 권장 사항](features/segments/trait-recommendations.md)
-      + [트레이트 및 세그먼트 선별 참조](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=ko)
+      + [트레이트 및 세그먼트 선별 참조](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + 트레이트{#traits}
       + [트레이트 개요](/help/using/features/traits/traits-overview.md)
       + [트레이트 세부 사항 페이지](features/traits/trait-details-page.md)
@@ -349,8 +349,8 @@ ht-degree: 17%
    + 다른 Experience Cloud 애플리케이션과 통합 {#integration-other-solutions}
       + [Audience Manager과 Adobe Target 통합](integration/integration-other-solutions/aam-target-integration.md)
       + [데이터를 Adobe Analytics에서 Audience Manager으로 전달하는 방법](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics 세그먼트를 Experience Cloud에 게시(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ko)
-      + [Audience Manager과 Adobe Campaign 통합(Adobe Campaign 설명서 열기)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=ko)
+      + [Adobe Analytics 세그먼트를 Experience Cloud에 게시(Adobe Analytics 설명서 열기)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Audience Manager과 Adobe Campaign 통합(Adobe Campaign 설명서 열기)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + 참조{#reference}
    + [참조 개요](reference/reference.md)
    + [Amazon S3: 정보](reference/amazon-s3.md)

@@ -18,7 +18,7 @@ ht-degree: 94%
 이 섹션에는 Audience Manager의 다양한 기능에 대한 FAQ 카테고리 목록이 정리되어 있습니다.
 
 * [API FAQ](faq-api.md)
-* [대상 랩 FAQ](faq-audience-lab.md)
+* [대상자 랩 FAQ](faq-audience-lab.md)
 * [고객 데이터 피드 FAQ](faq-cdf.md)
 * [데이터 수집 및 제품 통합 FAQ](faq-data-collection.md)
 * [인바운드 고객 데이터 섭취 FAQ](faq-inbound-data-ingestion.md)

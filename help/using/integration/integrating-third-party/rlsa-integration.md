@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >이는 두 시스템의 제품화된 통합이 아닙니다.
 
-[!DNL Google Ads] 리마케팅 목록을 [!DNL Audience Manager] [!DNL URL destination] (으)로 설정하려면:
+[!DNL Google Ads] 리마케팅 목록을 [!DNL Audience Manager] [!DNL URL destination]&#x200B;(으)로 설정하려면:
 
 1. [!DNL Google Ads] 계정에서 [웹 사이트 리마케팅 목록을 만들고](https://support.google.com/tagmanager/answer/6106960?hl=en) 전환 ID를 기록하세요.
 1. 다음 URL을 기본 URL 및 보안 URL의 템플릿으로 사용합니다. xxxxxxxx 섹션을 전환 ID로 바꿉니다.
@@ -33,9 +33,9 @@ ht-degree: 0%
 1. Audience Manager에서 [만들기 [!DNL URL destination]](../../features/destinations/create-url-destination.md)하거나 기존 [!DNL destination]을(를) 편집하세요. [!DNL destination]을(를) 만들 때 다음 설정을 사용하십시오.
    * 유형: URL
    * 직렬화: 활성화됨
-   * 구분 기호: 세미콜론( &semi; )
+   * 구분 기호: 세미콜론( &amp;semi; )
 
-1. [!DNL URL] [!DNL destination]의 [!UICONTROL Segment Mappings] 섹션에서 2단계의 코드를 [!DNL URL] 및 [!DNL Secure URL] 필드에 추가합니다. [!DNL URL] 및 [!DNL Secure URL] 필드에 각각 `http:` 및 `https:`을(를) 사용하여 코드 접두사를 지정합니다.
+1. [!UICONTROL Segment Mappings] [!DNL URL]의 [!DNL destination] 섹션에서 2단계의 코드를 [!DNL URL] 및 [!DNL Secure URL] 필드에 추가합니다. `http:` 및 `https:` 필드에 각각 [!DNL URL] 및 [!DNL Secure URL]을(를) 사용하여 코드 접두사를 지정합니다.
 
    >[!IMPORTANT]
    >
@@ -61,7 +61,7 @@ ht-degree: 0%
    >
    >여러 세그먼트를 사용하여 작업하는 경우 [!DNL Google Ads] [!DNL destination]에 매핑할 각 세그먼트에 대해 새 픽셀을 가져옵니다. 이렇게 하면 데이터가 적절한 리마케팅 목록에 적용됩니다.
 
-1. 새 세그먼트를 Audience Manager의 이 [!DNL destination]에 매핑할 때 매핑을 `aam=segmentID`(으)로 정의하고 `segmentID`을(를) 세그먼트 ID로 바꾸십시오.
+1. Audience Manager에서 이 [!DNL destination]에 새 세그먼트를 매핑할 때 매핑을 `aam=segmentID`(으)로 정의하고 `segmentID`을(를) 세그먼트 ID로 바꾸십시오.
 1. [!DNL Google Ads]에서 버킷을 정의할 때 6단계에서 정의된 매핑과 일치하는 규칙을 만듭니다.
 
 완료된 매핑은 다음과 유사할 수 있습니다.

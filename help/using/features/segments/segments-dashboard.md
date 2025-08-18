@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 세그먼트 목록 보기 {#segments-list-view}
 
-[!UICONTROL Segments dashboard]은(는) 대상 세그먼트를 관리하기 위한 중앙 집중식 작업 영역입니다. **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**(으)로 이동하여 [!UICONTROL Segments] 대시보드를 볼 수 있습니다.
+[!UICONTROL Segments dashboard]은(는) 대상 세그먼트를 관리하기 위한 중앙 집중식 작업 영역입니다. [!UICONTROL Segments] > **[!UICONTROL Audience Data]**(으)로 이동하여 **[!UICONTROL Segments]** 대시보드를 볼 수 있습니다.
 
 ![세그먼트-대시보드](assets/segments-dashboard.png)
 

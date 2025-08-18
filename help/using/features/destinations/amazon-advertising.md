@@ -14,7 +14,7 @@ ht-degree: 0%
 
 이 문서에서는 [Amazon Advertising](https://advertising.amazon.com/API/docs/en-us)과의 통합을 구성하는 방법에 대해 설명합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 [!DNL Amazon Advertising] 대상을 구성하기 전에 다음 전제 조건을 충족하는지 확인하십시오.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 이 섹션에서는 [!DNL Amazon Advertising]에 대한 새 장치 기반 대상을 구성할 때 따라야 하는 단계에 대해 설명합니다. 이 시나리오에서는 Adobe 컨설턴트나 고객 지원 센터를 통해 구성된 기존 [!DNL Amazon Advertising] 대상이 없다고 가정합니다.
 
-### 1단계. [!DNL Amazon Advertising] (으)로 인증 {#step1-authenticate-with-amazon}
+### 1단계. [!DNL Amazon Advertising]&#x200B;(으)로 인증 {#step1-authenticate-with-amazon}
 
 장치 기반 대상을 추가하려면 먼저 Audience Manager과 [!DNL Amazon Advertising] 계정을 연결해야 합니다. 방법은 다음과 같습니다.
 
@@ -36,11 +36,11 @@ ht-degree: 0%
 
    ![통합 플랫폼](assets/dbd-amazon-without-options.png)
 
-1. [!DNL Amazon Ads] 계정이 만들어진 지역(북미, 유럽 또는 극동)에 따라 **[!UICONTROL Amazon Data Provider]** 옵션 중 하나를 선택하고 **[!DNL Confirm]**&#x200B;을(를) 클릭하여 인증 페이지로 리디렉션합니다.
+1. **[!UICONTROL Amazon Data Provider]** 계정이 만들어진 지역(북미, 유럽 또는 극동)에 따라 [!DNL Amazon Ads] 옵션 중 하나를 선택하고 **[!DNL Confirm]**&#x200B;을(를) 클릭하여 인증 페이지로 리디렉션합니다.
 
    ![통합 플랫폼](assets/dbd-amazon-with-options.png)
 
-1. 인증을 완료하면 연결된 광고주 계정이 표시되는 Audience Manager으로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다. 이를 통해 Audience Manager에 대한 액세스 권한을 부여하여 대상에 대한 업데이트를 전송합니다.
+1. 인증되면 연결된 광고주 계정이 표시되는 Audience Manager으로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다. 이를 통해 Audience Manager에 대한 액세스 권한을 부여하여 대상에 대한 업데이트를 전송합니다.
 
 ### 2단계. 새 장치 기반 대상 만들기 {#step2-create-new-destination}
 
@@ -63,7 +63,7 @@ Audience Manager과 [!DNL Amazon Advertising] 계정을 연결한 후 새 대상
 
 ## 일치율 고려 사항 {#match-rates-considerations}
 
-Audience Manager과 [!DNL Amazon Advertising] 간의 통합은 과거 대상 다시 채우기를 지원합니다. 대상을 만들면 모든 세그먼트 자격이 [!DNL Amazon] (으)로 전송됩니다.
+Audience Manager과 [!DNL Amazon Advertising] 간의 통합은 과거 대상 다시 채우기를 지원합니다. 대상을 만들면 모든 세그먼트 자격이 [!DNL Amazon]&#x200B;(으)로 전송됩니다.
 
 ## 문제 해결 {#troubleshooting}
 
@@ -72,4 +72,4 @@ Audience Manager과 [!DNL Amazon Advertising] 간의 통합은 과거 대상 다
 | 오류 메시지 | 발생 횟수 / 이유 | 해결 방법 |
 |---|---|---|
 | `Internal server error` | 이 오류 메시지는 오래된 버전의 Amazon API를 사용하여 새 [!DNL Amazon] 계정을 추가하려고 할 때 Audience Manager UI에 표시됩니다. | Adobe 고객 지원 센터에 문의하십시오. |
-| `Amazon Error: Account XXXXXXXXX was not found` | 이 오류 메시지는 대상에 대해 구성된 자격 증명이 해당 Amazon 광고 계정에 액세스할 수 있는 권한이 없는 경우 Audience Manager UI에 표시됩니다. | <ul><li>사용 중인 계정 자격 증명이 [필수 구성 요소](#prerequisites)를 충족하는지 확인하십시오.</li><li>동일한 자격 증명을 사용하여 Amazon Ads UI로 이동한 다음 해당 계정 아래에 올바른 대상이 표시되는지 확인합니다. </li></ul> |
+| `Amazon Error: Account XXXXXXXXX was not found` | 이 오류 메시지는 대상에 대해 구성된 자격 증명이 해당 Amazon Ads 계정에 액세스할 수 있는 권한이 없는 경우 Audience Manager UI에 표시됩니다. | <ul><li>사용 중인 계정 자격 증명이 [필수 구성 요소](#prerequisites)를 충족하는지 확인하십시오.</li><li>동일한 자격 증명을 사용하여 Amazon Ads UI로 이동한 다음 해당 계정 아래에 올바른 대상이 표시되는지 확인합니다. </li></ul> |

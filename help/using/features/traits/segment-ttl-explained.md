@@ -16,24 +16,24 @@ ht-degree: 0%
 
 # 세그먼트 및 트레이트 유지 시간 설명 {#segment-time-to-live-explained}
 
-트레이트 [!UICONTROL time-to-live] ([!DNL TTL]) 간격이 세그먼트 멤버십에 미치는 영향.
+트레이트 [!UICONTROL time-to-live]&#x200B;([!DNL TTL]) 간격이 세그먼트 멤버십에 미치는 영향.
 
 <!-- segment-ttl-explained.xml -->
 
 ## TTL(Time to Live)
 
-[!DNL TTL]은(는) 마지막 트레이트 자격 이벤트 후 사이트 방문자가 세그먼트에 남아 있는 기간을 정의합니다. [!DNL TTL]이(가) 세그먼트가 아닌 트레이트에 설정되어 있습니다. 방문자가 [!DNL TTL] 간격이 끝나기 전에 트레이트에 적합하지 않으면 세그먼트에서 이탈됩니다. 새 트레이트의 기본 [!DNL TTL]은(는) 120일입니다. 0일로 설정하면 트레이트가 만료되지 않습니다. 특성 만들기 인터페이스의 [!UICONTROL Advanced Options] 섹션에서 특성을 만들거나 편집할 때 [TTL 값을 설정](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)합니다.
+[!DNL TTL]은(는) 마지막 트레이트 자격 이벤트 후 사이트 방문자가 세그먼트에 남아 있는 기간을 정의합니다. [!DNL TTL]이(가) 세그먼트가 아닌 트레이트에 설정되어 있습니다. 방문자가 [!DNL TTL] 간격이 끝나기 전에 트레이트에 적합하지 않으면 세그먼트에서 이탈됩니다. 새 트레이트의 기본 [!DNL TTL]은(는) 120일입니다. 0일로 설정하면 트레이트가 만료되지 않습니다. 특성 만들기 인터페이스의 [ 섹션에서 특성을 만들거나 편집할 때 ](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)TTL 값을 설정[!UICONTROL Advanced Options]합니다.
 
 ### 1일 TTL 설명
 
 [!DNL TTL]을(를) 1일로 설정할 때 트레이트 실현 날짜의 남은 시간을 계산하지 않고 트레이트 실현 다음 날에 TTL 타이머가 시작됩니다.
 
-Audience Manager은 다음 수식을 기반으로 1일 [!DNL TTL]의 트레이트에 대해 [!DNL TTL] 만료를 계산합니다.
+Audience Manager은 다음 수식을 기반으로 하여 1일 [!DNL TTL]의 트레이트에 대한 [!DNL TTL] 만료를 계산합니다.
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **예제 1**: 1시 [!DNL UTC]에 실현된 트레이트(1일 [!DNL TTL]). [!DNL TTL]은(는) 24 + 24 - 1 = 47시간 후에 만료됩니다.
-* **예 2**: 1일 [!DNL TTL]인 23:00 [!DNL UTC]에 실현된 트레이트. [!DNL TTL]은(는) 24 + 24 - 23 = 25시간 후에 만료됩니다.
+* **예 1**: 1:00 [!DNL UTC]에 실현된 트레이트(1일 [!DNL TTL]). [!DNL TTL]은(는) 24 + 24 - 1 = 47시간 후에 만료됩니다.
+* **예 2**: 23:00 [!DNL UTC]에 실현된 트레이트(1일 [!DNL TTL]). [!DNL TTL]은(는) 24 + 24 - 23 = 25시간 후에 만료됩니다.
 
 ## [!DNL TTL] 및 세그먼트에서 드롭아웃
 
@@ -51,7 +51,7 @@ Audience Manager은 다음 수식을 기반으로 1일 [!DNL TTL]의 트레이�
 
 ## [!DNL Audience Manager] TTL은 타사 TTL 설정과 독립적입니다
 
-[!DNL Audience Manager] 픽셀에 설정된 [!DNL TTL]은(는) 타사에서 사용하는 다른 픽셀([!DNL DSP], 광고 네트워크 등)에 설정된 [!DNL TTL]과(와) 독립적으로 작동합니다.
+[!DNL TTL] 픽셀에 설정된 [!DNL Audience Manager]은(는) 타사에서 사용하는 다른 픽셀([!DNL TTL], 광고 네트워크 등)에 설정된 [!DNL DSP]과(와) 독립적으로 작동합니다.
 
 >[!MORELIKETHIS]
 >

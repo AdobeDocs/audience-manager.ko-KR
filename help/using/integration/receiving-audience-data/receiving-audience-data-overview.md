@@ -1,5 +1,5 @@
 ---
-description: Audience Manager에서 대상 데이터를 수신합니다.
+description: Audience Manager에서 대상 데이터를 받습니다.
 seo-description: Receive audience data from Adobe Audience Manager (AAM).
 seo-title: Receiving Audience Data in Adobe Audience Manager (AAM)
 title: 대상 데이터 수신
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 대상 데이터 수신
 
-Audience Manager에서 대상 데이터를 수신합니다.
+Audience Manager에서 대상 데이터를 받습니다.
 
 * [아웃바운드 데이터 전송을 위한 ID 동기화](id-sync-outbound.md)
 

@@ -22,13 +22,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL PGP] 암호화에 파일 압축이 포함되어 있습니다. [!DNL PGP]개의 암호화된 인바운드 파일을 보낼 때 gzip(`.gz`)을 사용하여 [압축](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)하지 않도록 하십시오.
+>[!DNL PGP] 암호화에 파일 압축이 포함되어 있습니다. [!DNL PGP]개의 암호화된 인바운드 파일을 보낼 때 gzip([)을 사용하여 ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)압축`.gz`하지 않도록 하십시오.
 >
->[압축](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)된 [!DNL PGP]개의 암호화된 인바운드 파일도 Audience Manager에서 사용할 수 없습니다.
+>[!DNL PGP]압축[된 ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)개의 암호화된 인바운드 파일도 Audience Manager에서 사용할 수 없습니다.
 
 인바운드 데이터 파일을 암호화하려면 아래에 설명된 단계를 따르십시오.
 
-1. [공개 키 Audience Manager](./assets/adobe_pgp.pub)을 다운로드합니다.
+1. [Audience Manager 공개 키](./assets/adobe_pgp.pub)를 다운로드합니다.
 2. 공개 키를 신뢰할 수 있는 저장소로 가져옵니다.
 
    예를 들어 [!DNL GPG]을(를) 사용하는 경우 명령은 다음과 비슷할 수 있습니다.

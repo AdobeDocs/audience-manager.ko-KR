@@ -10,7 +10,7 @@ exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 3%
 
 ## 대상
 
-Audience Manager에서 *`destination`*&#x200B;은(는) 광고 서버, [!DNL DSP], 광고 네트워크 등 다른 시스템입니다. 입니다. [!UICONTROL Destination Builder]은(는) 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. Audience Manager 대상 기능은 *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*&#x200B;에 있습니다. 시작하려면 **[!UICONTROL Add New Destination]**&#x200B;을(를) 클릭하고 아래 단계를 따르십시오.
+Audience Manager에서 *`destination`*&#x200B;은(는) 데이터를 공유할 다른 시스템(광고 서버, [!DNL DSP], 광고 네트워크 등)입니다. [!UICONTROL Destination Builder]은(는) 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. Audience Manager 대상 기능은 *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*&#x200B;에 있습니다. 시작하려면 **[!UICONTROL Add New Destination]**&#x200B;을(를) 클릭하고 아래 단계를 따르십시오.
 
 ## 기본 정보
 
 [!UICONTROL Basic Information] 섹션을 완료하려면
 
 1. 대상 이름을 지정합니다.
-1. [!UICONTROL Type] 드롭다운 목록에서 **[!UICONTROL "Cookie"]** 선택.
+1. **[!UICONTROL "Cookie"]** 드롭다운 목록에서 [!UICONTROL Type] 선택.
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 [!UICONTROL Configuration] 및 [!UICONTROL Segment Mappings] 섹션으로 이동합니다.
 
 ## 쿠키 구성

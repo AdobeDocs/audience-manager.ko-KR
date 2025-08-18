@@ -1,5 +1,5 @@
 ---
-description: 이 문서에서는 Audience Manager 트레이트 및 세그먼트 도구가 부울 표현식인 AND, OR 및 NOT을 사용하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Audience Manager 트레이트 및 세그먼트 도구가 부울 표현식인 AND, OR 및 NOT을 사용하는 방법을 설명합니다.
 seo-description: This article explains how the Audience Manager trait and segment tools use the Boolean expressions AND, OR, and NOT.
 seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 트레이트 및 세그먼트 빌더의 부울 표현식{#boolean-expressions-in-trait-and-segment-builder}
 
-이 문서에서는 Audience Manager 트레이트 및 세그먼트 도구가 부울 표현식인 AND, OR 및 NOT을 사용하는 방법에 대해 설명합니다.
+이 문서에서는 Audience Manager 트레이트 및 세그먼트 도구가 부울 표현식인 AND, OR 및 NOT을 사용하는 방법을 설명합니다.
 
 <!-- 
 
@@ -34,7 +34,7 @@ c_tb_boolean.xml
 
 >[!NOTE]
 >
->[!UICONTROL NOT] 연산자는 암시적 &quot;and&quot; 조건을 사용하며 경우에 따라 [!UICONTROL AND NOT] (으)로 작성됩니다.
+>[!UICONTROL NOT] 연산자는 암시적 &quot;and&quot; 조건을 사용하며 경우에 따라 [!UICONTROL AND NOT]&#x200B;(으)로 작성됩니다.
 
 **트레이트 및 세그먼트 빌더에서 부울 식을 사용하는 방법**
 
@@ -73,7 +73,7 @@ c_tb_boolean.xml
 
 **[!UICONTROL OR]사용 사례 예**
 
-[!UICONTROL OR] 연산자는 광범위한 대상 자격 요구 사항이 있는 신호를 만들려는 경우에 유용합니다. 트레이트 또는 세그먼트 자격 요구 사항이 여러 개 있는 경우 사이트 방문자가 해당 특성의 *any*&#x200B;을(를) 표시하면 [!UICONTROL OR] 연산자가 true로 평가됩니다. [!UICONTROL OR]은(는) 자격을 갖춘 사이트 방문자의 광범위한 대상을 신속하게 만들려는 경우에 가장 유용할 수 있습니다.
+[!UICONTROL OR] 연산자는 광범위한 대상 자격 요구 사항이 있는 신호를 만들려는 경우에 유용합니다. 트레이트 또는 세그먼트 자격 요구 사항이 여러 개 있는 경우 사이트 방문자가 해당 특성의 [!UICONTROL OR]any *을(를) 표시하면* 연산자가 true로 평가됩니다. [!UICONTROL OR]은(는) 자격을 갖춘 사이트 방문자의 광범위한 대상을 신속하게 만들려는 경우에 가장 유용할 수 있습니다.
 
 **[!UICONTROL AND NOT]사용 사례 예**
 

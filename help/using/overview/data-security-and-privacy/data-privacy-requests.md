@@ -19,7 +19,7 @@ ht-degree: 42%
 
 ## 개요 {#overview}
 
-이 문서에서는 [Privacy Service UI](https://privacyui.cloud.adobe.io/) 및 **[!DNL Privacy Service API]**&#x200B;을(를) 통해 [!DNL Audience Manager]에게 보낼 수 있는 개별 데이터 개인 정보 보호 및 옵트아웃 요청 관리에 대한 개요를 제공합니다.
+이 문서에서는 [!DNL Audience Manager]Privacy Service UI[ 및 ](https://privacyui.cloud.adobe.io/)을(를) 통해 **[!DNL Privacy Service API]**&#x200B;에게 보낼 수 있는 개별 데이터 개인 정보 보호 및 옵트아웃 요청 관리에 대한 개요를 제공합니다.
 
 이 도구를 사용하면 소비자 데이터 개인 정보 보호 요청을 [!DNL GDPR] 및 [!DNL CCPA]에서 보낼 수 있습니다.
 
@@ -28,15 +28,15 @@ ht-degree: 42%
 다음 두 가지 방법으로 [!DNL Audience Manager]에서 소비자 데이터에 액세스하고 삭제하도록 개별 요청을 제출할 수 있습니다.
 
 * [Privacy Service UI](https://privacyui.cloud.adobe.io/) 사용. 설명서는 [여기](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)에서 볼 수 있습니다.
-* **[!DNL Privacy Service API]** 사용. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 참조하세요.
+* **[!DNL Privacy Service API]** 사용. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 참조하세요.
 
-개별 데이터 개인 정보 보호 요청을 보낼 때 각각의 해당 네임스페이스 ID(데이터 소스 ID)와 함께 **[Audience Manager 식별자](data-privacy-ids.md)** 섹션에 설명된 대로 [!DNL Audience Manager]개의 ID를 제출할 수 있습니다.
+개별 데이터 개인 정보 보호 요청을 보낼 때 각각의 해당 네임스페이스 ID(데이터 소스 ID)와 함께 [!DNL Audience Manager]Audience Manager 식별자&#x200B;**[섹션에 설명된 대로](data-privacy-ids.md)** ID를 제출할 수 있습니다.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)는 데이터 액세스 요청과 데이터 삭제 요청, 이렇게 두 가지 유형의 요청을 지원합니다.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)는 데이터 액세스 요청과 데이터 삭제 요청, 이렇게 두 가지 유형의 요청을 지원합니다.
 
 ## 데이터 액세스 요청 {#access-data}
 
-[Privacy Service UI](https://privacyui.cloud.adobe.io)(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 개별 데이터 액세스 요청을 보낼 수 있습니다.
+[Privacy Service UI](https://privacyui.cloud.adobe.io)&#x200B;(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 개별 데이터 액세스 요청을 보낼 수 있습니다.
 
 [Privacy Service UI](https://privacyui.cloud.adobe.io/)를 사용하면 [!UICONTROL Request Builder]를 사용하거나 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe는 법률에 의해 지정된 기간 내에 데이터 개인 정보 보호
 
 ## 데이터 삭제 요청 {#delete-data}
 
-[Privacy Service UI](https://privacyui.cloud.adobe.io)(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 데이터 삭제 요청을 보낼 수 있습니다.
+[Privacy Service UI](https://privacyui.cloud.adobe.io)&#x200B;(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en)) 또는 Privacy Service API(설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 및 [!DNL API] 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)를 호출하여 데이터 삭제 요청을 보낼 수 있습니다.
 
 [Privacy Service UI](https://privacyui.cloud.adobe.io/)를 사용하면 [!UICONTROL Request Builder]를 사용하거나 [!DNL JSON] 파일을 업로드하여 새 작업 요청을 만들 수 있습니다.
 
@@ -65,13 +65,13 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 이러한 경우 [!DNL Audience Manager]을(를) 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-세그먼트 해제를 지원하는 [!DNL Audience Manager] 활성화 파트너를 확인하려면 [장치 기반 대상 목록 문서](assets/AAM-Partners-October2019.xlsx)를 참조하세요.
+세그먼트 해제를 지원하는 [ 활성화 파트너를 확인하려면 ](assets/AAM-Partners-October2019.xlsx)장치 기반 대상 목록 문서[!DNL Audience Manager]를 참조하세요.
 
 ## 옵트아웃 요청 {#opt-out-requests}
 
 [!DNL Audience Manager]은(는) 옵트아웃 관리와 관련된 업계 표준을 지원합니다. [!DNL Audience Manager]이(가) 지원하는 옵트아웃 유형에 대한 전체 정보를 보려면 계속 읽으십시오.
 
-데이터 액세스 및 삭제 요청은 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)을 통해 처리되는 동안 옵트아웃 요청은 현재 [!DNL DCS API]을(를) 통해 지원됩니다. 옵트아웃 [!DNL API] 호출이 어떤 모습이어야 하는지 알아보려면 계속 읽으십시오.
+데이터 액세스 및 삭제 요청은 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)을(를) 통해 처리되는 동안 옵트아웃 요청은 현재 [!DNL DCS API]을(를) 통해 지원됩니다. 옵트아웃 [!DNL API] 호출이 어떤 모습이어야 하는지 알아보려면 계속 읽으십시오.
 
 ### 글로벌 옵트아웃 요청
 
@@ -97,8 +97,8 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
    <td colname="col1"> <p>모바일 장치 </p> </td> 
    <td colname="col2"> <p>다음 장치에 대한 옵트아웃 및 개인 정보 보호 설정을 확인하십시오. </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=ko" format="https" scope="external"> Android 장치 </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=ko" format="https" scope="external"> iOS 장치 </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android 장치 </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS 장치 </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -127,11 +127,11 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 * [!UICONTROL Destination] 파트너가 [!DNL CRM] ID 및 마지막 장치 ID에 대한 세그먼트 해제 요청을 받습니다. 세그먼테이션 해제는 [실시간](data-privacy-requests.md#aam-partners-with-unsegmentation) 대상과 배치 대상 모두에 대해 작동합니다.
 * 이전 데이터는 삭제되지 않습니다.
 
-[!DNL Audience Manager]이(가) 파트너 수준 옵트아웃 요청을 받으면 [!DNL DCS]이(가) 반환한 [!DNL JSON]에 [!DNL Audience Manager] 사용자 ID 대신 [!UICONTROL "Encountered opt out tag"] 메시지가 있는 [오류 코드 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes)이(가) 포함됩니다.
+[!DNL Audience Manager]이(가) 파트너 수준 옵트아웃 요청을 받으면 [!DNL JSON]이(가) 반환한 [!DNL DCS]에 [ 사용자 ID 대신 ](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) 메시지가 있는 [!UICONTROL "Encountered opt out tag"]오류 코드 171[!DNL Audience Manager]이(가) 포함됩니다.
 
 `d_cid` 및 `d_cid_ic` 키-값 쌍으로 선언된 ID 옵트아웃 요청을 만들 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
-#### [!DNL CID] 및 [!DNL CID_IC] (으)로 옵트아웃
+#### [!DNL CID] 및 [!DNL CID_IC]&#x200B;(으)로 옵트아웃
 
 설명 및 구문이 필요하면 [선언된 ID에 대한 URL 변수 및 구문](../../features/declared-ids.md#variables-and-syntax)을 참조하십시오.
 
@@ -149,7 +149,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 | 옵트아웃에 사용하는 값 | 코드 샘플 |
 |--- |--- |
-| [!DNL Audience Manager] [!DNL Unique User ID] (`uuid`). | `https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| [!DNL Audience Manager] [!DNL Unique User ID]&#x200B;(`uuid`). | `https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
 | [!DNL Experience Cloud] ID(`mid`) | `https://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
 [Audience Manager의 ID 색인](/help/using/reference/ids-in-aam.md)에서 `uuid`, `mid` 및 `imsOrgId`에 대해 자세히 알아보십시오.
@@ -173,7 +173,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 이러한 경우 [!DNL Audience Manager]을(를) 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-세그먼트 해제를 지원하는 [!DNL Audience Manager] 활성화 파트너를 보려면 [장치 기반 대상 목록](/help/using/features/destinations/device-based-destinations-list.md)을 참조하세요.
+세그먼트 해제를 지원하는 [ 활성화 파트너를 보려면 ](/help/using/features/destinations/device-based-destinations-list.md)장치 기반 대상 목록[!DNL Audience Manager]을 참조하세요.
 
 ## 데이터 수정 요청 {#correction}
 

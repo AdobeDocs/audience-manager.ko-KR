@@ -32,7 +32,7 @@ ht-degree: 3%
 
 <!-- t_tb_create_storage.xml -->
 
-새 특성을 설정할 때 [!UICONTROL Basic Information] 섹션에서 새 저장소 폴더를 만들 수 있습니다. 또한 기본 [!UICONTROL Traits] 목록 대시보드의 [!UICONTROL Trait Storage] 섹션에 폴더를 만들 수 있습니다.
+새 특성을 설정할 때 [!UICONTROL Basic Information] 섹션에서 새 저장소 폴더를 만들 수 있습니다. 또한 기본 [!UICONTROL Trait Storage] 목록 대시보드의 [!UICONTROL Traits] 섹션에 폴더를 만들 수 있습니다.
 
 새 저장소 폴더를 만들려면 다음 작업을 수행하십시오.
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-기본 [!UICONTROL Traits] 목록 대시보드의 [!UICONTROL Trait Storage] 섹션에서 저장소 폴더의 이름을 바꾸거나 삭제할 수 있습니다.
+기본 [!UICONTROL Trait Storage] 목록 대시보드의 [!UICONTROL Traits] 섹션에서 저장소 폴더의 이름을 바꾸거나 삭제할 수 있습니다.
 
 * 폴더로 마우스를 가져간 후 연필 아이콘을 클릭하여 폴더 이름을 변경합니다.
 * 폴더로 마우스를 가져간 후 **X** 아이콘을 클릭하여 폴더를 삭제합니다.

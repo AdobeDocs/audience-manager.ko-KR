@@ -1,5 +1,5 @@
 ---
-description: 실시간 인바운드 데이터 수집 프로세스는 Audience Manager의 브라우저에서 일련의 HTTP 요청을 사용하여 데이터를 사용자에게 전달합니다.
+description: 실시간 인바운드 데이터 섭취 프로세스는 사용자 브라우저의 일련의 HTTP 요청을 사용하여 데이터를 Audience Manager에 전달합니다.
 seo-description: The real-time inbound data ingestion process uses a series of HTTP requests from a user's browser to pass in data to Audience Manager.
 seo-title: Real-Time Inbound Data Ingestion
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 실시간 인바운드 데이터 섭취 {#real-time-inbound-data-ingestion}
 
-실시간 인바운드 데이터 수집 프로세스는 Audience Manager의 브라우저에서 일련의 `HTTP` 요청을 사용하여 데이터를 사용자에게 전달합니다.
+실시간 인바운드 데이터 섭취 프로세스는 사용자 브라우저의 일련의 `HTTP` 요청을 사용하여 데이터를 Audience Manager에 전달합니다.
 
 <!-- c_rt_inbound_real_time.xml -->
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## URL 문자열 매개 변수 및 구문 {#url-string-syntax}
 
-인바운드 데이터 전송에 대한 [!DNL URL]에 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [!DNL Audience Manager] UI에서 [트레이트 만들기](../../../features/traits/create-onboarded-rule-based-traits.md) 및 [폴더 구조](../../../features/traits/trait-storage.md#create-trait-storage-folder)를 참조하세요.
+인바운드 데이터 전송에 대한 [!DNL URL]에 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [ UI에서 ](../../../features/traits/create-onboarded-rule-based-traits.md)트레이트 만들기[ 및 ](../../../features/traits/trait-storage.md#create-trait-storage-folder)폴더 구조[!DNL Audience Manager]를 참조하세요.
 
 >[!NOTE]
 >

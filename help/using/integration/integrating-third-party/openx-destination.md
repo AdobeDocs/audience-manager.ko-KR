@@ -3,18 +3,18 @@ description: OpenX를 대상으로 설정하고 Audience Manager 세그먼트 �
 seo-description: Set up OpenX as a destination and send Audience Manager segment data to that platform.
 seo-title: OpenX as an Audience Manager Destination
 solution: Audience Manager
-title: Audience Manager 대상으로 OpenX
+title: OpenX as a Audience Manager 대상
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third-party Integration
 exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Audience Manager 대상으로 OpenX{#openx-as-an-audience-manager-destination}
+# OpenX as a Audience Manager 대상{#openx-as-an-audience-manager-destination}
 
 [!DNL OpenX]을(를) 대상으로 설정하고 해당 플랫폼으로 Audience Manager 세그먼트 데이터를 보냅니다.
 
@@ -24,15 +24,15 @@ ht-degree: 1%
 
 ## OpenX 대상 요구 사항 {#openx-requirements}
 
-코드 배치, 지원되는 키-값 형식, 보고서 및 [!DNL OpenX] (으)로 전송되는 세그먼트 데이터의 유형에 대한 표준입니다.
+코드 배치, 지원되는 키-값 형식, 보고서 및 [!DNL OpenX]&#x200B;(으)로 전송되는 세그먼트 데이터의 유형에 대한 표준입니다.
 
 <!-- aam-openx-requirements.xml -->
 
 [!DNL OpenX]을(를) Audience Manager 대상으로 설정하기 전에 다음 사항을 검토하십시오.
 
 * **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] 코드를 사이트에 배포해야 합니다. [!UICONTROL DIL]을(를) 사용하면 데이터 수집, 통합, 쿠키 값 읽기 및 페이지 데이터 복구를 위해 특수 코드를 작성할 필요가 없습니다.
-* Audience Manager 사용자 ID 및 쿠키 데이터를 캡처하는 **`get_aamCookie`함수:** 코드. [이 코드](../../features/destinations/get-aam-cookie-code.md)을(를) 페이지 맨 위나 `<head>` 코드 블록 내부에 배치합니다.
-* **Audience Manager에 게재 로그 보내기:** 세그먼트 게재 보고서(선택 사항)를 원하는 경우 노출 수준 게재 데이터가 포함된 일별 로그를 Audience Manager에게 제공하십시오. 데이터는 원시 형식일 수 있지만 각 레코드에는 Audience Manager `UUID`이(가) 있어야 합니다. Audience Manager은 [!DNL FTP]을(를) 통해 이러한 파일을 받거나 받을 수 있습니다.
+* **`get_aamCookie`함수:** Audience Manager 사용자 ID 및 쿠키 데이터를 캡처하는 코드입니다. [이 코드](../../features/destinations/get-aam-cookie-code.md)을(를) 페이지 맨 위나 `<head>` 코드 블록 내부에 배치합니다.
+* **Audience Manager에 게재 로그 보내기:** 세그먼트 게재 보고서(선택 사항)를 원하는 경우 노출 수준 게재 데이터가 포함된 일별 로그를 Audience Manager에 제공하십시오. 데이터는 원시 형식일 수 있지만 각 레코드에는 Audience Manager `UUID`이(가) 포함되어야 합니다. Audience Manager은 [!DNL FTP]을(를) 통해 이러한 파일을 받거나 받을 수 있습니다.
 
 ### 키-값 데이터: 형식 요구 사항
 
@@ -45,7 +45,7 @@ Audience Manager은 데이터를 키-값 쌍의 형태로 전송합니다. 다�
 
 ### 적격한 세그먼트만 OpenX로 전송됩니다.
 
-[!DNL OpenX]에 전달되는 양 데이터는 특정 사용자가 사용할 수 있는 세그먼트 수에 따라 다릅니다. 예를 들어 100개의 Audience Manager 세그먼트를 설정한다고 가정해 보겠습니다. 사이트 방문자가 이 중 5개 이상의 자격을 얻으면 해당 5개 세그먼트만 [!DNL OpenX] (100개 중 일부만)에게 전송됩니다.
+[!DNL OpenX]에 전달되는 양 데이터는 특정 사용자가 사용할 수 있는 세그먼트 수에 따라 다릅니다. 예를 들어 100개의 Audience Manager 세그먼트를 설정한다고 가정합니다. 사이트 방문자가 이 중 5개 이상의 자격을 얻으면 해당 5개 세그먼트만 [!DNL OpenX]&#x200B;(100개 중 일부만)에게 전송됩니다.
 
 ## OpenX 대상 만들기 {#openx-destination}
 
@@ -53,14 +53,14 @@ Audience Manager에서 [!DNL OpenX]에 대한 쿠키 대상을 만듭니다.
 
 <!-- aam-openx-destination.xml -->
 
-Audience Manager에서 *대상*&#x200B;은(는) 다른 시스템(광고 서버, [!DNL DSP], 광고 네트워크 등)입니다. 입니다. [!UICONTROL Destination Builder]은(는) 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. Audience Manager 대상 기능은 *대상 데이터 > 대상*&#x200B;에 있습니다. 시작하려면 **[!UICONTROL Add New Destination]**&#x200B;을(를) 클릭하고 아래 단계를 따르십시오.
+Audience Manager에서 *대상*&#x200B;은(는) 데이터를 공유할 다른 시스템(광고 서버, [!DNL DSP], 광고 네트워크 등)입니다. [!UICONTROL Destination Builder]은(는) 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. Audience Manager 대상 기능은 *대상 데이터 > 대상*&#x200B;에 있습니다. 시작하려면 **[!UICONTROL Add New Destination]**&#x200B;을(를) 클릭하고 아래 단계를 따르십시오.
 
 ### 1단계: 기본 정보
 
 [!UICONTROL Basic Information] 섹션을 완료하려면
 
 1. 대상 이름을 지정합니다.
-1. [!UICONTROL Type] 드롭다운 목록에서 **[!UICONTROL "Cookie"]** 선택.
+1. **[!UICONTROL "Cookie"]** 드롭다운 목록에서 [!UICONTROL Type] 선택.
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 [!UICONTROL Configuration] 및 [!UICONTROL Segment Mappings] 섹션으로 이동합니다.
 
 ### 2단계: 구성 정보

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
+>벌크 관리 도구는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 
@@ -30,7 +30,7 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[ UI에 할당된 ](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 [!UICONTROL Request] 워크시트에는 고유한 열 머리글 집합이 없으므로 ID를 열에 복사할 필요가 없습니다. 대신 도구 모음에서 클릭하는 작업 단추에 따라 데이터가 반환됩니다. 또한 선택적 보고 기능은 픽셀 실행 횟수와 고정된 여러 시간 간격 동안의 고유 사용자 수를 반환합니다.
 

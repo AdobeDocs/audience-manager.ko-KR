@@ -50,7 +50,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2">데이터 공급자에 대한 고유 ID(<span class="keyword"> Audience Manager</span>이(가) 할당함). </td> 
+   <td colname="col2">데이터 공급자에 대한 고유 ID(<span class="keyword"> Audience Manager</span>에서 할당). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 

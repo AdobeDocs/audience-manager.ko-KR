@@ -1,5 +1,5 @@
 ---
-description: 실시간 Audience Manager 통합에 대한 정보입니다.
+description: Real-Time Audience Manager 통합에 대한 정보.
 seo-description: Information about the Real-Time Audience Manager integration.
 seo-title: Real-Time Inbound Data Integration
 solution: Audience Manager
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 # 실시간 인바운드 데이터 통합 {#real-time-inbound-data-integration}
 
-실시간 Audience Manager 통합에 대한 정보입니다.
+Real-Time Audience Manager 통합에 대한 정보.
 
 <!-- c_rt_data_int.xml -->

@@ -20,7 +20,7 @@ ID 서비스 고객은 [!DNL DCS] API 호출을 수행하는 데 필요한 ID에
 
 ## ID 서비스 쿠키에서 사용자 ID 가져오기 {#get-user-ids-from-service-cookie}
 
-[Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)에서는 웹 사이트를 방문하는 사용자에게 방문자와 지역 ID를 할당합니다. 이러한 ID는 [!DNL Experience Cloud]의 모든 솔루션에서 사용자를 식별하며 [!DNL DCS]을(를) 호출하려는 경우 필요합니다.
+[Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서는 웹 사이트를 방문하는 사용자에게 방문자와 지역 ID를 할당합니다. 이러한 ID는 [!DNL Experience Cloud]의 모든 솔루션에서 사용자를 식별하며 [!DNL DCS]을(를) 호출하려는 경우 필요합니다.
 
 * 데이터를 식별하고 특정 방문자와 연결하려면 [!UICONTROL user ID]이(가) 필요합니다.
 * [!UICONTROL region ID]은(는) [!DNL DCS]&#x200B;(으)로 데이터를 보내야 하는 지역 서버 이름에 연결되어 있기 때문에 필요합니다. [!DNL DCS]은(는) 지리적으로 사이트 방문자에게 가장 가까운 데이터 센터에 정보를 저장합니다. [DCS 영역 ID, 위치 및 호스트 이름](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)을 참조하십시오.
@@ -39,23 +39,23 @@ ID 서비스 고객은 ID 서비스 쿠키나 함수를 호출하여 이 정보�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>1. <span class="keyword"> Experience Cloud</span> 상태 확인</b> </p> </td> 
-   <td colname="col2"> <p>ID 서비스를 사용하려면 <span class="keyword"> Experience Cloud</span> 계정이 필요합니다. <span class="keyword"> Experience Cloud</span> 계정이 있으면 좋습니다! </p> <p> <span class="keyword"> Experience Cloud</span>에 속하지 않는 경우 등록하세요. 우리는 당신을 만나고 싶고, 항상 더 많은 것을 위한 여지가 있습니다. 계정을 설정하는 방법에 대한 지침은 <a href="https://experienceleague.adobe.com/ko/docs/core-services/interface/services/getting-started" format="https" scope="external"> 핵심 서비스에 대한 솔루션 사용</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>ID 서비스를 사용하려면 <span class="keyword"> Experience Cloud</span> 계정이 필요합니다. <span class="keyword"> Experience Cloud</span> 계정이 있으면 좋습니다! </p> <p> <span class="keyword"> Experience Cloud</span>에 속하지 않는 경우 등록하세요. 우리는 당신을 만나고 싶고, 항상 더 많은 것을 위한 여지가 있습니다. 계정을 설정하는 방법에 대한 지침은 <a href="https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started" format="https" scope="external"> 핵심 서비스에 대한 솔루션 사용</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. <span class="keyword"> ID 서비스 설정</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> ID 서비스</span>은(는) 데이터 수집에 사용할 각 페이지에 적용되는 JavaScript 코드로 구성됩니다. 자세한 내용은 ID 서비스 <a href="https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ko" format="https" scope="external"> 구현 가이드</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> ID 서비스</span>은(는) 데이터 수집에 사용할 각 페이지에 적용되는 JavaScript 코드로 구성됩니다. 자세한 내용은 ID 서비스 <a href="https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html" format="https" scope="external"> 구현 가이드</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. <span class="keyword"> ID 서비스</span> 쿠키</b> 읽기 </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> ID 서비스</span>은(는) 사용자 및 지역 ID를 AMCV 쿠키에 저장합니다. 전체 쿠키 이름은 <code>AMCV_<i>###</i>@AdobeOrg</code>입니다. <code><i>###</i></code> 요소는 조직 ID에 대한 자리 표시자입니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>을(를) 참조하십시오. </p> <p>다음 키-값 쌍에 대해 AMCV 쿠키를 구문 분석합니다. </p> <p> 
+   <td colname="col2"> <p><span class="keyword"> ID 서비스</span>은(는) 사용자 및 지역 ID를 AMCV 쿠키에 저장합니다. 전체 쿠키 이름은 <code>AMCV_<i>###</i>@AdobeOrg</code>입니다. <code><i>###</i></code> 요소는 조직 ID에 대한 자리 표시자입니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>을(를) 참조하십시오. </p> <p>다음 키-값 쌍에 대해 AMCV 쿠키를 구문 분석합니다. </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: 이 키-값 쌍은 <span class="keyword"> Experience Cloud</span> 사용자 ID를 보유합니다. </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: 이 키-값 쌍은 지역 서버 이름과 연결된 지역 ID(<span class="term"> 위치 힌트</span>라고도 함)를 보유합니다. </li> 
      </ul> </p> <p>사용자 및 지역 ID가 있으면 <span class="wintitle"> DCS</span>를 호출할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>4. getMarketingCloudVisitorID</b>을(를) 사용하여 <span class="keyword"> Experience Cloud ID</span> 검색 </p> </td> 
-   <td colname="col2"> <p><i>(선택 사항)</i> 이 함수는 <span class="keyword"> Experience Cloud</span> 방문자 ID를 반환합니다. 사용자 정의 솔루션 및 특정 사용 사례를 위해 설계되었습니다. 아래의 <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> getMarketingCloudVisitorID로 작업</a> 및 <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/getmcvid.html?lang=ko" format="https" scope="external"> 관련 ID 서비스 설명서</a>를 참조하십시오. </p> <p>ID 서비스 쿠키에서 사용자 및 위치 ID를 가져오는 경우에는 이를 사용할 필요가 없습니다. </p> </td> 
+   <td colname="col1"> <p> <b>4. getMarketingCloudVisitorID<span class="keyword">을(를) 사용하여 </span> Experience Cloud ID</b> 검색 </p> </td> 
+   <td colname="col2"> <p><i>(선택 사항)</i> 이 함수는 <span class="keyword"> Experience Cloud</span> 방문자 ID를 반환합니다. 사용자 정의 솔루션 및 특정 사용 사례를 위해 설계되었습니다. 아래의 <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> getMarketingCloudVisitorID로 작업</a> 및 <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external"> 관련 ID 서비스 설명서</a>를 참조하십시오. </p> <p>ID 서비스 쿠키에서 사용자 및 위치 ID를 가져오는 경우에는 이를 사용할 필요가 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

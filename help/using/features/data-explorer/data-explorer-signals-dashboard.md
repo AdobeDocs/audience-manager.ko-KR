@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 신호 대시보드 {#signals-dashboard}
 
-지난 7일 동안 Audience Manager에서 수신한 사용되지 않은 신호에 대한 개요를 확인하고 새로운 잠재적인 특성을 식별하십시오. 사용하지 않는 신호는 온라인 속성에서 Audience Manager에 도달하지만 기존 트레이트에서는 사용되지 않습니다. [!UICONTROL Signals Dashboard]을(를) 보려면 [!UICONTROL Audience Data] > [!UICONTROL Signals] (으)로 이동하십시오. [!UICONTROL Signals Dashboard]은(는) 가장 활동적인 미사용 신호를 기반으로 실행 가능한 통찰력을 보여 줍니다.
+지난 7일 동안 Audience Manager에서 수신한 사용되지 않은 신호에 대한 개요를 확인하고 새로운 잠재적인 특성을 식별하십시오. 사용하지 않는 신호는 온라인 속성에서 Audience Manager에 도달하지만 기존 트레이트에서는 사용되지 않습니다. [!UICONTROL Signals Dashboard]을(를) 보려면 [!UICONTROL Audience Data] > [!UICONTROL Signals]&#x200B;(으)로 이동하십시오. [!UICONTROL Signals Dashboard]은(는) 가장 활동적인 미사용 신호를 기반으로 실행 가능한 통찰력을 보여 줍니다.
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 상위 미사용 신호 {#top-unused-signals}
 
-이 섹션에는 지난 7일 동안 [!DNL Audience Manager] (으)로 보낸 사용되지 않은 상위 50개 신호(새 신호 및 이전 신호 모두)가 총 개수를 기준으로 표시됩니다. [!DNL Audience Manager]이(가) 받은 데이터에 따라 이 테이블은 **사용되지 않은 새 신호** 테이블의 항목 중 일부 또는 전부를 포함할 수 있습니다.
+이 섹션에는 지난 7일 동안 [!DNL Audience Manager]&#x200B;(으)로 보낸 사용되지 않은 상위 50개 신호(새 신호 및 이전 신호 모두)가 총 개수를 기준으로 표시됩니다. [!DNL Audience Manager]이(가) 받은 데이터에 따라 이 테이블은 **사용되지 않은 새 신호** 테이블의 항목 중 일부 또는 전부를 포함할 수 있습니다.
 
 ![](assets/signals-top-unused.png)
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 저장한 검색 결과 {#saved-searches}
 
-[!DNL Audience Manager]은(는) [!UICONTROL Dashboard]에 [저장된 검색](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
+[!DNL Audience Manager]은(는) [에 ](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)저장된 검색[!UICONTROL Dashboard]을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
 
 저장된 검색에는 해당 기준에 대한 상위 50개 결과가 표시됩니다.
 

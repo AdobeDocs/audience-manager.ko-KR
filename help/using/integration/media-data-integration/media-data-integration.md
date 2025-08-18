@@ -1,5 +1,5 @@
 ---
-description: Audience Manager에 대한 픽셀 호출(종종 크리에이티브 픽셀 지정)을 사용하거나 로그 파일을 수집하여 미디어 캠페인에서 데이터를 캡처할 수 있습니다.
+description: Audience Manager에 대한 픽셀 호출(크리에이티브 픽셀 지정)을 사용하거나 로그 파일을 수집하여 미디어 캠페인에서 데이터를 캡처할 수 있습니다.
 seo-description: You can capture data from media campaigns using pixel calls to Audience Manager (often called pixeling the creative) or by ingesting log files.
 seo-title: Media Data Integration
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 미디어 데이터 통합 {#media-data-integration}
 
-Audience Manager에 대한 픽셀 호출(종종 크리에이티브 픽셀 지정)을 사용하거나 로그 파일을 수집하여 미디어 캠페인에서 데이터를 캡처할 수 있습니다. 이 섹션의 문서를 읽고 프로세스를 이해합니다.
+Audience Manager에 대한 픽셀 호출(크리에이티브 픽셀 지정)을 사용하거나 로그 파일을 수집하여 미디어 캠페인에서 데이터를 캡처할 수 있습니다. 이 섹션의 문서를 읽고 프로세스를 이해합니다.
 
 <!-- c_camp_data_int.xml -->
 

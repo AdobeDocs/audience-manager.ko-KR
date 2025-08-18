@@ -43,7 +43,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)의 3단계에 설명된 대로 [!UICONTROL Line Item IDs]에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Line Item ID] 대신 [!UICONTROL Line Item] (으)로 자세히 설명되어 있습니다.
+>[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [!UICONTROL Line Item IDs]Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기[의 3단계에 설명된 대로 ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Line Item] 대신 [!UICONTROL Line Item ID]&#x200B;(으)로 자세히 설명되어 있습니다.
 
 ## 결과 해석 {#interpreting-results}
 
@@ -85,7 +85,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p>실시간 세그먼트 채우기 </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>이(가) 열람한 시점에 지정된 시간 범위 동안 실시간으로 열람하고 세그먼트에 적합한 고유 방문자의 실제 수입니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>에서 본 현재 지정된 시간 범위 동안 실시간으로 확인되고 세그먼트에 대한 자격이 있는 고유 방문자의 실제 수입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

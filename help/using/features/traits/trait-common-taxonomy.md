@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 문서에서는 일반적인 분류법으로 트레이트를 분류하는 방법에 대한 일반적인 개요를 제공합니다.
 
-## Audience Manager 분류
+## Audience Manager 분류 체계
 
 <!-- c_common_taxonomy_about.xml -->
 

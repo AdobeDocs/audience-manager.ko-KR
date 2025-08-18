@@ -1,5 +1,5 @@
 ---
-description: 2019년 10월 14일쯤, 장치 ID 그래프에 대한 내 온보딩된 트레이트 인구수가 0으로 줄어든 것을 발견했습니다. 이전에는 훨씬 더 높았습니다.
+description: 2019년 10월 14일쯤, 장치 ID 그래프에 대한 내 온보딩된 트레이트 인구가 0으로 줄어든 것을 발견했습니다. 이전에는 훨씬 더 높았습니다.
 seo-description: Around October 14th, 2019 I noticed that my onboarded trait populations for the Device ID graph have dropped to 0, where previously they were much higher.
 seo-title: Why did my Onboarded trait populations drop to 0 around October 15th?
 solution: Audience Manager
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 질문
 
-2019년 10월 14일쯤, 장치 ID 그래프에 대한 내 온보딩된 트레이트 인구수가 0으로 줄어든 것을 발견했습니다. 이전에는 훨씬 더 높았습니다. 이런 일이 일어난 이유는 무엇입니까?
+2019년 10월 14일쯤, 장치 ID 그래프에 대한 내 온보딩된 트레이트 인구가 0으로 줄어든 것을 발견했습니다. 이전에는 훨씬 더 높았습니다. 이런 일이 일어난 이유는 무엇입니까?
 
 ![장치 ID 감소 이미지](assets/device_id_populationdrop.png)
 

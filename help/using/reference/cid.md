@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # CID가 DPID 및 DPUUID 대체{#cid-replaces-dpid-and-dpuuid}
 
-`d_dpid` 및 `d_dpuuid` 대신 `d_cid` 또는 `d_cid_ic`을(를) 사용하도록 코드를 업데이트합니다. DPID 및 DPUUID 변수는 계속 작동하지만 더 이상 사용되지 않는 것으로 간주해야 합니다. 여기에는 `d_ prefix`이(가) 없는 DPID 및 DPUUID 변형이 포함됩니다.
+`d_cid` 및 `d_cid_ic` 대신 `d_dpid` 또는 `d_dpuuid`을(를) 사용하도록 코드를 업데이트합니다. DPID 및 DPUUID 변수는 계속 작동하지만 더 이상 사용되지 않는 것으로 간주해야 합니다. 여기에는 `d_ prefix`이(가) 없는 DPID 및 DPUUID 변형이 포함됩니다.
 
 ## DPID 및 DPUUID: 검토 {#dpid-dpuuid-review}
 
@@ -74,7 +74,7 @@ CID 및 CID_IC 키-값 쌍은 DPID 및 DPUUID를 대체합니다. DPID 및 DPUUI
   </tr> 
   <tr> 
    <td colname="col1"> <p>고객 ID 통합 코드(CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> <span class="term"> 통합 코드</span>은(는) <span class="keyword"> Audience Manager</span>이(가) 할당한 Data Source ID 대신 사용할 수 있는 대체 ID입니다. 통합 코드를 구성해야 하는 경우 <a href="../features/manage-datasources.md#create-data-source"> 데이터 Source 만들기</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> <span class="term"> 통합 코드</span>은(는) <span class="keyword"> Audience Manager</span>에서 할당한 Data Source ID 대신 사용할 수 있는 대체 ID입니다. 통합 코드를 구성해야 하는 경우 <a href="../features/manage-datasources.md#create-data-source"> 데이터 Source 만들기</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

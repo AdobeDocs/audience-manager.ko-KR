@@ -1,5 +1,5 @@
 ---
-description: 대상 빌더의 구성 섹션에는 쿠키 도메인 및 Publish Data To 필드가 포함되어 있습니다. 이를 통해 대상에서 쿠키를 설정하는지 또는 쿠키를 반환하는지 여부를 결정하는 규칙을 만들 수 있습니다. 쿠키 도메인 과 Publish 데이터 는 서로 독립적으로 작동하며 선택 사항입니다. 둘 중 하나를 사용하지 않고 쿠키 대상을 만들 수 있습니다.
+description: 대상 빌더의 구성 섹션에는 쿠키 도메인 및 게시 데이터 필드가 포함되어 있습니다. 이를 통해 대상에서 쿠키를 설정하는지 또는 쿠키를 반환하는지 여부를 결정하는 규칙을 만들 수 있습니다. Cookie Domain 및 Publish Data To 는 서로 독립적으로 작동하며 선택 사항입니다. 둘 중 하나를 사용하지 않고 쿠키 대상을 만들 수 있습니다.
 seo-description: In Destination Builder, the Configuration section contains the Cookie Domain and Publish Data To fields. These let you create rules to determine if a destination sets a cookie or returns a cookie. Cookie Domain and Publish Data To work independently of each other and are optional. You can create a cookie destination without using either of them.
 seo-title: Optional Settings for Cookie Destinations
 solution: Audience Manager
@@ -44,7 +44,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>예</b> </p> </td> 
-   <td colname="col2"> <p>간단한 예로 sports.com이라는 가상의 사이트가 있다고 가정해 보겠습니다. Sports.com 에는 골프, 야구 및 축구를 위한 도메인이 있습니다. 모든 스포츠 도메인에서 쿠키를 설정하려면 아래와 같이 <span class="wintitle"> 쿠키 도메인</span> 상자에 해당 쿠키를 입력합니다. </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>이렇게 하면 <span class="keyword"> Audience Manager</span>이(가) <code><i>something</i></code>.sports.com 패턴을 포함하는 모든 도메인에서 쿠키를 설정할 수 있습니다. 보다 복잡한 예제 세트는 아래를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>간단한 예로 sports.com이라는 가상의 사이트가 있다고 가정해 보겠습니다. Sports.com 에는 골프, 야구 및 축구를 위한 도메인이 있습니다. 모든 스포츠 도메인에서 쿠키를 설정하려면 아래와 같이 <span class="wintitle"> 쿠키 도메인</span> 상자에 해당 쿠키를 입력합니다. </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>이렇게 하면 <span class="keyword"> Audience Manager</span>이(가) <code><i>something</i></code>.sports.com 패턴을 포함하는 모든 도메인에 쿠키를 설정합니다. 보다 복잡한 예제 세트는 아래를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +90,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-## Publish 데이터 받는 사람 {#publish-data-to}
+## 데이터 게시 위치 {#publish-data-to}
 
 도메인이 선택한 옵션에서 설정한 기준을 충족하면 [!UICONTROL Publish Data To] 설정이 쿠키를 반환합니다. 옵션은 다음과 같습니다.
 

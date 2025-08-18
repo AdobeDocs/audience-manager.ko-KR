@@ -191,7 +191,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 보고서는 보고서가 생성될 때 백엔드에 표시되는 인증되지 않은 프로필 레코드(UUID)를 기반으로 인구를 계산합니다.
 
-[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ko)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
+[!DNL DCS]에 대한 첫 번째 호출에서 선언된 ID는 어떠한 UUID에도 연결되어 있지 *않습니다*(즉, 클라이언트 측에 [demdex 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)가 없음). [!DNL DCS]는 무작위로 UUID를 생성하고 [!DNL demdex] 쿠키를 설정하여 응답 호출에서 전달하지만 UUID를 백엔드로 전송하지는 않습니다.
 
 >[!NOTE]
 >

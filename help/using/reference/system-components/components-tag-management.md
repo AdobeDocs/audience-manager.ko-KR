@@ -24,7 +24,7 @@ c_comptag.xml
 
  -->
 
-Audience Manager은 다음 구성 요소를 포함합니다.
+Audience Manager에는 다음 구성 요소가 포함되어 있습니다.
 
 * [클라이언트 포털](../../reference/system-components/components-tag-management.md#client-portal)
 * [DIL/TIM 컨테이너](../../reference/system-components/components-tag-management.md#dil-tim)
@@ -38,7 +38,7 @@ Audience Manager은 다음 구성 요소를 포함합니다.
 
 ## DIL/TIM 컨테이너 {#dil-tim}
 
-[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM]은(는) 더 이상 사용되지 않는 태그 삽입 관리자입니다. [!DNL Audience Manager]에서 더 이상 사용되지 않습니다. 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)에서 [!DNL Audience Manager] 확장을 사용하여 인벤토리의 페이지에 배치할 컨테이너 코드를 구성하고 생성합니다.
+[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM]은(는) 더 이상 사용되지 않는 태그 삽입 관리자입니다. [!DNL Audience Manager]에서 더 이상 사용되지 않습니다. 대신 [!DNL Audience Manager]Adobe Experience Platform 태그[에서 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) 확장을 사용하여 인벤토리의 페이지에 배치할 컨테이너 코드를 구성하고 생성합니다.
 
 ## DIL(데이터 통합 라이브러리) {#dil}
 
@@ -46,7 +46,7 @@ Audience Manager은 다음 구성 요소를 포함합니다.
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager]은(는) [Akamai](https://www.akamai.com/us/en/about/)을(를) 사용하여 [!UICONTROL TIM (Tag Insertion Manager)] (으)로 알려진 자체 태그 관리 플랫폼에서 컨테이너 코드를 호스트하고 전달합니다. 그러나 [!UICONTROL TIM]을(를) 사용한 코드 배포는 [!DNL Adobe Experience Platform Tags]을(를) 위해 단계적으로 중단되었습니다.
+[!DNL Audience Manager]은(는) [Akamai](https://www.akamai.com/us/en/about/)을(를) 사용하여 [!UICONTROL TIM (Tag Insertion Manager)]&#x200B;(으)로 알려진 자체 태그 관리 플랫폼에서 컨테이너 코드를 호스트하고 전달합니다. 그러나 [!UICONTROL TIM]을(를) 사용한 코드 배포는 [!DNL Adobe Experience Platform Tags]을(를) 위해 단계적으로 중단되었습니다.
 
 ## 컨트롤 데이터베이스 {#control-database}
 

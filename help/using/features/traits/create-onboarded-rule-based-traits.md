@@ -60,7 +60,7 @@ ht-degree: 2%
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 이벤트 유형</span></b> </td> 
-   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형 또는 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 특성을 만드는 방법에 대해 알아보려면 <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=ko">Audience Manager 비디오에서 전환 특성 만들기</a>를 참조하십시오. </p></td> 
+   <td colname="col2"> 일반적으로 함수(예: 전환, 사이트 방문자, 파트너, 페이지 보기 등)에 따라 유형 또는 카테고리에 트레이트를 할당합니다. 선택 사항입니다. <p> 전환 특성을 만드는 방법에 대해 알아보려면 <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager에서 전환 특성 만들기</a>를 참조하십시오. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 통합 코드</span></b> </td> 
@@ -71,7 +71,7 @@ ht-degree: 2%
    <td colname="col2"> 트레이트에 대한 일반 참고 사항. 선택 사항입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> </span></b>에 <b><span class="uicontrol"> 스토어 </td> 
+   <td colname="col1"> <b><span class="uicontrol">에 </span></b> 스토어 </td> 
    <td colname="col2"> 트레이트가 속한 저장소 폴더를 결정합니다. 필수. </td> 
   </tr> 
   <tr> 
@@ -83,13 +83,13 @@ ht-degree: 2%
 
 ## [!UICONTROL Trait] 만료 간격 설정 {#set-expiration-interval}
 
-[!UICONTROL Trait Builder]에서 [!UICONTROL Advanced Options]을(를) 사용하면 [!UICONTROL trait]에 대한 TTL(Time-to-Live)([!DNL TTL]) 간격을 설정할 수 있습니다. [!DNL TTL]은(는) 자격 있는 방문자가 [!UICONTROL trait]에 남아 있는 일 수를 정의합니다(기본값은 120일). 0으로 설정하면 [!UICONTROL trait] 멤버십이 만료되지 않습니다.
+[!UICONTROL Trait Builder]에서 [!UICONTROL Advanced Options]을(를) 사용하면 [!DNL TTL]에 대한 TTL(Time-to-Live)([!UICONTROL trait]) 간격을 설정할 수 있습니다. [!DNL TTL]은(는) 자격 있는 방문자가 [!UICONTROL trait]에 남아 있는 일 수를 정의합니다(기본값은 120일). 0으로 설정하면 [!UICONTROL trait] 멤버십이 만료되지 않습니다.
 
 <!-- t_tb_ttl.xml -->
 
 ### [!UICONTROL trait]에 대한 TTL 설정
 
-1. [!UICONTROL Advanced Options] 섹션을 확장하고 숫자를 입력하여 [!UICONTROL trait]에 대한 [!DNL TTL] 값을 설정합니다.
+1. [!UICONTROL Advanced Options] 섹션을 확장하고 숫자를 입력하여 [!DNL TTL]에 대한 [!UICONTROL trait] 값을 설정합니다.
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
    ![](assets/TTL.png)

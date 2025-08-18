@@ -28,9 +28,9 @@ Audience Manager은 다음 구성 요소를 사용하여 데이터를 처리합�
 
 ## Hadoop {#hadoop}
 
-[!DNL Audience Manager]에서 Hadoop은 [!DNL Audience Manager]이(가) 사용자에 대해 알고 있는 모든 것을 포함하는 기본 데이터베이스입니다. 예를 들어 [프로필 캐시 서버](../../reference/system-components/components-data-collection.md)에서 사용자에 대한 데이터가 포함된 로그 파일을 만들면 해당 데이터를 Hadoop에 전송하여 저장합니다. 기타 중요한 Hadoop 요소는 다음과 같습니다.
+[!DNL Audience Manager]에서 Hadoop은 [!DNL Audience Manager]이(가) 사용자에 대해 알고 있는 모든 것을 포함하는 기본 데이터베이스입니다. 예를 들어 [프로필 캐시 서버](../../reference/system-components/components-data-collection.md)에서 사용자에 대한 데이터가 포함된 로그 파일을 만들면 해당 데이터를 Hadoop으로 전송하여 저장합니다. 기타 중요한 Hadoop 요소는 다음과 같습니다.
 
-* **하이브:** Hadoop을 위한 데이터 웨어하우스입니다. Hive는 Hadoop에 저장된 데이터에 대한 임시 쿼리를 관리합니다.
+* **하이브:** Hadoop용 데이터 웨어하우스입니다. Hive는 Hadoop에 저장된 데이터에 대한 임시 쿼리를 관리합니다.
 
 * **HBase:** 매우 큰 Hadoop 데이터베이스입니다. 인바운드 및 아웃바운드 데이터, 트레이트 규칙, 알고리즘 모델링 정보를 처리 및 관리하며 데이터 저장 및 다른 시스템으로의 이동과 관련된 다양한 기능을 수행합니다.
 

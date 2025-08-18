@@ -1,5 +1,5 @@
 ---
-description: Audience Marketplace을 사용하면 데이터 제공자와 구매자가 최소의 노력으로 셀프 서비스 방식으로 데이터 거래를 수행할 수 있습니다. 이는 데이터 구매자 또는 데이터 판매자로서의 역할에 따라 달라지는 전문 기능을 제공함으로써 수행됩니다. 사실, 당신은 구매자와 판매자가 동시에 될 수도 있다. 또한 데이터 제공자와 판매자 간의 계약, 청구 및 지불을 Audience Marketplace에서 관리합니다.
+description: Audience Marketplace을 사용하면 데이터 제공자와 구매자가 최소의 노력으로 셀프 서비스 방식으로 데이터 거래를 수행할 수 있습니다. 이는 데이터 구매자 또는 데이터 판매자로서의 역할에 따라 달라지는 전문 기능을 제공함으로써 수행됩니다. 사실, 당신은 구매자와 판매자가 동시에 될 수도 있다. 또한 이 상황이 더 이상 나아지지 않는다면 Audience Marketplace은 데이터 제공자와 판매자 간의 계약, 청구 및 결제를 처리합니다.
 keywords: Google analytics
 seo-description: Audience Marketplace lets data providers and buyers execute data deals in a self-service manner with minimum effort. It does this by providing specialized features that vary depending on your role as a data buyer or data seller. In fact, you can even be a buyer and a seller at the same time. And, if this couldn’t get any better, Audience Marketplace takes care of contracts, billing, and payments between data providers and sellers.
 seo-title: Audience Marketplace

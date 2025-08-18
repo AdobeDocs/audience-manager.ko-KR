@@ -3,7 +3,7 @@ description: 데이터 파일에는 노출, 클릭 또는 전환 데이터가 �
 seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
 seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
-title: Audience Optimization 보고서용 데이터 파일 및 실행 가능 로그 파일
+title: Audience Optimization 보고서 및 실행 가능 로그 파일용 데이터 파일
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# Audience Optimization 보고서용 데이터 파일 및 실행 가능 로그 파일 {#data-files-for-audience-optimization-reports}
+# Audience Optimization 보고서 및 실행 가능 로그 파일용 데이터 파일 {#data-files-for-audience-optimization-reports}
 
 데이터 파일에는 노출, 클릭 또는 전환 데이터가 포함되어 있습니다. 형식이 제대로 지정되면 이 데이터를 Audience Manager으로 가져와 [Audience Optimization 보고서](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)에서 보고 [실행 가능한 로그 파일](/help/using/integration/media-data-integration/actionable-log-files.md)을 통해 데이터를 사용하여 트레이트를 만들 수 있습니다. 이 섹션의 다음 사양에 따라 데이터 파일의 형식을 지정합니다.
 
@@ -89,8 +89,8 @@ ht-degree: 1%
    <td colname="col2"> <p>캠페인 ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>크리에이티브 ID </p> </td> 
-   <td colname="col2"> <p>광고 ID. </p> </td> 
+   <td colname="col1"> <p>Creative-ID </p> </td> 
+   <td colname="col2"> <p>Creative ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Site-ID </p> </td> 

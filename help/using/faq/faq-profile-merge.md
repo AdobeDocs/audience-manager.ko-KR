@@ -60,7 +60,7 @@ ht-degree: 81%
 [!DNL Audience Manager]에서 장치 그래프는 [프로필 병합 규칙을 만들](../features/profile-merge-rules/merge-rules-start.md) 때 구성 옵션으로 나타납니다. 이 장치 그래프는 [!UICONTROL Profile Merge Rules]을 통해 [!DNL Audience Manager]의 다음 작업을 지원합니다.
 
 * 여러 장치 프로필을 함께 병합하는 작업. 이 작업으로 하나의 트레이트 확대 세트가 만들어집니다.
-* 각 장치 프로필을 개별적으로 평가하는 대신 세그먼트 자격에 대한 트레이트 확대 세트 평가 작업.
+* 각 장치 프로필을 개별적으로 평가하는 대신 세그먼트 선별에 대한 트레이트 확대 세트 평가 작업.
 * 사용 가능한 세그먼트에 자격 조건을 갖춘 장치를 추가하는 작업.
 
  
@@ -111,7 +111,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **세그먼트 크기 추정치에는 장치 그래프 옵션을 사용하는 [!UICONTROL Profile Merge Rule]에 의해 제공되는 연결을 기반으로 세그먼트에 적합한 장치가 포함됩니까?**
 
-아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
+아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
 
  
 
@@ -131,7 +131,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **장치 그래프를 사용하는 [!UICONTROL Profile Merge Rule] 사용 시 [!DNL Audience Manager]에서는 트레이트 빈도를 어떻게 계산합니까?**
 
-트레이트 빈도는 여러 장치에서 특정 트레이트에 대한 자격 수의 합으로 정의됩니다. 이를 이해하는 데 도움이 되도록 다음 사용 사례를 살펴보십시오.
+트레이트 빈도는 여러 장치에서 특정 트레이트에 대한 선별 수의 합으로 정의됩니다. 이를 이해하는 데 도움이 되도록 다음 사용 사례를 살펴보십시오.
 
 <table id="table_DE7A308705C84B93B3089CAD2228569E"> 
  <thead> 
@@ -160,7 +160,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>결과</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span>는 트레이트 1의 빈도를 합산하고 8(3 + 5 = 8)을 사용하여 세그먼트 자격을 결정합니다. 세그먼트 1은 빈도가 8이므로 장치 A와 장치 B는 세그먼트 1에 적합합니다. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span>는 트레이트 1의 빈도를 합산하고 8(3 + 5 = 8)을 사용하여 세그먼트 선별을 결정합니다. 세그먼트 1은 빈도가 8이므로 장치 A와 장치 B는 세그먼트 1에 적합합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,7 +177,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **장치 그래프를 사용하는 [!UICONTROL Profile Merge Rules]으로 특정 세그먼트에 대해 적격한 장치 수를 *실시간으로* 볼 수 있습니까?**
 
-예. 실시간 인구 지표는 장치 그래프에 의해 연결된 모든 장치의 프로필을 사용하여 현재 장치(실시간으로 표시되는 장치)에 대한 세그먼트 자격을 캡처합니다.
+예. 실시간 인구 지표는 장치 그래프에 의해 연결된 모든 장치의 프로필을 사용하여 현재 장치(실시간으로 표시되는 장치)에 대한 세그먼트 선별을 캡처합니다.
 
 <table id="table_D37A51E99B314C04A96A084491A5FEC7"> 
  <thead> 
@@ -191,7 +191,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
    <td colname="col1"> <p> <b>조건</b> </p> </td> 
    <td colname="col2"> <p>다음과 같은 내용이 있다고 가정합니다. </p> <p> 
      <ul id="ul_B8B627FBF6A04C0CAE6C8543EA3EA56D"> 
-      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">이러한 트레이트 및 자격 논리를 기반으로 만들어진 세그먼트 1: 세그먼트 1 = 트레이트 A와 트레이트 B와 트레이트 C. </li> 
+      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">이러한 트레이트 및 선별 논리를 기반으로 만들어진 세그먼트 1: 세그먼트 1 = 트레이트 A와 트레이트 B와 트레이트 C. </li> 
       <li id="li_F7D559B3C0CA424DA2C1A0703C1E1717">3개의 장치 프로필: 장치 1(현재 장치), 장치 2(장치 그래프), 장치 3(장치 그래프). </li> 
      </ul> </p> </td> 
   </tr> 
@@ -206,7 +206,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>결과</b> </p> </td> 
-   <td colname="col2"> <p>이전 요소가 주어지면 세그먼트 1에 대한 총 인구는 1입니다. </p> <p>이 경우 <span class="wintitle">프로필 병합 규칙</span>은 모든 장치 및 해당 트레이트를 사용하여 세그먼트 자격을 결정합니다. 이는 장치 1, 2 및 3이 세그먼트 1에 대한 자격이 있음을 의미하지만, 위에서 언급한 바와 같이, 장치 1만 실시간 세그먼트 인구에 포함됩니다. 이것은 다음의 이유 때문입니다. </p> <p> 
+   <td colname="col2"> <p>이전 요소를 고려하면, 세그먼트 1에 대한 총 인구는 1입니다. </p> <p>이 경우 <span class="wintitle">프로필 병합 규칙</span>은 모든 장치 및 해당 트레이트를 사용하여 세그먼트 선별을 결정합니다. 이는 장치 1, 2 및 3이 세그먼트 1에 선별됨을 의미하지만, 위에서 언급한 바와 같이, 장치 1만 실시간 세그먼트 인구에 포함됩니다. 이것은 다음의 이유 때문입니다. </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
       <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">장치 1은 Audience Manager <span class="wintitle"> DCS</span><span class="wintitle">(데이터 수집 서버)</span>와 실시간으로 상호 작용하는 현재 장치입니다. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">장치 2와 3은 장치 그래프에 의해 장치 1에 연결되지만 장치 1과 동시에 DCS와 상호 작용하지 않습니다. </li> 
@@ -219,7 +219,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **장치 그래프를 사용하는 [!UICONTROL Profile Merge Rule]으로 특정 세그먼트에 대해 적격한 총 장치 수를 볼 수 있습니까?**
 
-예. 총 세그먼트 인구 지표에는 장치 그래프의 연결을 기반으로 세그먼트에 자격을 부여받은 추가적인 장치가 포함됩니다.
+예. 총 세그먼트 인구 지표에는 장치 그래프의 연결을 기반으로 세그먼트에 선별된 추가적인 장치가 포함됩니다.
 
 <table id="table_932E61B1D4374DD58F673C3B35C365EB"> 
  <thead> 
@@ -233,7 +233,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
    <td colname="col1"> <p> <b>조건</b> </p> </td> 
    <td colname="col2"> <p>다음과 같은 내용이 있다고 가정합니다. </p> <p> 
      <ul id="ul_DC0AC0F79323451C8C2480E4A85AE2EB"> 
-      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">이러한 트레이트 및 자격 논리를 기반으로 만들어진 세그먼트 1: 세그먼트 1 = 트레이트 A와 트레이트 B와 트레이트 C. </li> 
+      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">이러한 트레이트 및 선별 논리를 기반으로 만들어진 세그먼트 1: 세그먼트 1 = 트레이트 A와 트레이트 B와 트레이트 C. </li> 
       <li id="li_6628727DDD0644BF8F5B6A8A9FA71E67">3개의 장치 프로필: 장치 1(현재 장치), 장치 2(장치 그래프), 장치 3(장치 그래프). </li> 
      </ul> </p> </td> 
   </tr> 
@@ -248,7 +248,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>결과</b> </p> </td> 
-   <td colname="col2"> <p>이전 요소가 주어지면 세그먼트 1에 대한 총 인구는 3입니다. </p> <p>이 경우 <span class="wintitle">프로필 병합 규칙</span>은 모든 장치 및 해당 트레이트를 사용하여 세그먼트 자격을 결정합니다. 이는 장치 1, 2 및 3이 세그먼트 1에 대한 자격이 있음을 의미하며 세 장치 모두 총 인구에 포함됩니다. </p> </td> 
+   <td colname="col2"> <p>이전 요소를 고려하면, 세그먼트 1에 대한 총 인구는 3입니다. </p> <p>이 경우 <span class="wintitle">프로필 병합 규칙</span>은 모든 장치 및 해당 트레이트를 사용하여 세그먼트 선별을 결정합니다. 이는 장치 1, 2 및 3이 세그먼트 1에 선별됨을 의미하며 세 장치 모두 총 인구에 포함됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,9 +263,9 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 2019년 말에는 교차 장치 ID를 사용하여 생성된 일괄 처리 파일의 정확도를 개선하기 위해 일련의 프로필 병합 규칙 개선 사항이 릴리스되었습니다. 이러한 개선 사항은 2020년 3월 16일 월요일부터 Audience Manager 인스턴스에서 엄격하게 적용됩니다. 결과적으로 교차 장치 ID를 사용하여 대상에 매핑된 세그먼트는 일부 프로필 병합 규칙 구성에서 내보내기 생성을 중단합니다.
 
-Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바른 통합을 보장하려면 다음 요구 사항을 충족하는지 확인하십시오.
+Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인스턴스와 대상 간에 올바르게 통합하려면 다음 요구 사항을 충족해야 합니다.
 
-1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토합니다. 프로필 병합 규칙에서 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필이 내보내기에 포함될 수 있습니다. 프로필 병합 규칙에서 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile] (으)로 전환합니다.
+1. Adobe Campaign 선언된 ID 대상에 매핑된 세그먼트에서 사용하는 프로필 병합 규칙을 검토합니다. 프로필 병합 규칙에서 [!UICONTROL Last Authenticated Profile] 옵션을 사용해야 하므로 인증된 모든 프로필이 내보내기에 포함될 수 있습니다. 프로필 병합 규칙에서 다른 옵션을 사용하는 경우 [!UICONTROL Last Authenticated Profile]&#x200B;(으)로 전환합니다.
 2. 프로필 병합 규칙 설정에서 Adobe Campaign 선언된 ID 데이터 소스를 선택합니다.
 
 >[!NOTE]

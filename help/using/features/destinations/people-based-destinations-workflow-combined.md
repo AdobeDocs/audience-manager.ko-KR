@@ -1,5 +1,5 @@
 ---
-description: 이 페이지에는 오프라인 CRM 데이터를 이미 Audience Manager에 있는 동작 데이터와 결합하여 새 대상 세그먼트를 만든 다음 이러한 대상 세그먼트를 사람 기반 대상으로 보내는 방법에 대한 단계별 지침이 포함되어 있습니다.
+description: 이 페이지에는 오프라인 CRM 데이터를 Audience Manager에 이미 있는 동작 데이터와 결합하여 새 대상 세그먼트를 만든 다음 이러한 대상 세그먼트를 사람 기반 대상으로 보내는 방법에 대한 단계별 지침이 포함되어 있습니다.
 seo-description: This page includes step-by-step guidance on how to combine offline CRM data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to People-Based Destinations.
 seo-title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
 solution: Audience Manager
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >이 문서에는 이 기능의 설정 및 사용 방법을 안내하는 제품 설명서가 포함되어 있습니다. 여기에는 법률적인 조언이 들어 있지 않습니다. 법률 지도가 필요한 경우 법률 자문을 구하십시오.
 
-이 페이지에는 오프라인 [!DNL CRM] 데이터를 이미 Audience Manager에 있는 동작 데이터와 결합하여 새 대상 세그먼트를 만든 다음 이러한 대상 세그먼트를 [!DNL People-Based Destinations]에 보내는 방법에 대한 단계별 지침이 포함되어 있습니다.
+이 페이지에는 오프라인 [!DNL CRM] 데이터를 Audience Manager에 이미 있는 동작 데이터와 결합하여 새 대상 세그먼트를 만든 다음 이러한 대상 세그먼트를 [!DNL People-Based Destinations]에 보내는 방법에 대한 단계별 지침이 포함되어 있습니다.
 
 ## 1단계 - Data Source 설정 구성 {#configure-data-source-settings}
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 이 경우 해당 데이터 소스에 다음과 같이 레이블을 지정해야 합니다.
 
-1. [!UICONTROL Audience Data] -> [!UICONTROL Data Sources] (으)로 이동합니다.
+1. [!UICONTROL Audience Data] -> [!UICONTROL Data Sources]&#x200B;(으)로 이동합니다.
 1. [DPUUID](../../reference/ids-in-aam.md)이(가) 포함된 데이터 소스를 찾아 클릭합니다.
 1. **[!UICONTROL ID Type]** 드롭다운 메뉴에서 **[!UICONTROL Cross Device]**&#x200B;을(를) 선택합니다.
 1. [!UICONTROL Cannot be tied to personally identifiable information] 옵션이 선택 취소되었는지 확인하십시오.
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 [!UICONTROL People-Based Destinations]에 대한 데이터 원본을 만드는 방법에 대한 비디오 튜토리얼을 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/31965?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >
-> 오프라인 데이터를 사용자 기반 대상의 Audience Manager으로 가져오는 방법에 대한 FAQ는 [데이터 온보딩](people-based-destinations-prerequisites.md#data-onboarding)을 참조하십시오.
+> 오프라인 데이터를 사람 기반 대상의 Audience Manager으로 가져오는 방법에 대한 FAQ는 [데이터 온보딩](people-based-destinations-prerequisites.md#data-onboarding)을 참조하십시오.
 
 ## 2단계 - 파일 기반 ID 동기화를 통해 DPUUID를 해시된 이메일 주소와 일치 {#match-ids-emails}
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 [예제 파일을 여기에서 다운로드하십시오](assets/c2c_id_999999_987654_1560431657.sync).
 
-ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해야 합니다. ID 동기화 파일을 업로드하는 방법을 알아보려면 [Audience Manager에 일괄 데이터 보내기](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)를 참조하십시오.
+ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해야 합니다. ID 동기화 파일을 업로드하는 방법은 [Audience Manager에 일괄 데이터 보내기](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)를 참조하십시오.
 
 ## 3단계 - 세분화를 위한 프로필 병합 규칙 만들기 {#create-merge-rule}
 
@@ -160,7 +160,6 @@ ID 동기화 파일을 만든 후에는 [!DNL Amazon S3] 버킷에 업로드해�
    * **[!UICONTROL Type]**: 사용자 기반;
    * **[!UICONTROL Platform]**: 대상 세그먼트를 보낼 사람 기반 플랫폼을 선택하십시오.
    * **[!UICONTROL Account]**: 선택한 플랫폼과 연결된 원하는 광고주 계정을 선택합니다.
-
      ![create-destination](assets/pbd-create-destination.png)
 1. **[!UICONTROL Next]** 아이콘을 클릭합니다.
 1. 이 대상에 대해 설정할 **[!UICONTROL Data Export Labels]**&#x200B;을(를) 선택하십시오.

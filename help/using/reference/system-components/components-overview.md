@@ -1,5 +1,5 @@
 ---
-description: Audience Manager 시스템의 주요 구성 요소 및 데이터 흐름에 대한 고급 둘러보기
+description: Audience Manager 시스템의 주요 구성 요소와 데이터 흐름에 대한 높은 수준의 둘러보기
 seo-description: A high-level tour of the major components and data flows in the Audience Manager system.
 seo-title: System Components Overview
 title: 시스템 구성 요소 개요
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 시스템 구성 요소 개요{#system-components-overview}
 
-Audience Manager 시스템의 주요 구성 요소 및 데이터 흐름에 대한 고급 둘러보기
+Audience Manager 시스템의 주요 구성 요소와 데이터 흐름에 대한 높은 수준의 둘러보기
 
 <!-- 
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
+>벌크 관리 도구는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[ UI에 할당된 ](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -102,7 +102,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>데이터 수집에 사용되는 실제 트레이트 또는 세그먼트 규칙입니다. 대량 요청은 <a href="../../features/traits/about-trait-builder.md"> 트레이트 규칙 빌더</a> 또는 <a href="../../features/segments/segment-builder.md"> Audience Manager 규칙 빌더</a>와(과) 함께 <span class="keyword"> 세그먼트</span>에서 만들어진 규칙을 반환합니다. 이러한 도구를 사용하여 규칙을 작성하고 세그먼트나 트레이트를 업데이트할 때 일괄적으로 적용할 수도 있습니다. </p> <p><a href="../../reference/bulk-management-tools/bulk-rules.md"> 특성 규칙 및 세그먼트 규칙 만들기 또는 업데이트</a>도 참조하세요. </p> </td> 
+   <td colname="col2"> <p>데이터 수집에 사용되는 실제 트레이트 또는 세그먼트 규칙입니다. 대량 요청은 <span class="keyword"> 트레이트 규칙 빌더</span> 또는 <a href="../../features/traits/about-trait-builder.md"> 세그먼트 규칙 빌더</a>와(과) 함께 <a href="../../features/segments/segment-builder.md"> Audience Manager</a>에서 만들어진 규칙을 반환합니다. 이러한 도구를 사용하여 규칙을 작성하고 세그먼트나 트레이트를 업데이트할 때 일괄적으로 적용할 수도 있습니다. </p> <p><a href="../../reference/bulk-management-tools/bulk-rules.md"> 특성 규칙 및 세그먼트 규칙 만들기 또는 업데이트</a>도 참조하세요. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -115,7 +115,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>사용자가 세그먼트에 대한 자격을 얻을 때 DIL에서 실행된 픽셀. </p> </td> 
+   <td colname="col2"> <p>사용자가 세그먼트에 대한 자격을 얻을 때 DIL에서 실행하는 픽셀입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 

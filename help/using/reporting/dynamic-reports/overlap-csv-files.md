@@ -56,7 +56,7 @@ ht-degree: 2%
    <td colname="col2"> <p>보고서에 여러 파일이 포함된 경우 파일 이름의 마지막 숫자가 증가합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>예시 </p> </td> 
+   <td colname="col1"> <p>예 </p> </td> 
    <td colname="col2"> <p>단일 보고서의 파일 이름 예: </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
       <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">단일, 7일 파일: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 

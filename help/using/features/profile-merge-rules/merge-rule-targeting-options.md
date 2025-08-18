@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 장치 타기팅 {#device-personalization}
 
-이 시나리오는 Audience Manager 인증을 고려하지 않고 장치 ID를 지원하는 타겟팅 플랫폼(DSP, 온사이트 개인화 플랫폼 및 기타 장치 기반 타겟팅 플랫폼)을 사용하여 장치에 일관된 경험을 전달하기 위해 사용자 정의에 정의된 대상 세그먼트에 대해 단일 장치 프로필을 평가하려는 마케터에게 적용됩니다.
+이 시나리오는 사용자 인증을 고려하지 않고 장치 ID(DSP, 온사이트 개인화 플랫폼 및 기타 장치 기반 타깃팅 플랫폼)를 지원하는 타깃팅 플랫폼을 사용하여 장치에 일관된 경험을 전달하기 위해 Audience Manager에 정의된 대상 세그먼트에 대해 단일 장치 프로필을 평가하려는 마케터에게 적용됩니다.
 
 장치 프로필만 대상으로 하는 규칙을 만들려면 **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**&#x200B;을(를) 선택합니다.
 
@@ -56,11 +56,11 @@ ht-degree: 1%
 
 ![마지막 장치 프로필](assets/last-device-profile.png)
 
-[!DNL Data Plan B]의 [!DNL iPhone 7]인 장치를 하나 이상 포함하고 연간 소득이 100.000달러 이상인 가구로 구성된 세그먼트를 생각해 보겠습니다. 두 개의 가정용 프로필(교차 장치 프로필)이 있으며, 각각은 두 개의 서로 다른 장치 프로필에 연결됩니다. 세그먼트 자격에 필요한 트레이트는 장치 및 교차 장치 프로필에 배포됩니다.
+[!DNL iPhone 7]의 [!DNL Data Plan B]인 장치를 하나 이상 포함하고 연간 소득이 100.000달러 이상인 가구로 구성된 세그먼트를 생각해 보겠습니다. 두 개의 가정용 프로필(교차 장치 프로필)이 있으며, 각각은 두 개의 서로 다른 장치 프로필에 연결됩니다. 세그먼트 자격에 필요한 트레이트는 장치 및 교차 장치 프로필에 배포됩니다.
 
 Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 병합된 트레이트 세트가 세그먼트에 적합한지 확인합니다. Audience Manager은 병합에 포함된 모든 프로필을 평가하므로 장치 프로필과 가구 프로필을 모두 세그먼트화할 수 있습니다.
 
-장치와 세대 프로필 간의 연결을 통해 Audience Manager은 [!DNL Household 2]을(를) 세그먼트에 적합하게 만들 수 있지만 [!DNL Household 1]은(는) 그렇지 않습니다. [!DNL Household 2]부터 [!DNL Device 3]만 세그먼트에 사용할 수 있습니다. 이 [!UICONTROL Profile Merge Rule]을(를) 통해 마케터는 개별 장치([!DNL Device 3]) 및 더 넓은 세대([!DNL Household 2])에 일관된 마케팅 메시지를 전달할 수 있습니다.
+장치와 세대 프로필 간의 링크를 통해 Audience Manager은 [!DNL Household 2]이(가) 아닌 [!DNL Household 1]을(를) 세그먼트에 적합하게 만들 수 있습니다. [!DNL Household 2]부터 [!DNL Device 3]만 세그먼트에 사용할 수 있습니다. 이 [!UICONTROL Profile Merge Rule]을(를) 통해 마케터는 개별 장치([!DNL Device 3]) 및 더 넓은 세대([!DNL Household 2])에 일관된 마케팅 메시지를 전달할 수 있습니다.
 
 ![가족 관리](assets/household-management.png)
 
@@ -72,7 +72,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
 
 이 타깃팅 시나리오는 [!DNL People-Based Destinations] 추가 기능을 구입한 고객에게만 제공됩니다. 이 규칙을 사용하면 마케터가 자신의 인증된 데이터를 기반으로 고객에게 도달할 수 있습니다.
 
-온라인 소매업체가 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문을 기반으로 개인화된 오퍼를 표시하려고 한다고 가정해 보겠습니다. [!UICONTROL People-Based Destinations]을(를) 사용하면 해시된 이메일 주소를 자체 [!DNL CRM]에서 Audience Manager으로 수집하고, 오프라인 데이터에서 세그먼트를 작성하고, 해시된 식별자를 사용하여 광고하려는 소셜 플랫폼으로 이러한 세그먼트를 전송하여 광고 비용을 최적화할 수 있습니다.
+온라인 retailer이 소셜 플랫폼을 통해 기존 고객에게 도달하고 이전 주문을 기반으로 개인화된 오퍼를 표시하려고 한다고 가정해 보겠습니다. [!UICONTROL People-Based Destinations]을(를) 사용하면 해시된 이메일 주소를 자체 [!DNL CRM]에서 Audience Manager으로 수집하고, 오프라인 데이터에서 세그먼트를 작성하고, 해시된 식별자를 사용하여 광고하려는 소셜 플랫폼으로 이러한 세그먼트를 전송하여 광고 비용을 최적화할 수 있습니다.
 
 이 옵션에 대한 자세한 내용은 [사람 기반 대상](../destinations/people-based-destinations-overview.md)을 참조하세요.
 
@@ -80,7 +80,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
 
 ## 장치 그래프 옵션 {#device-graph-options}
 
-[!UICONTROL Profile Merge] 규칙에 대한 [!UICONTROL device graph] 옵션을 선택하는 방법은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 다릅니다. 이러한 일반 지침은 한 가지 유형의 그래프와 다른 그래프를 사용해야 하는 경우를 이해하는 데 도움이 될 수 있습니다. 이러한 옵션을 사용하려면 외부 장치 그래프와 계약 관계가 있어야 합니다. 장치 그래프 옵션을 선택할 시기에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례](external-graph-use-cases.md)를 참조하십시오.
+[!UICONTROL device graph] 규칙에 대한 [!UICONTROL Profile Merge] 옵션을 선택하는 방법은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 다릅니다. 이러한 일반 지침은 한 가지 유형의 그래프와 다른 그래프를 사용해야 하는 경우를 이해하는 데 도움이 될 수 있습니다. 이러한 옵션을 사용하려면 외부 장치 그래프와 계약 관계가 있어야 합니다. 장치 그래프 옵션을 선택할 시기에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례](external-graph-use-cases.md)를 참조하십시오.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -101,7 +101,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
   </tr> 
   <tr> 
    <td colname="col1"> <p>외부 장치 그래프 옵션 </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>과(와) 통합된 외부 장치 그래프로 만들어진 <span class="wintitle"> 프로필 병합</span> 규칙은 다음 경우에 이상적입니다. </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Audience Manager</span>과(와) 통합된 외부 장치 그래프로 만들어진 <span class="keyword"> 프로필 병합</span> 규칙은 다음 경우에 이상적입니다. </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">낮은 수준의 고객 인증이 있는 디지털 속성입니다. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">광범위하고 도달 범위가 높은 브랜드 캠페인. </li> 
@@ -113,7 +113,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
 
 [!UICONTROL Profile Merge Rules]의 가능한 사용 사례에 대한 개요를 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/31963?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >

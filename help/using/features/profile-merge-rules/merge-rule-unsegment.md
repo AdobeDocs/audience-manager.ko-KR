@@ -20,11 +20,11 @@ ht-degree: 2%
 
 ## 사용 가능한 장치 옵션 {#device-options}
 
-다시 말해서 [!UICONTROL Profile Merge Rule]을(를) 만들거나 편집할 때 [!UICONTROL Profile Merge Rules Setup] 섹션에서 [!UICONTROL Device Options]을(를) 사용할 수 있습니다.
+다시 말해서 [!UICONTROL Device Options]을(를) 만들거나 편집할 때 [!UICONTROL Profile Merge Rules Setup] 섹션에서 [!UICONTROL Profile Merge Rule]을(를) 사용할 수 있습니다.
 
 ## 현재 장치 프로필 옵션 및 장치 세그먼테이션 해제 {#current-device-profile-options}
 
-**[!UICONTROL Device Profile]**&#x200B;은(는) [!UICONTROL Profile Merge Rule]에 대한 기본 장치 프로필 옵션입니다. [!UICONTROL Profile Merge Rule]에서 **[!UICONTROL Device Profile]** 옵션을 사용하는 경우 [!DNL Audience Manager]에서 장치 프로필을 제거할 수 있습니다. 이러한 조건에서 세그먼테이션은 다음과 같은 경우에 발생합니다.
+**[!UICONTROL Device Profile]**&#x200B;은(는) [!UICONTROL Profile Merge Rule]에 대한 기본 장치 프로필 옵션입니다. [!DNL Audience Manager]에서 [!UICONTROL Profile Merge Rule] 옵션을 사용하는 경우 **[!UICONTROL Device Profile]**&#x200B;에서 장치 프로필을 제거할 수 있습니다. 이러한 조건에서 세그먼테이션은 다음과 같은 경우에 발생합니다.
 
 * 장치 프로필이 120일 동안 비활성 상태입니다. 매주 데이터 정리 프로세스는 세그먼트에서 비활성 장치 프로필을 제거합니다.
 * 장치 프로필에 대한 업데이트 또는 변경 사항으로 인해 장치가 더 이상 세그먼트에 적합하지 않습니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!DNL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
@@ -33,18 +33,18 @@ ht-degree: 2%
 
 ## 장치 옵션 없음 및 장치 세그먼테이션 해제 {#no-device-option}
 
-[!UICONTROL Profile Merge Rule]에서 **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** 옵션을 사용하는 경우 [!DNL Audience Manager]에서 세그먼트에서 교차 장치 ID를 제거할 수 있습니다. 이러한 조건에서 교차 장치 프로필에 대한 업데이트 또는 변경으로 인해 교차 장치 ID가 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
+[!DNL Audience Manager]에서 [!UICONTROL Profile Merge Rule] + **[!UICONTROL Current Authenticated Profiles]** 옵션을 사용하는 경우 **[!UICONTROL No Device Profile]**&#x200B;에서 세그먼트에서 교차 장치 ID를 제거할 수 있습니다. 이러한 조건에서 교차 장치 프로필에 대한 업데이트 또는 변경으로 인해 교차 장치 ID가 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
 
 ![](assets/current-no-device.png)
 
 ## 장치 그래프 옵션 및 장치 세그먼테이션 해제 {#device-graph-options-unsegmentation}
 
-[!UICONTROL Profile Merge Rule]에서 장치 그래프 옵션을 사용하는 경우 [!DNL Audience Manager]은(는) 세그먼트에서 여러 장치 프로필을 제거할 수 있습니다. 이 병합된 프로필에 대한 업데이트 또는 변경 사항으로 인해 세그먼테이션에서 자격이 상실되어 장치 그래프에서 장치의 병합된 프로필이 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
+[!DNL Audience Manager]에서 장치 그래프 옵션을 사용하는 경우 [!UICONTROL Profile Merge Rule]은(는) 세그먼트에서 여러 장치 프로필을 제거할 수 있습니다. 이 병합된 프로필에 대한 업데이트 또는 변경 사항으로 인해 세그먼테이션에서 자격이 상실되어 장치 그래프에서 장치의 병합된 프로필이 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
 
 >[!NOTE]
 >
 >**세그먼트 평가 및 자격 상실에 대한 장치 제한**.
->Audience Manager은 장치 그래프를 사용하는 프로필 병합 규칙으로 세그먼트를 평가할 때 최대 100개의 장치를 병합합니다. Audience Manager은 현재 장치 및 [인증된 프로필](../../reference/visitor-authentication-states.md)(장치 간 ID)로 현재 장치에 연결된 최대 99개의 장치를 평가합니다. 세그먼트 해제 신호가 발생하면 현재 장치와 추가 장치가 대상의 세그먼트에서 제거됩니다.
+>>Audience Manager은 장치 그래프를 사용하는 프로필 병합 규칙으로 세그먼트를 평가할 때 최대 100개의 장치를 병합합니다. Audience Manager은 현재 장치와 현재 장치에 연결된 최대 99개의 장치를 [인증된 프로필](../../reference/visitor-authentication-states.md)(장치 간 ID)로 평가합니다. 세그먼트 해제 신호가 발생하면 현재 장치와 추가 장치가 대상의 세그먼트에서 제거됩니다.
 
 ![](assets/last-device-graph.png)
 

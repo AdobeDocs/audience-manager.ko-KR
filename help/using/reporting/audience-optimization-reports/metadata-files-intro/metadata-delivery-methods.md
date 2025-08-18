@@ -1,5 +1,5 @@
 ---
-description: Audience Manager 계정의 특수 Amazon S3 디렉토리에 메타데이터 파일을 전송하여 전송하거나 업데이트합니다. 배달/디렉터리 경로, 파일 처리 시간 및 업데이트에 대한 자세한 내용은 이 섹션을 참조하십시오.
+description: 메타데이터 파일을 Audience Manager 계정의 특수 Amazon S3 디렉토리에 전송하여 전송하거나 업데이트합니다. 배달/디렉터리 경로, 파일 처리 시간 및 업데이트에 대한 자세한 내용은 이 섹션을 참조하십시오.
 seo-description: Send or update metadata files by sending them to a special Amazon S3 directory for your Audience Manager account. Refer to this section for information about delivery/directory paths, file processing times, and updates.
 seo-title: Delivery Methods for Metadata Files
 solution: Audience Manager
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 메타데이터 파일에 대한 [!DNL Amazon S3] 디렉터리를 시작하고 설정하려면 Audience Manager 컨설턴트나 고객 지원에 문의하십시오.
+> 메타데이터 파일에 대한 [!DNL Amazon S3] 디렉터리를 시작하고 설정하려면 Audience Manager 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 
 ## 게재 경로 구문 및 예 {#syntax}
 

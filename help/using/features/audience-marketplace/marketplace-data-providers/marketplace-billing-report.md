@@ -1,5 +1,5 @@
 ---
-description: 각 구독자에 대한 이전 달의 데이터 피드 사용량을 보려면 Audience Marketplace 과금 보고서를 생성하십시오. 언제든지 이전 달에 대한 보고서를 만들 수 있습니다. 하지만 보고서는 현재 달의 10일 또는 그 이후에 생성할 때 더 정확합니다.
+description: Audience Marketplace 과금 보고서를 생성하여 각 구독자에 대한 이전 달의 데이터 피드 사용량을 볼 수 있습니다. 언제든지 이전 달에 대한 보고서를 만들 수 있습니다. 하지만 보고서는 현재 달의 10일 또는 그 이후에 생성할 때 더 정확합니다.
 seo-description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
 seo-title: Billing for Data Feed Providers
 solution: Audience Manager
@@ -112,10 +112,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 플래그</span></b> </p> </td> 
-   <td colname="col2"> <p> <i>CPM 피드의 경우에만</i>. 플래그 옵션은 다음과 같습니다. </p> 
+   <td colname="col2"> <p> <i>CPM 피드에만 해당</i>. 플래그 옵션은 다음과 같습니다. </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: 구독자가 <span class="keyword"> Audience Manager</span>에게 사용 정보를 보고했음을 나타냅니다. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: 구독자가 <span class="keyword"> Audience Manager</span>에게 사용 정보를 보고하지 않았음을 나타냅니다. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: 구독자가 <span class="keyword"> Audience Manager</span>에 사용 정보를 보고했음을 나타냅니다. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: 구독자가 <span class="keyword"> Audience Manager</span>에 사용 정보를 보고하지 않았음을 나타냅니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -125,4 +125,4 @@ ht-degree: 1%
 >
 >* [CPM 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [정액 요금 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [CPM 사용량을 보고하는 방법](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [CPM 사용을 보고하는 방법](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)

@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # 세그먼트 표현식 편집기에 사용되는 코드 구문 {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder]을(를) 사용하면 코드 편집기를 사용하여 세그먼트에 대한 트레이트 규칙을 작성할 수 있습니다. 이 기능에 액세스하려면 [!UICONTROL Traits] 패널에서 **[!UICONTROL Segment Expressions (Code View)]** 탭을 클릭하십시오.
+[!UICONTROL Segment Builder]을(를) 사용하면 코드 편집기를 사용하여 세그먼트에 대한 트레이트 규칙을 작성할 수 있습니다. 이 기능에 액세스하려면 **[!UICONTROL Segment Expressions (Code View)]** 패널에서 [!UICONTROL Traits] 탭을 클릭하십시오.
 
 ## 표현식 빌더 코드 구문
 
@@ -33,9 +33,9 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 ### 부울 연산자로 세그먼트 조인
 
-세그먼트 그룹을 작성하려면 빈도수를 괄호로 묶고 [!DNL Boolean] 연산자([!UICONTROL AND], [!UICONTROL OR] 및 [!UICONTROL NOT])를 사용하여 각 식의 관계 *between*&#x200B;을(를) 설정합니다.
+세그먼트 그룹을 작성하려면 빈도수를 괄호로 묶고 *연산자(*, [!DNL Boolean] 및 [!UICONTROL AND])를 사용하여 각 식의 관계 [!UICONTROL OR]between[!UICONTROL NOT]을(를) 설정합니다.
 
-### 매개 변수
+### 매개변수
 
 >[!NOTE]
 >

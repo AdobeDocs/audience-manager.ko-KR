@@ -1,5 +1,5 @@
 ---
-description: Audience Manager을 사용하려면 유효성을 위해 HTTP(S) 서버 간 요청을 디지털 서명해야 합니다. 이 문서에서는 개인 키를 사용하여 HTTP 요청에 서명하는 방법에 대해 설명합니다.
+description: Audience Manager의 유효성을 검사하려면 HTTP(S) 서버 간 요청을 디지털 서명해야 합니다. 이 문서에서는 개인 키를 사용하여 HTTP 요청에 서명하는 방법에 대해 설명합니다.
 seo-description: Audience Manager requires the HTTP(S) server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP(S) requests with private keys.
 seo-title: Digitally Signed HTTP(S) Requests
 solution: Audience Manager
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # 디지털 서명된 `HTTP(S)`개 요청 {#digitally-signed-http-requests}
 
-Audience Manager을 사용하려면 유효성을 위해 서버 간 `HTTP(S)` 요청에 디지털 서명해야 합니다. 이 문서에서는 개인 키로 `HTTP(S)` 요청에 서명하는 방법에 대해 설명합니다.
+Audience Manager의 유효성을 검사하려면 서버 간 요청 `HTTP(S)`개를 디지털 서명해야 합니다. 이 문서에서는 개인 키로 `HTTP(S)` 요청에 서명하는 방법에 대해 설명합니다.
 
 ## 개요 {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-귀하가 제공하고 [!DNL Audience Manager]과(와) 공유하는 개인 키를 사용하여 [IRIS](../../../reference/system-components/components-data-action.md#iris)와(과) HTTP(S) 서버 간에 전송되는 `HTTP(S)` 요청에 디지털 서명을 할 수 있습니다. 이렇게 하면 다음 사항이 보장됩니다.
+귀하가 제공하고 [!DNL Audience Manager]과(와) 공유하는 개인 키를 사용하여 `HTTP(S)`IRIS[와(과) HTTP(S) 서버 간에 전송되는 ](../../../reference/system-components/components-data-action.md#iris) 요청에 디지털 서명을 할 수 있습니다. 이렇게 하면 다음 사항이 보장됩니다.
 
 * **인증**: 개인 키([!UICONTROL IRIS])가 있는 보낸 사람만 파트너에게 유효한 `HTTP(S)`개의 메시지를 보낼 수 있습니다.
 * **메시지 무결성**: 이 방법을 사용하면 `HTTP`에서도 메시지가 왜곡되는 중간 공격의 남자로부터 보호됩니다.
@@ -55,14 +55,14 @@ POST message content
 1. [!UICONTROL IRIS]이(가) `HTTP(S)` 요청을 파트너에게 보냅니다. 이 메시지에는 위의 예와 같이 서명과 실제 메시지가 포함되어 있습니다.
 1. 파트너 서버가 `HTTP(S)` 요청을 받습니다. [!UICONTROL IRIS]에서 받은 메시지 본문과 서명을 읽습니다.
 1. 수신한 메시지 본문 및 개인 키를 기반으로 파트너 서버는 서명을 다시 계산한다. 이 작업을 수행하는 방법에 대한 아래의 [서명 계산 방법](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) 섹션을 참조하십시오.
-1. 파트너 서버(받는 사람)에서 만든 서명을 [!UICONTROL IRIS] (보낸 사람)에서 받은 서명과 비교합니다.
+1. 파트너 서버(받는 사람)에서 만든 서명을 [!UICONTROL IRIS]&#x200B;(보낸 사람)에서 받은 서명과 비교합니다.
 1. 서명이 일치하면 **정품 인증** 및 **메시지 무결성**&#x200B;의 유효성을 검사했습니다. 개인 키를 가진 발신자만 유효한 서명(진정성)을 보낼 수 있다. 또한 중간에 있는 사람은 개인 키(메시지 무결성)가 없기 때문에 메시지를 수정하고 유효한 새 서명을 생성할 수 없습니다.
 
 ![](assets/iris-digitally-sign-http-request.png)
 
 ## 서명 계산 방법 {#calculate-signature}
 
-[!DNL HMAC] (해시 기반 메시지 인증 코드)은 [!UICONTROL IRIS]에서 메시지 서명에 사용하는 메서드입니다. 구현과 라이브러리는 기본적으로 모든 프로그래밍 언어로 사용할 수 있습니다. [!DNL HMAC]에 알려진 확장 공격이 없습니다. 아래 [!DNL Java]의 예제를 참조하십시오.
+[!DNL HMAC]&#x200B;(해시 기반 메시지 인증 코드)은 [!UICONTROL IRIS]에서 메시지 서명에 사용하는 메서드입니다. 구현과 라이브러리는 기본적으로 모든 프로그래밍 언어로 사용할 수 있습니다. [!DNL HMAC]에 알려진 확장 공격이 없습니다. 아래 [!DNL Java]의 예제를 참조하십시오.
 
 ```
 // Message to be signed.
@@ -85,7 +85,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-[!DNL HMAC] 해시 구현에 대한 RFC는 [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt)입니다. 테스트 사이트: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac)(16진수 인코딩을 base64로 [변환](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)해야 함).
+[!DNL HMAC] 해시 구현에 대한 RFC는 [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt)입니다. 테스트 사이트: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac)&#x200B;(16진수 인코딩을 base64로 [변환](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)해야 함).
 
 ## 개인 키 회전 {#rotate-private-key}
 

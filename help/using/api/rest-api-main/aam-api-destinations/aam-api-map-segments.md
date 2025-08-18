@@ -22,11 +22,11 @@ ht-degree: 6%
 
 ## 지원되는 대상 유형: URL 및 쿠키만
 
-사용 가능한 `POST` 메서드를 사용하면 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations]에 매핑할 수 있습니다. 현재 이러한 [!DNL REST API] 메서드로 세그먼트를 [!UICONTROL server-to-server destinations]에 매핑할 수 없습니다. 대신 사용자 인터페이스를 사용하십시오. 그러나 관련 대상 `GET` 메서드를 사용하면 사용자 인터페이스에서 만든 [!UICONTROL server-to-server destinations]에 대한 정보를 검색할 수 있습니다.
+사용 가능한 `POST` 메서드를 사용하면 세그먼트를 [!UICONTROL URL] 및 [!UICONTROL cookie destinations]에 매핑할 수 있습니다. 현재 이러한 [!UICONTROL server-to-server destinations] 메서드로 세그먼트를 [!DNL REST API]에 매핑할 수 없습니다. 대신 사용자 인터페이스를 사용하십시오. 그러나 관련 대상 `GET` 메서드를 사용하면 사용자 인터페이스에서 만든 [!UICONTROL server-to-server destinations]에 대한 정보를 검색할 수 있습니다.
 
 ## 세그먼트를 일련화되지 않은 URL 대상에 매핑 {#map-segment-non-serial}
 
-세그먼트를 비직렬 [!UICONTROL URL] 대상에 매핑할 수 있는 `POST` 메서드.
+세그먼트를 비직렬 `POST` 대상에 매핑할 수 있는 [!UICONTROL URL] 메서드.
 
 <!-- r_map_noserial_url.xml -->
 
@@ -76,7 +76,7 @@ ht-degree: 6%
 
 ## 일련화된 URL 대상에 세그먼트 매핑 {#map-segment-serial}
 
-세그먼트를 직렬화된 [!UICONTROL URL] 대상에 매핑할 수 있는 `POST` 메서드입니다.
+세그먼트를 직렬화된 `POST` 대상에 매핑할 수 있는 [!UICONTROL URL] 메서드입니다.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -126,7 +126,7 @@ ht-degree: 6%
 
 ## 세그먼트를 쿠키 대상에 매핑: 단일 키, 직렬화되지 않음 {#map-segment-cookie-noserial}
 
-세그먼트를 단일 키의 직렬화되지 않은 [!UICONTROL cookie] 대상에 매핑할 수 있는 `POST` 메서드입니다.
+세그먼트를 단일 키의 직렬화되지 않은 `POST` 대상에 매핑할 수 있는 [!UICONTROL cookie] 메서드입니다.
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -173,7 +173,7 @@ ht-degree: 6%
 
 ## 세그먼트를 쿠키 대상에 매핑: 다중 키, 일련화되지 않음 {#map-segment-cookie-multi-noserial}
 
-세그먼트를 다중 키, 직렬화되지 않은 [!UICONTROL cookie] 대상에 매핑할 수 있는 `POST` 메서드입니다.
+세그먼트를 다중 키, 직렬화되지 않은 `POST` 대상에 매핑할 수 있는 [!UICONTROL cookie] 메서드입니다.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -269,7 +269,7 @@ ht-degree: 6%
 
 ## 세그먼트를 서버 간 대상에 매핑 {#map-segment-s2s}
 
-기존 [!UICONTROL server-to-server] 대상에 세그먼트를 매핑할 수 있는 `POST` 메서드입니다. 그러나 현재 사용 가능한 [!DNL API] 메서드로 [!UICONTROL server-to-server] 대상을 만들 수는 없습니다.
+기존 `POST` 대상에 세그먼트를 매핑할 수 있는 [!UICONTROL server-to-server] 메서드입니다. 그러나 현재 사용 가능한 [!UICONTROL server-to-server] 메서드로 [!DNL API] 대상을 만들 수는 없습니다.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -315,7 +315,7 @@ ht-degree: 6%
 
 ## 대상 매핑 벌크 만들기 {#bulk-create}
 
-[!UICONTROL cookie] 또는 [!UICONTROL URL] 대상 매핑의 배열을 전달할 수 있는 `POST` 메서드입니다.
+`POST` 또는 [!UICONTROL cookie] 대상 매핑의 배열을 전달할 수 있는 [!UICONTROL URL] 메서드입니다.
 
 <!-- r_bulk_create.xml -->
 
@@ -483,7 +483,7 @@ ht-degree: 6%
 
 ## 대상 ID별 대상 업데이트 {#update-dest-data-order}
 
-`destinationId`에 의해 기존 대상을 업데이트할 수 있는 `PUT` 메서드입니다.
+`PUT`에 의해 기존 대상을 업데이트할 수 있는 `destinationId` 메서드입니다.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -533,7 +533,7 @@ ht-degree: 6%
 
 ## 매핑 ID로 대상에 대한 매핑 업데이트 {#update-mapping-dest-id}
 
-지정한 `mappingId`까지 대상에 대한 매핑을 업데이트할 수 있는 `PUT` 메서드입니다.
+지정한 `PUT`까지 대상에 대한 매핑을 업데이트할 수 있는 `mappingId` 메서드입니다.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 

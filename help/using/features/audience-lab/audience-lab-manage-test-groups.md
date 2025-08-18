@@ -20,15 +20,15 @@ ht-degree: 0%
 
 ## 세그먼트 테스트 그룹 만들기 {#create-test-groups}
 
-### 전제 조건
+### 사전 요구 사항
 
 <!-- create-test-group.xml -->
 
-* 최소 하나 이상의 **전환 특성**&#x200B;을 설정해야 합니다. 이벤트 유형으로 **전환**&#x200B;을(를) 선택하여 [트레이트 빌더](../../features/traits/create-onboarded-rule-based-traits.md)에서 전환 트레이트를 설정할 수 있습니다. 전환 특성 및 설정 방법에 대한 자세한 내용을 보려면 [비디오](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)를 준비했습니다.
+* 최소 하나 이상의 **전환 특성**&#x200B;을 설정해야 합니다. 이벤트 유형으로 [전환](../../features/traits/create-onboarded-rule-based-traits.md)을(를) 선택하여 **트레이트 빌더**&#x200B;에서 전환 트레이트를 설정할 수 있습니다. 전환 특성 및 설정 방법에 대한 자세한 내용을 보려면 [비디오](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)를 준비했습니다.
 
   >[!IMPORTANT]
   >
-  >[!UICONTROL Audience Lab]이(가) [폴더 특성](../../features/traits/about-folder-traits.md)을(를) **지원하지 않음**&#x200B;합니다. 폴더 트레이트의 [이벤트 유형](../../features/traits/create-onboarded-rule-based-traits.md)을(를) **전환**(으)로 설정하면 특정 폴더 트레이트에 대한 [!UICONTROL Audience Lab]의 데이터가 생성되지 않습니다.
+  >[이(가) ](../../features/traits/about-folder-traits.md)폴더 특성&#x200B;**을(를)**&#x200B;지원하지 않음[!UICONTROL Audience Lab]합니다. 폴더 트레이트의 [이벤트 유형](../../features/traits/create-onboarded-rule-based-traits.md)을(를) **전환**(으)로 설정하면 특정 폴더 트레이트에 대한 [!UICONTROL Audience Lab]의 데이터가 생성되지 않습니다.
 
 * [역할 기반 액세스 제어를 사용하는 회사의 경우](../../features/administration/administration-overview.md): [!UICONTROL Audience Lab] [와일드카드 권한](../../features/administration/administration-overview.md#wild-card-permissions)을(를) **[!UICONTROL User Groups]**&#x200B;에 할당하여 액세스 권한을 제공하십시오. 이 권한을 사용하면 테스트 결과를 만들고 볼 수 있습니다. 사용자는 **읽기** 및 **대상에 매핑** 권한이 있는 데이터 원본의 세그먼트만 사용할 수 있습니다. 사용자는 **&quot;읽기&quot;** 권한이 있는 데이터 원본의 전환 트레이트만 사용할 수 있습니다. 사용자는 액세스 권한이 있는 대상만 볼 수 있습니다. 따라서 그룹에 [!DNL Audience Lab] 와일드카드 권한을 추가하기 전에 그룹에 다음이 있는지 확인하십시오.
    * 관련 전환 트레이트 읽기에 대한 액세스
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 새 [!UICONTROL Segment Test Group]을(를) 만들려면
 
-1. [!UICONTROL Audience Lab] 대시보드에서 **[!UICONTROL Create New Test Group]**&#x200B;을(를) 선택하여 마법사를 시작합니다.
+1. **[!UICONTROL Create New Test Group]** 대시보드에서 [!UICONTROL Audience Lab]을(를) 선택하여 마법사를 시작합니다.
 1. **[!UICONTROL Basic Info & Choose Segment]**
 
    * **[!UICONTROL Test Group Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
@@ -62,7 +62,7 @@ ht-degree: 0%
    * 변환 트레이트 창에 를 입력하여 변환 트레이트를 추가합니다. **필수** 단계이며 전환 특성을 하나 이상 추가하지 않으면 다음 단계로 진행할 수 없습니다.
    * 원할 경우 최대 5개의 전환 트레이트를 추가할 수 있습니다.
    * 다른 테스트 그룹에 이미 사용된 전환 트레이트를 선택하면 경고가 표시됩니다.
-   * Audience Manager은 [폴더 트레이트](/help/using/features/traits/about-folder-traits.md)를 전환 트레이트로 사용할 수 없습니다. 폴더 트레이트를 전환 트레이트로 선택하면 테스트 내에 0개의 집계 및 트렌드 보고가 표시됩니다.
+   * Audience Manager에서는 [폴더 트레이트](/help/using/features/traits/about-folder-traits.md)를 전환 트레이트로 사용할 수 없습니다. 폴더 트레이트를 전환 트레이트로 선택하면 테스트 내에 0개의 집계 및 트렌드 보고가 표시됩니다.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >* 생성 프로세스의 어느 시점에서든 테스트 그룹을 저장하고 나중에 마법사로 돌아갈 수 있습니다. 테스트 그룹 상태는 **[!UICONTROL Draft]**&#x200B;이(가) 되며 세그먼트 테스트 그룹을 완료할 때까지 테스트 그룹이 대상으로 데이터를 전송하지 않습니다.
-   >* 초안 테스트의 경우 돌아가서 기본 [!UICONTROL Audience Lab] 보기의 테스트 그룹 카드에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 테스트 그룹을 편집할 수 있습니다.
+   >* 초안 테스트의 경우 돌아가서 기본 **[!UICONTROL Edit]** 보기의 테스트 그룹 카드에서 [!UICONTROL Audience Lab]을(를) 클릭하여 테스트 그룹을 편집할 수 있습니다.
 
 ## 세그먼트 테스트 그룹 편집 {#edit-test-groups}
 

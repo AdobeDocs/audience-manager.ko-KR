@@ -56,7 +56,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Private]** 및 **[!UICONTROL Branded]**: 구매자의 [!UICONTROL Marketplace] 목록에 공급자 열에 판매자 이름이 표시되고 다른 모든 데이터는 숨겨집니다.
 
-* **[!UICONTROL Private]** 및 **[!UICONTROL Unbranded]**: 구매자의 [!UICONTROL Marketplace] 목록에 데이터 피드 이름과 설명만 표시됩니다. 데이터 공급자 이름이 [!UICONTROL Private Seller] (으)로 표시됩니다.
+* **[!UICONTROL Private]** 및 **[!UICONTROL Unbranded]**: 구매자의 [!UICONTROL Marketplace] 목록에 데이터 피드 이름과 설명만 표시됩니다. 데이터 공급자 이름이 [!UICONTROL Private Seller]&#x200B;(으)로 표시됩니다.
 
 비공개 피드가 구매자에게 어떻게 보이는지 확인하려면 [비공개 데이터 피드](../../../features/audience-marketplace/marketplace-private-feeds.md)의 구매자 섹션을 참조하십시오.
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 [!DNL Plan types]은(는) [!UICONTROL Audience Marketplace] 데이터 피드의 필수 구성 요소입니다. 데이터 공급자는 피드에 대한 여러 사용 사례와 가격 옵션을 만들 수 있도록 해줍니다. 또한 각 데이터 피드에 대해 몇 가지 계획을 만드는 것도 좋은 전략이 될 수 있습니다. 이를 통해 구매자는 모델링하거나 대상으로 전송할 데이터를 찾는 경우 선택할 수 있는 다양한 옵션을 제공합니다.
 
-[!UICONTROL Plan Types]을(를) 선택하려면 [데이터 피드를 만듭니다](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
+[을(를) 선택하려면 ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)데이터 피드를 만듭니다[!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 
@@ -156,7 +156,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> 가격</span></b> </td>
-   <td colname="col2"> 판매자가 구매자에게 CPM 요금 또는 정액 수수료 가격으로 청구하는 금액(달러 단위)입니다. </td>
+   <td colname="col2"> 판매자가 구매자에게 CPM 요금 또는 정액 수수료 가격으로 부과하는 금액(달러 단위)입니다. </td>
   </tr> 
  </tbody> 
 </table>
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 구매자의 비공개 피드 요청 관리를 위한 공급자 워크플로우입니다.
 
-구매자 요청을 검토, 승인 또는 거부하려면 [!UICONTROL My Shared Data] (으)로 이동하여 다음을 수행합니다.
+구매자 요청을 검토, 승인 또는 거부하려면 [!UICONTROL My Shared Data]&#x200B;(으)로 이동하여 다음을 수행합니다.
 
 <!-- t_private_feed_workflows.xml -->
 

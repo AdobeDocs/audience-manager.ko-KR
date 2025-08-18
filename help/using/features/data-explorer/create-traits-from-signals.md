@@ -17,7 +17,7 @@ ht-degree: 0%
 
 트레이트에 이미 사용된 트레이트를 포함하여 모든 신호에서 새 트레이트를 만들고 트레이트 만들기 후에 자격을 부여하는 향후 대상을 캡처합니다. 비디오를 시청하여 빠른 데모를 수행하거나 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30934/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## 신호 대시보드에서 트레이트 만들기 {#create-traits-from-signal-dashboard}
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 새 트레이트를 만들 때 트레이트 유형은 신호 유형을 기반으로 미리 설정됩니다.
 
-* 실시간 신호, 실행 가능한 로그 파일 및 [!DNL Adobe Analytics]개 신호에 대한 트레이트 **[!UICONTROL Rule-based]**&#x200B;개,
+* 실시간 신호, 실행 가능한 로그 파일 및 **[!UICONTROL Rule-based]**&#x200B;개 신호에 대한 트레이트 [!DNL Adobe Analytics]개,
 
 * 온보딩된 신호에 대한 트레이트 **[!UICONTROL Onboarded]**&#x200B;개.
 

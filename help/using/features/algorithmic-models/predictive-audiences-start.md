@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 예측 대상 모델 만들기 {#create-predictive-audiences}
 
-[!UICONTROL Predictive Audiences] 모델을 만들기 전에 [!UICONTROL Predictive Audiences] 트레이트 및 세그먼트를 할당할 자사 데이터 원본을 결정해야 합니다. 기존 자사 데이터 소스를 사용하거나 새 데이터 소스를 만들 수 있습니다. 새 자사 데이터 원본을 만드는 방법에 대한 자세한 내용은 [데이터 원본 관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=ko)를 참조하세요.
+[!UICONTROL Predictive Audiences] 모델을 만들기 전에 [!UICONTROL Predictive Audiences] 트레이트 및 세그먼트를 할당할 자사 데이터 원본을 결정해야 합니다. 기존 자사 데이터 소스를 사용하거나 새 데이터 소스를 만들 수 있습니다. 새 자사 데이터 원본을 만드는 방법에 대한 자세한 내용은 [데이터 원본 관리](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)를 참조하세요.
 
 사용할 데이터 소스를 알게 되면 아래 단계를 수행합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
    ![스마트 사용자 추가](assets/predictive-audiences-add.png)
 
-1. 다음으로 대상자를 분류할 가상 사용자를 정의합니다. 이렇게 하려면 트레이트 또는 세그먼트를 선택하여 가상 사용자를 빌드할 수 있습니다. 화면 왼쪽 상단의 [!UICONTROL Traits] 및 [!UICONTROL Segments] 탭을 사용하여 트레이트와 세그먼트 카탈로그 간에 전환합니다. 가상 사용자로 사용할 트레이트 또는 세그먼트를 식별했으면 [!UICONTROL Action] 열에서 해당 **[!UICONTROL Add]** 아이콘을 클릭합니다.
+1. 다음으로 대상자를 분류할 가상 사용자를 정의합니다. 이렇게 하려면 트레이트 또는 세그먼트를 선택하여 가상 사용자를 빌드할 수 있습니다. 화면 왼쪽 상단의 [!UICONTROL Traits] 및 [!UICONTROL Segments] 탭을 사용하여 트레이트와 세그먼트 카탈로그 간에 전환합니다. 가상 사용자로 사용할 트레이트 또는 세그먼트를 식별했으면 **[!UICONTROL Add]** 열에서 해당 [!UICONTROL Action] 아이콘을 클릭합니다.
    ![스마트 사용자 선택 가상 사용자](assets/predictive-audiences-persona.png)
    >[!NOTE]
    >기준선 성향에 대해 최소한 두 개의 트레이트 또는 두 개의 세그먼트를 선택해야 합니다. 트레이트와 세그먼트를 모두 함께 사용할 수는 없습니다.
@@ -41,14 +41,13 @@ ht-degree: 2%
    * **[!UICONTROL Model Name]**: 나중에 식별하는 데 도움이 되도록 모델의 수사적 이름을 입력하십시오. 모델에서 생성된 세그먼트의 이름은 모델 이름으로 시작됩니다.
    * **[!UICONTROL Description]**: 사용 사례를 식별하는 데 도움이 되는 모델의 설명을 입력하십시오.
    * **[!UICONTROL Data Source]**: 이 모델의 [!UICONTROL Predictive Audiences] 세그먼트를 할당할 자사 데이터 원본을 선택하십시오.
-   * **[!UICONTROL Profile Merge Rule]**: 이 모델에서 만든 모든 예측 [!UICONTROL segments]에 대해 할당할 [!UICONTROL Profile Merge Rule]을(를) 선택하십시오. 선택한 타겟 대상이 [!UICONTROL segment]인 경우 타겟 대상의 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택하는 것이 좋습니다.
-
+   * **[!UICONTROL Profile Merge Rule]**: 이 모델에서 만든 모든 예측 [!UICONTROL Profile Merge Rule]에 대해 할당할 [!UICONTROL segments]을(를) 선택하십시오. 선택한 타겟 대상이 [!UICONTROL segment]인 경우 타겟 대상의 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택하는 것이 좋습니다.
      ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
 ## 예측 대상 모델 복제 및 편집 {#clone-predictive-audiences}
 
-Audience Manager은 기존 [!UICONTROL Predictive Audiences] 모델을 편집할 수 없습니다. 모델의 구성을 변경하려면 기존 모델의 클론을 생성하여 편집할 수 있습니다. 이 작업을 수행하는 방법은 다음과 같습니다.
+Audience Manager에서는 기존 [!UICONTROL Predictive Audiences] 모델을 편집할 수 없습니다. 모델의 구성을 변경하려면 기존 모델의 클론을 생성하여 편집할 수 있습니다. 이 작업을 수행하는 방법은 다음과 같습니다.
 
 1. **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**(으)로 이동합니다.
 2. 복제할 [!UICONTROL Predictive Audiences] 모델의 이름을 클릭합니다.

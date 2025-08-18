@@ -21,8 +21,8 @@ ht-degree: 46%
 
 * **마지막 업데이트** = 이 [!UICONTROL device-based destination]에 대한 업데이트가 있는 마지막 날짜를 표시합니다.
 * **업데이트** = [!DNL Audience Manager]이(가) 이 [!UICONTROL destination]에 데이터를 실시간으로 전송하는지 일괄 처리(1xday)로 전송하는지를 나타냅니다.
-* **세그먼트 해제** = 세그먼테이션 해제는 [!UICONTROL segments]에서 장치 프로필의 자격을 해제하고 제거하는 프로세스를 설명합니다. [!UICONTROL segment]에서 장치 프로필을 제거하는 기능은 [!UICONTROL Profile Merge Rule]을(를) 만드는 데 사용된 장치 옵션에 따라 다릅니다. [!DNL GDPR] 삭제 요청의 컨텍스트에서도 세그먼테이션 해제가 사용됩니다. [프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [세그먼테이션 해제 기능이 있는 Audience Manager 파트너](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)를 참조하십시오. [!DNL Audience Manager]이(가) 아래의 **예**(으)로 표시된 [!UICONTROL destinations]에 세그먼트 해제 정보를 보냅니다.
-* **[!DNL IAB TCF]개의 동의 신호를 받는 중** = [!DNL Audience Manager Plug-in for IAB TCF]을(를) 사용하면 사용자의 개인 정보 보호 선택 사항을 준수하면서 [!DNL IAB TC] 문자열을 활성화 파트너에게 전달할 수 있습니다. IAB TCF용 [Audience Manager 플러그 인](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)을(를) 읽습니다.
+* **세그먼트 해제** = 세그먼테이션 해제는 [!UICONTROL segments]에서 장치 프로필의 자격을 해제하고 제거하는 프로세스를 설명합니다. [!UICONTROL segment]에서 장치 프로필을 제거하는 기능은 [!UICONTROL Profile Merge Rule]을(를) 만드는 데 사용된 장치 옵션에 따라 다릅니다. [!DNL GDPR] 삭제 요청의 컨텍스트에서도 세그먼테이션 해제가 사용됩니다. [프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [세그먼테이션 해제 기능이 있는 Audience Manager 파트너](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)를 참조하십시오. [!DNL Audience Manager]이(가) 아래의 [!UICONTROL destinations]예&#x200B;**(으)로 표시된**&#x200B;에 세그먼트 해제 정보를 보냅니다.
+* **[!DNL IAB TCF]개의 동의 신호를 받는 중** = [!DNL Audience Manager Plug-in for IAB TCF]을(를) 사용하면 사용자의 개인 정보 보호 선택 사항을 준수하면서 [!DNL IAB TC] 문자열을 활성화 파트너에게 전달할 수 있습니다. IAB TCF용 [Audience Manager 플러그인](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)을 읽으십시오.
 * **[!DNL ICDS]** = 이 열에는 [!UICONTROL Instant Cross-Device Suppression]을(를) 지원하는 파트너가 나열됩니다. [즉각적인 장치 간 억제](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)에 대해 읽어 보십시오.
 * **모바일 장치 ID** = [!DNL Audience Manager]에서 모바일 장치 ID를 받을 수 있는 파트너를 나열하는 열입니다.
 
@@ -48,7 +48,7 @@ ht-degree: 46%
 | [!DNL AOL ONE] | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 아니오 | 예 |
 | [!DNL AppNexus] | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 예 | 예 |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | 예 | 아니오 | 아니오 | 아니오 |
-| [!DNL Artsai] (이전 [!DNL Adxcel]) | 27/01/2020 | 1xday | 아니오 | 아니오 | 아니오 | 예 |
+| [!DNL Artsai]&#x200B;(이전 [!DNL Adxcel]) | 27/01/2020 | 1xday | 아니오 | 아니오 | 아니오 | 예 |
 | [!DNL Atedra]/[!DNL AdStanding] | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 예 | 아니요 |
 | [!DNL Avocet] | 2017/06/12 | 1xday | 아니오 | 아니오 | 아니오 | 아니오 |
 | [!DNL Bidtellect] | 03/03/2017 | 실시간 | 예 | 아니오 | 아니오 | 아니오 |
@@ -70,7 +70,7 @@ ht-degree: 46%
 | [!DNL DistrictM] | 2017년 2월 3일 | 1xday | 예 | 아니오 | 아니오 | 아니오 |
 | [!DNL DoubleVerify] | 06/09/2017 | 1xday | 예 | 아니오 | 아니오 | 아니오 |
 | [!DNL Drawbridge] | 2017년 2월 3일 | 실시간 | 아니오 | 아니오 | 아니오 | 예 |
-| [!DNL Dstillery] ([!DNL FKA Media6]) | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 아니오 | 예 |
+| [!DNL Dstillery]&#x200B;([!DNL FKA Media6]) | 2017년 2월 3일 | 실시간 | 예 | 아니오 | 아니오 | 예 |
 | [!DNL Dunnhumby] | 21/11/2019 | 1xday | 아니오 | 아니오 | 아니오 | 아니오 |
 | [!DNL easyfundraising] | 27/06/2019 | 1xday | 아니오 | 아니오 | 아니오 | 예 |
 | [!DNL Epsilon Conversant] | 03/03/2017 | 실시간 | 아니오 | 아니오 | 아니오 | 아니오 |

@@ -21,36 +21,36 @@ ht-degree: 0%
 | 기존 데이터 수집 방법 | 웹 SDK 마이그레이션 지침 |
 |---------|----------|
 | AudienceManagement 모듈이 포함된 [!DNL AppMeasurement] JavaScript 라이브러리 | 이 안내서의 지침을 따르십시오. |
-| [!DNL Audience Manager] [태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/audience-manager/overview) | [데이터 수집 라이브러리를 Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 업데이트](dil-extension-to-web-sdk.md)의 지침을 따릅니다. |
+| [!DNL Audience Manager] [태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) | [데이터 수집 라이브러리를 Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 업데이트](dil-extension-to-web-sdk.md)의 지침을 따릅니다. |
 | [!DNL AppMeasurement] JavaScript 라이브러리 + 독립 실행형 [!DNL Audience Manager] [DIL 라이브러리](../dil/dil-overview.md) | [데이터 수집 라이브러리를 Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 업데이트](dil-extension-to-web-sdk.md)의 지침을 따릅니다. |
 
 ## 마이그레이션 개요 {#overview}
 
-[!DNL AppMeasurement]에서 [웹 SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)&#x200B;(으)로의 마이그레이션은 주로 Adobe Analytics 마이그레이션입니다. Audience Manager 고객의 경우 이 마이그레이션에 Audience Manager도 포함됩니다. 둘 다 함께 마이그레이션해야 합니다. 주로 Audience Manager을 사용하는 경우 이 마이그레이션에 Analytics 팀이 참여하도록 하십시오.
+[!DNL AppMeasurement]에서 [웹 SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)&#x200B;(으)로의 마이그레이션은 주로 Adobe Analytics 마이그레이션입니다. Audience Manager 고객의 경우 이 마이그레이션에 Audience Manager도 포함됩니다. 둘 다 함께 마이그레이션해야 합니다. 주로 Audience Manager을 사용하는 경우 이 마이그레이션에 Analytics 팀이 참여하도록 하십시오.
 
 Audience Manager 데이터 수집에 [!DNL AppMeasurement]을(를) 사용하는 경우 현재 [!DNL Server-side Forwarding (SSF)] 접근 방식을 사용하여 Analytics 데이터를 Audience Manager으로 보냅니다. 이 설정에서는 Analytics 데이터 수집 요청이 Audience Manager으로 전달되며, 이 요청은 페이지에 대한 Audience Manager 응답도 처리합니다.
 
-이는 수년 동안 표준 접근 방식이었으며 현재 설정일 가능성이 높습니다. [!DNL AppMeasurement] 라이브러리에 `AudienceManagement` 모듈이 있고 데이터 수집 호출에 요청(`/b/ss/examplereportsuite/10/`)의 `/10/` 경로가 포함된 경우 이 안내서는 사용자를 위한 것입니다.
+이는 수년 동안 표준 접근 방식이었으며 현재 설정일 가능성이 높습니다. [!DNL AppMeasurement] 라이브러리에 `AudienceManagement` 모듈이 있고 데이터 수집 호출에 요청(`/10/`)의 `/b/ss/examplereportsuite/10/` 경로가 포함된 경우 이 안내서는 사용자를 위한 것입니다.
 
 ## SSF(서버 측 전달) 대 웹 SDK 데이터 흐름 {#data-flows}
 
 Web SDK(및 Audience Manager)로 이동할 때 Analytics와 Edge Network 간의 데이터 흐름 차이를 이해하는 것은 아래 지침에 중요합니다.
 
-서버측 전달을 통해 Analytics 지역 데이터 수집 노드는 데이터를 수집하여 Audience Manager에서 허용하는 신호로 변환한 다음 Audience Manager으로 전송하고 Audience Manager 응답을 페이지로 반환합니다. 그런 다음 [!DNL AppMeasurement] 라이브러리의 [!DNL AudienceManagement] 모듈이 응답을 처리합니다(예: 쿠키 삭제, URL 대상 전송). 이 프로세스를 서버측 전달이라고 하는 이유는 Analytics가 Adobe 서버를 사용하여 데이터를 Audience Manager에 전달하기 때문입니다.
+서버측 전달을 통해 Analytics 지역 데이터 수집 노드는 데이터를 수집하여 Audience Manager에서 허용하는 신호로 변환한 다음 Audience Manager으로 전송하고 Audience Manager 응답을 페이지로 반환합니다. 그런 다음 [!DNL AudienceManagement] 라이브러리의 [!DNL AppMeasurement] 모듈이 응답을 처리합니다(예: 쿠키 삭제, URL 대상 전송). 이 프로세스를 서버측 전달이라고 하는 이유는 Analytics가 Adobe 서버를 사용하여 데이터를 Audience Manager에 전달하기 때문입니다.
 
 Web SDK을 사용하면 Edge Network이 데이터를 별도의 작업으로 Analytics와 Audience Manager에 전송합니다. 웹 SDK은 모든 솔루션에 데이터를 전송하는 단일 라이브러리이며, Edge Network은 솔루션에 관계없는 데이터 포인트를 솔루션별 형식으로 변환합니다.
 
-이 새로운 데이터 흐름에서는 모든 데이터가 Edge Network [데이터스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview)&#x200B;(으)로 전송되며, 필요에 따라 Adobe 솔루션으로 데이터를 전송하기 위해 [구성](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure)할 수 있습니다. Audience Manager의 경우 데이터 스트림에서 Audience Manager 서비스를 활성화하면 [!DNL XDM] 및 Analytics 데이터가 Audience Manager에서 허용하는 신호로 변환됩니다. 또한 Edge Network은 웹 SDK이 응답을 처리하는 페이지에 Audience Manager 응답을 반환합니다. 이는 [!DNL AppMeasurement] 및 [!DNL AudienceManagement] 모듈이 수행한 방식과 유사합니다.
+이 새로운 데이터 흐름에서는 모든 데이터가 Edge Network [데이터스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)&#x200B;(으)로 전송되며, 필요에 따라 Adobe 솔루션으로 데이터를 전송하기 위해 [구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)할 수 있습니다. Audience Manager의 경우 데이터 스트림에서 Audience Manager 서비스를 활성화하면 [!DNL XDM] 및 Analytics 데이터가 Audience Manager에서 허용하는 신호로 변환됩니다. 또한 Edge Network은 웹 SDK이 응답을 처리하는 페이지에 Audience Manager 응답을 반환합니다. 이는 [!DNL AppMeasurement] 및 [!DNL AudienceManagement] 모듈이 수행한 방식과 유사합니다.
 
 ## 태그와 비 태그 마이그레이션 {#tags-vs-non-tags}
 
 다른 태그 관리 시스템에 있는 [!DNL AppMeasurement] 라이브러리, [!DNL AppMeasurement] 확장과 함께 태그를 사용하거나 [!DNL AppMeasurement]을(를) 페이지에 직접 배치하든 간에 Audience Manager을 웹 SDK으로 마이그레이션하는 단계는 동일합니다. Audience Manager 마이그레이션은 Analytics 마이그레이션에 따라 다르므로 Analytics 마이그레이션 중에 [!DNL AppMeasurement]에서 Web SDK으로 마이그레이션하는 단계가 결정됩니다.
 
-해당 정보는 Analytics 설명서에서 [Tags](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) 또는 [JavaScript](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) 기반 구현에 대해 다룹니다.
+해당 정보는 Analytics 설명서에서 [Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) 또는 [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) 기반 구현에 대해 다룹니다.
 
 ## XDM 및 `data.__adobe.` 노드 {#xdm-data-nodes}
 
-[Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)의 기본 함수 중 하나는 [Real-Time Customer Data Platform(RTCDP)](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/home)에 데이터를 보내는 것입니다. 이를 실현하고 전체 다시 구현 없이 다른 Experience Cloud 솔루션에 대한 데이터를 계속 수집하려면 솔루션별 데이터가 데이터 수집 서버 호출 내에서 구분됩니다. 이 호출에서는 [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home)이라는 표준화된 JSON 스키마를 사용합니다
+[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)의 기본 함수 중 하나는 [Real-Time Customer Data Platform(RTCDP)](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)에 데이터를 보내는 것입니다. 이를 실현하고 전체 다시 구현 없이 다른 Experience Cloud 솔루션에 대한 데이터를 계속 수집하려면 솔루션별 데이터가 데이터 수집 서버 호출 내에서 구분됩니다. 이 호출에서는 [XDM(경험 데이터 모델)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)이라는 표준화된 JSON 스키마를 사용합니다
 
 브라우저 및 장치에 대한 정보와 같은 솔루션과 관계없는 요소는 사전 결정된 XDM 구조로 Edge Network으로 전송됩니다. Edge Network은 이 데이터를 솔루션별 형식으로 변환합니다. 그러나 Target, Analytics 및 Audience Manager에 고유한 데이터는 XDM 페이로드 내의 전용 `data.__adobe` 노드에 저장됩니다.
 
@@ -59,7 +59,7 @@ Web SDK을 사용하면 Edge Network이 데이터를 별도의 작업으로 Anal
 * Analytics 변수 `s.eVar1`이(가) XDM 페이로드에 `data.__adobe.analytics.evar1`(으)로 표시됩니다.
 * 고객 충성도 상태와 관련된 Target 매개 변수는 `data.__adobe.target.loyaltyStatus`(으)로 저장됩니다.
 
-데이터 스트림에서 Experience Platform 서비스가 활성화되어 있더라도 `__adobe` 노드의 데이터는 Experience Platform으로 전송되지 않고 각 솔루션(예: Analytics 및 Audience Manager)으로 전송됩니다. 즉, [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/data-prep)를 사용하여 Experience Platform에서 실시간 사용 사례를 위해 필요한 데이터 요소를 XDM 스키마 요소에 매핑할 수 있는 유연성을 가지면서 Analytics 및 Audience Manager에 대한 현재 구성을 유지할 수 있습니다.
+데이터 스트림에서 Experience Platform 서비스가 활성화되어 있더라도 `__adobe` 노드의 데이터는 Experience Platform으로 전송되지 않고 각 솔루션(예: Analytics 및 Audience Manager)으로 전송됩니다. 즉, [데이터 수집을 위한 데이터 준비](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep)를 사용하여 Experience Platform에서 실시간 사용 사례를 위해 필요한 데이터 요소를 XDM 스키마 요소에 매핑할 수 있는 유연성을 가지면서 Analytics 및 Audience Manager에 대한 현재 구성을 유지할 수 있습니다.
 
 예를 들어 체크아웃 중에 장바구니 컨텐츠를 보고하는 데 사용되는 Analytics `s.products` 문자열은 여전히 원래 형식으로 Analytics 및 Audience Manager에 보낼 수 있습니다. 동시에 이 문자열의 요소를 사용하여 Experience Platform 사용 사례에 대한 보다 직관적인 XDM 장바구니 스키마를 만들 수 있습니다.
 
@@ -71,7 +71,7 @@ Edge Network은 XDM 페이로드 및 패킷 헤더에서 장치 및 브라우저
 
 ## `data.__adobe.audiencemanager` 노드 {#data-note}
 
-`data.__adobe.audiencemanager` 노드는 Analytics에 의존하지 않는 Audience Manager 구현에 사용됩니다. [태그 확장 마이그레이션 안내서](dil-extension-to-web-sdk.md)에 설명된 대로 이전에 [DIL 라이브러리](../dil/dil-overview.md) 라이브러리를 통해 전송된 사용자 지정 Audience Manager 키/값 쌍을 저장합니다.
+`data.__adobe.audiencemanager` 노드는 Analytics에 의존하지 않는 Audience Manager 구현에 사용됩니다. [태그 확장 마이그레이션 안내서](../dil/dil-overview.md)에 설명된 대로 이전에 [DIL 라이브러리](dil-extension-to-web-sdk.md) 라이브러리를 통해 전송된 사용자 지정 Audience Manager 키/값 쌍을 저장합니다.
 
 이 안내서에 요약된 마이그레이션에 `data.__adobe.audiencemanager` 노드가 필요하지 않지만 여기에 설명된 새로운 데이터 흐름을 사용하면 Analytics에 기록되지 않고 데이터를 Audience Manager으로 보낼 수 있습니다.
 
@@ -88,7 +88,7 @@ Edge Network은 XDM 페이로드 및 패킷 헤더에서 장치 및 브라우저
 Adobe은 다음 시나리오에서 이 구현 경로를 따를 것을 권장합니다.
 
 * Adobe Analytics AppMeasurement JavaScript 라이브러리를 사용하는 기존 구현이 있습니다. Audience Manager 태그 확장을 사용하는 구현이 있는 경우 대신 [Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션](dil-extension-to-web-sdk.md)을 따르십시오.
-* 나중에 Real-Time CDP을 사용할 계획이지만 Audience Manager 구현을 처음부터 웹 SDK 구현으로 바꾸지는 않을 것입니다. 구현을 처음부터 웹 SDK으로 대체하려면 XDM 형식 데이터를 찾기 위해 모든 Audience Manager 트레이트를 다시 빌드해야 하므로 가장 많은 노력이 필요합니다. 그러나 가장 실행 가능한 장기 구현 아키텍처이기도 합니다. 조직에서 깔끔한 웹 SDK 구현을 수행하려는 경우 자세한 내용은 이 안내서를 사용하지 않고 [웹 SDK 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)를 참조하십시오.
+* 나중에 Real-Time CDP을 사용할 계획이지만 Audience Manager 구현을 처음부터 웹 SDK 구현으로 바꾸지는 않을 것입니다. 구현을 처음부터 웹 SDK으로 대체하려면 XDM 형식 데이터를 찾기 위해 모든 Audience Manager 트레이트를 다시 빌드해야 하므로 가장 많은 노력이 필요합니다. 그러나 가장 실행 가능한 장기 구현 아키텍처이기도 합니다. 조직에서 깔끔한 웹 SDK 구현을 수행하려는 경우 자세한 내용은 이 안내서를 사용하지 않고 [웹 SDK 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)를 참조하십시오.
 
 ## 웹 SDK으로 마이그레이션하는 데 필요한 단계
 
@@ -96,7 +96,7 @@ Adobe은 다음 시나리오에서 이 구현 경로를 따를 것을 권장합�
 
 +++**1. Analytics 마이그레이션을 계획하십시오**.
 
-Analytics 팀과 함께 [Tags](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) 또는 [JavaScript](https://experienceleague.adobe.com/ko/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) 기반 구현에서 Analytics 마이그레이션 단계를 따릅니다. Analytics 마이그레이션을 계획한 후 이 안내서로 돌아가서 Audience Manager 단계를 계속 진행하여 Analytics와 Audience Manager 마이그레이션을 함께 배포할 수 있도록 Audience Manager에 대해 수행해야 할 작업을 결정합니다.
+Analytics 팀과 함께 [Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) 또는 [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) 기반 구현에서 Analytics 마이그레이션 단계를 따릅니다. Analytics 마이그레이션을 계획한 후 이 안내서로 돌아가서 Audience Manager 단계를 계속 진행하여 Analytics와 Audience Manager 마이그레이션을 함께 배포할 수 있도록 Audience Manager에 대해 수행해야 할 작업을 결정합니다.
 
 +++
 
@@ -135,7 +135,7 @@ Analytics 팀과 함께 [Tags](https://experienceleague.adobe.com/ko/docs/analyt
 1. 데이터 스트림 구성 페이지의 오른쪽 상단 모서리에서 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Advanced Options]** 드롭다운 메뉴를 확장하고 아직 활성화되지 않은 경우 **[!UICONTROL Third Party ID Sync]** 기능을 활성화합니다. 이 옵션은 Edge Network에 Audience Manager 및 Experience Platform 데이터 파트너에 대한 파트너 ID 동기화를 반환하도록 지시합니다.
 
-   ![타사 ID 동기화를 사용합니다.](assets/third-party-id-sync.png) {style="border:1px solid lightslategray"}
+   ![타사 ID 동기화를 사용하도록 설정합니다.](assets/third-party-id-sync.png) {style="border:1px solid lightslategray"}
 
 1. 대부분의 경우 **[!UICONTROL Third Party ID Sync Container ID]** 필드를 비워 둘 수 있습니다. 기본적으로 `0`(으)로 설정됩니다. 그러나 올바른 컨테이너 ID가 사용되도록 하려면 다음 단계를 따르십시오.
    * 시크릿 또는 비공개 모드로 브라우저 창을 열고 마이그레이션에 포함된 페이지로 이동합니다.
@@ -150,13 +150,13 @@ Analytics 팀과 함께 [Tags](https://experienceleague.adobe.com/ko/docs/analyt
 
 +++**4. ID 맵에 고객 ID 추가**
 
-대부분의 Audience Manager 구현에서는 장치 간 개인화 시나리오에서 [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-overview.md)을 사용하여 방문자가 인증 상태(로그인 또는 로그아웃)에 따라 자격을 부여할 수 있는 세그먼트를 제어할 수 있습니다. 프로필 병합 규칙을 사용하려면 인증 후 모든 데이터 수집 호출에서 고객 소유 식별자(CRM ID, 계정 번호 등)를 Audience Manager으로 보내야 합니다. 이전에는 방문자 ID 서비스([!DNL visitor.js])의 `setCustomerIDs` 함수를 사용하여 고객 ID를 각 Analytics 데이터 수집 호출에 추가한 다음 Audience Manager으로 전달했습니다.
+대부분의 Audience Manager 구현에서는 장치 간 개인화 시나리오에서 [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-overview.md)을 사용하여 방문자가 인증 상태(로그인 또는 로그아웃)에 따라 자격을 부여할 수 있는 세그먼트를 제어할 수 있습니다. 프로필 병합 규칙을 사용하려면 인증 후 모든 데이터 수집 호출에서 고객 소유 식별자(CRM ID, 계정 번호 등)를 Audience Manager으로 보내야 합니다. 이전에는 방문자 ID 서비스(`setCustomerIDs`)의 [!DNL visitor.js] 함수를 사용하여 고객 ID를 각 Analytics 데이터 수집 호출에 추가한 다음 Audience Manager으로 전달했습니다.
 
-웹 SDK을 사용하면 이제 [IdentityMap](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/identitymap)이라는 특수한 XDM 구문을 사용하여 이러한 ID를 Edge Network으로 전송해야 합니다.
+웹 SDK을 사용하면 이제 [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap)이라는 특수한 XDM 구문을 사용하여 이러한 ID를 Edge Network으로 전송해야 합니다.
 
-ID 맵에서 ID를 올바르게 전달하려면 [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 이해하고 전달할 ID를 신중하게 고려해야 합니다. 특히 Experience Platform 샌드박스로 데이터를 전송할 때 더욱 그렇습니다. [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-21305)에서는 이러한 고려 사항과 지침을 간략하게 설명합니다.
+ID 맵에서 ID를 올바르게 전달하려면 [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 이해하고 전달할 ID를 신중하게 고려해야 합니다. 특히 Experience Platform 샌드박스로 데이터를 전송할 때 더욱 그렇습니다. [이 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305)에서는 이러한 고려 사항과 지침을 간략하게 설명합니다.
 
-전달할 ID와 시기를 결정했으면 Tags 내에서 [!UICONTROL Identity map] **[!UICONTROL Identity map]** [데이터 요소](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map)를 사용하기 위한 안내서를 따르거나 [ID 데이터 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/identity/overview)에 설명된 대로 수동으로 설정하여 웹 SDK 배포 전략에 맞게 조정하십시오.
+전달할 ID와 시기를 결정했으면 Tags 내에서 [!UICONTROL Identity map] **[!UICONTROL Identity map]** [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map)를 사용하기 위한 안내서를 따르거나 [ID 데이터 개요](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)에 설명된 대로 수동으로 설정하여 웹 SDK 배포 전략에 맞게 조정하십시오.
 
 +++
 
@@ -164,13 +164,13 @@ ID 맵에서 ID를 올바르게 전달하려면 [ID 네임스페이스](https://
 
 수년 동안 표준 방법은 Audience Manager UUID(타사 demdex 쿠키의 값)를 일반적으로 이름이 `aam_uuid`인 자사 쿠키에 배치하는 것이었습니다.
 
-쿠키를 설정하려면 `audienceManagementModule`을(를) 구성할 때 Analytics 태그 확장 **[!UICONTROL Unique User ID Cookie]** 섹션의 **[!UICONTROL Name]** 필드 또는 `uuidCookie` 필드에 쿠키 이름을 입력해야 합니다. Audience Manager UUID 값은 광고 플랫폼에서 사용하는 디바이스별 교차 도메인 식별자이며 자사 식별자로 거의 값을 제공하지 않기 때문에 코드에서 일반적으로 구성되었지만 쿠키는 거의 사용되지 않았습니다.
+쿠키를 설정하려면 **[!UICONTROL Name]**&#x200B;을(를) 구성할 때 Analytics 태그 확장 **[!UICONTROL Unique User ID Cookie]** 섹션의 `uuidCookie` 필드 또는 `audienceManagementModule` 필드에 쿠키 이름을 입력해야 합니다. Audience Manager UUID 값은 광고 플랫폼에서 사용하는 디바이스별 교차 도메인 식별자이며 자사 식별자로 거의 값을 제공하지 않기 때문에 코드에서 일반적으로 구성되었지만 쿠키는 거의 사용되지 않았습니다.
 
 Web SDK으로 마이그레이션한 후 이 `aam_uuid` 쿠키를 계속 설정해야 하는 구현에서 필요한 경우 두 가지 방법으로 Audience Manager UUID를 검색할 수 있습니다.
 
-1. [Edge Network 상호 작용 끝점](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/)의 모든 응답에 `id`개의 노드가 있는 페이로드가 포함되어 있습니다. `CORE` 네임스페이스 페이로드의 `id` 노드에 Audience Manager UUID가 포함되어 있습니다.
+1. [Edge Network 상호 작용 끝점](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/)의 모든 응답에 `id`개의 노드가 있는 페이로드가 포함되어 있습니다. `id` 네임스페이스 페이로드의 `CORE` 노드에 Audience Manager UUID가 포함되어 있습니다.
 
-2. 웹 SDK의 [getIdentity](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/getidentity) 명령을 사용하여 검색합니다. 설명서에 설명된 대로 `CORE` 네임스페이스를 사용하고 응답의 `identity.CORE` 필드에서 값을 검색합니다.
+2. 웹 SDK의 [getIdentity](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/getidentity) 명령을 사용하여 검색합니다. 설명서에 설명된 대로 `CORE` 네임스페이스를 사용하고 응답의 `identity.CORE` 필드에서 값을 검색합니다.
 
 Audience Manager UUID를 검색하는 데 사용되는 방법에 관계없이 응답을 구문 분석하고, UUID를 검색하고, 쿠키를 설정하는 것은 개발 팀에 따라 다릅니다. 웹 SDK을 통해 이 쿠키를 설정하는 자동 방법은 없습니다.
 
@@ -178,13 +178,13 @@ Audience Manager UUID를 검색하는 데 사용되는 방법에 관계없이 �
 
 ## Analytics 보고서 세트 관리자 UI에서 서버측 전달 및 Audience Analytics 구성 {#configure-ssf-analytics}
 
-Analytics [서버측 전달](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) 기능을 잘 알고 있다면 &quot;*Analytics 데이터를 Audience Manager에 두 번 보내지 않도록 Analytics 보고서 세트 관리자 UI에서 서버측 전달 설정을 비활성화해야 합니까?*&quot; 같은 질문을 할 수 있습니다.
+Analytics [서버측 전달](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) 기능을 잘 알고 있다면 &quot;*Analytics 데이터를 Audience Manager에 두 번 보내지 않도록 Analytics 보고서 세트 관리자 UI에서 서버측 전달 설정을 비활성화해야 합니까?*&quot; 같은 질문을 할 수 있습니다.
 
 대답은 아니오입니다. 다음과 같은 이유로 이 설정을 비활성화해서는 안 됩니다.
 
-1. Audience Manager 서비스가 데이터 스트림에서 활성화되면 Edge Network은 Analytics로 전송된 모든 데이터 수집 요청에 `cm.ssf` 변수를 추가합니다. 이렇게 하면 Analytics 데이터가 Audience Manager으로 전송되지 않습니다. Analytics 마이그레이션의 유효성을 검사하는 데 사용되는 모든 Assurance 로그에는 데이터 스트림에서 Audience Manager 서비스가 활성화될 때 `cm.ssf=1` 변수가 표시됩니다. 자세한 내용은 [서버 측 전달에 초점을 맞춘 Analytics 및 GDPR 준수 페이지](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr)를 참조하십시오.
+1. Audience Manager 서비스가 데이터 스트림에서 활성화되면 Edge Network은 Analytics로 전송된 모든 데이터 수집 요청에 `cm.ssf` 변수를 추가합니다. 이렇게 하면 Analytics 데이터가 Audience Manager으로 전송되지 않습니다. Analytics 마이그레이션의 유효성을 검사하는 데 사용되는 모든 Assurance 로그에는 데이터 스트림에서 Audience Manager 서비스가 활성화될 때 `cm.ssf=1` 변수가 표시됩니다. 자세한 내용은 [서버 측 전달에 초점을 맞춘 Analytics 및 GDPR 준수 페이지](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr)를 참조하십시오.
 
-1. 이 설정을 사용하면 [!DNL Audience Analytics] 통합을 위한 데이터 흐름도 사용할 수 있습니다. [Audience Analytics 개요](https://experienceleague.adobe.com/ko/docs/analytics/integration/audience-analytics/mc-audiences-aam)에 설명된 대로 이 통합에는 서버 측 전달이 필요합니다. 처리 전에 Analytics 데이터 수집 서버에 대한 Audience Manager 응답이 Analytics 히트에 추가되기 때문입니다. Edge Network 내에서도 유사한 프로세스가 발생합니다. 서버측 전달이 활성화되면 Edge Network은 Analytics로 전송된 데이터에 Audience Manager 응답에서 필요한 세그먼트를 추가합니다.
+1. 이 설정을 사용하면 [!DNL Audience Analytics] 통합을 위한 데이터 흐름도 사용할 수 있습니다. [Audience Analytics 개요](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/mc-audiences-aam)에 설명된 대로 이 통합에는 서버 측 전달이 필요합니다. 처리 전에 Analytics 데이터 수집 서버에 대한 Audience Manager 응답이 Analytics 히트에 추가되기 때문입니다. Edge Network 내에서도 유사한 프로세스가 발생합니다. 서버측 전달이 활성화되면 Edge Network은 Analytics로 전송된 데이터에 Audience Manager 응답에서 필요한 세그먼트를 추가합니다.
 
 요약하면, Audience Analytics이 웹 SDK 구현에서 계속 작동하고 Audience Manager에서 데이터가 두 번 계산되지 않도록 이 설정을 활성 상태로 유지하는 것이 중요합니다.
 

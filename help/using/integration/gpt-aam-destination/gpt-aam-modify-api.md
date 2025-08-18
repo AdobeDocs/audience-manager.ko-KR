@@ -18,9 +18,9 @@ ht-degree: 5%
 
 [!DNL Google Publisher Tag] `.setTargeting` 메서드를 호출하기 전에 Audience Manager 쿠키를 확인하는 if 문을 추가하십시오.
 
-## `IF` 문을 사용하여 Audience Manager 쿠키 확인
+## `IF` 문으로 Audience Manager 쿠키 확인
 
-`.setTargeting` 메서드는 Audience Manager 대상 쿠키 및 고유한 사용자 ID 쿠키(`aam_uuid`)에서 데이터를 가져옵니다. 그러나 [!UICONTROL DIL]이(가) 이러한 쿠키를 쓰기 전에 `.setTargeting`이(가) 호출되거나 쿠키가 비어 있는 경우 페이지가 로드될 때 오류가 표시될 수 있습니다. 이 문제를 방지하려면 이 쿠키를 확인하는 `if` 문으로 `.setTargeting` 메서드를 래핑하십시오. 이 문이 설정되지 않으면 `.setTargeting`에서 `AamGpt` 함수를 호출할 수 없습니다.
+`.setTargeting` 메서드는 Audience Manager 대상 쿠키 및 고유한 사용자 ID 쿠키(`aam_uuid`)에서 데이터를 가져옵니다. 그러나 `.setTargeting`이(가) 이러한 쿠키를 쓰기 전에 [!UICONTROL DIL]이(가) 호출되거나 쿠키가 비어 있는 경우 페이지가 로드될 때 오류가 표시될 수 있습니다. 이 문제를 방지하려면 이 쿠키를 확인하는 `.setTargeting` 문으로 `if` 메서드를 래핑하십시오. 이 문이 설정되지 않으면 `.setTargeting`에서 `AamGpt` 함수를 호출할 수 없습니다.
 
 ### `IF` 문 코드 샘플
 
@@ -41,7 +41,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >
 >* 클라이언트측 통합: 라인 1-3만 사용합니다.
 >* 서버 측 통합: 필요한 행이 없습니다.
->* [!DNL Audience Manager]에서 보고할 [!DNL Google Ad Manager] 로그 파일을 수집합니다. 4-6줄만 사용하십시오. 이 코드는 보고를 위해 수집할 수 있도록 `aam_uuid` 쿠키의 값을 로그에 삽입합니다.
+>* [!DNL Google Ad Manager]에서 보고할 [!DNL Audience Manager] 로그 파일을 수집합니다. 4-6줄만 사용하십시오. 이 코드는 보고를 위해 수집할 수 있도록 `aam_uuid` 쿠키의 값을 로그에 삽입합니다.
 
 ### `AamGpt` 함수 및 데이터 형식
 
@@ -69,7 +69,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>Audience Manager 사용자 ID(예: <code> 12345 </code>)를 반환합니다. </p> </td> 
+   <td colname="col3"> <p>Audience Manager 사용자 ID를 반환합니다(예: <code> 12345 </code>). </p> </td> 
   </tr>
  </tbody>
 </table>

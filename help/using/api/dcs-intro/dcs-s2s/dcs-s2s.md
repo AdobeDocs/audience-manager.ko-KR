@@ -36,7 +36,7 @@ ht-degree: 0%
 
 현재 이 안내서에서는 다음 방법을 다룹니다.
 
-* [!DNL Audience Manager] 고객으로 이미 받은 [!DNL DCS] 파일에서 사용자 및 지역 ID를 가져옵니다.
+* [!DNL DCS] 고객으로 이미 받은 [!DNL Audience Manager] 파일에서 사용자 및 지역 ID를 가져옵니다.
 
 * [!DNL Visitor ID Service]을(를) 사용하는 경우 사용자 및 지역 ID를 가져옵니다.
 * 사용자 및 지역 ID가 있으면 [!DNL DCS]을(를) 호출합니다.

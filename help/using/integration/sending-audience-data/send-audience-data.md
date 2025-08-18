@@ -1,5 +1,5 @@
 ---
-description: 다른 소스의 대상 데이터를 Audience Manager으로 보냅니다.
+description: 다른 소스의 대상 데이터를 Audience Manager으로 전송합니다.
 seo-description: Send audience data from other sources to Adobe Audience Manager (AAM).
 seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: 대상 데이터 보내기
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # 대상 데이터 보내기
 
-다른 소스의 대상 데이터를 Audience Manager으로 보냅니다.
+다른 소스의 대상 데이터를 Audience Manager으로 전송합니다.
 
 * [실시간 인바운드 데이터 통합](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-  실시간 Audience Manager 통합에 대한 정보입니다.
+  Real-Time Audience Manager 통합에 대한 정보.
 
 * [배치 데이터 전송 프로세스 설명](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 

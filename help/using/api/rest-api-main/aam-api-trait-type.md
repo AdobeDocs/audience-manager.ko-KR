@@ -24,7 +24,7 @@ ht-degree: 3%
 >
 >특성 유형 메서드는 [일반 분류](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)에서 사용하는 범주에 특성을 할당하지 않습니다. 일반적인 분류법과는 별개인 레이블로 생각해 보십시오.
 
-시각적 참조의 경우 [!UICONTROL Trait Types]은(는) **[!UICONTROL Traits > Create new trait > Basic Information]** 아래의 [!DNL UI]에 있는 드롭다운 컨트롤입니다.
+시각적 참조의 경우 [!UICONTROL Trait Types]은(는) [!DNL UI] 아래의 **[!UICONTROL Traits > Create new trait > Basic Information]**&#x200B;에 있는 드롭다운 컨트롤입니다.
 
 ## 새 트레이트 유형 만들기 {#create-trait-type}
 

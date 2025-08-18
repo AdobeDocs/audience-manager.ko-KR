@@ -1,5 +1,5 @@
 ---
-description: Transfer-control(.info) 파일은 파트너가 Audience Manager이 처리한 파일이 올바르게 전송되었는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
+description: Transfer-control(.info) 파일은 파트너가 Audience Manager에서 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
 seo-description: Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 seo-title: Transfer-Control Files for Log File Transfers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 로그 파일 전송을 위한 전송 제어 파일 {#transfer-control-files-for-log-file-transfers}
 
-Transfer-control([!DNL .info]) 파일은 파트너가 Audience Manager이 처리한 파일이 올바르게 전송되었는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
+전송 제어([!DNL .info]) 파일은 파트너가 Audience Manager에서 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
 
 [!DNL Audience Manager]이(가) 파일을 전송할 때마다 전송 제어 파일을 파트너에게 보냅니다. [!DNL FTP] 게시자의 다중 스레드 특성으로 인해 실제 파일 전송이 완료되기 전에 전송 제어 파일이 전송될 수 있습니다.
 

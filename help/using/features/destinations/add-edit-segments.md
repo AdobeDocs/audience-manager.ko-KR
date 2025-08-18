@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 서버 간 대상에 대한 세그먼트 추가 또는 편집 {#add-edit-segments}
 
-서버 간([!DNL S2S]) 대상에 대한 세그먼트만 추가하거나 편집할 수 있습니다. [[!UICONTROL Destination Builder]](/help/using/features/destinations/destination-builder.md)을(를) 사용하여 [!DNL S2S] 대상을 만들 수 없습니다. [!DNL S2S] 대상을 설정하려면 컨설턴트에게 문의하십시오. [!DNL S2S] 대상에 대한 세그먼트를 추가하거나 편집하려면 다음 지침을 따르십시오.
+서버 간([!DNL S2S]) 대상에 대한 세그먼트만 추가하거나 편집할 수 있습니다. [!DNL S2S]을(를) 사용하여 [[!UICONTROL Destination Builder]](/help/using/features/destinations/destination-builder.md) 대상을 만들 수 없습니다. [!DNL S2S] 대상을 설정하려면 컨설턴트에게 문의하십시오. [!DNL S2S] 대상에 대한 세그먼트를 추가하거나 편집하려면 다음 지침을 따르십시오.
 
 <!-- destination-s2s-edit.xml -->
 

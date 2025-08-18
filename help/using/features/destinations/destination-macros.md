@@ -56,11 +56,11 @@ ht-degree: 1%
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>방문자에게 GDPR 규정이 적용되는지 여부를 나타냅니다. IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의를 포함하려면 이 매크로를 사용하십시오. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그 인</a>을 참조하세요.</p></td>
+    <td><p>방문자에게 GDPR 규정이 적용되는지 여부를 나타냅니다. IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의를 포함하려면 이 매크로를 사용하십시오. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>을 참조하십시오.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>방문자가 사이트에서 동의를 제공하거나 거부할 때 수집된 동의 문자열(IAB 공급업체 ID 포함). 이 매크로를 사용하여 IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의 문자열을 포함할 수 있습니다. <code>XXXX</code>을(를) 대상 파트너 ID로 바꾸십시오. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그 인</a>을 참조하세요. </p></td>
+    <td><p>방문자가 사이트에서 동의를 제공하거나 거부할 때 수집된 동의 문자열(IAB 공급업체 ID 포함). 이 매크로를 사용하여 IAB와 통합된 URL 대상으로 전송된 세그먼트에 동의 문자열을 포함할 수 있습니다. <code>XXXX</code>을(를) 대상 파트너 ID로 바꾸십시오. 자세한 내용은 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF용 Audience Manager 플러그인</a>을 참조하십시오. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 

@@ -10,7 +10,7 @@ exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 **알고리즘 모델링**
 
-식별한 핵심 사용자를 넘어 도달 범위를 확장하는 수단으로 [!UICONTROL Algorithmic Modeling]을 사용하십시오. 이 기능을 사용하면 자동화된 데이터 분석을 통해 새롭고 고유한 고객을 발견할 수 있습니다. **[!UICONTROL Audience Data > Models]**&#x200B;에서 [!UICONTROL Algorithmic Models]을 관리하십시오.
+식별한 핵심 사용자를 넘어 도달 범위를 확장하는 수단으로 [!UICONTROL Algorithmic Modeling]을 사용하십시오. 이 기능을 사용하면 자동화된 데이터 분석을 통해 새롭고 고유한 대상자를 발견할 수 있습니다. **[!UICONTROL Audience Data > Models]**&#x200B;에서 [!UICONTROL Algorithmic Models]을 관리하십시오.
 
 [알고리즘 모델 이해](../features/algorithmic-models/algo-models-overview.md)를 참조하십시오.
 
@@ -48,9 +48,9 @@ CRM ID는 고객이 자신의 CRM 시스템에서 사용자를 식별하는 ID�
 
 
 
-**고객 대응 가능 대상**
+**고객 대응 가능 대상자**
 
-[대응 가능 대상](/help/using/features/addressable-audiences.md)에서 이 지표는 다음과 같은 장치를 나타냅니다.
+[대응 가능 대상자](/help/using/features/addressable-audiences.md)에서 이 지표는 다음과 같은 장치를 나타냅니다.
 * 전환 확인 기간 동안 규칙에 기반하거나 온보딩된 트레이트를 실현했습니다.
   **그리고**
 * 동기화 시간과 관계없이 선택한 대상과의 ID 동기화가 있습니다.
@@ -59,19 +59,19 @@ CRM ID는 고객이 자신의 CRM 시스템에서 사용자를 식별하는 ID�
 
 **고객 특성**
 
-[!DNL Experience Cloud Core Services] 제품 설명서에서 [고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko)을 참조하십시오.
+[!DNL Experience Cloud Core Services] 제품 설명서에서 [고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
 
 
 **고객 일치율**
 
-%로 표현되는 고객 대응 가능 대상 ÷ 고객 총 대상. [대응 가능 대상](/help/using/features/addressable-audiences.md)을 참조하십시오.
+%로 표현되는 고객 대응 가능 대상자 ÷ 고객 총 대상자. [대응 가능 대상자](/help/using/features/addressable-audiences.md)를 참조하십시오.
 
 
 
-**고객 총 대상**
+**고객 총 대상자**
 
-[대응 가능 대상](/help/using/features/addressable-audiences.md)에서 이 지표는 전환 확인 기간 동안 자산에 대한 규칙 기반 트레이트 또는 오프라인 파일에서 온보딩된 트레이트를 실현한 장치 수를 나타냅니다.
+[대응 가능 대상자](/help/using/features/addressable-audiences.md)에서 이 지표는 전환 확인 기간 동안 자산에 대한 규칙 기반 트레이트 또는 오프라인 파일에서 온보딩된 트레이트를 실현한 장치 수를 나타냅니다.
 
 
 
@@ -93,7 +93,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 **대상**
 
-[!DNL Audience Manager]에서 대상은 데이터를 공유하려는 다른 시스템(광고 서버, DSP, 광고 네트워크 등) 입니다. UI의 [!UICONTROL Destination Builder]는 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. [!DNL Audience Manager] 대상 기능은 **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
+[!DNL Audience Manager]에서 대상은 데이터를 공유할 다른 시스템(광고 서버, DSP, 광고 네트워크 등)입니다. UI의 [!UICONTROL Destination Builder]는 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. [!DNL Audience Manager] 대상 기능은 **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
 
 
 
@@ -111,7 +111,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 **ECID(Experience Cloud ID)**
 
-이전 이름은 [!DNL Marketing Cloud] ID(MID 또는 MCID)였습니다. [!DNL Experience Cloud] ID는 ID 서비스의 중심입니다. 사이트 방문자에 대한 고유하고 지속적인 식별자입니다. 쿠키 및 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko)를 참조하십시오.
+이전 이름은 [!DNL Marketing Cloud] ID(MID 또는 MCID)였습니다. [!DNL Experience Cloud] ID는 ID 서비스의 중심입니다. 사이트 방문자에 대한 고유하고 지속적인 식별자입니다. 쿠키 및 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)를 참조하십시오.
 
 
 
@@ -123,9 +123,9 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 
 
-**빈도 제한**
+**빈도 상한 설정**
 
-광고주가 주어진 크리에이티브를 최종 사용자에게 표시하려는 횟수 제한입니다. [!UICONTROL Segment Builder]에서 다양한 빈도 제한 표현 식을 구성할 수 있습니다.
+광고주가 주어진 크리에이티브를 최종 사용자에게 표시하려는 횟수 제한입니다. [!UICONTROL Segment Builder]에서 다양한 빈도 상한 설정 표현 식을 구성할 수 있습니다.
 
 [최신성 및 빈도](../features/segments/recency-and-frequency.md)를 참조하십시오.
 
@@ -152,7 +152,7 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 **인바운드**
 
-다른 소스의 대상 데이터를 [!DNL Audience Manager]에 보낼 수 있는 프로세스입니다. [대상 데이터 보내기](/help/using/integration/sending-audience-data/send-audience-data.md)를 참조하십시오.
+다른 소스의 대상자 데이터를 [!DNL Audience Manager]에 보낼 수 있는 프로세스입니다. [대상자 데이터 보내기](/help/using/integration/sending-audience-data/send-audience-data.md)를 참조하십시오.
 
 
 
@@ -208,27 +208,27 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 **세그먼트**
 
-세그먼트(또는 대상)는 일반적인 특성을 공유하는 사용자 집합입니다.
+세그먼트(또는 대상자)는 일반적인 특성을 공유하는 사용자 집합입니다.
 
 [세그먼트: 목적, 구성 및 규칙](../features/segments/segments-purpose.md)을 참조하십시오.
 
 
 
-**세그먼트 대응 가능 대상**
+**세그먼트 대응 가능 대상자**
 
-[대응 가능 대상](/help/using/features/addressable-audiences.md)에서 이 지표는 보고서 전환 확인 기간 동안 세그먼트에 속하고 해당 사이트에 대한 활성 ID 동기화를 보유한 사용자 수를 나타냅니다. 세그먼트는 [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md)에서 획득한 트레이트를 통해 자신의 자사 데이터와 제2자 데이터, 타사 데이터를 포함할 수 있습니다.
+[대응 가능 대상자](/help/using/features/addressable-audiences.md)에서 이 지표는 보고서 전환 확인 기간 동안 세그먼트에 속하고 해당 사이트에 대한 활성 ID 동기화를 보유한 사용자 수를 나타냅니다. 세그먼트는 [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md)에서 획득한 트레이트를 통해 자신의 자사 데이터와 제2자 데이터, 타사 데이터를 포함할 수 있습니다.
 
 
 
 **세그먼트 총 인구**
 
-[대응 가능 대상](/help/using/features/addressable-audiences.md)에서 이 지표는 보고서 전환 확인 기간 동안 세그먼트의 구성원이었던 모든 장치의 수를 나타냅니다.
+[대응 가능 대상자](/help/using/features/addressable-audiences.md)에서 이 지표는 보고서 전환 확인 기간 동안 세그먼트의 구성원이었던 모든 장치의 수를 나타냅니다.
 
 
 
 **세그먼트 일치율**
 
-%로 표현되는 세그먼트 대응 가능 대상 ÷ 총 세그먼트 인구. [대응 가능 대상](/help/using/features/addressable-audiences.md)을 참조하십시오.
+%로 표현되는 세그먼트 대응 가능 대상자 ÷ 총 세그먼트 인구. [대응 가능 대상자](/help/using/features/addressable-audiences.md)를 참조하십시오.
 
 
 
@@ -268,6 +268,6 @@ TTL은 자격이 있는 방문자가 트레이트에 남아 있는 일수를 정
 
 [!DNL Experience Cloud] ID 서비스(이전 방문자 ID)는 [!DNL Experience Cloud]의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
-[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 설명서를 참조하십시오.
+[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 설명서를 참조하십시오.
 
 ## W-X-Y-Z {#w-z}

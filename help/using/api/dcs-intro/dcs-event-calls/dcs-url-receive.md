@@ -16,13 +16,13 @@ ht-degree: 1%
 
 # DCS로부터 데이터 받기 {#receive-data-from-the-dcs}
 
-`/event` 호출에서 [!DNL DCS] 응답을 요청하는 방법에 대한 자세한 내용은 여기를 계속 진행하십시오. 이 섹션에는 응답 예와 응답의 공통 데이터 요소에 대한 정의가 포함되어 있습니다.
+[!DNL DCS] 호출에서 `/event` 응답을 요청하는 방법에 대한 자세한 내용은 여기를 계속 진행하십시오. 이 섹션에는 응답 예와 응답의 공통 데이터 요소에 대한 정의가 포함되어 있습니다.
 
 이 콘텐츠를 검토하기 전에 [DCS에 데이터 보내기](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)를 참조하십시오.
 
 ## DCS 응답 매개 변수: 검토 {#dcs-response-parameters}
 
-[!DNL DCS]에서 응답을 받으려면 [!DNL DCS] 요청에 `d_rtbd=json`이(가) 포함되어야 합니다. 이 매개 변수를 생략하면 [!DNL DCS]에서 데이터를 반환하지 않습니다. 데이터를 요청하기 위해 [!DNL DCS]에 대한 기본 호출에서는 다음 구문을 사용합니다.
+[!DNL DCS]에서 응답을 받으려면 `d_rtbd=json` 요청에 [!DNL DCS]이(가) 포함되어야 합니다. 이 매개 변수를 생략하면 [!DNL DCS]에서 데이터를 반환하지 않습니다. 데이터를 요청하기 위해 [!DNL DCS]에 대한 기본 호출에서는 다음 구문을 사용합니다.
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -61,7 +61,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 | `stuff` | 이 개체에는 모든 쿠키 대상에 대한 정보가 포함되어 있습니다. 이 오브젝트의 목록은 사용자의 작업을 기반으로 동적입니다. |
 | `tid` | 거래 ID: 디버깅 목적에 사용되는 고유한 12자 ID입니다. DCS에 대한 각 /event 호출은 지원 문의에서 참조할 수 있는 tid를 수신하여 보다 나은 방식으로 신속하게 응답합니다. |
 | `ttl` | 쿠키 TTL(Time-To-Live)(일). |
-| `u` 및 `uuid` | Audience Manager이 할당한 고유 사용자 ID. [서버 간 DCS 호출](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)을 수행하는 경우 필요합니다. |
+| `u` 및 `uuid` | Audience Manager에서 할당한 고유 사용자 ID. [서버 간 DCS 호출](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)을 수행하는 경우 필요합니다. |
 | `y` | 대상 유형, iFrame(`iframe`) 또는 이미지(`img`)입니다. |
 
 >[!MORELIKETHIS]

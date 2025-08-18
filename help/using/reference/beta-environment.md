@@ -1,5 +1,5 @@
 ---
-description: Beta 환경은 Audience Manager 구현을 테스트하기 위한 것입니다. Beta에서 변경한 사항은 프로덕션 데이터에 영향을 주지 않습니다. Beta 환경 사용에 관심이 있는 경우 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
+description: 베타 환경은 Audience Manager 구현을 테스트하기 위한 것입니다. Beta에서 변경한 사항은 프로덕션 데이터에 영향을 주지 않습니다. Beta 환경 사용에 관심이 있는 경우 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
 keywords: 샌드박스
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Beta 환경 {#beta-environment}
 
-Beta 환경은 Audience Manager 구현을 테스트하기 위한 것입니다. Beta에서 변경한 사항은 프로덕션 데이터에 영향을 주지 않습니다. Beta 환경 사용에 관심이 있는 경우 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
+베타 환경은 Audience Manager 구현을 테스트하기 위한 것입니다. Beta에서 변경한 사항은 프로덕션 데이터에 영향을 주지 않습니다. Beta 환경 사용에 관심이 있는 경우 Audience Manager 파트너 솔루션 담당자에게 문의하십시오.
 
 ## 개요
 
@@ -29,7 +29,7 @@ Beta 환경은 사용량이 적은 시간 동안 매월 말에 업데이트됩�
 
 >[!IMPORTANT]
 >
->고객 데이터([신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ko))는 프로덕션 환경과 Beta 환경 간에 동기화되지 않습니다.
+>고객 데이터([신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en))는 프로덕션 환경과 Beta 환경 간에 동기화되지 않습니다.
 
 ## 인바운드 트래픽
 
@@ -47,7 +47,7 @@ Beta 환경에 대해 아웃바운드 트래픽이 활성화되지 않았습니�
 
 | 서비스 | URL/호스트 이름 | 액세스 권한을 얻는 방법 |
 |--- |--- | --- |
-| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오 | Beta 인스턴스에 대한 Amazon S3 버킷을 설정하려면 Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3 사용의 [장점](../reference/amazon-s3.md)을 읽어 보십시오. |
+| S3 | Audience Manager 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오 | Beta 인스턴스에 대한 Audience Manager S3 버킷을 설정하려면 Amazon 파트너 솔루션 담당자 또는 고객 지원 센터에 문의하십시오. Amazon S3 사용의 [장점](../reference/amazon-s3.md)을 읽어 보십시오. |
 | DCS | `https://dcs-beta.demdex.net/...` | [Beta 환경에서 DCS에 액세스](../reference/beta-environment.md#access-dcs-beta-environment)를 참조하십시오. |
 | UI | `https://bank-beta.demdex.com` | 프로덕션 환경 자격 증명은 Beta 환경에 유효합니다. |
 | API | `https://api-beta.demdex.com/...` | 프로덕션 환경 자격 증명은 Beta 환경에 유효합니다. 일반 API 사용자를 만드는 것이 좋습니다. [세부 정보 보기](../api/rest-api-main/aam-api-getting-started.md#requirements). |

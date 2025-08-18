@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 사용 사례 {#use-cases}
 
-**[!UICONTROL Ad Unit Overlap]** 보고서를 사용하면 웹 속성에서 대상이 겹치는 위치를 파악할 수 있습니다. 이 보고서는 100개의 상위 관련 속성을 고려하며 이들 속성 간의 겹침을 보여 줍니다.
+**[!UICONTROL Ad Unit Overlap]** 보고서를 사용하면 웹 속성에서 대상이 겹치는 insight을 가져올 수 있습니다. 이 보고서는 100개의 상위 관련 속성을 고려하며 이들 속성 간의 겹침을 보여 줍니다.
 
 ## 광고 단위 겹치기 보고서 사용 {#using-the-report}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)의 3단계에 설명된 대로 [!UICONTROL Ad Unit IDs]에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Ad Unit ID] 대신 [!UICONTROL Ad Unit] (으)로 자세히 설명되어 있습니다.
+>[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [!UICONTROL Ad Unit IDs]Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기[의 3단계에 설명된 대로 ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Ad Unit] 대신 [!UICONTROL Ad Unit ID]&#x200B;(으)로 자세히 설명되어 있습니다.
 
 ## 결과 해석 {#interpreting-results}
 

@@ -1,5 +1,5 @@
 ---
-description: 이러한 사양에 따라 Audience Optimization 메타데이터 파일의 내용 형식을 지정합니다.
+description: 이러한 사양에 따라 Audience Optimization 메타데이터 파일의 콘텐츠 형식을 지정합니다.
 seo-description: Format the contents of your Audience Optimization metadata file according to these specifications.
 seo-title: Content Format for Metadata Files
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 메타데이터 파일에 대한 컨텐츠 형식{#content-format-for-metadata-files}
 
-이러한 사양에 따라 Audience Optimization 메타데이터 파일의 내용 형식을 지정합니다.
+이러한 사양에 따라 Audience Optimization 메타데이터 파일의 콘텐츠 형식을 지정합니다.
 
 ## 구문 {#syntax}
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 >
 >메타데이터 파일에 헤더 행을 추가하지 마십시오.
 
-## 예시 {#examples}
+## 예 {#examples}
 
 메타데이터 파일에서 콘텐츠를 구성하는 방법을 살펴보겠습니다. 이 구조의 일부는 차원에 따라 다릅니다. 이 차원은 문서 [메타데이터 파일에 대한 이름 지정 규칙](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)에 나열되어 있습니다.
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 **Creative**
 
-이 예에서 파일 제목은 20180827_0_2이고 파일의 세 열은 크리에이티브 ID, 이름 및 상위 ID입니다.
+이 예에서 파일 제목은 20180827_0_2이고 파일의 세 열은 Creative ID, 이름 및 상위 ID입니다.
 
 ```
 //File Title

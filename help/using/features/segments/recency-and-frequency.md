@@ -18,7 +18,7 @@ ht-degree: 1%
 
 [!UICONTROL Segment Builder]에서 최신성과 빈도를 사용하면 설정된 일별 간격 동안 발생하거나 반복하는 작업에 따라 방문자를 세그먼트화할 수 있습니다.
 
-Audience Manager이 [!DNL recency] 및 [!DNL frequency]을(를) 다음과 같이 정의합니다.
+Audience Manager은 [!DNL recency] 및 [!DNL frequency]을(를) 다음과 같이 정의합니다.
 
 * **[!UICONTROL Recency]:** 사용자가 최근 본 항목 또는 하나 이상의 [!UICONTROL traits] 자격을 얻은 항목.
 * **[!UICONTROL Frequency]:** 사용자가 하나 이상의 [!UICONTROL traits]을(를) 열람하거나 자격을 부여하는 비율입니다.
@@ -27,7 +27,7 @@ Audience Manager이 [!DNL recency] 및 [!DNL frequency]을(를) 다음과 같이
 
 ## [!UICONTROL Recency and Frequency] 설정 위치 {#location}
 
-[!UICONTROL Segment Builder]에서 [!UICONTROL Recency] 및 [!UICONTROL Frequency] 설정이 [!UICONTROL Traits] 패널의 [!UICONTROL Basic View] 섹션에 있습니다. 시계 아이콘을 클릭하여 이러한 컨트롤을 표시합니다.
+[!UICONTROL Segment Builder]에서 [!UICONTROL Recency] 및 [!UICONTROL Frequency] 설정이 [!UICONTROL Basic View] 패널의 [!UICONTROL Traits] 섹션에 있습니다. 시계 아이콘을 클릭하여 이러한 컨트롤을 표시합니다.
 
 ![](assets/recency_frequency.png)
 
@@ -97,7 +97,7 @@ Audience Manager이 [!DNL recency] 및 [!DNL frequency]을(를) 다음과 같이
 
 ![다음보다 작음](assets/less-than-equal-to.png)
 
-이 예제에서는 스크린샷에 표시된 대로 &lt;= 연산자를 선택합니다. 이렇게 하면 사용자가 지난 5일 내에 최소 3번 이상 세 개의 [!UICONTROL traits]에 대한 자격이 있는 경우 [!UICONTROL segment]에 대한 자격이 부여됩니다. 아래 타임라인에서는 [!UICONTROL segment]이(가) 만들어지는 시점과 10일 후의 [!UICONTROL segment] 자격을 보여 줍니다.
+이 예제에서는 스크린샷에 표시된 대로 &lt;= 연산자를 선택합니다. 이렇게 하면 사용자가 지난 5일 내에 최소 3번 이상 세 개의 [!UICONTROL segment]에 대한 자격이 있는 경우 [!UICONTROL traits]에 대한 자격이 부여됩니다. 아래 타임라인에서는 [!UICONTROL segment]이(가) 만들어지는 시점과 10일 후의 [!UICONTROL segment] 자격을 보여 줍니다.
 
 ![마지막 5일](assets/last-5-days.png)
 
@@ -105,7 +105,7 @@ Audience Manager이 [!DNL recency] 및 [!DNL frequency]을(를) 다음과 같이
 
 ![다음보다 큼](assets/greater-than-equal-to.png)
 
-이 예제에서는 스크린샷에 표시된 대로 => 연산자를 선택합니다. 사용자가 Audience Manager 플랫폼에서 첫 번째 자격을 얻은 후 5일 전 컷오프 시간 사이에 최소 3회 이상 세 개의 [!UICONTROL traits]에 대한 자격을 얻은 경우 [!UICONTROL segment]에 대한 자격을 부여합니다. 아래 타임라인에서는 [!UICONTROL segment]이(가) 만들어지는 시점과 10일 후의 [!UICONTROL segment] 자격을 보여 줍니다.
+이 예제에서는 스크린샷에 표시된 대로 => 연산자를 선택합니다. 사용자가 Audience Manager 플랫폼에서 첫 번째 자격을 얻은 후 5일 전 컷오프 시간 사이에 최소 3회 이상 세 개의 [!UICONTROL segment]에 대한 자격을 얻은 경우 [!UICONTROL traits]에 대한 자격을 부여합니다. 아래 타임라인에서는 [!UICONTROL segment]이(가) 만들어지는 시점과 10일 후의 [!UICONTROL segment] 자격을 보여 줍니다.
 
 ![이전 자격](assets/earlier-qualification.png)
 
@@ -118,9 +118,9 @@ Audience Manager이 [!DNL recency] 및 [!DNL frequency]을(를) 다음과 같이
 
 * 오른쪽 - ID가 &quot;1000&quot;인 [!UICONTROL trait]을(를) 최대 5번 인식하는 모든 사용자를 포함하려면 표현식에 다른 조건을 추가하여 사용자가 [!UICONTROL trait]에 대해 최소 한 번 이상 자격이 있는지 확인하십시오. `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 
-* 오른쪽- 최신성/빈도 요구 사항이 특정 횟수나 일수보다 적어야 하는 경우 `AND` 연산자로 해당 [!UICONTROL trait]을(를) 다른 에 연결하십시오. 첫 번째 글머리 기호의 예제를 사용하면 `frequency([1000T]) <= 5 AND isSiteVisitorTrait`과(와) 같이 다른 [!UICONTROL trait]과(와) 결합할 때 이 식이 유효해집니다.
+* 오른쪽- 최신성/빈도 요구 사항이 특정 횟수나 일수보다 적어야 하는 경우 [!UICONTROL trait] 연산자로 해당 `AND`을(를) 다른 에 연결하십시오. 첫 번째 글머리 기호의 예제를 사용하면 [!UICONTROL trait]과(와) 같이 다른 `frequency([1000T]) <= 5 AND isSiteVisitorTrait`과(와) 결합할 때 이 식이 유효해집니다.
 
-* 오른쪽 - 광고 빈도 제한 사용 사례의 경우 `(frequency([1000T] <= 2D) >= 5)`과(와) 유사한 [!UICONTROL segment] 규칙을 만들 수 있습니다. 이 식에는 지난 2일 동안 ID가 &quot;1000&quot;인 [!UICONTROL trait]을(를) 최소 5번 이상 구현한 모든 사용자가 포함됩니다. 이 [!UICONTROL segment]을(를) 광고 서버의 [!UICONTROL segment]에 설정된 `NOT`(으)로 광고 서버로 보내 빈도 제한을 설정합니다. 이 방법은 [!DNL Audience Manager]에서 더 높은 성능을 달성하는 동시에 빈도 상한에 동일한 목적을 제공합니다.
+* 오른쪽 - 광고 빈도 제한 사용 사례의 경우 [!UICONTROL segment]과(와) 유사한 `(frequency([1000T] <= 2D) >= 5)` 규칙을 만들 수 있습니다. 이 식에는 지난 2일 동안 ID가 &quot;1000&quot;인 [!UICONTROL trait]을(를) 최소 5번 이상 구현한 모든 사용자가 포함됩니다. 이 [!UICONTROL segment]을(를) 광고 서버의 `NOT`에 설정된 [!UICONTROL segment]&#x200B;(으)로 광고 서버로 보내 빈도 제한을 설정합니다. 이 방법은 [!DNL Audience Manager]에서 더 높은 성능을 달성하는 동시에 빈도 상한에 동일한 목적을 제공합니다.
 
 >[!MORELIKETHIS]
 >

@@ -21,7 +21,7 @@ ht-degree: 8%
 
 ## [!UICONTROL Declared ID] 타겟 지정 {#declared-id-targeting}
 
-타사 [!DNL cookies]과(와) 같이 영구 저장소 메커니즘을 사용하거나 허용하지 않는 장치 또는 브라우저에서 사용자 ID를 [!DNL Audience Manager]과(와) 교환하고 동기화합니다.
+타사 [!DNL Audience Manager]과(와) 같이 영구 저장소 메커니즘을 사용하거나 허용하지 않는 장치 또는 브라우저에서 사용자 ID를 [!DNL cookies]과(와) 교환하고 동기화합니다.
 
 ## [!UICONTROL Declared ID] 타깃팅의 목적 {#declared-id-targeting-purpose}
 
@@ -37,7 +37,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>이벤트 호출</b> </td> 
-   <td colname="col2"> <p>작업을 수행하려면 페이지에 <span class="wintitle"> DIL </span>과(와) <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 필요합니다. <span class="wintitle"> DIL </span>은(는) <span class="keyword"> Adobe Experience Platform Identity 서비스 </span>에서 제공하는 <code> setVisitorID </code> 함수에서 <span class="wintitle">개의 선언된 ID </span>을(를) 가져와서 <span class="keyword"> Audience Manager </span>에 전달합니다. </p> </td> 
+   <td colname="col2"> <p>작업을 수행하려면 페이지에 <span class="wintitle"> DIL </span>과(와) <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 필요합니다. <span class="wintitle"> DIL </span>은(는) <span class="wintitle"> Adobe Experience Platform Identity 서비스 </span>에서 제공하는 <code> setVisitorID </code> 함수에서 <span class="keyword">개의 선언된 ID </span>을(를) 가져와서 <span class="keyword"> Audience Manager </span>에 전달합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>일치 ID</b> </td> 
@@ -58,16 +58,16 @@ ht-degree: 8%
 
 ## 옵트아웃 호출 {#opt-out-calls}
 
-[!UICONTROL declared ID] 프로세스는 웹 사이트에서 [!DNL Audience Manager] 타깃팅을 옵트아웃하도록 사이트 방문자 환경 설정을 적용합니다. [!DNL Audience Manager]이(가) 옵트아웃 요청을 받으면 [!DNL DCS]이(가) 반환한 [!DNL JSON]에 [!DNL Audience Manager] 사용자 ID 대신 `Encountered opt out tag` 메시지가 있는 오류 코드 171이 포함됩니다.
+[!UICONTROL declared ID] 프로세스는 웹 사이트에서 [!DNL Audience Manager] 타깃팅을 옵트아웃하도록 사이트 방문자 환경 설정을 적용합니다. [!DNL Audience Manager]이(가) 옵트아웃 요청을 받으면 [!DNL JSON]이(가) 반환한 [!DNL DCS]에 `Encountered opt out tag` 사용자 ID 대신 [!DNL Audience Manager] 메시지가 있는 오류 코드 171이 포함됩니다.
 
-* [!DNL Audience Manager]은(는) [!DNL URL]의 [!DNL Audience Manager] [!UICONTROL UUID]과(와) 함께 [!UICONTROL declared ID] 옵트아웃을 전달할 수 있습니다.
+* [!DNL Audience Manager]은(는) [!UICONTROL declared ID]의 [!DNL Audience Manager] [!UICONTROL UUID]과(와) 함께 [!DNL URL] 옵트아웃을 전달할 수 있습니다.
 * [!UICONTROL declared ID] 옵트아웃은 파트너별로 [!UICONTROL Profile Cache Server]&#x200B;([!UICONTROL PCS])에 저장됩니다. [!UICONTROL declared IDs]을(를) 사용하는 플랫폼 수준 옵트아웃이 없습니다. 또한 [!DNL Audience Manager]은(는) 가장자리의 특정 영역에서 사용자를 옵트아웃합니다(옵트아웃은 [!DNL DCS] 영역과 교차하지 않음).
 
 데이터 수집 옵트아웃에 대한 자세한 내용은 [데이터 개인 정보](../overview/data-security-and-privacy/data-privacy.md)을 참조하세요.
 
 ## [!UICONTROL Declared ID] 옵트아웃 예 {#opt-out-examples}
 
-`d_cid` 및 `d_cid_ic` 키-값 쌍으로 [!UICONTROL declared ID] 옵트아웃을 요청할 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
+[!UICONTROL declared ID] 및 `d_cid` 키-값 쌍으로 `d_cid_ic` 옵트아웃을 요청할 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
 ### [!UICONTROL CID] 및 [!UICONTROL CID_IC]&#x200B;(으)로 옵트아웃
 
@@ -180,11 +180,11 @@ ht-degree: 8%
 
 ## [!UICONTROL Declared ID] 변수 {#declared-id-variables}
 
-[!UICONTROL DIL]에서 [!DNL Audience Manager.]까지 [!UICONTROL declared IDs]을(를) 전달하는 데 사용되는 구성 변수를 설명합니다.
+[!UICONTROL declared IDs]에서 [!UICONTROL DIL]까지 [!DNL Audience Manager.]을(를) 전달하는 데 사용되는 구성 변수를 설명합니다.
 
 ## [!UICONTROL DIL]이(가) [!DNL Adobe Experience Platform Identity Service]을(를) 사용하여 [!UICONTROL Declared IDs]을(를) 전달합니다. {#dil-id-service-pass-declared-ids}
 
-[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)와 함께 사용하는 경우 더 이상 사용되지 않는 `dpid` 및 `dpuuid` 변수를 사용하여 [!UICONTROL declared IDs]을(를) 전달할 필요가 없습니다. 대신 현재 버전의 [!UICONTROL DIL]은(는) `visitorService` 함수를 사용하여 [!UICONTROL Adobe Experience Platform Identity Service]의 `setCustomerIDs` 함수에서 [!UICONTROL declared IDs]을(를) 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오. 아래와 같이 `DIL.create`에서 `visitorService`을(를) 호출합니다.
+[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)와 함께 사용하는 경우 더 이상 사용되지 않는 [!UICONTROL declared IDs] 및 `dpid` 변수를 사용하여 `dpuuid`을(를) 전달할 필요가 없습니다. 대신 현재 버전의 [!UICONTROL DIL]은(는) `visitorService` 함수를 사용하여 [!UICONTROL declared IDs]의 `setCustomerIDs` 함수에서 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오. 아래와 같이 `visitorService`에서 `DIL.create`을(를) 호출합니다.
 
 ```js
 var vDil = DIL.create({
@@ -195,11 +195,11 @@ var vDil = DIL.create({
 });
 ```
 
-`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [Experience Cloud 서비스 시작](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/getting-started)을 참조하세요.
+`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [Experience Cloud 서비스 시작](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started)을 참조하세요.
 
 ## 더 이상 사용되지 않는 함수 {#deprecated-functions}
 
-최신 버전의 [!UICONTROL DIL]&#x200B;(6.2+)에서는 이러한 키-값 쌍을 사용하여 [!UICONTROL declared IDs]을(를) 전달할 필요가 없습니다. [!UICONTROL DIL]이(가) 이제 위의 코드 샘플에 표시된 `visitorService` 함수에 의존하기 때문입니다. 이 함수는 [!UICONTROL Adobe Experience Platform Identity Service]에서 [!UICONTROL declared IDs]을(를) 가져옵니다. 하지만 여기에서는 이러한 변수를 기록 및 레거시 목적으로 참조하고 있습니다. [!UICONTROL Visitor ID Service]에서 [!UICONTROL declared ID]을(를) 가져오도록 `DIL.create`을(를) 구성하는 방법에 대한 예는 아래 코드를 참조하십시오.
+최신 버전의 [!UICONTROL DIL]&#x200B;(6.2+)에서는 이러한 키-값 쌍을 사용하여 [!UICONTROL declared IDs]을(를) 전달할 필요가 없습니다. [!UICONTROL DIL]이(가) 이제 위의 코드 샘플에 표시된 `visitorService` 함수에 의존하기 때문입니다. 이 함수는 [!UICONTROL declared IDs]에서 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 가져옵니다. 하지만 여기에서는 이러한 변수를 기록 및 레거시 목적으로 참조하고 있습니다. `DIL.create`에서 [!UICONTROL declared ID]을(를) 가져오도록 [!UICONTROL Visitor ID Service]을(를) 구성하는 방법에 대한 예는 아래 코드를 참조하십시오.
 다음 표에서는 `declaredId` 개체에서 사용하는 기존 변수를 설명합니다.
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
@@ -226,9 +226,9 @@ var vDil = DIL.create({
 
 ### [!UICONTROL DPID] 및 [!UICONTROL DPUUID]
 
-[!DNL Audience Manager]은(는) 결합된 `DPID`과(와) `DPUUID`을(를) 비교하여 시스템의 해당 사용자 ID와 일치시킵니다. ID가 없으면 [!DNL Audience Manager]에서 새 사용자 ID를 만들어 `DPID/DPUUID` 조합에 동기화합니다. [!DNL Audience Manager]이(가) 사용자 ID(`UUID`)와 일치하거나 만들면 클라이언트의 도메인(자사 [!DNL cookie]) 또는 다른 로컬 저장소에 있는 [!DNL cookie]에 대한 [!DNL JSON] 응답에서 해당 ID를 반환합니다.
+[!DNL Audience Manager]은(는) 결합된 `DPID`과(와) `DPUUID`을(를) 비교하여 시스템의 해당 사용자 ID와 일치시킵니다. ID가 없으면 [!DNL Audience Manager]에서 새 사용자 ID를 만들어 `DPID/DPUUID` 조합에 동기화합니다. [!DNL Audience Manager]이(가) 사용자 ID(`UUID`)와 일치하거나 만들면 클라이언트의 도메인(자사 [!DNL JSON]) 또는 다른 로컬 저장소에 있는 [!DNL cookie]에 대한 [!DNL cookie] 응답에서 해당 ID를 반환합니다.
 
-[!UICONTROL DIL] v6.1 또는 이전 버전을 사용하는 경우 이 함수를 호출합니다. 그러나 이 함수는 [!DNL Adobe Experience Platform Identity Service]에서 [!UICONTROL declared IDs]을(를) 가져오는 새 버전을 위해 더 이상 사용되지 않습니다.
+[!UICONTROL DIL] v6.1 또는 이전 버전을 사용하는 경우 이 함수를 호출합니다. 그러나 이 함수는 [!UICONTROL declared IDs]에서 [!DNL Adobe Experience Platform Identity Service]을(를) 가져오는 새 버전을 위해 더 이상 사용되지 않습니다.
 
 ```js
 DIL.create({
@@ -248,7 +248,7 @@ DIL.create({
 
 >[!NOTE]
 >
->다른 `declaredID` 조합으로 [!DNL API] 호출을 수행하면 해당 호출에만 새 조합이 사용됩니다. 이후 일반 이벤트 호출에서는 원래 `DIL.create` `declaredID` 조합을 사용합니다.
+>다른 [!DNL API] 조합으로 `declaredID` 호출을 수행하면 해당 호출에만 새 조합이 사용됩니다. 이후 일반 이벤트 호출에서는 원래 `DIL.create` `declaredID` 조합을 사용합니다.
 
 ```js
 DIL.getDil('partner name').api.signals({...}).declaredId({
@@ -276,7 +276,7 @@ myCallback({
 
 ## 타겟 및 옵트아웃 호출 안 함 {#do-not-target}
 
-[!UICONTROL declared ID] 프로세스는 웹 사이트에서 [!DNL Audience Manager] 타깃팅을 옵트아웃하도록 사이트 방문자 환경 설정을 적용합니다. [!DNL Audience Manager]이(가) 옵트아웃 요청을 받으면 [!DNL DCS]이(가) [!DNL Audience Manager] 사용자 ID 대신 빈 [!DNL JSON] 개체를 반환합니다.
+[!UICONTROL declared ID] 프로세스는 웹 사이트에서 [!DNL Audience Manager] 타깃팅을 옵트아웃하도록 사이트 방문자 환경 설정을 적용합니다. [!DNL Audience Manager]이(가) 옵트아웃 요청을 받으면 [!DNL DCS]이(가) [!DNL JSON] 사용자 ID 대신 빈 [!DNL Audience Manager] 개체를 반환합니다.
 
 >[!MORELIKETHIS]
 >

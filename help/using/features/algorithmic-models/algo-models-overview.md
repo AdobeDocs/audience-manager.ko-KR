@@ -38,6 +38,6 @@ Audience Manager의 알고리즘 모델링은 데이터 과학을 사용하여 �
 
 마케팅 컨텍스트에서 성향은 인구 통계, 탐색 습관, 쇼핑 내역 등과 같은 특정 트레이트 집합을 공유하는 방문자, 사용자 또는 잠재적 구매자로 정의되는 대상 세그먼트입니다.
 
-[!UICONTROL Predictive Audiences] 모델은 Audience Manager의 머신 러닝 기능을 사용하여 알 수 없는 대상을 개별 성향으로 자동으로 분류하여 이 개념을 한 단계 더 발전시킵니다. Audience Manager은 알려진 대상 세트에 대해 알 수 없는 대상의 성향을 계산하여 이를 달성합니다.
+[!UICONTROL Predictive Audiences] 모델은 Audience Manager의 기계 학습 기능을 사용하여 알 수 없는 대상을 개별 성향으로 자동으로 분류하여 이 개념을 한 단계 더 발전시킵니다. Audience Manager은 알려진 대상 세트에 대해 알 수 없는 대상의 성향을 계산하여 이를 달성합니다.
 
 [!UICONTROL Predictive Audiences]에 대한 자세한 내용은 [Predictive Audiences 개요](predictive-audiences.md)를 참조하세요.

@@ -44,7 +44,7 @@ ht-degree: 2%
 
 기본적으로 받는 사람 서버는 `200 OK` 코드를 반환하여 성공적으로 받았음을 나타내야 합니다. 다른 코드는 실패로 해석될 것입니다. 이 응답은 3000밀리초 내에 예상됩니다. 실패에 대한 응답으로 [!DNL Audience Manager]이(가) 한 번만 다시 시도합니다.
 
-## 매개 변수
+## 매개변수
 
 다음 표는 대상으로 보내는 [!DNL JSON] 데이터 파일의 요소를 정의합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 2%
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>정수 </p> </td> 
-   <td colname="col3"> <p>Audience Manager "대상" 개체의 ID입니다. 이 ID는 Audience Manager에서 가져옵니다.</p> </td> 
+   <td colname="col3"> <p>Audience Manager "대상" 오브젝트의 ID. 이 ID는 Audience Manager에서 가져옵니다.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
 ## 보안
 
-개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 프로토콜을 통해 [!DNL Audience Manager]을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
+개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [!DNL Audience Manager]OAuth 2.0[ 프로토콜을 통해 ](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
 
 ## 요청
 

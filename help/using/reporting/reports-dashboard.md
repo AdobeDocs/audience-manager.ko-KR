@@ -24,7 +24,7 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager]은(는) [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC])을(를) 사용하여 사용자 그룹 권한을 [!UICONTROL Dashboard] (으)로 확장합니다. 사용자는 볼 수 있는 권한이 있는 대시보드의 정보만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀에서 볼 수 있는 보고 데이터를 제어할 수 있습니다.
+[!DNL Audience Manager]은(는) [!UICONTROL Role Based Access Control]&#x200B;([!UICONTROL RBAC])을(를) 사용하여 사용자 그룹 권한을 [!UICONTROL Dashboard]&#x200B;(으)로 확장합니다. 사용자는 볼 수 있는 권한이 있는 대시보드의 정보만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀에서 볼 수 있는 보고 데이터를 제어할 수 있습니다.
 
 예를 들어 다른 광고주 계정을 관리하는 기관은 광고주 A의 계정을 관리하는 팀이 광고주 B의 보고 데이터를 볼 수 없도록 사용자 그룹 권한을 구성할 수 있습니다. 이 대시보드를 사용하여 데이터 전달 문제를 해결할 수 있습니다.
 

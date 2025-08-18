@@ -20,11 +20,11 @@ ht-degree: 0%
 
 <!-- c_destinations_api.xml -->
 
-Audience Manager에서 대상은 다른 시스템(광고 서버, [!DNL DSP], 광고 네트워크, 교환, 고유한 자사 쿠키 등)입니다. 와(과) 데이터를 공유할 수 있습니다.
+Audience Manager에서 대상은 데이터를 공유할 다른 시스템(광고 서버, [!DNL DSP], 광고 네트워크, 교환, 고유한 자사 쿠키 등)입니다.
 
 ## 대상 유형: URL 및 쿠키 {#destination-types}
 
-`destinationType` 매개 변수에서 사용하는 변수를 나열합니다. [!UICONTROL URL] 또는 [!UICONTROL cookie destination] (으)로 작업하려면 `push` 또는 `ADS`을(를) 지정하십시오. 사용 가능한 대상 [!DNL API] 메서드로 [!UICONTROL server-to-server destinations]을(를) 만들 수 없습니다.
+`destinationType` 매개 변수에서 사용하는 변수를 나열합니다. `push` 또는 `ADS`(으)로 작업하려면 [!UICONTROL URL] 또는 [!UICONTROL cookie destination]을(를) 지정하십시오. 사용 가능한 대상 [!UICONTROL server-to-server destinations] 메서드로 [!DNL API]을(를) 만들 수 없습니다.
 
 <!-- r_destination_types.xml -->
 

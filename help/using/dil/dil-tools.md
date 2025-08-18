@@ -1,5 +1,5 @@
 ---
-description: DIL.도구 네임스페이스의 메서드에 대해 설명합니다. 이러한 유틸리티 기능은 특정 작업을 수행하는 데 도움이 됩니다.
+description: DIL.tools 네임스페이스의 메서드에 대해 설명합니다. 이러한 유틸리티 기능은 특정 작업을 수행하는 데 도움이 됩니다.
 seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
 seo-title: DIL Tools
 solution: Audience Manager
@@ -18,11 +18,11 @@ ht-degree: 2%
 
 >[!WARNING]
 >
->2023년 7월부터 Adobe에서 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
+>2023년 7월부터 Adobe은 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
 >
->기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 평가하는 것이 좋습니다.
+>기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을(를) 평가하는 것이 좋습니다.
 >
->2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 사용해야 합니다.
+>2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 사용해야 합니다.
 
 `DIL.tools` 네임스페이스의 메서드를 설명합니다. 이러한 유틸리티 기능은 특정 작업을 수행하는 데 도움이 됩니다.
 
@@ -44,7 +44,7 @@ r_dil_get_search_referrer.xml
 
 ### `getSearchReferrer`의 목적
 
-DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된 검색 결과(이름 및 키워드)를 반환합니다. 기본적으로 특정 검색어를 이 함수에 전달하거나 `document.referrer`에 대해 지원되는 검색 엔진([!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] 및 [!DNL Yahoo])을 검색하도록 할 수 있습니다.
+DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된 검색 결과(이름 및 키워드)를 반환합니다. 기본적으로 특정 검색어를 이 함수에 전달하거나 [!DNL AOL]에 대해 지원되는 검색 엔진([!DNL Ask], [!DNL Bing], [!DNL Google], [!DNL Yahoo] 및 `document.referrer`)을 검색하도록 할 수 있습니다.
 
 ### 함수 서명
 
@@ -61,7 +61,7 @@ DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된
 
 * `{object}` 올바른 이름과 키워드가 포함된 개체입니다.
 
-### 예시
+### 예
 
 <table id="table_D035276601EC428295E4D619F05BB8D0"> 
  <thead> 
@@ -76,7 +76,7 @@ DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된
    <td> 기본 검색</td> 
    <td> AOL, Ask, Bing, Google 및 Yahoo 검색 엔진에서 사용되는 키워드 검색어를 반환합니다. </td> 
    <td>
-      <code>var&nbsp;results&nbsp;=&nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -96,10 +96,10 @@ DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된
   <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
-      search.aspx?q=adobe+rules",&lbrace; 
+      search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
-      &rbrace;); 
+      }); 
   </code>
   </td></tr> 
   <tr> 
@@ -109,10 +109,10 @@ DIL에서 `getSearchReferrer`은(는) 사이트에 도달하기 위해 사용된
     <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-      &lbrace;
+      {
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-      &rbrace;);
+      });
     </code>
    </td> 
   </tr> 
@@ -182,19 +182,19 @@ r_dil_get_metatags.xml
 ### 샘플 코드
 
 <pre class="javascript"><code>
-var dataLib = DIL.create(&lbrace; 
+var dataLib = DIL.create({ 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
-var dataLib = DIL.create(&lbrace; 
-     partner: <i>&grave;partnerName'</i>, 
+var dataLib = DIL.create({ 
+     partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>

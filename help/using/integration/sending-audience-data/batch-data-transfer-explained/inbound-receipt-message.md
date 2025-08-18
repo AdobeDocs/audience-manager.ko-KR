@@ -25,7 +25,7 @@ ht-degree: 0%
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>보낸 사람: aam-noreply@adobe.com </b> </p> <p> <b>제목: Adobe Audience Manager 서버 간 처리 결과:</b> </p> <p> <b>Adobe 파트너님께: (ID:7)</b> <b></b> </p> <p> <b>Adobe Audience Manager 서버 간 파일 배달을 받았습니다</b> </p> <p> <b>파일 이름:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>받은 레코드: 40669900</b> </p> <p><b>형식 오류: 0</b> </p> <p> <b>잘못된 AAM ID: 112 </b> </p> <p> <b>일치하는 AAM ID 없음: 0 </b> </p> <p> <b>실현된 트레이트 없음: 26730823 </b> </p> <p> <b>처리된 레코드: 40669900 </b> </p> <p> <b>저장된 레코드: 13938958 </b> </p> <p> <b>총 장치: 21 </b> </p> <p> <b>총 신호: 918878926 </b> </p> <p> <b>사용되지 않은 총 신호 수: 660348376 </b> </p> <p> <b>실현된 총 트레이트: 258086908 </b> </p> <p> <b>제거된 총 특성: 0 </b> </p> <p> <b>총 트레이트 유효성 검사 실패: 0 </b> </p> <p> <b>검증에 실패한 트레이트가 있는 총 사용자 수: 0 </b> </p> <p> <b>작업 시작 시간: 2018-05-17 18:07:49 </b> </p> <p> <b>작업 종료 시간: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>보낸 사람: aam-noreply@adobe.com </b> </p> <p> <b>제목: Adobe Audience Manager 서버 간 처리 결과:</b> </p> <p> <b>Adobe 파트너 여러분께: (ID:7)</b> <b></b> </p> <p> <b>Adobe Audience Manager 서버 간 파일 배달을 받았습니다</b> </p> <p> <b>파일 이름:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>받은 레코드: 40669900</b> </p> <p><b>형식 오류: 0</b> </p> <p> <b>잘못된 AAM ID: 112 </b> </p> <p> <b>일치하는 AAM ID 없음: 0 </b> </p> <p> <b>실현된 트레이트 없음: 26730823 </b> </p> <p> <b>처리된 레코드: 40669900 </b> </p> <p> <b>저장된 레코드: 13938958 </b> </p> <p> <b>총 장치: 21 </b> </p> <p> <b>총 신호: 918878926 </b> </p> <p> <b>사용되지 않은 총 신호 수: 660348376 </b> </p> <p> <b>실현된 총 트레이트: 258086908 </b> </p> <p> <b>제거된 총 특성: 0 </b> </p> <p> <b>총 트레이트 유효성 검사 실패: 0 </b> </p> <p> <b>검증에 실패한 트레이트가 있는 총 사용자 수: 0 </b> </p> <p> <b>작업 시작 시간: 2018-05-17 18:07:49 </b> </p> <p> <b>작업 종료 시간: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> 레코드 수신됨 </td> 
-   <td colname="col2"> <p>모든 파일에서 Adobe이 받은 총 레코드 수입니다. 대부분의 경우 인바운드 파일에 있는 총 라인 수여야 합니다. </p> </td> 
+   <td colname="col2"> <p>Adobe이 모든 파일에서 받은 총 레코드 수입니다. 대부분의 경우 인바운드 파일에 있는 총 라인 수여야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 형식 오류 </td> 
@@ -54,19 +54,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> 잘못된 AAM ID </td> 
-   <td colname="col2"> <p>예상 38자리 포맷과 일치하지 않는 Audience Manager UUID 수입니다. 또는 파일에 전송된 Audience Manager UUID가 숫자가 아닙니다. </p> </td> 
+   <td colname="col2"> <p>예상 38자리 포맷과 일치하지 않는 Audience Manager UUID의 수입니다. 또는 파일에 전송된 Audience Manager UUID가 숫자가 아닙니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 일치하는 AAM ID 없음 </td> 
-   <td colname="col2"> <p>Audience Manager이 일치하는 UUID를 찾지 못한 총 사용자 수입니다. 이러한 파일은 ID로 동기화되지 않았으므로 Audience Manager이 UUID를 조회할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>Audience Manager에서 일치하는 UUID를 찾지 못한 총 사용자 수입니다. 이러한 파일은 ID로 동기화되지 않았으므로 Audience Manager에서 UUID를 조회할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 실현된 트레이트 없음 </td> 
-   <td colname="col2"> <p>줄에 있는 어떤 신호도 Audience Manager 트레이트에 매핑되지 않는 레코드 수입니다. </p> </td> 
+   <td colname="col2"> <p>선에 있는 어떤 신호도 Audience Manager 트레이트에 매핑되지 않는 레코드 수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 처리된 레코드 </td> 
-   <td colname="col2"> <p>Audience Manager 처리된 총 레코드 수입니다. 대부분의 경우 이 숫자는 "받은 레코드"와 같아야 합니다. </p> </td> 
+   <td colname="col2"> <p>Audience Manager에서 처리한 총 레코드 수입니다. 대부분의 경우 이 숫자는 "받은 레코드"와 같아야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 저장된 레코드 </td> 
@@ -82,7 +82,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> 사용되지 않은 총 신호 </td> 
-   <td colname="col2"> <p>모든 인바운드 파일의 모든 사용자에 대해 사용되지 않은 총 신호 수(Audience Manager 트레이트에 매핑되지 않은 키/값 쌍). 대부분의 경우 Audience Manager에 신호에 대해 정의된 규칙이 없음을 의미합니다. </p> </td> 
+   <td colname="col2"> <p>모든 인바운드 파일(Audience Manager 트레이트에 매핑되지 않은 키/값 쌍)에서 모든 사용자에 대해 사용되지 않은 총 신호 수입니다. 대부분의 경우 Audience Manager에는 신호에 대해 정의된 규칙이 없음을 의미합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 실현된 총 트레이트 </td> 

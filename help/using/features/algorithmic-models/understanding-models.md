@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!UICONTROL Look-Alike Modeling] 이해 {#about-algorithmic-models}
 
-## [!UICONTROL Look-Alike Modeling] (으)로 새 사용자 찾기 {#find-new-users}
+## [!UICONTROL Look-Alike Modeling]&#x200B;(으)로 새 사용자 찾기 {#find-new-users}
 
 [!UICONTROL Look-Alike Modeling]은(는) 자동화된 데이터 분석을 통해 새롭고 고유한 대상을 찾는 데 도움이 됩니다. [!UICONTROL trait] 또는 [!UICONTROL segment], 시간 간격, 첫 번째 및 타사 [!UICONTROL data sources]을(를) 선택하면 프로세스가 시작됩니다. 선택 항목은 알고리즘 모델에 대한 입력을 제공합니다. Analytics 프로세스가 실행되면 선택한 모집단의 공유 특성을 기반으로 적합한 사용자를 찾습니다. 완료 시 이 데이터는 [트레이트 빌더](../../features/traits/about-trait-builder.md)에서 사용할 수 있습니다. 여기서 [정확도 및 도달](../../features/traits/trait-accuracy-reach.md)을(를) 기준으로 트레이트를 만들 수 있습니다. 또한 알고리즘 트레이트를 [!UICONTROL rules-based traits]과(와) 결합하고 [!DNL Boolean] 표현식 및 비교 연산자와 함께 다른 자격 요구 사항을 추가하는 세그먼트를 만들 수 있습니다. [!UICONTROL Look-Alike Modeling]은(는) 사용 가능한 모든 트레이트 데이터에서 값을 추출하는 동적 방법을 제공합니다.
 
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 **[!UICONTROL Audience Data > Models]**&#x200B;에서 모델을 관리합니다. 높은 수준에서 워크플로 프로세스에는 다음이 포함됩니다.
 
-* 알고리즘에서 평가할 기준 데이터를 선택합니다. 여기에는 [!UICONTROL trait] 또는 [!UICONTROL segment], 시간 범위 및 [!UICONTROL data sources] ([!DNL Audience Manager]을(를) 통해 이미 액세스할 수 있는 사용자 데이터 및 타사 데이터)이 포함됩니다. 모델 만들기 워크플로우에서 모델을 방해하지 않을 [!UICONTROL traits]을(를) 제외할 수 있습니다.
+* 알고리즘에서 평가할 기준 데이터를 선택합니다. 여기에는 [!UICONTROL trait] 또는 [!UICONTROL segment], 시간 범위 및 [!UICONTROL data sources]&#x200B;([!DNL Audience Manager]을(를) 통해 이미 액세스할 수 있는 사용자 데이터 및 타사 데이터)이 포함됩니다. 모델 만들기 워크플로우에서 모델을 방해하지 않을 [!UICONTROL traits]을(를) 제외할 수 있습니다.
 * 모델을 저장합니다. 저장되면 알고리즘 평가 프로세스가 자동으로 실행됩니다. 단, 이 프로세스가 완료되는 데 최대 7일이 소요될 수 있습니다. [!DNL Audience Manager]이(가) 알고리즘이 완료되어 [!UICONTROL trait]을(를) 만들 수 있는 결과가 나오면 전자 메일을 보냅니다.
-* [!UICONTROL Trait Builder]에서 알고리즘 [!UICONTROL traits]을(를) 빌드합니다.
-* [!UICONTROL traits]을(를) [!UICONTROL Segment Builder]의 [!UICONTROL segments] (으)로 결합합니다.
-* [!UICONTROL segment] 데이터를 만들어 [!UICONTROL destination] (으)로 보냅니다.
+* [!UICONTROL traits]에서 알고리즘 [!UICONTROL Trait Builder]을(를) 빌드합니다.
+* [!UICONTROL traits]을(를) [!UICONTROL segments]의 [!UICONTROL Segment Builder]&#x200B;(으)로 결합합니다.
+* [!UICONTROL segment] 데이터를 만들어 [!UICONTROL destination]&#x200B;(으)로 보냅니다.
 
 ## 문제 해결 {#troubleshooting}
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## [!UICONTROL TraitWeight] 이해 {#understanding-traitweight}
 
-[!UICONTROL TraitWeight]은(는) 새 [!UICONTROL traits]을(를) 자동으로 검색하도록 설계된 독점 알고리즘입니다. 현재 [!UICONTROL traits] 및 [!UICONTROL segments]의 [!UICONTROL trait] 데이터를 [!DNL Audience Manager]을(를) 통해 액세스할 수 있는 다른 모든 자사 및 서드파티 데이터와 비교합니다. [!UICONTROL TraitWeight] 알고리즘 검색 프로세스에 대한 설명은 이 섹션을 참조하십시오.
+[!UICONTROL TraitWeight]은(는) 새 [!UICONTROL traits]을(를) 자동으로 검색하도록 설계된 독점 알고리즘입니다. 현재 [!UICONTROL trait] 및 [!UICONTROL traits]의 [!UICONTROL segments] 데이터를 [!DNL Audience Manager]을(를) 통해 액세스할 수 있는 다른 모든 자사 및 서드파티 데이터와 비교합니다. [!UICONTROL TraitWeight] 알고리즘 검색 프로세스에 대한 설명은 이 섹션을 참조하십시오.
 
 ![](assets/algo_model.png)
 
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 ### 1단계: [!UICONTROL Trait] 비교에 대한 기준선 만들기
 
-기준선을 만들려면 [!UICONTROL TraitWeight]은(는) 30일, 60일 또는 90일 간격 동안 대상자와 연결된 모든 [!UICONTROL traits]을(를) 측정합니다. 다음으로, 빈도와 상관 관계에 따라 [!UICONTROL traits]의 순위를 지정합니다. 빈도 수는 공통성을 측정합니다. 상관 관계는 [!UICONTROL trait]이(가) 기준 대상자에만 있을 가능성을 측정합니다. 자주 표시되는 [!UICONTROL Traits]은(는) 선택된 [!UICONTROL data sources]에서 발견된 [!UICONTROL traits]과(와) 결합할 때 가중 점수를 설정하는 데 사용되는 중요한 특징인 높은 공통성을 나타낸다고 합니다.
+기준선을 만들려면 [!UICONTROL TraitWeight]은(는) 30일, 60일 또는 90일 간격 동안 대상자와 연결된 모든 [!UICONTROL traits]을(를) 측정합니다. 다음으로, 빈도와 상관 관계에 따라 [!UICONTROL traits]의 순위를 지정합니다. 빈도 수는 공통성을 측정합니다. 상관 관계는 [!UICONTROL trait]이(가) 기준 대상자에만 있을 가능성을 측정합니다. 자주 표시되는 [!UICONTROL Traits]은(는) 선택된 [!UICONTROL traits]에서 발견된 [!UICONTROL data sources]과(와) 결합할 때 가중 점수를 설정하는 데 사용되는 중요한 특징인 높은 공통성을 나타낸다고 합니다.
 
-### 2단계: [!UICONTROL Data Source]에서 동일한 [!UICONTROL Traits] 찾기
+### 2단계: [!UICONTROL Traits]에서 동일한 [!UICONTROL Data Source] 찾기
 
-비교를 위한 기준선을 만들면 알고리즘이 선택한 [!UICONTROL data sources]에서 동일한 [!UICONTROL traits]을(를) 찾습니다. 이 단계에서 [!UICONTROL TraitWeight]은(는) 검색된 모든 [!UICONTROL traits]의 빈도 수를 수행하고 이를 기준선과 비교합니다. 하지만 기준선과 달리 흔하지 않은 [!UICONTROL traits]은(는) 더 자주 나타나는 순위보다 높은 순위를 갖습니다. 드문 [!UICONTROL traits]은(는) 특이도가 높다고 합니다. [!UICONTROL TraitWeight]은(는) 공통 기준 [!UICONTROL traits]과(와) 비공통(매우 구체적인) [!UICONTROL data source] [!UICONTROL traits]의 조합을 두 데이터 집합에 공통인 [!UICONTROL traits]보다 더 영향력있거나 바람직한 것으로 평가합니다. 실제로 이 모델은 이러한 크고 일반적인 [!UICONTROL traits]을(를) 인식하고 상관 관계가 높은 데이터 집합에 초과 우선 순위를 할당하지 않습니다. 드물게 [!UICONTROL traits]은(는) 게시판에서 공통성이 높은 [!UICONTROL traits]보다 새로운 고유 사용자를 나타낼 가능성이 높으므로 우선 순위가 높습니다.
+비교를 위한 기준선을 만들면 알고리즘이 선택한 [!UICONTROL traits]에서 동일한 [!UICONTROL data sources]을(를) 찾습니다. 이 단계에서 [!UICONTROL TraitWeight]은(는) 검색된 모든 [!UICONTROL traits]의 빈도 수를 수행하고 이를 기준선과 비교합니다. 하지만 기준선과 달리 흔하지 않은 [!UICONTROL traits]은(는) 더 자주 나타나는 순위보다 높은 순위를 갖습니다. 드문 [!UICONTROL traits]은(는) 특이도가 높다고 합니다. [!UICONTROL TraitWeight]은(는) 공통 기준 [!UICONTROL traits]과(와) 비공통(매우 구체적인) [!UICONTROL data source] [!UICONTROL traits]의 조합을 두 데이터 집합에 공통인 [!UICONTROL traits]보다 더 영향력있거나 바람직한 것으로 평가합니다. 실제로 이 모델은 이러한 크고 일반적인 [!UICONTROL traits]을(를) 인식하고 상관 관계가 높은 데이터 집합에 초과 우선 순위를 할당하지 않습니다. 드물게 [!UICONTROL traits]은(는) 게시판에서 공통성이 높은 [!UICONTROL traits]보다 새로운 고유 사용자를 나타낼 가능성이 높으므로 우선 순위가 높습니다.
 
 ### 3단계: 가중치 지정
 
@@ -183,7 +183,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 모델을 사용하는 트레이트 <span class="wintitle">개</span> </p> </td>
-   <td colname="col2"> <p>선택한 모델을 기반으로 알고리즘 트레이트 목록을 표시합니다. 트레이트에 대한 자세한 내용을 보려면 트레이트 이름 또는 트레이트 ID를 클릭하십시오. 알고리즘 특성 생성 프로세스로 이동하려면 <b><span class="uicontrol"> </span></b>(으)로 새 특성 만들기 를 선택합니다. </p> <p>섹션 레이블은 모델 이름에 따라 변경됩니다. 예를 들어 모델을 만들고 이름을 모델 A로 지정한다고 가정해 보겠습니다. 요약 페이지를 로드하면 이 섹션의 이름이 모델 A</span>을(를) 사용하는 트레이트 <span class="wintitle">개로 변경됩니다. </p> </td>
+   <td colname="col2"> <p>선택한 모델을 기반으로 알고리즘 트레이트 목록을 표시합니다. 트레이트에 대한 자세한 내용을 보려면 트레이트 이름 또는 트레이트 ID를 클릭하십시오. 알고리즘 특성 생성 프로세스로 이동하려면 <b><span class="uicontrol"> </span></b>(으)로 새 특성 만들기 를 선택합니다. </p> <p>섹션 레이블은 모델 이름에 따라 변경됩니다. 예를 들어 모델을 만들고 이름을 모델 A로 지정한다고 가정해 보겠습니다. 요약 페이지를 로드하면 이 섹션의 이름이 모델 A<span class="wintitle">을(를) 사용하는 트레이트 </span>개로 변경됩니다. </p> </td>
   </tr>
  </tbody>
 </table>

@@ -28,7 +28,7 @@ ht-degree: 6%
 
 ## 변환한 후에는 타깃팅하지 않음 {#do-not-target-once}
 
-이미 전환한 사용자(제품 구매, 구독 획득 등)는 전환 전과 동일한 메시지가 표시되지 않습니다. 다음과 같이 [!UICONTROL AND NOT] 논리를 사용하여 이를 가져올 수 있습니다.
+이미 전환(제품 구매, 구독 획득 등)한 사용자에게 전환 전과 동일한 메시지가 표시되지 않도록 합니다. 다음과 같이 [!UICONTROL AND NOT] 논리를 사용하여 이를 가져올 수 있습니다.
 
 1. 아래 이미지에 표시된 대로 두 트레이트를 사용하여 세그먼트를 만들고 [!UICONTROL AND NOT] 논리를 사용합니다. 실시간으로 트리거될 세그먼트 해제에 대한 전환 이벤트를 정의하려면 규칙 기반 트레이트를 사용해야 합니다. [규칙 기반 특성을 만드는 방법](../traits/create-onboarded-rule-based-traits.md)에 대해 자세히 알아보세요.
 2. 실시간 서버 간 대상에 세그먼트를 매핑합니다. [서버 간 대상](../destinations/add-edit-segments.md)에 세그먼트를 추가하는 방법에 대해 읽어 보십시오.
@@ -59,12 +59,12 @@ ht-degree: 6%
 * 실시간 세그먼트 해제 기능이 작동하려면 원하는 세그먼트를 실시간 서버 간 대상에 매핑해야 합니다.
 * [device graph](profile-link-use-case.md#recommendations)로 장치에 연결된 장치의 경우 평가 및 세그먼테이션 해제와 관련하여 4개의 장치 제한을 적용합니다. 이 제한은 [장치 그래프 옵션 및 장치 세그먼테이션 해제](merge-rule-unsegment.md#device-graph-options-unsegmentation)에 설명되어 있습니다&#x200B;.
 * 세그먼트 해제 명령은 장치 그래프로 연결된 여러 장치의 경우 24시간마다 대상으로 전송되는 배치 파일에 포함됩니다.
-* 실시간으로 세그먼트 평가를 묻는 메시지를 표시하려면 장치를 실시간으로 [Edge](../../reference/system-components/components-edge.md)에서 확인해야 합니다. 트레이트 [!DNL TTL]이(가) 충족되면 [!UICONTROL time-to-live (TTL)]이(가) 있는 트레이트의 경우 일괄 처리 파일을 통해 24시간 내에 장치가 자동으로 세그먼트 해제됩니다&#x200B;. [트레이트 만료 간격을 설정](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval)하는 방법에 대해 자세히 알아보세요.
+* 실시간으로 세그먼트 평가를 묻는 메시지를 표시하려면 장치를 실시간으로 [Edge](../../reference/system-components/components-edge.md)에서 확인해야 합니다. 트레이트 [!UICONTROL time-to-live (TTL)]이(가) 충족되면 [!DNL TTL]이(가) 있는 트레이트의 경우 일괄 처리 파일을 통해 24시간 내에 장치가 자동으로 세그먼트 해제됩니다&#x200B;. [트레이트 만료 간격을 설정](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval)하는 방법에 대해 자세히 알아보세요.
 * [!UICONTROL DCS API]에서 온보드 규칙 기반 트레이트를 실시간으로 사용하는 경우 [!UICONTROL AND NOT] 논리를 사용하여 세그먼트 해제를 트리거할 수 있습니다. [DCS API로 데이터 보내기](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)에 대해 자세히 알아보십시오&#x200B;.
 
 ## 중요 참고 사항 - 시간 {#timing-notes}
 
 타이밍과 관련된 다음 측면을 염두에 두십시오.
 
-* 세그먼트는 장치 프로필이 [!UICONTROL Edge]에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 [Edge](../../reference/system-components/components-edge.md)에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
+* 세그먼트는 장치 프로필이 [에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 ](../../reference/system-components/components-edge.md)Edge[!UICONTROL Edge]에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
 * 세그먼트 해제 작업이 [!DNL DCS] 영역에 걸쳐 전파되는 데 약 24시간이 소요됩니다. [!DNL DCS] 지역 [여기](../../reference/system-components/components-data-collection.md) 및 [여기](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)에 대해 자세히 알아보세요.

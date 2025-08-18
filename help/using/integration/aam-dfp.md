@@ -3,7 +3,7 @@ description: DFP를 대상으로 설정하고 Audience Manager 세그먼트 데�
 seo-description: Set up Google Ad Manager as a destination and send Audience Manager segment data to that platform.
 seo-title: Google Ad Manager as an Audience Manager Destination
 solution: Audience Manager
-title: Audience Manager 대상으로서의 Google Ad Manager
+title: Google Ad Manager as a Audience Manager 대상
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
 feature: Third-party Integration
 exl-id: 54599948-1a32-421f-a37d-555f3807f746

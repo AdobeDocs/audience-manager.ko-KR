@@ -1,9 +1,9 @@
 ---
-description: 대상 랩 기능에 대한 FAQ
+description: 대상자 랩 기능에 대한 FAQ
 seo-description: Frequently asked questions about the Audience Lab feature.
 seo-title: Audience Lab FAQ
 solution: Audience Manager
-title: 대상 랩 FAQ
+title: 대상자 랩 FAQ
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
@@ -14,9 +14,9 @@ ht-degree: 94%
 
 ---
 
-# 대상 랩 FAQ{#audience-lab-faq}
+# 대상자 랩 FAQ{#audience-lab-faq}
 
-대상 랩 기능에 대한 FAQ
+대상자 랩 기능에 대한 FAQ
 
 <br> 
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 
 **동일한 전환 트레이트를 여러 테스트 그룹과 연결할 수 있습니까?**
 
-예, 가능합니다. 전환 X에 연결된 남성 세그먼트를 사용하는 한 테스트와 전환 X에 연결된 여성 세그먼트를 사용하는 한 테스트의 경우를 생각해 보십시오. 두 테스트 모두 서로 다른 두 대상을 테스트하므로 전환을 유도하는 것은 문제가 되지 않습니다.
+예, 가능합니다. 전환 X에 연결된 남성 세그먼트를 사용하는 한 테스트와 전환 X에 연결된 여성 세그먼트를 사용하는 한 테스트의 경우를 생각해 보십시오. 두 테스트 모두 서로 다른 두 대상자를 테스트하므로 전환을 유도하는 것은 문제가 되지 않습니다.
 
 <br> 
 
@@ -50,4 +50,4 @@ ht-degree: 94%
 
 **[!UICONTROL Audience Lab]을(를) [!UICONTROL Profile Link Device Graph] 및 외부 장치 그래프(Tapad 장치 그래프, Liveramp 장치 그래프)와 함께 사용할 수 있습니까?**
 
-현재, [!UICONTROL Audience Lab]은 [!UICONTROL Profile Link Device Graph]를 사용할 때 자격을 부여하는 장치에 연결된 장치로만 세그먼트 인구를 분할할 수 있습니다. [!UICONTROL Audience Lab]에서 다른 장치 그래프에 대한 지원을 추가하는 작업이 진행 중이며 추가되면 알려드리겠습니다.
+현재, [!UICONTROL Audience Lab]은 [!UICONTROL Profile Link Device Graph]를 사용할 때 선별된 장치에 연결된 장치로만 세그먼트 인구를 분할할 수 있습니다. [!UICONTROL Audience Lab]에서 다른 장치 그래프에 대한 지원을 추가하는 작업이 진행 중이며 추가되면 알려드리겠습니다.

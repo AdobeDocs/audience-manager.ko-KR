@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 호출 구문 및 예 {#call-syntax-example}
 
-[!DNL DCS] (으)로 데이터를 보내는 기본 서버 간 요청에서는 아래와 같은 구문을 사용합니다.
+[!DNL DCS]&#x200B;(으)로 데이터를 보내는 기본 서버 간 요청에서는 아래와 같은 구문을 사용합니다.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
@@ -67,11 +67,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>키-값 쌍에 <span class="keyword"> Audience Manager</span> 사용자 ID 값을 포함하는 고유한 사용자 ID 키입니다. </p> <p><span class="keyword"> Audience Manager</span> 사용자 ID를 전달하는 경우 <code><i>d_uuid</i></code>을(를) 사용합니다. </p> </td>
+   <td colname="col2"> <p>키-값 쌍에 <span class="keyword"> Audience Manager</span> 사용자 ID 값을 포함하는 고유한 사용자 ID 키입니다. </p> <p><code><i>d_uuid</i></code> Audience Manager<span class="keyword"> 사용자 ID를 전달하는 경우 </span>을(를) 사용합니다. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>키-값 쌍에 <span class="keyword"> Experience Cloud</span> 사용자 ID 값을 포함하는 고유한 사용자 ID 키입니다. <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> ID 서비스 쿠키에서 사용자 ID 가져오기</a>도 참조하십시오. </p> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 캡처한 <span class="keyword"> Experience Cloud</span> ID를 전달하는 경우 <i><code> d_mid</code></i>을(를) 사용합니다. </p> </td> 
+   <td colname="col2"> <p>키-값 쌍에 <span class="keyword"> Experience Cloud</span> 사용자 ID 값을 포함하는 고유한 사용자 ID 키입니다. <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> ID 서비스 쿠키에서 사용자 ID 가져오기</a>도 참조하십시오. </p> <p><i><code> d_mid</code></i> Experience Cloud<span class="keyword"> ID 서비스에서 캡처한 </span> Experience Cloud<span class="keyword"> ID를 전달하는 경우 </span>을(를) 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 

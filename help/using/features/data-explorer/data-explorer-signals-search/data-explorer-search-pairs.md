@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->간소화된 사용자 경험을 위해 키-값 쌍 검색 결과는 데이터 샘플링을 기반으로 합니다. [!DNL Audience Manager]에서 데이터 샘플링을 사용하는 방법과 키-값 검색을 일반 검색과 비교할 때 약간의 결과 변형이 나타나는 이유에 대한 자세한 내용은 [데이터 샘플링 및 오류율](/help/using/reporting/report-sampling.md)을 참조하십시오.
+>간소화된 사용자 경험을 위해 키-값 쌍 검색 결과는 데이터 샘플링을 기반으로 합니다. [에서 데이터 샘플링을 사용하는 방법과 키-값 검색을 일반 검색과 비교할 때 약간의 결과 변형이 나타나는 이유에 대한 자세한 내용은 ](/help/using/reporting/report-sampling.md)데이터 샘플링 및 오류율[!DNL Audience Manager]을 참조하십시오.
 
 여러 키-값 쌍을 사용하여 신호를 검색할 때 [!DNL Audience Manager]은(는) 논리 **AND** 연산자를 사용하여 쌍을 연결합니다. 예를 들어 다음 키-값 쌍으로 검색을 수행하고 있다고 가정해 보겠습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 신호 검색에서 제외된 신호 {#excluded-signals}
 
-Audience Manager에서 사용하고 접두사가 `d_` 및 `h_`인 키 변수는 [!UICONTROL Signals Search]에서 표시되지 않습니다. 자세한 내용은 [주요 변수의 접두사 요구 사항](../../traits/trait-variable-prefixes.md)을 참조하십시오.
+Audience Manager에서 사용하고 접두사 `d_` 및 `h_`이(가) 접두사로 사용하는 키 변수는 [!UICONTROL Signals Search]에서 표시되지 않습니다. 자세한 내용은 [주요 변수의 접두사 요구 사항](../../traits/trait-variable-prefixes.md)을 참조하십시오.
 
 ## 대소문자 구분 및 검색 자동 완성 {#case-insensitivity}
 

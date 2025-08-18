@@ -76,7 +76,7 @@ r_problem.xml
 
 ## 작동 중지 상황 {#outage}
 
-서비스 중단이 있는 것으로 의심되는 경우에는 먼저 [Experience Cloud 시스템 상태 페이지](https://status.adobe.com)( [!DNL https://status.adobe.com] )를 확인하십시오. 여기에는 Audience Manager를 포함한 Experience Cloud 솔루션에 대한 모든 서비스 중지, 사고 및 유지 관리 기록이 있으며, Adobe의 Tech Ops팀에서 제공하는 최신 업데이트도 포함되어 있습니다. 여전히 지원이 필요할 경우에는, 고객 지원 센터에 연락할 때 위에 나열된 정보 외에 다음 사항을 알아 두십시오.
+서비스 중단이 있는 것으로 의심되는 경우에는 먼저 [Experience Cloud 시스템 상태 페이지](https://status.adobe.com)&#x200B;( [!DNL https://status.adobe.com] )를 확인하십시오. 여기에는 Audience Manager를 포함한 Experience Cloud 솔루션에 대한 모든 서비스 중지, 사고 및 유지 관리 기록이 있으며, Adobe의 Tech Ops팀에서 제공하는 최신 업데이트도 포함되어 있습니다. 여전히 지원이 필요할 경우에는, 고객 지원 센터에 연락할 때 위에 나열된 정보 외에 다음 사항을 알아 두십시오.
 
 * 작동 중지가 시작된 시간
 * 발생 상황에 대한 설명

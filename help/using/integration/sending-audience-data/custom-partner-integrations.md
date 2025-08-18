@@ -25,7 +25,7 @@ Audience Manager는 인바운드 데이터 파일을 통해 Oracle Data Cloud fo
 
 ### 통합 세부 정보
 
-oracle 데이터 클라우드에서 받은 인바운드 데이터 파일은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)에 설명된 표준 인바운드 파일 이름 구문과 [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예제](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)에 설명된 표준 인바운드 파일 내용 구문과 다릅니다.
+Oracle Data Cloud에서 받은 인바운드 데이터 파일은 [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)에 설명된 표준 인바운드 파일 이름 구문과 [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예제](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)에 설명된 표준 인바운드 파일 내용 구문과 다릅니다.
 
 인바운드 데이터 파일에 대한 표준 구현 필드 외에 아래에 강조 표시된 요소가 필요합니다. 기타 모든 표준 필드 및 파일 이름 요소에 대한 설명은 위에 링크된 두 페이지의 파일 이름 구문 및 파일 컨텐츠 구문을 참조하십시오.
 
@@ -35,7 +35,7 @@ ODC 파일 이름은 다음과 같이 구성됩니다.
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-`odc` 파일 이름 요소는 Oracle Data Cloud에서 파일을 가져오는 것으로 식별하고 Audience Manager 인바운드 파일 유효성 검사기가 이를 처리하도록 지시합니다.
+`odc` 파일 이름 요소는 Oracle Data Cloud에서 가져오는 파일을 식별하고 Audience Manager 인바운드 파일 유효성 검사기가 이를 처리하도록 지시합니다.
 
 ### 파일 내용
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 1. **[!UICONTROL Add New]**: 새 [!UICONTROL rule-based], [!UICONTROL algorithmic] 또는 [!UICONTROL onboarded traits]을(를) 만들려면 이 옵션을 사용합니다.
 2. **[!UICONTROL Edit]**: 이 옵션을 사용하여 현재 [!UICONTROL trait]의 구성을 변경합니다.
 3. **[!UICONTROL Delete]**: 이 옵션을 사용하여 Audience Manager 계정에서 현재 [!UICONTROL trait]을(를) 제거합니다.
-4. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 데이터 요금 [!UICONTROL Audience Marketplace]에서 현재 보고 있는 것과 유사한 [!UICONTROL traits]을(를) 찾을 수 있습니다. [!UICONTROL Marketplace]을(를) 탐색하고 유사한 트레이트를 찾는 방법에 대해 알아보려면 [데이터 구매자용 Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)를 참조하십시오.
+4. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 데이터 요금 [!UICONTROL traits]에서 현재 보고 있는 것과 유사한 [!UICONTROL Audience Marketplace]을(를) 찾을 수 있습니다. [을(를) 탐색하고 유사한 트레이트를 찾는 방법에 대해 알아보려면 ](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)데이터 구매자용 Audience Marketplace[!UICONTROL Marketplace]을(를) 참조하십시오.
 
 ![기본 특성 정보](assets/basic-trait-information.png)
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 [!UICONTROL rule-based traits]의 경우 사용자가 브라우저에서 [!UICONTROL trait]에 대한 자격을 얻을 때 [!UICONTROL trait] 자격이 실시간으로 발생합니다.
 
-[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager에 제공됨](../../faq/faq-inbound-data-ingestion.md)이며, 이는 [!UICONTROL trait] 자격이 발생한 때입니다.
+[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager으로 ](../../faq/faq-inbound-data-ingestion.md)되고, 이 때 [!UICONTROL trait] 자격이 발생합니다.
 
 [!UICONTROL Trait Graph]에는 다음 정보가 표시됩니다.
 
@@ -55,15 +55,15 @@ ht-degree: 0%
 * **[!UICONTROL Unique Trait Realizations]**: 지정된 시간 범위 동안 프로필에 이 [!UICONTROL trait]을(를) 추가한 고유 사용자 수입니다.
 * **[!UICONTROL Total Trait Population]**: 현재 이 [!UICONTROL trait]에 대해 자격이 있는 고유 사용자 수입니다.
 
-* **[!UICONTROL Identity Type Breakdown]**: 처음 세 항목은 [!UICONTROL trait]에 적합한 모집단 수가 가장 많은 상위 세 개의 [!UICONTROL cross-device data sources]을(를) 내림차순으로 표시합니다. 네 번째 항목은 [!UICONTROL trait]에 대해 자격이 있는 다른 모든 [!DNL DPUUIDs] ([!DNL CRM IDs])과(와) 상위 3에 없는 [!UICONTROL cross-device data sources]의 합계를 보여줍니다. 이 보고서는 페이지 오른쪽 상단의 [!UICONTROL Show Results By] 드롭다운 메뉴에서 [!UICONTROL Cross-device ID]을(를) 선택한 경우에만 나타납니다. 기본 드롭다운 옵션은 [!UICONTROL Device ID]이며, 여기에는 이 보고서가 표시되지 않습니다.
+* **[!UICONTROL Identity Type Breakdown]**: 처음 세 항목은 [!UICONTROL cross-device data sources]에 적합한 모집단 수가 가장 많은 상위 세 개의 [!UICONTROL trait]을(를) 내림차순으로 표시합니다. 네 번째 항목은 [!DNL DPUUIDs]에 대해 자격이 있는 다른 모든 [!DNL CRM IDs]&#x200B;([!UICONTROL trait])과(와) 상위 3에 없는 [!UICONTROL cross-device data sources]의 합계를 보여줍니다. 이 보고서는 페이지 오른쪽 상단의 [!UICONTROL Cross-device ID] 드롭다운 메뉴에서 [!UICONTROL Show Results By]을(를) 선택한 경우에만 나타납니다. 기본 드롭다운 옵션은 [!UICONTROL Device ID]이며, 여기에는 이 보고서가 표시되지 않습니다.
 
   ![특성 그래프](assets/trait-identity.png)
 
   >[!NOTE]
   >
-  >Audience Manager은 [!UICONTROL trait]에 적합한 ID가 [!UICONTROL cross-device]개인 경우에만 [!UICONTROL Identity Type Breakdown] 보고서를 표시합니다.
+  >Audience Manager은 [!UICONTROL Identity Type Breakdown]에 적합한 ID가 [!UICONTROL cross-device]개인 경우에만 [!UICONTROL trait] 보고서를 표시합니다.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/32080?captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## [!UICONTROL Trait] 식 {#trait-expression}
 
@@ -83,6 +83,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL By User] 열의 [!UICONTROL Not Available]은(는) 해당 사용자의 계정이 삭제되었음을 의미합니다.
+>[!UICONTROL Not Available] 열의 [!UICONTROL By User]은(는) 해당 사용자의 계정이 삭제되었음을 의미합니다.
 
 ![](assets/traitHistory.png)

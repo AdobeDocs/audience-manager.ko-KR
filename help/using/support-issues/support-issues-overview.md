@@ -21,4 +21,4 @@ ht-degree: 100%
 * [Overlap Reports 페이지에 트레이트나 세그먼트가 표시되지 않는 이유는 무엇입니까?](why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
 * [읽기 전용 사용자가 트레이트와 세그먼트를 생성, 편집 또는 삭제할 수 있는 이유는 무엇입니까?](aam-read-only-users-create-delete-traits-segments.md)
 * [Audience Manager 고객이 아닌데 당사 사이트에 Audience Manager Javascript 호출이 표시됩니다](not-using-aam-but-seeing-aam-javascript.md)
-* [대상 세부 사항 페이지에 대상 랩 매핑 세그먼트가 표시되어야 합니까?](should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
+* [대상 세부 사항 페이지에 대상자 랩 매핑 세그먼트가 표시되어야 합니까?](should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)

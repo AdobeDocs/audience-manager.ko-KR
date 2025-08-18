@@ -19,7 +19,7 @@ ht-degree: 4%
 
 글로벌 데이터 소스는 모든 Audience Manager 고객이 액세스할 수 있으며 [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku] 및 [!DNL Android] 장치 제조사와 같은 장치 제조업체에서 생성한 장치 광고 ID를 포함합니다. 이러한 ID는 광고 목적으로 제조 업체에서 사용할 수 있습니다. Audience Manager 고객은 전역 데이터 소스를 사용하여 장치 ID를 동기화하고 이러한 매핑에서 데이터를 가져오거나 내보낼 수 있습니다.
 
-다음 표에서는 Audience Manager에서 지원하는 전역 데이터 소스에 대해 설명합니다.
+다음 표에서는 Audience Manager에서 지원하는 글로벌 데이터 소스에 대해 설명합니다.
 
 | 데이터 Source ID | 설명 |
 |---|---|
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->글로벌 장치 ID를 사용하여 데이터를 Audience Manager에 보낼 때 해당 장치 ID에 해당하는 데이터 소스를 사용해야 합니다. 예: [!DNL Apple IDFA]에 대한 데이터를 가져오려면 데이터 원본 ID 20915을 사용하십시오.
+>글로벌 장치 ID를 사용하여 Audience Manager에 데이터를 보낼 때 해당 장치 ID에 해당하는 데이터 소스를 사용해야 합니다. 예: [!DNL Apple IDFA]에 대한 데이터를 가져오려면 데이터 원본 ID 20915을 사용하십시오.
 
 ## 제한
 
@@ -46,14 +46,14 @@ ht-degree: 4%
 
 ## 전역 장치 ID 유효성 검사
 
-Audience Manager은 해당 형식을 기반으로 하여 고객이 가져온 장치 광고 ID([!UICONTROL DAID])를 확인하여 장치 제조 업체에 설명한 표준 형식과 일치하는지 확인합니다. 글로벌 데이터 원본에 대한 장치 광고 ID의 자세한 매핑과 각 ID에 대한 적절한 형식은 [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하세요. 장치 유형에 따라 올바른 형식으로 장치 ID를 가져오고 있는지 확인하십시오. Audience Manager은 적절한 형식을 충족하지 않는 장치 ID를 거부하고 ID가 거부되었음을 나타내는 오류 메시지를 반환합니다.
+Audience Manager은 해당 형식을 기반으로 하여 고객이 가져온 장치 광고 ID([!UICONTROL DAID])를 확인하여, 장치 제조 업체에 설명한 표준 형식과 일치하는지 확인합니다. 글로벌 데이터 소스에 대한 장치 광고 ID의 자세한 매핑과 각 ID에 대한 적절한 형식은 [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하십시오. 장치 유형에 따라 올바른 형식으로 장치 ID를 가져오고 있는지 확인하십시오. Audience Manager은 적절한 형식을 충족하지 않는 장치 ID를 거부하고 ID가 거부되었음을 나타내는 오류 메시지를 반환합니다.
 
 * 일괄 데이터 전송에 대한 오류 메시지는 다음에 요약되어 있습니다. [온보딩 상태 보고서 용어 및 정의](../reporting/onboarding-status-report.md#report-terms-conditions).
 * 실시간 데이터 전송에 대한 오류 메시지는 [DCS 오류 코드, 메시지 및 예제](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md)에 설명되어 있습니다.
 
 ## 장치 ID 만료 정책
 
-Audience Manager은 [AAM UUID](../faq/faq-privacy.md)와 마찬가지로 120일 동안 사용하지 않으면 장치 광고 ID를 자동으로 버립니다.
+Audience Manager은 [AAM UUID](../faq/faq-privacy.md)와 같이 120일 동안 활동이 없으면 장치 광고 ID를 자동으로 버립니다.
 
 ## 새 글로벌 데이터 소스 요청
 

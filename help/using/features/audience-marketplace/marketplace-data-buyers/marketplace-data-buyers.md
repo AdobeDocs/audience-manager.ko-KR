@@ -1,5 +1,5 @@
 ---
-description: Audience Manager 내에서 타사 데이터를 구매하려는 데이터 구매자를 위한 개요 및 워크플로
+description: Audience Manager 내에서 서드파티 데이터를 구매하려는 데이터 구매자를 위한 개요 및 워크플로
 seo-description: Overview and workflow for data buyers who want to purchase third-party data from within Audience Manager
 seo-title: Audience Marketplace for Data Buyers
 solution: Audience Manager
@@ -39,7 +39,7 @@ ht-degree: 1%
 [!UICONTROL Marketplace] 목록에는 정렬 및 검색하여 본인에게 적합한 데이터 피드를 찾을 수 있는 정보가 포함되어 있습니다. [!UICONTROL Marketplace] 구매자 목록에 있는 항목은 다음과 같습니다.
 
 * **[!UICONTROL Search]**: 이름 또는 텍스트 설명별로 데이터 피드를 찾습니다.
-* **[!UICONTROL Similar Traits]**: 데이터 피드에서 유사한 [!UICONTROL traits]의 수를 표시합니다. 이 열은 **[!UICONTROL Similarity To]** 섹션에서 필터링할 [!UICONTROL trait] 또는 [!UICONTROL segment]을(를) 입력한 후에 표시됩니다.
+* **[!UICONTROL Similar Traits]**: 데이터 피드에서 유사한 [!UICONTROL traits]의 수를 표시합니다. 이 열은 [!UICONTROL trait] 섹션에서 필터링할 [!UICONTROL segment] 또는 **[!UICONTROL Similarity To]**&#x200B;을(를) 입력한 후에 표시됩니다.
 * **[!UICONTROL Name]**: 데이터 피드의 이름입니다.
 * **[!UICONTROL Description]**: 데이터 피드의 내용에 대한 정보입니다.
 * **[!UICONTROL Provider]**: 데이터 공급자의 이름입니다.

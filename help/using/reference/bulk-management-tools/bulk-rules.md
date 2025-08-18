@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Bulk Management Tools는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
+>벌크 관리 도구는 공식적으로 지원되는 Adobe 제품이 아닙니다. 고객 지원 센터를 통한 문제 해결 및 지원은 사안별로 처리됩니다.
 
 <!-- 
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[ UI에 할당된 ](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 ## 트레이트 규칙 작업 {#trait-rules}
 

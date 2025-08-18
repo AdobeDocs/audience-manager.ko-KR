@@ -20,9 +20,9 @@ Audience Optimization 보고서의 채널 간 전환 옵션을 사용하면 오�
 
 [!UICONTROL Cross Channel Conversion] 보고서는 [!DNL Google Campaign Manager] 플랫폼의 결과를 [!DNL Audience Manager] 전환 트레이트와 결합합니다. 이렇게 하면 오프라인 전환을 온라인 노출 또는 클릭에 연결할 수 있습니다.
 
-[세그먼트 성능](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) 및 [최적 빈도](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) 보고서에 [!UICONTROL Cross Channel Conversion]을(를) 사용할 수 있습니다.
+[!UICONTROL Cross Channel Conversion]세그먼트 성능[ 및 ](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)최적 빈도[ 보고서에 ](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)을(를) 사용할 수 있습니다.
 
-[!UICONTROL Cross Channel Conversion] 보고서를 보려면 **[!UICONTROL Platform]** 드롭다운 목록에서 **[!UICONTROL AAM + Ad Server Name]** 항목을 선택하십시오.
+[!UICONTROL Cross Channel Conversion] 보고서를 보려면 **[!UICONTROL AAM + Ad Server Name]** 드롭다운 목록에서 **[!UICONTROL Platform]** 항목을 선택하십시오.
 
 다음 표에는 [!UICONTROL Cross Channel Conversion]을(를) 설정할 때 고려해야 할 중요한 사항이 나와 있습니다.
 

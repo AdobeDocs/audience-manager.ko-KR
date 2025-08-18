@@ -98,7 +98,7 @@ ht-degree: 2%
 
 ### 선택적 쿼리 매개 변수
 
-개체에 대한 *all* 속성을 반환하는 [!DNL API] 메서드와 함께 이러한 선택적 매개 변수를 사용할 수 있습니다. 해당 쿼리를 [!DNL API]에 전달할 때 요청 문자열에서 이러한 옵션을 설정하십시오. [선택적 매개 변수](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)를 참조하십시오.
+개체에 대한 [!DNL API]all *속성을 반환하는* 메서드와 함께 이러한 선택적 매개 변수를 사용할 수 있습니다. 해당 쿼리를 [!DNL API]에 전달할 때 요청 문자열에서 이러한 옵션을 설정하십시오. [선택적 매개 변수](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)를 참조하십시오.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

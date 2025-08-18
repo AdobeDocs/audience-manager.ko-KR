@@ -45,13 +45,13 @@ ht-degree: 6%
 
 다음 명명된 연산자로 규칙을 작성할 수 있습니다.
 
-| 연산자 | 다음과 같은 경우 [!DNL True] (으)로 평가됨 |
+| 연산자 | 다음과 같은 경우 [!DNL True]&#x200B;(으)로 평가됨 |
 |---|---|
 | **[!UICONTROL Contains]** | 키-값 쌍 *에 있는 값은 이 연산자에 의해 지정된*&#x200B;자를 포함합니다. |
 | **[!UICONTROL Matcheswords]** | 키-값 쌍의 값은 이 연산자에 의해 지정된 패턴과 *일치*&#x200B;합니다. |
 | **[!UICONTROL Startswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한*&#x200B;자로 시작합니다. |
 | **[!UICONTROL Endswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자로 끝납니다*. |
-| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값이 정규식에 지정된 패턴과 *일치*&#x200B;합니다. [!UICONTROL Trait Builder]에서 정규식을 사용하는 방법에 대해 [자세히 알아보기](../../features/traits/trait-builder-regex.md). |
+| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값이 정규식에 지정된 패턴과 *일치*&#x200B;합니다. [에서 정규식을 사용하는 방법에 대해 ](../../features/traits/trait-builder-regex.md)자세히 알아보기[!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >

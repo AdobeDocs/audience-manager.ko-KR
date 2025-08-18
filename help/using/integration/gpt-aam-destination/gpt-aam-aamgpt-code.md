@@ -1,5 +1,5 @@
 ---
-description: AamGpt는 Audience Manager 쿠키 데이터를 읽고 해당 정보를 Google 게시자 태그로 전송하는 JavaScript 함수입니다.
+description: AamGpt는 JavaScript 쿠키 데이터를 읽고 해당 정보를 Google Publisher Tags로 전송하는 Audience Manager 함수입니다.
 seo-description: AamGpt is a JavaScript function that reads Audience Manager cookie data and sends that information to Google Publisher Tags.
 seo-title: Audience Manager Code for Google Publisher Tags
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Google 게시자 태그에 대한 Audience Manager 코드 {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt`은(는) Audience Manager 쿠키 데이터를 읽고 해당 정보를 [!DNL Google Publisher Tags]에 보내는 [!DNL JavaScript] 함수입니다.
+`AamGpt`은(는) Audience Manager 쿠키 데이터를 읽고 해당 정보를 [!DNL JavaScript]에 보내는 [!DNL Google Publisher Tags] 함수입니다.
 
 >[!NOTE]
 >

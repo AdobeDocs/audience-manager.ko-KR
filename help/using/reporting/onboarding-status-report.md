@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>오류 샘플링</b> </p> </td>
-   <td colname="col2"> <p>오류 샘플링은 데이터 파일의 내용을 구문 분석하고 각 오류 유형에 대해 가장 일반적인 10개의 오류를 반환합니다. 인바운드 데이터 파일의 오류로 인해 개별 레코드가 처리되지 않습니다. 이 보고서를 문제 해결 도구로 사용하여 파일 오류 수를 줄이고 처리 속도를 개선하십시오. </p> <p>오류 샘플링을 수동으로 활성화해야 합니다. 활성화한 날로부터 14일 동안 실행된 다음 자동으로 꺼집니다. 14일 간격이 만료된 후 오류 샘플링을 다시 켤 수 있습니다. <a href="../features/manage-datasources.md#create-data-source">이(가) 인바운드 데이터 원본 </a>을(를) 만들 때 또는 기존 인바운드 데이터 원본의 <span class="wintitle"> 데이터 Source 설정</span> 섹션에서 <b><span class="uicontrol"> 오류 샘플링</span></b> 확인란을 선택하여 오류 샘플링을 활성화합니다. </p> <p>오류 샘플링은 계산적으로 어려운 프로세스입니다. 그 결과 각 오류 범주에 대해 처음 10개의 오류만 반환됩니다. 인바운드 데이터 소스에 포함된 모든 오류를 반환하도록 설계되지 않았습니다. 이러한 오류는 잠재적으로 크기가 더 큰 유사한 오류 집단의 대표적인 표본이다. 이 보고서에서 플래그로 표시하는 오류 유형에 대해 전체 파일을 검토하고 파일 형식을 다시 지정한 후 다시 전송하십시오. </p> <p>인바운드 데이터 원본에 대한 데이터 파일의 형식을 올바르게 지정하는 방법에 대한 자세한 내용은 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 인바운드 데이터 파일 내용: 구문, 변수 및 예제</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>오류 샘플링은 데이터 파일의 내용을 구문 분석하고 각 오류 유형에 대해 가장 일반적인 10개의 오류를 반환합니다. 인바운드 데이터 파일의 오류로 인해 개별 레코드가 처리되지 않습니다. 이 보고서를 문제 해결 도구로 사용하여 파일 오류 수를 줄이고 처리 속도를 개선하십시오. </p> <p>오류 샘플링을 수동으로 활성화해야 합니다. 활성화한 날로부터 14일 동안 실행된 다음 자동으로 꺼집니다. 14일 간격이 만료된 후 오류 샘플링을 다시 켤 수 있습니다. <a href="../features/manage-datasources.md#create-data-source">이(가) 인바운드 데이터 원본 </a>을(를) 만들 때 또는 기존 인바운드 데이터 원본의 <b><span class="uicontrol"> 데이터 Source 설정</span></b> 섹션에서 <span class="wintitle"> 오류 샘플링</span> 확인란을 선택하여 오류 샘플링을 활성화합니다. </p> <p>오류 샘플링은 계산적으로 어려운 프로세스입니다. 그 결과 각 오류 범주에 대해 처음 10개의 오류만 반환됩니다. 인바운드 데이터 소스에 포함된 모든 오류를 반환하도록 설계되지 않았습니다. 이러한 오류는 잠재적으로 크기가 더 큰 유사한 오류 집단의 대표적인 표본이다. 이 보고서에서 플래그로 표시하는 오류 유형에 대해 전체 파일을 검토하고 파일 형식을 다시 지정한 후 다시 전송하십시오. </p> <p>인바운드 데이터 원본에 대한 데이터 파일의 형식을 올바르게 지정하는 방법에 대한 자세한 내용은 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 인바운드 데이터 파일 내용: 구문, 변수 및 예제</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,9 +121,9 @@ create-onboarding-status-report.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>데이터 동기화 파일 이름</b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>이(가) 귀하가 선택한 인바운드 데이터 원본으로부터 받아서 처리한 파일을 나열합니다. </p> <p>파일 이름의 형식이 올바르지 않으면 파일 처리가 실패합니다. 파일 이름 요구 사항은 이 데이터를 <span class="keyword"> Audience Manager</span>(으)로 보내는 방법에 따라 다릅니다. 게재 방법에는 <span class="keyword"> Amazon S3</span> 및 FTP가 포함됩니다. 파일 이름을 지정하는 방법에 대한 지침은 다음을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>이(가) 귀하가 선택한 인바운드 데이터 원본으로부터 받아서 처리한 파일을 나열합니다. </p> <p>파일 이름의 형식이 올바르지 않으면 파일 처리가 실패합니다. 파일 이름 요구 사항은 이 데이터를 <span class="keyword"> Audience Manager</span>에 보내는 방법에 따라 다릅니다. 게재 방법에는 <span class="keyword"> Amazon S3</span> 및 FTP가 포함됩니다. 파일 이름을 지정하는 방법에 대한 지침은 다음을 참조하십시오. </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> 인바운드 데이터 파일 </a>에 대한 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3 이름 요구 사항 </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> 인바운드 데이터 파일 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md">에 대한 </a> Amazon S3 이름 요구 사항 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ create-onboarding-status-report.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>잘못된 AAM ID</b> </p> </td> 
-   <td colname="col2"> <p>형식이 잘못된 <span class="keyword"> Audience Manager </span> UUID(사용자 ID)의 수를 나열합니다. 일반적으로 이는 ID를 나타냅니다. </p> 
+   <td colname="col2"> <p>형식이 잘못된 <span class="keyword"> Audience Manager</span> 사용자 ID(UUID)의 수를 나열합니다. 일반적으로 이는 ID를 나타냅니다. </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">예상 38자리 포맷과 일치하지 않습니다. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">알파벳 문자를 포함합니다. ID는 숫자만 사용해야 합니다. </li> 
@@ -141,7 +141,7 @@ create-onboarding-status-report.xml
 
 <tr> 
    <td colname="col1"> <p> <b>잘못된 장치 ID</b> </p> </td> 
-   <td colname="col2"> <p>형식이 잘못된 전역 장치 ID의 수를 나열합니다. 장치 ID의 형식을 지정하는 방법과 장치 유형에 따라 사용해야 하는 전역 데이터 원본에 대한 자세한 내용은 <a href="../reference/ids-in-aam.md">Audience Manager의 ID 색인</a> 및 <a href="../features/global-data-sources.md">전역 데이터 원본</a>을 참조하세요.</p>
+   <td colname="col2"> <p>형식이 잘못된 전역 장치 ID의 수를 나열합니다. 장치 ID의 형식을 지정하는 방법과 장치 유형에 따라 사용해야 하는 글로벌 데이터 소스에 대한 자세한 내용은 <a href="../reference/ids-in-aam.md">Audience Manager의 ID 색인</a> 및 <a href="../features/global-data-sources.md">글로벌 데이터 소스</a>를 참조하십시오.</p>
   <p>보고서의 오류 샘플링 섹션에는 다음과 같이 잘못된 장치 ID에 대한 자세한 정보가 포함되어 있습니다.</p>
    <ul>
     <li>잘못된 장치 ID에 해당하는 데이터 소스 ID.</li>
@@ -154,7 +154,7 @@ create-onboarding-status-report.xml
 
 <tr> 
    <td colname="col1"> <p> <b>일치하는 AAM ID가 없음</b> </p> </td> 
-   <td colname="col2"> <p>온보딩된 ID <span class="keyword"> Audience Manager </span>은(는) 기존 ID와 일치할 수 없습니다. <span class="keyword"> Audience Manager</span>이(가) 아직 ID 동기화를 수행하지 않았거나 동기화 후에도 ID를 일치시킬 수 없는 경우 온보딩된 ID가 이 상태를 가질 수 있습니다. </p> <p>일치하지 않는 모바일 ID의 경우 <span class="keyword"> Audience Manager</span>에서 다음을 수행합니다. </p> 
+   <td colname="col2"> <p>온보딩된 ID <span class="keyword"> Audience Manager</span>은(는) 기존 ID와 일치할 수 없습니다. <span class="keyword"> Audience Manager</span>이(가) 아직 ID 동기화를 수행하지 않았거나 동기화 후에도 ID를 일치시킬 수 없는 경우 온보딩된 ID가 이 상태를 가질 수 있습니다. </p> <p>일치하지 않는 모바일 ID의 경우 <span class="keyword"> Audience Manager</span>에서 다음을 수행합니다. </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">이 ID를 계속 저장하고 동기화하십시오. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">ID를 동기화할 수 없는 경우 보고서에 <span class="wintitle"> 저장된 레코드</span>(으)로 기록합니다. </li> 

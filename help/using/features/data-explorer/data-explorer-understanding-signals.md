@@ -1,5 +1,5 @@
 ---
-description: 신호는 Audience Manager 내에서 가장 작은 정보 단위입니다. 이는 온라인 속성에 대한 사용자 상호 작용 또는 사용자 활동을 나타내며 트레이트 규칙에 사용할 Audience Manager에 전달됩니다.
+description: 신호는 Audience Manager 내에서 가장 작은 정보 단위입니다. 이는 온라인 속성에 대한 사용자 상호 작용 또는 사용자 활동을 나타내며 Audience Manager에 전달되어 트레이트 규칙에 사용됩니다.
 seo-description: Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your online properties, and get passed on to Audience Manager to be used in trait rules.
 seo-title: Understanding Signals
 title: 신호 이해
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 신호 이해
 
-신호는 Audience Manager 내에서 가장 작은 정보 단위입니다. 이 매개 변수는 온라인 속성에서의 사용자 상호 작용 또는 사용자 활동을 나타내며, 트레이트 규칙에 사용할 Audience Manager에 전달됩니다.
+신호는 Audience Manager 내에서 가장 작은 정보 단위입니다. 온라인 속성에서의 사용자 상호 작용 또는 사용자 활동을 나타내며 Audience Manager에 전달되어 트레이트 규칙에 사용됩니다.
 
 [!DNL Audience Manager]은(는) 키-값 쌍을 사용하여 신호를 나타냅니다. 예를 들어, 다음 신호는 방문자가 전자 장치가 포함된 웹 페이지에 도달했음을 나타낼 수 있습니다.
 
@@ -34,11 +34,11 @@ ht-degree: 1%
    * [!DNL Adobe Analytics]에서 보낸 신호의 경우 데이터 원본은 항상 보고서 세트입니다.
    * 실행 가능한 로그 파일 및 일반 온라인 데이터의 경우 신호 소스 정보가 표시되지 않습니다.
 * *총 개수*&#x200B;는 지난 7일 동안 [!DNL Audience Manager]에서 실시간 신호를 받은 총 횟수를 보여줍니다.
-* *트레이트에 포함됨*&#x200B;은(는) 신호가 어떤 트레이트에 속하는지 여부를 보여 줍니다. 해당 신호를 포함하는 트레이트를 보려면 화살표를 클릭합니다. 어떤 특성에도 속하지 않는 신호의 경우 열 값이 [!UICONTROL Create Onboarded Trait] 또는 [!UICONTROL Create Rule-Based Trait] (으)로 변경됩니다.
+* *트레이트에 포함됨*&#x200B;은(는) 신호가 어떤 트레이트에 속하는지 여부를 보여 줍니다. 해당 신호를 포함하는 트레이트를 보려면 화살표를 클릭합니다. 어떤 특성에도 속하지 않는 신호의 경우 열 값이 [!UICONTROL Create Onboarded Trait] 또는 [!UICONTROL Create Rule-Based Trait]&#x200B;(으)로 변경됩니다.
 
 ## 신호 데이터 새로 고침 빈도
 
-Audience Manager이 매일 처리하는 대량의 데이터로 인해 [!UICONTROL Data Explorer]은(는) 신호 유형에 따라 고정된 시간 간격으로 표시된 신호 데이터를 새로 고칩니다.
+Audience Manager에서 매일 처리하는 대량의 데이터로 인해 [!UICONTROL Data Explorer]은(는) 신호 유형에 따라 고정된 시간 간격으로 표시된 신호 데이터를 새로 고칩니다.
 
 * 실시간 신호 데이터(실행 가능한 로그 파일, [!DNL Adobe Analytics] 데이터 및 일반 온라인 데이터)는 4~6시간마다 새로 고쳐집니다.
 * 온보딩된 신호 데이터는 24시간마다 새로 고쳐집니다.

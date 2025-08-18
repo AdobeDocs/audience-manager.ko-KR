@@ -83,7 +83,7 @@ ht-degree: 2%
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 작업 </th> 
+   <th colname="col1" class="entry"> 액션 </th> 
    <th colname="col2" class="entry"> 설명 </th>
   </tr>
  </thead>

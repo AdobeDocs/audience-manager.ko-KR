@@ -1,5 +1,5 @@
 ---
-description: 지정된 destinationId에 대한 대상을 반환하는 GET 메서드입니다.
+description: 지정된 destinationId의 대상을 반환하는 GET 메서드입니다.
 seo-description: A GET method that returns the destination for the specified destinationId.
 seo-title: Return A Destination by Destination ID
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 대상 ID별 대상 반환 {#return-a-destination-by-destination-id}
 
-지정한 `destinationId`의 대상을 반환하는 `GET` 메서드입니다.
+지정한 `GET`의 대상을 반환하는 `destinationId` 메서드입니다.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->URL에서 `includeMappings=true`의 `mappings` 필드 패스를 채우려면
+>URL에서 `mappings`의 `includeMappings=true` 필드 패스를 채우려면
 
 ## 응답
 
@@ -141,7 +141,7 @@ ht-degree: 2%
 
 ## 매핑 ID가 있는 대상 매핑 반환 {#return-dest-mapping-id}
 
-`mappingId`에 따라 개별 대상 매핑을 반환하는 `GET` 메서드입니다.
+`GET`에 따라 개별 대상 매핑을 반환하는 `mappingId` 메서드입니다.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -270,7 +270,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## S2S 및 대량 S2S 대상 작업 내역 반환 {#return-job-history}
 
-아웃바운드 [!UICONTROL Server-to-Server] ([!UICONTROL S2S]) 및 대량 [!UICONTROL S2S] 대상 작업 내역 정보를 반환하는 `GET` 메서드입니다.
+아웃바운드 `GET`([!UICONTROL Server-to-Server]) 및 대량 [!UICONTROL S2S] 대상 작업 내역 정보를 반환하는 [!UICONTROL S2S] 메서드입니다.
 
 <!-- r_get_job_history.xml -->
 

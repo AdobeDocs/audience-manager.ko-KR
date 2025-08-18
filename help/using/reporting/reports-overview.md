@@ -16,7 +16,7 @@ ht-degree: 0%
 
 개별 섹션에서는 사용 가능한 보고서, 보고서 용도 및 일반적인 용도에 대해 설명합니다. 모든 보고서는 [!UICONTROL Analytics] 대시보드에서 사용할 수 있습니다.
 
-Audience Manager이 보고서를 채우기 위해 정보를 받는 기간에 대한 자세한 내용은 [데이터 배달 및 파일 처리 시간이 보고서에 미치는 영향](/help/using/reference/reporting-file-transfer-timeframe.md)을 참조하세요.
+Audience Manager에서 보고서를 채우기 위한 정보를 받는 기간에 대한 자세한 내용은 [데이터 배달 및 파일 처리 시간이 보고서에 미치는 영향](/help/using/reference/reporting-file-transfer-timeframe.md)을 참조하세요.
 
 * [Audience Optimization 보고서](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 

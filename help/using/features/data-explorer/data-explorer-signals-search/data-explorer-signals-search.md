@@ -22,4 +22,4 @@ ht-degree: 0%
 * [검색 결과 필터링](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [검색 기준 저장](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/30935?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25148/)

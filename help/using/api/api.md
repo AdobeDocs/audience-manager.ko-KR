@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # [!DNL API] 및 [!DNL SDK] 코드 {#api-and-sdk-code}
 
-[!DNL Audience Manager]을(를) 사용하여 프로그래밍 방식으로 작업할 수 있는 [!DNL API] 및 도구 키트입니다.
+[!DNL API]을(를) 사용하여 프로그래밍 방식으로 작업할 수 있는 [!DNL Audience Manager] 및 도구 키트입니다.
 
 >[!NOTE]
 >
 >이러한 기능은 [!DNL API]에서 지원되지 않습니다.
 >
 >* [!UICONTROL General], [!UICONTROL Trend] 및 [!UICONTROL Interactive] 보고서.
->* 사용되지 않는 [!DNL Tag Insertion Manager] ([!DNL TIM]) 기능입니다.
+>* 사용되지 않는 [!DNL Tag Insertion Manager]&#x200B;([!DNL TIM]) 기능입니다.
 
 세부 사항:
 

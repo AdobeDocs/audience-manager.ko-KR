@@ -143,12 +143,12 @@ ht-degree: 0%
 
 1. **[!UICONTROL Audience Marketplace > Marketplace]**(으)로 이동합니다.
 1. 이미 구독한 피드의 이름을 클릭합니다.
-1. [!UICONTROL Plan Details] 테이블에서 [!UICONTROL Price] 및 [!UICONTROL Your Price] 열을 확인합니다. 피드가 할인되는 경우:
+1. [!UICONTROL Price] 테이블에서 [!UICONTROL Your Price] 및 [!UICONTROL Plan Details] 열을 확인합니다. 피드가 할인되는 경우:
 
    * 원래 가격은 빨간색 선으로 표시되어 있습니다.
    * [!UICONTROL Your Price] 열의 요금은 [!UICONTROL Price] 열의 요금보다 낮습니다.
 
-이 예제에서 구매자는 **[!UICONTROL Software Audience Feed]**&#x200B;의 [!UICONTROL Segments and Overlap] 플랜에 대해 10% 할인을 받습니다.
+이 예제에서 구매자는 [!UICONTROL Segments and Overlap]의 **[!UICONTROL Software Audience Feed]** 플랜에 대해 10% 할인을 받습니다.
 
 ![](assets/buyer-discount.png)
 
@@ -261,7 +261,7 @@ ht-degree: 0%
 
 계정에서 해지된 모든 특성을 제거한 후 [비활성화된 데이터 피드에서 구독 취소](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe). 일시적인 비활성화인 경우 데이터 공급자가 필요한 변경을 완료하고 피드를 다시 활성화한 후 다시 가입할 수 있습니다. 대부분의 경우와 마찬가지로 파트너(데이터 공급자 및 [!DNL Adobe])와의 원활한 커뮤니케이션을 통해 이 프로세스를 진행할 수 있습니다.
 
-## Audience Marketplace의 계획 상세내역 페이지 이해 {#marketplace-buyer-details}
+## Audience Marketplace의 계획 세부 정보 페이지 이해 {#marketplace-buyer-details}
 
 [!UICONTROL Marketplace]에서 데이터 계획 이름을 클릭하면 [!DNL Audience Manager]에서 데이터 피드 가입에 대한 올바른 선택을 하는 데 도움이 되는 정보를 제공합니다.
 
@@ -283,7 +283,7 @@ ht-degree: 0%
    * 선택한 데이터 피드에 대해 데이터 공급자에게 질문하거나 할인을 요청하려면 **[!UICONTROL Request More Details]**&#x200B;을(를) 클릭하십시오. 이 기능은 의견과 질문을 데이터 공급자에게 직접 보냅니다.
 
 1. 데이터 피드 보고서 지표. 벤 다이어그램(및 관련 지표)은 지난 30일 동안의 트레이트 중복 데이터를 보여 줍니다. 자세한 내용은 [마켓플레이스: 정보](marketplace-data-buyers.md#about-marketplace)를 참조하세요.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: 공급자 계정의 사용자와 겹치는 계정의 고유 사용자 수입니다. 고유 사용자에 대한 정의는 [Audience Manager의 ID 색인](/help/using/reference/ids-in-aam.md)에서 AAM UUID를 참조하십시오.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: 공급자 계정의 사용자와 겹치는 계정의 고유 사용자 수입니다. 고유 사용자에 대한 정의는 AAM의 [ID 색인](/help/using/reference/ids-in-aam.md)에서 Audience Manager UUID를 참조하십시오.
    * **[!UICONTROL 30 Day Provider Unique Users]**: 공급자 계정에서 보낸 고유 사용자 수.
    * **[!UICONTROL Your Unique Users]**: 계정에서 보낸 고유 사용자 수.
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 1. 계획 조치 버튼.
    * 변경하지 않고 페이지에서 나가려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하십시오.
-   * 데이터 피드를 구독하려면 **[!UICONTROL Review & Subscribe]**&#x200B;을(를) 클릭하십시오. 이 단추는 [!UICONTROL Subscription] 전환을 [!UICONTROL On] (으)로 전환할 때까지 회색으로 표시됩니다. [공개 데이터 피드 구독](#subscript-public-data-feed) 및 [개인 데이터 피드 구독](#subscript-private-data-feed)도 참조하세요.
+   * 데이터 피드를 구독하려면 **[!UICONTROL Review & Subscribe]**&#x200B;을(를) 클릭하십시오. 이 단추는 [!UICONTROL Subscription] 전환을 [!UICONTROL On]&#x200B;(으)로 전환할 때까지 회색으로 표시됩니다. [공개 데이터 피드 구독](#subscript-public-data-feed) 및 [개인 데이터 피드 구독](#subscript-private-data-feed)도 참조하세요.
 
 ## 데이터 피드 사용 사례 이해 {#use-cases}
 
@@ -314,13 +314,13 @@ ht-degree: 0%
 
 ### 활성화
 
-이 사용 사례에서는 데이터를 [대상](../../../features/destinations/destinations.md)에 보낼 수 있습니다. [!DNL Audience Manager]에서 대상은 타사 시스템(광고 서버, [!DNL DSP], [!DNL DMP], exchange 등)입니다. 입니다. 그러나 [!UICONTROL Activation] 사용 사례에서는 중복 보고서를 실행하거나 알고리즘 모델에서 데이터를 테스트할 수 없습니다.
+이 사용 사례에서는 데이터를 [대상](../../../features/destinations/destinations.md)에 보낼 수 있습니다. [!DNL Audience Manager]에서 대상은 데이터를 공유할 서드파티 시스템(광고 서버, [!DNL DSP], [!DNL DMP], exchange 등)입니다. 그러나 [!UICONTROL Activation] 사용 사례에서는 중복 보고서를 실행하거나 알고리즘 모델에서 데이터를 테스트할 수 없습니다.
 
 >[!MORELIKETHIS]
 >
 >* [CPM 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [정액 요금 데이터 피드에 대한 청구 및 노출 할당](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [CPM 사용량을 보고하는 방법](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [CPM 사용을 보고하는 방법](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 >* [공개 데이터 피드 구독](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 >* [데이터 구매자를 위한 할인](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
 >* [마켓플레이스: 정보](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)

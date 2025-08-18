@@ -1,5 +1,5 @@
 ---
-description: Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하여 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
+description: Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하여 사용자를 타겟팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
 seo-description: Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 seo-title: Device Targeting With Platform-level Keys
 solution: Audience Manager
@@ -18,21 +18,21 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->Google은 `User-Agent` 헤더를 통해 수집된 정보를 최소화하기 위해 [!DNL Google Chrome] 및 모든 [!DNL Chromium] 기반 브라우저의 기능을 업데이트했습니다.
->2023년 3월부터 Audience Manager은 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 활용하여 이러한 업데이트를 지원합니다. `User-Agent` 헤더를 통해 제공되는 트레이트 정보를 계속 사용하려면 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 사용하고 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko)를 사용하도록 설정해야 합니다.
->이러한 업데이트는 [DIL](../../../using/dil/dil-overview.md)에서 지원되지 않으므로 [!DNL DIL]을(를) 사용하는 Audience Manager 고객은 `User-Agent` 헤더를 통해 트레이트 정보를 수집할 수 없습니다.
+>Google은 [!DNL Google Chrome] 헤더를 통해 수집된 정보를 최소화하기 위해 [!DNL Chromium] 및 모든 `User-Agent` 기반 브라우저의 기능을 업데이트했습니다.
+>>2023년 3월부터는 Audience Manager에서 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 활용하여 이러한 업데이트를 지원합니다. `User-Agent` 헤더를 통해 제공되는 트레이트 정보를 계속 사용하려면 [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)를 사용하고 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en)를 사용하도록 설정해야 합니다.
+>>이러한 업데이트는 [DIL](../../../using/dil/dil-overview.md)에서 지원되지 않으므로 [!DNL DIL]을(를) 사용하는 Audience Manager 고객은 `User-Agent` 헤더를 통해 트레이트 정보를 수집할 수 없습니다.
 
-Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하여 사용자를 타깃팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
+Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하여 사용자를 타겟팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
 
 ## 플랫폼 수준 변수의 목적 {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 `d_`이 접두사로 추가된 키를 사용하여 [키-값 쌍](../../reference/key-value-pairs-explained.md)으로 형성됩니다.
+플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 [이 접두사로 추가된 키를 사용하여 ](../../reference/key-value-pairs-explained.md)키-값 쌍`d_`으로 형성됩니다.
 
 ## 사용자 에이전트에서 정의한 플랫폼 수준 키 {#keys-user-agent}
 
-[!UICONTROL Data Collection Servers]은(는) `HTTP` 요청의 [사용자 에이전트 헤더](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43)에서 이러한 키의 값을 추출합니다. 값은 [!UICONTROL Device Atlas] 데이터베이스의 장치 수준 정보를 나타냅니다. 사용자 에이전트 예에서 추출한 대로 아래 표의 신호를 사용할 수 있습니다. [!UICONTROL Device Atlas] 측정에 따라 [가장 일반적인 키 목록을 다운로드](assets/device_keys.csv)합니다.
+[!UICONTROL Data Collection Servers]은(는) [ 요청의 ](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43)사용자 에이전트 헤더`HTTP`에서 이러한 키의 값을 추출합니다. 값은 [!UICONTROL Device Atlas] 데이터베이스의 장치 수준 정보를 나타냅니다. 사용자 에이전트 예에서 추출한 대로 아래 표의 신호를 사용할 수 있습니다. [ 측정에 따라 ](assets/device_keys.csv)가장 일반적인 키 목록을 다운로드[!UICONTROL Device Atlas]합니다.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|

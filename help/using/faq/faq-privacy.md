@@ -28,7 +28,7 @@ ht-degree: 82%
 
 **Audience Manager는 쿠키를 어떻게 사용하며 어떤 쿠키를 설정합니까?**
 
-[Audience Manager 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ko)를 참조하십시오.
+[Audience Manager 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)를 참조하십시오.
 
 **미국의 Audience Manager 고객이 EU 자산에서 사용자를 타겟팅할 수 있습니까?**
 
@@ -59,7 +59,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge Server </p> </td> 
-   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이(가) 이 14일 주기 내에 사용자 활동을 기록하는 경우 이 데이터를 14일 더 보관합니다. 14일 주기 후에 사용자가 다시 활성 상태가 되면 첫 번째 새 페이지 보기와 사용자가 조치를 취할 수 있는 시점 사이에 지연이 생깁니다. 14일 이상 활동이 없으면 전체 프로필을 Edge 센터로 되돌리는 데 6~18시간이 걸립니다. </p> </td> 
+   <td colname="col2"> <p> 14일 </p> <p>Audience Manager는 Audience Manager 플랫폼에서 사용자를 마지막으로 본 후 14일 후에 Edge Server에서 사용자 데이터를 삭제합니다. <span class="keyword"> Audience Manager</span>이(가) 이 14일 주기 내에 사용자 활동을 기록하는 경우 이 데이터를 다른 14일 동안 보관합니다. 14일 주기 후에 사용자가 다시 활성 상태가 되면 첫 번째 새 페이지 보기와 사용자가 조치를 취할 수 있는 시점 사이에 지연이 생깁니다. 14일 이상 활동이 없으면 전체 프로필을 Edge 센터로 되돌리는 데 6~18시간이 걸립니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>원시 로그 </p> </td> 
@@ -98,7 +98,7 @@ ht-degree: 82%
 
 ## 트레이트 자격 데이터 유지 {#trait-qual}
 
-아래 표에는 트레이트 자격에 대한 유지 옵션이 나와 있습니다.
+아래 표에는 트레이트 선별에 대한 유지 옵션이 나와 있습니다.
 
 <table id="table_7FB42BEF138540AAB6869995C1AB8D3F"> 
  <thead> 
@@ -110,11 +110,11 @@ ht-degree: 82%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>트레이트 삭제 </p> </td> 
-   <td colname="col2"> <p>트레이트를 삭제하면 과거에 트레이트에 대해 자격이 부여된 모든 사용자 프로필에서 트레이트 자격 데이터가 제거됩니다. </p> </td> 
+   <td colname="col2"> <p>트레이트를 삭제하면 과거에 트레이트에 대해 선별된 모든 사용자 프로필에서 트레이트 선별 데이터가 제거됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>트레이트 제한에 도달 </p> </td> 
-   <td colname="col2"> <p>각 사용자 프로필마다 트레이트 자격에 100,000개라는 제한을 두었습니다. 이 제한은 인증된 프로필 및 장치 프로필에 적용됩니다. 사용자 프로필이 이 제한에 도달하면 가장 오래된 트레이트 자격부터 선입선출 방식으로 삭제됩니다. </p> <p>자세한 내용은 <a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit">트레이트 자격 제한</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>각 사용자 프로필마다 트레이트 선별에 100,000개라는 제한을 두었습니다. 이 제한은 인증된 프로필 및 장치 프로필에 적용됩니다. 사용자 프로필이 이 제한에 도달하면 가장 오래된 트레이트 선별부터 선입선출 방식으로 삭제됩니다. </p> <p>자세한 내용은 <a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit">트레이트 선별 제한</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

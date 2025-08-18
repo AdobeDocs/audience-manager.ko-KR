@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!UICONTROL Profile Merge Rules]을(를) 사용하면 세그먼테이션에 사용되는 데이터 집합을 제어하고 여러 장치에서 사용자를 정확하게 타깃팅할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31964?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/28974)
 
 ## 익명 및 인증된 프로필로 데이터 수집 및 타겟팅 {#data-collection-targeting}
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 * 디바이스 전체에서 특정 고객을 타겟팅합니다.
 * 결정론적 데이터를 기반으로 디바이스 그래프를 작성합니다.
 * 다른 프로필을 기준으로 [!UICONTROL segments]의 데이터를 미세 조정하십시오.
-* 대상자에 대한 추가적인 통찰력을 얻으십시오.
+* 대상에 대한 추가 insight을 확보하십시오.

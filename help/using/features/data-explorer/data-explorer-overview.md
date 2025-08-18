@@ -1,5 +1,5 @@
 ---
-description: 사용된 신호와 사용되지 않은 신호를 기반으로 트레이트를 구축하고 내역 데이터로 다시 채워 관련 대상의 잠재적인 손실을 방지함으로써 내역 대상을 활용할 수 있도록 Data Explorer을 사용하십시오.
+description: Data Explorer을 사용하여 사용 및 사용되지 않는 신호를 기반으로 트레이트를 구축하고 내역 데이터로 다시 채워 관련 대상의 잠재적인 손실을 방지함으로써 내역 대상을 활용할 수 있습니다.
 seo-description: Use Data Explorer to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
 seo-title: Overview, Benefits, and Use Cases
 title: 개요, 이점 및 사용 사례
@@ -39,14 +39,14 @@ ht-degree: 1%
 
 ### 예제 1
 
-글로벌 전자 제품 소매업체는 방문자 트래픽 양이 많지만 여러 플랫폼에 대해 콘텐츠를 최적화했지만 전환율은 예상보다 낮습니다. [신호 대시보드](../../features/data-explorer/data-explorer-signals-dashboard.md)를 사용하여 사용하지 않는 많은 신호를 식별하므로 방문자가 현재 재고가 없는 특정 전자 제품 브랜드를 찾고 있음을 나타냅니다. 회사는 재고를 새로 고치고 개인화된 캠페인으로 해당 방문자를 타겟팅하여 이 통찰력을 활용할 수 있습니다.
+글로벌 전자제품 retailer은 방문자 트래픽 양이 많지만 여러 플랫폼에 맞게 콘텐츠를 최적화했지만 전환율은 예상보다 낮습니다. [신호 대시보드](../../features/data-explorer/data-explorer-signals-dashboard.md)를 사용하여 사용하지 않는 많은 신호를 식별하므로 방문자가 현재 재고가 없는 특정 전자 제품 브랜드를 찾고 있음을 나타냅니다. 회사는 주식을 새로 고치고 개인화된 캠페인으로 해당 방문자를 타겟팅하여 이 insight을 활용할 수 있습니다.
 
 ### 예제 2
 
 여행 서비스 제공업체가 예약 웹 사이트에 새로운 대상을 추가한 후, 비록 여행 서비스 제공업체를 위해 만들어진 트레이트가 없더라도 기존 대상에게 여행 서비스를 홍보하고 싶어합니다. 신호 검색을 사용하여 새 대상과 관련된 사용되지 않은 신호를 식별하고, 새 트레이트에 포함하고, 기록 인식을 통해 [다시 채우기](../../features/data-explorer/data-explorer-trait-backfill.md)할 수 있습니다. 그런 다음 새 트레이트로 새 세그먼트를 만들고 전용 캠페인으로 즉시 타겟팅합니다.
 
-### Data Explorer을 사용하여 온보딩된 데이터에 대한 트레이트 생성의 유효성 검사
+### Data Explorer을 사용하여 온보딩된 데이터에 대한 트레이트 생성 유효성 검사
 
 Audience Manager의 가장 강력한 기능 중 하나는 오프라인 데이터를 온보딩하여 온라인 데이터와 결합하는 기능입니다. 아래 비디오에서는 [!UICONTROL Data Explorer]을(를) 사용하여 이 온보딩된 데이터를 활용하는 데 필요한 모든 특성을 만들었는지 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/30936?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)

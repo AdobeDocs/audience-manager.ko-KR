@@ -22,7 +22,7 @@ Audience Manager 계정의 모든 속성에서 지역 변수를 사용하는 사
 
 ## 플랫폼 수준 변수의 목적 {#platform-variables}
 
-플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 `d_`이 접두사로 추가된 키를 사용하여 [키-값 쌍](../../reference/key-value-pairs-explained.md)으로 형성됩니다.
+플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 [이 접두사로 추가된 키를 사용하여 ](../../reference/key-value-pairs-explained.md)키-값 쌍`d_`으로 형성됩니다.
 
 ## 플랫폼 수준 키에 값 추가 {#adding-values}
 

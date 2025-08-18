@@ -16,13 +16,13 @@ ht-degree: 43%
 
 # Audience Manager 활성화 파트너
 
-이 페이지에는 현재 Audience Manager [서버 간 통합](/help/using/features/destinations/add-edit-segments.md)만 포함되어 있습니다.  통합에 대한 자세한 내용은 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) 목록(사용 가능한 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
+이 페이지에는 현재 Audience Manager [서버 간 통합](/help/using/features/destinations/add-edit-segments.md)만 포함되어 있습니다.  통합에 대한 자세한 내용은 해당 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) 목록(사용 가능한 경우)을 참조하거나 Adobe 컨설턴트 또는 고객 지원 센터에 문의하십시오.
 
 <br> 
 
 * **업데이트됨** = 이 활성화 파트너에 대한 업데이트가 있는 마지막 날짜를 표시합니다.
-* **세그먼트 해제** = 세그먼테이션 해제는 세그먼트에서 장치 프로필을 제거하고 자격을 해제하는 프로세스를 설명합니다. 세그먼트에서 장치 프로필을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용된 장치 옵션에 따라 다릅니다. 세그먼테이션 해제는 GDPR 삭제 요청 컨텍스트에서도 사용됩니다. [프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스 읽기](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [세그먼테이션 해제 기능이 있는 Audience Manager 파트너](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager이 아래 예로 표시된 대상에 세그먼트 해제 정보를 보냅니다.
-* **IAB TCF 동의 신호 수신** = IAB TCF용 Audience Manager 플러그인을 사용하면 사용자의 개인 정보 보호 선택 사항을 준수하면서 활성화 파트너에게 IAB TC 문자열을 전달할 수 있습니다. IAB TCF용 [Audience Manager 플러그 인](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners)을(를) 읽습니다.
+* **세그먼트 해제** = 세그먼테이션 해제는 세그먼트에서 장치 프로필을 제거하고 자격을 해제하는 프로세스를 설명합니다. 세그먼트에서 장치 프로필을 제거하는 기능은 프로필 병합 규칙을 만드는 데 사용된 장치 옵션에 따라 다릅니다. GDPR 삭제 요청 읽기 [프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 및 [세그먼테이션 해제 기능이 있는 Audience Manager 파트너](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)의 컨텍스트에서도 세그먼테이션 해제가 사용됩니다. Audience Manager이 아래의 [예]로 표시된 대상에 세그먼트 해제 정보를 보냅니다.
+* **IAB TCF 동의 신호 수신** = IAB TCF용 Audience Manager 플러그인을 사용하면 사용자의 개인 정보 보호 선택 사항을 준수하면서 활성화 파트너에게 IAB TC 문자열을 전달할 수 있습니다. IAB TCF용 [Audience Manager 플러그인](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners)을 읽으십시오.
 * **ICDS** = 이 열에는 즉각적인 장치 간 제거를 지원하는 파트너가 나열됩니다. [장치 간 즉시 비표시](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)을(를) 읽습니다.
 * **모바일 장치 ID** = 이 열에는 Audience Manager에서 모바일 장치 ID를 받을 수 있는 파트너가 나열됩니다.
 
@@ -157,7 +157,7 @@ ht-degree: 43%
 | TubeMogul | 03/03/2017 | 예 | 아니오 | 예 | 아니요 |
 | 회전 / 아모비 | 03/03/2027 | 아니오 | 아니오 | 아니오 | 예 |
 | 트벵가 | 29/10/2018 | 예 | 아니오 | 아니오 | 아니오 |
-| 사용자 지정 대상 twitter | 27/03/2017 | 예 | 아니오 | 예 | 아니요 |
+| Twitter 사용자 지정 대상 | 27/03/2017 | 예 | 아니오 | 예 | 아니요 |
 | 언더톤 | 11/07/2017 | 아니오 | 아니오 | 아니오 | 아니오 |
 | Verve | 15/06/2017 | 예 | 아니오 | 아니오 | 예 |
 | VideoAmp | 03/03/2017 | 아니오 | 아니오 | 아니오 | 아니오 |

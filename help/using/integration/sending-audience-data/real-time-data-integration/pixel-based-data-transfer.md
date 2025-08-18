@@ -26,9 +26,9 @@ ht-degree: 0%
 1. 트레이트에 대한 픽셀을 가져옵니다. 특성 목록 화면에서 **[!UICONTROL Actions]** 열 위로 마우스를 가져간 후 원하는 특성에 대한 **[!UICONTROL Get trait URL]** 기호를 클릭합니다.
 1. 공급업체 또는 파트너에게 [!DNL URL]을(를) 제공하십시오.
 
-## 예시
+## 예
 
-이 기본 이벤트 호출은 트레이트 ID 1234를 [!DNL Audience Manager] (으)로 보냅니다.
+이 기본 이벤트 호출은 트레이트 ID 1234를 [!DNL Audience Manager]&#x200B;(으)로 보냅니다.
 
 ```
 https://something.demdex.net/event?d_sid=1234

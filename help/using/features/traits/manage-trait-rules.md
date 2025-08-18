@@ -53,9 +53,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >이벤트 호출에서 해당 구문을 사용하여 데이터를 [!DNL Audience Manager]에 전송하는 경우 키 변수에 대한 `c_` 접두사(또는 기타 명명 규칙)를 포함하십시오.
+   >이벤트 호출에서 해당 구문을 사용하여 데이터를 `c_`에 전송하는 경우 키 변수에 대한 [!DNL Audience Manager] 접두사(또는 기타 명명 규칙)를 포함하십시오.
 
-1. **[!UICONTROL Operator]** 드롭다운에서 [비교 연산자](../../features/traits/trait-comparison-operators.md)를 선택합니다. 비교 연산자는 신호에 있는 요소 간의 관계를 평가합니다.
+1. [ 드롭다운에서 ](../../features/traits/trait-comparison-operators.md)비교 연산자&#x200B;**[!UICONTROL Operator]**&#x200B;를 선택합니다. 비교 연산자는 신호에 있는 요소 간의 관계를 평가합니다.
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ### 예 {#example-trait-rule}
 
-아래 예에서 사용자는 제품 ID를 기반으로 새 트레이트 규칙을 만들었습니다. 이 규칙을 작성하기 위해 사용자가 equals 연산자(`==`)와 연결된 키 `productkey`을(를) 값 `2093`에 제공했습니다.
+아래 예에서 사용자는 제품 ID를 기반으로 새 트레이트 규칙을 만들었습니다. 이 규칙을 작성하기 위해 사용자가 equals 연산자(`productkey`)와 연결된 키 `==`을(를) 값 `2093`에 제공했습니다.
 
 ![](assets/tb_sample_rule1.png)
 

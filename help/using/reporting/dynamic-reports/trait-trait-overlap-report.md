@@ -104,7 +104,7 @@ r_t2t_data_pop.xml
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> 중복 고유</span></b> </td> 
-   <td colname="col2"> <p>오버랩 %를 얻으려면 Audience Manager에서 다음 공식을 사용합니다.</p> <p>중복 고유 / (기본 트레이트 고유 + 중복 트레이트 고유 - 중복 고유)</p> </td> 
+   <td colname="col2"> <p>겹치기 %를 가져오기 위해 Audience Manager에서는 다음 공식을 사용합니다.</p> <p>중복 고유 / (기본 트레이트 고유 + 중복 트레이트 고유 - 중복 고유)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> 겹치는 트레이트 고유</span></b> </td> 

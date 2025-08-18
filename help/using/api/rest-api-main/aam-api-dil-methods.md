@@ -1,5 +1,5 @@
 ---
-description: 프로그래밍 방식으로 Data Integration Library(DIL)를 사용하여 작업할 수 있는 메서드입니다.
+description: Data Integration Library(DIL)를 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
 seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
 seo-title: Data Integration Library API Methods
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Data Integration Library API 메서드 {#data-integration-library-api-methods}
 
-[!UICONTROL Data Integration Library] ([!UICONTROL DIL])을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
+[!UICONTROL Data Integration Library]&#x200B;([!UICONTROL DIL])을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 ## 버전에 대한 JSON 스키마 반환 {#return-json-schema-version}
 
-[!UICONTROL DIL] 버전에 대한 [!DNL JSON] 스키마를 반환하는 `GET` 메서드입니다. 버전용 별칭 [!UICONTROL LATEST]을(를) 사용하여 [!UICONTROL DIL]의 최신 버전을 가져올 수 있습니다.
+`GET` 버전에 대한 [!DNL JSON] 스키마를 반환하는 [!UICONTROL DIL] 메서드입니다. 버전용 별칭 [!UICONTROL LATEST]을(를) 사용하여 [!UICONTROL DIL]의 최신 버전을 가져올 수 있습니다.
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -380,7 +380,7 @@ ht-degree: 3%
 
 ## DIL 생성 {#generate-dil}
 
-지정된 버전의 [!UICONTROL DIL]을(를) 사용하여 전달된 요청 본문을 기반으로 [!UICONTROL DIL]을(를) 생성하는 `GET` 메서드입니다. 별칭 `LATEST`이(가) URL의 버전에 사용되는 경우 [!UICONTROL DIL]의 최신 버전이 생성됩니다.
+지정된 버전의 `GET`을(를) 사용하여 전달된 요청 본문을 기반으로 [!UICONTROL DIL]을(를) 생성하는 [!UICONTROL DIL] 메서드입니다. 별칭 `LATEST`이(가) URL의 버전에 사용되는 경우 [!UICONTROL DIL]의 최신 버전이 생성됩니다.
 
 <!-- r_api_generate_dil.xml -->
 

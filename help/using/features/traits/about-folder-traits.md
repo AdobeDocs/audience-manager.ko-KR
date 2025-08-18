@@ -53,12 +53,12 @@ ht-degree: 0%
 
 ## RBAC(역할 기반 액세스 제어) 권한 {#role-based-access-controls}
 
-[!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC])을(를) 사용하는 회사의 경우 적절한 [!UICONTROL RBAC] 권한을 가진 사용자가 [!UICONTROL folder trait]에 연결된 데이터 원본을 변경할 수 있습니다. 사용자는 다음 중 하나가 있는 그룹에 속해야 합니다.
+[!UICONTROL Role-Based Access Controls]&#x200B;([!UICONTROL RBAC])을(를) 사용하는 회사의 경우 적절한 [!UICONTROL RBAC] 권한을 가진 사용자가 [!UICONTROL folder trait]에 연결된 데이터 원본을 변경할 수 있습니다. 사용자는 다음 중 하나가 있는 그룹에 속해야 합니다.
 
 * 트레이트 데이터 원본에 대한 `READ` 및 `WRITE` 그룹 권한.
 * 트레이트 데이터 원본에 대한 `VIEW_ALL_TRAITS` 및 `EDIT_ALL_TRAITS` 와일드카드 권한입니다.
 
-[관리 설명서](../../features/administration/administration-overview.md#create-group)에서 [!UICONTROL RBAC] 권한을 할당하는 방법을 알아보세요.
+[!UICONTROL RBAC]관리 설명서[에서 ](../../features/administration/administration-overview.md#create-group) 권한을 할당하는 방법을 알아보세요.
 
 ## 제한 및 기타 고려 사항 {#limits}
 
@@ -66,5 +66,5 @@ ht-degree: 0%
 |---|---|
 | 트레이트 유형 | [!UICONTROL Onboarded traits]과(와) [!UICONTROL algorithmic traits]은(는) 최대 1회의 실현을 [!UICONTROL folder trait]의 빈도에 기여합니다. |
 | 폴더 간 트레이트 이동 | 폴더에서 다른 폴더로 트레이트를 이동하면 첫 번째 폴더 트레이트에서 해당 트레이트가 자격을 상실하고 두 번째 [!UICONTROL folder trait]에 적합합니다. 즉, 폴더에서 트레이트를 삭제하거나 이동하면 트레이트 모집단의 사용자가 폴더 트레이트를 세그먼트 표현식으로 사용하여 세그먼트에서 세그먼트화되지 않습니다. <br> Adobe Analytics 세그먼트 또는 보고서 세트를 Experience Cloud 조직에 매핑하면 Audience Manager에서 자동으로 새로운 해당하는 읽기 전용 세그먼트 및 트레이트를 만듭니다. Audience Manager에서 이러한 트레이트의 저장 위치를 편집하거나 변경할 수 없습니다. 그러나 매핑된 Adobe Analytics 세그먼트 또는 보고서 세트에 대해 수행하는 모든 변경 사항은 Audience Manager에 반영됩니다. |
-| 시스템 변수 | `d_sid` 매개 변수를 사용하여 이벤트 호출에서 [!UICONTROL Folder traits]을(를) 구현할 수 없습니다. |
+| 시스템 변수 | [!UICONTROL Folder traits] 매개 변수를 사용하여 이벤트 호출에서 `d_sid`을(를) 구현할 수 없습니다. |
 | 보고 | [!UICONTROL Folder traits]은(는) 자동 계산된 트레이트이며 **[!UICONTROL Overlap Reports]**&#x200B;에 표시되지 않습니다. |

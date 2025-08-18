@@ -27,17 +27,17 @@ Audience Manager이 다른 데이터 공급자 및 시스템과 정보를 교환
 
 ## 사전 요구 사항: 트레이트 분류 만들기 {#prereqs}
 
-통합 프로세스가 시작되기 전에 [!DNL Audience Manager] UI에서 [특성을 만들고](../features/traits/create-onboarded-rule-based-traits.md) [폴더 구조를 만듭니다](../features/traits/trait-storage.md#create-trait-storage-folder)해야 합니다. 분류에는 논리 계층 구조로 구성된 모든 [!UICONTROL traits]이(가) 포함됩니다.
+통합 프로세스가 시작되기 전에 [ UI에서 ](../features/traits/create-onboarded-rule-based-traits.md)특성을 만들고[ ](../features/traits/trait-storage.md#create-trait-storage-folder)폴더 구조를 만듭니다[!DNL Audience Manager]해야 합니다. 분류에는 논리 계층 구조로 구성된 모든 [!UICONTROL traits]이(가) 포함됩니다.
 
 ## 통합 사용 사례 {#integration-use-cases}
 
-각각의 장점과 단점과 함께 Audience Manager 데이터 통합 방법에 대한 사용 사례 요약입니다.
+각각의 장점과 단점과 함께 Audience Manager 데이터 통합 방법의 사용 사례 요약입니다.
 
 ### 실시간 [!DNL Server-to-Server] 통합
 
 <!-- c_int_types_use_cases.xml -->
 
-실시간 [!DNL server-to-server] 데이터 통합은 Audience Manager 서버와 다른 타깃팅 시스템 간에 사용자 데이터를 빠르게 동기화합니다. 대부분의 경우 데이터 교환은 타겟팅 시스템의 새로 고침 빈도에 따라 초 또는 분 이내에 발생합니다. 단, 타겟팅된 시스템은 Audience Manager이 아니라 이 새로 고침 간격을 결정합니다. 또한, 리프레시 속도는 상이한 시스템들간에 변할 수 있다. 실시간 [!UICONTROL server-to-server] 통합은 데이터 교환에 선호하는 통합 유형입니다. Audience Manager은 타기팅 파트너가 지원할 수 있을 때마다 이 메서드를 사용합니다.
+실시간 [!DNL server-to-server] 데이터 통합은 Audience Manager 서버와 다른 타깃팅 시스템 간에 사용자 데이터를 빠르게 동기화합니다. 대부분의 경우 데이터 교환은 타겟팅 시스템의 새로 고침 빈도에 따라 초 또는 분 이내에 발생합니다. 단, 타겟팅된 시스템은 Audience Manager이 아니라 이 새로 고침 간격을 결정합니다. 또한, 리프레시 속도는 상이한 시스템들간에 변할 수 있다. 실시간 [!UICONTROL server-to-server] 통합은 데이터 교환에 선호하는 통합 유형입니다. Audience Manager은 타깃팅 파트너가 지원할 수 있을 때마다 이 메서드를 사용합니다.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -77,7 +77,7 @@ Audience Manager이 다른 데이터 공급자 및 시스템과 정보를 교환
 
 ### 실시간 호출
 
-실시간 호출은 사용자가 사이트를 방문하거나 페이지에서 작업을 수행할 때 즉시 Audience Manager과 데이터를 교환합니다. 이 방법을 사용하면 타겟팅 시스템이 가장 업데이트된 세그먼트 자격 데이터를 가져오고 콘텐츠 또는 광고 게재 결정 동안 해당 정보를 고려할 수 있습니다. 또한 이 프로세스는 자격을 갖춘 세그먼트를 키-값 쌍으로 광고 호출로 읽히는 자사 쿠키로 업데이트하는 게시자 광고 서버에서 작동합니다. 현재 Audience Manager은 실시간 호출을 사용하여 [!DNL Adobe Target] 및 다른 콘텐츠 관리 시스템과 통합됩니다.
+실시간 호출은 사용자가 사이트를 방문하거나 페이지에서 작업을 수행할 때 즉시 Audience Manager과 데이터를 교환합니다. 이 방법을 사용하면 타겟팅 시스템이 가장 업데이트된 세그먼트 자격 데이터를 가져오고 콘텐츠 또는 광고 게재 결정 동안 해당 정보를 고려할 수 있습니다. 또한 이 프로세스는 자격을 갖춘 세그먼트를 키-값 쌍으로 광고 호출로 읽히는 자사 쿠키로 업데이트하는 게시자 광고 서버에서 작동합니다. 현재 Audience Manager에서는 실시간 호출을 사용하여 [!DNL Adobe Target] 및 기타 콘텐츠 관리 시스템과 통합됩니다.
 
 <table> 
  <tr>
@@ -86,7 +86,7 @@ Audience Manager이 다른 데이터 공급자 및 시스템과 정보를 교환
  </tr> 
  <tr>
   <td> <p>단점: </p></td>
-  <td> <p>페이지에서 Audience Manager 호출을 추가합니다.</p></td>
+  <td> <p>페이지에서 Audience Manager에 대한 호출을 추가합니다.</p></td>
  </tr> 
 </table>
 
@@ -136,9 +136,9 @@ Audience Manager이 타사 공급업체와 동기식 데이터 교환을 수행�
 실시간 데이터 통합 프로세스는 다음과 같이 작동합니다.
 
 1. 사용자가 Audience Manager 코드가 포함된 고객의 사이트를 방문합니다.
-1. Audience Manager이 Iframe을 로드하고 [!UICONTROL Data Collection Server] ([!DNL DCS])을 호출합니다.
+1. Audience Manager은 Iframe을 로드하고 [!UICONTROL Data Collection Server]&#x200B;([!DNL DCS])을 호출합니다.
 1. [!DNL DCS]은(는) 서드파티 서버를 실시간으로 호출하여 공급업체에 사용자에 대한 세그먼트 정보가 있는지 확인합니다.
-1. 서드파티는 해당 사용자에 대한 Audience Manager 정보를 사용자에게 반환합니다.
+1. 서드파티는 해당 사용자에 대한 세그먼트 정보를 Audience Manager에 반환합니다.
 1. Audience Manager은 세그먼트 정보를 수집하여 타깃팅에 사용할 수 있도록 합니다.
 
 ![](assets/rt_reduce70.png)
@@ -161,9 +161,9 @@ Audience Manager이 타사 공급업체와 동기적으로(실시간으로) 데�
 
 1. 사용자가 고객 사이트를 방문하고
 1. Audience Manager 및 타사 데이터 공급자는 방문자에게 고유 ID(일반적으로 쿠키와 함께)를 할당합니다.
-1. Audience Manager이 방문자 ID를 일치시키기 위해 타사 데이터 공급자를 호출합니다.
+1. Audience Manager은 방문자 ID를 일치시키기 위해 타사 데이터 공급자를 호출합니다.
 1. 예약된 요청(일반적으로 매일 간격)은 Audience Manager과 타사 데이터 공급자 간에 방문자 세그먼트 데이터를 교환합니다.
 
 ![](assets/s2s_70.png)
 
-Audience Manager이 인바운드 및 아웃바운드 [!DNL Server-to-Server] ([!UICONTROL S2S]) 파일 전송을 처리하는 기간에 대한 자세한 내용은 [보고 및 파일 전송 기간 지침](../reference/reporting-file-transfer-timeframe.md)을 참조하십시오.
+Audience Manager에서 인바운드 및 아웃바운드 [!DNL Server-to-Server]&#x200B;([!UICONTROL S2S]) 파일 전송을 처리하는 기간에 대한 자세한 내용은 [보고 및 파일 전송 시간 프레임 지침](../reference/reporting-file-transfer-timeframe.md)을 참조하십시오.

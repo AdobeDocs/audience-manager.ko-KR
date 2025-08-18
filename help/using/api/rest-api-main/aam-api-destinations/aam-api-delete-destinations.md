@@ -1,5 +1,5 @@
 ---
-description: 대상 및 POST 매핑을 제거할 수 있는 DELETE 및 세그먼트 메서드.
+description: 대상 및 세그먼트 매핑을 제거할 수 있는 DELETE 및 POST 메서드.
 seo-description: DELETE and POST methods that let you remove destinations and segment mappings.
 seo-title: Delete Destinations
 solution: Audience Manager

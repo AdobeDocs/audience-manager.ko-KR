@@ -59,7 +59,7 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 ## Minhash 샘플링 방법론 사용 {#minhash}
 
-[Minhash](https://en.wikipedia.org/wiki/MinHash) 샘플링 방법에 따라 Audience Manager은 새로운 방법을 사용하여 하나의 순열 해싱 데이터 스케치 위에 트레이트 및 세그먼트 추정치를 계산합니다. 이 새로운 방법은 Jaccard 유사성에 대한 표준 추정량보다 낮은 분산을 생성한다. 이 방법을 사용하는 보고서에 대해서는 아래 섹션을 참조하십시오.
+[Minhash](https://en.wikipedia.org/wiki/MinHash) 샘플링 방법론을 기반으로 Audience Manager은 새로운 방법을 사용하여 하나의 순열 해싱 데이터 스케치 위에서 트레이트 및 세그먼트 추정치를 계산합니다. 이 새로운 방법은 Jaccard 유사성에 대한 표준 추정량보다 낮은 분산을 생성한다. 이 방법을 사용하는 보고서에 대해서는 아래 섹션을 참조하십시오.
 
 <!--
 
@@ -87,5 +87,5 @@ Reports that use Minhash sampling methodology:
 | 통계적 샘플링 | Minhash 샘플링 방식 |
 |--- |--- |
 | [대응 가능 대상](../features/addressable-audiences.md) 데이터(고객 및 세그먼트 수준 데이터). | [겹치기 보고서](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)(특성 대 특성, 세그먼트 대 특성 및 세그먼트 대 세그먼트) |
-| [!UICONTROL Profile Merge Rule]에 대한 [총 장치](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) 지표입니다. | [트레이트 추천](/help/using/features/segments/trait-recommendations.md) |
-| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)이(가) [!UICONTROL Search] 탭과 [!UICONTROL Saved Searches]에서 샘플링된 데이터를 사용합니다. | [Recommendations Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [에 대한 ](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics)총 장치[!UICONTROL Profile Merge Rule] 지표입니다. | [트레이트 추천](/help/using/features/segments/trait-recommendations.md) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)은(는) [!UICONTROL Search] 탭과 [!UICONTROL Saved Searches]에서 샘플링된 데이터를 사용합니다. | [Audience Marketplace 권장 사항](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

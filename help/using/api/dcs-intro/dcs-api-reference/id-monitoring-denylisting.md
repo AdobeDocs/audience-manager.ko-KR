@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 개요
 
-악의적인 활동으로부터 Audience Manager 인프라를 보호하기 위해 [!DNL DCS]은(는) 고급 알고리즘을 사용하여 수신하는 ID를 모니터링합니다. [!UICONTROL Data Provider Unique User ID]초([!UICONTROL CRM ID]초), [!UICONTROL Audience Manager Unique User ID]초([!UICONTROL AAM UUID]초) 또는 [!UICONTROL Experience Cloud ID]초([!UICONTROL ECID]초)일 수 있습니다. Audience Manager에서 지원하는 ID에 대한 자세한 설명은 [Audience Manager의 ID 색인](../../../reference/ids-in-aam.md)을 참조하세요.
+악의적인 활동으로부터 Audience Manager 인프라를 보호하기 위해 [!DNL DCS]은(는) 고급 알고리즘을 사용하여 수신하는 ID를 모니터링합니다. [!UICONTROL Data Provider Unique User ID]초([!UICONTROL CRM ID]초), [!UICONTROL Audience Manager Unique User ID]초([!UICONTROL AAM UUID]초) 또는 [!UICONTROL Experience Cloud ID]초([!UICONTROL ECID]초)일 수 있습니다. Audience Manager에서 지원하는 ID에 대한 자세한 설명은 [Audience Manager의 ID 색인](../../../reference/ids-in-aam.md)을 참조하십시오.
 
 [!DNL DCS]은(는) 이러한 ID를 받는 빈도를 모니터링하여 잠재적인 악성 활동을 감지합니다. [!DNL DCS]이(가) 짧은 시간 내에 특정 ID에 대해 비정상적으로 많은 [!DNL DCS]개의 요청을 감지하면 해당 ID가 차단 목록에 추가됩니다.
 

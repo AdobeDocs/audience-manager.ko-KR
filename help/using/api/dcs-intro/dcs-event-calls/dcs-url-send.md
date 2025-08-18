@@ -16,15 +16,15 @@ ht-degree: 1%
 
 # DCS에 데이터 보내기 {#send-data-to-the-dcs}
 
-[!DNL DCS]에 대한 `/event` 호출에 대한 자세한 내용은 여기에서 시작하십시오. 이 섹션에는 호출 구문, 매개 변수, 형식 및 요청 예제에 대한 정보가 포함되어 있습니다.
+`/event`에 대한 [!DNL DCS] 호출에 대한 자세한 내용은 여기에서 시작하십시오. 이 섹션에는 호출 구문, 매개 변수, 형식 및 요청 예제에 대한 정보가 포함되어 있습니다.
 
 >[!NOTE]
 >
->코드 및 예에서 *기울임꼴*&#x200B;은(는) 변수 자리 표시자를 나타냅니다. 이 메서드를 사용하여 데이터를 [!DNL DCS] (으)로 보낼 때 자리 표시자의 실제 값으로 대체하십시오.
+>코드 및 예에서 *기울임꼴*&#x200B;은(는) 변수 자리 표시자를 나타냅니다. 이 메서드를 사용하여 데이터를 [!DNL DCS]&#x200B;(으)로 보낼 때 자리 표시자의 실제 값으로 대체하십시오.
 
 ## 호출 구문 {#dcs-call-syntax}
 
-[!DNL DCS] (으)로 데이터를 보내는 기본 `URL` 문자열은 아래 표시된 구문을 사용합니다.
+`URL`(으)로 데이터를 보내는 기본 [!DNL DCS] 문자열은 아래 표시된 구문을 사용합니다.
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -32,7 +32,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->`POST` 메서드를 사용하여 [!DNL DCS]에 데이터를 보낼 수도 있습니다. 호출 구문은 [DCS API 메서드](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)에 설명되어 있습니다.
+>[!DNL DCS] 메서드를 사용하여 `POST`에 데이터를 보낼 수도 있습니다. 호출 구문은 [DCS API 메서드](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)에 설명되어 있습니다.
 
 ## 호출 매개 변수 {#dcs-call-parameters}
 
@@ -88,7 +88,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## 샘플 호출 {#dcs-sample-call}
 
-이 예에서는 가상 회사 [!DNL Acme, Inc.]이(가) [!DNL HTTP] 호출을 통해 [!DNL DCS]에 데이터를 보내는 것을 보여 줍니다. 이 호출에는 선택적 매개 변수 `d_dst=1`, `d_rtbd=json` 및 `d_cb=callback`이(가) 포함되어 있습니다. 이는 [!DNL Acme]이(가) 콜백 함수와 함께 [!DNL DCS]에서 [!DNL JSON] 응답을 받기를 원함을 나타냅니다. 이것은 단지 예시일 뿐이라는 것을 기억하세요. 이 코드를 잘라내어 붙여넣지 마십시오.
+이 예에서는 가상 회사 [!DNL Acme, Inc.]이(가) [!DNL DCS] 호출을 통해 [!DNL HTTP]에 데이터를 보내는 것을 보여 줍니다. 이 호출에는 선택적 매개 변수 `d_dst=1`, `d_rtbd=json` 및 `d_cb=callback`이(가) 포함되어 있습니다. 이는 [!DNL Acme]이(가) 콜백 함수와 함께 [!DNL JSON]에서 [!DNL DCS] 응답을 받기를 원함을 나타냅니다. 이것은 단지 예시일 뿐이라는 것을 기억하세요. 이 코드를 잘라내어 붙여넣지 마십시오.
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
@@ -96,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## 다음 단계 {#dcs-next-steps}
 
-이제 [!DNL DCS] (으)로 데이터를 전송하는 방법을 잘 알고 있으므로 데이터를 다시 가져와 해당 정보를 구문 분석하는 방법을 살펴볼 차례입니다. [DCS에서 데이터 받기](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)를 참조하십시오.
+이제 [!DNL DCS]&#x200B;(으)로 데이터를 전송하는 방법을 잘 알고 있으므로 데이터를 다시 가져와 해당 정보를 구문 분석하는 방법을 살펴볼 차례입니다. [DCS에서 데이터 받기](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

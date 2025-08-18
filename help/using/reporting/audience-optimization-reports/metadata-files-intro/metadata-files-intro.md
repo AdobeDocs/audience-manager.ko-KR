@@ -25,9 +25,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->메타데이터 파일을 사용하려면 이벤트 호출에 [개요 및 매핑](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 섹션에 나열된 매개 변수 중 *모두*&#x200B;을(를) 포함해야 합니다.
+>메타데이터 파일을 사용하려면 이벤트 호출에 *개요 및 매핑* 섹션에 나열된 매개 변수 중 [모두](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)을(를) 포함해야 합니다.
 
-* [Audience Optimization 보고서용 데이터 파일 및 실행 가능 로그 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+* [Audience Optimization 보고서 및 실행 가능 로그 파일용 데이터 파일](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [메타데이터 파일에 대한 개요 및 매핑](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
 * [메타데이터 파일에 대한 이름 지정 규칙](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [메타데이터 파일에 대한 컨텐츠 형식](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)

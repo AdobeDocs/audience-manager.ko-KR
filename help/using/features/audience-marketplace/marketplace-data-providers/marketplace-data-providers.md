@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 내 공유 데이터: 정보 {#my-shared-data-about}
 
-[!UICONTROL My Shared Data]은(는) 데이터 공급자(판매자)의 [!UICONTROL Audience Marketplace] 기능입니다. 공급자의 경우 트레이트를 데이터 피드에 번들로 묶어 [!DNL Audience Manager] 내의 구매자에게 정액 요금 또는 [!DNL CPM] 요율로 판매할 수 있습니다. 활성화되면 구매자는 몇 번의 마우스 클릭으로 피드에 가입할 수 있습니다. 또한 단순 보고 도구는 매출을 추적하고 구독자를 관리합니다. 마지막으로 [!UICONTROL Audience Marketplace]을(를) 사용하면 [!DNL Adobe]이(가) 송장, 청구 및 요금 결제를 처리합니다. 이러한 기능을 통해 구매자가 원하는 효과적이고 수익성 있는 데이터 피드를 구축하는 데 집중할 수 있습니다.
+[!UICONTROL My Shared Data]은(는) 데이터 공급자(판매자)의 [!UICONTROL Audience Marketplace] 기능입니다. 공급자의 경우 트레이트를 데이터 피드에 번들로 묶어 [!DNL CPM] 내의 구매자에게 정액 요금 또는 [!DNL Audience Manager] 요율로 판매할 수 있습니다. 활성화되면 구매자는 몇 번의 마우스 클릭으로 피드에 가입할 수 있습니다. 또한 단순 보고 도구는 매출을 추적하고 구독자를 관리합니다. 마지막으로 [!UICONTROL Audience Marketplace]을(를) 사용하면 [!DNL Adobe]이(가) 송장, 청구 및 요금 결제를 처리합니다. 이러한 기능을 통해 구매자가 원하는 효과적이고 수익성 있는 데이터 피드를 구축하는 데 집중할 수 있습니다.
 
 ![](assets/seller_marketplace.png)
 

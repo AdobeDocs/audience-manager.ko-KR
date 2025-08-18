@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # [!DNL DCS] [!DNL API] 호출에 지원되는 특성 {#supported-attributes-for-dcs-api-calls}
 
-[!UICONTROL Data Collection Servers] ([!DNL DCS])에 전달할 수 있는 구문 및 지원되는 특성(또는 키-값 쌍)을 나열하고 설명합니다. 이 정보는 [!DNL DCS] 요청의 형식을 지정하고 이 시스템에서 반환된 매개 변수를 이해하는 데 도움이 됩니다.
+[!UICONTROL Data Collection Servers]&#x200B;([!DNL DCS])에 전달할 수 있는 구문 및 지원되는 특성(또는 키-값 쌍)을 나열하고 설명합니다. 이 정보는 [!DNL DCS] 요청의 형식을 지정하고 이 시스템에서 반환된 매개 변수를 이해하는 데 도움이 됩니다.
 
 ## 속성 접두사 {#attribute-prefixes}
 
@@ -45,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>비공개, 고객 정의 속성. </p> <p> 키에 <code> p_</code> 접두사가 있으면 DCS가 사용자의 개인 데이터를 허용합니다. 개인 데이터는 트레이트 평가에 사용되지만 시스템에 기록되거나 저장되지 않습니다. 예를 들어 트레이트가 <code> customers = p_age&lt;25</code>(으)로 정의되어 있고 이벤트 호출에서 <code> p_age=23</code>을(를) 전달한다고 가정해 보겠습니다. 이러한 조건이 주어지면 연령 기반 자격 기준을 충족하는 Audience Manager은 트레이트를 받을 수 있지만, 키-값 쌍은 <span class="keyword"> 요청을 받은 </span> 후에 삭제되고 기록되지 않습니다. </p> </td>
+   <td colname="col2"> <p>비공개, 고객 정의 속성. </p> <p> 키에 <code> p_</code> 접두사가 있으면 DCS가 사용자의 개인 데이터를 허용합니다. 개인 데이터는 트레이트 평가에 사용되지만 시스템에 기록되거나 저장되지 않습니다. 예를 들어 트레이트가 <code> customers = p_age&lt;25</code>(으)로 정의되어 있고 이벤트 호출에서 <code> p_age=23</code>을(를) 전달한다고 가정해 보겠습니다. 이러한 조건이 주어지면 연령 기반 자격 기준을 충족하는 사용자는 트레이트를 받을 수 있지만, 키-값 쌍은 <span class="keyword"> Audience Manager</span>이(가) 요청을 받고 기록되지 않은 후에 삭제됩니다. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>이(가) 할당한 데이터 공급자 ID(<code> DPID</code>)와 데이터 공급자 사용자 ID(<code> DPUUID</code>) 쌍을 하나 이상 포함합니다. <code> DPID</code>과(와) <code> DPUUID</code>의 쌍을 여러 개 사용하는 경우 인쇄되지 않는 문자 <code> %01</code>을(를) 사용하여 각 쌍을 구분하십시오. 예: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> 은(는) 더 이상 사용되지 않지만 계속 지원되는 <code> d_dpid</code> 및 <code> d_dpuuid</code>을(를) 대체합니다. <a href="../../../reference/cid.md"> CID가 DPID 및 DPUUID</a>을(를) 대체합니다. </p> </td>
+   <td colname="col2"> <p><code> DPID</code> Audience Manager<code> DPUUID</code>에서 할당한 데이터 공급자 ID(<span class="keyword">)와 데이터 공급자 사용자 ID(</span>) 쌍을 하나 이상 포함합니다. <code> DPID</code>과(와) <code> DPUUID</code>의 쌍을 여러 개 사용하는 경우 인쇄되지 않는 문자 <code> %01</code>을(를) 사용하여 각 쌍을 구분하십시오. 예: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> 은(는) 더 이상 사용되지 않지만 계속 지원되는 <code> d_dpid</code> 및 <code> d_dpuuid</code>을(를) 대체합니다. <a href="../../../reference/cid.md"> CID가 DPID 및 DPUUID</a>을(를) 대체합니다. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 서드파티 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Adobe Experience Platform Identity 서비스에 의해 동적으로 설정되며 <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform ID 서비스에서 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=ko" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
+   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 서드파티 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Adobe Experience Platform ID 서비스에 의해 동적으로 설정되며, <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform ID 서비스에서 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -90,14 +90,14 @@ ht-degree: 2%
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> 세그먼트에 대한 세그먼트 ID를 반환합니다. </p> </li>
      </ul> </p> <p>샘플 응답은 아래 응답과 비슷합니다. </p> <p>
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
       &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 사용되고 있는 Experience Cloud ID 집합을 지정합니다. ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Experience Cloud ID 서비스</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 사용되고 있는 Experience Cloud ID 집합을 지정합니다. ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -130,7 +130,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Audience Manager이 모바일 요청을 데스크탑 요청과 구분할 수 있도록 합니다. 지원되는 값은 다음과 같습니다. </p> <p> 
+   <td colname="col2"> <p>Audience Manager에서 모바일 요청을 데스크탑 요청과 구분할 수 있도록 합니다. 지원되는 값은 다음과 같습니다. </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
@@ -144,18 +144,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DCS</span>의 <code> JSON</code> 응답을 원하는 경우 필요합니다. </p> <p> 
+   <td colname="col2"> <p><code> JSON</code> DCS<span class="wintitle">의 </span> 응답을 원하는 경우 필요합니다. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
       <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">이를 생략하면 <span class="wintitle"> DCS</span>이(가) 헤더의 픽셀을 반환합니다. </li> 
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">이 항목을 포함하면 <span class="wintitle"> DCS</span>이(가) 응답 본문에 <code> JSON</code> 개체를 반환합니다. 아래 예를 참조하십시오. 응답이 더 복잡할 수 있습니다. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -195,7 +195,7 @@ ht-degree: 2%
 
 | 특성 | 설명 |
 | --- | --- | 
-| `h_host` | 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. `host name .demdex.net`(으)로 표시됩니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)를 참조하십시오. |
+| `h_host` | 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. `host name .demdex.net`(으)로 표시됩니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)를 참조하십시오. |
 | `h_user-agent` | `User-Agent` 헤더 값으로 설정합니다. |
 | `h_accept-language` | `Accept-Language` 헤더 값으로 설정합니다. |
 | `h_referer` | `Referer` 헤더 값으로 설정합니다. |

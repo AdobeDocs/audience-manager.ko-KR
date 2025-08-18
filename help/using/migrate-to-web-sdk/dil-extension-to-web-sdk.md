@@ -1,6 +1,6 @@
 ---
-title: Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 마이그레이션
-description: Audience Manager 태그 확장에서 Web SDK 태그 확장으로 Audience Manager을 위한 데이터 수집 라이브러리를 업데이트하는 절차에 대해 알아봅니다
+title: Audience Manager 태그 확장 프로그램에서 웹 SDK 태그 확장 프로그램으로 마이그레이션
+description: Audience Manager용 데이터 수집 라이브러리를 Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 업데이트하는 단계를 이해합니다
 exl-id: 7f0486db-4511-4311-90df-290580fdcd78
 source-git-commit: a50aaeb5e384685100dc3ecc1d6d45f1c41461d0
 workflow-type: tm+mt
@@ -9,11 +9,11 @@ ht-degree: 0%
 
 ---
 
-# Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 Audience Manager을 위한 데이터 수집 라이브러리 업데이트
+# Audience Manager 태그 확장 기능에서 웹 SDK 태그 확장 기능으로 Audience Manager용 데이터 수집 라이브러리 업데이트
 
 ## 의도한 대상
 
-이 페이지는 [Audience Manager 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/audience-manager/overview)을 사용하여 웹 수집 데이터를 Audience Manager으로 가져오는 Audience Manager 고객을 위한 것입니다. AppMeasurement JavaScript 라이브러리를 사용하는 고객의 경우 AppMeasurement JavaScript 라이브러리에서 Web SDK JavaScript 라이브러리로 [Audience Manager의 데이터 수집 라이브러리를 업데이트하는 방법](appmeasurement-to-web-sdk.md)에 대한 안내서를 참조하십시오.
+이 페이지는 [Audience Manager 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview)을 사용하여 웹 컬렉션 데이터를 Audience Manager으로 가져오는 Audience Manager 고객을 위한 것입니다. AppMeasurement JavaScript Audience Manager 라이브러리를 사용하는 고객의 경우 AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 [의 데이터 수집 라이브러리를 업데이트하는 방법에 대한 안내서를 참조하십시오](appmeasurement-to-web-sdk.md).
 
 ## 이 구현 경로의 장단점
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 | 장점 | 단점 |
 | --- | --- |
-| <ul><li>**사이트에 코드가 변경되지 않음**: 구현에 이미 태그가 설치되어 있으므로 태그 인터페이스에서 모든 마이그레이션 업데이트를 수행할 수 있습니다.</li><li>**기존 구현을 사용**: 이 방법에서는 완전히 새로운 구현이 필요하지 않습니다. 새로운 규칙 작업이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**스키마가 필요하지 않습니다**: Web SDK로 마이그레이션하는 이 단계에서는 XDM 스키마가 필요하지 않습니다. 대신 Adobe Audience Manager으로 직접 데이터를 보내는 `data` 개체를 채울 수 있습니다. 웹 SDK로의 마이그레이션이 완료되면 조직에 대한 스키마를 만들고 데이터스트림 매핑을 사용하여 적용 가능한 XDM 필드를 채울 수 있습니다. 마이그레이션 프로세스의 이 단계에서 스키마가 필요한 경우 조직에서 Adobe Audience Manager XDM 스키마를 사용해야 합니다. 이 스키마를 사용하면 향후 조직에서 자체 스키마를 사용하는 것이 더 어려워집니다.</li></ul> | <ul><li>**구현 기술 부채**: 이 방법은 기존 구현의 수정된 형식을 사용하므로 구현 논리를 추적하고 필요한 경우 변경을 수행하는 것이 더 어려울 수 있습니다. 사용자 지정 코드는 특히 디버깅하기 어려울 수 있습니다.</li><li>**데이터를 플랫폼에 보내려면 매핑이 필요합니다**: 조직에서 Real-Time CDP을 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. 이 작업을 수행하려면 `data` 개체의 모든 필드가 XDM 스키마 필드에 할당하는 데이터 스트림 매핑 도구의 항목이어야 합니다. 매핑은 이 워크플로우에 대해 한 번만 수행하면 되며 구현 변경을 수반하지 않습니다. 그러나 XDM 개체에서 데이터를 전송할 때는 필요하지 않은 추가 단계입니다.</li></ul> |
+| <ul><li>**사이트에 코드가 변경되지 않음**: 구현에 이미 태그가 설치되어 있으므로 태그 인터페이스에서 모든 마이그레이션 업데이트를 수행할 수 있습니다.</li><li>**기존 구현을 사용**: 이 방법에서는 완전히 새로운 구현이 필요하지 않습니다. 새로운 규칙 작업이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**스키마가 필요하지 않습니다**: Web SDK으로 마이그레이션하는 이 단계에서는 XDM 스키마가 필요하지 않습니다. 대신 Adobe Audience Manager으로 직접 데이터를 보내는 `data` 개체를 채울 수 있습니다. 웹 SDK으로의 마이그레이션이 완료되면 조직에 대한 스키마를 만들고 데이터스트림 매핑을 사용하여 적용 가능한 XDM 필드를 채울 수 있습니다. 마이그레이션 프로세스의 이 단계에서 스키마가 필요한 경우 조직에서 Adobe Audience Manager XDM 스키마를 사용해야 합니다. 이 스키마를 사용하면 향후 조직에서 자체 스키마를 사용하는 것이 더 어려워집니다.</li></ul> | <ul><li>**구현 기술 부채**: 이 방법은 기존 구현의 수정된 형식을 사용하므로 구현 논리를 추적하고 필요한 경우 변경을 수행하는 것이 더 어려울 수 있습니다. 사용자 지정 코드는 특히 디버깅하기 어려울 수 있습니다.</li><li>**데이터를 플랫폼에 보내려면 매핑이 필요합니다**: 조직에서 Real-Time CDP을 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. 이 작업을 수행하려면 `data` 개체의 모든 필드가 XDM 스키마 필드에 할당하는 데이터 스트림 매핑 도구의 항목이어야 합니다. 매핑은 이 워크플로우에 대해 한 번만 수행하면 되며 구현 변경을 수반하지 않습니다. 그러나 XDM 개체에서 데이터를 전송할 때는 필요하지 않은 추가 단계입니다.</li></ul> |
 
 Adobe Adobe Audience Manager 태그 확장을 사용하는 기존 구현이 있는 경우 이 구현 경로를 따르는 것이 좋습니다.
 
-## 웹 SDK로 마이그레이션하는 데 필요한 단계
+## 웹 SDK으로 마이그레이션하는 데 필요한 단계
 
 다음 단계에는 구체적인 작업 목표가 포함되어 있습니다. 각 단계를 선택하여 이를 수행하는 방법에 대한 자세한 지침을 확인하십시오.
 
@@ -33,7 +33,7 @@ Adobe Adobe Audience Manager 태그 확장을 사용하는 기존 구현이 있�
 
 Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성하려면 아래 지침을 따르십시오. 이 데이터 스트림으로 데이터를 전송하면 데이터가 Audience Manager으로 전달됩니다. 향후에 이와 동일한 데이터스트림이 데이터를 Real-Time CDP에 전달합니다.
 
-1. [experience.adobe.com](https://experience.adobe.com)(으)로 이동한 다음 자격 증명을 사용하여 로그인합니다.
+1. [experience.adobe.com](https://experience.adobe.com)&#x200B;(으)로 이동한 다음 자격 증명을 사용하여 로그인합니다.
 1. **[!UICONTROL Data Collection]**(으)로 이동하려면 오른쪽 상단의 홈 페이지 또는 제품 선택기를 사용하십시오.
 1. 왼쪽 탐색에서 **[!UICONTROL Datastreams]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL New Datastream]**&#x200B;을(를) 선택합니다.
@@ -48,7 +48,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성�
 
 +++
 
-+++**2. Web SDK 확장을 태그 속성에 추가**
++++**2. 태그 속성에 웹 SDK 확장 추가**
 
 이 섹션에서는 다음 단계에서 수행되는 대량의 마이그레이션 작업에 대해 태그를 준비합니다.
 
@@ -66,13 +66,13 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성�
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 선택합니다.
 
-이제 태그 속성에 웹 SDK가 설치됩니다.
+이제 태그 속성에 웹 SDK이 설치되어 있습니다.
 
 +++
 
 +++**3. 데이터 개체 데이터 요소** 만들기
 
-데이터 개체 데이터 요소는 Web SDK가 데이터 스트림으로 전송하는 데 사용하는 페이로드를 구성하는 직관적인 프레임워크를 제공합니다. 다음 단계에서 업데이트하는 대부분의 규칙은 이 데이터 요소와 상호 작용합니다.
+데이터 개체 데이터 요소는 웹 SDK이 데이터 스트림으로 전송하는 데 사용하는 페이로드를 구성하는 직관적인 프레임워크를 제공합니다. 다음 단계에서 업데이트하는 대부분의 규칙은 이 데이터 요소와 상호 작용합니다.
 
 1. 태그 인터페이스의 왼쪽 탐색에서 **[!UICONTROL Data Elements]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Add Data Element]** 선택
@@ -94,7 +94,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성�
 
 +++**4. Audience Manager 확장** 대신 웹 SDK 확장을 사용하도록 규칙을 업데이트합니다.
 
-이 단계에는 Web SDK로 마이그레이션하는 데 필요한 많은 작업이 포함되어 있으며 구현 작동 방식에 대한 지식이 필요합니다. 다음은 일반적인 태그 규칙을 편집하는 방법에 대한 예입니다. 구현의 모든 태그 규칙을 업데이트하여 Audience Manager 확장에 대한 모든 참조를 웹 SDK 확장으로 바꿉니다.
+이 단계에는 웹 SDK으로 마이그레이션하는 데 필요한 많은 작업이 포함되어 있으며 구현 작동 방식에 대한 지식이 필요합니다. 다음은 일반적인 태그 규칙을 편집하는 방법에 대한 예입니다. 구현의 모든 태그 규칙을 업데이트하여 Audience Manager 확장에 대한 모든 참조를 웹 SDK 확장으로 바꿉니다.
 
 1. 태그 인터페이스의 왼쪽 탐색에서 **[!UICONTROL Rules]**&#x200B;을(를) 선택합니다.
 1. 편집할 규칙을 선택합니다.
@@ -123,13 +123,13 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성�
 
 +++
 
-+++**5. Publish에서 규칙을 업데이트했습니다**
++++**5. 업데이트된 규칙 게시**
 
 업데이트된 규칙을 게시하는 것은 태그 구성에 대한 다른 변경 사항과 동일한 워크플로우를 따릅니다.
 
 1. 태그 인터페이스의 왼쪽 탐색에서 **[!UICONTROL Publishing Flow]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Add Library]**&#x200B;을(를) 선택합니다.
-1. 이 태그 커밋에 &quot;Web SDK로 업그레이드&quot;와 같은 이름을 지정합니다.
+1. 이 태그 커밋에 &quot;Web SDK으로 업그레이드&quot;와 같은 이름을 지정합니다.
 1. **[!UICONTROL Add All Changed Resources]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 선택합니다.
 1. 게시 작업 과정에는 작성 중임을 나타내는 주황색 점이 표시됩니다. 점이 녹색으로 바뀌면 개발 환경에서 변경 사항을 사용할 수 있습니다.
@@ -142,7 +142,7 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성�
 
 +++**6. Audience Manager 확장 사용 안 함**
 
-태그 구현이 Web SDK로 완전히 마이그레이션되면 Audience Manager 확장을 비활성화할 수 있습니다.
+태그 구현이 웹 SDK으로 완전히 마이그레이션되면 Audience Manager 확장을 비활성화할 수 있습니다.
 
 1. 태그 인터페이스의 왼쪽 탐색에서 **[!UICONTROL Extensions]**&#x200B;을(를) 선택합니다.
 1. [!UICONTROL Audience Manager] 확장을 찾아 선택합니다. 오른쪽에서 **[!UICONTROL Disable]**&#x200B;을(를) 선택합니다.
@@ -152,4 +152,4 @@ Adobe Experience Platform 데이터 수집에서 데이터 스트림을 생성�
 
 +++
 
-이 시점에서 Audience Manager 구현은 Web SDK로 완전히 마이그레이션되며 향후 Real-Time CDP으로 이동할 준비가 되었습니다.
+이 시점에서 Audience Manager 구현은 웹 SDK으로 완전히 마이그레이션되며 향후 Real-Time CDP으로 이동할 준비가 되었습니다.

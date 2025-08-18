@@ -114,7 +114,7 @@ Accept-Encoding: gzip
 
 ### 토큰은 암호입니다.
 
-[!DNL OAuth 2.0] 흐름을 사용하여 인증할 때 파트너가 제공한 자격 증명과 [!DNL Audience Manager]이(가) 얻은 토큰은 중요한 정보이므로 서드파티와 공유해서는 안 됩니다.
+[!DNL Audience Manager] 흐름을 사용하여 인증할 때 파트너가 제공한 자격 증명과 [!DNL OAuth 2.0]이(가) 얻은 토큰은 중요한 정보이므로 서드파티와 공유해서는 안 됩니다.
 
 ### [!DNL SSL]은(는) 필수입니다.
 

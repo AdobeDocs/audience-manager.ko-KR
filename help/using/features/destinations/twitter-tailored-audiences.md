@@ -1,9 +1,9 @@
 ---
-description: 이 문서에서는 새 통합과 기존 통합 모두에 대해 Twitter 사용자 지정 대상을 구성하는 방법을 설명합니다.
+description: 이 문서에서는 새 통합과 기존 통합 모두를 위해 Twitter 사용자 지정 대상을 구성하는 방법에 대해 설명합니다.
 seo-description: This article explains how to configure Twitter Custom Audiences for both new and existing integrations.
 seo-title: Configure Twitter Custom Audiences as a Self-Service Device-Based Destination
 solution: Audience Manager
-title: twitter 사용자 지정 대상을 셀프서비스 장치 기반 대상으로 구성
+title: Twitter 사용자 지정 대상을 셀프서비스 장치 기반 대상으로 구성
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 source-git-commit: 72be9e032ec3c92cf09a5286baa872b884feaaa0
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # [!DNL Twitter Custom Audiences]을(를) 셀프 서비스 장치 기반 대상으로 구성 {#configure-twitter}
 
-이 문서에서는 [사용자 지정 대상 Twitter](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html)와의 통합을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 [Twitter 사용자 지정 대상](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html)과의 통합을 구성하는 방법에 대해 설명합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 [!DNL Twitter Custom Audiences] 대상을 구성하기 전에 다음 전제 조건을 충족하는지 확인하십시오.
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 이 섹션에서는 [!DNL Twitter Custom Audiences]에 대한 새 장치 기반 대상을 구성할 때 따라야 하는 단계에 대해 설명합니다. 이 시나리오에서는 Adobe 컨설턴트나 고객 지원 센터를 통해 구성된 기존 [!DNL Twitter Custom Audiences] 대상이 없다고 가정합니다.
 
-### 1단계. [!DNL Twitter Custom Audiences] (으)로 인증 {#step1-authenticate-with-twitter}
+### 1단계. [!DNL Twitter Custom Audiences]&#x200B;(으)로 인증 {#step1-authenticate-with-twitter}
 
 장치 기반 대상을 추가하려면 먼저 Audience Manager과 [!DNL Twitter Custom Audiences] 계정을 연결해야 합니다. 방법은 다음과 같습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
    ![통합 플랫폼](assets/dbd-integrated-platforms.png)
 
-1. 인증을 완료하면 연결된 광고주 계정이 표시되는 Audience Manager으로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 **[!DNL Confirm]**&#x200B;을(를) 클릭합니다.
+1. 인증되면 연결된 광고주 계정이 표시되는 Audience Manager으로 리디렉션됩니다. 사용할 광고주 계정을 선택하고 **[!DNL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ### 2단계. 새 장치 기반 대상 만들기 {#step2-create-new-destination}
 
@@ -75,14 +75,14 @@ Audience Manager과 [!DNL Twitter Custom Audiences]을(를) 연결한 후에는 
 
 ## 일치율 고려 사항 {#match-rates-considerations}
 
-* Audience Manager과 [!UICONTROL Twitter Custom Audiences] 간의 통합은 과거 대상 다시 채우기를 지원합니다. 대상을 만들면 모든 세그먼트 자격이 [!UICONTROL Twitter] (으)로 전송됩니다.
+* Audience Manager과 [!UICONTROL Twitter Custom Audiences] 간의 통합은 과거 대상 다시 채우기를 지원합니다. 대상을 만들면 모든 세그먼트 자격이 [!UICONTROL Twitter]&#x200B;(으)로 전송됩니다.
 
 ## 문제 해결 {#troubleshooting}
 
-사용자 지정 대상 Twitter을 구성하거나 이 대상으로 데이터를 보낼 때 아래에 설명된 오류가 발생할 수 있습니다. 이 섹션에서는 오류를 일으킬 수 있는 원인과 오류를 수정하는 방법에 대해 설명합니다.
+Twitter 사용자 지정 대상 대상으로 데이터를 구성하거나 보낼 때 아래에 설명된 오류가 발생할 수 있습니다. 이 섹션에서는 오류를 일으킬 수 있는 원인과 오류를 수정하는 방법에 대해 설명합니다.
 
 | 오류 메시지 | 발생 횟수 / 이유 | 해결 방법 |
 |---|---|---|
 | `Internal server error` | 이 오류 메시지는 오래된 버전의 Twitter API를 사용하여 새 [!DNL Twitter] 계정을 추가하려고 할 때 Audience Manager UI에 표시됩니다. | Adobe 고객 지원 센터에 문의하십시오. |
 | `Twitter Error: This request is not properly authenticated` | 지원되지 않는 세그먼트 이름을 가진 세그먼트를 대상에 매핑하려고 하면 Audience Manager UI에 이 오류 메시지가 표시됩니다. | 매핑된 세그먼트 이름을 검토하고 이름에 지원되지 않는 문자가 포함되어 있지 않은지 확인하십시오. 지원되지 않는 문자 목록은 [세그먼트 매핑 고려 사항](#segment-mapping-considerations)을 참조하십시오. |
-| `Twitter Error: Account XXXXXXXXX was not found` | 이 오류 메시지는 대상에 대해 구성된 자격 증명이 해당 Twitter 광고 계정에 액세스할 수 있는 권한이 없는 경우 Audience Manager UI에 표시됩니다. | <ul><li>사용 중인 계정 자격 증명이 [필수 구성 요소](#prerequisites)를 충족하는지 확인하십시오.</li><li>동일한 자격 증명을 사용하여 Twitter 광고 UI로 이동한 다음 해당 `XXXXXXXXX` 계정에 올바른 대상이 표시되는지 확인하십시오. </li></ul> |
+| `Twitter Error: Account XXXXXXXXX was not found` | 이 오류 메시지는 대상에 대해 구성된 자격 증명이 해당 Twitter Ads 계정에 액세스할 수 있는 권한이 없는 경우 Audience Manager UI에 표시됩니다. | <ul><li>사용 중인 계정 자격 증명이 [필수 구성 요소](#prerequisites)를 충족하는지 확인하십시오.</li><li>동일한 자격 증명을 사용하여 Twitter 광고 UI로 이동한 다음 해당 `XXXXXXXXX` 계정에 올바른 대상이 표시되는지 확인하십시오. </li></ul> |

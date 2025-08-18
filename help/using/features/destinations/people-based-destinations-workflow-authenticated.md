@@ -49,11 +49,11 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 오프라인 데이터를 사용자 기반 대상의 Audience Manager으로 가져오는 방법에 대한 FAQ는 [데이터 온보딩](people-based-destinations-prerequisites.md#data-onboarding)을 참조하십시오.
+   > 오프라인 데이터를 사람 기반 대상의 Audience Manager으로 가져오는 방법에 대한 FAQ는 [데이터 온보딩](people-based-destinations-prerequisites.md#data-onboarding)을 참조하십시오.
 
 [!UICONTROL People-Based Destinations]에 대한 데이터 원본을 만드는 방법에 대한 비디오 튜토리얼을 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/31965?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## 2단계 - 선언된 ID를 사용하여 실시간 HTTP 호출을 통해 DPUUID를 해시된 이메일 주소와 일치시킵니다. {#match-email-addresses}
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 1. Audience Manager 계정에 로그인하고 **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**(으)로 이동합니다.
 2. **[!UICONTROL Add New Rule]** 아이콘을 클릭합니다.
 3. 프로필 병합 규칙 **[!UICONTROL Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
-4. **[!UICONTROL Profile Merge Rule Setup]** 섹션의 **[!UICONTROL Cross-Device Options]** 목록에서 **[!UICONTROL Current Authenticated Profiles]** 또는 **[!UICONTROL Last Authenticated Profiles]** 규칙을 선택합니다.
+4. **[!UICONTROL Profile Merge Rule Setup]** 섹션의 **[!UICONTROL Current Authenticated Profiles]** 목록에서 **[!UICONTROL Last Authenticated Profiles]** 또는 **[!UICONTROL Cross-Device Options]** 규칙을 선택합니다.
 5. **[!UICONTROL Cross-Device Profile Options]** 목록에서 세그먼테이션을 실행할 데이터 원본을 선택합니다. 기존 DPUUID가 포함된 데이터 소스여야 합니다.
    ![병합 규칙 설정](assets/pbd-pmr-combined.png)
 
@@ -130,7 +130,6 @@ ht-degree: 1%
    * **[!UICONTROL Type]**: 사용자 기반;
    * **[!UICONTROL Platform]**: 대상 세그먼트를 보낼 사람 기반 플랫폼을 선택하십시오.
    * **[!UICONTROL Account]**: 선택한 플랫폼과 연결된 원하는 광고주 계정을 선택합니다.
-
      ![create-destination](assets/pbd-create-destination.png)
 1. **[!UICONTROL Next]** 아이콘을 클릭합니다.
 1. 이 대상에 대해 설정할 **[!UICONTROL Data Export Labels]**&#x200B;을(를) 선택하십시오.

@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->클라이언트 도메인별 정확한 [!DNL URL]은(는) [!DNL Audience Manager] 컨설팅 또는 계정 리드에 문의하십시오.
+>클라이언트 도메인별 정확한 [!DNL Audience Manager]은(는) [!DNL URL] 컨설팅 또는 계정 리드에 문의하십시오.
 
 ## 요구 사항
 
@@ -39,9 +39,9 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 응답
 
-응답이 브라우저를 `d_rd` 매개 변수에 지정된 [!DNL URL] (으)로 리디렉션합니다. 응답 문자열에는 아래 나열된 지원되는 매크로에서 생성된 값이 포함될 수 있습니다.
+응답이 브라우저를 [!DNL URL] 매개 변수에 지정된 `d_rd`(으)로 리디렉션합니다. 응답 문자열에는 아래 나열된 지원되는 매크로에서 생성된 값이 포함될 수 있습니다.
 
-위의 예제를 기반으로 브라우저는 다음 [!DNL URL] (으)로 리디렉션됩니다.
+위의 예제를 기반으로 브라우저는 다음 [!DNL URL]&#x200B;(으)로 리디렉션됩니다.
 
 `https://adobe.com/callback?creative=123`
 
@@ -96,7 +96,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID(ECID). ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>을(를) 참조하십시오. </p> <p>선택 사항입니다. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID(ECID). ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>을(를) 참조하십시오. </p> <p>선택 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -162,7 +162,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 ## 응답
 
-위의 예제를 기반으로 브라우저는 다음 [!DNL URL] (으)로 리디렉션됩니다.
+위의 예제를 기반으로 브라우저는 다음 [!DNL URL]&#x200B;(으)로 리디렉션됩니다.
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
@@ -173,4 +173,4 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 >[!MORELIKETHIS]
 >
->* Audience Optimization 보고서에 대한 [데이터 및 메타데이터 파일](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Audience Optimization 보고서용 데이터 및 메타데이터 파일](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

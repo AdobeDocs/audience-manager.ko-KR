@@ -37,14 +37,14 @@ ht-degree: 0%
 
 ![고유 특성 실현](assets/trait-graph.png)
 
-그래프를 표시할 결과 유형([!UICONTROL Device ID] 또는 [!UICONTROL Cross-Device ID] (으)로 필터링)에 따라 지표의 의미가 다릅니다.
+그래프를 표시할 결과 유형([!UICONTROL Device ID] 또는 [!UICONTROL Cross-Device ID]&#x200B;(으)로 필터링)에 따라 지표의 의미가 다릅니다.
 
-결과를 [!UICONTROL Device ID] (으)로 필터링하는 경우:
+결과를 [!UICONTROL Device ID]&#x200B;(으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 다른 시간 범위 내에서 프로필에 트레이트를 추가한 익명 장치 방문자의 수입니다.
 * [!UICONTROL Total Trait Population]은(는) 프로필에 이 특성이 있는 익명 장치 방문자의 수입니다.
 
-결과를 [!UICONTROL Cross-Device ID] (으)로 필터링하는 경우:
+결과를 [!UICONTROL Cross-Device ID]&#x200B;(으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 다른 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
 * [!UICONTROL Total Trait Population]은(는) 프로필에 이 특성이 있는 인증된 방문자의 수입니다.
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 ## 트레이트 자격 제한 {#trait-qualification-limit}
 
-인증된 프로필([DPUUID](../../reference/ids-in-aam.md))이든 장치 ID([UUID](../../reference/ids-in-aam.md))이든 각 사용자 프로필에 대해 150,000개의 트레이트 자격 제한을 적용합니다. DPUUID가 [!DNL Audience Manager]의 특정 인스턴스에 대해 고유한 반면 UUID는 [!DNL Audience Manager] 플랫폼에서 공유됩니다. [!UICONTROL UUID]의 경우 트레이트 자격을 저장할 때 공정 정책을 적용합니다. 알고리즘에서는 [!DNL Audience Manager]의 모든 인스턴스에 대해 [!UICONTROL UUID] 프로필의 동일한 공유를 사용할 수 있도록 합니다.
+인증된 프로필([DPUUID](../../reference/ids-in-aam.md))이든 장치 ID([UUID](../../reference/ids-in-aam.md))이든 각 사용자 프로필에 대해 150,000개의 트레이트 자격 제한을 적용합니다. DPUUID가 [!DNL Audience Manager]의 특정 인스턴스에 대해 고유한 반면 UUID는 [!DNL Audience Manager] 플랫폼에서 공유됩니다. [!UICONTROL UUID]의 경우 트레이트 자격을 저장할 때 공정 정책을 적용합니다. 알고리즘에서는 [!UICONTROL UUID]의 모든 인스턴스에 대해 [!DNL Audience Manager] 프로필의 동일한 공유를 사용할 수 있도록 합니다.

@@ -42,7 +42,7 @@ ht-degree: 2%
    + short-title - (선택 필드).
    + index - yes / no - 페이지가 Adobe의 검색 플랫폼으로 인덱싱됨.
    + translate - yes / no - 이 페이지가 현지화됨.
-   + version - 주로 AEM 및 Campaign에 사용되며 제품 버전을 나타냅니다.
+   + version - 주로 AEM 및 캠페인에 사용되며 제품 버전을 나타냄.
    + private-feature-pack - 주로 AEM에 사용됨.
    + beta - 제품이 베타 버전입니까?
    + 리디렉션 - 필요한 경우 새 페이지에 대한 참조를 만드는 데 사용할 수 있습니다.

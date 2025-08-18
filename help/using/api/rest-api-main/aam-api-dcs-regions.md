@@ -1,5 +1,5 @@
 ---
-description: Audience Manager DCS 영역을 프로그래밍 방식으로 나열할 수 있는 메서드입니다.
+description: Audience Manager DCS 지역을 프로그래밍 방식으로 나열할 수 있는 메서드입니다.
 seo-description: Methods that let you programmatically list Audience Manager DCS regions.
 seo-title: DCS Region API Methods
 solution: Audience Manager
@@ -24,7 +24,7 @@ Audience Manager [!DNL DCS] 영역을 프로그래밍 방식으로 나열할 수
 
 ## 특정 DCS 영역 나열 {#list-specific-dcs-region}
 
-특정 [!DNL DCS] 영역을 나열하는 `GET` 메서드입니다.
+특정 `GET` 영역을 나열하는 [!DNL DCS] 메서드입니다.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -54,7 +54,7 @@ Audience Manager [!DNL DCS] 영역을 프로그래밍 방식으로 나열할 수
 
 ## DCS 지역 나열 {#list-dcs-regions}
 
-[!DNL DCS] 영역을 나열하는 `GET` 메서드입니다.
+`GET` 영역을 나열하는 [!DNL DCS] 메서드입니다.
 
 <!-- r_rest_api_regions_list.xml -->
 

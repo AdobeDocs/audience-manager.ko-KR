@@ -34,28 +34,25 @@ ht-degree: 0%
 
 [!UICONTROL Look-Alike Model]을(를) 빌드하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**(으)로 이동한 다음 [!UICONTROL Look-Alike Modeling] 섹션에서 **[!UICONTROL Add New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**(으)로 이동한 다음 **[!UICONTROL Add New]** 섹션에서 [!UICONTROL Look-Alike Modeling]을(를) 클릭합니다.
    ![유사 항목 추가](assets/look-alike-add.png)
 1. [기본 정보](../../features/algorithmic-models/create-model.md#basic-information) 섹션에서
    * 모델 이름을 지정합니다.
    * *(선택 사항)* 모델에 대한 간단한 설명을 제공합니다.
    * 모델의 상태를 **[!UICONTROL Active]** 또는 **[!UICONTROL Inactive]**(으)로 설정합니다. 비활성 모델은 실행되지 않으며 데이터를 생성하지 않습니다.
-
      ![유사 항목-기본](assets/look-alike-basic.png)
 1. [구성](../../features/algorithmic-models/create-model.md#configuration) 섹션에서:
    * 모델링할 트레이트 또는 세그먼트를 선택하려면 **[!UICONTROL Browse All Traits]** 또는 **[!UICONTROL Browse All Segments]**&#x200B;을(를) 클릭하십시오. 이름, ID, 설명 또는 데이터 소스로 트레이트를 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 그 하위 폴더로 결과를 제한합니다. 트레이트 유형([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] 및 [!UICONTROL Algorithmic]) 또는 모집단 유형([장치 ID](../../reference/ids-in-aam.md) 및 [교차 장치 ID](../../reference/ids-in-aam.md))별로 트레이트를 필터링할 수도 있습니다.
-
      ![검색 특성](assets/browse-traits.png)
    * 30일, 60일 또는 90일 전환 확인 기간을 선택합니다. 모델의 시간 범위를 설정합니다.
    * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택되어 있습니다.
    * [!UICONTROL Available Data] 목록에서 데이터 원본을 선택하십시오.
-   * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
+   * 완료되면 **[!UICONTROL Save]**을(를) 클릭합니다.
      ![유사 구성](assets/look-alike-configuration.png)
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=ko)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## 알고리즘 모델에 대한 기본 정보 {#basic-information}
 
@@ -75,7 +72,7 @@ ht-degree: 0%
 
 <!-- r_model_configuration.xml -->
 
-### 전제 조건
+### 사전 요구 사항
 
 먼저 [!UICONTROL Basic Information] 섹션의 필수 필드를 작성합니다.
 
@@ -114,7 +111,7 @@ ht-degree: 0%
 
 아래 비디오를 시청하여 자사 유사 모델을 만들어 변환자처럼 보이는 방문자를 더 많이 찾을 수 있는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30933?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

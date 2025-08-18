@@ -26,7 +26,7 @@ c_trend_reports.xml
 
  -->
 
-[!DNL Audience Manager]은(는) [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC])을(를) 사용하여 사용자 그룹 권한을 [!UICONTROL Trend] 보고서로 확장합니다. 사용자는 볼 수 있는 권한이 있는 보고에서 이러한 트레이트와 세그먼트만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀에서 볼 수 있는 보고 데이터를 제어할 수 있습니다.
+[!DNL Audience Manager]은(는) [!UICONTROL Role Based Access Control]&#x200B;([!UICONTROL RBAC])을(를) 사용하여 사용자 그룹 권한을 [!UICONTROL Trend] 보고서로 확장합니다. 사용자는 볼 수 있는 권한이 있는 보고에서 이러한 트레이트와 세그먼트만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀에서 볼 수 있는 보고 데이터를 제어할 수 있습니다.
 
 예를 들어 다른 광고주 계정을 관리하는 기관은 광고주 A의 계정을 관리하는 팀이 광고주 B의 보고 데이터를 볼 수 없도록 사용자 그룹 권한을 구성할 수 있습니다.
 
@@ -69,7 +69,7 @@ t_working_with_trend_reports.xml
    * 최상의 성능을 얻으려면 한 번에 20개 이하의 트레이트 또는 세그먼트에 대해 [!UICONTROL Trend] 보고서를 실행하십시오.
 1. 보고 있는 보고서 유형(트레이트 또는 세그먼트)에 따라 **[!UICONTROL Graph Traits]** 또는 **[!UICONTROL Graph Segments]**&#x200B;을(를) 클릭합니다. 이러한 옵션은 개별적으로 선택한 트레이트나 세그먼트만 모든 폴더와 그래프를 무시합니다.
 
-   또는
+   Or
 
    추가 분석 및 공유를 위해 트레이트 또는 세그먼트 데이터와 모든 폴더를 CSV 형식으로 내보내려면 **[!UICONTROL Export to CSV]**&#x200B;을(를) 클릭하십시오. 모든 요일 범위에 대해 [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] 및 [!UICONTROL Total Trait Population]을(를) 내보냅니다.
 
@@ -83,13 +83,13 @@ t_working_with_trend_reports.xml
 
 [!UICONTROL Trend Report]을(를) 실행하고 **[!UICONTROL Trait]**&#x200B;을(를) 보고서 유형으로 선택하면 아래 필터를 사용할 수 있습니다.
 
-결과를 [!UICONTROL Device ID] (으)로 필터링하는 경우:
+결과를 [!UICONTROL Device ID]&#x200B;(으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 익명 장치 방문자의 수입니다.
 * [!UICONTROL Total Trait Realization]은(는) 선택한 시간 범위 내에 있는 익명 마우스 트레이트 실현의 총 수입니다.
 * [!UICONTROL Total Trait Population]은(는) 프로필에 이 특성이 있는 익명 장치 방문자의 수입니다.
 
-결과를 [!UICONTROL Cross-Device ID] (으)로 필터링하는 경우:
+결과를 [!UICONTROL Cross-Device ID]&#x200B;(으)로 필터링하는 경우:
 
 * [!UICONTROL Unique Trait Realizations]은(는) 선택한 시간 범위 내에서 프로필에 트레이트를 추가한 인증된 방문자 수입니다.
 * [!UICONTROL Total Trait Realization]은(는) 선택한 시간 범위 내에 있는 인증된 트레이트 실현의 총 수입니다.
@@ -101,7 +101,7 @@ t_working_with_trend_reports.xml
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=ko)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## 세그먼트에 대한 트렌드 보고서 결과 {#segment-report-results-traits}
 

@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Audience Manager에서 전환 트레이트를 만드는 방법을 알아보려면 아래 비디오를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30932?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23431/)
 
 ## 샘플 보고서
 

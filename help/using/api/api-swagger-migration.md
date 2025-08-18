@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Audience Manager API 코드 마이그레이션 {#audience-manager-api-code-migration}
 
-여기 Audience Manager에서 우리는 여러분과 마찬가지로 엔지니어, 개발자, 그리고 코드 닌자입니다. 그리고 귀하처럼 신뢰할 수 있고 정확한 [!DNL API] 설명서를 사용하여 작업하려고 합니다. 따라서 [!DNL Swagger]에서 [!DNL API] 콘텐츠를 다시 작성하여 새 위치로 이동하는 중입니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드 사용 환경을 개선하는 데 도움이 되도록 설계되었습니다.
+여기 Audience Manager에서 우리는 여러분과 마찬가지로 엔지니어, 개발자, 그리고 코드 닌자입니다. 그리고 귀하처럼 신뢰할 수 있고 정확한 [!DNL API] 설명서를 사용하여 작업하려고 합니다. 따라서 [!DNL API]에서 [!DNL Swagger] 콘텐츠를 다시 작성하여 새 위치로 이동하는 중입니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드 사용 환경을 개선하는 데 도움이 되도록 설계되었습니다.
 
 ## 위로 이동 {#code-migration-details}
 

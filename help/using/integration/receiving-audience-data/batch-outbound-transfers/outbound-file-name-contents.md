@@ -22,7 +22,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+>이 문서의 스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)는 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
 ## 구문 및 파일 이름 요소 {#syntax-file-name}
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 [SYNC_TYPE][_DID][_MASTER_DPID][_PID_ALIAS][_SYNC-MODE][_TIMESTAMP]SPLITNUM.sync[.gz]
 ```
 
-### 매개 변수
+### 매개변수
 
 이 표에서는 아웃바운드 데이터 파일 이름의 요소를 정의합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 5%
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google 광고주 ID </span>(원시, 해시되지 않음) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> 광고주용 Apple ID </span>(원시, 해시되지 않음) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">공급업체 ID - 서드파티 사용자 ID(웹/쿠키) </li> 
-     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html?lang=ko">글로벌 데이터 소스</a>를 참조하십시오.</p></td> 
+     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">글로벌 데이터 소스</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -115,7 +115,7 @@ ht-degree: 5%
 
 ### 시나리오 2
 
-*`PID_ALIAS`*&#x200B;이(가) 없고 파일 콘텐츠에 [!DNL Apple Advertiser IDs]이(가) 있는 [!DNL FTP] 위치로 전송된 파일:
+[!DNL FTP]이(가) 없고 파일 콘텐츠에 *`PID_ALIAS`*&#x200B;이(가) 있는 [!DNL Apple Advertiser IDs] 위치로 전송된 파일:
 
 예: 증분 파일:
 
@@ -131,7 +131,7 @@ ht-degree: 5%
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**시나리오 3**: *`PID_ALIAS="XYZCustomer"`*&#x200B;을(를) 사용하고 파일 콘텐츠에 타사 사용자 ID가 있는 [!DNL FTP] 위치로 보낸 파일(*`Vendor ID=45454`*):
+**시나리오 3**: [!DNL FTP]을(를) 사용하고 파일 콘텐츠에 타사 사용자 ID가 있는 *`PID_ALIAS="XYZCustomer"`* 위치로 보낸 파일(*`Vendor ID=45454`*):
 
 예: 증분 파일:
 
@@ -156,7 +156,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+>이 문서의 스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)는 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
 ### 구문
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 
 `UUID<SPACE>SEGMENT_1,SEGMENT_2<SPACE>REMOVED_SEGMENT_,...`
 
-### 매개 변수
+### 매개변수
 
 표에는 데이터 파일의 내용을 정의하는 변수가 나열되어 있습니다.
 
@@ -178,7 +178,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager </span>이(가) 할당한 고유 사용자 ID입니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager </span>이(가) 할당한 고유 사용자 ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 

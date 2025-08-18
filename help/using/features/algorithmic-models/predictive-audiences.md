@@ -26,7 +26,7 @@ ht-degree: 3%
 
 [!UICONTROL Predictive Audiences] 모델을 만들 때 첫 번째 단계는 대상 대상자를 분류할 기준 특성 또는 세그먼트를 선택하는 것입니다. 이러한 트레이트 또는 세그먼트는 성향을 정의합니다.
 
-평가 단계 동안 모델은 기준선으로 정의한 각 트레이트 또는 세그먼트에 대해 새 [!UICONTROL Predictive Audiences] 세그먼트를 만듭니다. 다음에 Audience Manager이 어떤 성향에 대해 분류되지 않은(기준 트레이트 또는 세그먼트에 적합하지 않은) 대상 대상의 방문자를 보게 되면, [!UICONTROL Predictive Audiences] 모델은 방문자가 속해야 하는 예측 세그먼트 중 하나를 결정하고 해당 세그먼트에 방문자를 추가합니다.
+평가 단계 동안 모델은 기준선으로 정의한 각 트레이트 또는 세그먼트에 대해 새 [!UICONTROL Predictive Audiences] 세그먼트를 만듭니다. 다음에 Audience Manager에 사용자에 대해 분류되지 않은(기준 트레이트 또는 세그먼트에 적합하지 않은) 대상 대상의 방문자가 표시되면 [!UICONTROL Predictive Audiences] 모델은 방문자가 속해야 하는 예측 세그먼트 중 하나를 결정하고 해당 세그먼트에 방문자를 추가합니다.
 
 [!UICONTROL Segments] 페이지에서 모델이 만든 예측 세그먼트를 식별할 수 있습니다. 각 [!UICONTROL Predictive Audiences] 모델의 폴더는 [!UICONTROL Predictive Audiences] 폴더 아래에 있으며 모델 폴더를 클릭하면 각 모델의 세그먼트를 볼 수 있습니다.
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 자사 트레이트 또는 세그먼트를 선택하여 가상 사용자를 정의할 수 있습니다. 그러나 최적의 결과를 얻으려면 다음과 같은 권장 모범 사례 세트가 있습니다.
 
 * 각 성향에 최소 수백 개의 [장치 ID](../../reference/ids-in-aam.md)가 포함되도록 성향 트레이트 또는 세그먼트를 선택하십시오.
-* 트레이트가 [장치 간 ID](../../reference/ids-in-aam.md)를 기반으로 하는 경우 [!UICONTROL Device Graph]과 같이 [장치 ID](../../reference/ids-in-aam.md)를 사용하는 [프로필 병합 규칙](../profile-merge-rules/merge-rules-overview.md)을 사용하여 세그먼트로 래핑할 수 있습니다. 이렇게 하면 알고리즘에서 학습할 수 있는 [장치 ID](../../reference/ids-in-aam.md)이(가) 충분히 있습니다.
+* 트레이트가 [장치 간 ID](../../reference/ids-in-aam.md)를 기반으로 하는 경우 [과 같이 ](../profile-merge-rules/merge-rules-overview.md)장치 ID[를 사용하는 ](../../reference/ids-in-aam.md)프로필 병합 규칙[!UICONTROL Device Graph]을 사용하여 세그먼트로 래핑할 수 있습니다. 이렇게 하면 알고리즘에서 학습할 수 있는 [장치 ID](../../reference/ids-in-aam.md)이(가) 충분히 있습니다.
 * 성향에 대해 1~3개의 트레이트로 구성된 트레이트 또는 단순 세그먼트를 선택하는 것이 좋습니다.
 * 겹치는 부분이 최소인 기준선 트레이트 또는 세그먼트를 선택하십시오.
 * 디지털 속성에서 세분화된 트레이트를 캡처하고 있는지 확인합니다.
@@ -118,15 +118,15 @@ ht-degree: 3%
    * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) 트레이트 또는 세그먼트;
    * 알고리즘 트레이트
    * 제2자 및 타사 트레이트.
-* [!UICONTROL Audience Lab]에서 [!UICONTROL Predictive Audience] [!UICONTROL segments]을(를) 사용할 수 없습니다.
+* [!UICONTROL Predictive Audience]에서 [!UICONTROL segments] [!UICONTROL Audience Lab]을(를) 사용할 수 없습니다.
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-[!UICONTROL Predictive Audiences] 모델에서 만든 예측 세그먼트는 다음 자사 데이터 원본에서 [데이터 내보내기 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ko)를 상속합니다.
+[!UICONTROL Predictive Audiences] 모델에서 만든 예측 세그먼트는 다음 자사 데이터 원본에서 [데이터 내보내기 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)를 상속합니다.
 
 1. 모델을 작성할 때 선택하는 자사 데이터 소스.
 1. 타겟 대상의 자사 데이터 소스입니다. 특히 타겟 대상을 구성하는 [!UICONTROL traits] 또는 [!UICONTROL segments]의 데이터 내보내기 제어
-1. 모델에 대해 선택한 [!UICONTROL Profile Merge Rule]의 [데이터 내보내기 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ko)입니다.
+1. 모델에 대해 선택한 [의 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)데이터 내보내기 제어[!UICONTROL Profile Merge Rule]입니다.
 
 새로 만든 예측 [!UICONTROL traits] 및 [!UICONTROL segments]은(는) 위에서 설명한 자사 데이터 원본의 통합과 동일한 개인 정보 보호 제한 사항을 갖습니다.
 
@@ -136,16 +136,16 @@ ht-degree: 3%
 
 모델을 만들 때 선택한 [!UICONTROL Profile Merge Rule]에 모든 예측 세그먼트가 할당됩니다. 선택한 [!UICONTROL Profile Merge Rule]은(는) 다음과 같은 이유로 중요합니다.
 
-* 모델이 사용자를 예측 [!UICONTROL segment] (으)로 분류할 때 영향력 있는 [!UICONTROL traits]을(를) 분석할 때 고려해야 하는 장치 및/또는 인증된 프로필을 정의합니다.
+* 모델이 사용자를 예측 [!UICONTROL traits]&#x200B;(으)로 분류할 때 영향력 있는 [!UICONTROL segment]을(를) 분석할 때 고려해야 하는 장치 및/또는 인증된 프로필을 정의합니다.
 * 모델 교육 단계에서 사용해야 하는 [!UICONTROL trait] 유형(장치 수준 또는 교차 장치 수준)을 제어하며 [!UICONTROL traits]에 영향을 줍니다. 예측 [!UICONTROL segments]은(는) 대상 대상의 하위 집합입니다.
    * 대상 대상이 세그먼트인 경우 모델에 대해 대상 대상에 할당된 모델과 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택하거나 대상 대상의 프로필 유형을 포함하는 [!UICONTROL Profile Merge Rule]을(를) 선택하는 것이 좋습니다.
    * 대상 대상이 [!UICONTROL trait]인 경우 대상 대상 트레이트와 동일한 유형의 데이터(장치 프로필 데이터 또는 교차 장치 프로필 데이터)에 액세스할 수 있는 [!UICONTROL Profile Merge Rule]을(를) 선택하는 것이 좋습니다.
-* [!UICONTROL Current Authenticated Profiles] 및 [!UICONTROL No Device Profile] 옵션을 사용하는 [!UICONTROL Profile Merge Rules]은(는) 실시간 대상 분류에 대해서만 지원됩니다. 자세한 내용은 [정의된 프로필 병합 규칙 옵션](../profile-merge-rules/merge-rule-definitions.md)을 참조하세요.
+* [!UICONTROL Profile Merge Rules] 및 [!UICONTROL Current Authenticated Profiles] 옵션을 사용하는 [!UICONTROL No Device Profile]은(는) 실시간 대상 분류에 대해서만 지원됩니다. 자세한 내용은 [정의된 프로필 병합 규칙 옵션](../profile-merge-rules/merge-rule-definitions.md)을 참조하세요.
 
 장치 데이터와 교차 장치 데이터를 모두 사용하는 [!UICONTROL Profile Merge Rule]을(를) 선택하면 모델 교육 및 사용자 분류에 사용할 수 있는 [!UICONTROL traits]의 수를 예측 [!UICONTROL segments]로 최대화합니다.
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-성향 및 대상 분류에 대해 선택하는 트레이트 및 세그먼트는 Audience Manager [역할 기반 액세스 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko)의 적용을 받습니다.
+성향 및 대상 분류에 대해 선택하는 트레이트 및 세그먼트는 Audience Manager [역할 기반 액세스 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html)의 적용을 받습니다.
 
-Audience Manager 사용자는 [볼 수 있는 권한](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko#wild-card-permissions)이 있는 가상 사용자 및 대상 대상에 대한 트레이트 또는 세그먼트만 선택할 수 있습니다.
+Audience Manager 사용자는 [볼 수 있는 권한](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)이 있는 가상 사용자 및 대상 대상에 대한 트레이트 또는 세그먼트만 선택할 수 있습니다.

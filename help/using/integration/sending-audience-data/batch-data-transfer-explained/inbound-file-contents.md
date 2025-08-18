@@ -56,7 +56,7 @@ ht-degree: 3%
    <td colname="col2"> <p>사용자 ID는 다음과 같을 수 있습니다. </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
       <li id="li_23829FE2F6464E33859B3E388FCD106B"><span class="keyword"> Audience Manager </span>이(가) 할당한 고유 사용자 ID(<a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
-      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">CRM 시스템에 할당된 고유한 사용자 ID입니다(</a> Audience Manager의 <a href="../../../reference/ids-in-aam.md"> DPUUID). </li> 
+      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">CRM 시스템에 할당된 고유 사용자 ID(<a href="../../../reference/ids-in-aam.md"> DPUUID, Audience Manager </a>)입니다. </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">모바일 운영 체제에 의해 노출된 원래의 수정되지 않은 형식의 모바일 Android 또는 iOS 장치 ID입니다. </li> 
      </ul> </p> <p>모바일 ID: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
@@ -70,7 +70,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager </span> 트레이트 ID입니다. 인바운드 데이터 파일에 <i>온보딩된 트레이트만</i>을(를) 포함하도록 요청합니다. 인바운드 데이터 전송에서 다른 트레이트 유형은 처리하지 않습니다. </p> <p> <p>참고: 트레이트 ID는 모든 트레이트에 대한 세부 사항을 반환하는 GET 메서드를 사용하여 찾을 수 있습니다. 자세한 내용은 <a href="../../../api/rest-api-main/api-traits.md"> 트레이트 API 메서드 </a>을(를) 참조하십시오. </p> </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager </span> 트레이트 ID. 인바운드 데이터 파일에 <i>온보딩된 트레이트만</i>을(를) 포함하도록 요청합니다. 인바운드 데이터 전송에서 다른 트레이트 유형은 처리하지 않습니다. </p> <p> <p>참고: 트레이트 ID는 모든 트레이트에 대한 세부 사항을 반환하는 GET 메서드를 사용하여 찾을 수 있습니다. 자세한 내용은 <a href="../../../api/rest-api-main/api-traits.md"> 트레이트 API 메서드 </a>을(를) 참조하십시오. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +93,7 @@ ht-degree: 3%
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>접두사가 <code> d_unsid </code>인 데이터는 해당 트레이트에서 사용자를 제거합니다. <code> overwrite </code> 파일에서 <code> d_unsid </code> 접두사가 무시됩니다. </p> <p><code> d_unsid= </code> 접두사는 ID가 <span class="keyword"> Audience Manager </span> 트레이트 ID임을 시스템에 알려줍니다. 이 ID는 사용자 인터페이스에 표시된 ID와 동일합니다. API <code> GET </code> 메서드로 트레이트 ID를 반환할 수도 있습니다. <a href="../../../api/rest-api-main/api-traits.md"> 트레이트 API 메서드 </a>을(를) 참조하십시오. </p> </td>
+   <td colname="col2"> <p>접두사가 <code> d_unsid </code>인 데이터는 해당 트레이트에서 사용자를 제거합니다. <code> d_unsid </code> 파일에서 <code> overwrite </code> 접두사가 무시됩니다. </p> <p><code> d_unsid= </code> 접두사는 ID가 <span class="keyword"> Audience Manager </span> 트레이트 ID임을 시스템에 알려줍니다. 이 ID는 사용자 인터페이스에 표시된 ID와 동일합니다. API <code> GET </code> 메서드로 트레이트 ID를 반환할 수도 있습니다. <a href="../../../api/rest-api-main/api-traits.md"> 트레이트 API 메서드 </a>을(를) 참조하십시오. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -139,7 +139,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>DPUUID에 인코딩된 콜론(<code> %3A </code>) 또는 인코딩되지 않은 콜론( :) 기호를 사용하지 마십시오</i>. </p> </td> 
+   <td colname="col2"> <p><i>DPUUID에 인코딩된 콜론(</i>) 또는 인코딩되지 않은 콜론( :) 기호를 사용하지 마십시오<code> %3A </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile iOS(IDFA) 또는 Android 장치 ID </p> </td> 
@@ -178,7 +178,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p><i>키-값 쌍에 빈 값 대신 <code> TAB </code>을(를) 사용하지 마십시오</i>. <code> TAB </code>만 사용하여 인바운드 데이터 파일에서 변수를 구분하십시오. </p> </td> 
+   <td colname="col2"> <p><i>키-값 쌍에 빈 값 대신 </i>을(를) 사용하지 마십시오<code> TAB </code>. <code> TAB </code>만 사용하여 인바운드 데이터 파일에서 변수를 구분하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
@@ -201,30 +201,30 @@ ht-degree: 3%
    <td colname="col1"> <p><code> d_sid </code> 또는 <code> d_unsid </code> 사용 </p> </td> 
    <td colname="col2"> <p>이 데이터 파일은 트레이트 24, 26, 27에 대한 자격이 있는 사용자를 나타내며 트레이트 28 및 29에서 제거되었습니다. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>참고:  <p>d_unsid를 사용하는 대신 다음 구문을 사용하여 사용자 프로필에서 트레이트를 제거할 수도 있습니다. </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> ic== </code> 사용 </p> </td> 
    <td colname="col2"> <p>이러한 트레이트는 <code> ic </code> 접두사가 있는 트레이트 규칙에 추가되었습니다. 따라서 표시된 대로 쉼표로 구분된 데이터 파일에 추가할 수 있습니다. 탭은 UUID와 트레이트 ID를 구분합니다. <code> ic </code> 접두사는 파일에 필요하지 않습니다. </p> <p><b>숫자 ID</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>문자열 ID</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>키-값 쌍 사용 </p> </td> 
    <td colname="col2"> 이 파일 데이터는 키-값 쌍을 사용하여 <span class="keyword"> Audience Manager </span>에 데이터를 전달합니다. <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -280,7 +280,7 @@ ht-degree: 3%
 
 ### 예제 1 {#example-1}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 정보를 보냅니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -288,7 +288,7 @@ ht-degree: 3%
 
 ### 예제 2 {#example-2}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 박탈 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 박탈 정보를 보냅니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -308,7 +308,7 @@ ht-degree: 3%
 
 ### 예제 3 {#example-3}
 
-키-값 쌍을 전송하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 정보를 추가하십시오.
+키-값 쌍을 전송하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 정보를 추가하십시오.
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -322,7 +322,7 @@ ht-degree: 3%
 
 ### 예제 4 {#example-4}
 
-`ic` 접두사를 사용하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 정보를 보냅니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -336,7 +336,7 @@ ht-degree: 3%
 
 ### 예제 5 {#example-5}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Android]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL Android] 자격 정보를 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -344,7 +344,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 예제 6 {#example-6}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Android]개의 장치에 대한 [!UICONTROL trait]개의 자격 박탈 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개의 장치에 대한 [!DNL Android]개의 자격 박탈 정보를 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -364,7 +364,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 예제 7 {#example-7}
 
-[!DNL Android] 장치에 대한 [!UICONTROL trait] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
+[!UICONTROL trait] 장치에 대한 [!DNL Android] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -378,7 +378,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### 예제 8 {#example-8}
 
-`ic` 접두사를 사용하여 [!DNL Android]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL Android] 자격 정보를 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -392,7 +392,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예제 9 {#example-9}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL iOS]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL iOS] 자격 정보를 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -400,7 +400,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 10 {#example-10}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL iOS]개의 장치에 대한 [!UICONTROL trait]개의 자격 박탈 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개의 장치에 대한 [!DNL iOS]개의 자격 박탈 정보를 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -420,7 +420,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 11 {#example-11}
 
-[!DNL iOS] 장치에 대한 [!UICONTROL trait] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
+[!UICONTROL trait] 장치에 대한 [!DNL iOS] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -434,7 +434,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 12 {#example-12}
 
-`ic` 접두사를 사용하여 [!DNL iOS]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL iOS] 자격 정보를 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -448,7 +448,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 13 {#example-13}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL DPUUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]에 대한 [!DNL DPUUIDs] 자격 정보를 보냅니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -456,7 +456,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 예 14 {#example-14}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!DNL DPUUIDs]에 대한 [!UICONTROL trait]개의 결격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]에 대한 [!DNL DPUUIDs]개의 결격 정보를 보냅니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -476,7 +476,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 예 15 {#example-15}
 
-키-값 쌍을 보내 [!DNL DPUUIDs]에 대한 [!UICONTROL trait] 자격 정보를 추가하십시오.
+키-값 쌍을 보내 [!UICONTROL trait]에 대한 [!DNL DPUUIDs] 자격 정보를 추가하십시오.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -490,7 +490,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### 예 16 {#example-16}
 
-`ic` 접두사를 사용하여 [!DNL DPUUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!UICONTROL trait]에 대한 [!DNL DPUUIDs] 자격 정보를 보냅니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626

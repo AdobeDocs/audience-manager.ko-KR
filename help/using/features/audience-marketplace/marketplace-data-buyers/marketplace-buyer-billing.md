@@ -1,5 +1,5 @@
 ---
-description: Audience Marketplace 데이터 구매자는 CPM(광고 노출 횟수) 기준으로 비용이 책정된 데이터 피드에 포함된 트레이트를 사용하여 제공된 모든 광고 노출 횟수를 보고하는 데 동의합니다. CPM 사용량은 매월 5일이며 이전 달의 데이터를 포함합니다. 정액 요금 가입자는 사용 신고를 하지 않아도 됩니다.
+description: Audience Marketplace 데이터 구매자는 천 개 광고 노출 횟수(CPM) 기준으로 가격이 책정된 데이터 피드에 포함된 트레이트를 사용하여 제공된 모든 광고 노출 횟수를 보고하는 데 동의합니다. CPM 사용량은 매월 5일에 마감되며 이전 달의 데이터를 포함합니다. 정액 요금 가입자는 사용 신고를 하지 않아도 됩니다.
 seo-description: Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
@@ -29,12 +29,12 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 
 [!UICONTROL Audience Marketplace]은(는) [!DNL CPM] 사용량을 보고하는 두 가지 방법을 제공합니다.
 
-* **세그먼트 수준 보고**: 권장되는 [!DNL CPM] 사용 보고 방법입니다. 세그먼트 수준에서 [!DNL CPM] 사용량을 보고하면 [CPM 데이터 피드에 대한 비용 속성](#cost-attribution)에 설명된 알고리즘을 기반으로 데이터 피드 수준 보고 섹션에 해당 사용량으로 자동으로 채워집니다.
-* **데이터 피드 수준 보고**: 이 메서드를 사용하려면 [CPM 데이터 피드의 비용 속성](#cost-attribution)에 설명된 알고리즘을 기반으로 각 데이터 피드에 대한 [!DNL CPM] 사용량을 개별적으로 보고해야 합니다. 그러나 이 방법은 세그먼트 수준 보고보다 지루하고 오류가 발생하기 쉽습니다.
+* **세그먼트 수준 보고**: 권장되는 [!DNL CPM] 사용 보고 방법입니다. 세그먼트 수준에서 [!DNL CPM] 사용을 보고할 때 데이터 피드 수준 보고 섹션은 [CPM 데이터 피드에 대한 비용 속성](#cost-attribution)에 설명된 알고리즘을 기반으로 해당 사용 금액으로 자동으로 채워집니다.
+* **데이터 피드 수준 보고**: 이 메서드를 사용하려면 [!DNL CPM]CPM 데이터 피드에 대한 비용 속성[에 설명된 알고리즘을 기반으로 각 데이터 피드에 대한 ](#cost-attribution) 사용량을 개별적으로 보고해야 합니다. 그러나 이 방법은 세그먼트 수준 보고보다 지루하고 오류가 발생하기 쉽습니다.
 
 <br> 
 
-## 세그먼트 수준에서 CPM 사용량 보고 {#segment-level-report}
+## 세그먼트 수준에서 CPM 사용 보고 {#segment-level-report}
 
 [!UICONTROL Segment Usage] 탭에서는 세그먼트 수준 사용을 보고할 수 있으며 매핑된 대상별로 그룹화된 세그먼트를 표시할 수 있습니다.
 
@@ -46,7 +46,7 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 1. **[!UICONTROL Segment Usage]** 탭을 선택합니다.
 1. 세그먼트에 대한 사용을 입력합니다. 일부 세그먼트에 대한 사용량만 보고하면 되는 경우 [!UICONTROL Search] 상자를 사용하여 세그먼트를 필터링할 수 있습니다.
 1. **[!UICONTROL Edit Segments Usage]** 아이콘을 클릭합니다.
-1. [!UICONTROL Usage] 열에 [!DNL CPM] 사용량을 입력하십시오.
+1. [!DNL CPM] 열에 [!UICONTROL Usage] 사용량을 입력하십시오.
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 확인 대화 상자를 검토합니다.
 
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
@@ -69,7 +69,7 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 2. **[!UICONTROL Feed Usage]** 탭을 선택합니다.
 3. [!UICONTROL Search] 상자를 사용하여 데이터 피드를 필터링하고 사용량을 보고해야 하는 데이터 피드를 식별합니다.
 4. **[!UICONTROL Edit Feeds Usage]** 아이콘을 클릭합니다.
-5. CPM 데이터 피드에 대한 [비용 속성](#cost-attribution)을(를) 기반으로 각 데이터 피드의 [!DNL CPM] 사용량을 계산하고 [!UICONTROL Usage] 열에 입력하십시오.
+5. CPM 데이터 피드에 대한 [!DNL CPM]비용 속성[을(를) 기반으로 각 데이터 피드에 대한 ](#cost-attribution) 사용량을 계산하고 [!UICONTROL Usage] 열에 입력하십시오.
 6. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 확인 대화 상자를 검토합니다.
 
    ![피드 사용량 확인](assets/confirm-feed-usage.png)
@@ -124,19 +124,19 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>항상 총 노출 횟수를 보고하세요</b> </p> </td> 
-   <td colname="col2"> <p>CPM 노출 합계의 경우: </p>
-   <p> 소수를 사용하지 않고 총 노출 횟수를 보고합니다. Audience Manager은 보고하는 총 수를 기반으로 CPM을 자동으로 계산합니다.</p><p>1,234,567회 노출 횟수를 보고해야 하는 경우 이와 정확히 동일하게 보고하십시오. CPM을 계산하기 위해 총 노출 횟수를 1,000으로 나눌 필요가 없습니다.</p><p>Adobe Target 또는 Analytics 대상과 같은 도구를 사용하여 웹 또는 앱 컨텐츠를 최적화(컨텐츠 최적화)하는 데 사용되는 트레이트는 CPM 계획에 대한 사용 합계에 기여하지 않습니다. 데이터 제공업체는 일반적으로 정액 요금 플랜을 사용하여 콘텐츠 최적화에 대해 보상을 받습니다.</p><p>자세한 내용은 <a href="#cost-attribution">CPM 데이터 피드의 비용 속성</a>을 참조하십시오. </p> </td>
+   <td colname="col2"> <p>CPM 노출 총계의 경우: </p>
+   <p> 소수를 사용하지 않고 총 노출 횟수를 보고합니다. Audience Manager은 보고하는 총 수를 기반으로 CPM을 자동으로 계산합니다.</p><p>1,234,567회 노출 횟수를 보고해야 하는 경우 이와 정확히 동일하게 보고하십시오. CPM을 계산하기 위해 총 노출 횟수를 1,000으로 나눌 필요가 없습니다.</p><p>Adobe Target 또는 Analytics 대상과 같은 도구를 사용하여 웹 또는 앱 컨텐츠를 최적화(컨텐츠 최적화)하는 데 사용되는 트레이트는 CPM 플랜의 사용 총계에 기여하지 않습니다. 데이터 제공업체는 일반적으로 정액 요금 플랜을 사용하여 콘텐츠 최적화에 대해 보상을 받습니다.</p><p>자세한 내용은 <a href="#cost-attribution">CPM 데이터 피드의 비용 속성</a>을 참조하십시오. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>월별 보고 간격 유지</b> </p> </td> 
-   <td colname="col2"> <p>보고서 시스템은 매월 5일 이후에 닫힙니다. 그때까지 CPM 사용량을 보고하지 않으면 다음 달의 보고서에 해당 금액을 추가해야 합니다. 예를 들어, 10월에 1000개의 노출을 사용하고, 10월 보고 기한을 놓치고, 11월에 1000개의 노출을 사용한다고 가정해 보겠습니다. 이 경우 1일과 5일 사이에 10월과 11월 합계(2000년)를 12월에 보고합니다.</p><p><b>팁</b>: 항상 다음 달 1일에서 5일 사이에 이전 달의 CPM 사용을 보고해 보십시오.</p><p>CPM 사용량은 새 역월 5일까지 보고할 수 있지만 권장되지는 않습니다. 매월 5일 이전에 CPM 사용량을 보고하면 Audience Manager이 데이터를 확인하고 처리할 수 있는 시간을 제공합니다.</p> </td>
+   <td colname="col2"> <p>보고서 시스템은 매월 5일 이후에 닫힙니다. 그때까지 CPM 사용을 보고하지 않으면 다음 달의 보고서에 해당 금액을 추가해야 합니다. 예를 들어, 10월에 1000개의 노출을 사용하고, 10월 보고 기한을 놓치고, 11월에 1000개의 노출을 사용한다고 가정해 보겠습니다. 이 경우 1일과 5일 사이에 10월과 11월 합계(2000년)를 12월에 보고합니다.</p><p><b>팁</b>: 항상 다음 달 1일에서 5일 사이에 이전 달의 CPM 사용을 보고해 보십시오.</p><p>늦어도 새 역월 5일까지는 CPM 사용을 보고할 수 있지만 권장되지 않습니다. 매월 5일 전에 CPM 사용을 보고하면 Audience Manager에서 데이터를 확인하고 처리할 수 있는 시간이 제공됩니다.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
 <br> 
 
-## CPM 데이터 피드의 비용 속성 {#cost-attribution}
+## CPM 데이터 피드에 대한 비용 속성 {#cost-attribution}
 
 [!UICONTROL Audience Marketplace]에서는 각 세그먼트에 대해 매월 노출 금액을 자체 보고해야 합니다. 비용 속성이 자동으로 수행되도록 세그먼트 수준에서 [!DNL CPM] 사용을 보고하는 것이 좋습니다.
 
@@ -144,7 +144,7 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 
 ### 청구 요약 {#billing-summary}
 
-[!DNL CPM]개의 데이터 피드 노출 금액을 매월 1일과 5일 사이에 제출해야 합니다. 이 작업을 올바르게 수행하려면 [세그먼트 수준에서 CPM 사용량을 보고](#segment-level-report)하는 것이 좋습니다.
+[!DNL CPM]개의 데이터 피드 노출 금액을 매월 1일과 5일 사이에 제출해야 합니다. 이 작업을 올바르게 수행하려면 [세그먼트 수준에서 CPM 사용을 보고](#segment-level-report)하는 것이 좋습니다.
 
 >[!TIP]
 >세그먼트 수준에서 [!DNL CPM] 사용을 보고하면 데이터 피드 수준 보고 섹션이 해당 사용 금액으로 자동으로 채워집니다.
@@ -166,10 +166,10 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 
 [!UICONTROL Activation] 사용 사례를 사용하면 해당 데이터 피드의 특성을 사용하여 [세그먼트 빌더](../../../features/segments/segment-builder.md)에서 세그먼트를 만들고 해당 세그먼트를 대상에 매핑할 수 있습니다. 부울 연산자 [!UICONTROL AND], [!UICONTROL OR] 및 [!UICONTROL NOT]을(를) 사용하면 트레이트 및 세그먼트 자격에 대한 조건을 설정할 수 있습니다.
 
-[데이터 피드 수준에서 CPM 사용량을 보고](#feed-level-report)하는 경우 트레이트 자격 규칙에 사용된 [!DNL Boolean] 연산자에 따라 각 데이터 피드에 비례하여 노출을 할당해야 합니다. 다음 표에는 부울 규칙 또는 트레이트 유형별로 노출을 적절하게 할당하는 방법이 나와 있습니다.
+[데이터 피드 수준에서 CPM 사용을 보고](#feed-level-report)할 때 트레이트 자격 규칙에 사용된 [!DNL Boolean] 연산자에 따라 각 데이터 피드에 비례하여 노출을 할당해야 합니다. 다음 표에는 부울 규칙 또는 트레이트 유형별로 노출을 적절하게 할당하는 방법이 나와 있습니다.
 
 >[!TIP]
->[Audience Manager 수준에서 CPM 사용량 보고](#segment-level-report) 데이터 피드 수준 보고를 자동으로 수행할 수 있습니다.
+>[세그먼트 수준에서 CPM 사용량 보고](#segment-level-report) Audience Manager에서 데이터 피드 수준 보고를 자동으로 수행합니다.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -205,7 +205,7 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 아래 예제는 데이터 피드 수준에서 [!DNL CPM] 사용 할당이 수행되는 방식을 보여 주기 위한 것입니다.
 
 >[!IMPORTANT]
->이 프로세스를 자동으로 수행하려면 대신 [세그먼트 수준에서 CPM 사용량을 보고](#segment-level-report)하는 것이 좋습니다.
+>이 프로세스를 자동으로 완료하려면 대신 [세그먼트 수준에서 CPM 사용을 보고](#segment-level-report)하는 것이 좋습니다.
 
 다음 시나리오를 살펴보겠습니다.
 
@@ -270,6 +270,6 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 
 ## 정액 요금 데이터 피드에 대한 청구 및 노출 할당 {#billing-flat-fee}
 
-정액 요금 데이터 피드에서는 구독이 시작되는 시기 또는 사용하는 노출 횟수에 관계없이 매월 고정 금액을 청구합니다. 일부 월 사용량 또는 간격에 대해서는 요금이 비례배부되지 않습니다. CPM 청구와 마찬가지로, Adobe은 송장을 생성하고 구독한 데이터 피드에 대해 월별 고정 요금 방식으로 청구합니다.
+정액 요금 데이터 피드에서는 구독이 시작되는 시기 또는 사용하는 노출 횟수에 관계없이 매월 고정 금액을 청구합니다. 일부 월 사용량 또는 간격에 대해서는 요금이 비례배부되지 않습니다. CPM 청구와 마찬가지로 Adobe은 송장을 생성하고 구독한 데이터 피드에 대해 월별 고정 요금 방식으로 청구합니다.
 
 예를 들어, 이달 중순에 피드의 특정 트레이트를 켜기로 결정했다고 가정해 보겠습니다. 구독을 시작한 시기 또는 특정 트레이트를 활성화한 시기에 상관없이 여전히 전체 월별 요금으로 청구됩니다.

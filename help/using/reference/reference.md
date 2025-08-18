@@ -21,5 +21,5 @@ ht-degree: 19%
 * [시스템 구성 요소](/help/using/reference/system-components/components-overview.md)
 * [Beta 환경](/help/using/reference/beta-environment.md)
 * [용어 설명](/help/using/reference/aam-glossary.md)
-* [Audience Manager 내 ID 색인](/help/using/reference/ids-in-aam.md)
+* [Audience Manager의 ID 색인](/help/using/reference/ids-in-aam.md)
 * [신호, 트레이트 및 세그먼트](/help/using/reference/signal-trait-segment.md)

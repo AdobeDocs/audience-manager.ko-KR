@@ -22,7 +22,7 @@ ht-degree: 96%
 
 GDPR은 EU(데이터 주제)의 개인에게 개인 데이터에 대한 더 많은 제어 권한을 부여하는 동시에 EU 내 규정을 보다 효과적으로 통합함으로써 국제 비즈니스에 대한 규제 환경을 단순화한다는 기본 목표를 가지고 2018년 5월 25일부터 시행되었습니다. Adobe Audience Manager팀은 Adobe의 GDPR 대비의 일환으로 소비자인 데이터 주제의 액세스 및 삭제 요청을 지원하는 데 필요한 서비스 및 프로세스를 향상시켰습니다.
 
-Experience Cloud에서 GDPR이 작동하는 방식을 더 잘 이해하려면 [개인 정보 보호 규정 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko)에서도 GDPR에 대해 읽어야 합니다.
+Experience Cloud에서 GDPR이 작동하는 방식을 더 잘 이해하려면 [개인 정보 보호 규정 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en)에서도 GDPR에 대해 읽어야 합니다.
 
 ## GDPR 용어집 {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ GDPR과 관련하여 사용되는 주요 용어에 익숙해지십시오. 가장
 
  
 
-**Audience Manager 식별자(ID):** Adobe Audience Manager는 다양한 유형의 ID를 저장합니다. [Audience Manager 식별자](data-privacy-ids.md) 페이지에는 이러한 ID, 해당 데이터 소스 및 간단한 설명이 요약되어 있습니다. [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)에 요청을 보낼 때 이러한 ID를 참조하여 데이터 주제에 대한 삭제 또는 액세스 요청을 수행하십시오.
+**Audience Manager 식별자(ID):** Adobe Audience Manager는 다양한 유형의 ID를 저장합니다. [Audience Manager 식별자](data-privacy-ids.md) 페이지에는 이러한 ID, 해당 데이터 소스 및 간단한 설명이 요약되어 있습니다. [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)에 요청을 보낼 때 이러한 ID를 참조하여 데이터 주제에 대한 삭제 또는 액세스 요청을 수행하십시오.
 
  
 

@@ -1,9 +1,9 @@
 ---
-description: 이 섹션에서는 DMP(Audience Manager 데이터 관리 플랫폼) 시작과 관련된 프로세스에 대해 간략히 설명합니다. 이 섹션은 비즈니스 팀, 프로젝트 관리자 및 기술 관리자가 Audience Manager 구현 프로세스를 이해하는 데 도움이 되도록 설계되었습니다. Audience Manager 시작은 데이터 수집 요구 사항에 따라 약 6주에서 3개월 정도 소요될 수 있습니다.
+description: 이 섹션에서는 Audience Manager 데이터 관리 플랫폼(DMP) 시작과 관련된 프로세스에 대해 간략히 설명합니다. 이 섹션은 비즈니스 팀, 프로젝트 관리자 및 기술 관리자가 Audience Manager 구현 프로세스를 이해하는 데 도움이 되도록 설계되었습니다. Audience Manager을 시작하려면 데이터 수집 요구 사항에 따라 약 6주에서 3개월 정도 걸릴 수 있습니다.
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: 구현 Audience Manager
+title: Audience Manager 구현
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ---
 
-# 구현 Audience Manager {#implementing-audience-manager}
+# Audience Manager 구현 {#implementing-audience-manager}
 
-이 섹션에서는 Audience Manager 데이터 관리 플랫폼([!DNL DMP]) 시작과 관련된 프로세스에 대해 간략히 설명합니다. 이 섹션은 비즈니스 팀, 프로젝트 관리자 및 기술 관리자가 Audience Manager 구현 프로세스를 이해하는 데 도움이 되도록 설계되었습니다. Audience Manager 시작은 데이터 수집 요구 사항에 따라 약 6주에서 3개월 정도 소요될 수 있습니다.
+이 섹션에서는 Audience Manager 데이터 관리 플랫폼([!DNL DMP]) 시작과 관련된 프로세스에 대해 간략히 설명합니다. 이 섹션은 비즈니스 팀, 프로젝트 관리자 및 기술 관리자가 Audience Manager 구현 프로세스를 이해하는 데 도움이 되도록 설계되었습니다. Audience Manager을 시작하려면 데이터 수집 요구 사항에 따라 약 6주에서 3개월 정도 걸릴 수 있습니다.
 
 Dell의 구현 기술은 새로운 고객과 컨설팅 파트너십을 구축하는 데 도움이 됩니다. 이 프로세스는 다음 작업을 수행하도록 설계되었습니다.
 
 * 비즈니스 요구 사항 파악 및 이해
 * 이러한 요구를 해결하기 위한 실행 가능한 계획을 생성합니다.
 * 고유한 요구 사항이나 사용 사례를 충족하는 데 도움이 되는 맞춤형 솔루션 개발
-* 소유권 데이터를 가져와서 Audience Manager에서 사용할 수 있도록 해야 합니다.
+* 독점 데이터를 가져와서 Audience Manager에서 사용할 수 있도록 해야 합니다.
 
 EMC 의 파트너 솔루션 및 계정 관리 팀은 구축 프로세스 전, 중, 후에 고객과 긴밀히 협력할 것입니다.
 
@@ -153,7 +153,7 @@ Audience Manager은 설정 및 구현에 대한 단계별 접근 방식을 취�
 
 | 활동 | 목적/설명 | 참가자 |
 |---|---|---|
-| 데이터 수집 전략 준비 | Adobe 기술 팀과 협력하여 비즈니스 요구 사항을 충족하는 데이터 수집 계획 수립 | 비즈니스 및 기술 팀 |
+| 데이터 수집 전략 준비 | Adobe 기술 팀과 협력하여 비즈니스 요구 사항을 충족하는 데이터 수집 계획을 수립합니다 | 비즈니스 및 기술 팀 |
 | 코드 배포 및 테스트 | 스테이징 환경에서 제안된 솔루션을 테스트하고 브라우저 간 테스트를 수행합니다 | 기술 팀 |
 | 기능 확인 및 버그 해결 | 결과 검사 및 전달, 버그 해결 및 재테스트 | 기술 팀 |
 | 사용자 교육 | Audience Manager 기능, 도구 및 보고서에 대한 교육과 이해 제공 | 비즈니스 팀 |
@@ -204,7 +204,7 @@ Audience Manager은 설정 및 구현에 대한 단계별 접근 방식을 취�
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> 후속 커뮤니케이션 </td> 
-   <td colname="col2"> Audience Manager 관련 사용자 경험을 최신 상태로 유지하기 위해 정기적으로 예약된 커뮤니케이션 </td> 
+   <td colname="col2"> Audience Manager에 대한 사용자 경험을 최신 상태로 유지하기 위해 정기적으로 예약된 커뮤니케이션 </td> 
    <td colname="col3"> 비즈니스 및 기술 팀 </td> 
   </tr> 
  </tbody> 

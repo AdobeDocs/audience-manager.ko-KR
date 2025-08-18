@@ -23,6 +23,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->인바운드 데이터를 Audience Manager Amazon S3 버킷으로 전송할 때 Audience Manager가 데이터를 올바르게 처리할 수 있도록 `bucket-owner-full-control` [액세스 제어 목록](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)을 사용해야 합니다.
+>인바운드 데이터를 Audience Manager Amazon S3 버킷으로 전송할 때 Audience Manager가 데이터를 올바르게 처리하려면 `bucket-owner-full-control` [액세스 제어 목록](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)을 사용해야 합니다.
 >
 >Amazon Web Services 명령의 예: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`

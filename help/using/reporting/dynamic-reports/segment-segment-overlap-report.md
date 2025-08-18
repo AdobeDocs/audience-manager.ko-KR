@@ -68,7 +68,7 @@ r_s2s_data_pop.xml
 | **[!UICONTROL Base Segment Uniques]** | 기본 세그먼트의 고유 방문자 수입니다. |
 | **[!UICONTROL Base Segment Uniques]** | 겹치는 세그먼트의 고유 방문자 수입니다. |
 | **[!UICONTROL Overlapping Uniques]** | 비교된 세그먼트 간에 공유된 고유 방문자의 수입니다. |
-| **[!UICONTROL Overlap %]** | 겹침 %를 구하기 위해 Audience Manager은 다음 공식을 사용합니다. 겹침 고유 수 / (기본 세그먼트 고유 수 + 겹침 세그먼트 고유 수 - 겹침 고유) |
+| **[!UICONTROL Overlap %]** | 겹침 %를 구하기 위해 Audience Manager에서는 다음 공식을 사용합니다. 겹침 고유 수 / (기본 세그먼트 고유 수 + 겹침 세그먼트 고유 수 - 겹침 고유) |
 
 
 

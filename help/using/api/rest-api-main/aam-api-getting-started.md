@@ -9,7 +9,7 @@ feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2563'
 ht-degree: 1%
 
 ---
@@ -18,12 +18,12 @@ ht-degree: 1%
 
 일반 요구 사항, 인증, 선택적 쿼리 매개 변수, 요청 [!DNL URLs] 및 기타 참조에 대한 정보입니다.
 
-## API 요구 사항 및 Recommendations {#api-requirements-recommendations}
+## API 요구 사항 및 권장 사항 {#api-requirements-recommendations}
 
 [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) 코드를 사용하여 작업할 때 다음 사항에 유의하십시오.
 
 * **요청 매개 변수:** 달리 지정하지 않는 한 모든 요청 매개 변수가 필요합니다.
-* **요청 헤더**: [Adobe Developer](https://www.adobe.io/) 토큰을 사용할 때는 `x-api-key` 헤더를 제공해야 합니다. [서비스 계정 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지의 지침에 따라 [!DNL API] 키를 가져올 수 있습니다.
+* **요청 헤더**: [Adobe Developer](https://www.adobe.io/) 토큰을 사용할 때는 `x-api-key` 헤더를 제공해야 합니다. [!DNL API]서비스 계정 통합[ 페이지의 지침에 따라 ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 키를 가져올 수 있습니다.
 * **[!DNL JSON]콘텐츠 형식:** 코드에서 `content-type: application/json` *및* `accept: application/json`을(를) 지정합니다.
 * **요청 및 응답:** 요청을 올바른 형식의 [!DNL JSON] 개체로 보냅니다. [!DNL Audience Manager]이(가) 형식이 지정된 [!DNL JSON] 데이터로 응답합니다. 서버 응답에는 요청된 데이터, 상태 코드 또는 두 가지 모두 포함될 수 있습니다.
 * **액세스:** [!DNL Audience Manager] 컨설턴트가 [!DNL API]개의 요청을 할 수 있는 클라이언트 ID와 키를 제공합니다.
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 [!DNL Audience Manager] [!DNL REST APIs]은(는) 세 가지 인증 방법을 지원합니다.
 
-* [!BADGE 권장]{type=positive}[Adobe 개발자 콘솔](https://www.adobe.io/)을 사용하여 [OAuth 서버 간 인증](#oauth-adobe-developer). [!DNL Adobe Developer]은(는) Adobe의 개발자 생태계 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [API](https://developer.adobe.com/apis/)가 포함됩니다. [!DNL Adobe] [!DNL APIs]을(를) 설정하고 사용하는 데 권장되는 방법입니다. Adobe 개발자 설명서에서 [OAuth 서버 간 인증](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)에 대해 자세히 알아보십시오.
-* [!BADGE 사용되지 않음]{type=negative}[Adobe 개발자 콘솔](https://www.adobe.io/)을 사용하여 [JWT(서비스 계정) 인증](#jwt). [!DNL Adobe Developer]은(는) Adobe의 개발자 생태계 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [API](https://developer.adobe.com/apis/)가 포함됩니다.
-* [!BADGE 사용되지 않음]{type=negative}[기존 OAuth 인증](#oauth-deprecated). 이 메서드는 더 이상 사용되지 않지만 기존 [!DNL OAuth] 통합을 사용하는 고객은 이 메서드를 계속 사용할 수 있습니다.
+* [!BADGE 권장]{type=positive} [Adobe 개발자 콘솔](#oauth-adobe-developer)을 사용하여 [OAuth 서버 간 인증](https://www.adobe.io/). [!DNL Adobe Developer]은(는) Adobe의 개발자 생태계 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [API](https://developer.adobe.com/apis/)가 포함됩니다. [!DNL Adobe] [!DNL APIs]을(를) 설정하고 사용하는 데 권장되는 방법입니다. Adobe 개발자 설명서에서 [OAuth 서버 간 인증](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)에 대해 자세히 알아보십시오.
+* [!BADGE Adobe 개발자 콘솔]{type=negative}을 사용하여 [더 이상 사용되지 않음](#jwt) [JWT(서비스 계정) 인증](https://www.adobe.io/). [!DNL Adobe Developer]은(는) Adobe의 개발자 생태계 및 커뮤니티입니다. 여기에는 모든 Adobe 제품에 대한 [API](https://developer.adobe.com/apis/)가 포함됩니다.
+* [!BADGE 사용하지 않음]{type=negative} [레거시 OAuth 인증](#oauth-deprecated). 이 메서드는 더 이상 사용되지 않지만 기존 [!DNL OAuth] 통합을 사용하는 고객은 이 메서드를 계속 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -53,18 +53,18 @@ ht-degree: 1%
 
 [!DNL Adobe] [!DNL APIs]을(를) 설정하고 사용하는 데 권장되는 방법입니다.
 
-### 전제 조건 {#prerequisites-server-to-server}
+### 사전 요구 사항 {#prerequisites-server-to-server}
 
-[!DNL OAuth Server-to-Server] 인증을 구성하려면 먼저 [Adobe Developer](https://developer.adobe.com/)에서 [Adobe Developer Console](https://developer.adobe.com/console/home)에 액세스할 수 있는지 확인하십시오. 액세스 요청에 대해서는 조직 관리자에게 문의하십시오.
+[!DNL OAuth Server-to-Server] 인증을 구성하려면 먼저 [Adobe Developer](https://developer.adobe.com/console/home)에서 [Adobe Developer Console](https://developer.adobe.com/)에 액세스할 수 있는지 확인하십시오. 액세스 요청에 대해서는 조직 관리자에게 문의하십시오.
 
 ### 인증 {#oauth}
 
-[!DNL Adobe Developer]을(를) 사용하여 [!DNL OAuth Server-to-Server] 인증을 구성하려면 아래 단계를 따르십시오.
+[!DNL OAuth Server-to-Server]을(를) 사용하여 [!DNL Adobe Developer] 인증을 구성하려면 아래 단계를 따르십시오.
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home)에 로그인합니다.
 1. [OAuth 서버 간 자격 증명 구현 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)의 단계를 따릅니다.
    * [2단계: 서비스 계정 인증을 사용하여 프로젝트에 API를 추가](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)하는 동안 [!DNL Audience Manager] [!DNL API] 옵션을 선택하십시오.
-1. [3단계](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)의 지침에 따라 첫 번째 [!DNL API] 통화를 수행하여 연결을 시도하십시오.
+1. [!DNL API]3단계[의 지침에 따라 첫 번째 ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 통화를 수행하여 연결을 시도하십시오.
 
 >[!NOTE]
 >
@@ -72,9 +72,9 @@ ht-degree: 1%
 
 ### 프로젝트에 Audience Manager API 추가 {#add-aam-api-to-project}
 
-[Adobe Developer Console](https://www.adobe.com/go/devs_console_ui)(으)로 이동하여 Adobe ID으로 로그인합니다. 그런 다음 Adobe Developer Console 설명서에서 [빈 프로젝트 만들기](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/)에 대한 자습서에 설명된 단계를 수행합니다.
+[Adobe Developer Console](https://www.adobe.com/go/devs_console_ui)&#x200B;(으)로 이동하여 Adobe ID으로 로그인합니다. 그런 다음 Adobe Developer Console 설명서에서 [빈 프로젝트 만들기](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/)에 대한 자습서에 설명된 단계를 수행합니다.
 
-새 프로젝트를 만든 후에는 **[!UICONTROL Project Overview]** 화면에서 **[!UICONTROL Add API]**&#x200B;을(를) 선택하십시오.
+새 프로젝트를 만든 후에는 **[!UICONTROL Add API]** 화면에서 **[!UICONTROL Project Overview]**&#x200B;을(를) 선택하십시오.
 
 >[!TIP]
 >
@@ -82,13 +82,13 @@ ht-degree: 1%
 
 API 추가 옵션이 강조 표시된 ![Developer Console 화면.](/help/using/api/rest-api-main/assets/add-api.png)
 
-**[!UICONTROL Add an API]** 화면이 나타납니다. Adobe Experience Cloud의 제품 아이콘을 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 선택하기 전에 **[!UICONTROL Audience Manager API]**&#x200B;을(를) 선택하십시오.
+**[!UICONTROL Add an API]** 화면이 나타납니다. Adobe Experience Cloud의 제품 아이콘을 선택한 다음 **[!UICONTROL Audience Manager API]**&#x200B;을(를) 선택하기 전에 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오.
 
 ![Audience Manager API를 선택하십시오.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
 >[!TIP]
 >
->**[!UICONTROL View docs]** 옵션을 선택하여 별도의 브라우저 창에서 전체 [Audience Manager API 참조 설명서](https://bank.demdex.com/portal/swagger/index.html#)(으)로 이동합니다.
+>**[!UICONTROL View docs]** 옵션을 선택하여 별도의 브라우저 창에서 전체 [Audience Manager API 참조 설명서](https://bank.demdex.com/portal/swagger/index.html#)&#x200B;(으)로 이동합니다.
 
 ### OAuth 서버 간 인증 유형 선택 {#select-oauth-server-to-server}
 
@@ -96,7 +96,7 @@ API 추가 옵션이 강조 표시된 ![Developer Console 화면.](/help/using/a
 
 >[!IMPORTANT]
 >
->**[!UICONTROL OAuth Server-to-Server]** 메서드를 선택하십시오. 이 메서드는 앞으로 지원되는 유일한 메서드입니다. **[!UICONTROL Service Account (JWT)]** 메서드가 더 이상 사용되지 않습니다. JWT 인증 방법을 사용하는 통합은 2025년 1월 1일까지 계속 작동하지만, Adobe은 해당 날짜 이전에 기존 통합을 새 OAuth 서버 간 방법으로 마이그레이션할 것을 강력히 권장합니다.
+>**[!UICONTROL OAuth Server-to-Server]** 메서드를 선택하십시오. 이 메서드는 앞으로 지원되는 유일한 메서드입니다. **[!UICONTROL Service Account (JWT)]** 메서드가 더 이상 사용되지 않습니다. JWT 인증 방법을 사용하는 통합은 2025년 1월 1일까지 계속 작동하지만, Adobe에서는 해당 날짜 이전에 기존 통합을 새로운 OAuth 서버 간 방법으로 마이그레이션할 것을 강력히 권장합니다.
 
 ![OAuth 인증 방법을 선택하십시오.](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)
 
@@ -125,14 +125,14 @@ API가 프로젝트에 추가되면 프로젝트에 대한 **[!UICONTROL Audienc
 
 ## API 호출 테스트 {#test-api-call}
 
-인증 전달자 토큰을 받은 후, API 호출을 수행하여 Audience Manager API에 액세스할 수 있음을 테스트합니다.
+인증 전달자 토큰을 받은 후 API 호출을 수행하여 Audience Manager API에 액세스할 수 있음을 테스트합니다.
 
-1. [API 참조 설명서](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_)(으)로 이동합니다.
+1. [API 참조 설명서](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_)&#x200B;(으)로 이동합니다.
 2. **[!UICONTROL Authorize]**&#x200B;을(를) 선택하고 [액세스 토큰 생성](#generate-access-token) 단계에서 얻은 액세스 토큰을 붙여넣습니다.
 
    ![API 호출 승인](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. [API 참조 설명서](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_)에 표시된 대로 전역적으로 사용 가능한 모든 데이터 소스 목록을 검색하려면 `/datasources` API 끝점에 대한 GET 호출을 수행하십시오. 아래와 같이 **[!UICONTROL Try it out]**, **[!UICONTROL Execute]**&#x200B;을(를) 차례로 선택합니다.
+3. `/datasources`API 참조 설명서[에 표시된 대로 전역적으로 사용 가능한 모든 데이터 소스 목록을 검색하려면 ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_) API 끝점에 대한 GET 호출을 수행하십시오. 아래와 같이 **[!UICONTROL Try it out]**, **[!UICONTROL Execute]**&#x200B;을(를) 차례로 선택합니다.
 
    ![API 호출 수행](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
@@ -211,9 +211,9 @@ curl -X 'GET' \
 
 >[!ENDSHADEBOX]
 
-## [!BADGE 사용되지 않음]{type=negative}Adobe Developer을 사용한 [!DNL JWT] ([!DNL Service Account]) 인증 {#jwt}
+## Adobe Developer을 사용한 [!BADGE 사용되지 않음]{type=negative} [!DNL JWT]&#x200B;([!DNL Service Account]) 인증 {#jwt}
 
-+++ 인증 토큰을 얻는 더 이상 사용되지 않는 [!DNL JWT] ([!DNL Service Account]) 메서드에 대한 정보를 봅니다.
++++ 인증 토큰을 얻는 더 이상 사용되지 않는 [!DNL JWT]&#x200B;([!DNL Service Account]) 메서드에 대한 정보를 봅니다.
 
 ### Adobe Developer 개요 {#adobeio}
 
@@ -221,18 +221,18 @@ curl -X 'GET' \
 
 [!DNL Adobe] [!DNL APIs]을(를) 설정하고 사용하는 데 권장되는 방법입니다.
 
-### 전제 조건 {#prerequisites}
+### 사전 요구 사항 {#prerequisites}
 
-[!DNL JWT] 인증을 구성하려면 먼저 [Adobe Developer](https://www.adobe.io/)에서 [Adobe Developer Console](https://console.adobe.io/)에 액세스할 수 있는지 확인하십시오. 액세스 요청에 대해서는 조직 관리자에게 문의하십시오.
+[!DNL JWT] 인증을 구성하려면 먼저 [Adobe Developer](https://console.adobe.io/)에서 [Adobe Developer Console](https://www.adobe.io/)에 액세스할 수 있는지 확인하십시오. 액세스 요청에 대해서는 조직 관리자에게 문의하십시오.
 
 ### 인증 {#auth}
 
-[!DNL Adobe Developer]을(를) 사용하여 [!DNL JWT (Service Account)] 인증을 구성하려면 아래 단계를 따르십시오.
+[!DNL JWT (Service Account)]을(를) 사용하여 [!DNL Adobe Developer] 인증을 구성하려면 아래 단계를 따르십시오.
 
 1. [Adobe Developer Console](https://console.adobe.io/)에 로그인합니다.
 1. [서비스 계정 연결](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)의 단계를 따릅니다.
    * [2단계: 서비스 계정 인증을 사용하여 프로젝트에 API를 추가](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)하는 동안 [!DNL Audience Manager] [!DNL API] 옵션을 선택하십시오.
-1. [3단계](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)의 지침에 따라 첫 번째 [!DNL API] 통화를 수행하여 연결을 시도하십시오.
+1. [!DNL API]3단계[의 지침에 따라 첫 번째 ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 통화를 수행하여 연결을 시도하십시오.
 
 >[!NOTE]
 >
@@ -244,7 +244,7 @@ Audience Manager 계정이 [역할 기반 액세스 제어](../../features/admin
 
 아래 단계에 따라 기술 사용자 계정을 만들고 RBAC 그룹에 추가합니다.
 
-1. `https://aam.adobe.io/v1/users/self`에 `GET` 통화를 합니다. 이 호출은 [!UICONTROL Users] 페이지의 [!UICONTROL Admin Console]에서 볼 수 있는 기술 사용자 계정을 만듭니다.
+1. `GET`에 `https://aam.adobe.io/v1/users/self` 통화를 합니다. 이 호출은 [!UICONTROL Admin Console] 페이지의 [!UICONTROL Users]에서 볼 수 있는 기술 사용자 계정을 만듭니다.
 
    ![기술 계정](assets/technical-account.png)
 
@@ -252,7 +252,7 @@ Audience Manager 계정이 [역할 기반 액세스 제어](../../features/admin
 
 +++
 
-## [!BADGE 사용되지 않음]{type=negative}[!DNL OAuth] 인증(더 이상 사용되지 않음) {#oauth-deprecated}
+## [!BADGE 사용되지 않음]{type=negative} [!DNL OAuth] 인증(사용되지 않음) {#oauth-deprecated}
 
 +++ 인증 토큰을 얻기 위해 더 이상 사용되지 않는 레거시 [!DNL OAuth] 인증 방법에 대한 정보를 봅니다.
 
@@ -265,7 +265,7 @@ Audience Manager 계정이 [역할 기반 액세스 제어](../../features/admin
 
 ### 일반 [!DNL API] 사용자 만들기 {#requirements}
 
-[!DNL Audience Manager] [!DNL API] (으)로 작업하려면 별도의 기술 사용자 계정을 만드는 것이 좋습니다. 조직의 특정 사용자와 연결되거나 연결되지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
+[!DNL Audience Manager] [!DNL API]&#x200B;(으)로 작업하려면 별도의 기술 사용자 계정을 만드는 것이 좋습니다. 조직의 특정 사용자와 연결되거나 연결되지 않은 일반 계정입니다. 이 유형의 [!DNL API] 사용자 계정은 다음 두 가지 작업을 수행하는 데 도움이 됩니다.
 
 * [!DNL API]을(를) 호출하는 서비스(예: [!DNL API]을(를) 사용하는 앱이나 [!DNL API]개의 요청을 하는 다른 도구의 호출)를 식별합니다.
 * [!DNL API]에 중단 없이 액세스하십시오. 특정 사용자에 연결된 계정은 회사에서 나갈 때 삭제될 수 있습니다. 이 경우 사용 가능한 [!DNL API] 코드를 사용할 수 없습니다. 특정 직원에게 연결되지 않은 일반 계정은 이 문제를 방지하는 데 도움이 됩니다.
@@ -362,14 +362,14 @@ Audience Manager 계정이 [역할 기반 액세스 제어](../../features/admin
 사용 가능한 [!DNL API] 메서드에 대해 호출하려면 다음을 수행합니다.
 
 * `HTTP` 헤더에서 `Authorization: Bearer <token>`을(를) 설정합니다.
-* [JWT(서비스 계정) 인증](#jwt)을(를) 사용하는 경우 `client_id`과(와) 동일한 `x-api-key` 헤더를 제공해야 합니다. [Adobe Developer 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 페이지에서 `client_id`을(를) 가져올 수 있습니다.
+* [JWT(서비스 계정) 인증](#jwt)을(를) 사용하는 경우 `x-api-key`과(와) 동일한 `client_id` 헤더를 제공해야 합니다. `client_id`Adobe Developer 통합[ 페이지에서 ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)을(를) 가져올 수 있습니다.
 * 필요한 [!DNL API] 메서드를 호출합니다.
 
 ## 선택적 [!DNL API] 쿼리 매개 변수 {#optional-api-query-parameters}
 
 개체의 모든 속성을 반환하는 메서드에서 사용할 수 있는 선택적 매개 변수를 설정합니다.
 
-개체에 대한 *all* 속성을 반환하는 [!DNL API] 메서드와 함께 이러한 선택적 매개 변수를 사용할 수 있습니다. 해당 쿼리를 [!DNL API]에 전달할 때 요청 문자열에서 이러한 옵션을 설정하십시오.
+개체에 대한 [!DNL API]all *속성을 반환하는* 메서드와 함께 이러한 선택적 매개 변수를 사용할 수 있습니다. 해당 쿼리를 [!DNL API]에 전달할 때 요청 문자열에서 이러한 옵션을 설정하십시오.
 
 | 매개 변수 | 설명 |
 |--- |--- |
@@ -398,11 +398,11 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 ## [!DNL URLs] 요청 {#request-urls}
 
-다음 표에는 메서드별로 [!DNL API] 요청을 전달하는 데 사용되는 [!DNL URLs] 요청이 나열되어 있습니다.
+다음 표에는 메서드별로 [!DNL URLs] 요청을 전달하는 데 사용되는 [!DNL API] 요청이 나열되어 있습니다.
 
 사용하는 인증 방법에 따라 아래 표에 따라 요청 [!DNL URLs]을(를) 조정해야 합니다.
 
-### [!BADGE 권장]에 대한 [!DNL URLs] 요청&lbrace;type=positive&rbrace;[!BADGE 사용되지 않음]{type=negative}Adobe Developer을 통한 [!DNL JWT] 인증 {#request-urls-jwt}
+### Adobe Developer을 통해 [!DNL URLs]권장[!BADGE  OAuth 서버 간 및 ]{type=positive}사용되지 않음[!BADGE  ]{type=negative} 인증에 대한 [!DNL JWT] 요청 {#request-urls-jwt}
 
 | [!DNL API] 메서드 | [!DNL URL] 요청 |
 |--- |--- |
@@ -420,7 +420,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 {style="table-layout:auto"}
 
-### [!BADGE 사용되지 않음]에 대한 요청 [!DNL URLs]&lbrace;type=negative&rbrace;[!DNL OAuth] 인증 {#request-urls-oauth}
+### [!DNL URLs]사용되지 않음[!BADGE  레거시 ]{type=negative} 인증에 대한 [!DNL OAuth] 요청 {#request-urls-oauth}
 
 | [!DNL API] 메서드 | [!DNL URL] 요청 |
 |--- |--- |
@@ -461,7 +461,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 ## 정의된 응답 코드 {#response-codes-defined}
 
-[!DNL Audience Manager] [!UICONTROL REST API]에서 반환된 `HTTP` 상태 코드 및 응답 텍스트입니다.
+`HTTP` [!DNL Audience Manager]에서 반환된 [!UICONTROL REST API] 상태 코드 및 응답 텍스트입니다.
 
 | 응답 코드 ID | 응답 텍스트 | 정의 |
 |---|---|---|

@@ -12,13 +12,13 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
 # [!UICONTROL Destinations] 개요 {#destinations}
 
-Audience Manager에서 [!UICONTROL destination]은(는) 타사 시스템(광고 서버, [!DNL DSP], 광고 네트워크 등)입니다. 입니다. [!UICONTROL Destination Builder]은(는) [!UICONTROL cookie], [!DNL URL] 또는 [!UICONTROL server-to-server destinations]을(를) 만들고 관리하는 데 사용한 도구입니다.
+Audience Manager에서 [!UICONTROL destination]은(는) 데이터를 공유할 서드파티 시스템(광고 서버, [!DNL DSP], 광고 네트워크 등)입니다. [!UICONTROL Destination Builder]은(는) [!UICONTROL cookie], [!DNL URL] 또는 [!UICONTROL server-to-server destinations]을(를) 만들고 관리하는 데 사용한 도구입니다.
 
 ## 목적 및 장점 {#purposes}
 
@@ -26,9 +26,9 @@ Audience Manager에서 [!UICONTROL destination]은(는) 타사 시스템(광고 
 
 [!UICONTROL Destinations] 및 [!UICONTROL Destination Builder]을(를) 사용하면 [!UICONTROL destinations]을(를) 만들고 세그먼트화된 사용자에 대한 정보를 데이터 파트너에게 보낼 수 있습니다. 이렇게 하면 다음과 같은 이점이 있습니다.
 
-* **Protect 데이터 값:** [!UICONTROL Destination Builder]에서는 모든 사용자 데이터를 [!UICONTROL destination] (으)로 보내는 대신 자격 있는 사용자에 대한 특정 정보만 공유할 수 있습니다.
+* **데이터 값 보호:** [!UICONTROL destination]에서는 모든 사용자 데이터를 [!UICONTROL Destination Builder]&#x200B;(으)로 보내는 대신 자격 있는 사용자에 대한 특정 정보만 공유할 수 있습니다.
 * **데이터에 대한 조치 취하기:** 데이터를 [!UICONTROL destination] 파트너에게 보내면 적격 대상 세그먼트를 빠르게 개발하고 타깃팅할 수 있습니다.
-* **기술 오버헤드 감소:** 비즈니스 사용자는 [!UICONTROL Destination Builder] 인터페이스에서 [!UICONTROL destinations]을(를) 안전하게 설정할 수 있습니다. 이렇게 하면 배포 전 테스트에 필요한 시간을 줄일 수 있습니다. [!UICONTROL Destination Builder]을(를) 사용하면 긴 개발 주기를 거치지 않고 비즈니스 요구 사항이 변경될 때 [!UICONTROL destinations]을(를) 만들고 관리하고 삭제할 수 있습니다.
+* **기술 오버헤드 감소:** 비즈니스 사용자는 [!UICONTROL destinations] 인터페이스에서 [!UICONTROL Destination Builder]을(를) 안전하게 설정할 수 있습니다. 이렇게 하면 배포 전 테스트에 필요한 시간을 줄일 수 있습니다. [!UICONTROL Destination Builder]을(를) 사용하면 긴 개발 주기를 거치지 않고 비즈니스 요구 사항이 변경될 때 [!UICONTROL destinations]을(를) 만들고 관리하고 삭제할 수 있습니다.
 
 ## 기술 고려 사항 {#technical-considerations}
 
@@ -50,6 +50,6 @@ Audience Manager에서 [!UICONTROL destination]은(는) 타사 시스템(광고 
 | [!UICONTROL Destination] 유형 | 일반적으로 다음과 같은 경우에 사용됨 | 예 | 고려 사항 |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | 다른 Adobe Experience Cloud 솔루션으로 데이터를 전송해야 합니다. | Adobe Analytics에 데이터 보내기. |  |
-| **[!UICONTROL People-Based Destinations]** | 대상 세그먼트를 Facebook과 같은 사용자 기반 환경으로 전송해야 합니다. | 구매 내역을 기반으로 기존 고객에게 개인화된 오퍼 제공 | 대상자 타깃팅은 해시된 식별자를 통해 수행됩니다. [사용자 기반 대상](people-based-destinations-overview.md)을 참조하세요. |
+| **[!UICONTROL People-Based Destinations]** | Facebook과 같은 사용자 기반 환경에 대상 세그먼트를 보내야 합니다. | 구매 내역을 기반으로 기존 고객에게 개인화된 오퍼 제공 | 대상자 타깃팅은 해시된 식별자를 통해 수행됩니다. [사용자 기반 대상](people-based-destinations-overview.md)을 참조하세요. |
 | **[!UICONTROL Device-Based Destinations]**(**서버 간**) | <ul><li>즉각적인 데이터 전송은 필요하지 않습니다.</li><li>자격을 갖춘 사용자의 대규모 대상 풀을 구축하기 위해 데이터를 수집합니다.</li></ul> | 나중에 실행하도록 캠페인 세트에 사용하기 위해 시간(시간 또는 일)에 따른 데이터 수집. | <ul><li>새 사이트 방문자 및 이전 사이트 방문자에 대한 데이터를 전송합니다. </li><li>방문자가 다른 세그먼트에 대한 자격을 얻기 위해 다시 볼 필요가 없습니다.</li></ul> |
 | **[!UICONTROL Custom Destinations]**(**URL** 또는 **쿠키**) | 대상이 자격 있는 사용자에 대해 즉시 작업을 수행할 수 있도록 데이터를 즉시 전송해야 합니다. | 티켓 구매 사이트에서 데이터를 보내는 중입니다. [!UICONTROL URL] 또는 [!UICONTROL cookie destination]을(를) 사용하여 사용자 자격을 부여하고 즉시 대상을 다시 지정하십시오. | <ul><li>새 방문자에 대한 데이터만 전송합니다. </li><li>방문자가 세그먼트에 대한 자격이 되는 것을 다시 확인해야 합니다.</li></ul> |

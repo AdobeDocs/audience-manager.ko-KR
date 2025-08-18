@@ -35,7 +35,7 @@ ht-degree: 4%
 
 1. 폴더를 만들려면 + 아이콘을 클릭합니다. 분류에 최대 2000개의 폴더를 만들 수 있습니다. 자세한 내용은 [사용 제한](../../features/administration/usage-limits.md) 문서를 참조하십시오.
 1. 폴더 이름을 지정하고 **저장**&#x200B;을 클릭합니다. 예를 들어 Electronics라는 폴더에는 &#39;Electronics 폴더 트레이트&#39;라는 폴더 트레이트가 있습니다. 특성 대시보드에서 새 폴더 특성을 보고 선택할 수 있습니다.
-1. 새 폴더 트레이트는 [!DNL Audience Manager] 생성된 데이터 원본에 자동으로 할당됩니다. 적절한 [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) 권한이 있는 사용자는 폴더 특성 편집 워크플로에서 데이터 원본을 변경할 수 있습니다. [폴더 특성 편집](../../features/traits/manage-folder-traits.md#edit-folder-trait)을 참조하세요.
+1. 새 폴더 트레이트는 [!DNL Audience Manager] 생성된 데이터 원본에 자동으로 할당됩니다. 적절한 [!UICONTROL Role-Based Access Control]&#x200B;([!DNL RBAC]) 권한이 있는 사용자는 폴더 특성 편집 워크플로에서 데이터 원본을 변경할 수 있습니다. [폴더 특성 편집](../../features/traits/manage-folder-traits.md#edit-folder-trait)을 참조하세요.
 
 ## 폴더 트레이트 편집 {#edit-folder-trait}
 

@@ -1,5 +1,5 @@
 ---
-description: 프로필 링크 장치 그래프를 통한 세그먼트 리타겟팅 및 개인화된 세그먼트 자격에 대한 Recommendations 및 사용 사례.
+description: 프로필 링크 장치 그래프를 통한 세그먼트 리타겟팅 및 개인화된 세그먼트 자격에 대한 권장 사항 및 사용 사례.
 seo-description: Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
 seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # 프로필 링크 장치 그래프 사용 사례 {#profile-link-device-graph-use-cases}
 
-[!UICONTROL Profile Link Device Graph]을(를) 통한 세그먼트 리타겟팅 및 개인화된 세그먼트 자격에 대한 Recommendations 및 사용 사례.
+[!UICONTROL Profile Link Device Graph]을(를) 통한 세그먼트 리타겟팅 및 개인화된 세그먼트 자격에 대한 권장 사항 및 사용 사례입니다.
 
 ## 권장 사항 {#recommendations}
 
@@ -40,7 +40,7 @@ John이 위에 언급된 장치 세 개 모두에서 인증되지 않았더라�
 
 ![마지막 장치 그래프](assets/last-device-graph.png)
 
-Audience Manager은 프로필 병합에 참여한 모든 장치 프로필을 세그먼트에 대해 정규화하기 때문에 세 장치 프로필이 모두 세그먼트화됩니다. [!UICONTROL Profile Link Device Graph]을(를) 사용하면 Audience Manager이 세 개의 장치 모두에서 동작을 보고 단일 장치 프로필이 단독으로 사용할 수 없는 세그먼트에 대해 모든 장치를 사용할 수 있습니다.
+Audience Manager은 프로필 병합에 참여한 모든 장치 프로필을 세그먼트에 자격을 부여하므로 세 장치 프로필이 모두 세그먼트화됩니다. [!UICONTROL Profile Link Device Graph]을(를) 사용하면 Audience Manager에서 세 개의 장치 모두에서 동작을 보고 단일 장치 프로필이 단독으로 사용할 수 없는 세그먼트에 대해 모든 장치를 사용할 수 있습니다.
 
 이 [!UICONTROL Profile Merge Rule]을(를) 사용하면 마케터가 개별 장치 활동 대신 사용자 활동을 기반으로 한 한 사람이 소유한 모든 장치에 일관된 환경을 제공할 수 있습니다.
 

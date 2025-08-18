@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 대상 빌더 {#destination-builder}
 
-[!UICONTROL Destination Builder]을(를) 사용하면 쿠키 기반 또는 [!DNL URL] 대상을 만들 수 있습니다. [!UICONTROL Destination Builder]을(를) 사용하여 서버 간([!DNL S2S]) 대상을 만들 수 없지만 세그먼트 매핑을 관리할 수 있습니다. [!DNL S2S] 대상을 설정하려면 컨설턴트에게 문의하십시오. [!UICONTROL Destination Builder]이(가) **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
+[!UICONTROL Destination Builder]을(를) 사용하면 쿠키 기반 또는 [!DNL URL] 대상을 만들 수 있습니다. [!DNL S2S]을(를) 사용하여 서버 간([!UICONTROL Destination Builder]) 대상을 만들 수 없지만 세그먼트 매핑을 관리할 수 있습니다. [!DNL S2S] 대상을 설정하려면 컨설턴트에게 문의하십시오. [!UICONTROL Destination Builder]이(가) **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
 
 ## 대상 빌더 설정 {#destination-builder-settings}
 

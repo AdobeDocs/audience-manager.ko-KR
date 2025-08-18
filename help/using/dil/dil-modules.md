@@ -18,11 +18,11 @@ ht-degree: 3%
 
 >[!WARNING]
 >
->2023년 7월부터 Adobe에서 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
+>2023년 7월부터 Adobe은 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
 >
->기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 평가하는 것이 좋습니다.
+>기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을(를) 평가하는 것이 좋습니다.
 >
->2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 사용해야 합니다.
+>2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 사용해야 합니다.
 
 `DIL.modules` 네임스페이스의 메서드를 설명합니다. 이러한 모듈을 사용하면 프로그래밍 방식으로 데이터를 수집하고 Audience Manager 개체로 작업할 수 있습니다.
 
@@ -34,13 +34,13 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-[!UICONTROL DIL]을(를) 사용하여 [!DNL Analytics] 태그 요소(변수, Prop, eVar 등)를 보냅니다. Audience Manager. 쉼표로 구분된 목록으로 데이터를 반환합니다. 버전 2.6에서 사용할 수 있습니다.
+[!UICONTROL DIL]을(를) 사용하여 [!DNL Analytics] 태그 요소(변수, Prop, eVar 등)를 Audience Manager으로 보냅니다. 쉼표로 구분된 목록으로 데이터를 반환합니다. 버전 2.6에서 사용할 수 있습니다.
 
 **함수 서명:** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
 >[!NOTE]
 >
->`s.t();` 함수를 *이전* 페이지에 이 코드를 배치해야 합니다.
+>*함수를*&#x200B;이전`s.t();` 페이지에 이 코드를 배치해야 합니다.
 
 <!-- 
 
@@ -62,7 +62,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> 문자열 </td> 
-   <td colname="col3"> <p><code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code> 등과 같은 열거되지 않은 <span class="keyword"> Analytics </span> 변수가 포함된 문자열 배열입니다. </p> </td> 
+   <td colname="col3"> <p><span class="keyword">, </span>, <code> pageName </code>, <code> channel </code> 등과 같은 열거되지 않은 <code> campaign </code> Analytics <code> product </code> 변수가 포함된 문자열 배열입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
@@ -114,7 +114,7 @@ r_dil_sc_init.xml
 
 **샘플 코드**
 
-이 코드는 [!DNL Analytics]개의 이벤트(Prop, eVar 등)를 쉼표로 구분한 목록을 만듭니다. 해당 값에 대한 값이 있는 경우
+이 코드는 값이 있는 경우 [!DNL Analytics]개의 이벤트(prop, eVar 등)를 쉼표로 구분한 목록을 만듭니다.
 
 ```
 // Get the Site Catalyst object instance: 
@@ -149,7 +149,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-`GA.submitUniversalAnalytics();` 함수는 Google의 [!DNL Universal Analytics]에서 Audience Manager으로 데이터를 보냅니다. 이 [!UICONTROL DIL] 함수는 Google [!DNL Universal Analytics]의 최신 코드 라이브러리인 `analytics.js`에서 작동하도록 디자인되었습니다.
+`GA.submitUniversalAnalytics();` 함수는 Google의 [!DNL Universal Analytics]에서 Audience Manager으로 데이터를 보냅니다. 이 [!UICONTROL DIL] 함수는 Google `analytics.js`의 최신 코드 라이브러리인 [!DNL Universal Analytics]에서 작동하도록 디자인되었습니다.
 
 <!-- 
 
@@ -160,9 +160,9 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager]에 Google `analytics.js` 코드 라이브러리에 대한 통찰력이나 제어권이 없습니다. Google에서 `analytics.js`의 새 버전을 릴리스할 경우 또는 릴리스할 때 [!UICONTROL DIL] 데이터 수집이 계속 작동하는지 확인해야 합니다.
+>* [!DNL Audience Manager]에 Google `analytics.js` 코드 라이브러리에 대한 insight 또는 이를 제어할 수 있는 권한이 없습니다. Google에서 [!UICONTROL DIL]의 새 버전을 릴리스할 경우 또는 릴리스할 때 `analytics.js` 데이터 수집이 계속 작동하는지 확인해야 합니다.
 >
->* Google의 기존 분석 추적 코드(예: `ga.js` 또는 `dc.js`)를 사용하여 작업하는 경우에는 `GA.submitUniversalAnalytics();`을(를) 사용할 수 없습니다. 대신 [GA.init](../dil/dil-modules.md#ga-init)을(를) 참조하십시오.
+>* Google의 기존 분석 추적 코드(예: `GA.submitUniversalAnalytics();` 또는 `ga.js`)를 사용하여 작업하는 경우에는 `dc.js`을(를) 사용할 수 없습니다. 대신 [GA.init](../dil/dil-modules.md#ga-init)을(를) 참조하십시오.
 >
 
 **함수 서명:** `DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
@@ -181,7 +181,7 @@ dil-google-universal-analytics.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Google Analytics </span>의 인스턴스에 대한 전역 변수입니다. <span class="keyword"> Google Analytics </span> 코드를 사용자 지정하지 않은 경우 기본적으로 <code> ga </code>입니다. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Google Analytics </span> 인스턴스에 대한 전역 변수입니다. <code> ga </code> Google Analytics <span class="keyword"> 코드를 사용자 지정하지 않은 경우 기본적으로 </span>입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -196,7 +196,7 @@ dil-google-universal-analytics.xml
 
 **예**
 
-[!UICONTROL DIL] 및 `GA.submitUniversalAnalytics();`을(를) 호출하기 전에 먼저 [!DNL Google Analytics] `ga` 개체를 정의해야 합니다. 코드는 다음과 유사할 수 있습니다.
+[!DNL Google Analytics] 및 `ga`을(를) 호출하기 전에 먼저 [!UICONTROL DIL] `GA.submitUniversalAnalytics();` 개체를 정의해야 합니다. 코드는 다음과 유사할 수 있습니다.
 
 ```js
 //Instantiate DIL 
@@ -220,7 +220,7 @@ r_dil_ga_init.xml
 
 >[!IMPORTANT]
 >
->`GA.init()`은(는) Google의 이전 analytics 추적 코드인 `ga.js` 또는 `dc.js`에서만 작동합니다. Google [!DNL Universal Analytics]의 최신 코드 라이브러리인 `analytics.js`을(를) 사용하는 경우 이 [!UICONTROL DIL] 함수를 호출할 수 없습니다. [!UICONTROL DIL] 및 [!DNL Universal Analytics]을(를) 사용하는 [!DNL Audience Manager] 고객은 [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)를 볼 수 있습니다.
+>`GA.init()`은(는) Google의 이전 analytics 추적 코드인 `ga.js` 또는 `dc.js`에서만 작동합니다. Google [!UICONTROL DIL]의 최신 코드 라이브러리인 `analytics.js`을(를) 사용하는 경우 이 [!DNL Universal Analytics] 함수를 호출할 수 없습니다. [!DNL Audience Manager] 및 [!UICONTROL DIL]을(를) 사용하는 [!DNL Universal Analytics] 고객은 [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)를 볼 수 있습니다.
 
 **함수 서명:** `DIL.modules.GA.init(_gaq, dilInstance, trackVars);`
 
@@ -229,7 +229,7 @@ r_dil_ga_init.xml
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `_gaq` | 배열 | GA 명령이 포함된 배열입니다. |
-| `dilInstance` | 개체 | DIL 인스턴스를 포함하는 객체입니다. |
+| `dilInstance` | 개체 | DIL 인스턴스가 포함된 객체입니다. |
 | `trackVars` | 개체 | *(선택 사항)* `names` 속성으로 구성된 개체입니다. 이 속성은 추적하려는 GA 명령 이름의 배열입니다. |
 
 **지원되는 GA 함수 호출**
@@ -242,7 +242,7 @@ r_dil_ga_init.xml
 * `_setAccount`
 * `_trackSocial`
 
-**DIL이 GA 데이터에 대한 키를 만듭니다**
+**DIL에서 GA 데이터에 대한 키를 만듭니다**
 
 Audience Manager은 GA가 배열의 항목에 대해 작동하는 동안 데이터를 키-값 쌍 형태로 수락합니다. GA 데이터를 사용하려면 [!UICONTROL DIL]에서 키-값 쌍을 자동으로 만들고 `c_ <key name>`과(와) 같은 키를 만듭니다. 또한 GA 배열의 항목은 특정 순서로 나타납니다. 따라서 데이터가 포함되지 않은 경우에도 모든 매개 변수를 해당 순서로 제공해야 합니다. [!UICONTROL DIL]은(는) 다음 GA 메서드에 대한 키를 매핑합니다.
 

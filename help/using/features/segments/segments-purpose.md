@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # 세그먼트: 목적, 구성 및 규칙 {#segments-purpose-composition-and-rules}
 
-[!UICONTROL Segment Builder]을(를) 사용하여 [!UICONTROL segments], 해당 구성 부분 및 규칙 만들기에 대해 설명합니다.
+[!UICONTROL segments]을(를) 사용하여 [!UICONTROL Segment Builder], 해당 구성 부분 및 규칙 만들기에 대해 설명합니다.
 
 ## [!UICONTROL Segments]의 목적
 
-*`segment`*(또는 *`audience`*)은(는) 일반적인 특성을 공유하는 사용자 집합입니다. Audience Manager에서 서버측 규칙을 사용하여 [!UICONTROL segments]을(를) 만듭니다. 이러한 규칙을 사용하여 다음과 같은 사이트 방문자 속성을 기반으로 대상 그룹을 작성할 수 있습니다.
+*`segment`*(또는 *`audience`*)은(는) 일반적인 특성을 공유하는 사용자 집합입니다. Audience Manager에서는 서버측 규칙을 사용하여 [!UICONTROL segments]을(를) 만듭니다. 이러한 규칙을 사용하여 다음과 같은 사이트 방문자 속성을 기반으로 대상 그룹을 작성할 수 있습니다.
 
 * 비헤이비어
 * 인구 통계(연령, 성별, 소득 등);
@@ -36,9 +36,9 @@ Adobe Analytics [!UICONTROL segments] 또는 보고서 세트를 Experience Clou
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments]이(가) [!DNL Adobe Analytics] [!UICONTROL segments]과(와) 다릅니다. 차이점에 대한 자세한 설명은 [Analytics 및 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko)를 참조하십시오.
+>Audience Manager [!UICONTROL segments]이(가) [!DNL Adobe Analytics] [!UICONTROL segments]과(와) 다릅니다. 차이점에 대한 자세한 설명은 [Analytics 및 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)를 참조하십시오.
 
-## [!UICONTROL Segment Builder] (으)로 규칙 기반 [!UICONTROL Segments] 만들기
+## [!UICONTROL Segments]&#x200B;(으)로 규칙 기반 [!UICONTROL Segment Builder] 만들기
 
 간단한 예/아니요 조건에 응답하여 실행되는 기존 픽셀과 달리 [!UICONTROL Segment Builder]을(를) 사용하면 복잡한 [!UICONTROL segment] 요구 사항을 만들 수 있습니다. [!UICONTROL traits]과(와) 마찬가지로 [!UICONTROL segments]은(는) [!DNL Boolean]개 식([!DNL AND], [!DNL OR], [!DNL NOT]), 비교 연산자(보다 큼, 보다 작음, 같음 등) 및 최신성/빈도 기준을 사용하여 데이터를 평가합니다. 이러한 기능은 비즈니스 요구 사항과 관련된 집중 대상자 [!UICONTROL segments]을(를) 만드는 데 도움이 됩니다.
 
@@ -49,7 +49,7 @@ Adobe Analytics [!UICONTROL segments] 또는 보고서 세트를 Experience Clou
 * 자사 및 타사 특성을 사용하여 관련성이 있고 유용한 [!UICONTROL segments]을(를) 빌드합니다.
 * 부울 연산자, 비교 표현식 및 최신성/빈도 기준을 사용하여 정교하고 복잡한 세그멘테이션 규칙을 만듭니다.
 * 대상 파트너에게 [!UICONTROL segment] 데이터를 보냅니다.
-* Audience Manager 보고서로 성능 모니터링
+* Audience Manager 보고서를 사용하여 성능을 모니터링합니다.
 
 >[!MORELIKETHIS]
 >

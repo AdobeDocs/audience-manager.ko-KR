@@ -18,11 +18,11 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->2023년 7월부터 Adobe에서 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
+>2023년 7월부터 Adobe은 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
 >
->기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 평가하는 것이 좋습니다.
+>기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을(를) 평가하는 것이 좋습니다.
 >
->2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 사용해야 합니다.
+>2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 사용해야 합니다.
 
 특정 DIL 사용 사례에 대한 코드 샘플 및 설명.
 
@@ -34,7 +34,7 @@ c_dil_use_case.xml
 
 ## DIL을 사용하여 Audience Manager에 데이터 요소 보내기 {#send-data-elements-dil}
 
-Audience Manager 요소에 대한 정보를 페이지로 전송하는 개체 변수를 만듭니다. 이 기능은 일반 데이터 수집에 유용하거나 Analytics 변수로 데이터를 수집하는 것에 대한 대안으로 사용됩니다.
+페이지 요소에 대한 정보를 Audience Manager으로 보내는 개체 변수를 만듭니다. 이 기능은 일반 데이터 수집에 유용하거나 Analytics 변수로 데이터를 수집하는 것에 대한 대안으로 사용됩니다.
 
 <!-- 
 
@@ -56,10 +56,10 @@ c_dil_send_page_objects.xml
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals(&lbrace; 
+sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
-&rbrace;); 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +68,10 @@ sample_dil.api.submit();
 이 고급 예에서는 개체의 데이터를 Audience Manager으로 보내는 방법을 보여 줍니다. 이 메서드로 작업할 때 [!UICONTROL DIL]을(를) 사용하면 개체를 함수 매개 변수로 [!DNL signals()] 메서드에 전달할 수 있습니다. [!UICONTROL DIL] 코드가 다음과 유사할 수 있습니다.
 
 <pre class="java"><code>
-var my_object = &lbrace; 
+var my_object = { 
    color : "blue", 
    price : "900" 
-&rbrace;; 
+}; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +83,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 이 경우 `my_object` 변수는 배열을 사용하여 데이터를 유지합니다. 이 예제는 위의 권장 방법으로 전달된 정보를 기반으로 하지만 제품 유형 및 모델을 수용하기 위해 추가 레이어를 추가합니다. 코드는 다음과 유사할 수 있습니다.
 
 <pre class="java"><code>
-var my_objects = &lbrack;&lbrace; 
+var my_objects = [{ 
    color : "blue", 
    price : "900" 
-&rbrace;, &lbrace; 
+}, { 
    type : "acura", 
    model : "tl" 
-&rbrace;&rbrack;; 
+}]; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-&lbrace; 
+{ 
     sample_dil.api.signals(my_objects[i], "c_"); 
-&rbrace; 
+} 
 sample_dil.api.submit();
 </code></pre>
 
@@ -156,18 +156,18 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **나열된 검색 엔진 코드 샘플**
 
-이 경우 사용자가 [!DNL Google] 캐나다(`www.google.ca`)에서 &quot;홈&quot;이라는 용어를 검색했다고 가정해 보겠습니다. 코드 접두사가 필요한 `c_` 매개 변수를 검색 엔진(`c_se`) 및 검색어(`c_st`)에 어떻게 추가하는지 확인하십시오. `c_`은(는) Audience Manager 시 고객 정의 변수로 식별하는 [필수 접두사](../features/traits/trait-variable-prefixes.md)입니다.
+이 경우 사용자가 [!DNL Google] 캐나다(`www.google.ca`)에서 &quot;홈&quot;이라는 용어를 검색했다고 가정해 보겠습니다. 코드 접두사가 필요한 `c_` 매개 변수를 검색 엔진(`c_se`) 및 검색어(`c_st`)에 어떻게 추가하는지 확인하십시오. `c_`은(는) Audience Manager에 대한 고객 정의 변수로 식별하는 [필수 접두사](../features/traits/trait-variable-prefixes.md)입니다.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 **목록에 없는 검색 엔진 코드 샘플**
@@ -176,17 +176,17 @@ if (search_referrer && search_referrer.valid) &lbrace;
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-&rbrace;); 
+}); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 ## 다른 키에 키 값 매핑 {#map-key-values}
@@ -221,7 +221,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## GTM(Google Tag Manager)의 트래픽 DIL {#traffic-dil-gtm}
+## Google Tag Manager(GTM)의 트래픽 DIL {#traffic-dil-gtm}
 
 GTM 태그를 사용하여 DIL을 설정하고 제공합니다.
 
@@ -231,7 +231,7 @@ t_dil_google_tagmanager.xml
 
  -->
 
-이 절차에서는 사용자가 [!DNL Google Tag Manager] 계정과 해당 제품에 대한 일부 작업 지식과 Audience Manager `dil.js` 파일을 가지고 있다고 가정합니다.
+이 절차에서는 사용자가 [!DNL Google Tag Manager] 계정, 해당 제품에 대한 일부 작업 지식 및 Audience Manager `dil.js` 파일을 가지고 있다고 가정합니다.
 
 GTM에서 `dil.js` 파일을 트래픽하려면 다음을 수행하십시오.
 
@@ -240,15 +240,15 @@ GTM에서 `dil.js` 파일을 트래픽하려면 다음을 수행하십시오.
 1. 태그를 열어 편집하고:
 
    * 태그 이름을 지정합니다.
-   * **[!UICONTROL Tag Type]** 드롭다운 목록에서 **[!UICONTROL Custom HTML Tag]** 선택.
+   * **[!UICONTROL Custom HTML Tag]** 드롭다운 목록에서 **[!UICONTROL Tag Type]** 선택.
    * HTML 필드에서 [!UICONTROL DIL] 코드(라이브러리 + 사용자 지정 코드)를 스크립트 태그 `<script>DIL code</script>` 내에 배치합니다.
    * **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
-1. 컨테이너를 Publish 합니다.
+1. 컨테이너를 게시합니다.
 1. 컨테이너 태그 코드를 생성하여 인벤토리에 넣습니다.
 
 >[!MORELIKETHIS]
 >
 >* [Google 태그 관리자 도움말 센터](https://support.google.com/tagmanager#topic=3441530)
 >* [신호](../dil/dil-instance-methods.md#signals)
->* [주요 변수의 접두사 요구 사항](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=ko#prefix-requirements-for-key-variables)
+>* [주요 변수의 접두사 요구 사항](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)

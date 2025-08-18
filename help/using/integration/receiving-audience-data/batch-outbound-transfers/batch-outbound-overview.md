@@ -26,7 +26,7 @@ Audience Manager은 이러한 사양에 따라 배치 데이터를 서드파티 
 
 * [로그 파일 전송을 위한 전송 제어 파일](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-  Transfer-control(.info) 파일은 파트너가 Audience Manager이 처리한 파일이 올바르게 전송되었는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
+  Transfer-control(.info) 파일은 파트너가 Audience Manager에서 파일 전송을 올바르게 처리했는지 확인할 수 있도록 파일 전송에 대한 메타데이터 정보를 제공합니다.
 
 * [아웃바운드 템플릿 매크로](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 

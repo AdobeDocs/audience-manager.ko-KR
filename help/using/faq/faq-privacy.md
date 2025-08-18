@@ -28,7 +28,7 @@ ht-degree: 82%
 
 **Audience Manager는 쿠키를 어떻게 사용하며 어떤 쿠키를 설정합니까?**
 
-[Audience Manager 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)를 참조하십시오.
+[Audience Manager 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ko)를 참조하십시오.
 
 **미국의 Audience Manager 고객이 EU 자산에서 사용자를 타겟팅할 수 있습니까?**
 

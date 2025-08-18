@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Predictive Audiences 보고
 
-[!UICONTROL Predictive Audiences] 모델을 저장하면 Audience Manager에서 교육을 시작합니다. 몇 시간 이내에 계산된 모델이 [데이터 수집 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)의 대상 분석을 시작합니다. 보고는 다음 날에 사용할 수 있습니다.
+[!UICONTROL Predictive Audiences] 모델을 저장하면 Audience Manager에서 교육을 시작합니다. 몇 시간 이내에 계산된 모델이 [데이터 수집 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ko#dcs-pcs)의 대상 분석을 시작합니다. 보고는 다음 날에 사용할 수 있습니다.
 
 [!UICONTROL Predictive Audiences] 분류의 결과를 보려면 **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**(으)로 이동하여 목록에서 모델을 클릭하십시오.
 

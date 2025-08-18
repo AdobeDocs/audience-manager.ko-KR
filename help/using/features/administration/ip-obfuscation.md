@@ -31,7 +31,7 @@ ht-degree: 12%
 
 ### IP 난독화 사전 요구 {#precedence}
 
-[데이터스트림 수준 IP 난독화](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create)가 Audience Manager에 설정된 IP 난독화 옵션보다 우선하며 모든 IP 주소에 적용됩니다. Audience Manager에서 수행한 모든 지리적 위치 조회는 데이터 스트림 수준 [!UICONTROL IP obfuscation] 옵션의 영향을 받습니다. 완전히 난독화된 IP를 기반으로 하는 Audience Manager의 지리적 위치 조회를 수행하면 알 수 없는 영역이 발생하고 결과 지리적 위치 데이터를 기반으로 하는 모든 세그먼트는 실현되지 않습니다.
+[데이터스트림 수준 IP 난독화](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko#create)가 Audience Manager에 설정된 IP 난독화 옵션보다 우선하며 모든 IP 주소에 적용됩니다. Audience Manager에서 수행한 모든 지리적 위치 조회는 데이터 스트림 수준 [!UICONTROL IP obfuscation] 옵션의 영향을 받습니다. 완전히 난독화된 IP를 기반으로 하는 Audience Manager의 지리적 위치 조회를 수행하면 알 수 없는 영역이 발생하고 결과 지리적 위치 데이터를 기반으로 하는 모든 세그먼트는 실현되지 않습니다.
 
 ## IP 주소 난독화 요구 사항 {#ip-obfuscation-requirements}
 

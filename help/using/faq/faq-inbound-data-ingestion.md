@@ -60,8 +60,8 @@ ht-degree: 86%
 
 예. [!UICONTROL cross-device data source]을(를) 사용하여 업로드한 CRM 데이터를 저장하는 한 Audience Manager은 항상 데이터를 저장합니다. 실제로 Audience Manager이 오프라인 전용 사용 사례를 허용하는 2019년 10월에 실행한 [!UICONTROL Profile Merge Rules] 개선 사항에 따라 Audience Manager 코드를 프로덕션에 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
 
-* [프로필 병합 규칙 개선 사항 개요](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [오프라인 전용 데이터를 기반으로 하는 Personalization](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [프로필 병합 규칙 개선 사항 개요](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=ko)
+* [!UICONTROL People-based Destinations] - [오프라인 전용 데이터를 기반으로 하는 Personalization](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=ko)
 
 <br> 
 

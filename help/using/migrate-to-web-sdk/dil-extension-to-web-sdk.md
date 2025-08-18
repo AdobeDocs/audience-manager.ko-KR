@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 의도한 대상
 
-이 페이지는 [Audience Manager 태그 확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview)을 사용하여 웹 컬렉션 데이터를 Audience Manager으로 가져오는 Audience Manager 고객을 위한 것입니다. AppMeasurement JavaScript Audience Manager 라이브러리를 사용하는 고객의 경우 AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 [의 데이터 수집 라이브러리를 업데이트하는 방법에 대한 안내서를 참조하십시오](appmeasurement-to-web-sdk.md).
+이 페이지는 [Audience Manager 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/audience-manager/overview)을 사용하여 웹 컬렉션 데이터를 Audience Manager으로 가져오는 Audience Manager 고객을 위한 것입니다. AppMeasurement JavaScript Audience Manager 라이브러리를 사용하는 고객의 경우 AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 [의 데이터 수집 라이브러리를 업데이트하는 방법에 대한 안내서를 참조하십시오](appmeasurement-to-web-sdk.md).
 
 ## 이 구현 경로의 장단점
 

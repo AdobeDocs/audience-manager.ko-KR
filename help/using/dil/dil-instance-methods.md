@@ -21,9 +21,9 @@ ht-degree: 13%
 >
 >2023년 7월부터 Adobe은 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
 >
->기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을(를) 평가하는 것이 좋습니다.
+>기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을(를) 평가하는 것이 좋습니다.
 >
->2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 사용해야 합니다.
+>2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을 사용해야 합니다.
 
 인스턴스 수준 [!UICONTROL DIL] API를 사용하면 프로그래밍 방식으로 Audience Manager 개체를 만들고 작업할 수 있습니다. 인스턴스 수준 메서드는 클래스 수준 메서드에서 설정한 API 기능을 향상시킵니다.
 
@@ -727,7 +727,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [주요 변수의 이름 요구 사항](../features/traits/trait-key-name-requirements.md)
 >* [주요 변수의 접두사 요구 사항](../features/traits/trait-variable-prefixes.md)
->* [Adobe Experience Platform Identity 서비스에서 동기화 기능](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
+>* [Adobe Experience Platform Identity 서비스에서 동기화 기능](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html?lang=ko)
 >* [DIL 만들기](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform Identity 서비스: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
->* Adobe Experience Platform Identity 서비스에서 [CORS 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform Identity 서비스: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html?lang=ko)
+>* Adobe Experience Platform Identity 서비스에서 [CORS 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html?lang=ko)

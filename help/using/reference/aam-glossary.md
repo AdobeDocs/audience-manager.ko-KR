@@ -59,7 +59,7 @@ CRM ID는 고객이 자신의 CRM 시스템에서 사용자를 식별하는 ID�
 
 **고객 특성**
 
-[!DNL Experience Cloud Core Services] 제품 설명서에서 [고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
+[!DNL Experience Cloud Core Services] 제품 설명서에서 [고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko)을 참조하십시오.
 
 
 
@@ -111,7 +111,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 **ECID(Experience Cloud ID)**
 
-이전 이름은 [!DNL Marketing Cloud] ID(MID 또는 MCID)였습니다. [!DNL Experience Cloud] ID는 ID 서비스의 중심입니다. 사이트 방문자에 대한 고유하고 지속적인 식별자입니다. 쿠키 및 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)를 참조하십시오.
+이전 이름은 [!DNL Marketing Cloud] ID(MID 또는 MCID)였습니다. [!DNL Experience Cloud] ID는 ID 서비스의 중심입니다. 사이트 방문자에 대한 고유하고 지속적인 식별자입니다. 쿠키 및 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko)를 참조하십시오.
 
 
 
@@ -268,6 +268,6 @@ TTL은 자격이 있는 방문자가 트레이트에 남아 있는 일수를 정
 
 [!DNL Experience Cloud] ID 서비스(이전 방문자 ID)는 [!DNL Experience Cloud]의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
-[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 설명서를 참조하십시오.
+[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 설명서를 참조하십시오.
 
 ## W-X-Y-Z {#w-z}

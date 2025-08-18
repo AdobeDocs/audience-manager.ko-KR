@@ -37,7 +37,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>이벤트 호출</b> </td> 
-   <td colname="col2"> <p>작업을 수행하려면 페이지에 <span class="wintitle"> DIL </span>과(와) <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 필요합니다. <span class="wintitle"> DIL </span>은(는) <span class="wintitle"> Adobe Experience Platform Identity 서비스 </span>에서 제공하는 <code> setVisitorID </code> 함수에서 <span class="keyword">개의 선언된 ID </span>을(를) 가져와서 <span class="keyword"> Audience Manager </span>에 전달합니다. </p> </td> 
+   <td colname="col2"> <p>작업을 수행하려면 페이지에 <span class="wintitle"> DIL </span>과(와) <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 필요합니다. <span class="wintitle"> DIL </span>은(는) <span class="wintitle"> Adobe Experience Platform Identity 서비스 </span>에서 제공하는 <code> setVisitorID </code> 함수에서 <span class="keyword">개의 선언된 ID </span>을(를) 가져와서 <span class="keyword"> Audience Manager </span>에 전달합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>일치 ID</b> </td> 
@@ -184,7 +184,7 @@ ht-degree: 8%
 
 ## [!UICONTROL DIL]이(가) [!DNL Adobe Experience Platform Identity Service]을(를) 사용하여 [!UICONTROL Declared IDs]을(를) 전달합니다. {#dil-id-service-pass-declared-ids}
 
-[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)와 함께 사용하는 경우 더 이상 사용되지 않는 [!UICONTROL declared IDs] 및 `dpid` 변수를 사용하여 `dpuuid`을(를) 전달할 필요가 없습니다. 대신 현재 버전의 [!UICONTROL DIL]은(는) `visitorService` 함수를 사용하여 [!UICONTROL declared IDs]의 `setCustomerIDs` 함수에서 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오. 아래와 같이 `visitorService`에서 `DIL.create`을(를) 호출합니다.
+[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)와 함께 사용하는 경우 더 이상 사용되지 않는 [!UICONTROL declared IDs] 및 `dpid` 변수를 사용하여 `dpuuid`을(를) 전달할 필요가 없습니다. 대신 현재 버전의 [!UICONTROL DIL]은(는) `visitorService` 함수를 사용하여 [!UICONTROL declared IDs]의 `setCustomerIDs` 함수에서 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오. 아래와 같이 `visitorService`에서 `DIL.create`을(를) 호출합니다.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [Experience Cloud 서비스 시작](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started)을 참조하세요.
+`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [Experience Cloud 서비스 시작](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/getting-started)을 참조하세요.
 
 ## 더 이상 사용되지 않는 함수 {#deprecated-functions}
 

@@ -122,11 +122,11 @@ ht-degree: 3%
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-[!UICONTROL Predictive Audiences] 모델에서 만든 예측 세그먼트는 다음 자사 데이터 원본에서 [데이터 내보내기 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)를 상속합니다.
+[!UICONTROL Predictive Audiences] 모델에서 만든 예측 세그먼트는 다음 자사 데이터 원본에서 [데이터 내보내기 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ko)를 상속합니다.
 
 1. 모델을 작성할 때 선택하는 자사 데이터 소스.
 1. 타겟 대상의 자사 데이터 소스입니다. 특히 타겟 대상을 구성하는 [!UICONTROL traits] 또는 [!UICONTROL segments]의 데이터 내보내기 제어
-1. 모델에 대해 선택한 [의 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)데이터 내보내기 제어[!UICONTROL Profile Merge Rule]입니다.
+1. 모델에 대해 선택한 [의 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ko)데이터 내보내기 제어[!UICONTROL Profile Merge Rule]입니다.
 
 새로 만든 예측 [!UICONTROL traits] 및 [!UICONTROL segments]은(는) 위에서 설명한 자사 데이터 원본의 통합과 동일한 개인 정보 보호 제한 사항을 갖습니다.
 
@@ -146,6 +146,6 @@ ht-degree: 3%
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-성향 및 대상 분류에 대해 선택하는 트레이트 및 세그먼트는 Audience Manager [역할 기반 액세스 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html)의 적용을 받습니다.
+성향 및 대상 분류에 대해 선택하는 트레이트 및 세그먼트는 Audience Manager [역할 기반 액세스 제어](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko)의 적용을 받습니다.
 
-Audience Manager 사용자는 [볼 수 있는 권한](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)이 있는 가상 사용자 및 대상 대상에 대한 트레이트 또는 세그먼트만 선택할 수 있습니다.
+Audience Manager 사용자는 [볼 수 있는 권한](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ko#wild-card-permissions)이 있는 가상 사용자 및 대상 대상에 대한 트레이트 또는 세그먼트만 선택할 수 있습니다.

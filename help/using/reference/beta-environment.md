@@ -29,7 +29,7 @@ Beta 환경은 사용량이 적은 시간 동안 매월 말에 업데이트됩�
 
 >[!IMPORTANT]
 >
->고객 데이터([신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en))는 프로덕션 환경과 Beta 환경 간에 동기화되지 않습니다.
+>고객 데이터([신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ko))는 프로덕션 환경과 Beta 환경 간에 동기화되지 않습니다.
 
 ## 인바운드 트래픽
 

@@ -21,15 +21,15 @@ ht-degree: 1%
 >
 >2023년 7월부터 Adobe은 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
 >
->기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을(를) 평가하는 것이 좋습니다.
+>기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을(를) 평가하는 것이 좋습니다.
 >
->2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 사용해야 합니다.
+>2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을 사용해야 합니다.
 
 [!DNL Audience Manager DIL] 코드 라이브러리에서 사용할 수 있는 개요, 시작 및 코드 메서드입니다.
 
 >[!IMPORTANT]
 >
->버전 8.0(2018년 8월 릴리스)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html), 버전 3.3 이상에 종속되어 있습니다. ID 동기화 및 URL 대상을 실행하려면 [!DNL ID Service]을(를) 사용합니다. [!DNL ID Service]이(가) 없거나 오래되었거나 구성되지 않은 경우 오류가 발생합니다.
+>버전 8.0(2018년 8월 릴리스)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko), 버전 3.3 이상에 종속되어 있습니다. ID 동기화 및 URL 대상을 실행하려면 [!DNL ID Service]을(를) 사용합니다. [!DNL ID Service]이(가) 없거나 오래되었거나 구성되지 않은 경우 오류가 발생합니다.
 >
 >[!DNL Adobe Experience Platform Tags]을(를) 사용하여 [!DNL DIL] 및 [!DNL Adobe Experience Platform Identity Service] 라이브러리를 구현하고 관리하는 것이 좋습니다.
 
@@ -40,16 +40,16 @@ ht-degree: 1%
 
 ## DIL의 목적 {#purpose-dil}
 
-[!UICONTROL DIL]은(는) API 라이브러리입니다. [!DNL Adobe Audience Manager]에 대한 도우미 코드 본문으로 생각할 수 있습니다. [!DNL Audience Manager]을(를) 사용해야 하는 것은 아니지만 [!UICONTROL DIL]이(가) 제공하는 메서드 및 함수는 [!DNL Audience Manager]에 데이터를 보내기 위해 자체 코드를 개발할 필요가 없음을 의미합니다. 또한 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 제공한 API와 다릅니다. 해당 서비스는 다른 [!DNL Experience Cloud] 솔루션에서 방문자 ID를 관리하도록 설계되었습니다. 반대로 [!UICONTROL DIL]은(는) 다음 용도로 디자인되었습니다.
+[!UICONTROL DIL]은(는) API 라이브러리입니다. [!DNL Adobe Audience Manager]에 대한 도우미 코드 본문으로 생각할 수 있습니다. [!DNL Audience Manager]을(를) 사용해야 하는 것은 아니지만 [!UICONTROL DIL]이(가) 제공하는 메서드 및 함수는 [!DNL Audience Manager]에 데이터를 보내기 위해 자체 코드를 개발할 필요가 없음을 의미합니다. 또한 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)에서 제공한 API와 다릅니다. 해당 서비스는 다른 [!DNL Experience Cloud] 솔루션에서 방문자 ID를 관리하도록 설계되었습니다. 반대로 [!UICONTROL DIL]은(는) 다음 용도로 디자인되었습니다.
 
 * 이벤트를 호출하고 데이터를 [데이터 수집 서버](../reference/system-components/components-data-collection.md)로 보냅니다.
 * 데이터를 [대상](../features/destinations/destinations.md)에 보냅니다.
 
 ## DIL 코드 가져오기 및 구현 {#get-implement-dil-code}
 
-[!UICONTROL DIL] 코드를 **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 버전 8.0(2018년 8월 릴리스)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html), 버전 3.3 이상에 종속되어 있습니다. ID 동기화 및 [!DNL ID Service]을(를) 실행하는 데 [!DNL URL destinations]을(를) 사용합니다. [!DNL ID Service]이(가) 없거나 오래되었거나 구성되지 않은 경우 오류가 발생합니다.
+[!UICONTROL DIL] 코드를 **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 버전 8.0(2018년 8월 릴리스)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko), 버전 3.3 이상에 종속되어 있습니다. ID 동기화 및 [!DNL ID Service]을(를) 실행하는 데 [!DNL URL destinations]을(를) 사용합니다. [!DNL ID Service]이(가) 없거나 오래되었거나 구성되지 않은 경우 오류가 발생합니다.
 
-[!UICONTROL DIL]을(를) 사용하여 작업하고 [!DNL Audience Manager]을(를) 수동으로 설정하는 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Tags]은(는) 코드 배포, 배치 및 버전 관리를 단순화하기 때문에 권장되는 구현 도구입니다. [의 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)Audience Manager 확장[!DNL Adobe Experience Platform Tags]에 대해 자세히 알아보세요.
+[!UICONTROL DIL]을(를) 사용하여 작업하고 [!DNL Audience Manager]을(를) 수동으로 설정하는 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Tags]은(는) 코드 배포, 배치 및 버전 관리를 단순화하기 때문에 권장되는 구현 도구입니다. [의 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)Audience Manager 확장[!DNL Adobe Experience Platform Tags]에 대해 자세히 알아보세요.
 
 ## 샘플 호출 {#sample-code}
 

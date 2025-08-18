@@ -36,7 +36,7 @@ Adobe Analytics [!UICONTROL segments] 또는 보고서 세트를 Experience Clou
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments]이(가) [!DNL Adobe Analytics] [!UICONTROL segments]과(와) 다릅니다. 차이점에 대한 자세한 설명은 [Analytics 및 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)를 참조하십시오.
+>Audience Manager [!UICONTROL segments]이(가) [!DNL Adobe Analytics] [!UICONTROL segments]과(와) 다릅니다. 차이점에 대한 자세한 설명은 [Analytics 및 Audience Manager의 세그먼트 이해](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ko)를 참조하십시오.
 
 ## [!UICONTROL Segments]&#x200B;(으)로 규칙 기반 [!UICONTROL Segment Builder] 만들기
 

@@ -112,7 +112,7 @@ ht-degree: 0%
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> 고객 ID</span></b>: 고객 ID로 인바운드 데이터를 식별합니다. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager ID</span></b>: <span class="keyword"> Audience Manager</span> ID로 인바운드 데이터를 식별합니다. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: <span class="keyword"> Experience Cloud</span> ID로 인바운드 데이터를 식별합니다. <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>을(를) 참조하십시오. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: <span class="keyword"> Experience Cloud</span> ID로 인바운드 데이터를 식별합니다. <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Experience Cloud ID</a>을(를) 참조하십시오. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

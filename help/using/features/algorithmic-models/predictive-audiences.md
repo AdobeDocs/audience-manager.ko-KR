@@ -73,7 +73,7 @@ ht-degree: 3%
 자사 트레이트 또는 세그먼트를 선택하여 가상 사용자를 정의할 수 있습니다. 그러나 최적의 결과를 얻으려면 다음과 같은 권장 모범 사례 세트가 있습니다.
 
 * 각 성향에 최소 수백 개의 [장치 ID](../../reference/ids-in-aam.md)가 포함되도록 성향 트레이트 또는 세그먼트를 선택하십시오.
-* 트레이트가 [장치 간 ID](../../reference/ids-in-aam.md)를 기반으로 하는 경우 [과 같이 ](../profile-merge-rules/merge-rules-overview.md)장치 ID[를 사용하는 ](../../reference/ids-in-aam.md)프로필 병합 규칙[!UICONTROL Device Graph]을 사용하여 세그먼트로 래핑할 수 있습니다. 이렇게 하면 알고리즘에서 학습할 수 있는 [장치 ID](../../reference/ids-in-aam.md)이(가) 충분히 있습니다.
+* 트레이트가 [장치 간 ID](../../reference/ids-in-aam.md)를 기반으로 하는 경우 [과 같이 &#x200B;](../profile-merge-rules/merge-rules-overview.md)장치 ID[를 사용하는 &#x200B;](../../reference/ids-in-aam.md)프로필 병합 규칙[!UICONTROL Device Graph]을 사용하여 세그먼트로 래핑할 수 있습니다. 이렇게 하면 알고리즘에서 학습할 수 있는 [장치 ID](../../reference/ids-in-aam.md)이(가) 충분히 있습니다.
 * 성향에 대해 1~3개의 트레이트로 구성된 트레이트 또는 단순 세그먼트를 선택하는 것이 좋습니다.
 * 겹치는 부분이 최소인 기준선 트레이트 또는 세그먼트를 선택하십시오.
 * 디지털 속성에서 세분화된 트레이트를 캡처하고 있는지 확인합니다.
@@ -126,7 +126,7 @@ ht-degree: 3%
 
 1. 모델을 작성할 때 선택하는 자사 데이터 소스.
 1. 타겟 대상의 자사 데이터 소스입니다. 특히 타겟 대상을 구성하는 [!UICONTROL traits] 또는 [!UICONTROL segments]의 데이터 내보내기 제어
-1. 모델에 대해 선택한 [의 ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ko)데이터 내보내기 제어[!UICONTROL Profile Merge Rule]입니다.
+1. 모델에 대해 선택한 [의 &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ko)데이터 내보내기 제어[!UICONTROL Profile Merge Rule]입니다.
 
 새로 만든 예측 [!UICONTROL traits] 및 [!UICONTROL segments]은(는) 위에서 설명한 자사 데이터 원본의 통합과 동일한 개인 정보 보호 제한 사항을 갖습니다.
 

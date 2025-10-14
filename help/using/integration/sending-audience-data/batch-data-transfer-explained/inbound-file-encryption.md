@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL PGP] 암호화에 파일 압축이 포함되어 있습니다. [!DNL PGP]개의 암호화된 인바운드 파일을 보낼 때 gzip([)을 사용하여 ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)압축`.gz`하지 않도록 하십시오.
+>[!DNL PGP] 암호화에 파일 압축이 포함되어 있습니다. [!DNL PGP]개의 암호화된 인바운드 파일을 보낼 때 gzip([)을 사용하여 &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)압축`.gz`하지 않도록 하십시오.
 >
->[!DNL PGP]압축[된 ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)개의 암호화된 인바운드 파일도 Audience Manager에서 사용할 수 없습니다.
+>[!DNL PGP]압축[된 &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)개의 암호화된 인바운드 파일도 Audience Manager에서 사용할 수 없습니다.
 
 인바운드 데이터 파일을 암호화하려면 아래에 설명된 단계를 따르십시오.
 

@@ -58,7 +58,7 @@ ht-degree: 0%
 * 트레이트 데이터 원본에 대한 `READ` 및 `WRITE` 그룹 권한.
 * 트레이트 데이터 원본에 대한 `VIEW_ALL_TRAITS` 및 `EDIT_ALL_TRAITS` 와일드카드 권한입니다.
 
-[!UICONTROL RBAC]관리 설명서[에서 ](../../features/administration/administration-overview.md#create-group) 권한을 할당하는 방법을 알아보세요.
+[!UICONTROL RBAC]관리 설명서[에서 &#x200B;](../../features/administration/administration-overview.md#create-group) 권한을 할당하는 방법을 알아보세요.
 
 ## 제한 및 기타 고려 사항 {#limits}
 

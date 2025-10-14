@@ -87,7 +87,7 @@ ht-degree: 0%
    * 그룹 이름을 지정합니다.
    * 간단한 그룹 설명을 입력합니다.
 4. [!UICONTROL Group Members]에서 **[!UICONTROL Add Users]** 옵션에서 사용자를 클릭하여 그룹에 추가합니다.
-5. [!UICONTROL Group Permissions]에서 [의 ](../../features/traits/trait-details-page.md)트레이트[, ](../../features/segments/segments-purpose.md)세그먼트[ 또는 ](../../features/destinations/destinations.md)대상&#x200B;**[!UICONTROL Add Object]**&#x200B;을(를) 선택하십시오.
+5. [!UICONTROL Group Permissions]에서 [의 &#x200B;](../../features/traits/trait-details-page.md)트레이트[, &#x200B;](../../features/segments/segments-purpose.md)세그먼트[&#x200B; 또는 &#x200B;](../../features/destinations/destinations.md)대상&#x200B;**[!UICONTROL Add Object]**&#x200B;을(를) 선택하십시오.
 선택한 객체에 대한 권한 창이 열립니다.
 6. 그룹 구성원에게 부여할 권한에 대한 확인란을 선택합니다.
 7. *(선택 사항)* 그룹에 [와일드카드 권한](../../features/administration/administration-overview.md#wild-card-permissions)을 할당하십시오.

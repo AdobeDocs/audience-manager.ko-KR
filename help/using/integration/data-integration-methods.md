@@ -27,7 +27,7 @@ Audience Manager이 다른 데이터 공급자 및 시스템과 정보를 교환
 
 ## 사전 요구 사항: 트레이트 분류 만들기 {#prereqs}
 
-통합 프로세스가 시작되기 전에 [ UI에서 ](../features/traits/create-onboarded-rule-based-traits.md)특성을 만들고[&#128279;](../features/traits/trait-storage.md#create-trait-storage-folder)폴더 구조를 만듭니다[!DNL Audience Manager]해야 합니다. 분류에는 논리 계층 구조로 구성된 모든 [!UICONTROL traits]이(가) 포함됩니다.
+통합 프로세스가 시작되기 전에 [&#x200B; UI에서 &#x200B;](../features/traits/create-onboarded-rule-based-traits.md)특성을 만들고[&#128279;](../features/traits/trait-storage.md#create-trait-storage-folder)폴더 구조를 만듭니다[!DNL Audience Manager]해야 합니다. 분류에는 논리 계층 구조로 구성된 모든 [!UICONTROL traits]이(가) 포함됩니다.
 
 ## 통합 사용 사례 {#integration-use-cases}
 

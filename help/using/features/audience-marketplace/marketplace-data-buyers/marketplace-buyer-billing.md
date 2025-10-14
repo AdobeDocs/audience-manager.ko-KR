@@ -30,7 +30,7 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 [!UICONTROL Audience Marketplace]은(는) [!DNL CPM] 사용량을 보고하는 두 가지 방법을 제공합니다.
 
 * **세그먼트 수준 보고**: 권장되는 [!DNL CPM] 사용 보고 방법입니다. 세그먼트 수준에서 [!DNL CPM] 사용을 보고할 때 데이터 피드 수준 보고 섹션은 [CPM 데이터 피드에 대한 비용 속성](#cost-attribution)에 설명된 알고리즘을 기반으로 해당 사용 금액으로 자동으로 채워집니다.
-* **데이터 피드 수준 보고**: 이 메서드를 사용하려면 [!DNL CPM]CPM 데이터 피드에 대한 비용 속성[에 설명된 알고리즘을 기반으로 각 데이터 피드에 대한 ](#cost-attribution) 사용량을 개별적으로 보고해야 합니다. 그러나 이 방법은 세그먼트 수준 보고보다 지루하고 오류가 발생하기 쉽습니다.
+* **데이터 피드 수준 보고**: 이 메서드를 사용하려면 [!DNL CPM]CPM 데이터 피드에 대한 비용 속성[에 설명된 알고리즘을 기반으로 각 데이터 피드에 대한 &#x200B;](#cost-attribution) 사용량을 개별적으로 보고해야 합니다. 그러나 이 방법은 세그먼트 수준 보고보다 지루하고 오류가 발생하기 쉽습니다.
 
 <br> 
 
@@ -69,7 +69,7 @@ Audience Marketplace 데이터 구매자는 천 개 광고 노출 수([!DNL CPM]
 2. **[!UICONTROL Feed Usage]** 탭을 선택합니다.
 3. [!UICONTROL Search] 상자를 사용하여 데이터 피드를 필터링하고 사용량을 보고해야 하는 데이터 피드를 식별합니다.
 4. **[!UICONTROL Edit Feeds Usage]** 아이콘을 클릭합니다.
-5. CPM 데이터 피드에 대한 [!DNL CPM]비용 속성[을(를) 기반으로 각 데이터 피드에 대한 ](#cost-attribution) 사용량을 계산하고 [!UICONTROL Usage] 열에 입력하십시오.
+5. CPM 데이터 피드에 대한 [!DNL CPM]비용 속성[을(를) 기반으로 각 데이터 피드에 대한 &#x200B;](#cost-attribution) 사용량을 계산하고 [!UICONTROL Usage] 열에 입력하십시오.
 6. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 확인 대화 상자를 검토합니다.
 
    ![피드 사용량 확인](assets/confirm-feed-usage.png)

@@ -87,5 +87,5 @@ Reports that use Minhash sampling methodology:
 | 통계적 샘플링 | Minhash 샘플링 방식 |
 |--- |--- |
 | [대응 가능 대상](../features/addressable-audiences.md) 데이터(고객 및 세그먼트 수준 데이터). | [겹치기 보고서](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)(특성 대 특성, 세그먼트 대 특성 및 세그먼트 대 세그먼트) |
-| [에 대한 ](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics)총 장치[!UICONTROL Profile Merge Rule] 지표입니다. | [트레이트 추천](/help/using/features/segments/trait-recommendations.md) |
+| [에 대한 &#x200B;](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics)총 장치[!UICONTROL Profile Merge Rule] 지표입니다. | [트레이트 추천](/help/using/features/segments/trait-recommendations.md) |
 | [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)은(는) [!UICONTROL Search] 탭과 [!UICONTROL Saved Searches]에서 샘플링된 데이터를 사용합니다. | [Audience Marketplace 권장 사항](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

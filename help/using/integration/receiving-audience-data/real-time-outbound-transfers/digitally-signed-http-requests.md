@@ -22,7 +22,7 @@ Audience Manager의 유효성을 검사하려면 서버 간 요청 `HTTP(S)`개�
 
 <!-- digitally_signed_http_requests.xml -->
 
-귀하가 제공하고 [!DNL Audience Manager]과(와) 공유하는 개인 키를 사용하여 `HTTP(S)`IRIS[와(과) HTTP(S) 서버 간에 전송되는 ](../../../reference/system-components/components-data-action.md#iris) 요청에 디지털 서명을 할 수 있습니다. 이렇게 하면 다음 사항이 보장됩니다.
+귀하가 제공하고 [!DNL Audience Manager]과(와) 공유하는 개인 키를 사용하여 `HTTP(S)`IRIS[와(과) HTTP(S) 서버 간에 전송되는 &#x200B;](../../../reference/system-components/components-data-action.md#iris) 요청에 디지털 서명을 할 수 있습니다. 이렇게 하면 다음 사항이 보장됩니다.
 
 * **인증**: 개인 키([!UICONTROL IRIS])가 있는 보낸 사람만 파트너에게 유효한 `HTTP(S)`개의 메시지를 보낼 수 있습니다.
 * **메시지 무결성**: 이 방법을 사용하면 `HTTP`에서도 메시지가 왜곡되는 중간 공격의 남자로부터 보호됩니다.

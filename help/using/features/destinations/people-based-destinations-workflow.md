@@ -82,7 +82,7 @@ Audience Manager에 있는 고객 ID 유형에 따라 다릅니다([3 참조). �
 
 ## &#x200B;6. 세분화를 위해 프로필 병합 규칙 사용 {#use-profile-merge-rules}
 
-사용 사례에 따라 다릅니다([1 참조). 사용 사례 ](people-based-destinations-workflow.md#defining-your-use-case)을(를) 정의하면 세분화를 위해 [!DNL Profile Merge Rules]을(를) 사용하는 두 가지 방법이 있습니다.
+사용 사례에 따라 다릅니다([1 참조). 사용 사례 &#x200B;](people-based-destinations-workflow.md#defining-your-use-case)을(를) 정의하면 세분화를 위해 [!DNL Profile Merge Rules]을(를) 사용하는 두 가지 방법이 있습니다.
 
 **A) 기존[!DNL Profile Merge Rules]**&#x200B;을(를) 사용합니다. 이 옵션은 첫 번째 사용 사례(온라인과 오프라인의 결합된 사용자 활동을 기반으로 하는 대상 타깃팅)에 적용됩니다. 이 시나리오에서는 Audience Manager에 기존 고객 활동이 있고 세분화에 사용한 프로필 병합 규칙을 하나 이상 이미 정의했습니다. 이 경우 새 [!DNL Profile Merge Rules]을(를) 만들 필요가 없습니다.
 

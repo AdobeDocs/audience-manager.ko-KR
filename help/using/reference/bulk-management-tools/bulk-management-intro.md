@@ -32,7 +32,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[ 사용자 인터페이스에 할당된 ](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 적용됩니다.
+>[&#x200B; 사용자 인터페이스에 할당된 &#x200B;](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 적용됩니다.
 
 ## 개요 {#overview}
 

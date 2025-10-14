@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## URL 문자열 매개 변수 및 구문 {#url-string-syntax}
 
-인바운드 데이터 전송에 대한 [!DNL URL]에 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [ UI에서 ](../../../features/traits/create-onboarded-rule-based-traits.md)트레이트 만들기[ 및 ](../../../features/traits/trait-storage.md#create-trait-storage-folder)폴더 구조[!DNL Audience Manager]를 참조하세요.
+인바운드 데이터 전송에 대한 [!DNL URL]에 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [&#x200B; UI에서 &#x200B;](../../../features/traits/create-onboarded-rule-based-traits.md)트레이트 만들기[&#x200B; 및 &#x200B;](../../../features/traits/trait-storage.md#create-trait-storage-folder)폴더 구조[!DNL Audience Manager]를 참조하세요.
 
 >[!NOTE]
 >

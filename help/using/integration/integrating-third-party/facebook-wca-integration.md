@@ -29,14 +29,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 이 기능을 사용하려면 [!UICONTROL Website]URL 대상[에서 소셜 플랫폼에 대한 ](/help/using/features/destinations/create-url-destination.md) 대상을 선택해야 합니다. 소셜 플랫폼을 사용하려면 해당 플랫폼으로 전송할 때 레퍼러 정보가 마스크 해제되어야 합니다. 이는 대상 플랫폼/파트너가 레퍼러 [!DNL URL]에서 정보를 볼 수 있음을 의미합니다.
+> 이 기능을 사용하려면 [!UICONTROL Website]URL 대상[에서 소셜 플랫폼에 대한 &#x200B;](/help/using/features/destinations/create-url-destination.md) 대상을 선택해야 합니다. 소셜 플랫폼을 사용하려면 해당 플랫폼으로 전송할 때 레퍼러 정보가 마스크 해제되어야 합니다. 이는 대상 플랫폼/파트너가 레퍼러 [!DNL URL]에서 정보를 볼 수 있음을 의미합니다.
 
 ## 사전 요구 사항 {#prerequisites}
 
 1. [!DNL Facebook Ad Account]
-2. [!DNL Audience Manager]개 세그먼트, 새 [!DNL Facebook] 대상에 할당할 준비가 되었습니다. 다음은 [ UI에서 ](/help/using/features/segments/segment-builder.md)세그먼트를 만드는 방법[!DNL Audience Manager]입니다.
+2. [!DNL Audience Manager]개 세그먼트, 새 [!DNL Facebook] 대상에 할당할 준비가 되었습니다. 다음은 [&#x200B; UI에서 &#x200B;](/help/using/features/segments/segment-builder.md)세그먼트를 만드는 방법[!DNL Audience Manager]입니다.
 3. [!DNL Adobe Experience Platform Identity Service]&#x200B;([!DNL ECID]) 버전 4.1.0 이상 최신 버전 **[여기](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**&#x200B;를 다운로드하십시오.
-4. [!DNL Audience Manager Data Integration Library]&#x200B;([!DNL DIL]) 버전 9.0 이상, **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 또는 [SSF(서버측 전달)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)을 사용하여 데이터를 [!DNL Audience Manager]&#x200B;(으)로 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. [!DNL AppMeasurement]Analytics 코드 관리자[를 사용하여 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko)을(를) 다운로드합니다.
+4. [!DNL Audience Manager Data Integration Library]&#x200B;([!DNL DIL]) 버전 9.0 이상, **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 또는 [SSF(서버측 전달)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)을 사용하여 데이터를 [!DNL Audience Manager]&#x200B;(으)로 가져오는 경우 AppMeasurement 버전 2.12 이상을 사용해야 합니다. [!DNL AppMeasurement]Analytics 코드 관리자[를 사용하여 &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko)을(를) 다운로드합니다.
 
 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 사용하여 3단계와 4단계의 라이브러리를 설치하거나 업그레이드하는 것이 좋습니다.
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 | 매개 변수 | 설명 |
 |---------|----------|
 | `id` | 대상 픽셀을 만들 때 [!DNL Facebook] 사용자 인터페이스에 있는 [!DNL Facebook Ad Manager] 픽셀 ID입니다. |
-| `ev` | 이벤트. 임의의 값으로, 사이트에서 픽셀이 실행되기 시작하면 [!DNL Facebook Ad Manager] 사용자 인터페이스에 표시됩니다. 자세한 내용은 [!UICONTROL Include]3단계[에서 ](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) 항목을 참조하십시오. |
+| `ev` | 이벤트. 임의의 값으로, 사이트에서 픽셀이 실행되기 시작하면 [!DNL Facebook Ad Manager] 사용자 인터페이스에 표시됩니다. 자세한 내용은 [!UICONTROL Include]3단계[에서 &#x200B;](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) 항목을 참조하십시오. |
 | `cd[segID]` | 추가 매개 변수. 픽셀이 사이트에서 실행되기 시작하면 [!DNL Facebook Ad Manager] 사용자 인터페이스 내에서 채워집니다. `segID`도 임의 요소입니다. |
 | `%ALIAS%` | 사이트 방문자가 사용할 수 있는 [!DNL Audience Manager] [!DNL Audience Manager] ID로 동적으로 대체되는 [!UICONTROL segment] 매크로는 쉼표로 구분됩니다. |
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 ## 3단계 - [!UICONTROL Audience] 내에 [!DNL Facebook Ads Manager] 만들기 {#step-3-create-audience}
 
-[ 도움말 설명서에서 ](https://www.facebook.com/business/help/666509013483225)웹 사이트 사용자 지정 대상 만들기[!DNL Facebook]를 참조하십시오. 아래 표에서 [!UICONTROL Create Audience] 옵션을 선택하십시오.
+[&#x200B; 도움말 설명서에서 &#x200B;](https://www.facebook.com/business/help/666509013483225)웹 사이트 사용자 지정 대상 만들기[!DNL Facebook]를 참조하십시오. 아래 표에서 [!UICONTROL Create Audience] 옵션을 선택하십시오.
 
 | 항목 | 설명 |
 |---------|----------|

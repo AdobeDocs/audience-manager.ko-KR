@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 저장한 검색 결과 {#saved-searches}
 
-[!DNL Audience Manager]은(는) [에 ](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)저장된 검색[!UICONTROL Dashboard]을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
+[!DNL Audience Manager]은(는) [에 &#x200B;](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)저장된 검색[!UICONTROL Dashboard]을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
 
 저장된 검색에는 해당 기준에 대한 상위 50개 결과가 표시됩니다.
 

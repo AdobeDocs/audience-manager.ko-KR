@@ -142,7 +142,7 @@ ht-degree: 2%
 
 ## 보안
 
-개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [!DNL Audience Manager]OAuth 2.0[ 프로토콜을 통해 ](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
+개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [!DNL Audience Manager]OAuth 2.0[&#x200B; 프로토콜을 통해 &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
 
 ## 요청
 

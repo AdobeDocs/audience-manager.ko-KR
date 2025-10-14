@@ -66,5 +66,5 @@ ht-degree: 6%
 
 타이밍과 관련된 다음 측면을 염두에 두십시오.
 
-* 세그먼트는 장치 프로필이 [에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 ](../../reference/system-components/components-edge.md)Edge[!UICONTROL Edge]에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
+* 세그먼트는 장치 프로필이 [에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 &#x200B;](../../reference/system-components/components-edge.md)Edge[!UICONTROL Edge]에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
 * 세그먼트 해제 작업이 [!DNL DCS] 영역에 걸쳐 전파되는 데 약 24시간이 소요됩니다. [!DNL DCS] 지역 [여기](../../reference/system-components/components-data-collection.md) 및 [여기](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)에 대해 자세히 알아보세요.

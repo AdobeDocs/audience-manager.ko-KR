@@ -28,7 +28,7 @@ ht-degree: 0%
 
   >[!IMPORTANT]
   >
-  >[이(가) ](../../features/traits/about-folder-traits.md)폴더 특성&#x200B;**을(를)**&#x200B;지원하지 않음[!UICONTROL Audience Lab]합니다. 폴더 트레이트의 [이벤트 유형](../../features/traits/create-onboarded-rule-based-traits.md)을(를) **전환**(으)로 설정하면 특정 폴더 트레이트에 대한 [!UICONTROL Audience Lab]의 데이터가 생성되지 않습니다.
+  >[이(가) &#x200B;](../../features/traits/about-folder-traits.md)폴더 특성&#x200B;**을(를)**&#x200B;지원하지 않음[!UICONTROL Audience Lab]합니다. 폴더 트레이트의 [이벤트 유형](../../features/traits/create-onboarded-rule-based-traits.md)을(를) **전환**(으)로 설정하면 특정 폴더 트레이트에 대한 [!UICONTROL Audience Lab]의 데이터가 생성되지 않습니다.
 
 * [역할 기반 액세스 제어를 사용하는 회사의 경우](../../features/administration/administration-overview.md): [!UICONTROL Audience Lab] [와일드카드 권한](../../features/administration/administration-overview.md#wild-card-permissions)을(를) **[!UICONTROL User Groups]**&#x200B;에 할당하여 액세스 권한을 제공하십시오. 이 권한을 사용하면 테스트 결과를 만들고 볼 수 있습니다. 사용자는 **읽기** 및 **대상에 매핑** 권한이 있는 데이터 원본의 세그먼트만 사용할 수 있습니다. 사용자는 **&quot;읽기&quot;** 권한이 있는 데이터 원본의 전환 트레이트만 사용할 수 있습니다. 사용자는 액세스 권한이 있는 대상만 볼 수 있습니다. 따라서 그룹에 [!DNL Audience Lab] 와일드카드 권한을 추가하기 전에 그룹에 다음이 있는지 확인하십시오.
    * 관련 전환 트레이트 읽기에 대한 액세스

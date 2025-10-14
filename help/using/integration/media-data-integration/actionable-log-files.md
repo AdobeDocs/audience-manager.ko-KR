@@ -57,7 +57,7 @@ ht-degree: 2%
 
 ## 실행 가능한 신호 {#actionable-signals}
 
-신호는 [에서 ](../../reference/signal-trait-segment.md)가장 작은 데이터 단위[!DNL Audience Manager]입니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 광고 서버 로그의 신호로 광고주, 사업부, 광고 및 캠페인 값, 노출 이벤트, 클릭 이벤트 및 전환 이벤트를 캡처할 수 있습니다.
+신호는 [에서 &#x200B;](../../reference/signal-trait-segment.md)가장 작은 데이터 단위[!DNL Audience Manager]입니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 광고 서버 로그의 신호로 광고주, 사업부, 광고 및 캠페인 값, 노출 이벤트, 클릭 이벤트 및 전환 이벤트를 캡처할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -331,7 +331,7 @@ creative 123을 보았지만 클릭하거나 전환하지 않고 creative 456을
 
 ### Google 보고서 또는 Audience Lab에서 Audience Optimization Campaign Manager Floodlight 활동 사용
 
-[Floodlight 태그](https://support.google.com/dcm/partner/answer/4293719?hl=en)를 통해 광고주는 사용자 전환을 추적할 수 있습니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 [!DNL Google Campaign Manager]Audience Optimization 보고서[ 또는 ](../../reporting/audience-optimization-reports/audience-optimization-reports.md)대상 랩[에서 ](../../features/audience-lab/audience-lab.md) 전환을 추적할 수 있습니다.
+[Floodlight 태그](https://support.google.com/dcm/partner/answer/4293719?hl=en)를 통해 광고주는 사용자 전환을 추적할 수 있습니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 [!DNL Google Campaign Manager]Audience Optimization 보고서[&#x200B; 또는 &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md)대상 랩[에서 &#x200B;](../../features/audience-lab/audience-lab.md) 전환을 추적할 수 있습니다.
 
 1. 트레이트를 만들고 다음 트레이트 규칙을 사용하여 광고 서버 로그에서 전환을 캡처합니다.
 

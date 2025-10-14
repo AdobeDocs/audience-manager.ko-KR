@@ -90,7 +90,7 @@ ht-degree: 1%
 
 [!DNL Plan types]은(는) [!UICONTROL Audience Marketplace] 데이터 피드의 필수 구성 요소입니다. 데이터 공급자는 피드에 대한 여러 사용 사례와 가격 옵션을 만들 수 있도록 해줍니다. 또한 각 데이터 피드에 대해 몇 가지 계획을 만드는 것도 좋은 전략이 될 수 있습니다. 이를 통해 구매자는 모델링하거나 대상으로 전송할 데이터를 찾는 경우 선택할 수 있는 다양한 옵션을 제공합니다.
 
-[을(를) 선택하려면 ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)데이터 피드를 만듭니다[!UICONTROL Plan Types].
+[을(를) 선택하려면 &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)데이터 피드를 만듭니다[!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 

@@ -31,7 +31,7 @@ Audience Manager의 데이터 거버넌스는 Audience Manager에서 고객 데�
 
 >[!NOTE]
 >
->Audience Manager 사용자 인터페이스에서 [ 주소 난독화를 사용하는 방법에 대한 자세한 내용은 ](../../features/administration/ip-obfuscation.md)IP 주소 난독화[!DNL IP]를 참조하십시오.
+>Audience Manager 사용자 인터페이스에서 [&#x200B; 주소 난독화를 사용하는 방법에 대한 자세한 내용은 &#x200B;](../../features/administration/ip-obfuscation.md)IP 주소 난독화[!DNL IP]를 참조하십시오.
 
 Audience Manager에서 [!DNL IP] 주소 난독화가 작동하는 방식을 이해하려면 아래 비디오를 보십시오.
 

@@ -32,7 +32,7 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
 [!DNL Audience Manager] ID를 직접 설정해야 하며, [!DNL Audience Manager] 컨설팅과 함께 모든 것이 작동하는지 확인할 수 있습니다. 다음과 같은 경우 [!DNL Audience Manager] ID를 올바르게 설정했습니다.
 
 * `'aamid'`은(는) 식별자로 사용되는 키입니다.
-* [!DNL Audience Manager]Audience Manager의 ID 색인[에 설명된 대로 사용자 ID 값의 형식이 ](../../../reference/ids-in-aam.md) UUID로 올바르게 지정되었습니다.
+* [!DNL Audience Manager]Audience Manager의 ID 색인[에 설명된 대로 사용자 ID 값의 형식이 &#x200B;](../../../reference/ids-in-aam.md) UUID로 올바르게 지정되었습니다.
 * [!DNL Audience Manager] 로그의 정의된 필드에 [!DNL Google Ad Manager] UUID를 포함했습니다(예: CustomTargeting).
 
 ## 로그 수집 활성화를 위한 사전 요구 사항 {#prereqs-ingestion-enablement}

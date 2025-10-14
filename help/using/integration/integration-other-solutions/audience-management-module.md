@@ -28,7 +28,7 @@ ht-degree: 1%
 이 문서에 설명된 확장을 활성화하거나 코드를 구현하는 작업 외에 다음 작업도 수행해야 합니다.
 
 * [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 구현합니다.
-* [의 보고서 세트에 대해 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)서버측 전달[!UICONTROL Adobe Analytics Admin Console]을 사용하도록 설정하십시오.
+* [의 보고서 세트에 대해 &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)서버측 전달[!UICONTROL Adobe Analytics Admin Console]을 사용하도록 설정하십시오.
 
 ## 구현 {#implementation}
 

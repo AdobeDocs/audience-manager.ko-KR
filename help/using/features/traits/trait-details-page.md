@@ -26,7 +26,7 @@ ht-degree: 0%
 1. **[!UICONTROL Add New]**: 새 [!UICONTROL rule-based], [!UICONTROL algorithmic] 또는 [!UICONTROL onboarded traits]을(를) 만들려면 이 옵션을 사용합니다.
 2. **[!UICONTROL Edit]**: 이 옵션을 사용하여 현재 [!UICONTROL trait]의 구성을 변경합니다.
 3. **[!UICONTROL Delete]**: 이 옵션을 사용하여 Audience Manager 계정에서 현재 [!UICONTROL trait]을(를) 제거합니다.
-4. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 데이터 요금 [!UICONTROL traits]에서 현재 보고 있는 것과 유사한 [!UICONTROL Audience Marketplace]을(를) 찾을 수 있습니다. [을(를) 탐색하고 유사한 트레이트를 찾는 방법에 대해 알아보려면 ](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)데이터 구매자용 Audience Marketplace[!UICONTROL Marketplace]을(를) 참조하십시오.
+4. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 데이터 요금 [!UICONTROL traits]에서 현재 보고 있는 것과 유사한 [!UICONTROL Audience Marketplace]을(를) 찾을 수 있습니다. [을(를) 탐색하고 유사한 트레이트를 찾는 방법에 대해 알아보려면 &#x200B;](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)데이터 구매자용 Audience Marketplace[!UICONTROL Marketplace]을(를) 참조하십시오.
 
 ![기본 특성 정보](assets/basic-trait-information.png)
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 [!UICONTROL rule-based traits]의 경우 사용자가 브라우저에서 [!UICONTROL trait]에 대한 자격을 얻을 때 [!UICONTROL trait] 자격이 실시간으로 발생합니다.
 
-[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager으로 ](../../faq/faq-inbound-data-ingestion.md)되고, 이 때 [!UICONTROL trait] 자격이 발생합니다.
+[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager으로 &#x200B;](../../faq/faq-inbound-data-ingestion.md)되고, 이 때 [!UICONTROL trait] 자격이 발생합니다.
 
 [!UICONTROL Trait Graph]에는 다음 정보가 표시됩니다.
 

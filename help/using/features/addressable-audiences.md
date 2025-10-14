@@ -33,7 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Addressable Audience] | 전환 확인 기간 동안 [!UICONTROL rule-based trait] 또는 [!UICONTROL onboarded trait]을(를) 실현한 장치와 동기화 시간에 관계없이 선택한 [!UICONTROL destination]과(와) ID 동기화가 있는 장치의 겹침 수입니다.<br><br>이 지표는 다음과 같은 장치를 나타냅니다.<ul><li>전환 확인 기간 [!UICONTROL rule-based] 동안 [!UICONTROL onboarded trait] 또는 `AND`을(를) 실현했습니다.</li><li>동기화 시간과 관계없이 선택한 [!UICONTROL destination]과(와) ID를 동기화합니다.</li> |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience]이(가) 백분율로 표시되었습니다. |
 | [!UICONTROL Total Segment Population] | 보고서 전환 확인 기간 동안 [!UICONTROL segment]의 회원이었던 모든 장치의 개수입니다. |
-| [!UICONTROL Segment Addressable Audience] | 보고서 전환 확인 기간 동안 [!UICONTROL segment]에 속하고 해당 사이트에서 활성 ID 동기화를 보유한 사용자의 수입니다. [!UICONTROL Segments]은(는) [!UICONTROL traits]Audience Marketplace[에서 획득한 ](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)을(를) 통해 고유한 자사 데이터와 제2자 데이터 및 타사 데이터를 포함할 수 있습니다. <br><br>팁: 1일 전환 확인 기간과 함께 사용할 경우 이 지표를 통해 [!UICONTROL segments]의 현재 상태를 이해할 수 있습니다. 이는 [!UICONTROL Segment Addressable Audience] 지표가 전날 내내 [!UICONTROL segment]에 있었던 사용자를 나타내기 때문입니다. [!DNL Audience Manager]이(가) 매일 [!UICONTROL Addressable Audiences]을(를) 새로 고침한다는 사실과 이 지표와 전환 확인 기간을 결합하면 [!UICONTROL segments]의 최신 스냅숏이 제공됩니다. |
+| [!UICONTROL Segment Addressable Audience] | 보고서 전환 확인 기간 동안 [!UICONTROL segment]에 속하고 해당 사이트에서 활성 ID 동기화를 보유한 사용자의 수입니다. [!UICONTROL Segments]은(는) [!UICONTROL traits]Audience Marketplace[에서 획득한 &#x200B;](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)을(를) 통해 고유한 자사 데이터와 제2자 데이터 및 타사 데이터를 포함할 수 있습니다. <br><br>팁: 1일 전환 확인 기간과 함께 사용할 경우 이 지표를 통해 [!UICONTROL segments]의 현재 상태를 이해할 수 있습니다. 이는 [!UICONTROL Segment Addressable Audience] 지표가 전날 내내 [!UICONTROL segment]에 있었던 사용자를 나타내기 때문입니다. [!DNL Audience Manager]이(가) 매일 [!UICONTROL Addressable Audiences]을(를) 새로 고침한다는 사실과 이 지표와 전환 확인 기간을 결합하면 [!UICONTROL segments]의 최신 스냅숏이 제공됩니다. |
 | [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population]이(가) 백분율로 표시되었습니다. |
 
 ## [!UICONTROL Addressable Audiences] 인터페이스 {#addressable-audience-interface}
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### 모바일 사용자 및 일치율
 
-타사 [!DNL Safari]이(가) 없는 [!DNL cookies] 또는 모바일 앱 사용자를 연결하려고 할 때 간격이 있습니다. 이렇게 하면 동기화된 타사 [!DNL Adobe]에 대한 [!DNL cookies] ID만 미디어 게재 로그에 제공되므로 일부 파트너와 사용자를 동기화하기 어렵습니다. 이 때문에 [에 대해 ](../features/addressable-audiences.md#low-match-rates)낮은 일치율[!UICONTROL destinations]이 표시될 수 있습니다.
+타사 [!DNL Safari]이(가) 없는 [!DNL cookies] 또는 모바일 앱 사용자를 연결하려고 할 때 간격이 있습니다. 이렇게 하면 동기화된 타사 [!DNL Adobe]에 대한 [!DNL cookies] ID만 미디어 게재 로그에 제공되므로 일부 파트너와 사용자를 동기화하기 어렵습니다. 이 때문에 [에 대해 &#x200B;](../features/addressable-audiences.md#low-match-rates)낮은 일치율[!UICONTROL destinations]이 표시될 수 있습니다.
 
 ## [!UICONTROL Addressable Audiences] 및 [!UICONTROL Destinations]의 날짜 범위 {#date-ranges}
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 | 지표 | 설명 |
 |---|---|
-| [!UICONTROL Segment Addressable Audience] | 보고서 전환 확인 기간 동안 [!UICONTROL segment]에 속하고 해당 사이트에서 활성 ID 동기화를 보유한 사용자의 수입니다. 세그먼트는 [!UICONTROL traits]Audience Marketplace[에서 획득한 ](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)을(를) 통해 자신의 자사 데이터와 제2자 데이터, 타사 데이터를 포함할 수 있습니다.<br><br>팁: 1일 전환 확인 기간과 함께 사용할 경우 이 지표를 통해 [!UICONTROL segments]의 현재 상태를 이해할 수 있습니다. 이는 [!UICONTROL Segment Addressable Audience] 지표가 전날 내내 [!UICONTROL segment]에 있었던 사용자를 나타내기 때문입니다. [!DNL Audience Manager]이(가) 매일 [!UICONTROL Addressable Audiences]을(를) 새로 고침한다는 사실과 이 지표와 전환 확인 기간을 결합하면 [!UICONTROL segments]의 최신 스냅숏이 제공됩니다. |
+| [!UICONTROL Segment Addressable Audience] | 보고서 전환 확인 기간 동안 [!UICONTROL segment]에 속하고 해당 사이트에서 활성 ID 동기화를 보유한 사용자의 수입니다. 세그먼트는 [!UICONTROL traits]Audience Marketplace[에서 획득한 &#x200B;](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)을(를) 통해 자신의 자사 데이터와 제2자 데이터, 타사 데이터를 포함할 수 있습니다.<br><br>팁: 1일 전환 확인 기간과 함께 사용할 경우 이 지표를 통해 [!UICONTROL segments]의 현재 상태를 이해할 수 있습니다. 이는 [!UICONTROL Segment Addressable Audience] 지표가 전날 내내 [!UICONTROL segment]에 있었던 사용자를 나타내기 때문입니다. [!DNL Audience Manager]이(가) 매일 [!UICONTROL Addressable Audiences]을(를) 새로 고침한다는 사실과 이 지표와 전환 확인 기간을 결합하면 [!UICONTROL segments]의 최신 스냅숏이 제공됩니다. |
 | [!UICONTROL Total Segment Population] | 보고서 전환 확인 기간 동안 [!UICONTROL segment]의 회원이었던 모든 장치의 개수입니다. |
 | [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population]이(가) 백분율로 표시되었습니다. |
 

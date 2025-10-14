@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 데이터 Source 동기화된 트레이트 {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits]데이터 원본을 만들거나 편집[!UICONTROL Audience Traits]할 때 [이(가) ](../../features/manage-datasources.md#create-data-source) 폴더에 나타나고 다음 설정 중 하나를 적용합니다.
+[!UICONTROL Data Source Synced Traits]데이터 원본을 만들거나 편집[!UICONTROL Audience Traits]할 때 [이(가) &#x200B;](../../features/manage-datasources.md#create-data-source) 폴더에 나타나고 다음 설정 중 하나를 적용합니다.
 
 ![](assets/datasource_synced.png)
 

@@ -56,7 +56,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**: 이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 보존 기간을 설정할 수 있습니다. 이렇게 하면 Audience Manager 플랫폼에서 고객 ID를 마지막으로 본 후 Audience Manager이 데이터베이스에 고객 ID를 유지하는 기간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소값은 1개월이고 최대값은 5년입니다. 모든 달은 30일로 계산됩니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 유지에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
-이러한 설정과 연결된 텍스트 필드를 사용하면 [!UICONTROL Data Source]프로필 병합 규칙 옵션[에 나타나는 별칭으로 ](merge-rule-definitions.md)의 이름을 바꿀 수 있습니다. 예를들어, 별칭을 **[!UICONTROL Use as Authenticated Profile]**&#x200B;에 추가하면 해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. **[!UICONTROL Use as a Device Graph]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
+이러한 설정과 연결된 텍스트 필드를 사용하면 [!UICONTROL Data Source]프로필 병합 규칙 옵션[에 나타나는 별칭으로 &#x200B;](merge-rule-definitions.md)의 이름을 바꿀 수 있습니다. 예를들어, 별칭을 **[!UICONTROL Use as Authenticated Profile]**&#x200B;에 추가하면 해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. **[!UICONTROL Use as a Device Graph]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
 
 ## 프로필 병합 규칙 만들기 {#create-profile-merge-rule}
 
@@ -126,7 +126,7 @@ Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인�
 
 ## Adobe Experience Platform Identity 서비스 고객용 {#id-service-customers}
 
-[!UICONTROL Adobe Experience Platform Identity Service]&#x200B;(으)로 작업할 때는 [ 및 ](../../dil/dil-overview.md)DIL[!UICONTROL Profile Merge Rules]의 최신 버전을 사용하는 것이 좋습니다. 그러나 이 기능을 사용하기 위해 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 사용할 필요는 없습니다. [!UICONTROL DIL]을(를) 사용하고 있다면 아래의 [레거시 DIL 섹션](#legacy-dil)을 참조하세요.
+[!UICONTROL Adobe Experience Platform Identity Service]&#x200B;(으)로 작업할 때는 [&#x200B; 및 &#x200B;](../../dil/dil-overview.md)DIL[!UICONTROL Profile Merge Rules]의 최신 버전을 사용하는 것이 좋습니다. 그러나 이 기능을 사용하기 위해 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 사용할 필요는 없습니다. [!UICONTROL DIL]을(를) 사용하고 있다면 아래의 [레거시 DIL 섹션](#legacy-dil)을 참조하세요.
 
 ### 고객 ID 설정 기능 구성
 
@@ -185,7 +185,7 @@ DIL.create({
 });
 ```
 
-자세한 내용은 [!UICONTROL DIL]선언된 ID 변수[의 기존 ](../declared-ids.md#declared-id-variables) 섹션을 참조하십시오.
+자세한 내용은 [!UICONTROL DIL]선언된 ID 변수[의 기존 &#x200B;](../declared-ids.md#declared-id-variables) 섹션을 참조하십시오.
 
 ### SDK 구성 {#configure-sdks-legacy-dil}
 

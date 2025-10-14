@@ -19,7 +19,7 @@ ht-degree: 42%
 
 ## 개요 {#overview}
 
-이 문서에서는 [!DNL Audience Manager]Privacy Service UI[ 및 ](https://privacyui.cloud.adobe.io/)을(를) 통해 **[!DNL Privacy Service API]**&#x200B;에게 보낼 수 있는 개별 데이터 개인 정보 보호 및 옵트아웃 요청 관리에 대한 개요를 제공합니다.
+이 문서에서는 [!DNL Audience Manager]Privacy Service UI[&#x200B; 및 &#x200B;](https://privacyui.cloud.adobe.io/)을(를) 통해 **[!DNL Privacy Service API]**&#x200B;에게 보낼 수 있는 개별 데이터 개인 정보 보호 및 옵트아웃 요청 관리에 대한 개요를 제공합니다.
 
 이 도구를 사용하면 소비자 데이터 개인 정보 보호 요청을 [!DNL GDPR] 및 [!DNL CCPA]에서 보낼 수 있습니다.
 
@@ -65,7 +65,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 이러한 경우 [!DNL Audience Manager]을(를) 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-세그먼트 해제를 지원하는 [ 활성화 파트너를 확인하려면 ](assets/AAM-Partners-October2019.xlsx)장치 기반 대상 목록 문서[!DNL Audience Manager]를 참조하세요.
+세그먼트 해제를 지원하는 [&#x200B; 활성화 파트너를 확인하려면 &#x200B;](assets/AAM-Partners-October2019.xlsx)장치 기반 대상 목록 문서[!DNL Audience Manager]를 참조하세요.
 
 ## 옵트아웃 요청 {#opt-out-requests}
 
@@ -127,7 +127,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 * [!UICONTROL Destination] 파트너가 [!DNL CRM] ID 및 마지막 장치 ID에 대한 세그먼트 해제 요청을 받습니다. 세그먼테이션 해제는 [실시간](data-privacy-requests.md#aam-partners-with-unsegmentation) 대상과 배치 대상 모두에 대해 작동합니다.
 * 이전 데이터는 삭제되지 않습니다.
 
-[!DNL Audience Manager]이(가) 파트너 수준 옵트아웃 요청을 받으면 [!DNL JSON]이(가) 반환한 [!DNL DCS]에 [ 사용자 ID 대신 ](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) 메시지가 있는 [!UICONTROL "Encountered opt out tag"]오류 코드 171[!DNL Audience Manager]이(가) 포함됩니다.
+[!DNL Audience Manager]이(가) 파트너 수준 옵트아웃 요청을 받으면 [!DNL JSON]이(가) 반환한 [!DNL DCS]에 [&#x200B; 사용자 ID 대신 &#x200B;](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) 메시지가 있는 [!UICONTROL "Encountered opt out tag"]오류 코드 171[!DNL Audience Manager]이(가) 포함됩니다.
 
 `d_cid` 및 `d_cid_ic` 키-값 쌍으로 선언된 ID 옵트아웃 요청을 만들 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
@@ -173,7 +173,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 이러한 경우 [!DNL Audience Manager]을(를) 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-세그먼트 해제를 지원하는 [ 활성화 파트너를 보려면 ](/help/using/features/destinations/device-based-destinations-list.md)장치 기반 대상 목록[!DNL Audience Manager]을 참조하세요.
+세그먼트 해제를 지원하는 [&#x200B; 활성화 파트너를 보려면 &#x200B;](/help/using/features/destinations/device-based-destinations-list.md)장치 기반 대상 목록[!DNL Audience Manager]을 참조하세요.
 
 ## 데이터 수정 요청 {#correction}
 

@@ -63,7 +63,7 @@ Audience Manager은 사용자의 개인 정보 보호 선택 사항을 준수하
 Audience Manager에서 IAB TCF용 Audience Manager 플러그인을 사용하려면 다음 전제 조건을 충족해야 합니다.
 
 1. Adobe ECID(Experience Platform Identity Service) 버전 5 이상을 사용해야 합니다. 최신 ECID 릴리스를 [다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)하십시오.
-2. [!DNL Data Integration Library]여기[에서 다운로드할 수 있는 Audience Manager ](https://github.com/Adobe-Marketing-Cloud/dil/releases)&#x200B;(DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL을 읽어보세요](../../dil/dil-overview.md). 가장 쉬운 Audience Manager DIL 구현을 위해 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)을 사용하는 것이 좋습니다.
+2. [!DNL Data Integration Library]여기[에서 다운로드할 수 있는 Audience Manager &#x200B;](https://github.com/Adobe-Marketing-Cloud/dil/releases)&#x200B;(DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL을 읽어보세요](../../dil/dil-overview.md). 가장 쉬운 Audience Manager DIL 구현을 위해 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)을 사용하는 것이 좋습니다.
 3. 또는 SSF([!DNL Server-Side Forwarding])를 사용하여 데이터를 Audience Manager으로 가져오는 경우 최신 버전의 AppMeasurement으로 업그레이드해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko)를 사용하여 AppMeasurement를 다운로드합니다.
 4. IAB TCF v2.2와 통합되고 IAB TCF에 등록된 상업용이거나 본인 소유의 CMP(동의 관리 플랫폼)를 사용하고 있어야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
 

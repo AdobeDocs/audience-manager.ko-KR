@@ -42,4 +42,4 @@ Edge 컴퓨팅은 &quot;에지&quot; 자체가 글로벌 경계이기 때문에 
 
 ## 지리적 분포 및 로드 밸런싱 {#geo-dist-balance}
 
-[!DNL DCS]데이터 수집 구성 요소[에서 ](../../reference/system-components/components-data-collection.md) 섹션을 참조하십시오.
+[!DNL DCS]데이터 수집 구성 요소[에서 &#x200B;](../../reference/system-components/components-data-collection.md) 섹션을 참조하십시오.

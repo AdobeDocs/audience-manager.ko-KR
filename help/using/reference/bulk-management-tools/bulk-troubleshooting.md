@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ UI에 할당된 ](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[&#x200B; UI에 할당된 &#x200B;](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 네트워크 트래픽이 많거나, 서버 사용량 및 대용량 데이터 세트와 같은 요인으로 인해 대량 요청이 실패하거나 시간 초과가 발생할 수 있습니다. 문제가 있는 경우 워크시트가 데이터 쓰기를 중지하고 오류 메시지를 표시합니다. 이 경우 다음을 수행해야 합니다.
 

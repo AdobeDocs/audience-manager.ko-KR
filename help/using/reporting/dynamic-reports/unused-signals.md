@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ## 개요
 
-신호는 [!DNL Audience Manager]키-값 쌍[(예: ](../../reference/key-value-pairs-explained.md) 등)의 형태로 `color=blue, price>100, gender=female`에 전달된 웹 사이트의 정보입니다.
+신호는 [!DNL Audience Manager]키-값 쌍[(예: &#x200B;](../../reference/key-value-pairs-explained.md) 등)의 형태로 `color=blue, price>100, gender=female`에 전달된 웹 사이트의 정보입니다.
 
 사용되지 않은 신호는 수집하지만 트레이트에 매핑되지 않은 데이터로 구성됩니다. [!UICONTROL Unused Signals] 보고서는 날짜, 키, 값 및 빈도 수를 기준으로 표에 있는 데이터를 표시합니다. 하루에 100번 이상 [!DNL Audience Manager]에 전달된 매핑되지 않은 신호는 [!UICONTROL Unused Signals] 보고서에 사용할 수 있습니다.
 

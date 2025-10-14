@@ -51,7 +51,7 @@ ht-degree: 6%
 | **[!UICONTROL Matcheswords]** | 키-값 쌍의 값은 이 연산자에 의해 지정된 패턴과 *일치*&#x200B;합니다. |
 | **[!UICONTROL Startswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한*&#x200B;자로 시작합니다. |
 | **[!UICONTROL Endswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자로 끝납니다*. |
-| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값이 정규식에 지정된 패턴과 *일치*&#x200B;합니다. [에서 정규식을 사용하는 방법에 대해 ](../../features/traits/trait-builder-regex.md)자세히 알아보기[!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값이 정규식에 지정된 패턴과 *일치*&#x200B;합니다. [에서 정규식을 사용하는 방법에 대해 &#x200B;](../../features/traits/trait-builder-regex.md)자세히 알아보기[!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >

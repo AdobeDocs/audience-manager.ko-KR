@@ -66,7 +66,7 @@ ht-degree: 0%
 
 [!UICONTROL People-Based Destinations]에 대한 데이터 원본을 만드는 방법에 대한 비디오 튜토리얼을 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/31965?captions=kor)
 
 >[!NOTE]
 >

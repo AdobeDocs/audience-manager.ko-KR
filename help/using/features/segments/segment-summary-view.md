@@ -50,7 +50,7 @@ ht-degree: 0%
 
    [!UICONTROL Identity Type Breakdown]에 대한 개요를 보려면 아래 비디오를 시청하십시오.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+   >[!VIDEO](https://video.tv.adobe.com/v/32080?captions=kor)
 
 1. **[!UICONTROL Segment Rules]:**&#x200B;은(는) 선별 규칙과 함께 세그먼트의 특성을 나열합니다.
 1. **[!UICONTROL Destination Mappings]:** 세그먼트에 대한 대상 매핑을 나열합니다.

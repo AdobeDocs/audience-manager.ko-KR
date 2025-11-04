@@ -54,7 +54,7 @@ ht-degree: 1%
 
 [!UICONTROL People-Based Destinations]에 대한 데이터 원본을 만드는 방법에 대한 비디오 튜토리얼을 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/31965?captions=kor)
 
 ## 2단계 - 선언된 ID를 사용하여 실시간 HTTP 호출을 통해 DPUUID를 해시된 이메일 주소와 일치시킵니다. {#match-email-addresses}
 

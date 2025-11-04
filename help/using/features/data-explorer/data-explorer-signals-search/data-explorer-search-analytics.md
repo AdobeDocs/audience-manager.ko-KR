@@ -33,4 +33,4 @@ ht-degree: 0%
 
 아래 비디오에서는 사용 및 사용하지 않는 신호 검색, Analytics 특성 만들기, 데이터 이해 등 [!UICONTROL Data Explorer]을(를) 사용하여 Adobe Analytics 데이터를 검색하고 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25150)
+>[!VIDEO](https://video.tv.adobe.com/v/30937?captions=kor)

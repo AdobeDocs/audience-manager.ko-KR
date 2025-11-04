@@ -49,7 +49,7 @@ ht-degree: 1%
 
 [!UICONTROL DIL] 코드를 **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 버전 8.0(2018년 8월 릴리스)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html), 버전 3.3 이상에 종속되어 있습니다. ID 동기화 및 [!DNL ID Service]을(를) 실행하는 데 [!DNL URL destinations]을(를) 사용합니다. [!DNL ID Service]이(가) 없거나 오래되었거나 구성되지 않은 경우 오류가 발생합니다.
 
-[!UICONTROL DIL]을(를) 사용하여 작업하고 [!DNL Audience Manager]을(를) 수동으로 설정하는 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Tags]은(는) 코드 배포, 배치 및 버전 관리를 단순화하기 때문에 권장되는 구현 도구입니다. [의 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)Audience Manager 확장[!DNL Adobe Experience Platform Tags]에 대해 자세히 알아보세요.
+[!UICONTROL DIL]을(를) 사용하여 작업하고 [!DNL Audience Manager]을(를) 수동으로 설정하는 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Tags]은(는) 코드 배포, 배치 및 버전 관리를 단순화하기 때문에 권장되는 구현 도구입니다. [의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)Audience Manager 확장[!DNL Adobe Experience Platform Tags]에 대해 자세히 알아보세요.
 
 ## 샘플 호출 {#sample-code}
 

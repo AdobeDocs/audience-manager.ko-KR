@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 데이터 카테고리에서 트레이트 분류
 
-[!UICONTROL Add New Trait Wizard]&#x200B;([!UICONTROL Audience Data > Traits]에 있음)에서 특성을 만들거나 편집할 때 분류 ***을 ***. 자세한 내용은 특성 만들기에 대한 [설명서](../../features/traits/create-onboarded-rule-based-traits.md)를 참조하세요.
+[!UICONTROL Add New Trait Wizard]&#x200B;([!UICONTROL Audience Data > Traits]에 있음)에서 특성을 만들거나 편집할 때 분류 ***을 &#x200B;***. 자세한 내용은 특성 만들기에 대한 [설명서](../../features/traits/create-onboarded-rule-based-traits.md)를 참조하세요.
 
 ## 분류 작업: 추가 고려 사항
 

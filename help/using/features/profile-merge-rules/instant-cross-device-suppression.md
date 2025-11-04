@@ -6,7 +6,7 @@ title: 즉각적인 장치 간 억제
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 6%
@@ -42,11 +42,13 @@ ht-degree: 6%
 최신성 및 빈도 컨트롤을 설정하여 사용자가 동일한 크리에이티브로 넘치는 것을 방지할 수 있습니다. 이 시나리오에서는 아래 단계에 설명된 대로 두 개의 트레이트가 있는 세그먼트를 만듭니다.
 
 1. 아래 이미지에 표시된 대로 두 트레이트를 사용하여 세그먼트를 만들고 [!UICONTROL AND] 논리를 사용합니다. 실시간으로 트리거될 세그먼트 해제에 대한 노출 이벤트를 정의하려면 규칙 기반 트레이트를 사용해야 합니다. [규칙 기반 특성을 만드는 방법](../traits/create-onboarded-rule-based-traits.md)에 대해 자세히 알아보세요.
+
    >[!NOTE]
    >
    >[!UICONTROL Actionable Log Files] 또는 [!UICONTROL Pixel Calls]을(를) 사용하여 사용자 노출에 따라 트레이트를 만들 수 있습니다. [실행 가능한 로그 파일](../../integration/media-data-integration/actionable-log-files.md) 및 [픽셀 호출](../../integration/media-data-integration/impression-data-pixels.md)에 대해 자세히 알아보세요.
-2. 두 번째 트레이트에 빈도 컨트롤을 적용합니다. 원하는 경우 최신성 제어도 추가할 수 있습니다. [최신성 및 빈도 컨트롤을 적용하는 방법](../segments/recency-and-frequency.md)에 대해 자세히 알아보세요.
-3. 실시간 서버 간 대상에 세그먼트를 매핑합니다. [서버 간 대상](../destinations/add-edit-segments.md)에 세그먼트를 추가하는 방법에 대해 읽어 보십시오.
+
+1. 두 번째 트레이트에 빈도 컨트롤을 적용합니다. 원하는 경우 최신성 제어도 추가할 수 있습니다. [최신성 및 빈도 컨트롤을 적용하는 방법](../segments/recency-and-frequency.md)에 대해 자세히 알아보세요.
+1. 실시간 서버 간 대상에 세그먼트를 매핑합니다. [서버 간 대상](../destinations/add-edit-segments.md)에 세그먼트를 추가하는 방법에 대해 읽어 보십시오.
 
 이 시나리오에서는 사용자가 3개 이상의 노출을 누적하면 이 세그먼트에서 제거되고 더 이상 이 특정 크리에이티브를 볼 수 없습니다.
 
@@ -66,5 +68,5 @@ ht-degree: 6%
 
 타이밍과 관련된 다음 측면을 염두에 두십시오.
 
-* 세그먼트는 장치 프로필이 [에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 &#x200B;](../../reference/system-components/components-edge.md)Edge[!UICONTROL Edge]에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
+* 세그먼트는 장치 프로필이 [에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 ](../../reference/system-components/components-edge.md)Edge[!UICONTROL Edge]에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
 * 세그먼트 해제 작업이 [!DNL DCS] 영역에 걸쳐 전파되는 데 약 24시간이 소요됩니다. [!DNL DCS] 지역 [여기](../../reference/system-components/components-data-collection.md) 및 [여기](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)에 대해 자세히 알아보세요.

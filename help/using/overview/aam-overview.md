@@ -8,7 +8,7 @@ title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 85%
@@ -42,6 +42,7 @@ DSP(수요 측 플랫폼), 캠페인 관리 시스템 및 기타 마케팅 플�
 ## 추가 정보 {#more-information}
 
 자세한 내용은 다음 리소스를 참조하십시오.
+
 * [Audience Manager 개요](https://www.adobe.com/kr/analytics/audience-manager.html)
 * [Audience Manager의 이점](https://www.adobe.com/kr/analytics/audience-manager/benefits.html)
 * [Audience Manager의 기능](https://www.adobe.com/kr/analytics/audience-manager/features.html)

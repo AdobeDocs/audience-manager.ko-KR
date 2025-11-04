@@ -7,7 +7,7 @@ title: 세그먼트 빌더
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 2%
@@ -43,22 +43,22 @@ ht-degree: 2%
 1. [트레이트](../../features/segments/segment-builder.md#segment-builder-controls-traits) 섹션에서:
    ![segment-builder-traits](assets/segment-builder-traits.png)
    * 세그먼트에 추가할 [!UICONTROL trait]을(를) 검색하고 **[!UICONTROL Add Trait]**&#x200B;을(를) 클릭합니다. [!UICONTROL trait] 그룹을 만들려면 다른 [!UICONTROL trait]을(를) 추가하십시오.
-   * [!UICONTROL Advanced Search]을(를) 클릭하여 **[!UICONTROL Browse All Traits]** 모달을 표시합니다. 이름, ID, 설명 또는 [!UICONTROL traits]별로 [!UICONTROL data source]을(를) 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 그 하위 폴더로 결과를 제한합니다. [!UICONTROL traits]&#x200B;([!UICONTROL trait type], [!UICONTROL Folder Trait], [!UICONTROL Rule-based] 및 [!UICONTROL Onboarded]) 또는 모집단 유형([!UICONTROL Algorithmic]장치 ID[&#x200B; 및 &#x200B;](../../reference/ids-in-aam.md)교차 장치 ID[)별로 &#x200B;](../../reference/ids-in-aam.md)을(를) 필터링할 수도 있습니다.
+   * [!UICONTROL Advanced Search]을(를) 클릭하여 **[!UICONTROL Browse All Traits]** 모달을 표시합니다. 이름, ID, 설명 또는 [!UICONTROL traits]별로 [!UICONTROL data source]을(를) 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 그 하위 폴더로 결과를 제한합니다. [!UICONTROL traits]&#x200B;([!UICONTROL trait type], [!UICONTROL Folder Trait], [!UICONTROL Rule-based] 및 [!UICONTROL Onboarded]) 또는 모집단 유형([!UICONTROL Algorithmic]장치 ID[ 및 ](../../reference/ids-in-aam.md)교차 장치 ID[)별로 ](../../reference/ids-in-aam.md)을(를) 필터링할 수도 있습니다.
      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
-   * [을(를) 빌드할 때 실시간 &#x200B;](trait-recommendations.md)트레이트 추천[!UICONTROL segment]을(를) 받습니다.
+   * [을(를) 빌드할 때 실시간 ](trait-recommendations.md)트레이트 추천[!UICONTROL segment]을(를) 받습니다.
    * [!UICONTROL traits]을(를) 클릭하고 끌어 별도의 그룹을 만듭니다.
    * 그룹 간에 마우스를 가져가면 부울 [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] 값과의 관계를 설정할 수 있습니다.
-   * 시계 아이콘 위로 마우스를 가져가면 [에 &#x200B;](../../features/segments/recency-and-frequency.md)최신성 및 빈도[!UICONTROL trait] 규칙을 추가할 수 있습니다.
-   * [!UICONTROL traits]을(를) 추가하거나 제거할 때 세그먼트 모집단 데이터를 봅니다. 예상 모집단 수를 보거나 새로 고치려면 **[!UICONTROL Calculate Estimates]**&#x200B;을(를) 클릭합니다. [의 &#x200B;](../../features/segments/segment-builder-data.md#segment-populations)세그먼트 모집단 데이터[!UICONTROL Segment Builder]에 대해 자세히 알아보세요.
+   * 시계 아이콘 위로 마우스를 가져가면 [에 ](../../features/segments/recency-and-frequency.md)최신성 및 빈도[!UICONTROL trait] 규칙을 추가할 수 있습니다.
+   * [!UICONTROL traits]을(를) 추가하거나 제거할 때 세그먼트 모집단 데이터를 봅니다. 예상 모집단 수를 보거나 새로 고치려면 **[!UICONTROL Calculate Estimates]**&#x200B;을(를) 클릭합니다. [의 ](../../features/segments/segment-builder-data.md#segment-populations)세그먼트 모집단 데이터[!UICONTROL Segment Builder]에 대해 자세히 알아보세요.
    * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. *(선택 사항)* [!UICONTROL segment]대상 매핑[!UICONTROL destination] 섹션에서 [을(를) &#x200B;](../../features/segments/segment-builder.md#segment-builder-controls-destinations)에 매핑합니다.
+1. *(선택 사항)* [!UICONTROL segment]대상 매핑[!UICONTROL destination] 섹션에서 [을(를) ](../../features/segments/segment-builder.md#segment-builder-controls-destinations)에 매핑합니다.
    * [!UICONTROL destination]을(를) 검색하고 **[!UICONTROL Add Destination]**&#x200B;을(를) 클릭합니다. [!UICONTROL destination]이(가) 이미 있어야 [!UICONTROL segment]에 추가할 수 있습니다.
    * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/36875?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] 컨트롤: [!UICONTROL Basic Information] 섹션 {#segment-builder-controls-basics}
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 -->
 
 | 필드 | 설명 |
----------|----------
+|---------|----------|
 | **[!UICONTROL Name]** | 세그먼트에 기능 또는 목적을 설명하는 짧은 논리적 이름을 지정합니다. 약어 및 특수 문자를 사용하지 마십시오. 세그먼트 이름의 최대 길이는 255자입니다. |
 | **[!UICONTROL Description]** | 세그먼트에 대한 추가 설명 정보를 위한 필드입니다. |
 | **[!UICONTROL Integration Code]** | 사용자 정의 ID 또는 기타 특정 회사에 대한 정보를 위한 필드. |

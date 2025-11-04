@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 한 Personalization
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 1%
@@ -41,6 +41,7 @@ ht-degree: 1%
 1. **[!UICONTROL ID Type]** 드롭다운 메뉴에서 **[!UICONTROL Cross Device]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Data Source Settings]** 섹션에서 **[!UICONTROL Inbound]** 및 **[!UICONTROL Outbound]** 옵션을 모두 선택하고 **[!UICONTROL Share associated cross-device IDs in people-based destinations]** 옵션을 사용하도록 설정합니다.
 1. 드롭다운 메뉴를 사용하여 이 데이터 원본에 대한 **[!UICONTROL Emails(SHA256, lowercased)]** 레이블을 선택합니다.
+
    >[!IMPORTANT]
    >
    >이 옵션은 특정 알고리즘으로 해시된 데이터를 포함하는 것으로 데이터 소스에만 레이블을 지정합니다. Audience Manager은 이 단계에서 데이터를 해시하지 않습니다. 이 데이터 원본에 저장할 전자 메일 주소를 [!DNL SHA256] 알고리즘으로 이미 해시했는지 확인하세요. 그렇지 않으면 [!DNL People-Based Destinations]에 사용할 수 없습니다.
@@ -53,7 +54,7 @@ ht-degree: 1%
 
 [!UICONTROL People-Based Destinations]에 대한 데이터 원본을 만드는 방법에 대한 비디오 튜토리얼을 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/31965?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## 2단계 - 선언된 ID를 사용하여 실시간 HTTP 호출을 통해 DPUUID를 해시된 이메일 주소와 일치시킵니다. {#match-email-addresses}
 

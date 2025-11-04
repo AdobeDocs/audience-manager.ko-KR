@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 사용자 기반 대상 FAQ
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 93%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 93%
 
 **해시된 이메일 주소를 웹 양식이나 모바일 앱을 통해 수집할 수 있습니까, 아니면 배치 파일을 통해 받아야 합니까?**
 
-[선언된 ID](../features/declared-ids.md)와 함께 [!DNL ECID]를 사용하여 웹 인증을 통해 해시된 이메일 주소를 수집할 수 있습니다. 또한 배치 파일을 사용하면 인증을 통해 보낼 수 없는 해시된 이메일 주소(예: [!DNL CRM]에 있는 휴면 상태 사용자)를 수집하여 사용자 기반 대상에서 활성화할 수 있습니다.
+[선언된 ID](../features/declared-ids.md)와 함께 [!DNL ECID]를 사용하여 웹 인증을 통해 해시된 이메일 주소를 수집할 수 있습니다. 또한 배치 파일을 사용하면 인증을 통해 보낼 수 없는 해시된 이메일 주소(예: ([!DNL CRM])에 있는 휴면 상태 사용자)를 수집하여 사용자 기반 대상에서 활성화할 수 있습니다.
 
 **웹 양식을 통해 해시된 이메일 주소를 섭취하는 것은 배치 파일을 통해 해시된 이메일 주소를 업로드하는 것과 어떻게 다릅니까?**
 
@@ -60,6 +60,7 @@ Audience Manager는 원시 이메일 주소를 섭취하는 것이 아니므로 
 사용 사례에 따라 다릅니다. 사용자 기반 채널에서 기존 자사 세그먼트를 활성화할 계획이라면 새 세그먼트를 만들 필요가 없습니다. 세그먼트를 사용자 기반 대상에 매핑할 수 있습니다.
 
 사용자 기반 채널에서 새 오프라인 대상자를 활성화할 계획이라면 [!DNL All Cross-Device Profiles] 병합 규칙을 사용하여 새 자사 세그먼트를 만들어야 합니다.
+
 >[!NOTE]
 >
 > 자사 데이터가 있는 세그먼트만 [!DNL People-Based Destinations]에 매핑할 수 있습니다. Adobe의 대상 플랫폼은 제2자 데이터와 타사 데이터가 있는 세그먼트를 허용하지 않습니다.
@@ -72,7 +73,7 @@ Audience Manager는 원시 이메일 주소를 섭취하는 것이 아니므로 
 
 **[!DNL People-Based Destinations]를 사용하는 일치율은 고객을 대상 플랫폼에 보내는 다른 방법과 어떻게 이론적으로 비교됩니까?**
 
-이메일 주소가 올바로 해시되고 섭취되는 한 [!DNL People-Based Destinations]와 다른 방법 간 일치율에 차이가 없어야 합니다. 일치율이 100% 미만이 되는 유일한 이유는 Audience Manager에 가져온 이메일 주소가 대상 플랫폼의 사용자 기반에 있는 이메일 주소와 일치시킬 수 없는 경우입니다.
+이메일 주소가 올바로 해시되고 섭취되는 한 [!DNL People-Based Destinations]와 다른 방법 간 일치율에 차이가 없어야 합니다. 일치율이 100% 미만이 되는 유일한 이유는 Audience Manager에 가져온 이메일 주소를 대상 플랫폼의 사용자 기반에 있는 이메일 주소와 일치시킬 수 없는 경우입니다.
 
 **제 고객으로부터 소셜 네트워크에 사용되는 개인 이메일 주소와 다른 회사 이메일 주소를 수집하고 있습니다. 여러 이메일 주소에서 ID를 일치시키려면 어떻게 합니까?**
 
@@ -106,13 +107,13 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 **[!DNL People-Based Destinations]은 [!DNL Instagram]과 같은 다른 [!DNL Facebook] 앱에서 대상자 타기팅을 지원합니까?**
 
-[!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] 및 [!DNL Messenger]을 포함하여 [!DNL Custom Audiences]이 지원하는 [!DNL Facebook]의 앱 제품군에서 [!DNL People-Based Destinations]을 사용할 수 있습니다. 캠페인을 실행할 앱의 선택은 [!DNL Facebook Ads Manager]의 배치 수준에서 표시됩니다.
+[!DNL People-Based Destinations], [!DNL Facebook], [!DNL Custom Audiences] 및 [!DNL Facebook]을(를) 포함하여 [!DNL Instagram]에서 지원하는 [!DNL Audience Network]의 앱 제품군에서 [!DNL Messenger]을(를) 사용할 수 있습니다. 캠페인을 실행할 앱의 선택은 [!DNL Facebook Ads Manager]의 배치 수준에서 표시됩니다.
 
-**[!DNL People-Based Destinations]과 [!DNL Website Custom Audiences] 간의 차이점은 무엇입니까?**
+**[!DNL People-Based Destinations]과(와) [!DNL Website Custom Audiences]의 차이점은 무엇입니까?**
 
 [!DNL People-Based Destinations]은 [!DNL Facebook]과의 [!DNL Custom Audiences (CA)] 통합을 활용합니다. [!DNL WCA]와 [!DNL CA] 통합의 차이점은 고객이 [!DNL Facebook]에 대상자를 보낼 때 사용하는 키입니다. [!DNL WCA]는 [!DNL Facebook] 픽셀(웹 사이트 사용자 ID임)을 사용하고 [!DNL People-Based Destinations]은 해시된 이메일 주소를 사용하여 [!DNL CA]와 통합합니다.
 
-추가 비용없이 [!DNL URL Destinations] 기능을 통해 Audience Manager의 [!DNL Facebook] [!DNL WCA] 통합을 사용할 수 있습니다.
+추가 비용 없이 [!DNL Facebook] 기능을 통해 Audience Manager [!DNL WCA] [!DNL URL Destinations] 통합을 사용할 수 있습니다.
 
 이 두 가지 통합은 상호 보완적입니다. 두 가지 모두를 사용하여 대상자 범위를 개선할 수 있습니다. 예를 들어, [!DNL WCA]는 회사가 계정을 등록하지 않은 웹 사이트 방문자를 타겟팅하려고 하는 경우 예측에 사용할 수 있지만, [!DNL People-Based Destinations]은 이메일 주소를 제공했지만 웹 사이트를 방문하지 않은 기존 고객을 타겟팅하는 데 도움이 될 수 있습니다.
 

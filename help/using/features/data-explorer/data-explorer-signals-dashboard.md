@@ -6,7 +6,7 @@ title: 신호 대시보드
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -35,9 +35,10 @@ ht-degree: 0%
 
 ## 저장한 검색 결과 {#saved-searches}
 
-[!DNL Audience Manager]은(는) [에 &#x200B;](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)저장된 검색[!UICONTROL Dashboard]을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
+[!DNL Audience Manager]은(는) [에 ](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)저장된 검색[!UICONTROL Dashboard]을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
 
 저장된 검색에는 해당 기준에 대한 상위 50개 결과가 표시됩니다.
 
 [!UICONTROL Signals Dashboard]을(를) 사용하는 방법을 알아보려면 아래 비디오를 시청하십시오.
+
 >[!VIDEO](https://video.tv.adobe.com/v/25151/)

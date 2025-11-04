@@ -8,7 +8,7 @@ title: 일반적인 분류법으로 트레이트 분류
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 데이터 카테고리에서 트레이트 분류
 
-[!UICONTROL Add New Trait Wizard]에서 특성을 만들거나 편집할 때 분류 분류를 할당합니다(* **[!UICONTROL Audience Data > Traits]***에 있음). 자세한 내용은 특성 만들기에 대한 [설명서](../../features/traits/create-onboarded-rule-based-traits.md)를 참조하세요.
+[!UICONTROL Add New Trait Wizard]&#x200B;([!UICONTROL Audience Data > Traits]에 있음)에서 특성을 만들거나 편집할 때 분류 ***을 ***. 자세한 내용은 특성 만들기에 대한 [설명서](../../features/traits/create-onboarded-rule-based-traits.md)를 참조하세요.
 
 ## 분류 작업: 추가 고려 사항
 

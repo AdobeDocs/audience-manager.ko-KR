@@ -8,7 +8,7 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: e10211057a87622340fd2c61737c7c7a45c0e99c
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -80,7 +80,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 서드파티 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Adobe Experience Platform ID 서비스에 의해 동적으로 설정되며, <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform ID 서비스에서 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=ko" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
+   <td colname="col2"> <p>하위 보호 규정을 준수하기 위해 서드파티 쿠키 사용을 비활성화합니다. 이 매개 변수는 Adobe Adobe Experience Platform ID 서비스에 의해 동적으로 설정되며, <code> idSyncDisable3rdPartySyncing</code> 구성에 따라 다릅니다. Adobe Experience Platform ID 서비스에서 <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA 지원</a>을 참조하십시오. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -90,14 +90,14 @@ ht-degree: 2%
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> 세그먼트에 대한 세그먼트 ID를 반환합니다. </p> </li>
      </ul> </p> <p>샘플 응답은 아래 응답과 비슷합니다. </p> <p>
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
       &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 사용되고 있는 Experience Cloud ID 집합을 지정합니다. ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko" format="https" scope="external"> 쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Experience Cloud</span> ID 서비스에서 사용되고 있는 Experience Cloud ID 집합을 지정합니다. ECID에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> 쿠키 및 Experience Cloud Identity 서비스</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -150,12 +150,12 @@ ht-degree: 2%
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">이 항목을 포함하면 <span class="wintitle"> DCS</span>이(가) 응답 본문에 <code> JSON</code> 개체를 반환합니다. 아래 예를 참조하십시오. 응답이 더 복잡할 수 있습니다. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ ht-degree: 2%
 이러한 헤더에는 HTTP 호출의 데이터 및 응답에 대한 요청과 같은 정보가 포함되어 있습니다.
 
 | 특성 | 설명 |
-| --- | --- | 
-| `h_host` | 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. `host name .demdex.net`(으)로 표시됩니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)를 참조하십시오. |
+| --- | --- |
+| `h_host` | 클라이언트의 특정 데이터 수집 호스트 이름으로 설정됩니다. `host name .demdex.net`(으)로 표시됩니다. [Demdex 도메인에 대한 호출 이해](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)를 참조하십시오. |
 | `h_user-agent` | `User-Agent` 헤더 값으로 설정합니다. |
 | `h_accept-language` | `Accept-Language` 헤더 값으로 설정합니다. |
 | `h_referer` | `Referer` 헤더 값으로 설정합니다. |

@@ -7,7 +7,7 @@ title: 폴더 API 메서드
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
 feature: API
 exl-id: ab8d6421-ba6a-4eac-9b2b-dbd0a1ef2a64
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 6%
@@ -23,5 +23,6 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >[!DNL API] 폴더 메서드가 [!DNL Swagger]&#x200B;(으)로 다시 작성되고 마이그레이션되었습니다. 참조: >
+>
 >* [Adobe Audience Manager API 문서](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager API 코드 마이그레이션](../../api/api-swagger-migration.md)

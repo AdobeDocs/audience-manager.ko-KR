@@ -7,7 +7,7 @@ title: 세그먼트 표현식 편집기에 사용되는 코드 구문
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 4%
@@ -44,9 +44,9 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 | 이름 또는 변수 | 설명 |
 |---|---|
 | `FREQUENCY` | 표현식 앞에 와야 하는 리터럴입니다. |
-| ` [`&lt;`traitID`>`T]` | 뒤에 `T` 문자가 오는 트레이트 ID의 배열입니다. 여러 트레이트는 쉼표로 구분하십시오. 예: `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(선택 사항)* 세그먼트에서 트레이트에 대한 최신성 규칙을 설정합니다. 편지 `D`은(는) 최신성을 일 단위로 나타냅니다. |
-| ` <Frequency Operator><Numeric Value>` | 세그먼트의 트레이트에 대한 빈도 규칙을 설정합니다. |
+| `[`&lt;`traitID`>`T]` | 뒤에 `T` 문자가 오는 트레이트 ID의 배열입니다. 여러 트레이트는 쉼표로 구분하십시오. 예: `[123T, 456T]`. |
+| `<Recency Operator><Numeric Value>D` | *(선택 사항)* 세그먼트에서 트레이트에 대한 최신성 규칙을 설정합니다. 편지 `D`은(는) 최신성을 일 단위로 나타냅니다. |
+| `<Frequency Operator><Numeric Value>` | 세그먼트의 트레이트에 대한 빈도 규칙을 설정합니다. |
 
 ### 허용된 최신성 및 빈도 연산자
 

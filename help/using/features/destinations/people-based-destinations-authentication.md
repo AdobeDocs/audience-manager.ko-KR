@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 사용자 기반 플랫폼을 통한 인증
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -52,7 +52,9 @@ Audience Manager은 일정 시간이 지나면 만료되는 인증 토큰을 통
 인증 토큰이 만료되면 Audience Manager과 해당 소셜 플랫폼 간의 통합이 중단되므로 Audience Manager은 더 이상 대상 세그먼트를 대상으로 보낼 수 없습니다. [!UICONTROL Integrated Accounts] 페이지에는 [!UICONTROL Expiration] 열에 있는 각 통합의 만료 상태가 표시되며 언제든지 인증을 갱신할 수 있습니다.
 
 만료되었거나 만료될 예정인 인증을 갱신하는 방법은 다음과 같습니다.
+
 1. Audience Manager 계정에 로그인하고 **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**(으)로 이동합니다.
 1. 인증을 갱신해야 하는 통합을 식별합니다. 만료된 인증은 [!UICONTROL Expired]&#x200B;(으)로 표시되지만 곧 만료될 인증은 남은 인증일 수를 표시합니다.
 1. **[!UICONTROL Renew]** 열에서 해당 [!UICONTROL Expiration] 아이콘을 클릭합니다. 이렇게 하면 소셜 플랫폼의 인증 페이지를 다시 안내하는 **[!UICONTROL Renew Account]** 워크플로우가 트리거됩니다. 인증하면 토큰이 새 만료 날짜로 갱신됩니다.
+
    ![pbd-renew](assets/pbd-renew.png)

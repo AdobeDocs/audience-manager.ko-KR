@@ -7,7 +7,7 @@ title: 데이터 내보내기 제어
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -48,6 +48,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >세그먼트의 데이터 소스에 데이터 내보내기 컨트롤을 배치하여 세그먼트의 내보내기를 차단할 수 없습니다. 다음 중 하나에 컨트롤을 설정해야 합니다.
+>
 > * 세그먼트에 사용된 트레이트의 데이터 소스
 > * 세그먼트가 활용하는 프로필 병합 규칙
 > * 세그먼트의 프로필 병합 규칙이 사용하는 모든 데이터 소스입니다.

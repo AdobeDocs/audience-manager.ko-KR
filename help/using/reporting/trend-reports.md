@@ -101,7 +101,7 @@ t_working_with_trend_reports.xml
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
-[Audience Manager의 교차 장치 지표 이해](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Audience Manager의 교차 장치 지표 이해](https://experienceleague.adobe.com/ko/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## 세그먼트에 대한 트렌드 보고서 결과 {#segment-report-results-traits}
 

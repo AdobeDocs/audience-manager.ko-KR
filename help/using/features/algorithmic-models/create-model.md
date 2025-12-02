@@ -47,7 +47,7 @@ ht-degree: 0%
    * 30일, 60일 또는 90일 전환 확인 기간을 선택합니다. 모델의 시간 범위를 설정합니다.
    * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택되어 있습니다.
    * [!UICONTROL Available Data] 목록에서 데이터 원본을 선택하십시오.
-   * 완료되면 **[!UICONTROL Save]**을(를) 클릭합니다.
+   * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
      ![유사 구성](assets/look-alike-configuration.png)
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.

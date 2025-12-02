@@ -8,9 +8,9 @@ title: 알고리즘 모델 만들기
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 6956793aa8d31d16a7add648b8d205dec6f75202
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,12 @@ ht-degree: 0%
    * 30일, 60일 또는 90일 전환 확인 기간을 선택합니다. 모델의 시간 범위를 설정합니다.
    * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택되어 있습니다.
    * [!UICONTROL Available Data] 목록에서 데이터 원본을 선택하십시오.
-   * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   * 완료되면 **[!UICONTROL Save]**을(를) 클릭합니다.
      ![유사 구성](assets/look-alike-configuration.png)
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=ko)
+[Audience Manager의 교차 장치 지표 이해](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## 알고리즘 모델에 대한 기본 정보 {#basic-information}
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 아래 비디오를 시청하여 자사 유사 모델을 만들어 변환자처럼 보이는 방문자를 더 많이 찾을 수 있는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30933?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

@@ -4,9 +4,9 @@ title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 2012c244f6fa5ca01c7e2719ce621214cb22f93e
+source-git-commit: f8ba09b674b71045e08f6d171471cdcdd0efb265
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1519'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 |---|---|---|
 | 0 | 지정되지 않은 오류 | 다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 다목적 캐치 오류입니다. 이 오류를 해결하는 것은 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 | 1 | 호스트 이름에 대한 구성을 찾을 수 없습니다. `hostname` | 요청에서 전송된 호스트 이름이 파트너 프로비저닝 팀에 의해 설정되지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오. |
-| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko)에서 찾는 방법에 대한 정보를 참조하십시오. |
+| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)에서 찾는 방법에 대한 정보를 참조하십시오. |
 | 10 | 특성을 평가할 수 없음 | 요청에 대한 트레이트가 부분적으로 평가되었거나 전혀 평가되지 않았습니다. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 
 ## 통합 오류 코드 {#integration-error-codes}
@@ -129,92 +129,22 @@ ht-degree: 3%
 
 ## 통합 경고 코드 {#integration-warning-codes}
 
-<table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 코드 ID </th> 
-   <th colname="col2" class="entry"> 메시지 </th> 
-   <th colname="col3" class="entry"> 설명 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>잘못된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID가 잘못되었습니다(데이터 소스에 대한 값 누락, 통합 코드 누락, 데이터 소스에 대한 잘못된 형식, 차단된 고객 ID, 빈 고객 ID, 파트너에 속하지 않은 데이터 소스에 대한 무단 액세스 시도). </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>최대 고객 ID 수를 초과했습니다. 허용되는 최대값은 <code><i>maximum allowed</i></code>입니다. <code><i>maximum found</i></code>을(를) 찾았습니다.</p> </td> 
-   <td colname="col3"> <p>교차 장치 데이터 소스와 연결된 고객 ID 수가 요청당 허용된 교차 장치 ID 수를 초과했습니다. 이러한 ID에는 교차 장치, 모바일 또는 쿠키 ID가 포함됩니다. 제한은 현재 10으로 설정되어 있습니다. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>승인되지 않은 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우, 찾는 방법에 대한 자세한 내용은 <a href="https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html" format="https" scope="external"> 조직 및 계정 연결</a>의 "조직 ID 찾기" 섹션을 참조하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>차단된 고객 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>고객 ID가 악의적인 것으로 식별되어 차단 목록에 추가하다에 추가되면 반환됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>차단된 데이터 소스 ID <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>데이터 소스 ID가 악의적인 것으로 식별되고 차단 목록에 추가하다에 추가되면 반환됩니다 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>선언된 장치 ID <code><i>ID</i></code>이(가) 차단됨 </p> </td> 
-   <td colname="col3"> <p>장치 ID가 악의적인 것으로 확인되었으며 차단 목록에 추가하다에 추가되었습니다. 이 문제는 이 장치 ID를 포함하는 <span class="wintitle">개의 DCS</span>개 요청을 단기간에 받을 때 발생할 수 있습니다. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p><code><i>ID</i></code>에 대한 프로필 작업이 차단됨 </p> </td> 
-   <td colname="col3"> <p>ID가 악의적인 것으로 식별되고 오류 코드(306)를 참조하십시오 차단 목록에 추가되었기 때문에 읽기/쓰기 동작이 차단되었습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>고객 ID <code><i>ID</i></code>이(가) 요청당 선언된 고객 ID 한도를 초과하여 삭제되었습니다. </p> </td> 
-   <td colname="col3"> <p>오류 301과 관련되어 있습니다. 이 오류는 한도를 초과하여 삭제된 고객 ID를 지정합니다. </p> <p>예를 들어 <span class="wintitle"> DCS</span> 호출에서 선언된 고객 ID가 12개인 경우 이 중 2개가 무시됩니다. 삭제된 항목을 릴레이하기 위해 이 오류는 응답에 두 번 표시됩니다( 삭제된 각 고객 ID에 대해 한 번). </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>지정된 네임스페이스에 대한 제한을 초과하여 고객 ID가 삭제되었습니다. 네임스페이스 ID는 <code><i>ID</i></code>이고 고객 ID는 <code><i>ID</i></code>입니다. </p> </td> 
-   <td colname="col3"> <p>이 오류 코드는 <code> DPID</code> DCS<span class="wintitle"> 호출에서 동일한 네임스페이스(</span>)에 대해 선언된 고객 ID가 3개 이상인 경우 반환됩니다. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>이 샘플 <span class="wintitle"> DCS</span> 요청에는 동일한 네임스페이스에 대해 4개의 ID가 선언되어 있습니다(통합 코드 1개 포함). ID 중 하나가 삭제되고 오류 310이 반환됩니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>311 </p> </td> 
-   <td colname="col2"> <p>요청에 잘못된 매개 변수가 포함되어 있습니다. </p> </td> 
-   <td colname="col3"> <p>하나 이상의 URL 매개 변수가 올바르게 인코딩되지 않으면 <span class="wintitle"> DCS</span>에서 이 오류 코드를 반환합니다. 이 경우 <span class="wintitle"> DCS</span>은(는) 전체 요청을 무시합니다. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>위의 샘플 요청에서 <code> %</code> 시퀀스가 잘못 인코딩되었습니다. 따라서 <span class="wintitle"> DCS</span>이(가) 무시합니다. </p> <p>올바르게 인코딩된 샘플은 다음과 같아야 합니다. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>312 </p> </td> 
-   <td colname="col2"> <p>요청에 잘못된 글로벌 장치 ID가 포함되어 있습니다. </p> </td> 
-   <td colname="col3"> <p>요청에 잘못된 전역 장치 ID가 포함되어 있으면 <span class="wintitle">DCS</span>에서 이 오류 코드를 반환합니다. DCS에서는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류가 발생합니다. 올바른 장치 광고 ID 형식 및 해당 글로벌 데이터 원본에 대한 자세한 내용은 <a href="../../../features/global-data-sources.md" format="dita" scope="local">글로벌 데이터 원본</a> 및 <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Audience Manager의 ID 색인</a>을 참조하세요.</p>
-   <p>잘못된 호출의 예: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
-   <p>설명: <span class="keyword">IDFA(DPID 20915)</span>은(는) 대문자 ID여야 합니다. 요청에 입력한 ID는 소문자입니다.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>313 </p> </td> 
-   <td colname="col2"> <p>CMP ID가 GCL에 없음</p> </td> 
-   <td colname="col3"> <p>평가 시 Audience Manager의 캐시된 글로벌 CMP 목록 버전에 없는 CMP ID로 <code>gdpr=1</code> 및 IAB TC 문자열이 생성되면 IAB TCF용 Audience Manager 플러그인은 IAB TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.2 ${GDPR} 매크로가 0으로 설정되어 있고 ${GDPR_CONSENT_XXX} 매크로가 비어 있습니다.</p>
-   </td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>314 </p> </td> 
-   <td colname="col2"> <p>CMP ID가 GCL에서 삭제된 것으로 표시됨</p> </td> 
-   <td colname="col3"> <p>글로벌 CMP 목록의 캐시된 버전에서 삭제된 것으로 표시된 CMP에 의해 <code>gdpr=1</code> 및 IAB TC 문자열이 생성되면 IAB TCF용 Audience Manager 플러그인은 평가 시간이 글로벌 CMP 목록에서 삭제 시간을 지난 경우 TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.2 ${GDPR} 매크로가 0으로 설정되어 있고 ${GDPR_CONSENT_XXX} 매크로가 비어 있습니다.</p></td>
-  </tr>
-   <tr> 
-   <td colname="col1"> <p>315 </p> </td> 
-   <td colname="col2"> <p>동의 문자열은 동의가 없음을 나타냅니다.</p> </td> 
-   <td colname="col3"> <p>동의를 제공하지 않으면 IAB TCF용 Audience Manager 플러그인은 사용자를 추가 데이터 수집에서 옵트아웃하거나, 감지된 파트너 컨텍스트가 없는 경우 호출을 완전히 중단합니다.</p>
-   </td>
-  </tr>
- </tbody>
-</table>
+| 코드 ID | 메시지 | 설명 |
+| --- | --- | --- |
+| 300 | 잘못된 고객 ID `_ID_` | 고객 ID가 잘못되었습니다(데이터 소스에 대한 값 누락, 통합 코드 누락, 데이터 소스에 대한 잘못된 형식, 차단된 고객 ID, 빈 고객 ID, 파트너에 속하지 않은 데이터 소스에 대한 무단 액세스 시도). |
+| 301 | 최대 고객 ID 수를 초과했습니다. 허용되는 최대값은 `_maximum allowed_`입니다. `_maximum found_`을(를) 찾았습니다. | 교차 장치 데이터 소스와 연결된 고객 ID 수가 요청당 허용된 교차 장치 ID 수를 초과했습니다. 이러한 ID에는 교차 장치, 모바일 또는 쿠키 ID가 포함됩니다. 제한은 현재 10으로 설정되어 있습니다. |
+| 302 | 승인되지 않은 고객 ID `_ID_` | 고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우 찾는 방법에 대한 자세한 내용은 [조직 및 계정 연결](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)의 &quot;조직 ID 찾기&quot; 섹션을 참조하십시오. |
+| 303 | 차단된 고객 ID `_ID_` | 고객 ID가 악의적인 것으로 식별되어 차단 목록에 추가하다에 추가되면 반환됩니다. |
+| 304 | 차단된 데이터 소스 ID `_ID_` | 데이터 소스 ID가 악의적인 것으로 식별되고 차단 목록에 추가하다에 추가되면 반환됩니다 |
+| 306 | 선언된 장치 ID `_ID_`이(가) 차단됨 | 장치 ID가 악의적인 것으로 확인되었으며 차단 목록에 추가하다에 추가되었습니다. 이 문제는 이 장치 ID가 포함된 극단적인 양의 DCS 요청을 단시간에 수신할 때 발생할 수 있습니다. |
+| 307 | `_ID_`에 대한 프로필 작업이 차단됨 | ID가 악의적인 것으로 식별되고 오류 코드(306)를 참조하십시오 차단 목록에 추가되었기 때문에 읽기/쓰기 동작이 차단되었습니다. |
+| 309 | 고객 ID `_ID_`이(가) 요청당 선언된 고객 ID 한도를 초과하여 삭제되었습니다. | 오류 301과 관련되어 있습니다. 이 오류는 한도를 초과하여 삭제된 고객 ID를 지정합니다.<br><br>예를 들어 DCS 호출에서 선언된 고객 ID가 12개인 경우 이 중 두 개가 무시됩니다. 삭제된 항목을 릴레이하기 위해 이 오류는 응답에 두 번 표시됩니다( 삭제된 각 고객 ID에 대해 한 번). |
+| 310 | 지정된 네임스페이스에 대한 제한을 초과하여 고객 ID가 삭제되었습니다. 네임스페이스 ID는 `_ID_`이고 고객 ID는 `_ID_`입니다. | 이 오류 코드는 DCS 호출에서 동일한 네임스페이스(`DPID`)에 대해 선언된 고객 ID가 3개 이상인 경우 반환됩니다.<br><br>`https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one`<br><br>이 샘플 DCS 요청에는 동일한 네임스페이스에 대해 4개의 ID가 선언되어 있습니다(통합 코드 1개 포함). ID 중 하나가 삭제되고 오류 310이 반환됩니다. |
+| 311 | 요청에 잘못된 매개 변수가 포함되어 있습니다. | 하나 이상의 URL 매개 변수가 올바르게 인코딩되지 않으면 DCS가 이 오류 코드를 반환합니다. 이 경우 DCS는 전체 요청을 무시합니다.<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%esid!&d_creative=%ecid!&d_adgroup=%eaid!&d_placement=%epid!&d_campaign=%ebuy!&d_adsrc=48123`<br><br>위의 샘플 요청에서 `%` 시퀀스가 잘못 인코딩되었습니다. 따라서 DCS는 이를 무시합니다.<br><br>올바르게 인코딩된 샘플은 다음과 같아야 합니다.<br><br>`http(s)://partner.demdex.net/event?d_event=imp&d_rtbd=json&d_src=38454&d_site=%25esid!&d_creative=%25ecid!&d_adgroup=%25eaid!&d_placement=%25epid!&d_campaign=%25ebuy!&d_adsrc=48123` |
+| 312 | 요청에 잘못된 글로벌 장치 ID가 포함되어 있습니다. | 요청에 잘못된 전역 장치 ID가 포함되어 있으면 DCS가 이 오류 코드를 반환합니다. DCS에서는 잘못된 ID를 무시하고 잘못된 ID의 특정 오류와 함께 312 오류가 발생합니다. 올바른 장치 광고 ID 형식 및 해당 글로벌 데이터 원본에 대한 자세한 내용은 [글로벌 데이터 원본](../../../features/global-data-sources.md) 및 [Audience Manager의 ID 색인](../../../reference/ids-in-aam.md)을 참조하세요.<br><br>잘못된 호출의 예: `"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"`<br><br>설명: IDFA(DPID 20915)는 대문자 ID여야 합니다. 요청에 입력한 ID는 소문자입니다. |
+| 313 | CMP ID가 GCL에 없음 | 평가 시 Audience Manager의 캐시된 글로벌 CMP 목록 버전에 없는 CMP ID로 `gdpr=1` 및 IAB TC 문자열이 생성되면 IAB TCF용 Audience Manager 플러그인은 IAB TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.2 ${GDPR} 매크로가 0으로 설정되고 ${GDPR\_CONSENT\_XXX} 매크로가 비어 있습니다. |
+| 314 | CMP ID가 GCL에서 삭제된 것으로 표시됨 | 글로벌 CMP 목록의 캐시된 버전에서 삭제된 것으로 표시된 CMP에 의해 `gdpr=1` 및 IAB TC 문자열이 생성되면 IAB TCF용 Audience Manager 플러그인은 평가 시간이 글로벌 CMP 목록에서 삭제 시간을 지난 경우 TC 문자열을 삭제하고 평소대로 요청을 처리합니다. IAB TCF v2.2 ${GDPR} 매크로가 0으로 설정되고 ${GDPR\_CONSENT\_XXX} 매크로가 비어 있습니다. |
+| 315 | 동의 문자열은 동의가 없음을 나타냅니다. | 동의를 제공하지 않으면 IAB TCF용 Audience Manager 플러그인은 사용자를 추가 데이터 수집에서 옵트아웃하거나, 감지된 파트너 컨텍스트가 없는 경우 호출을 완전히 중단합니다. |
 
 ## 샘플 오류 코드 메시지 {#sample-error-codes}
 

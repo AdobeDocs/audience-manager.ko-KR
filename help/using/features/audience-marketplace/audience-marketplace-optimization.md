@@ -5,7 +5,7 @@ title: Audience Marketplace 최적화
 feature: Audience Marketplace
 hide: true
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: beb428b3d9f89bbd52b24da669a73cf5703172b5
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -120,3 +120,4 @@ Dell은 고객에게 최상의 결과를 제공하는 능동적이고 가치가 
 ### 변경 사항은 언제 적용됩니까?
 
 제거하기 위해 선택한 데이터 공급자는 2025년 8월 중에 제거됩니다.
+

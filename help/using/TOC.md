@@ -16,7 +16,7 @@ ht-degree: 17%
 # Audience Manager 사용 안내서 {#user-guide}
 
 + [Audience Manager 안내서](aam-home.md)
-+ Real-Time CDP에 대한 [진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [Real-Time CDP에 대한 진화 안내서](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + 웹 SDK으로 마이그레이션{#migrate-to-web-sdk}
    + [Adobe Audience Manager 태그 확장 프로그램에서 웹 SDK 태그 확장 프로그램으로 마이그레이션](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [데이터 수집 라이브러리를 AppMeasurement에서 Web SDK으로 마이그레이션](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -66,7 +66,7 @@ ht-degree: 17%
       + [대상 랩 고급 기능](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + {hide-from-toc}[Audience Marketplace 최적화](features/audience-marketplace/audience-marketplace-optimization.md)
+      + [hide-from-tocAudience Marketplace 최적화](features/audience-marketplace/audience-marketplace-optimization.md)
       + 데이터 공급자용 Audience Marketplace{#audience-marketplace-for-data-providers}
          + [데이터 공급자용 Audience Marketplace](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [데이터 피드 만들기, 가격 및 관리](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)

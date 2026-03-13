@@ -8,7 +8,7 @@ title: 인바운드 고객 데이터 섭취 FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 86%
@@ -60,12 +60,12 @@ ht-degree: 86%
 
 예. [!UICONTROL cross-device data source]을(를) 사용하여 업로드한 CRM 데이터를 저장하는 한 Audience Manager은 항상 데이터를 저장합니다. 실제로 Audience Manager이 오프라인 전용 사용 사례를 허용하는 2019년 10월에 실행한 [!UICONTROL Profile Merge Rules] 개선 사항에 따라 Audience Manager 코드를 프로덕션에 배포하지 않고도 데이터를 업로드하고 작업을 수행할 수 있습니다. 다음을 참조하십시오.
 
-* [프로필 병합 규칙 개선 사항 개요](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=ko)
-* [!UICONTROL People-based Destinations] - [오프라인 전용 데이터를 기반으로 하는 Personalization](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=ko)
+* [프로필 병합 규칙 개선 사항 개요](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [오프라인 전용 데이터를 기반으로 하는 Personalization](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
-<!---
+<!--
 * If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
 * If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.

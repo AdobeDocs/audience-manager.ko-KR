@@ -7,7 +7,7 @@ title: 대상에 대한 GDPR 고려 사항
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 96%
@@ -20,7 +20,8 @@ ht-degree: 96%
 
 Adobe 파트너는 자체 비즈니스 프로세스를 운영하고 있으며 수시로 Audience Manager와의 통합 요구 사항을 업데이트하도록 결정할 수 있습니다. Adobe는 Audience Manager 파트너 에코시스템과 적극적으로 협력하여 고객에게 변경 사항을 계속 알리고 있습니다.
 
-<!-- ## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
+<!--
+## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
 
 Some partners, as listed in the table below, have changed their integration requirements with Audience Manager to include support based on the IAB Framework, in order to comply with GDPR standards.
 
@@ -54,7 +55,8 @@ Some partners, as listed in the table below, have changed their integration requ
    <td colname="col3"> <p>Not live yet </p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Audience Manager 사용자 인터페이스 업데이트 - Yahoo/Oath/DataX 통합 {#ui-update}
 

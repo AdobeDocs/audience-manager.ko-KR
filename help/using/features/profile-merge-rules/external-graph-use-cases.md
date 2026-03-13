@@ -1,5 +1,5 @@
 ---
-description: 외부 장치 그래프를 통해 알 수 없는 사용자에 대한 전망, 재타겟팅 및 개인화에 대한 권장 사항 및 사용 사례입니다. 외부 장치 그래프는 Audience Manager과 별개인 장치 그래프로 정의됩니다. 여기에는 Adobe과 타사 결정론적 또는 확률론적 장치 그래프 회사의 통합이 포함됩니다.
+description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes  integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
@@ -7,7 +7,7 @@ title: 외부 장치 그래프 사용 사례
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 8%
@@ -16,17 +16,18 @@ ht-degree: 8%
 
 # 외부 장치 그래프 사용 사례 {#external-device-graph-use-cases}
 
-외부 장치 그래프를 통해 알 수 없는 사용자에 대한 전망, 재타겟팅 및 개인화에 대한 권장 사항 및 사용 사례입니다. 외부 장치 그래프는 Audience Manager과 별개인 장치 그래프로 정의됩니다. 여기에는 Adobe과 타사 결정론적 또는 확률론적 장치 그래프 회사의 통합이 포함됩니다.
+Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 
 ## 권장 사항 {#recommendations}
 
-다음과 같은 캠페인에 대한 타사 장치 그래프 옵션을 고려하십시오.
+Consider third-party device graph options for campaigns that:
 
-* 디지털 속성에서 낮은 수준의 인증을 갖습니다. 인증된 사용자가 많은 경우 [!UICONTROL Profile Link Device Graph option]을(를) 사용합니다.
-* 대규모 대상을 타기팅합니다. 타사 장치 그래프는 인증된 데이터와 인증되지 않은 데이터를 포함합니다.
-* 개인 및 가구 수준에서 인증된 방문자 및/또는 인증되지 않은 방문자를 세그먼트화합니다.
+* Have a low level of authentication across their digital properties. Use the [!UICONTROL Profile Link Device Graph option] if you have a large number of authenticated users.
+* Target large audiences. Third-party device graphs contain authenticated and un-authenticated data.
+* Segment authenticated and/or unauthenticated visitors at the individual and household level.
 
 ![](assets/merge-rule-triangle1.png)
+
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -94,9 +95,11 @@ These strategies are designed to bring an unauthenticated or unknown user back t
      </ul> </p> </td>
   </tr>
  </tbody>
-</table> -->
+</table> 
+-->
 
-<!-- ## Expanded Device Targeting {#audience-expansion}
+<!--
+## Expanded Device Targeting {#audience-expansion}
 
 This use case exemplifies how you can expand the size of your addressable audience with accurate cross-device personalization, through [!DNL External Device Graphs].
 
@@ -110,24 +113,25 @@ In our example, the traits required to qualify for the segment have all been col
 
 Through this rule, the device graph has expanded the number of device profiles which qualify for the segment from one to three and has enabled the travel agency to deliver a consistent message to all three devices owned by Jane.
 
-![audience-expansion](assets/audience-expansion.png) -->
+![audience-expansion](assets/audience-expansion.png) 
+-->
 
-## 고급 크로스 디바이스 타기팅 {#advanced-graph-expansion}
+## Advanced Cross-Device Targeting {#advanced-graph-expansion}
 
-이 사용 사례에서는 **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** 규칙을 사용하여 외부 장치 그래프의 장치를 사용하여 인증된 방문자에 대한 대상 타깃팅을 확장하는 방법을 보여 줍니다.
+This use case shows how you can expand audience targeting for authenticated visitors with devices from an external device graph, by using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** rule.
 
-![마지막 장치 그래프](assets/last-profile-link.png)
+![last-device-graph](assets/last-profile-link.png)
 
-아래 예에서 Acme Inc.는 [!DNL Acme Inc.]에 [!DNL Data Plan A]명의 구독자를 가지고 있고 [!DNL iPhone 7] 장치를 사용하는 연 소득 $100.000 이상의 모든 가구를 대상으로 하려고 합니다.
+In the example below, the Acme Inc. company wants to target all households with incomes over $100.000/year, that have [!DNL Acme Inc.] subscribers on [!DNL Data Plan A], that use an [!DNL iPhone 7] device.
 
-John은 데이터 계획 A에서 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Profile Link Device Graph] 클러스터에는 John이 정기적으로 사용하는 두 개의 추가 장치가 있습니다. John의 랩톱([!DNL Device 1])과 보조 스마트폰 [!DNL Device 2]&#x200B;([!DNL Samsung S7]의 [!DNL Data Plan B])입니다.
+John uses his iPhone 7 on Data Plan A to authenticate on the Acme Inc. website. At the same time, John&#39;s [!DNL Profile Link Device Graph] cluster contains two additional devices that he uses regularly: his laptop ([!DNL Device 1]), and his secondary smartphone, [!DNL Device 2] (a [!DNL Samsung S7] on [!DNL Data Plan B]).
 
-**[!UICONTROL Last Authenticated Profiles]**&#x200B;은(는) **[!UICONTROL Profile Link Device Graph]** + [!DNL Acme Inc.]을(를) 사용하여 John의 Device Graph 클러스터에서 세 장치 모두에 개인화된 메시지를 전달할 수 있습니다. 이들 중 하나만 처음에 세그먼트에 적합하더라도 마찬가지입니다.
+By using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] is able to deliver personalized messages to all three devices from John&#39;s device graph cluster, even though only one of them initially qualifies for the segment.
 
-![고급 그래프 확장](assets/advanced-device-graph-expansion.png)
+![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md)
 >* [프로필 병합 규칙에 대한 일반 사용 사례](merge-rule-targeting-options.md)
->* [프로필 병합 규칙 FAQ](../../faq/faq-profile-merge.md)
+>* [Profile Merge Rules FAQ](../../faq/faq-profile-merge.md)

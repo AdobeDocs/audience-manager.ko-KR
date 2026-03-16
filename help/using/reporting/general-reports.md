@@ -7,7 +7,7 @@ title: 일반 보고서
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 c_general_reports.xml
 
- -->
+-->
 
 [!DNL Audience Manager]은(는) [!UICONTROL Role Based Access Control]&#x200B;([!UICONTROL RBAC])을(를) 사용하여 사용자 그룹 권한을 [!UICONTROL General] 보고서로 확장합니다. 사용자는 볼 수 있는 권한이 있는 보고에서 이러한 트레이트와 세그먼트만 볼 수 있습니다. [!UICONTROL RBAC] 기능을 사용하면 내부 팀에서 볼 수 있는 보고 데이터를 제어할 수 있습니다. 예를 들어 다른 광고주 계정을 관리하는 기관은 광고주 A의 계정을 관리하는 팀이 광고주 B의 보고 데이터를 볼 수 없도록 사용자 그룹 권한을 구성할 수 있습니다.
 
@@ -59,7 +59,7 @@ c_general_reports.xml
 
 t_run_general_report.xml
 
- -->
+-->
 
 1. **[!UICONTROL Analytics]** 대시보드에서 **[!UICONTROL General Reports]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Report Type]** 드롭다운 목록에서 원하는 유형(트레이트, 세그먼트 또는 대상)을 선택합니다.
@@ -118,10 +118,10 @@ This metric represents the total amount of trait fires for the trait in your sel
 
 This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
 
-The illustration below shows the results of running a general report for the Trait report type. -->
-<!-- 
-![](assets/general_reports_metrics.png) -->
+The illustration below shows the results of running a general report for the Trait report type. 
 
+![](assets/general_reports_metrics.png)
+-->
 
 ## 세그먼트에 대한 일반 보고서 결과 {#general-report-results-segments}
 

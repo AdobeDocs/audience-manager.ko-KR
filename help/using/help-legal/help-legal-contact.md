@@ -24,7 +24,7 @@ Adobe Experience Cloud 고객 지원 센터팀은 고객 지원을 위해 구성
 * [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/kr/support.ec.html)
 * [Twitter @AdobeExpCare에서 간단한 질문하기](https://twitter.com/AdobeExpCare)
 * [고객 지원 팀에 직접 문의](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
-* [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/)
+* [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/ko-kr/)
 
 ## 서비스, 성능 및 과금 {#billing}
 

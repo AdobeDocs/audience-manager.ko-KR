@@ -114,7 +114,7 @@ ht-degree: 0%
 
 아래 비디오를 시청하여 자사 유사 모델을 만들어 변환자처럼 보이는 방문자를 더 많이 찾을 수 있는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/30933?captions=kor)
 
 >[!MORELIKETHIS]
 >

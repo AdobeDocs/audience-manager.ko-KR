@@ -8,9 +8,17 @@ title: ID 모니터링 및 차단 목록에 추가
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 0%
 
 ---
@@ -49,6 +57,6 @@ ht-degree: 0%
 
 ID가 차단 목록에 추가되는 가장 빈번한 원인은 고객 인프라와 Audience Manager 간의 잘못된 통합입니다. 차단 목록에 추가된 ID를 식별할 때 Audience Manager 통합을 철저히 검토해야 합니다. 다른 Experience Cloud 솔루션 또는 외부 시스템과 작동하도록 Audience Manager을 구성하는 방법에 대한 자세한 설명은 **구현 및 통합 안내서**&#x200B;를 참조하십시오.
 
-차단 목록에 ID가 추가되는 또 다른 빈번한 원인은 색인 지정 보트(웹 크롤러)이며, 이는 일반적으로 트래픽 증가를 유발하여 동일한 ID가 [!DNL DCS]에 여러 번 전송됩니다. 색인 지정 보트를 차단 목록에 추가되는 ID의 이유로 식별하는 경우 웹 사이트에 대한 보트 액세스를 제한해야 합니다.
+차단 목록에 ID가 추가되는 또 다른 빈번한 원인은 색인 지정 보트(웹 웹 크롤러)이며, 이는 일반적으로 트래픽 증가를 유발하여 동일한 ID가 [!DNL DCS]에 여러 번 전송되는 것입니다. 색인 지정 보트를 차단 목록에 추가되는 ID의 이유로 식별하는 경우 웹 사이트에 대한 보트 액세스를 제한해야 합니다.
 
 통합 문제를 확인하기 어려운 경우 주저하지 말고 고객 지원 센터에 문의하십시오. 지원 요청을 열기 전에 브라우저의 `.har` `HTTP` 아카이브를 준비했는지 확인하십시오. 이 아카이브는 지원 팀이 ID가 차단 목록에 추가된 이유를 식별하는 데 도움이 됩니다.

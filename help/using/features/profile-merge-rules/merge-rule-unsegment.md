@@ -7,9 +7,12 @@ title: 프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 2%
 
 ---
@@ -44,7 +47,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >**세그먼트 평가 및 자격 상실에 대한 장치 제한**.
->&#x200B;>Audience Manager은 장치 그래프를 사용하는 프로필 병합 규칙으로 세그먼트를 평가할 때 최대 100개의 장치를 병합합니다. Audience Manager은 현재 장치와 현재 장치에 연결된 최대 99개의 장치를 [인증된 프로필](../../reference/visitor-authentication-states.md)(장치 간 ID)로 평가합니다. 세그먼트 해제 신호가 발생하면 현재 장치와 추가 장치가 대상의 세그먼트에서 제거됩니다.
+>Audience Manager은 장치 그래프를 사용하는 프로필 병합 규칙으로 세그먼트를 평가할 때 최대 100개의 장치를 병합합니다. Audience Manager은 현재 장치와 현재 장치에 연결된 최대 99개의 장치를 [인증된 프로필](../../reference/visitor-authentication-states.md)(장치 간 ID)로 평가합니다. 세그먼트 해제 신호가 발생하면 현재 장치와 추가 장치가 대상의 세그먼트에서 제거됩니다.
 
 ![](assets/last-device-graph.png)
 

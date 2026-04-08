@@ -7,9 +7,15 @@ title: 플랫폼 수준 키로 장치 타겟팅
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
-source-git-commit: b299783b993c5d4a1c7738eca82932c20f377ee7
+TQID: https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: 264
 ht-degree: 1%
 
 ---
@@ -19,8 +25,8 @@ ht-degree: 1%
 >[!WARNING]
 >
 >Google은 [!DNL Google Chrome] 헤더를 통해 수집된 정보를 최소화하기 위해 [!DNL Chromium] 및 모든 `User-Agent` 기반 브라우저의 기능을 업데이트했습니다.
->&#x200B;>2023년 3월부터는 Audience Manager에서 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을 활용하여 이러한 업데이트를 지원합니다. `User-Agent` 헤더를 통해 제공되는 트레이트 정보를 계속 사용하려면 [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 사용하고 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko)를 사용하도록 설정해야 합니다.
->&#x200B;>이러한 업데이트는 [DIL](../../../using/dil/dil-overview.md)에서 지원되지 않으므로 [!DNL DIL]을(를) 사용하는 Audience Manager 고객은 `User-Agent` 헤더를 통해 트레이트 정보를 수집할 수 없습니다.
+>2023년 3월부터는 Audience Manager에서 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을 활용하여 이러한 업데이트를 지원합니다. `User-Agent` 헤더를 통해 제공되는 트레이트 정보를 계속 사용하려면 [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)를 사용하고 [높은 엔트로피 사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ko)를 사용하도록 설정해야 합니다.
+>이러한 업데이트는 [DIL](../../../using/dil/dil-overview.md)에서 지원되지 않으므로 [!DNL DIL]을(를) 사용하는 Audience Manager 고객은 `User-Agent` 헤더를 통해 트레이트 정보를 수집할 수 없습니다.
 
 Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하여 사용자를 타겟팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
 

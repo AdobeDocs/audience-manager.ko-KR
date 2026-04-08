@@ -2,9 +2,18 @@
 title: Audience Manager 태그 확장 프로그램에서 웹 SDK 태그 확장 프로그램으로 마이그레이션
 description: Audience Manager용 데이터 수집 라이브러리를 Audience Manager 태그 확장에서 웹 SDK 태그 확장으로 업데이트하는 단계를 이해합니다
 exl-id: 7f0486db-4511-4311-90df-290580fdcd78
-source-git-commit: a50aaeb5e384685100dc3ecc1d6d45f1c41461d0
+TQID: https://experienceleague.adobe.com/onqgwnCIZMdiZz6nGRWy7bpbXpMF1zizqyQOQjSkGTc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: 1309
 ht-degree: 0%
 
 ---
@@ -13,7 +22,7 @@ ht-degree: 0%
 
 ## 의도한 대상
 
-이 페이지는 [Audience Manager 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/audience-manager/overview)을 사용하여 웹 컬렉션 데이터를 Audience Manager으로 가져오는 Audience Manager 고객을 위한 것입니다. AppMeasurement JavaScript Audience Manager 라이브러리를 사용하는 고객의 경우 AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 [의 데이터 수집 라이브러리를 업데이트하는 방법에 대한 안내서를 참조하십시오](appmeasurement-to-web-sdk.md).
+이 페이지는 [Audience Manager 태그 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/audience-manager/overview)을 사용하여 웹 컬렉션 데이터를 Audience Manager으로 가져오는 Audience Manager 고객을 위한 것입니다. AppMeasurement JavaScript 라이브러리를 사용하는 고객의 경우 AppMeasurement JavaScript 라이브러리에서 웹 SDK JavaScript 라이브러리로 [의 데이터 수집 라이브러리를 업데이트하는 방법에 대한 안내서를 참조하십시오](appmeasurement-to-web-sdk.md).
 
 ## 이 구현 경로의 장단점
 
@@ -23,7 +32,7 @@ ht-degree: 0%
 | --- | --- |
 | <ul><li>**사이트에 코드가 변경되지 않음**: 구현에 이미 태그가 설치되어 있으므로 태그 인터페이스에서 모든 마이그레이션 업데이트를 수행할 수 있습니다.</li><li>**기존 구현을 사용**: 이 방법에서는 완전히 새로운 구현이 필요하지 않습니다. 새로운 규칙 작업이 필요하지만 최소한의 변경으로 기존 데이터 요소와 규칙 조건을 재사용할 수 있습니다.</li><li>**스키마가 필요하지 않습니다**: Web SDK으로 마이그레이션하는 이 단계에서는 XDM 스키마가 필요하지 않습니다. 대신 Adobe Audience Manager으로 직접 데이터를 보내는 `data` 개체를 채울 수 있습니다. 웹 SDK으로의 마이그레이션이 완료되면 조직에 대한 스키마를 만들고 데이터스트림 매핑을 사용하여 적용 가능한 XDM 필드를 채울 수 있습니다. 마이그레이션 프로세스의 이 단계에서 스키마가 필요한 경우 조직에서 Adobe Audience Manager XDM 스키마를 사용해야 합니다. 이 스키마를 사용하면 향후 조직에서 자체 스키마를 사용하는 것이 더 어려워집니다.</li></ul> | <ul><li>**구현 기술 부채**: 이 방법은 기존 구현의 수정된 형식을 사용하므로 구현 논리를 추적하고 필요한 경우 변경을 수행하는 것이 더 어려울 수 있습니다. 사용자 지정 코드는 특히 디버깅하기 어려울 수 있습니다.</li><li>**데이터를 플랫폼에 보내려면 매핑이 필요합니다**: 조직에서 Real-Time CDP을 사용할 준비가 되면 Adobe Experience Platform의 데이터 세트로 데이터를 보내야 합니다. 이 작업을 수행하려면 `data` 개체의 모든 필드가 XDM 스키마 필드에 할당하는 데이터 스트림 매핑 도구의 항목이어야 합니다. 매핑은 이 워크플로우에 대해 한 번만 수행하면 되며 구현 변경을 수반하지 않습니다. 그러나 XDM 개체에서 데이터를 전송할 때는 필요하지 않은 추가 단계입니다.</li></ul> |
 
-Adobe Adobe Audience Manager 태그 확장을 사용하는 기존 구현이 있는 경우 이 구현 경로를 따르는 것이 좋습니다.
+Adobe 태그 확장을 사용하는 기존 구현이 있는 경우 이 구현 경로를 따르는 것이 좋습니다.
 
 ## 웹 SDK으로 마이그레이션하는 데 필요한 단계
 

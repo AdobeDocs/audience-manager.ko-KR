@@ -6,9 +6,12 @@ title: 신호에서 트레이트 만들기
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/XKtxgfC9Zv-9CqiZb4Y916yxalGuz5YnsE31Nax8z0M
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 332
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 0%
 
 트레이트에 이미 사용된 트레이트를 포함하여 모든 신호에서 새 트레이트를 만들고 트레이트 만들기 후에 자격을 부여하는 향후 대상을 캡처합니다. 비디오를 시청하여 빠른 데모를 수행하거나 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30934/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/30934/?captions=kor&quality=12)
 
 ## 신호 대시보드에서 트레이트 만들기 {#create-traits-from-signal-dashboard}
 

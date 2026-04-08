@@ -6,9 +6,13 @@ title: 즉각적인 장치 간 억제
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: 778
 ht-degree: 6%
 
 ---
@@ -68,5 +72,5 @@ ht-degree: 6%
 
 타이밍과 관련된 다음 측면을 염두에 두십시오.
 
-* 세그먼트는 장치 프로필이 [에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 &#x200B;](../../reference/system-components/components-edge.md)Edge[!UICONTROL Edge]에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
+* 세그먼트는 장치 프로필이 [에 저장되는 것과 같은 기간(즉, 마지막 실시간 상호 작용 이후 14일) 동안 ](../../reference/system-components/components-edge.md)Edge[!UICONTROL Edge]에 저장됩니다. [데이터 유지 FAQ](../../faq/faq-privacy.md#data-retention-faq)에서 데이터 유지에 대해 자세히 알아보세요.
 * 세그먼트 해제 작업이 [!DNL DCS] 영역에 걸쳐 전파되는 데 약 24시간이 소요됩니다. [!DNL DCS] 지역 [여기](../../reference/system-components/components-data-collection.md) 및 [여기](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)에 대해 자세히 알아보세요.

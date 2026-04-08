@@ -6,9 +6,11 @@ solution: Audience Manager
 title: Audience Manager를 사용하고 있지 않은데 Javascript 디버거에 Audience Manager Javascript 호출이 표시됩니다. 왜입니까?
 feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/Zpe6ML-WJ5tu4x-gYuPJfAn4IklOxFw2bW8E7ys8YSc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: 136
 ht-degree: 98%
 
 ---
@@ -23,6 +25,6 @@ Adobe Audience Manager를 사용하고 있지 않은데 Javascript 디버거에 
 
 ## 답변
 
-귀사의 자산에서 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 실행 중일 수 있습니다. 그럴 경우 이 Audience Manager 참조가 있는 것이 반드시 자산에서 Audience Manager를 실행 중임을 나타내지는 않습니다. 대신 Audience Manager가 이 서비스를 실행하고 있음을 의미합니다.
+귀사의 자산에서 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 실행 중일 수 있습니다. 그럴 경우 이 Audience Manager 참조가 있는 것이 반드시 자산에서 Audience Manager를 실행 중임을 나타내지는 않습니다. 대신 Audience Manager가 이 서비스를 실행하고 있음을 의미합니다.
 
-일반적으로 Audience Manager 서버 호출은 [고객 ID를 동기화](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ko)하기 위해 수행됩니다.
+일반적으로 Audience Manager 서버 호출은 [고객 ID를 동기화](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html)하기 위해 수행됩니다.

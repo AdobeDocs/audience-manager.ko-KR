@@ -8,9 +8,14 @@ title: 선언된 ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
+TQID: https://experienceleague.adobe.com/7Jd2lUzJ-blClVnsnYVb9fZZzkaZkQlHjjBbECMmYUc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: 1151
 ht-degree: 8%
 
 ---
@@ -37,7 +42,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>이벤트 호출</b> </td> 
-   <td colname="col2"> <p>작업을 수행하려면 페이지에 <span class="wintitle"> DIL </span>과(와) <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 필요합니다. <span class="wintitle"> DIL </span>은(는) <span class="wintitle"> Adobe Experience Platform Identity 서비스 </span>에서 제공하는 <code> setVisitorID </code> 함수에서 <span class="keyword">개의 선언된 ID </span>을(를) 가져와서 <span class="keyword"> Audience Manager </span>에 전달합니다. </p> </td> 
+   <td colname="col2"> <p>작업을 수행하려면 페이지에 <span class="wintitle"> DIL </span>과(와) <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity 서비스 </a> 코드가 필요합니다. <span class="wintitle"> DIL </span>은(는) <span class="wintitle"> Adobe Experience Platform Identity 서비스 </span>에서 제공하는 <code> setVisitorID </code> 함수에서 <span class="keyword">개의 선언된 ID </span>을(를) 가져와서 <span class="keyword"> Audience Manager </span>에 전달합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>일치 ID</b> </td> 
@@ -184,7 +189,7 @@ ht-degree: 8%
 
 ## [!UICONTROL DIL]이(가) [!DNL Adobe Experience Platform Identity Service]을(를) 사용하여 [!UICONTROL Declared IDs]을(를) 전달합니다. {#dil-id-service-pass-declared-ids}
 
-[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)와 함께 사용하는 경우 더 이상 사용되지 않는 [!UICONTROL declared IDs] 및 `dpid` 변수를 사용하여 `dpuuid`을(를) 전달할 필요가 없습니다. 대신 현재 버전의 [!UICONTROL DIL]은(는) `visitorService` 함수를 사용하여 [!UICONTROL declared IDs]의 `setCustomerIDs` 함수에서 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오. 아래와 같이 `visitorService`에서 `DIL.create`을(를) 호출합니다.
+[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)와 함께 사용하는 경우 더 이상 사용되지 않는 [!UICONTROL declared IDs] 및 `dpid` 변수를 사용하여 `dpuuid`을(를) 전달할 필요가 없습니다. 대신 현재 버전의 [!UICONTROL DIL]은(는) `visitorService` 함수를 사용하여 [!UICONTROL declared IDs]의 `setCustomerIDs` 함수에서 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 가져옵니다. 자세한 내용은 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오. 아래와 같이 `visitorService`에서 `DIL.create`을(를) 호출합니다.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +200,7 @@ var vDil = DIL.create({
 });
 ```
 
-`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [Experience Cloud 서비스 시작](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/getting-started)을 참조하세요.
+`namespace` 키-값 쌍에서 `MCORG`은(는) [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [Experience Cloud 서비스 시작](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started)을 참조하세요.
 
 ## 더 이상 사용되지 않는 함수 {#deprecated-functions}
 

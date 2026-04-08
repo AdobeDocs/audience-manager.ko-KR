@@ -6,9 +6,14 @@ title: 알고리즘 모델 트레이트 제외
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 feature: Algorithmic Models
 exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/E629v49xWYBTIP5wPBYeJY6ts1f2P0WDAhtNOPUuEKQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: 633
 ht-degree: 0%
 
 ---
@@ -49,11 +54,11 @@ ht-degree: 0%
 
 비디오 튜토리얼을 선호하는 경우 트레이트 제외에 대한 비디오 데모를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/34823/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 또한 장치 간 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/36875/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## 중요한 측면 및 제한 사항 {#important-aspects-and-limitations}
 
@@ -96,7 +101,7 @@ ht-degree: 0%
 
 [!UICONTROL Look-Alike Model]에서 특정 특성을 제외하는 방법 및 이유를 알아보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/34823?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## 관련 링크
 

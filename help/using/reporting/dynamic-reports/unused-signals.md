@@ -7,9 +7,12 @@ title: 사용되지 않은 신호 보고서
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
+TQID: https://experienceleague.adobe.com/OfDw6FsS-MlFtwy-91jBH1O8d57aCvOap94ZK3zHVco
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 1%
 
 ## 개요
 
-신호는 [!DNL Audience Manager]키-값 쌍[(예: &#x200B;](../../reference/key-value-pairs-explained.md) 등)의 형태로 `color=blue, price>100, gender=female`에 전달된 웹 사이트의 정보입니다.
+신호는 [!DNL Audience Manager]키-값 쌍[(예: ](../../reference/key-value-pairs-explained.md) 등)의 형태로 `color=blue, price>100, gender=female`에 전달된 웹 사이트의 정보입니다.
 
 사용되지 않은 신호는 수집하지만 트레이트에 매핑되지 않은 데이터로 구성됩니다. [!UICONTROL Unused Signals] 보고서는 날짜, 키, 값 및 빈도 수를 기준으로 표에 있는 데이터를 표시합니다. 하루에 100번 이상 [!DNL Audience Manager]에 전달된 매핑되지 않은 신호는 [!UICONTROL Unused Signals] 보고서에 사용할 수 있습니다.
 

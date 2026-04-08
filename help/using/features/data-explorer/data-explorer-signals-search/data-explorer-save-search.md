@@ -6,9 +6,11 @@ title: 검색 기준 저장
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
 exl-id: ab56ddb7-6b0b-4a3d-9590-00c49a4ae7dc
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/ecQ9AHZ0NrZtQlNYRnn2arc9YLPRNr6iEDkHS5GqlkQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 176
 ht-degree: 0%
 
 ---
@@ -29,10 +31,10 @@ ht-degree: 0%
 1. **[!UICONTROL Default Sorting]** 모드 선택:
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 저장된 검색은 [!UICONTROL Saved Search] 섹션에서 볼 수 있으며 필요할 때마다 사용할 수 있습니다.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다. 저장된 검색은 [!UICONTROL Saved Search] 섹션에서 볼 수 있으며 필요할 때마다 사용할 수 있습니다.
 
 ![저장된 검색](assets/saved-search.png)
 
 아래 비디오를 통해 신호 검색을 저장하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30532?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/)

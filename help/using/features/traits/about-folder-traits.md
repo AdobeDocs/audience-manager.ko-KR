@@ -8,9 +8,14 @@ title: 폴더 트레이트 정보
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 533
 ht-degree: 0%
 
 ---
@@ -58,7 +63,7 @@ ht-degree: 0%
 * 트레이트 데이터 원본에 대한 `READ` 및 `WRITE` 그룹 권한.
 * 트레이트 데이터 원본에 대한 `VIEW_ALL_TRAITS` 및 `EDIT_ALL_TRAITS` 와일드카드 권한입니다.
 
-[!UICONTROL RBAC]관리 설명서[에서 &#x200B;](../../features/administration/administration-overview.md#create-group) 권한을 할당하는 방법을 알아보세요.
+[!UICONTROL RBAC]관리 설명서[에서 ](../../features/administration/administration-overview.md#create-group) 권한을 할당하는 방법을 알아보세요.
 
 ## 제한 및 기타 고려 사항 {#limits}
 

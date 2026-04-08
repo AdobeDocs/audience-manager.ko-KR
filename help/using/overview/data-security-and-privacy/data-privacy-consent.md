@@ -8,9 +8,13 @@ title: 동의 관리
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/ky1cNyZ507tDn2FFS6umoWsT-zaZ05wQwvK8xvNc7HU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: 685
 ht-degree: 98%
 
 ---
@@ -31,11 +35,11 @@ Audience Manager는 여러 채널을 통해 개인화된 경험을 제공할 수
 
 ## Experience Cloud 옵트인 서비스
 
-[Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko)를 사용하면 방문자가 사용자의 사이트를 방문할 때 개인의 장치 또는 브라우저에서 쿠키를 설정할 수 있는지 확인하는 데 방문자가 도움을 줄 수 있도록 프로토콜을 설정할 수 있습니다.
+[Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)를 사용하면 방문자가 사용자의 사이트를 방문할 때 개인의 장치 또는 브라우저에서 쿠키를 설정할 수 있는지 확인하는 데 방문자가 도움을 줄 수 있도록 프로토콜을 설정할 수 있습니다.
 
 이것은 사용자의 동의를 얻기 전에 방문자를 위해 웹 페이지에 쿠키를 배치할 수 있는지 여부와 배치할 수 있는 Experience Cloud 솔루션을 제어할 수 있도록 설계된 [!DNL Experience Cloud ID (ECID) Service]의 확장입니다.
 
-또한 [Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ko)를 사용하면 더 큰 디자인의 일부로서 CMP(동의 관리 플랫폼) 및 기존 시스템과 통합되는 프로토콜을 설정할 수도 있습니다.
+또한 [Experience Cloud 옵트인 서비스](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)를 사용하면 더 큰 디자인의 일부로서 CMP(동의 관리 플랫폼) 및 기존 시스템과 통합되는 프로토콜을 설정할 수도 있습니다.
 
 ## 옵트인 관리 / 동의 획득
 
@@ -43,7 +47,7 @@ Audience Manager 고객은 Audience Manager에서 트레이트로서 광고 또�
 
 ## 옵트아웃 관리 / 동의 철회
 
-[귀하의 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) 페이지를 통해 Adobe Experience Cloud에 대한 옵트아웃을 관리할 수 있습니다. 1번의 클릭으로 최종 사용자가 Adobe Experience Cloud 광고 솔루션(Audience Manager 포함)에 의한 데이터 수집을 제어하고 옵트아웃할 수 있습니다. 특히 개인 정보 보호 선택 사항 페이지의 [비즈니스 고객 섹션](https://www.adobe.com/kr/privacy/opt-out.html#customeruse)을 참조하십시오. 타사 쿠키를 지원하지 않는 브라우저의 경우 [선언된 ID 타겟팅](../../features/declared-ids.md#declared-id-targeting)을 참조하십시오. 모바일 장치의 경우, 적절한 Audience Manager 식별자를 검색하고 [선언된 ID 옵트아웃 예](../../features/declared-ids.md#opt-out-examples)에서 언급한 대로 Audience Manager 옵트아웃 API를 호출하십시오. 뒤이어 Mobile SDK에서 옵트아웃 API를 사용하는 해당 사용자에 대한 모든 데이터 수집을 중단할 수 있습니다. [Android 장치](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=ko) 및 [iOS 장치](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=ko)를 참조하십시오. 옵트아웃에 대한 자세한 내용은 [데이터 개인 정보 보호 요청 문서](../../overview/data-security-and-privacy/data-privacy-requests.md)에 있습니다.
+[귀하의 개인 정보 보호 선택 사항](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) 페이지를 통해 Adobe Experience Cloud에 대한 옵트아웃을 관리할 수 있습니다. 1번의 클릭으로 최종 사용자가 Adobe Experience Cloud 광고 솔루션(Audience Manager 포함)에 의한 데이터 수집을 제어하고 옵트아웃할 수 있습니다. 특히 개인 정보 보호 선택 사항 페이지의 [비즈니스 고객 섹션](https://www.adobe.com/kr/privacy/opt-out.html#customeruse)을 참조하십시오. 타사 쿠키를 지원하지 않는 브라우저의 경우 [선언된 ID 타겟팅](../../features/declared-ids.md#declared-id-targeting)을 참조하십시오. 모바일 장치의 경우, 적절한 Audience Manager 식별자를 검색하고 [선언된 ID 옵트아웃 예](../../features/declared-ids.md#opt-out-examples)에서 언급한 대로 Audience Manager 옵트아웃 API를 호출하십시오. 뒤이어 Mobile SDK에서 옵트아웃 API를 사용하는 해당 사용자에 대한 모든 데이터 수집을 중단할 수 있습니다. [Android 장치](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) 및 [iOS 장치](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html)를 참조하십시오. 옵트아웃에 대한 자세한 내용은 [데이터 개인 정보 보호 요청 문서](../../overview/data-security-and-privacy/data-privacy-requests.md)에 있습니다.
 
 ## 제2자 파트너에 대한 동의 관리
 

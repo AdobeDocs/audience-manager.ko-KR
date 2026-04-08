@@ -7,9 +7,14 @@ title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/tK8hkKLaE-jkzO780-SIHxrwm7VhqnvoL-4G1nH43Cc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: e8a4c7eb-7254-4984-ac46-e651a57c7e39id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: 1263
 ht-degree: 1%
 
 ---
@@ -56,7 +61,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**: 이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 보존 기간을 설정할 수 있습니다. 이렇게 하면 Audience Manager 플랫폼에서 고객 ID를 마지막으로 본 후 Audience Manager이 데이터베이스에 고객 ID를 유지하는 기간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소값은 1개월이고 최대값은 5년입니다. 모든 달은 30일로 계산됩니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 유지에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
-이러한 설정과 연결된 텍스트 필드를 사용하면 [!UICONTROL Data Source]프로필 병합 규칙 옵션[에 나타나는 별칭으로 &#x200B;](merge-rule-definitions.md)의 이름을 바꿀 수 있습니다. 예를들어, 별칭을 **[!UICONTROL Use as Authenticated Profile]**&#x200B;에 추가하면 해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. **[!UICONTROL Use as a Device Graph]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
+이러한 설정과 연결된 텍스트 필드를 사용하면 [!UICONTROL Data Source]프로필 병합 규칙 옵션[에 나타나는 별칭으로 ](merge-rule-definitions.md)의 이름을 바꿀 수 있습니다. 예를들어, 별칭을 **[!UICONTROL Use as Authenticated Profile]**&#x200B;에 추가하면 해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. **[!UICONTROL Use as a Device Graph]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
 
 ## 프로필 병합 규칙 만들기 {#create-profile-merge-rule}
 
@@ -126,7 +131,7 @@ Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인�
 
 ## Adobe Experience Platform Identity 서비스 고객용 {#id-service-customers}
 
-[!UICONTROL Adobe Experience Platform Identity Service]&#x200B;(으)로 작업할 때는 [&#x200B; 및 &#x200B;](../../dil/dil-overview.md)DIL[!UICONTROL Profile Merge Rules]의 최신 버전을 사용하는 것이 좋습니다. 그러나 이 기능을 사용하기 위해 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 사용할 필요는 없습니다. [!UICONTROL DIL]을(를) 사용하고 있다면 아래의 [레거시 DIL 섹션](#legacy-dil)을 참조하세요.
+[!UICONTROL Adobe Experience Platform Identity Service]&#x200B;(으)로 작업할 때는 [ 및 ](../../dil/dil-overview.md)DIL[!UICONTROL Profile Merge Rules]의 최신 버전을 사용하는 것이 좋습니다. 그러나 이 기능을 사용하기 위해 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 사용할 필요는 없습니다. [!UICONTROL DIL]을(를) 사용하고 있다면 아래의 [레거시 DIL 섹션](#legacy-dil)을 참조하세요.
 
 ### 고객 ID 설정 기능 구성
 
@@ -150,7 +155,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Source 자세한 내용은 [크로스 디바이스 데이터 만들기](#create-data-source) 및 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오.
+자세한 내용은 [크로스 디바이스 데이터 만들기](#create-data-source) 및 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오.
 
 ### `DIL.create` 함수 구성
 
@@ -165,7 +170,7 @@ var vDil = DIL.create({
 });
 ```
 
-네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리: 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
+네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리: 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 ### SDK 구성
 
@@ -185,7 +190,7 @@ DIL.create({
 });
 ```
 
-자세한 내용은 [!UICONTROL DIL]선언된 ID 변수[의 기존 &#x200B;](../declared-ids.md#declared-id-variables) 섹션을 참조하십시오.
+자세한 내용은 [!UICONTROL DIL]선언된 ID 변수[의 기존 ](../declared-ids.md#declared-id-variables) 섹션을 참조하십시오.
 
 ### SDK 구성 {#configure-sdks-legacy-dil}
 
@@ -215,15 +220,15 @@ DIL.create({
     </code></p>
     <p> <b>예:</b> </p><p>
     <code class="javascript">
-      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>
  </tbody>
 </table>
 
-[Android용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=ko) 및 [iOS용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=ko)도 참조하세요.
+[Android용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) 및 [iOS용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html)도 참조하세요.
 
 >[!MORELIKETHIS]
 >

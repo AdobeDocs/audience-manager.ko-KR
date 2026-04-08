@@ -6,9 +6,13 @@ solution: Audience Manager
 title: URL 대상 구성
 feature: Destination Basics
 exl-id: b5af87c9-4460-43a7-9808-242eac876c39
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/--3mSis3KSVJwDsfQ0-6AZPRL7den1HX5Cf7ovnWPpI
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 1%
 
 ---
@@ -38,7 +42,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Data Export Labels] {#data-export-labels-dest}
 
-이 섹션에는 [&#x200B; 대상에 &#x200B;](../../features/data-export-controls.md)데이터 내보내기 컨트롤[!DNL URL]을 적용하는 옵션이 포함되어 있습니다. 데이터 내보내기 컨트롤을 사용하지 않는 경우 이 단계를 건너뜁니다. 이 섹션을 완료하려면
+이 섹션에는 [ 대상에 ](../../features/data-export-controls.md)데이터 내보내기 컨트롤[!DNL URL]을 적용하는 옵션이 포함되어 있습니다. 데이터 내보내기 컨트롤을 사용하지 않는 경우 이 단계를 건너뜁니다. 이 섹션을 완료하려면
 
 1. 컨트롤을 표시하려면 **[!UICONTROL Data Export Labels]**&#x200B;을(를) 클릭합니다.
 2. 대상에 적용된 데이터 내보내기 컨트롤에 해당하는 레이블을 선택합니다(자세한 내용은 [대상에 내보내기 레이블 추가](/help/using/features/destinations/add-data-export-labels.md) 참조).

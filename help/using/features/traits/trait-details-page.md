@@ -8,9 +8,14 @@ uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: id 유형 분류, id 분류, 대상 id 보고, 교차 장치, 교차 장치 ID, 장치 ID
 feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: 616
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 0%
 1. **[!UICONTROL Add New]**: 새 [!UICONTROL rule-based], [!UICONTROL algorithmic] 또는 [!UICONTROL onboarded traits]을(를) 만들려면 이 옵션을 사용합니다.
 2. **[!UICONTROL Edit]**: 이 옵션을 사용하여 현재 [!UICONTROL trait]의 구성을 변경합니다.
 3. **[!UICONTROL Delete]**: 이 옵션을 사용하여 Audience Manager 계정에서 현재 [!UICONTROL trait]을(를) 제거합니다.
-4. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 데이터 요금 [!UICONTROL traits]에서 현재 보고 있는 것과 유사한 [!UICONTROL Audience Marketplace]을(를) 찾을 수 있습니다. [을(를) 탐색하고 유사한 트레이트를 찾는 방법에 대해 알아보려면 &#x200B;](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)데이터 구매자용 Audience Marketplace[!UICONTROL Marketplace]을(를) 참조하십시오.
+4. **[!UICONTROL Marketplace Recommendations]**: 이 옵션을 사용하면 구독하지 않은 데이터 요금 [!UICONTROL traits]에서 현재 보고 있는 것과 유사한 [!UICONTROL Audience Marketplace]을(를) 찾을 수 있습니다. [을(를) 탐색하고 유사한 트레이트를 찾는 방법에 대해 알아보려면 ](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)데이터 구매자용 Audience Marketplace[!UICONTROL Marketplace]을(를) 참조하십시오.
 
 ![기본 특성 정보](assets/basic-trait-information.png)
 
@@ -42,7 +47,7 @@ ht-degree: 0%
 
 [!UICONTROL rule-based traits]의 경우 사용자가 브라우저에서 [!UICONTROL trait]에 대한 자격을 얻을 때 [!UICONTROL trait] 자격이 실시간으로 발생합니다.
 
-[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager으로 &#x200B;](../../faq/faq-inbound-data-ingestion.md)되고, 이 때 [!UICONTROL trait] 자격이 발생합니다.
+[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager으로 ](../../faq/faq-inbound-data-ingestion.md)되고, 이 때 [!UICONTROL trait] 자격이 발생합니다.
 
 [!UICONTROL Trait Graph]에는 다음 정보가 표시됩니다.
 
@@ -63,7 +68,7 @@ ht-degree: 0%
   >
   >Audience Manager은 [!UICONTROL Identity Type Breakdown]에 적합한 ID가 [!UICONTROL cross-device]개인 경우에만 [!UICONTROL trait] 보고서를 표시합니다.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/32080?captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## [!UICONTROL Trait] 식 {#trait-expression}
 

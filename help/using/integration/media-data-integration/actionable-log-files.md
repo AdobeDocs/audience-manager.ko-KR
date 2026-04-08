@@ -8,9 +8,13 @@ title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/NL19RzO-EfALqH0Exkt5PZeBO-mZXztl4ioiJRp-g4g
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: 1601
 ht-degree: 2%
 
 ---
@@ -41,7 +45,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 -->
 
@@ -53,11 +57,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Actionable Log Files] *픽셀 호출* 대신 [&#x200B; &#x200B;](../../integration/media-data-integration/impression-data-pixels.md)을(를) 구현하는 것이 좋습니다. 이 경우 트레이트의 빈도가 증가하므로 두 옵션을 모두 사용하지 않도록 합니다.
+>[!UICONTROL Actionable Log Files] *픽셀 호출* 대신 [ ](../../integration/media-data-integration/impression-data-pixels.md)을(를) 구현하는 것이 좋습니다. 이 경우 트레이트의 빈도가 증가하므로 두 옵션을 모두 사용하지 않도록 합니다.
 
 ## 실행 가능한 신호 {#actionable-signals}
 
-신호는 [에서 &#x200B;](../../reference/signal-trait-segment.md)가장 작은 데이터 단위[!DNL Audience Manager]입니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 광고 서버 로그의 신호로 광고주, 사업부, 광고 및 캠페인 값, 노출 이벤트, 클릭 이벤트 및 전환 이벤트를 캡처할 수 있습니다.
+신호는 [에서 ](../../reference/signal-trait-segment.md)가장 작은 데이터 단위[!DNL Audience Manager]입니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 광고 서버 로그의 신호로 광고주, 사업부, 광고 및 캠페인 값, 노출 이벤트, 클릭 이벤트 및 전환 이벤트를 캡처할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -331,7 +335,7 @@ creative 123을 보았지만 클릭하거나 전환하지 않고 creative 456을
 
 ### Google 보고서 또는 Audience Lab에서 Audience Optimization Campaign Manager Floodlight 활동 사용
 
-[Floodlight 태그](https://support.google.com/dcm/partner/answer/4293719?hl=en)를 통해 광고주는 사용자 전환을 추적할 수 있습니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 [!DNL Google Campaign Manager]Audience Optimization 보고서[&#x200B; 또는 &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md)대상 랩[에서 &#x200B;](../../features/audience-lab/audience-lab.md) 전환을 추적할 수 있습니다.
+[Floodlight 태그](https://support.google.com/dcm/partner/answer/4293719?hl=en)를 통해 광고주는 사용자 전환을 추적할 수 있습니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 [!DNL Google Campaign Manager]Audience Optimization 보고서[ 또는 ](../../reporting/audience-optimization-reports/audience-optimization-reports.md)대상 랩[에서 ](../../features/audience-lab/audience-lab.md) 전환을 추적할 수 있습니다.
 
 1. 트레이트를 만들고 다음 트레이트 규칙을 사용하여 광고 서버 로그에서 전환을 캡처합니다.
 

@@ -7,9 +7,13 @@ title: GDPR 용어집
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+TQID: https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 96%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 96%
 
 GDPR은 EU(데이터 주제)의 개인에게 개인 데이터에 대한 더 많은 제어 권한을 부여하는 동시에 EU 내 규정을 보다 효과적으로 통합함으로써 국제 비즈니스에 대한 규제 환경을 단순화한다는 기본 목표를 가지고 2018년 5월 25일부터 시행되었습니다. Adobe Audience Manager팀은 Adobe의 GDPR 대비의 일환으로 소비자인 데이터 주제의 액세스 및 삭제 요청을 지원하는 데 필요한 서비스 및 프로세스를 향상시켰습니다.
 
-Experience Cloud에서 GDPR이 작동하는 방식을 더 잘 이해하려면 [개인 정보 보호 규정 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko)에서도 GDPR에 대해 읽어야 합니다.
+Experience Cloud에서 GDPR이 작동하는 방식을 더 잘 이해하려면 [개인 정보 보호 규정 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en)에서도 GDPR에 대해 읽어야 합니다.
 
 ## GDPR 용어집 {#gdpr-glossay}
 
@@ -58,7 +62,7 @@ GDPR과 관련하여 사용되는 주요 용어에 익숙해지십시오. 가장
 
  
 
-**Audience Manager 식별자(ID):** Adobe Audience Manager는 다양한 유형의 ID를 저장합니다. [Audience Manager 식별자](data-privacy-ids.md) 페이지에는 이러한 ID, 해당 데이터 소스 및 간단한 설명이 요약되어 있습니다. [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)에 요청을 보낼 때 이러한 ID를 참조하여 데이터 주제에 대한 삭제 또는 액세스 요청을 수행하십시오.
+**Audience Manager 식별자(ID):** Adobe Audience Manager는 다양한 유형의 ID를 저장합니다. [Audience Manager 식별자](data-privacy-ids.md) 페이지에는 이러한 ID, 해당 데이터 소스 및 간단한 설명이 요약되어 있습니다. [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)에 요청을 보낼 때 이러한 ID를 참조하여 데이터 주제에 대한 삭제 또는 액세스 요청을 수행하십시오.
 
  
 

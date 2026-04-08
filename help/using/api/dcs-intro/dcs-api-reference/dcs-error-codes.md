@@ -4,9 +4,13 @@ title: DCS 오류 코드, 메시지 및 예제
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: f8ba09b674b71045e08f6d171471cdcdd0efb265
+TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: 1519
 ht-degree: 3%
 
 ---
@@ -23,7 +27,7 @@ ht-degree: 3%
 |---|---|---|
 | 0 | 지정되지 않은 오류 | 다른 오류 처리기에서 다루지 않는 이벤트를 처리하는 다목적 캐치 오류입니다. 이 오류를 해결하는 것은 어렵습니다. 알 수 없는 다양한 작업 또는 이벤트로 인해 발생할 수 있습니다. 이 오류가 표시되면 [!DNL DCS] 요청을 다시 시도하십시오. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 | 1 | 호스트 이름에 대한 구성을 찾을 수 없습니다. `hostname` | 요청에서 전송된 호스트 이름이 파트너 프로비저닝 팀에 의해 설정되지 않았습니다. 이 오류 메시지가 표시되면 [!DNL Adobe] 담당자에게 문의하십시오. |
-| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko)에서 찾는 방법에 대한 정보를 참조하십시오. |
+| 2 | 잘못된 `d_orgid` 값(이 조직 ID에 대한 구성을 찾을 수 없음): `ID` | 조직 ID가 잘못되었습니다. ID를 확인하고 요청을 다시 시도하십시오. 조직 ID를 모르거나 가지고 있는 경우 &quot;관리 페이지&quot; 섹션 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)에서 찾는 방법에 대한 정보를 참조하십시오. |
 | 10 | 특성을 평가할 수 없음 | 요청에 대한 트레이트가 부분적으로 평가되었거나 전혀 평가되지 않았습니다. 문제가 지속되면 [!DNL Adobe] 담당자에게 문의하십시오. |
 
 ## 통합 오류 코드 {#integration-error-codes}
@@ -133,7 +137,7 @@ ht-degree: 3%
 | --- | --- | --- |
 | 300 | 잘못된 고객 ID `_ID_` | 고객 ID가 잘못되었습니다(데이터 소스에 대한 값 누락, 통합 코드 누락, 데이터 소스에 대한 잘못된 형식, 차단된 고객 ID, 빈 고객 ID, 파트너에 속하지 않은 데이터 소스에 대한 무단 액세스 시도). |
 | 301 | 최대 고객 ID 수를 초과했습니다. 허용되는 최대값은 `_maximum allowed_`입니다. `_maximum found_`을(를) 찾았습니다. | 교차 장치 데이터 소스와 연결된 고객 ID 수가 요청당 허용된 교차 장치 ID 수를 초과했습니다. 이러한 ID에는 교차 장치, 모바일 또는 쿠키 ID가 포함됩니다. 제한은 현재 10으로 설정되어 있습니다. |
-| 302 | 승인되지 않은 고객 ID `_ID_` | 고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우 찾는 방법에 대한 자세한 내용은 [조직 및 계정 연결](https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html)의 &quot;조직 ID 찾기&quot; 섹션을 참조하십시오. |
+| 302 | 승인되지 않은 고객 ID `_ID_` | 고객 ID 데이터 소스를 현재 조직 ID가 소유하지 않는 경우 반환됩니다. 조직 ID를 모르거나 가지고 있는 경우 찾는 방법에 대한 자세한 내용은 [조직 및 계정 연결](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)의 &quot;조직 ID 찾기&quot; 섹션을 참조하십시오. |
 | 303 | 차단된 고객 ID `_ID_` | 고객 ID가 악의적인 것으로 식별되어 차단 목록에 추가하다에 추가되면 반환됩니다. |
 | 304 | 차단된 데이터 소스 ID `_ID_` | 데이터 소스 ID가 악의적인 것으로 식별되고 차단 목록에 추가하다에 추가되면 반환됩니다 |
 | 306 | 선언된 장치 ID `_ID_`이(가) 차단됨 | 장치 ID가 악의적인 것으로 확인되었으며 차단 목록에 추가하다에 추가되었습니다. 이 문제는 이 장치 ID가 포함된 극단적인 양의 DCS 요청을 단시간에 수신할 때 발생할 수 있습니다. |

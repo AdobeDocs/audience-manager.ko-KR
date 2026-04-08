@@ -7,9 +7,11 @@ title: 프로필 병합 규칙에 대한 보고서 지표
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: 693
 ht-degree: 0%
 
 ---
@@ -35,7 +37,7 @@ ht-degree: 0%
    <td colname="col2"> <p>표시: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle">명의 활성 사용자</span>: 지난 60일 동안 사이트에 인증한 사용자의 수입니다. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> 교차 장치</span>: 데이터 원본이 존재하는 수명 동안 선택한 <a href="merge-rules-start.md#create-data-source"> 인증된 프로필</a>의 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=ko"> 데이터 Source</a>에 저장된 총 <a href="merge-rule-definitions.md"> 교차 장치 ID</a> 수입니다. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> 교차 장치</span>: 데이터 원본이 존재하는 수명 동안 선택한 <a href="merge-rules-start.md#create-data-source"> 인증된 프로필</a>의 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> 데이터 Source</a>에 저장된 총 <a href="merge-rule-definitions.md"> 교차 장치 ID</a> 수입니다. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % 활성 사용자</span>: <span class="wintitle"> 활성 사용자</span>을(를) %로 표시합니다. </li> 
     </ul> <p> <span class="wintitle"> 인증된 활동</span>을 사용하면 활동, 볼륨 및 백분율별로 데이터 소스를 비교할 수 있습니다. 많은 사람과 높은 활성 사용자 비율이 있는 데이터 소스를 찾는 데 도움이 될 수 있습니다. 또는 전체 대상 크기와 비교하여 활성 사용자 비율이 높은 데이터 소스를 비교하는 데 도움이 될 수 있습니다. 예를 들어, 때로는 낮은 총 수명 수와 높은 활동을 가진 데이터 소스가 높은 수명 결과와 낮은 활동 수를 가진 데이터 소스보다 더 중요합니다. </p> <p> <p>참고: <span class="wintitle"> 인증된 활동</span> 지표에는 <span class="wintitle"> 프로필 링크</span> 데이터만 포함되어 있습니다. 이 보고서에는 <span class="wintitle"> Device Graph</span> 데이터가 포함되지 않습니다. </p> </p> </td> 
   </tr> 

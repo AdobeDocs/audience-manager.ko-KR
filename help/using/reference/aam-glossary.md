@@ -7,9 +7,14 @@ title: 용어 설명
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: e7029888-c8b0-46a7-849a-cf132a1559bf
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: 1157
 ht-degree: 96%
 
 ---
@@ -61,7 +66,7 @@ CRM ID는 고객이 자신의 CRM 시스템에서 사용자를 식별하는 ID�
 
 **고객 특성**
 
-[!DNL Experience Cloud Core Services] 제품 설명서에서 [고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko)을 참조하십시오.
+[!DNL Experience Cloud Core Services] 제품 설명서에서 [고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)을 참조하십시오.
 
 
 
@@ -113,7 +118,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 **ECID(Experience Cloud ID)**
 
-이전 이름은 [!DNL Marketing Cloud] ID(MID 또는 MCID)였습니다. [!DNL Experience Cloud] ID는 ID 서비스의 중심입니다. 사이트 방문자에 대한 고유하고 지속적인 식별자입니다. 쿠키 및 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ko)를 참조하십시오.
+이전 이름은 [!DNL Marketing Cloud] ID(MID 또는 MCID)였습니다. [!DNL Experience Cloud] ID는 ID 서비스의 중심입니다. 사이트 방문자에 대한 고유하고 지속적인 식별자입니다. 쿠키 및 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)를 참조하십시오.
 
 
 
@@ -270,6 +275,6 @@ TTL은 자격이 있는 방문자가 트레이트에 남아 있는 일수를 정
 
 [!DNL Experience Cloud] ID 서비스(이전 방문자 ID)는 [!DNL Experience Cloud]의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
-[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 설명서를 참조하십시오.
+[Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 설명서를 참조하십시오.
 
 ## W-X-Y-Z {#w-z}

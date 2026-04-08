@@ -7,9 +7,13 @@ title: Audience Manager 구현
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/kGezI8iT63EVPpn4gdftTPXhhhm3ouQBl-9deJ1Xs0o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 996
 ht-degree: 0%
 
 ---
@@ -234,4 +238,4 @@ Audience Manager은 Data Integration Library([!DNL DIL])를 사용하여 대상 
 
 계정 관리자는 제품 구현 프로세스가 완료된 후 지속적인 지원 및 상담 서비스를 제공합니다. 계정 관리자와 정기적인 모임을 가질 수 있습니다. 이러한 모임을 통해 Audience Manager에서 최대한 많은 사용 및 가치를 얻을 수 있습니다.
 
-자세한 내용을 알고 Audience Manager을 시작하려면 [여기](https://www.adobe.com/kr/products/audiencemanager.html)로 문의하세요.
+자세한 내용을 알고 Audience Manager을 시작하려면 [여기](https://www.adobe.com/products/audiencemanager.html)로 문의하세요.

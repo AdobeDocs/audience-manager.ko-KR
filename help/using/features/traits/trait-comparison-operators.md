@@ -7,9 +7,11 @@ title: 트레이트 빌더에서 비교 연산자 사용
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/Mbrgy2gmtUB5wrjmxIYjFaYOxbnrvh3bMKbkJ4zrM4o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: 339
 ht-degree: 6%
 
 ---
@@ -51,7 +53,7 @@ ht-degree: 6%
 | **[!UICONTROL Matcheswords]** | 키-값 쌍의 값은 이 연산자에 의해 지정된 패턴과 *일치*&#x200B;합니다. |
 | **[!UICONTROL Startswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한*&#x200B;자로 시작합니다. |
 | **[!UICONTROL Endswith]** | 키-값 쌍 *의 값은 이 연산자가 지정한 문자로 끝납니다*. |
-| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값이 정규식에 지정된 패턴과 *일치*&#x200B;합니다. [에서 정규식을 사용하는 방법에 대해 &#x200B;](../../features/traits/trait-builder-regex.md)자세히 알아보기[!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | 키-값 쌍의 값이 정규식에 지정된 패턴과 *일치*&#x200B;합니다. [에서 정규식을 사용하는 방법에 대해 ](../../features/traits/trait-builder-regex.md)자세히 알아보기[!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >

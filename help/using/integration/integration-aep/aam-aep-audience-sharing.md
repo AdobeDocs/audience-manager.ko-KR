@@ -5,9 +5,14 @@ title: Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Ex
 keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유, AAM AEP 세그먼트 공유
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: cefdb449-7764-4855-a54f-3901d8be873d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: 1799
 ht-degree: 1%
 
 ---
@@ -18,17 +23,17 @@ ht-degree: 1%
 
 Audience Manager과 Adobe Experience Platform 간의 대상 공유 기능을 사용하면 Audience Manager 트레이트와 세그먼트를 Adobe Experience Platform에, Experience Platform 세그먼트를 Audience Manager에 공유할 수 있습니다.
 
-Audience Manager과 Adobe Experience Platform 간에 대상을 공유하려면 Experience Platform에서 [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko) 및 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ko) 대상이 필요합니다.
+Audience Manager과 Adobe Experience Platform 간에 대상을 공유하려면 Experience Platform에서 [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) 및 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) 대상이 필요합니다.
 
-Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform [세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)의 혜택을 받을 수 있습니다.
+Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform [세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)의 혜택을 받을 수 있습니다.
 
 Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사례에 Experience Platform 세그먼트를 사용할 수 있습니다.
 
 * 세그먼트에 [타사 데이터](/help/using/overview/data-types-collected.md#third-party-data) 추가;
 * [알고리즘 모델링](/help/using/features/algorithmic-models/understanding-models.md);
-* Experience Platform [대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=ko)에서 아직 지원되지 않는 대상에 대한 세그먼트를 활성화합니다.
+* Experience Platform [대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)에서 아직 지원되지 않는 대상에 대한 세그먼트를 활성화합니다.
 
-또한 Experience Platform 세그먼트는 [핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko)를 통해 다른 Experience Cloud 솔루션과 공유됩니다.
+또한 Experience Platform 세그먼트는 [핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html)를 통해 다른 Experience Cloud 솔루션과 공유됩니다.
 
 >[!IMPORTANT]
 >
@@ -51,8 +56,8 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 
 Audience Manager에서 Experience Platform으로 세그먼트와 트레이트를 전송하려면 Experience Platform 소스 카탈로그에서 Audience Manager 소스 커넥터를 설정해야 합니다. 이는 Adobe 고객 지원 센터 또는 엔지니어링 팀의 관여가 필요 없는 셀프서비스 워크플로우입니다. Audience Manager 소스 커넥터를 설정하려면 다음을 참조하십시오.
 
-* [Audience Manager 소스](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
-* [UI에서 Adobe Audience Manager 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=ko)
+* [Audience Manager 소스](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [UI에서 Adobe Audience Manager 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
 
 >[!IMPORTANT]
 >
@@ -64,8 +69,8 @@ Audience Manager에서 Experience Platform으로 세그먼트와 트레이트를
 
 Audience Manager 소스 커넥터를 설정하여 Audience Manager에서 트레이트 및 세그먼트를 가져오면 Audience Manager 데이터가 세그먼트 워크플로에서 **대상**(으)로 Experience Platform에 표시됩니다. Experience Platform의 Audience Manager 세그먼트 및 트레이트에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#audiences)
-* [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#audiences)
+* [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+* [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
 
 ## Audience Manager의 Adobe Experience Platform 세그먼트 {#aep-segments-in-aam}
 
@@ -75,7 +80,7 @@ Audience Manager 소스 커넥터를 설정하여 Audience Manager에서 트레�
 
 >[!IMPORTANT]
 >
-> 이 섹션에서는 Experience Platform에서 Audience Manager으로의 기존 세그먼트 공유 통합에 대해 설명합니다. 이제 Adobe 고객 담당자의 지원 없이 이 통합을 설정할 수 있습니다. 자세한 내용은 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ko) 대상 설명서를 참조하십시오.
+> 이 섹션에서는 Experience Platform에서 Audience Manager으로의 기존 세그먼트 공유 통합에 대해 설명합니다. 이제 Adobe 고객 담당자의 지원 없이 이 통합을 설정할 수 있습니다. 자세한 내용은 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) 대상 설명서를 참조하십시오.
 
 >[!NOTE]
 >
@@ -143,13 +148,13 @@ Experience Platform 세그먼트에서 자동으로 생성된 세그먼트의 �
 
 ## Experience Platform에서 Audience Manager 데이터 내보내기 제어 지원 {#aam-data-export-control-in-aep}
 
-Experience Platform에서 데이터 사용 규정 준수를 적용하려면 적용 가능한 모든 데이터 세트와 필드에 적절한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko)을 지정해야 합니다. 또한 [DULE(데이터 사용 레이블 및 적용) 프레임워크](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko)에 설명된 대로 해당 레이블에 대한 특정 마케팅 작업에 대해 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko#dule-framework)을(를) 사용하도록 설정해야 합니다.
+Experience Platform에서 데이터 사용 규정 준수를 적용하려면 적용 가능한 모든 데이터 세트와 필드에 적절한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)을 지정해야 합니다. 또한 [DULE(데이터 사용 레이블 및 적용) 프레임워크](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)에 설명된 대로 해당 레이블에 대한 특정 마케팅 작업에 대해 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework)을(를) 사용하도록 설정해야 합니다.
 
 Audience Manager과 Experience Platform 간의 대상 공유 프로세스에서, Audience Manager 세그먼트에 적용된 모든 데이터 내보내기 컨트롤은 Experience Platform 데이터 거버넌스에서 인식하는 동등한 레이블 및 마케팅 작업으로 변환되고 그 반대의 경우도 마찬가지입니다.
 
 >[!NOTE]
 >
->데이터 내보내기 제어에 대한 일반적인 정보는 [데이터 내보내기 제어 설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ko)를 참조하십시오.
+>데이터 내보내기 제어에 대한 일반적인 정보는 [데이터 내보내기 제어 설명서](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)를 참조하십시오.
 >
 >이 문서에서는 특정 Audience Manager 데이터 내보내기 제어 기능이 Platform의 데이터 사용 레이블 및 마케팅 작업에 매핑되는 방법에 대한 참조를 제공합니다.
 
@@ -189,15 +194,15 @@ Audience Manager은 하루에 한 번 인터페이스의 보고 번호를 업데
 
 ### 프로필 병합 규칙과 병합 정책 간의 차이점
 
-Audience Manager의 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md)과(와) Experience Platform의 [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html?lang=ko)은(는) 다르게 작동하며 각각에 사용되는 id 그래프가 다릅니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
+Audience Manager의 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md)과(와) Experience Platform의 [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html)은(는) 다르게 작동하며 각각에 사용되는 id 그래프가 다릅니다. 이로 인해 세그먼트 모집단 간의 일부 차이가 예상됩니다.
 
 >[!NOTE]
 >
-> Experience Platform에서 Audience Manager으로 세그먼트를 공유할 때 플랫폼 조직 [기본 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ko#default-merge-policy)이(가) Audience Manager과 공유한 [세그먼트에서 사용하는 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#merge-policies)보다 우선합니다. 예를 들어 공유 세그먼트의 병합 정책에서 [ID 결합](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#configure)을 허용하지만 조직의 기본 병합 정책이 허용하지 않는 경우, 이로 인해 플랫폼과 Audience Manager 간에 모집단 차이가 발생할 수 있습니다.
+> Experience Platform에서 Audience Manager으로 세그먼트를 공유할 때 플랫폼 조직 [기본 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy)이(가) Audience Manager과 공유한 [세그먼트에서 사용하는 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies)보다 우선합니다. 예를 들어 공유 세그먼트의 병합 정책에서 [ID 결합](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure)을 허용하지만 조직의 기본 병합 정책이 허용하지 않는 경우, 이로 인해 플랫폼과 Audience Manager 간에 모집단 차이가 발생할 수 있습니다.
 
 ### Experience Platform의 세그먼트 구성
 
-Adobe Experience Platform과 Audience Manager을 통합하면 모든 고객을 위해 ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID와 같은 많은 표준 [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#identity-types)가 공유됩니다. Experience Platform 세그먼트가 이러한 ID 중 하나를 적격 프로필에 대한 기본 ID로 사용하는 경우 프로필은 Audience Manager 트레이트 및 세그먼트에서 계산됩니다.
+Adobe Experience Platform과 Audience Manager을 통합하면 모든 고객을 위해 ECID, IDFA, GAID, 해시된 이메일 주소(EMAIL_LC_SHA256), AdCloud ID와 같은 많은 표준 [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#identity-types)가 공유됩니다. Experience Platform 세그먼트가 이러한 ID 중 하나를 적격 프로필에 대한 기본 ID로 사용하는 경우 프로필은 Audience Manager 트레이트 및 세그먼트에서 계산됩니다.
 
 >[!NOTE]
 >
@@ -218,6 +223,6 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#audiences)
->* [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#audiences)
->* [Audience Manager 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko)
+>* [세그먼테이션 서비스 개요](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform 세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)

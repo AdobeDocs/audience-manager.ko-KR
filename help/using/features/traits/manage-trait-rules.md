@@ -7,9 +7,11 @@ title: 트레이트 규칙 관리
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 0%
 
 ---
@@ -55,13 +57,13 @@ ht-degree: 0%
    >
    >이벤트 호출에서 해당 구문을 사용하여 데이터를 `c_`에 전송하는 경우 키 변수에 대한 [!DNL Audience Manager] 접두사(또는 기타 명명 규칙)를 포함하십시오.
 
-1. [&#x200B; 드롭다운에서 &#x200B;](../../features/traits/trait-comparison-operators.md)비교 연산자&#x200B;**[!UICONTROL Operator]**&#x200B;를 선택합니다. 비교 연산자는 신호에 있는 요소 간의 관계를 평가합니다.
+1. [ 드롭다운에서 ](../../features/traits/trait-comparison-operators.md)비교 연산자&#x200B;**[!UICONTROL Operator]**&#x200B;를 선택합니다. 비교 연산자는 신호에 있는 요소 간의 관계를 평가합니다.
 
    >[!NOTE]
    >
    >[!DNL Boolean] [!UICONTROL OR] 연산자는 그룹 내의 여러 신호 *within* 간의 관계를 설정하며 변경할 수 없습니다.
 
-1. **[!UICONTROL Add Rule]**&#x200B;을(를) 클릭합니다. 저장된 규칙은 데이터 입력 필드 위의 트레이트 작업 영역에 표시됩니다.
+1. **[!UICONTROL Add Rule]** 아이콘을 클릭합니다. 저장된 규칙은 데이터 입력 필드 위의 트레이트 작업 영역에 표시됩니다.
 
 ### 예 {#example-trait-rule}
 

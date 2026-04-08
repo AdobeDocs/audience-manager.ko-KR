@@ -7,9 +7,14 @@ solution: Audience Manager
 title: 활동 사용 보고
 feature: Usage and Billing
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/eJpKJkVCytgiV68bDxt-Tmk1s2W3SWkpmb6BZZ5jBCk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: a99472c1-6aae-4c7a-8aa0-f60636369620id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d12f0729-c5e9-4a4a-bb39-687f9ab4a97cid: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: 638
 ht-degree: 5%
 
 ---
@@ -50,7 +55,7 @@ ht-degree: 5%
 [!UICONTROL Activities]은(는) Audience Manager과의 모든 온사이트 및 오프사이트 상호 작용의 합계를 다음 범주로 나눕니다.
 
 * **[!UICONTROL Server Calls]**: 웹 사이트, 서버, 이메일, 모바일 애플리케이션 또는 기타 시스템에서 Audience Manager으로 전송된 데이터 수집 또는 검색 이벤트입니다.
-* **[!UICONTROL Pixel Calls] (이전 이름: [!UICONTROL Impression Server Calls])**: 광고에서 수집된 데이터(타깃팅 플랫폼의 노출 볼륨 등) 또는 Audience Manager에 대한 이메일 노출 호출입니다. 쿼리 문자열에 `d_event` 매개 변수가 있어야 합니다.
+* **[!UICONTROL Pixel Calls](이전 이름: [!UICONTROL Impression Server Calls])**: 광고에서 수집된 데이터(타깃팅 플랫폼의 노출 볼륨 등) 또는 Audience Manager에 대한 이메일 노출 호출입니다. 쿼리 문자열에 `d_event` 매개 변수가 있어야 합니다.
 * **[!UICONTROL On-Boarded Records]**: 고유한 CRM(고객 관계 관리 시스템) 또는 기타 오프라인 데이터 파일에서 수집한 고유한 레코드(예: 콜센터 레코드, 장치 ID 및 외부 데이터 공급자의 사용자 지정 데이터 피드)입니다.
 * **[!UICONTROL Log File Records]**: 타깃팅 플랫폼에서 Audience Manager으로 수집된 로그 파일의 고유 레코드.
 

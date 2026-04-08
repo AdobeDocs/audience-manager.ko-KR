@@ -8,9 +8,14 @@ title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: bda66cb9aaee3a40ae64dda100f42b88696a027e
+TQID: https://experienceleague.adobe.com/ffRcCmzJX4WW0nTvEALBrE1Sm-b9Fl7Wj2heT-uNIx0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -35,9 +40,9 @@ ht-degree: 0%
 1. **[!UICONTROL Description]**(선택 사항): 데이터 원본의 역할이나 목적을 정의하는 데 도움이 되도록 데이터 원본에 대한 설명을 입력하십시오.
 1. **[!UICONTROL Integration Code]**(선택 사항): 통합 코드를 입력합니다. 다음 코드를 원하는 경우 필요합니다.
    * [장치 간 데이터 원본 만들기](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하십시오.
+   * [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하십시오.
    * [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md)을 사용하여 작업합니다.
-1. **[!UICONTROL Namespace]**(읽기 전용): 이 필드는 읽기 전용이며 데이터 원본을 저장할 때 자동으로 생성됩니다. Audience Manager에서 Experience Platform으로 세그먼트를 내보내려면 Experience Platform에서 자동으로 생성된 값을 네임스페이스 [ID 심볼](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#manage-namespaces)&#x200B;(으)로 사용하여 Experience Platform에서 해당 [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#components-of-a-namespace)를 만들어야 합니다.
+1. **[!UICONTROL Namespace]**(읽기 전용): 이 필드는 읽기 전용이며 데이터 원본을 저장할 때 자동으로 생성됩니다. Audience Manager에서 Experience Platform으로 세그먼트를 내보내려면 Experience Platform에서 자동으로 생성된 값을 네임스페이스 [ID 심볼](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces)&#x200B;(으)로 사용하여 Experience Platform에서 해당 [ID 네임스페이스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace)를 만들어야 합니다.
 1. **[!UICONTROL ID Type]**: 이 데이터 원본에 포함할 ID 유형 선택:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -69,7 +74,7 @@ ht-degree: 0%
 >다음 제한 사항에 유의하십시오.
 >
 >* [활성 대상 또는 데이터 Source 동기화된 트레이트](../features/traits/client-activity-synced-audience-traits.md)는 삭제할 수 없습니다.
->* Adobe Analytics을 사용하는 고객의 경우: Audience Manager에서는 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. [핵심 서비스](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/customer-attributes/attributes)를 사용하여 이러한 데이터 원본 매핑을 해제하세요.
+>* Adobe Analytics을 사용하는 고객의 경우: Audience Manager에서는 [!DNL Analytics] 보고서 세트에서 자동으로 생성된 데이터 소스를 삭제할 수 없습니다. [핵심 서비스](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)를 사용하여 이러한 데이터 원본 매핑을 해제하세요.
 
 1. **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**&#x200B;을(를) 클릭합니다.
 1. 하나 이상의 데이터 소스 옆에 있는 확인란을 선택합니다.

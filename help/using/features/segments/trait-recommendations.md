@@ -6,9 +6,14 @@ solution: Audience Manager
 title: 트레이트 권장 사항
 feature: Segments
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
+TQID: https://experienceleague.adobe.com/QlyZ0ihE6gw5qBsQ3RATUwOJYms0xyt0dwJRS-jfBU0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ecid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: 1584
 ht-degree: 5%
 
 ---
@@ -21,11 +26,11 @@ ht-degree: 5%
 
 아래의 [!UICONTROL Trait Recommendations] 비디오를 시청한 후 자세한 내용을 읽어 보십시오. 이 비디오 데모에서는 자사 트레이트의 권장 사항과 [!UICONTROL Audience Marketplace]이미 구독 중&#x200B;*인* 데이터 피드의 트레이트 권장 사항을 사용하여 작업하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/40845?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26228/)
 
 다음 비디오는 [!UICONTROL Marketplace Recommendations]의 데이터 피드에서 권장 사항을 기반으로 세그먼트에 트레이트를 추가하는 방법을 보여 주는 [!UICONTROL Audience Marketplace]의 워크플로에 대해 간략하게 설명합니다. 이러한 권장 사항은 *구독하지 않은* 데이터 피드를 기반으로 합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/32754?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
 ## 개요
 

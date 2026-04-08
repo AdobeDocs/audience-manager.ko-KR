@@ -7,9 +7,14 @@ title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
+TQID: https://experienceleague.adobe.com/E8oHRJTLe4gItbAxv9aI7ltGJ0sn7qda-DDtVWoP2bY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11
+subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 686
 ht-degree: 2%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 2%
 >
 >2023년 7월부터 Adobe은 [!DNL Data Integration Library (DIL)] 및 [!DNL DIL] 확장 개발을 중단했습니다.
 >
->기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을(를) 평가하는 것이 좋습니다.
+>기존 고객은 [!DNL DIL] 구현을 계속 사용할 수 있습니다. 그러나 Adobe은 이 시점 이후에는 [!DNL DIL]을(를) 개발하지 않습니다. 고객은 장기 데이터 수집 전략에 대해 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을(를) 평가하는 것이 좋습니다.
 >
->2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을 사용해야 합니다.
+>2023년 7월 이후에 새로운 데이터 수집 통합을 구현하려는 고객은 대신 [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)을 사용해야 합니다.
 
 FLA 파일에서 Analytics로 전송된 데이터를 수집하고 Audience Manager에서 해당 정보로 작업합니다.
 
@@ -56,7 +61,7 @@ c_flash_dil_intro.xml
 
 **AllowScriptAccess를 `Always` 또는`sameDomain`**(으)로 설정
 
-SWF 파일을 로드하는 HTML 코드의 `AllowScriptAccess`은(는) SWF 파일 내에서 아웃바운드 URL 액세스를 수행하는 기능을 제어합니다. [!UICONTROL Flash DIL] 데이터 통합을 구성할 때 Flash `AllowScriptAccess` 매개 변수가 `always` 또는 `sameDomain`(으)로 설정되어 있는지 확인하십시오. [!UICONTROL Flash DIL]이(가) `AllowScriptAccess`(으)로 설정되어 있으면 `never` 데이터 수집이 작동하지 않습니다. [스크립트 또는 호스트 웹 페이지에 대한 액세스 제어](https://helpx.adobe.com/kr/flash/kb/control-access-scripts-host-web.html)를 참조하십시오.
+SWF 파일을 로드하는 HTML 코드의 `AllowScriptAccess`은(는) SWF 파일 내에서 아웃바운드 URL 액세스를 수행하는 기능을 제어합니다. [!UICONTROL Flash DIL] 데이터 통합을 구성할 때 Flash `AllowScriptAccess` 매개 변수가 `always` 또는 `sameDomain`(으)로 설정되어 있는지 확인하십시오. [!UICONTROL Flash DIL]이(가) `AllowScriptAccess`(으)로 설정되어 있으면 `never` 데이터 수집이 작동하지 않습니다. [스크립트 또는 호스트 웹 페이지에 대한 액세스 제어](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)를 참조하십시오.
 
 **JS [!UICONTROL DIL] 코드 배치**
 

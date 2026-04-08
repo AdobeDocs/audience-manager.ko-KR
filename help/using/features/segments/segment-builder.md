@@ -7,9 +7,13 @@ title: 세그먼트 빌더
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/qljY6sjowD33EDtW0sVdwDm6iFSev1ElC8ZoJQrya9c
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: 1048
 ht-degree: 2%
 
 ---
@@ -43,22 +47,22 @@ ht-degree: 2%
 1. [트레이트](../../features/segments/segment-builder.md#segment-builder-controls-traits) 섹션에서:
    ![segment-builder-traits](assets/segment-builder-traits.png)
    * 세그먼트에 추가할 [!UICONTROL trait]을(를) 검색하고 **[!UICONTROL Add Trait]**&#x200B;을(를) 클릭합니다. [!UICONTROL trait] 그룹을 만들려면 다른 [!UICONTROL trait]을(를) 추가하십시오.
-   * [!UICONTROL Advanced Search]을(를) 클릭하여 **[!UICONTROL Browse All Traits]** 모달을 표시합니다. 이름, ID, 설명 또는 [!UICONTROL traits]별로 [!UICONTROL data source]을(를) 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 그 하위 폴더로 결과를 제한합니다. [!UICONTROL traits]&#x200B;([!UICONTROL trait type], [!UICONTROL Folder Trait], [!UICONTROL Rule-based] 및 [!UICONTROL Onboarded]) 또는 모집단 유형([!UICONTROL Algorithmic]장치 ID[&#x200B; 및 &#x200B;](../../reference/ids-in-aam.md)교차 장치 ID[)별로 &#x200B;](../../reference/ids-in-aam.md)을(를) 필터링할 수도 있습니다.
+   * [!UICONTROL Advanced Search]을(를) 클릭하여 **[!UICONTROL Browse All Traits]** 모달을 표시합니다. 이름, ID, 설명 또는 [!UICONTROL traits]별로 [!UICONTROL data source]을(를) 검색합니다. 검색 중에 폴더를 클릭하여 해당 폴더 및 그 하위 폴더로 결과를 제한합니다. [!UICONTROL traits]&#x200B;([!UICONTROL trait type], [!UICONTROL Folder Trait], [!UICONTROL Rule-based] 및 [!UICONTROL Onboarded]) 또는 모집단 유형([!UICONTROL Algorithmic]장치 ID[ 및 ](../../reference/ids-in-aam.md)교차 장치 ID[)별로 ](../../reference/ids-in-aam.md)을(를) 필터링할 수도 있습니다.
      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
-   * [을(를) 빌드할 때 실시간 &#x200B;](trait-recommendations.md)트레이트 추천[!UICONTROL segment]을(를) 받습니다.
+   * [을(를) 빌드할 때 실시간 ](trait-recommendations.md)트레이트 추천[!UICONTROL segment]을(를) 받습니다.
    * [!UICONTROL traits]을(를) 클릭하고 끌어 별도의 그룹을 만듭니다.
    * 그룹 간에 마우스를 가져가면 부울 [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] 값과의 관계를 설정할 수 있습니다.
-   * 시계 아이콘 위로 마우스를 가져가면 [에 &#x200B;](../../features/segments/recency-and-frequency.md)최신성 및 빈도[!UICONTROL trait] 규칙을 추가할 수 있습니다.
-   * [!UICONTROL traits]을(를) 추가하거나 제거할 때 세그먼트 모집단 데이터를 봅니다. 예상 모집단 수를 보거나 새로 고치려면 **[!UICONTROL Calculate Estimates]**&#x200B;을(를) 클릭합니다. [의 &#x200B;](../../features/segments/segment-builder-data.md#segment-populations)세그먼트 모집단 데이터[!UICONTROL Segment Builder]에 대해 자세히 알아보세요.
+   * 시계 아이콘 위로 마우스를 가져가면 [에 ](../../features/segments/recency-and-frequency.md)최신성 및 빈도[!UICONTROL trait] 규칙을 추가할 수 있습니다.
+   * [!UICONTROL traits]을(를) 추가하거나 제거할 때 세그먼트 모집단 데이터를 봅니다. 예상 모집단 수를 보거나 새로 고치려면 **[!UICONTROL Calculate Estimates]**&#x200B;을(를) 클릭합니다. [의 ](../../features/segments/segment-builder-data.md#segment-populations)세그먼트 모집단 데이터[!UICONTROL Segment Builder]에 대해 자세히 알아보세요.
    * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. *(선택 사항)* [!UICONTROL segment]대상 매핑[!UICONTROL destination] 섹션에서 [을(를) &#x200B;](../../features/segments/segment-builder.md#segment-builder-controls-destinations)에 매핑합니다.
+1. *(선택 사항)* [!UICONTROL segment]대상 매핑[!UICONTROL destination] 섹션에서 [을(를) ](../../features/segments/segment-builder.md#segment-builder-controls-destinations)에 매핑합니다.
    * [!UICONTROL destination]을(를) 검색하고 **[!UICONTROL Add Destination]**&#x200B;을(를) 클릭합니다. [!UICONTROL destination]이(가) 이미 있어야 [!UICONTROL segment]에 추가할 수 있습니다.
    * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/36875?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] 컨트롤: [!UICONTROL Basic Information] 섹션 {#segment-builder-controls-basics}
 

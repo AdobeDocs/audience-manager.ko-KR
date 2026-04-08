@@ -8,8 +8,11 @@ uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 TQID: https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 264
@@ -31,11 +34,11 @@ Audience Manager 계정의 모든 속성에서 장치 관련 변수를 사용하
 
 <!-- c_tb_device_targeting.xml -->
 
-플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 [이 접두사로 추가된 키를 사용하여 ](../../reference/key-value-pairs-explained.md)키-값 쌍`d_`으로 형성됩니다.
+플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 [이 접두사로 추가된 키를 사용하여 &#x200B;](../../reference/key-value-pairs-explained.md)키-값 쌍`d_`으로 형성됩니다.
 
 ## 사용자 에이전트에서 정의한 플랫폼 수준 키 {#keys-user-agent}
 
-[!UICONTROL Data Collection Servers]은(는) [ 요청의 ](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43)사용자 에이전트 헤더`HTTP`에서 이러한 키의 값을 추출합니다. 값은 [!UICONTROL Device Atlas] 데이터베이스의 장치 수준 정보를 나타냅니다. 사용자 에이전트 예에서 추출한 대로 아래 표의 신호를 사용할 수 있습니다. [ 측정에 따라 ](assets/device_keys.csv)가장 일반적인 키 목록을 다운로드[!UICONTROL Device Atlas]합니다.
+[!UICONTROL Data Collection Servers]은(는) [&#x200B; 요청의 &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43)사용자 에이전트 헤더`HTTP`에서 이러한 키의 값을 추출합니다. 값은 [!UICONTROL Device Atlas] 데이터베이스의 장치 수준 정보를 나타냅니다. 사용자 에이전트 예에서 추출한 대로 아래 표의 신호를 사용할 수 있습니다. [&#x200B; 측정에 따라 &#x200B;](assets/device_keys.csv)가장 일반적인 키 목록을 다운로드[!UICONTROL Device Atlas]합니다.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|

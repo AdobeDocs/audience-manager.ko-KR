@@ -8,10 +8,15 @@ uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436
 TQID: https://experienceleague.adobe.com/-tBvHL-JM9MSve2w5-7SBKY1cvscGZ1d-sLy7JMj8AQ
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1260
@@ -95,7 +100,7 @@ ht-degree: 1%
 
 [!DNL Plan types]은(는) [!UICONTROL Audience Marketplace] 데이터 피드의 필수 구성 요소입니다. 데이터 공급자는 피드에 대한 여러 사용 사례와 가격 옵션을 만들 수 있도록 해줍니다. 또한 각 데이터 피드에 대해 몇 가지 계획을 만드는 것도 좋은 전략이 될 수 있습니다. 이를 통해 구매자는 모델링하거나 대상으로 전송할 데이터를 찾는 경우 선택할 수 있는 다양한 옵션을 제공합니다.
 
-[을(를) 선택하려면 ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)데이터 피드를 만듭니다[!UICONTROL Plan Types].
+[을(를) 선택하려면 &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)데이터 피드를 만듭니다[!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 

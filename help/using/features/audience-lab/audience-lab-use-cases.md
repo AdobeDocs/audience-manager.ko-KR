@@ -8,10 +8,15 @@ uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
 exl-id: b68f48bd-0d5d-4b72-84f3-a6f3acea6c49
 TQID: https://experienceleague.adobe.com/mDcQUaLcTjBA31iTkVJbm1UOy9rqRv3yHca4ZH-HliE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 585
@@ -29,7 +34,7 @@ ht-degree: 0%
 
 <!-- audience-lab-compare-models.xml -->
 
-이 사용 사례에서는 서로 다른 모델을 비교하고 있습니다. 사내 데이터 웨어하우스를 통해 만든 모델을 사용하여 [!DNL Audience Manager]에서 [온보딩된 특성](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)(으)로 가져오거나 [에서 ](../../features/algorithmic-models/understanding-models.md)알고리즘 모델[!DNL Audience Manager] 기능을 사용할 수 있습니다.
+이 사용 사례에서는 서로 다른 모델을 비교하고 있습니다. 사내 데이터 웨어하우스를 통해 만든 모델을 사용하여 [!DNL Audience Manager]에서 [온보딩된 특성](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)(으)로 가져오거나 [에서 &#x200B;](../../features/algorithmic-models/understanding-models.md)알고리즘 모델[!DNL Audience Manager] 기능을 사용할 수 있습니다.
 
 1. [모델 빌더](../../features/algorithmic-models/create-model.md)나 외부 플랫폼을 통해 두 개의 모델을 만듭니다.
 1. 알고리즘 모델에서 [알고리즘 트레이트](../../features/traits/create-algorithmic-traits.md)를 만들거나 자체 모델을 온보딩된 트레이트로 가져옵니다.
@@ -38,7 +43,7 @@ ht-degree: 0%
    * *모델 1 세그먼트* 및 *모델 2 세그먼트*&#x200B;를 만듭니다.
    * *모델 1 세그먼트*&#x200B;에 대한 세그먼트 규칙이 모델 1 트레이트 [!DNL AND NOT] 모델 2 트레이트이거나 *모델 2 세그먼트*&#x200B;의 세그먼트 규칙이 그 반대입니다.
 
-1. [두 개의 세그먼트 테스트 그룹을 ](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)에 만듭니다[!UICONTROL Audience Lab]. 하나는 *모델 1 세그먼트*&#x200B;를 기준으로 하고 다른 하나는 *모델 2 세그먼트*&#x200B;를 기준으로 합니다.
+1. [두 개의 세그먼트 테스트 그룹을 &#x200B;](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)에 만듭니다[!UICONTROL Audience Lab]. 하나는 *모델 1 세그먼트*&#x200B;를 기준으로 하고 다른 하나는 *모델 2 세그먼트*&#x200B;를 기준으로 합니다.
 
    * 동일한 대상, 크리에이티브, 전환 트레이트의 두 테스트 그룹에 대해 변수를 동일하게 유지합니다.
    * 테스트 세그먼트에 유사한 사용자 수가 있는지 확인합니다(예: 160만 및 180만 이 괜찮음, 160만 및 1600만 은 그렇지 않음).

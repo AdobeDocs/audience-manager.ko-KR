@@ -8,9 +8,14 @@ uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 TQID: https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 677
@@ -146,7 +151,7 @@ ht-degree: 2%
 
 ## 보안
 
-개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [!DNL Audience Manager]OAuth 2.0[ 프로토콜을 통해 ](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
+개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [!DNL Audience Manager]OAuth 2.0[&#x200B; 프로토콜을 통해 &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
 
 ## 요청
 

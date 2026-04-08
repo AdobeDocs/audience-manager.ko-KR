@@ -9,10 +9,20 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 TQID: https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1324
@@ -24,7 +34,7 @@ ht-degree: 42%
 
 ## 개요 {#overview}
 
-이 문서에서는 [!DNL Audience Manager]Privacy Service UI[ 및 ](https://privacyui.cloud.adobe.io/)을(를) 통해 **[!DNL Privacy Service API]**&#x200B;에게 보낼 수 있는 개별 데이터 개인 정보 보호 및 옵트아웃 요청 관리에 대한 개요를 제공합니다.
+이 문서에서는 [!DNL Audience Manager]Privacy Service UI[&#x200B; 및 &#x200B;](https://privacyui.cloud.adobe.io/)을(를) 통해 **[!DNL Privacy Service API]**&#x200B;에게 보낼 수 있는 개별 데이터 개인 정보 보호 및 옵트아웃 요청 관리에 대한 개요를 제공합니다.
 
 이 도구를 사용하면 소비자 데이터 개인 정보 보호 요청을 [!DNL GDPR] 및 [!DNL CCPA]에서 보낼 수 있습니다.
 
@@ -70,7 +80,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 이러한 경우 [!DNL Audience Manager]을(를) 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-세그먼트 해제를 지원하는 [ 활성화 파트너를 확인하려면 ](assets/AAM-Partners-October2019.xlsx)장치 기반 대상 목록 문서[!DNL Audience Manager]를 참조하세요.
+세그먼트 해제를 지원하는 [&#x200B; 활성화 파트너를 확인하려면 &#x200B;](assets/AAM-Partners-October2019.xlsx)장치 기반 대상 목록 문서[!DNL Audience Manager]를 참조하세요.
 
 ## 옵트아웃 요청 {#opt-out-requests}
 
@@ -132,7 +142,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 * [!UICONTROL Destination] 파트너가 [!DNL CRM] ID 및 마지막 장치 ID에 대한 세그먼트 해제 요청을 받습니다. 세그먼테이션 해제는 [실시간](data-privacy-requests.md#aam-partners-with-unsegmentation) 대상과 배치 대상 모두에 대해 작동합니다.
 * 이전 데이터는 삭제되지 않습니다.
 
-[!DNL Audience Manager]이(가) 파트너 수준 옵트아웃 요청을 받으면 [!DNL JSON]이(가) 반환한 [!DNL DCS]에 [ 사용자 ID 대신 ](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) 메시지가 있는 [!UICONTROL "Encountered opt out tag"]오류 코드 171[!DNL Audience Manager]이(가) 포함됩니다.
+[!DNL Audience Manager]이(가) 파트너 수준 옵트아웃 요청을 받으면 [!DNL JSON]이(가) 반환한 [!DNL DCS]에 [&#x200B; 사용자 ID 대신 &#x200B;](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) 메시지가 있는 [!UICONTROL "Encountered opt out tag"]오류 코드 171[!DNL Audience Manager]이(가) 포함됩니다.
 
 `d_cid` 및 `d_cid_ic` 키-값 쌍으로 선언된 ID 옵트아웃 요청을 만들 수 있습니다. `d_dpid` 및 `d_dpuuid`와 같은 기존 매개 변수는 여전히 작동하지만 더 이상 사용되지 않는 것으로 간주됩니다. [CID가 DPID 및 DPUUID 대체](../../reference/cid.md)를 참조하십시오. 예에서 *기울임꼴*&#x200B;은 가변 자리 표시자를 나타냅니다.
 
@@ -178,7 +188,7 @@ Adobe는 30일 이내에 데이터 개인 정보 보호 고객 요청을 이행�
 
 이러한 경우 [!DNL Audience Manager]을(를) 통해 자동화된 방식으로 활성화 파트너에게 삭제 요청을 보낼 수 없습니다.
 
-세그먼트 해제를 지원하는 [ 활성화 파트너를 보려면 ](/help/using/features/destinations/device-based-destinations-list.md)장치 기반 대상 목록[!DNL Audience Manager]을 참조하세요.
+세그먼트 해제를 지원하는 [&#x200B; 활성화 파트너를 보려면 &#x200B;](/help/using/features/destinations/device-based-destinations-list.md)장치 기반 대상 목록[!DNL Audience Manager]을 참조하세요.
 
 ## 데이터 수정 요청 {#correction}
 

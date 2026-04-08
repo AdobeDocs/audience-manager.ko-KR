@@ -8,8 +8,11 @@ uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: Audience Optimization Reports
 exl-id: 7412a43f-81b5-477e-8acf-89d6c8661f1e
 TQID: https://experienceleague.adobe.com/oP3jo2IVz2w0ExYE00wHo19nelOfOf4iAN84pgF64fU
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 238
@@ -23,7 +26,7 @@ Audience Optimization 보고서의 채널 간 전환 옵션을 사용하면 오�
 
 [!UICONTROL Cross Channel Conversion] 보고서는 [!DNL Google Campaign Manager] 플랫폼의 결과를 [!DNL Audience Manager] 전환 트레이트와 결합합니다. 이렇게 하면 오프라인 전환을 온라인 노출 또는 클릭에 연결할 수 있습니다.
 
-[!UICONTROL Cross Channel Conversion]세그먼트 성능[ 및 ](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)최적 빈도[ 보고서에 ](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)을(를) 사용할 수 있습니다.
+[!UICONTROL Cross Channel Conversion]세그먼트 성능[&#x200B; 및 &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)최적 빈도[&#x200B; 보고서에 &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)을(를) 사용할 수 있습니다.
 
 [!UICONTROL Cross Channel Conversion] 보고서를 보려면 **[!UICONTROL AAM + Ad Server Name]** 드롭다운 목록에서 **[!UICONTROL Platform]** 항목을 선택하십시오.
 

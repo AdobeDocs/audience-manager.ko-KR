@@ -9,7 +9,8 @@ uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
 TQID: https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 639
@@ -49,7 +50,7 @@ ht-degree: 0%
    * 30일, 60일 또는 90일 전환 확인 기간을 선택합니다. 모델의 시간 범위를 설정합니다.
    * 기본적으로 [!UICONTROL TraitWeight] 알고리즘이 선택되어 있습니다.
    * [!UICONTROL Available Data] 목록에서 데이터 원본을 선택하십시오.
-   * 완료되면 **[!UICONTROL Save]**을(를) 클릭합니다.
+   * 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
      ![유사 구성](assets/look-alike-configuration.png)
 
 크로스 디바이스 지표가 작동하는 방식에 대한 자세한 내용은 아래 비디오를 시청하십시오.

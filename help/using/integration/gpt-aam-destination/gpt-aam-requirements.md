@@ -8,9 +8,13 @@ uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
 TQID: https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 466
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 * **만들기 [!UICONTROL Cookie Destination]:** [!DNL GPT]은(는) Audience Manager에서 쿠키 기반 대상으로 설정해야 합니다.
 
-* **쿠키 검사 코드 구현:** 권장 [!DNL GPT]쿠키 검사 코드`.setTargeting`에서 [ ](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) API 메서드를 래핑합니다. 이 코드는 `.setTargeting` 메서드가 호출되기 전에 유효한 AAM 쿠키를 찾아 오류를 방지하는 데 도움이 됩니다.
+* **쿠키 검사 코드 구현:** 권장 [!DNL GPT]쿠키 검사 코드`.setTargeting`에서 [&#x200B; &#x200B;](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) API 메서드를 래핑합니다. 이 코드는 `.setTargeting` 메서드가 호출되기 전에 유효한 AAM 쿠키를 찾아 오류를 방지하는 데 도움이 됩니다.
 
 * **함수 추가:`AamGpt`** 코드는 Audience Manager 쿠키에서 데이터를 캡처하여 `AamGpt`에 보냅니다. [!DNL GPT] [Google 게시자 태그용 Audience Manager 코드](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)( `AamGpt`)를 페이지 맨 위나 `<head>` 코드 블록 내부에 배치합니다.
 

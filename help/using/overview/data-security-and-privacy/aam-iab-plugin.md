@@ -7,10 +7,22 @@ title: IAB TCF를 위한 Audience Manager 플러그인
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 TQID: https://experienceleague.adobe.com/1JX2HeN8eco8-A4OGoFZeW6og5naFhSEu5OZsiLQ6uk
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 2173
@@ -68,7 +80,7 @@ Audience Manager은 사용자의 개인 정보 보호 선택 사항을 준수하
 Audience Manager에서 IAB TCF용 Audience Manager 플러그인을 사용하려면 다음 전제 조건을 충족해야 합니다.
 
 1. Adobe ECID(Experience Platform Identity Service) 버전 5 이상을 사용해야 합니다. 최신 ECID 릴리스를 [다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)하십시오.
-2. [!DNL Data Integration Library]여기[에서 다운로드할 수 있는 Audience Manager ](https://github.com/Adobe-Marketing-Cloud/dil/releases)&#x200B;(DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL을 읽어보세요](../../dil/dil-overview.md). 가장 쉬운 Audience Manager DIL 구현을 위해 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)을 사용하는 것이 좋습니다.
+2. [!DNL Data Integration Library]여기[에서 다운로드할 수 있는 Audience Manager &#x200B;](https://github.com/Adobe-Marketing-Cloud/dil/releases)&#x200B;(DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL을 읽어보세요](../../dil/dil-overview.md). 가장 쉬운 Audience Manager DIL 구현을 위해 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)을 사용하는 것이 좋습니다.
 3. 또는 SSF([!DNL Server-Side Forwarding])를 사용하여 데이터를 Audience Manager으로 가져오는 경우 최신 버전의 AppMeasurement으로 업그레이드해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)를 사용하여 AppMeasurement를 다운로드합니다.
 4. IAB TCF v2.2와 통합되고 IAB TCF에 등록된 상업용이거나 본인 소유의 CMP(동의 관리 플랫폼)를 사용하고 있어야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
 

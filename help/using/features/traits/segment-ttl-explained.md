@@ -8,7 +8,8 @@ uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
 TQID: https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 378
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 ## TTL(Time to Live)
 
-[!DNL TTL]은(는) 마지막 트레이트 자격 이벤트 후 사이트 방문자가 세그먼트에 남아 있는 기간을 정의합니다. [!DNL TTL]이(가) 세그먼트가 아닌 트레이트에 설정되어 있습니다. 방문자가 [!DNL TTL] 간격이 끝나기 전에 트레이트에 적합하지 않으면 세그먼트에서 이탈됩니다. 새 트레이트의 기본 [!DNL TTL]은(는) 120일입니다. 0일로 설정하면 트레이트가 만료되지 않습니다. 특성 만들기 인터페이스의 [ 섹션에서 특성을 만들거나 편집할 때 ](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)TTL 값을 설정[!UICONTROL Advanced Options]합니다.
+[!DNL TTL]은(는) 마지막 트레이트 자격 이벤트 후 사이트 방문자가 세그먼트에 남아 있는 기간을 정의합니다. [!DNL TTL]이(가) 세그먼트가 아닌 트레이트에 설정되어 있습니다. 방문자가 [!DNL TTL] 간격이 끝나기 전에 트레이트에 적합하지 않으면 세그먼트에서 이탈됩니다. 새 트레이트의 기본 [!DNL TTL]은(는) 120일입니다. 0일로 설정하면 트레이트가 만료되지 않습니다. 특성 만들기 인터페이스의 [&#x200B; 섹션에서 특성을 만들거나 편집할 때 &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)TTL 값을 설정[!UICONTROL Advanced Options]합니다.
 
 ### 1일 TTL 설명
 

@@ -8,8 +8,12 @@ uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 TQID: https://experienceleague.adobe.com/EUu52qZvB-oRsIunk-ZNXxgRfdYFUmamyQ-Yk1lG-4Q
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 537
@@ -47,7 +51,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [!UICONTROL Line Item]Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기[의 3단계에 설명된 대로 ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) ID에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Line Item] ID 대신 [!UICONTROL Line Item]&#x200B;(으)로 자세히 설명되어 있습니다.
+>[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [!UICONTROL Line Item]Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기[의 3단계에 설명된 대로 &#x200B;](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) ID에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Line Item] ID 대신 [!UICONTROL Line Item]&#x200B;(으)로 자세히 설명되어 있습니다.
 
 ## 결과 해석 {#interpreting-results}
 

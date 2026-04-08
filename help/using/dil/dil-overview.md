@@ -9,10 +9,20 @@ uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 TQID: https://experienceleague.adobe.com/SyaOtcmDa6IwaoPVjv-G6zvdnFa7ZVDaGP7MaX4RaBk
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9id: f8c1669e-86ba-49c4-b622-9dfa07854df8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 473
@@ -54,7 +64,7 @@ ht-degree: 1%
 
 [!UICONTROL DIL] 코드를 **[여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;에서 다운로드할 수 있습니다. 버전 8.0(2018년 8월 릴리스)부터 [!UICONTROL DIL]은(는) [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html), 버전 3.3 이상에 종속되어 있습니다. ID 동기화 및 [!DNL ID Service]을(를) 실행하는 데 [!DNL URL destinations]을(를) 사용합니다. [!DNL ID Service]이(가) 없거나 오래되었거나 구성되지 않은 경우 오류가 발생합니다.
 
-[!UICONTROL DIL]을(를) 사용하여 작업하고 [!DNL Audience Manager]을(를) 수동으로 설정하는 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Tags]은(는) 코드 배포, 배치 및 버전 관리를 단순화하기 때문에 권장되는 구현 도구입니다. [의 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)Audience Manager 확장[!DNL Adobe Experience Platform Tags]에 대해 자세히 알아보세요.
+[!UICONTROL DIL]을(를) 사용하여 작업하고 [!DNL Audience Manager]을(를) 수동으로 설정하는 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)를 사용하는 것이 좋습니다. [!DNL Adobe Experience Platform Tags]은(는) 코드 배포, 배치 및 버전 관리를 단순화하기 때문에 권장되는 구현 도구입니다. [의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)Audience Manager 확장[!DNL Adobe Experience Platform Tags]에 대해 자세히 알아보세요.
 
 ## 샘플 호출 {#sample-code}
 

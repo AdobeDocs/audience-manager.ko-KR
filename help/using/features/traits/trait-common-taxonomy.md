@@ -9,8 +9,11 @@ uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
 TQID: https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 366
@@ -42,7 +45,7 @@ ht-degree: 0%
 
 ## 데이터 카테고리에서 트레이트 분류
 
-[!UICONTROL Add New Trait Wizard]&#x200B;([!UICONTROL Audience Data > Traits]에 있음)에서 특성을 만들거나 편집할 때 분류 ***을 ***. 자세한 내용은 특성 만들기에 대한 [설명서](../../features/traits/create-onboarded-rule-based-traits.md)를 참조하세요.
+[!UICONTROL Add New Trait Wizard]&#x200B;([!UICONTROL Audience Data > Traits]에 있음)에서 특성을 만들거나 편집할 때 분류 ***을 &#x200B;***. 자세한 내용은 특성 만들기에 대한 [설명서](../../features/traits/create-onboarded-rule-based-traits.md)를 참조하세요.
 
 ## 분류 작업: 추가 고려 사항
 

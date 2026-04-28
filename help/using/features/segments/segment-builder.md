@@ -65,7 +65,7 @@ ht-degree: 1%
 
 Watch the video below for a detailed look at how cross-device metrics work.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445)
+>[!VIDEO](https://video.tv.adobe.com/v/36875?captions=kor)
 
 ## [!UICONTROL Segment Builder] Controls: [!UICONTROL Basic Information] Section {#segment-builder-controls-basics}
 

@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 87%
+source-wordcount: 428
+ht-degree: 75%
 
 ---
 
@@ -82,28 +82,6 @@ faq_features_functions.xml
 **[!UICONTROL Tag Insertion Manager (TIM)]은 무엇입니까?**
 
 Audience Manager는 TIM([!UICONTROL Tag Insertion Manager])을 사용하여 [!UICONTROL data collection code (DIL)]를 만들고 관리했었습니다. 이 기능은 더 이상 사용되지 않으며, [!UICONTROL Dynamic Tag Manager (DTM)]로 대체되었으며, 이후에 [!DNL Adobe Experience Platform Tags]로 대체되었습니다. 자세한 내용은 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko)를 참조하십시오.
-
- 
-
-**알고리즘 모델과 트레이트 추천 간의 차이점은 무엇입니까? 각각 언제 사용해야 합니까?**
-
-**알고리즘 모델**
-
-알고리즘 모델은 가장 영향력 있는 트레이트를 찾을 뿐만 아니라 이러한 트레이트를 기반으로 사용자에 대한 점수를 매기고 각 사용자에게 개별 점수를 지정합니다.  그런 다음, 사용자를 타겟팅하는 알고리즘 트레이트를 만듭니다. 트레이트 빌더의 정확도와 도달 범위 컨트롤을 사용하면 영향력 있는 트레이트를 가진 모든 사용자 중에서 타겟팅할 사용자를 지정할 수 있습니다.
-
-알고리즘 모델을 사용하면 다양한 정확도 수준에서 사용자를 선택하고 대상자 랩에서 어느 사용자 그룹이 더 효과적으로 전환되는지 테스트할 수 있습니다. [대상자 랩의 모델 비교](../features/audience-lab/audience-lab-use-cases.md#compare-models)에서 자세한 사용 사례를 확인하십시오.
-
-알고리즘 모델에서 모델은 8일마다 실행되고 알고리즘 트레이트에 맞는 사용자를 새로 고칩니다.
-
-**트레이트 추천**
-
-트레이트 추천은 세그먼트에서 사용 중인 트레이트와 유사한 다른 트레이트에 대한 통찰력을 얻는 빠른 방법입니다.
-
-다음과 같은 경우 트레이트 추천을 사용해야 합니다.
-
-* 세그먼트를 만드는 동안 빠른 통찰력이 필요한 경우
-* 짧은 캠페인에 세그먼트를 사용하거나 전환되는 대상자를 빠르게 억제하려는 경우
-* 도달 범위를 극대화하려는 경우
 
  
 

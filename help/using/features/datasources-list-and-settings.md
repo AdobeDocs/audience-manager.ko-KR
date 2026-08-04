@@ -22,7 +22,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1090
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 현재 구성된 [!UICONTROL data sources]의 목록을 보고 새 [!UICONTROL data sources]을(를) 추가하고 기존 [!UICONTROL data sources]을(를) 편집하세요.
 
-[!UICONTROL data sources] 메서드를 사용하여 [!DNL API]을(를) 관리할 수도 있습니다. 자세한 내용은 [데이터 Source API 메서드](../api/rest-api-main/aam-api-data-sources.md)를 참조하십시오.
+[!DNL API] 메서드를 사용하여 [!UICONTROL data sources]을(를) 관리할 수도 있습니다. 자세한 내용은 [데이터 Source API 메서드](../api/rest-api-main/aam-api-data-sources.md)를 참조하십시오.
 
 ## [!UICONTROL Data Sources] 목록 보기 {#list-view}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 [!UICONTROL Data Sources] 대시보드(**[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**)에는 다음과 같은 기능이 포함되어 있습니다.
 
-* 각 데이터 원본의 설명, 상태 및 [!UICONTROL data sources], [!UICONTROL Inbound], 둘 다 또는 [!UICONTROL Outbound]인지 여부를 포함하여 기존 [!UICONTROL Shared Provider]을(를) 모두 봅니다.
+* 각 데이터 원본의 설명, 상태 및 [!UICONTROL Inbound], [!UICONTROL Outbound], 둘 다 또는 [!UICONTROL Shared Provider]인지 여부를 포함하여 기존 [!UICONTROL data sources]을(를) 모두 봅니다.
 * 이름으로 [!UICONTROL data sources]을(를) 검색합니다.
 * [!UICONTROL data sources]을(를) 만들고, 편집하고, 삭제합니다.
 
@@ -155,11 +155,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 인증된 프로필로 사용</span></b> </p> </td> 
-   <td colname="col2"> <p>교차 장치 데이터 소스에는 인증된 ID가 포함되어 있습니다. 인증 이벤트(예: 사용자가 온사이트, 인앱 등에 로그인) 중에 인증된 ID가 수집되고 <span class="keyword"> Audience Manager</span> ID에 동기화됩니다. 인증된 ID는 이 ID를 저장하는 다른 소스의 데이터를 온보딩하는 데 사용할 수 있습니다. <span class="wintitle"> 프로필 링크</span>에서 여러 장치 ID를 연결하는 데 사용할 수도 있습니다. </p> <p>이 옵션은 별칭을 사용하여 데이터 소스의 이름을 바꿀 수 있는 텍스트 필드를 노출합니다. 별칭을 사용하는 경우, 이 새 이름은 데이터 원본 이름을 무시하고 <span class="wintitle">에서 프로필 병합 규칙을 만들 때 </span> 인증된 프로필 옵션<a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule">에 나타납니다</a>. </p> </td> 
+   <td colname="col2"> <p>교차 장치 데이터 소스에는 인증된 ID가 포함되어 있습니다. 인증 이벤트(예: 사용자가 온사이트, 인앱 등에 로그인) 중에 인증된 ID가 수집되고 <span class="keyword"> Audience Manager</span> ID에 동기화됩니다. 인증된 ID는 이 ID를 저장하는 다른 소스의 데이터를 온보딩하는 데 사용할 수 있습니다. <span class="wintitle"> 프로필 링크</span>에서 여러 장치 ID를 연결하는 데 사용할 수도 있습니다. </p> <p>이 옵션은 별칭을 사용하여 데이터 소스의 이름을 바꿀 수 있는 텍스트 필드를 노출합니다. 별칭을 사용하는 경우, 이 새 이름은 데이터 원본 이름을 무시하고 <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule">에서 프로필 병합 규칙을 만들 때 <span class="wintitle"> 인증된 프로필 옵션</span>에 나타납니다</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 장치 그래프로 사용</span></b> </p> </td> 
-   <td colname="col2"> <p>다른 <span class="keyword"> Audience Manager</span> 고객에게 제공할 수 있는 장치 그래프로 데이터 원본을 만듭니다. 이 옵션을 선택하기 전에 <span class="keyword"> Audience Manager</span> 컨설턴트에게 이 <span class="wintitle"> 데이터 Source</span>을(를) 공유할 고객을 알려주십시오. 컨설턴트는 내부 프로세스를 통해 해당 회사를 프로비저닝해야 합니다. </p> <p>이 옵션은 별칭을 사용하여 데이터 소스의 이름을 바꿀 수 있는 텍스트 필드를 노출합니다. 별칭을 사용하는 경우 이 새 이름은 데이터 원본 이름을 재정의하며 <span class="wintitle">에서 프로필 병합 규칙을 만들 때 </span> 장치 옵션<a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule">에 나타납니다</a>. </p> </td> 
+   <td colname="col2"> <p>다른 <span class="keyword"> Audience Manager</span> 고객에게 제공할 수 있는 장치 그래프로 데이터 원본을 만듭니다. 이 옵션을 선택하기 전에 <span class="keyword"> Audience Manager</span> 컨설턴트에게 이 <span class="wintitle"> 데이터 Source</span>을(를) 공유할 고객을 알려주십시오. 컨설턴트는 내부 프로세스를 통해 해당 회사를 프로비저닝해야 합니다. </p> <p>이 옵션은 별칭을 사용하여 데이터 소스의 이름을 바꿀 수 있는 텍스트 필드를 노출합니다. 별칭을 사용하는 경우 이 새 이름은 데이터 원본 이름을 재정의하며 <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule">에서 프로필 병합 규칙을 만들 때 <span class="wintitle"> 장치 옵션</span>에 나타납니다</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 연결된 방문자 또는 장치 ID를 특정 Audience Manager 고객과 공유</span></b> </p> </td> 

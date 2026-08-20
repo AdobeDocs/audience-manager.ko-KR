@@ -28,9 +28,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -230,8 +230,8 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 **비활성 Amazon S3 사용자 액세스 키는 어떻게 됩니까?**
 
-Adobe은 Audience Manager 고객에게 [!DNL Amazon S3] 버킷에 대한 액세스 키를 제공합니다. 보안을 위해 이러한 액세스 키는 100일 동안 사용하지 않는 경우 자동으로 비활성화됩니다.
+Adobe은 Audience Manager 고객에게 [!DNL Amazon S3] 버킷에 대한 액세스 키를 제공합니다. 보안을 위해 이러한 액세스 키는 40일 동안 사용하지 않는 경우 자동으로 비활성화됩니다.
 
 액세스 키가 비활성화되면 고객 지원 센터에 문의하여 다시 활성화하거나 새 액세스 키를 요청할 수 있습니다.
 
-보안을 강화하기 위해 1000일 동안 비활성 상태인 액세스 키는 Amazon S3 IAM 사용자 계정과 함께 영구적으로 삭제됩니다. 재방문 고객이고 이 기간이 지나 액세스 권한이 필요한 경우 고객 지원 센터에 문의하여 계정을 다시 만들고 새 액세스 키를 받으십시오.
+보안을 강화하기 위해 180일 동안 비활성 상태인 액세스 키는 Amazon S3 IAM 사용자 계정과 함께 영구적으로 삭제됩니다. 재방문 고객이고 이 기간이 지나 액세스 권한이 필요한 경우 고객 지원 센터에 문의하여 계정을 다시 만들고 새 액세스 키를 받으십시오.

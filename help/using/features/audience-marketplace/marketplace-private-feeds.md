@@ -10,17 +10,18 @@ exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
 TQID: https://experienceleague.adobe.com/Zu-vprPHjdrKnCmni186mwvNUjwvgFw26nHERL7gBHE
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: c7475dcbcdca8baf647260ea4083c2c3122a8302
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 1%
-
 ---
-
 # 비공개 데이터 피드 {#private-data-feeds}
 
 비공개 데이터 피드는 제공업체가 구매자의 데이터 액세스를 제한할 수 있는 옵션입니다. 데이터 공급자 및 구매자는 비공개 데이터 피드를 만들고 구독하기 전에 이 정보를 검토해야 합니다.
@@ -86,7 +87,7 @@ ht-degree: 1%
 
 ## 구매자를 위한 비공개 데이터 피드 {#private-data-feeds-for-buyers}
 
-구매자는 다른 오퍼와 마찬가지로 [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)에 비공개 데이터 피드가 표시됩니다. 단, 이 경우 피드 목록에는 트레이트, 고유 사용자 및 사용자 겹침에 대한 요약 정보가 표시되지 않습니다. 또한 데이터 판매자는 [!UICONTROL Provider] 목록의 [!UICONTROL Marketplace] 열에 이름을 표시하거나 숨길 수 있습니다. 판매자가 구독 요청을 승인하면 비공개 피드의 모든 데이터를 사용할 수 있게 됩니다(공개 피드와 동일하게 작동). 아래의 [!UICONTROL Marketplace] 예제에서는 구매자가 사용할 수 있는 3가지 피드 유형을 나열합니다.
+구매자는 다른 오퍼와 마찬가지로 [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)에 비공개 데이터 피드가 표시됩니다. 단, 이 경우 피드 목록에는 트레이트, 고유 사용자 및 사용자 겹침에 대한 요약 정보가 표시되지 않습니다. 또한 데이터 판매자는 [!UICONTROL Marketplace] 목록의 [!UICONTROL Provider] 열에 이름을 표시하거나 숨길 수 있습니다. 판매자가 구독 요청을 승인하면 비공개 피드의 모든 데이터를 사용할 수 있게 됩니다(공개 피드와 동일하게 작동). 아래의 [!UICONTROL Marketplace] 예제에서는 구매자가 사용할 수 있는 3가지 피드 유형을 나열합니다.
 
 ![](assets/buyer_marketplace.png)
 

@@ -84,4 +84,4 @@ IP 주소 난독화를 전역적으로 사용하지 않으려면 **관리 > 개�
 * [데이터 개인 정보 보호](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP 주소 난독화 비디오 데모
 
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/34980?captions=kor)

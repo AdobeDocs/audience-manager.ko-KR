@@ -7,26 +7,36 @@ title: Tag Management 구성 요소
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
-TQID: https://experienceleague.adobe.com/iOniWbVTajyhGmIl3IDdxrP5dZ-ULKkA-9ySOXniqUI
+TQID: 'https://experienceleague.adobe.com/iOniWbVTajyhGmIl3IDdxrP5dZ-ULKkA-9ySOXniqUI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: f518b7e7-52a7-4298-a970-88c25c36ab31
+    internal-label: System components
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data management
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '322'
 ht-degree: 1%
-
 ---
-
 # Tag Management 구성 요소{#tag-management-components}
 
 Audience Manager 태그 관리 구성 요소에는 클라이언트 포털, Adobe Tag Manager(Adobe Experience Platform 태그가 더 이상 사용되지 않음), DIL, Akamai 및 제어 데이터베이스가 포함됩니다.
@@ -51,7 +61,7 @@ Audience Manager에는 다음 구성 요소가 포함되어 있습니다.
 
 ## DIL/TIM 컨테이너 {#dil-tim}
 
-[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM]은(는) 더 이상 사용되지 않는 태그 삽입 관리자입니다. [!DNL Audience Manager]에서 더 이상 사용되지 않습니다. 대신 [!DNL Audience Manager]Adobe Experience Platform 태그[에서 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko) 확장을 사용하여 인벤토리의 페이지에 배치할 컨테이너 코드를 구성하고 생성합니다.
+[!UICONTROL DIL] 컨테이너는 [!DNL Audience Manager] 데이터 수집 코드를 웹 사이트에 배포하는 데 도움이 됩니다. [!UICONTROL TIM]은(는) 더 이상 사용되지 않는 태그 삽입 관리자입니다. [!DNL Audience Manager]에서 더 이상 사용되지 않습니다. 대신 [Adobe Experience Platform 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html)에서 [!DNL Audience Manager] 확장을 사용하여 인벤토리의 페이지에 배치할 컨테이너 코드를 구성하고 생성합니다.
 
 ## DIL(데이터 통합 라이브러리) {#dil}
 

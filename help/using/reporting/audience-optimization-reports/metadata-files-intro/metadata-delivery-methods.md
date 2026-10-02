@@ -7,20 +7,28 @@ title: 메타데이터 파일에 대한 전달 방법
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: Log Files
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-TQID: https://experienceleague.adobe.com/1WX2-VoBmcDsUqntootQYpwQRtAOktxompEZfxVE9TE
+TQID: 'https://experienceleague.adobe.com/1WX2-VoBmcDsUqntootQYpwQRtAOktxompEZfxVE9TE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # 메타데이터 파일에 대한 전달 방법{#delivery-methods-for-metadata-files}
 
 메타데이터 파일을 Audience Manager 계정의 특수 [!DNL Amazon S3] 디렉터리로 보내 보내거나 업데이트합니다. 배달/디렉터리 경로, 파일 처리 시간 및 업데이트에 대한 자세한 내용은 이 섹션을 참조하십시오.
@@ -54,7 +62,7 @@ ht-degree: 0%
 |---------|----------|
 | `.../log_ingestion/` | 디렉토리 스토리지 경로의 시작입니다. 모든 것이 설정되면 전체 경로를 받게 됩니다. |
 | `pid=<AAM ID>` | 이 키-값 쌍에는 Audience Manager 고객 ID가 포함되어 있습니다. |
-| `dpid=<d_src>` | 이 키-값 쌍에는 이벤트 호출 시 전달된 데이터 소스 ID가 포함되어 있습니다. 데이터 소스 ID는 파일의 모든 컨텐츠를 해당 데이터가 속한 실제 데이터에 연결하는 값입니다. </br> 예를 들어 ID가 123이고 이름이 &quot;Advertiser Creative A&quot;인 크리에이티브가 있다고 가정합니다. 이벤트 호출은 ID만 전달하므로 메타데이터 파일에 &quot;Advertiser Creative A&quot;를 포함해야 합니다. 캠페인 및 크리에이티브는 데이터 소스에 속합니다. 데이터 소스 ID는 이러한 ID를 함께 결합하고 파일 컨텐츠를 이벤트 호출 시 전송된 ID에 정확하게 연결할 수 있는 것입니다. [이벤트 호출 ID가 파일 이름, 내용 및 게재 경로를 결정하는 방법](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)을 참조하십시오. |
+| `dpid=<d_src>` | 이 키-값 쌍에는 이벤트 호출 시 전달된 데이터 소스 ID가 포함되어 있습니다. 데이터 소스 ID는 파일의 모든 컨텐츠를 해당 데이터가 속한 실제 데이터에 연결하는 값입니다. </br> 예를 들어 ID 123과 이름이 &quot;Advertiser Creative A&quot;인 크리에이티브가 있다고 가정해 보겠습니다. 이벤트 호출은 ID만 전달하므로 메타데이터 파일에 &quot;Advertiser Creative A&quot;를 포함해야 합니다. 캠페인 및 크리에이티브는 데이터 소스에 속합니다. 데이터 소스 ID는 이러한 ID를 함께 결합하고 파일 컨텐츠를 이벤트 호출 시 전송된 ID에 정확하게 연결할 수 있는 것입니다. [이벤트 호출 ID가 파일 이름, 내용 및 게재 경로를 결정하는 방법](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)을 참조하십시오. |
 | `<yyyymmdd_0_child ID>` | 파일 이름입니다. [메타데이터 파일에 대한 이름 지정 규칙](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)을 참조하십시오. |
 
 ## 파일 처리 시간 및 업데이트 {#processing-times}

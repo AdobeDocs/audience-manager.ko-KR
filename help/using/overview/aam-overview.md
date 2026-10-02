@@ -8,21 +8,30 @@ title: Audience Manager 개요
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-TQID: https://experienceleague.adobe.com/yfWxhIkYnUTETWQa99VZoT6-mzAJ0TbjkQgFe5F5nlM
+TQID: 'https://experienceleague.adobe.com/yfWxhIkYnUTETWQa99VZoT6-mzAJ0TbjkQgFe5F5nlM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data management
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 301
-ht-degree: 85%
-
+source-wordcount: '322'
+ht-degree: 83%
 ---
-
 # Audience Manager 개요 {#audience-manager-overview}
 
 Audience Manager는 대상 데이터 자산을 함께 가져와서 상업적으로 관련이 있는 사이트 방문자에 대한 데이터를 쉽게 수집하고, 마케팅 가능한 세그먼트를 만들고, 타겟팅 광고 및 컨텐츠를 해당 대상에게 제공할 수 있습니다. 또한 Audience Manager는 강력한 데이터 수집, 제어 및 보호를 통해 손쉽게 태그를 배포하고 관리할 수 있습니다.
@@ -53,7 +62,7 @@ DSP(수요 측 플랫폼), 캠페인 관리 시스템 및 기타 마케팅 플�
 
 * [Audience Manager 개요](https://www.adobe.com/kr/analytics/audience-manager.html)
 * [Audience Manager의 이점](https://www.adobe.com/kr/analytics/audience-manager/benefits.html)
-* [Audience Manager의 기능](https://www.adobe.com/kr/analytics/audience-manager/features.html)
+* [Audience Manager 기능](https://www.adobe.com/kr/analytics/audience-manager/features.html)
 
 
 <!--

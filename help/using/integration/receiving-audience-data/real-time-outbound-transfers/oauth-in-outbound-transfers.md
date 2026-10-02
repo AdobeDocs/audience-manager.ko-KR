@@ -7,21 +7,28 @@ title: 실시간 아웃바운드 전송을 위한 OAuth 2.0 통합
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 feature: Outbound Data Transfers
 exl-id: eef3a3ae-1a3f-47e9-aab6-abf878e4cb77
-TQID: https://experienceleague.adobe.com/NPCwMOqwZjtbeS2K9z2Z499bQE3mPp22XWKWVtOPSv0
+TQID: 'https://experienceleague.adobe.com/NPCwMOqwZjtbeS2K9z2Z499bQE3mPp22XWKWVtOPSv0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: '464'
 ht-degree: 0%
-
 ---
-
 # 실시간 아웃바운드 전송을 위한 [!DNL OAuth 2.0] 통합{#oauth-integration-for-real-time-outbound-transfers}
 
 실시간 서버 간 통합을 통해 파트너 대상에 세그먼트를 게시할 때 요청을 수행할 때 [!DNL OAuth 2.0]을(를) 사용하여 인증하도록 Audience Manager을 설정할 수 있습니다. Audience Manager에서 엔드포인트로 인증된 요청을 발행하는 기능을 제공합니다.
@@ -122,7 +129,7 @@ Accept-Encoding: gzip
 
 ### 토큰은 암호입니다.
 
-[!DNL Audience Manager] 흐름을 사용하여 인증할 때 파트너가 제공한 자격 증명과 [!DNL OAuth 2.0]이(가) 얻은 토큰은 중요한 정보이므로 서드파티와 공유해서는 안 됩니다.
+[!DNL OAuth 2.0] 흐름을 사용하여 인증할 때 파트너가 제공한 자격 증명과 [!DNL Audience Manager]이(가) 얻은 토큰은 중요한 정보이므로 서드파티와 공유해서는 안 됩니다.
 
 ### [!DNL SSL]은(는) 필수입니다.
 

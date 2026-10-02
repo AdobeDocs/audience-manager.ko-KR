@@ -7,16 +7,21 @@ title: 트레이트 저장소
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
 feature: Traits
 exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
-TQID: https://experienceleague.adobe.com/acJN-EyL60I8Y3dmrj8g9oV7qODKLJXiz7QOQvPs6G0
+TQID: 'https://experienceleague.adobe.com/acJN-EyL60I8Y3dmrj8g9oV7qODKLJXiz7QOQvPs6G0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 213
+source-wordcount: '213'
 ht-degree: 3%
-
 ---
-
 # 트레이트 저장소 {#trait-storage}
 
 트레이트 저장소 폴더는 트레이트를 저장하고 구성하는 데 도움이 됩니다.
@@ -35,7 +40,7 @@ ht-degree: 3%
 
 <!-- t_tb_create_storage.xml -->
 
-새 특성을 설정할 때 [!UICONTROL Basic Information] 섹션에서 새 저장소 폴더를 만들 수 있습니다. 또한 기본 [!UICONTROL Trait Storage] 목록 대시보드의 [!UICONTROL Traits] 섹션에 폴더를 만들 수 있습니다.
+새 특성을 설정할 때 [!UICONTROL Basic Information] 섹션에서 새 저장소 폴더를 만들 수 있습니다. 또한 기본 [!UICONTROL Traits] 목록 대시보드의 [!UICONTROL Trait Storage] 섹션에 폴더를 만들 수 있습니다.
 
 새 저장소 폴더를 만들려면 다음 작업을 수행하십시오.
 
@@ -51,7 +56,7 @@ ht-degree: 3%
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-기본 [!UICONTROL Trait Storage] 목록 대시보드의 [!UICONTROL Traits] 섹션에서 저장소 폴더의 이름을 바꾸거나 삭제할 수 있습니다.
+기본 [!UICONTROL Traits] 목록 대시보드의 [!UICONTROL Trait Storage] 섹션에서 저장소 폴더의 이름을 바꾸거나 삭제할 수 있습니다.
 
 * 폴더로 마우스를 가져간 후 연필 아이콘을 클릭하여 폴더 이름을 변경합니다.
 * 폴더로 마우스를 가져간 후 **X** 아이콘을 클릭하여 폴더를 삭제합니다.

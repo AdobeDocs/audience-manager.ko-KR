@@ -7,28 +7,35 @@ title: 크로스 채널 전환
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: Audience Optimization Reports
 exl-id: 7412a43f-81b5-477e-8acf-89d6c8661f1e
-TQID: https://experienceleague.adobe.com/oP3jo2IVz2w0ExYE00wHo19nelOfOf4iAN84pgF64fU
+TQID: 'https://experienceleague.adobe.com/oP3jo2IVz2w0ExYE00wHo19nelOfOf4iAN84pgF64fU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 238
+source-wordcount: '240'
 ht-degree: 3%
-
 ---
-
 # 크로스 채널 전환{#cross-channel-conversion}
 
 Audience Optimization 보고서의 채널 간 전환 옵션을 사용하면 오프라인 전환을 제공된 온라인 노출 또는 클릭에 표시할 수 있습니다.
 
 [!UICONTROL Cross Channel Conversion] 보고서는 [!DNL Google Campaign Manager] 플랫폼의 결과를 [!DNL Audience Manager] 전환 트레이트와 결합합니다. 이렇게 하면 오프라인 전환을 온라인 노출 또는 클릭에 연결할 수 있습니다.
 
-[!UICONTROL Cross Channel Conversion]세그먼트 성능[&#x200B; 및 &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)최적 빈도[&#x200B; 보고서에 &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)을(를) 사용할 수 있습니다.
+[세그먼트 성능](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) 및 [최적 빈도](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) 보고서에 [!UICONTROL Cross Channel Conversion]을(를) 사용할 수 있습니다.
 
-[!UICONTROL Cross Channel Conversion] 보고서를 보려면 **[!UICONTROL AAM + Ad Server Name]** 드롭다운 목록에서 **[!UICONTROL Platform]** 항목을 선택하십시오.
+[!UICONTROL Cross Channel Conversion] 보고서를 보려면 **[!UICONTROL Platform]** 드롭다운 목록에서 **[!UICONTROL AAM + Ad Server Name]** 항목을 선택하십시오.
 
 다음 표에는 [!UICONTROL Cross Channel Conversion]을(를) 설정할 때 고려해야 할 중요한 사항이 나와 있습니다.
 

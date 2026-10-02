@@ -7,23 +7,30 @@ title: 대상 랩 사용 사례
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
 exl-id: b68f48bd-0d5d-4b72-84f3-a6f3acea6c49
-TQID: https://experienceleague.adobe.com/mDcQUaLcTjBA31iTkVJbm1UOy9rqRv3yHca4ZH-HliE
+TQID: 'https://experienceleague.adobe.com/mDcQUaLcTjBA31iTkVJbm1UOy9rqRv3yHca4ZH-HliE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: '587'
 ht-degree: 0%
-
 ---
-
 # 대상 랩 사용 사례 {#audience-lab-use-cases}
 
 [!UICONTROL Audience Lab]을(를) 사용하면 테스트 그룹을 만드는 데 기준선 세그먼트를 사용할 수 있으므로 여러 사용 사례를 사용할 수 있습니다. 테스트 그룹을 여러 상호 배타적인 테스트 세그먼트로 나누고, 이들을 서로 다른 대상에 매핑한 다음 어느 세그먼트가 전환 유도에 가장 효과적인지를 결정할 수 있습니다.
@@ -34,7 +41,7 @@ ht-degree: 0%
 
 <!-- audience-lab-compare-models.xml -->
 
-이 사용 사례에서는 서로 다른 모델을 비교하고 있습니다. 사내 데이터 웨어하우스를 통해 만든 모델을 사용하여 [!DNL Audience Manager]에서 [온보딩된 특성](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)(으)로 가져오거나 [에서 &#x200B;](../../features/algorithmic-models/understanding-models.md)알고리즘 모델[!DNL Audience Manager] 기능을 사용할 수 있습니다.
+이 사용 사례에서는 서로 다른 모델을 비교하고 있습니다. 사내 데이터 웨어하우스를 통해 만든 모델을 사용하여 [!DNL Audience Manager]에서 [온보딩된 특성](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)(으)로 가져오거나 [!DNL Audience Manager]에서 [알고리즘 모델](../../features/algorithmic-models/understanding-models.md) 기능을 사용할 수 있습니다.
 
 1. [모델 빌더](../../features/algorithmic-models/create-model.md)나 외부 플랫폼을 통해 두 개의 모델을 만듭니다.
 1. 알고리즘 모델에서 [알고리즘 트레이트](../../features/traits/create-algorithmic-traits.md)를 만들거나 자체 모델을 온보딩된 트레이트로 가져옵니다.
@@ -43,7 +50,7 @@ ht-degree: 0%
    * *모델 1 세그먼트* 및 *모델 2 세그먼트*&#x200B;를 만듭니다.
    * *모델 1 세그먼트*&#x200B;에 대한 세그먼트 규칙이 모델 1 트레이트 [!DNL AND NOT] 모델 2 트레이트이거나 *모델 2 세그먼트*&#x200B;의 세그먼트 규칙이 그 반대입니다.
 
-1. [두 개의 세그먼트 테스트 그룹을 &#x200B;](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)에 만듭니다[!UICONTROL Audience Lab]. 하나는 *모델 1 세그먼트*&#x200B;를 기준으로 하고 다른 하나는 *모델 2 세그먼트*&#x200B;를 기준으로 합니다.
+1. [두 개의 세그먼트 테스트 그룹을 [!UICONTROL Audience Lab]에 만듭니다](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups). 하나는 *모델 1 세그먼트*&#x200B;를 기준으로 하고 다른 하나는 *모델 2 세그먼트*&#x200B;를 기준으로 합니다.
 
    * 동일한 대상, 크리에이티브, 전환 트레이트의 두 테스트 그룹에 대해 변수를 동일하게 유지합니다.
    * 테스트 세그먼트에 유사한 사용자 수가 있는지 확인합니다(예: 160만 및 180만 이 괜찮음, 160만 및 1600만 은 그렇지 않음).

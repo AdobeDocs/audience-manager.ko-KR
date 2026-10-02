@@ -7,16 +7,21 @@ title: 알고리즘 트레이트 만들기
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 exl-id: dc799688-e38b-469b-bc55-507df0d28f43
-TQID: https://experienceleague.adobe.com/4fXcAhJfBjPIMqMRFM-alsUtvCjBXLGhqJQO66cTH60
+TQID: 'https://experienceleague.adobe.com/4fXcAhJfBjPIMqMRFM-alsUtvCjBXLGhqJQO66cTH60'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 309
+source-wordcount: '310'
 ht-degree: 1%
-
 ---
-
 # 알고리즘 트레이트 만들기 {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
@@ -28,9 +33,9 @@ ht-degree: 1%
    * 트레이트 이름을 지정합니다.
    * 데이터 소스를 선택합니다.
    * 저장소 폴더를 선택하십시오.
-1. [!UICONTROL Configuration] 창을 확장하고 **[!UICONTROL Browse All Models]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Configuration] 창을 확장하고 **[!UICONTROL Browse All Models]**을(를) 클릭합니다.
 그러면 트레이트와 함께 사용할 모델을 선택할 수 있는 새 창이 열립니다.
-1. 모델을 선택하고 **[!UICONTROL Add Selected Model to Trait]**&#x200B;을(를) 클릭합니다.
+1. 모델을 선택하고 **[!UICONTROL Add Selected Model to Trait]**을(를) 클릭합니다.
 모델을 추가하면 도달 범위와 정확도 설정이 노출됩니다.
 1. 도달 범위 또는 정확도를 목표로 선택하고 해당 드롭다운 메뉴에서 값을 선택합니다. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

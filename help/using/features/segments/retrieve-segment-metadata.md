@@ -7,24 +7,32 @@ title: 세그먼트 메타데이터 검색 중
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 feature: Segments
 exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
-TQID: https://experienceleague.adobe.com/wWAyOKoMlNRC-tFKOmA-hWpwAiIs7r53MFcURPabsWg
+TQID: 'https://experienceleague.adobe.com/wWAyOKoMlNRC-tFKOmA-hWpwAiIs7r53MFcURPabsWg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
+    internal-label: REST APIs
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Customer experience
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: '529'
 ht-degree: 0%
-
 ---
-
 # 세그먼트 메타데이터 검색 중 {#retrieving-segment-metadata}
 
 Audience Manager이 데이터 파트너에게 세그먼트 정보를 보내면 숫자 ID로 이러한 개체를 식별합니다. 데이터 파트너로서 이 정보를 고객과 공유하거나 직접 작업할 때 실제 이름과 설명은 보고서, 대시보드 또는 기타 사용자 인터페이스([!DNL UI])에서 고객에게 더 나은 경험을 제공합니다. 데이터 파트너는 이 섹션에 설명된 수동 또는 자동화된 방법을 통해 고객에게 친숙한 이름을 제공할 수 있습니다.
@@ -39,11 +47,11 @@ Audience Manager이 데이터 파트너에게 세그먼트 정보를 보내면 �
 
 ### 1단계: Audience Manager API 검토
 
-[REST API 시작](../../api/rest-api-main/aam-api-getting-started.md) 섹션에는 일반 요구 사항, 인증, 사용 가능한 방법 등에 대한 정보가 포함되어 있습니다. [!DNL Audience Manager] [!DNL API]을(를) 사용한 적이 없다면 시작해 보십시오.
+[REST API 시작](../../api/rest-api-main/aam-api-getting-started.md) 섹션에는 일반 요구 사항, 인증, 사용 가능한 방법 등에 대한 정보가 포함되어 있습니다. [!DNL Audience Manager] [!DNL API]을(를) 사용한 적이 없는 경우 시작하는 것이 좋습니다.
 
 ### 2단계: OAuth2 액세스 자격 증명 요청
 
-[!DNL API]을(를) 호출하려면 클라이언트 ID와 암호가 필요합니다. 통합 설정 프로세스 중에 통합 전문가로부터 클라이언트 ID와 암호를 받을 수 있습니다. [!UICONTROL Audience Manager Customer Care]의 [!DNL amsupport@adobe.com]&#x200B;(으)로 전자 메일 요청을 보낼 수도 있습니다.
+[!DNL API]을(를) 호출하려면 클라이언트 ID와 암호가 필요합니다. 통합 설정 프로세스 중에 통합 전문가로부터 클라이언트 ID와 암호를 받을 수 있습니다. [!DNL amsupport@adobe.com]의 [!UICONTROL Audience Manager Customer Care]&#x200B;(으)로 전자 메일 요청을 보낼 수도 있습니다.
 
 ### 3단계: 각 통합 고객으로부터 고객별 정보 수집
 

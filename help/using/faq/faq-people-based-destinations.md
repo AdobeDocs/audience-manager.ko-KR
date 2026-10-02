@@ -6,25 +6,32 @@ solution: Audience Manager
 title: 사용자 기반 대상 FAQ
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-TQID: https://experienceleague.adobe.com/zcE89nzl7puv3LM0yqr23iJh1qL-intHd4ffYKu23KY
+TQID: 'https://experienceleague.adobe.com/zcE89nzl7puv3LM0yqr23iJh1qL-intHd4ffYKu23KY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 subfeature_v2:
   - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+    internal-label: Match rates
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: '1180'
 ht-degree: 86%
-
 ---
-
 # 사용자 기반 대상 FAQ {#people-based-destinations-faq}
 
 [!DNL People-Based Destinations]에 대한 일반적인 질문에 대한 답변입니다.
@@ -91,7 +98,7 @@ Audience Manager는 원시 이메일 주소를 섭취하는 것이 아니므로 
 
 Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대상 플랫폼에 보낼 수 있지만 이메일 주소는 동기화 파일을 통해 캡처해야 합니다. Audience Manager가 대상 플랫폼에 이메일 주소를 보낸 후 이메일 주소를 자체 사용자 기반에 대해 일치시키는 것은 플랫폼에 달려 있습니다. 일부 플랫폼에는 Audience Manager에서 사용자 프로필에 보낸 주소를 일치시키기 위한 추가적인 이메일 주소 그래프가 있을 수 있습니다.
 
-**[!DNL People-Based Destinations]에서 [!DNL Audience Lab]을(를) 사용할 수 있습니까?**
+**[!DNL Audience Lab]에서 [!DNL People-Based Destinations]을(를) 사용할 수 있습니까?**
 
 아니요. 현재 모든 [!DNL People-Based Destinations] 대상이 [!DNL Audience Lab]에서 제외되어 있습니다. [!DNL People-Based Destinations]과(와) 수요 측 플랫폼에서 서로 다른 ID를 사용하므로 대상을 균등하게 분할하여 성능을 테스트하고 측정할 수 없습니다.
 
@@ -119,16 +126,16 @@ Audience Manager는 사용자당 최대 10개의 이메일을 수집하여 대�
 
 **[!DNL People-Based Destinations]은 [!DNL Instagram]과 같은 다른 [!DNL Facebook] 앱에서 대상자 타기팅을 지원합니까?**
 
-[!DNL People-Based Destinations], [!DNL Facebook], [!DNL Custom Audiences] 및 [!DNL Facebook]을(를) 포함하여 [!DNL Instagram]에서 지원하는 [!DNL Audience Network]의 앱 제품군에서 [!DNL Messenger]을(를) 사용할 수 있습니다. 캠페인을 실행할 앱의 선택은 [!DNL Facebook Ads Manager]의 배치 수준에서 표시됩니다.
+[!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] 및 [!DNL Messenger]을(를) 포함하여 [!DNL Custom Audiences]에서 지원하는 [!DNL Facebook]의 앱 제품군에서 [!DNL People-Based Destinations]을(를) 사용할 수 있습니다. 캠페인을 실행할 앱의 선택은 [!DNL Facebook Ads Manager]의 배치 수준에서 표시됩니다.
 
 **[!DNL People-Based Destinations]과(와) [!DNL Website Custom Audiences]의 차이점은 무엇입니까?**
 
 [!DNL People-Based Destinations]은 [!DNL Facebook]과의 [!DNL Custom Audiences (CA)] 통합을 활용합니다. [!DNL WCA]와 [!DNL CA] 통합의 차이점은 고객이 [!DNL Facebook]에 대상자를 보낼 때 사용하는 키입니다. [!DNL WCA]는 [!DNL Facebook] 픽셀(웹 사이트 사용자 ID임)을 사용하고 [!DNL People-Based Destinations]은 해시된 이메일 주소를 사용하여 [!DNL CA]와 통합합니다.
 
-추가 비용 없이 [!DNL Facebook] 기능을 통해 Audience Manager [!DNL WCA] [!DNL URL Destinations] 통합을 사용할 수 있습니다.
+추가 비용 없이 [!DNL URL Destinations] 기능을 통해 Audience Manager [!DNL Facebook] [!DNL WCA] 통합을 사용할 수 있습니다.
 
 이 두 가지 통합은 상호 보완적입니다. 두 가지 모두를 사용하여 대상자 범위를 개선할 수 있습니다. 예를 들어, [!DNL WCA]는 회사가 계정을 등록하지 않은 웹 사이트 방문자를 타겟팅하려고 하는 경우 예측에 사용할 수 있지만, [!DNL People-Based Destinations]은 이메일 주소를 제공했지만 웹 사이트를 방문하지 않은 기존 고객을 타겟팅하는 데 도움이 될 수 있습니다.
 
-**[!DNL People-Based Destinations]과(와) [!DNL Facebook] 통합에서 더 이상 자격이 없는 사용자를 대상에서 제외시킬 수 있습니까?**
+**[!DNL Facebook]과(와) [!DNL People-Based Destinations] 통합에서 더 이상 자격이 없는 사용자를 대상에서 제외시킬 수 있습니까?**
 
 예. 통합은 [!DNL Facebook] 대상자가 더 이상 해당 대상자에 적합하지 않을 때 해당 대상자에서 사용자를 제거할 수 있도록 지원합니다.

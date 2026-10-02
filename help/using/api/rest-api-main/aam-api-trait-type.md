@@ -7,24 +7,30 @@ title: 트레이트 유형 메서드
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
-TQID: https://experienceleague.adobe.com/IoPUeMYwHk-D5F31Gx76Vmd97yRQqRIHlDWu3-5KZLg
+TQID: 'https://experienceleague.adobe.com/IoPUeMYwHk-D5F31Gx76Vmd97yRQqRIHlDWu3-5KZLg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: '153'
 ht-degree: 3%
-
 ---
-
 # 트레이트 유형 메서드 {#trait-type-methods}
 
 일반적으로 기능이나 자체 내부 보고 프로세스에 따라 사용자 정의 유형 또는 범주에 트레이트를 할당할 수 있는 선택적 메서드입니다.
@@ -35,7 +41,7 @@ ht-degree: 3%
 >
 >특성 유형 메서드는 [일반 분류](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)에서 사용하는 범주에 특성을 할당하지 않습니다. 일반적인 분류법과는 별개인 레이블로 생각해 보십시오.
 
-시각적 참조의 경우 [!UICONTROL Trait Types]은(는) [!DNL UI] 아래의 **[!UICONTROL Traits > Create new trait > Basic Information]**&#x200B;에 있는 드롭다운 컨트롤입니다.
+시각적 참조의 경우 [!UICONTROL Trait Types]은(는) **[!UICONTROL Traits > Create new trait > Basic Information]** 아래의 [!DNL UI]에 있는 드롭다운 컨트롤입니다.
 
 ## 새 트레이트 유형 만들기 {#create-trait-type}
 

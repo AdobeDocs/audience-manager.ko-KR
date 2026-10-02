@@ -5,25 +5,34 @@ solution: Audience Manager
 title: IP 주소 난독화
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-TQID: https://experienceleague.adobe.com/HDL8UVo5Buup16TdOH8RZXit9EDTXtivbpUfqaaYezo
+TQID: 'https://experienceleague.adobe.com/HDL8UVo5Buup16TdOH8RZXit9EDTXtivbpUfqaaYezo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '526'
 ht-degree: 12%
-
 ---
-
 # IP 주소 난독화 {#ip-obfuscation}
 
 이 기능을 사용하여 Audience Manager에서 수집된 IP 주소를 난독화합니다.
@@ -43,7 +52,7 @@ ht-degree: 12%
 
 ### IP 난독화 사전 요구 {#precedence}
 
-[데이터스트림 수준 IP 난독화](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko#create)가 Audience Manager에 설정된 IP 난독화 옵션보다 우선하며 모든 IP 주소에 적용됩니다. Audience Manager에서 수행한 모든 지리적 위치 조회는 데이터 스트림 수준 [!UICONTROL IP obfuscation] 옵션의 영향을 받습니다. 완전히 난독화된 IP를 기반으로 하는 Audience Manager의 지리적 위치 조회를 수행하면 알 수 없는 영역이 발생하고 결과 지리적 위치 데이터를 기반으로 하는 모든 세그먼트는 실현되지 않습니다.
+[데이터스트림 수준 IP 난독화](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create)가 Audience Manager에 설정된 IP 난독화 옵션보다 우선하며 모든 IP 주소에 적용됩니다. Audience Manager에서 수행한 모든 지리적 위치 조회는 데이터 스트림 수준 [!UICONTROL IP obfuscation] 옵션의 영향을 받습니다. 완전히 난독화된 IP를 기반으로 하는 Audience Manager의 지리적 위치 조회를 수행하면 알 수 없는 영역이 발생하고 결과 지리적 위치 데이터를 기반으로 하는 모든 세그먼트는 실현되지 않습니다.
 
 ## IP 주소 난독화 요구 사항 {#ip-obfuscation-requirements}
 
@@ -75,4 +84,4 @@ IP 주소 난독화를 전역적으로 사용하지 않으려면 **관리 > 개�
 * [데이터 개인 정보 보호](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP 주소 난독화 비디오 데모
 
->[!VIDEO](https://video.tv.adobe.com/v/34980?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)

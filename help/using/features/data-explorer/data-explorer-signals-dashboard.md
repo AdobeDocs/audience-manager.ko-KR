@@ -6,18 +6,24 @@ title: 신호 대시보드
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-TQID: https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ
+TQID: 'https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Insights
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '250'
 ht-degree: 0%
-
 ---
-
 # 신호 대시보드 {#signals-dashboard}
 
 지난 7일 동안 Audience Manager에서 수신한 사용되지 않은 신호에 대한 개요를 확인하고 새로운 잠재적인 특성을 식별하십시오. 사용하지 않는 신호는 온라인 속성에서 Audience Manager에 도달하지만 기존 트레이트에서는 사용되지 않습니다. [!UICONTROL Signals Dashboard]을(를) 보려면 [!UICONTROL Audience Data] > [!UICONTROL Signals]&#x200B;(으)로 이동하십시오. [!UICONTROL Signals Dashboard]은(는) 가장 활동적인 미사용 신호를 기반으로 실행 가능한 통찰력을 보여 줍니다.
@@ -40,7 +46,7 @@ ht-degree: 0%
 
 ## 저장한 검색 결과 {#saved-searches}
 
-[!DNL Audience Manager]은(는) [에 &#x200B;](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)저장된 검색[!UICONTROL Dashboard]을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
+[!DNL Audience Manager]은(는) [!UICONTROL Dashboard]에 [저장된 검색](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)을 모두 표시하고 [!UICONTROL Dashboard]을(를) 로드할 때마다 다시 로드합니다.
 
 저장된 검색에는 해당 기준에 대한 상위 50개 결과가 표시됩니다.
 

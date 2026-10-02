@@ -7,20 +7,26 @@ title: 아웃바운드 템플릿 매크로
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-TQID: https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ
+TQID: 'https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '712'
 ht-degree: 1%
-
 ---
-
 # 아웃바운드 템플릿 매크로 {#outbound-template-macros}
 
 아웃바운드 템플릿을 만드는 데 사용할 수 있는 매크로를 나열합니다. 여기에는 파일 이름 매크로, 헤더 매크로 및 콘텐츠 매크로가 포함됩니다.
@@ -113,7 +119,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>닫는 중괄호 <code>&rbrace;</code> 문자를 삽입합니다. </p> </td> 
+   <td colname="col2"> <p>닫는 중괄호 <code>}</code> 문자를 삽입합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -141,7 +147,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>여는 중괄호 <code>&lbrace;</code> 문자를 삽입합니다. </p> </td> 
+   <td colname="col2"> <p>여는 중괄호 <code>{</code> 문자를 삽입합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -175,8 +181,8 @@ ht-degree: 1%
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>목록의 세그먼트 목록을 반환합니다. 다음과 같은 선택적 인수를 허용합니다. </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: 세그먼트 ID. 삭제 예정. <code> sid </code> 사용. </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: 고객 세그먼트 ID. 삭제 예정. <code> sid </code> 사용. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: 세그먼트 ID. 삭제 예정. <code> sid </code>를 사용하십시오. </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: 고객 세그먼트 ID. 삭제 예정. <code> sid </code>를 사용하십시오. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: 세그먼트 ID </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: 데이터를 세그먼트 데이터로 식별하는 정적 하드 코딩된 값인 <code> 5 </code>을(를) 반환합니다. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: 사용되지 않습니다. 사용하지 마십시오. </li>

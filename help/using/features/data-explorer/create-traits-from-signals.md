@@ -6,21 +6,26 @@ title: 신호에서 트레이트 만들기
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
-TQID: https://experienceleague.adobe.com/XKtxgfC9Zv-9CqiZb4Y916yxalGuz5YnsE31Nax8z0M
+TQID: 'https://experienceleague.adobe.com/XKtxgfC9Zv-9CqiZb4Y916yxalGuz5YnsE31Nax8z0M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '338'
 ht-degree: 0%
-
 ---
-
 # 신호에서 트레이트 만들기
 
 트레이트에 이미 사용된 트레이트를 포함하여 모든 신호에서 새 트레이트를 만들고 트레이트 만들기 후에 자격을 부여하는 향후 대상을 캡처합니다. 비디오를 시청하여 빠른 데모를 수행하거나 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/30934/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## 신호 대시보드에서 트레이트 만들기 {#create-traits-from-signal-dashboard}
 
@@ -28,7 +33,7 @@ ht-degree: 0%
 
 새 트레이트를 만들 때 트레이트 유형은 신호 유형을 기반으로 미리 설정됩니다.
 
-* 실시간 신호, 실행 가능한 로그 파일 및 **[!UICONTROL Rule-based]**&#x200B;개 신호에 대한 트레이트 [!DNL Adobe Analytics]개,
+* 실시간 신호, 실행 가능한 로그 파일 및 [!DNL Adobe Analytics]개 신호에 대한 트레이트 **[!UICONTROL Rule-based]**&#x200B;개,
 
 * 온보딩된 신호에 대한 트레이트 **[!UICONTROL Onboarded]**&#x200B;개.
 

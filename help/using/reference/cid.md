@@ -7,21 +7,24 @@ title: CID가 DPID 및 DPUUID 대체
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 feature: Reference
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
-TQID: https://experienceleague.adobe.com/GvsmsrGtq3Y8XRzioO4wcd6VrIPDKiMybP4vEYUGx9Q
+TQID: 'https://experienceleague.adobe.com/GvsmsrGtq3Y8XRzioO4wcd6VrIPDKiMybP4vEYUGx9Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # CID가 DPID 및 DPUUID 대체{#cid-replaces-dpid-and-dpuuid}
 
-`d_cid` 및 `d_cid_ic` 대신 `d_dpid` 또는 `d_dpuuid`을(를) 사용하도록 코드를 업데이트합니다. DPID 및 DPUUID 변수는 계속 작동하지만 더 이상 사용되지 않는 것으로 간주해야 합니다. 여기에는 `d_ prefix`이(가) 없는 DPID 및 DPUUID 변형이 포함됩니다.
+`d_dpid` 및 `d_dpuuid` 대신 `d_cid` 또는 `d_cid_ic`을(를) 사용하도록 코드를 업데이트합니다. DPID 및 DPUUID 변수는 계속 작동하지만 더 이상 사용되지 않는 것으로 간주해야 합니다. 여기에는 `d_ prefix`이(가) 없는 DPID 및 DPUUID 변형이 포함됩니다.
 
 ## DPID 및 DPUUID: 검토 {#dpid-dpuuid-review}
 

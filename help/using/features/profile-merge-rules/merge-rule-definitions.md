@@ -7,31 +7,41 @@ title: 정의된 프로필 병합 규칙 옵션
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-TQID: https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc
+TQID: 'https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '828'
 ht-degree: 1%
-
 ---
-
 # [!UICONTROL Profile Merge Rules]개 옵션 정의됨 {#profile-merge-rule-options-defined}
 
 [!UICONTROL profile merge rule] 옵션을 사용하면 [!DNL Audience Manager]이(가) 세분화에 사용하는 데이터 형식을 제어할 수 있습니다. [!UICONTROL profile merge rule]에는 [!UICONTROL Profile Link] 장치 그래프 및/또는 [!DNL Audience Manager]과(와) 통합된 다른 타사 장치 그래프 공급자가 매핑하는 장치 프로필이 포함될 수 있습니다. 최대 4개의 [!UICONTROL Profile Merge Rules]을(를) 만들 수 있습니다. 네 번째 [!UICONTROL Profile Merge Rule]은(는) [!UICONTROL People-Based Destinations] 추가 기능을 구입한 고객에게만 제공됩니다.
 
-[!UICONTROL Profile Merge Rule]에서 아래에 설명된 옵션을 선택하여 [!UICONTROL Profile Merge Rule Setup]을(를) 만듭니다.
+[!UICONTROL Profile Merge Rule Setup]에서 아래에 설명된 옵션을 선택하여 [!UICONTROL Profile Merge Rule]을(를) 만듭니다.
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
@@ -54,8 +64,8 @@ ht-degree: 1%
 [!UICONTROL Profile Merge Rules] 구성에 따라 [!DNL Audience Manager]은(는) 실시간으로, 일괄적으로 또는 둘 다로 [!UICONTROL segment] 평가를 수행할 수 있습니다.
 
 * 실시간 [!UICONTROL segment] 평가를 수행하려면 [!DNL DCS]이(가) 방문자가 실시간으로 디지털 속성에 액세스하는 것을 보고 [!UICONTROL segment]에 대한 자격을 얻어야 합니다.
-* 이전에 정규화된 [!UICONTROL segment]에 대해 일괄 처리 [!UICONTROL traits] 평가를 수행합니다.
-* 실시간 및 일괄 처리 [!UICONTROL Profile Merge Rules] 평가를 모두 지원하는 [!UICONTROL segment]은(는) 실시간 방문자 활동을 이전에 자격이 부여된 [!UICONTROL traits]과(와) 결합합니다.
+* 이전에 정규화된 [!UICONTROL traits]에 대해 일괄 처리 [!UICONTROL segment] 평가를 수행합니다.
+* 실시간 및 일괄 처리 [!UICONTROL segment] 평가를 모두 지원하는 [!UICONTROL Profile Merge Rules]은(는) 실시간 방문자 활동을 이전에 자격이 부여된 [!UICONTROL traits]과(와) 결합합니다.
 
 ## [!UICONTROL Profile Merge Rules] 보고 대기 시간 {#reporting-latency}
 
@@ -100,7 +110,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Device Options] {#device-options}
 
-[!UICONTROL Device Options]을(를) 사용하면 *`device profile`*&#x200B;에서 사용하는 [!UICONTROL Profile Merge Rule]의 형식을 선택할 수 있습니다. 익명 탐색 활동에서 수집된 [!UICONTROL traits]에서 장치 프로필을 빌드합니다. 최소한 [!UICONTROL profile merge rule]은(는) [!UICONTROL authenticated option] 및 [!UICONTROL device option]을(를) 포함합니다.
+[!UICONTROL Device Options]을(를) 사용하면 [!UICONTROL Profile Merge Rule]에서 사용하는 *`device profile`*&#x200B;의 형식을 선택할 수 있습니다. 익명 탐색 활동에서 수집된 [!UICONTROL traits]에서 장치 프로필을 빌드합니다. 최소한 [!UICONTROL profile merge rule]은(는) [!UICONTROL authenticated option] 및 [!UICONTROL device option]을(를) 포함합니다.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -136,7 +146,7 @@ ht-degree: 1%
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-[!DNL Experience Cloud] 외부에서 정의된 병합 규칙을 기반으로 다른 [!DNL Audience Manager] 솔루션에서 자동으로 만들어진 대상 세그먼트는 [!UICONTROL External Merge Policy]을(를) 사용하는 것으로 표시됩니다. 예를 들어 [Audience Manager과 Adobe Experience Platform 간의 대상 공유](../../integration/integration-aep/aam-aep-audience-sharing.md)를 참조하십시오.
+[!DNL Audience Manager] 외부에서 정의된 병합 규칙을 기반으로 다른 [!DNL Experience Cloud] 솔루션에서 자동으로 만들어진 대상 세그먼트는 [!UICONTROL External Merge Policy]을(를) 사용하는 것으로 표시됩니다. 예를 들어 [Audience Manager과 Adobe Experience Platform 간의 대상 공유](../../integration/integration-aep/aam-aep-audience-sharing.md)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

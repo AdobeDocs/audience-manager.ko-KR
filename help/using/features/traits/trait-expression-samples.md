@@ -7,16 +7,21 @@ title: 부울 및 비교 연산자가 있는 샘플 표현식
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
-TQID: https://experienceleague.adobe.com/mVpbP-ob3VclgLEBQWtI4zxthppaf5j7L8DPKBjF9Wo
+TQID: 'https://experienceleague.adobe.com/mVpbP-ob3VclgLEBQWtI4zxthppaf5j7L8DPKBjF9Wo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 193
+source-wordcount: '194'
 ht-degree: 3%
-
 ---
-
 # 부울 및 비교 연산자가 있는 샘플 표현식 {#sample-expressions-with-boolean-and-comparison-operators}
 
 [!UICONTROL Expression Builder] 코드 편집기에서 식을 만드는 데 참조할 수 있는 예입니다.
@@ -25,7 +30,7 @@ ht-degree: 3%
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder] 코드 편집기로 고유한 트레이트 규칙을 만듭니다. 다음 예제를 통해 시작할 수 있습니다. 일부 예제에서는 *`key`* 변수 앞에 `c_`을(를) 추가하여 사용자 정의 변수로 식별합니다. 이벤트 호출에서 해당 구문을 사용하여 데이터를 `c_`에 전송하는 경우 *`key`* 변수에 대한 [!DNL Audience Manager] 접두사(또는 기타 명명 규칙)를 포함하십시오.
+[!UICONTROL Expression Builder] 코드 편집기로 고유한 트레이트 규칙을 만듭니다. 다음 예제를 통해 시작할 수 있습니다. 일부 예제에서는 *`key`* 변수 앞에 `c_`을(를) 추가하여 사용자 정의 변수로 식별합니다. 이벤트 호출에서 해당 구문을 사용하여 데이터를 [!DNL Audience Manager]에 전송하는 경우 *`key`* 변수에 대한 `c_` 접두사(또는 기타 명명 규칙)를 포함하십시오.
 
 ## 부울 표현식 {#boolean-expressions}
 

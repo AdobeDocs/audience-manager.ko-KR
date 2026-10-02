@@ -7,27 +7,36 @@ title: 대량 요청
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: BAAAM
 exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
-TQID: https://experienceleague.adobe.com/9VACsTAdf5nqwXAeQCqA7ME7M1sTOwt-eW-fyVdE-Ag
+TQID: 'https://experienceleague.adobe.com/9VACsTAdf5nqwXAeQCqA7ME7M1sTOwt-eW-fyVdE-Ag'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+    internal-label: BAAAM
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 253
+source-wordcount: '255'
 ht-degree: 0%
-
 ---
-
 # 대량 요청{#bulk-requests}
 
 벌크 요청은 업데이트, 만들기, 예상 및 삭제 워크시트의 여러 헤더와 함께 사용할 수 있는 데이터를 반환합니다.
@@ -44,7 +53,7 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[&#x200B; UI에 할당된 &#x200B;](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 [!UICONTROL Request] 워크시트에는 고유한 열 머리글 집합이 없으므로 ID를 열에 복사할 필요가 없습니다. 대신 도구 모음에서 클릭하는 작업 단추에 따라 데이터가 반환됩니다. 또한 선택적 보고 기능은 픽셀 실행 횟수와 고정된 여러 시간 간격 동안의 고유 사용자 수를 반환합니다.
 

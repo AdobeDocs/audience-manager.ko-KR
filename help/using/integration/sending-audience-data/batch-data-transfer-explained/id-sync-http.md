@@ -7,26 +7,35 @@ title: 인바운드 데이터 전송을 위한 ID 동기화
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 feature: Inbound Data Transfers
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
-TQID: https://experienceleague.adobe.com/6pRhpoECN6jqncBykBth7wOKG8o592Ek1pS-dEzLMXk
+TQID: 'https://experienceleague.adobe.com/6pRhpoECN6jqncBykBth7wOKG8o592Ek1pS-dEzLMXk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 1%
-
+source-wordcount: '455'
+ht-degree: 5%
 ---
-
 # 인바운드 데이터 전송을 위한 ID 동기화 {#id-synchronization-for-inbound-data-transfers}
 
-공급업체와 `HTTP` 간에 사용자 ID를 동기화하기 위해 초기 [!DNL Audience Manager] 호출에 사용되는 구문과 매개 변수를 설명합니다. 데이터 분류법을 [!DNL Audience Manager]&#x200B;(으)로 보낸 후 ID 동기화를 시작할 수 있습니다.
+공급업체와 [!DNL Audience Manager] 간에 사용자 ID를 동기화하기 위해 초기 `HTTP` 호출에 사용되는 구문과 매개 변수를 설명합니다. 데이터 분류법을 [!DNL Audience Manager]&#x200B;(으)로 보낸 후 ID 동기화를 시작할 수 있습니다.
 
 ID 동기화는 인바운드 비동기 데이터 전송 프로세스의 첫 번째 단계입니다. 이 단계에서 [!DNL Audience Manager]과(와) 공급업체는 해당 사이트 방문자의 ID를 비교하고 일치시킵니다. 예를 들어 [!DNL Audience Manager] 고객은 ID 123으로 사용자를 알 수 있습니다. 그러나 데이터 파트너는 ID 456으로 이 사용자를 식별할 수 있습니다. 동기화 프로세스를 통해 [!DNL Audience Manager]과(와) 데이터 공급업체는 서로 다른 ID를 조정하고 해당 시스템의 사용자를 식별할 수 있습니다. 완료되면 [!DNL Audience Manager]과(와) 타사 파트너는 네트워크에서 볼 수 있는 각 고유 사용자에 대해 해당 ID를 보유해야 합니다.
 

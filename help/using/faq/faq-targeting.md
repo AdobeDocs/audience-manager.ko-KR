@@ -7,24 +7,32 @@ title: 타겟팅 FAQ
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 feature: Match Rates
 exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
-TQID: https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk
+TQID: 'https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+    internal-label: Match rates
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Behavioral data
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 100%
-
+source-wordcount: '944'
+ht-degree: 98%
 ---
-
 # 타겟팅 FAQ{#targeting-faq}
 
 일반적인 타겟팅 관련 질문 및 문제
@@ -51,7 +59,7 @@ faq_targeting.xml
 
 **개인에게 마케팅할 수 있습니까?**
 
-Audience Manager를 사용하면 공유 특성 또는 트레이트에 따라 사용자를 집계하고 사용자에게 마케팅할 수 있습니다. 그러나 업계 규정을 준수하기 위해 [!DNL Audience Manager] 고객은 Adobe 시스템에 PII(개인 식별 정보)를 보내서는 안 됩니다. 따라서 타겟팅을 위해 이메일 주소, 개인 이름, 실제 주소 등을 사용할 수 없습니다.
+Audience Manager를 사용하면 공유 특성 또는 트레이트에 따라 사용자를 집계하고 사용자에게 마케팅할 수 있습니다. 그러나 업계 규정을 준수하기 위해 [!DNL Audience Manager] 고객은 Adobe 시스템에 PII(개인 식별 정보)를 보내서는 안 됩니다. 따라서 타겟팅에 이메일 주소, 개인 이름, 실제 주소 등을 사용할 수 없습니다.
 
 <br> 
 
@@ -107,6 +115,6 @@ Audience Manager를 사용하면 공유 특성 또는 트레이트에 따라 사
 
 **Audience Manager는 [!UICONTROL Server-to-Server] 대상에 대해서만 [!UICONTROL Addressable Audiences] 지표와 일치율을 표시합니다. 쿠키 및 URL 대상에 대해서는 이러한 수치가 표시되지 않는 이유를 설명해 주십시오**
 
-ID 동기화 문제입니다. [!UICONTROL Server-to-Server] 대상의 경우, Adobe에서는 데이터를 오프라인(실시간 또는 배치)으로 전송하며, 다시 브라우저에 매핑할 수 있도록 대상 파트너가 인식하는 ID를 보내야 합니다.  세그먼트 대응 가능 수는 총 세그먼트 인구의 하위 집합입니다.
+ID 동기화 문제입니다. [!UICONTROL Server-to-Server] 대상의 경우, Adobe에서는 데이터를 오프라인(실시간 또는 배치)으로 전송하며, 다시 브라우저에 매핑할 수 있도록 대상 파트너가 인식하는 ID를 보내야 합니다. 세그먼트 대응 가능 수는 총 세그먼트 인구의 하위 집합입니다.
 
 쿠키 및 URL 대상의 경우, 사용자는 이미 브라우저에 있으며, [!DNL Audience Manager]가 전송하는 것은 사용자에게 자격이 있는 세그먼트일 뿐입니다. 대상 파트너는 세그먼트 매핑을 선택하여 해당 정보로 작업할 수 있습니다. 따라서 쿠키 및 URL 대상에 대한 일치율은 항상 100%라고 생각하십시오.

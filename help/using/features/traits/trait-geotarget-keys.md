@@ -7,16 +7,21 @@ title: 플랫폼 수준 키가 포함된 Geotargeting
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
-TQID: https://experienceleague.adobe.com/0urg6GCEHpWwnVBPrkxULMrnihOhJNy5J37oj5nW0ao
+TQID: 'https://experienceleague.adobe.com/0urg6GCEHpWwnVBPrkxULMrnihOhJNy5J37oj5nW0ao'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: '650'
 ht-degree: 2%
-
 ---
-
 # 플랫폼 수준 키가 포함된 Geotargeting {#geotargeting-with-platform-level-keys}
 
 Audience Manager 계정의 모든 속성에서 지역 변수를 사용하는 사용자를 타겟팅하는 데 사용할 수 있는 일반적인 플랫폼 수준 키-값 쌍에 대해 설명합니다.
@@ -25,7 +30,7 @@ Audience Manager 계정의 모든 속성에서 지역 변수를 사용하는 사
 
 ## 플랫폼 수준 변수의 목적 {#platform-variables}
 
-플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 [이 접두사로 추가된 키를 사용하여 &#x200B;](../../reference/key-value-pairs-explained.md)키-값 쌍`d_`으로 형성됩니다.
+플랫폼 수준 변수를 사용하면 특정 사이트에서 전달된 데이터를 가져와 [!DNL Audience Manager] 계정의 모든 속성에서 타깃팅에 사용할 수 있습니다. 이러한 변수는 아래와 같이 `d_`이 접두사로 추가된 키를 사용하여 [키-값 쌍](../../reference/key-value-pairs-explained.md)으로 형성됩니다.
 
 ## 플랫폼 수준 키에 값 추가 {#adding-values}
 
@@ -47,7 +52,7 @@ Audience Manager 계정의 모든 속성에서 지역 변수를 사용하는 사
 |--- |--- |
 | d_area_code | [북미 지역 코드](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes).  예: <ul><li>**트레이트**: d_area_code=801</li><li>**트레이트 이름**: 유타</li></ul> |
 | d_city | 도시와 도시. [도시 목록](assets/d_city.txt)을 다운로드합니다.  예: <ul><li>트레이트: d_city=bonn</li><li>트레이트 이름: 본</li></ul> **팁**: 다른 국가에서 이름이 같은 두 도시를 대상으로 하지 않도록 `d_city`을(를) `d_country`과(와) 함께 사용할 수 있습니다. `d_postal_code`을(를) 사용하여 타깃팅에서 더 구체적일 수 있습니다. |
-| d_country | 값은 ISO 국가 코드에 해당합니다. 검색 가능한 코드 목록은 [ISO 온라인 검색 플랫폼](https://www.iso.org/obp/ui/#home)을 참조하십시오. <br>  영국에 대한 타겟팅은 ISO 3166을 준수하지 않는 유일한 특수 사례입니다. 영국에서 타깃팅에 &quot;GB&quot; 대신 &quot;UK&quot;를 사용해야 합니다.  네덜란드 앤틸레스를 타깃으로 코드 &quot;AN&quot;은 2010년부터 더 이상 사용되지 않습니다. 그 지역은 5개의 별도 영토 단위로 해체되었다. 함축된 의미는 네덜란드 안틸레스에서 타깃팅의 경우 &quot;AN&quot;을 사용하지 말고 &quot;CW&quot;, &quot;SX&quot;, &quot;BQ&quot;에 국가 코드를 조합하여 사용해야 한다는 것입니다.  예: <br>  트레이트: d_country=CZ <br>  트레이트 이름: 체코 공화국 <br>  트레이트: d_country=UK <br>  트레이트 이름: 영국 <br>  트레이트: d_country=CW 또는 d_country=SX 또는 d_country=BQ <br>  트레이트 이름: 네덜란드령 앤틸리스 |
+| d_country | 값은 ISO 국가 코드에 해당합니다. 검색 가능한 코드 목록은 [ISO 온라인 검색 플랫폼](https://www.iso.org/obp/ui/#home)을 참조하십시오. 영국에 대한 <br> 타깃팅은 ISO 3166을 준수하지 않는 유일한 특수 사례입니다. 영국에서 타깃팅에 &quot;GB&quot; 대신 &quot;UK&quot;를 사용해야 합니다.  네덜란드 앤틸레스를 타깃으로 코드 &quot;AN&quot;은 2010년부터 더 이상 사용되지 않습니다. 그 지역은 5개의 별도 영토 단위로 해체되었다. 함축된 의미는 네덜란드 안틸레스에서 타깃팅의 경우 &quot;AN&quot;을 사용하지 말고 &quot;CW&quot;, &quot;SX&quot;, &quot;BQ&quot;에 국가 코드를 조합하여 사용해야 한다는 것입니다.  예: <br> 트레이트: d_country=CZ <br> 트레이트 이름: 체코 <br> 트레이트: d_country=UK <br> 트레이트 이름: 영국 <br> 트레이트: d_country=CW 또는 d_country=SX 또는 d_country=BQ <br> 트레이트 이름: Netherlands Antilles |
 | d_dma_code | 대도시 지역 DMA 코드. [DMA 영역 목록](assets/DMAregions.csv)(.csv 형식)을 다운로드합니다.  예: <ul><li>트레이트: d_dma_code=807</li><li>트레이트 이름: San Francisco</li></ul> |
 | d_lat | 위도(예: d_lat=40.75). [위도 목록](assets/d_lat.txt)을 다운로드합니다. |
 | d_long | 경도(예: d_long=73.98). [경도 목록](assets/d_long.txt)을 다운로드합니다. |

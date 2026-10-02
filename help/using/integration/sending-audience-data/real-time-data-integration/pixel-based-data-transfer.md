@@ -7,20 +7,26 @@ title: 픽셀 기반 데이터 전송
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
 feature: Inbound Data Transfers
 exl-id: fe9ecb97-4a45-4fbb-855e-01df007144cf
-TQID: https://experienceleague.adobe.com/-7YIGYCXY7HfMo9IXWmfn5TmVBvMJj0kMuFaSppR--0
+TQID: 'https://experienceleague.adobe.com/-7YIGYCXY7HfMo9IXWmfn5TmVBvMJj0kMuFaSppR--0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 175
+source-wordcount: '183'
 ht-degree: 0%
-
 ---
-
 # 픽셀 기반 데이터 전송 {#pixel-based-data-transfers}
 
 단순한 픽셀(사용자에게 트레이트를 부여하는 데 사용할 수 있음)은 실시간 데이터 전송을 수행합니다. Audience Manager 인터페이스를 사용하면 클라이언트가 셀프서비스 기반으로 원하는 개수의 픽셀을 만들 수 있습니다. 픽셀 문자열은 단순 ID 또는 키-값 쌍으로 구성됩니다.

@@ -6,21 +6,28 @@ title: 개요, 이점 및 사용 사례
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 feature: Data Explorer
 exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
-TQID: https://experienceleague.adobe.com/7fLW4VhM4gUlbH6tkYIhEondTn4mopushMeFcJxzpPs
+TQID: 'https://experienceleague.adobe.com/7fLW4VhM4gUlbH6tkYIhEondTn4mopushMeFcJxzpPs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 1%
-
 ---
-
 # Data Explorer - 개요, 이점 및 사용 사례 {#overview-benefits-and-use-cases}
 
 사용된 신호와 사용되지 않은 신호를 기반으로 트레이트를 구축하고 관련 대상의 잠재적인 손실을 방지하기 위해 이전 데이터로 다시 채워 이전 대상을 이용하려면 [!UICONTROL Data Explorer]을(를) 사용하십시오.
@@ -57,4 +64,4 @@ ht-degree: 1%
 
 Audience Manager의 가장 강력한 기능 중 하나는 오프라인 데이터를 온보딩하여 온라인 데이터와 결합하는 기능입니다. 아래 비디오에서는 [!UICONTROL Data Explorer]을(를) 사용하여 이 온보딩된 데이터를 활용하는 데 필요한 모든 특성을 만들었는지 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/30936?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)

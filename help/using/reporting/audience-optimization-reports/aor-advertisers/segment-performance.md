@@ -7,26 +7,33 @@ title: 세그먼트 성과 보고서
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
-TQID: https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc
+TQID: 'https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # 세그먼트 성과 보고서{#segment-performance-report}
 
 [!UICONTROL Segment Performance] 보고서는 매핑된 세그먼트와 매핑되지 않은 세그먼트를 노출 및 전환율별로 비교합니다. 매핑된 세그먼트는 만들고 타겟팅을 위해 대상으로 보내는 세그먼트입니다. 매핑되지 않은 세그먼트는 만들었지만 타겟팅을 위해 대상으로 보내지 않은 세그먼트입니다. 보고서 내 및 보고서 간의 이러한 서로 다른 세그먼트 유형을 비교하면 기존 캠페인을 최적화하고, 타깃팅을 위해 대상에 전송하려는 간과된 세그먼트를 찾는 데 도움이 됩니다.
 
 ## 매핑된 세그먼트 결과를 읽는 방법 {#read-mapped-segment-results}
 
-매핑된 [!UICONTROL Segment Performance] 보고서에는 타깃팅을 위해 만들고 대상으로 보낸 모든 세그먼트가 표시됩니다. 보고서에서 매핑된 세그먼트의 위치는 성과가 좋은 세그먼트와 조정을 수행해야 하는 위치에 대해 많은 정보를 알려 줄 수 있습니다.
+매핑된 [!UICONTROL Segment Performance] 보고서에는 타깃팅을 위해 만들고 대상으로 보낸 모든 세그먼트가 표시됩니다.보고서에서 매핑된 세그먼트의 위치는 성과가 좋은 세그먼트와 일부 조정을 수행해야 하는 위치에 대한 많은 정보를 알려 줄 수 있습니다.
 
 보고서를 읽기 위해 가상 선(빨간색)과 아래 샘플 보고서에 표시된 범주가 있는 4개의 섹션으로 결과를 구분하는 데 도움이 됩니다.
 

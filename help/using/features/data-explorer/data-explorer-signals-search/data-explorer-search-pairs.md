@@ -6,18 +6,24 @@ title: 키-값 쌍으로 신호 검색
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 exl-id: d598da6b-8dc0-47ce-8389-1973b1803711
-TQID: https://experienceleague.adobe.com/Apm-P3y-WJlOGO1UIbRJCfzAsgTzzk991PdU4DDLtGU
+TQID: 'https://experienceleague.adobe.com/Apm-P3y-WJlOGO1UIbRJCfzAsgTzzk991PdU4DDLtGU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 # 키-값 쌍으로 신호 검색 {#search-signals-by-key-value-pairs}
 
 해당 키-값 쌍을 기반으로 하나 이상의 신호를 검색합니다.
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->간소화된 사용자 경험을 위해 키-값 쌍 검색 결과는 데이터 샘플링을 기반으로 합니다. [에서 데이터 샘플링을 사용하는 방법과 키-값 검색을 일반 검색과 비교할 때 약간의 결과 변형이 나타나는 이유에 대한 자세한 내용은 &#x200B;](/help/using/reporting/report-sampling.md)데이터 샘플링 및 오류율[!DNL Audience Manager]을 참조하십시오.
+>간소화된 사용자 경험을 위해 키-값 쌍 검색 결과는 데이터 샘플링을 기반으로 합니다. [!DNL Audience Manager]에서 데이터 샘플링을 사용하는 방법과 키-값 검색을 일반 검색과 비교할 때 약간의 결과 변형이 나타나는 이유에 대한 자세한 내용은 [데이터 샘플링 및 오류율](/help/using/reporting/report-sampling.md)을 참조하십시오.
 
 여러 키-값 쌍을 사용하여 신호를 검색할 때 [!DNL Audience Manager]은(는) 논리 **AND** 연산자를 사용하여 쌍을 연결합니다. 예를 들어 다음 키-값 쌍으로 검색을 수행하고 있다고 가정해 보겠습니다.
 

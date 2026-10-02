@@ -7,22 +7,30 @@ title: 데이터 개인 정보 보호 개요
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-TQID: https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo
+TQID: 'https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 52%
-
+source-wordcount: '477'
+ht-degree: 51%
 ---
-
 # 데이터 개인 정보 보호 개요 {#data-privacy}
 
 ## 개요
@@ -52,9 +60,9 @@ ht-degree: 52%
 
 ## 규정 준수 {#compliance}
 
-[!DNL Audience Manager]은(는) 데이터 액세스 및 삭제 요청을 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)과(와) 같은 개인 정보 보호 도구를 통해 특정 개인 정보 보호 규정에 따른 귀하의 의무를 준수하도록 도와줍니다.
+[!DNL Audience Manager]은(는) 데이터 액세스 및 삭제 요청을 위해 [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)과(와) 같은 개인 정보 보호 도구를 통해 특정 개인 정보 보호 규정에 따른 귀하의 의무를 준수하도록 도와줍니다.
 
-이 서비스는 소비자 데이터 요청을 관리하는 데 도움이 되는 [!DNL RESTful API] 및 사용자 인터페이스를 제공합니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)를 사용하면 개별 소비자의 요청에 따라 개인 데이터에 대한 액세스 및 삭제 요청을 제출할 수 있으므로, 규정 준수 의무 부분을 자동화하는 데 도움이 됩니다.
+이 서비스는 소비자 데이터 요청을 관리하는 데 도움이 되는 [!DNL RESTful API] 및 사용자 인터페이스를 제공합니다. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)를 사용하면 개별 소비자의 요청에 따라 개인 데이터에 대한 액세스 및 삭제 요청을 제출할 수 있으므로, 규정 준수 의무 부분을 자동화하는 데 도움이 됩니다.
 
 데이터 액세스 및 삭제 요청은 Privacy Service을 통해 처리되는 반면 [옵트아웃 요청](data-privacy-requests.md#opt-out-requests)은(는) 현재 [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)를 통해 지원됩니다. 자세한 내용은 [데이터 개인 정보 보호 요청](data-privacy-requests.md)을 참조하십시오.
 

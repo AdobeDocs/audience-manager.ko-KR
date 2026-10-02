@@ -7,27 +7,38 @@ title: Audience Manager의 데이터 보안
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-TQID: https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA
+TQID: 'https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 92%
-
+source-wordcount: '1022'
+ht-degree: 89%
 ---
-
 # Audience Manager의 데이터 보안 {#data-security}
 
 Audience Manager에서는 데이터 보안 및 개인 정보 보호를 매우 중요하게 생각합니다. Adobe는 시스템의 보안을 유지하고 중요한 데이터를 보호하기 위해 노력하고 있습니다.
@@ -75,7 +86,7 @@ Audience Manager에서는 세 가지 주요 카테고리의 보안에 대해 생
 
 개별 클라이언트가 소유한 데이터를 보호하는 데 도움이 되는 프로세스입니다.
 
-**트레이트 데이터 분할:** 데이터([!UICONTROL traits], ID 등)가 클라이언트별로 분할되어 있습니다. 이것은 서로 다른 클라이언트 간의 우발적 정보 노출을 방지할 수 있습니다. 예를 들어 쿠키의 트레이트 데이터는 고객별로 분할되고 클라이언트별 하위 도메인에 저장됩니다. 이러한 데이터는 다른 Audience Manager 클라이언트가 실수로 읽거나 사용할 수 없습니다. 또한, [!UICONTROL Profile Cache Servers (PCS)]에 저장된 트레이트 데이터는 고객별로 분할됩니다. 따라서 다른 클라이언트가 이벤트 호출이나 기타 요청에서 데이터를 실수로 사용하지 않게 됩니다.
+**트레이트 데이터 분할:** 데이터([!UICONTROL traits], ID 등) 클라이언트별로 분할됩니다. 이것은 서로 다른 클라이언트 간의 우발적 정보 노출을 방지할 수 있습니다. 예를 들어 쿠키의 트레이트 데이터는 고객별로 분할되고 클라이언트별 하위 도메인에 저장됩니다. 이러한 데이터는 다른 Audience Manager 클라이언트가 실수로 읽거나 사용할 수 없습니다. 또한, [!UICONTROL Profile Cache Servers (PCS)]에 저장된 트레이트 데이터는 고객별로 분할됩니다. 따라서 다른 클라이언트가 이벤트 호출이나 기타 요청에서 데이터를 실수로 사용하지 않게 됩니다.
 
 **보고서의 데이터 분할:**  클라이언트 ID는 모든 보고 테이블에 있는 식별 키의 일부이며 보고서 쿼리는 ID로 필터링됩니다. 이렇게 하면 다른 Audience Manager 고객의 보고서에 데이터가 표시되지 않도록 할 수 있습니다.
 
@@ -93,7 +104,7 @@ Adobe Audience Manager는 S2S 온보딩된 데이터 파일을 Adobe 시스템�
 
 ## 이스케이프 처리로 데이터 보호 {#escaping-data}
 
-[!DNL Audience Manager]는 XSS(사이트 간 스크립팅) 등으로부터 발신 데이터를 보호하기 위해 이 데이터를 이스케이프 처리하지 않습니다. 들어오는 데이터를 이스케이프 처리하는 것은 클라이언트의 책임입니다.
+[!DNL Audience Manager]은(는) XSS(사이트 간 스크립팅) 등으로부터 발신 데이터를 보호하기 위해 이 데이터를 이스케이프 처리하지 않습니다. 들어오는 데이터를 이스케이프 처리하는 것은 클라이언트의 책임입니다.
 
 ## HTTP Strict-Transport-Security {#hsts}
 
@@ -105,6 +116,6 @@ Adobe Audience Manager는 S2S 온보딩된 데이터 파일을 Adobe 시스템�
 
 ### 예 {#hsts-example}
 
-`yourcompany.demdex.com` 도메인이 [!DNL DCS]을(를) 통해 [!DNL HTTP]에 트래픽을 보낸다고 가정해 보겠습니다. [!DNL HSTS]에서는 대신 [!DNL HTTPS]를 사용하도록 호출을 업그레이드하고 `yourcompany.demdex.com`에서 오는 모든 후속 [!DNL DCS] 호출은 [!DNL HTTP] 대신 [!DNL HTTPS]를 사용하게 됩니다.
+`yourcompany.demdex.com` 도메인이 [!DNL HTTP]을(를) 통해 [!DNL DCS]에 트래픽을 보낸다고 가정해 보겠습니다. [!DNL HSTS]에서는 대신 [!DNL HTTPS]를 사용하도록 호출을 업그레이드하고 `yourcompany.demdex.com`에서 오는 모든 후속 [!DNL DCS] 호출은 [!DNL HTTP] 대신 [!DNL HTTPS]를 사용하게 됩니다.
 
 HSTS에 대한 자세한 내용은 [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)를 참조하십시오.

@@ -7,22 +7,30 @@ title: 디지털 서명된 HTTP 요청
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
-TQID: https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s
+TQID: 'https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Security
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # 디지털 서명된 `HTTP(S)`개 요청 {#digitally-signed-http-requests}
 
 Audience Manager의 유효성을 검사하려면 서버 간 요청 `HTTP(S)`개를 디지털 서명해야 합니다. 이 문서에서는 개인 키로 `HTTP(S)` 요청에 서명하는 방법에 대해 설명합니다.
@@ -31,7 +39,7 @@ Audience Manager의 유효성을 검사하려면 서버 간 요청 `HTTP(S)`개�
 
 <!-- digitally_signed_http_requests.xml -->
 
-귀하가 제공하고 [!DNL Audience Manager]과(와) 공유하는 개인 키를 사용하여 `HTTP(S)`IRIS[와(과) HTTP(S) 서버 간에 전송되는 &#x200B;](../../../reference/system-components/components-data-action.md#iris) 요청에 디지털 서명을 할 수 있습니다. 이렇게 하면 다음 사항이 보장됩니다.
+귀하가 제공하고 [!DNL Audience Manager]과(와) 공유하는 개인 키를 사용하여 [IRIS](../../../reference/system-components/components-data-action.md#iris)와(과) HTTP(S) 서버 간에 전송되는 `HTTP(S)` 요청에 디지털 서명을 할 수 있습니다. 이렇게 하면 다음 사항이 보장됩니다.
 
 * **인증**: 개인 키([!UICONTROL IRIS])가 있는 보낸 사람만 파트너에게 유효한 `HTTP(S)`개의 메시지를 보낼 수 있습니다.
 * **메시지 무결성**: 이 방법을 사용하면 `HTTP`에서도 메시지가 왜곡되는 중간 공격의 남자로부터 보호됩니다.

@@ -6,24 +6,31 @@ solution: Audience Manager
 title: 구현 및 통합 안내서
 feature: Third-party Integration
 exl-id: 6e3cccdd-10af-4b17-9ddb-c4faf63f0a50
-TQID: https://experienceleague.adobe.com/KxZeKWHVg-4BBhYcC0qKn9qTW8R5U3voIKPUGcAKBXM
+TQID: 'https://experienceleague.adobe.com/KxZeKWHVg-4BBhYcC0qKn9qTW8R5U3voIKPUGcAKBXM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 47
+source-wordcount: '47'
 ht-degree: 36%
-
 ---
-
 # 구현 및 통합 개요
 
-[!DNL Experience Cloud]에 있는 [!DNL Audience Manager] 솔루션 또는 기타 외부 시스템의 데이터를 사용하여 작업합니다.
+[!DNL Audience Manager]에 있는 [!DNL Experience Cloud] 솔루션 또는 기타 외부 시스템의 데이터를 사용하여 작업합니다.
 
 * [데이터 통합 방법](data-integration-methods.md)
 * [Audience Manager 구현](implement-audience-manager.md)

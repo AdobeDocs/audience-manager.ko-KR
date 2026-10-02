@@ -6,27 +6,36 @@ solution: Audience Manager
 title: 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 한 Personalization
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-TQID: https://experienceleague.adobe.com/8n-bcGFvzcn6nCrR-ubU5IMu9ne19CHmMMMEeqdV-cI
+TQID: 'https://experienceleague.adobe.com/8n-bcGFvzcn6nCrR-ubU5IMu9ne19CHmMMMEeqdV-cI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '905'
 ht-degree: 1%
-
 ---
-
 # 워크플로우 C - 오프라인 데이터와 결합된 인증된 활동을 기반으로 한 Personalization {#workflow-c}
 
 >[!IMPORTANT]
@@ -68,7 +77,7 @@ ht-degree: 1%
 
 [!UICONTROL People-Based Destinations]에 대한 데이터 원본을 만드는 방법에 대한 비디오 튜토리얼을 보려면 아래 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/31965?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## 2단계 - 선언된 ID를 사용하여 실시간 HTTP 호출을 통해 DPUUID를 해시된 이메일 주소와 일치시킵니다. {#match-email-addresses}
 
@@ -114,7 +123,7 @@ ht-degree: 1%
 1. Audience Manager 계정에 로그인하고 **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**(으)로 이동합니다.
 2. **[!UICONTROL Add New Rule]** 아이콘을 클릭합니다.
 3. 프로필 병합 규칙 **[!UICONTROL Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
-4. **[!UICONTROL Profile Merge Rule Setup]** 섹션의 **[!UICONTROL Current Authenticated Profiles]** 목록에서 **[!UICONTROL Last Authenticated Profiles]** 또는 **[!UICONTROL Cross-Device Options]** 규칙을 선택합니다.
+4. **[!UICONTROL Profile Merge Rule Setup]** 섹션의 **[!UICONTROL Cross-Device Options]** 목록에서 **[!UICONTROL Current Authenticated Profiles]** 또는 **[!UICONTROL Last Authenticated Profiles]** 규칙을 선택합니다.
 5. **[!UICONTROL Cross-Device Profile Options]** 목록에서 세그먼테이션을 실행할 데이터 원본을 선택합니다. 기존 DPUUID가 포함된 데이터 소스여야 합니다.
    ![병합 규칙 설정](assets/pbd-pmr-combined.png)
 

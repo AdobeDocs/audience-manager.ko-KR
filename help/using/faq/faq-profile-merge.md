@@ -8,22 +8,30 @@ title: 프로필 병합 규칙 및 장치 그래프 FAQ
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-TQID: https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o
+TQID: 'https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1583
-ht-degree: 81%
-
+source-wordcount: '1623'
+ht-degree: 80%
 ---
-
 # 프로필 병합 규칙 및 장치 그래프 FAQ{#profile-merge-rules-and-device-graph-faq}
 
 일반적인 프로필 병합 규칙 및 장치 그래프 질문에 대한 답변입니다.
@@ -114,19 +122,19 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **장치 그래프를 사용하는 [!UICONTROL Profile Merge Rule]에 따라 세그먼트를 작성하고 이 세그먼트가 실시간 데이터와 온보딩된 데이터를 모두 사용하는 경우 온보딩된 데이터가 변경됨에 따라 내 세그먼트가 업데이트됩니까?**
 
-예. 
+예.
 
  
 
 **세그먼트 크기 추정치에는 장치 그래프 옵션을 사용하는 [!UICONTROL Profile Merge Rule]에 의해 제공되는 연결을 기반으로 세그먼트에 적합한 장치가 포함됩니까?**
 
-아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ko)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
+아니요. [세그먼트 빌더의 트레이트 및 세그먼트 인구 데이터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)에서 [!UICONTROL Estimated Real-Time Population] 및 [!UICONTROL Estimated Total Population]에 대한 정의를 참조하십시오.
 
  
 
 **[!UICONTROL Addressable Audiences]에는 장치 그래프 옵션을 사용하는 [!UICONTROL Profile Merge Rule]에 의해 제공되는 연결을 기반으로 세그먼트에 적합한 장치가 포함됩니까?**
 
-예. 
+예.
 
  
 
@@ -266,7 +274,7 @@ Audience Manager는 장치 그래프를 사용하는 [!UICONTROL Profile Merge R
 
 **장치 그래프를 사용하는 [!UICONTROL Profile Merge Rule]으로 세그먼트에 대한 자격이 확인된 장치는 [!UICONTROL Interactive] 보고서, [!UICONTROL Overlap] 보고서 및 [!UICONTROL Audience Optimization] 보고서에 포함됩니까?**
 
-아니요. 
+아니요.
 
 **2020년 3월 16일 이후 Adobe Campaign으로 세그먼트 내보내기에 대해 세그먼트가 0으로 표시되는 이유는 무엇입니까?**
 

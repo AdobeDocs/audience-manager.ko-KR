@@ -7,26 +7,36 @@ title: 프로필 병합 규칙 시작
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-TQID: https://experienceleague.adobe.com/tK8hkKLaE-jkzO780-SIHxrwm7VhqnvoL-4G1nH43Cc
+TQID: 'https://experienceleague.adobe.com/tK8hkKLaE-jkzO780-SIHxrwm7VhqnvoL-4G1nH43Cc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: e8a4c7eb-7254-4984-ac46-e651a57c7e39
+    internal-label: SDKs
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1325'
 ht-degree: 1%
-
 ---
-
 # 프로필 병합 규칙 시작 {#getting-started-with-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules]을(를) 만들려면 이 섹션에 설명된 각 절차의 단계를 검토하고 완료하십시오.
@@ -69,13 +79,13 @@ ht-degree: 1%
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**: 이 컨트롤을 사용하면 비활성 고객 ID에 대한 데이터 보존 기간을 설정할 수 있습니다. 이렇게 하면 Audience Manager 플랫폼에서 고객 ID를 마지막으로 본 후 Audience Manager이 데이터베이스에 고객 ID를 유지하는 기간을 결정합니다. 기본값은 24개월(720일)입니다. 설정할 수 있는 최소값은 1개월이고 최대값은 5년입니다. 모든 달은 30일로 계산됩니다. Audience Manager은 비활성 고객 ID에 대해 설정한 데이터 유지에 따라 일주일에 한 번 비활성 고객 ID를 삭제하는 프로세스를 실행합니다.
 
-이러한 설정과 연결된 텍스트 필드를 사용하면 [!UICONTROL Data Source]프로필 병합 규칙 옵션[에 나타나는 별칭으로 &#x200B;](merge-rule-definitions.md)의 이름을 바꿀 수 있습니다. 예를들어, 별칭을 **[!UICONTROL Use as Authenticated Profile]**&#x200B;에 추가하면 해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. **[!UICONTROL Use as a Device Graph]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
+이러한 설정과 연결된 텍스트 필드를 사용하면 [프로필 병합 규칙 옵션](merge-rule-definitions.md)에 나타나는 별칭으로 [!UICONTROL Data Source]의 이름을 바꿀 수 있습니다. 예를들어, 별칭을 **[!UICONTROL Use as Authenticated Profile]**&#x200B;에 추가하면 해당 이름이 [!UICONTROL Authenticated Profile Options] 목록에 나타납니다. **[!UICONTROL Use as a Device Graph]**&#x200B;에 별칭을 추가하면 해당 이름이 [!UICONTROL Device Options] 목록에 나타납니다.
 
 ## 프로필 병합 규칙 만들기 {#create-profile-merge-rule}
 
 [!UICONTROL Profile Merge Rule]을(를) 만들려면 **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]**(으)로 이동하여 여기에 설명된 각 섹션의 단계를 완료하십시오.
 
-장치 간 데이터 소스를 설정한 후 최대 3개의 병합 규칙을 만들 수 있습니다. [!UICONTROL All Cross-Device Profiles]사용자 기반 대상[에 등록하면 네 번째 프로필 병합 규칙(](../destinations/people-based-destinations-overview.md))에 액세스할 수 있습니다.
+장치 간 데이터 소스를 설정한 후 최대 3개의 병합 규칙을 만들 수 있습니다. [사용자 기반 대상](../destinations/people-based-destinations-overview.md)에 등록하면 네 번째 프로필 병합 규칙([!UICONTROL All Cross-Device Profiles])에 액세스할 수 있습니다.
 
 규칙을 만들거나, 편집하거나, 삭제하려면 관리자 권한이 필요합니다. 모든 사용자는 기존 [!UICONTROL Profile Merge Rules]을(를) 보고 사용할 수 있습니다.
 
@@ -93,7 +103,7 @@ ht-degree: 1%
 
 1. [!UICONTROL Profile Merge Rule] 이름을 지정합니다.
 2. *(선택 사항)*&#x200B;에서 [!UICONTROL Profile Merge Rule]을(를) 설명합니다. 간결한 설명은 규칙의 역할이나 목적을 정의하는 데 도움이 됩니다.
-3. *(선택 사항)* 기본 **[!UICONTROL Set as default]**(으)로 설정하려면 [!UICONTROL Profile Merge Rule]을(를) 선택하십시오. 새 세그먼트는 기본 규칙과 자동으로 연결됩니다.
+3. *(선택 사항)* 기본 [!UICONTROL Profile Merge Rule]&#x200B;(으)로 설정하려면 **[!UICONTROL Set as default]**&#x200B;을(를) 선택하십시오. 새 세그먼트는 기본 규칙과 자동으로 연결됩니다.
 
 ## 데이터 내보내기 제어 {#data-export-controls}
 
@@ -139,7 +149,7 @@ Adobe Campaign과 같은 교차 장치 ID를 사용하여 Audience Manager 인�
 
 ## Adobe Experience Platform Identity 서비스 고객용 {#id-service-customers}
 
-[!UICONTROL Adobe Experience Platform Identity Service]&#x200B;(으)로 작업할 때는 [&#x200B; 및 &#x200B;](../../dil/dil-overview.md)DIL[!UICONTROL Profile Merge Rules]의 최신 버전을 사용하는 것이 좋습니다. 그러나 이 기능을 사용하기 위해 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 사용할 필요는 없습니다. [!UICONTROL DIL]을(를) 사용하고 있다면 아래의 [레거시 DIL 섹션](#legacy-dil)을 참조하세요.
+[!UICONTROL Profile Merge Rules]&#x200B;(으)로 작업할 때는 [!UICONTROL Adobe Experience Platform Identity Service] 및 [DIL](../../dil/dil-overview.md)의 최신 버전을 사용하는 것이 좋습니다. 그러나 이 기능을 사용하기 위해 [!UICONTROL Adobe Experience Platform Identity Service]을(를) 사용할 필요는 없습니다. [!UICONTROL DIL]을(를) 사용하고 있다면 아래의 [레거시 DIL 섹션](#legacy-dil)을 참조하세요.
 
 ### 고객 ID 설정 기능 구성
 
@@ -163,11 +173,11 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-자세한 내용은 [크로스 디바이스 데이터 만들기](#create-data-source) 및 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)를 참조하십시오.
+자세한 내용은 [크로스 디바이스 데이터 만들기](#create-data-source) 및 [고객 ID 및 인증 상태](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)를 참조하십시오.
 
 ### `DIL.create` 함수 구성
 
-이제 [!UICONTROL DIL]의 최신 버전이 [!UICONTROL declared ID]의 `visitorService` 함수에서 `DIL.create`을(를) 자동으로 선택합니다([선언된 ID 변수](../declared-ids.md#declared-id-variables) 참조). `DIL.create` 함수를 확인하여 아래 코드 샘플에 표시된 대로 이 함수가 제대로 설정되었는지 확인하십시오.
+이제 [!UICONTROL DIL]의 최신 버전이 `DIL.create`의 `visitorService` 함수에서 [!UICONTROL declared ID]을(를) 자동으로 선택합니다([선언된 ID 변수](../declared-ids.md#declared-id-variables) 참조). `DIL.create` 함수를 확인하여 아래 코드 샘플에 표시된 대로 이 함수가 제대로 설정되었는지 확인하십시오.
 
 ```js
 var vDil = DIL.create({
@@ -178,7 +188,7 @@ var vDil = DIL.create({
 });
 ```
 
-네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!UICONTROL Administration] 대시보드의 [!DNL Experience Cloud] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리: 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
+네임스페이스 키-값 쌍에서 `*`MCORG`*` 변수는 [!DNL Experience Cloud] 조직 ID입니다. 이 ID가 없으면 [!DNL Experience Cloud] 대시보드의 [!UICONTROL Administration] 섹션에서 찾을 수 있습니다. 이 대시보드를 보려면 관리자 권한이 필요합니다. [관리: 핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 ### SDK 구성
 
@@ -198,11 +208,11 @@ DIL.create({
 });
 ```
 
-자세한 내용은 [!UICONTROL DIL]선언된 ID 변수[의 기존 &#x200B;](../declared-ids.md#declared-id-variables) 섹션을 참조하십시오.
+자세한 내용은 [선언된 ID 변수](../declared-ids.md#declared-id-variables)의 기존 [!UICONTROL DIL] 섹션을 참조하십시오.
 
 ### SDK 구성 {#configure-sdks-legacy-dil}
 
-[!DNL SDK] 및 [!UICONTROL declared IDs] 모바일 장치에서 [!DNL Android]을(를) 전달할 수 있는 [!DNL iOS] 코드의 메서드를 확인합니다. [!DNL Android] 및 [!DNL iOS] 코드 라이브러리의 변수 이름이 동일합니다.
+[!DNL Android] 및 [!DNL iOS] 모바일 장치에서 [!UICONTROL declared IDs]을(를) 전달할 수 있는 [!DNL SDK] 코드의 메서드를 확인합니다. [!DNL Android] 및 [!DNL iOS] 코드 라이브러리의 변수 이름이 동일합니다.
 
 * `dpid`: 교차 장치 데이터 원본 ID입니다.
 * `dpuuid`: [!UICONTROL declared ID]&#x200B;(즉, 사용자 ID).
@@ -228,15 +238,15 @@ DIL.create({
     </code></p>
     <p> <b>예:</b> </p><p>
     <code class="javascript">
-      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>
  </tbody>
 </table>
 
-[Android용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=ko) 및 [iOS용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=ko)도 참조하세요.
+[Android용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) 및 [iOS용 Audience Manager 메서드](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html)도 참조하세요.
 
 >[!MORELIKETHIS]
 >

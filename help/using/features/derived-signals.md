@@ -7,18 +7,23 @@ title: 파생 신호
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
 feature: Traits
 exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
-TQID: https://experienceleague.adobe.com/NuY2-dNMtPcte2WQE572uvyS-uiIzZmSPrlOyOndPuU
+TQID: 'https://experienceleague.adobe.com/NuY2-dNMtPcte2WQE572uvyS-uiIzZmSPrlOyOndPuU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 # 파생 신호 {#derived-signals}
 
 [!UICONTROL derived signal]은(는) 이미 본 특성을 기반으로 사이트 방문자에게 추가 특성을 제공할 수 있습니다. 즉, 사용자가 이전에 새로운 트레이트를 본 적이 없더라도 현재 표시된 트레이트에서 추가 트레이트 자격을 도출할 수 있습니다.
@@ -33,7 +38,7 @@ ht-degree: 0%
 
 ## 파생 신호 위치
 
-사이드바 탐색에서 [!UICONTROL derived signals]의 **[!UICONTROL Tools > Derived Signals]**&#x200B;을(를) 만들고 관리합니다.
+사이드바 탐색에서 **[!UICONTROL Tools > Derived Signals]**&#x200B;의 [!UICONTROL derived signals]을(를) 만들고 관리합니다.
 
 ## 파생 신호 만들기 {#create}
 
@@ -41,7 +46,7 @@ ht-degree: 0%
 
 [!UICONTROL derived signal]을(를) 만들려면:
 
-1. **[!UICONTROL Derived Signals]** 메뉴에서 [!UICONTROL Tools]을(를) 선택합니다.
+1. [!UICONTROL Tools] 메뉴에서 **[!UICONTROL Derived Signals]**&#x200B;을(를) 선택합니다.
 1. 다음을 제공합니다.
    * *(선택 사항)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]

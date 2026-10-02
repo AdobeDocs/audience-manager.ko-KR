@@ -6,22 +6,28 @@ solution: Audience Manager
 title: 구현 지침
 feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
-TQID: https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg
+TQID: 'https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1350
-ht-degree: 2%
-
+source-wordcount: '1362'
+ht-degree: 3%
 ---
-
 # 구현 지침 {#implementation-guidance}
 
 >[!IMPORTANT]
@@ -78,7 +84,7 @@ ht-degree: 2%
 
 **B) 인바운드 데이터 파일을 통해 고객 ID에 대한 트레이트를 온보딩합니다**. 이 옵션은 [1의 사용 사례 B에 적용됩니다. 사용 사례 정의](people-based-destinations-workflow.md#defining-your-use-case). 순전히 오프라인 활동을 기반으로 대상을 타기팅할 때 [인바운드 데이터 파일](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)을 통해 고객 ID를 온보딩된 트레이트에 적합하게 지정해야 합니다.
 
-## &#x200B;5. 데이터 소스 만들기 또는 레이블 지정 및 해시된 이메일 주소 온보드 {#create-label-data-sources}
+## &#x200B;5. 데이터 소스 및 온보드 해시된 이메일 주소 만들기 또는 레이블 지정 {#create-label-data-sources}
 
 Audience Manager에 있는 고객 ID 유형에 따라 다릅니다([3 참조). 보유 중인 고객 ID(CRM ID)의 유형을 식별하면 다음 시나리오 중 하나를 받게 됩니다.](people-based-destinations-workflow.md#identify-customer-id)
 
@@ -91,7 +97,7 @@ Audience Manager에 있는 고객 ID 유형에 따라 다릅니다([3 참조). �
 
 ## &#x200B;6. 세분화를 위해 프로필 병합 규칙 사용 {#use-profile-merge-rules}
 
-사용 사례에 따라 다릅니다([1 참조). 사용 사례 &#x200B;](people-based-destinations-workflow.md#defining-your-use-case)을(를) 정의하면 세분화를 위해 [!DNL Profile Merge Rules]을(를) 사용하는 두 가지 방법이 있습니다.
+사용 사례에 따라 다릅니다([1 참조). 사용 사례 ](people-based-destinations-workflow.md#defining-your-use-case)을(를) 정의하면 세분화를 위해 [!DNL Profile Merge Rules]을(를) 사용하는 두 가지 방법이 있습니다.
 
 **A) 기존[!DNL Profile Merge Rules]**&#x200B;을(를) 사용합니다. 이 옵션은 첫 번째 사용 사례(온라인과 오프라인의 결합된 사용자 활동을 기반으로 하는 대상 타깃팅)에 적용됩니다. 이 시나리오에서는 Audience Manager에 기존 고객 활동이 있고 세분화에 사용한 프로필 병합 규칙을 하나 이상 이미 정의했습니다. 이 경우 새 [!DNL Profile Merge Rules]을(를) 만들 필요가 없습니다.
 

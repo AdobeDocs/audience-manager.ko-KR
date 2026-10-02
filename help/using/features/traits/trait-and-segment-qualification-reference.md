@@ -8,16 +8,21 @@ title: 트레이트 자격 참조
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
 exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a
-TQID: https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M
+TQID: 'https://experienceleague.adobe.com/ToG-JOFHadPm5hkOP5tzUuVMOPZTLXG7x6mad77yC1M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '841'
 ht-degree: 0%
-
 ---
-
 # 트레이트 및 세그먼트 자격 참조 {#trait-qualification-reference}
 
 트레이트 자격 또는 트레이트 실현은 트레이트 유형에 따라 Audience Manager에서 다르게 처리됩니다. 특성 유형 자격에 대한 자세한 내용은 [특성 유형별 특성 자격](#trait-type)을 참조하십시오.
@@ -76,4 +81,4 @@ ht-degree: 0%
 
 ## 트레이트 자격 제한 {#trait-qualification-limit}
 
-인증된 프로필([DPUUID](../../reference/ids-in-aam.md))이든 장치 ID([UUID](../../reference/ids-in-aam.md))이든 각 사용자 프로필에 대해 150,000개의 트레이트 자격 제한을 적용합니다. DPUUID가 [!DNL Audience Manager]의 특정 인스턴스에 대해 고유한 반면 UUID는 [!DNL Audience Manager] 플랫폼에서 공유됩니다. [!UICONTROL UUID]의 경우 트레이트 자격을 저장할 때 공정 정책을 적용합니다. 알고리즘에서는 [!UICONTROL UUID]의 모든 인스턴스에 대해 [!DNL Audience Manager] 프로필의 동일한 공유를 사용할 수 있도록 합니다.
+인증된 프로필([DPUUID](../../reference/ids-in-aam.md))이든 장치 ID([UUID](../../reference/ids-in-aam.md))이든 각 사용자 프로필에 대해 150,000개의 트레이트 자격 제한을 적용합니다. DPUUID가 [!DNL Audience Manager]의 특정 인스턴스에 대해 고유한 반면 UUID는 [!DNL Audience Manager] 플랫폼에서 공유됩니다. [!UICONTROL UUID]의 경우 트레이트 자격을 저장할 때 공정 정책을 적용합니다. 알고리즘에서는 [!DNL Audience Manager]의 모든 인스턴스에 대해 [!UICONTROL UUID] 프로필의 동일한 공유를 사용할 수 있도록 합니다.

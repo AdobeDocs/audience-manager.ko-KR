@@ -7,20 +7,26 @@ title: 아웃바운드 매크로 예제
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
 feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
-TQID: https://experienceleague.adobe.com/CDfzuYYGdn-Jji6kQOVj1OMjGV8EyukDuq0afow9DcI
+TQID: 'https://experienceleague.adobe.com/CDfzuYYGdn-Jji6kQOVj1OMjGV8EyukDuq0afow9DcI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 322
+source-wordcount: '324'
 ht-degree: 2%
-
 ---
-
 # 아웃바운드 매크로 예제 {#outbound-macro-examples}
 
 일반적인 매크로 중 일부를 사용하여 아웃바운드 파일 템플릿을 만드는 방법의 예입니다.
@@ -135,7 +141,7 @@ ht-degree: 2%
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>출력:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>참고: 첫 번째 예제에서 <code> SEGMENT_LIST </code>이(가) 비어 있으므로 매크로는 <code> REMOVED_SEGMENT_LIST </code>에 대한 데이터만 반환합니다. 두 번째 예제에서는 두 매크로에 대한 데이터를 반환합니다. </p> </p> </td> 
+     </code></p> <p> <p>참고: 첫 번째 예제에서 <code> REMOVED_SEGMENT_LIST </code>이(가) 비어 있으므로 매크로는 <code> SEGMENT_LIST </code>에 대한 데이터만 반환합니다. 두 번째 예제에서는 두 매크로에 대한 데이터를 반환합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -154,7 +160,7 @@ ht-degree: 2%
 
 ### `DPUUID`개의 예제
 
-`DPUUID` 매크로가 데이터를 출력하는 방법을 이해하기 위해 아래와 같이 `DPID`에 2개의 `DPUUID`이(가) 매핑되어 있다고 가정합니다.
+`DPUUID` 매크로가 데이터를 출력하는 방법을 이해하기 위해 아래와 같이 `DPUUID`에 2개의 `DPID`이(가) 매핑되어 있다고 가정합니다.
 
 * DPID `1111`은(는) DPUUID `AAAA`(타임스탬프 = 1) 및 `BBBB`(타임스탬프 = 2)에 매핑됩니다.
 * DPID `2222`이(가) DPUUID `CCCC`에 매핑됩니다.

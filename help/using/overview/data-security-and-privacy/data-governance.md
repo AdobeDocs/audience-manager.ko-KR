@@ -7,30 +7,44 @@ keywords: GDPR UI, GDPR API, CCPA, 개인 정보, 동의, 난독화, 거버넌�
 title: 데이터 거버넌스
 feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-TQID: https://experienceleague.adobe.com/HVF-SxKO4mcE7YkiiwXLBPn2K3N5NIjpZHFWgZb0CoI
+TQID: 'https://experienceleague.adobe.com/HVF-SxKO4mcE7YkiiwXLBPn2K3N5NIjpZHFWgZb0CoI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '460'
 ht-degree: 90%
-
 ---
-
 # 데이터 거버넌스
 
 ## 개요 {#overview}
@@ -48,11 +62,11 @@ Audience Manager의 데이터 거버넌스는 Audience Manager에서 고객 데�
 
 >[!NOTE]
 >
->Audience Manager 사용자 인터페이스에서 [&#x200B; 주소 난독화를 사용하는 방법에 대한 자세한 내용은 &#x200B;](../../features/administration/ip-obfuscation.md)IP 주소 난독화[!DNL IP]를 참조하십시오.
+>Audience Manager 사용자 인터페이스에서 [!DNL IP] 주소 난독화를 사용하는 방법에 대한 자세한 내용은 [IP 주소 난독화](../../features/administration/ip-obfuscation.md)를 참조하십시오.
 
 Audience Manager에서 [!DNL IP] 주소 난독화가 작동하는 방식을 이해하려면 아래 비디오를 보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/34980?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
 **지리 특성:** [!DNL IP] 주소 난독화를 사용하는 경우 Audience Manager에서 지리 특성 및 보고에 [!DNL IP] 주소의 나머지 옥텟을 계속해서 사용할 수 있습니다. [!DNL IP] 주소 난독화를 사용하지 않는 경우에는 Audience Manager가 전체 [!DNL IP] 주소를 사용합니다. 어느 경우에나 지역으로 [!DNL IP] 위치를 식별할 수 있는 지리 특성 기능을 사용할 수 있지만 [!DNL IP] 난독화를 사용 중인 경우 약간의 정밀도 손실이 있습니다. 도시 수준의 정보를 획득하는 것은 [!DNL IP] 주소 난독화의 영향을 크게 받을 수 있습니다. 지역 및 국가 수준의 정보를 획득하는 것은 IP 주소 난독화의 영향을 약간만 받아야 합니다. 지리 특성 데이터는 개인 수준이 아니라 도시 수준이나 우편 번호 수준으로만 세분화됩니다. [지역 타겟팅](../../features/traits/trait-geotarget-keys.md) 및 지역 변수를 사용하여 트레이트를 설정하는 방법에 대해 자세히 알아보십시오.
 

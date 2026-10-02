@@ -7,29 +7,37 @@ title: ID 동기화 파일 이름 및 컨텐츠 요구 사항
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
-TQID: https://experienceleague.adobe.com/yJ5QIV70F6YyRqA0LxqxQaHMoWwe7pLJ8V17MvyEK70
+TQID: 'https://experienceleague.adobe.com/yJ5QIV70F6YyRqA0LxqxQaHMoWwe7pLJ8V17MvyEK70'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 782
-ht-degree: 2%
-
+source-wordcount: '797'
+ht-degree: 3%
 ---
-
 # ID 동기화 파일 이름 및 컨텐츠 요구 사항 {#name-and-content-requirements-for-id-synchronization-files}
 
 파일 기반 ID 동기화에 사용되는 필수 필드, 구문 및 이름 지정 규칙에 대해 설명합니다. 이러한 사양에 따라 파일 내용의 이름을 지정하고 구성합니다.
 
 >[!NOTE]
 >
->이 문서의 텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)은 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
 ## 파일 이름 구문 및 예 {#file-name-syntax}
 
@@ -118,7 +126,7 @@ abc123 def456 ghi789 xyz987
 
 ## 동기화는 DPUUID를 UUID에 일치시킵니다. {#sync-matches-dpuuids-uuids}
 
-ID 동기화 파일의 목적은 고유한 데이터 소스의 [DPUUIDs](../../../reference/ids-in-aam.md)을(를) [!DNL Audience Manager]개의 UUID와 동기화하는 것입니다. 동기화는 마스터 [!DNL DPUUID] 및 관련 [!DNL DPID]의 [!DNL DPID]을(를) [!DNL Audience Manager] [!DNL UUID]에 매핑합니다. 파일 이름 및 본문에 ID를 넣는 위치에 따라 이러한 식별자가 서로 매핑되는 방식이 결정됩니다. 예를 들어 여기에 표시된 두 개의 샘플 파일을 사용합니다.
+ID 동기화 파일의 목적은 고유한 데이터 소스의 [DPUUIDs](../../../reference/ids-in-aam.md)을(를) [!DNL Audience Manager]개의 UUID와 동기화하는 것입니다. 동기화는 마스터 [!DNL DPID] 및 관련 [!DNL DPID]의 [!DNL DPUUID]을(를) [!DNL Audience Manager] [!DNL UUID]에 매핑합니다. 파일 이름 및 본문에 ID를 넣는 위치에 따라 이러한 식별자가 서로 매핑되는 방식이 결정됩니다. 예를 들어 여기에 표시된 두 개의 샘플 파일을 사용합니다.
 
 * **파일 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -138,12 +146,12 @@ ID 동기화 파일의 목적은 고유한 데이터 소스의 [DPUUIDs](../../.
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-1단계: ID 동기화 프로세스가 [!DNL DPUUID]의 [!DNL DPID]을(를) 왼쪽 12345의 [!DNL Audience Manager] [!DNL UUID]과(와) 동기화합니다. 파일 이름의 [!DNL DPID] &quot;0&quot;은(는) [!DNL Audience Manager] [!DNL UUID]을(를) 나타냅니다.
+1단계: ID 동기화 프로세스가 [!DNL DPID]의 [!DNL DPUUID]을(를) 왼쪽 12345의 [!DNL Audience Manager] [!DNL UUID]과(와) 동기화합니다. 파일 이름의 [!DNL DPID] &quot;0&quot;은(는) [!DNL Audience Manager] [!DNL UUID]을(를) 나타냅니다.
 <br/>
 
 **파일 2**([샘플 파일 다운로드](assets/adobe_id_12345_67890_1477846458.sync))
 
-| [!DNL DPID]12345 | [!DNL DPID]67890 |
+| [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38 | 4598060374 |
 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 | 4581274262 |
@@ -151,7 +159,7 @@ ID 동기화 파일의 목적은 고유한 데이터 소스의 [DPUUIDs](../../.
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-2단계: [!DNL DPUUID]의 [!DNL DPID]이(가) 1단계에서 Audience Manager [!DNL UUID]과(와) 동기화되지 12345. 이 ID 동기화를 통해 [!DNL DPUUID]의 [!DNL DPID]을(를) 1단계67890 Audience Manager [!DNL UUID]과(와) 동기화할 수 있습니다.
+2단계: [!DNL DPID]의 [!DNL DPUUID]이(가) 1단계에서 Audience Manager [!DNL UUID]과(와) 동기화되지 12345. 이 ID 동기화를 통해 [!DNL DPID]의 [!DNL DPUUID]을(를) 1단계67890 Audience Manager [!DNL UUID]과(와) 동기화할 수 있습니다.
 
 <br/>
 

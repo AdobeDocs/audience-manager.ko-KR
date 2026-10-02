@@ -7,20 +7,26 @@ title: 외부 장치 그래프 사용 사례
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-TQID: https://experienceleague.adobe.com/KPKq6THxdku9ebZigLfZKnBO-ziNPjZ9pqNdn6PZ-Es
+TQID: 'https://experienceleague.adobe.com/KPKq6THxdku9ebZigLfZKnBO-ziNPjZ9pqNdn6PZ-Es'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 294
-ht-degree: 8%
-
+source-wordcount: '304'
+ht-degree: 7%
 ---
-
 # 외부 장치 그래프 사용 사례 {#external-device-graph-use-cases}
 
 외부 장치 그래프를 통해 알 수 없는 사용자에 대한 전망, 재타겟팅 및 개인화에 대한 권장 사항 및 사용 사례입니다. 외부 장치 그래프는 Audience Manager과 별개인 장치 그래프로 정의됩니다. 여기에는 Adobe과 타사 결정론적 또는 확률론적 장치 그래프 회사의 통합이 포함됩니다.
@@ -129,11 +135,11 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ![마지막 장치 그래프](assets/last-profile-link.png)
 
-아래 예에서 Acme Inc.는 [!DNL Acme Inc.]에 [!DNL Data Plan A]명의 구독자를 가지고 있고 [!DNL iPhone 7] 장치를 사용하는 연 소득 $100.000 이상의 모든 가구를 대상으로 하려고 합니다.
+아래 예에서 Acme Inc.는 [!DNL Data Plan A]에 [!DNL Acme Inc.]명의 구독자를 가지고 있고 [!DNL iPhone 7] 장치를 사용하는 연 소득 $100.000 이상의 모든 가구를 대상으로 하려고 합니다.
 
-John은 데이터 계획 A에서 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Profile Link Device Graph] 클러스터에는 John이 정기적으로 사용하는 두 개의 추가 장치가 있습니다. John의 랩톱([!DNL Device 1])과 보조 스마트폰 [!DNL Device 2]&#x200B;([!DNL Samsung S7]의 [!DNL Data Plan B])입니다.
+John은 데이터 계획 A에서 iPhone 7을 사용하여 Acme Inc. 웹 사이트에서 인증합니다. 동시에 John의 [!DNL Profile Link Device Graph] 클러스터에는 John이 정기적으로 사용하는 두 개의 추가 장치가 있습니다. John의 랩톱([!DNL Device 1])과 보조 스마트폰 [!DNL Device 2]&#x200B;([!DNL Data Plan B]의 [!DNL Samsung S7])입니다.
 
-**[!UICONTROL Last Authenticated Profiles]**&#x200B;은(는) **[!UICONTROL Profile Link Device Graph]** + [!DNL Acme Inc.]을(를) 사용하여 John의 Device Graph 클러스터에서 세 장치 모두에 개인화된 메시지를 전달할 수 있습니다. 이들 중 하나만 처음에 세그먼트에 적합하더라도 마찬가지입니다.
+[!DNL Acme Inc.]은(는) **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**&#x200B;을(를) 사용하여 John의 Device Graph 클러스터에서 세 장치 모두에 개인화된 메시지를 전달할 수 있습니다. 이들 중 하나만 처음에 세그먼트에 적합하더라도 마찬가지입니다.
 
 ![고급 그래프 확장](assets/advanced-device-graph-expansion.png)
 

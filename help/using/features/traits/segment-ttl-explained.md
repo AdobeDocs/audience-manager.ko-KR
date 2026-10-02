@@ -7,16 +7,21 @@ title: 세그먼트 TTL(Time to Live) 설명
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
-TQID: https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE
+TQID: 'https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 # 세그먼트 및 트레이트 유지 시간 설명 {#segment-time-to-live-explained}
 
 트레이트 [!UICONTROL time-to-live]&#x200B;([!DNL TTL]) 간격이 세그먼트 멤버십에 미치는 영향.
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 ## TTL(Time to Live)
 
-[!DNL TTL]은(는) 마지막 트레이트 자격 이벤트 후 사이트 방문자가 세그먼트에 남아 있는 기간을 정의합니다. [!DNL TTL]이(가) 세그먼트가 아닌 트레이트에 설정되어 있습니다. 방문자가 [!DNL TTL] 간격이 끝나기 전에 트레이트에 적합하지 않으면 세그먼트에서 이탈됩니다. 새 트레이트의 기본 [!DNL TTL]은(는) 120일입니다. 0일로 설정하면 트레이트가 만료되지 않습니다. 특성 만들기 인터페이스의 [&#x200B; 섹션에서 특성을 만들거나 편집할 때 &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)TTL 값을 설정[!UICONTROL Advanced Options]합니다.
+[!DNL TTL]은(는) 마지막 트레이트 자격 이벤트 후 사이트 방문자가 세그먼트에 남아 있는 기간을 정의합니다. [!DNL TTL]이(가) 세그먼트가 아닌 트레이트에 설정되어 있습니다. 방문자가 [!DNL TTL] 간격이 끝나기 전에 트레이트에 적합하지 않으면 세그먼트에서 이탈됩니다. 새 트레이트의 기본 [!DNL TTL]은(는) 120일입니다. 0일로 설정하면 트레이트가 만료되지 않습니다. 특성 만들기 인터페이스의 [!UICONTROL Advanced Options] 섹션에서 특성을 만들거나 편집할 때 [TTL 값을 설정](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)합니다.
 
 ### 1일 TTL 설명
 
@@ -35,8 +40,8 @@ Audience Manager은 다음 수식을 기반으로 하여 1일 [!DNL TTL]의 트�
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **예 1**: 1:00 [!DNL UTC]에 실현된 트레이트(1일 [!DNL TTL]). [!DNL TTL]은(는) 24 + 24 - 1 = 47시간 후에 만료됩니다.
-* **예 2**: 23:00 [!DNL UTC]에 실현된 트레이트(1일 [!DNL TTL]). [!DNL TTL]은(는) 24 + 24 - 23 = 25시간 후에 만료됩니다.
+* **예제 1**: 1시 [!DNL UTC]에 실현된 트레이트(1일 [!DNL TTL]). [!DNL TTL]은(는) 24 + 24 - 1 = 47시간 후에 만료됩니다.
+* **예 2**: 1일 [!DNL TTL]인 23:00 [!DNL UTC]에 실현된 트레이트. [!DNL TTL]은(는) 24 + 24 - 23 = 25시간 후에 만료됩니다.
 
 ## [!DNL TTL] 및 세그먼트에서 드롭아웃
 
@@ -54,7 +59,7 @@ Audience Manager은 다음 수식을 기반으로 하여 1일 [!DNL TTL]의 트�
 
 ## [!DNL Audience Manager] TTL은 타사 TTL 설정과 독립적입니다
 
-[!DNL TTL] 픽셀에 설정된 [!DNL Audience Manager]은(는) 타사에서 사용하는 다른 픽셀([!DNL TTL], 광고 네트워크 등)에 설정된 [!DNL DSP]과(와) 독립적으로 작동합니다.
+[!DNL Audience Manager] 픽셀에 설정된 [!DNL TTL]은(는) 타사에서 사용하는 다른 픽셀([!DNL DSP], 광고 네트워크 등)에 설정된 [!DNL TTL]과(와) 독립적으로 작동합니다.
 
 >[!MORELIKETHIS]
 >

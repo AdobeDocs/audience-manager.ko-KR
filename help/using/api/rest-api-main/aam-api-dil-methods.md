@@ -7,21 +7,26 @@ title: Data Integration Library API 메서드
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
-TQID: https://experienceleague.adobe.com/OUlYPULmJBtwVC1NJdEUopbc-segLDv0anbd2SW9eI8
+TQID: 'https://experienceleague.adobe.com/OUlYPULmJBtwVC1NJdEUopbc-segLDv0anbd2SW9eI8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 166
-ht-degree: 3%
-
+source-wordcount: '173'
+ht-degree: 6%
 ---
-
 # Data Integration Library API 메서드 {#data-integration-library-api-methods}
 
 [!UICONTROL Data Integration Library]&#x200B;([!UICONTROL DIL])을 사용하여 프로그래밍 방식으로 작업할 수 있는 메서드입니다.
@@ -52,7 +57,7 @@ ht-degree: 3%
 
 ## 버전에 대한 JSON 스키마 반환 {#return-json-schema-version}
 
-`GET` 버전에 대한 [!DNL JSON] 스키마를 반환하는 [!UICONTROL DIL] 메서드입니다. 버전용 별칭 [!UICONTROL LATEST]을(를) 사용하여 [!UICONTROL DIL]의 최신 버전을 가져올 수 있습니다.
+[!UICONTROL DIL] 버전에 대한 [!DNL JSON] 스키마를 반환하는 `GET` 메서드입니다. 버전용 별칭 [!UICONTROL LATEST]을(를) 사용하여 [!UICONTROL DIL]의 최신 버전을 가져올 수 있습니다.
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -388,7 +393,7 @@ ht-degree: 3%
 
 ## DIL 생성 {#generate-dil}
 
-지정된 버전의 `GET`을(를) 사용하여 전달된 요청 본문을 기반으로 [!UICONTROL DIL]을(를) 생성하는 [!UICONTROL DIL] 메서드입니다. 별칭 `LATEST`이(가) URL의 버전에 사용되는 경우 [!UICONTROL DIL]의 최신 버전이 생성됩니다.
+지정된 버전의 [!UICONTROL DIL]을(를) 사용하여 전달된 요청 본문을 기반으로 [!UICONTROL DIL]을(를) 생성하는 `GET` 메서드입니다. 별칭 `LATEST`이(가) URL의 버전에 사용되는 경우 [!UICONTROL DIL]의 최신 버전이 생성됩니다.
 
 <!-- r_api_generate_dil.xml -->
 

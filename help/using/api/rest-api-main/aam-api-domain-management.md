@@ -7,19 +7,23 @@ title: 도메인 관리 API 메서드
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
-TQID: https://experienceleague.adobe.com/KQYsAmIQd2J88N7d7AdxABYomY-CDXJe5f3RccRcY-g
+TQID: 'https://experienceleague.adobe.com/KQYsAmIQd2J88N7d7AdxABYomY-CDXJe5f3RccRcY-g'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '340'
 ht-degree: 2%
-
 ---
-
 # 도메인 관리 API 메서드 {#domain-management-api-methods}
 
 데이터를 전송할 도메인을 만들고 관리할 수 있는 도메인 관리 방법(쿠키 대상에만 해당).
@@ -104,7 +108,7 @@ ht-degree: 2%
 
 ### 선택적 쿼리 매개 변수
 
-개체에 대한 [!DNL API]all *속성을 반환하는* 메서드와 함께 이러한 선택적 매개 변수를 사용할 수 있습니다. 해당 쿼리를 [!DNL API]에 전달할 때 요청 문자열에서 이러한 옵션을 설정하십시오. [선택적 매개 변수](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)를 참조하십시오.
+개체에 대한 *all* 속성을 반환하는 [!DNL API] 메서드와 함께 이러한 선택적 매개 변수를 사용할 수 있습니다. 해당 쿼리를 [!DNL API]에 전달할 때 요청 문자열에서 이러한 옵션을 설정하십시오. [선택적 매개 변수](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)를 참조하십시오.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

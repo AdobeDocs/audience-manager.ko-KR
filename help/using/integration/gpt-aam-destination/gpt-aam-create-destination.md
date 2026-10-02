@@ -7,37 +7,44 @@ title: GPT 대상 만들기
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third-party Integration
 exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
-TQID: https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE
+TQID: 'https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: '295'
 ht-degree: 1%
-
 ---
-
 # GPT 대상 만들기 {#create-a-gpt-destination}
 
 클라이언트측(브라우저측) 통합 또는 서버측 통합을 통해 정규화된 세그먼트를 [!DNL Google Ad Manager]에 보낼 수 있습니다. 클라이언트측 통합을 선택하는 경우 Audience Manager에서 [!DNL Google Publisher Tags]에 대한 쿠키 기반 대상을 만들어야 합니다.
 
 ## 대상
 
-Audience Manager에서 *`destination`*&#x200B;은(는) 데이터를 공유할 다른 시스템(광고 서버, [!DNL DSP], 광고 네트워크 등)입니다. [!UICONTROL Destination Builder]은(는) 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. Audience Manager 대상 기능은 *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*&#x200B;에 있습니다. 시작하려면 **[!UICONTROL Add New Destination]**&#x200B;을(를) 클릭하고 아래 단계를 따르십시오.
+Audience Manager에서 *`destination`*&#x200B;은(는) 다른 시스템(광고 서버, [!DNL DSP], 광고 네트워크 등)입니다 와(과) 데이터를 공유할 수 있습니다. [!UICONTROL Destination Builder]은(는) 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. Audience Manager 대상 기능은 *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*&#x200B;에 있습니다. 시작하려면 **[!UICONTROL Add New Destination]**&#x200B;을(를) 클릭하고 아래 단계를 따르십시오.
 
 ## 기본 정보
 
 [!UICONTROL Basic Information] 섹션을 완료하려면
 
 1. 대상 이름을 지정합니다.
-1. **[!UICONTROL "Cookie"]** 드롭다운 목록에서 [!UICONTROL Type] 선택.
+1. [!UICONTROL Type] 드롭다운 목록에서 **[!UICONTROL "Cookie"]** 선택.
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 [!UICONTROL Configuration] 및 [!UICONTROL Segment Mappings] 섹션으로 이동합니다.
 
 ## 쿠키 구성

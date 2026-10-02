@@ -7,24 +7,30 @@ title: 트레이트 규칙 및 세그먼트 규칙 만들기 또는 업데이트
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-TQID: https://experienceleague.adobe.com/7vkYd55lKv1PCjRqX-OxK1A-VIjgH3O9Tx0AnbZvRWA
+TQID: 'https://experienceleague.adobe.com/7vkYd55lKv1PCjRqX-OxK1A-VIjgH3O9Tx0AnbZvRWA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+    internal-label: BAAAM
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 # 트레이트 규칙 및 세그먼트 규칙 만들기 또는 업데이트{#create-or-update-trait-rules-and-segment-rules}
 
 생성 및 업데이트 워크시트에는 한 번의 작업으로 여러 규칙을 적용할 수 있는 traitRule 헤더가 적용됩니다. 다음 지침에 따라 벌크 규칙 요청을 수행합니다.
@@ -41,7 +47,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[&#x200B; UI에 할당된 &#x200B;](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 ## 트레이트 규칙 작업 {#trait-rules}
 

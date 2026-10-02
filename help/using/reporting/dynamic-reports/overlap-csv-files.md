@@ -7,19 +7,26 @@ title: 중복 보고서용 CSV 파일
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
-TQID: https://experienceleague.adobe.com/3Qq8PwmAWUAO1ic9kan7XFuXPllBioqJhPKCmo6RPww
+TQID: 'https://experienceleague.adobe.com/3Qq8PwmAWUAO1ic9kan7XFuXPllBioqJhPKCmo6RPww'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '958'
 ht-degree: 2%
-
 ---
-
 # 중복 보고서용 CSV 파일{#csv-files-for-overlap-reports}
 
 중복 보고서 가 백만 개의 레코드 제한에 도달하는 경우 이 보고서에 대한 .csv 파일을 요청할 수 있습니다. &quot;예기치 않은 오류가 발생했습니다&quot;라는 메시지가 표시되면 보고서가 이 제한에 도달했을 수 있습니다. 자체 데이터베이스 시스템에서 가져오고 작업할 수 있는 압축된 .csv 파일을 요청하려면 고객 지원 센터에 문의하십시오. 파일은 세그먼트 간, 세그먼트 간 및 트레이트 간 중복 보고서에 사용할 수 있습니다.

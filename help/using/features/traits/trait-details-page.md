@@ -59,7 +59,7 @@ ht-degree: 0%
 
 [!UICONTROL rule-based traits]의 경우 사용자가 브라우저에서 [!UICONTROL trait]에 대한 자격을 얻을 때 [!UICONTROL trait] 자격이 실시간으로 발생합니다.
 
-[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager으로 ](../../faq/faq-inbound-data-ingestion.md)되고, 이 때 [!UICONTROL trait] 자격이 발생합니다.
+[!UICONTROL onboarded traits]의 경우 [!UICONTROL trait] 자격은 인바운드 파일이 처리된 후에 발생합니다. 즉, 인바운드 파일이 [Audience Manager으로 &#x200B;](../../faq/faq-inbound-data-ingestion.md)되고, 이 때 [!UICONTROL trait] 자격이 발생합니다.
 
 [!UICONTROL Trait Graph]에는 다음 정보가 표시됩니다.
 

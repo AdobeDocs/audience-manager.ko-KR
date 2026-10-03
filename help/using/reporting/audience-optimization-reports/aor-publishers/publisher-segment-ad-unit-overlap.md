@@ -7,20 +7,28 @@ title: 세그먼트 대 광고 단위 겹치기
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: Audience Optimization Reports
 exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
-TQID: https://experienceleague.adobe.com/J0eNLdT334hNl2VrLpNAVQwnF80e--iAkU39mQvEDkE
+TQID: 'https://experienceleague.adobe.com/J0eNLdT334hNl2VrLpNAVQwnF80e--iAkU39mQvEDkE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 390
+source-wordcount: '395'
 ht-degree: 1%
-
 ---
-
 # 세그먼트 대 광고 단위 겹치기{#segment-to-ad-unit-overlap}
 
 세그먼트 대 광고 단위 겹치기 보고서는 광고 단위와 Audience Manager 세그먼트 간의 높음 및 낮음 겹침을 강조 표시하는 히트차트로 표시됩니다.
@@ -39,7 +47,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [!UICONTROL Ad Unit IDs]Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기[의 3단계에 설명된 대로 &#x200B;](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Ad Unit] 대신 [!UICONTROL Ad Unit ID]&#x200B;(으)로 자세히 설명되어 있습니다.
+>[!UICONTROL Audience Optimization for Publishers]을(를) 활성화할 때 [Google 광고 관리자(이전의 DFP) 데이터 파일을 Audience Manager으로 가져오기](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)의 3단계에 설명된 대로 [!UICONTROL Ad Unit IDs]에 대한 설명 메타데이터를 포함해야 합니다. 이렇게 하면 보고서에 웹 속성이 [!UICONTROL Ad Unit ID] 대신 [!UICONTROL Ad Unit]&#x200B;(으)로 자세히 설명되어 있습니다.
 
 ## 결과 해석 {#interpreting-results}
 

@@ -7,30 +7,39 @@ title: Google Campaign Manager 데이터 파일을 Audience Manager으로 가져
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
-TQID: https://experienceleague.adobe.com/-LD2jsXjdqhRjhXJfabCiOdw-WNeji-GECu1uunomVU
+TQID: 'https://experienceleague.adobe.com/-LD2jsXjdqhRjhXJfabCiOdw-WNeji-GECu1uunomVU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 556
+source-wordcount: '611'
 ht-degree: 2%
-
 ---
-
 # Google Campaign Manager 데이터 파일을 Audience Manager으로 가져오기 {#import-dcm-data-files-into-audience-manager}
 
 [!DNL Google] 그룹을 설정하여 [!DNL Google Campaign Manager] 데이터 파일을 Audience Manager으로 가져옵니다. 이 섹션의 콘텐츠는 통합 프로세스를 요약하고 시작하는 데 도움이 되는 [!DNL Google Campaign Manager] 리소스에 대한 링크를 제공합니다.
 
 ## 통합 요약
 
-[!DNL Google Campaign Manager]은(는) [!DNL Google]&#x200B;(DFA)에 대한 [!DNL DoubleClick for Advertisers]의 대체입니다. DFA와 마찬가지로 [!DNL Google Campaign Manager] 고객은 [!DNL Audience Manager]에서 데이터를 가져오고 보고 작업할 수 있습니다. 그러나 [!DNL Audience Manager]은(는) [!UICONTROL Data Transfer] 및 [!UICONTROL Match Table] 파일에 직접 액세스하여 가져올 수 없습니다. 이러한 파일을 가져오려면 고객의 노력이 필요합니다.
+[!DNL Google Campaign Manager]은(는) [!DNL DoubleClick for Advertisers]&#x200B;(DFA)에 대한 [!DNL Google]의 대체입니다. DFA와 마찬가지로 [!DNL Google Campaign Manager] 고객은 [!DNL Audience Manager]에서 데이터를 가져오고 보고 작업할 수 있습니다. 그러나 [!DNL Audience Manager]은(는) [!UICONTROL Data Transfer] 및 [!UICONTROL Match Table] 파일에 직접 액세스하여 가져올 수 없습니다. 이러한 파일을 가져오려면 고객의 노력이 필요합니다.
 
 그러나 설정 절차는 [DoubleClick Campaign Manager 도움말](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456)에 잘 설명되어 있습니다. 또한 아래 나열된 단계를 검토하여 시작할 수 있습니다.
 
@@ -71,8 +80,8 @@ ht-degree: 2%
 
 1. [!DNL Audience Manager]을(를) 초대하여 그룹에 참가하십시오.
 
-   그룹을 만들고 데이터 버킷에 대한 액세스 권한을 부여한 후 [!DNL Audience Manager]을(를) 초대하여 그룹에 참가하십시오. dfaaam@adobe.com으로 초대 이메일을 보내십시오. 3단계의 데이터 파일 URL을 포함해야 합니다. 내부 팀이 귀하와 협력하여 초대를 수락한 후 액세스를 확인합니다. 1. [!DNL Google Campaign Manager] 사용자 인터페이스에서 [!DNL Audience Manager] 데이터에 대한 두 개의 데이터 원본을 설정합니다.
+   그룹을 만들고 데이터 버킷에 대한 액세스 권한을 부여한 후 [!DNL Audience Manager]을(를) 초대하여 그룹에 참가하십시오. dfaaam@adobe.com으로 초대 이메일을 보내십시오. 3단계의 데이터 파일 URL을 포함해야 합니다. 내부 팀이 귀하와 협력하여 초대를 수락한 후 액세스를 확인합니다. 1. [!DNL Audience Manager] 사용자 인터페이스에서 [!DNL Google Campaign Manager] 데이터에 대한 두 개의 데이터 원본을 설정합니다.
 
    데이터 원본 이름을 `Advertiser Analytics: DCM Platform` 및 `Advertiser Analytics: AAM+DCM Platform`로 지정합니다. [데이터 원본 만들기](../../../features/manage-datasources.md#create-data-source) 워크플로우에서 ID 유형을 `Cookie`(으)로 설정합니다. 내부 팀과 두 개의 새 데이터 소스의 ID를 공유합니다.
 
-1. [!DNL Google Campaign Manager]&#x200B;(으)로 가져오는 [!DNL Audience Manager]개 파일에서 특성을 쉽게 만들 수 있습니다. [실행 가능한 로그 파일](../../../integration/media-data-integration/actionable-log-files.md)을 확인하고 [!DNL Audience Manager] 컨설턴트나 고객 지원 팀에 이 기능을 활성화하도록 요청하십시오.
+1. [!DNL Audience Manager]&#x200B;(으)로 가져오는 [!DNL Google Campaign Manager]개 파일에서 특성을 쉽게 만들 수 있습니다. [실행 가능한 로그 파일](../../../integration/media-data-integration/actionable-log-files.md)을 확인하고 [!DNL Audience Manager] 컨설턴트나 고객 지원 팀에 이 기능을 활성화하도록 요청하십시오.

@@ -7,22 +7,30 @@ title: 실시간 아웃바운드 데이터 전송
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-TQID: https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ
+TQID: 'https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '695'
 ht-degree: 2%
-
 ---
-
 # 실시간 아웃바운드 데이터 전송 {#real-time-outbound-data-transfers}
 
 아웃바운드 실시간 데이터 전송 프로세스는 일련의 [!DNL JSON] 형식의 메시지로 사용자 데이터를 대상 플랫폼에 전달합니다.
@@ -138,7 +146,7 @@ ht-degree: 2%
      <li id="li_8352B919A87242E68716FB9EC0443407">세그먼트 규칙에 따라 세그먼트에서 제거되었습니다. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">세그먼트의 <a href="../../../features/traits/segment-ttl-explained.md"> TTL(Time-to-Live) 간격</a>을(를) 기반으로 세그먼트에서 제거되었습니다. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">지난 120일 동안 표시되지 않은 경우 비활성 상태로 이동되었습니다. </li>
-     <li>개인 정보 변경 요청(예: <span class="keyword"> GDPR</span>)으로 인해 제거되었습니다.</li>
+     <li>개인 정보 변경 요청(예: <span class="keyword">)으로 인해 제거되었습니다. GDPR</span>)</li>
     </ul> <p><span class="keyword"> Audience Manager</span> ID에 동기화되는 모든 파트너 ID는 사용자가 세분화되지 않은 경우 <code> "Status":"0"</code> 플래그를 받습니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -151,7 +159,7 @@ ht-degree: 2%
 
 ## 보안
 
-개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [!DNL Audience Manager]OAuth 2.0[&#x200B; 프로토콜을 통해 &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
+개인 키를 사용하여 [HTTP 요청에 서명](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)하거나 [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) 프로토콜을 통해 [!DNL Audience Manager]을(를) 인증하면 실시간 아웃바운드 데이터 전송 프로세스를 보호할 수 있습니다.
 
 ## 요청
 

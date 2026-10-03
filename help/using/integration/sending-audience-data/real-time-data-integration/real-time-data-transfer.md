@@ -7,20 +7,26 @@ title: 실시간 인바운드 데이터 섭취
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
 feature: Inbound Data Transfers
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
-TQID: https://experienceleague.adobe.com/ps6Iks-zvDnIIEagSND0LEnW18K6odtuwIJOsBfp2v0
+TQID: 'https://experienceleague.adobe.com/ps6Iks-zvDnIIEagSND0LEnW18K6odtuwIJOsBfp2v0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '177'
 ht-degree: 1%
-
 ---
-
 # 실시간 인바운드 데이터 섭취 {#real-time-inbound-data-ingestion}
 
 실시간 인바운드 데이터 섭취 프로세스는 사용자 브라우저의 일련의 `HTTP` 요청을 사용하여 데이터를 Audience Manager에 전달합니다.
@@ -31,7 +37,7 @@ ht-degree: 1%
 
 ## URL 문자열 매개 변수 및 구문 {#url-string-syntax}
 
-인바운드 데이터 전송에 대한 [!DNL URL]에 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [&#x200B; UI에서 &#x200B;](../../../features/traits/create-onboarded-rule-based-traits.md)트레이트 만들기[&#x200B; 및 &#x200B;](../../../features/traits/trait-storage.md#create-trait-storage-folder)폴더 구조[!DNL Audience Manager]를 참조하세요.
+인바운드 데이터 전송에 대한 [!DNL URL]에 아래에 설명된 변수가 포함되어야 합니다. 실시간 데이터 전송을 설정하기 전에 [!DNL Audience Manager] UI에서 [트레이트 만들기](../../../features/traits/create-onboarded-rule-based-traits.md) 및 [폴더 구조](../../../features/traits/trait-storage.md#create-trait-storage-folder)를 참조하세요.
 
 >[!NOTE]
 >

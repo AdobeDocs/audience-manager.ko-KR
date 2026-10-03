@@ -7,16 +7,18 @@ title: 지원되는 브라우저
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: Reference
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-TQID: https://experienceleague.adobe.com/27NYNoRz6aZJyKYXVxiUNMyj3nJFAwH37DPAQSchvUw
+TQID: 'https://experienceleague.adobe.com/27NYNoRz6aZJyKYXVxiUNMyj3nJFAwH37DPAQSchvUw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 155
-ht-degree: 84%
-
+source-wordcount: '183'
+ht-degree: 77%
 ---
-
 # 지원되는 브라우저{#supported-browsers}
 
 이 페이지에서는 Audience Manager 사용자 인터페이스에서 지원하는 브라우저를 나열합니다. 쿠키와 JavaScript는 모든 브라우저에서 활성화되어 있어야 합니다.

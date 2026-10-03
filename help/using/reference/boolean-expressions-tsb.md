@@ -7,18 +7,21 @@ title: 트레이트 및 세그먼트 빌더의 부울 표현식
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: Reference
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
-TQID: https://experienceleague.adobe.com/-Fl1kRTxAy7fBmXx--xDFYZuDZy-7y8Li4YwBeoGvZo
+TQID: 'https://experienceleague.adobe.com/-Fl1kRTxAy7fBmXx--xDFYZuDZy-7y8Li4YwBeoGvZo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: '531'
 ht-degree: 0%
-
 ---
-
 # 트레이트 및 세그먼트 빌더의 부울 표현식{#boolean-expressions-in-trait-and-segment-builder}
 
 이 문서에서는 Audience Manager 트레이트 및 세그먼트 도구가 부울 표현식인 AND, OR 및 NOT을 사용하는 방법을 설명합니다.
@@ -78,7 +81,7 @@ c_tb_boolean.xml
 
 **[!UICONTROL OR]사용 사례 예**
 
-[!UICONTROL OR] 연산자는 광범위한 대상 자격 요구 사항이 있는 신호를 만들려는 경우에 유용합니다. 트레이트 또는 세그먼트 자격 요구 사항이 여러 개 있는 경우 사이트 방문자가 해당 특성의 [!UICONTROL OR]any *을(를) 표시하면* 연산자가 true로 평가됩니다. [!UICONTROL OR]은(는) 자격을 갖춘 사이트 방문자의 광범위한 대상을 신속하게 만들려는 경우에 가장 유용할 수 있습니다.
+[!UICONTROL OR] 연산자는 광범위한 대상 자격 요구 사항이 있는 신호를 만들려는 경우에 유용합니다. 트레이트 또는 세그먼트 자격 요구 사항이 여러 개 있는 경우 사이트 방문자가 해당 특성의 *any*&#x200B;을(를) 표시하면 [!UICONTROL OR] 연산자가 true로 평가됩니다. [!UICONTROL OR]은(는) 자격을 갖춘 사이트 방문자의 광범위한 대상을 신속하게 만들려는 경우에 가장 유용할 수 있습니다.
 
 **[!UICONTROL AND NOT]사용 사례 예**
 

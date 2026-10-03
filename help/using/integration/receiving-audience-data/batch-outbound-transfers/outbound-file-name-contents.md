@@ -7,21 +7,28 @@ title: 아웃바운드 데이터 파일 이름 구문 및 예
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-TQID: https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM
+TQID: 'https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '692'
 ht-degree: 5%
-
 ---
-
 # 아웃바운드 데이터 파일 이름: 구문 및 예{#outbound-data-file-name-syntax-and-examples}
 
 아웃바운드 데이터 파일의 이름을 지정하는 데 사용되는 필수 필드, 구문 및 규칙에 대해 설명합니다.
@@ -30,7 +37,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이 문서의 스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)는 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+>스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
 ## 구문 및 파일 이름 요소 {#syntax-file-name}
 
@@ -106,7 +113,7 @@ ht-degree: 5%
 
 파일이 [!DNL Amazon S3] 위치로 전송되었습니다. 파일 콘텐츠에는 *`PID_ALIAS="XYZCustomer"`*&#x200B;이(가) 있고 [!DNL Google Advertiser IDs]이(가) 있습니다.
 
-예: 증분 파일:
+E.g. 증분 파일:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
@@ -114,7 +121,7 @@ ht-degree: 5%
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
-예: 전체 파일:
+E.g. 전체 파일:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
@@ -123,25 +130,25 @@ ht-degree: 5%
 
 ### 시나리오 2
 
-[!DNL FTP]이(가) 없고 파일 콘텐츠에 *`PID_ALIAS`*&#x200B;이(가) 있는 [!DNL Apple Advertiser IDs] 위치로 전송된 파일:
+*`PID_ALIAS`*&#x200B;이(가) 없고 파일 콘텐츠에 [!DNL Apple Advertiser IDs]이(가) 있는 [!DNL FTP] 위치로 전송된 파일:
 
-예: 증분 파일:
+E.g. 증분 파일:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
  <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-예: 전체 파일:
+E.g. 전체 파일:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**시나리오 3**: [!DNL FTP]을(를) 사용하고 파일 콘텐츠에 타사 사용자 ID가 있는 *`PID_ALIAS="XYZCustomer"`* 위치로 보낸 파일(*`Vendor ID=45454`*):
+**시나리오 3**: *`PID_ALIAS="XYZCustomer"`*&#x200B;을(를) 사용하고 파일 콘텐츠에 타사 사용자 ID가 있는 [!DNL FTP] 위치로 보낸 파일(*`Vendor ID=45454`*):
 
-예: 증분 파일:
+E.g. 증분 파일:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
@@ -149,7 +156,7 @@ ht-degree: 5%
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-예: 전체 파일:
+E.g. 전체 파일:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
@@ -164,7 +171,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이 문서의 스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)는 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+>스타일 요소(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
 ### 구문
 

@@ -6,26 +6,36 @@ solution: Audience Manager
 title: Audience Manager 고객을 위한 GDPR 준비 지침
 feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
-TQID: https://experienceleague.adobe.com/K72pQ8Q6yILWexkG38Hc5W1roYObFvhLE5A0GSCyhYE
+TQID: 'https://experienceleague.adobe.com/K72pQ8Q6yILWexkG38Hc5W1roYObFvhLE5A0GSCyhYE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: '462'
 ht-degree: 98%
-
 ---
-
 # Audience Manager 고객을 위한 GDPR 준비 지침(데이터 제어자) {#gdpr-readiness-guidance}
 
 Audience Manager는 데이터 거버넌스 및 조직의 준비성 영역에서 선제적으로 대처할 것을 권장합니다. 이것은 소비자 데이터가 액세스 또는 삭제 요청과 관련된 프로세스용으로 조직화되고, 팀은 이러한 요청을 관리할 수 있게 되며 소비자(데이터 주체)는 브랜드와 관련하여 긍정적이고 차별화된 경험을 갖도록 하는 데 도움이 됩니다.

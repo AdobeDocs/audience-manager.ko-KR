@@ -7,26 +7,31 @@ title: Audience Manager API 코드 마이그레이션
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
 exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
-TQID: https://experienceleague.adobe.com/cMjjldcPRN8BEcRD-YEf1eaDwQp78-3Td06Ut6CVfUw
+TQID: 'https://experienceleague.adobe.com/cMjjldcPRN8BEcRD-YEf1eaDwQp78-3Td06Ut6CVfUw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 248
+source-wordcount: '360'
 ht-degree: 4%
-
 ---
-
 # Audience Manager API 코드 마이그레이션 {#audience-manager-api-code-migration}
 
-여기 Audience Manager에서 우리는 여러분과 마찬가지로 엔지니어, 개발자, 그리고 코드 닌자입니다. 그리고 귀하처럼 신뢰할 수 있고 정확한 [!DNL API] 설명서를 사용하여 작업하려고 합니다. 따라서 [!DNL API]에서 [!DNL Swagger] 콘텐츠를 다시 작성하여 새 위치로 이동하는 중입니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드 사용 환경을 개선하는 데 도움이 되도록 설계되었습니다.
+여기 Audience Manager에서 우리는 여러분과 마찬가지로 엔지니어, 개발자, 그리고 코드 닌자입니다. 그리고 귀하처럼 신뢰할 수 있고 정확한 [!DNL API] 설명서를 사용하여 작업하려고 합니다. 따라서 [!DNL Swagger]에서 [!DNL API] 콘텐츠를 다시 작성하여 새 위치로 이동하는 중입니다. 이러한 변경 사항은 Audience Manager [!DNL API] 코드 사용 환경을 개선하는 데 도움이 되도록 설계되었습니다.
 
 ## 위로 이동 {#code-migration-details}
 

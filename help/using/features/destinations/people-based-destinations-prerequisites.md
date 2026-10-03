@@ -6,23 +6,30 @@ solution: Audience Manager
 title: 사전 요구 사항 및 고려 사항
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
+TQID: 'https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1069'
 ht-degree: 2%
-
 ---
-
 # 사전 요구 사항 및 고려 사항 {#prerequisites-considerations}
 
 >[!IMPORTANT]
@@ -46,10 +53,10 @@ ht-degree: 2%
 [!UICONTROL People-Based Destinations]을(를) 사용하여 자사 대상 [!UICONTROL segments]을(를) [!DNL Facebook]&#x200B;(으)로 보내려면 먼저 다음 요구 사항을 충족하는지 확인하십시오.
 
 1. [!DNL Facebook] 사용자 계정에는 사용할 광고 계정에 대해 **캠페인 관리** 권한이 활성화되어 있어야 합니다.
-2. **에서 광고 파트너로서** Adobe Experience Cloud[!DNL Facebook Ad Account] 비즈니스 계정을 추가합니다. `business ID=206617933627973`를 사용하십시오. 자세한 내용은 [비즈니스 관리자에 파트너 추가](https://www.facebook.com/business/help/1717412048538897)를 참조하십시오.
+2. **Adobe Experience Cloud** 비즈니스 계정을 [!DNL Facebook Ad Account]의 광고 파트너로 추가합니다. `business ID=206617933627973`를 사용하십시오. 자세한 내용은 [비즈니스 관리자에 파트너 추가](https://www.facebook.com/business/help/1717412048538897)를 참조하십시오.
 
    >[!IMPORTANT]
-   >Adobe Experience Cloud에 대한 권한을 구성할 때는 **캠페인 관리** 권한을 활성화해야 합니다. 이 단계는 [!UICONTROL People-Based Destinations] 통합에 필요합니다.
+   >Adobe Experience Cloud에 대한 권한을 구성할 때 **캠페인 관리** 권한을 활성화해야 합니다. 이 단계는 [!UICONTROL People-Based Destinations] 통합에 필요합니다.
 
 3. [!DNL Facebook Custom Audiences] 서비스 약관을 읽고 서명합니다. 이렇게 하려면 `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`로 이동하십시오. 여기서 `accountID`는 [!DNL Facebook Ad Account ID]입니다.
 
@@ -63,7 +70,7 @@ ht-degree: 2%
 
 ### [!DNL Google Customer Match] {#gcm}
 
-[!UICONTROL People-Based Destinations]을(를) 사용하여 자사 대상 세그먼트를 [!DNL Google Customer Match] 대상으로 보내려면 먼저 [!DNL Customer Match]Google 지원 설명서[에 설명된 &#x200B;](https://support.google.com/google-ads/answer/6299717) 사용에 대한 Google 정책을 읽고 준수해야 합니다.
+[!UICONTROL People-Based Destinations]을(를) 사용하여 자사 대상 세그먼트를 [!DNL Google Customer Match] 대상으로 보내려면 먼저 [Google 지원 설명서](https://support.google.com/google-ads/answer/6299717)에 설명된 [!DNL Customer Match] 사용에 대한 Google 정책을 읽고 준수해야 합니다.
 
 그런 다음 [!DNL Google] 계정이 [!DNL Standard] 이상의 권한 수준에 대해 구성되어 있는지 확인하십시오. 자세한 내용은 [Google 광고 설명서](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1)를 참조하세요.
 
@@ -97,18 +104,18 @@ ht-degree: 2%
 
 이메일 주소를 해싱할 때는 다음 요구 사항을 준수해야 합니다.
 
-* 전자 메일 문자열에서 선행 및 후행 공백을 모두 트리밍합니다. 예: `johndoe@example.com`이(가) 아닌 `<space>johndoe@example.com<space>`;
+* 전자 메일 문자열에서 선행 및 후행 공백을 모두 트리밍합니다. 예: `<space>johndoe@example.com<space>`이(가) 아닌 `johndoe@example.com`;
 * 이메일 문자열을 해시할 때는 소문자 문자열을 해시해야 합니다.
-   * 예: `example@email.com`, `EXAMPLE@EMAIL.COM` 아님;
+  * 예: `example@email.com`, `EXAMPLE@EMAIL.COM` 아님;
 * 해시된 문자열이 모두 소문자인지 확인하십시오
-   * 예: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149` 아님;
+  * 예: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149` 아님;
 * 문자열에 소금을 뿌리지 마십시오.
 
 [!UICONTROL People-Based Destinations]의 해시 요구 사항을 이해하려면 아래 비디오를 시청하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID)]을(를) 통해 고객 ID를 해시할 수 있는 옵션을 제공합니다. ECID를 사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 [setCustomerIDs에 대한 SHA256 해시 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=ko)을 참조하십시오.
+Adobe Experience Cloud는 [!DNL Adobe Experience Platform Identity Service (ECID)]을(를) 통해 고객 ID를 해시하는 옵션을 제공합니다. ECID를 사용하여 고객 ID를 해시하는 방법에 대한 자세한 내용은 [setCustomerIDs에 대한 SHA256 해시 지원](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=ko)을 참조하십시오.
 
 ## 사용자 권한 얻기 {#obtaining-user-permission}
 
@@ -128,5 +135,5 @@ Adobe Experience Cloud은 [!DNL Adobe Experience Platform Identity Service (ECID
 
 [!UICONTROL People-Based Destinations]용으로 오프라인 데이터를 Audience Manager에 가져올 수 있는 방법에는 두 가지가 있습니다.
 
-* 해시된 이메일 주소를 수집하려면 [배치 데이터를 Audience Manager으로 보내기](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md). 이 메서드를 사용하면 [!DNL CRM]의 [!UICONTROL People-Based Destinations] 데이터베이스에서 해시된 전자 메일 주소를 사용하도록 선택할 수 있습니다. 또한 이 방법을 사용하면 해시된 이메일 주소에 [온보딩된 트레이트](../traits/trait-and-segment-qualification-reference.md)의 자격을 부여할 수도 있습니다.
+* 해시된 이메일 주소를 수집하려면 [배치 데이터를 Audience Manager으로 보내기](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md). 이 메서드를 사용하면 [!UICONTROL People-Based Destinations]의 [!DNL CRM] 데이터베이스에서 해시된 전자 메일 주소를 사용하도록 선택할 수 있습니다. 또한 이 방법을 사용하면 해시된 이메일 주소에 [온보딩된 트레이트](../traits/trait-and-segment-qualification-reference.md)의 자격을 부여할 수도 있습니다.
 * 인증된 고객 ID를 전달할 때 [선언된 ID](../declared-ids.md)를 사용하여 해시된 이메일 주소를 선언하십시오. 이 방법을 사용하는 경우 Audience Manager은 귀하를 대신하여 온라인에서 인증된 사용자의 해시된 이메일 주소만 [!UICONTROL People-Based Destinations]에 보냅니다. 사용자 기반 채널을 통해 활성화된 이메일 주소는 선언된 ID 이벤트 호출에 있는 이메일 주소만 해당됩니다. 고객 ID와 연결된 다른 이메일 주소는 실시간으로 전송되지 않습니다.

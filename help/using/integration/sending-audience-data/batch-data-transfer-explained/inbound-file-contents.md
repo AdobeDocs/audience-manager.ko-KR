@@ -5,21 +5,28 @@ title: 인바운드 데이터 파일 내용 - 구문, 잘못된 문자, 변수 �
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
-TQID: https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA
+TQID: 'https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: '1228'
 ht-degree: 3%
-
 ---
-
 # 인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예 {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 인바운드 트레이트 데이터 파일의 형식을 지정할 때 따라야 하는 필수 필드, 구문 및 규칙입니다.
@@ -101,7 +108,7 @@ ht-degree: 3%
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>접두사가 <code> d_unsid </code>인 데이터는 해당 트레이트에서 사용자를 제거합니다. <code> d_unsid </code> 파일에서 <code> overwrite </code> 접두사가 무시됩니다. </p> <p><code> d_unsid= </code> 접두사는 ID가 <span class="keyword"> Audience Manager </span> 트레이트 ID임을 시스템에 알려줍니다. 이 ID는 사용자 인터페이스에 표시된 ID와 동일합니다. API <code> GET </code> 메서드로 트레이트 ID를 반환할 수도 있습니다. <a href="../../../api/rest-api-main/api-traits.md"> 트레이트 API 메서드 </a>을(를) 참조하십시오. </p> </td>
+   <td colname="col2"> <p>접두사가 <code> d_unsid </code>인 데이터는 해당 트레이트에서 사용자를 제거합니다. <code> overwrite </code> 파일에서 <code> d_unsid </code> 접두사가 무시됩니다. </p> <p><code> d_unsid= </code> 접두사는 ID가 <span class="keyword"> Audience Manager </span> 트레이트 ID임을 시스템에 알려줍니다. 이 ID는 사용자 인터페이스에 표시된 ID와 동일합니다. API <code> GET </code> 메서드로 트레이트 ID를 반환할 수도 있습니다. <a href="../../../api/rest-api-main/api-traits.md"> 트레이트 API 메서드 </a>을(를) 참조하십시오. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -147,7 +154,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>DPUUID에 인코딩된 콜론(</i>) 또는 인코딩되지 않은 콜론( :) 기호를 사용하지 마십시오<code> %3A </code>. </p> </td> 
+   <td colname="col2"> <p><i>DPUUID에 인코딩된 콜론(<code> %3A </code>) 또는 인코딩되지 않은 콜론( :) 기호를 사용하지 마십시오</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile iOS(IDFA) 또는 Android 장치 ID </p> </td> 
@@ -186,7 +193,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p><i>키-값 쌍에 빈 값 대신 </i>을(를) 사용하지 마십시오<code> TAB </code>. <code> TAB </code>만 사용하여 인바운드 데이터 파일에서 변수를 구분하십시오. </p> </td> 
+   <td colname="col2"> <p><i>키-값 쌍에 빈 값 대신 <code> TAB </code>을(를) 사용하지 마십시오</i>. <code> TAB </code>만 사용하여 인바운드 데이터 파일에서 변수를 구분하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
@@ -288,7 +295,7 @@ ht-degree: 3%
 
 ### 예제 1 {#example-1}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -296,19 +303,19 @@ ht-degree: 3%
 
 ### 예제 2 {#example-2}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 박탈 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 박탈 정보를 보냅니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
 ```
 
-또는 
+또는
 
 ```
 59767559181262060060278870901087098252 <TAB> 24:0, 26:0, 27:0
 ```
 
-또는 
+또는
 
 ```
 59767559181262060060278870901087098252 <TAB> 24:-1, 26:-1, 27:-1
@@ -316,13 +323,13 @@ ht-degree: 3%
 
 ### 예제 3 {#example-3}
 
-키-값 쌍을 전송하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 정보를 추가하십시오.
+키-값 쌍을 전송하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 정보를 추가하십시오.
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
 ```
 
-또는 
+또는
 
 ```
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
@@ -330,13 +337,13 @@ ht-degree: 3%
 
 ### 예제 4 {#example-4}
 
-`ic` 접두사를 사용하여 [!UICONTROL trait] [!DNL Audience Manager]에 대한 [!DNL UUIDs] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!DNL Audience Manager] [!DNL UUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
 ```
 
-또는 
+또는
 
 ```
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
@@ -344,7 +351,7 @@ ht-degree: 3%
 
 ### 예제 5 {#example-5}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL Android] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Android]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -352,19 +359,19 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 예제 6 {#example-6}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개의 장치에 대한 [!DNL Android]개의 자격 박탈 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL Android]개의 장치에 대한 [!UICONTROL trait]개의 자격 박탈 정보를 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
 ```
 
-또는 
+또는
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:0, 26:0, 27:0
 ```
 
-또는 
+또는
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
@@ -372,13 +379,13 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 예제 7 {#example-7}
 
-[!UICONTROL trait] 장치에 대한 [!DNL Android] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
+[!DNL Android] 장치에 대한 [!UICONTROL trait] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
 ```
 
-또는 
+또는
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "phone"
@@ -386,13 +393,13 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### 예제 8 {#example-8}
 
-`ic` 접두사를 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL Android] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!DNL Android]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
 ```
 
-또는 
+또는
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
@@ -400,7 +407,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예제 9 {#example-9}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL iOS] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL iOS]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -408,19 +415,19 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 10 {#example-10}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]개의 장치에 대한 [!DNL iOS]개의 자격 박탈 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL iOS]개의 장치에 대한 [!UICONTROL trait]개의 자격 박탈 정보를 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
 ```
 
-또는 
+또는
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:0, 26:0, 27:0
 ```
 
-또는 
+또는
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:-1, 26:-1, 27:-1
@@ -428,13 +435,13 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 11 {#example-11}
 
-[!UICONTROL trait] 장치에 대한 [!DNL iOS] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
+[!DNL iOS] 장치에 대한 [!UICONTROL trait] 자격 정보를 추가하려면 키-값 쌍을 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
 ```
 
-또는 
+또는
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> "product" = "tablet", "product" = "phone"
@@ -442,13 +449,13 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 12 {#example-12}
 
-`ic` 접두사를 사용하여 [!UICONTROL trait]개 장치에 대한 [!DNL iOS] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!DNL iOS]개 장치에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
 ```
 
-또는 
+또는
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> ic=52,ic=55
@@ -456,7 +463,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 예 13 {#example-13}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]에 대한 [!DNL DPUUIDs] 자격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL DPUUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -464,19 +471,19 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 예 14 {#example-14}
 
-[!UICONTROL trait IDs]을(를) 사용하여 [!UICONTROL trait]에 대한 [!DNL DPUUIDs]개의 결격 정보를 보냅니다.
+[!UICONTROL trait IDs]을(를) 사용하여 [!DNL DPUUIDs]에 대한 [!UICONTROL trait]개의 결격 정보를 보냅니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
 ```
 
-또는 
+또는
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:0, 26:0, 27:0
 ```
 
-또는 
+또는
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
@@ -484,13 +491,13 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 예 15 {#example-15}
 
-키-값 쌍을 보내 [!UICONTROL trait]에 대한 [!DNL DPUUIDs] 자격 정보를 추가하십시오.
+키-값 쌍을 보내 [!DNL DPUUIDs]에 대한 [!UICONTROL trait] 자격 정보를 추가하십시오.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
 ```
 
-또는 
+또는
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = "phone"
@@ -498,13 +505,13 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### 예 16 {#example-16}
 
-`ic` 접두사를 사용하여 [!UICONTROL trait]에 대한 [!DNL DPUUIDs] 자격 정보를 보냅니다.
+`ic` 접두사를 사용하여 [!DNL DPUUIDs]에 대한 [!UICONTROL trait] 자격 정보를 보냅니다.
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
 ```
 
-또는 
+또는
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55

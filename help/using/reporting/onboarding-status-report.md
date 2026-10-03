@@ -1,5 +1,5 @@
 ---
-description: 온보딩 상태 보고서는 인바운드 데이터 소스 파일의 레코드 처리에 대한 성공 및 실패율을 확인합니다. 이 보고서는 대화형 막대 차트로 데이터를 표시하고 테이블 형식으로 요약 지표를 제공합니다. 또한 고정 시간 간격 동안 파일을 샘플링하고 각 오류 유형에 대해 가장 일반적인 오류를 표시하는 옵션이 포함되어 있습니다. 이 보고서는 Analytics > 온보딩 상태 보고서에서 찾을 수 있습니다. 이 보고서는 인바운드 데이터 소스를 만들 때도 사용할 수 있습니다.
+description: 온보딩 상태 보고서는 인바운드 데이터 소스 파일의 레코드 처리에 대한 성공 및 실패율을 확인합니다. 이 보고서는 대화형 막대 차트로 데이터를 표시하고 테이블 형식으로 요약 지표를 제공합니다. 또한 고정된 시간 간격 동안 파일을 샘플링하고 각 오류 유형에 대한 가장 일반적인 오류를 표시하는 옵션이 포함되어 있습니다. 이 보고서는 Analytics > 온보딩 상태 보고서에서 찾을 수 있습니다. 이 보고서는 인바운드 데이터 소스를 만들 때도 사용할 수 있습니다.
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-title: Onboarding Status Report
 solution: Audience Manager
@@ -7,28 +7,35 @@ title: 온보딩 상태 보고서
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-TQID: https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0
+TQID: 'https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: bacaf04d-fec1-4cf9-a97e-cb1b36e40b07
+    internal-label: Inbound and outbound reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1421
-ht-degree: 0%
-
+source-wordcount: '1429'
+ht-degree: 5%
 ---
-
 # 온보딩 상태 보고서{#onboarding-status-report-about}
 
-온보딩 상태 보고서는 인바운드 데이터 소스 파일의 레코드 처리에 대한 성공 및 실패율을 확인합니다. 이 보고서는 대화형 막대 차트로 데이터를 표시하고 테이블 형식으로 요약 지표를 제공합니다. 또한 고정 시간 간격 동안 파일을 샘플링하고 각 오류 유형에 대해 가장 일반적인 오류를 표시하는 옵션이 포함되어 있습니다. 이 보고서는 Analytics > 온보딩 상태 보고서에서 찾을 수 있습니다. 이 보고서는 인바운드 데이터 소스를 만들 때도 사용할 수 있습니다.
+온보딩 상태 보고서는 인바운드 데이터 소스 파일의 레코드 처리에 대한 성공 및 실패율을 확인합니다. 이 보고서는 대화형 막대 차트로 데이터를 표시하고 테이블 형식으로 요약 지표를 제공합니다. 또한 고정된 시간 간격 동안 파일을 샘플링하고 각 오류 유형에 대한 가장 일반적인 오류를 표시하는 옵션이 포함되어 있습니다. 이 보고서는 Analytics > 온보딩 상태 보고서에서 찾을 수 있습니다. 이 보고서는 인바운드 데이터 소스를 만들 때도 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -36,7 +43,7 @@ ht-degree: 0%
 
 ## 온보딩 상태 보고서: 정보 {#onboarding-status-about}
 
-[!UICONTROL Onboarding Status Report]은(는) 인바운드 데이터 원본 파일의 레코드 처리에 대한 성공 및 실패율을 확인합니다. 이 보고서는 대화형 막대 차트로 데이터를 표시하고 테이블 형식으로 요약 지표를 제공합니다. 또한 고정 시간 간격 동안 파일을 샘플링하고 각 오류 유형에 대해 가장 일반적인 오류를 표시하는 옵션이 포함되어 있습니다. 이 보고서는 **[!UICONTROL Analytics > Onboarding Status Report]**&#x200B;에서 찾을 수 있습니다. 이 보고서는 인바운드 데이터 소스를 만들 때도 사용할 수 있습니다.
+[!UICONTROL Onboarding Status Report]은(는) 인바운드 데이터 원본 파일의 레코드 처리에 대한 성공 및 실패율을 확인합니다. 이 보고서는 대화형 막대 차트로 데이터를 표시하고 테이블 형식으로 요약 지표를 제공합니다. 또한 고정된 시간 간격 동안 파일을 샘플링하고 각 오류 유형에 대한 가장 일반적인 오류를 표시하는 옵션이 포함되어 있습니다. 이 보고서는 **[!UICONTROL Analytics > Onboarding Status Report]**&#x200B;에서 찾을 수 있습니다. 이 보고서는 인바운드 데이터 소스를 만들 때도 사용할 수 있습니다.
 
 ## 오류 보고 및 오류 샘플링 {#error-reporting-sampling}
 
@@ -56,7 +63,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>오류 샘플링</b> </p> </td>
-   <td colname="col2"> <p>오류 샘플링은 데이터 파일의 내용을 구문 분석하고 각 오류 유형에 대해 가장 일반적인 10개의 오류를 반환합니다. 인바운드 데이터 파일의 오류로 인해 개별 레코드가 처리되지 않습니다. 이 보고서를 문제 해결 도구로 사용하여 파일 오류 수를 줄이고 처리 속도를 개선하십시오. </p> <p>오류 샘플링을 수동으로 활성화해야 합니다. 활성화한 날로부터 14일 동안 실행된 다음 자동으로 꺼집니다. 14일 간격이 만료된 후 오류 샘플링을 다시 켤 수 있습니다. <a href="../features/manage-datasources.md#create-data-source">이(가) 인바운드 데이터 원본 </a>을(를) 만들 때 또는 기존 인바운드 데이터 원본의 <b><span class="uicontrol"> 데이터 Source 설정</span></b> 섹션에서 <span class="wintitle"> 오류 샘플링</span> 확인란을 선택하여 오류 샘플링을 활성화합니다. </p> <p>오류 샘플링은 계산적으로 어려운 프로세스입니다. 그 결과 각 오류 범주에 대해 처음 10개의 오류만 반환됩니다. 인바운드 데이터 소스에 포함된 모든 오류를 반환하도록 설계되지 않았습니다. 이러한 오류는 잠재적으로 크기가 더 큰 유사한 오류 집단의 대표적인 표본이다. 이 보고서에서 플래그로 표시하는 오류 유형에 대해 전체 파일을 검토하고 파일 형식을 다시 지정한 후 다시 전송하십시오. </p> <p>인바운드 데이터 원본에 대한 데이터 파일의 형식을 올바르게 지정하는 방법에 대한 자세한 내용은 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 인바운드 데이터 파일 내용: 구문, 변수 및 예제</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>오류 샘플링은 데이터 파일의 내용을 구문 분석하고 각 오류 유형에 대해 가장 일반적인 10개의 오류를 반환합니다. 인바운드 데이터 파일의 오류로 인해 개별 레코드가 처리되지 않습니다. 이 보고서를 문제 해결 도구로 사용하여 파일 오류 수를 줄이고 처리 속도를 개선하십시오. </p> <p>오류 샘플링을 수동으로 활성화해야 합니다. 활성화한 날로부터 14일 동안 실행된 다음 자동으로 꺼집니다. 14일 간격이 만료된 후 오류 샘플링을 다시 켤 수 있습니다. <a href="../features/manage-datasources.md#create-data-source">이(가) 인바운드 데이터 원본 </a>을(를) 만들 때 또는 기존 인바운드 데이터 원본의 <span class="wintitle"> 데이터 Source 설정</span> 섹션에서 <b><span class="uicontrol"> 오류 샘플링</span></b> 확인란을 선택하여 오류 샘플링을 활성화합니다. </p> <p>오류 샘플링은 계산적으로 어려운 프로세스입니다. 그 결과 각 오류 범주에 대해 처음 10개의 오류만 반환됩니다. 인바운드 데이터 소스에 포함된 모든 오류를 반환하도록 설계되지 않았습니다. 이러한 오류는 잠재적으로 크기가 더 큰 유사한 오류 집단의 대표적인 표본이다. 이 보고서에서 플래그로 표시하는 오류 유형에 대해 전체 파일을 검토하고 파일 형식을 다시 지정한 후 다시 전송하십시오. </p> <p>인바운드 데이터 원본에 대한 데이터 파일의 형식을 올바르게 지정하는 방법에 대한 자세한 내용은 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 인바운드 데이터 파일 내용: 구문, 변수 및 예제</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,7 +142,7 @@ create-onboarding-status-report.xml
    <td colname="col1"> <p> <b>데이터 동기화 파일 이름</b> </p> </td> 
    <td colname="col2"> <p><span class="keyword"> Audience Manager</span>이(가) 귀하가 선택한 인바운드 데이터 원본으로부터 받아서 처리한 파일을 나열합니다. </p> <p>파일 이름의 형식이 올바르지 않으면 파일 처리가 실패합니다. 파일 이름 요구 사항은 이 데이터를 <span class="keyword"> Audience Manager</span>에 보내는 방법에 따라 다릅니다. 게재 방법에는 <span class="keyword"> Amazon S3</span> 및 FTP가 포함됩니다. 파일 이름을 지정하는 방법에 대한 지침은 다음을 참조하십시오. </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> 인바운드 데이터 파일 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md">에 대한 </a> Amazon S3 이름 요구 사항 </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> 인바운드 데이터 파일 </a>에 대한 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3 이름 요구 사항 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

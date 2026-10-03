@@ -7,22 +7,26 @@ title: 대상 ID별 대상 반환
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
-TQID: https://experienceleague.adobe.com/1O--EDa6jaXLktpbKr0rP9rpuugijVdP9-zpRyuFpkc
+TQID: 'https://experienceleague.adobe.com/1O--EDa6jaXLktpbKr0rP9rpuugijVdP9-zpRyuFpkc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 2%
-
 ---
-
 # 대상 ID별 대상 반환 {#return-a-destination-by-destination-id}
 
-지정한 `GET`의 대상을 반환하는 `destinationId` 메서드입니다.
+지정한 `destinationId`의 대상을 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -32,7 +36,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->URL에서 `mappings`의 `includeMappings=true` 필드 패스를 채우려면
+>URL에서 `includeMappings=true`의 `mappings` 필드 패스를 채우려면
 
 ## 응답
 
@@ -147,7 +151,7 @@ ht-degree: 2%
 
 ## 매핑 ID가 있는 대상 매핑 반환 {#return-dest-mapping-id}
 
-`GET`에 따라 개별 대상 매핑을 반환하는 `mappingId` 메서드입니다.
+`mappingId`에 따라 개별 대상 매핑을 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -276,7 +280,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## S2S 및 대량 S2S 대상 작업 내역 반환 {#return-job-history}
 
-아웃바운드 `GET`([!UICONTROL Server-to-Server]) 및 대량 [!UICONTROL S2S] 대상 작업 내역 정보를 반환하는 [!UICONTROL S2S] 메서드입니다.
+아웃바운드 [!UICONTROL Server-to-Server]&#x200B;([!UICONTROL S2S]) 및 대량 [!UICONTROL S2S] 대상 작업 내역 정보를 반환하는 `GET` 메서드입니다.
 
 <!-- r_get_job_history.xml -->
 
@@ -284,7 +288,7 @@ BROWSER, ANDROID, iOS, ALL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-필수 쿼리 매개 변수: `startDate` = *&lt;`epochtime`* 및 `endDate` = *&lt;`epochtime`*.
+필수 쿼리 매개 변수: `startDate` = *&lt;`epochtime`>* 및 `endDate` = *&lt;`epochtime`>*.
 
 ### 응답
 

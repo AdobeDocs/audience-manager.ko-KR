@@ -8,16 +8,21 @@ title: 알고리즘 모델 만들기
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-TQID: https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk
+TQID: 'https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 639
+source-wordcount: '675'
 ht-degree: 0%
-
 ---
-
 # 유사 모델 만들기 {#create-an-algorithmic-model}
 
 [!UICONTROL Look-Alike Model]을(를) 만들 수 있는 필수 단계 및 선택적 단계를 설명합니다.
@@ -37,7 +42,7 @@ ht-degree: 0%
 
 [!UICONTROL Look-Alike Model]을(를) 빌드하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**(으)로 이동한 다음 **[!UICONTROL Add New]** 섹션에서 [!UICONTROL Look-Alike Modeling]을(를) 클릭합니다.
+1. **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**(으)로 이동한 다음 [!UICONTROL Look-Alike Modeling] 섹션에서 **[!UICONTROL Add New]**&#x200B;을(를) 클릭합니다.
    ![유사 항목 추가](assets/look-alike-add.png)
 1. [기본 정보](../../features/algorithmic-models/create-model.md#basic-information) 섹션에서
    * 모델 이름을 지정합니다.

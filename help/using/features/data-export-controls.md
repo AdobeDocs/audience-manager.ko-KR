@@ -7,21 +7,28 @@ title: 데이터 내보내기 제어
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-TQID: https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM
+TQID: 'https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: '889'
 ht-degree: 1%
-
 ---
-
 # 데이터 내보내기 제어 {#data-export-controls}
 
 [!UICONTROL Data Export Controls]을(를) 사용하면 이 작업이 데이터 개인 정보 보호 또는 데이터 사용 계약을 위반하는 경우 데이터를 대상으로 보내지 못합니다.
@@ -38,10 +45,10 @@ ht-degree: 1%
 * 트레이트가 세그먼트가 매핑된 대상 중 하나 이상에 있는 데이터 내보내기 레이블과 호환되지 않는 데이터 내보내기 컨트롤이 있는 데이터 소스에 속하는 경우 세그먼트에 트레이트를 추가합니다.
 예를 들어 세그먼트가 내보내기 레이블이 **[!DNL This destination may enable a combination with personally identifiable information (PII)]**&#x200B;인 대상에 매핑된다고 가정합니다. 특성이 속한 데이터 원본에 **[!DNL Cannot be tied to personally identifiable information (PII)]**&#x200B;이(가) 있는 데이터 내보내기 컨트롤이 있는 경우 내보내기 컨트롤을 사용하면 해당 세그먼트에 특성을 추가할 수 없습니다.
 * 다음 중 하나의 데이터 내보내기 제어에 의해 차단된 데이터 내보내기 레이블이 있는 대상에 데이터 보내기:
-   * 포함된 트레이트의 데이터 소스
-   * 포함된 세그먼트에 사용된 트레이트의 데이터 소스
-   * 포함된 세그먼트에서 활용하는 프로필 병합 규칙
-   * 포함된 세그먼트의 프로필 병합 규칙에서 사용하는 모든 데이터 소스입니다.
+  * 포함된 트레이트의 데이터 소스
+  * 포함된 세그먼트에 사용된 트레이트의 데이터 소스
+  * 포함된 세그먼트에서 활용하는 프로필 병합 규칙
+  * 포함된 세그먼트의 프로필 병합 규칙에서 사용하는 모든 데이터 소스입니다.
 
 [!UICONTROL Data Export Controls]은(는) 모든 Audience Manager 고객이 자동으로 사용할 수 있습니다. 그러나 데이터 소스에 내보내기 컨트롤을 추가하려면 관리자 권한이 필요합니다. 내보내기 레이블을 대상에 추가하려면 대상을 만들거나 편집할 수 있는 관리자 권한 *또는*&#x200B;이(가) 필요합니다.
 

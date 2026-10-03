@@ -7,30 +7,37 @@ title: 일시 중지 및 삭제된 세그먼트
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
 feature: Segments
 exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
-TQID: https://experienceleague.adobe.com/aLnmaOxB3fkGdwq4XjKz8SFKizwHI7Ll5rBUb-o34BM
+TQID: 'https://experienceleague.adobe.com/aLnmaOxB3fkGdwq4XjKz8SFKizwHI7Ll5rBUb-o34BM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
+    internal-label: REST APIs
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Metadata
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: '187'
 ht-degree: 0%
-
 ---
-
 # 일시 중지 및 삭제된 세그먼트 {#paused-and-deleted-segments}
 
 [!UICONTROL Segment Builder]을(를) 사용하여 활성 세그먼트를 일시 중지하거나 삭제할 때 세그먼트화된 사용자, 데이터 및 대상에 미치는 영향을 설명합니다.
 
 ## 일시 중지 및 삭제 컨트롤에 액세스
 
-**[!UICONTROL pause]** 열의 **[!UICONTROL delete]** 및 [!UICONTROL Actions] 아이콘을 표시하려면 세그먼트 목록의 세그먼트 이름 위에 마우스를 가져갑니다. 이러한 기능은 아래 설명된 대로 세그먼트에 영향을 줍니다.
+[!UICONTROL Actions] 열의 **[!UICONTROL pause]** 및 **[!UICONTROL delete]** 아이콘을 표시하려면 세그먼트 목록의 세그먼트 이름 위에 마우스를 가져갑니다. 이러한 기능은 아래 설명된 대로 세그먼트에 영향을 줍니다.
 
 ## 일시 중지된 세그먼트 기능
 

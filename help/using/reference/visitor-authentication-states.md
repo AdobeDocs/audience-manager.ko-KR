@@ -8,16 +8,18 @@ title: Audience Manager의 방문자 인증 상태
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-TQID: https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk
+TQID: 'https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '331'
 ht-degree: 2%
-
 ---
-
 # Audience Manager의 방문자 인증 상태{#visitor-authentication-states-in-audience-manager}
 
 Audience Manager의 방문자 인증 상태는 새 트레이트 정보가 방문자의 인증된 프로필에 기록되었는지 또는 데이터를 수집한 장치 프로필에 기록되었는지 결정합니다. Audience Manager은 이벤트 호출에서 방문자 ID 인증 상태 UNKNOWN 및 LOGGED_OUT을 동일한 방식으로 처리합니다.

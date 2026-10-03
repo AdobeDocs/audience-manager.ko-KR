@@ -8,26 +8,36 @@ title: 폴더 트레이트 정보
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+TQID: 'https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # 폴더 트레이트: 설명 {#folder-traits-about}
 
 [!UICONTROL Folder traits]을(를) 사용하면 동일한 폴더 및 모든 하위 폴더에 있는 특성을 타겟팅 가능한 세그먼트로 자동으로 집계할 수 있습니다.
@@ -71,7 +81,7 @@ ht-degree: 0%
 * 트레이트 데이터 원본에 대한 `READ` 및 `WRITE` 그룹 권한.
 * 트레이트 데이터 원본에 대한 `VIEW_ALL_TRAITS` 및 `EDIT_ALL_TRAITS` 와일드카드 권한입니다.
 
-[!UICONTROL RBAC]관리 설명서[에서 &#x200B;](../../features/administration/administration-overview.md#create-group) 권한을 할당하는 방법을 알아보세요.
+[관리 설명서](../../features/administration/administration-overview.md#create-group)에서 [!UICONTROL RBAC] 권한을 할당하는 방법을 알아보세요.
 
 ## 제한 및 기타 고려 사항 {#limits}
 
@@ -79,5 +89,5 @@ ht-degree: 0%
 |---|---|
 | 트레이트 유형 | [!UICONTROL Onboarded traits]과(와) [!UICONTROL algorithmic traits]은(는) 최대 1회의 실현을 [!UICONTROL folder trait]의 빈도에 기여합니다. |
 | 폴더 간 트레이트 이동 | 폴더에서 다른 폴더로 트레이트를 이동하면 첫 번째 폴더 트레이트에서 해당 트레이트가 자격을 상실하고 두 번째 [!UICONTROL folder trait]에 적합합니다. 즉, 폴더에서 트레이트를 삭제하거나 이동하면 트레이트 모집단의 사용자가 폴더 트레이트를 세그먼트 표현식으로 사용하여 세그먼트에서 세그먼트화되지 않습니다. <br> Adobe Analytics 세그먼트 또는 보고서 세트를 Experience Cloud 조직에 매핑하면 Audience Manager에서 자동으로 새로운 해당하는 읽기 전용 세그먼트 및 트레이트를 만듭니다. Audience Manager에서 이러한 트레이트의 저장 위치를 편집하거나 변경할 수 없습니다. 그러나 매핑된 Adobe Analytics 세그먼트 또는 보고서 세트에 대해 수행하는 모든 변경 사항은 Audience Manager에 반영됩니다. |
-| 시스템 변수 | [!UICONTROL Folder traits] 매개 변수를 사용하여 이벤트 호출에서 `d_sid`을(를) 구현할 수 없습니다. |
+| 시스템 변수 | `d_sid` 매개 변수를 사용하여 이벤트 호출에서 [!UICONTROL Folder traits]을(를) 구현할 수 없습니다. |
 | 보고 | [!UICONTROL Folder traits]은(는) 자동 계산된 트레이트이며 **[!UICONTROL Overlap Reports]**&#x200B;에 표시되지 않습니다. |

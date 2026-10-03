@@ -7,16 +7,21 @@ title: DCS 호출에서 키-값 쌍 형식 지정
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
 exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
-TQID: https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4
+TQID: 'https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 223
+source-wordcount: '242'
 ht-degree: 4%
-
 ---
-
 # DCS 호출에서 키-값 쌍 형식 지정 {#formatting-key-value-pairs-in-dcs-calls}
 
 호출할 때 [!DNL DCS]은(는) 표준 또는 직렬화된 형식의 키-값 데이터를 허용합니다. 표준 및 직렬화된 키-값 데이터의 포맷을 지정하는 방법에 대한 자세한 내용은 이 섹션을 검토하십시오.

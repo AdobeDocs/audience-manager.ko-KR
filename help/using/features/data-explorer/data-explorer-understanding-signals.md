@@ -6,20 +6,26 @@ title: 신호 이해
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
-TQID: https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo
+TQID: 'https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '379'
 ht-degree: 1%
-
 ---
-
 # 신호 이해
 
 신호는 Audience Manager 내에서 가장 작은 정보 단위입니다. 온라인 속성에서의 사용자 상호 작용 또는 사용자 활동을 나타내며 Audience Manager에 전달되어 트레이트 규칙에 사용됩니다.
@@ -32,14 +38,14 @@ ht-degree: 1%
 
 * *키-값 쌍*&#x200B;은(는) [!DNL Audience Manager]이(가) 받은 신호의 키-값 쌍을 표시합니다.
 * *신호 형식*&#x200B;은(는) 각 신호의 범주를 설명합니다. 신호는 다음 범주 중 하나에 속합니다.
-   * [실행 가능한 로그 파일](/help/using/integration/media-data-integration/actionable-log-files.md): 미디어 성능 로그 파일에서 수신한 실시간 신호입니다.
-   * [!DNL Adobe Analytics]: [!DNL Adobe Analytics] 계정에서 받은 실시간 신호;
-   * 일반 온라인 데이터: 대상 활동으로 생성된 실시간 데이터이며 실행 가능한 로그 파일 및 [!DNL Adobe Analytics]에 포함되지 않습니다.
-   * 온보딩된 레코드: 배치 데이터 전송을 통해 받은 데이터.
+  * [실행 가능한 로그 파일](/help/using/integration/media-data-integration/actionable-log-files.md): 미디어 성능 로그 파일에서 수신한 실시간 신호입니다.
+  * [!DNL Adobe Analytics]: [!DNL Adobe Analytics] 계정에서 받은 실시간 신호;
+  * 일반 온라인 데이터: 대상 활동으로 생성된 실시간 데이터이며 실행 가능한 로그 파일 및 [!DNL Adobe Analytics]에 포함되지 않습니다.
+  * 온보딩된 레코드: 배치 데이터 전송을 통해 받은 데이터.
 * *신호 Source*&#x200B;은(는) 신호 유형에 따라 다릅니다.
-   * 온보딩된 신호의 경우 신호 소스는 데이터 소스 이름입니다.
-   * [!DNL Adobe Analytics]에서 보낸 신호의 경우 데이터 원본은 항상 보고서 세트입니다.
-   * 실행 가능한 로그 파일 및 일반 온라인 데이터의 경우 신호 소스 정보가 표시되지 않습니다.
+  * 온보딩된 신호의 경우 신호 소스는 데이터 소스 이름입니다.
+  * [!DNL Adobe Analytics]에서 보낸 신호의 경우 데이터 원본은 항상 보고서 세트입니다.
+  * 실행 가능한 로그 파일 및 일반 온라인 데이터의 경우 신호 소스 정보가 표시되지 않습니다.
 * *총 개수*&#x200B;는 지난 7일 동안 [!DNL Audience Manager]에서 실시간 신호를 받은 총 횟수를 보여줍니다.
 * *트레이트에 포함됨*&#x200B;은(는) 신호가 어떤 트레이트에 속하는지 여부를 보여 줍니다. 해당 신호를 포함하는 트레이트를 보려면 화살표를 클릭합니다. 어떤 특성에도 속하지 않는 신호의 경우 열 값이 [!UICONTROL Create Onboarded Trait] 또는 [!UICONTROL Create Rule-Based Trait]&#x200B;(으)로 변경됩니다.
 

@@ -7,31 +7,39 @@ title: GPT setTargeting API 호출 수정
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third-party Integration
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
-TQID: https://experienceleague.adobe.com/2K-1BhtAdC60YW3nxvT7cVgQVSsY3gaWy7NbG-FcDqM
+TQID: 'https://experienceleague.adobe.com/2K-1BhtAdC60YW3nxvT7cVgQVSsY3gaWy7NbG-FcDqM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: '282'
 ht-degree: 5%
-
 ---
-
 # GPT `setTargeting` API 호출 수정 {#modify-the-gpt-settargeting-api-call}
 
 [!DNL Google Publisher Tag] `.setTargeting` 메서드를 호출하기 전에 Audience Manager 쿠키를 확인하는 if 문을 추가하십시오.
 
 ## `IF` 문으로 Audience Manager 쿠키 확인
 
-`.setTargeting` 메서드는 Audience Manager 대상 쿠키 및 고유한 사용자 ID 쿠키(`aam_uuid`)에서 데이터를 가져옵니다. 그러나 `.setTargeting`이(가) 이러한 쿠키를 쓰기 전에 [!UICONTROL DIL]이(가) 호출되거나 쿠키가 비어 있는 경우 페이지가 로드될 때 오류가 표시될 수 있습니다. 이 문제를 방지하려면 이 쿠키를 확인하는 `.setTargeting` 문으로 `if` 메서드를 래핑하십시오. 이 문이 설정되지 않으면 `.setTargeting`에서 `AamGpt` 함수를 호출할 수 없습니다.
+`.setTargeting` 메서드는 Audience Manager 대상 쿠키 및 고유한 사용자 ID 쿠키(`aam_uuid`)에서 데이터를 가져옵니다. 그러나 [!UICONTROL DIL]이(가) 이러한 쿠키를 쓰기 전에 `.setTargeting`이(가) 호출되거나 쿠키가 비어 있는 경우 페이지가 로드될 때 오류가 표시될 수 있습니다. 이 문제를 방지하려면 이 쿠키를 확인하는 `if` 문으로 `.setTargeting` 메서드를 래핑하십시오. 이 문이 설정되지 않으면 `.setTargeting`에서 `AamGpt` 함수를 호출할 수 없습니다.
 
 ### `IF` 문 코드 샘플
 
@@ -52,7 +60,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >
 >* 클라이언트측 통합: 라인 1-3만 사용합니다.
 >* 서버 측 통합: 필요한 행이 없습니다.
->* [!DNL Google Ad Manager]에서 보고할 [!DNL Audience Manager] 로그 파일을 수집합니다. 4-6줄만 사용하십시오. 이 코드는 보고를 위해 수집할 수 있도록 `aam_uuid` 쿠키의 값을 로그에 삽입합니다.
+>* [!DNL Audience Manager]에서 보고할 [!DNL Google Ad Manager] 로그 파일을 수집합니다. 4-6줄만 사용하십시오. 이 코드는 보고를 위해 수집할 수 있도록 `aam_uuid` 쿠키의 값을 로그에 삽입합니다.
 
 ### `AamGpt` 함수 및 데이터 형식
 

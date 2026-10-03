@@ -6,22 +6,28 @@ solution: Audience Manager
 title: 개요 및 사용 사례
 feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-TQID: https://experienceleague.adobe.com/7c9eNzUQp0XujQJ0xIalHp7Sgn3Aas2o4yM5DPIiY1Y
+TQID: 'https://experienceleague.adobe.com/7c9eNzUQp0XujQJ0xIalHp7Sgn3Aas2o4yM5DPIiY1Y'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '883'
 ht-degree: 0%
-
 ---
-
 # 개요 및 사용 사례 {#overview-use-cases}
 
 [!DNL People-Based Destinations]을(를) 사용하여 자사 대상 세그먼트를 사용자 기반 환경으로 보냅니다. 이러한 환경은 그 안에 표시되는 콘텐츠를 제어하는 하나의 엔티티에 속하는 폐쇄형 생태계입니다. 여기에는 [!DNL Facebook]과(와) 같은 소셜 플랫폼과 고객 계정에 의존하여 표시된 콘텐츠를 개인화하는 기타 플랫폼이 포함됩니다.
@@ -40,7 +46,7 @@ ht-degree: 0%
 * 쿠키가 없는 환경에서 대상을 타깃팅합니다.
 * 고객 ID와 일치하는 해시된 이메일 주소를 중복 제거하여 대상을 타깃팅합니다.
 
-[!DNL People-Based Destinations]을(를) 사용하여 웹 사이트를 방문하지 않았을 수 있는 고부가가치 고객을 세분화하고 타겟팅하거나 이미 오프라인으로 전환한 고객을 타겟팅하는 작업을 중단할 수 있습니다. 또한 [!DNL Profile Merge Rules]을(를) 활용하여 오프라인 자사 데이터와 다른 Adobe Experience Cloud 솔루션의 고객 데이터를 포함한 온라인 자사 데이터를 결합하여 소셜 미디어 광고 노력을 최적화할 수 있습니다.
+[!DNL People-Based Destinations]을(를) 사용하여 웹 사이트를 방문하지 않았을 수 있는 고부가가치 고객을 세분화하고 타겟팅하거나 이미 오프라인으로 전환한 고객을 타겟팅하는 작업을 중단할 수 있습니다. 또한 [!DNL Profile Merge Rules]을(를) 활용하여 오프라인 자사 데이터를 다른 Adobe Experience Cloud 솔루션의 고객 데이터를 비롯한 온라인 자사 데이터와 결합하여 소셜 미디어 광고 노력을 최적화할 수 있습니다.
 
 ![pbd-overview](assets/pbd-overview.png)
 

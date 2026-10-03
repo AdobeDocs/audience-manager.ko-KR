@@ -8,32 +8,43 @@ title: 실행 가능 로그 파일
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-TQID: https://experienceleague.adobe.com/NL19RzO-EfALqH0Exkt5PZeBO-mZXztl4ioiJRp-g4g
+TQID: 'https://experienceleague.adobe.com/NL19RzO-EfALqH0Exkt5PZeBO-mZXztl4ioiJRp-g4g'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1601
+source-wordcount: '1628'
 ht-degree: 2%
-
 ---
-
 # 실행 가능 로그 파일 {#actionable-log-files}
 
 [!UICONTROL Actionable Log Files]을(를) 사용하면 광고 서버 로그 파일에서 미디어 데이터를 캡처하고 이 데이터를 사용하여 Audience Manager에서 특성을 만들 수 있습니다. [픽셀](../../integration/media-data-integration/impression-data-pixels.md)을(를) 추가하지 않고도 광고 서버의 노출 횟수, 클릭 수 및 전환을 트레이트로 캡처할 수 있습니다.
 
 >[!NOTE]
 >
->이 문서의 텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)은 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
 
 ## 용도 {#purpose}
 
@@ -65,11 +76,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Actionable Log Files] *픽셀 호출* 대신 [&#x200B; &#x200B;](../../integration/media-data-integration/impression-data-pixels.md)을(를) 구현하는 것이 좋습니다. 이 경우 트레이트의 빈도가 증가하므로 두 옵션을 모두 사용하지 않도록 합니다.
+>*[픽셀 호출](../../integration/media-data-integration/impression-data-pixels.md) 대신 [!UICONTROL Actionable Log Files]*&#x200B;을(를) 구현하는 것이 좋습니다. 이 경우 트레이트의 빈도가 증가하므로 두 옵션을 모두 사용하지 않도록 합니다.
 
 ## 실행 가능한 신호 {#actionable-signals}
 
-신호는 [에서 &#x200B;](../../reference/signal-trait-segment.md)가장 작은 데이터 단위[!DNL Audience Manager]입니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 광고 서버 로그의 신호로 광고주, 사업부, 광고 및 캠페인 값, 노출 이벤트, 클릭 이벤트 및 전환 이벤트를 캡처할 수 있습니다.
+신호는 [!DNL Audience Manager]에서 [가장 작은 데이터 단위](../../reference/signal-trait-segment.md)입니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 광고 서버 로그의 신호로 광고주, 사업부, 광고 및 캠페인 값, 노출 이벤트, 클릭 이벤트 및 전환 이벤트를 캡처할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -146,7 +157,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
    <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
-   <td colname="col3"> 판매 금액(USD) -6의 거듭제곱입니다. 달러 금액으로 보려면 1.000.000을 곱하십시오.</td> 
+   <td colname="col3"> USD의 판매량은 -6입니다. 달러 금액으로 보려면 1.000.000을 곱하십시오.</td> 
    <td colname="col4"> <p> <code>10</code> </p> </td> 
   </tr>
     <tr> 
@@ -169,7 +180,7 @@ ht-degree: 2%
  </tbody>
 </table>
 
-표에 설명된 신호는 실시간 [!DNL Audience Manager] 호출처럼 `HTTP`에 캡처됩니다. 아래 예제 호출에는 [!DNL Google Campaign Manager]의 전환 이벤트에 대한 정보가 포함되어 있습니다. 호출은 예제 호출의 신호를 *모두*&#x200B;포함할 필요가 없습니다.
+표에 설명된 신호는 실시간 `HTTP` 호출처럼 [!DNL Audience Manager]에 캡처됩니다. 아래 예제 호출에는 [!DNL Google Campaign Manager]의 전환 이벤트에 대한 정보가 포함되어 있습니다. 호출은 예제 호출의 신호를 *모두*&#x200B;포함할 필요가 없습니다.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
@@ -300,7 +311,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
  </tbody>
 </table>
 
-표에 설명된 신호는 실시간 [!DNL Audience Manager] 호출처럼 `HTTP`에 캡처됩니다. 호출은 예제 호출의 신호를 *모두*&#x200B;포함할 필요가 없습니다.
+표에 설명된 신호는 실시간 `HTTP` 호출처럼 [!DNL Audience Manager]에 캡처됩니다. 호출은 예제 호출의 신호를 *모두*&#x200B;포함할 필요가 없습니다.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
@@ -321,7 +332,7 @@ UI의 ![실행 가능한 신호](/help/using/integration/assets/alf-in-signals.p
 
 ## 사용 사례 {#use-cases}
 
-[!UICONTROL Actionable Log Files]을(를) 구현하면 실행 가능한 신호가 포함된 [규칙 기반 특성](../../features/segments/recency-and-frequency.md)에 [최신성 및 빈도](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) 컨트롤을 적용할 수 있습니다. 예를 들어 미디어 캠페인 내에서 사용자가 특정 크리에이티브를 표시하는 횟수를 제한할 수 있습니다. 이 작업을 수행하는 방법에 대해 알아보려면 [즉각적인 장치 간 억제](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)를 읽어 보십시오. 기타 사용 사례는 다음과 같습니다.
+[!UICONTROL Actionable Log Files]을(를) 구현하면 실행 가능한 신호가 포함된 [규칙 기반 특성](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)에 [최신성 및 빈도](../../features/segments/recency-and-frequency.md) 컨트롤을 적용할 수 있습니다. 예를 들어 미디어 캠페인 내에서 사용자가 특정 크리에이티브를 표시하는 횟수를 제한할 수 있습니다. 이 작업을 수행하는 방법에 대해 알아보려면 [즉각적인 장치 간 억제](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)를 읽어 보십시오. 기타 사용 사례는 다음과 같습니다.
 
 ### 사용자 재타겟팅
 
@@ -343,7 +354,7 @@ creative 123을 보았지만 클릭하거나 전환하지 않고 creative 456을
 
 ### Google 보고서 또는 Audience Lab에서 Audience Optimization Campaign Manager Floodlight 활동 사용
 
-[Floodlight 태그](https://support.google.com/dcm/partner/answer/4293719?hl=en)를 통해 광고주는 사용자 전환을 추적할 수 있습니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 [!DNL Google Campaign Manager]Audience Optimization 보고서[&#x200B; 또는 &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md)대상 랩[에서 &#x200B;](../../features/audience-lab/audience-lab.md) 전환을 추적할 수 있습니다.
+[Floodlight 태그](https://support.google.com/dcm/partner/answer/4293719?hl=en)를 통해 광고주는 사용자 전환을 추적할 수 있습니다. [!UICONTROL Actionable Log Files]을(를) 사용하면 [Audience Optimization 보고서](../../reporting/audience-optimization-reports/audience-optimization-reports.md) 또는 [대상 랩](../../features/audience-lab/audience-lab.md)에서 [!DNL Google Campaign Manager] 전환을 추적할 수 있습니다.
 
 1. 트레이트를 만들고 다음 트레이트 규칙을 사용하여 광고 서버 로그에서 전환을 캡처합니다.
 

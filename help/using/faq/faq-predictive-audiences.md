@@ -6,22 +6,28 @@ solution: Audience Manager
 title: Predictive Audiences FAQ
 feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
-TQID: https://experienceleague.adobe.com/XejuJkgwEhWkbQB2qqFljsSApGIABmlZgvDKYtNlf-8
+TQID: 'https://experienceleague.adobe.com/XejuJkgwEhWkbQB2qqFljsSApGIABmlZgvDKYtNlf-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 957
+source-wordcount: '963'
 ht-degree: 59%
-
 ---
-
 # Predictive Audiences FAQ
 
 [!UICONTROL Predictive Audiences]에 대한 FAQ.
@@ -83,14 +89,14 @@ ht-degree: 59%
 
  
 
-**[!UICONTROL Profile Merge Rule] [!UICONTROL Predictive Audiences]에 대한 [!UICONTROL segment]을(를) 변경하려면 어떻게 해야 합니까?**
+**[!UICONTROL Predictive Audiences] [!UICONTROL segment]에 대한 [!UICONTROL Profile Merge Rule]을(를) 변경하려면 어떻게 해야 합니까?**
 
 이전 모델과 동일한 가상 사용자 및 타겟 대상을 선택하여 새 모델을 만듭니다. 모델을 만드는 동안 다른 [!UICONTROL Profile Merge Rule]을(를) 할당하십시오.
 
 >[!WARNING]
-> 또는 [세그먼트 빌더](../features/segments/segment-builder.md)를 사용하여 기존 예측 [!UICONTROL segment]을(를) 사용하여 [!UICONTROL trait]을(를) 수동으로 만들고 선택한 [!UICONTROL Profile Merge Rule]을(를) 할당할 수 있습니다.
+> 또는 [세그먼트 빌더](../features/segments/segment-builder.md)를 사용하여 기존 예측 [!UICONTROL trait]을(를) 사용하여 [!UICONTROL segment]을(를) 수동으로 만들고 선택한 [!UICONTROL Profile Merge Rule]을(를) 할당할 수 있습니다.
 > 
-> 그러나 예측 [!UICONTROL traits]은(는) 자신이 속한 모델의 [!UICONTROL Profile Merge Rule]을(를) 자동으로 상속하며 모델의 [!UICONTROL traits]을(를) 준수하는 영향력 있는 [!UICONTROL Profile Merge Rule]에서 빌드되므로 이 방법을 사용하지 않는 것이 좋습니다.
+> 그러나 예측 [!UICONTROL traits]은(는) 자신이 속한 모델의 [!UICONTROL Profile Merge Rule]을(를) 자동으로 상속하며 모델의 [!UICONTROL Profile Merge Rule]을(를) 준수하는 영향력 있는 [!UICONTROL traits]에서 빌드되므로 이 방법을 사용하지 않는 것이 좋습니다.
 
  
 
@@ -98,7 +104,7 @@ ht-degree: 59%
 
 모델에 대한 [!UICONTROL Profile Merge Rule]을(를) 선택할 때 사용 사례를 면밀히 분석하십시오.
 
-대상 대상 [!UICONTROL segment]이(가) 인증된 프로필 + [!UICONTROL Profile Merge Rule]개 프로필을 기반으로 [!DNL Device Graph]을(를) 사용하고 예측 [!UICONTROL Profile Merge Rule]에 대해 동일한 [!UICONTROL segments]을(를) 선택한다고 가정해 보겠습니다. 이 경우 장치 수준 및 교차 장치 수준 [!UICONTROL traits]이(가) 모두 모델 교육 및 예측 [!UICONTROL segment]에 사용자 배치에 사용됩니다.
+대상 대상 [!UICONTROL segment]이(가) 인증된 프로필 + [!DNL Device Graph]개 프로필을 기반으로 [!UICONTROL Profile Merge Rule]을(를) 사용하고 예측 [!UICONTROL segments]에 대해 동일한 [!UICONTROL Profile Merge Rule]을(를) 선택한다고 가정해 보겠습니다. 이 경우 장치 수준 및 교차 장치 수준 [!UICONTROL traits]이(가) 모두 모델 교육 및 예측 [!UICONTROL segment]에 사용자 배치에 사용됩니다.
 
 그러나 장치 프로필만 기반으로 [!UICONTROL Profile Merge Rule]을(를) 선택하면 교차 장치 [!UICONTROL traits]의 영향력이 없어지고 예측 [!UICONTROL segment]에 사용자를 배치하는 데 기여하지 않습니다. 이는 모델 정확도 및 도달 거리에 악영향을 미칠 수 있다.
 

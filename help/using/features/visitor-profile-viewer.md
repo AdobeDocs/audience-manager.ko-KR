@@ -8,19 +8,26 @@ title: 방문자 프로필 뷰어
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
 exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
-TQID: https://experienceleague.adobe.com/e-qPcNaUpT-inBkx30AqUa-KkjjVJRyce86O-HQNitE
+TQID: 'https://experienceleague.adobe.com/e-qPcNaUpT-inBkx30AqUa-KkjjVJRyce86O-HQNitE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '252'
 ht-degree: 0%
-
 ---
-
 # 방문자 프로필 뷰어 {#visitor-profile-viewer}
 
 [!UICONTROL Visitor Profile Viewer]을(를) 사용하여 특성 및 세그먼트를 포함하여 현재 브라우저에 대한 사용자 프로필의 현재 상태를 표시합니다. 각 트레이트에 대해 해당 [!UICONTROL SID], 이름, 방문자 트레이트가 실현된 방식에 대한 세부 정보(자사 또는 타사), 실현 날짜 및 실현 빈도를 볼 수 있습니다. 각 세그먼트에 대해 [!UICONTROL SID], 이름 및 세그먼트 멤버십 날짜를 볼 수 있습니다. 다른 Audience Manager 프로필 ID([!UICONTROL UUID])에 대한 방문자 프로필을 볼 수도 있습니다. [!UICONTROL Visitor Profile Viewer]은(는) 문제 해결에 유용합니다.

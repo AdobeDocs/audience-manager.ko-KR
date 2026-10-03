@@ -7,29 +7,42 @@ title: 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-TQID: https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo
+TQID: 'https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
+  - id: b59a5343-ccde-4868-a926-97a27448e694
+    internal-label: Campaign integration
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '742'
 ht-degree: 14%
-
 ---
-
 # 픽셀 호출을 통해 캠페인 노출 횟수 데이터 캡처{#capturing-campaign-impression-data-via-pixel-calls}
 
 Audience Manager으로 미디어 데이터를 전송하는 한 가지 접근 방법에서는 광고 서버 매크로를 사용하여 캠페인 속성을 Audience Manager으로 보냅니다.
@@ -40,7 +53,7 @@ Audience Manager으로 미디어 데이터를 전송하는 한 가지 접근 방
 
 >[!NOTE]
 >
->텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)은 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../reference/code-style-elements.md)을 참조하십시오.
 
 이벤트 호출은 노출 및 전환 데이터를 수집하여 [!DNL Audience Manager] [데이터 수집 서버](/help/using/reference/system-components/components-data-collection.md)([!DNL DCS])로 보냅니다. 이 프로세스는 코드에 삽입되는 콘텐츠를 제어하는 호출을 크리에이티브에 배치하는 타사 광고 서버를 사용합니다. 타사 광고 서버(예로는 [!DNL DFA])에서는 각 광고 노출 내에 이 코드를 배치할 수 있습니다. 또한 광고 호출은 광고 태그 외부의 게시자 데이터에 액세스할 때 [!DNL JavaScript]를 사용하거나 프레임 버스팅 기술을 사용하지 않습니다.
 

@@ -7,16 +7,18 @@ title: 코드 및 텍스트 요소에 대한 스타일 규칙
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
 feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
-TQID: https://experienceleague.adobe.com/5KxeNhqw4zbJObehloyd-GHur29rT-089E6o6rFSa5k
+TQID: 'https://experienceleague.adobe.com/5KxeNhqw4zbJObehloyd-GHur29rT-089E6o6rFSa5k'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 170
+source-wordcount: '170'
 ht-degree: 0%
-
 ---
-
 # 코드 및 텍스트 요소에 대한 스타일 규칙{#style-conventions-for-code-and-text-elements}
 
 이러한 요소는 도움말 설명서 전체에서 사용되는 코드 옵션 및 변수를 식별합니다. 일반적으로 이러한 기호나 스타일 요소는 코드나 데이터 파일에 포함되지 않습니다. 시각적인 지표일 뿐이죠.

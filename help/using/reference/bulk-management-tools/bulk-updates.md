@@ -8,26 +8,34 @@ title: 벌크 업데이트
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: BAAAM
 exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
-TQID: https://experienceleague.adobe.com/fDSvlPqWTgaw-SszCIa5M2qxJcyfrewPaW03eVShhDw
+TQID: 'https://experienceleague.adobe.com/fDSvlPqWTgaw-SszCIa5M2qxJcyfrewPaW03eVShhDw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
+    internal-label: REST APIs
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+    internal-label: BAAAM
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: '271'
 ht-degree: 0%
-
 ---
-
 # 벌크 업데이트{#bulk-updates}
 
 벌크 업데이트를 사용하면 한 번의 작업으로 여러 세그먼트, 트레이트, 모델, 데이터 소스, 세그먼트 또는 트레이트 폴더 요소를 편집할 수 있습니다. 다음 지침에 따라 벌크 업데이트를 수행합니다.
@@ -44,7 +52,7 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->[&#x200B; UI에 할당된 &#x200B;](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 대량 업데이트하려면 [!UICONTROL Bulk Management Tools] 워크시트를 열고 다음을 수행합니다.
 
@@ -56,7 +64,7 @@ t_bulk_updates.xml
    * 세그먼트나 트레이트를 업데이트할 때에는 세그먼트 ID(SID)와 변경해야 하는 헤더 요소만 있으면 됩니다. 사용하지 않는 헤더를 삭제합니다.
 
 4. 변경할 데이터를 헤더 레이블을 기반으로 해당 열에 붙여넣거나 입력합니다.
-5. 워크시트 도구 모음에서 갱신 버튼을 클릭합니다.        업데이트하는 항목입니다.
+5. 워크시트 도구 모음에서 갱신 중인 항목과 일치하는 갱신 버튼을 클릭합니다.
 이 작업은 [!UICONTROL Account Information] 대화 상자를 엽니다.
 
 6. 필요한 [정보에 대한 로그](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)를 입력하고 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.

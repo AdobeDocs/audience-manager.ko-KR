@@ -7,35 +7,41 @@ title: 인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크�
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-TQID: https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU
+TQID: 'https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: '1131'
 ht-degree: 2%
-
 ---
-
 # 인바운드 데이터 파일에 대한 [!DNL Amazon S3] 이름 및 파일 크기 요구 사항 {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 [!DNL Audience Manager]에 데이터를 보낼 때 따라야 하는 필수 필드, 구문, 이름 지정 규칙 및 파일 크기를 설명합니다. 데이터를 [!DNL Audience Manager] / [!DNL Amazon S3] 디렉터리로 보낼 때 이러한 사양에 따라 파일의 이름과 크기를 설정하십시오.
 
 >[!NOTE]
 >
->이 문서의 텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등)은 코드 요소와 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
+>텍스트 스타일(`monospaced text`, *기울임꼴*, 대괄호 `[ ]` `( )` 등) 이 문서에서는 코드 요소 및 옵션을 나타냅니다. 자세한 내용은 [코드 및 텍스트 요소에 대한 스타일 규칙](../../../reference/code-style-elements.md)을 참조하십시오.
 
 ## 파일 이름 구문 {#file-name-syntax}
 
 [!DNL S3] 파일 이름에는 다음과 같은 필수 요소와 선택적 요소가 포함되어 있습니다.
 
-* **[!DNL S3]접두사:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* **[!DNL S3]접두사:** `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
-* **파일 이름 요소:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+* **파일 이름 요소:** `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 허용되는 다른 파일 이름 형식은 [사용자 지정 파트너 통합](/help/using/integration/sending-audience-data/custom-partner-integrations.md)을 참조하십시오.
 
@@ -69,17 +75,17 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>데이터 파일에 고유한 사용자 ID, Audience Manager ID, iOS ID 또는 <span class="keyword"> 글로벌 데이터 원본</span>에 속하는 기타 ID가 포함되어 있는지 여부를 <a href="/help/using/features/global-data-sources.md"> Android</a>에 알리는 ID입니다. 다음 옵션을 적용합니다.</p> 
+   <td colname="col2"> <p>데이터 파일에 고유한 사용자 ID, Audience Manager ID, iOS ID 또는 <a href="/help/using/features/global-data-sources.md"> 글로벌 데이터 원본</a>에 속하는 기타 ID가 포함되어 있는지 여부를 <span class="keyword"> Android</span>에 알리는 ID입니다. 다음 옵션을 적용합니다.</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 Source ID(데이터 공급자 ID라고도 함):</b> Audience Manager이 데이터 소스에 할당하는 고유한 ID입니다(ID <a href="/help/using/reference/ids-in-aam.md">의 Audience Manager </a> 인덱스 참조). 고유한 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용하십시오. 예를 들어 <code>...ftp_dpm_21_123456789.sync</code>은(는) <span class="keyword"> Audience Manager</span>에게 데이터 소스 21에 속하는 ID로 데이터를 온보딩하도록 지시합니다. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914을 사용합니다. Android ID를 사용할 때는 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 필드를 사용해야 합니다. 예를 들어 <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code>은(는) 데이터 파일에 Android ID만 포함되어 있으며 ID가 <span class="keyword"> 데이터 소스에 속하는 트레이트에 적합해야 한다고 </span> Audience Manager<code><i>_DPID_TARGET_DATA_OWNER</i></code>에 알려줍니다.</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> 데이터 파일 이름에 iOS ID가 포함된 경우 ID 20915을 사용합니다. iOS ID를 사용할 때는 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 필드를 사용해야 합니다. 예를 들어 <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code>은(는) 데이터 파일에 iOS ID만 포함되어 있으며 ID가 <span class="keyword"> 데이터 소스에 속하는 트레이트에 적합해야 한다고 </span> Audience Manager<code><i>_DPID_TARGET_DATA_OWNER</i></code>에 알려줍니다.</li>
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>데이터 Source ID(데이터 공급자 ID라고도 함):</b> Audience Manager이 데이터 소스에 할당하는 고유한 ID입니다(ID </a>의 Audience Manager <a href="/help/using/reference/ids-in-aam.md"> 인덱스 참조). 고유한 사용자 ID가 포함된 데이터를 보낼 때 파일 이름에 이 할당된 ID를 사용하십시오. 예를 들어 <code>...ftp_dpm_21_123456789.sync</code>은(는) <span class="keyword"> Audience Manager</span>에게 데이터 소스 21에 속하는 ID로 데이터를 온보딩하도록 지시합니다. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> 데이터 파일 이름에 Android ID가 포함된 경우 ID 20914을 사용합니다. Android ID를 사용할 때는 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 필드를 사용해야 합니다. 예를 들어 <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code>은(는) 데이터 파일에 Android ID만 포함되어 있으며 ID가 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트에 적합해야 한다고 <span class="keyword"> Audience Manager</span>에 알려줍니다.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID(IDFA):</b> 데이터 파일 이름에 iOS ID가 포함된 경우 ID 20915을 사용합니다. iOS ID를 사용할 때는 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 필드를 사용해야 합니다. 예를 들어 <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code>은(는) 데이터 파일에 iOS ID만 포함되어 있으며 ID가 <code><i>_DPID_TARGET_DATA_OWNER</i></code> 데이터 소스에 속하는 트레이트에 적합해야 한다고 <span class="keyword"> Audience Manager</span>에 알려줍니다.</li>
      <li> <b>다른 글로벌 데이터 원본에 속하는 ID</b>: RIDA(Advertising), MAID(Microsoft Advertising ID) 및 기타 ID용 Roku ID를 온보딩할 수 있습니다. <a href="/help/using/features/global-data-sources.md"> 전역 데이터 원본 문서</a>에 설명된 대로 각 데이터 원본에 해당하는 ID를 사용하십시오.</li> 
     </ul> <p> <p>참고: 데이터 파일에서 ID 유형을 혼합하지 마십시오. 예를 들어 파일 이름에 Android 식별자가 포함된 경우 데이터 파일에 iOS ID 또는 사용자 ID를 추가하지 마십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>이 필드는 데이터를 온보딩할 데이터 소스를 Audience Manager에 알려줍니다. DPID를 Android ID, iOS ID 또는 글로벌 데이터 소스에 속하는 다른 ID로 설정하는 경우 이 필드는 필수입니다. 이렇게 하면 Audience Manager이 파일 데이터를 다시 조직에 연결할 수 있습니다. <br> 이 대상 데이터 원본은 회사가 소유해야 합니다. 제2자 데이터 공유를 위해 데이터를 다른 회사에 속한 대상 데이터 소스로 수집하려면 회사와 대상 데이터 소스 간에 액세스 매핑이 있어야 합니다. 매핑을 설정하려면 Adobe 컨설턴트나 고객 지원에 문의하십시오.</p> <p><b>중요 참고 사항:</b> <i>기존 데이터 공유 관계(2022년 3월 14일 이전에 데이터를 온보딩한 다른 회사에 속한 대상 데이터 소스의 경우)에 대한 매핑을 요청할 필요가 없습니다</i>. PID에 속하는 대상 데이터 소스에 데이터를 온보딩할 때도 매핑이 필요하지 않습니다. </p> <p>예: </p> 
+   <td colname="col2"> <p>이 필드는 데이터를 온보딩할 데이터 소스를 Audience Manager에 알려줍니다. DPID를 Android ID, iOS ID 또는 글로벌 데이터 소스에 속하는 다른 ID로 설정하는 경우 이 필드는 필수입니다. 이렇게 하면 Audience Manager이 파일 데이터를 다시 조직에 연결할 수 있습니다. <br> 이 타겟 데이터 소스는 회사에서 소유해야 합니다. 제2자 데이터 공유를 위해 데이터를 다른 회사에 속한 대상 데이터 소스로 수집하려면 회사와 대상 데이터 소스 간에 액세스 매핑이 있어야 합니다. 매핑을 설정하려면 Adobe 컨설턴트나 고객 지원에 문의하십시오.</p> <p><b>중요 참고 사항:</b> <i>기존 데이터 공유 관계(2022년 3월 14일 이전에 데이터를 온보딩한 다른 회사에 속한 대상 데이터 소스의 경우)에 대한 매핑을 요청할 필요가 없습니다</i>. PID에 속하는 대상 데이터 소스에 데이터를 온보딩할 때도 매핑이 필요하지 않습니다. </p> <p>예: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code>은(는) 데이터 소스 21에 속하는 트레이트 또는 신호에 대해 데이터 소스 33에 속하는 고객 ID를 검증하고 있음을 Audience Manager에 알려줍니다. </li> 
      <li> <b>Android ID(GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code>은(는) 데이터 파일에 Android ID만 포함되어 있으며 ID가 데이터 소스 21에 속하는 트레이트에 적합해야 한다고 <span class="keyword"> Audience Manager</span>에 알려줍니다.</li> 

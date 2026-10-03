@@ -6,18 +6,24 @@ solution: Audience Manager
 title: 연락처 및 법적 정보
 feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
-TQID: https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw
+TQID: 'https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 243
-ht-degree: 100%
-
+source-wordcount: '263'
+ht-degree: 84%
 ---
-
 # 연락처 및 법적 정보 {#legal-contact}
 
 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
@@ -41,6 +47,6 @@ Published by Adobe Systems Incorporated.
 
 [Terms of Use](https://www.adobe.com/kr/legal/terms.html) | [Privacy Center](https://www.adobe.com/kr/privacy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 상표 기호(®, ™ 등) 는 Adobe 상표를 나타냅니다.
 
 All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_kr](https://www.adobe.com/kr/products/eula/third_party/).

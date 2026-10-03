@@ -7,19 +7,23 @@ title: 대상 만들기
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
 exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
-TQID: https://experienceleague.adobe.com/5--FLcQxcIQYMVuch5YXuxl6e18o1QLw6hBZj4rk95c
+TQID: 'https://experienceleague.adobe.com/5--FLcQxcIQYMVuch5YXuxl6e18o1QLw6hBZj4rk95c'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: '356'
 ht-degree: 6%
-
 ---
-
 # 대상 만들기 {#create-destinations}
 
 이 [!UICONTROL RESTful API] 메서드로 대상을 만듭니다.
@@ -28,11 +32,11 @@ ht-degree: 6%
 
 ## 지원되는 대상 유형: URL 및 쿠키만
 
-사용 가능한 `POST` 메서드를 사용하면 [!UICONTROL URL] 및 [!UICONTROL cookie destinations]만 만들 수 있습니다. 현재 이 [!UICONTROL server-to-server destinations] 메서드로 [!DNL REST API]을(를) 만들 수 없습니다. 그러나 관련 대상 `GET` 메서드를 사용하면 사용자 인터페이스에서 만든 [!UICONTROL server-to-server destinations]에 대한 정보를 검색할 수 있습니다.
+사용 가능한 `POST` 메서드를 사용하면 [!UICONTROL URL] 및 [!UICONTROL cookie destinations]만 만들 수 있습니다. 현재 이 [!DNL REST API] 메서드로 [!UICONTROL server-to-server destinations]을(를) 만들 수 없습니다. 그러나 관련 대상 `GET` 메서드를 사용하면 사용자 인터페이스에서 만든 [!UICONTROL server-to-server destinations]에 대한 정보를 검색할 수 있습니다.
 
 ## 비-직렬 URL 대상 만들기 {#create-nonserial-dest}
 
-단일 키-값 쌍(예: `POST` 또는 `gender=male`)으로 구성된 세그먼트를 받는 대상을 만들 수 있는 `gender=female` 메서드입니다.
+단일 키-값 쌍(예: `gender=male` 또는 `gender=female`)으로 구성된 세그먼트를 받는 대상을 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -141,7 +145,7 @@ ht-degree: 6%
 
 ## 쿠키 대상 만들기: 단일 키, 직렬화되지 않음 {#create-cookie-dest-single}
 
-단일 키-값 쌍(예: `POST` 또는 [!UICONTROL cookie destination])으로 구성된 세그먼트를 받는 `gender=male`을(를) 만들 수 있는 `gender=female` 메서드입니다.
+단일 키-값 쌍(예: `gender=male` 또는 `gender=female`)으로 구성된 세그먼트를 받는 [!UICONTROL cookie destination]을(를) 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -281,7 +285,7 @@ ht-degree: 6%
 
 ## 쿠키 대상 만들기: 다중 키, 직렬화되지 않음 {#create-cookie-dest-multi}
 
-값이 다른 여러 키(예: `POST`)가 포함된 세그먼트를 허용하는 대상을 만들 수 있는 `gender=male; gender=female; color=blue; color=red` 메서드입니다.
+값이 다른 여러 키(예: `gender=male; gender=female; color=blue; color=red`)가 포함된 세그먼트를 허용하는 대상을 만들 수 있는 `POST` 메서드입니다.
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 

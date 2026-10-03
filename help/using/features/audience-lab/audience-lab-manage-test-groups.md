@@ -7,27 +7,38 @@ title: 테스트 그룹 관리
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+TQID: 'https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # 테스트 그룹 관리 {#manage-test-groups}
 
 이 절차에서는 [!UICONTROL Audience Lab]에서 테스트 그룹을 만들거나 편집하거나 삭제하는 데 필요한 단계를 안내합니다.
@@ -38,20 +49,20 @@ ht-degree: 0%
 
 <!-- create-test-group.xml -->
 
-* 최소 하나 이상의 **전환 특성**&#x200B;을 설정해야 합니다. 이벤트 유형으로 [전환](../../features/traits/create-onboarded-rule-based-traits.md)을(를) 선택하여 **트레이트 빌더**&#x200B;에서 전환 트레이트를 설정할 수 있습니다. 전환 특성 및 설정 방법에 대한 자세한 내용을 보려면 [비디오](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)를 준비했습니다.
+* 최소 하나 이상의 **전환 특성**&#x200B;을 설정해야 합니다. 이벤트 유형으로 **전환**&#x200B;을(를) 선택하여 [트레이트 빌더](../../features/traits/create-onboarded-rule-based-traits.md)에서 전환 트레이트를 설정할 수 있습니다. 전환 특성 및 설정 방법에 대한 자세한 내용을 보려면 [비디오](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)를 준비했습니다.
 
   >[!IMPORTANT]
   >
-  >[이(가) &#x200B;](../../features/traits/about-folder-traits.md)폴더 특성&#x200B;**을(를)**&#x200B;지원하지 않음[!UICONTROL Audience Lab]합니다. 폴더 트레이트의 [이벤트 유형](../../features/traits/create-onboarded-rule-based-traits.md)을(를) **전환**(으)로 설정하면 특정 폴더 트레이트에 대한 [!UICONTROL Audience Lab]의 데이터가 생성되지 않습니다.
+  >[!UICONTROL Audience Lab]이(가) [폴더 특성](../../features/traits/about-folder-traits.md)을(를) **지원하지 않음**&#x200B;합니다. 폴더 트레이트의 [이벤트 유형](../../features/traits/create-onboarded-rule-based-traits.md)을(를) **전환**(으)로 설정하면 특정 폴더 트레이트에 대한 [!UICONTROL Audience Lab]의 데이터가 생성되지 않습니다.
 
 * [역할 기반 액세스 제어를 사용하는 회사의 경우](../../features/administration/administration-overview.md): [!UICONTROL Audience Lab] [와일드카드 권한](../../features/administration/administration-overview.md#wild-card-permissions)을(를) **[!UICONTROL User Groups]**&#x200B;에 할당하여 액세스 권한을 제공하십시오. 이 권한을 사용하면 테스트 결과를 만들고 볼 수 있습니다. 사용자는 **읽기** 및 **대상에 매핑** 권한이 있는 데이터 원본의 세그먼트만 사용할 수 있습니다. 사용자는 **&quot;읽기&quot;** 권한이 있는 데이터 원본의 전환 트레이트만 사용할 수 있습니다. 사용자는 액세스 권한이 있는 대상만 볼 수 있습니다. 따라서 그룹에 [!DNL Audience Lab] 와일드카드 권한을 추가하기 전에 그룹에 다음이 있는지 확인하십시오.
-   * 관련 전환 트레이트 읽기에 대한 액세스
-   * 테스트를 위해 관련 세그먼트를 읽고 매핑할 수 있는 액세스 권한
-   * 관련 대상에 대한 액세스 권한.
+  * 관련 전환 트레이트 읽기에 대한 액세스
+  * 테스트를 위해 관련 세그먼트를 읽고 매핑할 수 있는 액세스 권한
+  * 관련 대상에 대한 액세스 권한.
 
 새 [!UICONTROL Segment Test Group]을(를) 만들려면
 
-1. **[!UICONTROL Create New Test Group]** 대시보드에서 [!UICONTROL Audience Lab]을(를) 선택하여 마법사를 시작합니다.
+1. [!UICONTROL Audience Lab] 대시보드에서 **[!UICONTROL Create New Test Group]**&#x200B;을(를) 선택하여 마법사를 시작합니다.
 1. **[!UICONTROL Basic Info & Choose Segment]**
 
    * **[!UICONTROL Test Group Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
@@ -101,7 +112,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >* 생성 프로세스의 어느 시점에서든 테스트 그룹을 저장하고 나중에 마법사로 돌아갈 수 있습니다. 테스트 그룹 상태는 **[!UICONTROL Draft]**&#x200B;이(가) 되며 세그먼트 테스트 그룹을 완료할 때까지 테스트 그룹이 대상으로 데이터를 전송하지 않습니다.
-   >* 초안 테스트의 경우 돌아가서 기본 **[!UICONTROL Edit]** 보기의 테스트 그룹 카드에서 [!UICONTROL Audience Lab]을(를) 클릭하여 테스트 그룹을 편집할 수 있습니다.
+   >* 초안 테스트의 경우 돌아가서 기본 [!UICONTROL Audience Lab] 보기의 테스트 그룹 카드에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 테스트 그룹을 편집할 수 있습니다.
 
 ## 세그먼트 테스트 그룹 편집 {#edit-test-groups}
 

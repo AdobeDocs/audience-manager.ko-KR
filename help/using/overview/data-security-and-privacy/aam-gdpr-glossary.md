@@ -7,22 +7,30 @@ title: GDPR 용어집
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-TQID: https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM
+TQID: 'https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 96%
-
+source-wordcount: '697'
+ht-degree: 85%
 ---
-
 # GDPR 용어집 {#gdpr-glossary}
 
 ## 개요 {#overview}
@@ -39,7 +47,7 @@ GDPR과 관련하여 사용되는 주요 용어에 익숙해지십시오. 가장
 
  
 
-**데이터 통제자:** GDPR은 &quot;통제자&quot;를 &quot;개인 데이터의 처리라는 목적과 수단을 혼자 또는 다른 주체와 공동으로 결정하는 ... 법인 ...&quot;으로 정의합니다. Audience Manager 고객은 데이터 통제자입니다. 고객은 Audience Manager에서 데이터가 관리되는 방식을 제어합니다.
+**데이터 통제자:** GDPR은 &quot;통제자&quot;를 &quot;개인 데이터의 처리라는 목적과 수단을 혼자 또는 다른 주체와 공동으로 결정하는 ... 법인 ...&quot;으로 정의합니다. Audience Manager 고객은 데이터 컨트롤러입니다. 고객은 Audience Manager에서 데이터가 관리되는 방식을 제어합니다.
 
  
 

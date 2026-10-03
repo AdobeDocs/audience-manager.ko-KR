@@ -7,30 +7,42 @@ title: 용어 설명
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-TQID: https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k
+TQID: 'https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1157
-ht-degree: 96%
-
+source-wordcount: '1232'
+ht-degree: 94%
 ---
-
 # 용어 설명{#glossary}
 
 정의 및 추가적으로 읽을 수 있는 링크.
@@ -112,7 +124,7 @@ Demdex.net은 [!DNL Adobe]에 의해 제어되는 기존 도메인으로서, [!D
 
 **대상**
 
-[!DNL Audience Manager]에서 대상은 데이터를 공유할 다른 시스템(광고 서버, DSP, 광고 네트워크 등)입니다. UI의 [!UICONTROL Destination Builder]는 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. [!DNL Audience Manager] 대상 기능은 **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
+[!DNL Audience Manager]에서 대상은 다른 시스템(광고 서버, DSP, 광고 네트워크 등)입니다. 와(과) 데이터를 공유할 수 있습니다. UI의 [!UICONTROL Destination Builder]는 이러한 데이터 전달 프로세스를 만들고 관리할 수 있는 도구를 제공합니다. [!DNL Audience Manager] 대상 기능은 **[!UICONTROL Audience Data > Destinations]**&#x200B;에 있습니다.
 
 
 
@@ -165,7 +177,7 @@ Globally Unique Identifier(전 세계적 단일 식별자)의 약어입니다. [
 
 **IDFA**
 
-광고주용 식별자. Apple이 제품에 할당하는 고유 장치 ID입니다.  [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하십시오.
+광고주용 식별자. Apple이 제품에 할당하는 고유 장치 ID입니다. [Audience Manager의 ID 색인](../reference/ids-in-aam.md)을 참조하십시오.
 
 
 

@@ -6,20 +6,26 @@ solution: Audience Manager
 title: 대상에 데이터 내보내기 컨트롤 추가
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-TQID: https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ
+TQID: 'https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '221'
 ht-degree: 2%
-
 ---
-
 # 대상에 데이터 내보내기 레이블 추가 {#add-data-export-labels}
 
 [!DNL Data Export Labels]은(는) 데이터 원본에서 설정한 [!DNL Export Controls]을(를) 사용하여 작업합니다. [!DNL Data Export Labels]을(를) 사용하면 제한된 특성을 세그먼트에 추가할 수 없으며 세그먼트 데이터를 대상으로 보낼 수 없습니다. 여러 내보내기 레이블을 새 또는 기존 [!DNL cookie] 또는 [!DNL URL] 대상으로 설정할 수 있습니다.

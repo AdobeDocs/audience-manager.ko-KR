@@ -7,20 +7,26 @@ title: 프로필 병합 규칙에 대한 일반 사용 사례
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-TQID: https://experienceleague.adobe.com/Qk5jO5i-HgjV75z0--cXzgv7hMbS-s6sEyanGqy8m9I
+TQID: 'https://experienceleague.adobe.com/Qk5jO5i-HgjV75z0--cXzgv7hMbS-s6sEyanGqy8m9I'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 894
+source-wordcount: '921'
 ht-degree: 1%
-
 ---
-
 # 프로필 병합 규칙에 대한 일반 사용 사례 {#general-use-cases-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules] 옵션을 사용하면 비즈니스 요구 사항이나 목표에 따라 특정 대상에 대한 대상 집중도를 확장하거나 강화할 수 있습니다. 이러한 일반적인 사용 사례에서는 사용 가능한 옵션을 사용하고 개별, 세대 및 크로스 디바이스 타깃팅에 대한 병합 규칙을 만드는 방법을 알아봅니다. [!UICONTROL Profile Merge Rules]은(는) 실시간 및 일괄 처리 대상으로 작업합니다.
@@ -63,11 +69,11 @@ ht-degree: 1%
 
 ![마지막 장치 프로필](assets/last-device-profile.png)
 
-[!DNL iPhone 7]의 [!DNL Data Plan B]인 장치를 하나 이상 포함하고 연간 소득이 100.000달러 이상인 가구로 구성된 세그먼트를 생각해 보겠습니다. 두 개의 가정용 프로필(교차 장치 프로필)이 있으며, 각각은 두 개의 서로 다른 장치 프로필에 연결됩니다. 세그먼트 자격에 필요한 트레이트는 장치 및 교차 장치 프로필에 배포됩니다.
+[!DNL Data Plan B]의 [!DNL iPhone 7]인 장치를 하나 이상 포함하고 연간 소득이 100.000달러 이상인 가구로 구성된 세그먼트를 생각해 보겠습니다. 두 개의 가정용 프로필(교차 장치 프로필)이 있으며, 각각은 두 개의 서로 다른 장치 프로필에 연결됩니다. 세그먼트 자격에 필요한 트레이트는 장치 및 교차 장치 프로필에 배포됩니다.
 
 Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 병합된 트레이트 세트가 세그먼트에 적합한지 확인합니다. Audience Manager은 병합에 포함된 모든 프로필을 평가하므로 장치 프로필과 가구 프로필을 모두 세그먼트화할 수 있습니다.
 
-장치와 세대 프로필 간의 링크를 통해 Audience Manager은 [!DNL Household 2]이(가) 아닌 [!DNL Household 1]을(를) 세그먼트에 적합하게 만들 수 있습니다. [!DNL Household 2]부터 [!DNL Device 3]만 세그먼트에 사용할 수 있습니다. 이 [!UICONTROL Profile Merge Rule]을(를) 통해 마케터는 개별 장치([!DNL Device 3]) 및 더 넓은 세대([!DNL Household 2])에 일관된 마케팅 메시지를 전달할 수 있습니다.
+장치와 세대 프로필 간의 링크를 통해 Audience Manager은 [!DNL Household 1]이(가) 아닌 [!DNL Household 2]을(를) 세그먼트에 적합하게 만들 수 있습니다. [!DNL Household 2]부터 [!DNL Device 3]만 세그먼트에 사용할 수 있습니다. 이 [!UICONTROL Profile Merge Rule]을(를) 통해 마케터는 개별 장치([!DNL Device 3]) 및 더 넓은 세대([!DNL Household 2])에 일관된 마케팅 메시지를 전달할 수 있습니다.
 
 ![가족 관리](assets/household-management.png)
 
@@ -87,7 +93,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
 
 ## 장치 그래프 옵션 {#device-graph-options}
 
-[!UICONTROL device graph] 규칙에 대한 [!UICONTROL Profile Merge] 옵션을 선택하는 방법은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 다릅니다. 이러한 일반 지침은 한 가지 유형의 그래프와 다른 그래프를 사용해야 하는 경우를 이해하는 데 도움이 될 수 있습니다. 이러한 옵션을 사용하려면 외부 장치 그래프와 계약 관계가 있어야 합니다. 장치 그래프 옵션을 선택할 시기에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례](external-graph-use-cases.md)를 참조하십시오.
+[!UICONTROL Profile Merge] 규칙에 대한 [!UICONTROL device graph] 옵션을 선택하는 방법은 디지털 속성 및 비즈니스 목표에 고유한 조건에 따라 다릅니다. 이러한 일반 지침은 한 가지 유형의 그래프와 다른 그래프를 사용해야 하는 경우를 이해하는 데 도움이 될 수 있습니다. 이러한 옵션을 사용하려면 외부 장치 그래프와 계약 관계가 있어야 합니다. 장치 그래프 옵션을 선택할 시기에 대한 일반적인 지침은 아래 표를 참조하십시오. 특정 사용 사례에 대해서는 [프로필 링크 장치 그래프 사용 사례](profile-link-use-case.md) 및 [외부 장치 그래프 사용 사례](external-graph-use-cases.md)를 참조하십시오.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -108,7 +114,7 @@ Audience Manager은 모든 장치 + 교차 장치 프로필 쌍을 병합하여 
   </tr> 
   <tr> 
    <td colname="col1"> <p>외부 장치 그래프 옵션 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Audience Manager</span>과(와) 통합된 외부 장치 그래프로 만들어진 <span class="keyword"> 프로필 병합</span> 규칙은 다음 경우에 이상적입니다. </p> <p> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span>과(와) 통합된 외부 장치 그래프로 만들어진 <span class="wintitle"> 프로필 병합</span> 규칙은 다음 경우에 이상적입니다. </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">낮은 수준의 고객 인증이 있는 디지털 속성입니다. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">광범위하고 도달 범위가 높은 브랜드 캠페인. </li> 

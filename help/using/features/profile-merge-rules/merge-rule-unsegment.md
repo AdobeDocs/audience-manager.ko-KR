@@ -7,27 +7,32 @@ title: 프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+TQID: 'https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '481'
 ht-degree: 2%
-
 ---
-
 # 프로필 병합 규칙 및 장치 세그먼테이션 해제 프로세스 {#profile-merge-rules-and-device-un-segmentation-processes}
 
 세그먼테이션 해제는 세그먼트에서 장치 프로필을 자격을 박탈하고 제거하는 프로세스를 설명합니다. 세그먼트에서 장치 프로필을 제거하는 기능은 [!UICONTROL Profile Merge Rule]을(를) 만드는 데 사용된 장치 옵션에 따라 다릅니다.
 
 ## 사용 가능한 장치 옵션 {#device-options}
 
-다시 말해서 [!UICONTROL Device Options]을(를) 만들거나 편집할 때 [!UICONTROL Profile Merge Rules Setup] 섹션에서 [!UICONTROL Profile Merge Rule]을(를) 사용할 수 있습니다.
+다시 말해서 [!UICONTROL Profile Merge Rule]을(를) 만들거나 편집할 때 [!UICONTROL Profile Merge Rules Setup] 섹션에서 [!UICONTROL Device Options]을(를) 사용할 수 있습니다.
 
 ## 현재 장치 프로필 옵션 및 장치 세그먼테이션 해제 {#current-device-profile-options}
 
-**[!UICONTROL Device Profile]**&#x200B;은(는) [!UICONTROL Profile Merge Rule]에 대한 기본 장치 프로필 옵션입니다. [!DNL Audience Manager]에서 [!UICONTROL Profile Merge Rule] 옵션을 사용하는 경우 **[!UICONTROL Device Profile]**&#x200B;에서 장치 프로필을 제거할 수 있습니다. 이러한 조건에서 세그먼테이션은 다음과 같은 경우에 발생합니다.
+**[!UICONTROL Device Profile]**&#x200B;은(는) [!UICONTROL Profile Merge Rule]에 대한 기본 장치 프로필 옵션입니다. [!UICONTROL Profile Merge Rule]에서 **[!UICONTROL Device Profile]** 옵션을 사용하는 경우 [!DNL Audience Manager]에서 장치 프로필을 제거할 수 있습니다. 이러한 조건에서 세그먼테이션은 다음과 같은 경우에 발생합니다.
 
 * 장치 프로필이 120일 동안 비활성 상태입니다. 매주 데이터 정리 프로세스는 세그먼트에서 비활성 장치 프로필을 제거합니다.
 * 장치 프로필에 대한 업데이트 또는 변경 사항으로 인해 장치가 더 이상 세그먼트에 적합하지 않습니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!DNL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
@@ -36,13 +41,13 @@ ht-degree: 2%
 
 ## 장치 옵션 없음 및 장치 세그먼테이션 해제 {#no-device-option}
 
-[!DNL Audience Manager]에서 [!UICONTROL Profile Merge Rule] + **[!UICONTROL Current Authenticated Profiles]** 옵션을 사용하는 경우 **[!UICONTROL No Device Profile]**&#x200B;에서 세그먼트에서 교차 장치 ID를 제거할 수 있습니다. 이러한 조건에서 교차 장치 프로필에 대한 업데이트 또는 변경으로 인해 교차 장치 ID가 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
+[!UICONTROL Profile Merge Rule]에서 **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** 옵션을 사용하는 경우 [!DNL Audience Manager]에서 세그먼트에서 교차 장치 ID를 제거할 수 있습니다. 이러한 조건에서 교차 장치 프로필에 대한 업데이트 또는 변경으로 인해 교차 장치 ID가 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
 
 ![](assets/current-no-device.png)
 
 ## 장치 그래프 옵션 및 장치 세그먼테이션 해제 {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager]에서 장치 그래프 옵션을 사용하는 경우 [!UICONTROL Profile Merge Rule]은(는) 세그먼트에서 여러 장치 프로필을 제거할 수 있습니다. 이 병합된 프로필에 대한 업데이트 또는 변경 사항으로 인해 세그먼테이션에서 자격이 상실되어 장치 그래프에서 장치의 병합된 프로필이 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
+[!UICONTROL Profile Merge Rule]에서 장치 그래프 옵션을 사용하는 경우 [!DNL Audience Manager]은(는) 세그먼트에서 여러 장치 프로필을 제거할 수 있습니다. 이 병합된 프로필에 대한 업데이트 또는 변경 사항으로 인해 세그먼테이션에서 자격이 상실되어 장치 그래프에서 장치의 병합된 프로필이 더 이상 세그먼트에 적합하지 않을 때 세그먼테이션 해제가 발생합니다. 이 문제는 세그먼트 자격 기준이 변경되거나 세그먼트 규칙에 [!UICONTROL AND NOT] 연산자를 적용하거나 보다 작음/같음 설정을 사용하는 [최신성 및 빈도](../segments/recency-and-frequency.md) 조건을 지정할 때 발생합니다. 사용 사례는 [즉각적인 장치 간 억제](instant-cross-device-suppression.md) 설명서에 설명되어 있습니다.
 
 >[!NOTE]
 >

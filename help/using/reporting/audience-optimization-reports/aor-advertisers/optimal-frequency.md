@@ -7,19 +7,26 @@ title: 최적 빈도 보고서
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: Audience Optimization Reports
 exl-id: bf445fde-5cac-40ee-aa67-b4523391a6f1
-TQID: https://experienceleague.adobe.com/alVFevn8JDScV7zhtDQO95jLHYW5SQrlMIQaNck51oQ
+TQID: 'https://experienceleague.adobe.com/alVFevn8JDScV7zhtDQO95jLHYW5SQrlMIQaNck51oQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '204'
 ht-degree: 2%
-
 ---
-
 # 최적 빈도 보고서{#optimal-frequency-report}
 
 최적 빈도 보고서는 제공되는 노출 수와 전환 수 간의 최적 균형을 찾는 데 도움이 됩니다. 이를 통해 축소 수익을 보기 전에 표시할 노출 횟수를 조정할 수 있습니다.

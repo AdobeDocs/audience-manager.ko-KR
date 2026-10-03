@@ -7,25 +7,32 @@ title: 벌크 관리 도구 문제 해결 팁
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
-TQID: https://experienceleague.adobe.com/uWVaqQvvckobXGwoggSEgf4ePCGfInmSUIE2uicScWI
+TQID: 'https://experienceleague.adobe.com/uWVaqQvvckobXGwoggSEgf4ePCGfInmSUIE2uicScWI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+    internal-label: BAAAM
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '433'
 ht-degree: 0%
-
 ---
-
 # 벌크 관리 도구 문제 해결 팁{#troubleshooting-tips-for-bulk-management-tools}
 
 워크시트가 오류를 반환하거나 대량 요청이 실패할 경우 수행할 작업.
@@ -42,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; UI에 할당된 &#x200B;](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 네트워크 트래픽이 많거나, 서버 사용량 및 대용량 데이터 세트와 같은 요인으로 인해 대량 요청이 실패하거나 시간 초과가 발생할 수 있습니다. 문제가 있는 경우 워크시트가 데이터 쓰기를 중지하고 오류 메시지를 표시합니다. 이 경우 다음을 수행해야 합니다.
 

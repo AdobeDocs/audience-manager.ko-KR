@@ -7,19 +7,26 @@ title: 고유 사용자 도달 범위
 uuid: 897245ab-af6e-42a0-b653-96703b65c764
 feature: Audience Optimization Reports
 exl-id: 1b7ddafd-40b8-4c64-97e9-ecc7ffdd9efa
-TQID: https://experienceleague.adobe.com/lfdkwJslK-STYnp8z2bo0jPiQixpTG-uvReLSnYnicI
+TQID: 'https://experienceleague.adobe.com/lfdkwJslK-STYnp8z2bo0jPiQixpTG-uvReLSnYnicI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 190
+source-wordcount: '193'
 ht-degree: 2%
-
 ---
-
 # 고유 사용자 도달 범위{#unique-user-reach}
 
 고유 사용자 도달 수 보고서는 버블 차트에 있는 데이터를 반환합니다. 각 버블의 크기는 선택한 차원의 고유 사용자 수에 직접 비례하여 조정됩니다. 거품이 클수록 작은 거품보다 더 큰 도달 범위를 나타냅니다.

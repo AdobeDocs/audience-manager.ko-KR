@@ -6,30 +6,44 @@ solution: Audience Manager
 title: IAB TCF를 위한 Audience Manager 플러그인
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-TQID: https://experienceleague.adobe.com/1JX2HeN8eco8-A4OGoFZeW6og5naFhSEu5OZsiLQ6uk
+TQID: 'https://experienceleague.adobe.com/1JX2HeN8eco8-A4OGoFZeW6og5naFhSEu5OZsiLQ6uk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+    internal-label: DIL implementation
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 2173
-ht-degree: 29%
-
+source-wordcount: '2499'
+ht-degree: 28%
 ---
-
 # [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## 개요
@@ -80,7 +94,7 @@ Audience Manager은 사용자의 개인 정보 보호 선택 사항을 준수하
 Audience Manager에서 IAB TCF용 Audience Manager 플러그인을 사용하려면 다음 전제 조건을 충족해야 합니다.
 
 1. Adobe ECID(Experience Platform Identity Service) 버전 5 이상을 사용해야 합니다. 최신 ECID 릴리스를 [다운로드](https://github.com/Adobe-Marketing-Cloud/id-service/releases)하십시오.
-2. [!DNL Data Integration Library]여기[에서 다운로드할 수 있는 Audience Manager &#x200B;](https://github.com/Adobe-Marketing-Cloud/dil/releases)&#x200B;(DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL을 읽어보세요](../../dil/dil-overview.md). 가장 쉬운 Audience Manager DIL 구현을 위해 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)을 사용하는 것이 좋습니다.
+2. [여기](https://github.com/Adobe-Marketing-Cloud/dil/releases)에서 다운로드할 수 있는 Audience Manager [!DNL Data Integration Library]&#x200B;(DIL) 버전 9.0 이상을 사용해야 합니다. Audience Manager 설명서에서 [DIL을 읽어보세요](../../dil/dil-overview.md). 가장 쉬운 Audience Manager DIL 구현을 위해 [Adobe Audience Manager 태그 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ko)을 사용하는 것이 좋습니다.
 3. 또는 SSF([!DNL Server-Side Forwarding])를 사용하여 데이터를 Audience Manager으로 가져오는 경우 최신 버전의 AppMeasurement으로 업그레이드해야 합니다. [Analytics 코드 관리자](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ko)를 사용하여 AppMeasurement를 다운로드합니다.
 4. IAB TCF v2.2와 통합되고 IAB TCF에 등록된 상업용이거나 본인 소유의 CMP(동의 관리 플랫폼)를 사용하고 있어야 합니다. [IAB 프레임워크 내에 등록된 CMP](https://iabeurope.eu/cmp-list/) 목록을 참조하십시오.
 
@@ -192,7 +206,7 @@ IAB TCF용 Audience Manager 플러그인을 사용하면 사용자의 개인 정
 
 IAB TCF v2.2와 Audience Manager 통합에서는 IAB TCF v2.2와 통합된 [URL 대상](../../features/destinations/create-url-destination.md)에 전송된 정보에 동의를 추가할 수 있습니다. 그러나 특정 URL 형식이 손상되는 것을 방지하기 위해 이 프로세스는 Audience Manager에서 자동으로 수행하지 않습니다.
 
-[!DNL URL destinations]에 전송된 데이터에 동의를 추가하려는 고객은 `${GDPR}`을(를) 대상 파트너 ID로 대체하여 `${GDPR_CONSENT_XXXX}` 및 `XXXX` 매크로를 해당 URL 형식에 수동으로 추가해야 합니다.
+[!DNL URL destinations]에 전송된 데이터에 동의를 추가하려는 고객은 `XXXX`을(를) 대상 파트너 ID로 대체하여 `${GDPR}` 및 `${GDPR_CONSENT_XXXX}` 매크로를 해당 URL 형식에 수동으로 추가해야 합니다.
 
 예: `https://yourdomain.com?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_1234}`
 

@@ -8,25 +8,34 @@ title: 인바운드 고객 데이터 섭취 FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-TQID: https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE
+TQID: 'https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: 81ea4607-deb9-5aa9-822c-9d779f9a7c7e
+    internal-label: Onboarding Offline Data
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 86%
-
+source-wordcount: '1392'
+ht-degree: 83%
 ---
-
 # 인바운드 고객 데이터 섭취 FAQ{#inbound-customer-data-ingestion-faq}
 
 오프라인 데이터를 Audience Manager에 가져오는 것에 대한 FAQ입니다.
@@ -47,9 +56,9 @@ ht-degree: 86%
 다음 사항을 권장합니다.
 
 * 데이터 공급자와 협력하여 Adobe 사양에 따라 일별 인바운드 데이터 파일의 형식을 지정합니다. 파일 이름 지정 및 구문 요구 사항에 대해서는 다음 설명서를 참조하십시오.
-   * [ID 동기화 파일 이름 및 컨텐츠 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-   * [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-   * [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+  * [ID 동기화 파일 이름 및 컨텐츠 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+  * [인바운드 데이터 파일 내용: 구문, 잘못된 문자, 변수 및 예](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+  * [인바운드 데이터 파일에 대한 Amazon S3 이름 및 파일 크기 요구 사항](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * 형식 확인을 위해 [!DNL Adobe] 컨설턴트와 함께 테스트 데이터 파일을 [!DNL Adobe]에 전송합니다.
 * [!DNL Adobe] 컨설턴트와 협력하여 데이터 파일의 내용을 해석하는 데 적합한 분류법을 생성합니다.
 * 스테이징/개발 환경에서 ID 동기화가 데이터 공급자의 방문자 ID를 올바로 선택하고 이를 실시간으로 [!DNL Audience Manager] 서버에 전송하도록 구성되어 있는지 확인합니다.

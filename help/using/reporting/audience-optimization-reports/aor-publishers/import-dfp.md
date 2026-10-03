@@ -7,24 +7,34 @@ title: Google Ad Manager 데이터 파일을 Audience Manager으로 가져오기
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-TQID: https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw
+TQID: 'https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: '519'
 ht-degree: 14%
-
 ---
-
 # Google Ad Manager(이전의 DFP) 데이터 파일을 Audience Manager에 가져오기{#import-dfp-data-files-into-audience-manager}
 
 Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있으려면 먼저 이 문서에 설명된 모든 전제 조건이 충족되는지 확인해야 합니다. 모든 전제 조건을 확인한 후 고객 지원에 문의하십시오.
@@ -33,7 +43,7 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
 
 로그 수집 활성화를 위한 필수 조건으로 전환하려면 이 섹션에서 설명하는 프로세스를 *이전*&#x200B;에 완료해야 합니다.
 
-[!DNL Google Ad Manager]에서 [!DNL Audience Manager]&#x200B;(이전 Google DFP) 로그 파일을 사용하려면 먼저 광고 태그 호출에서 [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md)을(를) 설정해야 합니다. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그에 포함되며 [!DNL Google Ad Manager]과(와) [!DNL Audience Manager] 사이의 ID를 일치시킬 수 있습니다. [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module]을(를) 사용하여 자사 쿠키에 [!DNL Audience Manager] UUID를 설정합니다.
+[!DNL Audience Manager]에서 [!DNL Google Ad Manager]&#x200B;(이전 Google DFP) 로그 파일을 사용하려면 먼저 광고 태그 호출에서 [Audience Manager UUID(고유 사용자 ID)](../../../reference/ids-in-aam.md)을(를) 설정해야 합니다. 이렇게 하면 ID가 [!DNL Google Ad Manager] 로그에 포함되며 [!DNL Google Ad Manager]과(와) [!DNL Audience Manager] 사이의 ID를 일치시킬 수 있습니다. [!DNL Audience Manager] [!UICONTROL DIL] 코드 또는 [!UICONTROL Audience Management Module]을(를) 사용하여 자사 쿠키에 [!DNL Audience Manager] UUID를 설정합니다.
 
 설명서에 설명된 대로 광고 태그 호출에서 [!DNL Audience Manager] ID를 설정하는 방법은 다음과 같습니다.
 
@@ -43,8 +53,8 @@ Audience Manager가 게시자에 대한 대상 최적화를 활성화할 수 있
 [!DNL Audience Manager] ID를 직접 설정해야 하며, [!DNL Audience Manager] 컨설팅과 함께 모든 것이 작동하는지 확인할 수 있습니다. 다음과 같은 경우 [!DNL Audience Manager] ID를 올바르게 설정했습니다.
 
 * `'aamid'`은(는) 식별자로 사용되는 키입니다.
-* [!DNL Audience Manager]Audience Manager의 ID 색인[에 설명된 대로 사용자 ID 값의 형식이 &#x200B;](../../../reference/ids-in-aam.md) UUID로 올바르게 지정되었습니다.
-* [!DNL Audience Manager] 로그의 정의된 필드에 [!DNL Google Ad Manager] UUID를 포함했습니다(예: CustomTargeting).
+* [Audience Manager의 ID 색인](../../../reference/ids-in-aam.md)에 설명된 대로 사용자 ID 값의 형식이 [!DNL Audience Manager] UUID로 올바르게 지정되었습니다.
+* [!DNL Google Ad Manager] 로그의 정의된 필드에 [!DNL Audience Manager] UUID를 포함했습니다(예: CustomTargeting).
 
 ## 로그 수집 활성화를 위한 사전 요구 사항 {#prereqs-ingestion-enablement}
 

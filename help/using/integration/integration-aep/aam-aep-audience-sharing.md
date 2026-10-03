@@ -5,39 +5,55 @@ title: Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Ex
 keywords: AEP 대상 공유, AEP 세그먼트, 플랫폼 세그먼트, 세그먼트 공유, 대상 공유, 세그먼트 공유, AAM AEP 세그먼트 공유
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+TQID: 'https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
+  - id: b1393389-a768-49db-9323-b2ef9e441796
+    internal-label: Experience Platform integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Customer profiles
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1799
-ht-degree: 1%
-
+source-wordcount: '2014'
+ht-degree: 2%
 ---
-
 # Audience Manager 및 기타 Experience Cloud 솔루션과 공유하는 Experience Platform 세그먼트
 
 ## 개요 {#overview}
 
 Audience Manager과 Adobe Experience Platform 간의 대상 공유 기능을 사용하면 Audience Manager 트레이트와 세그먼트를 Adobe Experience Platform에, Experience Platform 세그먼트를 Audience Manager에 공유할 수 있습니다.
 
-Audience Manager과 Adobe Experience Platform 간에 대상을 공유하려면 Experience Platform에서 [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko) 및 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ko) 대상이 필요합니다.
+Audience Manager과 Adobe Experience Platform 간에 대상을 공유하려면 Experience Platform에 [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ko) 및 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ko) 대상이 필요합니다.
 
 Experience Platform의 Audience Manager 트레이트 및 세그먼트를 사용하여 고객 프로필에 Audience Manager 데이터를 추가하고 Experience Platform [세그멘테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)의 혜택을 받을 수 있습니다.
 
@@ -47,7 +63,7 @@ Audience Manager에서는 다음과 같은 데이터 관리 플랫폼 사용 사
 * [알고리즘 모델링](/help/using/features/algorithmic-models/understanding-models.md);
 * Experience Platform [대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=ko)에서 아직 지원되지 않는 대상에 대한 세그먼트를 활성화합니다.
 
-또한 Experience Platform 세그먼트는 [핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko)를 통해 다른 Experience Cloud 솔루션과 공유됩니다.
+또한 Experience Platform 세그먼트는 [핵심 서비스](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko)를 통해 다른 Experience Cloud 솔루션에 공유됩니다.
 
 >[!IMPORTANT]
 >
@@ -162,7 +178,7 @@ Experience Platform 세그먼트에서 자동으로 생성된 세그먼트의 �
 
 ## Experience Platform에서 Audience Manager 데이터 내보내기 제어 지원 {#aam-data-export-control-in-aep}
 
-Experience Platform에서 데이터 사용 규정 준수를 적용하려면 적용 가능한 모든 데이터 세트와 필드에 적절한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko)을 지정해야 합니다. 또한 [DULE(데이터 사용 레이블 및 적용) 프레임워크](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko)에 설명된 대로 해당 레이블에 대한 특정 마케팅 작업에 대해 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko#dule-framework)을(를) 사용하도록 설정해야 합니다.
+Experience Platform에서 데이터 사용 규정 준수를 적용하려면 적용 가능한 모든 데이터 세트와 필드에 적절한 [데이터 사용 레이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ko)을 지정해야 합니다. 또한 [DULE(데이터 사용 레이블 및 적용) 프레임워크](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ko#dule-framework)에 설명된 대로 해당 레이블에 대한 특정 마케팅 작업에 대해 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko)을(를) 사용하도록 설정해야 합니다.
 
 Audience Manager과 Experience Platform 간의 대상 공유 프로세스에서, Audience Manager 세그먼트에 적용된 모든 데이터 내보내기 컨트롤은 Experience Platform 데이터 거버넌스에서 인식하는 동등한 레이블 및 마케팅 작업으로 변환되고 그 반대의 경우도 마찬가지입니다.
 

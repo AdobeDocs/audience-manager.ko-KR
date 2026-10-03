@@ -6,25 +6,34 @@ solution: Audience Manager
 title: 사용자 기반 플랫폼을 통한 인증
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-TQID: https://experienceleague.adobe.com/CRnaV6c1GMdvbnssHoLDJO4H7V79mhg1kYvwMDE-w0c
+TQID: 'https://experienceleague.adobe.com/CRnaV6c1GMdvbnssHoLDJO4H7V79mhg1kYvwMDE-w0c'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '541'
 ht-degree: 0%
-
 ---
-
 # 사용자 기반 플랫폼을 통한 인증 {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]
@@ -66,6 +75,6 @@ Audience Manager은 일정 시간이 지나면 만료되는 인증 토큰을 통
 
 1. Audience Manager 계정에 로그인하고 **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**(으)로 이동합니다.
 1. 인증을 갱신해야 하는 통합을 식별합니다. 만료된 인증은 [!UICONTROL Expired]&#x200B;(으)로 표시되지만 곧 만료될 인증은 남은 인증일 수를 표시합니다.
-1. **[!UICONTROL Renew]** 열에서 해당 [!UICONTROL Expiration] 아이콘을 클릭합니다. 이렇게 하면 소셜 플랫폼의 인증 페이지를 다시 안내하는 **[!UICONTROL Renew Account]** 워크플로우가 트리거됩니다. 인증하면 토큰이 새 만료 날짜로 갱신됩니다.
+1. [!UICONTROL Expiration] 열에서 해당 **[!UICONTROL Renew]** 아이콘을 클릭합니다. 이렇게 하면 소셜 플랫폼의 인증 페이지를 다시 안내하는 **[!UICONTROL Renew Account]** 워크플로우가 트리거됩니다. 인증하면 토큰이 새 만료 날짜로 갱신됩니다.
 
    ![pbd-renew](assets/pbd-renew.png)

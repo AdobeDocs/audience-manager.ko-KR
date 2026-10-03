@@ -6,23 +6,30 @@ solution: Audience Manager
 title: Predictive Audiences 보고
 feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-TQID: https://experienceleague.adobe.com/cCq0D-eJiC3HKysBofh6yxzJ2iBV-e1cOXnYl-VnZD8
+TQID: 'https://experienceleague.adobe.com/cCq0D-eJiC3HKysBofh6yxzJ2iBV-e1cOXnYl-VnZD8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '632'
 ht-degree: 2%
-
 ---
-
 # Predictive Audiences 보고
 
 [!UICONTROL Predictive Audiences] 모델을 저장하면 Audience Manager에서 교육을 시작합니다. 몇 시간 이내에 계산된 모델이 [데이터 수집 서버](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ko#dcs-pcs)의 대상 분석을 시작합니다. 보고는 다음 날에 사용할 수 있습니다.
@@ -40,10 +47,10 @@ ht-degree: 2%
 * **[!UICONTROL Description]**: 모델 만들기 단계에서 제공한 설명입니다.
 * **[!UICONTROL Model Type]**: 각 모델의 유형([!UICONTROL Look-Alike Modeling] 또는 [!UICONTROL Predictive Audiences]);
 * **[!UICONTROL Status]**: 각 모델의 상태:
-   * **[!UICONTROL Pending]**: 모델을 초기화하고 있으며 곧 결과를 생성하기 시작합니다.
-   * **[!UICONTROL Active]**: 모델이 성공적으로 실행되고 있으며 결과가 나옵니다.
-   * **[!UICONTROL Warning]**: 데이터 부족(즉, 기준선 모집단이 낮고 사용자 프로필이 풍부하지 않음)으로 인해 모델이 결과를 생성하지 못했습니다.
-   * **[!UICONTROL Error]**: 모델을 실행하지 못했습니다. Adobe 담당자에게 문의하십시오.
+  * **[!UICONTROL Pending]**: 모델을 초기화하고 있으며 곧 결과를 생성하기 시작합니다.
+  * **[!UICONTROL Active]**: 모델이 성공적으로 실행되고 있으며 결과가 나옵니다.
+  * **[!UICONTROL Warning]**: 데이터 부족(즉, 기준선 모집단이 낮고 사용자 프로필이 풍부하지 않음)으로 인해 모델이 결과를 생성하지 못했습니다.
+  * **[!UICONTROL Error]**: 모델을 실행하지 못했습니다. Adobe 담당자에게 문의하십시오.
 
 ## 모델 개요 보고서{#model-report}
 

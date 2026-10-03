@@ -1,5 +1,5 @@
 ---
-description: 트레이트 빌더에서 표현식 빌더를 사용하여 대상 자격 요구 사항을 설정하는 규칙을 만들고 테스트할 수 있습니다. 규칙은 "color == blue" 또는 "price &gt; 100"과 같은 키-값 쌍으로 구성됩니다. 비교 연산자는 키와 값 간의 관계를 설정합니다. 부울 표현식은 규칙 그룹 간의 관계를 결정합니다.
+description: 트레이트 빌더에서 표현식 빌더를 사용하여 대상 자격 요구 사항을 설정하는 규칙을 만들고 테스트할 수 있습니다. 규칙은 "color == blue" 또는 "price > 100"과 같은 키-값 쌍으로 구성됩니다. 비교 연산자는 키와 값 간의 관계를 설정합니다. 부울 표현식은 규칙 그룹 간의 관계를 결정합니다.
 seo-description: In Trait Builder, the Expression Builder lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price &gt; 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
 seo-title: Managing Trait Rules
 solution: Audience Manager
@@ -7,16 +7,21 @@ title: 트레이트 규칙 관리
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
-TQID: https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8
+TQID: 'https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '686'
 ht-degree: 0%
-
 ---
-
 # 트레이트 규칙 관리 {#managing-trait-rules}
 
 [!UICONTROL Trait Builder]에서 [!UICONTROL Expression Builder]을(를) 사용하여 대상 자격 요구 사항을 설정하는 규칙을 만들고 테스트할 수 있습니다. 규칙은 `color == blue` 또는 `price > 100`과(와) 같은 키-값 쌍으로 구성됩니다. 비교 연산자는 키와 값 간의 관계를 설정합니다. [!DNL Boolean] 식이 규칙 그룹 간의 관계를 결정합니다.
@@ -56,9 +61,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >이벤트 호출에서 해당 구문을 사용하여 데이터를 `c_`에 전송하는 경우 키 변수에 대한 [!DNL Audience Manager] 접두사(또는 기타 명명 규칙)를 포함하십시오.
+   >이벤트 호출에서 해당 구문을 사용하여 데이터를 [!DNL Audience Manager]에 전송하는 경우 키 변수에 대한 `c_` 접두사(또는 기타 명명 규칙)를 포함하십시오.
 
-1. [&#x200B; 드롭다운에서 &#x200B;](../../features/traits/trait-comparison-operators.md)비교 연산자&#x200B;**[!UICONTROL Operator]**&#x200B;를 선택합니다. 비교 연산자는 신호에 있는 요소 간의 관계를 평가합니다.
+1. **[!UICONTROL Operator]** 드롭다운에서 [비교 연산자](../../features/traits/trait-comparison-operators.md)를 선택합니다. 비교 연산자는 신호에 있는 요소 간의 관계를 평가합니다.
 
    >[!NOTE]
    >
@@ -68,7 +73,7 @@ ht-degree: 0%
 
 ### 예 {#example-trait-rule}
 
-아래 예에서 사용자는 제품 ID를 기반으로 새 트레이트 규칙을 만들었습니다. 이 규칙을 작성하기 위해 사용자가 equals 연산자(`productkey`)와 연결된 키 `==`을(를) 값 `2093`에 제공했습니다.
+아래 예에서 사용자는 제품 ID를 기반으로 새 트레이트 규칙을 만들었습니다. 이 규칙을 작성하기 위해 사용자가 equals 연산자(`==`)와 연결된 키 `productkey`을(를) 값 `2093`에 제공했습니다.
 
 ![](assets/tb_sample_rule1.png)
 

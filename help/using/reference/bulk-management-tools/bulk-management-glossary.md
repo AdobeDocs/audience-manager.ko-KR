@@ -7,25 +7,32 @@ title: 벌크 관리 도구 용어집
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: BAAAM
 exl-id: 036d16c7-1546-4539-a318-455b98e10026
-TQID: https://experienceleague.adobe.com/mkMZMg4kveCQIoUNH99rwXh-zh-Lm1NJbiNLQ-Td7w0
+TQID: 'https://experienceleague.adobe.com/mkMZMg4kveCQIoUNH99rwXh-zh-Lm1NJbiNLQ-Td7w0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+    internal-label: BAAAM
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '372'
 ht-degree: 0%
-
 ---
-
 # 벌크 관리 도구 용어집{#bulk-management-tools-glossary}
 
 열 머리글 레이블이 정의되었습니다.
@@ -42,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; UI에 할당된 &#x200B;](../../features/administration/administration-overview.md)RBAC 그룹 권한[!DNL Audience Manager]이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
+>[!DNL Audience Manager] UI에 할당된 [RBAC 그룹 권한](../../features/administration/administration-overview.md)이(가) [!UICONTROL Bulk Management Tools]에서 허용됩니다.
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -114,7 +121,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>데이터 수집에 사용되는 실제 트레이트 또는 세그먼트 규칙입니다. 대량 요청은 <span class="keyword"> 트레이트 규칙 빌더</span> 또는 <a href="../../features/traits/about-trait-builder.md"> 세그먼트 규칙 빌더</a>와(과) 함께 <a href="../../features/segments/segment-builder.md"> Audience Manager</a>에서 만들어진 규칙을 반환합니다. 이러한 도구를 사용하여 규칙을 작성하고 세그먼트나 트레이트를 업데이트할 때 일괄적으로 적용할 수도 있습니다. </p> <p><a href="../../reference/bulk-management-tools/bulk-rules.md"> 특성 규칙 및 세그먼트 규칙 만들기 또는 업데이트</a>도 참조하세요. </p> </td> 
+   <td colname="col2"> <p>데이터 수집에 사용되는 실제 트레이트 또는 세그먼트 규칙입니다. 대량 요청은 <a href="../../features/traits/about-trait-builder.md"> 트레이트 규칙 빌더</a> 또는 <a href="../../features/segments/segment-builder.md"> 세그먼트 규칙 빌더</a>와(과) 함께 <span class="keyword"> Audience Manager</span>에서 만들어진 규칙을 반환합니다. 이러한 도구를 사용하여 규칙을 작성하고 세그먼트나 트레이트를 업데이트할 때 일괄적으로 적용할 수도 있습니다. </p> <p><a href="../../reference/bulk-management-tools/bulk-rules.md"> 특성 규칙 및 세그먼트 규칙 만들기 또는 업데이트</a>도 참조하세요. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 

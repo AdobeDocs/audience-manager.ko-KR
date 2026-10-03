@@ -8,20 +8,26 @@ title: 규칙 기반 또는 온보딩된 트레이트 만들기
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-TQID: https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ
+TQID: 'https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: '379'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Rules-Based] 또는 [!UICONTROL Onboarded Traits] 만들기 {#create-rules-based-or-onboarded-traits}
 
 [!UICONTROL rules-based] 및 [!UICONTROL onboarded] 특성 만들기 프로세스와 관련된 설정 단계 및 기능에 대해 설명합니다.
@@ -78,7 +84,7 @@ ht-degree: 2%
    <td colname="col2"> 트레이트에 대한 일반 참고 사항. 선택 사항입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">에 </span></b> 스토어 </td> 
+   <td colname="col1"> </span></b>에 <b><span class="uicontrol"> 스토어 </td> 
    <td colname="col2"> 트레이트가 속한 저장소 폴더를 결정합니다. 필수. </td> 
   </tr> 
   <tr> 
@@ -90,13 +96,13 @@ ht-degree: 2%
 
 ## [!UICONTROL Trait] 만료 간격 설정 {#set-expiration-interval}
 
-[!UICONTROL Trait Builder]에서 [!UICONTROL Advanced Options]을(를) 사용하면 [!DNL TTL]에 대한 TTL(Time-to-Live)([!UICONTROL trait]) 간격을 설정할 수 있습니다. [!DNL TTL]은(는) 자격 있는 방문자가 [!UICONTROL trait]에 남아 있는 일 수를 정의합니다(기본값은 120일). 0으로 설정하면 [!UICONTROL trait] 멤버십이 만료되지 않습니다.
+[!UICONTROL Trait Builder]에서 [!UICONTROL Advanced Options]을(를) 사용하면 [!UICONTROL trait]에 대한 TTL(Time-to-Live)([!DNL TTL]) 간격을 설정할 수 있습니다. [!DNL TTL]은(는) 자격 있는 방문자가 [!UICONTROL trait]에 남아 있는 일 수를 정의합니다(기본값은 120일). 0으로 설정하면 [!UICONTROL trait] 멤버십이 만료되지 않습니다.
 
 <!-- t_tb_ttl.xml -->
 
 ### [!UICONTROL trait]에 대한 TTL 설정
 
-1. [!UICONTROL Advanced Options] 섹션을 확장하고 숫자를 입력하여 [!DNL TTL]에 대한 [!UICONTROL trait] 값을 설정합니다.
+1. [!UICONTROL Advanced Options] 섹션을 확장하고 숫자를 입력하여 [!UICONTROL trait]에 대한 [!DNL TTL] 값을 설정합니다.
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
    ![](assets/TTL.png)

@@ -8,23 +8,30 @@ title: 데이터 소스 관리
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-TQID: https://experienceleague.adobe.com/ffRcCmzJX4WW0nTvEALBrE1Sm-b9Fl7Wj2heT-uNIx0
+TQID: 'https://experienceleague.adobe.com/ffRcCmzJX4WW0nTvEALBrE1Sm-b9Fl7Wj2heT-uNIx0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Data Sources] 관리 {#manage-data-sources}
 
 ## [!UICONTROL Data Source] 만들기 {#create-data-source}
@@ -47,7 +54,7 @@ ht-degree: 0%
    * [장치 간 데이터 원본 만들기](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
    * [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하십시오.
    * [프로필 병합 규칙](../features/profile-merge-rules/merge-rules-start.md)을 사용하여 작업합니다.
-1. **[!UICONTROL Namespace]**(읽기 전용): 이 필드는 읽기 전용이며 데이터 원본을 저장할 때 자동으로 생성됩니다. Audience Manager에서 Experience Platform으로 세그먼트를 내보내려면 Experience Platform에서 자동으로 생성된 값을 네임스페이스 [ID 심볼](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#manage-namespaces)&#x200B;(으)로 사용하여 Experience Platform에서 해당 [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#components-of-a-namespace)를 만들어야 합니다.
+1. **[!UICONTROL Namespace]**(읽기 전용): 이 필드는 읽기 전용이며 데이터 원본을 저장할 때 자동으로 생성됩니다. Audience Manager에서 Experience Platform으로 세그먼트를 내보내려면 Experience Platform에서 자동으로 생성된 값을 네임스페이스 [ID 심볼](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#components-of-a-namespace)&#x200B;(으)로 사용하여 Experience Platform에서 해당 [ID 네임스페이스](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko#manage-namespaces)를 만들어야 합니다.
 1. **[!UICONTROL ID Type]**: 이 데이터 원본에 포함할 ID 유형 선택:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -65,7 +72,7 @@ ht-degree: 0%
 
 이 설정은 [!UICONTROL data source]의 식별, 사용 및 공유 방법을 결정합니다. 인바운드 데이터 파일에 대한 오류 보고를 활성화할 수도 있습니다. [!UICONTROL Data Source Settings] 섹션을 완료하려면
 
-1. [!UICONTROL Data Source Setting]에 옵션을 적용하려면 [!UICONTROL data source] 확인란을 선택하세요.
+1. [!UICONTROL data source]에 옵션을 적용하려면 [!UICONTROL Data Source Setting] 확인란을 선택하세요.
 2. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
 ## 데이터 Source 삭제 {#delete-data-source}

@@ -56,7 +56,7 @@ ht-degree: 51%
 
 [!DNL CCPA]은(는) 개인 데이터를 액세스 및 삭제할 권리, 개인 데이터의 판매 또는 공개 여부(및 공개 대상)를 알 수 있는 권리 등 캘리포니아 거주자에게 새로운 데이터 개인 정보 보호 권한을 제공합니다. [!DNL CCPA]을(를) 준수하기 위해 [!DNL Audience Manager]은(는) [!DNL CCPA] 액세스 및 삭제 [요청](data-privacy-requests.md)을(를) 지원합니다.
 
-자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/privacy/opt-out.html)를 참조하십시오.
+자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/kr/privacy/opt-out.html)를 참조하십시오.
 
 ## 규정 준수 {#compliance}
 
